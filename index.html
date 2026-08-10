@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LMA — The Seven Steps</title>
+<title>The Seven Steps</title>
 <style>
   :root {
     --bg: #f6f1e7;
@@ -325,7 +325,7 @@
       <div class="brand-mark">7</div>
       <div>
         <div class="brand-name">The Seven Steps</div>
-        <div class="brand-sub">LMA · one clip, seven reps</div>
+        <div class="brand-sub">one clip, seven reps</div>
       </div>
     </div>
     <div class="stats">
@@ -401,9 +401,9 @@ const STEPS = [
 // STATE
 // ============================================================
 const STORAGE = {
-  progress: 'lma.progress.v1',
-  settings: 'lma.settings.v1',
-  todayLog: 'lma.todayLog.v1',
+  progress: 'ss.progress.v1',
+  settings: 'ss.settings.v1',
+  todayLog: 'ss.todayLog.v1',
 };
 
 const today = () => new Date().toISOString().slice(0, 10);
@@ -448,18 +448,18 @@ const state = {
 };
 
 function loadLevel() {
-  return localStorage.getItem('lma.level') || 'B1';
+  return localStorage.getItem('ss.level') || 'B1';
 }
 function saveLevel(l) {
-  localStorage.setItem('lma.level', l);
+  localStorage.setItem('ss.level', l);
   state.currentLevel = l;
 }
 function loadRatings() {
-  try { return JSON.parse(localStorage.getItem('lma.ratings')) || []; }
+  try { return JSON.parse(localStorage.getItem('ss.ratings')) || []; }
   catch { return []; }
 }
 function saveRatings() {
-  localStorage.setItem('lma.ratings', JSON.stringify(state.recentRatings));
+  localStorage.setItem('ss.ratings', JSON.stringify(state.recentRatings));
 }
 
 // Map an average rating to a target level

@@ -1,6 +1,6 @@
-# LMA — The Seven Steps
+# The Seven Steps
 
-A single-file self-study program for English listening and speaking. Built around the LMA method: one short clip, run through seven reps, real English in your mouth.
+A single-file self-study program for English listening and speaking. Built around the Seven Steps method: one short clip, run through seven reps, real English in your mouth.
 
 No build step. No dependencies. One HTML file + a daily content pipeline that hands you fresh clips every morning.
 
@@ -62,7 +62,7 @@ Everything lives in `index.html`. A few things you might want to change:
 - **Change voices / speed** — in the app, hit the Settings button. The voices list comes from your browser/OS.
 - **Win threshold** — also in Settings. Defaults to 70% of the session size, in the spirit of the original "7 of 10" rule.
 
-Progress (streak, today's count, total clips) is saved in your browser's `localStorage` under the `lma.*` keys. It stays on your device. Nothing is uploaded anywhere.
+Progress (streak, today's count, total clips) is saved in your browser's `localStorage` under the `ss.*` keys. It stays on your device. Nothing is uploaded anywhere.
 
 ## License
 

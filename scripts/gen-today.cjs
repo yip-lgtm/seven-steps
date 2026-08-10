@@ -1,4 +1,4 @@
-// Daily content generator for LMA Seven Steps
+// Daily content generator for Seven Steps
 // Reads persona.json, fetches a few RSS feeds for fresh context, then asks
 // OpenRouter to write 7 bilingual clips at 3 CEFR levels each.
 
@@ -20,7 +20,7 @@ const FEEDS = [
 async function fetchTitles(feed) {
   try {
     const res = await fetch(feed.url, {
-      headers: { 'User-Agent': 'lma-seven-steps/1.0' },
+      headers: { 'User-Agent': 'seven-steps/1.0' },
       signal: AbortSignal.timeout(8000),
     });
     if (!res.ok) return [];
@@ -113,8 +113,8 @@ async function callOpenRouter(prompt) {
     headers: {
       'Authorization': `Bearer ${apiKey}`,
       'Content-Type': 'application/json',
-      'HTTP-Referer': 'https://github.com/yip-lgtm/lma-seven-steps',
-      'X-Title': 'LMA Seven Steps',
+      'HTTP-Referer': 'https://github.com/yip-lgtm/seven-steps',
+      'X-Title': 'Seven Steps',
     },
     body: JSON.stringify({
       model: 'openai/gpt-4o-mini',
