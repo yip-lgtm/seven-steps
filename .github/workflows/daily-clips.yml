@@ -1,10 +1,8 @@
 name: Daily Clips
 
 on:
-  # 00:00 UTC = 08:00 Asia/Hong_Kong
   schedule:
     - cron: '0 0 * * *'
-  # Allow manual trigger for testing or backfill
   workflow_dispatch:
 
 permissions:
