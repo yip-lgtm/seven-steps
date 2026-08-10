@@ -6,17 +6,45 @@ on:
 permissions:
   contents: write
 jobs:
-  test:
+  refresh:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ok
-
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate
+      - name: Generate today's 7 clips
         id: pick
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          node -e "console.log('ok')"
+          node <<'EOF'
+          const fs = require('fs');
+          const today = new Date().toISOString().slice(0, 10);
+          console.log("running for", today);
+
+          async function generateFromAI() {
+            const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+              method: 'POST',
+              headers: {
+                'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                model: 'openai/gpt-4o-mini',
+                messages: [{ role: 'user', content: 'Reply with just the word OK.' }],
+                max_tokens: 5,
+              }),
+            });
+            const data = await res.json();
+            return data.choices?.[0]?.message?.content || 'failed';
+          }
+
+          (async () => {
+            try {
+              const result = await generateFromAI();
+              console.log('AI said:', result);
+            } catch (e) {
+              console.log('AI failed:', e.message);
+            }
+          })();
+          EOF
