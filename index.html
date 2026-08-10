@@ -321,7 +321,8 @@
 const CLIPS = [
   {
     topic: "A normal morning",
-    text: "I usually wake up around seven. The first thing I do is make coffee, strong, with a little milk. I check my phone for a few minutes, but I try not to spend too long on it. Then I take a quick shower, get dressed, and grab something for breakfast. On weekdays, I leave the house at eight thirty and take the train to work. The morning is my favorite part of the day because it's quiet and nobody needs anything from me yet."
+    text: "I usually wake up around seven. The first thing I do is make coffee, strong, with a little milk. I check my phone for a few minutes, but I try not to spend too long on it. Then I take a quick shower, get dressed, and grab something for breakfast. On weekdays, I leave the house at eight thirty and take the train to work. The morning is my favorite part of the day because it's quiet and nobody needs anything from me yet.",
+    audio: null  // optional: "audio/clip-0.mp3" — if set, plays this file instead of TTS
   },
   {
     topic: "My favorite food",
@@ -474,8 +475,15 @@ function speak(text, opts = {}) {
 }
 
 let isSpeaking = false;
-async function speakAndToggle(text, btn) {
+let currentAudio = null;
+async function speakAndToggle(clipOrText, btn) {
+  // accept either a clip object or a raw string
+  const clip = (typeof clipOrText === 'object' && clipOrText !== null) ? clipOrText : null;
+  const text = clip ? clip.text : clipOrText;
+  const audioSrc = clip ? clip.audio : null;
+
   if (isSpeaking) {
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
     speechSynthesis.cancel();
     isSpeaking = false;
     if (btn) { btn.classList.remove('playing'); btn.innerHTML = playIcon(); }
@@ -483,7 +491,20 @@ async function speakAndToggle(text, btn) {
   }
   isSpeaking = true;
   if (btn) { btn.classList.add('playing'); btn.innerHTML = stopIcon(); }
-  await speak(text);
+
+  if (audioSrc) {
+    // play real audio file
+    currentAudio = new Audio(audioSrc);
+    await new Promise((resolve) => {
+      currentAudio.onended = resolve;
+      currentAudio.onerror = resolve;
+      currentAudio.play().catch(resolve);
+    });
+    currentAudio = null;
+  } else {
+    await speak(text);
+  }
+
   isSpeaking = false;
   if (btn) { btn.classList.remove('playing'); btn.innerHTML = playIcon(); }
 }
@@ -1075,7 +1096,7 @@ function attachHandlers() {
   const btnPlay = document.getElementById('btn-play');
   if (btnPlay) {
     const clip = CLIPS[state.session.clipQueue[state.session.clipIdx]];
-    btnPlay.addEventListener('click', () => speakAndToggle(clip.text, btnPlay));
+    btnPlay.addEventListener('click', () => speakAndToggle(clip, btnPlay));
   }
 
   const btnNext = document.getElementById('btn-next');

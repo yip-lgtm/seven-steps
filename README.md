@@ -43,9 +43,10 @@ That's it. The microphone works because the page is served over HTTPS.
 
 ## Customizing
 
-Everything lives in `index.html`. Three things you might want to change:
+Everything lives in `index.html`. A few things you might want to change:
 
 - **Add more clips** — append to the `CLIPS` array near the top of the script. Aim for 80–100 words each, B1-level vocabulary, varied tenses.
+- **Swap in real audio (recommended)** — TTS is fine, but real human audio is what you actually want for shadowing. For each clip, set `audio: "audio/clip-0.mp3"` and drop the file into `audio/`. The app will play that file instead of TTS. Sources: [BBC Learning English](https://www.bbc.co.uk/learningenglish/), [ELLLO](https://www.elllo.org/), [VOA Learning English](https://learningenglish.voanews.com/), or record your own.
 - **Change voices / speed** — in the app, hit the Settings button. The voices list comes from your browser/OS.
 - **Win threshold** — also in Settings. Default is 7 of 10.
 
