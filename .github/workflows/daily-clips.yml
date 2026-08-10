@@ -1,0 +1,62 @@
+name: Daily Clips
+
+on:
+  # 00:00 UTC = 08:00 Asia/Hong_Kong
+  schedule:
+    - cron: '0 0 * * *'
+  # Allow manual trigger for testing or backfill
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pick today's 7 clips
+        id: pick
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+          const today = new Date().toISOString().slice(0, 10);
+          const pool = JSON.parse(fs.readFileSync('clips/pool.json', 'utf8'));
+          if (!Array.isArray(pool) || pool.length === 0) {
+            console.error('pool.json is empty or invalid');
+            process.exit(1);
+          }
+
+          // Deterministic date-based pick: hash YYYY-MM-DD to a starting index
+          let h = 0;
+          for (const c of today) h = ((h * 31) + c.charCodeAt(0)) | 0;
+          const start = ((h % pool.length) + pool.length) % pool.length;
+
+          const N = 7;
+          const picked = [];
+          for (let i = 0; i < N; i++) {
+            picked.push(pool[(start + i) % pool.length]);
+          }
+
+          const out = { date: today, clips: picked };
+          fs.writeFileSync('clips/today.json', JSON.stringify(out, null, 2));
+
+          console.log(`Date: ${today}  Start index: ${start}  Pool size: ${pool.length}`);
+          console.log('Topics:');
+          picked.forEach((c, i) => console.log(`  ${i + 1}. ${c.topic} [${c.id}]`));
+          EOF
+          echo "today=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        run: |
+          git config user.name "lma-bot"
+          git config user.email "lma-bot@users.noreply.github.com"
+          git add clips/today.json
+          if git diff --staged --quiet; then
+            echo "Already up to date for ${{ steps.pick.outputs.today }}, nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(clips): refresh for ${{ steps.pick.outputs.today }}"
+          git push

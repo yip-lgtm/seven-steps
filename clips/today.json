@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-10",
+  "clips": [
+    {
+      "id": "c098",
+      "category": "future",
+      "topic": "Something I want to learn",
+      "text": "I want to learn to play the guitar. I've tried a few times — I even bought a guitar two years ago — but I never stuck with it. My fingers hurt, the chords were hard, and I got frustrated. This time, I want to do it differently. I'm going to take lessons once a week, practice for just fifteen minutes a day, and focus on songs I actually like. Maybe this time it'll stick. I want music to be part of my life, not just something I listen to."
+    },
+    {
+      "id": "c099",
+      "category": "future",
+      "topic": "A country I want to live in",
+      "text": "If I could live anywhere for a few years, I'd pick Portugal. I've visited twice, and I love it. The people are warm, the food is simple and good, the weather is mild, and the cost of living is much lower than my home. I don't speak Portuguese yet, but I could learn. I imagine renting a small apartment in Lisbon, walking by the river every morning, and getting to know the city slowly. Maybe one day I'll do it."
+    },
+    {
+      "id": "c100",
+      "category": "future",
+      "topic": "What I want my life to look like",
+      "text": "What I want my life to look like, in the simplest terms: enough money to not worry, work that means something, time with people I love, and the freedom to travel sometimes. I want to keep learning, keep reading, and keep getting better at the small things — cooking, talking, listening. I don't need to be rich or famous. I want to be useful, kind, and present. I think if I can manage those things, I'll be doing well."
+    },
+    {
+      "id": "c001",
+      "category": "daily-life",
+      "topic": "My morning coffee",
+      "text": "I've been drinking coffee since I was about fifteen. My grandmother taught me — she said a good morning starts with a real cup, not a quick instant. Now I make it the same way every day: two spoons of ground coffee, hot but not boiling water, a little sugar, and lots of milk. I sit at the kitchen table for ten minutes before I do anything else. It's the only part of my morning I never rush."
+    },
+    {
+      "id": "c002",
+      "category": "daily-life",
+      "topic": "My commute to work",
+      "text": "My commute takes about forty minutes, door to door. I take the bus, then walk for ten minutes from the bus stop. I've been doing it for three years, so I know the other regulars — the nurse who reads on the way, the older man who always nods at me, the student who falls asleep by the second stop. I use the time to listen to podcasts or just look out the window. It took me a while, but I actually like it now."
+    },
+    {
+      "id": "c003",
+      "category": "daily-life",
+      "topic": "What I do on Sunday",
+      "text": "Sundays are slow on purpose. I wake up late, around nine or ten, and make a big breakfast — eggs, toast, sometimes pancakes. Then I do laundry and tidy the apartment. In the afternoon, I usually meet a friend for coffee, or I go for a long walk by the river. Sunday evening is for cooking. I make enough food for the next two or three days. By Monday morning, I'm ready for the week again."
+    },
+    {
+      "id": "c004",
+      "category": "daily-life",
+      "topic": "My evening routine",
+      "text": "On a normal weekday, I get home around six. The first thing I do is change out of my work clothes — I can't relax in them. Then I cook something simple, eat, and wash the dishes. After that, I have about two hours before bed. I usually use them to read, watch a show, or just sit quietly. Around ten, I brush my teeth, set my alarm, and read for a few more minutes. I try to be in bed by eleven."
+    }
+  ]
+}

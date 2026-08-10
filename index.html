@@ -70,6 +70,14 @@
     margin-bottom: 10px; letter-spacing: -0.02em;
   }
   .home-hero p { color: var(--ink-soft); font-size: 15px; line-height: 1.55; margin-bottom: 24px; }
+  .daily-banner {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 12px; font-weight: 600;
+    padding: 4px 10px; border-radius: 999px;
+    margin-bottom: 14px;
+  }
+  .daily-banner::before { content: "●"; font-size: 8px; color: var(--good); }
   .home-grid {
     display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
     margin-bottom: 28px;
@@ -416,6 +424,8 @@ const state = {
   settings: loadSettings(),
   progress: loadProgress(),
   todayLog: loadTodayLog(),
+  clips: CLIPS,            // active pool; replaced by today's daily pool if fetch succeeds
+  dailyDate: null,         // date string of the loaded daily pool, or null if baseline
 };
 
 function updateTopStats() {
@@ -577,12 +587,34 @@ function formatTime(s) {
 // ============================================================
 // ACTIONS
 // ============================================================
+async function loadDailyClips() {
+  try {
+    const res = await fetch('clips/today.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('not ok');
+    const data = await res.json();
+    if (data && Array.isArray(data.clips) && data.clips.length) {
+      state.clips = data.clips;
+      state.dailyDate = data.date || null;
+      state.settings.clipsPerSession = data.clips.length;
+      // 70% rule: win threshold tracks the 7-out-of-10 spirit at any session size
+      state.settings.winThreshold = Math.max(3, Math.round(data.clips.length * 0.7));
+      saveSettings(state.settings);
+    }
+  } catch (e) {
+    // Network failure, missing file, or running on file:// — keep baseline CLIPS
+    state.clips = CLIPS;
+    state.dailyDate = null;
+  }
+}
+
 function startSession() {
-  // Pick up to 10 clips, starting from where we left off (rotate)
-  const startIdx = state.todayLog.clips % CLIPS.length;
+  // Pick clips from the active pool (daily if loaded, baseline otherwise)
+  const pool = state.clips;
+  const startIdx = state.todayLog.clips % pool.length;
+  const n = Math.min(state.settings.clipsPerSession, pool.length);
   const clips = [];
-  for (let i = 0; i < state.settings.clipsPerSession; i++) {
-    clips.push((startIdx + i) % CLIPS.length);
+  for (let i = 0; i < n; i++) {
+    clips.push((startIdx + i) % pool.length);
   }
   state.session = {
     clipIdx: 0,
@@ -726,9 +758,14 @@ function renderHome() {
     </li>
   `).join('');
 
+  const dailyBanner = state.dailyDate
+    ? `<div class="daily-banner">Fresh for ${state.dailyDate} · generated automatically each day</div>`
+    : '';
+
   return `
     <div class="card home-hero">
       <h1>One clip. Seven reps. Real English in your mouth.</h1>
+      ${dailyBanner}
       <p>Each session: up to ${total} short clips, run through all seven steps. Hit ${winThreshold} clips in a day and you win. ${wonToday ? 'You already won today. Keep going for a perfect ten.' : `Only ${remaining} more to win.`}</p>
 
       <div class="home-grid">
@@ -767,7 +804,7 @@ function renderSession() {
   const total = sess.clipQueue.length;
   const step = STEPS[sess.stepIdx];
   const clipIdx = sess.clipQueue[sess.clipIdx];
-  const clip = CLIPS[clipIdx];
+  const clip = state.clips[clipIdx];
   const winThreshold = state.settings.winThreshold;
   const stepBody = renderStepBody(step, clip, sess);
 
@@ -947,7 +984,7 @@ function renderStepBody(step, clip, sess) {
 
 function renderClipComplete() {
   const sess = state.session;
-  const clip = CLIPS[sess.clipQueue[sess.clipIdx - 1]];
+  const clip = state.clips[sess.clipQueue[sess.clipIdx - 1]];
   return `
     <div class="card center">
       <div class="big-emoji">✓</div>
@@ -984,10 +1021,15 @@ function renderSettings() {
     ? availableVoices.map(v => `<option value="${v.voiceURI}" ${s.voice === v.voiceURI ? 'selected' : ''}>${v.name} (${v.lang})</option>`).join('')
     : '<option value="">Default</option>';
 
+  const dailyNote = state.dailyDate
+    ? `<div class="daily-banner" style="margin-bottom: 16px;">Daily content active (${state.dailyDate}) — session size and win threshold are auto-set to 70% of the daily pool. Manual changes below will be replaced on the next daily refresh.</div>`
+    : '';
+
   return `
     <div class="card">
       <h2 style="font-size: 22px; margin-bottom: 4px;">Settings</h2>
       <p style="color: var(--ink-soft); font-size: 14px; margin-bottom: 20px;">Tweak the voice, speed, and session size. Browser voices vary by device.</p>
+      ${dailyNote}
 
       <div class="settings-row">
         <div class="label-block">
@@ -1095,7 +1137,7 @@ function attachHandlers() {
   // Session
   const btnPlay = document.getElementById('btn-play');
   if (btnPlay) {
-    const clip = CLIPS[state.session.clipQueue[state.session.clipIdx]];
+    const clip = state.clips[state.session.clipQueue[state.session.clipIdx]];
     btnPlay.addEventListener('click', () => speakAndToggle(clip, btnPlay));
   }
 
@@ -1204,7 +1246,11 @@ function attachHandlers() {
 // ============================================================
 // INIT
 // ============================================================
-render();
+(async function init() {
+  // Try to load today's daily content. If it fails, keep the baseline CLIPS.
+  await loadDailyClips();
+  render();
+})();
 </script>
 </body>
 </html>
