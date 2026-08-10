@@ -148,7 +148,23 @@
     background: var(--warm-soft); color: var(--warm);
     padding: 4px 12px; border-radius: 999px;
     font-size: 12px; font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .topic-row {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
     margin-bottom: 14px;
+  }
+  .topic-zh {
+    font-size: 15px; font-weight: 600; color: var(--ink);
+  }
+  .topic-en {
+    font-size: 13px; color: var(--ink-soft);
+  }
+  .transcript.zh {
+    color: var(--ink-soft);
+    font-style: italic;
+    border-left: 3px solid var(--warm);
+    padding-left: 12px;
   }
   .step-title {
     font-size: 26px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; letter-spacing: -0.02em;
@@ -313,6 +329,7 @@
       </div>
     </div>
     <div class="stats">
+      <div class="stat"><strong id="stat-level">B1</strong>level</div>
       <div class="stat"><strong id="stat-streak">0</strong>streak</div>
       <div class="stat"><strong id="stat-today">0</strong>today</div>
       <div class="stat"><strong id="stat-total">0</strong>total</div>
@@ -426,12 +443,50 @@ const state = {
   todayLog: loadTodayLog(),
   clips: CLIPS,            // active pool; replaced by today's daily pool if fetch succeeds
   dailyDate: null,         // date string of the loaded daily pool, or null if baseline
+  currentLevel: loadLevel(),   // 'B1' or 'B2' (or 'A2' if user prefers easy)
+  recentRatings: loadRatings(), // last 10 ratings, used to auto-adjust level
 };
+
+function loadLevel() {
+  return localStorage.getItem('lma.level') || 'B1';
+}
+function saveLevel(l) {
+  localStorage.setItem('lma.level', l);
+  state.currentLevel = l;
+}
+function loadRatings() {
+  try { return JSON.parse(localStorage.getItem('lma.ratings')) || []; }
+  catch { return []; }
+}
+function saveRatings() {
+  localStorage.setItem('lma.ratings', JSON.stringify(state.recentRatings));
+}
+
+// Map an average rating to a target level
+function levelFromAverage(avg, currentLevel) {
+  // avg 1-5 stars from last N ratings
+  if (avg >= 4.0 && currentLevel === 'B1') return 'B2';
+  if (avg < 2.5 && currentLevel === 'B2') return 'B1';
+  return currentLevel;
+}
+
+function getTextForLevel(clip) {
+  if (clip.text_en_b1 && clip.text_en_b2) {
+    return state.currentLevel === 'B2' ? clip.text_en_b2 : clip.text_en_b1;
+  }
+  return clip.text; // baseline fallback
+}
+
+function getTopicForLevel(clip) {
+  return clip.topic_en || clip.topic;
+}
 
 function updateTopStats() {
   document.getElementById('stat-streak').textContent = state.progress.streak;
   document.getElementById('stat-today').textContent = state.todayLog.clips;
   document.getElementById('stat-total').textContent = state.progress.totalClips;
+  const lvlEl = document.getElementById('stat-level');
+  if (lvlEl) lvlEl.textContent = state.currentLevel;
 }
 
 function recordWin() {
@@ -759,16 +814,21 @@ function renderHome() {
   `).join('');
 
   const dailyBanner = state.dailyDate
-    ? `<div class="daily-banner">Fresh for ${state.dailyDate} · generated automatically each day</div>`
+    ? `<div class="daily-banner">Fresh for ${state.dailyDate} · bilingual · level ${state.currentLevel}</div>`
     : '';
 
   return `
     <div class="card home-hero">
       <h1>One clip. Seven reps. Real English in your mouth.</h1>
       ${dailyBanner}
-      <p>Each session: up to ${total} short clips, run through all seven steps. Hit ${winThreshold} clips in a day and you win. ${wonToday ? 'You already won today. Keep going for a perfect ten.' : `Only ${remaining} more to win.`}</p>
+      <p>Each session: up to ${total} short clips, run through all seven steps. Bilingual content (中英對照), auto-adjusted to your level. Hit ${winThreshold} clips in a day and you win. ${wonToday ? 'You already won today. Keep going for a perfect ten.' : `Only ${remaining} more to win.`}</p>
 
       <div class="home-grid">
+        <div class="home-stat">
+          <div class="label">Level</div>
+          <div class="value">${state.currentLevel}</div>
+          <div class="sub">${state.recentRatings.length ? `${(state.recentRatings.reduce((a,b)=>a+b,0)/state.recentRatings.length).toFixed(1)} avg` : 'default'}</div>
+        </div>
         <div class="home-stat">
           <div class="label">Streak</div>
           <div class="value">${state.progress.streak}</div>
@@ -819,9 +879,13 @@ function renderSession() {
     <div class="card">
       <div class="session-head">
         <div class="clip-counter">Clip <strong>${clipNum}</strong> / ${total}</div>
-        <div class="step-pill">Step ${sess.stepIdx + 1} of 7 · ${step.name}</div>
+        <div class="step-pill">Step ${sess.stepIdx + 1} of 7 · ${step.name} · ${state.currentLevel}</div>
       </div>
-      <div class="topic-tag">${clip.topic}</div>
+      <div class="topic-row">
+        ${clip.category ? `<div class="topic-tag">${clip.category}</div>` : ''}
+        <div class="topic-zh">${clip.topic_zh || ''}</div>
+        <div class="topic-en">${getTopicForLevel(clip)}</div>
+      </div>
       <div class="step-title">${step.name}</div>
       <div class="step-instruction">${step.hint}</div>
       <div class="step-body">${stepBody}</div>
@@ -837,16 +901,21 @@ function renderSession() {
 function renderStepBody(step, clip, sess) {
   const isLastStepOfClip = sess.stepIdx === STEPS.length - 1;
   const recEnabled = state.settings.recEnabled !== false;
+  const enText = getTextForLevel(clip);
+  const zhText = clip.text_zh || '';
+  const enTopic = getTopicForLevel(clip);
+  const zhTopic = clip.topic_zh || '';
+  const hasBothLangs = !!zhText;
 
   if (step.id === 'rate') {
     return `
       <div class="play-area">
         <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
-        <div class="play-label">Tap to play. Listen once or twice.</div>
+        <div class="play-label">Tap to play. Listen once or twice.${hasBothLangs ? ` Reading the Chinese topic above first will help.` : ''}</div>
         <div class="stars" id="stars">
           ${[1,2,3,4,5].map(n => `<div class="star" data-n="${n}">★</div>`).join('')}
         </div>
-        <div class="play-label" id="rate-hint">How much did you catch?</div>
+        <div class="play-label" id="rate-hint">How much did you catch at <strong>${state.currentLevel}</strong>?</div>
       </div>
     `;
   }
@@ -855,17 +924,21 @@ function renderStepBody(step, clip, sess) {
     return `
       <div class="play-area">
         <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
-        <div class="play-label">Play it. Then write the meaning in your own words before the English lands.</div>
+        <div class="play-label">Play it. Then write the meaning in English before you see the original.</div>
       </div>
       <div style="margin-top:18px;">
-        <span class="input-label">Your version (in English, or your first language)</span>
-        <textarea class="textarea" id="grasp-input" placeholder="Type the gist here. Don't worry about perfect English — just the idea."></textarea>
+        <span class="input-label">Your version (in English — focus on the idea, not perfect grammar)</span>
+        <textarea class="textarea" id="grasp-input" placeholder="Type the gist here in English. Don't worry about perfect grammar — just the idea."></textarea>
       </div>
       <div class="mt-2">
         <button class="btn" id="btn-reveal">Reveal the original →</button>
         <div id="reveal-area" class="mt-2" style="display:none;">
-          <span class="input-label">The original</span>
-          <div class="transcript">${clip.text}</div>
+          ${hasBothLangs ? `
+            <span class="input-label">中文 / Chinese</span>
+            <div class="transcript zh">${zhText}</div>
+            <span class="input-label" style="margin-top:14px;">English (${state.currentLevel})</span>
+          ` : '<span class="input-label">The original</span>'}
+          <div class="transcript">${enText}</div>
         </div>
       </div>
     `;
@@ -911,7 +984,15 @@ function renderStepBody(step, clip, sess) {
         <div class="play-label">Play it. Read along out loud. Your voice and the speaker's voice, together.</div>
       </div>
       <div class="mt-3">
-        <div class="transcript">${clip.text}</div>
+        ${hasBothLangs ? `
+          <span class="input-label">English (${state.currentLevel}) — read this</span>
+          <div class="transcript">${enText}</div>
+          <span class="input-label" style="margin-top:14px;">中文 / Chinese — for reference only</span>
+          <div class="transcript zh">${zhText}</div>
+        ` : `
+          <span class="input-label">The transcript</span>
+          <div class="transcript">${enText}</div>
+        `}
       </div>
       <div class="rec-area mt-3">
         <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
@@ -938,7 +1019,14 @@ function renderStepBody(step, clip, sess) {
       </div>
       <div class="mt-2">
         <button class="btn" id="btn-toggle-text">${sess.recallTextHidden ? 'Show text' : 'Hide text'}</button>
-        <div class="transcript mt-2" id="recall-text" ${sess.recallTextHidden ? 'style="display:none;"' : ''}>${clip.text}</div>
+        <div id="recall-block" ${sess.recallTextHidden ? 'style="display:none;"' : ''}>
+          ${hasBothLangs ? `
+            <div class="transcript">${enText}</div>
+            <div class="transcript zh" style="margin-top:8px;">${zhText}</div>
+          ` : `
+            <div class="transcript mt-2" id="recall-text">${enText}</div>
+          `}
+        </div>
       </div>
       <div class="rec-area mt-3">
         <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
@@ -960,7 +1048,7 @@ function renderStepBody(step, clip, sess) {
   if (step.id === 'freestyle') {
     return `
       <div class="play-area">
-        <div class="play-label" style="font-size: 15px; max-width: 420px;">Topic: <strong style="color:var(--ink);">${clip.topic}</strong>. Speak for sixty seconds. Aim for at least five sentences. Don't stop. If you get stuck, say "what I mean is..." and keep going.</div>
+        <div class="play-label" style="font-size: 15px; max-width: 420px;">Topic: <strong style="color:var(--ink);">${enTopic}</strong>${zhTopic ? ` · <span style="color:var(--ink-soft);">${zhTopic}</span>` : ''}. Speak for sixty seconds in English. Aim for at least five sentences. Don't stop. If you get stuck, say "what I mean is..." and keep going.</div>
       </div>
       <div class="rec-area mt-3">
         <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
@@ -985,11 +1073,13 @@ function renderStepBody(step, clip, sess) {
 function renderClipComplete() {
   const sess = state.session;
   const clip = state.clips[sess.clipQueue[sess.clipIdx - 1]];
+  const enTopic = getTopicForLevel(clip);
+  const zhTopic = clip.topic_zh || '';
   return `
     <div class="card center">
       <div class="big-emoji">✓</div>
       <div class="big-headline">Clip done</div>
-      <div class="big-sub">You just ran seven reps on: <strong style="color:var(--ink);">${clip.topic}</strong></div>
+      <div class="big-sub">You just ran seven reps on: <strong style="color:var(--ink);">${enTopic}</strong>${zhTopic ? ` · <span style="color:var(--ink-soft);">${zhTopic}</span>` : ''}</div>
       <div class="big-sub mt-2">${state.todayLog.clips} / ${state.settings.clipsPerSession} clips today. ${state.todayLog.clips < state.settings.winThreshold ? `${state.settings.winThreshold - state.todayLog.clips} more to win.` : 'Win secured.'}</div>
       <div class="btn-row mt-4" style="justify-content:center;">
         <button class="btn btn-primary btn-large" id="btn-next-clip">Next clip →</button>
@@ -1025,11 +1115,28 @@ function renderSettings() {
     ? `<div class="daily-banner" style="margin-bottom: 16px;">Daily content active (${state.dailyDate}) — session size and win threshold are auto-set to 70% of the daily pool. Manual changes below will be replaced on the next daily refresh.</div>`
     : '';
 
+  const levelInfo = state.recentRatings.length
+    ? `Last ${state.recentRatings.length} ratings avg: <strong>${(state.recentRatings.reduce((a,b)=>a+b,0)/state.recentRatings.length).toFixed(1)}</strong> · current level: <strong>${state.currentLevel}</strong>`
+    : `No ratings yet. Default level: <strong>${state.currentLevel}</strong>`;
+
   return `
     <div class="card">
       <h2 style="font-size: 22px; margin-bottom: 4px;">Settings</h2>
       <p style="color: var(--ink-soft); font-size: 14px; margin-bottom: 20px;">Tweak the voice, speed, and session size. Browser voices vary by device.</p>
       ${dailyNote}
+
+      <div class="settings-row">
+        <div class="label-block">
+          <div class="label">English level</div>
+          <div class="sub">${levelInfo}. Auto-adjusts as you rate. Manual override below.</div>
+        </div>
+        <select id="set-level">
+          <option value="AUTO" ${state.currentLevel === 'B1' || state.currentLevel === 'B2' ? '' : 'selected'}>Auto (${state.currentLevel})</option>
+          <option value="A2" ${state.currentLevel === 'A2' ? 'selected' : ''}>A2 — beginner</option>
+          <option value="B1" ${state.currentLevel === 'B1' ? 'selected' : ''}>B1 — intermediate (IELTS 5)</option>
+          <option value="B2" ${state.currentLevel === 'B2' ? 'selected' : ''}>B2 — upper intermediate</option>
+        </select>
+      </div>
 
       <div class="settings-row">
         <div class="label-block">
@@ -1108,6 +1215,21 @@ function attachHandlers() {
   if (btnSettings) btnSettings.addEventListener('click', () => { state.view = 'settings'; render(); });
 
   // Settings
+  const setLevel = document.getElementById('set-level');
+  if (setLevel) setLevel.addEventListener('change', e => {
+    const v = e.target.value;
+    if (v === 'AUTO') {
+      // Re-enable auto-adjust by resetting to default and clearing recent ratings
+      state.recentRatings = [];
+      saveRatings();
+      saveLevel('B1');
+    } else {
+      saveLevel(v);
+    }
+    updateTopStats();
+    render();
+  });
+
   const setVoice = document.getElementById('set-voice');
   if (setVoice) setVoice.addEventListener('change', e => { state.settings.voice = e.target.value; saveSettings(state.settings); });
 
@@ -1157,7 +1279,7 @@ function attachHandlers() {
   const btnHome = document.getElementById('btn-home');
   if (btnHome) btnHome.addEventListener('click', () => { state.view = 'home'; render(); });
 
-  // Stars (rate step)
+  // Stars (rate step) — record rating, update rolling average, may change level
   const stars = document.getElementById('stars');
   if (stars) {
     let selected = 0;
@@ -1170,8 +1292,25 @@ function attachHandlers() {
         const sess = state.session;
         if (sess.currentClipRatings.length < 1) sess.currentClipRatings.push(selected);
         else sess.currentClipRatings[0] = selected;
+
+        // Push to rolling history (keep last 10)
+        state.recentRatings.push(selected);
+        if (state.recentRatings.length > 10) state.recentRatings.shift();
+        saveRatings();
+
+        // Check if level should change
+        const avg = state.recentRatings.reduce((a, b) => a + b, 0) / state.recentRatings.length;
+        const newLevel = levelFromAverage(avg, state.currentLevel);
         const hint = document.getElementById('rate-hint');
-        if (hint) hint.textContent = ['Try again next clip.', 'A few words. Keep going.', 'Got the gist.', 'Most of it.', 'Everything!'][selected - 1] || 'How much did you catch?';
+        const labels = ['Try again next clip.', 'A few words. Keep going.', 'Got the gist.', 'Most of it.', 'Everything!'];
+        if (hint) hint.innerHTML = labels[selected - 1] || `How much did you catch at <strong>${state.currentLevel}</strong>?`;
+
+        if (newLevel !== state.currentLevel) {
+          saveLevel(newLevel);
+          updateTopStats();
+          if (newLevel === 'B2') toast('Level up! B2 unlocked. Harder content from now on.');
+          if (newLevel === 'B1' && state.recentRatings.length >= 5) toast('Dropped to B1. Keep at it.');
+        }
       });
     });
   }
@@ -1191,8 +1330,8 @@ function attachHandlers() {
     btnToggleText.addEventListener('click', () => {
       const sess = state.session;
       sess.recallTextHidden = !sess.recallTextHidden;
-      const txt = document.getElementById('recall-text');
-      if (txt) txt.style.display = sess.recallTextHidden ? 'none' : 'block';
+      const block = document.getElementById('recall-block');
+      if (block) block.style.display = sess.recallTextHidden ? 'none' : 'block';
       btnToggleText.textContent = sess.recallTextHidden ? 'Show text' : 'Hide text';
     });
   }

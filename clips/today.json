@@ -1,48 +1,77 @@
 {
   "date": "2026-08-10",
   "source": "ai",
+  "persona": "wsb",
   "clips": [
     {
       "id": "clip-001",
-      "category": "family",
-      "topic": "Weekend with Family",
-      "text": "Last weekend, I spent time with my family. We went to the park for a picnic. The weather was perfect, sunny with a light breeze. My sister brought sandwiches and my brother made some delicious cookies. We played soccer and laughed a lot. It reminded me of our childhood when we used to play every weekend. We talked about our plans for the summer, and I can't wait to go on a family trip to the beach. It was a great day filled with happy memories."
+      "category": "trading",
+      "topic_zh": "水務公司高管",
+      "topic_en": "Thames Water Bonus",
+      "text_zh": "英國水務公司Thames Water給予財務主管100萬英鎊的簽約獎金。此舉引起市場關注，因這家公司剛申請破產保護，資金狀況堪憂。許多人批評這樣的做法不合理。",
+      "text_en_b1": "Thames Water recently gave its finance boss a £1 million signing bonus. This move has attracted attention since the company is currently facing financial difficulties and has applied for bankruptcy protection. Many people are criticizing this decision, saying it is unreasonable. Some worry that the financial situation of Thames Water will worsen, affecting customers and employees. The bonus shows a big gap between management and the company’s real problems. The public is watching closely how this situation will unfold.",
+      "text_en_b2": "Thames Water has recently granted its finance chief a staggering £1 million signing-on fee, a decision that has sparked considerable controversy. This comes at a time when the company is grappling with severe financial issues and has sought bankruptcy protection. Critics argue that such lavish bonuses are inappropriate, especially given the company's precarious situation that could impact both customers and employees. The stark contrast between management compensation and the reality of the company’s struggles raises serious concerns among stakeholders about the future direction of Thames Water.",
+      "source_hint": "Thames Water's recent financial struggles and management bonuses."
     },
     {
       "id": "clip-002",
-      "category": "hobbies",
-      "topic": "Learning Guitar",
-      "text": "I've been learning to play the guitar for about six months now. At first, it was really difficult to get my fingers to move correctly. But now, I'm starting to play some simple songs! I practice every evening after dinner for about half an hour. My friend taught me a few chords, and I really enjoy playing with him. In the future, I hope to perform at a small café. It might be scary, but I'm excited about the idea of sharing my music with others."
+      "category": "trading",
+      "topic_zh": "取消訂閱陷阱",
+      "topic_en": "Subscription Trap Ban",
+      "text_zh": "英國政府提前三個月實施禁令，禁止訂閱陷阱的行為。新規將於2026年10月生效，旨在保護消費者免受不公平的訂閱條款困擾。",
+      "text_en_b1": "The UK government has decided to bring forward a ban on subscription traps by three months. This new regulation will take effect in October 2026 and aims to protect consumers from unfair subscription terms. Many people have complained about hidden fees and difficult cancellation processes in subscription services. This change is expected to provide more transparency for customers and improve their experience. Businesses will need to adapt quickly to these new rules or face penalties.",
+      "text_en_b2": "In a significant consumer protection move, the UK government has announced that it will implement a ban on subscription traps three months earlier than planned. Set to take effect in October 2026, this regulation aims to safeguard consumers from the pitfalls of unfair subscription agreements, which have been a source of widespread frustration. Numerous complaints have highlighted issues such as hidden fees and convoluted cancellation processes. As a result, businesses must swiftly adapt to comply with these new rules, or they may face substantial penalties for non-compliance.",
+      "source_hint": "UK's new regulations against subscription traps."
     },
     {
       "id": "clip-003",
-      "category": "travel",
-      "topic": "Trip to Italy",
-      "text": "Last summer, I traveled to Italy, and it was amazing! I visited cities like Rome and Florence. The food was incredible, especially the pasta and pizza. I still remember having gelato by the Trevi Fountain. I also visited the Colosseum, which was so big and ancient. I learned a lot about history during my trip. I really want to go back one day. Next time, I’d love to explore Venice and see those beautiful canals. Traveling really opened my eyes to different cultures!"
+      "category": "tech/ai",
+      "topic_zh": "AI與工作",
+      "topic_en": "AI Work Impact",
+      "text_zh": "科技公司領導表示，AI將減少工作量，但他們的員工卻反映每週工作多達90小時。這引發了對AI的真正影響的擔憂。",
+      "text_en_b1": "Tech leaders claim that AI will reduce the amount of work people have to do. However, their employees report working up to 90 hours a week. This contradiction raises concerns about the real impact of AI on jobs. Many workers feel overwhelmed and stress levels are high. While AI can automate some tasks, it seems that it is not reducing workloads for everyone. The difference between management and employee experiences highlights the complexity of this issue.",
+      "text_en_b2": "Despite claims from tech executives that AI will lessen the workload for employees, many workers report logging as many as 90 hours a week. This stark contrast has sparked growing concerns regarding the actual effects of AI on job responsibilities. Numerous employees express feeling overwhelmed and under significant stress, questioning whether AI is truly achieving its intended purpose. While automation can streamline certain tasks, it appears that for many, total workload remains unchanged. The divergence between the perspectives of management and staff emphasizes the intricacies surrounding this transformation in the workplace.",
+      "source_hint": "Contradictory statements from tech leaders and workers about AI's impact."
     },
     {
       "id": "clip-004",
-      "category": "food",
-      "topic": "Favorite Dish",
-      "text": "My favorite dish is definitely lasagna. I love how it's a mix of pasta, cheese, and meat. When my mom makes it, the smell fills the whole house. She prepares it with layers of sauce, and it takes a while to cook, but it's worth it! Last week, I tried making it myself for the first time. I followed her recipe, and it turned out pretty good, though not as great as hers! I think I’ll keep practicing and maybe add some vegetables next time."
+      "category": "hk/news",
+      "topic_zh": "Uber高端服務",
+      "topic_en": "Uber Premium Service",
+      "text_zh": "Uber宣布與香港公司合作，推出其在美國以外的首個高端服務。這一新服務包含更多便利和豪華選擇，旨在吸引香港高端市場。",
+      "text_en_b1": "Uber has announced a partnership with a Hong Kong company to launch its first premium service outside the US. This new service aims to provide more convenience and luxury options to attract high-end customers in Hong Kong. The service includes features like better car models and exclusive driver options. Uber hopes this move will help it grow its business in Asia, where competition is increasing. Many are curious to see how this premium service will perform in the local market.",
+      "text_en_b2": "In an exciting development, Uber has entered into a partnership with a Hong Kong-based company to introduce its inaugural premium service outside the US. This initiative aims to cater to Hong Kong's affluent clientele by offering enhanced convenience and luxury options. The premium service will include features such as access to higher-end vehicle models and exclusive driver selection, setting it apart from standard offerings. With increasing competition in the Asian market, Uber is keen to leverage this move to expand its presence and enhance customer retention. Observers are eagerly anticipating the performance of this new service in the local landscape.",
+      "source_hint": "Uber's launch of a premium service in Hong Kong."
     },
     {
       "id": "clip-005",
-      "category": "work",
-      "topic": "Job Responsibilities",
-      "text": "I work as a graphic designer, and my job is really interesting. I create designs for websites and ads. Each day is different; sometimes I start with brainstorming ideas, and other times, I have meetings with clients. Last week, I finished a big project for a local business, and they loved it! It feels great when I see my work online. I'm excited about my future in this field. I plan to learn more about digital marketing and improve my skills even further. I can’t wait to see where it takes me!"
+      "category": "lol/esports",
+      "topic_zh": "英雄聯盟",
+      "topic_en": "League of Legends",
+      "text_zh": "在2026年KeSPA Cup中，Hanwha Life Esports對陣Gen.G，該比賽引起了玩家的極大關注。比賽結果將影響兩隊在賽季的排名。",
+      "text_en_b1": "In the 2026 KeSPA Cup, Hanwha Life Esports faced off against Gen.G. This match has attracted a lot of attention from fans and players alike. The outcome will significantly impact both teams' rankings in the season. Many players are eager to see which team will win. Both teams have strong lineups and fans are excited about the competition. The match is a key moment for the season and could change the teams' futures.",
+      "text_en_b2": "During the highly anticipated 2026 KeSPA Cup, Hanwha Life Esports squared off against Gen.G in a match that captured the attention of the entire esports community. The stakes were high, as the outcome of this battle would have substantial implications for both teams' standings in the current season. Fans are buzzing with excitement, eager to see which powerhouse will emerge victorious. With both teams boasting formidable rosters, this clash represents a pivotal moment in the season that could significantly shape their trajectories moving forward.",
+      "source_hint": "Hanwha Life Esports vs. Gen.G match in the 2026 KeSPA Cup."
     },
     {
       "id": "clip-006",
-      "category": "health",
-      "topic": "Staying Fit",
-      "text": "To stay fit, I try to exercise at least three times a week. I enjoy jogging in the morning, especially when it's cool outside. It gives me energy for the day. I also like to do yoga. It helps me relax after a long day at work. Eating healthy is important too. I focus on fruits and vegetables, and I try not to eat too much junk food. Recently, I’ve been drinking more water. I feel much better, and I’m hoping to keep this routine going for a long time!"
+      "category": "mma/fitness",
+      "topic_zh": "健身與MMA",
+      "topic_en": "Fitness and MMA",
+      "text_zh": "在最近的MMA賽事中，很多選手展示了他們的健身成果。其中一位選手在社交媒體上分享了他的變化，吸引了大量粉絲的贊譽。",
+      "text_en_b1": "Recently, many fighters showcased their fitness progress during an MMA event. One fighter shared his transformation on social media, attracting a lot of praise from fans. His dedication to training and fitness is inspiring to many. People are talking about how hard he worked to achieve his goals. This event has increased interest in fitness and MMA among the audience, encouraging more fans to get involved in training.",
+      "text_en_b2": "In a recent MMA event, numerous fighters displayed impressive fitness transformations, captivating the attention of fans and viewers. One particular fighter went viral after sharing his remarkable journey on social media, garnering widespread admiration and encouragement from his followers. His commitment to training and fitness serves as a powerful motivator for many aspiring athletes. This event has sparked a renewed interest in both fitness and MMA, inspiring fans to actively engage in their own training journeys.",
+      "source_hint": "Fighters showcasing fitness transformations in a recent MMA event."
     },
     {
       "id": "clip-007",
-      "category": "technology",
-      "topic": "Smartphones in Daily Life",
-      "text": "Smartphones are a big part of my daily life. I use mine for everything, from checking emails to listening to music. It helps me stay connected with friends and family. I often use apps for fitness and to track my meals. However, I’ve noticed that sometimes I spend too much time scrolling through social media. I’m trying to limit my screen time and focus more on real-life interactions. Overall, I think technology is useful, but it’s important to find a balance between online and offline activities."
+      "category": "anime/culture",
+      "topic_zh": "動漫熱潮",
+      "topic_en": "Anime Popularity",
+      "text_zh": "《進擊的巨人》第四季的最後一集成為全球最受歡迎的動漫。它獲得了大量的觀看次數，粉絲們對結局表達了熱烈的反應。",
+      "text_en_b1": "The final episode of Attack on Titan's fourth season has become the most popular anime worldwide. It received millions of views and fans reacted strongly to the ending. Many viewers praised the show for its story and characters. Some fans expressed sadness about the series concluding while others loved the ending. The show's popularity has increased interest in anime culture globally. Many people are now discovering more titles to watch.",
+      "text_en_b2": "The concluding episode of Attack on Titan's fourth season has emerged as the most-watched anime episode globally, generating an astonishing number of views. Fans have passionately reacted to the finale, with many praising the intricate storytelling and well-developed characters throughout the series. Some viewers expressed poignant sadness over the conclusion of this beloved saga, while others delighted in its resolution. The immense popularity of the show has fueled a broader interest in anime culture, prompting many to explore additional titles that they might enjoy.",
+      "source_hint": "Attack on Titan's final episode gaining global popularity."
     }
   ]
 }
