@@ -1,47 +1,48 @@
 {
   "date": "2026-08-10",
+  "source": "ai",
   "clips": [
     {
-      "id": "c098",
-      "category": "future",
-      "topic": "Something I want to learn",
-      "text": "I want to learn to play the guitar. I've tried a few times — I even bought a guitar two years ago — but I never stuck with it. My fingers hurt, the chords were hard, and I got frustrated. This time, I want to do it differently. I'm going to take lessons once a week, practice for just fifteen minutes a day, and focus on songs I actually like. Maybe this time it'll stick. I want music to be part of my life, not just something I listen to."
+      "id": "clip-001",
+      "category": "family",
+      "topic": "Weekend with Family",
+      "text": "Last weekend, I spent time with my family. We went to the park for a picnic. The weather was perfect, sunny with a light breeze. My sister brought sandwiches and my brother made some delicious cookies. We played soccer and laughed a lot. It reminded me of our childhood when we used to play every weekend. We talked about our plans for the summer, and I can't wait to go on a family trip to the beach. It was a great day filled with happy memories."
     },
     {
-      "id": "c099",
-      "category": "future",
-      "topic": "A country I want to live in",
-      "text": "If I could live anywhere for a few years, I'd pick Portugal. I've visited twice, and I love it. The people are warm, the food is simple and good, the weather is mild, and the cost of living is much lower than my home. I don't speak Portuguese yet, but I could learn. I imagine renting a small apartment in Lisbon, walking by the river every morning, and getting to know the city slowly. Maybe one day I'll do it."
+      "id": "clip-002",
+      "category": "hobbies",
+      "topic": "Learning Guitar",
+      "text": "I've been learning to play the guitar for about six months now. At first, it was really difficult to get my fingers to move correctly. But now, I'm starting to play some simple songs! I practice every evening after dinner for about half an hour. My friend taught me a few chords, and I really enjoy playing with him. In the future, I hope to perform at a small café. It might be scary, but I'm excited about the idea of sharing my music with others."
     },
     {
-      "id": "c100",
-      "category": "future",
-      "topic": "What I want my life to look like",
-      "text": "What I want my life to look like, in the simplest terms: enough money to not worry, work that means something, time with people I love, and the freedom to travel sometimes. I want to keep learning, keep reading, and keep getting better at the small things — cooking, talking, listening. I don't need to be rich or famous. I want to be useful, kind, and present. I think if I can manage those things, I'll be doing well."
+      "id": "clip-003",
+      "category": "travel",
+      "topic": "Trip to Italy",
+      "text": "Last summer, I traveled to Italy, and it was amazing! I visited cities like Rome and Florence. The food was incredible, especially the pasta and pizza. I still remember having gelato by the Trevi Fountain. I also visited the Colosseum, which was so big and ancient. I learned a lot about history during my trip. I really want to go back one day. Next time, I’d love to explore Venice and see those beautiful canals. Traveling really opened my eyes to different cultures!"
     },
     {
-      "id": "c001",
-      "category": "daily-life",
-      "topic": "My morning coffee",
-      "text": "I've been drinking coffee since I was about fifteen. My grandmother taught me — she said a good morning starts with a real cup, not a quick instant. Now I make it the same way every day: two spoons of ground coffee, hot but not boiling water, a little sugar, and lots of milk. I sit at the kitchen table for ten minutes before I do anything else. It's the only part of my morning I never rush."
+      "id": "clip-004",
+      "category": "food",
+      "topic": "Favorite Dish",
+      "text": "My favorite dish is definitely lasagna. I love how it's a mix of pasta, cheese, and meat. When my mom makes it, the smell fills the whole house. She prepares it with layers of sauce, and it takes a while to cook, but it's worth it! Last week, I tried making it myself for the first time. I followed her recipe, and it turned out pretty good, though not as great as hers! I think I’ll keep practicing and maybe add some vegetables next time."
     },
     {
-      "id": "c002",
-      "category": "daily-life",
-      "topic": "My commute to work",
-      "text": "My commute takes about forty minutes, door to door. I take the bus, then walk for ten minutes from the bus stop. I've been doing it for three years, so I know the other regulars — the nurse who reads on the way, the older man who always nods at me, the student who falls asleep by the second stop. I use the time to listen to podcasts or just look out the window. It took me a while, but I actually like it now."
+      "id": "clip-005",
+      "category": "work",
+      "topic": "Job Responsibilities",
+      "text": "I work as a graphic designer, and my job is really interesting. I create designs for websites and ads. Each day is different; sometimes I start with brainstorming ideas, and other times, I have meetings with clients. Last week, I finished a big project for a local business, and they loved it! It feels great when I see my work online. I'm excited about my future in this field. I plan to learn more about digital marketing and improve my skills even further. I can’t wait to see where it takes me!"
     },
     {
-      "id": "c003",
-      "category": "daily-life",
-      "topic": "What I do on Sunday",
-      "text": "Sundays are slow on purpose. I wake up late, around nine or ten, and make a big breakfast — eggs, toast, sometimes pancakes. Then I do laundry and tidy the apartment. In the afternoon, I usually meet a friend for coffee, or I go for a long walk by the river. Sunday evening is for cooking. I make enough food for the next two or three days. By Monday morning, I'm ready for the week again."
+      "id": "clip-006",
+      "category": "health",
+      "topic": "Staying Fit",
+      "text": "To stay fit, I try to exercise at least three times a week. I enjoy jogging in the morning, especially when it's cool outside. It gives me energy for the day. I also like to do yoga. It helps me relax after a long day at work. Eating healthy is important too. I focus on fruits and vegetables, and I try not to eat too much junk food. Recently, I’ve been drinking more water. I feel much better, and I’m hoping to keep this routine going for a long time!"
     },
     {
-      "id": "c004",
-      "category": "daily-life",
-      "topic": "My evening routine",
-      "text": "On a normal weekday, I get home around six. The first thing I do is change out of my work clothes — I can't relax in them. Then I cook something simple, eat, and wash the dishes. After that, I have about two hours before bed. I usually use them to read, watch a show, or just sit quietly. Around ten, I brush my teeth, set my alarm, and read for a few more minutes. I try to be in bed by eleven."
+      "id": "clip-007",
+      "category": "technology",
+      "topic": "Smartphones in Daily Life",
+      "text": "Smartphones are a big part of my daily life. I use mine for everything, from checking emails to listening to music. It helps me stay connected with friends and family. I often use apps for fitness and to track my meals. However, I’ve noticed that sometimes I spend too much time scrolling through social media. I’m trying to limit my screen time and focus more on real-life interactions. Overall, I think technology is useful, but it’s important to find a balance between online and offline activities."
     }
   ]
 }
