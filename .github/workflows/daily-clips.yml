@@ -8,7 +8,16 @@ permissions:
   contents: write
 
 jobs:
-  test:
+  refresh:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ok
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate today's 7 clips
+        id: pick
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          node <<'EOF'
+          console.log("ok");
+          EOF
