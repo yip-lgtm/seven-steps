@@ -10,3 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo ok
+
+      - name: Checkout
+        uses: actions/checkout@v4
