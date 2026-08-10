@@ -13,3 +13,10 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Generate
+        id: pick
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          node -e "console.log('ok')"
