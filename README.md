@@ -43,14 +43,15 @@ That's it. The microphone works because the page is served over HTTPS.
 
 ## Daily content pipeline
 
-The app pulls a fresh set of 7 clips every day from `clips/today.json`. A GitHub Action (`.github/workflows/daily-clips.yml`) regenerates that file at **00:00 UTC = 08:00 Asia/Hong_Kong** by picking 7 clips from `clips/pool.json` using a date-based hash. When the pool size is 100, the cycle is about 14 days before any clip repeats.
+The app pulls a fresh set of 7 clips every day from `clips/today.json`. A GitHub Action (`.github/workflows/daily-clips.yml`) regenerates that file at **00:00 UTC = 08:00 Asia/Hong_Kong** by calling an LLM via [OpenRouter](https://openrouter.ai/) to write 7 brand-new B1-level clips. If the API call fails for any reason, the action falls back to a date-based pick from `clips/pool.json` (100 hand-written clips) so the app never goes a day without fresh content.
 
-- **To expand the pool:** add more entries to `clips/pool.json` (any text editor; keep the same `{ id, category, topic, text }` shape). The action will pick from the bigger pool automatically.
+- **To enable AI generation:** add an OpenRouter key as a repo secret named `OPENROUTER_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). The action picks it up automatically. Without the secret, the static pool is used.
+- **To change the model:** edit `.github/workflows/daily-clips.yml` (the `model:` line). `openai/gpt-4o-mini` is the default — fast, cheap, good B1 output. Any OpenRouter model works.
+- **To expand the static fallback pool:** add more entries to `clips/pool.json` (any text editor; keep the same `{ id, category, topic, text }` shape).
 - **To trigger a refresh manually:** repo → Actions → Daily Clips → Run workflow.
-- **To change the daily count or run time:** edit `.github/workflows/daily-clips.yml` (look for `N = 7` and the `cron` line).
 - **If the fetch fails** (no network, `file://` protocol, etc.), the app silently falls back to the 10 baseline clips hardcoded in `index.html`.
 
-No API keys. No external services. Just a static JSON file in the repo.
+Cost at the default model: ~$0.0006/day, so a $1 OpenRouter credit covers about 4 years of daily content.
 
 ## Customizing
 
