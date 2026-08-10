@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LMA — The Seven Steps</title>
+<style>
+  :root {
+    --bg: #f6f1e7;
+    --surface: #fffbf2;
+    --ink: #1f2a2e;
+    --ink-soft: #5a6a72;
+    --ink-faint: #8c98a0;
+    --accent: #0f6b66;
+    --accent-deep: #0a5a55;
+    --accent-soft: #c8e3df;
+    --warm: #c77f3b;
+    --warm-soft: #f3dcc1;
+    --line: #e0d6c2;
+    --danger: #b3402a;
+    --good: #3b7a4f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+  .app {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 80px;
+  }
+
+  /* Top bar */
+  .topbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-bottom: 16px; margin-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-mark {
+    width: 36px; height: 36px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), var(--warm));
+    color: white; display: grid; place-items: center;
+    font-weight: 700; font-size: 15px;
+    box-shadow: 0 2px 6px rgba(15, 107, 102, 0.25);
+  }
+  .brand-name { font-weight: 600; font-size: 16px; letter-spacing: -0.01em; }
+  .brand-sub { color: var(--ink-faint); font-size: 12px; margin-top: 1px; }
+  .stats { display: flex; gap: 18px; font-size: 12px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.06em; }
+  .stat { text-align: right; }
+  .stat strong { display: block; color: var(--ink); font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
+
+  /* Card */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+  }
+
+  /* Home */
+  .home-hero h1 {
+    font-size: 32px; line-height: 1.15; font-weight: 700;
+    margin-bottom: 10px; letter-spacing: -0.02em;
+  }
+  .home-hero p { color: var(--ink-soft); font-size: 15px; line-height: 1.55; margin-bottom: 24px; }
+  .home-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
+    margin-bottom: 28px;
+  }
+  .home-stat {
+    background: var(--bg);
+    border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .home-stat .label { font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.06em; }
+  .home-stat .value { font-size: 26px; font-weight: 700; margin-top: 4px; letter-spacing: -0.02em; }
+  .home-stat .sub { font-size: 11px; color: var(--ink-soft); margin-top: 2px; }
+
+  .steps-list { list-style: none; margin-top: 20px; border-top: 1px solid var(--line); }
+  .steps-list li {
+    display: flex; gap: 12px; align-items: flex-start;
+    padding: 10px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }
+  .steps-list li:last-child { border-bottom: none; }
+  .steps-list .num {
+    flex: 0 0 28px; height: 28px; border-radius: 50%;
+    background: var(--accent-soft); color: var(--accent);
+    display: grid; place-items: center; font-weight: 700; font-size: 13px;
+  }
+  .steps-list .body { flex: 1; }
+  .steps-list strong { color: var(--ink); }
+  .steps-list .desc { color: var(--ink-soft); font-size: 13px; margin-top: 1px; }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 11px 20px; border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink);
+    font-size: 15px; font-weight: 500; cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: inherit;
+  }
+  .btn:hover:not(:disabled) { background: var(--bg); }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .btn-primary { background: var(--accent); color: white; border-color: var(--accent); }
+  .btn-primary:hover:not(:disabled) { background: var(--accent-deep); }
+  .btn-warm { background: var(--warm); color: white; border-color: var(--warm); }
+  .btn-warm:hover:not(:disabled) { background: #a8682e; }
+  .btn-ghost { background: transparent; }
+  .btn-large { font-size: 16px; padding: 14px 28px; }
+  .btn-block { display: flex; width: 100%; justify-content: center; }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn-icon { padding: 10px 12px; }
+
+  /* Session */
+  .session-head {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 16px;
+  }
+  .clip-counter {
+    font-size: 13px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .clip-counter strong { color: var(--ink); font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
+  .step-pill {
+    background: var(--accent-soft); color: var(--accent);
+    padding: 5px 12px; border-radius: 999px;
+    font-size: 12px; font-weight: 600;
+  }
+  .topic-tag {
+    display: inline-block;
+    background: var(--warm-soft); color: var(--warm);
+    padding: 4px 12px; border-radius: 999px;
+    font-size: 12px; font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .step-title {
+    font-size: 26px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; letter-spacing: -0.02em;
+  }
+  .step-instruction {
+    color: var(--ink-soft); font-size: 15px; line-height: 1.55; margin-bottom: 22px;
+  }
+
+  .step-body {
+    background: var(--bg);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 22px;
+    min-height: 140px;
+  }
+  .step-body.center { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+  .transcript {
+    font-size: 17px; line-height: 1.7; text-align: left;
+    color: var(--ink);
+  }
+  .transcript.hidden { display: none; }
+  .play-area { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .play-circle {
+    width: 92px; height: 92px; border-radius: 50%;
+    background: var(--accent); color: white;
+    display: grid; place-items: center;
+    border: none; cursor: pointer;
+    transition: all 0.15s ease;
+    box-shadow: 0 4px 14px rgba(15, 107, 102, 0.3);
+  }
+  .play-circle:hover { background: var(--accent-deep); transform: scale(1.05); }
+  .play-circle.playing { animation: pulse 1.5s infinite; }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 4px 14px rgba(15, 107, 102, 0.3); }
+    50% { box-shadow: 0 4px 24px rgba(15, 107, 102, 0.6); }
+  }
+  .play-circle svg { width: 36px; height: 36px; }
+  .play-label { color: var(--ink-soft); font-size: 13px; }
+
+  .stars { display: flex; gap: 10px; }
+  .star {
+    font-size: 38px; cursor: pointer; user-select: none;
+    color: var(--line);
+    transition: transform 0.1s ease, color 0.1s ease;
+    line-height: 1;
+  }
+  .star.active { color: var(--warm); }
+  .star:hover { transform: scale(1.1); }
+
+  .textarea {
+    width: 100%; min-height: 100px;
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 14px; font-size: 15px; font-family: inherit;
+    background: var(--surface); color: var(--ink);
+    resize: vertical; line-height: 1.5;
+  }
+  .textarea:focus { outline: none; border-color: var(--accent); }
+  .textarea::placeholder { color: var(--ink-faint); }
+  .input-label { font-size: 12px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; display: block; }
+
+  .controls { display: flex; gap: 10px; justify-content: space-between; align-items: center; }
+
+  /* Progress */
+  .progress { display: flex; gap: 6px; margin-top: 22px; }
+  .dot {
+    flex: 1; height: 6px; border-radius: 3px;
+    background: var(--line);
+    transition: background 0.3s ease;
+  }
+  .dot.done { background: var(--accent); }
+  .dot.current { background: var(--warm); }
+
+  /* Recording */
+  .rec-area { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .rec-btn {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--danger); color: white;
+    display: grid; place-items: center; border: none; cursor: pointer;
+    transition: all 0.15s ease;
+    box-shadow: 0 4px 14px rgba(179, 64, 42, 0.3);
+  }
+  .rec-btn:hover { transform: scale(1.05); }
+  .rec-btn.recording { animation: pulse-rec 1.2s infinite; }
+  @keyframes pulse-rec {
+    0%, 100% { box-shadow: 0 4px 14px rgba(179, 64, 42, 0.3); }
+    50% { box-shadow: 0 4px 24px rgba(179, 64, 42, 0.6); }
+  }
+  .rec-indicator { display: none; align-items: center; gap: 10px; color: var(--danger); font-weight: 600; }
+  .rec-indicator.active { display: flex; }
+  .rec-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--danger); }
+  .timer { font-variant-numeric: tabular-nums; font-size: 24px; font-weight: 700; letter-spacing: -0.02em; }
+
+  .audio-playback {
+    width: 100%; margin-top: 12px;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 10px; padding: 10px;
+  }
+  .audio-playback audio { width: 100%; height: 36px; }
+
+  /* Complete screens */
+  .big-emoji { font-size: 64px; text-align: center; margin-bottom: 16px; line-height: 1; }
+  .big-headline { font-size: 28px; font-weight: 700; text-align: center; letter-spacing: -0.02em; }
+  .big-sub { color: var(--ink-soft); text-align: center; margin-top: 10px; font-size: 15px; }
+  .center { text-align: center; }
+  .mt-1 { margin-top: 8px; }
+  .mt-2 { margin-top: 16px; }
+  .mt-3 { margin-top: 24px; }
+  .mt-4 { margin-top: 32px; }
+
+  /* Settings */
+  .settings-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 0; border-top: 1px solid var(--line);
+  }
+  .settings-row:first-child { border-top: none; }
+  .settings-row .label-block { flex: 1; }
+  .settings-row .label { font-weight: 500; }
+  .settings-row .sub { font-size: 12px; color: var(--ink-faint); margin-top: 2px; }
+  select, input[type="range"] {
+    font-family: inherit; font-size: 14px;
+  }
+  select {
+    padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); cursor: pointer;
+  }
+  select:focus { outline: none; border-color: var(--accent); }
+  .range-row { display: flex; align-items: center; gap: 12px; }
+  .range-val { font-variant-numeric: tabular-nums; font-size: 14px; min-width: 42px; text-align: right; color: var(--ink-soft); }
+  input[type="range"] { width: 140px; accent-color: var(--accent); }
+
+  /* Notification toast */
+  .toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px);
+    background: var(--ink); color: white;
+    padding: 10px 18px; border-radius: 999px;
+    font-size: 14px; opacity: 0;
+    transition: all 0.3s ease; pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  /* Responsive */
+  @media (max-width: 520px) {
+    .home-grid { grid-template-columns: 1fr; }
+    .app { padding: 16px 14px 60px; }
+    .card { padding: 22px; }
+    .step-title { font-size: 22px; }
+    .home-hero h1 { font-size: 26px; }
+    .topbar { flex-wrap: wrap; gap: 10px; }
+    .stats { gap: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">7</div>
+      <div>
+        <div class="brand-name">The Seven Steps</div>
+        <div class="brand-sub">LMA · one clip, seven reps</div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong id="stat-streak">0</strong>streak</div>
+      <div class="stat"><strong id="stat-today">0</strong>today</div>
+      <div class="stat"><strong id="stat-total">0</strong>total</div>
+    </div>
+  </div>
+  <div id="view"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ============================================================
+// CONTENT — 10 clips, B1 English (~85 words each)
+// ============================================================
+const CLIPS = [
+  {
+    topic: "A normal morning",
+    text: "I usually wake up around seven. The first thing I do is make coffee, strong, with a little milk. I check my phone for a few minutes, but I try not to spend too long on it. Then I take a quick shower, get dressed, and grab something for breakfast. On weekdays, I leave the house at eight thirty and take the train to work. The morning is my favorite part of the day because it's quiet and nobody needs anything from me yet."
+  },
+  {
+    topic: "My favorite food",
+    text: "I really love dumplings, the kind my grandmother used to make. She would prepare them on Sunday afternoons, and the whole family would sit around the table and help. We folded each one carefully, then boiled them in a big pot. I remember the smell of the vinegar and the ginger in the dipping sauce. Even now, when I eat dumplings, I feel like I'm back in her kitchen. Food is more than just food. It connects us to the people we love."
+  },
+  {
+    topic: "A trip I'll never forget",
+    text: "Three years ago, I went to Japan with my best friend. We spent ten days traveling from Tokyo to Kyoto, then to a small town in the mountains. The best part was the mountain town. It was so quiet, and the air was so clean. We stayed in a traditional guesthouse, slept on futons, and ate the most amazing breakfast, fresh fish, rice, miso soup. One night, we walked through a forest and saw thousands of fireflies. I'll never forget that."
+  },
+  {
+    topic: "Why I learn English",
+    text: "I learn English because it opens doors. My current job doesn't really need it, but I want a different job, something international, maybe in travel or marketing. English is the key to that. I also want to travel more confidently, especially in places where nobody speaks my first language. And honestly, I love movies and TV shows. Watching them without subtitles feels like a small superpower. So every morning, I spend thirty minutes on it, even when I don't feel like it."
+  },
+  {
+    topic: "A small problem I solved",
+    text: "Last month, my laptop suddenly became very slow. At first, I thought I needed a new one, which would have cost a lot. Then my brother told me to check the storage. I had almost no space left because of old photos and videos. I spent a weekend moving everything to an external hard drive. After that, the laptop was fast again, like new. The lesson was simple: don't panic, just look for the easy fix first."
+  },
+  {
+    topic: "The weather today",
+    text: "Today is a strange weather day. It started sunny, then around noon it got really cloudy, and by two o'clock it was raining hard. Now, just an hour later, the sun is back and there's a huge rainbow over the hills. The temperature is about twenty-two degrees, which is warm for this time of year. I love days like this because the light is so beautiful and the air feels fresh. I'm going to take a walk while it lasts."
+  },
+  {
+    topic: "My closest friend",
+    text: "I've known my best friend Lin for more than fifteen years. We met in secondary school and have stayed close since, even though she moved to another country ten years ago. What I love about her is that I can be completely honest with her. She tells me the truth, even when it's hard to hear, and she doesn't judge me. We try to talk on the phone once a week, and we visit each other whenever we can. Distance doesn't change a real friendship."
+  },
+  {
+    topic: "How I spend my weekends",
+    text: "On Saturday mornings, I sleep late and then go to the wet market. I love looking at the fresh vegetables and the fish. After lunch, I usually meet a friend for coffee, or I just read at home. On Sundays, I clean the apartment, do laundry, and cook something nice for the week ahead. In the evening, I watch a movie or call my family. Weekends are for slowing down. I try not to think about work at all."
+  },
+  {
+    topic: "A goal for this year",
+    text: "My biggest goal for this year is to run a half-marathon. I've never been a runner. Actually, I used to hate running. But last year, I started walking every day, then jogging for a few minutes, and now I can run five kilometers without stopping. I signed up for a race in November. I have a training plan, and I run four times a week. I'm not fast, but I want to finish. Crossing that finish line will mean everything to me."
+  },
+  {
+    topic: "Something I changed my mind about",
+    text: "For a long time, I thought I wasn't a creative person. I was good at math and logic, so I assumed my brain just didn't work that way. Then last year, I tried pottery as a hobby. I was terrible at first. Every piece came out lopsided. But I kept going, and slowly I started making things I actually liked. Now I go to the studio twice a week. I realized creativity isn't a talent you have or don't have. It's a muscle you train."
+  }
+];
+
+const STEPS = [
+  { id: 'rate',     name: 'Rate',     hint: 'Hear it. Rate how much you understood. Nothing on screen yet.' },
+  { id: 'grasp',    name: 'Grasp',    hint: 'Play it again. Before the English lands, blurt (or type) the meaning in your own words.' },
+  { id: 'hum',      name: 'Hum',      hint: 'Play it again. Hum the tune and the beat. No words. Just the music of it.' },
+  { id: 'shadow',   name: 'Shadow',   hint: 'Play it. Speak WITH the voice, in real time. Not after. Together.' },
+  { id: 'read',     name: 'Read',     hint: 'Now you see it. Play it. Read it out loud, together with the audio.' },
+  { id: 'recall',   name: 'Recall',   hint: 'Hide the text. Say it from memory, fast. Then play it again and mimic what comes back.' },
+  { id: 'freestyle',name: 'Freestyle',hint: 'Sixty seconds on the same topic. Five sentences or more. The one that counts.' },
+];
+
+// ============================================================
+// STATE
+// ============================================================
+const STORAGE = {
+  progress: 'lma.progress.v1',
+  settings: 'lma.settings.v1',
+  todayLog: 'lma.todayLog.v1',
+};
+
+const today = () => new Date().toISOString().slice(0, 10);
+
+function loadProgress() {
+  try { return JSON.parse(localStorage.getItem(STORAGE.progress)) || defaultProgress(); }
+  catch { return defaultProgress(); }
+}
+function saveProgress(p) { localStorage.setItem(STORAGE.progress, JSON.stringify(p)); }
+function defaultProgress() {
+  return { streak: 0, lastWinDate: null, totalClips: 0, totalWins: 0, totalSessions: 0 };
+}
+
+function loadSettings() {
+  try { return JSON.parse(localStorage.getItem(STORAGE.settings)) || defaultSettings(); }
+  catch { return defaultSettings(); }
+}
+function saveSettings(s) { localStorage.setItem(STORAGE.settings, JSON.stringify(s)); }
+function defaultSettings() {
+  return { voice: '', rate: 0.85, pitch: 1.0, clipsPerSession: 10, winThreshold: 7 };
+}
+
+function loadTodayLog() {
+  try {
+    const log = JSON.parse(localStorage.getItem(STORAGE.todayLog) || '{}');
+    if (log.date !== today()) return { date: today(), clips: 0, ratings: [] };
+    return log;
+  } catch { return { date: today(), clips: 0, ratings: [] }; }
+}
+function saveTodayLog(log) { localStorage.setItem(STORAGE.todayLog, JSON.stringify(log)); }
+
+const state = {
+  view: 'home',
+  session: null,
+  settings: loadSettings(),
+  progress: loadProgress(),
+  todayLog: loadTodayLog(),
+};
+
+function updateTopStats() {
+  document.getElementById('stat-streak').textContent = state.progress.streak;
+  document.getElementById('stat-today').textContent = state.todayLog.clips;
+  document.getElementById('stat-total').textContent = state.progress.totalClips;
+}
+
+function recordWin() {
+  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  if (state.progress.lastWinDate === today()) return; // already counted
+  if (state.progress.lastWinDate === yesterday) {
+    state.progress.streak += 1;
+  } else {
+    state.progress.streak = 1;
+  }
+  state.progress.lastWinDate = today();
+  state.progress.totalWins += 1;
+  saveProgress(state.progress);
+}
+
+// ============================================================
+// TTS (Web Speech API)
+// ============================================================
+let availableVoices = [];
+function loadVoices() {
+  availableVoices = speechSynthesis.getVoices().filter(v => v.lang.toLowerCase().startsWith('en'));
+  if (!availableVoices.length) {
+    // try again onvoiceschanged
+    speechSynthesis.onvoiceschanged = () => {
+      availableVoices = speechSynthesis.getVoices().filter(v => v.lang.toLowerCase().startsWith('en'));
+    };
+  }
+}
+loadVoices();
+
+function speak(text, opts = {}) {
+  return new Promise((resolve) => {
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.rate = opts.rate ?? state.settings.rate;
+    u.pitch = opts.pitch ?? state.settings.pitch;
+    u.lang = 'en-US';
+    if (state.settings.voice) {
+      const v = availableVoices.find(v => v.voiceURI === state.settings.voice || v.name === state.settings.voice);
+      if (v) u.voice = v;
+    } else {
+      const preferred = availableVoices.find(v => v.lang === 'en-US' && /female|samantha|natural/i.test(v.name))
+                     || availableVoices.find(v => v.lang === 'en-US')
+                     || availableVoices[0];
+      if (preferred) u.voice = preferred;
+    }
+    u.onend = () => resolve();
+    u.onerror = () => resolve();
+    speechSynthesis.speak(u);
+  });
+}
+
+let isSpeaking = false;
+async function speakAndToggle(text, btn) {
+  if (isSpeaking) {
+    speechSynthesis.cancel();
+    isSpeaking = false;
+    if (btn) { btn.classList.remove('playing'); btn.innerHTML = playIcon(); }
+    return;
+  }
+  isSpeaking = true;
+  if (btn) { btn.classList.add('playing'); btn.innerHTML = stopIcon(); }
+  await speak(text);
+  isSpeaking = false;
+  if (btn) { btn.classList.remove('playing'); btn.innerHTML = playIcon(); }
+}
+
+function playIcon() {
+  return '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+}
+function stopIcon() {
+  return '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
+}
+
+// ============================================================
+// RECORDING
+// ============================================================
+let recorder = null;
+let chunks = [];
+let recStart = 0;
+let recTimerInterval = null;
+let lastRecordingUrl = null;
+
+async function startRecording() {
+  if (recorder && recorder.state === 'recording') return;
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    chunks = [];
+    recorder = new MediaRecorder(stream);
+    recorder.ondataavailable = e => { if (e.data.size) chunks.push(e.data); };
+    recorder.onstop = () => {
+      const blob = new Blob(chunks, { type: 'audio/webm' });
+      if (lastRecordingUrl) URL.revokeObjectURL(lastRecordingUrl);
+      lastRecordingUrl = URL.createObjectURL(blob);
+      stream.getTracks().forEach(t => t.stop());
+      // trigger re-render so playback UI shows up
+      onRecordingComplete();
+    };
+    recorder.start();
+    recStart = Date.now();
+  } catch (e) {
+    toast('Microphone access denied. Check your browser permissions.');
+    throw e;
+  }
+}
+
+function stopRecording() {
+  if (recorder && recorder.state === 'recording') {
+    recorder.stop();
+  }
+}
+
+function onRecordingComplete() {
+  // hook for re-render
+  if (state.view === 'session') render();
+}
+
+let recordingDuration = 0;
+function tickRecTimer(labelEl) {
+  clearInterval(recTimerInterval);
+  recTimerInterval = setInterval(() => {
+    recordingDuration = Math.floor((Date.now() - recStart) / 1000);
+    if (labelEl) labelEl.textContent = formatTime(recordingDuration);
+  }, 200);
+}
+
+function formatTime(s) {
+  const m = Math.floor(s / 60);
+  const sec = (s % 60).toString().padStart(2, '0');
+  return `${m}:${sec}`;
+}
+
+// ============================================================
+// ACTIONS
+// ============================================================
+function startSession() {
+  // Pick up to 10 clips, starting from where we left off (rotate)
+  const startIdx = state.todayLog.clips % CLIPS.length;
+  const clips = [];
+  for (let i = 0; i < state.settings.clipsPerSession; i++) {
+    clips.push((startIdx + i) % CLIPS.length);
+  }
+  state.session = {
+    clipIdx: 0,
+    stepIdx: 0,
+    clipQueue: clips,
+    currentClipRatings: [],
+    sessionRecordings: [],
+    startedAt: Date.now(),
+  };
+  state.view = 'session';
+  render();
+}
+
+function nextStep() {
+  if (!state.session) return;
+  const sess = state.session;
+
+  // stop any in-progress recording before moving on
+  if (recorder && recorder.state === 'recording') {
+    stopRecording();
+    clearInterval(recTimerInterval);
+  }
+  speechSynthesis.cancel();
+  isSpeaking = false;
+
+  sess.stepIdx += 1;
+  if (sess.stepIdx >= STEPS.length) {
+    // clip complete
+    finishClip();
+    return;
+  }
+  // re-render
+  render();
+}
+
+function finishClip() {
+  const sess = state.session;
+  // record progress
+  state.todayLog.clips += 1;
+  state.todayLog.ratings.push(...sess.currentClipRatings);
+  state.progress.totalClips += 1;
+  saveTodayLog(state.todayLog);
+  saveProgress(state.progress);
+  updateTopStats();
+
+  // check win
+  if (state.todayLog.clips === state.settings.winThreshold) {
+    recordWin();
+    state.progress.totalSessions += 1;
+    saveProgress(state.progress);
+  }
+
+  // clear recording (it belonged to the clip we just finished)
+  if (lastRecordingUrl) { URL.revokeObjectURL(lastRecordingUrl); lastRecordingUrl = null; }
+  recordingDuration = 0;
+
+  // move to next clip or end
+  sess.clipIdx += 1;
+  sess.stepIdx = 0;
+  sess.currentClipRatings = [];
+  sess.recallTextHidden = false;
+
+  if (sess.clipIdx >= sess.clipQueue.length) {
+    state.view = 'sessionComplete';
+    state.session = null;
+  } else {
+    state.view = 'clipComplete';
+  }
+  render();
+}
+
+function continueToNextClip() {
+  state.view = 'session';
+  render();
+}
+
+function endSessionEarly() {
+  // did they hit the win threshold?
+  if (state.todayLog.clips >= state.settings.winThreshold) {
+    recordWin();
+  }
+  state.progress.totalSessions += 1;
+  saveProgress(state.progress);
+  state.session = null;
+  state.view = 'home';
+  render();
+}
+
+function resetAll() {
+  if (!confirm('This will erase your streak and all history. Continue?')) return;
+  state.progress = defaultProgress();
+  state.todayLog = { date: today(), clips: 0, ratings: [] };
+  saveProgress(state.progress);
+  saveTodayLog(state.todayLog);
+  updateTopStats();
+  state.view = 'home';
+  render();
+  toast('Progress reset.');
+}
+
+// ============================================================
+// TOAST
+// ============================================================
+let toastTimer = null;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+function render() {
+  updateTopStats();
+  const view = document.getElementById('view');
+  if (state.view === 'home') view.innerHTML = renderHome();
+  else if (state.view === 'session') view.innerHTML = renderSession();
+  else if (state.view === 'clipComplete') view.innerHTML = renderClipComplete();
+  else if (state.view === 'sessionComplete') view.innerHTML = renderSessionComplete();
+  else if (state.view === 'settings') view.innerHTML = renderSettings();
+  attachHandlers();
+}
+
+function renderHome() {
+  const log = state.todayLog;
+  const winThreshold = state.settings.winThreshold;
+  const total = state.settings.clipsPerSession;
+  const wonToday = log.clips >= winThreshold;
+  const remaining = Math.max(0, winThreshold - log.clips);
+
+  const stepsHtml = STEPS.map((s, i) => `
+    <li>
+      <div class="num">${i + 1}</div>
+      <div class="body">
+        <strong>${s.name}</strong>
+        <div class="desc">${s.hint}</div>
+      </div>
+    </li>
+  `).join('');
+
+  return `
+    <div class="card home-hero">
+      <h1>One clip. Seven reps. Real English in your mouth.</h1>
+      <p>Each session: up to ${total} short clips, run through all seven steps. Hit ${winThreshold} clips in a day and you win. ${wonToday ? 'You already won today. Keep going for a perfect ten.' : `Only ${remaining} more to win.`}</p>
+
+      <div class="home-grid">
+        <div class="home-stat">
+          <div class="label">Streak</div>
+          <div class="value">${state.progress.streak}</div>
+          <div class="sub">${state.progress.streak === 1 ? 'day' : 'days'}</div>
+        </div>
+        <div class="home-stat">
+          <div class="label">Today</div>
+          <div class="value">${log.clips}/${total}</div>
+          <div class="sub">${wonToday ? '✓ won today' : `${remaining} to win`}</div>
+        </div>
+        <div class="home-stat">
+          <div class="label">All time</div>
+          <div class="value">${state.progress.totalClips}</div>
+          <div class="sub">clips · ${state.progress.totalWins} wins</div>
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-primary btn-large" id="btn-start">${log.clips > 0 ? 'Continue today' : 'Start today'}</button>
+        <button class="btn btn-ghost" id="btn-settings">Settings</button>
+      </div>
+
+      <ul class="steps-list">
+        ${stepsHtml}
+      </ul>
+    </div>
+  `;
+}
+
+function renderSession() {
+  const sess = state.session;
+  const clipNum = sess.clipIdx + 1;
+  const total = sess.clipQueue.length;
+  const step = STEPS[sess.stepIdx];
+  const clipIdx = sess.clipQueue[sess.clipIdx];
+  const clip = CLIPS[clipIdx];
+  const winThreshold = state.settings.winThreshold;
+  const stepBody = renderStepBody(step, clip, sess);
+
+  const dots = sess.clipQueue.map((_, i) => {
+    let cls = 'dot';
+    if (i < sess.clipIdx) cls += ' done';
+    else if (i === sess.clipIdx) cls += ' current';
+    return `<div class="${cls}"></div>`;
+  }).join('');
+
+  return `
+    <div class="card">
+      <div class="session-head">
+        <div class="clip-counter">Clip <strong>${clipNum}</strong> / ${total}</div>
+        <div class="step-pill">Step ${sess.stepIdx + 1} of 7 · ${step.name}</div>
+      </div>
+      <div class="topic-tag">${clip.topic}</div>
+      <div class="step-title">${step.name}</div>
+      <div class="step-instruction">${step.hint}</div>
+      <div class="step-body">${stepBody}</div>
+      <div class="controls">
+        <button class="btn btn-ghost" id="btn-quit">End session</button>
+        <button class="btn btn-primary" id="btn-next">${sess.stepIdx === STEPS.length - 1 ? 'Finish clip →' : 'Next step →'}</button>
+      </div>
+      <div class="progress">${dots}</div>
+    </div>
+  `;
+}
+
+function renderStepBody(step, clip, sess) {
+  const isLastStepOfClip = sess.stepIdx === STEPS.length - 1;
+  const recEnabled = state.settings.recEnabled !== false;
+
+  if (step.id === 'rate') {
+    return `
+      <div class="play-area">
+        <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
+        <div class="play-label">Tap to play. Listen once or twice.</div>
+        <div class="stars" id="stars">
+          ${[1,2,3,4,5].map(n => `<div class="star" data-n="${n}">★</div>`).join('')}
+        </div>
+        <div class="play-label" id="rate-hint">How much did you catch?</div>
+      </div>
+    `;
+  }
+
+  if (step.id === 'grasp') {
+    return `
+      <div class="play-area">
+        <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
+        <div class="play-label">Play it. Then write the meaning in your own words before the English lands.</div>
+      </div>
+      <div style="margin-top:18px;">
+        <span class="input-label">Your version (in English, or your first language)</span>
+        <textarea class="textarea" id="grasp-input" placeholder="Type the gist here. Don't worry about perfect English — just the idea."></textarea>
+      </div>
+      <div class="mt-2">
+        <button class="btn" id="btn-reveal">Reveal the original →</button>
+        <div id="reveal-area" class="mt-2" style="display:none;">
+          <span class="input-label">The original</span>
+          <div class="transcript">${clip.text}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  if (step.id === 'hum') {
+    return `
+      <div class="play-area">
+        <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
+        <div class="play-label">Play it. Hum, mumble, vowel-sound along. Catch the rhythm, the rise and fall, the pauses.</div>
+      </div>
+      <div class="mt-3 center" style="color:var(--ink-faint); font-size: 13px;">No transcript. No words. Just the music of the sentence.</div>
+    `;
+  }
+
+  if (step.id === 'shadow') {
+    return `
+      <div class="play-area">
+        <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
+        <div class="play-label">Press play. Speak with it in real time, not after. Try to match the speed, the pauses, the intonation.</div>
+      </div>
+      <div class="rec-area mt-3">
+        <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
+        <div class="rec-indicator" id="rec-ind">
+          <div class="rec-dot"></div>
+          <span>Recording · <span id="rec-time">0:00</span></span>
+        </div>
+        ${lastRecordingUrl ? `
+          <div class="audio-playback">
+            <div class="input-label">Your shadow</div>
+            <audio controls src="${lastRecordingUrl}"></audio>
+            <div class="btn-row mt-1"><button class="btn btn-icon" id="btn-again">Record again</button></div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  if (step.id === 'read') {
+    return `
+      <div class="play-area">
+        <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
+        <div class="play-label">Play it. Read along out loud. Your voice and the speaker's voice, together.</div>
+      </div>
+      <div class="mt-3">
+        <div class="transcript">${clip.text}</div>
+      </div>
+      <div class="rec-area mt-3">
+        <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
+        <div class="rec-indicator" id="rec-ind">
+          <div class="rec-dot"></div>
+          <span>Recording · <span id="rec-time">0:00</span></span>
+        </div>
+        ${lastRecordingUrl ? `
+          <div class="audio-playback">
+            <div class="input-label">Your read</div>
+            <audio controls src="${lastRecordingUrl}"></audio>
+            <div class="btn-row mt-1"><button class="btn btn-icon" id="btn-again">Record again</button></div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  if (step.id === 'recall') {
+    return `
+      <div class="play-area">
+        <button class="play-circle" id="btn-play" aria-label="Play">${playIcon()}</button>
+        <div class="play-label">Play it once. Then hide the text and say it back, fast. Then play it again and mimic what comes back.</div>
+      </div>
+      <div class="mt-2">
+        <button class="btn" id="btn-toggle-text">${sess.recallTextHidden ? 'Show text' : 'Hide text'}</button>
+        <div class="transcript mt-2" id="recall-text" ${sess.recallTextHidden ? 'style="display:none;"' : ''}>${clip.text}</div>
+      </div>
+      <div class="rec-area mt-3">
+        <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
+        <div class="rec-indicator" id="rec-ind">
+          <div class="rec-dot"></div>
+          <span>Recording · <span id="rec-time">0:00</span></span>
+        </div>
+        ${lastRecordingUrl ? `
+          <div class="audio-playback">
+            <div class="input-label">Your recall</div>
+            <audio controls src="${lastRecordingUrl}"></audio>
+            <div class="btn-row mt-1"><button class="btn btn-icon" id="btn-again">Record again</button></div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  if (step.id === 'freestyle') {
+    return `
+      <div class="play-area">
+        <div class="play-label" style="font-size: 15px; max-width: 420px;">Topic: <strong style="color:var(--ink);">${clip.topic}</strong>. Speak for sixty seconds. Aim for at least five sentences. Don't stop. If you get stuck, say "what I mean is..." and keep going.</div>
+      </div>
+      <div class="rec-area mt-3">
+        <button class="rec-btn" id="btn-rec" aria-label="Record">●</button>
+        <div class="rec-indicator" id="rec-ind">
+          <div class="rec-dot"></div>
+          <span>Recording · <span id="rec-time">0:00</span> / 1:00</span>
+        </div>
+        ${lastRecordingUrl ? `
+          <div class="audio-playback">
+            <div class="input-label">Your freestyle (${formatTime(recordingDuration)})</div>
+            <audio controls src="${lastRecordingUrl}"></audio>
+            <div class="btn-row mt-1"><button class="btn btn-icon" id="btn-again">Record again</button></div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  return '';
+}
+
+function renderClipComplete() {
+  const sess = state.session;
+  const clip = CLIPS[sess.clipQueue[sess.clipIdx - 1]];
+  return `
+    <div class="card center">
+      <div class="big-emoji">✓</div>
+      <div class="big-headline">Clip done</div>
+      <div class="big-sub">You just ran seven reps on: <strong style="color:var(--ink);">${clip.topic}</strong></div>
+      <div class="big-sub mt-2">${state.todayLog.clips} / ${state.settings.clipsPerSession} clips today. ${state.todayLog.clips < state.settings.winThreshold ? `${state.settings.winThreshold - state.todayLog.clips} more to win.` : 'Win secured.'}</div>
+      <div class="btn-row mt-4" style="justify-content:center;">
+        <button class="btn btn-primary btn-large" id="btn-next-clip">Next clip →</button>
+        <button class="btn" id="btn-quit">End session</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderSessionComplete() {
+  const log = state.todayLog;
+  const won = log.clips >= state.settings.winThreshold;
+  return `
+    <div class="card center">
+      <div class="big-emoji">${won ? '🏆' : '👍'}</div>
+      <div class="big-headline">${won ? 'Win.' : 'Session done.'}</div>
+      <div class="big-sub">${won ? `You hit ${state.settings.winThreshold} clips. Streak: ${state.progress.streak} day${state.progress.streak === 1 ? '' : 's'}.` : `${log.clips} clips done. ${state.settings.winThreshold - log.clips} more for a win — come back and finish.`}</div>
+      <div class="big-sub mt-2">Tomorrow the cycle starts again. Same seven steps, different clips.</div>
+      <div class="btn-row mt-4" style="justify-content:center;">
+        <button class="btn btn-primary btn-large" id="btn-home">Back to home</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderSettings() {
+  const s = state.settings;
+  const voiceOptions = availableVoices.length
+    ? availableVoices.map(v => `<option value="${v.voiceURI}" ${s.voice === v.voiceURI ? 'selected' : ''}>${v.name} (${v.lang})</option>`).join('')
+    : '<option value="">Default</option>';
+
+  return `
+    <div class="card">
+      <h2 style="font-size: 22px; margin-bottom: 4px;">Settings</h2>
+      <p style="color: var(--ink-soft); font-size: 14px; margin-bottom: 20px;">Tweak the voice, speed, and session size. Browser voices vary by device.</p>
+
+      <div class="settings-row">
+        <div class="label-block">
+          <div class="label">Voice</div>
+          <div class="sub">English voices available on this device</div>
+        </div>
+        <select id="set-voice">
+          <option value="">System default</option>
+          ${voiceOptions}
+        </select>
+      </div>
+
+      <div class="settings-row">
+        <div class="label-block">
+          <div class="label">Speed</div>
+          <div class="sub">Slower helps you catch the sounds</div>
+        </div>
+        <div class="range-row">
+          <input type="range" id="set-rate" min="0.5" max="1.2" step="0.05" value="${s.rate}">
+          <div class="range-val" id="rate-val">${s.rate.toFixed(2)}x</div>
+        </div>
+      </div>
+
+      <div class="settings-row">
+        <div class="label-block">
+          <div class="label">Clips per session</div>
+          <div class="sub">Max number of clips in one sitting</div>
+        </div>
+        <select id="set-clips">
+          <option value="7" ${s.clipsPerSession === 7 ? 'selected' : ''}>7</option>
+          <option value="10" ${s.clipsPerSession === 10 ? 'selected' : ''}>10</option>
+          <option value="14" ${s.clipsPerSession === 14 ? 'selected' : ''}>14</option>
+        </select>
+      </div>
+
+      <div class="settings-row">
+        <div class="label-block">
+          <div class="label">Win threshold</div>
+          <div class="sub">How many clips count as a daily win</div>
+        </div>
+        <select id="set-threshold">
+          <option value="5" ${s.winThreshold === 5 ? 'selected' : ''}>5</option>
+          <option value="7" ${s.winThreshold === 7 ? 'selected' : ''}>7</option>
+          <option value="10" ${s.winThreshold === 10 ? 'selected' : ''}>10</option>
+        </select>
+      </div>
+
+      <div class="settings-row">
+        <div class="label-block">
+          <div class="label">Test voice</div>
+          <div class="sub">Hear your current settings</div>
+        </div>
+        <button class="btn" id="btn-test">Play sample</button>
+      </div>
+
+      <div class="mt-4">
+        <button class="btn" id="btn-reset" style="color: var(--danger);">Reset all progress</button>
+      </div>
+
+      <div class="mt-4 btn-row">
+        <button class="btn btn-primary" id="btn-back">← Back</button>
+      </div>
+    </div>
+  `;
+}
+
+// ============================================================
+// HANDLERS
+// ============================================================
+function attachHandlers() {
+  // Home
+  const btnStart = document.getElementById('btn-start');
+  if (btnStart) btnStart.addEventListener('click', startSession);
+
+  const btnSettings = document.getElementById('btn-settings');
+  if (btnSettings) btnSettings.addEventListener('click', () => { state.view = 'settings'; render(); });
+
+  // Settings
+  const setVoice = document.getElementById('set-voice');
+  if (setVoice) setVoice.addEventListener('change', e => { state.settings.voice = e.target.value; saveSettings(state.settings); });
+
+  const setRate = document.getElementById('set-rate');
+  const rateVal = document.getElementById('rate-val');
+  if (setRate) setRate.addEventListener('input', e => {
+    state.settings.rate = parseFloat(e.target.value);
+    rateVal.textContent = state.settings.rate.toFixed(2) + 'x';
+    saveSettings(state.settings);
+  });
+
+  const setClips = document.getElementById('set-clips');
+  if (setClips) setClips.addEventListener('change', e => { state.settings.clipsPerSession = parseInt(e.target.value); saveSettings(state.settings); });
+
+  const setThreshold = document.getElementById('set-threshold');
+  if (setThreshold) setThreshold.addEventListener('change', e => { state.settings.winThreshold = parseInt(e.target.value); saveSettings(state.settings); });
+
+  const btnTest = document.getElementById('btn-test');
+  if (btnTest) btnTest.addEventListener('click', () => speak("The morning is my favorite part of the day, because it's quiet and nobody needs anything from me yet."));
+
+  const btnReset = document.getElementById('btn-reset');
+  if (btnReset) btnReset.addEventListener('click', resetAll);
+
+  const btnBack = document.getElementById('btn-back');
+  if (btnBack) btnBack.addEventListener('click', () => { state.view = 'home'; render(); });
+
+  // Session
+  const btnPlay = document.getElementById('btn-play');
+  if (btnPlay) {
+    const clip = CLIPS[state.session.clipQueue[state.session.clipIdx]];
+    btnPlay.addEventListener('click', () => speakAndToggle(clip.text, btnPlay));
+  }
+
+  const btnNext = document.getElementById('btn-next');
+  if (btnNext) btnNext.addEventListener('click', nextStep);
+
+  const btnQuit = document.getElementById('btn-quit');
+  if (btnQuit) btnQuit.addEventListener('click', () => {
+    if (confirm('End session now? Your progress for completed clips is saved.')) {
+      endSessionEarly();
+    }
+  });
+
+  const btnNextClip = document.getElementById('btn-next-clip');
+  if (btnNextClip) btnNextClip.addEventListener('click', continueToNextClip);
+
+  const btnHome = document.getElementById('btn-home');
+  if (btnHome) btnHome.addEventListener('click', () => { state.view = 'home'; render(); });
+
+  // Stars (rate step)
+  const stars = document.getElementById('stars');
+  if (stars) {
+    let selected = 0;
+    stars.querySelectorAll('.star').forEach(s => {
+      s.addEventListener('click', () => {
+        selected = parseInt(s.dataset.n);
+        stars.querySelectorAll('.star').forEach((x, i) => {
+          x.classList.toggle('active', i < selected);
+        });
+        const sess = state.session;
+        if (sess.currentClipRatings.length < 1) sess.currentClipRatings.push(selected);
+        else sess.currentClipRatings[0] = selected;
+        const hint = document.getElementById('rate-hint');
+        if (hint) hint.textContent = ['Try again next clip.', 'A few words. Keep going.', 'Got the gist.', 'Most of it.', 'Everything!'][selected - 1] || 'How much did you catch?';
+      });
+    });
+  }
+
+  // Grasp reveal
+  const btnReveal = document.getElementById('btn-reveal');
+  if (btnReveal) btnReveal.addEventListener('click', () => {
+    const area = document.getElementById('reveal-area');
+    if (area) area.style.display = 'block';
+    btnReveal.disabled = true;
+    btnReveal.textContent = 'Original shown';
+  });
+
+  // Recall text toggle
+  const btnToggleText = document.getElementById('btn-toggle-text');
+  if (btnToggleText) {
+    btnToggleText.addEventListener('click', () => {
+      const sess = state.session;
+      sess.recallTextHidden = !sess.recallTextHidden;
+      const txt = document.getElementById('recall-text');
+      if (txt) txt.style.display = sess.recallTextHidden ? 'none' : 'block';
+      btnToggleText.textContent = sess.recallTextHidden ? 'Show text' : 'Hide text';
+    });
+  }
+
+  // Recording buttons
+  const btnRec = document.getElementById('btn-rec');
+  if (btnRec) {
+    btnRec.addEventListener('click', async () => {
+      const ind = document.getElementById('rec-ind');
+      const timeEl = document.getElementById('rec-time');
+      if (recorder && recorder.state === 'recording') {
+        stopRecording();
+        btnRec.classList.remove('recording');
+        if (ind) ind.classList.remove('active');
+        clearInterval(recTimerInterval);
+      } else {
+        try {
+          await startRecording();
+          btnRec.classList.add('recording');
+          if (ind) ind.classList.add('active');
+          tickRecTimer(timeEl);
+          // Auto-stop for freestyle at 60s
+          const sess = state.session;
+          if (sess && STEPS[sess.stepIdx].id === 'freestyle') {
+            setTimeout(() => {
+              if (recorder && recorder.state === 'recording') {
+                stopRecording();
+                btnRec.classList.remove('recording');
+                if (ind) ind.classList.remove('active');
+                clearInterval(recTimerInterval);
+              }
+            }, 61000);
+          }
+        } catch (e) {
+          // already toasted
+        }
+      }
+    });
+  }
+
+  const btnAgain = document.getElementById('btn-again');
+  if (btnAgain) {
+    btnAgain.addEventListener('click', () => {
+      if (lastRecordingUrl) { URL.revokeObjectURL(lastRecordingUrl); lastRecordingUrl = null; }
+      recordingDuration = 0;
+      render();
+    });
+  }
+}
+
+// ============================================================
+// INIT
+// ============================================================
+render();
+</script>
+</body>
+</html>
