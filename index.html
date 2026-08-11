@@ -513,7 +513,7 @@ function recordWin() {
 }
 
 // ============================================================
-// TTS (Web Speech API)
+// TTS (Web Speech API) — with iOS Safari workarounds
 // ============================================================
 let availableVoices = [];
 function loadVoices() {
@@ -527,9 +527,36 @@ function loadVoices() {
 }
 loadVoices();
 
+// iOS Safari quirk: the synthesis engine can get into a paused state
+// and never fire onend. We pre-warm it with a silent utterance on first
+// user interaction, and also call resume() before each speak.
+let ttsPrewarmed = false;
+function prewarmTTS() {
+  if (ttsPrewarmed) return;
+  ttsPrewarmed = true;
+  try {
+    const u = new SpeechSynthesisUtterance(' ');
+    u.volume = 0;
+    u.rate = 1;
+    speechSynthesis.speak(u);
+  } catch (e) { /* ignore */ }
+}
+
 function speak(text, opts = {}) {
   return new Promise((resolve) => {
+    if (!('speechSynthesis' in window)) {
+      toast('Your browser does not support text-to-speech.');
+      resolve();
+      return;
+    }
+    prewarmTTS();
     speechSynthesis.cancel();
+
+    // iOS Safari fix: if the engine is paused, resume it.
+    if (speechSynthesis.paused) {
+      try { speechSynthesis.resume(); } catch (e) { /* ignore */ }
+    }
+
     const u = new SpeechSynthesisUtterance(text);
     u.rate = opts.rate ?? state.settings.rate;
     u.pitch = opts.pitch ?? state.settings.pitch;
@@ -538,14 +565,36 @@ function speak(text, opts = {}) {
       const v = availableVoices.find(v => v.voiceURI === state.settings.voice || v.name === state.settings.voice);
       if (v) u.voice = v;
     } else {
-      const preferred = availableVoices.find(v => v.lang === 'en-US' && /female|samantha|natural/i.test(v.name))
+      const preferred = availableVoices.find(v => v.lang === 'en-US' && /samantha|natural|google|enhanced|premium/i.test(v.name))
                      || availableVoices.find(v => v.lang === 'en-US')
                      || availableVoices[0];
       if (preferred) u.voice = preferred;
     }
-    u.onend = () => resolve();
-    u.onerror = () => resolve();
-    speechSynthesis.speak(u);
+
+    let resolved = false;
+    const done = () => {
+      if (resolved) return;
+      resolved = true;
+      resolve();
+    };
+
+    u.onend = done;
+    u.onerror = done;
+    u.onstart = () => { /* keep alive signal */ };
+
+    // Fallback: on some iOS versions, onend never fires. Estimate duration
+    // and force resolve after that, so the play button doesn't get stuck.
+    const wordCount = text.split(/\s+/).length;
+    const estimatedMs = (wordCount / Math.max(0.5, u.rate)) * 60000 / 150 * 1000; // ~150 wpm baseline
+    const safetyMs = Math.max(3000, estimatedMs + 2500);
+    setTimeout(done, safetyMs);
+
+    try {
+      speechSynthesis.speak(u);
+    } catch (e) {
+      console.warn('TTS speak failed:', e);
+      done();
+    }
   });
 }
 
@@ -554,7 +603,7 @@ let currentAudio = null;
 async function speakAndToggle(clipOrText, btn) {
   // accept either a clip object or a raw string
   const clip = (typeof clipOrText === 'object' && clipOrText !== null) ? clipOrText : null;
-  const text = clip ? clip.text : clipOrText;
+  const text = clip ? getTextForLevel(clip) : clipOrText;
   const audioSrc = clip ? clip.audio : null;
 
   if (isSpeaking) {
