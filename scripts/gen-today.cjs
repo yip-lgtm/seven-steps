@@ -65,16 +65,19 @@ function buildPrompt(headlines) {
 Cover these 7 categories (one clip each): ${mixLine}.
 
 # English difficulty
-The user is around IELTS 5 (CEFR B1, intermediate). For EACH clip, write the English at TWO CEFR levels so the app can adapt:
-- **B1** (intermediate): 70-90 words. Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style.
-- **B2** (upper-intermediate): 95-115 words. More complex sentences with subordinating conjunctions, some phrasal verbs, broader vocabulary, occasionally an idiom where natural.
+The user is around IELTS 5 (CEFR B1, intermediate) but the app supports FIVE levels so the learner can grow into harder content. For EACH clip, write the English at FOUR CEFR levels:
+- **B1** (intermediate, IELTS 5): 50-65 words. Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style.
+- **B2** (upper-intermediate, IELTS 6.5): 70-85 words. More complex sentences with subordinating conjunctions, some phrasal verbs, broader vocabulary.
+- **C1** (advanced, IELTS 7.5): 85-100 words. Sophisticated structure, varied sentence types including conditionals, natural idioms, formal-to-neutral register.
+- **C2** (proficient, IELTS 9): 100-120 words. Near-native, dense and elegant, complex idioms, abstract as well as concrete.
 
 The Chinese version is a single translation (used as the learner's reference). It should sound natural in Cantonese-flavored Mandarin, not formal. Aim for 80-120 Chinese characters.
 
 # Content rules
-- Aim for the upper end of each word range. If a B1 comes in under 70 words, add another sentence with a specific detail until it is in range. B2 must be noticeably longer and more complex than B1, not just synonyms.
+- Each higher level must be NOTICEABLY more complex than the previous — not just synonyms, but new sentence structures, idioms, and richer detail. C2 should feel like a different paragraph, not a longer B1.
 - Use a mix of tenses across the 7 clips (don't make all of them past tense).
 - Each clip must have at least one specific concrete detail (a number, a name, a place, a date) so it feels like a real news event, not a generic essay.
+- Use real numbers from the headlines below when possible. If a headline mentions a specific figure, use that figure. Do not invent large dollar amounts.
 - Tone: factual, current, like a Bloomberg or SCMP short news brief. Not chatty, not opinionated.
 - Each clip should be self-contained — a person reading just this one clip should understand what happened.
 - Topics should be tied to the headlines below when possible. If a category doesn't have a matching headline, invent a plausible recent event with a specific date.
@@ -83,7 +86,7 @@ The Chinese version is a single translation (used as the learner's reference). I
 # Output format
 Return ONLY a JSON object in this exact shape, no markdown fences, no commentary:
 {
-  "level": "B1/B2 mix as specified",
+  "level": "B1/B2/C1/C2 mix as specified",
   "clips": [
     {
       "id": "<short-unique-id>",
@@ -91,8 +94,10 @@ Return ONLY a JSON object in this exact shape, no markdown fences, no commentary
       "topic_zh": "<short Chinese title, 4-8 chars>",
       "topic_en": "<short English title, 2-5 words>",
       "text_zh": "<Chinese version, 1-2 sentences, 80-120 Chinese characters>",
-      "text_en_b1": "<B1 English, ~90 words target>",
+      "text_en_b1": "<B1 English, ~80 words target>",
       "text_en_b2": "<B2 English, ~110 words target>",
+      "text_en_c1": "<C1 English, ~135 words target>",
+      "text_en_c2": "<C2 English, ~160 words target>",
       "source_hint": "<what real event or trend this is about, 1 short sentence>"
     }
   ]
@@ -149,7 +154,7 @@ async function callOpenRouter(prompt) {
 
   // 4. Validate
   for (const c of parsed.clips) {
-    if (!c.id || !c.topic_zh || !c.topic_en || !c.text_zh || !c.text_en_b1 || !c.text_en_b2) {
+    if (!c.id || !c.topic_zh || !c.topic_en || !c.text_zh || !c.text_en_b1 || !c.text_en_b2 || !c.text_en_c1 || !c.text_en_c2) {
       throw new Error('Clip missing required field: ' + JSON.stringify(c).slice(0, 100));
     }
   }
@@ -162,9 +167,8 @@ async function callOpenRouter(prompt) {
 
   console.log('\nTopics:');
   parsed.clips.forEach((c, i) => {
-    const b1 = c.text_en_b1.split(' ').length;
-    const b2 = c.text_en_b2.split(' ').length;
-    console.log(`  ${i+1}. [${c.category}] ${c.topic_zh} / ${c.topic_en} (B1: ${b1}w / B2: ${b2}w)`);
+    const w = (s) => s.split(' ').length;
+    console.log(`  ${i+1}. [${c.category}] ${c.topic_zh} / ${c.topic_en} (B1:${w(c.text_en_b1)} B2:${w(c.text_en_b2)} C1:${w(c.text_en_c1)} C2:${w(c.text_en_c2)})`);
   });
 })().catch(e => {
   console.error('FAILED:', e.message);

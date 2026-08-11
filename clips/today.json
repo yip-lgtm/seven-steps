@@ -4,74 +4,88 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "clip_1",
+      "id": "clip1",
       "category": "trading",
       "topic_zh": "Nvidia投資",
       "topic_en": "Nvidia Investment",
-      "text_zh": "Nvidia最近獲得了5000億美元投資，以發展其AI基礎設施。這筆資金來自多個主要投資者。這顯示了投資者對AI技術的信心。",
-      "text_en_b1": "Nvidia recently received a massive investment of $500 billion. This money came from several major investors and is meant for developing AI infrastructure. This investment shows that many people believe in the future of AI technology. Companies want to use AI to improve business and create new products. Nvidia is a leader in AI, and this funding will help them grow even more. The move has attracted attention in the tech world and could change how businesses operate.",
-      "text_en_b2": "Nvidia has recently secured a groundbreaking investment of $500 billion from multiple major investors aimed at developing its AI infrastructure. This enormous financial backing reflects a strong belief in the potential of AI technology. As companies increasingly seek to leverage AI for business improvement and innovative product development, Nvidia's leadership in the AI sector positions it well for future growth. The scale of this investment has garnered significant attention in the technology community, potentially reshaping the landscape of business operations in various industries.",
-      "source_hint": "Nvidia's $500 billion investment news."
+      "text_zh": "Nvidia最近獲得了5000億美元的投資，用於開發AI基礎設施。這筆資金將幫助他們提升技術，並在競爭激烈的市場中保持領先。這對於希望投資AI的投資者來說是一個好機會。",
+      "text_en_b1": "Nvidia received $500 billion from major investors for AI infrastructure. This funding will help Nvidia improve its technology. Investors see this as a good chance to invest in the growing AI market. The company aims to stay ahead of competitors in the fast-paced tech world. AI is becoming important for many businesses. Nvidia’s investment shows the growing interest in AI technology.",
+      "text_en_b2": "Recently, Nvidia has secured $500 billion from major investors to develop its AI infrastructure. This significant funding is expected to enhance Nvidia's technological capabilities in a competitive market. Investors perceive this as a strong opportunity to engage in the rapidly expanding AI sector. This investment not only solidifies Nvidia's position but also emphasizes the increasing demand for advanced AI solutions across various industries.",
+      "text_en_c1": "Nvidia has recently announced that it garnered an impressive $500 billion from major investors to bolster its AI infrastructure. This substantial influx of capital is expected to significantly enhance Nvidia’s technological advancements and maintain its competitive edge in the fast-evolving tech landscape. Investors are keen to capitalize on the burgeoning AI market, viewing this as a prime opportunity. This move underscores the critical importance of AI technologies in modern business strategies and future innovations.",
+      "text_en_c2": "In a remarkable development, Nvidia has successfully attracted an astonishing $500 billion in investment from major financial players aimed at the expansion and enhancement of its AI infrastructure. This monumental financial backing is poised to not only accelerate Nvidia’s technological advancements but also to fortify its leadership position in an increasingly competitive landscape. The strategic move reflects the heightened interest and demand for cutting-edge AI solutions that are pivotal for the evolution of various industries. Investors are seizing this opportunity to align with a pioneering force in technology.",
+      "source_hint": "Nvidia funding news from recent headlines."
     },
     {
-      "id": "clip_2",
+      "id": "clip2",
       "category": "trading",
       "topic_zh": "特朗普媒體虧損",
-      "topic_en": "Trump Media Losses",
-      "text_zh": "特朗普媒體最近報告了2.38億美元的虧損，因為加密貨幣市場出現下跌。這使得公司的前景變得不明朗。",
-      "text_en_b1": "Trump Media recently reported a significant loss of $238 million. This loss is due to the fall in the cryptocurrency market. The decrease in crypto prices has created uncertainty about the company's future. Many investors are worried about how this will affect Trump Media's operations. The company's plans for growth may also be impacted. Investors are now watching closely to see how it will recover from these losses.",
-      "text_en_b2": "Trump Media has disclosed a substantial loss of $238 million, largely attributed to the recent downturn in the cryptocurrency market. This significant financial setback has raised concerns regarding the company's future prospects. As cryptocurrency prices have plummeted, investor confidence in Trump Media's strategies has waned, leading to heightened scrutiny of its operational decisions. The uncertainty surrounding its growth plans adds further complexity to its recovery efforts, prompting investors to closely monitor the company's next moves in the challenging market environment.",
-      "source_hint": "Trump Media's financial report amidst crypto decline."
+      "topic_en": "Trump Media Loss",
+      "text_zh": "特朗普媒體最近報告了2.38億美元的虧損，因為加密貨幣市場的下滑影響了他們的業務。這對他們的財務狀況造成了很大壓力，未來需要更多的應對策略。",
+      "text_en_b1": "Trump Media reported a loss of $238 million due to falling cryptocurrency prices. This loss affects their financial situation seriously. The company is facing pressure to improve its business strategies. Investors are worried about the future of Trump Media. The decline in crypto values has hurt many businesses like this one. They need to find new methods to recover.",
+      "text_en_b2": "Recently, Trump Media disclosed a significant loss of $238 million, primarily attributed to the decline in cryptocurrency prices. This substantial setback has put considerable pressure on the company’s financial situation. As the market for cryptocurrencies continues to fluctuate, Trump Media must develop effective strategies to mitigate these losses and regain investor confidence. The company’s future now hinges on navigating these turbulent economic waters and adapting to market changes.",
+      "text_en_c1": "In a recent announcement, Trump Media revealed an alarming loss of $238 million, significantly driven by the downturn in cryptocurrency markets. This substantial financial blow has imposed considerable pressure on the company’s overall fiscal health. As cryptocurrency valuations continue to wane, Trump Media is now compelled to devise robust strategies to counteract these adverse effects. The evolving market dynamics present both challenges and opportunities, and the company must adeptly navigate this landscape to secure its financial future.",
+      "text_en_c2": "In a striking disclosure, Trump Media reported a staggering loss of $238 million, predominantly caused by the significant downturn in the cryptocurrency sector. This financial misfortune has exerted immense pressure on the company’s fiscal stability and prompted urgent reassessments of its strategic direction. In light of the volatile nature of crypto markets, Trump Media faces the critical challenge of formulating innovative and resilient strategies to mitigate losses while restoring investor confidence. The company’s trajectory now hinges on its ability to adapt to these rapidly shifting economic realities.",
+      "source_hint": "Trump Media financial report amidst crypto decline."
     },
     {
-      "id": "clip_3",
+      "id": "clip3",
       "category": "tech/ai",
-      "topic_zh": "AI工作減少",
-      "topic_en": "AI Work Reduction",
-      "text_zh": "科技領袖最近表示，AI將使人們的工作減少，但許多員工卻表示他們每周工作長達90小時，這樣的情況令人擔憂。",
-      "text_en_b1": "Recently, tech leaders claimed that AI will reduce the number of jobs available. However, many employees report working up to 90 hours a week. This contradiction raises concerns about the actual impact of AI on the workforce. While companies expect to use AI to be more efficient, workers feel pressure to work longer hours. The debate continues on how AI will really change jobs in the future and what this means for people.",
-      "text_en_b2": "Tech leaders have recently asserted that AI will lead to a reduction in available jobs, yet many employees report working as much as 90 hours per week. This stark contradiction raises significant concerns regarding the true implications of AI on the workforce. While companies anticipate enhanced efficiency through AI integration, workers are experiencing heightened pressure to extend their working hours. The ongoing debate surrounding the transformative impact of AI on employment raises important questions about its future effects on job security and work-life balance.",
-      "source_hint": "Tech leaders' statements about AI and job hours."
+      "topic_zh": "科技與工作",
+      "topic_en": "Tech and Work",
+      "text_zh": "科技領袖表示，AI將減少工作量，但員工聲稱每週需要工作90小時。這引發了對AI影響的激烈討論。究竟科技帶來的變化是好還是壞？",
+      "text_en_b1": "Tech leaders say AI will reduce workloads, but workers claim they are working up to 90 hours a week. This creates a debate about the impact of AI on jobs. Many people have concerns about how AI will change work. Some believe it will help, while others think it makes work harder. Understanding AI's role in the workplace is essential for future planning.",
+      "text_en_b2": "Tech industry leaders assert that AI is set to reduce workloads significantly. However, many employees report working up to 90 hours per week, sparking a significant debate regarding AI's true impact on labor dynamics. The discrepancy between leadership expectations and employee experiences raises critical questions about the future of work in an AI-driven environment. It is crucial to analyze how AI can effectively enhance productivity while ensuring a balanced workload for employees.",
+      "text_en_c1": "In a recent discussion, prominent tech leaders claimed that AI technology is poised to alleviate workloads for many workers. Nevertheless, a considerable number of employees are reporting weekly work hours nearing 90, igniting a heated debate about the real implications of AI integration in the workplace. This stark contrast between leadership perspectives and frontline experiences highlights essential questions regarding the evolving nature of employment in an increasingly automated world. Addressing these concerns is paramount for businesses aiming to leverage AI effectively.",
+      "text_en_c2": "Amidst evolving discussions in the tech sector, industry leaders have posited that the advent of AI technologies could significantly lessen the burdens faced by employees. In stark contrast, however, numerous workers have reported grueling schedules, often exceeding 90 hours a week. This paradoxical situation has sparked an intense dialogue surrounding the genuine implications of AI on workplace dynamics. It becomes imperative to investigate how AI can be harnessed to enhance productivity while simultaneously safeguarding the well-being of the workforce in this transformative era.",
+      "source_hint": "Discussion on AI's impact on work hours."
     },
     {
-      "id": "clip_4",
+      "id": "clip4",
       "category": "hk/news",
-      "topic_zh": "香港調解機構",
-      "topic_en": "HK Mediation Body",
-      "text_zh": "香港的一個調解機構宣佈已經準備好應對國家糾紛，並希望成為亞洲的法律樞紐，這對香港的法律界是一個重要的進展。",
-      "text_en_b1": "A mediation body in Hong Kong announced that it is ready to handle state disputes. This organization aims to become a legal hub in Asia. This progress is significant for Hong Kong's legal community. By preparing for more complex cases, the body hopes to strengthen its role in regional dispute resolution. This move could attract more international cases to Hong Kong. The development is seen as a key step in enhancing Hong Kong's position in the legal field.",
-      "text_en_b2": "A mediation body based in Hong Kong has declared its readiness to address state disputes, aspiring to establish itself as a prominent legal hub in Asia. This development represents a significant milestone for Hong Kong's legal community, as it seeks to enhance its capacity to manage more complex legal cases. By positioning itself to tackle regional disputes effectively, the organization aims to attract a higher volume of international cases to Hong Kong. This initiative is viewed as a crucial step in reinforcing Hong Kong's standing within the global legal landscape.",
-      "source_hint": "Announcement by a Hong Kong mediation body."
+      "topic_zh": "香港科技股",
+      "topic_en": "HK Tech Stocks",
+      "text_zh": "香港指數編制公司提出將20隻股票加入主要科技指數。這個提議受到市場的關注，並可能影響投資者的決策。詳細情況將在下週公布。",
+      "text_en_b1": "The Hong Kong index compiler proposed adding 20 new stocks to the main technology index. This proposal has attracted market attention. Investors are watching closely as this could influence their decisions. The changes aim to reflect the growing tech sector. More details will be revealed next week. This move could reshape the investment landscape in Hong Kong.",
+      "text_en_b2": "A proposal by the Hong Kong index compiler to include 20 additional stocks in the main technology index has garnered significant attention from the market. Investors are closely monitoring this development, as it could have substantial implications for their investment strategies. The adjustments are designed to better reflect the rapid growth of the technology sector in Hong Kong. Comprehensive details regarding this proposal are expected to be released next week, potentially reshaping the local investment landscape.",
+      "text_en_c1": "The Hong Kong index compiler has recently put forth a proposal to incorporate 20 additional stocks into the principal technology index, a move that has stirred considerable interest within the financial markets. Investors are attentively watching this situation, recognizing that such changes could significantly impact their investment approaches. This strategic adjustment aims to capture the dynamic growth trajectory of Hong Kong’s technology sector. Further details will be announced next week, marking a pivotal moment for local investment strategies.",
+      "text_en_c2": "In a notable development, the Hong Kong index compiler has proposed the inclusion of 20 new stocks into the primary technology index, a decision that has ignited substantial interest across financial markets. Investors are keenly observing these developments, understanding that such modifications may profoundly influence their strategic investment decisions. This initiative seeks to more accurately portray the robust growth of the technology sector in Hong Kong. Detailed announcements regarding the proposal will be forthcoming next week, suggesting a transformative shift in the local investment landscape.",
+      "source_hint": "Proposed changes to HK tech index."
     },
     {
-      "id": "clip_5",
+      "id": "clip5",
       "category": "lol/esports",
-      "topic_zh": "聯賽更新",
-      "topic_en": "League Updates",
-      "text_zh": "《英雄聯盟》最近迎來了S15賽季，許多職業選手如FNC Vladi正在突破新的紀錄，讓粉絲們期待更多精彩的比賽。",
-      "text_en_b1": "League of Legends has entered the S15 season, and many professional players are breaking new records. For example, FNC Vladi achieved a record of 5,000 LP. Fans are excited about the upcoming matches. The competition is fierce, and players are showing great skills. This season promises many exciting games. Fans are eager to see how their favorite teams perform and who will come out on top.",
-      "text_en_b2": "The competitive landscape of League of Legends has entered an exhilarating phase with the commencement of the S15 season, where numerous professional players, notably FNC Vladi, have achieved remarkable milestones, including reaching an impressive 5,000 LP. This unprecedented achievement has ignited enthusiasm among fans, who are eagerly anticipating a series of thrilling matches. As the competition intensifies, players are showcasing their exceptional skills and strategies. This season is set to deliver numerous exciting encounters, leaving fans keenly interested in the performances of their favorite teams and their potential to secure victory.",
-      "source_hint": "S15 season updates in League of Legends."
+      "topic_zh": "英雄聯盟",
+      "topic_en": "League of Legends",
+      "text_zh": "在英雄聯盟中，FNC的Vladi創造了歷史，成為第一位達到5000 LP的選手。這一成就被廣泛討論，粉絲們對他的表現讚譽有加。",
+      "text_en_b1": "In League of Legends, FNC’s Vladi made history by becoming the first player to reach 5,000 LP. This amazing achievement is being widely discussed in the gaming community. Fans are praising his skills and dedication. Many players look up to him as a role model. Reaching such a high rank is a significant milestone in esports. It reflects hard work and talent in the competitive scene.",
+      "text_en_b2": "In a groundbreaking moment for the League of Legends community, FNC’s Vladi has made history by becoming the first player to achieve an impressive 5,000 LP. This remarkable accomplishment is generating widespread discussion among gamers and analysts alike. Fans are showering him with praise for his exceptional skills and unwavering dedication to the game. Achieving such a prestigious rank is not only a personal milestone for Vladi but also serves as an inspiration for aspiring players in the competitive esports landscape.",
+      "text_en_c1": "FNC’s Vladi has etched his name in the annals of League of Legends history by becoming the inaugural player to attain an extraordinary 5,000 LP. This monumental achievement has sparked extensive discussions within the gaming community, with fans and commentators alike lauding his exceptional gameplay and relentless dedication. Reaching this remarkable rank signifies not only a personal triumph for Vladi but also serves as a beacon of inspiration for countless aspiring competitors within the dynamic esports ecosystem.",
+      "text_en_c2": "In a historic achievement for the League of Legends esports scene, FNC’s Vladi has distinguished himself by becoming the first player ever to reach an astonishing 5,000 LP. This landmark accomplishment has ignited fervent discussions throughout the gaming community, with enthusiastic fans and critics praising his extraordinary skills and unwavering commitment to excellence. Achieving such a prestigious rank is a testament to Vladi’s hard work and talent, serving as a powerful motivator for emerging players aspiring to succeed in the fiercely competitive realm of esports.",
+      "source_hint": "FNC Vladi's achievement in League of Legends."
     },
     {
-      "id": "clip_6",
+      "id": "clip6",
       "category": "mma/fitness",
-      "topic_zh": "MMA熱潮",
-      "topic_en": "MMA Trends",
-      "text_zh": "MMA最近受到了更多關注，許多健身愛好者開始參加訓練班，這也促進了健身房的增長。",
-      "text_en_b1": "MMA has gained more attention recently. Many fitness fans are joining training classes to learn the sport. This trend has led to an increase in gym memberships. People appreciate the fitness benefits and skills of MMA. With more classes available, many are excited to start training. This growth in interest is changing the fitness scene, making MMA more popular among enthusiasts.",
-      "text_en_b2": "Mixed Martial Arts (MMA) has recently experienced a surge in popularity, leading to a growing number of fitness enthusiasts enrolling in training classes to learn the sport. This rising interest has resulted in increased gym memberships as individuals recognize the fitness benefits and skill development associated with MMA training. The availability of more classes is encouraging numerous participants to embark on their training journeys, contributing to a significant transformation in the fitness landscape and establishing MMA as a favored choice among workout enthusiasts.",
-      "source_hint": "Growing popularity of MMA training classes."
+      "topic_zh": "健身與MMA",
+      "topic_en": "Fitness and MMA",
+      "text_zh": "MMA選手最近在比賽中展現了驚人的表現，許多人讚揚了他們的技術和毅力。健身愛好者也受到啟發，努力提高自己的訓練成果。",
+      "text_en_b1": "MMA fighters recently showcased amazing performances in their matches. Many fans praised their skills and determination. This has inspired fitness enthusiasts to work harder. Watching these athletes compete motivates people to improve their training. MMA not only entertains but also encourages physical fitness. Fans are excited for future events.",
+      "text_en_b2": "Recent MMA events have witnessed fighters delivering spectacular performances that captivated fans and garnered widespread acclaim. The display of exceptional skills and unwavering determination has not only impressed spectators but also inspired fitness enthusiasts to elevate their training routines. Observing these athletes compete at such high levels serves as a powerful motivator for individuals looking to enhance their physical fitness. As the excitement builds for upcoming events, the connection between MMA and personal fitness continues to resonate strongly.",
+      "text_en_c1": "In recent MMA competitions, fighters have delivered stunning performances that have captivated audiences and earned widespread admiration for their skills and resilience. This impressive display has sparked inspiration among fitness enthusiasts, motivating them to intensify their training efforts. The competitive nature of MMA not only entertains but also serves as a compelling catalyst for individuals striving to achieve their fitness goals. As anticipation grows for forthcoming bouts, the interplay between martial arts and personal fitness remains a significant focus for many.",
+      "text_en_c2": "In an exhilarating showcase of athleticism, recent MMA competitions saw fighters delivering remarkable performances that left audiences enthralled and garnered significant acclaim for their technical skills and steadfast resolve. This phenomenon has inspired a surge of motivation among fitness enthusiasts, urging them to enhance their training regimens. The dynamic and competitive essence of MMA not only serves as a source of entertainment but also acts as a powerful impetus for individuals pursuing their fitness aspirations. As the community eagerly anticipates future events, the symbiotic relationship between martial arts and personal health continues to thrive.",
+      "source_hint": "Recent MMA matches drawing fan excitement."
     },
     {
-      "id": "clip_7",
+      "id": "clip7",
       "category": "anime/culture",
       "topic_zh": "動漫文化",
       "topic_en": "Anime Culture",
-      "text_zh": "《進擊的巨人》最近再次受到關注，因為新的動畫季即將推出，吸引了許多粉絲的期待。",
-      "text_en_b1": "Attack on Titan has gained attention again as a new season of the anime is about to be released. Many fans are excited and discussing the upcoming episodes. This series has a huge following, and people are eager to see what happens next. The story has kept viewers engaged for a long time. Fans are sharing their thoughts online and making predictions about the new season. The excitement is building as the release date approaches.",
-      "text_en_b2": "The anime series Attack on Titan is once again capturing widespread attention, as a new season is set to premiere soon. Fans are buzzing with excitement and actively engaging in discussions about the forthcoming episodes. With its substantial following, the series has managed to keep viewers captivated for an extended period. As anticipation builds, fans are sharing their insights online and speculating about potential developments in the new season. The excitement around the release date is palpable, promising intense engagement from the community.",
-      "source_hint": "New season of Attack on Titan announcement."
+      "text_zh": "《進擊的巨人》最新一季再次吸引了大量粉絲，收視率顯著上升。這部作品對觀眾的影響力持續擴大，引發了對動漫文化的熱烈討論。",
+      "text_en_b1": "The latest season of Attack on Titan has attracted many fans, with ratings significantly rising. This anime continues to influence viewers. Fans are discussing its themes and characters. The impact of Attack on Titan on anime culture is remarkable. It brings people together around shared interests. The show’s popularity shows how strong anime fandom can be.",
+      "text_en_b2": "The newest season of Attack on Titan has captivated a vast audience, leading to a notable increase in viewership ratings. This acclaimed anime continues to exert a significant influence on its fans. As discussions about the show's complex themes and characters proliferate, it becomes clear that Attack on Titan has made a profound impact on anime culture. The series not only entertains but also fosters a sense of community among viewers who share their passion for this medium.",
+      "text_en_c1": "The recent season of Attack on Titan has garnered remarkable attention, witnessing a considerable surge in viewership ratings. As one of the most acclaimed anime series, it continues to wield substantial influence over its audience. The ongoing discussions surrounding its intricate themes and well-developed characters underscore the profound impact Attack on Titan has had on contemporary anime culture. This series transcends mere entertainment, cultivating a vibrant community of fans who passionately share and celebrate their love for anime.",
+      "text_en_c2": "The latest installment of Attack on Titan has achieved a phenomenal rise in viewership ratings, captivating an extensive audience of devoted fans. As a hallmark of contemporary anime, the series persists in its powerful influence over viewers, prompting engaging discourse around its intricate themes and multifaceted characters. The enduring success of Attack on Titan illustrates its significant role in shaping modern anime culture, fostering an enthusiastic and connected community of fans who revel in their shared enthusiasm for this artistic medium.",
+      "source_hint": "Increase in popularity for Attack on Titan season."
     }
   ]
 }

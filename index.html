@@ -462,18 +462,28 @@ function saveRatings() {
   localStorage.setItem('ss.ratings', JSON.stringify(state.recentRatings));
 }
 
-// Map an average rating to a target level
+// Map an average rating to a target level.
+// 5 levels: A2 < B1 < B2 < C1 < C2. Promote at avg ≥ 4.0, demote at avg < 2.5.
+const LEVEL_RANK = { A2: 0, B1: 1, B2: 2, C1: 3, C2: 4 };
 function levelFromAverage(avg, currentLevel) {
-  // avg 1-5 stars from last N ratings
-  if (avg >= 4.0 && currentLevel === 'B1') return 'B2';
-  if (avg < 2.5 && currentLevel === 'B2') return 'B1';
+  const idx = LEVEL_RANK[currentLevel];
+  if (idx === undefined) return currentLevel;
+  if (avg >= 4.0 && idx < 4) {
+    return Object.keys(LEVEL_RANK).find(k => LEVEL_RANK[k] === idx + 1) || currentLevel;
+  }
+  if (avg < 2.5 && idx > 0) {
+    return Object.keys(LEVEL_RANK).find(k => LEVEL_RANK[k] === idx - 1) || currentLevel;
+  }
   return currentLevel;
 }
 
 function getTextForLevel(clip) {
-  if (clip.text_en_b1 && clip.text_en_b2) {
-    return state.currentLevel === 'B2' ? clip.text_en_b2 : clip.text_en_b1;
-  }
+  // Pick the best available text for the current level.
+  // Falls back to the closest lower level if the exact one isn't there.
+  if (state.currentLevel === 'C2' && clip.text_en_c2) return clip.text_en_c2;
+  if (state.currentLevel === 'C1' && clip.text_en_c1) return clip.text_en_c1;
+  if (state.currentLevel === 'B2' && clip.text_en_b2) return clip.text_en_b2;
+  if (clip.text_en_b1) return clip.text_en_b1;
   return clip.text; // baseline fallback
 }
 
@@ -1131,10 +1141,12 @@ function renderSettings() {
           <div class="sub">${levelInfo}. Auto-adjusts as you rate. Manual override below.</div>
         </div>
         <select id="set-level">
-          <option value="AUTO" ${state.currentLevel === 'B1' || state.currentLevel === 'B2' ? '' : 'selected'}>Auto (${state.currentLevel})</option>
+          <option value="AUTO" ${['B1','B2','C1','C2'].includes(state.currentLevel) ? '' : 'selected'}>Auto (${state.currentLevel})</option>
           <option value="A2" ${state.currentLevel === 'A2' ? 'selected' : ''}>A2 — beginner</option>
           <option value="B1" ${state.currentLevel === 'B1' ? 'selected' : ''}>B1 — intermediate (IELTS 5)</option>
           <option value="B2" ${state.currentLevel === 'B2' ? 'selected' : ''}>B2 — upper intermediate</option>
+          <option value="C1" ${state.currentLevel === 'C1' ? 'selected' : ''}>C1 — advanced</option>
+          <option value="C2" ${state.currentLevel === 'C2' ? 'selected' : ''}>C2 — proficient</option>
         </select>
       </div>
 
@@ -1308,8 +1320,10 @@ function attachHandlers() {
         if (newLevel !== state.currentLevel) {
           saveLevel(newLevel);
           updateTopStats();
-          if (newLevel === 'B2') toast('Level up! B2 unlocked. Harder content from now on.');
-          if (newLevel === 'B1' && state.recentRatings.length >= 5) toast('Dropped to B1. Keep at it.');
+          const newIdx = LEVEL_RANK[newLevel];
+          const oldIdx = LEVEL_RANK[state.currentLevel];
+          if (newIdx > oldIdx) toast(`Level up! Now at ${newLevel}. Harder content from now on.`);
+          else toast(`Dropped to ${newLevel}. Take it slow.`);
         }
       });
     });

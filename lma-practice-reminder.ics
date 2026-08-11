@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//seven-steps//LMA Practice Reminder//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lma-practice-reminder@seven-steps
+DTSTAMP:20260810T120000Z
+DTSTART;TZID=Asia/Hong_Kong:20260811T190000
+DTEND;TZID=Asia/Hong_Kong:20260811T193000
+RRULE:FREQ=DAILY
+SUMMARY:提做 LMA 練習
+DESCRIPTION:Time for the seven steps. Open the app: https://yip-lgtm.github.io/seven-steps/
+URL:https://yip-lgtm.github.io/seven-steps/
+LOCATION:https://yip-lgtm.github.io/seven-steps/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提做 LMA 練習
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
