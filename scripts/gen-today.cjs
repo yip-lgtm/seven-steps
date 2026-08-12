@@ -1,6 +1,6 @@
 // Daily content generator for Seven Steps
-// Reads persona.json, fetches a few RSS feeds for fresh context, then asks
-// OpenRouter to write 7 bilingual clips at 3 CEFR levels each.
+// Reads persona.json, fetches Reddit/4chan for fresh context, then asks
+// OpenRouter to write 7 bilingual clips at 4 CEFR levels each (B1/B2/C1/C2).
 
 const fs = require('fs');
 const path = require('path');
@@ -8,39 +8,87 @@ const path = require('path');
 const today = new Date().toISOString().slice(0, 10);
 const PERSONA = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'clips', 'persona.json'), 'utf8'));
 
-// RSS feeds for fresh headlines. Different categories, no key needed.
+// Feeds: Reddit (RSS) + 4chan (JSON). No API keys. SFW boards only.
 const FEEDS = [
-  { url: 'https://feeds.bbci.co.uk/news/business/rss.xml', topic: 'markets/trading' },
-  { url: 'https://feeds.bbci.co.uk/news/technology/rss.xml', topic: 'tech/AI' },
-  { url: 'https://www.scmp.com/rss/91/feed', topic: 'Hong Kong' },
-  { url: 'https://www.reddit.com/r/leagueoflegends/.rss', topic: 'LoL esports' },
-  { url: 'https://hnrss.org/frontpage', topic: 'tech/startups' },
+  // Reddit — the colorful stuff
+  { url: 'https://www.reddit.com/r/wallstreetbets/.rss', topic: 'trading/WSB', source: 'rss' },
+  { url: 'https://www.reddit.com/r/anime/.rss', topic: 'anime', source: 'rss' },
+  { url: 'https://www.reddit.com/r/MMA/.rss', topic: 'MMA', source: 'rss' },
+  { url: 'https://www.reddit.com/r/Hong_Kong/.rss', topic: 'Hong Kong', source: 'rss' },
+  { url: 'https://www.reddit.com/r/leagueoflegends/.rss', topic: 'LoL esports', source: 'rss' },
+  { url: 'https://www.reddit.com/r/gaming/.rss', topic: 'gaming', source: 'rss' },
+  { url: 'https://www.reddit.com/r/funny/.rss', topic: 'internet culture', source: 'rss' },
+  { url: 'https://www.reddit.com/r/technology/.rss', topic: 'tech/AI', source: 'rss' },
+  // 4chan — SFW boards only
+  { url: 'https://a.4chan.org/biz/catalog.json', topic: '4chan/biz', source: '4chan' },
+  { url: 'https://a.4chan.org/fit/catalog.json', topic: '4chan/fit', source: '4chan' },
+  { url: 'https://a.4chan.org/vg/catalog.json', topic: '4chan/vg', source: '4chan' },
+  { url: 'https://a.4chan.org/a/catalog.json', topic: '4chan/a', source: '4chan' },
 ];
 
 async function fetchTitles(feed) {
   try {
-    const res = await fetch(feed.url, {
-      headers: { 'User-Agent': 'seven-steps/1.0' },
-      signal: AbortSignal.timeout(8000),
-    });
-    if (!res.ok) return [];
-    const xml = await res.text();
-    const titles = [];
-    const re = /<title[^>]*>([\s\S]*?)<\/title>/g;
-    let m;
-    while ((m = re.exec(xml)) !== null) {
-      let t = m[1]
-        .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-        .replace(/<[^>]+>/g, '')
-        .trim();
-      if (t && t.length > 8 && t.length < 200 && !t.toLowerCase().includes('rss')) {
-        titles.push(t);
-      }
-    }
-    return titles.slice(0, 6).map(t => `- [${feed.topic}] ${t}`);
+    if (feed.source === '4chan') return await fetch4chanTitles(feed);
+    return await fetchRssTitles(feed);
   } catch (e) {
     return [];
   }
+}
+
+async function fetchRssTitles(feed) {
+  const res = await fetch(feed.url, {
+    headers: { 'User-Agent': 'seven-steps/1.0' },
+    signal: AbortSignal.timeout(8000),
+  });
+  if (!res.ok) return [];
+  const xml = await res.text();
+  const titles = [];
+  const re = /<title[^>]*>([\s\S]*?)<\/title>/g;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    let t = m[1]
+      .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+      .replace(/<[^>]+>/g, '')
+      .trim();
+    if (t && t.length > 8 && t.length < 200 && !t.toLowerCase().includes('rss')) {
+      titles.push(t);
+    }
+  }
+  return titles.slice(0, 6).map(t => `- [${feed.topic}] ${t}`);
+}
+
+async function fetch4chanTitles(feed) {
+  // 4chan catalog.json: array of pages, each with a .threads array.
+  // Threads have .sub (subject) and .com (OP body in HTML/greentext).
+  const res = await fetch(feed.url, {
+    headers: { 'User-Agent': 'seven-steps/1.0' },
+    signal: AbortSignal.timeout(8000),
+  });
+  if (!res.ok) return [];
+  const pages = await res.json();
+  const titles = [];
+  for (const page of pages) {
+    for (const thread of (page.threads || [])) {
+      if (thread.sticky) continue;
+      const subject = (thread.sub || '').trim();
+      const com = (thread.com || '')
+        .replace(/<br\s*\/?>/gi, ' ')
+        .replace(/<[^>]+>/g, '')
+        .replace(/&gt;/g, '>')
+        .replace(/&lt;/g, '<')
+        .replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+      const t = (subject || com.split('. ')[0] || '').slice(0, 150);
+      if (t && t.length > 8 && t.length < 200) {
+        titles.push(t);
+      }
+      if (titles.length >= 6) break;
+    }
+    if (titles.length >= 6) break;
+  }
+  return titles.slice(0, 6).map(t => `- [${feed.topic}] ${t}`);
 }
 
 function buildPrompt(headlines) {
@@ -48,7 +96,7 @@ function buildPrompt(headlines) {
   const mix = PERSONA.content_mix;
   const mixLine = Object.entries(mix).map(([k, n]) => `${n} ${k.replace(/_/g, '/')}`).join(', ');
 
-  return `Generate exactly 7 short English learning clips for a ${persona.age}-year-old Hong Kong learner whose interests are below. The content should be FRESH and reflect the news headlines provided at the end of this prompt. Each clip should feel like something this person would actually read on LIHKG, watch in a YouTube short, or see on a finance app.
+  return `Generate exactly 7 short English learning clips for a ${persona.age}-year-old Hong Kong learner whose interests are below. The content should be FRESH and reflect the news headlines provided at the end of this prompt. Each clip should feel like something this person would actually read on LIHKG, watch in a YouTube short, see on a finance app, or scroll past on Reddit.
 
 # Learner profile
 - Background: ${persona.background}
@@ -64,6 +112,9 @@ function buildPrompt(headlines) {
 # Topic distribution
 Cover these 7 categories (one clip each): ${mixLine}.
 
+# Vibe — IMPORTANT
+The content should be INTERESTING, EDGY, and FRESH. Not bland corporate news. Draw from what people actually talk about on Reddit, 4chan, LIHKG, and finance Twitter. The user explicitly said the previous content was too boring — write stuff people would actually share in a group chat. Drama, controversy, unexpected turns, internet culture references, vivid numbers, named characters. Still factual, still news-shaped, but with a pulse.
+
 # English difficulty
 The user is around IELTS 5 (CEFR B1, intermediate) but the app supports FIVE levels so the learner can grow into harder content. For EACH clip, write the English at FOUR CEFR levels:
 - **B1** (intermediate, IELTS 5): 50-65 words. Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style.
@@ -78,7 +129,7 @@ The Chinese version is a single translation (used as the learner's reference). I
 - Use a mix of tenses across the 7 clips (don't make all of them past tense).
 - Each clip must have at least one specific concrete detail (a number, a name, a place, a date) so it feels like a real news event, not a generic essay.
 - Use real numbers from the headlines below when possible. If a headline mentions a specific figure, use that figure. Do not invent large dollar amounts.
-- Tone: factual, current, like a Bloomberg or SCMP short news brief. Not chatty, not opinionated.
+- Tone: factual but with personality. Like a Bloomberg brief written by someone who also browses Reddit.
 - Each clip should be self-contained — a person reading just this one clip should understand what happened.
 - Topics should be tied to the headlines below when possible. If a category doesn't have a matching headline, invent a plausible recent event with a specific date.
 - DO NOT add motivational endings like "stay focused!" or "keep trading!" — these are news briefs, not pep talks.
@@ -124,7 +175,7 @@ async function callOpenRouter(prompt) {
     body: JSON.stringify({
       model: 'openai/gpt-4o-mini',
       messages: [{ role: 'user', content: prompt }],
-      temperature: 0.85,
+      temperature: 0.9,
       response_format: { type: 'json_object' },
     }),
     signal: AbortSignal.timeout(60000),
@@ -137,7 +188,7 @@ async function callOpenRouter(prompt) {
 }
 
 (async () => {
-  // 1. Fetch fresh headlines
+  // 1. Fetch fresh headlines in parallel
   console.log(`[${today}] Fetching headlines from ${FEEDS.length} feeds...`);
   const headlineArrays = await Promise.all(FEEDS.map(fetchTitles));
   const allHeadlines = headlineArrays.flat();
