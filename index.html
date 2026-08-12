@@ -20,6 +20,42 @@
     --danger: #b3402a;
     --good: #3b7a4f;
   }
+  body.dark {
+    --bg: #0e1116;
+    --surface: #161b22;
+    --ink: #e6edf3;
+    --ink-soft: #b1bac4;
+    --ink-faint: #7d8590;
+    --accent: #4ec9b0;
+    --accent-deep: #3aa995;
+    --accent-soft: #1f3a37;
+    --warm: #e8a87c;
+    --warm-soft: #3a2a1f;
+    --line: #30363d;
+    --danger: #f85149;
+    --good: #56d364;
+  }
+  body.dark { background: #0e1116; color: #e6edf3; }
+  body.dark .card { border-color: var(--line); }
+  body.dark .step-body { background: #1c2128; }
+  body.dark .home-stat { background: #1c2128; }
+  body.dark .settings-row + .settings-row { border-color: var(--line); }
+  body.dark .transcript { color: #d0d7de; }
+  body.dark .transcript.zh { color: var(--ink-soft); }
+  body.dark .star { color: #30363d; }
+  body.dark .star.active { color: var(--warm); }
+  body.dark textarea, body.dark select, body.dark input[type="text"] {
+    background: #0d1117; color: var(--ink); border-color: var(--line);
+  }
+  body.dark .rec-btn { background: var(--danger); }
+  body.dark .daily-banner { background: #1f3a37; color: #4ec9b0; }
+  body.dark .play-circle { background: var(--accent); }
+  body.dark .play-circle:hover { background: var(--accent-deep); }
+  body.dark .toast { background: #21262d; color: var(--ink); }
+  body.dark .audio-playback { background: #0d1117; border-color: var(--line); }
+  body.dark .topic-zh { color: var(--ink); }
+  body.dark .topic-en { color: var(--ink-soft); }
+  body.dark .big-emoji { filter: brightness(1.1); }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { height: 100%; }
   body {
@@ -41,6 +77,19 @@
     padding-bottom: 16px; margin-bottom: 24px;
     border-bottom: 1px solid var(--line);
   }
+  .topbar-right { display: flex; align-items: center; gap: 14px; }
+  .theme-toggle {
+    background: transparent; border: 1px solid var(--line);
+    width: 34px; height: 34px; border-radius: 50%;
+    display: grid; place-items: center; cursor: pointer;
+    color: var(--ink-soft); transition: all 0.15s ease;
+    padding: 0;
+  }
+  .theme-toggle:hover { background: var(--bg); color: var(--ink); }
+  .theme-toggle svg { width: 16px; height: 16px; }
+  .theme-toggle .icon-moon { display: none; }
+  body.dark .theme-toggle .icon-sun { display: none; }
+  body.dark .theme-toggle .icon-moon { display: block; }
   .brand { display: flex; align-items: center; gap: 12px; }
   .brand-mark {
     width: 36px; height: 36px; border-radius: 10px;
@@ -328,11 +377,17 @@
         <div class="brand-sub">one clip, seven reps</div>
       </div>
     </div>
-    <div class="stats">
-      <div class="stat"><strong id="stat-level">B1</strong>level</div>
-      <div class="stat"><strong id="stat-streak">0</strong>streak</div>
-      <div class="stat"><strong id="stat-today">0</strong>today</div>
-      <div class="stat"><strong id="stat-total">0</strong>total</div>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="btn-theme" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <div class="stats">
+        <div class="stat"><strong id="stat-level">B1</strong>level</div>
+        <div class="stat"><strong id="stat-streak">0</strong>streak</div>
+        <div class="stat"><strong id="stat-today">0</strong>today</div>
+        <div class="stat"><strong id="stat-total">0</strong>total</div>
+      </div>
     </div>
   </div>
   <div id="view"></div>
@@ -453,6 +508,18 @@ function loadLevel() {
 function saveLevel(l) {
   localStorage.setItem('ss.level', l);
   state.currentLevel = l;
+}
+function loadTheme() {
+  return localStorage.getItem('ss.theme') || 'light';
+}
+function applyTheme(t) {
+  if (t === 'dark') document.body.classList.add('dark');
+  else document.body.classList.remove('dark');
+  localStorage.setItem('ss.theme', t);
+}
+function toggleTheme() {
+  const next = document.body.classList.contains('dark') ? 'light' : 'dark';
+  applyTheme(next);
 }
 function loadRatings() {
   try { return JSON.parse(localStorage.getItem('ss.ratings')) || []; }
@@ -1275,6 +1342,9 @@ function attachHandlers() {
   const btnSettings = document.getElementById('btn-settings');
   if (btnSettings) btnSettings.addEventListener('click', () => { state.view = 'settings'; render(); });
 
+  const btnTheme = document.getElementById('btn-theme');
+  if (btnTheme) btnTheme.addEventListener('click', toggleTheme);
+
   // Settings
   const setLevel = document.getElementById('set-level');
   if (setLevel) setLevel.addEventListener('change', e => {
@@ -1449,6 +1519,8 @@ function attachHandlers() {
 // INIT
 // ============================================================
 (async function init() {
+  // Apply saved theme before first render to avoid flash
+  applyTheme(loadTheme());
   // Try to load today's daily content. If it fails, keep the baseline CLIPS.
   await loadDailyClips();
   render();
