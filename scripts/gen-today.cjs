@@ -75,15 +75,16 @@ async function fetch4chanTitles(feed) {
   return titles.slice(0, 6).map(t => `- [${feed.topic}] ${t}`);
 }
 
-// Level targets — each is hit in its own dedicated LLM call
+// Level targets — calibrated to what the LLM reliably hits in a focused
+// single-level call. Tighter than this and the model starts padding.
 const LEVELS = {
-  b1: { min: 55, max: 70, name: 'B1 (intermediate, IELTS 5)',
+  b1: { min: 45, max: 65, name: 'B1 (intermediate, IELTS 5)',
         desc: 'Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style. The default.' },
-  b2: { min: 75, max: 90, name: 'B2 (upper-intermediate, IELTS 6.5)',
+  b2: { min: 70, max: 85, name: 'B2 (upper-intermediate, IELTS 6.5)',
         desc: 'More complex sentences with subordinating conjunctions (although/because/while), some phrasal verbs, broader vocabulary, occasionally an idiom where natural.' },
-  c1: { min: 95, max: 115, name: 'C1 (advanced, IELTS 7.5)',
+  c1: { min: 90, max: 110, name: 'C1 (advanced, IELTS 7.5)',
         desc: 'Sophisticated structure, varied sentence types including conditionals and relative clauses, natural idioms, formal-to-neutral register.' },
-  c2: { min: 115, max: 140, name: 'C2 (proficient, IELTS 9)',
+  c2: { min: 110, max: 135, name: 'C2 (proficient, IELTS 9)',
         desc: 'Near-native, dense and elegant, complex idioms, abstract as well as concrete, may include a short subordinate clause or two per sentence. Reads like a quality newspaper paragraph.' },
 };
 
@@ -120,7 +121,8 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 
 # B1 spec (target for text_en_b1 in this call)
 ${LEVELS.b1.name}: ${LEVELS.b1.min}-${LEVELS.b1.max} words. ${LEVELS.b1.desc}
-- HIT THE WORD COUNT. Before returning, count each B1. If any is below ${LEVELS.b1.min}, add another sentence with a specific detail (number, name, date) until it is in range.
+- HARD WORD COUNT: every text_en_b1 must be at least ${LEVELS.b1.min} words. Count them. If any is short, add another concrete sentence with a number, name, or date until it is in range.
+- A short B1 is a failure. Do not produce 20-word summaries.
 - Use a mix of tenses across the 7 clips.
 - Each clip must have at least one specific concrete detail (a number, a name, a place, a date) so it feels like a real news event.
 - Tone: factual but with personality, like a Bloomberg brief written by someone who browses Reddit.
@@ -157,7 +159,8 @@ ${spec.name}: ${spec.min}-${spec.max} words.
 ${spec.desc}
 
 # CRITICAL RULES
-- Each rewritten clip MUST be between ${spec.min} and ${spec.max} words. Count carefully. Do not under-deliver.
+- Every rewritten clip MUST be between ${spec.min} and ${spec.max} words. Count them carefully. Do not under-deliver.
+- For C1 and C2 specifically, the rewrite MUST be LONGER than the B1 input — more sophisticated, more detailed, with more subordinate clauses. A C2 shorter than the B1 is a failure.
 - The rewrite must be NOTICEABLY more complex than the B1 version — not just synonyms. New sentence structures, more sophisticated vocabulary, richer detail, more nuance.
 - Keep the same facts and story as the B1 version. Same event, same numbers, same people — just expressed at a higher level.
 - Do not add motivational endings.
