@@ -1,8 +1,8 @@
 # The Seven Steps
 
-A single-file self-study program for English listening and speaking. Built around the Seven Steps method: one short clip, run through seven reps, real English in your mouth.
+A single-file self-study program for English listening and speaking. One short clip, run through seven reps, real English in your mouth.
 
-No build step. No dependencies. One HTML file + a daily content pipeline that hands you fresh clips every morning.
+No build step. No dependencies. One HTML file + a daily content pipeline that hands you fresh bilingual clips every morning, with an English level that auto-adjusts to how well you're doing.
 
 ## The seven steps
 
@@ -11,14 +11,22 @@ Each clip goes through all seven, in order. No skipping back — the momentum is
 | # | Step | What you do |
 |---|---|---|
 | 1 | **Rate** | Hear it. Rate how much you caught. Nothing on screen yet. |
-| 2 | **Grasp** | Hear it again. Blurt (or type) the meaning before the English lands. |
+| 2 | **Grasp** | Hear it again. Blurt (or type) the meaning in English before the original lands. |
 | 3 | **Hum** | Catch the tune and the beat, not the words. |
 | 4 | **Shadow** | Say it WITH the voice, in real time. Not after. |
 | 5 | **Read** | Now you see it. Read along, out loud. |
 | 6 | **Recall** | Hide the text. English in, English out, fast. Then mimic. |
 | 7 | **Freestyle** | Sixty seconds on the same topic. Five sentences or more. This is the one that counts. |
 
-Seven out of ten is a win, every time.
+70% of clips in a day = a win. The threshold auto-adjusts to your session size.
+
+## Features
+
+- **Bilingual content** (中英對照) — every clip has a Chinese version as the learner's reference, plus English at your current level
+- **5 CEFR levels** — A2, B1 (default), B2, C1, C2
+- **Auto-leveling** — your last 10 ratings set the level. Rate 4+ stars consistently and you get promoted to the next level. Drop below 2.5 and you go back down. Manual override in Settings.
+- **Dark mode** — tap the sun/moon icon in the top bar. Persists across reloads.
+- **No build, no backend** — pure static site, runs anywhere
 
 ## Run locally
 
@@ -39,30 +47,71 @@ Any static server works — `npx serve`, `caddy file-server`, whatever you've go
 3. Source: **Deploy from a branch** → `main` / `(root)`
 4. Wait a minute. Your site is live at `https://<user>.github.io/<repo>/`
 
-That's it. The microphone works because the page is served over HTTPS.
+The microphone works because the page is served over HTTPS. Open it on your phone for mobile practice.
+
+> **Heads up on scheduled workflows:** GitHub auto-disables scheduled Actions after ~60 days of no activity. If the daily content stops appearing, repo → **Actions** tab → click **Enable** on the disabled workflow.
 
 ## Daily content pipeline
 
-The app pulls a fresh set of 7 clips every day from `clips/today.json`. A GitHub Action (`.github/workflows/daily-content.yml`) regenerates that file at **00:00 UTC = 08:00 Asia/Hong_Kong** by calling an LLM via [OpenRouter](https://openrouter.ai/) to write 7 brand-new B1-level clips. If the API call fails for any reason, the action falls back to a date-based pick from `clips/pool.json` (100 hand-written clips) so the app never goes a day without fresh content.
+A GitHub Action (`.github/workflows/daily-content.yml`) regenerates `clips/today.json` at **00:00 UTC = 08:00 Asia/Hong_Kong** with 7 fresh bilingual clips. Three-tier fallback so the app never goes a day empty:
 
-- **To enable AI generation:** add an OpenRouter key as a repo secret named `OPENROUTER_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). The action picks it up automatically. Without the secret, the static pool is used.
-- **To change the model:** edit `.github/workflows/daily-content.yml` (the `model:` line). `openai/gpt-4o-mini` is the default — fast, cheap, good B1 output. Any OpenRouter model works.
-- **To expand the static fallback pool:** add more entries to `clips/pool.json` (any text editor; keep the same `{ id, category, topic, text }` shape).
-- **To trigger a refresh manually:** repo → Actions → Daily Content → Run workflow.
-- **If the fetch fails** (no network, `file://` protocol, etc.), the app silently falls back to the 10 baseline clips hardcoded in `index.html`.
+1. **AI generation** (OpenRouter, `openai/gpt-4o-mini`) — persona-driven content from fresh Reddit + 4chan headlines
+2. **Static pool** (`clips/pool.json`, 100 hand-written clips) — kicks in if the API call fails
+3. **Baseline 10** hardcoded in `index.html` — kicks in if the app's daily fetch fails (offline, `file://`, etc.)
 
-Cost at the default model: ~$0.0006/day, so a $1 OpenRouter credit covers about 4 years of daily content.
+### How generation works (5 LLM calls per run)
+
+To keep word counts accurate, the generation is split into focused calls:
+
+1. **Base call** — gets 7 topics + Chinese translations + B1 English
+2. **B2 expansion** — rewrites the B1s at B2 level
+3. **C1 expansion** — rewrites at C1 level
+4. **C2 expansion** — rewrites at C2 level
+
+Each call has a single word-count target so the LLM can't be clever and compress across levels.
+
+### Content sources
+
+- **Reddit (RSS, no key):** r/wallstreetbets, r/anime, r/MMA, r/Hong_Kong, r/leagueoflegends, r/gaming, r/funny, r/technology
+- **4chan (JSON, no key, SFW boards only):** /biz/, /fit/, /vg/, /a/
+- **RSS (no key):** removed BBC/SCMP/HN in favor of the more colorful sources above
+
+The LLM is told to write "INTERESTING, EDGY, FRESH" content — drawing from what people actually talk about on those platforms. Not bland corporate news.
+
+### Setup
+
+1. **Add OpenRouter key** as a repo secret named `OPENROUTER_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). Without it, the static pool is used.
+2. **Customize the persona** by editing `clips/persona.json` — drives what the LLM writes about. Drop in your own details and the content mix shifts.
+3. **Change the model** in `scripts/gen-today.cjs` (the `model:` line). `openai/gpt-4o-mini` is the default — ~$0.003/day.
+4. **Trigger manually:** repo → Actions → Daily Content → Run workflow.
 
 ## Customizing
 
-Everything lives in `index.html`. A few things you might want to change:
+- **Add real audio (recommended)** — TTS is fine, but real human audio is what you actually want for shadowing. For each clip, set `audio: "audio/clip-0.mp3"` and drop the file into `audio/`. The app will play that file instead of TTS. Sources: [BBC Learning English](https://www.bbc.co.uk/learningenglish/), [ELLLO](https://www.elllo.org/), [VOA Learning English](https://learningenglish.voanews.com/), or record your own.
+- **Swap the persona** — edit `clips/persona.json` to drive different content categories, interests, and tone.
+- **Add to the static pool** — append `{ id, category, topic, text }` entries to `clips/pool.json` (used as fallback if AI generation fails).
+- **Settings** — voice, speed, clips per session, win threshold, manual level override, theme toggle.
 
-- **Add more clips** — append to the `CLIPS` array near the top of the script (baseline fallback) **or** add entries to `clips/pool.json` (daily pipeline). Aim for 80–100 words each, B1-level vocabulary, varied tenses.
-- **Swap in real audio (recommended)** — TTS is fine, but real human audio is what you actually want for shadowing. For each clip, set `audio: "audio/clip-0.mp3"` and drop the file into `audio/`. The app will play that file instead of TTS. Sources: [BBC Learning English](https://www.bbc.co.uk/learningenglish/), [ELLLO](https://www.elllo.org/), [VOA Learning English](https://learningenglish.voanews.com/), or record your own.
-- **Change voices / speed** — in the app, hit the Settings button. The voices list comes from your browser/OS.
-- **Win threshold** — also in Settings. Defaults to 70% of the session size, in the spirit of the original "7 of 10" rule.
+## File layout
 
-Progress (streak, today's count, total clips) is saved in your browser's `localStorage` under the `ss.*` keys. It stays on your device. Nothing is uploaded anywhere.
+```
+.
+├── index.html                  # the entire app, single file
+├── clips/
+│   ├── today.json             # daily content, regenerated by the action
+│   ├── pool.json              # 100-clip static fallback
+│   └── persona.json           # drives the LLM's content generation
+├── scripts/
+│   └── gen-today.cjs          # the 5-call generation script
+├── .github/
+│   └── workflows/
+│       └── daily-content.yml   # cron + manual dispatch
+├── lma-practice-reminder.ics  # optional calendar alarm at 19:00 HKT
+├── LICENSE
+└── README.md
+```
+
+Progress (streak, today's count, level, theme) is saved in your browser's `localStorage` under the `ss.*` keys. It stays on your device. Nothing is uploaded anywhere.
 
 ## License
 
