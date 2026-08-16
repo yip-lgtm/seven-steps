@@ -10,19 +10,23 @@ const today = new Date().toISOString().slice(0, 10);
 const PERSONA = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'clips', 'persona.json'), 'utf8'));
 
 const FEEDS = [
-  { url: 'https://www.reddit.com/r/wallstreetbets/.rss', topic: 'trading/WSB', source: 'rss' },
-  { url: 'https://www.reddit.com/r/anime/.rss', topic: 'anime', source: 'rss' },
-  { url: 'https://www.reddit.com/r/MMA/.rss', topic: 'MMA', source: 'rss' },
-  { url: 'https://www.reddit.com/r/Hong_Kong/.rss', topic: 'Hong Kong', source: 'rss' },
-  { url: 'https://www.reddit.com/r/leagueoflegends/.rss', topic: 'LoL esports', source: 'rss' },
-  { url: 'https://www.reddit.com/r/gaming/.rss', topic: 'gaming', source: 'rss' },
-  { url: 'https://www.reddit.com/r/funny/.rss', topic: 'internet culture', source: 'rss' },
-  { url: 'https://www.reddit.com/r/technology/.rss', topic: 'tech/AI', source: 'rss' },
-  { url: 'https://a.4chan.org/biz/catalog.json', topic: '4chan/biz', source: '4chan' },
-  { url: 'https://a.4chan.org/fit/catalog.json', topic: '4chan/fit', source: '4chan' },
-  { url: 'https://a.4chan.org/vg/catalog.json', topic: '4chan/vg', source: '4chan' },
-  { url: 'https://a.4chan.org/a/catalog.json', topic: '4chan/a', source: '4chan' },
+  // Reddit — use a browser-like User-Agent to avoid 429/403 blocks
+  { url: 'https://www.reddit.com/r/wallstreetbets/top.rss', topic: 'trading/WSB', source: 'rss' },
+  { url: 'https://www.reddit.com/r/anime/top.rss', topic: 'anime', source: 'rss' },
+  { url: 'https://www.reddit.com/r/MMA/top.rss', topic: 'MMA', source: 'rss' },
+  { url: 'https://www.reddit.com/r/Hong_Kong/top.rss', topic: 'Hong Kong', source: 'rss' },
+  { url: 'https://www.reddit.com/r/leagueoflegends/top.rss', topic: 'LoL esports', source: 'rss' },
+  { url: 'https://www.reddit.com/r/gaming/top.rss', topic: 'gaming', source: 'rss' },
+  { url: 'https://www.reddit.com/r/funny/top.rss', topic: 'internet culture', source: 'rss' },
+  { url: 'https://www.reddit.com/r/technology/top.rss', topic: 'tech/AI', source: 'rss' },
+  // 4chan — SFW boards only
+  { url: 'https://a.4chan.org/biz/catalog.json', topic: '4chan/biz', source: '4chan', board: 'biz' },
+  { url: 'https://a.4chan.org/fit/catalog.json', topic: '4chan/fit', source: '4chan', board: 'fit' },
+  { url: 'https://a.4chan.org/vg/catalog.json', topic: '4chan/vg', source: '4chan', board: 'vg' },
+  { url: 'https://a.4chan.org/a/catalog.json', topic: '4chan/a', source: '4chan', board: 'a' },
 ];
+
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 
 async function fetchTitles(feed) {
   try {
@@ -33,29 +37,76 @@ async function fetchTitles(feed) {
 
 async function fetchRssTitles(feed) {
   const res = await fetch(feed.url, {
-    headers: { 'User-Agent': 'seven-steps/1.0' },
+    headers: { 'User-Agent': BROWSER_UA },
     signal: AbortSignal.timeout(8000),
   });
   if (!res.ok) return [];
   const xml = await res.text();
-  const titles = [];
-  const re = /<title[^>]*>([\s\S]*?)<\/title>/g;
-  let m;
-  while ((m = re.exec(xml)) !== null) {
-    let t = m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, '').trim();
-    if (t && t.length > 8 && t.length < 200 && !t.toLowerCase().includes('rss')) titles.push(t);
+  const items = [];
+
+  // Helper: extract title and link from a block of XML
+  function extractFromBlock(block) {
+    // RSS 2.0 uses <title> and <link>; ATOM uses <title> and <link rel="alternate" href="..."/>
+    const titleMatch = block.match(/<title[^>]*>([\s\S]*?)<\/title>/);
+    let linkMatch = block.match(/<link[^>]*>([\s\S]*?)<\/link>/);
+    if (!linkMatch) {
+      // ATOM alt link
+      const altLink = block.match(/<link[^>]*rel="alternate"[^>]*href="([^"]+)"/);
+      if (altLink) linkMatch = [null, altLink[1]];
+    }
+    if (!titleMatch) return null;
+    let t = titleMatch[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, '').trim();
+    let u = linkMatch ? linkMatch[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, '').trim() : '';
+    if (u && !u.startsWith('http')) u = '';
+    return { title: t, url: u };
   }
-  return titles.slice(0, 6).map(t => `- [${feed.topic}] ${t}`);
+
+  // Try RSS <item> blocks first
+  const itemRe = /<item[^>]*>([\s\S]*?)<\/item>/g;
+  let m;
+  while ((m = itemRe.exec(xml)) !== null) {
+    const extracted = extractFromBlock(m[1]);
+    if (extracted && extracted.title && extracted.title.length > 8 && extracted.title.length < 200) {
+      items.push(extracted);
+    }
+    if (items.length >= 8) break;
+  }
+
+  // Try ATOM <entry> blocks if RSS didn't yield anything
+  if (items.length === 0) {
+    const entryRe = /<entry[^>]*>([\s\S]*?)<\/entry>/g;
+    while ((m = entryRe.exec(xml)) !== null) {
+      const extracted = extractFromBlock(m[1]);
+      if (extracted && extracted.title && extracted.title.length > 8 && extracted.title.length < 200) {
+        items.push(extracted);
+      }
+      if (items.length >= 8) break;
+    }
+  }
+
+  // Final fallback: just grab titles
+  if (items.length === 0) {
+    const titleRe = /<title[^>]*>([\s\S]*?)<\/title>/g;
+    while ((m = titleRe.exec(xml)) !== null) {
+      let t = m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, '').trim();
+      if (t && t.length > 8 && t.length < 200 && !t.toLowerCase().includes('rss')) {
+        items.push({ title: t, url: '' });
+      }
+      if (items.length >= 8) break;
+    }
+  }
+
+  return items.map(it => `- [${feed.topic}] ${it.title}${it.url ? ` — ${it.url}` : ''}`);
 }
 
 async function fetch4chanTitles(feed) {
   const res = await fetch(feed.url, {
-    headers: { 'User-Agent': 'seven-steps/1.0' },
+    headers: { 'User-Agent': BROWSER_UA },
     signal: AbortSignal.timeout(8000),
   });
   if (!res.ok) return [];
   const pages = await res.json();
-  const titles = [];
+  const items = [];
   for (const page of pages) {
     for (const thread of (page.threads || [])) {
       if (thread.sticky) continue;
@@ -67,12 +118,13 @@ async function fetch4chanTitles(feed) {
         .replace(/\s+/g, ' ')
         .trim();
       const t = (subject || com.split('. ')[0] || '').slice(0, 150);
-      if (t && t.length > 8 && t.length < 200) titles.push(t);
-      if (titles.length >= 6) break;
+      const u = thread.no ? `https://boards.4chan.org/${feed.board || ''}/thread/${thread.no}` : '';
+      if (t && t.length > 8 && t.length < 200) items.push({ title: t, url: u });
+      if (items.length >= 8) break;
     }
-    if (titles.length >= 6) break;
+    if (items.length >= 8) break;
   }
-  return titles.slice(0, 6).map(t => `- [${feed.topic}] ${t}`);
+  return items.map(it => `- [${feed.topic}] ${it.title}${it.url ? ` — ${it.url}` : ''}`);
 }
 
 // Level targets — calibrated to what the LLM reliably hits in a focused
@@ -117,6 +169,7 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 - topic_en (short English title, 2-5 words)
 - text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored)
 - text_en_b1 (English B1 — see level spec below)
+- source_url (MANDATORY: copy the exact URL from the matching headline below, character-for-character. If no headline inspired this clip, use a relevant home page URL like https://www.reuters.com/markets/ or https://www.reddit.com/r/technology/. Never empty.)
 - source_hint (one short sentence about the real event)
 
 # B1 spec (target for text_en_b1 in this call)
@@ -139,6 +192,7 @@ Return ONLY a JSON object in this exact shape, no markdown fences, no commentary
       "topic_en": "<short English title>",
       "text_zh": "<Chinese version>",
       "text_en_b1": "<B1 English, ${LEVELS.b1.min}-${LEVELS.b1.max} words>",
+      "source_url": "<URL, mandatory — never empty>",
       "source_hint": "<short>"
     }
   ]
@@ -172,6 +226,7 @@ ${JSON.stringify(clips.map(c => ({
   topic_zh: c.topic_zh,
   text_zh: c.text_zh,
   text_en_b1: c.text_en_b1,
+  source_url: c.source_url || '',
 })), null, 2)}
 
 # Output format
@@ -232,6 +287,8 @@ async function callOpenRouter(prompt, opts = {}) {
     if (!c.id || !c.topic_zh || !c.topic_en || !c.text_zh || !c.text_en_b1) {
       throw new Error('Base clip missing field: ' + JSON.stringify(c).slice(0, 100));
     }
+    // Normalize: source_url may be missing if no headline inspired the clip
+    c.source_url = c.source_url || '';
   }
 
   // 3. EXPANSION calls: B2, C1, C2 in parallel
