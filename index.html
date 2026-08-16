@@ -578,6 +578,22 @@ function getTopicForLevel(clip) {
   return clip.topic_en || clip.topic;
 }
 
+function formatSourceLabel(url) {
+  if (!url) return '';
+  // Google News search: show the search query nicely
+  try {
+    if (url.includes('news.google.com/search')) {
+      const u = new URL(url);
+      const q = u.searchParams.get('q') || '';
+      if (q) return `Google News: ${decodeURIComponent(q.replace(/\+/g, ' '))}`;
+    }
+  } catch (e) { /* fall through */ }
+  // Otherwise: show the domain, truncated
+  let label = url.replace(/^https?:\/\/(www\.)?/, '');
+  if (label.length > 60) label = label.slice(0, 60) + '…';
+  return label;
+}
+
 function updateTopStats() {
   document.getElementById('stat-streak').textContent = state.progress.streak;
   document.getElementById('stat-today').textContent = state.todayLog.clips;
@@ -1035,7 +1051,7 @@ function renderSession() {
       <div class="step-title">${step.name}</div>
       <div class="step-instruction">${step.hint}</div>
       <div class="step-body">${stepBody}</div>
-      ${clip.source_url ? `<div class="source-link"><span class="source-label">Source:</span> <a href="${clip.source_url}" target="_blank" rel="noopener noreferrer">${clip.source_url.replace(/^https?:\/\/(www\.)?/, '').slice(0, 60)}${clip.source_url.length > 80 ? '…' : ''}</a></div>` : ''}
+      ${clip.source_url ? `<div class="source-link"><span class="source-label">Source:</span> <a href="${clip.source_url}" target="_blank" rel="noopener noreferrer">${formatSourceLabel(clip.source_url)}</a></div>` : ''}
       <div class="controls">
         <button class="btn btn-ghost" id="btn-quit">End session</button>
         <button class="btn btn-primary" id="btn-next">${sess.stepIdx === STEPS.length - 1 ? 'Finish clip →' : 'Next step →'}</button>

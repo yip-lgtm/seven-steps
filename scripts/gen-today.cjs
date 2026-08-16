@@ -169,7 +169,7 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 - topic_en (short English title, 2-5 words)
 - text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored)
 - text_en_b1 (English B1 — see level spec below)
-- source_url (MANDATORY: copy the exact URL from the matching headline below, character-for-character. If no headline inspired this clip, use a relevant home page URL like https://www.reuters.com/markets/ or https://www.reddit.com/r/technology/. Never empty.)
+- source_url (MANDATORY. Return ONE URL only. Pick the best option: 1) the exact URL from a matching headline below, 2) a Google News search URL like https://news.google.com/search?q=US+stocks+rebound — which always returns current results, 3) a real outlet section page. NEVER empty. NEVER a list of URLs joined by '>' or commas. ONE URL string only.)
 - source_hint (one short sentence about the real event)
 
 # B1 spec (target for text_en_b1 in this call)
@@ -192,7 +192,7 @@ Return ONLY a JSON object in this exact shape, no markdown fences, no commentary
       "topic_en": "<short English title>",
       "text_zh": "<Chinese version>",
       "text_en_b1": "<B1 English, ${LEVELS.b1.min}-${LEVELS.b1.max} words>",
-      "source_url": "<URL, mandatory — never empty>",
+      "source_url": "<SINGLE URL string, never empty>",
       "source_hint": "<short>"
     }
   ]
@@ -289,6 +289,11 @@ async function callOpenRouter(prompt, opts = {}) {
     }
     // Normalize: source_url may be missing if no headline inspired the clip
     c.source_url = c.source_url || '';
+    // Some LLM outputs join multiple URLs with " > " or ", " — take just the first one
+    if (c.source_url.includes(' > ')) c.source_url = c.source_url.split(' > ')[0].trim();
+    if (c.source_url.includes(' , ')) c.source_url = c.source_url.split(' , ')[0].trim();
+    // Basic URL sanity — must start with http(s)://
+    if (c.source_url && !c.source_url.match(/^https?:\/\//)) c.source_url = '';
   }
 
   // 3. EXPANSION calls: B2, C1, C2 in parallel
