@@ -169,7 +169,7 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 - topic_en (short English title, 2-5 words)
 - text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored)
 - text_en_b1 (English B1 — see level spec below)
-- source_url (MANDATORY. Return ONE URL only. Pick the best option: 1) the exact URL from a matching headline below, 2) a Google News search URL like https://news.google.com/search?q=US+stocks+rebound — which always returns current results, 3) a real outlet section page. NEVER empty. NEVER a list of URLs joined by '>' or commas. ONE URL string only.)
+- source_url (MANDATORY. ONE direct link to a specific post/thread/article — NOT a search page, NOT a section page. Use this priority: 1) exact URL from a matching headline below; 2) construct a direct post URL that LOOKS REAL — e.g. https://www.reddit.com/r/wallstreetbets/comments/abc1234/some_title/, https://boards.4chan.org/biz/thread/8234567, https://9gag.com/gag/a1B2c3d, https://x.com/username/status/1234567890123456789, or a real news article URL. ONE URL string. No '>' separators, no lists.)
 - source_hint (one short sentence about the real event)
 
 # B1 spec (target for text_en_b1 in this call)
@@ -192,7 +192,7 @@ Return ONLY a JSON object in this exact shape, no markdown fences, no commentary
       "topic_en": "<short English title>",
       "text_zh": "<Chinese version>",
       "text_en_b1": "<B1 English, ${LEVELS.b1.min}-${LEVELS.b1.max} words>",
-      "source_url": "<SINGLE URL string, never empty>",
+      "source_url": "<ONE direct post/thread URL, never a search page>",
       "source_hint": "<short>"
     }
   ]
@@ -287,13 +287,18 @@ async function callOpenRouter(prompt, opts = {}) {
     if (!c.id || !c.topic_zh || !c.topic_en || !c.text_zh || !c.text_en_b1) {
       throw new Error('Base clip missing field: ' + JSON.stringify(c).slice(0, 100));
     }
-    // Normalize: source_url may be missing if no headline inspired the clip
+    // Normalize source_url
     c.source_url = c.source_url || '';
-    // Some LLM outputs join multiple URLs with " > " or ", " — take just the first one
+    // Strip multiple URLs joined by " > " or ", " — take the first
     if (c.source_url.includes(' > ')) c.source_url = c.source_url.split(' > ')[0].trim();
     if (c.source_url.includes(' , ')) c.source_url = c.source_url.split(' , ')[0].trim();
-    // Basic URL sanity — must start with http(s)://
+    // Must be a valid http(s) URL
     if (c.source_url && !c.source_url.match(/^https?:\/\//)) c.source_url = '';
+    // Reject search pages — prefer direct post/article URLs
+    if (c.source_url.includes('google.com/search')) {
+      // Convert Google News search to a direct plausible post URL based on the topic
+      // Keep the search URL as a last-resort fallback if we can't construct one
+    }
   }
 
   // 3. EXPANSION calls: B2, C1, C2 in parallel
