@@ -109,82 +109,116 @@ async function fetchRssTitles(feed) {
 // --- 4chan real post pool ---
 // Fetches catalogs from a curated set of boards and extracts OPs that
 // have real thread IDs. Returns posts the LLM can copy URLs from verbatim.
+//
+// Robust: 429/5xx/timeouts are logged and skipped, never thrown. Other
+// boards continue to be fetched even if one is in maintenance.
 
-async function fetch4chanCatalog(board) {
-  try {
-    const res = await fetch(`https://a.4cdn.org/${board}/catalog.json`, {
-      headers: { 'User-Agent': BROWSER_UA },
-      signal: AbortSignal.timeout(12000),
-    });
-    if (!res.ok) return [];
-    const pages = await res.json();
-    const threads = [];
-    for (const page of pages) {
-      for (const t of (page.threads || [])) threads.push(t);
-    }
-    return threads;
-  } catch (e) { return []; }
-}
-
-async function buildFourchanPool(maxPerBoard = 6, minReplies = 5) {
-  const pool = [];
-  for (const { board, topic } of FOURCHAN_BOARDS) {
-    const threads = await fetch4chanCatalog(board);
-    if (!threads.length) continue;
-    // Filter sticky + closed + too few replies
-    const usable = threads.filter(t =>
-      !t.sticky && !t.closed && (t.replies || 0) >= minReplies
-    );
-    // Sort by replies (active threads first)
-    usable.sort((a, b) => (b.replies || 0) - (a.replies || 0));
-    for (const t of usable.slice(0, maxPerBoard)) {
-      const sub = cleanHtml(t.sub || '');
-      const com = cleanHtml(t.com || '');
-      const title = (sub || (com.slice(0, 120) || `/${board}/ thread`)).slice(0, 140);
-      if (!t.no || !title) continue;
-      pool.push({
-        source: '4chan',
-        board,
-        topic,
-        title,
-        no: t.no,
-        url: `https://boards.4chan.org/${board}/thread/${t.no}`,
-        replies: t.replies || 0,
-        snippet: com.slice(0, 220),
+async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS.map(b => b.board)) {
+  const results = [];
+  for (const board of boards) {
+    try {
+      const res = await fetch(`https://a.4cdn.org/${board}/catalog.json`, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; ClipBot/1.0)',
+          'Accept': 'application/json',
+        },
+        signal: AbortSignal.timeout(10000),
       });
+
+      // Treat 429 and 5xx as "skip and continue" — 4chan often does maintenance
+      if (res.status === 429 || res.status >= 500) {
+        console.warn(`[4chan] ${board} → HTTP ${res.status} (maintenance/rate-limit), skip`);
+        await new Promise(r => setTimeout(r, 1100));
+        continue;
+      }
+      if (!res.ok) {
+        console.warn(`[4chan] ${board} → HTTP ${res.status}, skip`);
+        await new Promise(r => setTimeout(r, 1100));
+        continue;
+      }
+
+      const pages = await res.json();
+      for (const page of pages) {
+        for (const t of (page.threads || [])) {
+          if ((t.replies || 0) < 5) continue;
+          const sub = cleanHtml(t.sub || '');
+          const com = cleanHtml(t.com || '');
+          const title = (sub || com.slice(0, 120) || `/${board}/ thread`).slice(0, 140);
+          if (!t.no || !title) continue;
+          results.push({
+            source: '4chan',
+            board,
+            title,
+            no: t.no,
+            url: `https://boards.4chan.org/${board}/thread/${t.no}`,
+            replies: t.replies || 0,
+            time: t.last_modified || t.time || 0,
+            snippet: com.slice(0, 220),
+          });
+        }
+      }
+      // Light delay between boards to avoid triggering our own rate limit
+      await new Promise(r => setTimeout(r, 1100));
+    } catch (err) {
+      console.warn(`[4chan] ${board} failed:`, err.message);
+      await new Promise(r => setTimeout(r, 1100));
+      // continue — never throw
     }
   }
-  return pool;
+  // Sort by reply count then recency
+  results.sort((a, b) => (b.replies - a.replies) || (b.time - a.time));
+  return results.slice(0, 40);
 }
 
 // --- Hacker News real post pool ---
 // Uses the public Algolia API to fetch recent front-page stories with real IDs.
+// This is the BASELINE source — HN Algolia has been stable for years, allows
+// unlimited reasonable access from any IP (including GitHub Actions), and
+// objectIDs are permanent so URLs never rot.
 
-async function buildHackerNewsPool(maxStories = 10) {
+async function fetchHackerNewsStories(limit = 25) {
   try {
     const res = await fetch(
-      `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=${maxStories}`,
-      { headers: { 'User-Agent': BROWSER_UA }, signal: AbortSignal.timeout(10000) },
+      `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=${limit}`,
+      { headers: { 'User-Agent': BROWSER_UA }, signal: AbortSignal.timeout(8000) },
     );
-    if (!res.ok) return [];
+    if (!res.ok) throw new Error(`HN HTTP ${res.status}`);
     const data = await res.json();
-    const pool = [];
-    for (const hit of (data.hits || [])) {
-      if (!hit.objectID) continue;
-      const title = (hit.title || '').trim();
-      if (!title) continue;
-      pool.push({
+    return (data.hits || [])
+      .map(h => ({
         source: 'hn',
-        title,
-        objectID: hit.objectID,
-        url: `https://news.ycombinator.com/item?id=${hit.objectID}`,
-        author: hit.author,
-        points: hit.points || 0,
-        snippet: (hit._highlightResult?.commentText?.value || '').replace(/<[^>]+>/g, '').slice(0, 220),
-      });
-    }
-    return pool;
-  } catch (e) { return []; }
+        title: (h.title || h.story_title || '').trim(),
+        objectID: h.objectID,
+        url: `https://news.ycombinator.com/item?id=${h.objectID}`,
+        externalUrl: h.url || null,
+        author: h.author,
+        points: h.points || 0,
+        time: h.created_at_i || 0,
+      }))
+      .filter(p => p.title && p.objectID);
+  } catch (err) {
+    console.warn('[HN] failed:', err.message);
+    return [];
+  }
+}
+
+// --- Unified post-pool builder ---
+// Combines 4chan + HN. Either source failing is fine — the LLM still
+// gets whatever is available. If both fail, the pool is empty and the
+// LLM is told to use correctly-formatted synthetic URLs.
+
+async function buildPostPool() {
+  console.log('Building real post pool...');
+  const [fourchan, hn] = await Promise.all([
+    fetchFourchanCatalog().catch(err => {
+      console.warn('[post-pool] 4chan pool failed entirely:', err.message);
+      return [];
+    }),
+    fetchHackerNewsStories(25),
+  ]);
+  const pool = [...fourchan, ...hn];
+  console.log(`Post pool: ${fourchan.length} 4chan + ${hn.length} HN = ${pool.length} total`);
+  return pool;
 }
 
 // --- Direct-post URL validator ---
@@ -232,18 +266,21 @@ function buildBasePrompt(headlines, postPool) {
 
   // Build a "post pool" block for the prompt. Each entry shows the topic, source,
   // and the exact URL the LLM can copy. Filter to a reasonable size.
-  const poolSample = postPool.slice(0, 40);
+  const poolSample = postPool.slice(0, 30);
   const poolBlock = poolSample.length
     ? `# REAL POST POOL (HIGHEST PRIORITY for source_url)
 The following are real posts currently live on 4chan and Hacker News, with real thread IDs. If any of these posts is reasonably related to a clip topic, COPY THE EXACT URL — character for character, including the /thread/<number> or /item?id=<number> suffix. Do not invent or paraphrase.
 
-${poolSample.map(p => `  • [${p.source}/${p.board || ''}] ${p.title.slice(0, 100)} — ${p.url}`).join('\n')}`
-    : `# NO REAL POSTS available right now. If no headline below matches, construct a plausible but correctly formatted direct post URL using these patterns:
+${poolSample.map(p => `  • [${p.source}${p.board ? ` /${p.board}/` : ''}] ${p.title.slice(0, 100)} — ${p.url}`).join('\n')}`
+    : `# REAL POST POOL: empty (feeds temporarily unavailable — 4chan in maintenance, Algolia down, etc.)
+DO NOT use a search page, generic section page, or fabricated full article URL.
+Instead construct a plausibly-formatted DIRECT post URL using these patterns:
+  • 4chan: https://boards.4chan.org/{board}/thread/{numeric_id}
   • Reddit: https://www.reddit.com/r/{sub}/comments/{id}/{slug}/
-  • 4chan: https://boards.4chan.org/{board}/thread/{id}
+  • HN: https://news.ycombinator.com/item?id={numeric_id}
+  • X: https://x.com/{user}/status/{numeric_id}
   • 9gag: https://9gag.com/gag/{id}
-  • X: https://x.com/{user}/status/{id}
-  • HN: https://news.ycombinator.com/item?id={id}`;
+ONE URL string, correctly formatted. Never empty. Never a search page.`;
 
   return `You are generating daily English learning content for a ${persona.age}-year-old Hong Kong learner whose interests are below. The content should be FRESH, INTERESTING, and EDGY — drawing from what people actually talk about on Reddit, 4chan, LIHKG, and finance Twitter. Not bland corporate news.
 
@@ -379,13 +416,16 @@ async function callOpenRouter(prompt, opts = {}) {
   console.log(`  → got ${allHeadlines.length} headlines`);
 
   // 2. Build REAL post pool from sources with reliable direct-URL APIs
-  console.log('  → building real post pool (4chan + Hacker News)...');
-  const [fourchanPool, hnPool] = await Promise.all([
-    buildFourchanPool(6, 5),
-    buildHackerNewsPool(12),
-  ]);
-  const postPool = [...fourchanPool, ...hnPool];
-  console.log(`    4chan: ${fourchanPool.length} threads, HN: ${hnPool.length} stories`);
+  // Either source failing is non-fatal: 4chan routinely does maintenance
+  // and 4chan.org 429s aggressive datacenter IPs. HN Algolia is the
+  // baseline — it has been stable for years.
+  let postPool = [];
+  try {
+    postPool = await buildPostPool();
+  } catch (err) {
+    console.warn('  → post pool build failed entirely (continuing with empty pool):', err.message);
+    postPool = [];
+  }
 
   // 3. BASE call
   console.log('  → base call (topics + zh + B1)...');
