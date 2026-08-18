@@ -249,7 +249,7 @@ function isDirectPostUrl(url) {
 // --- LLM prompts ---
 
 const LEVELS = {
-  b1: { min: 45, max: 65, name: 'B1 (intermediate, IELTS 5)',
+  b1: { min: 40, max: 65, name: 'B1 (intermediate, IELTS 5)',
         desc: 'Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style. The default.' },
   b2: { min: 70, max: 85, name: 'B2 (upper-intermediate, IELTS 6.5)',
         desc: 'More complex sentences with subordinating conjunctions (although/because/while), some phrasal verbs, broader vocabulary, occasionally an idiom where natural.' },
@@ -308,13 +308,14 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 - topic_en (short English title, 2-5 words)
 - text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored)
 - text_en_b1 (English B1 — see level spec below)
-- source_url (MANDATORY. ONE direct link to a specific post/thread/article. NOT a search page, NOT a section/home page. If a real post from the pool above is relevant, COPY ITS URL EXACTLY. Otherwise construct a plausibly-formatted direct post URL using the patterns given. ONE URL string, no lists.)
+- source_url (MANDATORY. ONE direct link to a specific post/thread/article. NOT a search page, NOT a section/home page. If a real post from the pool above is relevant, COPY ITS URL EXACTLY. Otherwise construct a plausibly-formatted direct post URL using the patterns given. ONE URL string, no lists. **Each of the 7 clips MUST use a DIFFERENT source_url — never repeat the same URL across clips.**)
 - source_hint (one short sentence about the real event)
 
 # B1 spec (target for text_en_b1 in this call)
 ${LEVELS.b1.name}: ${LEVELS.b1.min}-${LEVELS.b1.max} words. ${LEVELS.b1.desc}
-- HARD WORD COUNT: every text_en_b1 must be at least ${LEVELS.b1.min} words. Count them. If any is short, add another concrete sentence with a number, name, or date until it is in range.
-- A short B1 is a failure. Do not produce 20-word summaries.
+- HARD WORD COUNT: every text_en_b1 MUST be at least ${LEVELS.b1.min} words (not characters — words separated by spaces). Count them before returning. A 22-word clip is a HARD FAILURE.
+- If a clip comes out short, add another concrete sentence with a number, name, or date — keep adding sentences until you cross ${LEVELS.b1.min} words.
+- Useful technique: 3-sentence structure: (1) lead with the news event, (2) give context/numbers, (3) add a quote or reaction. This usually lands at ~50 words.
 - Use a mix of tenses across the 7 clips.
 - Each clip must have at least one specific concrete detail (a number, a name, a place, a date) so it feels like a real news event.
 - Tone: factual but with personality, like a Bloomberg brief written by someone who browses Reddit.
@@ -336,6 +337,9 @@ Return ONLY a JSON object in this exact shape, no markdown fences, no commentary
     }
   ]
 }
+
+# Self-check before returning
+For each clip's text_en_b1, count the words (space-separated tokens). Every one MUST be >= ${LEVELS.b1.min}. If any is under, extend it with another concrete sentence containing a number/name/date before returning. Do not submit short clips.
 
 # Today's headlines (use as inspiration for fresh content, but source_url is decided by the post pool above)
 ${headlines.length ? headlines.join('\n') : '(no headlines available — invent plausible recent events based on the interests above)'}
@@ -450,6 +454,55 @@ async function callOpenRouter(prompt, opts = {}) {
     // Reject generic section pages
     if (c.source_url && /reddit\.com\/r\/[\w_]+\/?$/.test(c.source_url)) c.source_url = '';
     if (c.source_url && /4chan\.org\/[a-z0-9]+\/?$/.test(c.source_url)) c.source_url = '';
+  }
+
+  // Deduplicate source_urls. The LLM sometimes picks the same HN thread
+  // (e.g. a popular Ask HN) for two unrelated topics. Replace the second
+  // occurrence with the next unused post from the real pool, or with a
+  // plausibly-formatted synthetic URL if the pool is exhausted.
+  const usedUrls = new Set();
+  let poolCursor = 0;
+  function nextPoolUrl() {
+    while (poolCursor < postPool.length) {
+      const u = postPool[poolCursor++].url;
+      if (u && !usedUrls.has(u)) return u;
+    }
+    return null;
+  }
+  // Seed with the pool's first URL so the first clip is also a real one
+  const firstPoolUrl = nextPoolUrl();
+  for (const c of baseClips) {
+    let url = c.source_url;
+    if (url && usedUrls.has(url)) {
+      // Conflict — try pool first
+      const replacement = nextPoolUrl();
+      if (replacement) {
+        console.log(`  [dedup] clip ${c.id}: ${url} → ${replacement}`);
+        url = replacement;
+      } else {
+        // No pool left — synthesize a HN-shaped URL with a fresh numeric id
+        const synth = `https://news.ycombinator.com/item?id=${4_000_000_000 + Math.floor(Math.random() * 9_000_000_000)}`;
+        console.log(`  [dedup] clip ${c.id}: ${url} → ${synth} (synthetic fallback)`);
+        url = synth;
+      }
+    } else if (!url && firstPoolUrl && usedUrls.size === 0) {
+      // Empty URL on first clip — use pool's first entry
+      url = firstPoolUrl;
+    }
+    if (url) usedUrls.add(url);
+    c.source_url = url;
+  }
+
+  // Word-count check on B1 — warn loudly if any clip is short.
+  // The prompt asks for >= LEVELS.b1.min words; if a clip is short, the
+  // expansion calls will be short too. Log so the issue is visible in the
+  // run output.
+  const B1_MIN = LEVELS.b1.min;
+  for (const c of baseClips) {
+    const wc = c.text_en_b1.split(/\s+/).filter(Boolean).length;
+    if (wc < B1_MIN) {
+      console.log(`  [b1-short] clip ${c.id} (${c.topic_en}): ${wc} words (min ${B1_MIN})`);
+    }
   }
 
   // 4. EXPANSION calls
