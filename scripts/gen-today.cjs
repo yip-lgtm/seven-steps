@@ -216,9 +216,73 @@ async function buildPostPool() {
     }),
     fetchHackerNewsStories(25),
   ]);
-  const pool = [...fourchan, ...hn];
+  let pool = [...fourchan, ...hn];
   console.log(`Post pool: ${fourchan.length} 4chan + ${hn.length} HN = ${pool.length} total`);
+
+  // Enrich 4chan entries with actual OP content
+  pool = await enrichPostPoolWithContent(pool);
+  const withTranscript = pool.filter(p => p.transcript).length;
+  console.log(`  → ${withTranscript} posts have OP transcript content`);
+
   return pool;
+}
+
+// --- 4chan thread content fetcher ---
+// Pulls the OP (and optionally a top reply) of a specific thread so the
+// actual post content can be used as the transcript rather than
+// asking the LLM to invent a news brief.
+
+async function fetch4chanThread(board, no) {
+  try {
+    const res = await fetch(`https://a.4cdn.org/${board}/thread/${no}.json`, {
+      headers: { 'User-Agent': BROWSER_UA },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.posts || [];
+  } catch (err) {
+    return null;
+  }
+}
+
+// Extract a clean transcript from a thread's posts.
+// Returns:
+//   sub   — OP subject (may be empty)
+//   com   — OP comment, HTML stripped, truncated to ~maxChars
+//   full  — combined text suitable for the LLM prompt
+function threadToTranscript(posts, maxChars = 450) {
+  if (!posts || !posts.length) return null;
+  const op = posts[0];
+  const sub = cleanHtml(op.sub || '');
+  let com = cleanHtml(op.com || '');
+  if (com.length > maxChars) com = com.slice(0, maxChars).trim() + '…';
+  return { sub, com, full: (sub ? sub + '. ' : '') + com };
+}
+
+// Enrich the post pool: for each 4chan post, also fetch the thread
+// content. This is what we hand to the LLM as the "transcript seed".
+// HN posts stay as title-only (their transcript would have to be fetched
+// from the externalUrl, which is outside our scope).
+async function enrichPostPoolWithContent(pool) {
+  const fourchanPosts = pool.filter(p => p.source === '4chan');
+  console.log(`  → fetching OP content for ${fourchanPosts.length} 4chan threads...`);
+
+  // Fetch in parallel (4chan is fine with parallel reads from same client)
+  const enriched = await Promise.all(fourchanPosts.map(async (p) => {
+    const posts = await fetch4chanThread(p.board, p.no);
+    if (!posts) return p;  // thread fetch failed — keep as-is
+    const transcript = threadToTranscript(posts, 450);
+    if (!transcript) return p;
+    return { ...p, transcript };
+  }));
+
+  // Replace the 4chan entries in the original pool with enriched versions
+  const enrichedById = new Map(enriched.map(p => [`${p.board}/${p.no}`, p]));
+  return pool.map(p => {
+    if (p.source !== '4chan') return p;
+    return enrichedById.get(`${p.board}/${p.no}`) || p;
+  });
 }
 
 // --- Direct-post URL validator ---
@@ -265,13 +329,30 @@ function buildBasePrompt(headlines, postPool) {
   const mixLine = Object.entries(mix).map(([k, n]) => `${n} ${k.replace(/_/g, '/')}`).join(', ');
 
   // Build a "post pool" block for the prompt. Each entry shows the topic, source,
-  // and the exact URL the LLM can copy. Filter to a reasonable size.
+  // the exact URL the LLM can copy, AND (for 4chan) the actual OP text which
+  // becomes the transcript. Filter to a reasonable size.
   const poolSample = postPool.slice(0, 30);
   const poolBlock = poolSample.length
-    ? `# REAL POST POOL (HIGHEST PRIORITY for source_url)
-The following are real posts currently live on 4chan and Hacker News, with real thread IDs. If any of these posts is reasonably related to a clip topic, COPY THE EXACT URL — character for character, including the /thread/<number> or /item?id=<number> suffix. Do not invent or paraphrase.
+    ? `# REAL POST POOL — USE THE OP CONTENT AS THE TRANSCRIPT
+Each entry below is a real post currently live on 4chan or Hacker News. For 4chan entries, the ORIGINAL POSTER (OP) text is included — use THAT text as the basis for the English transcript. Do NOT invent your own news brief.
 
-${poolSample.map(p => `  • [${p.source}${p.board ? ` /${p.board}/` : ''}] ${p.title.slice(0, 100)} — ${p.url}`).join('\n')}`
+Workflow for each clip:
+  1. Pick a 4chan entry from the pool that fits one of the 7 categories
+  2. The text_en_b1 should be a LIGHT EDIT of the OP text — keep the authentic 4chan voice, fix any obvious typos, trim to ${LEVELS.b1.min}-${LEVELS.b1.max} words. The OP text is already real content from the internet; respect its voice and facts.
+  3. text_zh: a Chinese (Cantonese-flavored) translation/summary of the OP text
+  4. source_url: copy the exact URL from the pool entry (the /thread/<number> suffix is part of the URL, do not paraphrase)
+  5. If the OP is shorter than ${LEVELS.b1.min} words, you may extend it with a 1-2 sentence factual context line, but keep the OP as the core of the text.
+  6. Each clip must use a DIFFERENT source_url — never repeat.
+
+${poolSample.map((p, i) => {
+  let entry = `  ${i+1}. [${p.source}${p.board ? ` /${p.board}/` : ''}] ${p.url}`;
+  if (p.transcript && p.transcript.full) {
+    entry += `\n     OP: "${p.transcript.full}"`;
+  } else {
+    entry += `\n     title: "${p.title}"`;
+  }
+  return entry;
+}).join('\n')}`
     : `# REAL POST POOL: empty (feeds temporarily unavailable — 4chan in maintenance, Algolia down, etc.)
 DO NOT use a search page, generic section page, or fabricated full article URL.
 Instead construct a plausibly-formatted DIRECT post URL using these patterns:
@@ -306,20 +387,19 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 - category (one of the 7 above)
 - topic_zh (short Chinese title, 4-8 chars)
 - topic_en (short English title, 2-5 words)
-- text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored)
-- text_en_b1 (English B1 — see level spec below)
-- source_url (MANDATORY. ONE direct link to a specific post/thread/article. NOT a search page, NOT a section/home page. If a real post from the pool above is relevant, COPY ITS URL EXACTLY. Otherwise construct a plausibly-formatted direct post URL using the patterns given. ONE URL string, no lists. **Each of the 7 clips MUST use a DIFFERENT source_url — never repeat the same URL across clips.**)
-- source_hint (one short sentence about the real event)
+- text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored — TRANSLATE the OP text into Chinese)
+- text_en_b1 (English B1 — LIGHT EDIT of the OP text from the pool, see spec below)
+- source_url (MANDATORY. Copy the exact URL from the pool entry — character for character including the /thread/<number> or /item?id=<number> suffix. ONE URL string. **Each of the 7 clips MUST use a DIFFERENT source_url — never repeat the same URL across clips.**)
+- source_hint (one short sentence about the post)
 
 # B1 spec (target for text_en_b1 in this call)
 ${LEVELS.b1.name}: ${LEVELS.b1.min}-${LEVELS.b1.max} words. ${LEVELS.b1.desc}
-- HARD WORD COUNT: every text_en_b1 MUST be at least ${LEVELS.b1.min} words (not characters — words separated by spaces). Count them before returning. A 22-word clip is a HARD FAILURE.
-- If a clip comes out short, add another concrete sentence with a number, name, or date — keep adding sentences until you cross ${LEVELS.b1.min} words.
-- Useful technique: 3-sentence structure: (1) lead with the news event, (2) give context/numbers, (3) add a quote or reaction. This usually lands at ~50 words.
+
+Editing OP text (not inventing):
+- The OP text is the SOURCE OF TRUTH. Fix obvious typos. Keep slang/internet-speak authentic. Don't add motivational endings. Don't pad with invented facts.
+- If the OP is shorter than ${LEVELS.b1.min} words, you may extend with a 1-sentence factual context line that fits the post (e.g. "This came up on /biz/ today" or a related factual line you know about the topic), but the OP remains the core.
+- If the OP is longer than ${LEVELS.b1.max} words, trim to the most informative ${LEVELS.b1.max} words.
 - Use a mix of tenses across the 7 clips.
-- Each clip must have at least one specific concrete detail (a number, a name, a place, a date) so it feels like a real news event.
-- Tone: factual but with personality, like a Bloomberg brief written by someone who browses Reddit.
-- DO NOT add motivational endings like "stay focused!" or "keep trading!" — these are news briefs, not pep talks.
 
 # Output format
 Return ONLY a JSON object in this exact shape, no markdown fences, no commentary:
@@ -349,7 +429,7 @@ Today is ${today}. Return ONLY the JSON object.`;
 
 function buildExpansionPrompt(clips, level) {
   const spec = LEVELS[level];
-  return `You are rewriting 7 English news clips at a specific CEFR level. You will be given the B1 version of each clip plus its Chinese translation and topic. Your job: rewrite each clip at the ${spec.name.toUpperCase()} level.
+  return `You are rewriting 7 English clips at a specific CEFR level. The B1 input for each clip is based on a real 4chan/Reddit/HN post — the rewrite should preserve the same facts and authentic voice, but express it at the ${spec.name.toUpperCase()} level.
 
 # Target for this rewrite
 ${spec.name}: ${spec.min}-${spec.max} words.
@@ -360,7 +440,7 @@ ${spec.desc}
 - For C1 and C2 specifically, the rewrite MUST be LONGER than the B1 input — more sophisticated, more detailed, with more subordinate clauses. A C2 shorter than the B1 is a failure.
 - The rewrite must be NOTICEABLY more complex than the B1 version — not just synonyms. New sentence structures, more sophisticated vocabulary, richer detail, more nuance.
 - Keep the same facts and story as the B1 version. Same event, same numbers, same people — just expressed at a higher level.
-- Do not add motivational endings.
+- Do not add motivational endings. Do not fabricate details.
 - Keep source_url exactly as provided in the input. Do not change it.
 
 # Input (7 clips)
