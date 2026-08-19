@@ -347,8 +347,8 @@ function isDirectPostUrl(url) {
 // --- LLM prompts ---
 
 const LEVELS = {
-  b1: { min: 40, max: 65, name: 'B1 (intermediate, IELTS 5)',
-        desc: 'Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style. The default.' },
+  b1: { min: 25, max: 65, name: 'B1 (intermediate, IELTS 5)',
+        desc: 'Simple sentences (10-14 words each), common everyday vocabulary, short news paragraph style. The default. Min is permissive because transcripts are light edits of real 4chan/Reddit OPs, which are often short.' },
   b2: { min: 70, max: 85, name: 'B2 (upper-intermediate, IELTS 6.5)',
         desc: 'More complex sentences with subordinating conjunctions (although/because/while), some phrasal verbs, broader vocabulary, occasionally an idiom where natural.' },
   c1: { min: 90, max: 110, name: 'C1 (advanced, IELTS 7.5)',
