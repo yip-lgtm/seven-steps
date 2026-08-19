@@ -145,6 +145,15 @@ async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS.map(b => b.board)) 
           const com = cleanHtml(t.com || '');
           const title = (sub || com.slice(0, 120) || `/${board}/ thread`).slice(0, 140);
           if (!t.no || !title) continue;
+
+          // Skip meta threads — these are recurring "general" / "daily" /
+          // "megathread" sticky posts whose OP is just navigation. Their
+          // topical content lives in the replies, which is not useful as
+          // a transcript. We want THREADS WITH A TOPIC, not a wrapper.
+          const lowerTitle = title.toLowerCase();
+          if (/(\bgen(eral)?\b|\bdaily\b|\bmegathread\b|\bsticky\b|index\b|\/smg\/|previous\s*>>)/.test(lowerTitle)) continue;
+          if (com.length < 50) continue;  // too short — likely a wrapper
+
           results.push({
             source: '4chan',
             board,
@@ -247,17 +256,42 @@ async function fetch4chanThread(board, no) {
 }
 
 // Extract a clean transcript from a thread's posts.
+// Strategy:
+//   1. Use the OP if it has substantive content (not a wrapper / general thread).
+//   2. If OP is meta (short, navigation-only), pick the first TOPICAL reply —
+//      one with substantive text content (skip ">>>" quotes-only, sage, etc.)
 // Returns:
 //   sub   — OP subject (may be empty)
-//   com   — OP comment, HTML stripped, truncated to ~maxChars
+//   com   — post text, HTML stripped, truncated to ~maxChars
 //   full  — combined text suitable for the LLM prompt
+//   from  — which post the text came from ('op' or 'reply N')
 function threadToTranscript(posts, maxChars = 450) {
   if (!posts || !posts.length) return null;
   const op = posts[0];
   const sub = cleanHtml(op.sub || '');
   let com = cleanHtml(op.com || '');
+  // Detect "wrapper" OPs: short, full of links, or just navigation
+  const isWrapper = com.length < 50 ||
+    /previous\s*>>/i.test(com) ||
+    /(https?:\/\/\S+\s+){3,}/.test(com) ||
+    /^educational\s|sites:|links:|streams?:/i.test(com);
+  let from = 'op';
+  if (isWrapper) {
+    // Find the first reply with substantive text
+    for (let i = 1; i < posts.length; i++) {
+      const r = posts[i];
+      // Skip sage, no-text, image-only, dead
+      if (r.tld === 'pdf' || r.tld === 'gif' || r.tld === 'webm' || r.tld === 'jpg' || r.tld === 'png') continue;
+      const rCom = cleanHtml(r.com || '');
+      if (rCom.length < 60) continue;
+      if (/^>>\d+/.test(rCom)) continue;  // pure quote, no commentary
+      com = rCom;
+      from = `reply ${i}`;
+      break;
+    }
+  }
   if (com.length > maxChars) com = com.slice(0, maxChars).trim() + '…';
-  return { sub, com, full: (sub ? sub + '. ' : '') + com };
+  return { sub, com, full: (sub ? sub + '. ' : '') + com, from };
 }
 
 // Enrich the post pool: for each 4chan post, also fetch the thread
@@ -333,16 +367,19 @@ function buildBasePrompt(headlines, postPool) {
   // becomes the transcript. Filter to a reasonable size.
   const poolSample = postPool.slice(0, 30);
   const poolBlock = poolSample.length
-    ? `# REAL POST POOL — USE THE OP CONTENT AS THE TRANSCRIPT
-Each entry below is a real post currently live on 4chan or Hacker News. For 4chan entries, the ORIGINAL POSTER (OP) text is included — use THAT text as the basis for the English transcript. Do NOT invent your own news brief.
+    ? `# REAL POST POOL — text_en_b1 MUST be a near-verbatim light edit of the OP text below
+Each entry below is a real post currently live on 4chan (with the OP text) or Hacker News (title only). For 4chan entries, the "OP:" line is the actual original-post text from that thread — that text IS the source of truth for the English transcript.
+
+CRITICAL: text_en_b1 should preserve the OP's specific facts, names, numbers, and tone. Do NOT write a generic 5-sentence news brief about the topic — the OP already contains the specific details; you just need to lightly edit it for clarity.
 
 Workflow for each clip:
-  1. Pick a 4chan entry from the pool that fits one of the 7 categories
-  2. The text_en_b1 should be a LIGHT EDIT of the OP text — keep the authentic 4chan voice, fix any obvious typos, trim to ${LEVELS.b1.min}-${LEVELS.b1.max} words. The OP text is already real content from the internet; respect its voice and facts.
-  3. text_zh: a Chinese (Cantonese-flavored) translation/summary of the OP text
+  1. Pick a 4chan entry from the pool whose OP text fits one of the 7 categories
+  2. text_en_b1: a near-verbatim edit of the OP text. Keep the specific facts, names, numbers, and 4chan voice. Fix any obvious typos. Trim or pad to ${LEVELS.b1.min}-${LEVELS.b1.max} words.
+     - If the OP says "Tesla earnings thread", the B1 should be ABOUT TESLA'S SPECIFIC EARNINGS, not a generic sentence about EV companies.
+     - The OP IS the content. Your job is to make it grammatically clean, NOT to invent new content.
+  3. text_zh: a Chinese (Cantonese-flavored) translation of the OP text
   4. source_url: copy the exact URL from the pool entry (the /thread/<number> suffix is part of the URL, do not paraphrase)
-  5. If the OP is shorter than ${LEVELS.b1.min} words, you may extend it with a 1-2 sentence factual context line, but keep the OP as the core of the text.
-  6. Each clip must use a DIFFERENT source_url — never repeat.
+  5. Each clip must use a DIFFERENT source_url — never repeat.
 
 ${poolSample.map((p, i) => {
   let entry = `  ${i+1}. [${p.source}${p.board ? ` /${p.board}/` : ''}] ${p.url}`;
