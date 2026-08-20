@@ -17,3 +17,11 @@ desktop.ini
 *.log
 .env
 .env.local
+
+# Rebuilt app
+web/node_modules/
+web/.vercel/
+web/.output/
+web/dist/
+web/.env
+web/.env.local
