@@ -32,13 +32,26 @@ const TODAY_JSON = path.join(__dirname, '..', 'clips', 'today.json');
 
 function fmtClipLine(c, i) {
   const b1 = c.text_en_b1 || '';
-  // Truncate B1 to ~120 chars for the digest
   const preview = b1.length > 140 ? b1.slice(0, 137).trimEnd() + '…' : b1;
-  return `${i+1}. ${c.topic_en} · ${c.topic_zh}\n${preview}\n${c.source_url || ''}`;
+  // Tag the source so the platform is visible even if the URL is collapsed
+  let sourceTag = '';
+  if (c.source_url) {
+    if (c.source_url.includes('4chan.org')) {
+      const boardMatch = c.source_url.match(/\/([a-z]+)\/thread\//);
+      sourceTag = boardMatch ? `Source: 4chan /${boardMatch[1]}/ thread` : 'Source: 4chan thread';
+    } else if (c.source_url.includes('news.ycombinator.com')) {
+      sourceTag = 'Source: HN discussion';
+    } else if (c.source_url.includes('reddit.com')) {
+      sourceTag = 'Source: Reddit thread';
+    } else {
+      sourceTag = 'Source: see link';
+    }
+  }
+  return `${i+1}. ${c.topic_en} · ${c.topic_zh}\n${preview}\n${sourceTag}\n${c.source_url || ''}`;
 }
 
 function fmtMessage(clips, date) {
-  const header = `📚 *Seven Steps · ${date}*\n${clips.length} bilingual clips ready.\n`;
+  const header = `📚 Seven Steps · ${date}\n${clips.length} bilingual clips from 4chan / HN.\n`;
   const body = clips.map((c, i) => fmtClipLine(c, i)).join('\n\n');
   const footer = '\n\nOpen: https://yip-lgtm.github.io/seven-steps/';
   return header + '\n' + body + footer;
