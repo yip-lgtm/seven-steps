@@ -30,18 +30,24 @@ const HEADLINE_FEEDS = [
   { url: 'https://www.reddit.com/r/technology/top.rss', topic: 'tech/AI' },
 ];
 
-// 4chan boards mapped to this learner's content_mix.
-// Score OPs against persona keywords so /v/ mega-threads don't eat every slot.
-const BOARD_SPECS = [
-  { board: 'biz', category: 'trading', take: 10 },
-  { board: 'g',   category: 'tech/ai', take: 6 },
-  { board: 'int', category: 'hk/news', take: 6 },
-  { board: 'pol', category: 'hk/news', take: 4 },
-  { board: 'v',   category: 'lol/esports', take: 8 },
-  { board: 'fit', category: 'mma/fitness', take: 6 },
-  { board: 'a',   category: 'anime/culture', take: 6 },
+// 4chan boards that map well to clip topics (SFW only)
+const FOURCHAN_BOARDS = [
+  { board: 'biz', topic: '4chan/biz' }, // trading / finance
+  { board: 'g',   topic: '4chan/g' },   // technology
+  { board: 'fit', topic: '4chan/fit' }, // fitness
+  { board: 'a',   topic: '4chan/a' },   // anime
+  { board: 'v',   topic: '4chan/v' },   // video games
+  { board: 'pol', topic: '4chan/pol' }, // news
 ];
-const FOURCHAN_BOARDS = BOARD_SPECS; // back-compat for fetchFourchanCatalog default
+
+const BOARD_CATEGORY = {
+  biz: { category: 'trading', take: 10 },
+  g:   { category: 'tech/ai', take: 6 },
+  fit: { category: 'mma/fitness', take: 6 },
+  a:   { category: 'anime/culture', take: 6 },
+  v:   { category: 'lol/esports', take: 8 },
+  pol: { category: 'hk/news', take: 6 },
+};
 
 const KEYWORDS = {
   trading: ['gold','xau','spy','nasdaq','cfd','prop','futures','forex','btc','bitcoin','oil','fed','yield','option','nvda','earnings','pnl','leverage','short','long','chart','ath','dump','pump','usd','silver','bond','cpi','rate cut','trading'],
@@ -169,12 +175,13 @@ async function fetchRssTitles(feed) {
 // Robust: 429/5xx/timeouts are logged and skipped, never thrown. Other
 // boards continue to be fetched even if one is in maintenance.
 
-async function fetchFourchanCatalog(boards = BOARD_SPECS) {
+async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS) {
   const results = [];
   for (const spec of boards) {
     const board = typeof spec === 'string' ? spec : spec.board;
-    const category = typeof spec === 'string' ? null : spec.category;
-    const take = typeof spec === 'string' ? 12 : spec.take;
+    const meta = BOARD_CATEGORY[board] || { category: null, take: 8 };
+    const category = meta.category;
+    const take = meta.take;
     try {
       const res = await fetch(`https://a.4cdn.org/${board}/catalog.json`, {
         headers: {
@@ -243,13 +250,14 @@ async function fetchFourchanCatalog(boards = BOARD_SPECS) {
     }
   }
   const kept = [];
-  for (const spec of BOARD_SPECS) {
+  for (const spec of FOURCHAN_BOARDS) {
+    const take = (BOARD_CATEGORY[spec.board] || {}).take || 8;
     const rows = results.filter(r => r.board === spec.board)
       .sort((a, b) => (b.score - a.score) || (b.replies - a.replies))
-      .slice(0, spec.take);
+      .slice(0, take);
     kept.push(...rows);
   }
-  console.log(`[4chan] kept ${kept.length} scored OPs across ${BOARD_SPECS.length} boards`);
+  console.log(`[4chan] kept ${kept.length} scored OPs across ${FOURCHAN_BOARDS.length} boards`);
   return kept;
 }
 

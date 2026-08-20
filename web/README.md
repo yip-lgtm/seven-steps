@@ -8,7 +8,7 @@ scored against `../clips/persona.json` on 4chan boards:
 
 - `/biz/` trading
 - `/g/` AI / jobs
-- `/int/` `/pol/` HK / living space
+- `/pol/` news / HK
 - `/v/` LoL
 - `/fit/` gym / MMA
 - `/a/` anime

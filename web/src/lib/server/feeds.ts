@@ -37,11 +37,10 @@ const BOARD_SPECS: {
 }[] = [
   { board: "biz", category: "trading", take: 10 },
   { board: "g", category: "tech/ai", take: 6 },
-  { board: "int", category: "hk/news", take: 6 },
-  { board: "pol", category: "hk/news", take: 4 },
-  { board: "v", category: "lol/esports", take: 8 },
   { board: "fit", category: "mma/fitness", take: 6 },
   { board: "a", category: "anime/culture", take: 6 },
+  { board: "v", category: "lol/esports", take: 8 },
+  { board: "pol", category: "hk/news", take: 6 },
 ];
 
 const KEYWORDS: Record<ClipCategory, string[]> = {
