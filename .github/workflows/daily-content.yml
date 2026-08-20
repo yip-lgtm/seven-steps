@@ -34,3 +34,17 @@ jobs:
           fi
           git commit -m "chore(clips): bilingual refresh $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Send Telegram digest
+        if: success()
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secrets not set, skipping broadcast."
+            exit 0
+          fi
+          node scripts/send-telegram.cjs
