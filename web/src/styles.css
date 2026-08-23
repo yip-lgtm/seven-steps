@@ -1,0 +1,179 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #f3eee4;
+  --surface: #fffbf3;
+  --elevated: #fff8ea;
+  --fg: #1c2629;
+  --muted: #5a6a72;
+  --faint: #8a969e;
+  --primary: #0e6560;
+  --primary-deep: #0a524e;
+  --primary-soft: #d5ebe8;
+  --warm: #c07738;
+  --warm-soft: #f4dfc6;
+  --line: #e2d8c6;
+  --danger: #b3402a;
+  --good: #2f6d46;
+  --on-primary: #fffbf3;
+  --shadow: 0 1px 0 rgb(28 38 41 / 0.04);
+  --font-display-stack: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  --font-sans-stack: "Figtree", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 40px;
+  --motion-quick: 150ms;
+  --motion-fast: 250ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.dark {
+  --bg: #0e1114;
+  --surface: #161b20;
+  --elevated: #1c2228;
+  --fg: #e8eef2;
+  --muted: #a8b4bc;
+  --faint: #7d8890;
+  --primary: #4ec9b0;
+  --primary-deep: #3aa995;
+  --primary-soft: #1a3330;
+  --warm: #e0a070;
+  --warm-soft: #3a2a1c;
+  --line: #2c343c;
+  --danger: #f85149;
+  --good: #56d364;
+  --on-primary: #0e1114;
+  --shadow: 0 1px 0 rgb(0 0 0 / 0.4);
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-elevated: var(--elevated);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-primary: var(--primary);
+  --color-primary-deep: var(--primary-deep);
+  --color-primary-soft: var(--primary-soft);
+  --color-warm: var(--warm);
+  --color-warm-soft: var(--warm-soft);
+  --color-line: var(--line);
+  --color-danger: var(--danger);
+  --color-good: var(--good);
+  --color-on-primary: var(--on-primary);
+  --font-display: var(--font-display-stack);
+  --font-sans: var(--font-sans-stack);
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 40px;
+  --radius-full: 9999px;
+  --text-micro: 0.6875rem;
+  --text-caption: 0.8125rem;
+  --text-body: 0.9375rem;
+  --text-copy: 1.0625rem;
+  --text-title: 1.625rem;
+  --text-display: 2rem;
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans-stack);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display-stack);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  textarea,
+  input,
+  select {
+    font-family: inherit;
+  }
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes play-ring {
+  from {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--primary) 40%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 16px transparent;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.step-enter {
+  animation: step-in var(--motion-fast, 250ms) var(--ease-out, cubic-bezier(0.22, 1, 0.36, 1));
+}
+
+.play-live {
+  animation: play-ring 1.2s ease-out infinite;
+}
+
+.spin-slow {
+  animation: spin 0.8s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

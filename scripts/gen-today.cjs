@@ -32,13 +32,75 @@ const HEADLINE_FEEDS = [
 
 // 4chan boards that map well to clip topics (SFW only)
 const FOURCHAN_BOARDS = [
-  { board: 'biz', topic: '4chan/biz' },     // trading / finance
-  { board: 'g',   topic: '4chan/g' },        // technology
-  { board: 'fit', topic: '4chan/fit' },      // fitness
-  { board: 'a',   topic: '4chan/a' },        // anime
-  { board: 'v',   topic: '4chan/v' },        // video games
-  { board: 'pol', topic: '4chan/pol' },      // news
+  { board: 'biz', topic: '4chan/biz' }, // trading / finance
+  { board: 'g',   topic: '4chan/g' },   // technology
+  { board: 'fit', topic: '4chan/fit' }, // fitness
+  { board: 'a',   topic: '4chan/a' },   // anime
+  { board: 'v',   topic: '4chan/v' },   // video games
+  { board: 'pol', topic: '4chan/pol' }, // news
 ];
+
+const BOARD_CATEGORY = {
+  biz: { category: 'trading', take: 10 },
+  g:   { category: 'tech/ai', take: 6 },
+  fit: { category: 'mma/fitness', take: 6 },
+  a:   { category: 'anime/culture', take: 6 },
+  v:   { category: 'lol/esports', take: 8 },
+  pol: { category: 'hk/news', take: 6 },
+};
+
+const KEYWORDS = {
+  trading: ['gold','xau','spy','nasdaq','cfd','prop','futures','forex','btc','bitcoin','oil','fed','yield','option','nvda','earnings','pnl','leverage','short','long','chart','ath','dump','pump','usd','silver','bond','cpi','rate cut','trading'],
+  'tech/ai': ['ai','llm','gpt','grok','nvidia','gpu','automat','openai','claude','model','layoff','replace','white.?collar','cursor','coding','engineer','job'],
+  'hk/news': ['hong kong','hongkong','hk ','hkg','cantonese','kowloon','mtr','hku','legco','ccp','china','taiwan','asia','hkd','typhoon'],
+  'lol/esports': ['league','lol','faker','worlds','lck','lpl','lcs','t1','skt','gwen','yasuo','ranked','elo','riot','arcane','wild rift'],
+  'mma/fitness': ['ufc','mma','gym','lift','deadlift','bulk','cut','protein','bjj','boxing','spar','natty',' squat','bench','cardio','fat'],
+  'anime/culture': ['anime','manga','gundam','titan','demon slayer','waifu','season','shonen','mecha','aot','kimetsu','mal ','ln '],
+};
+
+function scoreText(text, category) {
+  const lower = (text || '').toLowerCase();
+  let score = 0;
+  for (const kw of (KEYWORDS[category] || [])) {
+    try { if (new RegExp(kw, 'i').test(lower)) score += 3; } catch (_) {}
+  }
+  return score;
+}
+
+function pickForMix(pool) {
+  const mix = [
+    ['trading', 4], ['tech/ai', 3], ['hk/news', 3],
+    ['lol/esports', 3], ['mma/fitness', 3], ['anime/culture', 3],
+  ];
+  const used = new Set();
+  const picked = [];
+  for (const [cat, n] of mix) {
+    const ranked = pool
+      .filter(p => p.source === '4chan' && p.category === cat && p.transcript && p.transcript.full)
+      .sort((a, b) => (b.score || 0) - (a.score || 0));
+    const withKw = ranked.filter(p => scoreText(`${p.title} ${p.transcript.full}`, cat) > 0);
+    const ordered = withKw.length ? withKw : ranked;
+    let added = 0;
+    for (const p of ordered) {
+      const id = `${p.board}/${p.no}`;
+      if (used.has(id)) continue;
+      used.add(id);
+      picked.push(p);
+      added += 1;
+      if (added >= n) break;
+    }
+  }
+  const fallback = pool.filter(p => p.source === '4chan' && p.transcript && p.transcript.full)
+    .sort((a, b) => (b.score || 0) - (a.score || 0));
+  for (const p of fallback) {
+    if (picked.length >= 19) break;
+    const id = `${p.board}/${p.no}`;
+    if (used.has(id)) continue;
+    used.add(id);
+    picked.push(p);
+  }
+  return picked;
+}
 
 // --- Fetch helpers ---
 
@@ -113,9 +175,13 @@ async function fetchRssTitles(feed) {
 // Robust: 429/5xx/timeouts are logged and skipped, never thrown. Other
 // boards continue to be fetched even if one is in maintenance.
 
-async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS.map(b => b.board)) {
+async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS) {
   const results = [];
-  for (const board of boards) {
+  for (const spec of boards) {
+    const board = typeof spec === 'string' ? spec : spec.board;
+    const meta = BOARD_CATEGORY[board] || { category: null, take: 8 };
+    const category = meta.category;
+    const take = meta.take;
     try {
       const res = await fetch(`https://a.4cdn.org/${board}/catalog.json`, {
         headers: {
@@ -154,19 +220,28 @@ async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS.map(b => b.board)) 
           if (/(\bgen(eral)?\b|\bdaily\b|\bmegathread\b|\bsticky\b|index\b|\/smg\/|previous\s*>>)/.test(lowerTitle)) continue;
           if (com.length < 50) continue;  // too short — likely a wrapper
 
+          const hay = `${sub} ${com}`;
+          const kw = category ? scoreText(hay, category) : 0;
+          const score = kw * 10 + Math.min(t.replies || 0, 80);
           results.push({
             source: '4chan',
             board,
+            category,
             title,
             no: t.no,
             url: `https://boards.4chan.org/${board}/thread/${t.no}`,
             replies: t.replies || 0,
             time: t.last_modified || t.time || 0,
             snippet: com.slice(0, 220),
+            score,
           });
         }
       }
-      // Light delay between boards to avoid triggering our own rate limit
+      results.sort((a, b) => {
+        if (a.board !== b.board) return 0;
+        return (b.score - a.score) || (b.replies - a.replies);
+      });
+      // keep top `take` per board after this board's pass — applied at the end
       await new Promise(r => setTimeout(r, 1100));
     } catch (err) {
       console.warn(`[4chan] ${board} failed:`, err.message);
@@ -174,9 +249,16 @@ async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS.map(b => b.board)) 
       // continue — never throw
     }
   }
-  // Sort by reply count then recency
-  results.sort((a, b) => (b.replies - a.replies) || (b.time - a.time));
-  return results.slice(0, 40);
+  const kept = [];
+  for (const spec of FOURCHAN_BOARDS) {
+    const take = (BOARD_CATEGORY[spec.board] || {}).take || 8;
+    const rows = results.filter(r => r.board === spec.board)
+      .sort((a, b) => (b.score - a.score) || (b.replies - a.replies))
+      .slice(0, take);
+    kept.push(...rows);
+  }
+  console.log(`[4chan] kept ${kept.length} scored OPs across ${FOURCHAN_BOARDS.length} boards`);
+  return kept;
 }
 
 // --- Hacker News real post pool ---
@@ -233,7 +315,15 @@ async function buildPostPool() {
   const withTranscript = pool.filter(p => p.transcript).length;
   console.log(`  → ${withTranscript} posts have OP transcript content`);
 
-  return pool;
+  // Re-score after transcript, then pick by persona mix (4chan first)
+  pool = pool.map(p => {
+    if (p.source !== '4chan' || !p.category || !p.transcript) return p;
+    const extra = scoreText(p.transcript.full, p.category);
+    return { ...p, score: (p.score || 0) + extra * 4 };
+  });
+  const picked = pickForMix(pool);
+  console.log(`  → persona mix picked ${picked.length} 4chan OPs`);
+  return picked.length ? picked : pool;
 }
 
 // --- 4chan thread content fetcher ---
@@ -365,10 +455,26 @@ function buildBasePrompt(headlines, postPool) {
   // Build a "post pool" block for the prompt. Each entry shows the topic, source,
   // the exact URL the LLM can copy, AND (for 4chan) the actual OP text which
   // becomes the transcript. Filter to a reasonable size.
-  const poolSample = postPool.slice(0, 30);
+  const groups = new Map();
+  for (const p of postPool) {
+    const cat = p.category || p.source;
+    if (!groups.has(cat)) groups.set(cat, []);
+    groups.get(cat).push(p);
+  }
+  const groupedLines = [];
+  for (const [cat, posts] of groups) {
+    groupedLines.push(`## ${cat}`);
+    for (const p of posts) {
+      const op = (p.transcript && p.transcript.full) ? p.transcript.full : p.title;
+      groupedLines.push(`  • [${p.board || p.source}] ${p.url}\n    OP: "${op}"`);
+    }
+  }
+  const poolSample = postPool;
   const poolBlock = poolSample.length
-    ? `# REAL POST POOL — text_en_b1 MUST be a near-verbatim light edit of the OP text below
-Each entry below is a real post currently live on 4chan (with the OP text) or Hacker News (title only). For 4chan entries, the "OP:" line is the actual original-post text from that thread — that text IS the source of truth for the English transcript.
+    ? `# REAL 4CHAN POOL — already scored against this learner's life
+Posts are grouped by the clip category they should fill. Pick FROM THAT GROUP. Copy source_url exactly. English = light edit of OP. Do not invent a generic news brief.
+
+${groupedLines.join('\n')}
 
 CRITICAL: text_en_b1 should preserve the OP's specific facts, names, numbers, and tone. Do NOT write a generic 5-sentence news brief about the topic — the OP already contains the specific details; you just need to lightly edit it for clarity.
 
@@ -381,15 +487,7 @@ Workflow for each clip:
   4. source_url: copy the exact URL from the pool entry (the /thread/<number> suffix is part of the URL, do not paraphrase)
   5. Each clip must use a DIFFERENT source_url — never repeat.
 
-${poolSample.map((p, i) => {
-  let entry = `  ${i+1}. [${p.source}${p.board ? ` /${p.board}/` : ''}] ${p.url}`;
-  if (p.transcript && p.transcript.full) {
-    entry += `\n     OP: "${p.transcript.full}"`;
-  } else {
-    entry += `\n     title: "${p.title}"`;
-  }
-  return entry;
-}).join('\n')}`
+}`
     : `# REAL POST POOL: empty (feeds temporarily unavailable — 4chan in maintenance, Algolia down, etc.)
 DO NOT use a search page, generic section page, or fabricated full article URL.
 Instead construct a plausibly-formatted DIRECT post URL using these patterns:
@@ -400,18 +498,20 @@ Instead construct a plausibly-formatted DIRECT post URL using these patterns:
   • 9gag: https://9gag.com/gag/{id}
 ONE URL string, correctly formatted. Never empty. Never a search page.`;
 
-  return `You are generating daily English learning content for a ${persona.age}-year-old Hong Kong learner whose interests are below. The content should be FRESH, INTERESTING, and EDGY — drawing from what people actually talk about on Reddit, 4chan, LIHKG, and finance Twitter. Not bland corporate news.
+  return `Generate today's 7 English-practice clips for ONE person. He is not a generic learner. Write as if these 4chan threads landed in HIS feed tonight.
 
-# Learner profile
-- Background: ${persona.background}
-- Occupation: ${persona.occupation}
+# Who he is
+- ${persona.age}, ${persona.location}. ${persona.background}
+- Job: ${persona.occupation}
+- Life: ${persona.life_situation}
+- Money: ${persona.financial_situation}
 - Values: ${persona.core_values.join('; ')}
-- Life situation: ${persona.life_situation}
-- Financial situation: ${persona.financial_situation}
 - Interests: ${persona.interests.join('; ')}
-- Communication style: ${persona.communication_style.join('; ')}
-- Decision mode: ${persona.decision_mode}
-- Emotional logic: ${persona.emotional_logic}
+- People: ${(persona.social_circle || []).join('; ')}
+- Voice (Chinese only): ${persona.communication_style.join('; ')}
+- Worldview: ${(persona.worldview || []).join('; ')}
+- Decisions: ${persona.decision_mode}
+- Emotions: ${persona.emotional_logic}
 
 # Topic distribution
 Cover these 7 categories (one clip each): ${mixLine}.
@@ -424,7 +524,7 @@ You are generating the FOUNDATION. Output 7 clips. For each clip include:
 - category (one of the 7 above)
 - topic_zh (short Chinese title, 4-8 chars)
 - topic_en (short English title, 2-5 words)
-- text_zh (1-2 sentence Chinese, 80-120 Chinese characters, Cantonese-flavored — TRANSLATE the OP text into Chinese)
+- text_zh (HIS mouth. Traditional Chinese, Cantonese flavour, short sentences, English terms left in — prop firm, CFD, AP, lol, wtf. He can react — 又係學費 / 考牌都未完 / 肥仔信今日又叫我去gym — but do not invent facts that are not in the OP.)
 - text_en_b1 (English B1 — LIGHT EDIT of the OP text from the pool, see spec below)
 - source_url (MANDATORY. Copy the exact URL from the pool entry — character for character including the /thread/<number> or /item?id=<number> suffix. ONE URL string. **Each of the 7 clips MUST use a DIFFERENT source_url — never repeat the same URL across clips.**)
 - source_hint (one short sentence about the post)
