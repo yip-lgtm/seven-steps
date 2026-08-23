@@ -17,23 +17,40 @@ jobs:
 
       - name: Generate today's bilingual clips
         id: pick
+        continue-on-error: true
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           cd "$GITHUB_WORKSPACE"
-          node scripts/gen-today.cjs
-
-      - name: Commit and push
-        run: |
-          git config user.name "seven-steps-bot"
-          git config user.email "seven-steps-bot@users.noreply.github.com"
-          git add clips/today.json
-          if git diff --staged --quiet; then
-            echo "no changes"
-            exit 0
+          if node scripts/gen-today.cjs; then
+            echo "::notice::AI generation succeeded"
+          else
+            rc=$?
+            echo "::warning::AI generation failed (exit $rc), falling back to static pool"
+            # Build a minimal today.json from the static pool so the app
+            # still has SOMETHING to show. Stale, but better than empty.
+            node -e '
+              const fs = require("fs");
+              const today = new Date().toISOString().slice(0, 10);
+              const pool = JSON.parse(fs.readFileSync("clips/pool.json", "utf8"));
+              const clips = (pool.clips || []).slice(0, 7).map((c, i) => ({
+                id: c.id || ("fallback-" + i),
+                category: c.category || "general",
+                topic_zh: c.topic_zh || c.topic || "",
+                topic_en: c.topic_en || c.topic || "",
+                text_zh: c.text_zh || "",
+                text_en_b1: c.text_en_b1 || c.text_en || "",
+                text_en_b2: c.text_en_b2 || c.text_en || "",
+                text_en_c1: c.text_en_c1 || c.text_en || "",
+                text_en_c2: c.text_en_c2 || c.text_en || "",
+                source_url: c.source_url || "",
+                source_hint: c.source_hint || "(fallback to static pool — AI gen failed today)",
+              }));
+              const out = { date: today, source: "pool-fallback", persona: "wsb", clips };
+              fs.writeFileSync("clips/today.json", JSON.stringify(out, null, 2));
+              console.log("Wrote fallback today.json with " + clips.length + " clips from pool.json");
+            '
           fi
-          git commit -m "chore(clips): bilingual refresh $(date -u +%Y-%m-%d)"
-          git push
 
       - name: Send Telegram digest
         if: success()
