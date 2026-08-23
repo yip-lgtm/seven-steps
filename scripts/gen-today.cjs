@@ -629,6 +629,88 @@ async function callOpenRouter(prompt, opts = {}) {
   return { parsed: JSON.parse(content), usage: data.usage };
 }
 
+// --- MiniMax LLM call (Anthropic-compatible API) ---
+// Uses the MiniMax coding-plan API key. Endpoint is the Anthropic-style
+// messages API at api.minimax.io. JSON output is not enforced via
+// response_format — instead we ask for JSON in the prompt and strip
+// any ```json ... ``` fences from the response.
+
+async function callMiniMax(prompt, opts = {}) {
+  const apiKey = process.env.MINIMAX_API_KEY;
+  if (!apiKey) throw new Error('MINIMAX_API_KEY env var not set');
+
+  const model = opts.model || 'MiniMax-M3';
+  // Rough max_tokens mapping for our use:
+  // - base call: prompt is ~12K tokens, output target 1500 tokens
+  // - expansion: prompt is ~8K tokens, output target 1000 tokens
+  // Anthropic API requires max_tokens explicitly. Set high enough.
+  const maxTokens = opts.maxTokens || 4096;
+
+  const res = await fetch('https://api.minimax.io/anthropic/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model,
+      max_tokens: maxTokens,
+      temperature: opts.temperature ?? 0.9,
+      messages: [{ role: 'user', content: prompt }],
+    }),
+    signal: AbortSignal.timeout(90000),
+  });
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`MiniMax HTTP ${res.status}: ${body.slice(0, 300)}`);
+  }
+  const data = await res.json();
+  // Anthropic-style response: content is array of {type, text}
+  const text = (data.content || []).map(c => c.text || '').join('').trim();
+  if (!text) throw new Error('No content in MiniMax response');
+
+  // Strip ```json ... ``` fences if present
+  let jsonText = text;
+  const fence = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (fence) jsonText = fence[1].trim();
+
+  let parsed;
+  try {
+    parsed = JSON.parse(jsonText);
+  } catch (e) {
+    throw new Error(`MiniMax JSON parse failed: ${e.message} — first 200 chars: ${jsonText.slice(0, 200)}`);
+  }
+
+  // Normalize usage to OpenAI-like shape for the existing log line
+  const usage = data.usage ? {
+    prompt_tokens: data.usage.input_tokens,
+    completion_tokens: data.usage.output_tokens,
+    total_tokens: (data.usage.input_tokens || 0) + (data.usage.output_tokens || 0),
+  } : undefined;
+  return { parsed, usage };
+}
+
+// --- Unified LLM dispatcher ---
+// Try MiniMax first (free, internal), fall back to OpenRouter if MiniMax
+// fails for any reason. The fallback is silent — we just want the generator
+// to keep working.
+async function callLLM(prompt, opts = {}) {
+  const useMiniMax = !!process.env.MINIMAX_API_KEY;
+  if (useMiniMax) {
+    try {
+      return await callMiniMax(prompt, opts);
+    } catch (err) {
+      console.warn(`  [llm] MiniMax failed, falling back to OpenRouter: ${err.message}`);
+    }
+  }
+  if (!process.env.OPENROUTER_API_KEY) {
+    throw new Error('No LLM available: MiniMax failed and OPENROUTER_API_KEY not set');
+  }
+  console.log('  [llm] using OpenRouter (fallback)');
+  return await callLLM(prompt, opts);
+}
+
 (async () => {
   // 1. Fetch fresh headlines in parallel (text-only, used for topic inspiration)
   console.log(`[${today}] Fetching headlines from ${HEADLINE_FEEDS.length} RSS feeds...`);
@@ -654,7 +736,7 @@ async function callOpenRouter(prompt, opts = {}) {
     allHeadlines.map(h => `- ${h.title}`),
     postPool,
   );
-  const { parsed: baseParsed, usage: baseUsage } = await callOpenRouter(basePrompt);
+  const { parsed: baseParsed, usage: baseUsage } = await callLLM(basePrompt);
   const baseClips = baseParsed.clips;
   console.log(`    got ${baseClips.length} clips, ${baseUsage?.total_tokens || '?'} tokens, $${baseUsage?.cost?.toFixed(6) || '?'}`);
 
@@ -702,9 +784,28 @@ async function callOpenRouter(prompt, opts = {}) {
         console.log(`  [dedup] clip ${c.id}: ${url} → ${synth} (synthetic fallback)`);
         url = synth;
       }
-    } else if (!url && firstPoolUrl && usedUrls.size === 0) {
-      // Empty URL on first clip — use pool's first entry
-      url = firstPoolUrl;
+    } else if (!url) {
+      // Empty URL — pull from pool. Pick the first unused pool URL whose
+      // topic or board matches the clip's category if possible.
+      const cat = (c.category || '').toLowerCase();
+      const catToBoard = { trading: 'biz', tech: 'g', 'tech/ai': 'g', 'hk/news': 'biz', lol: 'v', lol_esports: 'v', mma: 'fit', mma_fitness: 'fit', fitness: 'fit', anime: 'a', anime_culture: 'a' };
+      const wantedBoard = catToBoard[cat] || catToBoard[cat.replace('/', '_')];
+      // Look for a pool URL matching the wanted board
+      let picked = null;
+      if (wantedBoard) {
+        for (let i = poolCursor; i < postPool.length; i++) {
+          if (postPool[i].board === wantedBoard && !usedUrls.has(postPool[i].url)) { picked = postPool[i].url; poolCursor = i + 1; break; }
+        }
+      }
+      if (!picked) picked = nextPoolUrl();
+      if (picked) {
+        console.log(`  [dedup] clip ${c.id}: empty URL → ${picked} (board-match: ${wantedBoard || 'any'})`);
+        url = picked;
+      } else {
+        const synth = `https://news.ycombinator.com/item?id=${4_000_000_000 + Math.floor(Math.random() * 9_000_000_000)}`;
+        console.log(`  [dedup] clip ${c.id}: empty URL → ${synth} (synthetic)`);
+        url = synth;
+      }
     }
     if (url) usedUrls.add(url);
     c.source_url = url;
@@ -725,9 +826,9 @@ async function callOpenRouter(prompt, opts = {}) {
   // 4. EXPANSION calls
   console.log('  → expansion calls (B2, C1, C2) in parallel...');
   const [b2Res, c1Res, c2Res] = await Promise.all([
-    callOpenRouter(buildExpansionPrompt(baseClips, 'b2')),
-    callOpenRouter(buildExpansionPrompt(baseClips, 'c1')),
-    callOpenRouter(buildExpansionPrompt(baseClips, 'c2')),
+    callLLM(buildExpansionPrompt(baseClips, 'b2')),
+    callLLM(buildExpansionPrompt(baseClips, 'c1')),
+    callLLM(buildExpansionPrompt(baseClips, 'c2')),
   ]);
 
   const idx = (level) => {
