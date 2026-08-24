@@ -19,6 +19,7 @@ jobs:
         id: pick
         continue-on-error: true
         env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           cd "$GITHUB_WORKSPACE"
@@ -51,6 +52,18 @@ jobs:
               console.log("Wrote fallback today.json with " + clips.length + " clips from pool.json");
             '
           fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "seven-steps-bot"
+          git config user.email "seven-steps-bot@users.noreply.github.com"
+          git add clips/today.json
+          if git diff --staged --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "chore(clips): bilingual refresh $(date -u +%Y-%m-%d)"
+          git push
 
       - name: Send Telegram digest
         if: success()
