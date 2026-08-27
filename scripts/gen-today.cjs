@@ -861,16 +861,14 @@ async function callLLM(prompt, opts = {}) {
     }
   }
 
-  // 5b. Word-count safety net — clamp any expansion that exceeded the
-  // level's max. The LLM is told not to exceed, but MiniMax-M3 in
-  // particular tends to overshoot on C1/C2. Truncate to max words by
-  // dropping trailing words until we're at the cap (avoid mid-sentence
-  // cuts where possible by snapping back to the last sentence end).
+  // 5b. Word-count safety net — clamp any text that exceeded the level's
+  // max. MiniMax-M3 in particular tends to overshoot C1/C2, and to
+  // write B1s longer than 65. Truncate to max words; try to keep whole
+  // sentences (snap back to last '. ' if past 70% of the buffer).
   function clampToMax(text, levelKey) {
     const max = LEVELS[levelKey].max;
     const words = text.split(/\s+/);
     if (words.length <= max) return text;
-    // Try to keep whole sentences
     const truncated = words.slice(0, max).join(' ');
     const lastPeriod = truncated.lastIndexOf('. ');
     if (lastPeriod > truncated.length * 0.7) {
@@ -880,18 +878,20 @@ async function callLLM(prompt, opts = {}) {
   }
   let overLong = 0;
   for (const c of finalClips) {
+    const b1Before = c.text_en_b1.split(/\s+/).length;
     const b2Before = c.text_en_b2.split(/\s+/).length;
     const c1Before = c.text_en_c1.split(/\s+/).length;
     const c2Before = c.text_en_c2.split(/\s+/).length;
+    c.text_en_b1 = clampToMax(c.text_en_b1, 'b1');
     c.text_en_b2 = clampToMax(c.text_en_b2, 'b2');
     c.text_en_c1 = clampToMax(c.text_en_c1, 'c1');
     c.text_en_c2 = clampToMax(c.text_en_c2, 'c2');
-    if (b2Before > LEVELS.b2.max || c1Before > LEVELS.c1.max || c2Before > LEVELS.c2.max) {
+    if (b1Before > LEVELS.b1.max || b2Before > LEVELS.b2.max || c1Before > LEVELS.c1.max || c2Before > LEVELS.c2.max) {
       overLong++;
-      console.log(`  [clamp] clip ${c.id}: B2 ${b2Before}→${c.text_en_b2.split(/\s+/).length}, C1 ${c1Before}→${c.text_en_c1.split(/\s+/).length}, C2 ${c2Before}→${c.text_en_c2.split(/\s+/).length}`);
+      console.log(`  [clamp] clip ${c.id}: B1 ${b1Before}→${c.text_en_b1.split(/\s+/).length}, B2 ${b2Before}→${c.text_en_b2.split(/\s+/).length}, C1 ${c1Before}→${c.text_en_c1.split(/\s+/).length}, C2 ${c2Before}→${c.text_en_c2.split(/\s+/).length}`);
     }
   }
-  if (overLong > 0) console.log(`  [clamp] ${overLong} clip(s) had expansion texts clamped to level max`);
+  if (overLong > 0) console.log(`  [clamp] ${overLong} clip(s) had texts clamped to level max`);
 
   // 6. Write
   const out = { date: today, source: 'ai', persona: PERSONA.name, clips: finalClips };
