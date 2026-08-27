@@ -3,7 +3,12 @@ name: Daily Content
 on:
   workflow_dispatch:
   schedule:
+    # Two cron triggers, 30 min apart. GitHub's scheduler occasionally
+    # skips a window under load — the second trigger covers that case.
+    # Both should write today's content (the date is read from the
+    # server clock inside the script, not the cron time).
     - cron: '0 0 * * *'
+    - cron: '30 0 * * *'
 
 permissions:
   contents: write
