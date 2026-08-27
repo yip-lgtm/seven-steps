@@ -573,11 +573,13 @@ ${spec.name}: ${spec.min}-${spec.max} words.
 ${spec.desc}
 
 # CRITICAL RULES
-- Every rewritten clip MUST be between ${spec.min} and ${spec.max} words. Count them carefully. Do not under-deliver.
+- Every rewritten clip MUST be between ${spec.min} and ${spec.max} words. This is a HARD ceiling. A 148-word C2 is a failure.
 - For C1 and C2 specifically, the rewrite MUST be LONGER than the B1 input — more sophisticated, more detailed, with more subordinate clauses. A C2 shorter than the B1 is a failure.
+- For B2 specifically, the rewrite should be moderately longer than B1, NOT dramatically longer. Stay close to the upper bound, don't exceed it.
 - The rewrite must be NOTICEABLY more complex than the B1 version — not just synonyms. New sentence structures, more sophisticated vocabulary, richer detail, more nuance.
 - Keep the same facts and story as the B1 version. Same event, same numbers, same people — just expressed at a higher level.
 - Do not add motivational endings. Do not fabricate details.
+- Do not pad with extra clauses, parenthetical asides, or extended metaphors just to hit the word count. Concise sophistication is better than bloated.
 - Keep source_url exactly as provided in the input. Do not change it.
 
 # Input (7 clips)
@@ -858,6 +860,38 @@ async function callLLM(prompt, opts = {}) {
       throw new Error(`Missing expansion for clip ${c.id}: b2=${!!c.text_en_b2} c1=${!!c.text_en_c1} c2=${!!c.text_en_c2}`);
     }
   }
+
+  // 5b. Word-count safety net — clamp any expansion that exceeded the
+  // level's max. The LLM is told not to exceed, but MiniMax-M3 in
+  // particular tends to overshoot on C1/C2. Truncate to max words by
+  // dropping trailing words until we're at the cap (avoid mid-sentence
+  // cuts where possible by snapping back to the last sentence end).
+  function clampToMax(text, levelKey) {
+    const max = LEVELS[levelKey].max;
+    const words = text.split(/\s+/);
+    if (words.length <= max) return text;
+    // Try to keep whole sentences
+    const truncated = words.slice(0, max).join(' ');
+    const lastPeriod = truncated.lastIndexOf('. ');
+    if (lastPeriod > truncated.length * 0.7) {
+      return truncated.slice(0, lastPeriod + 1);
+    }
+    return truncated + '…';
+  }
+  let overLong = 0;
+  for (const c of finalClips) {
+    const b2Before = c.text_en_b2.split(/\s+/).length;
+    const c1Before = c.text_en_c1.split(/\s+/).length;
+    const c2Before = c.text_en_c2.split(/\s+/).length;
+    c.text_en_b2 = clampToMax(c.text_en_b2, 'b2');
+    c.text_en_c1 = clampToMax(c.text_en_c1, 'c1');
+    c.text_en_c2 = clampToMax(c.text_en_c2, 'c2');
+    if (b2Before > LEVELS.b2.max || c1Before > LEVELS.c1.max || c2Before > LEVELS.c2.max) {
+      overLong++;
+      console.log(`  [clamp] clip ${c.id}: B2 ${b2Before}→${c.text_en_b2.split(/\s+/).length}, C1 ${c1Before}→${c.text_en_c1.split(/\s+/).length}, C2 ${c2Before}→${c.text_en_c2.split(/\s+/).length}`);
+    }
+  }
+  if (overLong > 0) console.log(`  [clamp] ${overLong} clip(s) had expansion texts clamped to level max`);
 
   // 6. Write
   const out = { date: today, source: 'ai', persona: PERSONA.name, clips: finalClips };
