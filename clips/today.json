@@ -1,6 +1,98 @@
 {
   "date": "2026-08-29",
-  "source": "pool-fallback",
+  "source": "ai",
   "persona": "wsb",
-  "clips": []
+  "clips": [
+    {
+      "id": "t1-gme-thread",
+      "category": "trading",
+      "topic_zh": "GME新thread",
+      "topic_en": "GME megathread",
+      "text_zh": "/biz/又開新GME thread啦 廢柴我開嚟睇下先。OP話GS版本，Kek Melvies reminder，仲有everything short、watch-along、naked short嗰啲片照舊list低。SEC嗰啲link又紅埋。睇到頭都痛 到底仲有冇deal落嚟😅",
+      "text_en_b1": "/biz/ just opened a new GME thread, the GS Lost Age Edition. The OP links the usual stuff: gmetimeline, naked short selling videos, failure to deliver clips, the Everything Short post, and the SEC filings. Basic info, study time, and Kek Melvies reminder are all in there. Nothing new, just the same daily ritual.",
+      "source_url": "https://boards.4chan.org/biz/thread/62636358",
+      "source_hint": "/biz/ GME GS Lost Age edition megathread with familiar link dump",
+      "text_en_b2": "/biz/ has fired up yet another GME megathread, this time the so-called GS Lost Age Edition. The OP has dutifully reposted the usual suspects: the gmetimeline, naked short selling videos, failure-to-deliver clips, the Everything Short write-up, and SEC filings. Basic info, study materials, and the customary Kek Melvies reminder all make the cut. While there is no fresh news, the ritual persists.",
+      "text_en_c1": "/biz/ has inaugurated yet another GME megathread, this one billed as the 'GS Lost Age Edition,' which frankly suggests the collective imagination has worn rather thin. The OP dutifully aggregates the canonical artefacts: gmetimeline, naked short selling videos, failure-to-deliver compilations, the Everything Short manifesto, and the relevant SEC filings. Study materials and the customary Kek Melvies reminder are likewise appended. Nothing substantive has emerged, of course; the whole exercise functions as ritual, a daily reaffirmation of shared conviction whose primary yield is a throbbing headache. Whether any actual deal materialises remains, as ever, deeply uncertain.",
+      "text_en_c2": "/biz/ has inaugurated yet another GME megathread, billed as the 'Lost Age' edition, in a ritual that by now resembles liturgy more than discussion. The OP has dutifully compiled the canonical dossier: the gmetimeline compendium, the Everything Short thesis, compilations of failure-to-deliver footage, naked-short explainers, and the obligatory litany of SEC filings rendered in crimson hyperlinks. A Kek Melvies reminder punctuates the proceedings. The aggregate impression is one of déjà vu, a daily catechism performed by devotees awaiting a deliverance that, each successive morning, recedes further into the speculative horizon."
+    },
+    {
+      "id": "t2-btc-short",
+      "category": "trading",
+      "topic_zh": "B女短倉爆咗",
+      "topic_en": "BTC short loss",
+      "text_zh": "條post笑死我 😂 Bumble match緊傾得好好，點知BTC pump，佢喺72k做short冇stop loss，結果越輸越多。仲要加margin成個禮拜去避liquidation，條女直接唔理。即刻all in mode 又係學費🙏",
+      "text_en_b1": "OP matched a girl on Bumble and the chat was going well. Then BTC started pumping while he was short from 72k with no stop loss. He kept adding margin for a whole week to avoid liquidation. He immediately lost all interest in her. Classic all-in brain, money first.",
+      "source_url": "https://boards.4chan.org/biz/thread/62640348",
+      "source_hint": "/biz/ Bumble guy loses BTC short and forgets the girl",
+      "text_en_b2": "The OP matched with a girl on Bumble and the conversation was flowing nicely until BTC suddenly pumped. He was running a short from 72k with absolutely no stop loss in place, so the losses piled up fast. Rather than cutting his losses, he spent an entire week throwing more margin at the position to dodge liquidation. She stopped replying almost immediately, and his priorities shifted.",
+      "text_en_c1": "The post is genuinely hilarious: OP had been chatting up a Bumble match, the conversation flowing nicely, when BTC unexpectedly pumped and liquidated his position. He had shorted from 72k with no stop loss whatsoever, and rather than cutting his losses he spent an entire week incrementally adding margin, desperately attempting to stave off the inevitable liquidation cascade. Predictably, his ardour evaporated; he ghosted her on the spot, reverting instantly to all-in mode where capital preservation trumps romance. A textbook tuition payment in the school of hard knocks, though one suspects he would do it all over again tomorrow.",
+      "text_en_c2": "A /biz/ confessional that is, by any measure, lacerating in its self-incrimination. The poster had been cultivating a promising Bumble match, the conversation flowing with that rare, unforced intimacy, when BTC staged an unforeseen rally. He was short from seventy-two thousand with no stop loss and, rather than capitulate, began layering margin throughout the week in a Sisyphean attempt to stave off liquidation. A week of compounding anxiety later, he reports the girl has been summarily ghosted. The takeaway is depressingly archetypal: when the chart demands everything, courtship perforce becomes collateral."
+    },
+    {
+      "id": "t3-omarchy-funding",
+      "category": "tech/ai",
+      "topic_zh": "Omarchy種子輪",
+      "topic_en": "Omarchy funding",
+      "text_zh": "/g/有人post Omarchy funding去到10M USD。之前班人complain緊8M，結果有人再丟2M落去。真係離晒譜 😬 一個Linux distro洗咁多錢做咩 背後肯定有bag 唔信你睇下YouTuber收咗幾多🙏",
+      "text_en_b1": "Omarchy's funding just reached $10m. People were complaining about them getting $8m, so someone gave them $2m more. Some anon on /g/ joked this must be the most astroturfed Linux thing in years. Question is how big were the bags given to all the Youtubers pushing it.",
+      "source_url": "https://boards.4chan.org/g/thread/109644897",
+      "source_hint": "/g/ Omarchy hits $10m funding, anon suspects astroturfing",
+      "text_en_b2": "Omarchy's funding has reportedly climbed to around $10M USD, which on /g/ triggered the usual disbelief. While people were still grumbling about the original $8M raise, somebody apparently tossed another $2M into the pile. One anon quipped it must be the most heavily astroturfed Linux project in years, and the real question hanging in the air is just how big the bags handed out to shilling YouTubers actually were.",
+      "text_en_c1": "A /g/ anon has flagged that Omarchy's funding round has ballooned to a frankly absurd 10 million USD. After widespread grumbling about the original 8 million, an additional 2 million somehow materialised, prompting speculation that this is the most aggressively astroturfed Linux venture in recent memory. The obvious corollary concerns compensation: when distro projects command sums ordinarily reserved for serious infrastructure, one must question the scale of the bags distributed to influencers, particularly the YouTubers conspicuously championing the project. Either the product is revolutionary or the marketing budget is, and the evidence rather suggests the latter.",
+      "text_en_c2": "An anon on /g/ has flagged that Omarchy's funding envelope has ballooned to ten million dollars, a figure that, in a sane ecosystem, would occasion reflection rather than celebration. The original eight had already drawn considerable ire; the additional two, ostensibly unsolicited, has only deepened suspicions of concerted astroturfing on a scale rarely witnessed in Linux circles. The conspicuous question, posed with characteristic /g/ asperity, concerns the size of the bags disbursed to the cohort of YouTube evangelists whose endorsements appear suspiciously synchronized. A distro commanding venture-scale capital invariably invites scrutiny of the strings attached."
+    },
+    {
+      "id": "t4-pol-age",
+      "category": "hk/news",
+      "topic_zh": "成年年齡論戰",
+      "topic_en": "Age 18 debate",
+      "text_zh": "/pol/嗰邊有人cap個X post嚟鬧，即係所謂18歲成年係「政治魔法數字」，話呢個數字令人瘋狂。OP話要用biological instinct同science，唔好信state個arbitrary number。講到尾就係青春期先算默認成年 30歲廢柴我都唔知自己算咩😅",
+      "text_en_b1": "OP on /pol/ rants about the '18 magical age' theory. He says people have been brainwashed by this political number. He argues adulthood should default to puberty, since any animal with secondary sexual characteristics is biologically adult. Trust the science, not the state's arbitrary line, he says.",
+      "source_url": "https://boards.4chan.org/pol/thread/541575894",
+      "source_hint": "/pol/ thread arguing age 18 is a political construct, not biological",
+      "text_en_b2": "On /pol/ an OP is ranting about a viral X post dismissing 18 as a political magic number. He insists adulthood ought to default to puberty, since any animal developing secondary sexual characteristics is biologically mature by nature. Trust biology and science, he argues, rather than the state's arbitrary threshold. Whether the take holds up is another matter entirely.",
+      "text_en_c1": "A /pol/ thread has surfaced an X post decrying the so-called '18 magical age' as nothing more than political numerology, a construct that has apparently driven the culture to collective hysteria. The OP contends that maturity ought to default to puberty, since any organism exhibiting secondary sexual characteristics is, by any reasonable biological metric, already an adult. He urges followers to trust instinct and empirical science rather than the state's arbitrarily imposed threshold. Whether 30-year-olds qualify remains, in his framing, an open question, though the underlying logic conveniently flatters those wishing to abdicate responsibility earlier.",
+      "text_en_c2": "A /pol/ screed has resurfaced, castigating the age of eighteen as a 'political magical number,' a figment of legislative fiat rather than biological reality. The OP contends that civilisation has been marinating in this arbitrary demarcation for generations, with predictably absurd consequences. Puberty, he insists, ought to constitute the default threshold; any organism manifesting secondary sexual characteristics is, by the testimony of evolution itself, an adult. Trust the science, discount the state. The argument is delivered with the fervour of a man who, at thirty, remains palpably uncertain which side of the line he occupies."
+    },
+    {
+      "id": "t5-lol-yosuke",
+      "category": "lol/esports",
+      "topic_zh": "Persona 3 Yosuke線",
+      "topic_en": "Yosuke romance route",
+      "text_zh": "我唔玩Persona 但呢條post笑死 😂 /v/班友鬧lazy developers，話加Yosuke romance route就得啦，結果搞到比原作更差。最後結論Portable先係definitive 玩法 似DLC炒車多過原裝😅",
+      "text_en_b1": "OP on /v/ is mad at lazy Persona 3 Reload developers. He says just add the Yosuke romance route everyone wants. He is sure it will end up worse than the original. His verdict: P3 Portable is still the definitive way to play the game. Remasters are a downgrade.",
+      "source_url": "https://boards.4chan.org/v/thread/746406867",
+      "source_hint": "/v/ Persona 3 Reload missing Yosuke romance, op calls devs lazy",
+      "text_en_b2": "A /v/ OP is fuming at the Persona 3 Reload developers, accusing them of laziness for not including the long-requested Yosuke romance route. He is convinced that bolting it on would inevitably end up worse than the original implementation. His verdict is blunt: P3 Portable remains the definitive way to experience the game, and modern remasters more often than not function as downgrades.",
+      "text_en_c1": "I confess I don't play Persona, but the thread is objectively amusing: /v/ regulars are laying into the Reload developers with accusations of creative lethargy, insisting that simply grafting on the long-demanded Yosuke romance route would suffice, though they suspect the implementation would inevitably prove inferior to the source material. The consensus verdict elevates P3 Portable as the definitive experience, with remastered iterations dismissed as DLC-quality disasters masquerading as premium releases. The irony, of course, is that demanding additional content while despising what already exists is a rather precarious position to maintain.",
+      "text_en_c2": "A /v/ lamentation concerning Persona 3 Reload's custodians, whom the OP excoriates for laziness bordering on dereliction. The proposed remedy is deceptively simple: graft the long-mooted Yosuke romance route onto the remake, thereby appeasing the faithful and rectifying an enduring omission. The poster is nevertheless convinced that such a retrofit would invariably emerge inferior to the source material, a DLC-style imposition that compromises the original's coherence. His verdict, delivered with apostolic certainty, is that P3 Portable remains the definitive experience; remasters, in his telling, are downgrades masquerading as enhancements."
+    },
+    {
+      "id": "t6-fit-cutting",
+      "category": "mma/fitness",
+      "topic_zh": "減肥減到冇力",
+      "topic_en": "Cut killing gains",
+      "text_zh": "/fit/有條post同我情況好似😅 條友三個月減45磅但肌肉同力量都走晒。去gym一做squat心跳爆晒，話自己就嚟死。一日食兩次已經極限 餐都食唔晒 30歲廢柴要gym真係要夾硬嚟🙏",
+      "text_en_b1": "OP on /fit/ lost 45 pounds in 3 months but also lost muscle and strength. The gym kills him now. He cannot lift heavy or train hard because his body gives out. Heart races during squats, he feels like he might die. Eating is a nightmare, he force-feeds every morning. The cut is brutal.",
+      "source_url": "https://boards.4chan.org/fit/thread/77480573",
+      "source_hint": "/fit/ guy cutting hard, lost 45 lbs but strength is gone, eating is a struggle",
+      "text_en_b2": "On /fit/ the OP describes shedding 45 pounds over three months only to watch his muscle and strength vanish alongside the fat. Training now feels punishing, with his heart hammering during squats and a creeping sense that his body might give out mid-set. Eating has become a chore he has to force himself through twice a day. The cut, as he puts it, has been utterly brutal.",
+      "text_en_c1": "A /fit/ post resonates uncomfortably with my own predicament: the fellow shed 45 pounds over three months, only to discover that muscle mass and strength had evaporated alongside the fat. The gym has become an ordeal; his cardiovascular system protests even moderate squats, leaving him genuinely frightened that he might collapse mid-rep. Nutrition is equally fraught, as forcing down two meals daily represents his absolute ceiling, with portions routinely left unfinished. The cut has consumed him entirely, and as a 30-year-old attempting to maintain any kind of training regimen, the struggle is, frankly, relentless.",
+      "text_en_c2": "A /fit/ chronicle of self-inflicted attrition that practically radiates exhaustion. The poster has shed forty-five pounds in a mere three months, a feat achieved at the unconscionable cost of muscle mass and baseline strength. The gym, formerly a sanctuary, has become a site of cardiac distress; squats send his heartrate into overdrive, and he entertains serious concerns about imminent demise. Two meals a day represent the upper bound of his gastric tolerance, breakfast consumed under duress rather than appetite. The cut, he concludes, has been nothing short of brutal, a fiscal metaphor translated into flesh."
+    },
+    {
+      "id": "t7-gundam-og",
+      "category": "anime/culture",
+      "topic_zh": "原版Gundam被低估",
+      "topic_en": "OG Gundam underrated",
+      "text_zh": "/a/有人問Mobile Suit Gundam係咪被underrated。OP話而家啲人成日提Zeta、ZZ、CCA呢啲「廢 sequel」，呢啲係完全唔同班人做嘅應該non-canon。原版先係真正masterpiece Gundam 00同我口味好啱但呢條post幾中肯🙏",
+      "text_en_b1": "OP on /a/ asks if Mobile Suit Gundam is underrated. He says sequels like Zeta, ZZ, and CCA were made by different people and should be non-canon. Americans are weirdly obsessed with Zeta, which was less popular when it actually aired. The original 1979 series is the real masterpiece that gets overshadowed.",
+      "source_url": "https://boards.4chan.org/a/thread/290489541",
+      "source_hint": "/a/ argues original Mobile Suit Gundam is underrated, sequels are non-canon",
+      "text_en_b2": "An /a/ OP poses the question of whether Mobile Suit Gundam is genuinely underrated. He argues that sequels like Zeta, ZZ, and CCA were produced by entirely different creative teams and ought to be treated as non-canon. Meanwhile Western fans remain oddly fixated on Zeta, which underperformed when it originally aired. The 1979 original, in his view, is the real masterpiece that keeps getting overshadowed.",
+      "text_en_c1": "An /a/ thread poses a provocative question: is the original Mobile Suit Gundam genuinely underrated? The OP's argument is characteristically contrarian, contending that the much-celebrated sequels, Zeta, ZZ, and Char's Counterattack, were produced by entirely different creative teams and ought to be classified as non-canonical spin-offs rather than legitimate continuations. He notes the peculiar American obsession with Zeta, which underperformed domestically upon its original broadcast. The 1979 original remains, in his estimation, the undisputed masterpiece perpetually eclipsed by inferior successors. Gundam 00 admittedly suits my palate better, though his broader thesis is difficult to dismiss outright.",
+      "text_en_c2": "A /a/ thread has reopened the perennial inquiry: is the original 1979 Mobile Suit Gundam egregiously underrated? The OP's position is unapologetically heterodox. Sequels such as Zeta, ZZ, and Char's Counterattack, he contends, were produced by an entirely different creative cohort and ought to be regarded as non-canon, notwithstanding the curious American fixation on Zeta, a series that enjoyed only modest reception in its original broadcast era. The 1979 original remains, in his estimation, the genuine masterpiece persistently eclipsed by its own progeny, a judgment he tenders with measured equanimity."
+    }
+  ]
 }
