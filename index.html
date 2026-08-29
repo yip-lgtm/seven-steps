@@ -1296,6 +1296,72 @@ function renderSessionComplete() {
   `;
 }
 
+// --- Trading signal table (in Settings) ---
+// Reads the signal field from each daily clip and renders a table.
+// Most days have 0-2 real signals; the other 5 clips are "observation" only.
+function renderSignalTable() {
+  const clips = (state.todayClips || []);
+  const signals = clips
+    .map(c => ({ clip: c, sig: c.signal }))
+    .filter(x => x.sig && x.sig.asset && x.sig.asset !== 'observation');
+  if (signals.length === 0) {
+    return `
+      <div class="settings-row" style="border-top: 1px solid var(--line); margin-top: 16px; padding-top: 16px;">
+        <div class="label-block">
+          <div class="label">Trading signals (today)</div>
+          <div class="sub">No real trade signals in today's pool. 4chan /biz/ threads today are pure loss-pain storytelling, no setups.</div>
+        </div>
+      </div>
+    `;
+  }
+  const dirIcon = d => d === 'long' ? '🟢 L' : d === 'short' ? '🔴 S' : '⚪ —';
+  const convIcon = c => c === 'high' ? '★★★' : c === 'medium' ? '★★' : c === 'low' ? '★' : '—';
+  const rows = signals.map(({ clip, sig }) => {
+    const targetStr = sig.target ? sig.target : '—';
+    const stopStr = sig.stop ? sig.stop : '—';
+    const timeStr = sig.time_horizon || '—';
+    return `
+      <tr>
+        <td style="padding: 6px 4px; border-top: 1px solid var(--line);">
+          <div style="font-weight: 500;">${sig.asset}</div>
+          <div style="font-size: 11px; color: var(--ink-faint);">${clip.topic_zh || ''}</div>
+        </td>
+        <td style="padding: 6px 4px; border-top: 1px solid var(--line);">${dirIcon(sig.direction)}</td>
+        <td style="padding: 6px 4px; border-top: 1px solid var(--line);">${convIcon(sig.conviction)}</td>
+        <td style="padding: 6px 4px; border-top: 1px solid var(--line); font-size: 12px;">${timeStr}</td>
+        <td style="padding: 6px 4px; border-top: 1px solid var(--line); font-size: 12px;">${targetStr}</td>
+        <td style="padding: 6px 4px; border-top: 1px solid var(--line); font-size: 12px;">${stopStr}</td>
+      </tr>
+      <tr>
+        <td colspan="6" style="padding: 0 4px 10px 4px; font-size: 12px; color: var(--ink-soft); font-style: italic;">
+          ${sig.rationale || ''}
+        </td>
+      </tr>
+    `;
+  }).join('');
+  return `
+    <div class="settings-row" style="border-top: 1px solid var(--line); margin-top: 16px; padding-top: 16px; display: block;">
+      <div class="label-block" style="margin-bottom: 12px;">
+        <div class="label">Trading signals (today)</div>
+        <div class="sub">${signals.length} signal${signals.length === 1 ? '' : 's'} extracted from today's ${clips.length} clips. L = long, S = short, ★ = conviction. These are the implied setups inferred from 4chan/HN/X threads — not financial advice.</div>
+      </div>
+      <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+        <thead>
+          <tr style="font-size: 11px; color: var(--ink-faint); text-align: left;">
+            <th style="padding: 4px; font-weight: 400;">Asset</th>
+            <th style="padding: 4px; font-weight: 400;">Dir</th>
+            <th style="padding: 4px; font-weight: 400;">Conf</th>
+            <th style="padding: 4px; font-weight: 400;">Time</th>
+            <th style="padding: 4px; font-weight: 400;">Target</th>
+            <th style="padding: 4px; font-weight: 400;">Stop</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
 function renderSettings() {
   const s = state.settings;
   const voiceOptions = availableVoices.length
@@ -1384,6 +1450,8 @@ function renderSettings() {
         </div>
         <button class="btn" id="btn-test">Play sample</button>
       </div>
+
+      ${renderSignalTable()}
 
       <div class="mt-4">
         <button class="btn" id="btn-reset" style="color: var(--danger);">Reset all progress</button>

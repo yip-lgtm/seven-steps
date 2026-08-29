@@ -30,6 +30,16 @@ const TODAY_JSON = path.join(__dirname, '..', 'clips', 'today.json');
 
 // --- helpers ---
 
+function fmtSignalLine(sig) {
+  if (!sig || !sig.asset || sig.asset === 'observation') return null;
+  const dir = sig.direction === 'long' ? '🟢L' : sig.direction === 'short' ? '🔴S' : '⚪—';
+  const conv = sig.conviction === 'high' ? '★★★' : sig.conviction === 'medium' ? '★★' : sig.conviction === 'low' ? '★' : '—';
+  const target = sig.target ? ` tgt ${sig.target}` : '';
+  const stop = sig.stop ? ` stop ${sig.stop}` : '';
+  const tf = sig.time_horizon && sig.time_horizon !== 'none' ? ` ${sig.time_horizon}` : '';
+  return `📈 ${sig.asset} ${dir} ${conv}${tf}${target}${stop}`;
+}
+
 function fmtClipLine(c, i) {
   const b1 = c.text_en_b1 || '';
   const preview = b1.length > 140 ? b1.slice(0, 137).trimEnd() + '…' : b1;
@@ -47,11 +57,20 @@ function fmtClipLine(c, i) {
       sourceTag = 'Source: see link';
     }
   }
-  return `${i+1}. ${c.topic_en} · ${c.topic_zh}\n${preview}\n${sourceTag}\n${c.source_url || ''}`;
+  const signal = fmtSignalLine(c.signal);
+  const signalLine = signal ? `${signal}\n` : '';
+  return `${i+1}. ${c.topic_en} · ${c.topic_zh}\n${preview}\n${sourceTag}\n${signalLine}${c.source_url || ''}`.trim();
 }
 
 function fmtMessage(clips, date) {
-  const header = `📚 Seven Steps · ${date}\n${clips.length} bilingual clips from 4chan / HN.\n`;
+  const signals = clips
+    .map(c => c.signal)
+    .filter(s => s && s.asset && s.asset !== 'observation');
+  const signalCount = signals.length;
+  const signalHeadline = signalCount > 0
+    ? ` · 📈 ${signalCount} signal${signalCount === 1 ? '' : 's'}`
+    : '';
+  const header = `📚 Seven Steps · ${date}\n${clips.length} bilingual clips from 4chan / HN${signalHeadline}.\n`;
   const body = clips.map((c, i) => fmtClipLine(c, i)).join('\n\n');
   const footer = '\n\nOpen: https://yip-lgtm.github.io/seven-steps/';
   return header + '\n' + body + footer;

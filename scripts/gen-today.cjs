@@ -663,10 +663,34 @@ Return ONLY a JSON object in this exact shape, no markdown fences, no commentary
       "text_zh": "<Chinese version>",
       "text_en_b1": "<B1 English, ${LEVELS.b1.min}-${LEVELS.b1.max} words>",
       "source_url": "<ONE direct post URL, copied exactly from the pool when relevant>",
-      "source_hint": "<short>"
+      "source_hint": "<short>",
+      "signal": {
+        "asset": "<BTC|ETH|XAU|TSLA|NVDA|DOGE|SPY|NQ|... or 'observation' if not a real trade>",
+        "direction": "<long|short|neutral|observation>",
+        "conviction": "<high|medium|low|none>",
+        "time_horizon": "<intraday|days|weeks|months|none>",
+        "entry_zone": "<current price level or 'current'>",
+        "target": "<price target or null>",
+        "stop": "<stop loss level or null>",
+        "rationale": "<one short sentence: why is this a trade?>"
+      }
     }
   ]
 }
+
+# Signal rules (for trading category ONLY)
+- Only the 2 trading clips get a real signal. The other 5 categories (tech/ai, hk/news, lol, mma/fitness, anime) MUST have signal.asset = "observation", direction = "observation", conviction = "none", time_horizon = "none", target = null, stop = null.
+- For trading clips, look at the OP text and infer the implied trade. If the OP says "buy the dip" → long. If "short squeeze" → short. If "vibe check, nobody knows" → neutral with low conviction. If the OP is pure loss-pain storytelling with no setup → observation.
+- The signal is meta — the OP text doesn't have to literally say "long BTC at 108k". You're reading between the lines: a 4chan /biz/ OP ranting about how BTC is the only thing holding up while everything dumps is implicitly a long signal on BTC.
+- Conviction reflects how strong the implied setup is: "obviously" / "this is the play" → high. "I think" / "maybe" → medium. "Lol idk" → low. Pure anecdote → none.
+- target and stop: only fill if the OP hints at levels ("above 100k", "stop at 50k"). Otherwise null.
+- entry_zone: "current" unless the OP names a specific entry level.
+
+Example signal for a 4chan /biz/ thread "Why do people buy BTC after the pump?" (post-hoc, no setup):
+  "signal": { "asset": "BTC", "direction": "observation", "conviction": "none", "time_horizon": "none", "entry_zone": "current", "target": null, "stop": null, "rationale": "Post-hoc observation, no actionable setup" }
+
+Example signal for "DOGE follow the maid, 25k target for an AE86":
+  "signal": { "asset": "DOGE", "direction": "long", "conviction": "medium", "time_horizon": "months", "entry_zone": "current", "target": "0.36 (25k DOGE * 0.0144)", "stop": null, "rationale": "Anon's accumulation target is 25k DOGE to buy an AE86" }
 
 # Self-check before returning
 For each clip's text_en_b1, count the words (space-separated tokens). Every one MUST be >= ${LEVELS.b1.min}. If any is under, extend it with another concrete sentence containing a number/name/date before returning. Do not submit short clips.
