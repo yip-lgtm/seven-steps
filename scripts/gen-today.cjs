@@ -64,6 +64,9 @@ function scoreText(text, category) {
   for (const kw of (KEYWORDS[category] || [])) {
     try { if (new RegExp(kw, 'i').test(lower)) score += 3; } catch (_) {}
   }
+  // Musk keywords get a boost — user prefers Musk content for trading slot 2
+  const muskBoost = /\b(musk|elon|tesla|tsla|spacex|optimus|dogecoin|doge)\b/i;
+  if (muskBoost.test(lower)) score += 5;
   return score;
 }
 
