@@ -50,8 +50,8 @@ const BOARD_CATEGORY = {
 };
 
 const KEYWORDS = {
-  trading: ['gold','xau','spy','nasdaq','cfd','prop','futures','forex','btc','bitcoin','oil','fed','yield','option','nvda','earnings','pnl','leverage','short','long','chart','ath','dump','pump','usd','silver','bond','cpi','rate cut','trading'],
-  'tech/ai': ['ai','llm','gpt','grok','nvidia','gpu','automat','openai','claude','model','layoff','replace','white.?collar','cursor','coding','engineer','job'],
+  trading: ['gold','xau','spy','nasdaq','cfd','prop','futures','forex','btc','bitcoin','oil','fed','yield','option','nvda','earnings','pnl','leverage','short','long','chart','ath','dump','pump','usd','silver','bond','cpi','rate cut','trading','musk','elon','tesla','tsla','spacex','doge','dogecoin','x.com','twitter','optimus','boring'],
+  'tech/ai': ['ai','llm','gpt','grok','nvidia','gpu','automat','openai','claude','model','layoff','replace','white.?collar','cursor','coding','engineer','job','musk','elon','tesla','spacex','optimus','robot','rocket'],
   'hk/news': ['hong kong','hongkong','hk ','hkg','cantonese','kowloon','mtr','hku','legco','ccp','china','taiwan','asia','hkd','typhoon'],
   'lol/esports': ['league','lol','faker','worlds','lck','lpl','lcs','t1','skt','gwen','yasuo','ranked','elo','riot','arcane','wild rift'],
   'mma/fitness': ['ufc','mma','gym','lift','deadlift','bulk','cut','protein','bjj','boxing','spar','natty',' squat','bench','cardio','fat'],
@@ -293,6 +293,72 @@ async function fetchHackerNewsStories(limit = 25) {
   }
 }
 
+// --- Nitter fetch (best-effort, for specific accounts) ---
+// Probes a list of public Nitter mirrors and returns the first one's RSS
+// output for a given username. If all mirrors are down (common — they
+// rotate), this returns [] silently. The point is to seed Musk-style
+// content into the post pool; if it works we get a real x.com/{user}/status/{id}
+// URL with the LLM's light edit, otherwise we fall back to synthetic.
+//
+// Mirrors are tried in order; whichever responds first wins.
+
+const NITTER_MIRRORS = [
+  'https://nitter.poast.org',
+  'https://nitter.privacyredirect.com',
+  'https://nitter.net',
+  'https://xcancel.com',
+  'https://nitter.1d4.us',
+];
+
+async function fetchNitterAccount(username, limit = 8) {
+  for (const mirror of NITTER_MIRRORS) {
+    try {
+      const url = `${mirror}/${username}/rss`;
+      const res = await fetch(url, {
+        headers: { 'User-Agent': BROWSER_UA },
+        signal: AbortSignal.timeout(6000),
+        redirect: 'follow',
+      });
+      if (!res.ok) continue;
+      const xml = await res.text();
+      // Crude RSS parse — extract <item> blocks
+      const itemRe = /<item[^>]*>([\s\S]*?)<\/item>/g;
+      const out = [];
+      let m;
+      while ((m = itemRe.exec(xml)) !== null && out.length < limit) {
+        const block = m[1];
+        // title: pull from <title> or description
+        const titleMatch = block.match(/<title[^>]*><!\[CDATA\[?([\s\S]*?)\]?><\/title>/)
+          || block.match(/<title[^>]*>([\s\S]*?)<\/title>/);
+        const linkMatch = block.match(/<link[^>]*>([\s\S]*?)<\/link>/);
+        if (!titleMatch) continue;
+        const title = titleMatch[1].replace(/<[^>]+>/g, '').trim();
+        // nitter link is /username/status/id#m — extract status id
+        const link = linkMatch ? linkMatch[1].trim() : '';
+        const statusMatch = link.match(/\/status\/(\d+)/);
+        if (!statusMatch) continue;
+        const statusId = statusMatch[1];
+        out.push({
+          source: 'nitter',
+          author: username,
+          title: title.slice(0, 200),
+          objectID: statusId,
+          url: `https://x.com/${username}/status/${statusId}`,
+          replies: 0,
+        });
+      }
+      if (out.length > 0) {
+        console.log(`  [Nitter] got ${out.length} posts from @${username} via ${mirror}`);
+        return out;
+      }
+    } catch (e) {
+      // try next mirror
+    }
+  }
+  console.log(`  [Nitter] no mirrors reachable for @${username}`);
+  return [];
+}
+
 // --- Unified post-pool builder ---
 // Combines 4chan + HN. Either source failing is fine — the LLM still
 // gets whatever is available. If both fail, the pool is empty and the
@@ -300,15 +366,28 @@ async function fetchHackerNewsStories(limit = 25) {
 
 async function buildPostPool() {
   console.log('Building real post pool...');
-  const [fourchan, hn] = await Promise.all([
+  const [fourchan, hn, musk, anime] = await Promise.all([
     fetchFourchanCatalog().catch(err => {
       console.warn('[post-pool] 4chan pool failed entirely:', err.message);
       return [];
     }),
     fetchHackerNewsStories(25),
+    fetchNitterAccount('elonmusk', 8).catch(() => []),
+    fetchNitterAccount('Tesla', 6).catch(() => []),
   ]);
-  let pool = [...fourchan, ...hn];
-  console.log(`Post pool: ${fourchan.length} 4chan + ${hn.length} HN = ${pool.length} total`);
+  // Tag Musk / X-style entries with category so the LLM can find them
+  for (const m of musk) {
+    m.category = 'trading';
+    m.board = 'x';
+    m.topic = 'X/Musk';
+  }
+  for (const a of anime) {
+    a.category = 'trading';
+    a.board = 'x';
+    a.topic = 'X/Tesla';
+  }
+  let pool = [...fourchan, ...hn, ...musk, ...anime];
+  console.log(`Post pool: ${fourchan.length} 4chan + ${hn.length} HN + ${musk.length} @elonmusk + ${anime.length} @Tesla = ${pool.length} total`);
 
   // Enrich 4chan entries with actual OP content
   pool = await enrichPostPoolWithContent(pool);
@@ -515,6 +594,11 @@ ONE URL string, correctly formatted. Never empty. Never a search page.`;
 
 # Topic distribution
 Cover these 7 categories (one clip each): ${mixLine}.
+
+For the trading category (2 clips per day), split as follows:
+  • Clip 1 — macro/traditional: gold, oil, futures, FX, prop firm P&L, CFD losses, Bitcoin, indices
+  • Clip 2 — Musk content (any angle fits): Tesla earnings or stock movement, X platform drama, SpaceX launches/tests, Optimus robot, Boring Co, Dogecoin, Musk tweets, Musk memes
+  Avoid the meme-stock / GME / WSB-style content — the user is tired of that genre. Musk-related content is preferred for the second trading slot, with the angle open to anything from finance to engineering to shitposting.
 
 ${poolBlock}
 
