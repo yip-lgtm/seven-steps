@@ -50,7 +50,7 @@ const BOARD_CATEGORY = {
 };
 
 const KEYWORDS = {
-  trading: ['gold','xau','spy','nasdaq','cfd','prop','futures','forex','btc','bitcoin','oil','fed','yield','option','nvda','earnings','pnl','leverage','short','long','chart','ath','dump','pump','usd','silver','bond','cpi','rate cut','trading','musk','elon','tesla','tsla','spacex','doge','dogecoin','x.com','twitter','optimus','boring'],
+  trading: ['gold','xau','spy','nasdaq','cfd','prop','futures','forex','btc','bitcoin','oil','fed','yield','option','nvda','earnings','pnl','leverage','short','long','chart','ath','dump','pump','usd','silver','bond','cpi','rate cut','trading','musk','elon','tesla','tsla','spacex','starship','starlink','doge','dogecoin','x.com','twitter','optimus','boring','neuralink','semiconductor','chip','asml','tsm','tsmc','amd','intel','arm','hbm','samsung','foundry','wafer','ai chip','gpu'],
   'tech/ai': ['ai','llm','gpt','grok','nvidia','gpu','automat','openai','claude','model','layoff','replace','white.?collar','cursor','coding','engineer','job','musk','elon','tesla','spacex','optimus','robot','rocket'],
   'hk/news': ['hong kong','hongkong','hk ','hkg','cantonese','kowloon','mtr','hku','legco','ccp','china','taiwan','asia','hkd','typhoon'],
   'lol/esports': ['league','lol','faker','worlds','lck','lpl','lcs','t1','skt','gwen','yasuo','ranked','elo','riot','arcane','wild rift'],
@@ -72,6 +72,14 @@ function scoreText(text, category) {
   // Musk wins whenever there's a single Musk thread in the pool.
   const muskBoost = /\b(musk|elon|tesla|tsla|spacex|optimus|dogecoin|doge)\b/i;
   if (muskBoost.test(lower)) score += 10;
+  // Hard penalty for meme-stock / GME / WSB-style content — user is
+  // tired of that genre. Drops these threads to the bottom of the
+  // trading pool so the LLM never picks them, even if a /biz/ thread
+  // with GME in the title is the only thing in the pool. The
+  // penalty is heavy (-1000) so any GME thread scores below 0 and
+  // the picker skips it in favor of the musk-fallback synthetic entry.
+  const memePenalty = /\b(gme|wsb|wallstreetbets|game ?stop|meme ?stock|meme ?stonk|roaring ?kitty|ryan ?cohen|bed ?bath ?and ?beyond|bbb|amc|blackberry|bb|nok|palantir|sofi)\b/i;
+  if (memePenalty.test(lower)) score -= 1000;
   return score;
 }
 
@@ -402,7 +410,7 @@ async function buildPostPool() {
   // the LLM uses it as-is and the link in the app is structurally valid.
   // Bump at most one entry per day; only when nothing Musk-related
   // already made it into the pool.
-  const hasMusk = pool.some(p => /musk|tesla|tsla|spacex|optimus|dogecoin|elonmusk/i.test(`${p.title} ${p.url} ${p.topic || ''}`));
+  const hasMusk = pool.some(p => /musk|tesla|tsla|spacex|optimus|dogecoin|\bdoge\b|elonmusk|nvda|asml|tsmc|starship|starlink|semiconductor/i.test(`${p.title} ${p.url} ${p.topic || ''} ${p.transcript?.full || ''}`));
   if (!hasMusk) {
     pool.push({
       source: 'musk-fallback',
@@ -626,8 +634,16 @@ Cover these 7 categories (one clip each): ${mixLine}.
 
 For the trading category (2 clips per day), split as follows:
   • Clip 1 — macro/traditional: gold, oil, futures, FX, prop firm P&L, CFD losses, Bitcoin, indices
-  • Clip 2 — Musk content (any angle fits): Tesla earnings or stock movement, X platform drama, SpaceX launches/tests, Optimus robot, Boring Co, Dogecoin, Musk tweets, Musk memes
-  Avoid the meme-stock / GME / WSB-style content — the user is tired of that genre. Musk-related content is preferred for the second trading slot, with the angle open to anything from finance to engineering to shitposting.
+  • Clip 2 — Tech / engineering / Musk content. Preferred angles in order:
+      1. Tesla (TSLA) earnings, stock movement, delivery numbers, FSD/Optimus progress
+      2. SpaceX Starship / rocket launches / Starlink
+      3. Semiconductor (NVDA, ASML, TSM, AMD, Intel) — AI chips, foundry, supply chain
+      4. X platform / Musk tweets / Musk engineering (Boring Co, Neuralink)
+      5. Dogecoin / Musk-related crypto
+      6. Musk memes / shitposts
+  Avoid the meme-stock / GME / WSB / AMC / BBB / Ryan Cohen genre — the user is tired of it.
+  If no real Musk/Tesla/SpaceX/Semiconductor thread exists in the pool, the synth-musk-fallback
+  will supply a TSLA / SpaceX entry, and the LLM should use that URL.
 
 ${poolBlock}
 
