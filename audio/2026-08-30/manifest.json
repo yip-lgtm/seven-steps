@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-30",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-gme-0801",
+      "topic_en": "GME general thread",
+      "topic_zh": "GME 廢老帖",
+      "category": "trading",
+      "file": "clip-biz-gme-0801.mp3",
+      "bytes": 510381,
+      "chars": 407
+    },
+    {
+      "id": "biz-musk-doge-0802",
+      "topic_en": "Follow the maid",
+      "topic_zh": "女僕幣跟車",
+      "category": "trading",
+      "file": "clip-biz-musk-doge-0802.mp3",
+      "bytes": 378477,
+      "chars": 335
+    },
+    {
+      "id": "g-ai-swe-0803",
+      "topic_en": "AI for coding",
+      "topic_zh": "AI productivity",
+      "category": "tech/ai",
+      "file": "clip-g-ai-swe-0803.mp3",
+      "bytes": 338157,
+      "chars": 340
+    },
+    {
+      "id": "pol-intel-test-0804",
+      "topic_en": "IQ test thread",
+      "topic_zh": "智商測試帖",
+      "category": "hk/news",
+      "file": "clip-pol-intel-test-0804.mp3",
+      "bytes": 288621,
+      "chars": 307
+    },
+    {
+      "id": "v-budget-meme-0805",
+      "topic_en": "Budget vs quality",
+      "topic_zh": "預算 meme",
+      "category": "lol/esports",
+      "file": "clip-v-budget-meme-0805.mp3",
+      "bytes": 457389,
+      "chars": 330
+    },
+    {
+      "id": "fit-fat-loss-0806",
+      "topic_en": "Cutting struggle",
+      "topic_zh": "減脂地獄",
+      "category": "mma/fitness",
+      "file": "clip-fit-fat-loss-0806.mp3",
+      "bytes": 272493,
+      "chars": 272
+    },
+    {
+      "id": "a-isekai-0807",
+      "topic_en": "Isekai foreigners",
+      "topic_zh": "異世界外國人",
+      "category": "anime/culture",
+      "file": "clip-a-isekai-0807.mp3",
+      "bytes": 373869,
+      "chars": 369
+    }
+  ]
+}
