@@ -26,6 +26,8 @@ web/dist/
 web/.env
 web/.env.local
 
-# Audio files: keep last 14 days, prune the rest
-audio/20[0-9][0-9]-*
-!audio/index.json
+# Audio files: keep all by default — pruning is handled by the
+# workflow's 'cleanup old audio' step which removes > 14-day-old
+# directories before commit. The 14-day cap keeps repo size sane
+# (~25 MB / 14 days at 1.7 MB per day).
+# (No audio/ entries ignored here — we WANT the recent ones committed.)

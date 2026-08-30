@@ -67,6 +67,35 @@ jobs:
           cd "$GITHUB_WORKSPACE"
           node scripts/gen-audio.cjs
 
+      - name: Prune audio older than 14 days
+        if: success()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          # Keep audio/{today-N} directories up to 14 days old. Prune the rest.
+          cutoff=$(date -u -d '14 days ago' +%Y-%m-%d 2>/dev/null || date -u -v-14d +%Y-%m-%d)
+          for d in audio/20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]; do
+            [ -d "$d" ] || continue
+            date_part=$(basename "$d")
+            if [ "$date_part" \< "$cutoff" ]; then
+              echo "  pruning $d (older than $cutoff)"
+              rm -rf "$d"
+            fi
+          done
+          # Rebuild index.json without pruned dates
+          if [ -f audio/index.json ]; then
+            node -e '
+              const fs = require("fs");
+              const idx = JSON.parse(fs.readFileSync("audio/index.json", "utf8"));
+              const kept = (idx.dates || []).filter(d => !d.startsWith("20") || d >= "'"$cutoff"'");
+              if (kept.length !== (idx.dates || []).length) {
+                idx.dates = kept;
+                idx.latest = kept[kept.length - 1] || null;
+                fs.writeFileSync("audio/index.json", JSON.stringify(idx, null, 2));
+                console.log("  updated audio/index.json: kept " + kept.length + " dates");
+              }
+            '
+          fi
+
       - name: Commit and push
         run: |
           git config user.name "seven-steps-bot"
