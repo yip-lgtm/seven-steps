@@ -990,6 +990,10 @@ async function callLLM(prompt, opts = {}) {
     text_en_b2: b2Map[c.id] || '',
     text_en_c1: c1Map[c.id] || '',
     text_en_c2: c2Map[c.id] || '',
+    // audio_url is filled in by gen-audio.cjs after TTS runs. Default
+    // null so the app falls back to Web Speech API if the TTS bundle
+    // is missing for today.
+    audio_url: null,
   }));
 
   for (const c of finalClips) {

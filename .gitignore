@@ -25,3 +25,7 @@ web/.output/
 web/dist/
 web/.env
 web/.env.local
+
+# Audio files: keep last 14 days, prune the rest
+audio/20[0-9][0-9]-*
+!audio/index.json

@@ -735,7 +735,9 @@ async function speakAndToggle(clipOrText, btn) {
   // accept either a clip object or a raw string
   const clip = (typeof clipOrText === 'object' && clipOrText !== null) ? clipOrText : null;
   const text = clip ? getTextForLevel(clip) : clipOrText;
-  const audioSrc = clip ? clip.audio : null;
+  // Prefer the daily pre-rendered TTS bundle (audio_url). Fall back to
+  // the per-clip inline audio field, then to runtime Web Speech API.
+  const audioSrc = clip ? (clip.audio_url || clip.audio || null) : null;
 
   if (isSpeaking) {
     if (currentAudio) { currentAudio.pause(); currentAudio = null; }
