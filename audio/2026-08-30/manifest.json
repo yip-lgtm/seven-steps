@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-gme-0801",
-      "topic_en": "GME general thread",
-      "topic_zh": "GME 廢老帖",
+      "id": "t1-btc-maid",
+      "topic_en": "BTC maid rally",
+      "topic_zh": "BTC女傭幣",
       "category": "trading",
-      "file": "clip-biz-gme-0801.mp3",
-      "bytes": 510381,
-      "chars": 407
+      "file": "clip-t1-btc-maid.mp3",
+      "bytes": 222016,
+      "chars": 205
     },
     {
-      "id": "biz-musk-doge-0802",
-      "topic_en": "Follow the maid",
-      "topic_zh": "女僕幣跟車",
+      "id": "t2-doge-ae86",
+      "topic_en": "DOGE to AE86",
+      "topic_zh": "DOGE AE86夢",
       "category": "trading",
-      "file": "clip-biz-musk-doge-0802.mp3",
-      "bytes": 378477,
-      "chars": 335
+      "file": "clip-t2-doge-ae86.mp3",
+      "bytes": 252575,
+      "chars": 166
     },
     {
-      "id": "g-ai-swe-0803",
-      "topic_en": "AI for coding",
-      "topic_zh": "AI productivity",
+      "id": "tech-ai-productivity",
+      "topic_en": "AI productivity real?",
+      "topic_zh": "AI係咪真幫到",
       "category": "tech/ai",
-      "file": "clip-g-ai-swe-0803.mp3",
-      "bytes": 338157,
-      "chars": 340
+      "file": "clip-tech-ai-productivity.mp3",
+      "bytes": 257187,
+      "chars": 240
     },
     {
-      "id": "pol-intel-test-0804",
-      "topic_en": "IQ test thread",
-      "topic_zh": "智商測試帖",
+      "id": "hk-pol-iq",
+      "topic_en": "IQ test by averages",
+      "topic_zh": "平均數IQ測試",
       "category": "hk/news",
-      "file": "clip-pol-intel-test-0804.mp3",
-      "bytes": 288621,
-      "chars": 307
+      "file": "clip-hk-pol-iq.mp3",
+      "bytes": 252575,
+      "chars": 238
     },
     {
-      "id": "v-budget-meme-0805",
-      "topic_en": "Budget vs quality",
-      "topic_zh": "預算 meme",
+      "id": "lol-fps-mode",
+      "topic_en": "LOL first-person dead",
+      "topic_zh": "FPS模式玩LOL",
       "category": "lol/esports",
-      "file": "clip-v-budget-meme-0805.mp3",
-      "bytes": 457389,
-      "chars": 330
+      "file": "clip-lol-fps-mode.mp3",
+      "bytes": 249692,
+      "chars": 199
     },
     {
-      "id": "fit-fat-loss-0806",
-      "topic_en": "Cutting struggle",
-      "topic_zh": "減脂地獄",
+      "id": "mma-office-fat",
+      "topic_en": "Office workers get fat",
+      "topic_zh": "Office佬肥咗",
       "category": "mma/fitness",
-      "file": "clip-fit-fat-loss-0806.mp3",
-      "bytes": 272493,
-      "chars": 272
+      "file": "clip-mma-office-fat.mp3",
+      "bytes": 242541,
+      "chars": 262
     },
     {
-      "id": "a-isekai-0807",
-      "topic_en": "Isekai foreigners",
-      "topic_zh": "異世界外國人",
+      "id": "anime-isekai-plague",
+      "topic_en": "Isekai plague",
+      "topic_zh": "異世界太多",
       "category": "anime/culture",
-      "file": "clip-a-isekai-0807.mp3",
-      "bytes": 373869,
-      "chars": 369
+      "file": "clip-anime-isekai-plague.mp3",
+      "bytes": 311661,
+      "chars": 276
     }
   ]
 }

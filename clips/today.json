@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-gme-0801",
+      "id": "t1-btc-maid",
       "category": "trading",
-      "topic_zh": "GME 廢老帖",
-      "topic_en": "GME general thread",
-      "text_zh": "又黎睇GME 啦 🙏 GS edition，finra嗰個link都redacted埋，真係睇唔到幾時先唔再膠。基本面？我個倉都仲未返本，廢柴如我。",
-      "text_en_b1": "/GME/ — GS: The Lost Age Edition. Basic Information up top: the gme.cac site is redacted due to aids. Finra equity options link, gmetimeline through 2021, daily reminder s[Kek Melvies]bzilp4, mandatory study time, The Everything Short on reddit. Naked short selling and systemic risk plus failure to deliver videos linked. GameStop investor site and SEC info. Another day watching paint dry on a meme stock.",
-      "source_url": "https://boards.4chan.org/biz/thread/62636358",
-      "source_hint": "/biz/ GME general with study links",
-      "signal": {
-        "asset": "GME",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "User is tired of meme-stock genre, no fresh setup posted"
-      },
-      "text_en_b2": "Welcome back to another GME general thread, affectionately dubbed the Lost Age Edition. The FINRA equity options link is completely redacted, the gme.cac site has been wiped, and gmetimeline barely makes it past 2021. Despite the steady stream of mandatory DD, naked short selling evidence, and those failure-to-deliver videos, retail bagholders like myself are still deep in the red. Basic analysis matters little when your portfolio refuses to recover. Another day watching paint dry on a meme stock that refuses to moon.",
-      "text_en_c1": "Welcome back to the GME general, this time branded the GS Lost Age Edition, which says rather a lot about where sentiment stands. The gme.cac portal has once again been redacted, the Finra equity options link is down for what feels like the umpteenth occasion, and anybody trying to reconstruct a coherent short-interest picture has been left piecing together fragments. Long-running resources such as the GME timeline through 2021, The Everything Short on Reddit, and the failure-to-deliver video series are dutifully reposted for newcomers. My own position, for what it is worth, remains deep underwater.",
-      "text_en_c2": "/GME/ general thread — the Lost Age edition, in which the ritual resources have once again been stripped of utility. The customary Finra equity options link now resolves to nothing, gmetimeline terminates somewhere deep in 2021, and the daily reminder string — s[Kek Melvies]bzilp4 — has long since passed into folklore. What remains is the canonical reading list, dutifully maintained: The Everything Short on reddit, the naked-short and failure-to-deliver documentaries, the GameStop investor portal, and the SEC filings that nobody actually opens. Basic information, then, has been redacted in all but name. One continues to stare at a meme stock that refuses to mean anything, watching paint dry with the resigned patience of a man whose position remains stubbornly underwater. Such is the era.",
-      "audio_url": "audio/2026-08-30/clip-biz-gme-0801.mp3"
-    },
-    {
-      "id": "biz-musk-doge-0802",
-      "category": "trading",
-      "topic_zh": "女僕幣跟車",
-      "topic_en": "Follow the maid",
-      "text_zh": "wtf BTC XRP DOGE，淨係跟住個maid hold就得 🤡 我就偏偏all-in咗啲垃圾cfd，prop firm個倉又輸多一round，學費呀老闆。",
-      "text_en_b1": "BTC. XRP. DOGE. All you literally had to do was follow the maid. That is all you had to hold. While anons were stacking those three, retail was busy burning cash on leverage and CFD blowups. The maid-led basket is up while most prop firm accounts are underwater. Sometimes the simple trade is the right trade, and most of us missed it.",
+      "topic_zh": "BTC女傭幣",
+      "topic_en": "BTC maid rally",
+      "text_zh": "又係呢句：跟女傭就得。BTC、XRP、DOGE，揸住就得，咁簡單。我連揸都揸唔住，仲輸緊，廢柴。🙏",
+      "text_en_b1": "BTC, XRP, DOGE — all you literally had to do was follow the maid. That is all you had to hold. The thread on /biz/ tonight mocks anyone who sold early or never bothered buying while the pump was happening.",
       "source_url": "https://boards.4chan.org/biz/thread/62636376",
-      "source_hint": "/biz/ lamenting missed maid-coins",
+      "source_hint": "/biz/ OP blames retail for missing the maid-led pump in BTC, XRP, DOGE.",
       "signal": {
-        "asset": "DOGE",
+        "asset": "BTC",
         "direction": "long",
         "conviction": "medium",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anon implies holding DOGE/XRP/BTC was the obvious play, market-wide regret"
+        "rationale": "OP implies the maid-driven basket (BTC/XRP/DOGE) is still the play and retail should have held"
       },
-      "text_en_b2": "All you genuinely had to do was follow the maid's basket and hold BTC, XRP, and DOGE. While disciplined anons quietly stacked those three, retail traders were busy lighting cash on fire through leveraged CFD blowups and yet another prop firm evaluation failure. The maid-led basket is comfortably in the green, whereas most funded accounts are now deep underwater. Sometimes the simplest trade turns out to be the right one, and unfortunately most of us completely missed the boat on it.",
-      "text_en_c1": "BTC, XRP, DOGE: that was the basket the maid had been quietly stacking, and all anyone had to do was hold it. While a handful of disciplined anons simply bought and waited, retail traders were busy lighting capital on fire through leveraged CFD blow-ups and yet another wiped prop firm evaluation. The irony is almost unbearable, since the obvious trade, which required neither wizardry nor insider access, would have produced gains that most degenerate accounts will never recapture. Tuition fees keep mounting for those who insisted on outsmarting the obvious. Sometimes the simple trade is precisely the right trade, and most of us somehow managed to miss it.",
-      "text_en_c2": "The thesis could scarcely have been more austere: BTC, XRP, DOGE — and the only discipline required of the faithful was to follow the maid and to hold. While anonymous posters were quietly accumulating that unassuming basket, retail capital was being immolated elsewhere, leveraged CFD accounts detonating in slow motion while prop firm evaluations were failed one by one, each round a tuition fee paid to the market. The maid-led trio has since printed conspicuously, whereas the average overleveraged retail book sits beneath the waterline, conspicuously so. There is, of course, an aching moral in all this: the simplest trade is often the correct one, and most of us, seduced by complexity and the romance of outsmarting the obvious, contrived to miss it entirely. The tuition, as they say, was non-refundable.",
-      "audio_url": "audio/2026-08-30/clip-biz-musk-doge-0802.mp3"
+      "text_en_b2": "Bitcoin, XRP, and DOGE — anyone who simply held them through the rally made out like a bandit, because the only strategy that mattered was following the maid and refusing to sell. The /biz/ thread tonight is absolutely roasting everybody who dumped early or never bothered picking up a single coin while the pump was unfolding, and honestly, the mockery is not entirely undeserved.",
+      "text_en_c1": "The thesis peddled across /biz/ tonight is brutally reductive yet, by all accounts, irrefutable: had you simply followed the maid's signals and held BTC, XRP, and DOGE through the rally, you would be sitting comfortably in the green. The thread mocks anyone who panic-sold near the bottom or, worse still, never bothered to allocate a position while the pump was unfolding in real time. Anyone who failed to hold is now reconciling themselves with the stark reality that conviction, however late, would have been profitable. The consensus is unanimous: the trade was obvious in hindsight, which makes losing money on it all the more unforgivable.",
+      "text_en_c2": "The familiar refrain resurfaced on /biz/ tonight, and the irony is almost too on the nose to ignore: BTC, XRP, and DOGE rewarded nothing more than the patience to hold. That, in essence, was the entirety of the strategy. Yet for every poster who rode the pump to local tops, there were ten others, myself included, who capitulated at the first sign of volatility and now nurse losses while watching the candle rip higher. The thread, predictably, has devolved into ritual humiliation of weak hands and anyone who deigned to short the trend. Mockery aside, the underlying thesis remains deceptively simple: conviction, however inarticulate, outpaced analysis at every turn. Whether that constitutes wisdom or merely survivorship bias dressed up as prescience is a question the board, characteristically, has no appetite for examining.",
+      "audio_url": "audio/2026-08-30/clip-t1-btc-maid.mp3"
     },
     {
-      "id": "g-ai-swe-0803",
+      "id": "t2-doge-ae86",
+      "category": "trading",
+      "topic_zh": "DOGE AE86夢",
+      "topic_en": "DOGE to AE86",
+      "text_zh": "9,150 DOGE 想溝到 25,000，諗住去到 £1 就買 Toyota AE86。我嘅AE86就係prop firm pass，btw一樣離晒譜。👍",
+      "text_en_b1": "I have 9,150 DOGE. Should I try to build up to 25,000 in case it does hit £1? I want to buy a Toyota AE86. The OP is asking /biz/ whether the bag is worth topping up.",
+      "source_url": "https://boards.4chan.org/biz/thread/62639741",
+      "source_hint": "/biz/ OP plans to accumulate DOGE toward 25k to afford an AE86.",
+      "signal": {
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "months",
+        "entry_zone": "current",
+        "target": "0.36 (25k DOGE * ~0.0144 USD/GBP ref)",
+        "stop": null,
+        "rationale": "Anon accumulation target is 25k DOGE to buy an AE86"
+      },
+      "text_en_b2": "I am currently sitting on 9,150 DOGE and weighing whether to top the bag up to 25,000 in case it actually reaches £1, because my dream has always been to pick up a Toyota AE86 with the profits. While the rest of /biz/ debates the odds, my personal version of the AE86 is a prop firm pass, which is equally unrealistic, if I am being honest.",
+      "text_en_c1": "I currently hold 9,150 DOGE, a position I am seriously contemplating topping up to 25,000 on the off chance that the token revisits the elusive £1 mark. Should that improbable scenario materialise, my plan is to liquidate the entire bag and use the proceeds to purchase a Toyota AE86, a car I have been quietly coveting for the better part of a decade. The post on /biz/ poses an ostensibly straightforward question about whether the upside justifies further capital deployment, though anyone familiar with meme-coin dynamics understands that such targets rarely materialise on schedule.",
+      "text_en_c2": "The arithmetic on display in this /biz/ thread is charmingly quixotic, the kind of napkin math that fuels an entire thread's worth of delusion. I presently hold 9,150 DOGE, and the question animating the OP is whether to top up toward 25,000 on the speculative premise that the token might, against all reasonable expectation, breach the £1 threshold. Should that miracle materialise, the stated objective is prosaic yet oddly affecting: a second-hand Toyota AE86, the car of choice for any autodidact who came of age watching Initial D. Adjacent posters, predictably, have begun performing the same mental alchemy with prop firm evaluations, since apparently passing a funded challenge and acquiring a quarter-century-old coupé occupy the same tier of plausible aspiration. Nobody on the thread has yet mentioned the small matter of liquidity.",
+      "audio_url": "audio/2026-08-30/clip-t2-doge-ae86.mp3"
+    },
+    {
+      "id": "tech-ai-productivity",
       "category": "tech/ai",
-      "topic_zh": "AI productivity",
-      "topic_en": "AI for coding",
-      "text_zh": "OK /g/又講緊SWE有冇得救 🧐 老實講我都靠AI續命做survey啲report，但佢錯嘅地方好難catch，廢物如我又驚俾Tommy catch到錯。",
-      "text_en_b1": "Studies of AI on productivity. Are there any more recent half-decent studies on whether AI helps in SWE or SRE? Current LLMs either one-shot the task and save time at the price of tokens, or they fuck it up in many subtle ways that would never pass code review. For research tasks they leave you misinformed unless you re-verify everything.",
+      "topic_zh": "AI係咪真幫到",
+      "topic_en": "AI productivity real?",
+      "text_zh": "/g/ 嗰邊話LLM coding一係one-shot，一係寫埋啲subtle bug永遠過唔到review。考牌野我點敢靠AI續命，廢物。🙏",
+      "text_en_b1": "Are there any recent studies that look at whether AI helps SWE or SRE productivity? Feels like current LLMs either one-shot the task or mess it up in subtle ways that would never pass code review. The thread on /g/ questions the real gains.",
       "source_url": "https://boards.4chan.org/g/thread/109677980",
-      "source_hint": "/g/ thread asking about AI productivity studies",
+      "source_hint": "/g/ thread asking whether AI actually helps software engineering productivity.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech discussion, no trade"
+        "rationale": "Meta-discussion on AI productivity, no trade"
       },
-      "text_en_b2": "Are there any genuinely recent studies measuring how much AI actually helps with software engineering or site reliability work? Current LLMs tend to either one-shot the entire task and save you hours at the cost of a hefty token bill, or they quietly screw things up in subtle ways that would never survive a proper code review. For research-oriented work they leave you misinformed unless you painstakingly verify every claim. The time spent reviewing and patching often wipes out the gains you thought you'd banked.",
-      "text_en_c1": "The perennial /g/ question resurfaces: is software engineering actually salvageable, and what does the latest productivity research say? Current large language models tend to operate in one of two modes, either dispatching the task in a single pass and saving considerable time at the cost of tokens, or else introducing subtle, often invisible errors that no competent reviewer would ever let through. For research-oriented work, the models leave you confidently misinformed unless every claim is independently re-verified. The downstream time spent reviewing, correcting, and cross-checking frequently consumes whatever efficiency the tool was supposed to deliver in the first place.",
-      "text_en_c2": "The literature on artificial intelligence and software engineering productivity has, of late, ossified into a depressingly polarised debate. Recent half-decent studies examining whether contemporary large language models genuinely augment the work of SWE or SRE practitioners remain frustratingly scarce, and those that exist tend toward one of two conclusions. Either the model one-shots the task with tolerable elegance, sparing the engineer hours at the modest expense of tokens consumed, or it produces something superficially plausible yet subtly, perniciously wrong — the kind of output that no competent code review would ever accept. For research and survey work the situation is graver still, since the model leaves one quietly misinformed unless every citation and claim is independently re-verified.",
-      "audio_url": "audio/2026-08-30/clip-g-ai-swe-0803.mp3"
+      "text_en_b2": "Are there any rigorous studies that actually measure whether large language models genuinely boost software engineer or SRE productivity? The general consensus on /g/ seems to be that current LLMs either nail the task in a single shot or quietly introduce subtle bugs that would never survive a proper code review, which is precisely why I would not stake my certification prep on them.",
+      "text_en_c1": "A thread on /g/ has reignited scepticism over the productivity gains that contemporary LLMs purportedly deliver to software and reliability engineers. The prevailing view is that the technology operates in a disturbingly bimodal fashion, wherein straightforward tasks are dispatched in a single shot, whereas anything more nuanced tends to surface subtle bugs that would never survive a competent code review. Recent studies examining real-world engineering output appear to corroborate the anecdotal complaints that have circulated for months.",
+      "text_en_c2": "A thread on /g/ has been quietly accumulating steam, its central grievance one that practitioners across the industry have begun to articulate in increasingly weary terms. The empirical literature, insofar as it exists, remains inconclusive on whether large language models confer genuine productivity gains upon software and reliability engineers, or whether they merely redistribute effort. Anecdotally, the consensus that has hardened across the profession is unflattering: contemporary models either resolve a task in a single, almost smug pass, or they introduce defects so syntactically elegant and logically insidious that they evade every line of review. The distinction matters profoundly, particularly in regulated contexts where one's professional licensure hangs in the balance. There is a grim, recurring pattern in which the marginal cost of debugging AI-authored code eventually eclipses the marginal benefit of having generated it.",
+      "audio_url": "audio/2026-08-30/clip-tech-ai-productivity.mp3"
     },
     {
-      "id": "pol-intel-test-0804",
+      "id": "hk-pol-iq",
       "category": "hk/news",
-      "topic_zh": "智商測試帖",
-      "topic_en": "IQ test thread",
-      "text_zh": "/pol/有人話講'亞洲男普遍矮啲'就知對方IQ 🧐 wtf 但我細個真係比同學高喺美國lol，最後都係返HK做測量助理，膠膠噏。",
-      "text_en_b1": "The easiest and quickest way to test someone's intelligence is to make a generalized statement about a group. Say something like 'asian men are shorter on average.' If they reply with any variation of 'not all asian men are short' or 'I know a tall asian guy,' you are dealing with someone genuinely low IQ.",
+      "topic_zh": "平均數IQ測試",
+      "topic_en": "IQ test by averages",
+      "text_zh": "/pol/ 嗰邊話：講一句「亞洲男人平均矮啲」，即刻分到IQ高低。我笑咗，又覺得準，lol。🧐",
+      "text_en_b1": "The easiest way to test someone's intelligence is to make a generalized statement about a group. Anyone who replies 'not all asian men are short' has just proven they cannot understand a statistical average. The thread on /pol/ is brutal.",
       "source_url": "https://boards.4chan.org/pol/thread/541656011",
-      "source_hint": "/pol/ IQ filter rant",
+      "source_hint": "/pol/ OP proposes a statistical-average IQ litmus test.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Culture war post, no trade"
+        "rationale": "Political IQ rant, no trade"
       },
-      "text_en_b2": "The quickest way to gauge someone's intelligence is to make a broad statistical statement about a group, such as claiming that Asian men are shorter on average. If they respond with some variation of 'not all Asian men are short' or 'I personally know a tall Asian guy,' you are dealing with someone who is genuinely low IQ. They have just demonstrated that they cannot wrap their head around the concept of a statistical average or a per capita figure.",
-      "text_en_c1": "A characteristically unscientific heuristic circulating on /pol/ claims that one can gauge a person's intelligence by floating a generalised statement about a group, then watching the response. Mention, for instance, that Asian men are shorter on average, and if the interlocutor immediately objects along the lines of 'not all Asian men are short' or 'I personally know a tall one,' they have, according to this framework, demonstrated an inability to grasp the concept of a statistical average or per capita distribution. Anyone who fails the filter is dismissed without further consideration. Whether this reflects genuine cognition or merely conversational reflexes is a question the thread does not pause to examine.",
-      "text_en_c2": "The quickest, crudest filter for general intelligence, the original poster suggests, is to proffer a bald statistical generalisation about some demographic category — say, the observation that Asian men are, on average, shorter than their European counterparts — and then to await the response. If the interlocutor returns with any flavour of the rejoinder that not all Asian men are short, or that they personally know an Asian gentleman of considerable stature, one is, regrettably, dealing with someone of genuinely modest cognitive endowment, since they have conclusively demonstrated an inability to distinguish between a per-capita average and an individual data point. Anyone who falls into this particular trap is, by the poster's reckoning, filtered out of the conversation instantaneously, the intellectual equivalent of a Turing test administered and failed within a single exchange.",
-      "audio_url": "audio/2026-08-30/clip-pol-intel-test-0804.mp3"
+      "text_en_b2": "Arguably the quickest way to gauge someone's intellect is to drop a sweeping generalisation about a demographic, because anyone who immediately fires back with 'not all Asian men are short' has inadvertently exposed that they cannot grasp the concept of a statistical average. The /pol/ thread is brutal, but the underlying logic is unfortunately rather sound.",
+      "text_en_c1": "The simplest litmus test for ascertaining someone's cognitive calibre, at least according to a thread currently circulating on /pol/, is to proffer a sweeping generalisation about a demographic group and observe the reaction. Anyone who reflexively responds with 'not all asian men are short' has, in that very moment, conclusively demonstrated an inability to parse the concept of a statistical average, thereby proving the point far more eloquently than the original assertion could have. The thread is unsparing in its contempt for such responses, treating them as an involuntary confession of intellectual mediocrity.",
+      "text_en_c2": "The proposition floated on /pol/, delivered with characteristic brutality, amounts to an impromptu litmus test of cognitive sophistication. The formulation is disarmingly simple: assert a bland statistical generalisation about any demographic cohort, then observe who seizes upon the exception as though it invalidates the rule. Anyone compelled to respond with the ritual incantation of 'not all X' has, in the original poster's estimation, conclusively demonstrated an inability to distinguish between a population-level mean and the variance distributed around it. The thread, predictably, is less an exercise in statistics than in self-selection, a filter that purports to separate the numerate from the innumerate by means of bait so obvious it functions almost as a shibboleth. The irony, of course, is that the test itself generalises with equal abandon.",
+      "audio_url": "audio/2026-08-30/clip-hk-pol-iq.mp3"
     },
     {
-      "id": "v-budget-meme-0805",
+      "id": "lol-fps-mode",
       "category": "lol/esports",
-      "topic_zh": "預算 meme",
-      "topic_en": "Budget vs quality",
-      "text_zh": "2012年30M budget vs 2026年2B lol 出嚟都係噉 🧐 我份糧都追唔上通脹，膠game膠game。",
-      "text_en_b1": "2012 versus 2026. 30M budget versus 2 BILLION dollar budget. 120 developers versus 6000 developers. Output looks roughly the same, or arguably worse. Anons are dunking on the modern gaming industry for bloating headcount and budgets while quality stays flat or drops. Classic /v/ mood after a big studio release disappoints again.",
-      "source_url": "https://boards.4chan.org/v/thread/746447238",
-      "source_hint": "/v/ comparing 2012 vs 2026 game budgets",
+      "topic_zh": "FPS模式玩LOL",
+      "topic_en": "LOL first-person dead",
+      "text_zh": "2012年30M budget 120人，2026年2B budget 6000人。LOL個first-person mode執咗，唔怪得。lol，S15睇下算。👍",
+      "text_en_b1": "No wonder first-person mode was abandoned in League of Legends. From a 30M budget and 120 developers in 2012 to a 2 BILLION budget and 6000 developers in 2026. The /v/ thread is roasting the scaling.",
+      "source_url": "https://boards.4chan.org/v/thread/746476405",
+      "source_hint": "/v/ thread mocks LOL's first-person mode being dropped despite ballooning budgets.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports/gaming discussion, no trade"
+        "rationale": "Esports/dev-budget snark, no trade"
       },
-      "text_en_b2": "Compare 2012 against 2026, and the numbers are frankly absurd: a modest 30 million dollar budget versus a staggering 2 billion dollar budget, with roughly 120 developers squaring off against 6000. The actual output looks roughly identical, or arguably even worse than what shipped over a decade ago. Anons are busy dunking on the modern gaming industry for ballooning headcount and burning through cash while quality stubbornly flatlines. A classic /v/ mood whenever yet another bloated studio release inevitably disappoints the playerbase again.",
-      "text_en_c1": "The comparison has become a ritual unto itself: 2012 versus 2026, a thirty-million-dollar budget versus two billion, a development team of roughly one hundred and twenty versus six thousand. The output, judging by recent releases, looks broadly comparable, if not materially worse, which has prompted a fresh round of ritual dunking on an industry that has demonstrably conflated headcount with quality. Anons argue that studios have mastered the art of bloating production while the actual product stagnates or regresses. It is the familiar post-release despair cycle that /v/ revisits whenever a marquee title fails to justify its escalating expenditure.",
-      "text_en_c2": "The juxtaposition is, by now, a familiar refrain on the board: a 2012 production executed on a modest thirty-million-dollar budget by a team of some hundred and twenty developers, set against a 2026 counterpart lavishly endowed with two billion dollars and a headcount ballooned to roughly six thousand. The output, depressingly, appears to be roughly equivalent — or, by the more jaundiced assessments, palpably worse, with the additional billions having purchased chiefly bloat, managerial overhead, and an aesthetic indistinguishable from its leaner ancestor. Anonymous posters have been queuing up to dunk on an industry that has, over the intervening fourteen years, multiplied its expenditure by a factor of sixty while delivering a product that fails to clear the bar set by its own predecessors.",
-      "audio_url": "audio/2026-08-30/clip-v-budget-meme-0805.mp3"
+      "text_en_b2": "It is hardly surprising that first-person mode was quietly shelved in League of Legends when you look at the numbers, because the project ballooned from a modest 30 million budget with roughly 120 developers back in 2012 to an eye-watering 2 billion budget and a workforce of 6,000 in 2026. The /v/ thread is roasting the absurd scaling, and frankly, the math speaks for itself.",
+      "text_en_c1": "Once one considers the sheer arithmetic of League of Legends' development pipeline, the cancellation of its long-rumoured first-person mode ceases to feel surprising and starts to feel almost inevitable. In 2012, Riot operated on a comparatively modest budget of thirty million dollars supported by a team of roughly 120 developers; by 2026, that figure has ballooned to a staggering two billion dollars, with a headcount now approaching 6,000. The /v/ thread savages the studio for what it perceives as grotesque organisational bloat, arguing that any project requiring genuine coordination has effectively been strangled by its own scale. With Season 15 on the horizon, expectations have been duly recalibrated.",
+      "text_en_c2": "The /v/ thread has settled, with uncharacteristic unanimity, into a single, weary conclusion about the abandoned first-person mode in League of Legends. Stripped of its particulars, the trajectory is nothing short of grotesque: a project that commenced in 2012 with a modest thirty-million-dollar budget and a lean team of one hundred and twenty developers has, by 2026, ballooned into a two-billion-dollar behemoth staffed by roughly six thousand. Proportionally, that represents an order-of-magnitude expansion in headcount accompanied by a far more dramatic expansion in expenditure, the inverse of any plausible efficiency frontier. The feature's quiet cancellation ceases to be mysterious once those figures are juxtaposed, since any genuinely innovative mode would have required dismantling the very bloat that ostensibly justified its existence. S15, it seems, will be endured rather than enjoyed.",
+      "audio_url": "audio/2026-08-30/clip-lol-fps-mode.mp3"
     },
     {
-      "id": "fit-fat-loss-0806",
+      "id": "mma-office-fat",
       "category": "mma/fitness",
-      "topic_zh": "減脂地獄",
-      "topic_en": "Cutting struggle",
-      "text_zh": "3個月瘦45磅但掉咗muscle 💀 廢物如我同肥仔信一齊操都係噉，唔夠protein食到想死lol。",
-      "text_en_b1": "How the FUCK do you lift heavy and get enough protein on a cut. I lost 45 pounds in 3 months but I definitely lost muscle and strength. Being at the gym kills me, bro. I cannot go hard or lift heavy because my body won't let me. I get fucking fatigued as hell on this cut.",
-      "source_url": "https://boards.4chan.org/fit/thread/77480573",
-      "source_hint": "/fit/ cutting while lifting struggle",
+      "topic_zh": "Office佬肥咗",
+      "topic_en": "Office workers get fat",
+      "text_zh": "/fit/ 話大個返office就肥。我而家日頭返工夜晚考牌，gym去到肥仔信都話我瘦咗，wtf。🙏",
+      "text_en_b1": "Why do office workers get fat? The OP says he just landed his first office job and everyone around him is overweight or skinny-fat. He is scared he will end up the same now that college workout time is gone. The /fit/ thread hits hard for anyone grinding 9-to-6.",
+      "source_url": "https://boards.4chan.org/fit/thread/77469527",
+      "source_hint": "/fit/ OP fears losing his physique after switching from college to office life.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness struggle post, no trade"
+        "rationale": "Body composition lifestyle thread, no trade"
       },
-      "text_en_b2": "How on earth are you supposed to lift heavy and still hit your protein targets while running an aggressive cut? I dropped 45 pounds in three months, and although the scale moved, I clearly sacrificed both muscle and strength along the way. The gym sessions absolutely wreck me, bro, because my body simply refuses to handle heavy compound work in a deficit. Squats leave me lightheaded, and I genuinely feel like I might pass out halfway through a working set.",
-      "text_en_c1": "Forty-five pounds shed in three months is, on paper, an achievement worth celebrating, yet anyone who has endured an aggressive cut knows the hidden arithmetic. Strength has evaporated, muscle mass has visibly diminished, and the gym has become a venue for quiet suffering rather than productive training. Heavy compounds feel impossible when the body flatly refuses to cooperate, and even a modest set of squats sends the heart rate into territory that feels medically inadvisable. Protein targets, meanwhile, have become an exercise in willpower; eating more than a handful of meals a day is, frankly, beyond reach.",
-      "text_en_c2": "The eternal conundrum of the aggressive cut: how, precisely, is one supposed to lift heavy and consume sufficient protein while running a caloric deficit of the kind required to shed forty-five pounds in a mere three months? The poster concedes, with disarming candour, that muscle and strength have been sacrificed wholesale to the altar of scale weight, and that the gym has become something closer to a penance than a pleasure. Intensity is no longer a choice but a casualty; the body, deprived of surplus energy, flatly refuses to permit the kind of volume that maintenance would demand, and fatigue settles over every session like a low-grade illness. Squats, once a matter of routine, now reduce the heart to a palpitating ruin, and the sensation of imminent collapse has become a familiar companion.",
-      "audio_url": "audio/2026-08-30/clip-fit-fat-loss-0806.mp3"
+      "text_en_b2": "Why does every office worker inevitably end up packing on the pounds? The OP explains that he recently landed his first desk job and has noticed that virtually everyone around him is either overweight or skinny-fat, which has got him worried now that his college training schedule is no longer in play. The /fit/ thread resonates hard with anybody grinding through a 9-to-6 while still trying to hold things together.",
+      "text_en_c1": "A recurring thread on /fit/ addresses a phenomenon that anyone transitioning from academia to corporate life has likely observed firsthand: the inexorable tendency of office-bound workers to gain weight once their routines stabilise. The original poster, fresh into his first desk-based role, notes with growing alarm that virtually every colleague he encounters falls somewhere on the spectrum between outright overweight and the dreaded skinny-fat category, and he is understandably anxious about succumbing to the same fate now that the unstructured gym sessions of university life are behind him. For those of us juggling daytime employment with evening exam preparation, the prognosis feels especially grim.",
+      "text_en_c2": "A thread on /fit/, ubiquitous enough by now to have acquired the status of folk wisdom, poses a question whose answer every sedentary professional has long intuited: why does the transition from academic to corporate life coincide so reliably with the metabolically inexorable? The OP, freshly inducted into the nine-to-six, surveys his new colleagues with the horrified recognition of a man surveying his own probable future. The familiar taxonomy presents itself, endomorphs and skinny-fat ectomorphs alike, united in their gradual accommodation to fluorescent lighting and vending-machine cuisine. The poster himself, paradoxically, continues to attend the gym with sufficient diligence that even the uncharitable eye of the trainer has remarked upon his leanness, a development he greets with bemused disbelief. The thread lands hardest, naturally, on those grinding through licensure exams by candlelight.",
+      "audio_url": "audio/2026-08-30/clip-mma-office-fat.mp3"
     },
     {
-      "id": "a-isekai-0807",
+      "id": "anime-isekai-plague",
       "category": "anime/culture",
-      "topic_zh": "異世界外國人",
-      "topic_en": "Isekai foreigners",
-      "text_zh": "日本自己人都話isekai越出越膠lol 外國人仲要背晒個鑊 🇯🇵🤡 我隻Gundam 00都好耐冇重溫，廢物日常。",
-      "text_en_b1": "Isekai plague blamed on foreigners. Anime is no longer made for Japanese audiences. Bookstores and streaming services are flooded with works tagged 'isekai reincarnation.' The new releases section on streaming is stuffed with keywords like reincarnation, cheat, exile, villainess, and slow life. Critics say this mass-produced wave shows creators are chasing a formula.",
+      "topic_zh": "異世界太多",
+      "topic_en": "Isekai plague",
+      "text_zh": "轉生、cheat、慢生活、惡役，書局同streaming全部係呢啲。Toyokeizai話係外國人帶嚟，我信一半lol。🧐",
+      "text_en_b1": "Anime is no longer made for Japanese audiences. Bookstores and streaming services are flooded with isekai reincarnation works. New releases keep using words like reincarnation, cheat, exile, villainess, and slow life. The Toyokeizai piece blames foreign demand for the plague.",
       "source_url": "https://boards.4chan.org/a/thread/290541160",
-      "source_hint": "/a/ isekai oversaturation article",
+      "source_hint": "/a/ thread discussing Toyokeizai article on isekai oversaturation and foreign demand.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime culture discussion, no trade"
+        "rationale": "Anime industry commentary, no trade"
       },
-      "text_en_b2": "Japanese audiences themselves are openly grumbling that the isekai genre has grown utterly oversaturated, yet foreign readers somehow get blamed for keeping it alive. Streaming platforms and bookstore shelves are absolutely flooded with reincarnation, cheat skill, exiled noble, and villainess reincarnation tags crowding every new release. Critics argue that studios are lazily chasing a proven formula rather than investing in original premises.",
-      "text_en_c1": "The isekai saturation that Japanese audiences themselves have grown weary of is now being attributed, with characteristic contrarian flair, to foreign demand and licensing revenue. Domestic bookstores and streaming catalogues are overflowing with reincarnation, cheat-skill, exile, villainess, and slow-life entries, to the point where the new releases section resembles a keyword salad rather than a curated slate. Critics contend that creators have collectively surrendered to formula in pursuit of a proven demographic, while foreign readers and the licensing pipelines that serve them keep the genre financially solvent. Locals, however, remain visibly exhausted by the endless parade of derivative clones.",
-      "text_en_c2": "The isekai fatigue, it appears, has now achieved something close to critical mass, with domestic Japanese audiences openly lamenting a flood of reincarnation narratives that have come to dominate both physical bookshops and the major streaming platforms. The new releases catalogue, once a varied affair, now bulges with the predictable vocabulary of the genre — reincarnation, cheat skills, exiled protagonists, villainess reinterpretations, the bucolic promise of a slow life — keywords that function less as descriptors than as a kind of industrial shorthand. Critics, both local and imported, contend that what began as a flourishing subgenre has calcified into a formula, its creative energies exhausted by sheer repetition.",
-      "audio_url": "audio/2026-08-30/clip-a-isekai-0807.mp3"
+      "text_en_b2": "It increasingly feels like anime is no longer being produced primarily for domestic Japanese audiences, because bookstores and streaming platforms alike are absolutely drowning in isekai reincarnation titles, with virtually every new release leaning on buzzwords like reincarnation, cheat, exile, villainess, and slow life. The Toyokeizai piece pins most of the blame on foreign demand, and although I am only half-convinced, the saturation is genuinely difficult to ignore.",
+      "text_en_c1": "A recent Toyokeizai piece has catalysed debate across /a/ regarding the creeping homogeneity of contemporary anime, which increasingly appears engineered for export markets rather than domestic audiences. Bookstore shelves and streaming catalogues alike are saturated with isekai reincarnation narratives, peppered with the now-familiar vocabulary of cheat abilities, political exile, villainess arcs, and the slow-life subgenre. The article attributes the glut principally to foreign demand, a thesis I find myself half-inclined to accept, given that domestic publishers have evidently decided that these formulae constitute the safest possible commercial bet.",
+      "text_en_c2": "The phenomenon catalogued across /a/ and substantiated, however tendentiously, by a Toyokeizai feature, has by now acquired the character of an industry in remission from any original impulse. The taxonomy of contemporary isekai proliferation has become almost self-parodic in its comprehensiveness: reincarnation, cheat abilities, exile narratives, villainess reversals, and the pastoral idylls of slow-life variants crowd both physical bookstore shelves and the algorithmic feeds of every major streaming platform. The Toyokeizai analysis apportions blame to foreign consumption patterns, a thesis that half-exculpates the domestic production apparatus even as it implicitly indicts an industry for abandoning its erstwhile audience. Whether the foreign-demand diagnosis survives scrutiny, or merely serves as a convenient alibi for creative exhaustion at home, is a question the thread entertains with appropriate scepticism.",
+      "audio_url": "audio/2026-08-30/clip-anime-isekai-plague.mp3"
     }
   ]
 }
