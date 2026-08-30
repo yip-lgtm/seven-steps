@@ -1,63 +1,63 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-btc-chase",
+      "id": "t1-btc-chase",
       "category": "trading",
-      "topic_zh": "BTC 追入",
-      "topic_en": "BTC chasing",
-      "text_zh": "又係BTC，升完先嚟問點解唔早啲買。睇住佢橫行幾星期唔理，然後一抽15%個個衝入嚟，wtf。明明之前可以瞓住都唔睇，而家又FOMO。prop firm啲錢又燒緊，好煩。",
-      "text_en_b1": "Why do people buy BTC after the pump? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened?",
+      "topic_zh": "遲來的BTC",
+      "topic_en": "BTC post-pump FOMO",
+      "text_zh": "BTC 靜咗幾星期 然後一夜爆15% 又話想上車🙄 仆街 真係每次都係咁 早兩日都唔睇 升完先黎問點入 好啦 CFD又手多多開咗一張 short 😇🙏 又係學費",
+      "text_en_b1": "Why does everyone want to buy BTC after the move already happened? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Classic late-FOMO behavior — by the time retail wakes up, the smart money already took profit on the move.",
       "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ anon complains about retail buying BTC after the move",
+      "source_hint": "/biz/ post ranting about chasing BTC after the pump",
       "signal": {
         "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "direction": "short",
+        "conviction": "low",
+        "time_horizon": "days",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post-hoc rant about chasing, no actionable setup"
+        "rationale": "OP is implicitly calling late buyers dumb; anon framed a CFD short against the FOMO chase"
       },
-      "text_en_b2": "Honestly, this BTC behaviour drives me up the wall. For weeks it trades sideways and nobody gives a damn, then the moment it rips 15% out of nowhere, every Tom, Dick and Harry scrambles to get in. The irony is brutal, since you could've been completely indifferent before the breakout. This classic FOMO cycle never fails to amaze me, and meanwhile prop firms keep bleeding capital. Infuriating, really.",
-      "text_en_c1": "The pattern never ceases to infuriate me. Bitcoin grinds sideways for weeks on end, conspicuously devoid of momentum, and the prevailing consensus is to ignore it entirely. Then, the moment it rallies fifteen percent in a sustained leg up, everyone suddenly develops an urgent conviction that they cannot afford to miss the move. This Pavlovian response to momentum is textbook FOMO; nobody wanted exposure at consolidation, yet every latecomer now demands a seat at the table. The irony is that the trade was available to anyone with the patience to simply do nothing.",
-      "text_en_c2": "It beggars belief that anyone still falls for the same self-defeating cycle. Bitcoin had meandered sideways for what felt like an eternity — candlesticks doing nothing more interesting than minor consolidation — and the prevailing mood was one of studied indifference. Then, as if on cue, price ripped fifteen percent in short order, and the very same chorus of voices who had been dismissing it as a dead cat weeks earlier suddenly pivoted into full-throated FOMO, scrambling to chase entries at the worst possible moment. Meanwhile, the prop firm capital I allocated continues to bleed out in a slow, steady hemorrhage, which compounds the irritation tenfold. The whole exercise is a textbook case of the familiar behavioural trap, yet the participants never seem to learn."
+      "text_en_b2": "Honestly, BTC sat there doing absolutely nothing for weeks and I completely wrote it off. Then out of nowhere it rips 15% overnight, and suddenly every retail trader under the sun wants a piece of the action. Classic late-FOMO behaviour — by the time the herd catches on, the smart money has already cashed out. I even opened a cheeky CFD short, which will probably end up being another expensive lesson in market timing.",
+      "text_en_c1": "It is genuinely baffling how reliably retail capitulates to FOMO precisely when the move has already been made. BTC consolidates sideways for what feels like an eternity, drawing absolutely no attention from the average punter, and then in a single overnight session it rips fifteen percent higher. Suddenly every Tom, Dick and Harry is scrambling to position long, convinced they have missed the boat. By the time the latecomers arrive, the smart money has long since distributed into that demand. Predictably, yours truly could not resist opening a CFD short on the subsequent push — call it tuition paid in full for failing to internalise the lesson.",
+      "text_en_c2": "The phenomenon of retail FOMO manifesting only after a substantial rally remains one of the more predictable ironies of crypto markets. Bitcoin idles, largely unremarked, for weeks on end; sentiment sags, the chart flatlines, and nobody bothers allocating capital. Then, almost overnight, a fifteen-percent vertical move occurs, and suddenly every dormant account reawakens demanding entry at exactly the worst possible juncture. By the time the average punit scrambles for exposure, the sophisticated participants — those who accumulated during the preceding apathy — have already distributed into that very enthusiasm. The reflexive human tendency to require confirmation before committing capital guarantees consistent underperformance. Personally, I capitulated, opening a CFD short almost reflexively, since the gravitational pull of contrarian positioning, however poorly timed, proved psychologically irresistible."
     },
     {
-      "id": "biz-doge-ae86",
+      "id": "t2-doge-ae86",
       "category": "trading",
-      "topic_zh": "DOGE儲爆",
-      "topic_en": "DOGE AE86 dream",
-      "text_zh": "9,150粒DOGE，目標儲到25,000，等DOGE去£1就買返架Toyota AE86返嚟。ok夢就嚟，唔知幾時先等到lol。我啲CFD已經輸緊，唔好再溝貨。",
-      "text_en_b1": "I have 9,150 DOGE. Should I try to build up to 25,000 in case it does hit £1? I want to buy a Toyota AE86.",
+      "topic_zh": "DOGE AE86夢",
+      "topic_en": "DOGE for an AE86",
+      "text_zh": "9,150 DOGE 想溝上25,000 賭佢去£1 然後買返架 AE86 lol 講真 £1呢個 target 真係發夢 但DOGE跟Elon個maid 一齊炒下咪當學費囉 轉個身Tommy又whatsapp叫我聽日返早🙏",
+      "text_en_b1": "I have 9,150 DOGE. Should I try to build up to 25,000 in case it actually hits £1? I want to buy a Toyota AE86 with it. Currently sitting at 9,150 coins, target is roughly 25,000 which would be enough for a clean AE86 if the dream comes true.",
       "source_url": "https://boards.4chan.org/biz/thread/62639741",
-      "source_hint": "/biz/ anon wants to stack DOGE for an AE86",
+      "source_hint": "/biz/ anon saving DOGE for an AE86",
       "signal": {
         "asset": "DOGE",
         "direction": "long",
         "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
-        "target": "0.36 (25k DOGE at approx £0.0144 each)",
+        "target": "0.36 (25k DOGE * ~£0.0144)",
         "stop": null,
-        "rationale": "Anon's accumulation target is 25k DOGE to buy an AE86"
+        "rationale": "Anon's accumulation target is 25k DOGE to fund an AE86; long bias with multi-month horizon"
       },
-      "text_en_b2": "I'm currently sitting on roughly 9,150 DOGE and grinding towards a target of 25,000, because if DOGE somehow hits £1, I'd finally bite the bullet and pick up a Toyota AE86. Call it a pipedream, though, since the chances of it actually getting there are laughable. On top of that, my CFD positions are deep in the red, so averaging down is absolutely off the table. Patience is wearing thin, honestly.",
-      "text_en_c1": "I've been accumulating Dogecoin with what can only be described as delusional optimism, currently sitting on 9,150 coins with an admittedly ambitious target of 25,000, a threshold at which, should the price somehow reach one pound, I could theoretically purchase a Toyota AE86. The plan hinges entirely on an outcome that virtually no sober analysis would endorse. My CFD positions are meanwhile bleeding capital steadily, which raises the uncomfortable question of whether doubling down on an already precarious position constitutes conviction or sheer obstinacy. Still, the AE86 dream persists, even if the timeline remains frustratingly hypothetical.",
-      "text_en_c2": "At present I am sitting on 9,150 DOGE, accumulated over a stretch of what can only be described as serendipitous bottom-fishing, and the ostensible objective is to amass the full 25,000 coins before the dénouement arrives. The thesis, if one can grace it with that word, hinges on DOGE miraculously reattaining parity with sterling, at which juncture the intended spoils are earmarked for a meticulously specified Toyota AE86. The dream remains, regrettably, a purely aspirational one, given that the concurrent CFD positions are already deep in the red and further averaging down would be an exercise in financial self-harm rather than prudent accumulation."
+      "text_en_b2": "I'm currently sitting on roughly 9,150 DOGE and wondering whether I should top it up to around 25,000 coins, just in case it somehow pulls off a run to £1. If that dream ever materialised, the profits would more or less cover a tidy Toyota AE86. Realistically though, a £1 target is pure fantasy, so I'm treating any further accumulation as tuition money while Elon keeps moving the markets.",
+      "text_en_c1": "I am currently holding 9,150 DOGE and entertaining the rather fanciful notion of averaging down until I accumulate roughly 25,000 coins, predicated on the hilariously improbable scenario in which the asset revisits the pound parity that early adopters briefly tasted. Should that dream materialise, the proceeds would, in theory, be sufficient to secure a clean Toyota AE86 — the vehicular holy grail for anyone who came of age watching Initial D. Realistically, the target is pure wishful thinking, but riding Musk's media appearances as a proxy catalyst keeps things entertaining enough to justify the position. Tomorrow's early shift looms regardless.",
+      "text_en_c2": "I currently hold approximately 9,150 DOGE, a position accumulated gradually through various small purchases during the coin's prolonged dormancy. My rather quixotic objective involves accumulating somewhere in the vicinity of 25,000 coins, predicated on the admittedly fantastical assumption that the token achieves parity with the pound sterling. Should such an improbable convergence materialise, I intend to liquidate the entirety of the position and acquire a clean Toyota AE86 — that quintessentially aspirational machine of initial-D mythology, whose values have appreciated almost as absurdly as the cryptocurrencies financing their acquisition. The probability of DOGE attaining £1 remains, by any rational metric, vanishingly remote; nevertheless, one persists in such calculations because the alternative — confronting the genuine mathematics of one's trading decisions — is considerably less diverting than entertaining grandiose automotive fantasies funded by meme-driven speculation."
     },
     {
-      "id": "g-debian-indian",
+      "id": "t3-ai-debian",
       "category": "tech/ai",
-      "topic_zh": "Debian 印度化",
-      "topic_en": "Debian goes Indian",
-      "text_zh": "Debian俾印度人接咗手，即刻vibecoding成個OS，omg到底係咩玩法。AI取代programmer嘅嘢遲早到我。仲有GPU/RAM點解仲有貨畀散戶買？個個政府同公司都要AI啦，唔應該一早斷貨？搞到我好焦慮，考牌都未完。",
-      "text_en_b1": "DEBIAN NOW INDIAN AI SLOP. An Indian takes over the Debian project. They immediately begin vibecoding the entire operating system. HAHAHAHAHAHAHAHA. So what's the stable distro of the future, Mageia or OpenMandriva? Or something else?",
+      "topic_zh": "Debian印度化",
+      "topic_en": "Debian Indian AI takeover",
+      "text_zh": "Debian俾印度人接咗 一接咗就開始 vibecoding成個OS lol 咁穩定distro邊個做緊 唔係Mageia就OpenMandriva啦？ 同我公司份工一樣 AI真係乜都嚟緊 🧐",
+      "text_en_b1": "An Indian took over the Debian project. Immediately they began vibecoding the entire operating system, which is now being labeled Indian AI slop on /g/. People are asking what the stable distro of the future is — Mageia, OpenMandriva, or something else entirely. Phoronix covered the vote on responsible AI use.",
       "source_url": "https://boards.4chan.org/g/thread/109675994",
-      "source_hint": "/g/ thread on Debian leadership change and AI policy",
+      "source_hint": "/g/ thread on Debian AI-slop controversy",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -66,21 +66,21 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech culture story, not a trade"
+        "rationale": "Tech culture observation, no trade"
       },
-      "text_en_b2": "So apparently Debian has been taken over by some Indian team, and they're already vibecoding the entire operating system. What on earth is going on with this project? AI replacing programmers has been creeping closer for a while, and this feels like yet another nail in the coffin. Meanwhile, GPUs and RAM remain inexplicably available to retail buyers despite every government and corporation stockpiling them. Honestly, it's giving me serious anxiety on top of my licensing exams.",
-      "text_en_c1": "So the Debian project has apparently fallen into Indian hands, and the immediate response has been to begin what can only generously be described as vibecoding the entire operating system into existence. If this is the trajectory, one has to wonder what the stable distribution landscape will resemble in five years, Mageia, OpenMandriva, or something else entirely. Beyond the distro question, the broader anxiety remains: if AI is genuinely displacing programmers at this pace, what happens to those of us still grinding through certifications? The GPU and RAM supply situation is equally baffling, given that every government and corporation is hoarding compute. Stock should have run dry months ago.",
-      "text_en_c2": "The unfolding spectacle of Debian effectively falling into Indian hands, whereupon the entire operating system is being effectively vibecoded into oblivion, is enough to make one despair for the future of free software. The moment the reins were handed over, what had been a painstakingly curated distribution began its precipitous descent into AI-generated slop of the most undistinguished variety. Meanwhile, the broader question of why consumer-grade GPUs and RAM remain even marginally available to ordinary buyers defies comprehension, given that every government apparatus and corporate behemoth is presently hoovering up the entire supply chain for their own AI ambitions. The resultant anxiety is palpable, particularly when one still has a driving licence to acquire."
+      "text_en_b2": "Apparently an Indian contributor has taken the reins at Debian and immediately started vibecoding chunks of the operating system, which /g/ is now gleefully labelling as Indian AI slop. The whole saga has people asking what the next genuinely stable distro will actually be, whether that ends up being Mageia, OpenMandriva, or something else entirely. Phoronix ran a piece on the vote around responsible AI use, and it echoes what I keep seeing at my own job.",
+      "text_en_c1": "It appears Debian has effectively fallen under new stewardship, and the immediate consequence has been an aggressive push toward what can only be described as vibecoding the entire operating system. The reception has been predictably scathing, with /g/ branding the output as little more than Indian AI slop, which raises legitimate questions about where one ought to migrate if stability remains the priority. Mageia and OpenMandriva have been floated as plausible contenders, though neither carries Debian's institutional weight. Phoronix covered the underlying vote on responsible AI deployment, and frankly the parallels with my own day job are rather uncomfortably close.",
+      "text_en_c2": "The recent developments surrounding the Debian project have elicited considerable consternation across technical communities, particularly following assertions that the distribution's stewardship has effectively transferred to individuals whose engineering philosophy prioritises expedient, AI-assisted generation over considered systems architecture. The notion of 'vibecoding' an entire operating system — that is, delegating substantive implementation decisions to stochastic language models — represents a rather alarming inflection point for a distribution historically synonymous with conservatism, rigour, and an almost pathological devotion to stability. Predictably, the discourse has migrated toward alternative candidates: Mageia, OpenMandriva, and various Arch derivatives have all been mooted as plausible refuges for users unwilling to entrust their infrastructure to generative experimentation."
     },
     {
-      "id": "pol-musk-tfr",
+      "id": "t4-hk-pol",
       "category": "hk/news",
-      "topic_zh": "馬斯克搞TFR",
-      "topic_en": "Musk on birth rates",
-      "text_zh": "馬斯克又嚟搞事，話低生育率係因為18歲呢個魔術數字。佢話adult應該puberty就default，唔好信政府個arbitrary age。香港同美國都一樣，我30歲仲單身，真係靠AI續命。ok呢啲嘢睇完就算，繼續返屋企睇書。",
-      "text_en_b1": "Elon Musk doesn't get it. Low TFR and birth rates are due to the 18 magical age theory and child labor laws. By default, one is considered an adult at puberty. Any animal with secondary sexual characteristics is a mature adult, Adam Smith noted the profitable employment of young people.",
-      "source_url": "https://boards.4chan.org/pol/thread/541636115",
-      "source_hint": "/pol/ thread raging about Musk and age-of-majority laws",
+      "topic_zh": "18歲智商測試",
+      "topic_en": "18 age brainlet test",
+      "text_zh": "有人話 講一句「亞洲男人平均矮啲」 然後叫人接average 識接就正常 唔識就 IQ低 🧐 真係4chan式IQ test 我同事Tommy都係咁 一講統計就膠膠噏 仲有六壬堂sifu都話今年唔好亂郁",
+      "text_en_b1": "Someone on /pol/ claims the fastest IQ test is making a generalized statement about a group, like \"Asian men are shorter on average.\" If they reply with \"not all Asian men are short\" or \"I know a tall Asian guy,\" you are dealing with a genuinely low-IQ person who cannot understand statistical averages.",
+      "source_url": "https://boards.4chan.org/pol/thread/541656011",
+      "source_hint": "/pol/ statistical-illiteracy IQ rant",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -89,21 +89,21 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Demographics culture war, not a trade"
+        "rationale": "Culture/political observation, no trade"
       },
-      "text_en_b2": "Elon Musk is at it again, claiming that collapsing birth rates stem from what he calls the 18 magical age threshold. He basically argues adulthood should kick in at puberty by default, dismissing government age limits as arbitrary nonsense. Whether you're in Hong Kong or the States, the picture looks identical. I'm thirty, still single, and frankly leaning on AI companions just to cope. Anyway, I've had enough of this rabbit hole, back to my books.",
-      "text_en_c1": "Elon Musk is opining on demographics again, this time attributing collapsing fertility rates to what he calls the eighteen magical age theory, the notion that arbitrarily designating eighteen as the threshold of adulthood has somehow distorted the natural order. He appears to genuinely believe that puberty should default to adult status, a position that conveniently disregards centuries of labour law and developmental psychology. Meanwhile, I remain single at thirty in Hong Kong, increasingly reliant on AI for whatever passes for companionship these days. The discourse is exhausting, so I shall return to my books and pretend the broader civilisational trajectory is someone else's problem to solve.",
-      "text_en_c2": "Musk, characteristically, has once again weighed in on demographic collapse with characteristic provocation, positing that the precipitous decline in total fertility rates can be attributed to what he terms the 18-year magical age threshold. His argument, stripped of its contrarian varnish, runs that biological adulthood ought to be defined by puberty rather than by arbitrary legal convention, and that any creature exhibiting secondary sexual characteristics is, in essence, a mature adult. He invokes Adam Smith's observations on the profitable employment of young people as historical corroboration, though one suspects the parallel is doing rather more work than it ought. The debate, while intellectually stimulating, is ultimately academic."
+      "text_en_b2": "Someone on /pol/ insists the fastest IQ test around is dropping a generalisation like \"Asian men are shorter on average\" and watching how people respond. Anyone who jumps in with \"not all Asian men are short\" or trots out their one tall Asian friend is essentially confirming they can't grasp basic statistical averages. It's a depressingly reliable filter, and frankly my colleague Tommy falls for the exact same trap every single time.",
+      "text_en_c1": "A particularly cynical heuristic circulating on /pol/ posits that the most efficient IQ test available consists simply of stating a statistical generality — something to the effect of Asian men being, on average, shorter than their Western counterparts. Should the respondent immediately counter with anecdotal evidence such as 'well, my friend is quite tall,' or insist that the average does not apply to every individual, one can confidently conclude that one is dealing with someone who fundamentally cannot conceptualise what an average actually means. My colleague Tommy exhibits precisely this tendency whenever statistical reasoning enters the conversation, degenerating into incoherent bluster within seconds.",
+      "text_en_c2": "A remarkably reductive intelligence heuristic has been circulating, ostensibly formulated by individuals who have confused contrarianism for insight. The proposition runs thus: proffer a statistically defensible generalisation — for instance, the empirically verifiable observation that Asian men exhibit, on aggregate, marginally lower mean stature than certain other demographic cohorts — and thereafter evaluate the respondent's reaction. Should they immediately retreat into anecdotal exceptions ('not all Asian men are short,' 'my friend is quite tall'), one may reasonably conclude that their cognitive apparatus cannot accommodate distributional thinking; that they persistently conflate individual instances with population-level parameters. The test, while admittedly glib, exposes a genuine epistemological deficiency. An inability to distinguish between a statement concerning central tendency and one asserting universal applicability suggests either inadequate statistical literacy or a more profound reluctance to engage with abstract reasoning."
     },
     {
-      "id": "v-gta6-lucia",
+      "id": "t5-lol-budget",
       "category": "lol/esports",
-      "topic_zh": "GTA6 Lucia",
-      "topic_en": "GTA 6 Lucia wokery",
-      "text_zh": "GTA 6個Lucia真係woke到爆。5尺2寸女仔一拳打低6尺3寸男人，又識開槍又識揸車，仲要單手裝shotgun。lol到底邊個寫嘅劇本？我打LOL打到S15都仲未上鑽，今日又要肥仔信叫我去gym。",
-      "text_en_b1": "GTA 6 is fine but Lucia is immersion breaking. She is 5 foot 2 and can knock out a 6 foot 3 man with one punch. She can shoot and drive at superhuman levels and even reloads shotguns with one hand. No one can realistically do these things, this is bullshit.",
-      "source_url": "https://boards.4chan.org/v/thread/746430760",
-      "source_hint": "/v/ thread complaining about GTA 6 protagonist Lucia",
+      "topic_zh": "LoL預算爆炸",
+      "topic_en": "LoL budget inflation",
+      "text_zh": "2012年 LoL budget 30M 120個developer 2026年 2 BILLION 6000個developer 我睇緊S15都覺得個game越嚟越膠 咁多錢做出嚟係咁 多餘晒 lol btw考牌書睇到第三chapter 真係靠AI續命",
+      "text_en_b1": "Look at the difference between League of Legends in 2012 and 2026. In 2012 the budget was 30 million dollars with about 120 developers. By 2026 the budget is 2 billion dollars and the team is around 6,000 developers. Same franchise, completely different scale, and honestly the game feels worse for it.",
+      "source_url": "https://boards.4chan.org/v/thread/746447238",
+      "source_hint": "/v/ thread on LoL dev cost inflation",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -112,21 +112,21 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming culture take, not a trade"
+        "rationale": "Esports commentary, no trade"
       },
-      "text_en_b2": "GTA 6 itself is solid, but Lucia honestly shatters any sense of immersion. The woman is 5'2\" yet floors a 6'3\" bloke with a single punch, handles firearms like a Navy SEAL, drives like a seasoned getaway driver, and somehow reloads a shotgun one-handed. Whoever greenlit this script clearly prioritised aesthetics over plausibility. Meanwhile, I've been grinding League of Legends stuck in Silver, and my mate keeps pestering me about hitting the gym.",
-      "text_en_c1": "GTA 6 is otherwise a competent title, but Lucia's characterisation has proven genuinely immersion-breaking for anyone with a rudimentary grasp of physical plausibility. She stands approximately five foot two, yet routinely incapacitates men exceeding six foot three with single punches, handles firearms with implausible proficiency, executes high-speed driving sequences that would challenge professional rally drivers, and, most egregiously, reloads a shotgun one-handed. Whoever drafted this script appears to have confused wish fulfilment with credible character writing. Separately, I have been grinding League of Legends through Season 15 without reaching Diamond, and today my friend insisted I start going to the gym, advice I will almost certainly ignore.",
-      "text_en_c2": "GTA 6, taken on its own merits, is a competent enough title; the grievance lies specifically with Lucia, whose portrayal is so egregiously calibrated to contemporary ideological sensibilities that immersion fractures almost immediately upon her introduction. The conceit that a woman standing five foot two can deck a man of six foot three with a single, unassisted punch strains credulity beyond any reasonable threshold, and her purported superhuman proficiency with firearms, motor vehicles, and the one-handed racking of a shotgun beggars belief entirely. One can only surmise that the writing staff prioritised a particular thematic agenda over the most rudimentary principles of internal consistency. The cumulative effect is one of being lectured at, rather than entertained, which is rarely the desired register."
+      "text_en_b2": "Take a look at how dramatically League of Legends has scaled over the years. Back in 2012 the budget sat at around 30 million dollars with a team of roughly 120 developers, whereas by 2026 Riot is pouring in roughly 2 billion dollars and employing close to 6,000 people. Same franchise, vastly different scope, and yet watching the current season the gameplay honestly feels worse rather than better, which is hard to swallow.",
+      "text_en_c1": "The trajectory of League of Legends' development budget over the intervening decade and change is nothing short of staggering when laid out in raw numbers. Back in 2012 the operation ran on a comparatively modest thirty million dollars with a team of approximately 120 developers; by 2026 that figure has ballooned to a scarcely believable two billion dollars, with the headcount expanding to roughly 6,000. Despite this extraordinary forty-fold increase in resources, watching the current season one cannot shake the suspicion that the end product has somehow deteriorated. Diminishing returns appear to have set in with a vengeance, leaving one to wonder where precisely the money has gone.",
+      "text_en_c2": "The financial trajectory of League of Legends across a fourteen-year interval furnishes a compelling, if dispiriting, case study in the diminishing returns characteristic of escalating production budgets. In 2012, the title operated on a comparatively modest thirty-million-dollar budget, sustained by approximately 120 developers — a configuration that nevertheless produced what remains, for many, the genre's definitive iteration. Contrast this with the contemporary situation: a development apparatus numbering roughly 6,000 personnel, consuming something approaching two billion dollars annually, yet delivering a product that, by widespread critical consensus, has palpably deteriorated. The paradox is unmistakable: exponential resource expansion has coincided with a measurable decline in both mechanical coherence and artistic vision. Whether one attributes this to bureaucratic bloat, design-committee timidity, or the perpetual scope-creep endemic to live-service architecture, the outcome remains identical — the player receives less."
     },
     {
-      "id": "fit-cut-fatigue",
+      "id": "t6-fit-cut",
       "category": "mma/fitness",
-      "topic_zh": "減肥無力",
-      "topic_en": "Cutting on little food",
-      "text_zh": "3個月瘦45磅，但肌肉同力量都走晒。gym真係打到條命，唔夠氣又唔夠蛋白質。要forcefeed自己，whole meal都食唔晒。咁我點樣仲有錢join MMA？考牌進度零，prop firm又燒緊錢，thx真係廢柴。",
-      "text_en_b1": "How the FUCK are you able to lift heavy and get enough protein on this shit? I lost 45 pounds in 3 months but I definitely lost muscle and strength. Being at the gym kills me. I get fatigued as fuck. My heart gets raped by squats, I feel like I am going to die.",
+      "topic_zh": "Cut到虛脫",
+      "topic_en": "Cut losing muscle",
+      "text_zh": "Cut 3個月瘦45磅 但肌肉同力量都走晒 gym真係打到仆街 心口做set好似要死咁 又食唔落嘢 要強制自己食 睇完即刻whatsapp肥仔信 問佢聽日一唔一齊打spar lol🙏",
+      "text_en_b1": "How are you supposed to lift heavy and get enough protein on a cut? I lost 45 pounds in 3 months but I definitely lost muscle and strength. The gym absolutely kills me — I can't go hard because my body won't let me, squats make my heart feel like it's giving out, and I can barely eat more than a couple of times a…",
       "source_url": "https://boards.4chan.org/fit/thread/77480573",
-      "source_hint": "/fit/ anon struggling to lift heavy while cutting calories",
+      "source_hint": "/fit/ thread on losing strength while cutting",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -135,21 +135,21 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness lifestyle post, not a trade"
+        "rationale": "Fitness observation, no trade"
       },
-      "text_en_b2": "How on earth are people supposed to lift heavy and hit their protein macros while cutting this aggressively? I've shed 45 pounds in three months, but muscle and strength have absolutely evaporated along the way. Every gym session feels like a death sentence, I'm constantly gassed, and squats have my heart pounding out of my chest. Eating feels like forced labour since I can barely finish whole meals. Between MMA fees and prop firm burn, I'm cooked.",
-      "text_en_c1": "I dropped forty-five pounds over three months, which sounds commendable until you factor in the rather significant caveat that I have simultaneously sacrificed a substantial proportion of my muscle mass and baseline strength in the process. Training sessions have become genuinely punishing; the deficit leaves me chronically fatigued, my cardiovascular system protests every set of squats with what feels like mortal conviction, and I am perpetually forcing down meals I cannot reasonably finish in pursuit of adequate protein. The economics compound the misery: MMA memberships cost money I no longer have, licensing progress stands at precisely zero, and prop firm capital continues evaporating. Functional adult, evidently not.",
-      "text_en_c2": "The arithmetic of aggressive caloric deficit is, as ever, brutally straightforward but punishing in its execution. Over the course of three months I have shed forty-five pounds, a figure which on paper reads as unequivocal progress yet conceals a far more equivocal reality: lean mass has evaporated, maximal strength has cratered, and the residual fatigue is so pervasive that each successive gym session assumes the character of an existential ordeal. The cardiovascular strain imposed by even moderate squat work leaves one genuinely uncertain whether the next rep will be the last, whilst the perpetual necessity of force-feeding oneself sufficient protein to merely tread water becomes its own Sisyphean torment."
+      "text_en_b2": "I've been running a cut for about three months and dropped roughly 45 pounds, but along with the fat I've noticeably lost both muscle and strength, which is incredibly frustrating. The gym absolutely wipes me out — even a single working set on chest feels borderline dangerous, my heart rate goes through the roof, and forcing myself to eat enough protein throughout the day has become a genuine struggle.",
+      "text_en_c1": "Maintaining any semblance of productive hypertrophy on an aggressive cut is, frankly, an exercise in masochism that I would not wish upon anyone. Over the past three months I have shed a not inconsiderable forty-five pounds, yet the accompanying erosion of both muscle mass and strength has been substantial enough that each session now feels like an act of self-harm. Compound movements in particular have become genuinely punishing — pressing weight on the chest feels akin to courting cardiac arrest, while appetite suppression renders adequate caloric intake a constant battle of willpower against one's own physiology.",
+      "text_en_c2": "The physiological contradictions inherent to aggressive caloric restriction while attempting to preserve lean tissue constitute one of bodybuilding's more punishing paradoxes. My recent experience illustrates the predicament with uncomfortable clarity: over a three-month span, I shed approximately forty-five pounds, yet the composition of that loss proved devastatingly unfavourable. Strength metrics have cratered, muscle cross-sections have visibly diminished, and the gym — once a locus of competence and progressive overload — has become a venue for protracted suffering. Compound movements, particularly heavy squats, induce cardiac responses suggesting imminent cardiovascular compromise. Appetite, meanwhile, has evaporated entirely; meals require deliberate, almost ceremonial enforcement, since the body's homeostatic mechanisms interpret the deficit as approaching famine. The entire enterprise feels less like physique optimisation and considerably more like managed deterioration."
     },
     {
-      "id": "a-gundam-underrated",
+      "id": "t7-a-anime-end",
       "category": "anime/culture",
-      "topic_zh": "高達被低估",
-      "topic_en": "Original Gundam underrated",
-      "text_zh": "原版Mobile Suit Gundam真係被underrated，而家啲人一講就Zeta、ZZ、CCA嗰啲膠嘢。嗰啲唔同人做應該non-canon。我就鍾意00，認真睇完覺得係神作。返到HK之後都係得返睇anime打發時間，30歲仲單身，靠AI續命lol。",
-      "text_en_b1": "Is Mobile Suit Gundam underrated? Nowadays, most people can't discuss it without mentioning the dogshit sequels Zeta, ZZ, and CCA, which were made by completely different people and should be considered non-canon. It really devalues the original masterpiece.",
-      "source_url": "https://boards.4chan.org/a/thread/290489541",
-      "source_hint": "/a/ thread defending the original 1979 Gundam over its sequels",
+      "topic_zh": "神級ED",
+      "topic_en": "Best anime ending ever",
+      "text_zh": "有人問點解得一套anime ending做到 plot全部收晒 又冇爛尾 到底係行業問題定寫劇本問題 我諗咗一陣 可能Gundam 00算一個？ Demon Slayer就麻麻 總之要做工程就最忌爛尾 考牌都唔例外 lol",
+      "text_en_b1": "Years later and this is probably still the best anime ending I have ever seen. Why are there barely any other anime that tie up all of their plot points and loose ends in such a satisfying way? Is it an industry problem or a writing problem? Most modern endings feel rushed compared to the classics.",
+      "source_url": "https://boards.4chan.org/a/thread/290529481",
+      "source_hint": "/a/ thread praising a perfect anime ending",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -158,11 +158,11 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime discourse, not a trade"
+        "rationale": "Anime commentary, no trade"
       },
-      "text_en_b2": "Original Mobile Suit Gundam is genuinely underrated, since modern discourse inevitably derails into wanking over Zeta, ZZ, and CCA, which were essentially produced by entirely different teams and should arguably be treated as non-canon. Personally, I think Gundam 00 is the real masterpiece once you actually sit down with it. Back in Hong Kong, anime is basically my only pastime now that I'm thirty, single, and relying on AI to keep myself sane. Pathetic, I know.",
-      "text_en_c1": "The original Mobile Suit Gundam remains, in my estimation, a criminally undervalued work, one whose reputation has been quietly eroded by its own increasingly mediocre sequels. Any serious discussion today inevitably devolves into references to Zeta, ZZ, and Char's Counterattack, entries produced by largely different creative teams and, frankly, deserving of non-canonical status given their narrative inconsistencies. Personally, I find Gundam 00 to be the genuinely underappreciated masterpiece of the franchise, a position I will defend against any challenger. Back in Hong Kong, single at thirty, my leisure activities have narrowed to anime and AI companionship, a combination that sounds bleak but somehow suffices.",
-      "text_en_c2": "The original Mobile Suit Gundam, that urtext of the mecha genre, remains chronically and unjustly undervalued in contemporary discourse, eclipsed as it is by its purportedly superior successors. The prevailing critical consensus now treats Zeta, ZZ, and Char's Counterattack as essential continuations of the mythology, notwithstanding that they were helmed by entirely different creative personnel and consequently should be regarded, at best, as non-canonical apocrypha rather than legitimate scripture. This persistent conflation inevitably dilutes the stature of Tomino's original masterwork. Personally, I find myself gravitating towards Gundam 00, which upon a serious reappraisal reveals itself to be nothing short of a transcendent achievement in the genre, though I suspect such a heretical preference invites considerable opprobrium from the orthodox."
+      "text_en_b2": "Even years later, this is arguably still the most satisfying anime ending I've ever come across, because it manages to wrap up virtually every plot thread without leaving anything dangling. That raises a broader question: why do so few modern series manage the same feat? Whether you blame shifting industry priorities or simply weaker writing, most contemporary finales feel rushed and hollow compared to the classics, and the gap shows.",
+      "text_en_c1": "The persistent scarcity of anime conclusions that manage to deliver genuine narrative closure without resorting to the customary rushed, inconclusive denouement remains something of an industry enigma. Whether one attributes this recurring failure to structural commercial pressures, broadcast slot constraints, or simply a dearth of writers capable of architecting satisfactory resolutions is largely a matter of speculation, though the latter explanation strikes me as more plausible. Gundam 00 stands as a comparatively rare exemplar of the form, whereas modern offerings such as Demon Slayer demonstrate precisely the hasty, unsatisfying wrap-up that has become endemic to the medium.",
+      "text_en_c2": "The perpetual discourse surrounding anime conclusions invariably circles back to a rather dispiriting observation: genuinely satisfying narrative resolutions have become increasingly anomalous within the medium. One seeks works that honour their accumulated threads — that eschew the convenience of abrupt terminations, the narrative cowardice of sequel-baiting, and the particular disappointment of deflations where intricate machinations resolve into mere petering-out. The contemporary landscape offers few exemplars; Demon Slayer, despite its commercial dominance, rather exemplifies the problem through its compressed and emotionally perfunctory conclusion. Gundam 00, perhaps, approaches the threshold of adequate resolution, though even there one senses compromises demanded by commercial considerations. The underlying pathology likely transcends individual writers: structural incentives reward perpetuation over conclusion, since ongoing franchises generate revenue that concluded ones cannot."
     }
   ]
 }
