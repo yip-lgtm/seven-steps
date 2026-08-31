@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-btc-pump",
-      "topic_en": "BTC chase after pump",
-      "topic_zh": "泵完先買BTC",
+      "id": "biz-justin-sun-roastie",
+      "topic_en": "Justin Sun roastie L",
+      "topic_zh": "孫宇晨被燒烤",
       "category": "trading",
-      "file": "clip-trade-btc-pump.mp3",
-      "bytes": 188575,
-      "chars": 170
-    },
-    {
-      "id": "trade-grok-elon",
-      "topic_en": "Grok copies Deepseek",
-      "topic_zh": "Grok抄Deepseek",
-      "category": "trading",
-      "file": "clip-trade-grok-elon.mp3",
-      "bytes": 371565,
-      "chars": 307
-    },
-    {
-      "id": "tech-ai-jobs",
-      "topic_en": "AI-proof tech jobs",
-      "topic_zh": "AI邊份工穩陣",
-      "category": "tech/ai",
-      "file": "clip-tech-ai-jobs.mp3",
-      "bytes": 251422,
-      "chars": 242
-    },
-    {
-      "id": "hk-magnet-china",
-      "topic_en": "Magnets are Chinese tech",
-      "topic_zh": "磁鐵係中國嘢",
-      "category": "hk/news",
-      "file": "clip-hk-magnet-china.mp3",
-      "bytes": 295533,
-      "chars": 256
-    },
-    {
-      "id": "lol-fate-extra",
-      "topic_en": "Fate/EXTRA restarted",
-      "topic_zh": "Fate/EXTRA 又再boot",
-      "category": "lol/esports",
-      "file": "clip-lol-fate-extra.mp3",
-      "bytes": 441837,
-      "chars": 256
-    },
-    {
-      "id": "mma-cut-protein",
-      "topic_en": "45lb cut wrecked gains",
-      "topic_zh": "Cut 45磅打到散",
-      "category": "mma/fitness",
-      "file": "clip-mma-cut-protein.mp3",
-      "bytes": 292653,
-      "chars": 290
-    },
-    {
-      "id": "anime-hathaway",
-      "topic_en": "Hathaway cockpit fixation",
-      "topic_zh": "Hathaway駕駛艙",
-      "category": "anime/culture",
-      "file": "clip-anime-hathaway.mp3",
+      "file": "clip-biz-justin-sun-roastie.mp3",
       "bytes": 300141,
-      "chars": 285
+      "chars": 267
+    },
+    {
+      "id": "biz-btc-buying-pump",
+      "topic_en": "Buying BTC after the pump",
+      "topic_zh": "Pump完先入場",
+      "category": "trading",
+      "file": "clip-biz-btc-buying-pump.mp3",
+      "bytes": 207602,
+      "chars": 197
+    },
+    {
+      "id": "tc-anon-job",
+      "topic_en": "AI-proof tech jobs",
+      "topic_zh": "邊科AI-proof",
+      "category": "tech/ai",
+      "file": "clip-tc-anon-job.mp3",
+      "bytes": 216827,
+      "chars": 230
+    },
+    {
+      "id": "hk-pol-magnets",
+      "topic_en": "China magnets threat",
+      "topic_zh": "中國磁鐵末日",
+      "category": "hk/news",
+      "file": "clip-hk-pol-magnets.mp3",
+      "bytes": 245656,
+      "chars": 237
+    },
+    {
+      "id": "v-fate-cancel",
+      "topic_en": "Fate/EXTRA cancelled?",
+      "topic_zh": "Fate又要腰斬",
+      "category": "lol/esports",
+      "file": "clip-v-fate-cancel.mp3",
+      "bytes": 234701,
+      "chars": 220
+    },
+    {
+      "id": "fit-cut-proteins",
+      "topic_en": "Cutting kills lifts",
+      "topic_zh": "Cut到攰死",
+      "category": "mma/fitness",
+      "file": "clip-fit-cut-proteins.mp3",
+      "bytes": 265836,
+      "chars": 248
+    },
+    {
+      "id": "a-gundam-hathaway",
+      "topic_en": "Gundam Hathaway maid",
+      "topic_zh": "哈薩維戰術機師",
+      "category": "anime/culture",
+      "file": "clip-a-gundam-hathaway.mp3",
+      "bytes": 266413,
+      "chars": 242
     }
   ]
 }
