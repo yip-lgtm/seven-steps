@@ -759,6 +759,93 @@ let chunks = [];
 let recStart = 0;
 let recTimerInterval = null;
 let lastRecordingUrl = null;
+let lastRecordingBlob = null;
+let lastRecordingDuration = 0;
+
+// --- GitHub backup integration ---
+// Records the user's GitHub PAT (Personal Access Token) in localStorage
+// so shadow audio can be auto-committed to the repo via the GitHub
+// Contents API. The PAT needs 'Contents: write' scope. We never send
+// the PAT anywhere except api.github.com.
+
+const GITHUB_REPO = 'yip-lgtm/seven-steps';
+const GH_TOKEN_KEY = 'ss.ghBackupToken.v1';
+
+function getGhToken() {
+  try { return localStorage.getItem(GH_TOKEN_KEY) || ''; } catch { return ''; }
+}
+function setGhToken(t) {
+  try {
+    if (t) localStorage.setItem(GH_TOKEN_KEY, t);
+    else localStorage.removeItem(GH_TOKEN_KEY);
+  } catch {}
+}
+
+async function uploadToGitHub(path, contentBase64, message) {
+  const token = getGhToken();
+  if (!token) throw new Error('No GitHub PAT configured — set one in Settings');
+  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`;
+  // First check if file already exists (to get its sha for update)
+  let sha = null;
+  const head = await fetch(url, {
+    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github+json' }
+  });
+  if (head.ok) {
+    const j = await head.json();
+    sha = j.sha;
+  }
+  const body = {
+    message: message || `chore(recordings): upload ${path}`,
+    content: contentBase64,
+  };
+  if (sha) body.sha = sha;
+  const put = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `token ${token}`,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  });
+  if (!put.ok) {
+    const errBody = await put.text();
+    throw new Error(`GitHub API ${put.status}: ${errBody.slice(0, 200)}`);
+  }
+  return put.json();
+}
+
+function blobToBase64(blob) {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => {
+      // result is "data:audio/webm;base64,XXX" — strip the prefix
+      const s = String(r.result || '');
+      const i = s.indexOf(',');
+      resolve(i >= 0 ? s.slice(i + 1) : s);
+    };
+    r.onerror = () => reject(r.error);
+    r.readAsDataURL(blob);
+  });
+}
+
+async function backupRecording(clip, blob, durationSec) {
+  if (!clip || !clip.id) return { ok: false, reason: 'no clip context' };
+  if (!getGhToken()) {
+    return { ok: false, reason: 'no-token' };
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  const safeId = String(clip.id).replace(/[^a-z0-9_-]/gi, '_');
+  const file = `recordings/${today}/clip-${safeId}.webm`;
+  const b64 = await blobToBase64(blob);
+  const msg = `chore(recordings): ${today} clip ${clip.id} (${durationSec}s)`;
+  try {
+    const r = await uploadToGitHub(file, b64, msg);
+    return { ok: true, url: r.content?.html_url, path: file, size: blob.size };
+  } catch (e) {
+    return { ok: false, reason: e.message };
+  }
+}
 
 async function startRecording() {
   if (recorder && recorder.state === 'recording') return;
@@ -771,6 +858,8 @@ async function startRecording() {
       const blob = new Blob(chunks, { type: 'audio/webm' });
       if (lastRecordingUrl) URL.revokeObjectURL(lastRecordingUrl);
       lastRecordingUrl = URL.createObjectURL(blob);
+      lastRecordingBlob = blob;
+      lastRecordingDuration = Math.floor((Date.now() - recStart) / 1000);
       stream.getTracks().forEach(t => t.stop());
       // trigger re-render so playback UI shows up
       onRecordingComplete();
@@ -792,6 +881,27 @@ function stopRecording() {
 function onRecordingComplete() {
   // hook for re-render
   if (state.view === 'session') render();
+  // Auto-backup the recording to GitHub if user has a PAT configured
+  if (lastRecordingBlob && state.session) {
+    const clip = state.session.clipQueue[state.session.clipIdx - 1] || state.clips[state.session.clipQueue[state.session.clipIdx - 1]];
+    if (clip) {
+      backupRecording(clip, lastRecordingBlob, lastRecordingDuration)
+        .then(r => {
+          if (r.ok) {
+            toast(`✓ Shadow saved: ${r.path} (${(r.size/1024).toFixed(1)} KB)`);
+          } else if (r.reason === 'no-token') {
+            // Silent — user hasn't enabled backup. Show a one-time hint.
+            const hintKey = 'ss.shadowHintShown';
+            if (!localStorage.getItem(hintKey)) {
+              localStorage.setItem(hintKey, '1');
+              toast('Tip: add a GitHub PAT in Settings to auto-save shadow recordings');
+            }
+          } else {
+            toast('Backup failed: ' + r.reason);
+          }
+        });
+    }
+  }
 }
 
 let recordingDuration = 0;
@@ -1450,6 +1560,18 @@ function renderSettings() {
 
       ${renderSignalTable()}
 
+      <div class="settings-row" style="border-top: 1px solid var(--line); margin-top: 16px; padding-top: 16px;">
+        <div class="label-block">
+          <div class="label">GitHub PAT (shadow backup)</div>
+          <div class="sub">Personal Access Token with <code>Contents: write</code> scope. Each shadow recording auto-commits to <code>recordings/YYYY-MM-DD/clip-{id}.webm</code> in the repo. Token is stored only in this browser's localStorage.</div>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <input type="password" id="set-gh-token" placeholder="ghp_..." style="font-family: monospace; font-size: 12px; padding: 6px 8px; width: 220px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg, white); color: var(--ink, black);" autocomplete="off" />
+          <button class="btn" id="btn-save-gh-token">Save</button>
+        </div>
+        <div id="gh-token-status" style="font-size: 12px; color: var(--ink-faint); margin-top: 4px;"></div>
+      </div>
+
       <div class="mt-4">
         <button class="btn" id="btn-reset" style="color: var(--danger);">Reset all progress</button>
       </div>
@@ -1481,6 +1603,32 @@ function attachHandlers() {
     btnRetryDaily.textContent = 'Retrying…';
     await loadDailyClips();
     render();
+  });
+
+  // GitHub PAT for shadow recording backup
+  const ghTokenInput = document.getElementById('set-gh-token');
+  const ghTokenStatus = document.getElementById('gh-token-status');
+  if (ghTokenInput) {
+    const existing = getGhToken();
+    if (existing) {
+      ghTokenInput.value = existing;
+      ghTokenStatus.textContent = '✓ Token saved (starts with ' + existing.slice(0, 6) + '…)';
+    }
+  }
+  const btnSaveGhToken = document.getElementById('btn-save-gh-token');
+  if (btnSaveGhToken) btnSaveGhToken.addEventListener('click', () => {
+    const v = (ghTokenInput.value || '').trim();
+    if (!v) {
+      setGhToken('');
+      ghTokenStatus.textContent = 'No token (backup disabled)';
+      return;
+    }
+    if (!v.startsWith('ghp_') && !v.startsWith('github_pat_') && !v.startsWith('ghu_')) {
+      ghTokenStatus.textContent = '⚠ Doesn\'t look like a GitHub PAT (expected ghp_/ghu_/github_pat_ prefix)';
+      return;
+    }
+    setGhToken(v);
+    ghTokenStatus.textContent = '✓ Token saved. Next shadow recording will auto-commit.';
   });
 
   // Settings
