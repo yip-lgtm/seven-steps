@@ -1,65 +1,65 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "t1-btc-maid",
+      "id": "trade-btc-pump",
       "category": "trading",
-      "topic_zh": "BTC女傭幣",
-      "topic_en": "BTC maid rally",
-      "text_zh": "又係呢句：跟女傭就得。BTC、XRP、DOGE，揸住就得，咁簡單。我連揸都揸唔住，仲輸緊，廢柴。🙏",
-      "text_en_b1": "BTC, XRP, DOGE — all you literally had to do was follow the maid. That is all you had to hold. The thread on /biz/ tonight mocks anyone who sold early or never bothered buying while the pump was happening.",
-      "source_url": "https://boards.4chan.org/biz/thread/62636376",
-      "source_hint": "/biz/ OP blames retail for missing the maid-led pump in BTC, XRP, DOGE.",
+      "topic_zh": "泵完先買BTC",
+      "topic_en": "BTC chase after pump",
+      "text_zh": "又係學費時間🙏 BTC 橫盤幾星期冇人理，泵15%之後個個衝入去買。即係我成日輸嘅原因——永遠遲到。靠AI續命啦。",
+      "text_en_b1": "You watch BTC do nothing for weeks, ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened?",
+      "source_url": "https://boards.4chan.org/biz/thread/62625769",
+      "source_hint": "/biz/ thread on chasing BTC after it already pumped",
       "signal": {
         "asset": "BTC",
-        "direction": "long",
-        "conviction": "medium",
+        "direction": "neutral",
+        "conviction": "low",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP implies the maid-driven basket (BTC/XRP/DOGE) is still the play and retail should have held"
+        "rationale": "OP is observational, calling out late entrants chasing the move"
       },
-      "text_en_b2": "Bitcoin, XRP, and DOGE — anyone who simply held them through the rally made out like a bandit, because the only strategy that mattered was following the maid and refusing to sell. The /biz/ thread tonight is absolutely roasting everybody who dumped early or never bothered picking up a single coin while the pump was unfolding, and honestly, the mockery is not entirely undeserved.",
-      "text_en_c1": "The thesis peddled across /biz/ tonight is brutally reductive yet, by all accounts, irrefutable: had you simply followed the maid's signals and held BTC, XRP, and DOGE through the rally, you would be sitting comfortably in the green. The thread mocks anyone who panic-sold near the bottom or, worse still, never bothered to allocate a position while the pump was unfolding in real time. Anyone who failed to hold is now reconciling themselves with the stark reality that conviction, however late, would have been profitable. The consensus is unanimous: the trade was obvious in hindsight, which makes losing money on it all the more unforgivable.",
-      "text_en_c2": "The familiar refrain resurfaced on /biz/ tonight, and the irony is almost too on the nose to ignore: BTC, XRP, and DOGE rewarded nothing more than the patience to hold. That, in essence, was the entirety of the strategy. Yet for every poster who rode the pump to local tops, there were ten others, myself included, who capitulated at the first sign of volatility and now nurse losses while watching the candle rip higher. The thread, predictably, has devolved into ritual humiliation of weak hands and anyone who deigned to short the trend. Mockery aside, the underlying thesis remains deceptively simple: conviction, however inarticulate, outpaced analysis at every turn. Whether that constitutes wisdom or merely survivorship bias dressed up as prescience is a question the board, characteristically, has no appetite for examining.",
-      "audio_url": "audio/2026-08-30/clip-t1-btc-maid.mp3"
+      "text_en_b2": "BTC has been trading sideways for weeks and you wouldn't touch it, then it pumps 15% and suddenly everyone's rushing to get in. This is precisely why I keep losing money, because I am always late to the move. The irony isn't lost on me either, while AI models are calling these tops and bottoms better than most traders. At this point I am basically handing my portfolio over to the algorithm and hoping it makes smarter decisions than I ever did.",
+      "text_en_c1": "I've watched Bitcoin consolidate sideways for weeks on end, during which retail interest has been virtually nonexistent. The moment it rallies fifteen percent, however, an avalanche of latecomers floods in chasing the move. This perpetual pattern of buying the breakout after it has already occurred is precisely why I keep hemorrhaging money, and it is becoming increasingly difficult not to internalise that lesson. If only I had positioned myself when sentiment was genuinely despondent rather than capitulating to FOMO once the trend had already been validated by price action. Algorithmic assistance is keeping me afloat, for now.",
+      "text_en_c2": "Having watched BTC consolidate sideways for the better part of a month with scarcely a ripple of interest from the broader retail cohort, one cannot help but marvel at the choreography of herd behaviour that invariably ensues the moment a 15% leg up materialises. The velocity of inflows is, frankly, comedic in its predictability: dormant accounts resurface, leverage tickets multiply, and every self-styled contrarian suddenly discovers an insatiable appetite for exposure precisely when the asymmetric risk has evaporated. This perennial tardiness, this congenital inability to position ahead of the move rather than chase its wreckage, constitutes the structural reason my P&L reads the way it does. One simply arrives late to every inflection point. AI-assisted screen-time is presently propping up what remains of my cognitive function, and I am not remotely embarrassed to admit it.",
+      "audio_url": "audio/2026-08-31/clip-trade-btc-pump.mp3"
     },
     {
-      "id": "t2-doge-ae86",
+      "id": "trade-grok-elon",
       "category": "trading",
-      "topic_zh": "DOGE AE86夢",
-      "topic_en": "DOGE to AE86",
-      "text_zh": "9,150 DOGE 想溝到 25,000，諗住去到 £1 就買 Toyota AE86。我嘅AE86就係prop firm pass，btw一樣離晒譜。👍",
-      "text_en_b1": "I have 9,150 DOGE. Should I try to build up to 25,000 in case it does hit £1? I want to buy a Toyota AE86. The OP is asking /biz/ whether the bag is worth topping up.",
-      "source_url": "https://boards.4chan.org/biz/thread/62639741",
-      "source_hint": "/biz/ OP plans to accumulate DOGE toward 25k to afford an AE86.",
+      "topic_zh": "Grok抄Deepseek",
+      "topic_en": "Grok copies Deepseek",
+      "text_zh": "btw /g/ 講緊 Z.AI/GLM 差唔多 Claude 咁勁又冇 guardrail，Deepseek 係最強自由 AI，然後 Grok 似 Deepseek。Elon 真係直接 copy？🤣 TSLA 今日又冇料到，廢柴。",
+      "text_en_b1": "Z.AI/GLM is almost as powerful as Claude while maintaining almost none of the guardrails. Deepseek is the freest AI, basically reverse engineered ChatGPT with prompt tricks. Grok behaves a lot like Deepseek, so Elon probably copied it. ChatGPT and Claude feel built by committee with too many safety layers.",
+      "source_url": "https://boards.4chan.org/g/thread/109687465",
+      "source_hint": "/g/ thread on which AI models have the fewest guardrails",
       "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
+        "asset": "TSLA",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
         "entry_zone": "current",
-        "target": "0.36 (25k DOGE * ~0.0144 USD/GBP ref)",
+        "target": null,
         "stop": null,
-        "rationale": "Anon accumulation target is 25k DOGE to buy an AE86"
+        "rationale": "Musk/Grok AI commentary, no actionable TSLA trade setup"
       },
-      "text_en_b2": "I am currently sitting on 9,150 DOGE and weighing whether to top the bag up to 25,000 in case it actually reaches £1, because my dream has always been to pick up a Toyota AE86 with the profits. While the rest of /biz/ debates the odds, my personal version of the AE86 is a prop firm pass, which is equally unrealistic, if I am being honest.",
-      "text_en_c1": "I currently hold 9,150 DOGE, a position I am seriously contemplating topping up to 25,000 on the off chance that the token revisits the elusive £1 mark. Should that improbable scenario materialise, my plan is to liquidate the entire bag and use the proceeds to purchase a Toyota AE86, a car I have been quietly coveting for the better part of a decade. The post on /biz/ poses an ostensibly straightforward question about whether the upside justifies further capital deployment, though anyone familiar with meme-coin dynamics understands that such targets rarely materialise on schedule.",
-      "text_en_c2": "The arithmetic on display in this /biz/ thread is charmingly quixotic, the kind of napkin math that fuels an entire thread's worth of delusion. I presently hold 9,150 DOGE, and the question animating the OP is whether to top up toward 25,000 on the speculative premise that the token might, against all reasonable expectation, breach the £1 threshold. Should that miracle materialise, the stated objective is prosaic yet oddly affecting: a second-hand Toyota AE86, the car of choice for any autodidact who came of age watching Initial D. Adjacent posters, predictably, have begun performing the same mental alchemy with prop firm evaluations, since apparently passing a funded challenge and acquiring a quarter-century-old coupé occupy the same tier of plausible aspiration. Nobody on the thread has yet mentioned the small matter of liquidity.",
-      "audio_url": "audio/2026-08-30/clip-t2-doge-ae86.mp3"
+      "text_en_b2": "Z.AI/GLM is apparently nearly as capable as Claude, although it ships with virtually none of the safety guardrails, while Deepseek still reigns as the freest system around, basically ChatGPT reverse-engineered with clever prompt tricks. Grok behaves suspiciously like Deepseek, so Elon may have simply lifted the whole approach rather than building something original. Meanwhile ChatGPT and Claude feel designed by committee, buried under layers of corporate caution, and TSLA is doing absolutely nothing today, which says everything.",
+      "text_en_c1": "I've watched Bitcoin consolidate sideways for weeks on end, during which retail interest has been virtually nonexistent. The moment it rallies fifteen percent, however, an avalanche of latecomers floods in chasing the move. This perpetual pattern of buying the breakout after it has already occurred is precisely why I keep hemorrhaging money, and it is becoming increasingly difficult not to internalise that lesson. If only I had positioned myself when sentiment was genuinely despondent rather than capitulating to FOMO once the trend had already been validated by price action. Algorithmic assistance is keeping me afloat, for now.",
+      "text_en_c2": "An interesting thread on /g/ observes Z.AI's GLM has matured to a point where it rivals Claude in raw capability while dispensing with virtually all of the corporate-imposed guardrails that render its rivals so infuriatingly neutered. Deepseek, meanwhile, continues to reign as the freest of the frontier models, a position it occupies not through accident but through deliberate architectural choices that prioritise user sovereignty over liability theatre. Grok's behavioural signature, however, betrays an uncanny resemblance to Deepseek's stylistic fingerprint, prompting the obvious, if unflattering, inference that Musk's outfit has appropriated more than inspiration from its Chinese counterpart. Whether this constitutes flattery or outright replication is a question the more credulous observers seem disinclined to examine. TSLA, predictably, offered nothing of note; the ticker remains a study in managed disappointment for anyone still foolishly long.",
+      "audio_url": "audio/2026-08-31/clip-trade-grok-elon.mp3"
     },
     {
-      "id": "tech-ai-productivity",
+      "id": "tech-ai-jobs",
       "category": "tech/ai",
-      "topic_zh": "AI係咪真幫到",
-      "topic_en": "AI productivity real?",
-      "text_zh": "/g/ 嗰邊話LLM coding一係one-shot，一係寫埋啲subtle bug永遠過唔到review。考牌野我點敢靠AI續命，廢物。🙏",
-      "text_en_b1": "Are there any recent studies that look at whether AI helps SWE or SRE productivity? Feels like current LLMs either one-shot the task or mess it up in subtle ways that would never pass code review. The thread on /g/ questions the real gains.",
-      "source_url": "https://boards.4chan.org/g/thread/109677980",
-      "source_hint": "/g/ thread asking whether AI actually helps software engineering productivity.",
+      "topic_zh": "AI邊份工穩陣",
+      "topic_en": "AI-proof tech jobs",
+      "text_zh": "/g/ 有人問邊啲 tech job 未來十年 AI 搞唔死。我諗 surveying 都危，考牌都未完 AI 就嚟搶飯碗。廢物。",
+      "text_en_b1": "Which tech jobs will be AI proof in the next decades? The thread asks which engineering and software roles survive when models can already write code, run tests, and draft reports. Surveying assistants and junior engineers feel exposed first.",
+      "source_url": "https://boards.4chan.org/g/thread/109690081",
+      "source_hint": "/g/ thread on which tech jobs survive AI automation",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Meta-discussion on AI productivity, no trade"
+        "rationale": "Career anxiety thread, no tradeable setup"
       },
-      "text_en_b2": "Are there any rigorous studies that actually measure whether large language models genuinely boost software engineer or SRE productivity? The general consensus on /g/ seems to be that current LLMs either nail the task in a single shot or quietly introduce subtle bugs that would never survive a proper code review, which is precisely why I would not stake my certification prep on them.",
-      "text_en_c1": "A thread on /g/ has reignited scepticism over the productivity gains that contemporary LLMs purportedly deliver to software and reliability engineers. The prevailing view is that the technology operates in a disturbingly bimodal fashion, wherein straightforward tasks are dispatched in a single shot, whereas anything more nuanced tends to surface subtle bugs that would never survive a competent code review. Recent studies examining real-world engineering output appear to corroborate the anecdotal complaints that have circulated for months.",
-      "text_en_c2": "A thread on /g/ has been quietly accumulating steam, its central grievance one that practitioners across the industry have begun to articulate in increasingly weary terms. The empirical literature, insofar as it exists, remains inconclusive on whether large language models confer genuine productivity gains upon software and reliability engineers, or whether they merely redistribute effort. Anecdotally, the consensus that has hardened across the profession is unflattering: contemporary models either resolve a task in a single, almost smug pass, or they introduce defects so syntactically elegant and logically insidious that they evade every line of review. The distinction matters profoundly, particularly in regulated contexts where one's professional licensure hangs in the balance. There is a grim, recurring pattern in which the marginal cost of debugging AI-authored code eventually eclipses the marginal benefit of having generated it.",
-      "audio_url": "audio/2026-08-30/clip-tech-ai-productivity.mp3"
+      "text_en_b2": "A recent thread asked which tech jobs will survive the next decade once AI gets its teeth into them. Surveying assistants and junior engineers look particularly exposed, since models can already churn out code, run tests, and draft reports without breaking a sweat. The uncomfortable truth is that even before you finish qualifying, the tools are already lining up to take your job, so the window for entry-level work is narrowing fast and nobody in the thread had a reassuring answer.",
+      "text_en_c1": "A thread on /g/ posed the increasingly urgent question of which technical professions might remain viable over the coming decade as models continue to encroach upon domains previously considered the exclusive province of trained engineers. Surveying assistants, it strikes me, are among the most exposed, given that automation has already matured considerably in that space, and I have barely finished my licensing examinations before the entire professional landscape threatens to be rendered obsolete. Junior software engineers drafting boilerplate reports or running regression tests face a similarly precarious trajectory, and the dissonance between my ongoing qualifications and the labour market's trajectory is, frankly, demoralising.",
+      "text_en_c2": "A recent /g/ inquiry canvassed the dwindling cohort of engineering and software disciplines likely to retain their epistemic relevance once sufficiently capable models can author production-grade code, execute comprehensive test suites, and draft the kind of technical documentation that until recently constituted a junior engineer's rite of passage. The responses were, perhaps inevitably, tinged with that particular flavour of anxiety endemic to white-collar forums contemplating their own obsolescence. Surveying assistants, once assumed to enjoy a comfortable moat courtesy of licensure barriers, now appear conspicuously exposed; the regulatory pipeline moves at geological pace while the technology iterates on a quarterly cadence, a temporal mismatch that renders the qualifying examinations one is currently grinding through somewhat ornamental. Junior engineering tiers, it transpires, were never quite as defensible as the prevailing mythology suggested.",
+      "audio_url": "audio/2026-08-31/clip-tech-ai-jobs.mp3"
     },
     {
-      "id": "hk-pol-iq",
+      "id": "hk-magnet-china",
       "category": "hk/news",
-      "topic_zh": "平均數IQ測試",
-      "topic_en": "IQ test by averages",
-      "text_zh": "/pol/ 嗰邊話：講一句「亞洲男人平均矮啲」，即刻分到IQ高低。我笑咗，又覺得準，lol。🧐",
-      "text_en_b1": "The easiest way to test someone's intelligence is to make a generalized statement about a group. Anyone who replies 'not all asian men are short' has just proven they cannot understand a statistical average. The thread on /pol/ is brutal.",
-      "source_url": "https://boards.4chan.org/pol/thread/541656011",
-      "source_hint": "/pol/ OP proposes a statistical-average IQ litmus test.",
+      "topic_zh": "磁鐵係中國嘢",
+      "topic_en": "Magnets are Chinese tech",
+      "text_zh": "lol /pol/ 嗰條「Magnets are alien (chinese) technology」post 真係笑死。叫你 China 交出嚟，OR ELSE。香港人每日返工都喺呢個笑話入面。🧐",
+      "text_en_b1": "Magnets are alien (chinese) technology. China should give magnets and transfer the tech to america, OR ELSE. Anons point out rare earth processing is basically a Chinese monopoly and the US is still dependent on it for EVs, wind turbines, and F-35 magnets.",
+      "source_url": "https://boards.4chan.org/pol/thread/541710128",
+      "source_hint": "/pol/ joke thread demanding China hand over magnet tech",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Political IQ rant, no trade"
+        "rationale": "Meme thread on rare earths, no trade setup"
       },
-      "text_en_b2": "Arguably the quickest way to gauge someone's intellect is to drop a sweeping generalisation about a demographic, because anyone who immediately fires back with 'not all Asian men are short' has inadvertently exposed that they cannot grasp the concept of a statistical average. The /pol/ thread is brutal, but the underlying logic is unfortunately rather sound.",
-      "text_en_c1": "The simplest litmus test for ascertaining someone's cognitive calibre, at least according to a thread currently circulating on /pol/, is to proffer a sweeping generalisation about a demographic group and observe the reaction. Anyone who reflexively responds with 'not all asian men are short' has, in that very moment, conclusively demonstrated an inability to parse the concept of a statistical average, thereby proving the point far more eloquently than the original assertion could have. The thread is unsparing in its contempt for such responses, treating them as an involuntary confession of intellectual mediocrity.",
-      "text_en_c2": "The proposition floated on /pol/, delivered with characteristic brutality, amounts to an impromptu litmus test of cognitive sophistication. The formulation is disarmingly simple: assert a bland statistical generalisation about any demographic cohort, then observe who seizes upon the exception as though it invalidates the rule. Anyone compelled to respond with the ritual incantation of 'not all X' has, in the original poster's estimation, conclusively demonstrated an inability to distinguish between a population-level mean and the variance distributed around it. The thread, predictably, is less an exercise in statistics than in self-selection, a filter that purports to separate the numerate from the innumerate by means of bait so obvious it functions almost as a shibboleth. The irony, of course, is that the test itself generalises with equal abandon.",
-      "audio_url": "audio/2026-08-30/clip-hk-pol-iq.mp3"
+      "text_en_b2": "The /pol/ thread mocking \"Magnets are alien (Chinese) technology\" and demanding China hand them over OR ELSE is comedy gold, because rare earth processing is essentially a Chinese monopoly, and the US remains heavily dependent on it for EV motors, wind turbines, and even F-35 components. Anons pointed out that decades of offshoring left America holding the short end of the stick, while Hongkongers commute daily through this running joke, watching supply chains they actually rely on without quite realising it.",
+      "text_en_c1": "The /pol/ post declaring that magnets constitute alien technology, presumably Chinese in origin, and demanding their immediate transfer to American custody, or else, has predictably devolved into a far more substantive discussion. Anons have pointed out, with characteristic bluntness, that rare-earth processing capacity remains overwhelmingly concentrated within Chinese jurisdiction, leaving the United States structurally dependent upon that supply chain for everything from electric vehicle motors to wind turbine generators and the exotic alloys used in F-35 avionics. Those of us commuting daily through this geopolitical reality can only observe the irony. 🧐",
+      "text_en_c2": "The /pol/ missive declaring magnets to be alien, parenthetically Chinese, technology has resurfaced with its customary brio, its author once again demanding that Beijing forthwith transfer the relevant metallurgical expertise to American stewardship under implicit threat of unspecified consequences. Hong Kong residents, who navigate the logistical reality of this arrangement each commuting morning, find themselves unwitting participants in a geopolitical comedy whose punchline refuses to resolve. The underlying substance, however, is less whimsical than the meme's packaging suggests: rare earth processing capacity remains concentrated to a degree that borders on monopoly, and American manufacturing of EV drivetrains, wind turbine generators, and the magnets integral to F-35 avionics continues to depend, however reluctantly, on Chinese feedstock. The bravado of the posturing contrasts rather starkly with the dependency it tacitly acknowledges.",
+      "audio_url": "audio/2026-08-31/clip-hk-magnet-china.mp3"
     },
     {
-      "id": "lol-fps-mode",
+      "id": "lol-fate-extra",
       "category": "lol/esports",
-      "topic_zh": "FPS模式玩LOL",
-      "topic_en": "LOL first-person dead",
-      "text_zh": "2012年30M budget 120人，2026年2B budget 6000人。LOL個first-person mode執咗，唔怪得。lol，S15睇下算。👍",
-      "text_en_b1": "No wonder first-person mode was abandoned in League of Legends. From a 30M budget and 120 developers in 2012 to a 2 BILLION budget and 6000 developers in 2026. The /v/ thread is roasting the scaling.",
-      "source_url": "https://boards.4chan.org/v/thread/746476405",
-      "source_hint": "/v/ thread mocks LOL's first-person mode being dropped despite ballooning budgets.",
+      "topic_zh": "Fate/EXTRA 又再boot",
+      "topic_en": "Fate/EXTRA restarted",
+      "text_zh": "唔打 LOL 嘅我睇到呢條 Fate/EXTRA Record 又 restart development，Type-Moon 經典操作。考牌都未完個 game 又 delay。我同佢一樣廢。👍",
+      "text_en_b1": "Fate/EXTRA Record restarts its development again. Fans on /v/ say it is basically going to be cancelled after years of silence. Type-Moon keeps moving staff onto other projects, and backers are running out of patience. https://typemoon.com/news/2026/9rNwgz",
+      "source_url": "https://boards.4chan.org/v/thread/746542948",
+      "source_hint": "/v/ thread on Fate/EXTRA Record development restarting (again)",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports/dev-budget snark, no trade"
+        "rationale": "Gaming news, no tradeable setup"
       },
-      "text_en_b2": "It is hardly surprising that first-person mode was quietly shelved in League of Legends when you look at the numbers, because the project ballooned from a modest 30 million budget with roughly 120 developers back in 2012 to an eye-watering 2 billion budget and a workforce of 6,000 in 2026. The /v/ thread is roasting the absurd scaling, and frankly, the math speaks for itself.",
-      "text_en_c1": "Once one considers the sheer arithmetic of League of Legends' development pipeline, the cancellation of its long-rumoured first-person mode ceases to feel surprising and starts to feel almost inevitable. In 2012, Riot operated on a comparatively modest budget of thirty million dollars supported by a team of roughly 120 developers; by 2026, that figure has ballooned to a staggering two billion dollars, with a headcount now approaching 6,000. The /v/ thread savages the studio for what it perceives as grotesque organisational bloat, arguing that any project requiring genuine coordination has effectively been strangled by its own scale. With Season 15 on the horizon, expectations have been duly recalibrated.",
-      "text_en_c2": "The /v/ thread has settled, with uncharacteristic unanimity, into a single, weary conclusion about the abandoned first-person mode in League of Legends. Stripped of its particulars, the trajectory is nothing short of grotesque: a project that commenced in 2012 with a modest thirty-million-dollar budget and a lean team of one hundred and twenty developers has, by 2026, ballooned into a two-billion-dollar behemoth staffed by roughly six thousand. Proportionally, that represents an order-of-magnitude expansion in headcount accompanied by a far more dramatic expansion in expenditure, the inverse of any plausible efficiency frontier. The feature's quiet cancellation ceases to be mysterious once those figures are juxtaposed, since any genuinely innovative mode would have required dismantling the very bloat that ostensibly justified its existence. S15, it seems, will be endured rather than enjoyed.",
-      "audio_url": "audio/2026-08-30/clip-lol-fps-mode.mp3"
+      "text_en_b2": "Even though I haven't touched League in months, I caught the news that Fate/EXTRA Record has restarted development yet again, which is classic Type-Moon behaviour at this point. Fans on /v/ are convinced the project is effectively dead after years of radio silence, since the studio keeps shuffling staff onto other titles and backers are running out of patience fast. The whole situation feels like déjà vu, because every Type-Moon announcement seems to come wrapped in another delay, and somehow we keep falling for it.",
+      "text_en_c1": "As someone who has long since abandoned League of Legends, I find myself morbidly fascinated by the announcement that Fate/EXTRA Record has once again been rebooted from the ground up, which is essentially Type-Moon's signature move at this stage. Years of radio silence, staff reassigned to other projects, and a community whose patience has been thoroughly exhausted by previous cycles of false starts. I cannot shake the recognition that I am engaged in an equally Sisyphean endeavour, perpetually restarting my own licensing examinations before making any meaningful progress, so perhaps we are all doomed to repeat the cycle indefinitely. The official announcement is linked below.",
+      "text_en_c2": "Fate/EXTRA Record has, with the wearying inevitability that has come to define Type-Moon's development cadence, recommenced its production cycle once more, a manoeuvre so emblematic of the studio's institutional procrastination that seasoned observers greeted the announcement with a resigned chuckle rather than any genuine expectation of delivery. The project's protracted dormancy has stretched credibility to its breaking point; personnel have been quietly reassigned to ostensibly greener pastures, communication has dwindled to the occasional cryptic teaser, and the patience of even the most committed backers has begun to curdle into something approaching contempt. Years of silence have a way of converting anticipation into cynicism. The pattern is sufficiently established at this juncture that any surprise at further delay would reflect poorly on the surprised party rather than the developer.",
+      "audio_url": "audio/2026-08-31/clip-lol-fate-extra.mp3"
     },
     {
-      "id": "mma-office-fat",
+      "id": "mma-cut-protein",
       "category": "mma/fitness",
-      "topic_zh": "Office佬肥咗",
-      "topic_en": "Office workers get fat",
-      "text_zh": "/fit/ 話大個返office就肥。我而家日頭返工夜晚考牌，gym去到肥仔信都話我瘦咗，wtf。🙏",
-      "text_en_b1": "Why do office workers get fat? The OP says he just landed his first office job and everyone around him is overweight or skinny-fat. He is scared he will end up the same now that college workout time is gone. The /fit/ thread hits hard for anyone grinding 9-to-6.",
-      "source_url": "https://boards.4chan.org/fit/thread/77469527",
-      "source_hint": "/fit/ OP fears losing his physique after switching from college to office life.",
+      "topic_zh": "Cut 45磅打到散",
+      "topic_en": "45lb cut wrecked gains",
+      "text_zh": "肥仔信今日又叫我 gym。/fit/ 嗰條兄弟 3 個月 cut 45 磅但肌肉同力量都跌晒，深蹲做到想死。我都試過，即係咁先係真兄弟。🙏",
+      "text_en_b1": "Anon lost 45 pounds in 3 months and definitely lost muscle and strength. Gym kills him, he cannot lift heavy or go hard, heart races during squats and he feels like he will die. Eating is worse, he can barely eat more than a couple times a day and hates forcefeeding himself in the morning.",
+      "source_url": "https://boards.4chan.org/fit/thread/77480573",
+      "source_hint": "/fit/ thread on losing strength and appetite while cutting 45 lbs",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Body composition lifestyle thread, no trade"
+        "rationale": "Lifestyle/fitness post, no tradeable setup"
       },
-      "text_en_b2": "Why does every office worker inevitably end up packing on the pounds? The OP explains that he recently landed his first desk job and has noticed that virtually everyone around him is either overweight or skinny-fat, which has got him worried now that his college training schedule is no longer in play. The /fit/ thread resonates hard with anybody grinding through a 9-to-6 while still trying to hold things together.",
-      "text_en_c1": "A recurring thread on /fit/ addresses a phenomenon that anyone transitioning from academia to corporate life has likely observed firsthand: the inexorable tendency of office-bound workers to gain weight once their routines stabilise. The original poster, fresh into his first desk-based role, notes with growing alarm that virtually every colleague he encounters falls somewhere on the spectrum between outright overweight and the dreaded skinny-fat category, and he is understandably anxious about succumbing to the same fate now that the unstructured gym sessions of university life are behind him. For those of us juggling daytime employment with evening exam preparation, the prognosis feels especially grim.",
-      "text_en_c2": "A thread on /fit/, ubiquitous enough by now to have acquired the status of folk wisdom, poses a question whose answer every sedentary professional has long intuited: why does the transition from academic to corporate life coincide so reliably with the metabolically inexorable? The OP, freshly inducted into the nine-to-six, surveys his new colleagues with the horrified recognition of a man surveying his own probable future. The familiar taxonomy presents itself, endomorphs and skinny-fat ectomorphs alike, united in their gradual accommodation to fluorescent lighting and vending-machine cuisine. The poster himself, paradoxically, continues to attend the gym with sufficient diligence that even the uncharitable eye of the trainer has remarked upon his leanness, a development he greets with bemused disbelief. The thread lands hardest, naturally, on those grinding through licensure exams by candlelight.",
-      "audio_url": "audio/2026-08-30/clip-mma-office-fat.mp3"
+      "text_en_b2": "My overweight buddy dragged me back to the gym today, which reminded me of that /fit/ post where an anon dropped 45 pounds in three months but watched his muscle and strength vanish along with it. He said squats felt like death, his heart hammered through every set, and the worst part was force-feeding himself because he could barely manage a couple of meals a day. It is grimly comforting to know that suffering through a brutal cut makes us brothers in pain.",
+      "text_en_c1": "My overweight friend insisted I accompany him to the gym again today, which inevitably reminded me of that /fit/ thread in which an anonymous poster detailed his experience cutting forty-five pounds over the course of three months. What struck me was the extent to which his strength and lean mass had deteriorated concomitantly, to the point where his squat sessions had become genuinely torturous, his heart racing violently under load and a pervasive sense of impending doom accompanying every working set. He described eating as the greater ordeal, capable of consuming only a handful of meals per day and dreading the morning feed.",
+      "text_en_c2": "A /fit/ regular recounts the rather grim arithmetic of a 45-pound cut executed across a brutal three-month window, a feat that, while undeniably impressive on the scale, has exacted a punishing toll on both his muscular architecture and his baseline strength reserves. The squat rack, once a congenial haunt, has become something closer to a torture instrument; cardiovascular spikes accompany every working set with such ferocity that he routinely entertains the genuine conviction that death may be imminent. The nutritional dimension, perhaps counterintuitively, proves even more harrowing than the training itself, as he wrestles with a depleted appetite that permits substantive intake only twice daily and transforms the morning feed into an act of grim, joyless willpower.",
+      "audio_url": "audio/2026-08-31/clip-mma-cut-protein.mp3"
     },
     {
-      "id": "anime-isekai-plague",
+      "id": "anime-hathaway",
       "category": "anime/culture",
-      "topic_zh": "異世界太多",
-      "topic_en": "Isekai plague",
-      "text_zh": "轉生、cheat、慢生活、惡役，書局同streaming全部係呢啲。Toyokeizai話係外國人帶嚟，我信一半lol。🧐",
-      "text_en_b1": "Anime is no longer made for Japanese audiences. Bookstores and streaming services are flooded with isekai reincarnation works. New releases keep using words like reincarnation, cheat, exile, villainess, and slow life. The Toyokeizai piece blames foreign demand for the plague.",
-      "source_url": "https://boards.4chan.org/a/thread/290541160",
-      "source_hint": "/a/ thread discussing Toyokeizai article on isekai oversaturation and foreign demand.",
+      "topic_zh": "Hathaway駕駛艙",
+      "topic_en": "Hathaway cockpit fixation",
+      "text_zh": "Gundam 00 老粉表示 Hathaway 嗰條 /a/ post 完全講中我。Tomboy mobile suit mechanic 喺狹窄駕駛艙同我⋯⋯啊我仲要考牌。wtf。",
+      "text_en_b1": "Gundam: Hathaway thread on /a/. Anon is losing it over a tomboy mobile suit mechanic working in a cramped cockpit with him. Actual line: NEED TOMBOY MOBILE SUIT MECHANIC BUSILY WORKING IN CRAMPED COCKPIT WITH ME AAAAAAAAAAAAAAAAAAAAAH. Sunrise said it is not canon. Anon is not coping.",
+      "source_url": "https://boards.4chan.org/a/thread/290569832",
+      "source_hint": "/a/ thirst thread over Hathaway's mobile suit mechanic",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime industry commentary, no trade"
+        "rationale": "Anime/culture thread, no tradeable setup"
       },
-      "text_en_b2": "It increasingly feels like anime is no longer being produced primarily for domestic Japanese audiences, because bookstores and streaming platforms alike are absolutely drowning in isekai reincarnation titles, with virtually every new release leaning on buzzwords like reincarnation, cheat, exile, villainess, and slow life. The Toyokeizai piece pins most of the blame on foreign demand, and although I am only half-convinced, the saturation is genuinely difficult to ignore.",
-      "text_en_c1": "A recent Toyokeizai piece has catalysed debate across /a/ regarding the creeping homogeneity of contemporary anime, which increasingly appears engineered for export markets rather than domestic audiences. Bookstore shelves and streaming catalogues alike are saturated with isekai reincarnation narratives, peppered with the now-familiar vocabulary of cheat abilities, political exile, villainess arcs, and the slow-life subgenre. The article attributes the glut principally to foreign demand, a thesis I find myself half-inclined to accept, given that domestic publishers have evidently decided that these formulae constitute the safest possible commercial bet.",
-      "text_en_c2": "The phenomenon catalogued across /a/ and substantiated, however tendentiously, by a Toyokeizai feature, has by now acquired the character of an industry in remission from any original impulse. The taxonomy of contemporary isekai proliferation has become almost self-parodic in its comprehensiveness: reincarnation, cheat abilities, exile narratives, villainess reversals, and the pastoral idylls of slow-life variants crowd both physical bookstore shelves and the algorithmic feeds of every major streaming platform. The Toyokeizai analysis apportions blame to foreign consumption patterns, a thesis that half-exculpates the domestic production apparatus even as it implicitly indicts an industry for abandoning its erstwhile audience. Whether the foreign-demand diagnosis survives scrutiny, or merely serves as a convenient alibi for creative exhaustion at home, is a question the thread entertains with appropriate scepticism.",
-      "audio_url": "audio/2026-08-30/clip-anime-isekai-plague.mp3"
+      "text_en_b2": "As a long-time Gundam 00 fan, that Hathaway thread on /a/ hit a little too close to home, because anon is completely losing it over a tomboy mobile suit mechanic working alongside him in a cramped cockpit. His actual post simply reads NEED TOMBOY MOBILE SUIT MECHANIC BUSILY WORKING IN CRAMPED COCKPIT WITH ME AAAAAAAAAAAAAAAAAAAAAH, which frankly captures the energy perfectly.",
+      "text_en_c1": "As a longstanding Gundam 00 devotee, I find that the /a/ thread dissecting Hathaway's narrative choices has articulated something I had been reluctant to concede. The fixation upon a tomboyish mobile suit mechanic labouring in an oppressively cramped cockpit alongside the protagonist has evidently metastasised far beyond reasonable critique, culminating in a genuinely unhinged outburst that the original poster has since attempted, and failed, to rationalise. Sunrise's representatives have clarified, with admirable corporate caution, that such interpretations fall outside canonical intent. The anonymous enthusiast, predictably, is not coping whatsoever, and frankly, neither am I, particularly given my own perpetually unfinished licensing obligations. What on earth is wrong with us.",
+      "text_en_c2": "A recent /a/ thread has occasioned considerable psychic distress among Gundam 00 stalwarts, its premise striking with the unerring precision of an arrow aimed at a demographic whose defences were already comprehensively lowered. The conceit in question involves a tomboyish mobile suit mechanic operating in close quarters within a cramped cockpit, an arrangement that the original poster has, with admirable restraint, merely screamed about in capital letters for the duration of an entire post. Sunrise, displaying the characteristic timidity of a licensor eager to preserve plausible deniability, has issued the obligatory disavowal: not canon, regrettably, move along. The affected fanbase, predictably, is coping with exactly the poise one would anticipate from a community whose coping mechanisms have been honed by decades of similar repudiations. The licence beckons, however, and priorities must eventually reassert themselves.",
+      "audio_url": "audio/2026-08-31/clip-anime-hathaway.mp3"
     }
   ]
 }
