@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-01",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-doge-wallet-2026",
+      "topic_en": "Hacked 2014 Dogecoin wallet",
+      "topic_zh": "撈返2014狗狗幣",
+      "category": "trading",
+      "file": "clip-biz-doge-wallet-2026.mp3",
+      "bytes": 382509,
+      "chars": 307
+    },
+    {
+      "id": "biz-btc-pump-fomo-2026",
+      "topic_en": "BTC pump chase",
+      "topic_zh": "BTC pump完先追",
+      "category": "trading",
+      "file": "clip-biz-btc-pump-fomo-2026.mp3",
+      "bytes": 326061,
+      "chars": 300
+    },
+    {
+      "id": "g-tech-jobs-ai-proof-2026",
+      "topic_en": "AI-proof tech jobs",
+      "topic_zh": "邊啲工AI搶唔走",
+      "category": "tech/ai",
+      "file": "clip-g-tech-jobs-ai-proof-2026.mp3",
+      "bytes": 335853,
+      "chars": 316
+    },
+    {
+      "id": "pol-anduril-luckey-2026",
+      "topic_en": "Is Anduril vaporware",
+      "topic_zh": "Anduril係咪吹水",
+      "category": "hk/news",
+      "file": "clip-pol-anduril-luckey-2026.mp3",
+      "bytes": 292077,
+      "chars": 289
+    },
+    {
+      "id": "v-dlss5-anime-2026",
+      "topic_en": "DLSS 5 destroys anime art",
+      "topic_zh": "DLSS5毀咗動畫",
+      "category": "lol/esports",
+      "file": "clip-v-dlss5-anime-2026.mp3",
+      "bytes": 332397,
+      "chars": 303
+    },
+    {
+      "id": "fit-cut-fatigue-2026",
+      "topic_en": "Cutting kills my lifts",
+      "topic_zh": "Cut到冇力舉鐵",
+      "category": "mma/fitness",
+      "file": "clip-fit-cut-fatigue-2026.mp3",
+      "bytes": 306477,
+      "chars": 301
+    },
+    {
+      "id": "a-gundam-hathaway-2026",
+      "topic_en": "Hathaway cockpit crush",
+      "topic_zh": "Hathaway駕駛員",
+      "category": "anime/culture",
+      "file": "clip-a-gundam-hathaway-2026.mp3",
+      "bytes": 348525,
+      "chars": 310
+    }
+  ]
+}

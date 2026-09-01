@@ -1,65 +1,65 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-justin-sun-roastie",
+      "id": "biz-doge-wallet-2026",
       "category": "trading",
-      "topic_zh": "孫宇晨被燒烤",
-      "topic_en": "Justin Sun roastie L",
-      "text_zh": "孫宇晨呢個B又有新料 😂 38歲女星Roastie一直問佢拎錢，最後開價5000萬美金。孫仔先發現自己只係ATM，post上Twitter公開佢係gold digger。仲有最搞笑嘅，佢要孫仔叫佢「媽媽」… wtf bro。識人只睇錢，真係唔好笑。",
-      "text_en_b1": "Justin Sun, billionaire with a B, fell for a 38-year-old actress. He started throwing millions at her and her parents. Eventually she asked for $50 million more. He finally realized he was just an ATM to her. She asked him to call her mom, and bro… lol this is rough.",
-      "source_url": "https://boards.4chan.org/biz/thread/62643513",
-      "source_hint": "/biz/ thread roasting Justin Sun for getting played by a 38-year-old gold digger actress",
+      "topic_zh": "撈返2014狗狗幣",
+      "topic_en": "Hacked 2014 Dogecoin wallet",
+      "text_zh": "又有神人hack返自己2014年嘅狗狗幣wallet 拎返730,000 DOGE 大約60K USD 問應該點投資 又係學費post 真實我哋個個都係咁 想睇下有冇神話可以跟🙏",
+      "text_en_b1": "An anon just hacked into his own Dogecoin wallet from 2014 and recovered 730,000 DOGE. That is about $60,000 USD today. He is asking /biz/ what to invest in. He thinks real estate might be smart in his area. He wants ideas. Classic dream ticket story. Will he actually cash out or ape into another shitcoin?",
+      "source_url": "https://boards.4chan.org/biz/thread/62646317",
+      "source_hint": "/biz/ thread about recovering a 2014 DOGE wallet",
       "signal": {
-        "asset": "observation",
+        "asset": "DOGE",
         "direction": "observation",
         "conviction": "none",
         "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anecdotal /biz/ roast, not a trade setup"
+        "rationale": "Post is a windfall question, not an actionable trade setup"
       },
-      "text_en_b2": "Justin Sun, the crypto billionaire with a flair for drama, apparently got played by a 38-year-old actress who milked him for everything she could. After he lavished millions on her and her family, she had the nerve to demand an extra fifty million on top of it all. The real kicker came when she asked him to address her as mom — because apparently being a walking ATM wasn't degrading enough.",
-      "text_en_c1": "Justin Sun, the crypto billionaire whose taste in romantic partners has long invited mockery, has reportedly been fleeced by a 38-year-old actress whose affection, it transpires, was contingent upon the size of his wallet. Having lavished millions upon both her and her parents, he eventually faced an audacious demand for a further $50 million — at which point the penny dropped that he was little more than a walking ATM to her. The kicker, however, was her insistence that he address her as 'mama.' If ever there were a cautionary tale about conflating wealth with genuine intimacy, this would be it. She evidently knew precisely how to play him.",
-      "text_en_c2": "Justin Sun, the perpetually embattled crypto magnate, finds himself ensnared in yet another unseemly entanglement — this time with a 38-year-old actress whose affections, it transpires, were calibrated almost exclusively to his balance sheet. Having lavished millions upon both her and her parents with the casual largesse of a man accustomed to burning cash for sport, he was subsequently blindsided by a supplementary demand of fifty million dollars. The penny finally dropped: he was, in her ledger, little more than a walking ATM. The crowning indignity, however, was her insistence that he address her as 'mama' — a request so infantilising in its presumptuousness that even Sun's famously pliable ego must have winced. Bro, this is genuinely bleak.",
-      "audio_url": "audio/2026-08-31/clip-biz-justin-sun-roastie.mp3"
+      "text_en_b2": "An anon managed to hack back into his long-abandoned Dogecoin wallet from 2014, recovering roughly 730,000 DOGE worth around $60K at current rates. He has been flooding /biz/ asking what to do with it, leaning toward real estate despite being uncertain. The thread suspects he will either cash out sensibly or recklessly ape into another meme coin, because this exact storyline plays out every cycle. A textbook lucky-ticket post.",
+      "text_en_c1": "An anonymous user on /biz/ has reportedly cracked his long-dormant 2014 Dogecoin wallet, successfully extracting roughly 730,000 DOGE valued at approximately $60,000 USD. Rather than converting the windfall to fiat, he is soliciting investment advice, leaning toward local real estate opportunities on the grounds that property values in his region remain buoyant. The thread has predictably devolved into the familiar lottery-ticket rhetoric that haunts the board whenever someone uncovers forgotten coins. Sceptics wonder aloud whether he will exercise restraint and cash out responsibly, or, as has become customary with such windfalls, ape impulsively into another speculative shitcoin and watch the gains evaporate within weeks.",
+      "text_en_c2": "An anonymous poster has reportedly circumvented his own dormant 2014 Dogecoin wallet, extracting roughly 730,000 DOGE, presently valued at approximately sixty thousand US dollars. He now solicits investment counsel from /biz/, musing that local real estate might prove prudent given regional price trajectories, though he remains palpably uncertain whether to liquidate and crystallise the gain or rotate into speculative altcoins. The thread bears every hallmark of the archetypal windfall post: years of forfeiture followed by serendipitous retrieval, and an earnest request for guidance from strangers whose fiduciary credentials are, charitably speaking, dubious. Whether this individual exits gracefully or succumbs to the gravitational pull of another degen allocation remains the operative question, and the board watches with the detached amusement of seasoned spectators who have witnessed this precise melodrama enacted countless times.",
+      "audio_url": "audio/2026-09-01/clip-biz-doge-wallet-2026.mp3"
     },
     {
-      "id": "biz-btc-buying-pump",
+      "id": "biz-btc-pump-fomo-2026",
       "category": "trading",
-      "topic_zh": "Pump完先入場",
-      "topic_en": "Buying BTC after the pump",
-      "text_zh": "BTC幾個禮拜冇郁冇人理，一pump 15%個個湧返嚟。Why buy after the move? 撈底撈到山頂，返屋企啦 🥲 真係人類本質…",
-      "text_en_b1": "BTC does nothing for weeks and everyone ignores it. Then it pumps 15%, and suddenly everyone wants to buy in. Why does everyone want to buy after the move already happened? Classic retail behavior.",
+      "topic_zh": "BTC pump完先追",
+      "topic_en": "BTC pump chase",
+      "text_zh": "wtf BTC 橫盤幾星期冇人理 然後一日pump 15% 啲人先衝入去 點解永遠都係咁 真實我哋都係fomo入場嘅廢物 lol 🧐",
+      "text_en_b1": "BTC does literally nothing for weeks and nobody cares. Then it pumps 15% in a day and suddenly everyone wants in. Why does the crowd always chase the move after it has already happened? You ignored it at 60k, now you FOMO at 70k. The pattern never changes. Classic late-stage FOMO behaviour on /biz/.",
       "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ rant about retail buying BTC after the move",
+      "source_hint": "/biz/ thread mocking retail FOMO after a BTC pump",
       "signal": {
         "asset": "BTC",
         "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "conviction": "low",
+        "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post is rhetorical complaint about retail timing, no setup"
+        "rationale": "Thread is a critique of late FOMO entries; no specific setup"
       },
-      "text_en_b2": "BTC spent weeks drifting sideways and absolutely nobody gave a damn. Then it suddenly pumped fifteen percent and, predictably, every retail trader on the planet rushed back in, wallets open. Buying after the move has already happened is basically the textbook definition of catching a falling knife, yet this pattern repeats itself cycle after cycle. While seasoned investors were loading up quietly weeks ago, the herd shows up right when the easy gains are gone — pure human nature in action.",
-      "text_en_c1": "The market psychology on display whenever Bitcoin moves is, to seasoned observers, almost depressingly predictable. For weeks on end, the asset stagnates, generating barely a murmur from retail participants who profess to believe in its long-term thesis. The moment it rallies some fifteen percent, however, the same cohort materialises en masse, eager to establish positions at levels that any prudent trader would consider late entries. This phenomenon, often lampooned as buying the top after attempting to catch the bottom, speaks to a deeply ingrained behavioural tic. Were one to design a strategy guaranteed to underperform, it would look something like this. Human nature, it seems, remains remarkably consistent across cycles.",
-      "text_en_c2": "Bitcoin spent several interminable weeks drifting sideways in that peculiarly purgatorial state markets inhabit when nothing whatsoever is happening, and the retail cohort collectively lost interest with the predictability of seasonal migration. Then, as though on some preordained cue, it surged fifteen percent in short order — and the very same crowd that had yawned through the accumulation phase promptly stampeded back in, FOMO metastasising into action. The question remains perennial and, frankly, philosophically intriguing: why do retail participants, time and again, capitulate only after the move has materialised? Catching falling knives at the summit, mistaking vertigo for altitude — one ventures that this is not merely behavioural tic but a kind of involuntary reflex hardwired into the species, an atavistic impulse to chase momentum rather than anticipate it.",
-      "audio_url": "audio/2026-08-31/clip-biz-btc-buying-pump.mp3"
+      "text_en_b2": "BTC spent weeks consolidating sideways while /biz/ completely tuned out, then ripped 15% in a single day and suddenly every self-proclaimed permabull is rushing back in. The irony is staggering, because the same crowd ignored it at 60k and is now panic-buying at 70k. You cannot chase a move after it has already happened and expect to be early. It is the same FOMO pattern repeating endlessly.",
+      "text_en_c1": "Bitcoin spent several weeks consolidating within a narrow band while mainstream attention drifted elsewhere. Then, almost overnight, it surged roughly fifteen percent, and predictably, the same retail crowd that dismissed it at sixty thousand suddenly developed an insatiable appetite for exposure at seventy. The thread laments what appears to be a structural pathology in market psychology: capital consistently arrives after the move has already been made. Several anons observe that this pattern, whereby participants buy strength and ignore accumulation, has repeated across every previous cycle. Whether this constitutes terminal-stage FOMO or merely the usual late-February reshuffling remains, as ever, a matter of conviction.",
+      "text_en_c2": "Bitcoin's protracted consolidation, extending across several weeks of anaemic price action, elicited scarcely a murmur of interest from retail participants. The moment a fifteen-percent single-day ascent materialised, however, the commentariat materialised in droves, contritely enquiring whether entry was still feasible. This reflexive pattern, wherein investors studiously ignore accumulation beneath sixty thousand dollars only to capitulate to euphoria above seventy, has acquired the force of immutable market liturgy. The post captures, with admirable economy, the perennial asymmetry between capital deployment and contrarian conviction, and the respondents collectively diagnosed themselves as late-stage FOMO casualties. Whether any participant in such threads has ever timed a subsequent move competently remains an open empirical question, though the evidentiary record, as history suggests, is not encouraging.",
+      "audio_url": "audio/2026-09-01/clip-biz-btc-pump-fomo-2026.mp3"
     },
     {
-      "id": "tc-anon-job",
+      "id": "g-tech-jobs-ai-proof-2026",
       "category": "tech/ai",
-      "topic_zh": "邊科AI-proof",
+      "topic_zh": "邊啲工AI搶唔走",
       "topic_en": "AI-proof tech jobs",
-      "text_zh": "/g/問緊邊科tech jobs AI取代唔到。我估civil都會被食埋，surveying都開始用drone + AI點cloud… 考牌都未完 😵 靠AI續命",
-      "text_en_b1": "Which tech jobs will be AI proof in the next decades? The thread is asking because every white-collar role is supposedly getting automated. Even engineering and surveying may not be safe long-term. What roles do you think survive?",
+      "text_zh": "/g/ 問緊邊啲tech job AI未來十年搶唔走 真實我survey呢行都驚畀AI搞 但起碼考牌先算professional 唔想做code monkey 🙏",
+      "text_en_b1": "An anon on /g/ asks which tech jobs will survive the next decade. Software development is already getting hit by AI coding tools. Surveying and engineering fields with strict licensing are mentioned as safer. Manual trades, licensed professions, and hardware work seem more durable. White collar is not safe anymore.",
       "source_url": "https://boards.4chan.org/g/thread/109690081",
-      "source_hint": "/g/ general tech thread on which jobs survive AI",
+      "source_hint": "/g/ thread on AI-proof tech careers",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Career question, not a trade"
+        "rationale": "Career discussion thread, not a trade"
       },
-      "text_en_b2": "A thread on /g/ is debating which tech jobs might genuinely hold up against AI over the coming decades. Although white-collar automation tends to dominate the headlines, even supposedly safe fields like civil engineering and land surveying could be vulnerable as drones combined with AI increasingly handle point-cloud processing. The whole licensing pipeline takes years to complete, by which point the job market itself may have shifted beneath you. Pretty grim when even skilled trades aren't necessarily a safe bet for graduates.",
-      "text_en_c1": "A recurring thread on /g/ asks which technology-adjacent professions are likely to withstand the encroachment of artificial intelligence over the coming decades — a question that grows ever more pertinent as automation encroaches upon roles once considered untouchable. Even disciplines historically grounded in manual expertise, such as civil engineering and surveying, are scarcely immune; drone-captured imagery processed through AI-powered point-cloud software has already begun supplanting traditional site workflows, which renders years spent pursuing professional licensure a precarious investment at best. Whether any white-collar niche can plausibly claim genuine immunity remains, however, an open question that no amount of optimism can definitively resolve.",
-      "text_en_c2": "The /g/ thread poses what has rapidly become the defining occupational anxiety of our era: which technical specialisms, if any, can plausibly claim immunity from the relentless encroachment of artificial intelligence over the coming decades? The consensus appears to be that virtually no white-collar discipline remains sacrosanct — even civil engineering and land surveying, traditionally bastions of human-only labour, are undergoing quiet but inexorable automation as drones coupled with machine-vision algorithms render point-cloud generation and site reconnaissance increasingly autonomous. The poster himself, still ensconced in the purgatory of professional licensure, concedes that his own trajectory depends upon AI tools keeping him gainfully employed — a confession that is either pragmatic or damning, depending on one's temperament. The unspoken corollary, of course, is that genuine AI-proof roles may prove vanishingly scarce.",
-      "audio_url": "audio/2026-08-31/clip-tc-anon-job.mp3"
+      "text_en_b2": "An /g/ poster asked which tech careers will remain viable once AI finishes eating the industry, and the responses clustered around licensing and physical work. Software development is already getting hammered by coding assistants, whereas surveying, engineering, and licensed trades require credentials AI cannot fake. The general takeaway is grim for white-collar workers, because anything knowledge-based is increasingly on the chopping block.",
+      "text_en_c1": "A thread on /g/ has resurfaced the perennial question of which technical professions remain defensible against the encroachment of generative AI over the coming decade. Software development, once considered the most insulated white-collar discipline, is now visibly eroding as coding assistants handle increasingly complex tasks. By contrast, licensed surveying, civil engineering, and the licensed trades appear considerably more durable, since regulatory barriers prevent algorithmic substitution. Hardware-oriented specialisations, plumbing, and electrical work are likewise cited as resilient categories. The implicit consensus, articulated with characteristic bluntness, holds that any field whose entry is gated by examinations rather than tutorials will likely outlast those that are not.",
+      "text_en_c2": "A protracted /g/ thread interrogates which technology-adjacent vocations might retain their market value over the coming decade, an inquiry animated by palpable professional anxiety. Software development, once regarded as fortress-proof, is already conceding ground to increasingly capable AI coding assistants, and the consensus gravitates toward regulated disciplines demanding licensure: surveying, civil engineering, electrical work. Manual trades and hands-on hardware specialisms, requiring embodied presence and legal certification, appear considerably more durable than cognitive desk work, which has been thoroughly commoditised. The implicit thesis, that credentialed expertise insulates practitioners from algorithmic substitution more effectively than raw technical fluency, carries a certain grim resonance, and respondents express, with varying degrees of equanimity, their resignation to a labour market wherein competence alone no longer confers competitive moats.",
+      "audio_url": "audio/2026-09-01/clip-g-tech-jobs-ai-proof-2026.mp3"
     },
     {
-      "id": "hk-pol-magnets",
+      "id": "pol-anduril-luckey-2026",
       "category": "hk/news",
-      "topic_zh": "中國磁鐵末日",
-      "topic_en": "China magnets threat",
-      "text_zh": "/pol/又有膠膠噏。中國磁鐵係alien tech，要transfer俾美國否則… lol 環球時報都唔敢咁寫 😂",
-      "text_en_b1": "China's magnet tech is being called alien technology on /pol/ today. The thread demands China transfer the tech to America OR ELSE. Pure shitpost material but rare earth supply chains are a real choke point for EV and missile production.",
-      "source_url": "https://boards.4chan.org/pol/thread/541710128",
-      "source_hint": "/pol/ edgelord thread on China's rare earth magnets",
+      "topic_zh": "Anduril係咪吹水",
+      "topic_en": "Is Anduril vaporware",
+      "text_zh": "Anduril同Palmer Luckey /pol/ 話佢似Elon但得個吹字 真實工程做到嘢先算 HK咁細做乜都冇space 美國先係做嘢嘅地方 🧐",
+      "text_en_b1": "Anduril and Palmer Luckey get compared to pre-heel-turn Elon on /pol/. But the thread argues Anduril ships overhyped vaporware that fails under fire, citing Ukraine. At least Elon launched rockets and made a real EV. Why are right wingers sucking his dick when the delivery record is thin?",
+      "source_url": "https://boards.4chan.org/pol/thread/541759217",
+      "source_hint": "/pol/ thread trashing Anduril vs Elon",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Geo-political shitpost, no trade"
+        "rationale": "Political opinion thread, not a trade"
       },
-      "text_en_b2": "/pol/ is in full meltdown mode, with posters claiming China's magnet technology is essentially alien tech that must be handed over to America on threat of unspecified consequences. While the thread itself is obvious shitpost material, the underlying concern is legitimate enough — rare-earth supply chains remain a genuine choke point for EV manufacturing, missile guidance systems, and a wide range of defence applications. The Global Times certainly wouldn't run with that particular framing, but the strategic vulnerability is real.",
-      "text_en_c1": "The discourse on /pol/ today has descended into its customary territory of geopolitical fantasy, wherein China's rare-earth magnet technology is characterised as quasi-alien in origin and the thread collectively demands that Beijing transfer the relevant know-how to Washington 'or else.' While the proposition is, naturally, satirical to its core, the underlying anxiety it masks is anything but fictional: rare-earth supply chains constitute a genuine chokepoint for industries ranging from electric vehicle manufacturing to precision-guided munitions. Should Beijing ever choose to weaponise that dependency, the consequences would extend far beyond the realm of shitposting.",
-      "text_en_c2": "The /pol/ board has, with admirable predictability, descended into another breathless episode of strategic illiteracy: Chinese magnet manufacturing capabilities are being characterised as quasi-alien technology, and the thread demands — with the diplomatic subtlety one has come to expect from that particular forum — that Beijing immediately transfer these processes to the United States, or else suffer consequences presumably too fearsome to articulate. It is the sort of geopolitical analysis one would expect from a comment section populated entirely by people who have never read a single supply-chain white paper. And yet, beneath the irredeemable shitpost veneer, the underlying observation is not entirely without merit: rare-earth element supply chains constitute a genuine chokepoint for EV manufacture, wind turbine production, and the precision guidance systems underpinning modern missile programmes.",
-      "audio_url": "audio/2026-08-31/clip-hk-pol-magnets.mp3"
+      "text_en_b2": "/pol/ is drawing parallels between Palmer Luckey and a pre-heel-turn Elon, although sceptics insist Anduril ships little beyond overhyped vaporware that falls apart under real conditions, citing Ukraine as evidence. At least Elon actually delivered rockets and a functioning EV, whereas Luckey is still coasting on vibes and aggressive marketing. The thread wonders why right-wing circles keep sucking him off when his delivery record remains paper-thin.",
+      "text_en_c1": "Anduril and its founder Palmer Luckey have drawn comparisons on /pol/ to a pre-crisis Elon Musk, a parallel the thread ultimately finds uncharitable. Whereas Musk, whatever his subsequent eccentricities, demonstrably launched orbital rockets and delivered a mass-market electric vehicle, Luckey's operation allegedly dispatches vapourware that collapses the moment it encounters genuine combat conditions, with Ukraine cited as the cautionary exemplar. The thread contends that investors are conflating political aesthetics with engineering substance, and questions why certain right-leaning commentators persist in championing a figure whose tangible delivery record, relative to the volume of capital deployed, remains conspicuously thin. Hong Kong's constraints are invoked for contrast.",
+      "text_en_c2": "Anduril and its founder Palmer Luckey have attracted comparisons, on /pol/, to a pre-canonical Elon Musk, though the parallel collapses under even cursory scrutiny. The thread contends that Anduril's battlefield deliverables, assessed against operational data from Ukraine, consist largely of vapourware dressed in venture-capitalist mythology, whereas Musk, whatever his subsequent eccentricities, did propel functional rockets skyward and serialise a credible electric vehicle. The respondents, themselves self-identified right-wingers, are gently rebuked for succumbing to founder-worship untethered from performance metrics. Hong Kong's diminutive geography renders industrial ambition structurally untenable, the post concludes, leaving the United States, with its sprawling procurement apparatus and vast operational theatre, as the only venue wherein such ventures can either vindicate themselves or, as here, spectacularly fall short.",
+      "audio_url": "audio/2026-09-01/clip-pol-anduril-luckey-2026.mp3"
     },
     {
-      "id": "v-fate-cancel",
+      "id": "v-dlss5-anime-2026",
       "category": "lol/esports",
-      "topic_zh": "Fate又要腰斬",
-      "topic_en": "Fate/EXTRA cancelled?",
-      "text_zh": "Fate/EXTRA Record又restart development，個post直接話probably會cancelled 😭 Type-Moon近年真係… 等一季動畫好似等S15新patch",
-      "text_en_b1": "Fate/EXTRA Record just restarted development again, according to this /v/ thread. OP says it's going to be cancelled. Type-Moon's recent anime output has been rough, so maybe he's right. Anyone still waiting on this one?",
-      "source_url": "https://boards.4chan.org/v/thread/746542948",
-      "source_hint": "/v/ thread about Fate/EXTRA Record being restarted then likely cancelled",
+      "topic_zh": "DLSS5毀咗動畫",
+      "topic_en": "DLSS 5 destroys anime art",
+      "text_zh": "/v/ 話DLSS5根本毀咗anime art style 啲人仲話係kino wtf 真實我打LOL開DLSS已經夠恐怖lol 畫風變晒 🧐",
+      "text_en_b1": "DLSS 5 dropped and /v/ is losing its mind. Anons say it completely butchers anime art style. Faces look smeared, lines look melted, and cel shading is gone. Some users unironically call it kino and get roasted. Classic NVIDIA upgrade that nobody asked for. Modders will probably disable it in two weeks.",
+      "source_url": "https://boards.4chan.org/v/thread/746586609",
+      "source_hint": "/v/ thread raging about DLSS 5 anime art",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming news, not relevant to trading"
+        "rationale": "Gaming tech complaint, not a trade"
       },
-      "text_en_b2": "Fate/EXTRA Record has apparently restarted development yet again, and the /v/ thread's OP is convinced the project is destined for cancellation. Type-Moon's recent track record with anime adaptations has been, frankly, underwhelming, so the pessimism isn't exactly unfounded. Between repeated delays and shifting studios, waiting for a single cour feels like grinding out an endless ranked queue with no patch in sight. At this point, anyone still holding out hope probably needs to manage their expectations accordingly.",
-      "text_en_c1": "Fate/EXTRA Record, the long-gestating adaptation that fans have been waiting on for what feels like an eternity, has reportedly entered yet another development cycle from scratch — prompting the original poster to declare, with considerable justification, that cancellation now appears all but inevitable. Type-Moon's recent output in the anime sphere has been, to put it charitably, inconsistent, and waiting for a single season of television has come to feel rather like queuing for a new ranked patch in Season 15. Whether the studio will eventually deliver remains anyone's guess, though faith, at this juncture, is in notably short supply.",
-      "text_en_c2": "Fate/EXTRA Record, that most purgatorial of prospective adaptations, has once again been consigned to the developmental void — the project rebooted, re-scoped, and seemingly cursed to wander indefinitely in the liminal space between announcement and oblivion. The original poster, with the weary sagacity of someone who has endured Type-Moon's glacial production cadence before, ventures — perhaps correctly — that the title will eventually be quietly cancelled rather than shipped. One scarcely knows whether to attribute this perpetual stasis to the franchise's notorious scope-creep, the studio's chronic overcommitment, or some inscrutable creative malaise afflicting the principals. In any event, awaiting a single cour of TYPE-MOON animation has become functionally indistinguishable from waiting for the next League of Legends season patch.",
-      "audio_url": "audio/2026-08-31/clip-v-fate-cancel.mp3"
+      "text_en_b2": "DLSS 5 has dropped and /v/ is absolutely losing it, because anons say the new upscaling completely butchered anime art styles. Faces appear smeared, linework looks melted, and the cel-shading is essentially gone. Some users genuinely called it kino and got mercilessly roasted for it. Modders will probably patch it out within a fortnight, although for now the community is fuming over an upgrade nobody asked for.",
+      "text_en_c1": "NVIDIA's DLSS 5 has detonated on /v/, where anons argue that the upscaling pipeline effectively obliterates the aesthetic integrity of anime-style rendering. Facial features reportedly appear smeared, line work resembles something that has softened under heat, and the crisp cel-shading that defines the medium has been homogenised into a plasticky approximation. A handful of users, perhaps ironically, perhaps in earnest, have pronounced the result kino, an assessment that has predictably attracted considerable scorn. The broader sentiment holds that this constitutes yet another unsolicited intervention by NVIDIA into visual presentation. Modders, historically responsive to such controversies, will almost certainly furnish a toggle within a fortnight.",
+      "text_en_c2": "The release of DLSS 5 has occasioned, on /v/, a collective convulsion of indignation that has not abated since the driver's deployment. Anons contend, with characteristic vehemence, that the upscaling algorithm systematically mutilates anime aesthetics, transforming crisp cel-shading into an indistinct smear and rendering facial features indistinguishable from melted wax. A minority faction has unironically pronounced the resultant visual chaos kino, thereby inviting the customary ritualised evisceration from the broader community. NVIDIA's upgrade pipeline, it is generally conceded, addresses problems that scarcely existed whilst generating grievances that manifestly do. Modders, the thread confidently predicts, will have the offending feature neutered within a fortnight, restoring the integrity of hand-drawn linework and consigning this particular intervention to the canonical archive of well-intentioned but unwelcome revisions.",
+      "audio_url": "audio/2026-09-01/clip-v-dlss5-anime-2026.mp3"
     },
     {
-      "id": "fit-cut-proteins",
+      "id": "fit-cut-fatigue-2026",
       "category": "mma/fitness",
-      "topic_zh": "Cut到攰死",
-      "topic_en": "Cutting kills lifts",
-      "text_zh": "肥仔信post呢個野嚟笑我😭 45磅3個月掉晒，但gym根本唔郁得… squat心跳爆，protein又食唔落。咁搞法連bench 1RM都跌，真係黐線…",
-      "text_en_b1": "OP lost 45 pounds in 3 months but lost muscle and strength. Being at the gym kills him. He can't lift heavy or go hard because his body won't let him. Squats make his heart feel like it's going to die. He barely eats more than a couple times a day.",
+      "topic_zh": "Cut到冇力舉鐵",
+      "topic_en": "Cutting kills my lifts",
+      "text_zh": "/fit/ 條友cut緊45磅但冇力舉鐵 squat個陣心口好似被人強姦 真實我明 考牌壓力大到食唔落 想搵肥仔信一齊gym傾下 lol 🙏",
+      "text_en_b1": "An anon on /fit/ lost 45 pounds in 3 months but lost muscle and strength along the way. He says gym sessions wreck him because he cannot eat enough. Squats make his heart feel like it is dying. He has to force feed himself every morning and still cannot finish whole meals. Classic hard cut suffering.",
       "source_url": "https://boards.4chan.org/fit/thread/77480573",
-      "source_hint": "/fit/ thread about losing muscle while cutting hard",
+      "source_hint": "/fit/ thread about losing strength on a hard cut",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Lifestyle post, no trade"
+        "rationale": "Bodybuilding cutting story, not a trade"
       },
-      "text_en_b2": "The OP dropped a staggering forty-five pounds in just three months, yet he's completely miserable because his strength has tanked alongside the weight. His gym sessions are brutal — squats send his heart rate through the roof, while his protein intake has collapsed to the point where he can barely manage two meals a day. Even his bench one-rep max has taken a noticeable hit, which is basically the cruelest trade-off a lifter can experience.",
-      "text_en_c1": "The original poster, who shed a remarkable forty-five pounds over the space of three months, has discovered what anyone who has endured an aggressive cut could have told him from the outset: dramatic caloric deficits exact a punishing toll upon athletic performance. His gym sessions, once routine, have become exercises in endurance rather than strength — squats in particular reduce him to a state of cardiovascular distress that borders on the medical, whilst his protein intake has plummeted to the point where he struggles to consume even two proper meals daily. As a consequence, even his bench-press one-rep max has eroded noticeably.",
-      "text_en_c2": "The original poster, who had evidently taken a fitness influencer's cut advice as gospel, now finds himself in the grimly ironic predicament of having shed a staggering forty-five pounds over a mere twelve weeks only to discover that his gym performance has correspondingly evaporated. The weight room, once a site of competent exertion, has become a kind of torture chamber — his body, depleted and querulous, flatly refuses to permit any meaningful intensity. Squats now induce palpitations alarming enough to suggest imminent cardiovascular surrender; protein consumption has dwindled to a perfunctory obligation executed perhaps twice daily, if at all. His bench press one-rep max has predictably cratered, and the whole exercise has acquired the quality of a particularly cruel optical illusion: leaner in the mirror, yet somehow diminished in every metric that actually matters.",
-      "audio_url": "audio/2026-08-31/clip-fit-cut-proteins.mp3"
+      "text_en_b2": "An /fit/ anon dropped 45 pounds in three months but is now paying the price in crushed lifts and brutal fatigue. He describes squats as feeling like his heart is being squeezed out of his chest, because his caloric deficit leaves him running on fumes. He force-feeds himself every morning yet still cannot finish full meals. Classic hard-cut suffering, compounded by exam stress killing his appetite.",
+      "text_en_c1": "An anon on /fit/ has shed roughly forty-five pounds in three months, yet the accomplishment has come at a considerable physiological cost: his lifts have collapsed, and he describes each gym session as a calculated act of self-destruction. Compound movements, particularly squats, induce a cardiac sensation he likens to thoracic trauma. The underlying culprit appears to be a caloric deficit so aggressive that even force-feeding first thing in the morning fails to bring him to maintenance. He cannot finish whole meals despite deliberate effort. The thread resonates with users who recognise the brutal arithmetic of hard cuts, where visible fat loss and measurable strength loss march in uncomfortable lockstep.",
+      "text_en_c2": "A /fit/ participant, having executed an aggressive cut of forty-five pounds across a compressed three-month window, now finds himself physiologically and psychologically depleted, a casualty of the caloric deficit's unforgiving arithmetic. He reports that compound lifts, particularly squats, induce cardiovascular distress of a severity suggesting imminent mortality, and his gastrointestinal capacity has contracted to the point where he can no longer complete standard meals despite ritualised morning force-feeding. The post functions as both confessional and cautionary tale, illustrating the well-documented inverse correlation between aggressive fat loss and performance retention, and the respondents, drawing upon their own accumulated suffering, have offered the customary cocktail of empathy, unsolicited macros, and the bleak reminder that maintenance phases exist precisely to forestall such circumstances, advice that, however accurate, arrives predictably late.",
+      "audio_url": "audio/2026-09-01/clip-fit-cut-fatigue-2026.mp3"
     },
     {
-      "id": "a-gundam-hathaway",
+      "id": "a-gundam-hathaway-2026",
       "category": "anime/culture",
-      "topic_zh": "哈薩維戰術機師",
-      "topic_en": "Gundam Hathaway maid",
-      "text_zh": "哈薩維之閃光之哈薩維！條post文完全講中 — 緊身駕駛艙+女機師同袍，00之後睇咗咁多年都係呢套最頂 🙏 流咗口水要再煲一次",
-      "text_en_b1": "Gundam: Hathaway — the OP just wants a tomboy mobile suit mechanic working next to him in a cramped cockpit. He wrote NEED in caps and lost it. Hathaway's Kiss is the perfect 00-era spiritual sequel for anyone who cares about the UC timeline.",
+      "topic_zh": "Hathaway駕駛員",
+      "topic_en": "Hathaway cockpit crush",
+      "text_zh": "/a/ 班宅宅睇完Gundam Hathaway 又想要個tomboy mobile suit mechanic喺狹窄駕駛艙同佢一齊做嘢 lol 我都想要 真實考牌都未搞掂 諗埋呢啲 🙏",
+      "text_en_b1": "Gundam: Hathaway TSONC just dropped and /a/ is having a meltdown. Anons demand a tomboy mobile suit mechanic who busily works inside a cramped cockpit with them. Cosplayers are already posting concept art. The Tomino flavour is strong and the thirst posts are overflowing. Hathaway fans are unhinged as always.",
       "source_url": "https://boards.4chan.org/a/thread/290569832",
-      "source_hint": "/a/ coomer thread about Hathaway's mobile suit mechanic waifu",
+      "source_hint": "/a/ thirst thread for Higgsway mech girl",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Weeb shitpost, not a trade"
+        "rationale": "Anime thirst thread, not a trade"
       },
-      "text_en_b2": "Gundam: Hathaway's Flash apparently struck exactly the right nerve with /a/, because the OP wrote NEED in caps after praising the cramped cockpit scenes featuring a tomboyish mobile suit mechanic working alongside the pilot. While many fans consider the 00 era the franchise's creative peak, Hathaway arguably stands as the definitive spiritual successor for anyone who actually values UC timeline continuity. The post practically radiates obsessive energy, and several anons admitted they were immediately queueing up a rewatch to relive the moment.",
-      "text_en_c1": "Gundam: The Hathaway — or 'Hathaway's Flash of Hathaway,' to give it its rather florid localisation — has evidently struck a chord with the original poster, whose impassioned plea for a tomboyish mobile-suit mechanic working in close confines alongside him in a cramped cockpit was rendered in capital letters for maximum emphasis. He has, by his own admission, been reduced to a state of considerable anticipation. For those who came of age during the post-00 era and retain an abiding reverence for the Universal Century timeline, this particular entry arguably represents the most fitting spiritual successor the franchise has produced in years.",
-      "text_en_c2": "The /a/ thread captures with admirable precision a fantasy so universally cherished within the UC Gundam continuum that articulating it borders on the confessional: a tomboyish mobile suit mechanic stationed alongside oneself within the claustrophobic confines of a tactical cockpit — spanner in hand, jumpsuit immaculate, competence radiating in every terse syllable. The poster, evidently overwhelmed by the vision's sheer romantic-procedural perfection, resorted to emphatic capitalisation and, one assumes, a brief period of involuntary salivation. Hathaway's Flash — or 'Hathaway's Kiss,' as it is tenderly known in certain quarters — functions as the quintessential spiritual successor to 00, distilling everything that late-era alternate-universe Gundam aspired to achieve while remaining unmistakably anchored in the canonical timeline. One prescribes immediate rewatch, possibly twice, for therapeutic purposes.",
-      "audio_url": "audio/2026-08-31/clip-a-gundam-hathaway.mp3"
+      "text_en_b2": "Gundam: Hathaway's Flash dropped and /a/ has completely lost its collective mind, with anons demanding a tomboy mobile suit mechanic who busily tinkers inside their cramped cockpit during operations. Cosplayers have already begun posting fresh concept art across the thread, and the Tomino flavour is off the charts. Hathaway fans remain deeply unhinged as always, churning out thirst posts at an alarming rate while the rest of us are still studying.",
+      "text_en_c1": "Gundam: Hathaway has prompted what can only be described as a collective psychotic episode on /a/, where anons have fixated upon the prospect of a tomboyish mobile suit mechanic, clad in grease-stained coveralls, labouring diligently within the confines of a cramped cockpit alongside them. Concept artists have already begun circulating speculative illustrations, each rendering more elaborate than the last. The Tomino-inflected romanticism of the source material, with its suffocating interiors and morally compromised protagonists, appears to have catalysed an outpouring of longing that exceeds the modest narrative warrant. The thread's tonal register oscillates between earnest yearning and self-aware absurdity, which is, of course, par for the course.",
+      "text_en_c2": "Theatrical release of Gundam: Hathaway has induced, on /a/, the customary cognitive malfunction that attends Tomino-adjacent properties, with the commentariat swiftly pivoting from narrative analysis to demands for a tomboyish mobile suit mechanic whose duties would, apparently, require her prolonged residence within the protagonist's cramped cockpit. Cosplayers have already begun circulating concept art of considerable ambition, and the thirst posts have attained a density that threatens to overwhelm the substantive discussion. The thread encapsulates, with admirable precision, the particular intersection of mecha fetishism and unauthorised yearning that defines the board's relationship with the franchise, and the respondents, whilst ostensibly critiquing character dynamics, are transparently engaged in elaborate speculative worldbuilding wherein their professional certifications, conspicuously absent, would somehow prove irrelevant.",
+      "audio_url": "audio/2026-09-01/clip-a-gundam-hathaway-2026.mp3"
     }
   ]
 }
