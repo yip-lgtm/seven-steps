@@ -198,28 +198,42 @@ async function fetchFourchanCatalog(boards = FOURCHAN_BOARDS) {
     const meta = BOARD_CATEGORY[board] || { category: null, take: 8 };
     const category = meta.category;
     const take = meta.take;
+    let pages = null;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const res = await fetch(`https://a.4cdn.org/${board}/catalog.json`, {
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (compatible; ClipBot/1.0)',
+            'Accept': 'application/json',
+          },
+          signal: AbortSignal.timeout(10000),
+        });
+
+        // Treat 429 and 5xx as "skip and continue" — 4chan often does maintenance
+        if (res.status === 429 || res.status >= 500) {
+          console.warn(`[4chan] ${board} → HTTP ${res.status} (maintenance/rate-limit), skip`);
+          await new Promise(r => setTimeout(r, 1100));
+          break;
+        }
+        if (!res.ok) {
+          console.warn(`[4chan] ${board} → HTTP ${res.status}, skip`);
+          await new Promise(r => setTimeout(r, 1100));
+          break;
+        }
+        pages = await res.json();
+        break;
+      } catch (err) {
+        console.warn(`[4chan] ${board} attempt ${attempt} failed: ${err.message}`);
+        if (attempt === 2) break;
+        await new Promise(r => setTimeout(r, 1100));
+      }
+    }
+    if (!pages) {
+      await new Promise(r => setTimeout(r, 1100));
+      continue;
+    }
+
     try {
-      const res = await fetch(`https://a.4cdn.org/${board}/catalog.json`, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (compatible; ClipBot/1.0)',
-          'Accept': 'application/json',
-        },
-        signal: AbortSignal.timeout(10000),
-      });
-
-      // Treat 429 and 5xx as "skip and continue" — 4chan often does maintenance
-      if (res.status === 429 || res.status >= 500) {
-        console.warn(`[4chan] ${board} → HTTP ${res.status} (maintenance/rate-limit), skip`);
-        await new Promise(r => setTimeout(r, 1100));
-        continue;
-      }
-      if (!res.ok) {
-        console.warn(`[4chan] ${board} → HTTP ${res.status}, skip`);
-        await new Promise(r => setTimeout(r, 1100));
-        continue;
-      }
-
-      const pages = await res.json();
       for (const page of pages) {
         for (const t of (page.threads || [])) {
           if ((t.replies || 0) < 5) continue;
@@ -975,6 +989,34 @@ async function callLLM(prompt, opts = {}) {
     const wc = c.text_en_b1.split(/\s+/).filter(Boolean).length;
     if (wc < B1_MIN) {
       console.log(`  [b1-short] clip ${c.id} (${c.topic_en}): ${wc} words (min ${B1_MIN})`);
+    }
+  }
+
+  // Bail early if the LLM returned zero clips — no point burning the
+  // 3 expansion LLM calls on an empty list, and the empty-array write
+  // would break the app (no clips to show). Fall back to clips/pool.json.
+  if (!baseClips.length) {
+    console.warn('  [empty-base] LLM returned 0 clips, falling back to clips/pool.json');
+    const poolPath = path.join(__dirname, '..', 'clips', 'pool.json');
+    if (fs.existsSync(poolPath)) {
+      const pool = JSON.parse(fs.readFileSync(poolPath, 'utf8'));
+      const fallback = (pool.clips || []).slice(0, 7).map((c, i) => ({
+        id: c.id || ('pool-fallback-' + i),
+        category: c.category || 'general',
+        topic_zh: c.topic_zh || c.topic || '',
+        topic_en: c.topic_en || c.topic || '',
+        text_zh: c.text_zh || '',
+        text_en_b1: c.text_en_b1 || c.text_en || '',
+        source_url: c.source_url || '',
+        source_hint: c.source_hint || '(pool fallback — AI gen returned 0 clips today)',
+        signal: c.signal || { asset: 'observation', direction: 'observation', conviction: 'none', time_horizon: 'none', entry_zone: 'current', target: null, stop: null, rationale: 'Pool fallback' },
+      }));
+      const out = { date: today, source: 'pool-fallback', persona: PERSONA.name, clips: fallback };
+      const outPath = path.join(__dirname, '..', 'clips', 'today.json');
+      fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
+      console.log(`  [pool-fallback] wrote ${fallback.length} clips from pool.json`);
+    } else {
+      throw new Error('LLM returned 0 clips AND clips/pool.json is missing');
     }
   }
 

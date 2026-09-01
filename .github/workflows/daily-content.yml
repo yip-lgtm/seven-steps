@@ -3,12 +3,20 @@ name: Daily Content
 on:
   workflow_dispatch:
   schedule:
-    # Two cron triggers, 30 min apart. GitHub's scheduler occasionally
-    # skips a window under load — the second trigger covers that case.
-    # Both should write today's content (the date is read from the
-    # server clock inside the script, not the cron time).
+    # Four cron triggers across 90 min, HKT 08:00 / 08:30 / 09:00 / 09:30.
+    # GitHub Actions' scheduler is known to skip windows under load —
+    # observed twice (27 Aug, 1 Sep) over 4 days. Redundancy is the
+    # only fix. All four write the same date (server clock inside
+    # gen-today.cjs) so they're idempotent. The `concurrency` group
+    # below prevents overlapping runs from corrupting the commit.
     - cron: '0 0 * * *'
     - cron: '30 0 * * *'
+    - cron: '0 1 * * *'
+    - cron: '30 1 * * *'
+
+concurrency:
+  group: daily-content
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -100,13 +108,22 @@ jobs:
         run: |
           git config user.name "seven-steps-bot"
           git config user.email "seven-steps-bot@users.noreply.github.com"
-          git add clips/today.json audio/ .gitignore
+          git add clips/today.json audio/ recordings/ .gitignore
           if git diff --staged --quiet; then
             echo "no changes"
             exit 0
           fi
-          git commit -m "chore(clips): bilingual refresh + audio $(date -u +%Y-%m-%d)"
-          git push
+          # Retry push up to 3 times — if another bot run beat us to
+          # the commit (we added concurrency-group above to prevent
+          # simultaneous runs but a race with an external push is
+          # still possible), pull --rebase and try again.
+          for attempt in 1 2 3; do
+            git commit -m "chore(clips): bilingual refresh + audio $(date -u +%Y-%m-%d)"
+            if git push; then break; fi
+            echo "  push attempt $attempt failed, pulling and retrying"
+            git -c http.sslVerify=false pull --rebase origin main || true
+            sleep 5
+          done
 
       - name: Send Telegram digest
         if: success()
