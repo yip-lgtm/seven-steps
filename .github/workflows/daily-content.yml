@@ -106,6 +106,7 @@ jobs:
 
       - name: Commit and push
         run: |
+          set +e
           git config user.name "seven-steps-bot"
           git config user.email "seven-steps-bot@users.noreply.github.com"
           git add clips/today.json audio/ recordings/ .gitignore
@@ -113,17 +114,26 @@ jobs:
             echo "no changes"
             exit 0
           fi
+          git commit -m "chore(clips): bilingual refresh + audio $(date -u +%Y-%m-%d)"
           # Retry push up to 3 times — if another bot run beat us to
-          # the commit (we added concurrency-group above to prevent
-          # simultaneous runs but a race with an external push is
-          # still possible), pull --rebase and try again.
+          # the commit (concurrency-group above prevents simultaneous
+          # runs, but an external push is still possible), pull
+          # --rebase and try again. Track success in a flag so the
+          # step exits 0 when at least one push succeeded.
+          pushed=0
           for attempt in 1 2 3; do
-            git commit -m "chore(clips): bilingual refresh + audio $(date -u +%Y-%m-%d)"
-            if git push; then break; fi
+            if git push; then
+              pushed=1
+              break
+            fi
             echo "  push attempt $attempt failed, pulling and retrying"
             git -c http.sslVerify=false pull --rebase origin main || true
             sleep 5
           done
+          if [ "$pushed" -eq 0 ]; then
+            echo "  ERROR: all 3 push attempts failed"
+            exit 1
+          fi
 
       - name: Send Telegram digest
         if: success()
