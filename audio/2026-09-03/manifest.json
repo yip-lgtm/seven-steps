@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-doge-wallet",
-      "topic_en": "Old DOGE wallet recovered",
-      "topic_zh": "撈返舊DOGE",
+      "id": "trade-doge-hack-01",
+      "topic_en": "DOGE wallet hack",
+      "topic_zh": "撈返老狗幣",
       "category": "trading",
-      "file": "clip-t1-doge-wallet.mp3",
-      "bytes": 382509,
-      "chars": 324
+      "file": "clip-trade-doge-hack-01.mp3",
+      "bytes": 362349,
+      "chars": 295
     },
     {
-      "id": "t2-btc-chase",
-      "topic_en": "BTC buying after pump",
-      "topic_zh": "BTC泵完先追",
+      "id": "trade-cybercab-02",
+      "topic_en": "Cybercab passive income",
+      "topic_zh": "Cybercab被動收入",
       "category": "trading",
-      "file": "clip-t2-btc-chase.mp3",
-      "bytes": 293229,
-      "chars": 277
+      "file": "clip-trade-cybercab-02.mp3",
+      "bytes": 216827,
+      "chars": 218
     },
     {
-      "id": "ai-hinton-radiology",
-      "topic_en": "Hinton AI prediction wrong",
-      "topic_zh": "Hinton預言又錯",
+      "id": "tech-ai-hinton-03",
+      "topic_en": "Hinton radiologist miss",
+      "topic_zh": "AI取代論破產",
       "category": "tech/ai",
-      "file": "clip-ai-hinton-radiology.mp3",
-      "bytes": 384237,
-      "chars": 329
+      "file": "clip-tech-ai-hinton-03.mp3",
+      "bytes": 408429,
+      "chars": 355
     },
     {
-      "id": "hk-pol-misc",
-      "topic_en": "NEET family murder",
-      "topic_zh": "NEET滅門慘劇",
+      "id": "hk-news-religion-04",
+      "topic_en": "Abandoning polytheism",
+      "topic_zh": "棄多神拜一神",
       "category": "hk/news",
-      "file": "clip-hk-pol-misc.mp3",
-      "bytes": 345069,
-      "chars": 341
+      "file": "clip-hk-news-religion-04.mp3",
+      "bytes": 276214,
+      "chars": 257
     },
     {
-      "id": "lol-monolith-oot",
+      "id": "lol-zelda-05",
       "topic_en": "Zelda OoT remake leak",
-      "topic_zh": "OoT Remake開發商",
+      "topic_zh": "OoT Switch 2 remake",
       "category": "lol/esports",
-      "file": "clip-lol-monolith-oot.mp3",
-      "bytes": 324333,
-      "chars": 318
+      "file": "clip-lol-zelda-05.mp3",
+      "bytes": 228935,
+      "chars": 256
     },
     {
-      "id": "fit-physique-advice",
-      "topic_en": "Physique split advice",
-      "topic_zh": "點樣再修細啲",
+      "id": "mma-fit-split-06",
+      "topic_en": "Shoulder emphasis split",
+      "topic_zh": "膊頭優先攻略",
       "category": "mma/fitness",
-      "file": "clip-fit-physique-advice.mp3",
-      "bytes": 483885,
-      "chars": 305
+      "file": "clip-mma-fit-split-06.mp3",
+      "bytes": 514989,
+      "chars": 337
     },
     {
-      "id": "a-raildex-plans",
-      "topic_en": "Raildex franchise plans",
-      "topic_zh": "Raildex點算好",
+      "id": "anime-raildex-07",
+      "topic_en": "Raildex franchise wash",
+      "topic_zh": "Raildex爛尾清倉",
       "category": "anime/culture",
-      "file": "clip-a-raildex-plans.mp3",
+      "file": "clip-anime-raildex-07.mp3",
       "bytes": 341037,
-      "chars": 313
+      "chars": 329
     }
   ]
 }
