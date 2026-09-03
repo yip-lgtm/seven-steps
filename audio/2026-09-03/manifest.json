@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-doge-hack-001",
-      "topic_en": "Doge Wallet Hack",
-      "topic_zh": "DOGE舊銀包",
+      "id": "clip-01-trading-btc",
+      "topic_en": "BTC Buy The Pump",
+      "topic_zh": "BTC追入迷思",
       "category": "trading",
-      "file": "clip-biz-doge-hack-001.mp3",
-      "bytes": 344493,
-      "chars": 273
+      "file": "clip-clip-01-trading-btc.mp3",
+      "bytes": 250845,
+      "chars": 234
     },
     {
-      "id": "biz-cybercab-002",
-      "topic_en": "Cybercab Robotaxi",
+      "id": "clip-02-musk-cybercab",
+      "topic_en": "Cybercab Robotaxi Income",
       "topic_zh": "Cybercab被動收入",
       "category": "trading",
-      "file": "clip-biz-cybercab-002.mp3",
-      "bytes": 274221,
-      "chars": 276
+      "file": "clip-clip-02-musk-cybercab.mp3",
+      "bytes": 229512,
+      "chars": 237
     },
     {
-      "id": "g-hinton-radiology-003",
-      "topic_en": "AI Job Replacement",
-      "topic_zh": "AI取代白領？",
+      "id": "clip-03-tech-hinton",
+      "topic_en": "Hinton AI Prediction Fail",
+      "topic_zh": "Hinton預言失敗",
       "category": "tech/ai",
-      "file": "clip-g-hinton-radiology-003.mp3",
-      "bytes": 369837,
-      "chars": 321
+      "file": "clip-clip-03-tech-hinton.mp3",
+      "bytes": 296109,
+      "chars": 283
     },
     {
-      "id": "pol-age-gap-004",
-      "topic_en": "Age Gap Debate",
-      "topic_zh": "年齡差輿論",
+      "id": "clip-04-hk-news",
+      "topic_en": "Incel Vs Indians",
+      "topic_zh": "印度人成功晒？",
       "category": "hk/news",
-      "file": "clip-pol-age-gap-004.mp3",
-      "bytes": 281980,
-      "chars": 271
+      "file": "clip-clip-04-hk-news.mp3",
+      "bytes": 237007,
+      "chars": 257
     },
     {
-      "id": "v-lollipop-005",
-      "topic_en": "Lollipop Chainsaw 2",
-      "topic_zh": "Lollipop Chainsaw續作",
+      "id": "clip-05-lol-taric",
+      "topic_en": "Riot New Skin Design",
+      "topic_zh": "新造型設計",
       "category": "lol/esports",
-      "file": "clip-v-lollipop-005.mp3",
-      "bytes": 320301,
-      "chars": 275
+      "file": "clip-clip-05-lol-taric.mp3",
+      "bytes": 235854,
+      "chars": 242
     },
     {
-      "id": "fit-physique-006",
-      "topic_en": "Physique Check",
-      "topic_zh": "5呎9身形檢討",
+      "id": "clip-06-fit-frame",
+      "topic_en": "Skinny Frame Lifting",
+      "topic_zh": "骨架細點算",
       "category": "mma/fitness",
-      "file": "clip-fit-physique-006.mp3",
-      "bytes": 495981,
-      "chars": 305
+      "file": "clip-clip-06-fit-frame.mp3",
+      "bytes": 370413,
+      "chars": 252
     },
     {
-      "id": "a-raildex-007",
-      "topic_en": "Raildex Wrap Up",
-      "topic_zh": "Raildex光榮結業",
+      "id": "clip-07-anime-zelda",
+      "topic_en": "OoT Switch 2 Remake",
+      "topic_zh": "OoT重製開發商",
       "category": "anime/culture",
-      "file": "clip-a-raildex-007.mp3",
-      "bytes": 338733,
-      "chars": 289
+      "file": "clip-clip-07-anime-zelda.mp3",
+      "bytes": 226629,
+      "chars": 236
     }
   ]
 }

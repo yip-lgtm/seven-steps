@@ -4,38 +4,38 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-doge-hack-001",
+      "id": "clip-01-trading-btc",
       "category": "trading",
-      "topic_zh": "DOGE舊銀包",
-      "topic_en": "Doge Wallet Hack",
-      "text_zh": "有4仔連登狗2014年DOGE銀包都hack返入去，730,000粒，即係6萬美金，問點投資好。ok 我啲prop firm都未過，睇人哋執到金真係wtf。",
-      "text_en_b1": "An anon hacked into his own 2014 Dogecoin wallet and recovered 730,000 DOGE, worth about $60,000 USD. He is now asking /biz/ where to invest the money, since real estate is too expensive in his area. He thinks a fixer-upper might work, but wants suggestions from the board.",
-      "source_url": "https://boards.4chan.org/biz/thread/62646317",
-      "source_hint": "/biz/ OP recovers 730k forgotten DOGE",
+      "topic_zh": "BTC追入迷思",
+      "topic_en": "BTC Buy The Pump",
+      "text_zh": "成日都係咁，睇BTC橫行幾星期唔理，佢一爆15%就人人衝入去。點解永遠都係泵完先追？等佢回一回先啦，唔好又做最後一個接貨嘅人🙏",
+      "text_en_b1": "You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened? This comes up on /biz/ every single cycle and nobody learns.",
+      "source_url": "https://boards.4chan.org/biz/thread/62625769",
+      "source_hint": "/biz/ thread questioning why people chase BTC after it pumps",
       "signal": {
-        "asset": "DOGE",
+        "asset": "BTC",
         "direction": "observation",
         "conviction": "none",
         "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP is a recovery story plus alloc question, no directional setup"
+        "rationale": "Post-hoc observation on herd behaviour, no actionable setup"
       },
-      "text_en_b2": "An anon on /biz/ managed to crack his own long-dormant 2014 Dogecoin wallet and recover roughly 730,000 DOGE, which works out to around $60,000 at current prices. Although the figure sounds modest, he's treating it as a windfall and is now crowdsourcing investment ideas from the board. Because property is out of reach locally, he's leaning toward a fixer-upper, though he's clearly torn between playing it safe and chasing a quick return.",
-      "text_en_c1": "An anonymous poster on /biz/ has regained access to a dormant Dogecoin wallet originally set up back in 2014, recovering approximately 730,000 DOGE, which at prevailing rates translates to roughly $60,000 USD. Now that the coins are finally liquid, the thread has pivoted to investment strategy, particularly given that local property prices in his region remain prohibitively high. He is weighing whether a fixer-upper property might offer reasonable returns, though other anons are weighing in with alternative allocations. The general sentiment oscillates between cautious optimism and disbelief that an 11-year-old forgotten wallet has suddenly yielded a meaningful windfall for someone who has evidently struggled with prop firm evaluations up to…",
-      "text_en_c2": "An anonymous /biz/ user has reportedly regained access to a Dogecoin wallet left untouched since 2014, recovering approximately 730,000 DOGE, presently valued at around US$60,000. Rather than treating the windfall as an occasion for unbridled celebration, he has solicited investment advice from the board: local property prices are prohibitively high, although he believes that a dilapidated property in need of renovation might still prove viable after a properly scrutinised appraisal. The thread’s response is less a coherent portfolio strategy than a chorus of half-serious proposals, black humour, and warnings that cryptocurrency’s notorious volatility makes financial certainty elusive. The underlying irony is unmistakable: the money was recovered from an account effectively abandoned, yet deciding how to preserve it may prove considerably harder than obtaining it.",
-      "audio_url": "audio/2026-09-03/clip-biz-doge-hack-001.mp3"
+      "text_en_b2": "You sit on your hands while BTC trades in a sideways range for weeks, dismissing the whole thing. Then it rips 15% in a single move and the FOMO crowd piles in chasing green candles. Why does nobody manage to buy before the breakout, rather than after the easy money has already been made? The cycle plays out identically on /biz/ every single time, and yet retail traders keep learning absolutely nothing from history, ending up as exit liquidity for smarter participants.",
+      "text_en_c1": "Anyone who has spent even a cursory amount of time observing Bitcoin's price action will recognise this recurring pattern almost on instinct: BTC consolidates sideways for weeks on end, drawing nothing but indifference, and then once it finally breaks upward with a roughly fifteen percent move, the retail herd piles in with remarkable synchronicity. The question worth posing is why market participants, time and again, position themselves at the tail end of an established trend. Let price retrace, exercise the discipline, and refrain from becoming the final bagholder who absorbs someone else's exit liquidity.",
+      "text_en_c2": "It is a phenomenon so recurrent it has acquired the texture of ritual: Bitcoin meanders sideways for weeks on end, drawing nothing but indifference from the retail crowd, until the moment it suddenly lurches fifteen percent higher — at which point every self-styled contrarian scrambles to pile in, convinced the locomotive has just left the station. The absurdity lies not in the buying itself but in its timing; participants are perpetually arriving after the move has been thoroughly consummated, mistaking momentum for opportunity. This exact lament resurfaces on /biz/ with metronomic regularity at the tail of every cycle, and yet the lessons, such as they are, evaporate almost as quickly as the gains they purport to explain.",
+      "audio_url": "audio/2026-09-03/clip-clip-01-trading-btc.mp3"
     },
     {
-      "id": "biz-cybercab-002",
+      "id": "clip-02-musk-cybercab",
       "category": "trading",
       "topic_zh": "Cybercab被動收入",
-      "topic_en": "Cybercab Robotaxi",
-      "text_zh": "有4仔問買Cybercab放落Tesla Robotaxi network做被動收入。lol 真係信晒Elon？btw 我自己CFD都輸緊，唔好再諗被動收入🙏",
-      "text_en_b1": "An anon on /biz/ is asking for a redpill on buying Tesla Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. He sees it as a way to make money while he sleeps. The thread is asking whether the unit economics and software rollout actually work.",
+      "topic_en": "Cybercab Robotaxi Income",
+      "text_zh": "買Cybercab放落Tesla Robotaxi network等收錢，聽落好夢幻喎。一架車成本幾錢？回本期幾耐？計埋保險同維修，係咪真係work？等大佬redpill一下先🧐",
+      "text_en_b1": "Redpill me on buying Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. How much does each unit cost, what's the realistic payback period, and does the math actually work after insurance and maintenance?",
       "source_url": "https://boards.4chan.org/biz/thread/62648173",
-      "source_hint": "/biz/ thread on Tesla Cybercab passive income",
+      "source_hint": "/biz/ thread asking how to make passive income from Tesla Cybercabs",
       "signal": {
         "asset": "TSLA",
         "direction": "long",
@@ -44,22 +44,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP is buying Cybercab units, implicitly bullish on Tesla Robotaxi rollout"
+        "rationale": "Implied bullish on TSLA Robotaxi economics; OP exploring yield-style exposure to the network"
       },
-      "text_en_b2": "An anon on /biz/ is seriously weighing whether he should pick up a few Tesla Cybercabs and feed them into the Robotaxi network, hoping the whole thing runs itself while he sleeps. While the passive-income pitch does sound appealing on paper, the thread is busy tearing apart the unit economics, doubting the software rollout timeline, and generally roasting anyone who takes Elon Musk's promises at face value.",
-      "text_en_c1": "A /biz/ thread is soliciting input on the viability of purchasing Tesla's forthcoming Cybercab units and deploying them across the Robotaxi network as a form of passive income. The original poster frames the proposition as a hands-off revenue stream, ostensibly generating returns while he sleeps, and is requesting what he terms a redpill on the underlying unit economics. Other contributors have grown notably sceptical, questioning whether the software rollout will actually materialise on schedule or whether the projections constitute little more than speculative vapour. Given that I am currently bleeding money on CFD positions myself, I am hardly in a position to sermonise, though passive income remains a pipe dream.",
-      "text_en_c2": "An anonymous /biz/ contributor is seeking a characteristically forthright assessment of whether purchasing Tesla’s proposed Cybercab and placing it on the company’s Robotaxi network could constitute a credible source of largely passive income. His attraction is obvious: revenue generated by an autonomously operating asset, while its owner sleeps, offers an appealing answer to the perennial problem of making money without continuously trading time for money. The discussion, however, is properly sceptical, since the proposition rests not merely on vehicle demand but upon uncertain unit economics, regulatory approval, utilisation rates, maintenance liabilities, and the successful deployment of software that has not yet been demonstrated at fleet scale. Buying the car may be easy; earning a dependable return is another matter entirely.",
-      "audio_url": "audio/2026-09-03/clip-biz-cybercab-002.mp3"
+      "text_en_b2": "I'm trying to get a realistic picture of the Cybercab opportunity before I throw any capital at it. Putting one of these units on the Tesla Robotaxi network for passive income sounds appealing on paper, but I want to know the real numbers: how much does each vehicle actually cost, what is a sensible timeframe for breaking even, and after you factor in insurance premiums, charging costs, and ongoing maintenance, does the business case genuinely hold up?",
+      "text_en_c1": "The proposition of purchasing a Cybercab, deploying it onto Tesla's forthcoming Robotaxi network, and thereby generating a steady stream of residual income admittedly sounds rather appealing on paper. Before anyone commits capital, however, several variables warrant rigorous scrutiny: the per-unit acquisition cost, the projected amortisation timeline, and crucially whether the underlying unit economics remain viable once insurance premiums, routine maintenance, depreciation, and platform fees have been factored into the equation. Strip away the marketing veneer, run the numbers in good faith, and only then determine whether the thesis genuinely holds water.",
+      "text_en_c2": "The proposition is beguiling in its simplicity: acquire a Cybercab, enrol it in Tesla's nascent Robotaxi network, and thereafter collect what purports to be fully passive income while the vehicle earns its keep around the clock. Yet the arithmetic underpinning such fantasies tends to be conspicuously absent from the marketing materials. What, precisely, does a single unit cost at retail, and over what plausible horizon does the cumulative revenue exceed that outlay? Once insurance premiums, depreciation, software subscriptions, and routine maintenance are folded into the spreadsheet, the proposition frequently inverts from income stream to liability. The Tesla faithful are nevertheless eager to be redpilled — though one suspects the red pill, in this instance, dissolves on the tongue rather than illuminating anything. A sober unit-economics breakdown would be vastly more welcome than another glossy reveal.",
+      "audio_url": "audio/2026-09-03/clip-clip-02-musk-cybercab.mp3"
     },
     {
-      "id": "g-hinton-radiology-003",
+      "id": "clip-03-tech-hinton",
       "category": "tech/ai",
-      "topic_zh": "AI取代白領？",
-      "topic_en": "AI Job Replacement",
-      "text_zh": "4仔話Hinton 2016年話AI 5年內取代放射科醫生，10年後唔止無被取代，需求仲多咗、人工仲高。即係連Elon都會睇走眼，我考HKIE都未驚住俾AI搶🙏",
-      "text_en_b1": "An anon on /g/ points out that in 2016, the godfather of AI Geoffrey Hinton predicted AI would replace radiologists within 5 years. Ten years later, there are more radiologists now, in higher demand, and earning higher salaries than in 2016. The thread then says Elon Musk is next to embarrass himself on the world stage.",
+      "topic_zh": "Hinton預言失敗",
+      "topic_en": "Hinton AI Prediction Fail",
+      "text_zh": "2016年Hinton話AI 5至10年會取代放射科醫生。10年後啦喎，呢個位請多咗人，仲加薪添。睇完條片我笑咗，佢都係神棍一名lol。下一個出醜嘅應該係Elon🙏",
+      "text_en_b1": "In 2016, Geoffrey Hinton predicted AI would replace radiologists within 5 to 10 years. It is now 10 years later and there are more radiologists now, in higher demand and earning much higher salaries than in 2016. Next up to embarrass himself on the world stage is probably Elon Musk.",
       "source_url": "https://boards.4chan.org/g/thread/109710294",
-      "source_hint": "/g/ thread on Hinton's failed radiologist prediction",
+      "source_hint": "/g/ thread calling out Hinton's failed radiologist prediction",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Non-trading observation about AI hype"
+        "rationale": "Cultural commentary on AI doomers, not a trade"
       },
-      "text_en_b2": "An anon on /g/ dug up a famous 2016 clip of Geoffrey Hinton insisting AI would wipe out radiology jobs within five years. Despite that bold prediction, demand for radiologists has actually climbed, and their salaries have grown substantially over the past decade. The thread takes grim satisfaction in the failed forecast and jokingly nominates Elon Musk as the next big name likely to embarrass himself.",
-      "text_en_c1": "A /g/ poster has resurfaced a 2016 prediction by Geoffrey Hinton, widely regarded as the godfather of modern AI, in which he confidently asserted that artificial intelligence would render radiologists obsolete within five years. Roughly a decade on, the profession has not merely survived but has flourished, with demand, headcount and remuneration all trending markedly upward relative to 2016 baselines. The thread interprets this as yet another high-profile forecast that has spectacularly failed to materialise, suggesting that even figures such as Elon Musk, whose public pronouncements on automation routinely overshoot reality, are liable to comparable embarrassment.",
-      "text_en_c2": "A /g/ user has drawn attention to a prediction made by Geoffrey Hinton, widely regarded as a principal architect of modern artificial intelligence, who said in 2016 that AI could replace radiologists within five years. Roughly a decade on, the profession has not vanished; indeed, radiologists remain in greater demand and command higher salaries than they did in 2016. The discrepancy is instructive, because it demonstrates how technological capability can be confused with immediate occupational displacement: an algorithm may perform a narrow diagnostic task with remarkable proficiency without assuming the legal accountability, contextual judgement, and capacity for anomalous-case reasoning that define the clinical role. The thread consequently treats Hinton’s forecast as another example of intelligent people overestimating how rapidly institutions adapt.",
-      "audio_url": "audio/2026-09-03/clip-g-hinton-radiology-003.mp3"
+      "text_en_b2": "Back in 2016, Geoffrey Hinton confidently predicted that AI would render radiologists obsolete within a five-to-ten-year window. Roughly a decade has now passed, and the specialty has not collapsed; in fact, demand has actually grown, with higher salaries and more positions filled than ever. Watching his interview back is genuinely cringeworthy, since he is now widely regarded as just another overhyped prophet. My money is on Elon Musk being the next figure to embarrass himself publicly in a similar fashion.",
+      "text_en_c1": "Back in 2016, Geoffrey Hinton, a figure widely regarded as one of the principal architects of modern deep learning, asserted with considerable authority that artificial intelligence would displace radiologists within a window of five to ten years. A full decade has since elapsed, and the actual outcome has proved rather different from what was forecast: demand for radiologists has in fact risen, salaries have appreciated substantially, and the discipline continues to expand. Such prognostications are best treated with measured scepticism. Should the next public embarrassment arise, my money would be on Elon Musk overpromising once again.",
+      "text_en_c2": "A decade ago, Geoffrey Hinton — a man routinely described, without irony, as the godfather of modern deep learning — took to a prominent stage and confidently prophesied that radiologists would be rendered obsolete within five to ten years, displaced by convolutional networks capable of inferring malignancy from pixels with superhuman fidelity. Ten years on, the specialty has not merely persisted but expanded: demand for qualified radiologists has surged, compensation has climbed appreciably, and the ranks of residency programmes have swollen rather than thinned. Watching Hinton revisit those remarks on camera is to witness a masterclass in dignified revisionism, delivered with the aplomb of a man accustomed to audiences suspending disbelief. The next luminary slated for comparable public discomfiture is, in all likelihood, Elon Musk, whose own predictions have aged with comparable grace.",
+      "audio_url": "audio/2026-09-03/clip-clip-03-tech-hinton.mp3"
     },
     {
-      "id": "pol-age-gap-004",
+      "id": "clip-04-hk-news",
       "category": "hk/news",
-      "topic_zh": "年齡差輿論",
-      "topic_en": "Age Gap Debate",
-      "text_zh": "4仔/pol/問點解而家age gap突然變得好似犯咗罪咁。thx 我30單身一個都唔理，仲邊有心情理呢啲🧐 錢先係我而家嘅全部",
-      "text_en_b1": "An anon on /pol/ asks why age gaps in relationships have suddenly become so controversial. He is confused because older men dating younger women used to be normal in media and history. The thread debates whether this is a real cultural shift or just louder online voices.",
-      "source_url": "https://boards.4chan.org/pol/thread/541883625",
-      "source_hint": "/pol/ thread asking why age gaps are now controversial",
+      "topic_zh": "印度人成功晒？",
+      "topic_en": "Incel Vs Indians",
+      "text_zh": "有個incel屌鳩班印度人，話人哋inbred又廢。睇完好尷尬，咁都要寫段長文去鬧，現實生活有幾失敗先要噉⁉️唔好理啲incel啦，浪費時間lol",
+      "text_en_b1": "An incel is seething online at Indians, calling them inbred social outcasts who contribute nothing to society. Reading the post is genuinely painful — nobody writes that much rage unless their own life is falling apart. Just ignore these losers and move on.",
+      "source_url": "https://boards.4chan.org/pol/thread/541892328",
+      "source_hint": "/pol/ thread of an incel raging at successful Indian people",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Cultural observation, not a trade"
+        "rationale": "General news vibe, not a trade"
       },
-      "text_en_b2": "An anon on /pol/ is genuinely puzzled about why age-gap relationships have suddenly become such a contentious issue, given that older men paired with younger women were once celebrated in film, literature, and royal history. While some users argue this reflects a genuine cultural shift, others insist it's simply louder online discourse and not a real change in actual behavior.",
-      "text_en_c1": "An anonymous user on /pol/ has raised the question of why age-gap relationships have, seemingly overnight, acquired the status of a moral transgression in contemporary discourse. He observes that, historically, older men partnering with considerably younger women was a fixture of literature, cinema and royal lineage alike, and he struggles to identify the precise cultural mechanism that has transformed what was once unremarkable into something requiring public apology. Contributors are divided as to whether this reflects a genuine and substantive shift in societal values or merely the disproportionate amplification of vocal minorities online.",
-      "text_en_c2": "An anonymous /pol/ user has asked why age-disparate relationships, particularly those involving an older man and a younger woman, are now treated as though they were intrinsically scandalous. His confusion is rooted in the fact that such pairings were once commonplace throughout history, literature, and popular culture, where they were frequently presented without the moral disquiet that surrounds them today. The ensuing debate considers whether this apparent change reflects a substantive cultural reevaluation or merely the amplification of conspicuous online minorities. Some argue that increased awareness of power imbalances and vulnerabilities has made romantic age gaps more difficult to romanticise uncritically; others see the controversy as a contemporary fashion, promoted by discourse that confuses visibility with consensus.",
-      "audio_url": "audio/2026-09-03/clip-pol-age-gap-004.mp3"
+      "text_en_b2": "Some incel is losing his mind online, ranting about Indians and labelling them inbred outcasts who contribute nothing to society at all. Reading the post is honestly uncomfortable, because nobody writes a wall of text that bitter unless their own life is quietly falling apart behind the screen. The irony is that his supposed targets are out building careers and families while he fumes in his bedroom. Honestly, just scroll past these losers and don't waste another second on them.",
+      "text_en_c1": "An incel has chosen to vent his frustrations online, directing a remarkably prolonged diatribe at Indians, whom he characterises as inbred and socially worthless. The sheer length and intensity of the post are themselves diagnostic — nobody expends that level of emotional energy crafting a screed unless their own circumstances are quietly unravelling. The subtext, as is so often the case, reveals far more about the author's predicament than about the supposed targets of his ire. Best to scroll past and conserve one's attention for more worthwhile pursuits.",
+      "text_en_c2": "Somewhere on the internet, an incel has committed several hundred words to denouncing Indians as inbred pariahs whose collective contribution to civilisation hovers somewhere between negligible and contemptible. The post is a small masterpiece of projection: nobody, one reflects, drafts a screed of such furious, frothing length unless their own circumstances have curdled beyond the point of dignified silence. There is something almost archaeological about the genre — these texts read less like arguments than like artefacts exhumed from a psyche in chronic distress. The temptation to engage, to refute, to extract some morsel of substantive claim worth contesting, is best resisted entirely; the discourse, such as it is, terminates only when the audience stops listening. Move along, in other words, and conserve your energy for more tractable fools.",
+      "audio_url": "audio/2026-09-03/clip-clip-04-hk-news.mp3"
     },
     {
-      "id": "v-lollipop-005",
+      "id": "clip-05-lol-taric",
       "category": "lol/esports",
-      "topic_zh": "Lollipop Chainsaw續作",
-      "topic_en": "Lollipop Chainsaw 2",
-      "text_zh": "Riot設計又俾人post上4仔/v/，btw Dragami Games宣佈Lollipop Chainsaw Sequel會喺TGS 2026出，仲有得試玩。lol 我都仲未上分，睇下game先👍",
-      "text_en_b1": "Dragami Games announced on X that the Lollipop Chainsaw Sequel will be both revealed and playable at TGS 2026. The original 2012 cult action game is getting a follow-up showfloor demo. The /v/ thread is collecting reactions and old fan memories ahead of the official trailer.",
-      "source_url": "https://boards.4chan.org/v/thread/746753159",
-      "source_hint": "/v/ thread on Lollipop Chainsaw Sequel at TGS 2026",
+      "topic_zh": "新造型設計",
+      "topic_en": "Riot New Skin Design",
+      "text_zh": "Riot今次個造型真係做到嘢，條線條色完全唔同level。S15搞到咁靚，唔知打排位會唔會分心lolbtw我隻打野角色都想要新skin🙏",
+      "text_en_b1": "Riot clearly knew exactly what they were doing with this design. The lines, the colour palette, the silhouette — everything hits differently. Honestly, if they keep dropping skins like this through S15, ranked is going to be very distracting.",
+      "source_url": "https://boards.4chan.org/v/thread/746719126",
+      "source_hint": "/v/ thread praising Riot's new champion skin design",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming news, no trade"
+        "rationale": "Gossip on a League skin, not a trade"
       },
-      "text_en_b2": "Dragami Games revealed on X that the long-awaited Lollipop Chainsaw sequel will be both officially unveiled and made playable at Tokyo Game Show 2026, offering fans a first proper hands-on look. Since the 2012 original earned a devoted cult following despite middling sales, the announcement sent /v/ into a frenzy. The thread is already swapping nostalgic memories while bracing for whatever the new trailer delivers.",
-      "text_en_c1": "Dragami Games has officially confirmed via X that the long-anticipated Lollipop Chainsaw sequel will receive both its formal unveiling and a playable build at the Tokyo Game Show in 2026. The original 2012 title, which cultivated a devoted cult following on the strength of its irreverent tone and cheerleader-zombie premise, is consequently returning to the showfloor with a hands-on demo preceding whatever trailer assets are eventually released. The corresponding /v/ thread has accordingly morphed into a repository of reminiscences, with veteran fans unearthing decade-old screenshots, recounting the game's notoriously campy dialogue and speculating as to whether Dragami can recapture that particular brand of tongue-in-cheek absurdity that defined its predecessor.",
-      "text_en_c2": "Dragami Games has announced through X that the forthcoming Lollipop Chainsaw sequel will receive its first substantial public presentation at the Tokyo Game Show in 2026, where attendees will apparently have the opportunity not only to witness its unveiling but also to try the game for themselves. The news is particularly significant because the original 2012 release, though never an unqualified mainstream success, cultivated an unusually devoted following through its flamboyant premise, eccentric humour, and conspicuously committed performances. For those fans, the show-floor demonstration represents something more meaningful than routine product marketing: it is the first tangible indication that Dragami understands what made the original memorable rather than merely reviving its name as a disposable nostalgia commodity. Naturally, /v/ has begun assembling the customary mixture of enthusiasm, scepticism, and affectionate recollections.",
-      "audio_url": "audio/2026-09-03/clip-v-lollipop-005.mp3"
+      "text_en_b2": "Riot absolutely nailed the aesthetic on this one, and it honestly shows on every level. The linework, the colour palette, the silhouette, the subtle textures — everything reads as a meaningful step up from anything they have put out recently. If they keep dropping designs at this standard throughout the rest of Season 15, ranked queues are going to feel a lot more like a fashion showcase than an actual competitive match. Btw, my jungler is long overdue for a skin.",
+      "text_en_c1": "Riot Games have evidently devoted considerable creative energy to this particular skin, and the result speaks for itself: the linework, the chromatic palette, the silhouette — every constituent element operates at a markedly elevated tier relative to their usual output. Should they maintain this standard throughout the duration of Season 15, ranked queues are likely to become considerably more distracting, given that players will presumably be spending an inordinate amount of time admiring their freshly acquired cosmetics rather than attending to the minimap. My jungler could certainly use something equally striking.",
+      "text_en_c2": "Credit where it is due: Riot's design team has, with this particular release, executed something approaching a masterclass in visual coherence. The linework, the chromatic palette, the silhouette — every constituent element has been calibrated with an evident deliberateness that elevates the entire skin above its peers. Where so many cosmetic releases collapse into chromatic noise, this one demonstrates a discipline that borders on architectural, the kind of restraint that distinguishes a competent artist from a genuinely considered one. Whether such standards can be sustained across an entire competitive season remains to be seen, of course, but if S15 maintains this baseline, ranked queues may well become aesthetically hazardous — players distracted not by ganks but by the sheer pleasure of glancing at their own loadout. Meanwhile, the jungler awaits his own resplendent update.",
+      "audio_url": "audio/2026-09-03/clip-clip-05-lol-taric.mp3"
     },
     {
-      "id": "fit-physique-006",
+      "id": "clip-06-fit-frame",
       "category": "mma/fitness",
-      "topic_zh": "5呎9身形檢討",
-      "topic_en": "Physique Check",
-      "text_zh": "4仔/fit/有位5呎9 160lb，兩年前由140lb skinnyfat開始，bulk到200lb再cut返落嚟。160p 272c 57f 2293kcal，10k步每日。睇完我都想問肥仔信點解我膊頭咁細🙏",
-      "text_en_b1": "A /fit/ anon is 5'9, 160lbs, lifting for 2 years. He went from 140lbs skinnyfat to 200lbs bulk, then cut to current. His frame is bad so he over-emphasizes shoulders. Diet is 160p, 272c, 57f at 2293 kcal, 10k+ steps daily, plus occasional cardio. He wants advice on his next split and physique priorities.",
+      "topic_zh": "骨架細點算",
+      "topic_en": "Skinny Frame Lifting",
+      "text_zh": "睇到自己個frame真係頂癮，5呎9 160lbs shoulder又細。樓主話要特別加操肩，我覺得ok但唔好本末倒置，big 3先係重點。肥仔信話佢OHP就嚟1pl8，我連pl8都未掂🧐",
+      "text_en_b1": "Picrel is my physique. I am 5'9, 160lbs, lifting for 2 years, started skinnyfat at 140, bulked to 200, then cut to here. My frame is small so I put extra emphasis on shoulders, but the big three lifts still matter way more. Diet is dialed at 2293 cals.",
       "source_url": "https://boards.4chan.org/fit/thread/77493504",
-      "source_hint": "/fit/ thread asking for physique and split advice at 5'9 160lb",
+      "source_hint": "/fit/ thread asking for advice on skinny frame lifting",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -142,20 +142,20 @@
         "stop": null,
         "rationale": "Lifestyle content, not a trade"
       },
-      "text_en_b2": "A /fit/ anon stands 5'9 and currently sits at 160lbs after two full years of serious training. He started skinnyfat at 140lbs, ran an aggressive bulk up to 200lbs, and carefully cut back down to where he is now. Because his natural frame is on the narrow side, he overcompensates by hammering shoulders hard. His numbers read 160 protein, 272 carbs, 57 fat at 2,293 kcal, with 10k-plus steps daily.",
-      "text_en_c1": "A /fit/ contributor standing 5'9 and weighing in at 160lbs has documented a two-year transformation from a 140lb skinnyfat baseline through a dedicated bulk cycle peaking at 200lbs, followed by a disciplined cut to his present weight. Cognisant of his unfavourable frame, he has deliberately over-prioritised shoulder development to broaden his silhouette and offset narrower clavicles. His current regimen consists of 160g protein, 272g carbohydrates and 57g fat, totalling 2,293 kcal, supplemented by a daily commitment of 10,000-plus steps and sporadic cardio sessions. He is now soliciting feedback regarding optimal training split adjustments and which physique priorities warrant emphasis as he enters what he considers his next refinement phase.",
-      "text_en_c2": "A /fit/ user standing 5 feet 9 inches tall and weighing approximately 160 pounds has presented a two-year transformation that began at a markedly undermuscled 140 pounds. He subsequently bulked to 200 pounds before cutting back to his present weight, a sequence that produced visible development but left him dissatisfied with his overall proportions. Because he considers his underlying frame comparatively narrow, he has deliberately overemphasised deltoid work, evidently hoping that broader shoulders will create the illusion of a more imposing upper body. His daily intake is recorded as 160 grams of protein, 272 grams of carbohydrates, and 57 grams of fat, totalling 2,293 calories; he also reports walking more than 10,000 steps each day and incorporating occasional cardiovascular work.",
-      "audio_url": "audio/2026-09-03/clip-fit-physique-006.mp3"
+      "text_en_b2": "Picrel is my current physique — I'm 5'9, 160lbs, about two years into serious lifting. I started skinnyfat at 140, bulked up to 200, then trimmed back down, so I am fully aware of how narrow my frame actually is. Because of that I have been pushing extra shoulder volume, although I refuse to lose sight of the bigger picture: progressive overload on the squat, bench, and deadlift still drives ninety percent of the results. Diet is sitting at 2293 cals.",
+      "text_en_c1": "The image depicts my current physique, and I shall enumerate the relevant variables: I stand five-foot-nine, currently weigh approximately one hundred and sixty pounds, and have been training consistently for two years. I commenced my journey as a skinnyfat novice at one hundred and forty pounds, gradually bulked up to two hundred, and subsequently cut down to my present weight. My skeletal frame being somewhat modest in proportion, I have elected to allocate additional volume to shoulder work, though I remain firmly cognisant that the compound lifts — squat, bench, deadlift — ought to constitute the bulk of any well-structured programme.",
+      "text_en_c2": "The photograph in question depicts a physique that is, by any objective measure, workmanlike rather than impressive — five-foot-nine, one hundred and sixty pounds, two years of consistent training distilled into a frame that remains stubbornly narrow across the clavicles. The poster, evidently self-aware of this structural limitation, has elected to allocate disproportionate volume to overhead pressing and lateral work, a compensatory strategy that is not unreasonable in principle but risks inverting the proper hierarchy of priorities. The compound lifts — squat, bench, deadlift — remain the indisputable engine of any serious hypertrophy programme, and aesthetics, however seductive as a goal, must be subordinate to strength.",
+      "audio_url": "audio/2026-09-03/clip-clip-06-fit-frame.mp3"
     },
     {
-      "id": "a-raildex-007",
+      "id": "clip-07-anime-zelda",
       "category": "anime/culture",
-      "topic_zh": "Raildex光榮結業",
-      "topic_en": "Raildex Wrap Up",
-      "text_zh": "Raildex Index三期動畫完咗，4仔/a/有人話要集齊英文實體本晒先收手。btw 我自己Gundam 00同Demon Slayer都未睇晒，膠膠噏又一個長命franchise完結🧐",
-      "text_en_b1": "Now that the new Railgun anime season is over, a /a/ anon is collecting every English physical volume of the franchise. He plans to buy Railgun, Astral Buddy, Accelerator, Mental Out, and Index. Once the Index manga finishes serialization, he is completely done with the Raildex franchise.",
-      "source_url": "https://boards.4chan.org/a/thread/290448121",
-      "source_hint": "/a/ thread on collecting Raildex physical English volumes",
+      "topic_zh": "OoT重製開發商",
+      "topic_en": "OoT Switch 2 Remake",
+      "text_zh": "OoT出Switch 2重製版？Monolith Soft名單漏咗出來，今次實返啦。比起原版畫面如果upgrade幾倍，我願意re-buy🙏btw打機時間會再少，考牌都未溫完wtf",
+      "text_en_b1": "A Norwegian retailer just listed Monolith Soft as the developer for the Zelda OoT remake on Switch 2. This lines up with the leaked Switch 2 controller logo and their recruitment history. The remake is basically confirmed at this point.",
+      "source_url": "https://boards.4chan.org/v/thread/746744869",
+      "source_hint": "/v/ thread about Norwegian retailer leak listing Monolith Soft for Zelda OoT Switch 2 remake",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime collector talk, not a trade"
+        "rationale": "Gaming news, not a trade"
       },
-      "text_en_b2": "Now that the third Index anime season has wrapped up, an /a/ anon has set himself the absurd mission of tracking down every single English physical volume of the Raildex franchise before he moves on. He's committed to collecting Index, Railgun, Astral Buddy, Accelerator, and Mental Out, and plans to stick around at least until the Index manga concludes its serialization run.",
-      "text_en_c1": "Now that the third season of the Railgun anime adaptation has concluded its broadcast run, a particularly devoted /a/ poster has declared his intention to acquire every English-language physical volume the broader Raildex franchise has ever produced. His shopping list encompasses the principal Railgun manga, the Astral Buddy and Accelerator spin-offs, the Mental Out side material and, eventually, the complete Index run in print. His stated rationale is straightforward: once the Index manga finally ceases serialisation and the franchise is definitively concluded, he will consider his collection architecturally complete and divest himself of further obligation.",
-      "text_en_c2": "With the third season of the A Certain Scientific Railgun anime now concluded, a committed /a/ reader has undertaken what he describes as a final campaign to complete his English-language physical collection. His intended purchases extend beyond Railgun itself to the closely related Astral Buddy and Accelerator series, as well as Mental Out, thereby assembling the franchise’s principal English releases in durable form. The promised endpoint, however, is contingent upon the eventual conclusion of the A Certain Magical Index manga: until its serialisation finally ends, the self-imposed moratorium remains technically incomplete. For the collector, this is less an impulsive shopping spree than a declaration of closure after years of fragmented publication, delayed localisation, and intermittent returns.",
-      "audio_url": "audio/2026-09-03/clip-a-raildex-007.mp3"
+      "text_en_b2": "Looks like a Norwegian retailer just quietly listed Monolith Soft as the developer handling the Zelda OoT remake for the Switch 2, and honestly the timing lines up suspiciously well with the earlier Switch 2 controller leak and their recent recruitment push. Taken together, the remake is basically a foregone conclusion at this point. If they manage to upscale the original visuals several times over, I would happily rebuy it without a second thought. Btw, my gaming time keeps shrinking — licence exam still unstudied.",
+      "text_en_c1": "A Norwegian retailer has recently listed Monolith Soft as the designated development studio for an anticipated Zelda: Ocarina of Time remake targeting the forthcoming Switch 2 hardware. This particular data point dovetails neatly with the previously leaked Switch 2 controller logo, as well as with the studio's conspicuous recruitment activity over recent quarters. Taken in aggregate, these indicators render the remake effectively confirmed, barring any formal announcement from Nintendo themselves. Provided the visuals receive the substantial upgrade many have been quietly hoping for, a re-purchase would scarcely require any deliberation whatsoever.",
+      "text_en_c2": "The rumour mill, that inexhaustible engine of Nintendo speculation, has once more disgorged something sufficiently credible to merit attention: a Norwegian retailer, in a momentary lapse of corporate discretion, has apparently listed Monolith Soft as the developer entrusted with the Ocarina of Time remake for the forthcoming Switch 2. The detail dovetails rather too neatly with the previously leaked controller insignia and Monolith's own conspicuous recruitment patterns to be dismissed as coincidence — the convergence of evidence, taken in aggregate, renders outright denial increasingly untenable. Should the visuals receive the generational upgrade the hardware would permit, a re-purchase becomes almost a foregone conclusion, however cynical one might wish to remain.",
+      "audio_url": "audio/2026-09-03/clip-clip-07-anime-zelda.mp3"
     }
   ]
 }
