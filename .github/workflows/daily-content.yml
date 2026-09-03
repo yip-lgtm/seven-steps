@@ -3,16 +3,21 @@ name: Daily Content
 on:
   workflow_dispatch:
   schedule:
-    # Four cron triggers across 90 min, HKT 08:00 / 08:30 / 09:00 / 09:30.
-    # GitHub Actions' scheduler is known to skip windows under load —
-    # observed twice (27 Aug, 1 Sep) over 4 days. Redundancy is the
-    # only fix. All four write the same date (server clock inside
-    # gen-today.cjs) so they're idempotent. The `concurrency` group
-    # below prevents overlapping runs from corrupting the commit.
-    - cron: '0 0 * * *'
-    - cron: '30 0 * * *'
-    - cron: '0 1 * * *'
-    - cron: '30 1 * * *'
+    # GitHub Actions' scheduler has become increasingly unreliable —
+    # observed 3 skip events over 7 days (27 Aug, 1 Sep, 3 Sep) and
+    # the run timestamps show the scheduler fires at random hours
+    # (e.g. 04:53 UTC instead of 00:00 UTC for the 9/2 00:00 cron).
+    # To compensate, we run 8 triggers across 2 hours at HKT 08-10am.
+    # Worst case at least one fires; the gen-today.cjs script is
+    # idempotent so duplicate runs just re-write the same file.
+    - cron: '0 0 * * *'   # 08:00 HKT
+    - cron: '15 0 * * *'  # 08:15 HKT
+    - cron: '30 0 * * *'  # 08:30 HKT
+    - cron: '45 0 * * *'  # 08:45 HKT
+    - cron: '0 1 * * *'   # 09:00 HKT
+    - cron: '15 1 * * *'  # 09:15 HKT
+    - cron: '30 1 * * *'  # 09:30 HKT
+    - cron: '45 1 * * *'  # 09:45 HKT
 
 concurrency:
   group: daily-content
@@ -109,7 +114,16 @@ jobs:
           set +e
           git config user.name "seven-steps-bot"
           git config user.email "seven-steps-bot@users.noreply.github.com"
-          git add clips/today.json audio/ recordings/ .gitignore
+          # `git add <path>` fails fatally on a nonexistent path (e.g.
+          # recordings/ before the user has set a PAT) which would
+          # abort the entire `git add` line and stage nothing. Use
+          # `git add -A` with explicit path filters and 2>/dev/null
+          # tolerance, or stage one-at-a-time with || true so a
+          # missing path doesn't poison the rest.
+          git add clips/today.json 2>/dev/null || true
+          git add audio/ 2>/dev/null || true
+          git add recordings/ 2>/dev/null || true
+          git add .gitignore 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "no changes"
             exit 0

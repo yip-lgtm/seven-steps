@@ -140,6 +140,11 @@
     margin-bottom: 14px;
   }
   .daily-banner::before { content: "●"; font-size: 8px; color: var(--good); }
+  .daily-banner.stale {
+    background: #fff3cd; color: #856404; border: 1px solid #ffe69c;
+  }
+  body.dark .daily-banner.stale { background: #3a2e0a; color: #ffc107; border-color: #5c4a0c; }
+  .daily-banner.stale::before { content: "⚠"; color: #ffc107; }
   .home-grid {
     display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
     margin-bottom: 28px;
@@ -1096,8 +1101,15 @@ function renderHome() {
     </li>
   `).join('');
 
+  const today = new Date().toISOString().slice(0, 10);
+  const isStale = state.dailyDate && state.dailyDate < today;
+  const daysBehind = state.dailyDate
+    ? Math.round((new Date(today) - new Date(state.dailyDate)) / 86400000)
+    : 0;
   const dailyBanner = state.dailyDate
-    ? `<div class="daily-banner">Fresh for ${state.dailyDate} · bilingual · level ${state.currentLevel}</div>`
+    ? (isStale
+        ? `<div class="daily-banner stale">Showing ${state.dailyDate} content · ${daysBehind} day${daysBehind === 1 ? '' : 's'} behind today (${today}). Cron likely skipped.</div>`
+        : `<div class="daily-banner">Fresh for ${state.dailyDate} · bilingual · level ${state.currentLevel}</div>`)
     : '';
 
   // Empty-state when daily fetch failed — no embedded fallback clips.
@@ -1105,18 +1117,29 @@ function renderHome() {
     ? `<div class="empty-state">
         <h2 style="font-size: 18px; margin-bottom: 8px;">Daily content not available yet</h2>
         <p style="color: var(--ink-soft); font-size: 14px; line-height: 1.5;">
-          Today's 4chan-thread clips are fetched nightly at 00:00 UTC (08:00 HKT) and again at 00:30 UTC as a backup.
-          If you're seeing this after 09:00 HKT, the cron may have been rate-limited by GitHub or 4chan is down.
-          Pull-to-refresh, or check back in a few minutes.
+          Today's 4chan-thread clips are fetched nightly at 8 cron slots between 00:00 and 01:45 UTC
+          (HKT 08:00 - 09:45). GitHub Actions' scheduler is unreliable — observed 3 skip events
+          over 7 days. If you see this after 10:00 HKT, hit 'Trigger cron now' to force a
+          fresh content run.
         </p>
-        <button class="btn" id="btn-retry-daily" style="margin-top: 12px;">Retry fetch</button>
+        <div style="display: flex; gap: 8px; margin-top: 12px;">
+          <button class="btn" id="btn-retry-daily">Retry fetch</button>
+          <button class="btn" id="btn-trigger-cron">Trigger cron now</button>
+        </div>
       </div>`
+    : '';
+
+  const staleAction = isStale
+    ? `<div style="margin-top: 12px;">
+         <button class="btn" id="btn-trigger-cron">Trigger cron now</button>
+       </div>`
     : '';
 
   return `
     <div class="card home-hero">
       <h1>One clip. Seven reps. Real English in your mouth.</h1>
       ${dailyBanner}
+      ${staleAction}
       ${emptyState}
       <p>Each session: up to ${total} short clips, run through all seven steps. Bilingual content (中英對照), auto-adjusted to your level. Hit ${winThreshold} clips in a day and you win. ${wonToday ? 'You already won today. Keep going for a perfect ten.' : `Only ${remaining} more to win.`}</p>
 
@@ -1603,6 +1626,51 @@ function attachHandlers() {
     btnRetryDaily.textContent = 'Retrying…';
     await loadDailyClips();
     render();
+  });
+
+  // Manual cron trigger — when GitHub Actions schedule has skipped,
+  // let the user force a fresh content run by hitting the GitHub
+  // workflow_dispatch API directly from the browser. Uses the same
+  // PAT they saved for shadow backup (scopes: 'actions: write' OR
+  // just 'repo' since workflow_dispatch on a public repo with the
+  // bot account is fine).
+  const btnTriggerCron = document.getElementById('btn-trigger-cron');
+  if (btnTriggerCron) btnTriggerCron.addEventListener('click', async () => {
+    const token = getGhToken();
+    if (!token) {
+      toast('Add a GitHub PAT in Settings first (scopes: repo or actions:write)');
+      return;
+    }
+    btnTriggerCron.disabled = true;
+    btnTriggerCron.textContent = 'Triggering…';
+    try {
+      const r = await fetch(
+        'https://api.github.com/repos/' + GITHUB_REPO + '/actions/workflows/daily-content.yml/dispatches',
+        {
+          method: 'POST',
+          headers: {
+            'Authorization': 'token ' + token,
+            'Accept': 'application/vnd.github+json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ ref: 'main' }),
+        },
+      );
+      if (r.status === 204) {
+        btnTriggerCron.textContent = '✓ Triggered — refresh in 60s';
+        toast('Cron triggered. Daily content will refresh in ~60 seconds. Tap Retry fetch then.');
+      } else {
+        const err = await r.text();
+        btnTriggerCron.textContent = 'Trigger cron now';
+        btnTriggerCron.disabled = false;
+        toast('Trigger failed: ' + r.status + ' — check PAT has repo scope');
+        console.error('dispatch failed', err);
+      }
+    } catch (e) {
+      btnTriggerCron.textContent = 'Trigger cron now';
+      btnTriggerCron.disabled = false;
+      toast('Network error: ' + e.message);
+    }
   });
 
   // GitHub PAT for shadow recording backup
