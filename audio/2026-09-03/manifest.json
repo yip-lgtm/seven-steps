@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-03",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t1-doge-wallet",
+      "topic_en": "Old DOGE wallet recovered",
+      "topic_zh": "撈返舊DOGE",
+      "category": "trading",
+      "file": "clip-t1-doge-wallet.mp3",
+      "bytes": 382509,
+      "chars": 324
+    },
+    {
+      "id": "t2-btc-chase",
+      "topic_en": "BTC buying after pump",
+      "topic_zh": "BTC泵完先追",
+      "category": "trading",
+      "file": "clip-t2-btc-chase.mp3",
+      "bytes": 293229,
+      "chars": 277
+    },
+    {
+      "id": "ai-hinton-radiology",
+      "topic_en": "Hinton AI prediction wrong",
+      "topic_zh": "Hinton預言又錯",
+      "category": "tech/ai",
+      "file": "clip-ai-hinton-radiology.mp3",
+      "bytes": 384237,
+      "chars": 329
+    },
+    {
+      "id": "hk-pol-misc",
+      "topic_en": "NEET family murder",
+      "topic_zh": "NEET滅門慘劇",
+      "category": "hk/news",
+      "file": "clip-hk-pol-misc.mp3",
+      "bytes": 345069,
+      "chars": 341
+    },
+    {
+      "id": "lol-monolith-oot",
+      "topic_en": "Zelda OoT remake leak",
+      "topic_zh": "OoT Remake開發商",
+      "category": "lol/esports",
+      "file": "clip-lol-monolith-oot.mp3",
+      "bytes": 324333,
+      "chars": 318
+    },
+    {
+      "id": "fit-physique-advice",
+      "topic_en": "Physique split advice",
+      "topic_zh": "點樣再修細啲",
+      "category": "mma/fitness",
+      "file": "clip-fit-physique-advice.mp3",
+      "bytes": 483885,
+      "chars": 305
+    },
+    {
+      "id": "a-raildex-plans",
+      "topic_en": "Raildex franchise plans",
+      "topic_zh": "Raildex點算好",
+      "category": "anime/culture",
+      "file": "clip-a-raildex-plans.mp3",
+      "bytes": 341037,
+      "chars": 313
+    }
+  ]
+}

@@ -1,65 +1,65 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-03",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-doge-wallet-2026",
+      "id": "t1-doge-wallet",
       "category": "trading",
-      "topic_zh": "撈返2014狗狗幣",
-      "topic_en": "Hacked 2014 Dogecoin wallet",
-      "text_zh": "又有神人hack返自己2014年嘅狗狗幣wallet 拎返730,000 DOGE 大約60K USD 問應該點投資 又係學費post 真實我哋個個都係咁 想睇下有冇神話可以跟🙏",
-      "text_en_b1": "An anon just hacked into his own Dogecoin wallet from 2014 and recovered 730,000 DOGE. That is about $60,000 USD today. He is asking /biz/ what to invest in. He thinks real estate might be smart in his area. He wants ideas. Classic dream ticket story. Will he actually cash out or ape into another shitcoin?",
+      "topic_zh": "撈返舊DOGE",
+      "topic_en": "Old DOGE wallet recovered",
+      "text_zh": "嘩 有冇人睇過今日biz個post 有個仆街hack返自己2014個dogecoin wallet 入面有73萬個DOGE 即係大概6萬美金 仲問緊應該投資咩好 lol 我自己prop firm仲輸緊 睇到真係喊 命運真係撚樣",
+      "text_en_b1": "Alrighty, in one of the best moments of my life, I managed to hack into my own dogecoin wallet from 2014. It held 730,000 DOGE that I had forgotten the password to. That is about $60,000 USD. I feel it can become a lot more with prudent investments. Real estate is pricy in my area, so a fixer-upper ready for sale may work.",
       "source_url": "https://boards.4chan.org/biz/thread/62646317",
-      "source_hint": "/biz/ thread about recovering a 2014 DOGE wallet",
+      "source_hint": "An anon recovers a 2014 DOGE wallet holding 730k coins",
       "signal": {
         "asset": "DOGE",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post is a windfall question, not an actionable trade setup"
+        "rationale": "Anon sitting on 730k DOGE from 2014, holding for upside, no defined exit"
       },
-      "text_en_b2": "An anon managed to hack back into his long-abandoned Dogecoin wallet from 2014, recovering roughly 730,000 DOGE worth around $60K at current rates. He has been flooding /biz/ asking what to do with it, leaning toward real estate despite being uncertain. The thread suspects he will either cash out sensibly or recklessly ape into another meme coin, because this exact storyline plays out every cycle. A textbook lucky-ticket post.",
-      "text_en_c1": "An anonymous user on /biz/ has reportedly cracked his long-dormant 2014 Dogecoin wallet, successfully extracting roughly 730,000 DOGE valued at approximately $60,000 USD. Rather than converting the windfall to fiat, he is soliciting investment advice, leaning toward local real estate opportunities on the grounds that property values in his region remain buoyant. The thread has predictably devolved into the familiar lottery-ticket rhetoric that haunts the board whenever someone uncovers forgotten coins. Sceptics wonder aloud whether he will exercise restraint and cash out responsibly, or, as has become customary with such windfalls, ape impulsively into another speculative shitcoin and watch the gains evaporate within weeks.",
-      "text_en_c2": "An anonymous poster has reportedly circumvented his own dormant 2014 Dogecoin wallet, extracting roughly 730,000 DOGE, presently valued at approximately sixty thousand US dollars. He now solicits investment counsel from /biz/, musing that local real estate might prove prudent given regional price trajectories, though he remains palpably uncertain whether to liquidate and crystallise the gain or rotate into speculative altcoins. The thread bears every hallmark of the archetypal windfall post: years of forfeiture followed by serendipitous retrieval, and an earnest request for guidance from strangers whose fiduciary credentials are, charitably speaking, dubious. Whether this individual exits gracefully or succumbs to the gravitational pull of another degen allocation remains the operative question, and the board watches with the detached amusement of seasoned spectators who have witnessed this precise melodrama enacted countless times.",
-      "audio_url": "audio/2026-09-01/clip-biz-doge-wallet-2026.mp3"
+      "text_en_b2": "This might genuinely be one of the best moments of my life so far, since I finally managed to crack my own dogecoin wallet from 2014. It held around 730,000 DOGE that I had completely forgotten the password to, worth roughly $60,000 USD at current prices. Real estate is brutal in my area, so a fixer-upper I could flip quickly sounds ideal, although I am open to other suggestions too. What would you do, /biz/?",
+      "text_en_c1": "Against all odds, I somehow managed to regain access to a dormant dogecoin wallet I had originally set up back in 2014, which still held a staggering 730,000 DOGE that I had long since forgotten about. At prevailing market rates, that amounts to roughly $60,000 USD, and if I exercise any degree of prudence with how I deploy the capital, I am convinced the figure could appreciate considerably. Real estate in my region remains prohibitively expensive, so a modestly priced fixer-upper that I could subsequently flip might constitute the most viable avenue. Thoughts, /biz/?",
+      "text_en_c2": "In what can only be described as a serendipitous turn of fate, I somehow managed to crack the password to my own dormant 2014 Dogecoin wallet, an asset I had long since written off as irretrievably lost to the digital ether. Lo and behold, the balance read a scarcely believable 730,000 DOGE, which, given the prevailing market rate, translates to roughly sixty thousand United States dollars. Given that property prices in my locale remain prohibitively inflated, I am seriously entertaining the notion of acquiring a modest fixer-upper, doing it up, and flipping it for a respectable profit.",
+      "audio_url": "audio/2026-09-03/clip-t1-doge-wallet.mp3"
     },
     {
-      "id": "biz-btc-pump-fomo-2026",
+      "id": "t2-btc-chase",
       "category": "trading",
-      "topic_zh": "BTC pump完先追",
-      "topic_en": "BTC pump chase",
-      "text_zh": "wtf BTC 橫盤幾星期冇人理 然後一日pump 15% 啲人先衝入去 點解永遠都係咁 真實我哋都係fomo入場嘅廢物 lol 🧐",
-      "text_en_b1": "BTC does literally nothing for weeks and nobody cares. Then it pumps 15% in a day and suddenly everyone wants in. Why does the crowd always chase the move after it has already happened? You ignored it at 60k, now you FOMO at 70k. The pattern never changes. Classic late-stage FOMO behaviour on /biz/.",
+      "topic_zh": "BTC泵完先追",
+      "topic_en": "BTC buying after pump",
+      "text_zh": "今日biz有人問點解個個都係BTC升咗15%之後先衝 入嚟 我自己都係廢物 永遠都係後知後覺 個倉又係輸緊 命理話我今年唔應該trade 但我邊忍得住 thx",
+      "text_en_b1": "Why buy BTC after the pump? You watch BTC do nothing for weeks, then ignore it completely. Suddenly it pumps 15% and everyone wants in. Why does everyone want to buy after the move already happened? This came up on /biz/ today and it stings because half of us did exactly that.",
       "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ thread mocking retail FOMO after a BTC pump",
+      "source_hint": "Anons complain about chasing BTC after a 15% move",
       "signal": {
         "asset": "BTC",
-        "direction": "observation",
+        "direction": "neutral",
         "conviction": "low",
-        "time_horizon": "weeks",
+        "time_horizon": "days",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Thread is a critique of late FOMO entries; no specific setup"
+        "rationale": "Post-hoc complaint about chasing, no fresh setup, mostly FOMO regret"
       },
-      "text_en_b2": "BTC spent weeks consolidating sideways while /biz/ completely tuned out, then ripped 15% in a single day and suddenly every self-proclaimed permabull is rushing back in. The irony is staggering, because the same crowd ignored it at 60k and is now panic-buying at 70k. You cannot chase a move after it has already happened and expect to be early. It is the same FOMO pattern repeating endlessly.",
-      "text_en_c1": "Bitcoin spent several weeks consolidating within a narrow band while mainstream attention drifted elsewhere. Then, almost overnight, it surged roughly fifteen percent, and predictably, the same retail crowd that dismissed it at sixty thousand suddenly developed an insatiable appetite for exposure at seventy. The thread laments what appears to be a structural pathology in market psychology: capital consistently arrives after the move has already been made. Several anons observe that this pattern, whereby participants buy strength and ignore accumulation, has repeated across every previous cycle. Whether this constitutes terminal-stage FOMO or merely the usual late-February reshuffling remains, as ever, a matter of conviction.",
-      "text_en_c2": "Bitcoin's protracted consolidation, extending across several weeks of anaemic price action, elicited scarcely a murmur of interest from retail participants. The moment a fifteen-percent single-day ascent materialised, however, the commentariat materialised in droves, contritely enquiring whether entry was still feasible. This reflexive pattern, wherein investors studiously ignore accumulation beneath sixty thousand dollars only to capitulate to euphoria above seventy, has acquired the force of immutable market liturgy. The post captures, with admirable economy, the perennial asymmetry between capital deployment and contrarian conviction, and the respondents collectively diagnosed themselves as late-stage FOMO casualties. Whether any participant in such threads has ever timed a subsequent move competently remains an open empirical question, though the evidentiary record, as history suggests, is not encouraging.",
-      "audio_url": "audio/2026-09-01/clip-biz-btc-pump-fomo-2026.mp3"
+      "text_en_b2": "Why do people keep buying BTC after the pump? You watch it flatline for weeks on end, ignore it entirely, and the moment it finally jumps 15% everyone piles in. A thread on /biz/ brought this up today, and it stings because half of us did exactly that, myself included. Meanwhile my position is bleeding red and astrology insists I should not be trading this year, yet here I am anyway.",
+      "text_en_c1": "It is a question that recurs with almost wearying predictability: why does the retail crowd invariably feel compelled to chase Bitcoin only after it has already appreciated by some 15%? You watch the chart stagnate for weeks on end, dismiss it as boring, and look away, only for the moment you stop paying attention to be precisely when the breakout occurs. This was the topic on /biz/ today, and frankly it stings because half of us, myself included, fell squarely into that exact trap. Astrology warned me not to trade this year, yet discipline was never my strong suit.",
+      "text_en_c2": "A thread on /biz/ today raised a question that, for all its surface banality, cuts to the very heart of speculative psychology: why is it that retail participants invariably demonstrate such an exquisite talent for buying Bitcoin precisely after the substantial move has already materialised? The pattern is, by now, almost tediously familiar; weeks of consolidation elicit yawns and indifference, the charts stagnate, sentiment sours, and then, the moment a decisive fifteen percent rally crystallises, the very same cohort that dismissed the asset as moribund scrambles aboard with unseemly alacrity. It stings, I must confess, precisely because half of us, myself emphatically included, have committed this exact folly with metronomic regularity.",
+      "audio_url": "audio/2026-09-03/clip-t2-btc-chase.mp3"
     },
     {
-      "id": "g-tech-jobs-ai-proof-2026",
+      "id": "ai-hinton-radiology",
       "category": "tech/ai",
-      "topic_zh": "邊啲工AI搶唔走",
-      "topic_en": "AI-proof tech jobs",
-      "text_zh": "/g/ 問緊邊啲tech job AI未來十年搶唔走 真實我survey呢行都驚畀AI搞 但起碼考牌先算professional 唔想做code monkey 🙏",
-      "text_en_b1": "An anon on /g/ asks which tech jobs will survive the next decade. Software development is already getting hit by AI coding tools. Surveying and engineering fields with strict licensing are mentioned as safer. Manual trades, licensed professions, and hardware work seem more durable. White collar is not safe anymore.",
-      "source_url": "https://boards.4chan.org/g/thread/109690081",
-      "source_hint": "/g/ thread on AI-proof tech careers",
+      "topic_zh": "Hinton預言又錯",
+      "topic_en": "Hinton AI prediction wrong",
+      "text_zh": "g佬成日笑AI佬亂吹 Geoffrey Hinton 2016年話AI 5至10年內會取代放射科醫生 而家10年過咗 放射科醫生仲多咗 人工仲高咗 下一個輪到Elon出醜 講真我考牌都驚畀AI搶飯碗 但呢個case俾返啲信心我🙏",
+      "text_en_b1": "Snailcats win again. In 2016, the godfather of AI Geoffrey Hinton predicted that AI would replace radiologists within 5 years, maybe 10 years tops. It is now 10 years later and there are more radiologists now, in higher demand, making much higher salaries than in 2016. Next up to embarrass himself on the world stage: Elon Musk.",
+      "source_url": "https://boards.4chan.org/g/thread/109710294",
+      "source_hint": "Anons dunk on Hinton's 2016 radiologist prediction",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Career discussion thread, not a trade"
+        "rationale": "Cultural commentary on AI predictions, not a trade"
       },
-      "text_en_b2": "An /g/ poster asked which tech careers will remain viable once AI finishes eating the industry, and the responses clustered around licensing and physical work. Software development is already getting hammered by coding assistants, whereas surveying, engineering, and licensed trades require credentials AI cannot fake. The general takeaway is grim for white-collar workers, because anything knowledge-based is increasingly on the chopping block.",
-      "text_en_c1": "A thread on /g/ has resurfaced the perennial question of which technical professions remain defensible against the encroachment of generative AI over the coming decade. Software development, once considered the most insulated white-collar discipline, is now visibly eroding as coding assistants handle increasingly complex tasks. By contrast, licensed surveying, civil engineering, and the licensed trades appear considerably more durable, since regulatory barriers prevent algorithmic substitution. Hardware-oriented specialisations, plumbing, and electrical work are likewise cited as resilient categories. The implicit consensus, articulated with characteristic bluntness, holds that any field whose entry is gated by examinations rather than tutorials will likely outlast those that are not.",
-      "text_en_c2": "A protracted /g/ thread interrogates which technology-adjacent vocations might retain their market value over the coming decade, an inquiry animated by palpable professional anxiety. Software development, once regarded as fortress-proof, is already conceding ground to increasingly capable AI coding assistants, and the consensus gravitates toward regulated disciplines demanding licensure: surveying, civil engineering, electrical work. Manual trades and hands-on hardware specialisms, requiring embodied presence and legal certification, appear considerably more durable than cognitive desk work, which has been thoroughly commoditised. The implicit thesis, that credentialed expertise insulates practitioners from algorithmic substitution more effectively than raw technical fluency, carries a certain grim resonance, and respondents express, with varying degrees of equanimity, their resignation to a labour market wherein competence alone no longer confers competitive moats.",
-      "audio_url": "audio/2026-09-01/clip-g-tech-jobs-ai-proof-2026.mp3"
+      "text_en_b2": "Snailcats strike again. Back in 2016, the so-called godfather of AI, Geoffrey Hinton, confidently predicted that AI would replace radiologists within five years, possibly stretching to ten. It has now been a full decade, yet there are actually more radiologists than before, in greater demand and earning significantly higher salaries. That gives the rest of us licence to mock doomers. My guess for the next public embarrassment on the world stage: Elon Musk.",
+      "text_en_c1": "Snailcats triumph once more. Back in 2016, the so-called godfather of AI, Geoffrey Hinton, publicly predicted that radiologists would be rendered obsolete within a five-to-ten-year window as deep learning matured. Fast forward a decade and the reality could hardly be more damning for that forecast: the radiology workforce has expanded, demand for specialists has surged, and compensation has climbed appreciably relative to 2016 levels. If humiliation were a competitive sport, Elon Musk would appear to be the next contender queued up for a similar public reckoning.",
+      "text_en_c2": "Once again, the prognostications of our self-appointed AI savants have been comprehensively vindicated by the cold, indifferent passage of time. In 2016, Geoffrey Hinton, the so-called godfather of the field, declared with characteristic authority that artificial intelligence would render radiologists obsolete within a mere five years, perhaps stretching to a generous decade. A decade has now elapsed, and the radiologist, far from being consigned to the dustbin of professional history, has become more numerous, more sought-after, and considerably better remunerated than at the moment of Hinton's pronouncement. The cognitive dissonance required to maintain such confidently incorrect public positions remains, to my mind, one of the more extraordinary spectacles of our era. One suspects, rather uncharitably, that Elon Musk is merely biding his time before contributing his own memorable contribution to this venerable tradition.",
+      "audio_url": "audio/2026-09-03/clip-ai-hinton-radiology.mp3"
     },
     {
-      "id": "pol-anduril-luckey-2026",
+      "id": "hk-pol-misc",
       "category": "hk/news",
-      "topic_zh": "Anduril係咪吹水",
-      "topic_en": "Is Anduril vaporware",
-      "text_zh": "Anduril同Palmer Luckey /pol/ 話佢似Elon但得個吹字 真實工程做到嘢先算 HK咁細做乜都冇space 美國先係做嘢嘅地方 🧐",
-      "text_en_b1": "Anduril and Palmer Luckey get compared to pre-heel-turn Elon on /pol/. But the thread argues Anduril ships overhyped vaporware that fails under fire, citing Ukraine. At least Elon launched rockets and made a real EV. Why are right wingers sucking his dick when the delivery record is thin?",
-      "source_url": "https://boards.4chan.org/pol/thread/541759217",
-      "source_hint": "/pol/ thread trashing Anduril vs Elon",
+      "topic_zh": "NEET滅門慘劇",
+      "topic_en": "NEET family murder",
+      "text_zh": "pol版有個post 一個44歲NEET因為畀阿爸阿媽叫搬走 返去咗拎槍屠咗成家人 包括4個細路 同枱食飯就係咁冇晒 睇完好似被一盤冷水淋落個頭 30歲單身無屋企 個future真係唔知點寫",
+      "text_en_b1": "A 44-year-old NEET killed eight relatives, including four children, as they gathered for Sunday dinner in Billings, Montana, just weeks after his parents forced him to move out. A family member told AP the shooter was 44-year-old Alan Smith. Smith's parents had asked him to move out, but he returned on Sunday and opened fire on the family.",
+      "source_url": "https://boards.4chan.org/pol/thread/541861235",
+      "source_hint": "NEET kills family after being told to move out",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Political opinion thread, not a trade"
+        "rationale": "News tragedy, not a trade setup"
       },
-      "text_en_b2": "/pol/ is drawing parallels between Palmer Luckey and a pre-heel-turn Elon, although sceptics insist Anduril ships little beyond overhyped vaporware that falls apart under real conditions, citing Ukraine as evidence. At least Elon actually delivered rockets and a functioning EV, whereas Luckey is still coasting on vibes and aggressive marketing. The thread wonders why right-wing circles keep sucking him off when his delivery record remains paper-thin.",
-      "text_en_c1": "Anduril and its founder Palmer Luckey have drawn comparisons on /pol/ to a pre-crisis Elon Musk, a parallel the thread ultimately finds uncharitable. Whereas Musk, whatever his subsequent eccentricities, demonstrably launched orbital rockets and delivered a mass-market electric vehicle, Luckey's operation allegedly dispatches vapourware that collapses the moment it encounters genuine combat conditions, with Ukraine cited as the cautionary exemplar. The thread contends that investors are conflating political aesthetics with engineering substance, and questions why certain right-leaning commentators persist in championing a figure whose tangible delivery record, relative to the volume of capital deployed, remains conspicuously thin. Hong Kong's constraints are invoked for contrast.",
-      "text_en_c2": "Anduril and its founder Palmer Luckey have attracted comparisons, on /pol/, to a pre-canonical Elon Musk, though the parallel collapses under even cursory scrutiny. The thread contends that Anduril's battlefield deliverables, assessed against operational data from Ukraine, consist largely of vapourware dressed in venture-capitalist mythology, whereas Musk, whatever his subsequent eccentricities, did propel functional rockets skyward and serialise a credible electric vehicle. The respondents, themselves self-identified right-wingers, are gently rebuked for succumbing to founder-worship untethered from performance metrics. Hong Kong's diminutive geography renders industrial ambition structurally untenable, the post concludes, leaving the United States, with its sprawling procurement apparatus and vast operational theatre, as the only venue wherein such ventures can either vindicate themselves or, as here, spectacularly fall short.",
-      "audio_url": "audio/2026-09-01/clip-pol-anduril-luckey-2026.mp3"
+      "text_en_b2": "A 44-year-old NEET allegedly shot dead eight relatives, including four children, while they were gathered for Sunday dinner in Billings, Montana. Family members identified the gunman as 44-year-old Alan Smith, who had only recently been forced by his parents to move out. He returned on Sunday and opened fire on everyone at the table. Honestly, the whole thing left me feeling completely numb, like someone had dumped ice water over my head.",
+      "text_en_c1": "A truly harrowing item surfaced on /pol/ today. In Billings, Montana, a 44-year-old NEET who had recently been compelled by his parents to vacate the family home returned during a Sunday dinner gathering and opened fire, killing eight relatives, four of whom were children. A family member confirmed to the Associated Press that the shooter has been identified as Alan Smith. The details, which read like something out of a tragedy, are the sort that leave you staring blankly at the screen for an uncomfortably long while afterwards.",
+      "text_en_c2": "A particularly grim thread on /pol/ has been doing the rounds, detailing a tragedy that defies easy comprehension. A forty-four-year-old NEET, having been pressed by his parents to vacate the family home, allegedly returned to the property during a routine Sunday dinner and proceeded to gun down eight relatives, among them four children. The sheer, nauseating banality of the setting, a family gathered around a table sharing a meal, only amplifies the horror, transforming what ought to be the most innocuous of domestic rituals into something grotesque and irreparable. The shooter has been identified by an AP source as Alan Smith. As a thirty-something singleton navigating the precarious straits of a deeply uncertain future, I found the account viscerally unsettling, a cold shower of the most unwelcome variety.",
+      "audio_url": "audio/2026-09-03/clip-hk-pol-misc.mp3"
     },
     {
-      "id": "v-dlss5-anime-2026",
+      "id": "lol-monolith-oot",
       "category": "lol/esports",
-      "topic_zh": "DLSS5毀咗動畫",
-      "topic_en": "DLSS 5 destroys anime art",
-      "text_zh": "/v/ 話DLSS5根本毀咗anime art style 啲人仲話係kino wtf 真實我打LOL開DLSS已經夠恐怖lol 畫風變晒 🧐",
-      "text_en_b1": "DLSS 5 dropped and /v/ is losing its mind. Anons say it completely butchers anime art style. Faces look smeared, lines look melted, and cel shading is gone. Some users unironically call it kino and get roasted. Classic NVIDIA upgrade that nobody asked for. Modders will probably disable it in two weeks.",
-      "source_url": "https://boards.4chan.org/v/thread/746586609",
-      "source_hint": "/v/ thread raging about DLSS 5 anime art",
+      "topic_en": "Zelda OoT remake leak",
+      "topic_zh": "OoT Remake開發商",
+      "text_zh": "v版有人貼Norwegian retailer Elkjop 寫Monolith Soft負責Zelda OoT Remake Switch 2版 而家又多一個evidence 我寧願打LOL S15都唔想再等Zelda出lol btw LPL今日有冇人睇",
+      "text_en_b1": "A Norwegian retailer lists Monolith Soft as the developer for the Zelda Ocarina of Time remake. The Elkjop product page shows the title for Switch 2, code 1115379. This adds to earlier evidence like the leaked controller logo matching Microsoft's and their recruitment history. Nintendo has not confirmed anything yet.",
+      "source_url": "https://boards.4chan.org/v/thread/746744869",
+      "source_hint": "Elkjop listing leaks Monolith Soft as OoT remake dev",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming tech complaint, not a trade"
+        "rationale": "Game rumor, not a trade"
       },
-      "text_en_b2": "DLSS 5 has dropped and /v/ is absolutely losing it, because anons say the new upscaling completely butchered anime art styles. Faces appear smeared, linework looks melted, and the cel-shading is essentially gone. Some users genuinely called it kino and got mercilessly roasted for it. Modders will probably patch it out within a fortnight, although for now the community is fuming over an upgrade nobody asked for.",
-      "text_en_c1": "NVIDIA's DLSS 5 has detonated on /v/, where anons argue that the upscaling pipeline effectively obliterates the aesthetic integrity of anime-style rendering. Facial features reportedly appear smeared, line work resembles something that has softened under heat, and the crisp cel-shading that defines the medium has been homogenised into a plasticky approximation. A handful of users, perhaps ironically, perhaps in earnest, have pronounced the result kino, an assessment that has predictably attracted considerable scorn. The broader sentiment holds that this constitutes yet another unsolicited intervention by NVIDIA into visual presentation. Modders, historically responsive to such controversies, will almost certainly furnish a toggle within a fortnight.",
-      "text_en_c2": "The release of DLSS 5 has occasioned, on /v/, a collective convulsion of indignation that has not abated since the driver's deployment. Anons contend, with characteristic vehemence, that the upscaling algorithm systematically mutilates anime aesthetics, transforming crisp cel-shading into an indistinct smear and rendering facial features indistinguishable from melted wax. A minority faction has unironically pronounced the resultant visual chaos kino, thereby inviting the customary ritualised evisceration from the broader community. NVIDIA's upgrade pipeline, it is generally conceded, addresses problems that scarcely existed whilst generating grievances that manifestly do. Modders, the thread confidently predicts, will have the offending feature neutered within a fortnight, restoring the integrity of hand-drawn linework and consigning this particular intervention to the canonical archive of well-intentioned but unwelcome revisions.",
-      "audio_url": "audio/2026-09-01/clip-v-dlss5-anime-2026.mp3"
+      "text_en_b2": "A Norwegian retailer, Elkjop, has listed Monolith Soft as the developer behind a Zelda Ocarina of Time remake heading to Switch 2, product code 1115379. This lines up with earlier evidence, including a leaked controller logo that matches Monolith's branding and their recruitment history. Nintendo has stayed silent so far, as usual, but honestly I would rather grind LoL Season 15 than wait another decade for another Zelda release.",
+      "text_en_c1": "Yet another piece of corroborating evidence has emerged regarding the long-rumoured Zelda Ocarina of Time remake. The Norwegian retailer Elkjop has, apparently, listed Monolith Soft as the developer of the Switch 2 title under product code 1115379, which dovetails neatly with the previously leaked controller branding and the studio's historical recruitment patterns. Nintendo, characteristically, has declined to issue any official confirmation. Personally, I would rather grind out another season of League than wait indefinitely for this remake to materialise.",
+      "text_en_c2": "Further corroboration has emerged regarding the long-rumoured Ocarina of Time remake, and frankly, my enthusiasm for the project is outweighed only by my dwindling patience. The Norwegian retailer Elkjop has, in a listing subsequently flagged across /v/, attributed development to Monolith Soft, with the product page specifying a Switch 2 SKU under catalogue code 1115379. This ought to be read in conjunction with the leaked controller artwork, which bore a striking resemblance to Microsoft's design language, alongside the studio's well-documented recruitment patterns. Nintendo, predictably, has offered no official comment. One can only hope the wait proves worth it, though at this juncture, personally, I would sooner endure the slings and arrows of League of Legends Season 15 than endure yet another indeterminate development cycle for a remaster of a twenty-seven-year-old masterpiece.",
+      "audio_url": "audio/2026-09-03/clip-lol-monolith-oot.mp3"
     },
     {
-      "id": "fit-cut-fatigue-2026",
+      "id": "fit-physique-advice",
       "category": "mma/fitness",
-      "topic_zh": "Cut到冇力舉鐵",
-      "topic_en": "Cutting kills my lifts",
-      "text_zh": "/fit/ 條友cut緊45磅但冇力舉鐵 squat個陣心口好似被人強姦 真實我明 考牌壓力大到食唔落 想搵肥仔信一齊gym傾下 lol 🙏",
-      "text_en_b1": "An anon on /fit/ lost 45 pounds in 3 months but lost muscle and strength along the way. He says gym sessions wreck him because he cannot eat enough. Squats make his heart feel like it is dying. He has to force feed himself every morning and still cannot finish whole meals. Classic hard cut suffering.",
-      "source_url": "https://boards.4chan.org/fit/thread/77480573",
-      "source_hint": "/fit/ thread about losing strength on a hard cut",
+      "topic_en": "Physique split advice",
+      "topic_zh": "點樣再修細啲",
+      "text_zh": "fit佬post自己 physique 5呎9 160磅 操咗2年 由140瘦肥佬增到200磅再cut返落嚟 膊頭為主 因為骨架細 飲食160P 272C 57F 2293卡 我連去gym嘅時間都無 肥仔信日日叫我跟佢一齊操",
+      "text_en_b1": "Picrel is my physique. I am 5'9, 160 lbs. I have been lifting for 2 years, started at 140 lbs skinnyfat, bulked to 200 lbs, then cut to here. My frame is not good so I put extra emphasis on shoulders. Diet: 160p, 272c, 57f for 2293 calories per day, 10k+ steps, cardio sometimes. Looking for split advice.",
+      "source_url": "https://boards.4chan.org/fit/thread/77493504",
+      "source_hint": "Fit anon asks for split advice after a 60lb cut",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Bodybuilding cutting story, not a trade"
+        "rationale": "Lifestyle post, not a trade"
       },
-      "text_en_b2": "An /fit/ anon dropped 45 pounds in three months but is now paying the price in crushed lifts and brutal fatigue. He describes squats as feeling like his heart is being squeezed out of his chest, because his caloric deficit leaves him running on fumes. He force-feeds himself every morning yet still cannot finish full meals. Classic hard-cut suffering, compounded by exam stress killing his appetite.",
-      "text_en_c1": "An anon on /fit/ has shed roughly forty-five pounds in three months, yet the accomplishment has come at a considerable physiological cost: his lifts have collapsed, and he describes each gym session as a calculated act of self-destruction. Compound movements, particularly squats, induce a cardiac sensation he likens to thoracic trauma. The underlying culprit appears to be a caloric deficit so aggressive that even force-feeding first thing in the morning fails to bring him to maintenance. He cannot finish whole meals despite deliberate effort. The thread resonates with users who recognise the brutal arithmetic of hard cuts, where visible fat loss and measurable strength loss march in uncomfortable lockstep.",
-      "text_en_c2": "A /fit/ participant, having executed an aggressive cut of forty-five pounds across a compressed three-month window, now finds himself physiologically and psychologically depleted, a casualty of the caloric deficit's unforgiving arithmetic. He reports that compound lifts, particularly squats, induce cardiovascular distress of a severity suggesting imminent mortality, and his gastrointestinal capacity has contracted to the point where he can no longer complete standard meals despite ritualised morning force-feeding. The post functions as both confessional and cautionary tale, illustrating the well-documented inverse correlation between aggressive fat loss and performance retention, and the respondents, drawing upon their own accumulated suffering, have offered the customary cocktail of empathy, unsolicited macros, and the bleak reminder that maintenance phases exist precisely to forestall such circumstances, advice that, however accurate, arrives predictably late.",
-      "audio_url": "audio/2026-09-01/clip-fit-cut-fatigue-2026.mp3"
+      "text_en_b2": "Picrel is what I look like after two years of consistent lifting. I am 5'9, sitting at 160 lbs, having started as a 140 lb skinnyfat mess, bulked up to 200, and cut back down to where I am now. Because my frame is on the smaller side, I have been prioritising shoulder work to build out my proportions. Current diet runs 160P, 272C, 57F, around 2293 calories daily. Looking for split advice.",
+      "text_en_c1": "Pictured is my current physique after two years of fairly consistent effort. I stand 5'9 and currently weigh in at 160 lbs, having begun my journey at a rather unremarkable 140 lbs in a decidedly skinnyfat state, bulked aggressively up to 200 lbs, and subsequently cut back down to where I am now. Given that my frame is on the narrower side, I have deliberately prioritised shoulder development to create the illusion of width. My current nutrition sits at approximately 160g protein, 272g carbohydrates and 57g fat for a daily intake of 2,293 calories, supplemented by ten thousand-plus steps and occasional cardio. I would welcome any suggestions regarding split optimisation.",
+      "text_en_c2": "Pictured is the rather unremarkable result of two years spent intermittently but earnestly pursuing the iron game, a journey whose vicissitudes I shall now inflict upon the assembled readership. My measurements, for the morbidly curious, stand at five foot nine and a comparatively modest one hundred and sixty pounds, a figure arrived at via the well-trodden path from a thoroughly unenviable skinnyfat baseline of one hundred and forty pounds, followed by a fairly aggressive bulk to two hundred, and an altogether more measured cut back down to the present. Given that my skeletal frame remains stubbornly narrow despite every conceivable assault upon it, I have elected to accord disproportionate priority to shoulder development, seeking through sheer volume of work to manufacture the optical illusion of breadth.",
+      "audio_url": "audio/2026-09-03/clip-fit-physique-advice.mp3"
     },
     {
-      "id": "a-gundam-hathaway-2026",
+      "id": "a-raildex-plans",
       "category": "anime/culture",
-      "topic_zh": "Hathaway駕駛員",
-      "topic_en": "Hathaway cockpit crush",
-      "text_zh": "/a/ 班宅宅睇完Gundam Hathaway 又想要個tomboy mobile suit mechanic喺狹窄駕駛艙同佢一齊做嘢 lol 我都想要 真實考牌都未搞掂 諗埋呢啲 🙏",
-      "text_en_b1": "Gundam: Hathaway TSONC just dropped and /a/ is having a meltdown. Anons demand a tomboy mobile suit mechanic who busily works inside a cramped cockpit with them. Cosplayers are already posting concept art. The Tomino flavour is strong and the thirst posts are overflowing. Hathaway fans are unhinged as always.",
-      "source_url": "https://boards.4chan.org/a/thread/290569832",
-      "source_hint": "/a/ thirst thread for Higgsway mech girl",
+      "topic_zh": "Raildex點算好",
+      "topic_en": "Raildex franchise plans",
+      "text_zh": "a版Raildex post 有個話Railgun完咗 之後plan收晒所有英文實體版 連Index漫畫完都唔再理 認真講我連打機睇動漫嘅時間都冇 日日對住HKIE書 命理話我今年忌玩 但我都係想過下癮🧐",
+      "text_en_b1": "Now that Railgun is over, what are your personal plans with this franchise? Me, I am going to gather up the physical English copies of every series: Railgun, Astral Buddy, Accelerator, Mental Out, and Index. Once the Index manga is done, I am washing my hands of this franchise. Pic related, just got this volume.",
+      "source_url": "https://boards.4chan.org/a/thread/290448121",
+      "source_hint": "Anon's plan to collect Raildex English volumes",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime thirst thread, not a trade"
+        "rationale": "Fandom chat, not a trade"
       },
-      "text_en_b2": "Gundam: Hathaway's Flash dropped and /a/ has completely lost its collective mind, with anons demanding a tomboy mobile suit mechanic who busily tinkers inside their cramped cockpit during operations. Cosplayers have already begun posting fresh concept art across the thread, and the Tomino flavour is off the charts. Hathaway fans remain deeply unhinged as always, churning out thirst posts at an alarming rate while the rest of us are still studying.",
-      "text_en_c1": "Gundam: Hathaway has prompted what can only be described as a collective psychotic episode on /a/, where anons have fixated upon the prospect of a tomboyish mobile suit mechanic, clad in grease-stained coveralls, labouring diligently within the confines of a cramped cockpit alongside them. Concept artists have already begun circulating speculative illustrations, each rendering more elaborate than the last. The Tomino-inflected romanticism of the source material, with its suffocating interiors and morally compromised protagonists, appears to have catalysed an outpouring of longing that exceeds the modest narrative warrant. The thread's tonal register oscillates between earnest yearning and self-aware absurdity, which is, of course, par for the course.",
-      "text_en_c2": "Theatrical release of Gundam: Hathaway has induced, on /a/, the customary cognitive malfunction that attends Tomino-adjacent properties, with the commentariat swiftly pivoting from narrative analysis to demands for a tomboyish mobile suit mechanic whose duties would, apparently, require her prolonged residence within the protagonist's cramped cockpit. Cosplayers have already begun circulating concept art of considerable ambition, and the thirst posts have attained a density that threatens to overwhelm the substantive discussion. The thread encapsulates, with admirable precision, the particular intersection of mecha fetishism and unauthorised yearning that defines the board's relationship with the franchise, and the respondents, whilst ostensibly critiquing character dynamics, are transparently engaged in elaborate speculative worldbuilding wherein their professional certifications, conspicuously absent, would somehow prove irrelevant.",
-      "audio_url": "audio/2026-09-01/clip-a-gundam-hathaway-2026.mp3"
+      "text_en_b2": "Now that Railgun has wrapped up, I am personally planning to track down every English physical release in the franchise: Railgun, Astral Buddy, Accelerator, Mental Out, and Index. Once the Index manga finishes, though, I am essentially done with the series altogether. Between grinding through HKIE textbooks and having zero time for games or anime, my guilty pleasure has basically evaporated. At least I finally picked up this volume in the picture.",
+      "text_en_c1": "Now that the Railgun manga has officially concluded, I find myself compelled to take stock of what remains of this sprawling franchise and, more importantly, decide where to channel whatever lingering affection I still harbour for it. My own plan, which I suspect will prove rather costly, is to methodically acquire every available English-language physical release: Railgun, Astral Buddy, Accelerator, Mental Out, and of course Index. Once that final Index volume sees print, however, I intend to wash my hands of the lot entirely. The pictured volume arrived just yesterday, and I could not be more pleased.",
+      "text_en_c2": "With the Railgun arc having at last drawn to a close, a thread on /a/ solicited reflections on personal disposition toward the franchise, and the responses, predictably, ranged from the dutifully nostalgic to the openly exasperated. My own intentions, for what they are worth, involve the systematic accumulation of every available English-language physical volume, encompassing not merely the eponymous Railgun but also Astral Buddy, the Accelerator spinoff, Mental Out, and, naturally, the original Index manga in its entirety. Once that particular wellspring runs dry, however, I intend to divest myself entirely; the franchise, for all its considerable charms, has long since ceased to justify the emotional investment it demands.",
+      "audio_url": "audio/2026-09-03/clip-a-raildex-plans.mp3"
     }
   ]
 }
