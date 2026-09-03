@@ -4,38 +4,38 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "trade-doge-hack-01",
+      "id": "biz-doge-hack-001",
       "category": "trading",
-      "topic_zh": "撈返老狗幣",
-      "topic_en": "DOGE wallet hack",
-      "text_zh": "條仆街竟然hack返自己2014年個DOGE wallet，730,000 DOGE，值60K USD。仲問點投資，現實真係… 我個倉都輸緊，睇到都酸 🧐",
-      "text_en_b1": "A /biz/ poster says they hacked into their own 2014 Dogecoin wallet that held 730,000 DOGE. That is about 60,000 dollars, and they think it could become much more with prudent investments. The OP is asking /biz/ for advice, mentioning real estate fixer-uppers in their area as one possible move.",
+      "topic_zh": "DOGE舊銀包",
+      "topic_en": "Doge Wallet Hack",
+      "text_zh": "有4仔連登狗2014年DOGE銀包都hack返入去，730,000粒，即係6萬美金，問點投資好。ok 我啲prop firm都未過，睇人哋執到金真係wtf。",
+      "text_en_b1": "An anon hacked into his own 2014 Dogecoin wallet and recovered 730,000 DOGE, worth about $60,000 USD. He is now asking /biz/ where to invest the money, since real estate is too expensive in his area. He thinks a fixer-upper might work, but wants suggestions from the board.",
       "source_url": "https://boards.4chan.org/biz/thread/62646317",
-      "source_hint": "/biz/ OP recovers forgotten 2014 DOGE wallet with 730k coins",
+      "source_hint": "/biz/ OP recovers 730k forgotten DOGE",
       "signal": {
         "asset": "DOGE",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP holding recovered 2014 DOGE stash implies long-term DOGE accumulation thesis"
+        "rationale": "OP is a recovery story plus alloc question, no directional setup"
       },
-      "text_en_b2": "A /biz/ poster claims to have hacked back into their own dormant 2014 Dogecoin wallet, unlocking roughly 730,000 DOGE — currently valued at around 60K USD. Rather than just holding, they're asking the board for investment advice and specifically floated the idea of sinking proceeds into local real estate fixer-uppers. The audacity of bricking a nine-year-old seed phrase and immediately pivoting to property speculation is, frankly, something else. Meanwhile, the rest of /biz/ is bleeding out on leveraged plays, so watching this unfold is bittersweet.",
-      "text_en_c1": "A /biz/ poster claims to have regained access to a dormant 2014 Dogecoin wallet containing roughly 730,000 DOGE, presently valued at approximately 60,000 USD. Rather than simply liquidating the position, the OP is soliciting investment counsel from the board, entertaining the notion of deploying a portion into local real estate fixer-uppers. What makes the thread particularly galling is the disconnect: here is someone who effectively manufactured 60K out of thin air by recovering lost keys, yet still defers to anons for financial guidance. Meanwhile the broader retail crowd watches positions bleed, and the only consolation seems to be the grim irony of it all.",
-      "text_en_c2": "A poster on /biz/ claims to have regained access to a long-dormant 2014 Dogecoin wallet containing roughly 730,000 DOGE, presently valued at approximately sixty thousand US dollars. Rather than liquidating, the OP entertains the notion that judicious allocation could compound the position into something considerably more substantial. They solicit investment counsel from the board, floating local real estate fixer-uppers as a plausible first deployment. The thread captures a familiar retail fantasy: dormant crypto reanimated, a modest windfall suddenly recast as seed capital, and the subsequent scramble for direction from an audience whose advice, historically, has proven worthless at best and ruinous at worst.",
-      "audio_url": "audio/2026-09-03/clip-trade-doge-hack-01.mp3"
+      "text_en_b2": "An anon on /biz/ managed to crack his own long-dormant 2014 Dogecoin wallet and recover roughly 730,000 DOGE, which works out to around $60,000 at current prices. Although the figure sounds modest, he's treating it as a windfall and is now crowdsourcing investment ideas from the board. Because property is out of reach locally, he's leaning toward a fixer-upper, though he's clearly torn between playing it safe and chasing a quick return.",
+      "text_en_c1": "An anonymous poster on /biz/ has regained access to a dormant Dogecoin wallet originally set up back in 2014, recovering approximately 730,000 DOGE, which at prevailing rates translates to roughly $60,000 USD. Now that the coins are finally liquid, the thread has pivoted to investment strategy, particularly given that local property prices in his region remain prohibitively high. He is weighing whether a fixer-upper property might offer reasonable returns, though other anons are weighing in with alternative allocations. The general sentiment oscillates between cautious optimism and disbelief that an 11-year-old forgotten wallet has suddenly yielded a meaningful windfall for someone who has evidently struggled with prop firm evaluations up to…",
+      "text_en_c2": "An anonymous /biz/ user has reportedly regained access to a Dogecoin wallet left untouched since 2014, recovering approximately 730,000 DOGE, presently valued at around US$60,000. Rather than treating the windfall as an occasion for unbridled celebration, he has solicited investment advice from the board: local property prices are prohibitively high, although he believes that a dilapidated property in need of renovation might still prove viable after a properly scrutinised appraisal. The thread’s response is less a coherent portfolio strategy than a chorus of half-serious proposals, black humour, and warnings that cryptocurrency’s notorious volatility makes financial certainty elusive. The underlying irony is unmistakable: the money was recovered from an account effectively abandoned, yet deciding how to preserve it may prove considerably harder than obtaining it.",
+      "audio_url": "audio/2026-09-03/clip-biz-doge-hack-001.mp3"
     },
     {
-      "id": "trade-cybercab-02",
+      "id": "biz-cybercab-002",
       "category": "trading",
       "topic_zh": "Cybercab被動收入",
-      "topic_en": "Cybercab passive income",
-      "text_zh": "紅post叫我哋買Cybercab再放上Tesla Robotaxi network歎住收錢。講真，如果真係work，我已經唔使做surveying 🙏 等TMR做到full self drive先講啦",
-      "text_en_b1": "The OP is asking /biz/ to redpill them on buying Tesla Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. The pitch is basically: buy the car, let it earn for you while you do nothing.",
+      "topic_en": "Cybercab Robotaxi",
+      "text_zh": "有4仔問買Cybercab放落Tesla Robotaxi network做被動收入。lol 真係信晒Elon？btw 我自己CFD都輸緊，唔好再諗被動收入🙏",
+      "text_en_b1": "An anon on /biz/ is asking for a redpill on buying Tesla Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. He sees it as a way to make money while he sleeps. The thread is asking whether the unit economics and software rollout actually work.",
       "source_url": "https://boards.4chan.org/biz/thread/62648173",
-      "source_hint": "/biz/ thread asking about Cybercab passive income on Robotaxi",
+      "source_hint": "/biz/ thread on Tesla Cybercab passive income",
       "signal": {
         "asset": "TSLA",
         "direction": "long",
@@ -44,22 +44,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP implies long TSLA via Cybercab/Robotaxi network passive income thesis"
+        "rationale": "OP is buying Cybercab units, implicitly bullish on Tesla Robotaxi rollout"
       },
-      "text_en_b2": "The OP is begging /biz/ for a redpill on snapping up Tesla Cybercabs and parking them on Tesla's Robotaxi network to generate passive income while they keep their day job. In theory, it's brilliant: buy the vehicle, let it earn for you, do absolutely nothing. In practice, the whole scheme collapses unless Tesla pulls off full self-driving tomorrow morning. Until that actually happens, the OP is still grinding through surveying jobs to keep the lights on.",
-      "text_en_c1": "The OP wants /biz/ to lay out the case for purchasing Tesla Cybercabs and deploying them onto the Robotaxi network, thereby generating ostensibly passive income while the owner does absolutely nothing. Stripped of its marketing veneer, the pitch reduces to a familiar dream: acquire the asset, let it toil on your behalf. The catch, of course, is that such schemes only deliver if Tesla actually achieves robust full self-driving capability, which remains an open question. Until TMR demonstrably works, anyone entertaining this premise is essentially speculating on engineering promises rather than operational reality.",
-      "text_en_c2": "The OP is requesting that /biz/ redpill them on the merits of purchasing Tesla's forthcoming Cybercab and enrolling it in the Robotaxi network, ostensibly to generate passive income while the operator pursues other interests. The underlying pitch is seductively simple: acquire the vehicle, deploy it as an autonomous revenue-generating asset, and watch capital accumulate. The OP concedes, with evident resignation, that if such a scheme genuinely functioned they would already have dispensed with their surveying career. The implicit caveat is that Tesla must first deliver on full self-driving capability, a milestone which has proven consistently elusive.",
-      "audio_url": "audio/2026-09-03/clip-trade-cybercab-02.mp3"
+      "text_en_b2": "An anon on /biz/ is seriously weighing whether he should pick up a few Tesla Cybercabs and feed them into the Robotaxi network, hoping the whole thing runs itself while he sleeps. While the passive-income pitch does sound appealing on paper, the thread is busy tearing apart the unit economics, doubting the software rollout timeline, and generally roasting anyone who takes Elon Musk's promises at face value.",
+      "text_en_c1": "A /biz/ thread is soliciting input on the viability of purchasing Tesla's forthcoming Cybercab units and deploying them across the Robotaxi network as a form of passive income. The original poster frames the proposition as a hands-off revenue stream, ostensibly generating returns while he sleeps, and is requesting what he terms a redpill on the underlying unit economics. Other contributors have grown notably sceptical, questioning whether the software rollout will actually materialise on schedule or whether the projections constitute little more than speculative vapour. Given that I am currently bleeding money on CFD positions myself, I am hardly in a position to sermonise, though passive income remains a pipe dream.",
+      "text_en_c2": "An anonymous /biz/ contributor is seeking a characteristically forthright assessment of whether purchasing Tesla’s proposed Cybercab and placing it on the company’s Robotaxi network could constitute a credible source of largely passive income. His attraction is obvious: revenue generated by an autonomously operating asset, while its owner sleeps, offers an appealing answer to the perennial problem of making money without continuously trading time for money. The discussion, however, is properly sceptical, since the proposition rests not merely on vehicle demand but upon uncertain unit economics, regulatory approval, utilisation rates, maintenance liabilities, and the successful deployment of software that has not yet been demonstrated at fleet scale. Buying the car may be easy; earning a dependable return is another matter entirely.",
+      "audio_url": "audio/2026-09-03/clip-biz-cybercab-002.mp3"
     },
     {
-      "id": "tech-ai-hinton-03",
+      "id": "g-hinton-radiology-003",
       "category": "tech/ai",
-      "topic_zh": "AI取代論破產",
-      "topic_en": "Hinton radiologist miss",
-      "text_zh": "Hinton 2016話AI 5年內取代放射科醫生，10年後反而多人請、人工仲高過2016。lol 我考緊HKIE都仲未有AI搞到我冇得撈，應該安全🧐",
-      "text_en_b1": "In 2016 the godfather of AI, Geoffrey Hinton, predicted that AI would replace radiologists within 5 years, maybe 10 years tops. It is now 10 years later, and there are more radiologists, in higher demand, and earning much higher salaries than in 2016. The thread is asking who will embarrass himself next on the world stage, and the OP suggests Elon Musk.",
+      "topic_zh": "AI取代白領？",
+      "topic_en": "AI Job Replacement",
+      "text_zh": "4仔話Hinton 2016年話AI 5年內取代放射科醫生，10年後唔止無被取代，需求仲多咗、人工仲高。即係連Elon都會睇走眼，我考HKIE都未驚住俾AI搶🙏",
+      "text_en_b1": "An anon on /g/ points out that in 2016, the godfather of AI Geoffrey Hinton predicted AI would replace radiologists within 5 years. Ten years later, there are more radiologists now, in higher demand, and earning higher salaries than in 2016. The thread then says Elon Musk is next to embarrass himself on the world stage.",
       "source_url": "https://boards.4chan.org/g/thread/109710294",
-      "source_hint": "/g/ thread dunking on Hinton's radiologist prediction",
+      "source_hint": "/g/ thread on Hinton's failed radiologist prediction",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pure observation thread on AI hype, no trade"
+        "rationale": "Non-trading observation about AI hype"
       },
-      "text_en_b2": "Back in 2016, the so-called godfather of AI, Geoffrey Hinton, confidently predicted that radiologists would be replaced within five years — ten at the outside. A decade on, the field has done the exact opposite: more radiologists are employed than ever, demand has climbed, and salaries sit comfortably above 2016 levels. The thread is asking who will be the next public figure to embarrass themselves on a global stage, and the OP puts his money on Elon Musk.",
-      "text_en_c1": "Back in 2016, Geoffrey Hinton, widely regarded as a founding figure in modern AI, confidently forecasted that radiologists would be obsolete within five years and certainly within a decade. Fast forward ten years and the profession has not merely survived but flourished: demand has risen, headcount has expanded, and compensation has climbed well above 2016 levels. The thread invites speculation about which public figure will be hoist by their own hubris on the world stage next, with the OP nominating Elon Musk as a prime candidate for comparable embarrassment. Meanwhile, those pursuing engineering qualifications can take quiet comfort in their continued relevance.",
-      "text_en_c2": "In 2016 Geoffrey Hinton, widely venerated as the godfather of deep learning, forecast that artificial intelligence would displace radiologists within five years, and certainly within a decade. A decade on, the profession has not merely persisted but expanded: more radiologists are employed, demand has intensified, and compensation has markedly outpaced 2016 levels. The thread's provocation is which luminary will next overstate the obsolescence of skilled labour on a global stage. The OP volunteers Elon Musk as a candidate. For those presently pursuing professional qualifications, the episode offers a salutary reminder that apocalyptic timelines rarely survive contact with empirical reality.",
-      "audio_url": "audio/2026-09-03/clip-tech-ai-hinton-03.mp3"
+      "text_en_b2": "An anon on /g/ dug up a famous 2016 clip of Geoffrey Hinton insisting AI would wipe out radiology jobs within five years. Despite that bold prediction, demand for radiologists has actually climbed, and their salaries have grown substantially over the past decade. The thread takes grim satisfaction in the failed forecast and jokingly nominates Elon Musk as the next big name likely to embarrass himself.",
+      "text_en_c1": "A /g/ poster has resurfaced a 2016 prediction by Geoffrey Hinton, widely regarded as the godfather of modern AI, in which he confidently asserted that artificial intelligence would render radiologists obsolete within five years. Roughly a decade on, the profession has not merely survived but has flourished, with demand, headcount and remuneration all trending markedly upward relative to 2016 baselines. The thread interprets this as yet another high-profile forecast that has spectacularly failed to materialise, suggesting that even figures such as Elon Musk, whose public pronouncements on automation routinely overshoot reality, are liable to comparable embarrassment.",
+      "text_en_c2": "A /g/ user has drawn attention to a prediction made by Geoffrey Hinton, widely regarded as a principal architect of modern artificial intelligence, who said in 2016 that AI could replace radiologists within five years. Roughly a decade on, the profession has not vanished; indeed, radiologists remain in greater demand and command higher salaries than they did in 2016. The discrepancy is instructive, because it demonstrates how technological capability can be confused with immediate occupational displacement: an algorithm may perform a narrow diagnostic task with remarkable proficiency without assuming the legal accountability, contextual judgement, and capacity for anomalous-case reasoning that define the clinical role. The thread consequently treats Hinton’s forecast as another example of intelligent people overestimating how rapidly institutions adapt.",
+      "audio_url": "audio/2026-09-03/clip-g-hinton-radiology-003.mp3"
     },
     {
-      "id": "hk-news-religion-04",
+      "id": "pol-age-gap-004",
       "category": "hk/news",
-      "topic_zh": "棄多神拜一神",
-      "topic_en": "Abandoning polytheism",
-      "text_zh": "有人問點解人類放棄咗自己原有嘅信仰去信Abrahamic宗教。我都唔知點答，我淨係去六壬堂問sifu lol 🧐",
-      "text_en_b1": "The OP is asking /pol/ a short historical question: we abandoned our own older religions to worship Abrahamic faiths, so why? The OP calls the people who did this retarded. It is a basic history/migration of religion bait thread with no real answer offered.",
-      "source_url": "https://boards.4chan.org/pol/thread/541885402",
-      "source_hint": "/pol/ thread questioning the historical shift to Abrahamic religions",
+      "topic_zh": "年齡差輿論",
+      "topic_en": "Age Gap Debate",
+      "text_zh": "4仔/pol/問點解而家age gap突然變得好似犯咗罪咁。thx 我30單身一個都唔理，仲邊有心情理呢啲🧐 錢先係我而家嘅全部",
+      "text_en_b1": "An anon on /pol/ asks why age gaps in relationships have suddenly become so controversial. He is confused because older men dating younger women used to be normal in media and history. The thread debates whether this is a real cultural shift or just louder online voices.",
+      "source_url": "https://boards.4chan.org/pol/thread/541883625",
+      "source_hint": "/pol/ thread asking why age gaps are now controversial",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Cultural/historical rant thread, no trade"
+        "rationale": "Cultural observation, not a trade"
       },
-      "text_en_b2": "The OP is asking /pol/ a deceptively simple historical question: why did humanity abandon its older indigenous religions in favour of Abrahamic faiths? He labels the people who carried out that transition as retarded and seemingly expects the board to rationalise centuries of complex cultural, political, and migratory upheaval in a few lines. Predictably, the thread devolves into the usual bait with no coherent answer on offer. Meanwhile, the OP admits he'd rather consult a 六壬堂 sifu for life advice than parse this thread further.",
-      "text_en_c1": "The OP poses what purports to be a straightforward historical inquiry to /pol/: given that humanity possessed its own indigenous religious traditions, why did entire civilisations elect to abandon polytheistic systems in favour of Abrahamic monotheism? It is, fundamentally, a thread baiting for migration-of-religion discourse without offering any substantive thesis of its own. The OP conspicuously brands those who underwent such conversions with a dismissive slur, betraying more cultural grievance than genuine scholarly curiosity. No coherent argument materialises, and the thread predictably devolves into the usual tribal bickering that characterises such prompts.",
-      "text_en_c2": "The OP poses a deceptively simple historical question to /pol/: given that humanity possessed its own diverse and ancient religious traditions, what prompted the wholesale adoption of Abrahamic monotheism across successive civilisations? The query is rhetorical more than genuine, laced with contempt for those who, in the OP's phrasing, abandoned indigenous cosmologies wholesale. The thread elicits no substantive answer, functioning as bait rather than inquiry, and the OP candidly admits to having none of their own beyond deferring to a sifu at a local Luk Hang Tong. The exchange illustrates how grand civilisational questions frequently devolve into idle provocation.",
-      "audio_url": "audio/2026-09-03/clip-hk-news-religion-04.mp3"
+      "text_en_b2": "An anon on /pol/ is genuinely puzzled about why age-gap relationships have suddenly become such a contentious issue, given that older men paired with younger women were once celebrated in film, literature, and royal history. While some users argue this reflects a genuine cultural shift, others insist it's simply louder online discourse and not a real change in actual behavior.",
+      "text_en_c1": "An anonymous user on /pol/ has raised the question of why age-gap relationships have, seemingly overnight, acquired the status of a moral transgression in contemporary discourse. He observes that, historically, older men partnering with considerably younger women was a fixture of literature, cinema and royal lineage alike, and he struggles to identify the precise cultural mechanism that has transformed what was once unremarkable into something requiring public apology. Contributors are divided as to whether this reflects a genuine and substantive shift in societal values or merely the disproportionate amplification of vocal minorities online.",
+      "text_en_c2": "An anonymous /pol/ user has asked why age-disparate relationships, particularly those involving an older man and a younger woman, are now treated as though they were intrinsically scandalous. His confusion is rooted in the fact that such pairings were once commonplace throughout history, literature, and popular culture, where they were frequently presented without the moral disquiet that surrounds them today. The ensuing debate considers whether this apparent change reflects a substantive cultural reevaluation or merely the amplification of conspicuous online minorities. Some argue that increased awareness of power imbalances and vulnerabilities has made romantic age gaps more difficult to romanticise uncritically; others see the controversy as a contemporary fashion, promoted by discourse that confuses visibility with consensus.",
+      "audio_url": "audio/2026-09-03/clip-pol-age-gap-004.mp3"
     },
     {
-      "id": "lol-zelda-05",
+      "id": "v-lollipop-005",
       "category": "lol/esports",
-      "topic_zh": "OoT Switch 2 remake",
-      "topic_en": "Zelda OoT remake leak",
-      "text_zh": "又有Zelda OoT remake消息，今次話係Monolith Soft開發。如果出Switch 2我會買，返去美國之前要儲到100K先🧐",
-      "text_en_b1": "A Norwegian retailer has listed Monolith Soft as the developer for a Legend of Zelda Ocarina of Time remake on Switch 2. This fits with previous evidence such as the leaked controller logo matching what Microsoft uses, and the studio's recruitment history.",
-      "source_url": "https://boards.4chan.org/v/thread/746744869",
-      "source_hint": "/v/ thread on OoT Switch 2 remake with Monolith Soft leak",
+      "topic_zh": "Lollipop Chainsaw續作",
+      "topic_en": "Lollipop Chainsaw 2",
+      "text_zh": "Riot設計又俾人post上4仔/v/，btw Dragami Games宣佈Lollipop Chainsaw Sequel會喺TGS 2026出，仲有得試玩。lol 我都仲未上分，睇下game先👍",
+      "text_en_b1": "Dragami Games announced on X that the Lollipop Chainsaw Sequel will be both revealed and playable at TGS 2026. The original 2012 cult action game is getting a follow-up showfloor demo. The /v/ thread is collecting reactions and old fan memories ahead of the official trailer.",
+      "source_url": "https://boards.4chan.org/v/thread/746753159",
+      "source_hint": "/v/ thread on Lollipop Chainsaw Sequel at TGS 2026",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming leak discussion, no trade setup"
+        "rationale": "Gaming news, no trade"
       },
-      "text_en_b2": "A Norwegian retailer has apparently listed Monolith Soft as the developer for a Legend of Zelda: Ocarina of Time remake targeted at the Switch 2. This slots neatly into existing evidence: the leaked controller logo lines up with what Microsoft uses, and Monolith's recent recruitment drive points squarely at a project of this scale. If Nintendo officially announces it, the OP will bite the bullet and grab a Switch 2 — provided he manages to bank 100K before heading back to the States.",
-      "text_en_c1": "A Norwegian retailer has listed Monolith Soft as the developer credited on an upcoming Legend of Zelda: Ocarina of Time remake intended for Nintendo's Switch 2 platform. This listing dovetails with prior circumstantial evidence: leaked controller iconography allegedly mirroring Microsoft's design language, alongside the studio's documented recruitment patterns consistent with a large-scale revival project. Whether the listing constitutes a genuine catalogue error, a sanctioned teaser, or an outright fabrication remains to be seen, but the cumulative weight of corroborating signals has convinced many that an announcement is imminent. The OP, for his part, intends to purchase on launch.",
-      "text_en_c2": "A Norwegian retailer has inadvertently corroborated long-running rumours by attributing development of a Legend of Zelda: Ocarina of Time remake to Monolith Soft, presumably for Nintendo's forthcoming Switch 2 hardware. The listing aligns with prior circumstantial evidence: controller artwork previously leaked bearing markings consistent with Microsoft's submission documentation, and recruitment patterns from the studio suggesting an unannounced project of significant scope. The OP expresses cautious enthusiasm, indicating they would purchase on release, provided a separate financial milestone of one hundred thousand is reached before their planned repatriation to the United States. Whether the leak is credible or merely retailer guesswork remains unresolved.",
-      "audio_url": "audio/2026-09-03/clip-lol-zelda-05.mp3"
+      "text_en_b2": "Dragami Games revealed on X that the long-awaited Lollipop Chainsaw sequel will be both officially unveiled and made playable at Tokyo Game Show 2026, offering fans a first proper hands-on look. Since the 2012 original earned a devoted cult following despite middling sales, the announcement sent /v/ into a frenzy. The thread is already swapping nostalgic memories while bracing for whatever the new trailer delivers.",
+      "text_en_c1": "Dragami Games has officially confirmed via X that the long-anticipated Lollipop Chainsaw sequel will receive both its formal unveiling and a playable build at the Tokyo Game Show in 2026. The original 2012 title, which cultivated a devoted cult following on the strength of its irreverent tone and cheerleader-zombie premise, is consequently returning to the showfloor with a hands-on demo preceding whatever trailer assets are eventually released. The corresponding /v/ thread has accordingly morphed into a repository of reminiscences, with veteran fans unearthing decade-old screenshots, recounting the game's notoriously campy dialogue and speculating as to whether Dragami can recapture that particular brand of tongue-in-cheek absurdity that defined its predecessor.",
+      "text_en_c2": "Dragami Games has announced through X that the forthcoming Lollipop Chainsaw sequel will receive its first substantial public presentation at the Tokyo Game Show in 2026, where attendees will apparently have the opportunity not only to witness its unveiling but also to try the game for themselves. The news is particularly significant because the original 2012 release, though never an unqualified mainstream success, cultivated an unusually devoted following through its flamboyant premise, eccentric humour, and conspicuously committed performances. For those fans, the show-floor demonstration represents something more meaningful than routine product marketing: it is the first tangible indication that Dragami understands what made the original memorable rather than merely reviving its name as a disposable nostalgia commodity. Naturally, /v/ has begun assembling the customary mixture of enthusiasm, scepticism, and affectionate recollections.",
+      "audio_url": "audio/2026-09-03/clip-v-lollipop-005.mp3"
     },
     {
-      "id": "mma-fit-split-06",
+      "id": "fit-physique-006",
       "category": "mma/fitness",
-      "topic_zh": "膊頭優先攻略",
-      "topic_en": "Shoulder emphasis split",
-      "text_zh": "5呎9, 160lbs, lift咗兩年, 膊頭特別操因為骨架細。我飲食都好tight, 160p 272c 57f。肥仔信一定話我chur 🧐",
-      "text_en_b1": "The OP is 5 foot 9, 160 pounds, and has been lifting for 2 years, going from 140 skinnyfat up to 200 pounds and then cutting. Because his frame is not great, he puts extra emphasis on shoulders. His diet is dialed: 160p, 272c, 57f for about 2,293 calories, with 10k+ steps a day and some cardio, and he wants general advice on his split…",
+      "topic_zh": "5呎9身形檢討",
+      "topic_en": "Physique Check",
+      "text_zh": "4仔/fit/有位5呎9 160lb，兩年前由140lb skinnyfat開始，bulk到200lb再cut返落嚟。160p 272c 57f 2293kcal，10k步每日。睇完我都想問肥仔信點解我膊頭咁細🙏",
+      "text_en_b1": "A /fit/ anon is 5'9, 160lbs, lifting for 2 years. He went from 140lbs skinnyfat to 200lbs bulk, then cut to current. His frame is bad so he over-emphasizes shoulders. Diet is 160p, 272c, 57f at 2293 kcal, 10k+ steps daily, plus occasional cardio. He wants advice on his next split and physique priorities.",
       "source_url": "https://boards.4chan.org/fit/thread/77493504",
-      "source_hint": "/fit/ physique advice thread with detailed macros and shoulder focus",
+      "source_hint": "/fit/ thread asking for physique and split advice at 5'9 160lb",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness progress thread, no trade"
+        "rationale": "Lifestyle content, not a trade"
       },
-      "text_en_b2": "The OP stands at 5'9 and 160lbs after two years of consistent lifting, having clawed his way up from a 140lbs skinnyfat starting point to a 200lbs bulk before cutting down. Because his frame is on the narrower side, he prioritises shoulder development to fill out his proportions. His diet is dialed in tightly: 160p, 272c, 57f, totalling roughly 2,293 kcal, alongside 10k+ daily steps and some light cardio.",
-      "text_en_c1": "The OP stands 5'9 and currently weighs 160 pounds after two years of dedicated lifting, having traversed the arc from 140 pounds of skinnyfat bod through a 200-pound bulk and subsequent cut. Cognisant that his narrow frame is unlikely to carry visual mass without deliberate emphasis, he prioritises shoulder development within his programming. Nutrition is calibrated with notable precision: 160g protein, 272g carbohydrates, and 57g fat, totalling approximately 2,293 calories. Daily activity comprises 10,000-plus steps supplemented by modest cardio. He solicits feedback on his current split and seeks direction on what adjustments, if any, merit consideration going forward.",
-      "text_en_c2": "The OP stands five-foot-nine and weighs roughly 160 pounds, having accumulated two years of dedicated training since beginning at 140 in a textbook skinnyfat condition, before bulking to two hundred and methodically cutting back down. Cognisant of a narrower skeletal frame, he deliberately privileges shoulder development to broaden his silhouette. His nutritional regimen is precise: 160 grams of protein, 272 grams of carbohydrates, and 57 grams of fat, totalling approximately 2,293 calories, supplemented by over ten thousand daily steps and modest cardiovascular work. He solicits general critique of his training split, bracing for the inevitable accusation that his meticulous approach constitutes overthinking.",
-      "audio_url": "audio/2026-09-03/clip-mma-fit-split-06.mp3"
+      "text_en_b2": "A /fit/ anon stands 5'9 and currently sits at 160lbs after two full years of serious training. He started skinnyfat at 140lbs, ran an aggressive bulk up to 200lbs, and carefully cut back down to where he is now. Because his natural frame is on the narrow side, he overcompensates by hammering shoulders hard. His numbers read 160 protein, 272 carbs, 57 fat at 2,293 kcal, with 10k-plus steps daily.",
+      "text_en_c1": "A /fit/ contributor standing 5'9 and weighing in at 160lbs has documented a two-year transformation from a 140lb skinnyfat baseline through a dedicated bulk cycle peaking at 200lbs, followed by a disciplined cut to his present weight. Cognisant of his unfavourable frame, he has deliberately over-prioritised shoulder development to broaden his silhouette and offset narrower clavicles. His current regimen consists of 160g protein, 272g carbohydrates and 57g fat, totalling 2,293 kcal, supplemented by a daily commitment of 10,000-plus steps and sporadic cardio sessions. He is now soliciting feedback regarding optimal training split adjustments and which physique priorities warrant emphasis as he enters what he considers his next refinement phase.",
+      "text_en_c2": "A /fit/ user standing 5 feet 9 inches tall and weighing approximately 160 pounds has presented a two-year transformation that began at a markedly undermuscled 140 pounds. He subsequently bulked to 200 pounds before cutting back to his present weight, a sequence that produced visible development but left him dissatisfied with his overall proportions. Because he considers his underlying frame comparatively narrow, he has deliberately overemphasised deltoid work, evidently hoping that broader shoulders will create the illusion of a more imposing upper body. His daily intake is recorded as 160 grams of protein, 272 grams of carbohydrates, and 57 grams of fat, totalling 2,293 calories; he also reports walking more than 10,000 steps each day and incorporating occasional cardiovascular work.",
+      "audio_url": "audio/2026-09-03/clip-fit-physique-006.mp3"
     },
     {
-      "id": "anime-raildex-07",
+      "id": "a-raildex-007",
       "category": "anime/culture",
-      "topic_zh": "Raildex爛尾清倉",
-      "topic_en": "Raildex franchise wash",
-      "text_zh": "Railgun完咗, 連兄side都收埋。我都係等Index manga完就算。睇完去返trade chart lol 🙏",
-      "text_en_b1": "Now that Railgun is over, the OP is asking what people's personal plans are with the Raildex franchise. He plans to gather every physical English copy of Railgun, Astral Buddy, Accelerator, Mental Out, and Index, and once the Index manga finishes he is washing his hands of the franchise. Pic related is his newest volume pickup.",
+      "topic_zh": "Raildex光榮結業",
+      "topic_en": "Raildex Wrap Up",
+      "text_zh": "Raildex Index三期動畫完咗，4仔/a/有人話要集齊英文實體本晒先收手。btw 我自己Gundam 00同Demon Slayer都未睇晒，膠膠噏又一個長命franchise完結🧐",
+      "text_en_b1": "Now that the new Railgun anime season is over, a /a/ anon is collecting every English physical volume of the franchise. He plans to buy Railgun, Astral Buddy, Accelerator, Mental Out, and Index. Once the Index manga finishes serialization, he is completely done with the Raildex franchise.",
       "source_url": "https://boards.4chan.org/a/thread/290448121",
-      "source_hint": "/a/ thread on collecting physical English Raildex volumes before dropping the franchise",
+      "source_hint": "/a/ thread on collecting Raildex physical English volumes",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime collection discussion, no trade"
+        "rationale": "Anime collector talk, not a trade"
       },
-      "text_en_b2": "Now that the Railgun anime has wrapped, the OP's asking the board what their own endgame plans are for the wider Raildex franchise. His is straightforward: track down every physical English release of Railgun, Astral Buddy, Accelerator, Mental Out, and Index, shelve them proudly, and once the Index manga finally concludes, he's washing his hands of the whole thing for good. The attached pic is his latest pickup, freshly added to the collection. After that, apparently, it's straight back to staring at trading charts.",
-      "text_en_c1": "With the Railgun adaptation now concluded and even the spinoff properties effectively mothballed, the OP canvasses the board regarding their endgame plans for the broader Raildex franchise. His own strategy is unambiguous: he intends to acquire every English-language physical release he can locate, encompassing Railgun, Astral Buddy, Accelerator, Mental Out, and Index. Once the Index manga serialisation ultimately concludes, he considers his obligations discharged and plans to divest his attention entirely. The accompanying photograph documents his most recent volume acquisition, a tangible marker of an era he is evidently eager to close out.",
-      "text_en_c2": "Now that the Railgun anime has concluded and its spinoff has quietly disappeared from scheduling, the OP canvasses /a/ for fellow enthusiasts' intentions regarding the broader Raildex franchise. Their personal strategy is methodical: acquire every English-language physical release of Railgun, Astral Buddy, Accelerator, Mental Out, and Index, then sever ties entirely once the Index manga concludes its protracted serialisation. The accompanying photograph showcases their most recent acquisition. There is a particular poignancy to such declared divestment from a long-followed property, the quiet resignation of a fan finally reconciling themselves to the fact that devotion is no guarantee of resolution.",
-      "audio_url": "audio/2026-09-03/clip-anime-raildex-07.mp3"
+      "text_en_b2": "Now that the third Index anime season has wrapped up, an /a/ anon has set himself the absurd mission of tracking down every single English physical volume of the Raildex franchise before he moves on. He's committed to collecting Index, Railgun, Astral Buddy, Accelerator, and Mental Out, and plans to stick around at least until the Index manga concludes its serialization run.",
+      "text_en_c1": "Now that the third season of the Railgun anime adaptation has concluded its broadcast run, a particularly devoted /a/ poster has declared his intention to acquire every English-language physical volume the broader Raildex franchise has ever produced. His shopping list encompasses the principal Railgun manga, the Astral Buddy and Accelerator spin-offs, the Mental Out side material and, eventually, the complete Index run in print. His stated rationale is straightforward: once the Index manga finally ceases serialisation and the franchise is definitively concluded, he will consider his collection architecturally complete and divest himself of further obligation.",
+      "text_en_c2": "With the third season of the A Certain Scientific Railgun anime now concluded, a committed /a/ reader has undertaken what he describes as a final campaign to complete his English-language physical collection. His intended purchases extend beyond Railgun itself to the closely related Astral Buddy and Accelerator series, as well as Mental Out, thereby assembling the franchise’s principal English releases in durable form. The promised endpoint, however, is contingent upon the eventual conclusion of the A Certain Magical Index manga: until its serialisation finally ends, the self-imposed moratorium remains technically incomplete. For the collector, this is less an impulsive shopping spree than a declaration of closure after years of fragmented publication, delayed localisation, and intermittent returns.",
+      "audio_url": "audio/2026-09-03/clip-a-raildex-007.mp3"
     }
   ]
 }
