@@ -4,38 +4,38 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-btc15yr",
+      "id": "btc-15yr-biz",
       "category": "trading",
-      "topic_zh": "15年回報",
-      "topic_en": "15-year returns",
-      "text_zh": "睇完即刻血壓飆升 😭 BTC 15年900倍，我喺度輸緊prop firm。15年前我得15歲啦 喂。NVDA 735倍都唔講，最慘係我連TSLA都揸唔住。仲話返美帝住大屋 先返到先再算啦。",
-      "text_en_b1": "$1,000 invested 15 years ago today would be worth: Bitcoin $8,970,000, Nvidia $735,000, Tesla $231,000, Apple $29,000, S&P $8,400, Gold $2,150. /biz/ today. Math hurts.",
+      "topic_zh": "BTC 15年回報",
+      "topic_en": "BTC 15-year return",
+      "text_zh": "睇到呢張圖真係喊出嚟。15年前死慳死慳擺1K美金入BTC，依家值8.97M。我就係遲咗入場嗰個。算啦，又係學費。btw 我嗰個prop firm account又輸多2K，lol。",
+      "text_en_b1": "$1,000 invested 15 years ago today would be worth: Bitcoin $8,970,000, Nvidia $735,000, Tesla $231,000, Apple $29,000, S&P $8,400, Gold $2,150. Posted on /biz/ today with the usual cope about early movers winning everything.",
       "source_url": "https://boards.4chan.org/biz/thread/62654729",
-      "source_hint": "Comparison of 15-year returns across major assets",
+      "source_hint": "/biz/ thread comparing 15-year returns of major assets",
       "signal": {
         "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "years",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post is a hindsight comparison, no actionable trade"
+        "rationale": "OP framing implies BTC is the only asset that meaningfully outperformed, implicit long bias"
       },
-      "text_en_b2": "Ran the numbers on a $1,000 investment made exactly fifteen years ago, and the results are frankly brutal. Bitcoin would have ballooned to roughly $8,970,000, while Nvidia sits at around $735,000 and Tesla at $231,000. Even Apple managed $29,000, the S&P scraped by at $8,400, and gold barely moved past $2,150. Meanwhile I am grinding through a prop firm challenge, bleeding money on the daily. Math absolutely does hurt when you look at what could have been.",
-      "text_en_c1": "A sobering exercise in retrospective arithmetic has once again laid bare how staggeringly lucrative early positions in transformative technologies would have proven. Had one allocated a mere thousand dollars fifteen years ago, Bitcoin would have compounded into roughly nine million, Nvidia into $735,000, Tesla into $231,000, and even Apple into $29,000, while a passive S&P 500 index fund would have yielded a comparatively pedestrian $8,400 and gold merely $2,150. The /biz/ thread devolved into predictable existential anguish, with contributors lamenting that they were teenagers when generational wealth was effectively being handed away. Math, as the consensus held, hurts far more than any individual losing streak ever could.",
-      "text_en_c2": "A stark illustration of compounding's quiet violence: had one allocated a thousand dollars fifteen years ago, Bitcoin would now command roughly 8.97 million, Nvidia 735,000, Tesla 231,000, Apple 29,000, the S&P a meagre 8,400, and gold scarcely 2,150. The arithmetic, as any frequenter of /biz/ will attest, induces a particular kind of vertigo. One cannot help but contemplate the road not travelled: 15 at the time, ostensibly too young to act, yet old enough to have grasped what older hands fumbled. Even Nvidia's obscene multiple scarcely consoles the retail trader presently bleeding through a proprietary firm evaluation, while Tesla, that erstwhile paragon of momentum, defied every attempt at retention. The American suburban dream recedes ever further; one consoles oneself with the rhetoric of 'return first, then dream,' as if deferred gratification might yet be redeemed.",
-      "audio_url": "audio/2026-09-04/clip-biz-btc15yr.mp3"
+      "text_en_b2": "$1,000 invested fifteen years ago today would have ballooned into: Bitcoin $8,970,000, Nvidia $735,000, Tesla $231,000, Apple $29,000, S&P $8,400, and Gold $2,150. OP on /biz/ posted the chart and is clearly devastated, mourning the fact that he missed the boat entirely. He copes by adding that his prop firm account just bled another 2K, so at least his losses remain somewhat consistent across the board.",
+      "text_en_c1": "A chart circulating on /biz/ today has prompted the usual hand-wringing from those who arrived late to the party. Had one allocated a mere thousand dollars fifteen years ago, that position in Bitcoin would now be valued at approximately 8.97 million dollars, dwarfing even Nvidia at 735K, Tesla at 231K, Apple at 29K, the S&P at 8.4K, and gold at a paltry 2.15K. The poster laments being a late entrant, attributing the missed fortune to tuition paid in hindsight rather than foresight.",
+      "text_en_c2": "Encountering that chart on /biz/ today provoked the customary lament among anons who arrived late to the trade: a thousand dollars allocated fifteen years ago would, by present valuations, have compounded into roughly 8.97 million in Bitcoin, dwarfing Nvidia's 735,000, Tesla's 231,000, Apple's comparatively pedestrian 29,000, the S&P's 8,400, and even gold, which limped to a mere 2,150 over the identical horizon. The familiar cope ensued, with veterans congratulating themselves for having possessed the conviction to enter when entry still felt preposterous. The poster himself, ruefully, was not among them. Tallying his own miscues, he noted that his proprietary trading account had hemorrhaged an additional two thousand dollars in recent sessions, a footnote that rather vividly encapsulated the bittersweet arithmetic of asymmetric regret, lessons paid for in full and remembered far longer than any gains.",
+      "audio_url": "audio/2026-09-04/clip-btc-15yr-biz.mp3"
     },
     {
-      "id": "biz-cybercab",
+      "id": "cybercab-robotaxi-biz",
       "category": "trading",
       "topic_zh": "Cybercab被動收入",
       "topic_en": "Cybercab passive income",
-      "text_zh": "Cybercab呢單嘢 諗下都覺得正 但我而家連prop firm exam都未pass 點上車lol。Tesla Robotaxi network如果真係work 細細地買兩部擺上去 算係cashflow返美國嘅入場券？btw Robotaxi同FSD差一線 大家睇好邊個先？",
-      "text_en_b1": "Redpill me on buying Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. How many units would a normal retail buyer realistically need to make meaningful monthly returns?",
+      "text_zh": "Robotaxi個network真係concept幾work。如果可以用prop firm嘅錢買幾架Cybercab擺落去收租，passive income咪解決晒我嘅cash flow問題。可惜個drawdown仲未止血，考牌都未搞掂，諗都多餘。",
+      "text_en_b1": "Redpill me on buying Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. OP is asking /biz/ whether owning the cars directly and listing them on the network beats just holding TSLA shares through the same upside.",
       "source_url": "https://boards.4chan.org/biz/thread/62648173",
-      "source_hint": "Anon asks how to start a Cybercab Robotaxi side hustle",
+      "source_hint": "/biz/ thread asking if buying Cybercabs directly beats holding TSLA",
       "signal": {
         "asset": "TSLA",
         "direction": "long",
@@ -44,22 +44,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Implicit bullish bet on Tesla Robotaxi network scaling"
+        "rationale": "OP is exploring direct exposure to Tesla's robotaxi thesis, implicit long TSLA bias"
       },
-      "text_en_b2": "Looking for some genuine insight on the Cybercab play here, because the idea of stacking a couple of units onto Tesla's Robotaxi network for passive income sounds compelling on paper. Assuming the platform actually delivers, how many vehicles would a retail investor realistically need to clear meaningful monthly cashflow? I have not even cleared my own trading exam yet, let alone priced a fleet. Also curious where people fall on Robotaxi versus full self-driving, since they are clearly not the same bet.",
-      "text_en_c1": "The prospect of acquiring Cybercab units and deploying them across Tesla's forthcoming Robotaxi network has ignited considerable speculation among retail investors seeking exposure to autonomous mobility revenue streams. The underlying calculus appears deceptively straightforward: purchase vehicles at fleet pricing, register them on the platform, and collect a passive share of fares indefinitely. What remains contested, however, is the realistic threshold at which modest monthly returns become genuinely meaningful for an individual operator, given per-unit margins that may compress as supply proliferates. Whether the Robotaxi service or the underlying Full Self-Driving stack ultimately captures the lion's share of value is the question /biz/ cannot seem to settle.",
-      "text_en_c2": "The proposition warrants genuine scrutiny: were one to acquire a modest fleet of Cybercab units and deploy them across Tesla's nascent Robotaxi network, the residual cashflow could conceivably finance a transcontinental repatriation to American shores. The arithmetic is seductive in its symmetry, provided the underlying assumptions hold. Yet such fantasies presuppose capital that has yet to materialise; one remains, regrettably, mired in a proprietary trading evaluation, the very门槛 gating participation. Whether Robotaxi or FSD ultimately prevails is, of course, the more pertinent axis of speculation, though the distinction may prove largely academic once either achieves regulatory clearance. The optimists on /biz/ insist the barrier to scale is lower than skeptics contend; the skeptics, conversely, decry the optimists as credulous. Between these poles, the prudent retail observer simply waits.",
-      "audio_url": "audio/2026-09-04/clip-biz-cybercab.mp3"
+      "text_en_b2": "Convince me on purchasing Cybercabs outright and deploying them across the Tesla Robotaxi network to generate passive income. OP on /biz/ wants to know whether actually owning the vehicles and listing them on the network yields better returns than simply holding TSLA shares through the same upside. The premise sounds solid in theory, though his drawdown has not stopped bleeding and he has not even passed the licensing exam yet.",
+      "text_en_c1": "A /biz/ thread poses a genuinely intriguing proposition regarding the Tesla Robotaxi network and its potential for generating genuine passive income streams. The original poster contemplates deploying capital, ideally borrowed through a prop firm arrangement, to acquire several Cybercabs outright and register them on the network as revenue-generating assets. The implicit argument is that direct ownership of the vehicles, earning a share of fares per ride, could outperform simply holding TSLA equity with its correlated but diluted exposure to robotaxi upside.",
+      "text_en_c2": "An enterprising anon solicited the board's collective wisdom regarding a rather elegant proposition: whether one might procure a fleet of Tesla's forthcoming Cybercabs, deploy them onto the nascent Robotaxi network, and thereby convert depreciating hardware into a comparatively dependable stream of passive income, ostensibly superior to the passive appreciation afforded by merely holding TSLA equity through the same secular tailwind. The premise, he conceded, was conceptually sound, the operational math favorable, and the diversification rationale impeccable. Reality, alas, intervened with its customary indignities. His proprietary trading account remained mired in an obstinate drawdown that had yet to show any inclination toward mean reversion, and the licensing prerequisites for actually executing the strategy remained conspicuously unaddressed. Speculation, in other words, had outpaced implementation by a considerable margin.",
+      "audio_url": "audio/2026-09-04/clip-cybercab-robotaxi-biz.mp3"
     },
     {
-      "id": "g-gpt6",
+      "id": "gpt6-astra-g",
       "category": "tech/ai",
-      "topic_zh": "GPT-6 Astra",
+      "topic_zh": "GPT-6 Astra嚟喇",
       "topic_en": "GPT-6 Astra launch",
-      "text_zh": "OpenAI出GPT-6 Astra 又話「AGI era」 我條命真係越來越短 😅 surveying都可能被AI搞埋 仲考咩牌。靠AI續命算 唔好連我都淘汰埋。wtf",
-      "text_en_b1": "OpenAI just launched GPT-6 Astra and said welcome to the AGI era. The benchmarks are wild. It nearly saturates ARC-AGI 3. The strongest model ever released, according to the company itself.",
+      "text_zh": "OpenAI出GPT-6 Astra喇。話自己係最強、最align嘅model，benchmark直接saturate晒。作為一個surveyor我而家仲有工打，遲啲連AP都唔使我簽，AI直接畫晒圖。廢柴如我，真係靠AI續命。",
+      "text_en_b1": "OpenAI launched GPT-6 Astra and says welcome to the AGI era. The company describes it as the world's most intelligent and aligned model, and the benchmarks seem to back that up. It nearly saturates ARC-AGI 3 and the OGRE eval, beating every prior model on coding and reasoning tasks.",
       "source_url": "https://boards.4chan.org/g/thread/109720371",
-      "source_hint": "OpenAI announces flagship GPT-6 Astra model",
+      "source_hint": "/g/ thread announcing GPT-6 Astra benchmarks",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech news observation, no trade setup"
+        "rationale": "AI capability update, no direct trade setup"
       },
-      "text_en_b2": "OpenAI has officially rolled out GPT-6 Astra, and the company is not being shy about calling it the AGI era, which honestly makes my blood run cold. The benchmarks are genuinely wild, with the model nearly saturating ARC-AGI 3, and OpenAI themselves are touting it as the most capable system they have ever shipped. If AI is already closing in on surveying work, then what exactly am I grinding certification exams for at this point?",
-      "text_en_c1": "OpenAI's unveiling of GPT-6 Astra, accompanied by the company's unequivocal declaration that we have formally entered the AGI era, has predictably sent shockwaves through technology circles. Internal benchmarks suggest the system approaches saturation on ARC-AGI 3, a metric that until recently had remained stubbornly resistant to frontier-scale models, prompting the company to characterise it as the most capable architecture ever released to the public. For white-collar professionals whose workflows overlap with what the model now demonstrably handles, the announcement lands less as a milestone and more as an ominous inflection point, accelerating anxieties that have been building for several product cycles.",
-      "text_en_c2": "OpenAI has formally unveiled GPT-6 under the codename Astra, heralding what its leadership rather grandiloquently terms 'the AGI era,' a rhetorical flourish that, if substantiated, renders the remainder of one's professional trajectory somewhat precarious. The benchmarks, as circulated across /g/, are genuinely staggering: the model reportedly saturates ARC-AGI 3 to a degree that would have seemed implausible mere quarters ago, and the company, never shy of superlatives, deems it the strongest system yet released. One's surveying credentials, painstakingly accrued over years of examination purgatory, now appear destined for obsolescence before their ink has dried. The existential arithmetic is unforgiving: if artificial cognition can perform the cognitive labour itself, what precisely remains for the human surveyor? Welcome, indeed, to the era.",
-      "audio_url": "audio/2026-09-04/clip-g-gpt6.mp3"
+      "text_en_b2": "OpenAI has rolled out GPT-6 Astra and is essentially declaring the AGI era officially underway. The company bills it as the most intelligent and aligned model on the planet, and the benchmarks appear to confirm the hype, with ARC-AGI 3 and the OGRE eval nearly maxed out. A surveyor posted on /g/ wondering how long his job will last before the AI simply handles everything end to end.",
+      "text_en_c1": "OpenAI has officially unveiled GPT-6 Astra, heralding what the company confidently describes as the dawn of the AGI era. The model is being marketed as the most intellectually capable and rigorously aligned system ever released, a claim that the benchmark results would appear to substantiate. Astra reportedly approaches saturation on ARC-AGI 3 and the OGRE evaluation, decisively outpacing every predecessor on coding and complex reasoning tasks. A working surveyor posting on /g/ notes the irony that his profession may have a finite shelf life, since AI systems are increasingly capable of producing the technical drawings that currently require an licensed architect's signature.",
+      "text_en_c2": "OpenAI, in a release that landed with the subtlety of a thunderclap, unveiled GPT-6 Astra and cordially invited observers to welcome the long-anticipated arrival of artificial general intelligence. The model, according to the company's own framing, constitutes the most capable and most rigorously aligned system yet deployed, a claim that the published benchmarks appeared to validate with almost unseemly thoroughness; Astra reportedly approaches saturation on ARC-AGI 3 and the OGRE evaluation, while decisively outscoring every predecessor on tasks demanding sustained reasoning, programmatic synthesis, and structured problem decomposition. For one anonymous surveyor currently employed in a profession that interprets precisely such outputs, the implications carried a distinctly personal valence. He wondered aloud whether, within a matter of months, even the rubric of an accredited professional might prove superfluous to the workflow.",
+      "audio_url": "audio/2026-09-04/clip-gpt6-astra-g.mp3"
     },
     {
-      "id": "pol-finland",
+      "id": "finland-immigration-pol",
       "category": "hk/news",
-      "topic_zh": "外國亂況",
-      "topic_en": "Europe migration thread",
-      "text_zh": "4chan啲人又喺度鬧緊歐洲移民問題 雖然內容好右 但我都明嗰種感覺 香港越嚟越逼 邊度都係人。btw 我都係想去美帝住大屋 唔好迫埋我。",
-      "text_en_b1": "Anons on /pol/ ranting about Finland. They land in Helsinki, Tampere, Oulu, even Rovaniemi, and everywhere has migrants and Indians now. Typical /pol/ meltdown but the underlying complaint is housing and crowding.",
+      "topic_zh": "芬蘭移民潮",
+      "topic_en": "Finland immigration rant",
+      "text_zh": "有個anon去咗芬蘭，由Helsinki機場一路去到Rovaniemi都見到同樣情況。仲有印度人同其他亞洲mix。睇完好有feel，HK都係咁，越嚟越逼。我想去US唔係冇原因嘅，廢物都想要返啲space。",
+      "text_en_b1": "Anon lands in Helsinki airport and sees the demographic shift immediately. Takes the train to Tampere, then Oulu, then Rovaniemi and it is the same story everywhere. Says it is the tip of the iceberg and notes Indians and mixed Asian groups alongside the African migrants across Finnish cities.",
       "source_url": "https://boards.4chan.org/pol/thread/541924764",
-      "source_hint": "Anon complains about migration across Finnish cities",
+      "source_hint": "/pol/ thread about Finland demographic change",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News/culture observation, no trade setup"
+        "rationale": "Cultural observation thread, no trade"
       },
-      "text_en_b2": "The /pol/ thread is once again melting down over European migration, and although the framing is predictably right-wing, there is a kernel of truth underneath the rant. Anons claim migrants and Indians are showing up everywhere from Helsinki and Tampere down to Oulu and even Rovaniemi, while housing gets tighter by the month. Beneath all the culture-war posturing, the real grievance keeps circling back to overcrowding and runaway property prices, which is frankly a feeling I understand far better than I would like.",
-      "text_en_c1": "The latest /pol/ fixation on Finland has devolved into the customary meltdown, with anonymous posters lamenting that migrants and Indian nationals now seem omnipresent from the comparatively cosmopolitan streets of Helsinki through Tampere, Oulu, and even the Arctic confines of Rovaniemi. Beneath the unsavoury rhetoric, however, lies a grievance that transcends ideology: a pervasive sense that housing markets have become untenable, public infrastructure is stretched to breaking point, and the social fabric that once defined Nordic homogeneity is fraying under demographic pressure. Whether one sympathises with the framing or not, the underlying complaint about crowding carries a legitimacy that deserves more measured engagement.",
-      "text_en_c2": "The denizens of /pol/ have, with characteristic fury, descended upon Finland as their latest exhibit in the perennial European migration thesis. The argument, stripped of its more inflammatory ornamentation, proceeds thus: the migrants and Indians are everywhere now, in Tampere, in Oulu, even in Rovaniemi, and the native Finnish fabric is accordingly being threadbare. Beneath the customary /pol/ hysteria lies a more pedestrian grievance, namely housing scarcity and the particular claustrophobia of small cities groaning beneath demographic pressure. One recognises, if reluctantly, the underlying sentiment; Hong Kong itself grows ever more congested, every district thronged, every carriage packed. The dream of American suburban spaciousness persists as the consolation, even as the practical pathways thereto narrow with each passing quarter and each tightening immigration regime.",
-      "audio_url": "audio/2026-09-04/clip-pol-finland.mp3"
+      "text_en_b2": "An anon lands at Helsinki airport and the demographic shift hits him straight away. He takes the train up to Tampere, then pushes on to Oulu and finally Rovaniemi, only to find the same picture playing out in every city. He frames it as the tip of the iceberg and points out Indians alongside mixed Asian groups joining the African migrants scattered across Finland, which prompted a broader rant about overcrowding.",
+      "text_en_c1": "An anonymous poster on /pol/ recounts a journey that began at Helsinki airport and culminated in Rovaniemi, with stops in Tampere and Oulu along the way. His observation is strikingly consistent: the demographic transformation is unmistakable from the moment one clears customs. He notes substantial South Asian populations alongside the more frequently discussed African migrants, suggesting that whatever narrative prevails in domestic discourse captures only the tip of a far larger iceberg. The poster draws an explicit parallel with Hong Kong, which he characterises as increasingly congested and spatially suffocating.",
+      "text_en_c2": "An anonymous correspondent, having alighted at Helsinki-Vantaa, chronicled a demographic transformation that evidently commenced upon arrival and proved entirely undiminished across hundreds of kilometers of subsequent rail travel. From the capital southward to Tampere, onward through Oulu, and ultimately to the sub-Arctic terminus of Rovaniemi, the composition of public space remained remarkably consistent: substantial contingents of African migrants, supplemented by Indian arrivals and an assortment of mixed Asian groupings whose presence the poster found conspicuously difficult to dismiss as incidental. He characterized the visible pattern as merely the visible apex of a far more considerable submerged mass. The observation provoked in him an acute sense of spatial compression, a phenomenon he insisted was hardly confined to Nordic latitudes; Hong Kong, he noted curtly, exhibited rather analogous tendencies.",
+      "audio_url": "audio/2026-09-04/clip-finland-immigration-pol.mp3"
     },
     {
-      "id": "v-japansteam",
+      "id": "eroge-japan-steam-v",
       "category": "lol/esports",
-      "topic_zh": "日本Steam榜首",
-      "topic_en": "Eroge tops Steam Japan",
-      "text_zh": "lol 連Steam日本榜首都被eroge霸佔 打機佬都係寂寞 但我無時間打lol S15都冇點睇。等考完牌先再追 肥仔信都叫我一齊睇。",
-      "text_en_b1": "Currently ranked number 1 on Steam in Japan. An eroge sold more copies than any AAA game on PC in Japan. The Japanese PC market stays loyal to its niche. /v/ reacts.",
+      "topic_zh": "日本Steam排行",
+      "topic_en": "Japan Steam #1",
+      "text_zh": "有隻eroge喺日本Steam排第一，仲高過晒啲AAA PC大作。LOL都俾人打下個台啦。日本仔打機口味真係好難理解，S15都睇緊T1 vs GenG，呢邊啲人就去買eroge，lol。",
+      "text_en_b1": "An eroge is currently ranked number one on Steam in Japan, outselling every major AAA PC release in the region. OP cannot believe an adult visual novel beat out all the big budget Western and Japanese PC launches this week on the Japanese store chart.",
       "source_url": "https://boards.4chan.org/v/thread/746758113",
-      "source_hint": "Eroge beats AAA games on Steam Japan charts",
+      "source_hint": "/v/ thread shocked an eroge is #1 on Japan Steam",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports/gaming observation, no trade setup"
+        "rationale": "Gaming chart observation, no trade"
       },
-      "text_en_b2": "Somehow an eroge has knocked every AAA release out of the top spot on Steam Japan, and the fact that it outsold the entire competitive slate on PC is honestly hilarious. The Japanese market clearly stays loyal to its niche interests, regardless of what the rest of the industry is hyping. Personally I have not even had time to touch League this season, although once exams are done I will finally get around to actually playing something again.",
-      "text_en_c1": "In what can only be described as a quietly triumphant vindication of niche Japanese PC gaming, an eroge has unseated every major AAA contender to claim the top spot on Steam's Japan regional charts, outselling even the most heavily marketed Western blockbusters. The result, while unsurprising to seasoned observers of the domestic PC market, nonetheless underscores a peculiarity that continues to perplex international analysts: Japanese consumers maintain a ferocious loyalty to genres and conventions that global publishers consistently misjudge or ignore. The /v/ thread oscillated between amused resignation and outright celebration, treating the outcome as further evidence that mainstream gaming discourse remains woefully out of touch.",
-      "text_en_c2": "In a development that has occasioned considerable mirth among /v/'s more contrarian posters, the Japanese Steam charts have been topped, quite decisively, by an eroge, whose sales have eclipsed those of any AAA competitor within the Japanese PC market. The Japanese PC gaming demographic, it must be conceded, exhibits a loyalty to its niche genres that Western publishers consistently underestimate; the otaku demographic that sustains this market is neither casual nor ephemeral, but rather fiercely devoted. One observes this development with the detached amusement of someone whose own gaming hours have dwindled to near-zero, League of Legends season 5 largely unwatched, anime backlog eternally postponed. The faithful companion in such matters remains the chubby correspondent, whose invitations to congregate around shared viewing constitute, in their modest way, the remaining social infrastructure of the modern shut-in.",
-      "audio_url": "audio/2026-09-04/clip-v-japansteam.mp3"
+      "text_en_b2": "An eroge has somehow climbed to the number one spot on Steam in Japan, outselling every major AAA PC release currently available. OP on /v/ is in disbelief that an adult visual novel managed to outpace all the big budget Western and Japanese PC launches this week on the Japanese store chart. Meanwhile competitive gaming fans were busy watching T1 versus GenG, so priorities clearly differ across the island.",
+      "text_en_c1": "In what can only be described as a watershed moment for the Japanese PC gaming market, an eroge has claimed the coveted number one position on Steam's regional charts, decisively outselling every major AAA release available on the platform this week. The /v/ thread captures a genuine sense of bewilderment, as both Western blockbusters and flagship Japanese PC titles have been comprehensively humbled by what is, at its core, an adult visual novel. The poster finds the Japanese gaming palate altogether inscrutable, juxtaposing this phenomenon with the parallel reality that domestic esports audiences remain fixated on fixtures such as the T1 versus GenG series, while their compatriots are busy purchasing,…",
+      "text_en_c2": "An adult visual novel currently occupies the apex position on Steam's Japanese storefront, comprehensively outselling every marquee PC release that Western and domestic publishers had presumed would dominate the weekly rankings. The original poster, a self-described connoisseur of conventional gaming hierarchies, professed himself genuinely staggered that a category routinely dismissed as niche could eclipse high-budget productions engineered through hundreds of millions of dollars of development expenditure. The juxtaposition invited broader commentary on the seeming incomprehensibility of Japanese consumer preferences, a sensibility further underlined by the simultaneous cultural fact of T1 versus GenG drawing massive concurrent viewership in Seoul, while a parallel demographic in Osaka and Tokyo, by apparent consensus, elected to purchase illustrated eroge instead.",
+      "audio_url": "audio/2026-09-04/clip-eroge-japan-steam-v.mp3"
     },
     {
-      "id": "fit-cut",
+      "id": "ohp-vs-bench-fit",
       "category": "mma/fitness",
-      "topic_zh": "cut excuses串",
-      "topic_en": "Cutting bench excuses",
-      "text_zh": "笑死 /fit/啲人個個都cut到lift跌 然後勁多excuses 😂 shoulder痛 換grip 喺客廳練⋯⋯ 我都係 膊頭真係廢 脂肪再低啲會好啲。",
-      "text_en_b1": "Classic /fit/ copypasta. Cutting, so bench is down. Bad shoulders, so no squat. Living room lifts, so numbers down. Narrow grip, no leg drive, low reps to recover shoulders while cutting, then supposedly back to heavy. Every excuse in the book.",
-      "source_url": "https://boards.4chan.org/fit/thread/77495480",
-      "source_hint": "Anon lists every bench plateau excuse imaginable",
+      "topic_zh": "OHP強過bench",
+      "topic_en": "OHP over bench",
+      "text_zh": "呢條友OHP就嚟上1pl8，bench連2pl8都未到。睇完我更加覺得自己係廢物。肥仔信今日又tag我話一齊gym，我都唔知應唔應該應機，考牌溫書都未開。",
+      "text_en_b1": "OP is closer to a 1-plate overhead press than he is to a 2-plate bench, 3-plate squat, or 4-plate deadlift. He expects to hit a clean 1-plate OHP for reps within a month or two while the other three lifts still lag behind his bodyweight.",
+      "source_url": "https://boards.4chan.org/fit/thread/77491789",
+      "source_hint": "/fit/ thread about lift ratios and OHP progress",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness thread, no trade setup"
+        "rationale": "Fitness progress post, no trade"
       },
-      "text_en_b2": "The classic /fit/ cutting copypasta has surfaced once again, and the excuses are frankly a work of literature at this point. Bad shoulders mean no squatting, the bench is down because of course it is, and since the lifter is stuck doing living room curls the numbers are obviously tanked. Throw in a narrow grip, zero leg drive, and low reps to nurse the shoulders through the cut, and somehow heavy triples are allegedly waiting on the other side.",
-      "text_en_c1": "The quintessential /fit/ copypasta has resurfaced once again, and its particulars remain grimly familiar to anyone who has spent meaningful time in the board's archives. The poster, currently in a caloric deficit, finds their bench press numbers in steady decline; their shoulders preclude any meaningful squat volume; and the constraints of training in a cramped living room further compromise the integrity of every working set. Narrow grip, abandoned leg drive, and deliberately truncated rep ranges are all rationalised as temporary concessions that will allegedly evaporate once the cut concludes and the sacred return to heavy triples resumes.",
-      "text_en_c2": "The /fit/ cutting copypasta has assumed the quality of liturgy, its recitation now more ritualistic than sincere. Bench press declines precipitously, but the shoulders, naturally, preclude any compensatory squat work; one trains in the living room, where the absence of proper equipment necessarily diminishes the loads one can move; the narrow grip, eschewing the leg drive that might otherwise elevate the numbers, permits only low-rep sets that ostensibly safeguard the recovering shoulders. Once the cut concludes, one will purportedly return to heavy compounds, though this prophesied restoration has, for many a poster, remained perpetually deferred across successive cutting phases. The taxonomy of excuses is comprehensive: every conceivable malady, every plausible contrivance, every physiological alibi is marshalled in defence of numbers that, frankly, were never particularly impressive in the first place.",
-      "audio_url": "audio/2026-09-04/clip-fit-cut.mp3"
+      "text_en_b2": "OP is tantalisingly close to a one-plate overhead press while his bench still cannot crack two plates, his squat lags behind three, and his deadlift is nowhere near four plates. He reckons he will nail a clean OHP for reps within a month or two, yet the other three lifts stubbornly refuse to keep pace with his bodyweight. Classic case of one lift carrying the entire physique.",
+      "text_en_c1": "A /fit/ regular has posted a strength profile that defies conventional expectations in ways that would be comedic if it were not so painfully relatable. His overhead press is tantalisingly close to a one-plate milestone, a feat he expects to achieve for clean reps within the next month or two, while his bench press languishes below the two-plate mark. His squat remains anchored below three plates and his deadlift has yet to breach the four-plate threshold, with each lift conspicuously trailing his bodyweight.",
+      "text_en_c2": "An anonymous regular of /fit/ confessed, with the particular candor endemic to strength-training forums, that his overhead press had crept within striking distance of a single forty-kilogram plate while his bench press had yet to clear ninety kilograms, his squat remained stubbornly beneath one hundred and forty, and his deadlift had failed to crest one hundred and eighty. The configuration, statistically improbable and aesthetically ungainly, led him to anticipate a clean single-plate press for repetitions within a matter of weeks, even as the remaining three compound movements continued to languish conspicuously beneath his bodyweight. His fat friend, perpetual in unsolicited encouragement, had once again extended an invitation to train together, an offer the poster found himself disinclined to accept while licensure examinations loomed and revision materials remained, in his own telling, distressingly untouched.",
+      "audio_url": "audio/2026-09-04/clip-ohp-vs-bench-fit.mp3"
     },
     {
-      "id": "a-kny",
+      "id": "demonslayer-defend-a",
       "category": "anime/culture",
-      "topic_zh": "鬼滅之刀",
-      "topic_en": "Demon Slayer debate",
-      "text_zh": "我都係喺度睇鬼滅 S2 真心覺得ok 點解啲人咁hate？人紅就被針對？btw 等我有時間先補番。考牌溫書溫到腦閉塞 anime先係精神食糧 🙏",
-      "text_en_b1": "Demon Slayer / Kimetsu no Yaiba, watching for the first time, now on season 2. Why do so many people hate on it? Most criticisms apply equally to other beloved anime, but this one made billions, so it gets targeted.",
+      "topic_zh": "鬼滅點解俾人鬧",
+      "topic_en": "Why Demon Slayer hate",
+      "text_zh": "鬼滅俾人鬧咗咁多年，我啱啱先睇到season 2。其實d criticism擺喺其他作品度一樣work，只係佢賺咗幾十億先被針對。考牌溫到攰就煲返兩集，動畫真係靠佢續命。",
+      "text_en_b1": "Watching Demon Slayer for the first time, currently on season 2. OP asks why so many people trash the series when every criticism leveled at it applies equally to other beloved anime. Says the only real difference is Demon Slayer made billions of dollars at the box office.",
       "source_url": "https://boards.4chan.org/a/thread/290675591",
-      "source_hint": "Newcomer defends Demon Slayer against haters",
+      "source_hint": "/a/ thread defending Demon Slayer against haters",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime discussion, no trade setup"
+        "rationale": "Anime discussion thread, no trade"
       },
-      "text_en_b2": "Finally got around to watching Demon Slayer and I am now midway through season two, which honestly holds up far better than I expected. The question that keeps nagging, however, is why this franchise in particular draws so much hatred, since most of the criticisms people level at it apply just as easily to plenty of beloved titles. My take is that once something makes billions, it inevitably becomes a target, and anime fans can be unusually tribal about commercial success.",
-      "text_en_c1": "Demon Slayer, otherwise known as Kimetsu no Yaiba, has finally crossed into my viewing rotation, and having progressed into its second season, I find myself genuinely perplexed by the disproportionate hostility the series routinely attracts online. The standard criticisms levelled against it, ranging from derivative narrative structures to occasionally underwhelming antagonists, could just as readily be applied to a slew of venerated shounen properties that enjoy far more forgiving critical treatment. The conclusion, however unwelcome to its detractors, appears inescapable: commercial success on the scale of multiple billions invites a particular brand of contrarian backlash that artistic merit alone cannot insulate a franchise from, however unfair that dynamic may ultimately…",
-      "text_en_c2": "Kimetsu no Yaiba, otherwise known as Demon Slayer, has proven, upon belated first viewing, a thoroughly competent shounen production; one finds oneself, somewhat to one's own surprise, now well into the second season, genuinely engaged by its set-piece choreography if occasionally fatigued by its narrative pacing. The question that persists, however, is the curious one of reception: why does this particular property attract such disproportionate scorn? Critics apply standards to it that they conspicuously decline to apply to comparably beloved contemporaries, and the suspicion is inescapable that commercial success itself constitutes the provocation, that a series amassing billions must, by some inverted logic, be punished for its popularity.",
-      "audio_url": "audio/2026-09-04/clip-a-kny.mp3"
+      "text_en_b2": "Just started Demon Slayer for the first time and I am currently working through season 2. OP on /a/ argues that every criticism levelled at the series applies just as easily to plenty of other beloved anime, so the real reason it gets trashed is simply that it raked in billions at the box office. Success breeds resentment, essentially, and the show did nothing wrong besides print money.",
+      "text_en_c1": "Having finally committed to watching Demon Slayer and progressing through season two, a /a/ poster has articulated a defence of the franchise that resonates with anyone fatigued by the seemingly endless cycle of online criticism. He argues with considerable rhetorical force that the standard objections levelled against the series, ranging from derivative plotting to shallow character development, apply with equal validity to countless other anime that enjoy uncritical adoration from the same vocal communities. The only substantive distinction, in his estimation, is commercial: Demon Slayer has generated billions at the box office, and apparently massive financial success is itself sufficient grounds for sustained hostility.",
+      "text_en_c2": "Having only recently commenced Demon Slayer and finding himself midway through the second season, an anonymous contributor to /a/ posed a question that has animated arguments across the medium for years: why, precisely, does the franchise attract such disproportionate opprobrium when the criticisms routinely marshalled against its plotting, its sentimentality, and its conspicuous reliance on formula apply with equal vigor to a great many celebrated works now enshrined in the canon? His tentative conclusion, delivered without excessive solemnity, was that animus correlates rather neatly with commercial magnitude: Demon Slayer earned billions at the box office, and billions, he observed, tend to attract a rather specific species of retroactive aesthetic objection.",
+      "audio_url": "audio/2026-09-04/clip-demonslayer-defend-a.mp3"
     }
   ]
 }
