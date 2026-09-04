@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-btc-btc",
-      "topic_en": "BTC vs Nvidia 15yr",
-      "topic_zh": "BTC vs NVDA 15年回報",
+      "id": "biz-btc-15yr",
+      "topic_en": "15-year returns",
+      "topic_zh": "15年回報對比",
       "category": "trading",
-      "file": "clip-t1-btc-btc.mp3",
-      "bytes": 501108,
-      "chars": 264
+      "file": "clip-biz-btc-15yr.mp3",
+      "bytes": 491316,
+      "chars": 258
     },
     {
-      "id": "t2-musk-cybercab",
-      "topic_en": "Cybercab passive income",
-      "topic_zh": "Tesla Cybercab 被動收入",
+      "id": "biz-musk-tech",
+      "topic_en": "Tesla Robotaxi passive income",
+      "topic_zh": "Cybercab 躺平",
       "category": "trading",
-      "file": "clip-t2-musk-cybercab.mp3",
-      "bytes": 267252,
-      "chars": 282
+      "file": "clip-biz-musk-tech.mp3",
+      "bytes": 271284,
+      "chars": 265
     },
     {
-      "id": "tech-gpt6",
-      "topic_en": "GPT-6 Astra AGI",
-      "topic_zh": "GPT-6 Astra AGI",
+      "id": "g-gpt6-astra",
+      "topic_en": "GPT-6 Astra launch",
+      "topic_zh": "GPT-6 Astra",
       "category": "tech/ai",
-      "file": "clip-tech-gpt6.mp3",
-      "bytes": 294324,
-      "chars": 253
+      "file": "clip-g-gpt6-astra.mp3",
+      "bytes": 327156,
+      "chars": 297
     },
     {
-      "id": "hk-finland",
-      "topic_en": "Finland immigration",
-      "topic_zh": "芬蘭移民潮",
+      "id": "pol-nz-haka",
+      "topic_en": "Haka debate on /pol/",
+      "topic_zh": "Haka 之亂",
       "category": "hk/news",
-      "file": "clip-hk-finland.mp3",
-      "bytes": 264948,
-      "chars": 256
+      "file": "clip-pol-nz-haka.mp3",
+      "bytes": 298356,
+      "chars": 297
     },
     {
-      "id": "lol-streaming",
-      "topic_en": "Japan Steam #1 eroge",
-      "topic_zh": "日本PC Steam 第一",
+      "id": "v-jp-pc",
+      "topic_en": "Japan Steam charts",
+      "topic_zh": "Eroge 登頂",
       "category": "lol/esports",
-      "file": "clip-lol-streaming.mp3",
-      "bytes": 283956,
-      "chars": 262
+      "file": "clip-v-jp-pc.mp3",
+      "bytes": 280500,
+      "chars": 258
     },
     {
-      "id": "fit-cut",
-      "topic_en": "Cut defense cope",
-      "topic_zh": "Cut到好虛",
+      "id": "fit-cut-routine",
+      "topic_en": "Heavy bag hybrid plan",
+      "topic_zh": "5日 hybrid plan",
       "category": "mma/fitness",
-      "file": "clip-fit-cut.mp3",
-      "bytes": 302388,
-      "chars": 264
+      "file": "clip-fit-cut-routine.mp3",
+      "bytes": 276468,
+      "chars": 294
     },
     {
-      "id": "anime-kny",
+      "id": "a-kny-defense",
       "topic_en": "Demon Slayer defense",
-      "topic_zh": "鬼滅之刃好睇",
+      "topic_zh": "鬼滅之刃 平反",
       "category": "anime/culture",
-      "file": "clip-anime-kny.mp3",
-      "bytes": 283956,
-      "chars": 270
+      "file": "clip-a-kny-defense.mp3",
+      "bytes": 281652,
+      "chars": 267
     }
   ]
 }
