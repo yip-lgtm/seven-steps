@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "btc-15yr-biz",
-      "topic_en": "BTC 15-year return",
-      "topic_zh": "BTC 15年回報",
+      "id": "clip-01-trade-macro",
+      "topic_en": "BTC 15 Year Returns",
+      "topic_zh": "BTC 永遠贏家",
       "category": "trading",
-      "file": "clip-btc-15yr-biz.mp3",
-      "bytes": 509748,
-      "chars": 224
+      "file": "clip-clip-01-trade-macro.mp3",
+      "bytes": 578292,
+      "chars": 360
     },
     {
-      "id": "cybercab-robotaxi-biz",
-      "topic_en": "Cybercab passive income",
-      "topic_zh": "Cybercab被動收入",
+      "id": "clip-02-trade-musk",
+      "topic_en": "Tesla Cybercab Robotaxi",
+      "topic_zh": "Robotaxi 被動收入",
       "category": "trading",
-      "file": "clip-cybercab-robotaxi-biz.mp3",
-      "bytes": 245364,
-      "chars": 245
+      "file": "clip-clip-02-trade-musk.mp3",
+      "bytes": 262068,
+      "chars": 259
     },
     {
-      "id": "gpt6-astra-g",
-      "topic_en": "GPT-6 Astra launch",
-      "topic_zh": "GPT-6 Astra嚟喇",
+      "id": "clip-03-tech-ai",
+      "topic_en": "GPT-6 Astra AGI Era",
+      "topic_zh": "GPT-6 Astra 出咗",
       "category": "tech/ai",
-      "file": "clip-gpt6-astra-g.mp3",
-      "bytes": 312756,
-      "chars": 283
+      "file": "clip-clip-03-tech-ai.mp3",
+      "bytes": 353076,
+      "chars": 329
     },
     {
-      "id": "finland-immigration-pol",
-      "topic_en": "Finland immigration rant",
-      "topic_zh": "芬蘭移民潮",
+      "id": "clip-04-hk-news",
+      "topic_en": "Finland Immigration Thread",
+      "topic_zh": "Finland 移民潮",
       "category": "hk/news",
-      "file": "clip-finland-immigration-pol.mp3",
-      "bytes": 308724,
-      "chars": 294
+      "file": "clip-clip-04-hk-news.mp3",
+      "bytes": 328308,
+      "chars": 329
     },
     {
-      "id": "eroge-japan-steam-v",
-      "topic_en": "Japan Steam #1",
-      "topic_zh": "日本Steam排行",
+      "id": "clip-05-lol-esports",
+      "topic_en": "PC Hardware vs Streaming",
+      "topic_zh": "PC 仲係皇者",
       "category": "lol/esports",
-      "file": "clip-eroge-japan-steam-v.mp3",
-      "bytes": 247668,
-      "chars": 251
+      "file": "clip-clip-05-lol-esports.mp3",
+      "bytes": 317940,
+      "chars": 341
     },
     {
-      "id": "ohp-vs-bench-fit",
-      "topic_en": "OHP over bench",
-      "topic_zh": "OHP強過bench",
+      "id": "clip-06-mma-fitness",
+      "topic_en": "Physique Check Cutting",
+      "topic_zh": "Cutting 緊嘅 physique",
       "category": "mma/fitness",
-      "file": "clip-ohp-vs-bench-fit.mp3",
-      "bytes": 288564,
-      "chars": 237
+      "file": "clip-clip-06-mma-fitness.mp3",
+      "bytes": 339252,
+      "chars": 293
     },
     {
-      "id": "demonslayer-defend-a",
-      "topic_en": "Why Demon Slayer hate",
+      "id": "clip-07-anime-culture",
+      "topic_en": "Demon Slayer Hate",
       "topic_zh": "鬼滅點解俾人鬧",
       "category": "anime/culture",
-      "file": "clip-demonslayer-defend-a.mp3",
-      "bytes": 282228,
-      "chars": 273
+      "file": "clip-clip-07-anime-culture.mp3",
+      "bytes": 350196,
+      "chars": 364
     }
   ]
 }
