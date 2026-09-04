@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "clip-01-trade-macro",
-      "topic_en": "BTC 15 Year Returns",
-      "topic_zh": "BTC 永遠贏家",
+      "id": "t1-btc-btc",
+      "topic_en": "BTC vs Nvidia 15yr",
+      "topic_zh": "BTC vs NVDA 15年回報",
       "category": "trading",
-      "file": "clip-clip-01-trade-macro.mp3",
-      "bytes": 578292,
-      "chars": 360
+      "file": "clip-t1-btc-btc.mp3",
+      "bytes": 501108,
+      "chars": 264
     },
     {
-      "id": "clip-02-trade-musk",
-      "topic_en": "Tesla Cybercab Robotaxi",
-      "topic_zh": "Robotaxi 被動收入",
+      "id": "t2-musk-cybercab",
+      "topic_en": "Cybercab passive income",
+      "topic_zh": "Tesla Cybercab 被動收入",
       "category": "trading",
-      "file": "clip-clip-02-trade-musk.mp3",
-      "bytes": 262068,
-      "chars": 259
+      "file": "clip-t2-musk-cybercab.mp3",
+      "bytes": 267252,
+      "chars": 282
     },
     {
-      "id": "clip-03-tech-ai",
-      "topic_en": "GPT-6 Astra AGI Era",
-      "topic_zh": "GPT-6 Astra 出咗",
+      "id": "tech-gpt6",
+      "topic_en": "GPT-6 Astra AGI",
+      "topic_zh": "GPT-6 Astra AGI",
       "category": "tech/ai",
-      "file": "clip-clip-03-tech-ai.mp3",
-      "bytes": 353076,
-      "chars": 329
+      "file": "clip-tech-gpt6.mp3",
+      "bytes": 294324,
+      "chars": 253
     },
     {
-      "id": "clip-04-hk-news",
-      "topic_en": "Finland Immigration Thread",
-      "topic_zh": "Finland 移民潮",
+      "id": "hk-finland",
+      "topic_en": "Finland immigration",
+      "topic_zh": "芬蘭移民潮",
       "category": "hk/news",
-      "file": "clip-clip-04-hk-news.mp3",
-      "bytes": 328308,
-      "chars": 329
+      "file": "clip-hk-finland.mp3",
+      "bytes": 264948,
+      "chars": 256
     },
     {
-      "id": "clip-05-lol-esports",
-      "topic_en": "PC Hardware vs Streaming",
-      "topic_zh": "PC 仲係皇者",
+      "id": "lol-streaming",
+      "topic_en": "Japan Steam #1 eroge",
+      "topic_zh": "日本PC Steam 第一",
       "category": "lol/esports",
-      "file": "clip-clip-05-lol-esports.mp3",
-      "bytes": 317940,
-      "chars": 341
+      "file": "clip-lol-streaming.mp3",
+      "bytes": 283956,
+      "chars": 262
     },
     {
-      "id": "clip-06-mma-fitness",
-      "topic_en": "Physique Check Cutting",
-      "topic_zh": "Cutting 緊嘅 physique",
+      "id": "fit-cut",
+      "topic_en": "Cut defense cope",
+      "topic_zh": "Cut到好虛",
       "category": "mma/fitness",
-      "file": "clip-clip-06-mma-fitness.mp3",
-      "bytes": 339252,
-      "chars": 293
+      "file": "clip-fit-cut.mp3",
+      "bytes": 302388,
+      "chars": 264
     },
     {
-      "id": "clip-07-anime-culture",
-      "topic_en": "Demon Slayer Hate",
-      "topic_zh": "鬼滅點解俾人鬧",
+      "id": "anime-kny",
+      "topic_en": "Demon Slayer defense",
+      "topic_zh": "鬼滅之刃好睇",
       "category": "anime/culture",
-      "file": "clip-clip-07-anime-culture.mp3",
-      "bytes": 350196,
-      "chars": 364
+      "file": "clip-anime-kny.mp3",
+      "bytes": 283956,
+      "chars": 270
     }
   ]
 }
