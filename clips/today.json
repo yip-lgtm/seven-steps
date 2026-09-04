@@ -4,14 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-btc-15yr",
+      "id": "t1-btc-fomo",
       "category": "trading",
-      "topic_zh": "15年回報對比",
-      "topic_en": "15-year returns",
-      "text_zh": "又睇到呢張圖。$1,000 放15年 BTC 變 $8.97M、NVDA $735K、TSLA $231K、AAPL $29K、SPX $8.4K、金 $2.15K。問自己 2026 應該瞓邊隻。🙏",
-      "text_en_b1": "Here is a return chart from a /biz/ thread. One thousand dollars invested 15 years ago today would be worth: Bitcoin $8,970,000, Nvidia $735,000, Tesla $231,000, Apple $29,000, the S&P $8,400, and Gold $2,150. The post asks which asset you would have picked.",
-      "source_url": "https://boards.4chan.org/biz/thread/62654729",
-      "source_hint": "/biz/ compares BTC vs NVDA vs TSLA vs gold over 15 years",
+      "topic_zh": "BTC 升完先追",
+      "topic_en": "BTC FOMO after pump",
+      "text_zh": "成日都係咁，睇住BTC唔郁幾星期，理都唔理，點知一pump 15%就個個衝入去。點解永遠都係升完先買？其實我都係嗰啲人…prop firm又燒多咗一注。又是學費🙏",
+      "text_en_b1": "Why buy BTC after the pump? You watch BTC do nothing for weeks, ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened?",
+      "source_url": "https://boards.4chan.org/biz/thread/62625769",
+      "source_hint": "/biz/ thread asking why people FOMO into BTC after the move",
       "signal": {
         "asset": "BTC",
         "direction": "observation",
@@ -20,46 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Retro performance chart, not a forward trade"
+        "rationale": "Post-hoc observation on retail FOMO, no actionable setup"
       },
-      "text_en_b2": "A /biz/ chart illustrates the absurd scale of long-term returns. A thousand dollars invested fifteen years back would now be worth around 8.97 million in Bitcoin, 735K in Nvidia, 231K in Tesla, 29K in Apple, 8.4K in the S&P, and a mere 2,150 in gold. While hindsight is twenty-twenty, the poster poses the inevitable question: which of these assets should one be holding into 2026, given such staggering historical performance?",
-      "text_en_c1": "A circulating infographic from a /biz/ thread illustrates the hypothetical fifteen-year appreciation of a thousand-dollar position across several asset classes. Bitcoin would have compounded to roughly 8.97 million dollars, whereas Nvidia, Tesla, Apple, the S&P 500, and gold would have yielded approximately 735,000, 231,000, 29,000, 8,400, and 2,150 dollars respectively. The original poster, evidently in a reflective mood, poses a pointed rhetorical question: which of these instruments ought one to have held through to the present? The thread invites readers to interrogate their own conviction, risk appetite, and capacity to endure volatility over the long horizon.",
-      "text_en_c2": "A return-comparison graphic circulating on the /biz/ subforum lays bare the extraordinary divergence in fifteen-year asset performance: a single thousand dollars deployed in 2010 would, by present reckoning, have compounded into roughly 8.97 million in Bitcoin, 735,000 in Nvidia, 231,000 in Tesla, a comparatively modest 29,000 in Apple, 8,400 in the S&P 500 index, and a barely-inflation-matching 2,150 in physical gold. The closing provocation—essentially a prompt to speculate ex post facto on which vehicle one ought to have slept through the volatility holding—is, of course, classic hindsight theatre. Yet the underlying arithmetic is bracing: a diversified equity-and-bullion portfolio would have underperformed a single volatile cryptocurrency by nearly four orders of magnitude, a fact that quietly indicts conventional portfolio construction while flattering the chancer's intuition.",
-      "audio_url": "audio/2026-09-04/clip-biz-btc-15yr.mp3"
+      "text_en_b2": "It happens every single cycle, and frankly I'm sick of falling for it. You watch BTC flatline for weeks on end, completely dismiss it as dead money, and the moment it pumps 15% out of nowhere, suddenly everyone's rushing in. Why is it that retail always ends up buying after the move? I got liquidated on my prop firm account chasing the breakout — another expensive lesson in chasing green candles.",
+      "text_en_c1": "The irony of retail behaviour never ceases to astound me. Bitcoin sits dormant for weeks on end, and not a soul gives it a second glance; the moment it rallies fifteen percent, however, every self-proclaimed contrarian scrambles to pile in. The pattern is almost comical in its predictability, which makes it all the more infuriating when one catches oneself doing exactly the same thing yet again. The prop firm evaluation account bled another deposit this morning, and the lesson, as always, comes billed as tuition. Were timing markets genuinely possible, one suspects the cycle would be considerably less painful; alas, it is not, and the fee keeps climbing.",
+      "text_en_c2": "There is a rather exasperating rhythm to retail crypto behaviour, one so predictable that even seasoned participants cannot feign surprise. Bitcoin idles for weeks on end, languishing in narrow ranges while the broader cohort pays it no mind whatsoever; then, almost as though cued by an invisible conductor, it surges fifteen per cent in a single move, and the selfsame cohort scrambles to pile in at precisely the wrong juncture. The irony is hardly lost on anyone, least of all those of us who have, once again, contributed to the pattern. Another allocation has evaporated in the prop firm account, another tuition fee rendered to the market, and one cannot help but wonder whether reflexivity itself is the only strategy consistently guaranteed to lose money.",
+      "audio_url": "audio/2026-09-04/clip-t1-btc-fomo.mp3"
     },
     {
-      "id": "biz-musk-tech",
+      "id": "t2-15yr-returns",
       "category": "trading",
-      "topic_zh": "Cybercab 躺平",
-      "topic_en": "Tesla Robotaxi passive income",
-      "text_zh": "Cybercab 迷思帖。買一架放入 Tesla Robotaxi 網路等收 passive income。又係 Elon 嘅嘢，識條鐵咩。🧐 講就易，做就...",
-      "text_en_b1": "A bizzer wants to be redpilled on buying Tesla Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. The thread asks /biz/ whether this is actually a real side hustle or pure hopium. Many replies say no normal person can buy them yet.",
-      "source_url": "https://boards.4chan.org/biz/thread/62648173",
-      "source_hint": "/biz/ anon asks about Tesla Cybercab passive income",
+      "topic_zh": "15年回報",
+      "topic_en": "15 year returns",
+      "text_zh": "睇到呢個數字真係想喊。15年前放1k USD入Bitcoin，今日值897萬美金。我而家30歲，望住prop firm賬戶每日流血😭😭😭。早知讀書嗰陣all in啦…起碼我仲係STEM guy不是嗎lol",
+      "text_en_b1": "$1,000 invested 15 years ago today would be worth: Bitcoin $8,970,000, Nvidia $735,000, Tesla $231,000, Apple $29,000, S&P $8,400, Gold $2,150. Posted on /biz/ this week as a reality check on missed gains.",
+      "source_url": "https://boards.4chan.org/biz/thread/62654729",
+      "source_hint": "/biz/ comparison of 15-year returns across major assets",
       "signal": {
-        "asset": "TSLA",
+        "asset": "BTC",
         "direction": "long",
-        "conviction": "low",
+        "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Robotaxi network uptake is a long-dated TSLA bull case but no clear entry trigger"
+        "rationale": "Implied BTC bias from the returns comparison, long-term hold thesis"
       },
-      "text_en_b2": "A bizzer is seeking honest takes on whether buying a Tesla Cybercab and plugging it into the Robotaxi network constitutes a genuine passive-income side hustle, or whether it amounts to little more than hopium and vapour. The consensus forming in the thread is fairly blunt: ordinary retail buyers cannot yet get their hands on the units, so any returns remain purely hypothetical for the foreseeable future.",
-      "text_en_c1": "A thread on /biz/ invites respondents to demystify the prospective Tesla Cybercab scheme, whereby an ordinary retail buyer would acquire one or more units and deploy them within the forthcoming Tesla Robotaxi network in pursuit of largely passive returns. Scepticism abounds, as several anons contend that retail access remains, for the time being, a pipedream, and that the entire proposition smacks of hopium rather than grounded enterprise. Others concede that, should Elon Musk's broader autonomy roadmap materialise, the model could in principle yield meaningful residual income, though the practical barriers to entry render such speculation, for most, premature.",
-      "text_en_c2": "A /biz/ interlocutor, evidently still awaiting edification, is requesting red-pilling on the proposition that one might acquire Tesla Cybercab units and consign them to the forthcoming Robotaxi network in hopes of accruing passive income. The thread's prevailing scepticism is grounded in mundane operational reality: the vehicles are not yet purchasable by ordinary retail participants, deployment timelines remain deliberately vague, and any yield projection rests on assumptions that Musk-adjacent marketing has been characteristically reluctant to substantiate. Replies skew derisive, dismissing the entire proposition as hopium—an elegant bit of /biz/ patois denoting fantasies that feel like investment theses. Several anons point out that fleet economics, insurance liability, regulatory clearance, and utilisation rates constitute unresolved questions that glossy keynote imagery does not answer.",
-      "audio_url": "audio/2026-09-04/clip-biz-musk-tech.mp3"
+      "text_en_b2": "Stumbling across these numbers genuinely hit me hard. A thousand bucks parked in Bitcoin fifteen years ago would be sitting at roughly 8.97 million today, whereas Nvidia would have turned it into 735k and Tesla around 231k. Even gold barely cracked 2k from that same grand, and the S&P scraped together just 8,400. I'm thirty now, bleeding out in a prop firm account daily, and honestly wishing I'd gone all-in instead of chasing STEM degrees.",
+      "text_en_c1": "Staring at that historical returns table genuinely brought a lump to my throat. A single thousand dollars allocated to Bitcoin fifteen years ago would, at present valuations, sit comfortably at roughly 8.97 million; Nvidia holdings would have appreciated to around 735,000, Tesla to 231,000, and even Apple to a respectable 29,000, whereas the S&P would have yielded a measly 8,400 and gold barely 2,150. Now thirty, I watch my prop firm account haemorrhage capital on a daily basis while consoling myself with the thought that, had I had the conviction back then, the trajectory might have differed. A STEM background does offer some solace, though admittedly not financial compensation.",
+      "text_en_c2": "The juxtaposition of figures is enough to induce a kind of melancholic vertigo in anyone under the age of forty. A modest one thousand dollars committed fifteen years ago would, were it lodged in Bitcoin, now be worth approximately eight point nine seven million; Nvidia shares would have yielded seven hundred and thirty-five thousand; Tesla, two hundred and thirty-one thousand; Apple a comparatively pedestrian twenty-nine thousand; the S&P a respectable eight thousand four hundred; and gold, the supposed store of value, a rather deflating two thousand one hundred and fifty. Posted to /biz/ as a sobering reality check, the figures underscore, with brutal clarity, the opportunity cost of hesitation.",
+      "audio_url": "audio/2026-09-04/clip-t2-15yr-returns.mp3"
     },
     {
-      "id": "g-gpt6-astra",
+      "id": "ai-gpt6-astra",
       "category": "tech/ai",
       "topic_zh": "GPT-6 Astra",
-      "topic_en": "GPT-6 Astra launch",
-      "text_zh": "OpenAI 出咗 GPT-6 Astra，自稱 AGI era 開始。ARC-AGI 3 接近 saturate。omg 我啲考牌溫書係咪都俾 AI 食埋。靠AI續命 🙏",
-      "text_en_b1": "OpenAI just launched GPT-6 Astra, calling it the most intelligent and aligned model and welcoming everyone to the AGI era. Benchmarks show it nearly saturates ARC-AGI 3. Another /g/ thread blasts it as the strongest AI model ever released, treating the launch as a nuclear moment for the industry.",
-      "source_url": "https://boards.4chan.org/g/thread/109720371",
-      "source_hint": "/g/ thread on the GPT-6 Astra launch and ARC-AGI benchmark",
+      "topic_en": "GPT-6 Astra launches",
+      "text_zh": "OpenAI出咗GPT-6 Astra，話乜嘢「AGI era」welcome。wtf。我surveying嘅工會唔會被AI取代先？Tommy同Sum Ho都仲用緊Excel…考牌嘅嘢AI會唔會直接做埋😭 靠AI續命啦我",
+      "text_en_b1": "OpenAI launched GPT-6 Astra on Thursday, calling it the most intelligent and aligned model yet. Benchmarks show it nearly saturates ARC AGI 3. The company says welcome to the AGI era. Thread on /g/ called it the strongest AI model ever released.",
+      "source_url": "https://boards.4chan.org/g/thread/109720583",
+      "source_hint": "/g/ thread announcing GPT-6 Astra launch",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "AI launch news, not a trade setup"
+        "rationale": "Tech news, no trade setup"
       },
-      "text_en_b2": "OpenAI has officially rolled out GPT-6 Astra, framing it as the most capable and aligned model yet and formally ushering in what they call the AGI era. Benchmark results show the system nearly saturating ARC-AGI 3, while the wider /g/ thread treats the launch as a genuinely seismic moment for the industry, one that renders a growing chunk of white-collar studying arguably obsolete.",
-      "text_en_c1": "OpenAI has formally unveiled GPT-6 Astra, billing it as the most capable and best-aligned system the organisation has yet produced, and effectively heralding what its marketing apparatus describes as the dawn of the AGI era. Internal benchmarks suggest the model comes perilously close to saturating ARC-AGI 3, a result that several /g/ commentators interpret as a watershed moment for the industry. One anonymous poster, evidently in the throes of licensing-exam preparation, laments that any competitive edge afforded by rote study may soon be rendered obsolete, and asks, half-seriously, whether AI itself might constitute the only viable liferaft.",
-      "text_en_c2": "OpenAI has formally unveiled GPT-6 Astra, marketing the system as its most capable and aligned model to date and, with characteristic restraint, heralding the advent of the AGI era. Internal benchmarks purport to show the model approaching saturation on ARC-AGI 3, a metric once considered a credible yardstick for general reasoning. Across parallel /g/ threads, the release is being treated less as an incremental improvement than as an industry-shattering inflection point—a nuclear moment, as several posters have phrased it, for both commercial competitors and white-collar labour markets writ large. The prevailing anxiety, articulated with typical /g/ fatalism, concerns the diminishing viability of credentialed human expertise: if reasoning benchmarks plateau, what remains that a sufficiently motivated model cannot eventually subsume?",
-      "audio_url": "audio/2026-09-04/clip-g-gpt6-astra.mp3"
+      "text_en_b2": "So OpenAI finally dropped GPT-6 Astra on Thursday, and they're acting like we've officially crossed into the AGI era. The benchmarks are supposedly nearly saturating ARC AGI 3, which sounds impressive on paper, although I'm struggling to see how that helps my surveying workflow get done faster. Tommy and Sum Ho are still grinding away in Excel while I'm wondering whether AI will eventually sit the licensing exams for us. At this point I'm basically clinging to AI tools for survival.",
+      "text_en_c1": "OpenAI has formally unveiled GPT-6 Astra, describing it in characteristically grandiose terms as the most capable and aligned model to date, with internal benchmarks suggesting it nearly saturates the notoriously demanding ARC-AGI 3 evaluation suite. The company has, rather breathlessly, welcomed users to what it insists is the AGI era, a claim that has predictably divided opinion across the relevant threads on /g/. My surveying colleagues Tommy and Sum Ho continue to labour away in Excel, blissfully unaware, and one cannot help but wonder whether the professional examinations themselves might eventually fall within the model's remit.",
+      "text_en_c2": "OpenAI has unveiled GPT-6 Astra, framing the release as the advent of a new epoch for artificial intelligence, though whether this constitutes genuine arrival or merely another well-orchestrated marketing crescendo remains a matter of considerable debate. Internal benchmarks suggest the model comes tantalisingly close to saturating the ARC-AGI-3 suite, a result the company has leveraged to declare, with characteristic restraint, that the so-called AGI era has begun. Reaction on /g/ ranged from guarded optimism to outright exasperation, with several anons observing that intelligence, however impressive in the abstract, does rather little for those whose professional livelihoods hinge on tasks that remain stubbornly resistant to automation. For surveyors still wedded to Excel and examination candidates memorising by rote, the promised utopia appears, for the moment, distinctly remote.",
+      "audio_url": "audio/2026-09-04/clip-ai-gpt6-astra.mp3"
     },
     {
-      "id": "pol-nz-haka",
+      "id": "hk-haka-tanget",
       "category": "hk/news",
-      "topic_zh": "Haka 之亂",
-      "topic_en": "Haka debate on /pol/",
-      "text_zh": "/pol/ 有人 post 話 China rule 到 New Zealand 就應該 ban 咗 haka，仲話白人跳呢套 dance 係好 cringe。我喺 HK 英式殖民地長大都知，呢啲嘢唔好笑 lol。",
-      "text_en_b1": "A /pol/ thread says that once China rules New Zealand, they should ban the haka, calling it the cringiest thing from that part of the world. The poster wonders how any white man from NZ could think the haka is cool or join in, and questions why the British did not just shoot all of those savages.",
+      "topic_zh": "紐西蘭haka",
+      "topic_en": "NZ haka cringe",
+      "text_zh": "pol又有人串紐西蘭haka。雖然唔關我事但當笑話睇ok。香港人連踩鋼線跳火圈都睇過啦，邊有haka咁cute🤪 btw 我而家望緊牆紙諗緊美股收市",
+      "text_en_b1": "As soon as China rules New Zealand they should ban that dance, an anon on /pol/ wrote, calling haka the cringiest thing he has seen from that part of the world. He said no white man from NZ should ever participate in it, and asked why the British did not shoot all of those savages.",
       "source_url": "https://boards.4chan.org/pol/thread/541936629",
-      "source_hint": "/pol/ rant trashing the haka and NZ",
+      "source_hint": "/pol/ rant about NZ haka",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Culture war post, no market angle"
+        "rationale": "Culture/pol flamewar, no trade setup"
       },
-      "text_en_b2": "A /pol/ poster claims that once China gains political control of New Zealand, the haka should be banned outright, branding it the cringiest cultural export from that region. They further wonder how any white New Zealander could genuinely find the ritual cool enough to participate in, and question why British colonisers failed to simply eliminate the people behind such an absurd performance. The whole thread reads like a parody.",
-      "text_en_c1": "A particularly inflammatory /pol/ thread posits that, were New Zealand ever to fall under Chinese administration, the haka should be prohibited outright, with the poster dismissing the ceremonial performance as the most cringeworthy cultural export from that region. The same contributor professes bafflement at any white New Zealander who might find the ritual compelling, let alone elect to participate, and further muses that the British ought, in hindsight, to have simply liquidated the indigenous population during the colonial era. The remarks, predictably, draw condemnation from those familiar with the tradition's martial and ceremonial gravity.",
-      "text_en_c2": "A /pol/ thread, having apparently exhausted its reserves of sober analysis, has alighted upon the proposition that once Chinese dominion descends upon New Zealand, the indigenous Māori haka ought to be proscribed. The poster, displaying the customary detachment for which that board is renowned, additionally muses on how any self-respecting Pākehā could find the ceremonial dance aesthetically tolerable, let alone elect to perform it, before ruminating on whether the British ought not to have resorted to more terminal colonial solutions. The contribution is, predictably, less interested in ethnographic nuance than in provocation for its own sake. For anyone raised within a British colonial milieu—and the present observer qualifies—this particular brand of historical humour curdles rather quickly, trading in cruelty for the sake of transgressive amusement.",
-      "audio_url": "audio/2026-09-04/clip-pol-nz-haka.mp3"
+      "text_en_b2": "Some anon over on /pol/ decided to take yet another shot at the New Zealand haka, calling it the cringiest cultural display he's ever come across. He reckons no white man from NZ should ever participate in it, and even dragged the British in for failing to, quote, shoot all of those savages. Honestly it's got nothing to do with me, but as a Hong Konger I've witnessed far more unhinged performances, so haka barely registers.",
+      "text_en_c1": "The /pol/ boards have predictably produced another gem of cultural commentary, with an anonymous contributor lambasting the New Zealand haka as the most cringeworthy spectacle to have emerged from that corner of the globe. He went on to opine that no white New Zealander should ever participate in the ritual, and rather colourfully questioned why the British had not simply shot all of the so-called savages at the time of colonisation. While the remarks are, of course, utterly unremarkable for that particular forum, those of us familiar with Hong Kong's far more audacious street performances can only smirk; if one has witnessed locals navigating flaming hoops and razor-thin scaffolding, a…",
+      "text_en_c2": "The cultural skirmishes that surface on /pol/ seldom warrant sustained attention, yet the latest effusion regarding New Zealand's pre-match haka ritual is, in its own unedifying way, rather instructive. One anonymous contributor, evidently aggrieved by the display, proposed that once Chinese influence extends to Wellington, the ceremony ought to be proscribed outright, decrying it as the most cringeworthy spectacle to have emerged from that corner of the globe. He went further, suggesting that no European-descended New Zealander should ever participate, and lamenting that British forces had not, historically, adopted more terminal measures against the practitioners. From the vantage point of Hong Kong, where residents have witnessed far more outlandish public theatrics, the entire controversy registers as faintly quaint, particularly when one ought really to be monitoring US equity futures.",
+      "audio_url": "audio/2026-09-04/clip-hk-haka-tanget.mp3"
     },
     {
-      "id": "v-jp-pc",
+      "id": "lol-cloud-streaming",
       "category": "lol/esports",
-      "topic_zh": "Eroge 登頂",
-      "topic_en": "Japan Steam charts",
-      "text_zh": "/v/ 講有隻 eroge 喺 Steam Japan 排第一，勁過晒啲 AAA PC game。LOL 都係日本 trend 食緊 — S15 都唔知觀唔觀眾有冇被搶走。🧐",
-      "text_en_b1": "A /v/ poster points out that an eroge is currently ranked number one on Steam in Japan. They ask how an eroge sold more than any AAA game on PC in Japan. Replies point to the smaller market size and the niche release style of Japanese PC eroge titles lately.",
-      "source_url": "https://boards.4chan.org/v/thread/746758113",
-      "source_hint": "/v/ shocked that an eroge tops the Japan Steam chart",
+      "topic_zh": "雲端串流gg",
+      "topic_en": "Cloud gaming dies",
+      "text_zh": "lol笑死。以前啲tech bro話未來唔使買console PC，訂閱就得。而家AI直接食晒server資源，又要返去整hardware。當年打LOL S3嗰陣邊諗到呢啲🙃 打機時間都冇…肥仔信叫我打rank我都no time",
+      "text_en_b1": "Everyone said in the future we would have no dedicated consoles or PCs, and people would just pay for streaming hardware and a subscription. But now the AI tech bros have taken up all the server resources, so they have to keep making dedicated hardware. Its techbros vs streaming bros now, the anon wrote on /v/.",
+      "source_url": "https://boards.4chan.org/v/thread/746818908",
+      "source_hint": "/v/ thread on AI eating cloud gaming server resources",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports-adjacent market observation, no trade"
+        "rationale": "Gaming commentary, no trade setup"
       },
-      "text_en_b2": "A /v/ poster flags a genuinely surprising development on the Japanese Steam charts: an eroge has knocked every major AAA PC release off the top spot in the region. Repliers point to the comparatively small size of the Japanese PC market and the niche, staggered release windows of domestic eroge titles, arguing that scaling context rather than raw popularity explains the headline. Still, League of Legends viewership keeps declining.",
-      "text_en_c1": "A /v/ observer notes, with no small measure of incredulity, that an adult visual novel currently occupies the number-one position on Steam's Japanese regional charts, eclipsing every major AAA PC release of the season. The original poster queries how such a niche title could conceivably outperform productions backed by substantially larger marketing budgets. Responding anons attribute the anomaly to the comparatively modest scale of the Japanese PC market, alongside the increasingly curated, almost boutique-style release cadence that has come to characterise domestic eroge publishing in recent quarters.",
-      "text_en_c2": "A /v/ correspondent has observed what appears to be a genuine market anomaly: an eroge currently occupies the top slot on Steam's Japanese charts, eclipsing every AAA PC release in the domestic market. The rhetorical question—how a title from a comparatively marginal genre can outsell productions budgeted at orders of magnitude greater—is less naïve than it first appears, since the answer lies partly in the structural peculiarities of Japanese PC distribution. Niche eroge publishers exploit tight release windows, aggressive bundling, and a devout enthusiast base that conventional Western-style blockbuster marketing cannot replicate. The discussion has, predictably, wandered into adjacent anxieties: whether League of Legends viewership, itself buoyed by the S15 cycle, is itself cannibalising mainstream engagement.",
-      "audio_url": "audio/2026-09-04/clip-v-jp-pc.mp3"
+      "text_en_b2": "The irony is almost too perfect. A few years back every tech bro was preaching that dedicated consoles and gaming PCs would become obsolete, replaced entirely by streaming subscriptions running on rented hardware. Fast forward to today, and AI workloads have basically devoured all the server capacity, forcing manufacturers to keep churning out consumer hardware after all. Back in Season 3 of League I couldn't have pictured this mess, and these days I barely have time to queue up ranked games anyway.",
+      "text_en_c1": "There is a certain poetic justice in watching the cloud-gaming thesis unravel in real time. A few years ago, every tech evangelist with a podcast and a Patagonia vest insisted that dedicated consoles and gaming rigs would soon become relics, replaced by subscription-based streaming services accessible from any device. Fast forward to the present, and the artificial intelligence boom has hoovered up virtually every available server resource, leaving the streaming evangelists scrambling back to silicon and soldering stations.",
+      "text_en_c2": "The collapse of cloud gaming's utopian pretensions has been, in retrospect, almost as inevitable as it is darkly amusing. A mere handful of years ago, the prevailing wisdom among Silicon Valley's techno-optimists held that dedicated hardware would become obsolete, that consumers would subscribe to ephemeral streams rather than possess anything tangible, and that the console wars would henceforth be waged in data centres rather than living rooms. Yet artificial intelligence, that very same technological force which was meant to render everything frictionless, has instead devoured server capacity with such voracity that hardware manufacturers find themselves, rather ignominiously, returning to the business of selling physical components to actual human beings.",
+      "audio_url": "audio/2026-09-04/clip-lol-cloud-streaming.mp3"
     },
     {
-      "id": "fit-cut-routine",
+      "id": "mma-fit-bench",
       "category": "mma/fitness",
-      "topic_zh": "5日 hybrid plan",
-      "topic_en": "Heavy bag hybrid plan",
-      "text_zh": "/fit/ 有師兄用緊 Jeff Nippard Powerbuilding 想轉 5-6 日 plan，加 heavy bag + cardio。我都係 cutting 中，1pl8 OHP 仲未到，deadlift 又唔鍾意 — 真係我嘅寫照。👍",
-      "text_en_b1": "A /fit/ user asks for help building a new 5 to 6 day workout plan. They have been running Jeff Nippard's Powerbuilding program and are bored of it, especially deadlifts and hip thrusts. Their gym has a heavy bag nobody uses, so they want to mix weightlifting with heavy bag sessions and cardio.",
-      "source_url": "https://boards.4chan.org/fit/thread/77496600",
-      "source_hint": "/fit/ poster wants to mix lifting with heavy bag work",
+      "topic_zh": "Bench 力不從心",
+      "topic_en": "Bench stalled",
+      "text_zh": "我而家bench落咗好多🥲 唔知係cutting定膊頭廢。2pl8都唔穩，仲話咩4pl8 deadlift。肥仔信話我食嘢唔夠要我加rice…ok thx 我試下。但考牌溫書都冇時間gym wtf",
+      "text_en_b1": "The anon is closer to a 1 plate OHP than he is to a 2 plate bench, 3 plate squat, or 4 plate deadlift. He thinks he will have a 1 plate OHP for reps in a month or two. Posted on /fit/ with picrel showing his physique.",
+      "source_url": "https://boards.4chan.org/fit/thread/77491789",
+      "source_hint": "/fit/ lifter stuck on bench numbers",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Routine advice thread, no market link"
+        "rationale": "Fitness/lifting post, no trade setup"
       },
-      "text_en_b2": "A /fit/ regular wants to overhaul their training setup and is asking the board for help putting together a fresh five-or-six-day plan. Although they are midway through Jeff Nippard's Powerbuilding programme, boredom has well and truly set in, particularly with deadlifts and hip thrusts. Since their gym has an unused heavy bag gathering dust, they are keen to blend traditional weightlifting with bag work and cardio while cutting.",
-      "text_en_c1": "A /fit/ regular solicits guidance on restructuring their regimen into a five- or six-day programme, having grown weary of the Jeff Nippard Powerbuilding template they have been following for some months. Particular fatigue is directed at deadlifts and hip thrusts, while an underutilised heavy bag at their facility has prompted interest in a hybrid protocol that interleaves resistance work with striking sessions and dedicated cardio blocks. Currently in a cutting phase, they concede that their overhead press has yet to clear a single plate, a detail many respondents seize upon as they recalibrate the suggested programme.",
-      "text_en_c2": "A /fit/ participant, evidently wearied of Jeff Nippard's Powerbuilding programme after extended adherence, has solicited guidance on constructing a five-to-six-day hybrid regimen that integrates conventional resistance work with heavy-bag training and cardiovascular conditioning. Their gym's heavy bag languishes untouched, presenting an opportunity they intend to exploit, while their current pressing numbers—a one-plate overhead press that remains aspirational—suggest they are mid-cut and unwilling to sacrifice muscle for the sake of leaning out prematurely. Deadlifts and hip thrusts, predictably, have lost their charm. The underlying impulse is one familiar to seasoned lifters: periodisation fatigue, the creeping suspicion that marginal returns have flattened, and a yearning for the metabolic brutality that only striking work reliably delivers when the barbell has begun to feel like a chore.",
-      "audio_url": "audio/2026-09-04/clip-fit-cut-routine.mp3"
+      "text_en_b2": "My bench has completely fallen off a cliff lately, and I genuinely can't tell whether it's the cut wrecking my recovery or if my shoulders have simply packed it in. Right now a two-plate bench feels shaky at best, yet I keep telling people I'm chasing a four-plate deadlift, which sounds delusional written down. The fitcel crew insists I'm under-eating and need to pile in more rice, so I'll give that a shot, although finding time for the gym between licensing exam revision is becoming…",
+      "text_en_c1": "My bench press numbers have deteriorated rather precipitously of late, and I am genuinely uncertain whether the culprit is the aggressive caloric deficit I have been running or the simple fact that my shoulders have, despite my best efforts, failed to keep pace with my ambitions. At present, a two-plate bench feels alarmingly unstable, which renders talk of a four-plate deadlift somewhat aspirational; one suspects I am, in reality, considerably closer to a single-plate overhead press than to any of the milestones I had optimistically pencilled in.",
+      "text_en_c2": "There is a particular kind of quiet humiliation that attends a stalled bench press, the sort that prompts one to scrutinise every variable from caloric surplus to the integrity of one's rotator cuff. The situation is, by any reasonable measure, dire: a two-plate bench wobbles uncertainly overhead, while aspirations of a four-plate deadlift linger somewhere in the realm of fantasy, a goal so distant it might as well be inscribed on a distant planet. The overhead press, by contrast, hovers closer to a single plate, and progress on that lift appears, mercifully, a month or two within reach. Advice from well-meaning friends, typically involving additional rice and the cheerful injunction to eat more, is duly received, however impractical during examination season when neither gym nor kitchen admits of the requisite time.",
+      "audio_url": "audio/2026-09-04/clip-mma-fit-bench.mp3"
     },
     {
-      "id": "a-kny-defense",
+      "id": "anime-kny-defense",
       "category": "anime/culture",
-      "topic_zh": "鬼滅之刃 平反",
-      "topic_en": "Demon Slayer defense",
-      "text_zh": "/a/ 有人第一次睇 KnY season 2，反問點解咁多人鬧。我自己都係 Gundam 00 年代 — engineering 故事先啱我口味，鬼滅就當睇畫面。lol",
-      "text_en_b1": "A first-time watcher of Demon Slayer is on season 2 and asks why so many people online hate on it. They say the criticism also applies to other beloved anime, so it might just be backlash because KnY made billions. The thread is half-defending, half-dunking the show.",
+      "topic_zh": "鬼滅之刃",
+      "topic_en": "Demon Slayer hate",
+      "text_zh": "有人幫鬼滅講好話lol。話人哋hate鬼滅只係因為紅，啲批評套套apply去其他動漫都得因為佢哋冇賺幾十億。我睇咗S2，真心ok。香港返工太chur，放工睇動漫已經係唯一娛樂🙏",
+      "text_en_b1": "Why do so many people seem to hate Demon Slayer, an anon asked on /a/. He is watching it for the first time and is on season 2. He says every criticism of the show applies equally, if not more, to other beloved anime, but those ones did not make billions of dollars.",
       "source_url": "https://boards.4chan.org/a/thread/290675591",
-      "source_hint": "/a/ thread defending Demon Slayer from haters",
+      "source_hint": "/a/ thread defending Demon Slayer",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pop culture post, no trade angle"
+        "rationale": "Anime discussion, no trade setup"
       },
-      "text_en_b2": "A first-time Demon Slayer viewer, now deep into season two, is pushing back against the relentless online criticism the show attracts. They argue that similar complaints get levelled at plenty of other beloved anime, suggesting the hate stems largely from backlash against KnY's enormous commercial success rather than any genuine flaw. The thread oscillates between earnest defence and affectionate roasting, with neither side landing a decisive blow.",
-      "text_en_c1": "A first-time viewer of Demon Slayer, presently midway through the second season, turns to /a/ seeking an explanation for the disproportionate vitriol the series attracts online. They observe, not unreasonably, that comparable criticisms could be levelled at numerous acclaimed titles whose merits remain largely uncontested, and speculate that the hostility may stem less from any genuine aesthetic deficiency than from the sheer commercial ubiquity of a franchise that has generated billions in revenue. The thread consequently fractures between respondents mounting earnest defences of the adaptation and others content merely to dunk upon it.",
-      "text_en_c2": "A first-time viewer of Demon Slayer, having progressed into the second season, has ventured onto /a/ to inquire why the franchise attracts such disproportionate online contempt. Their defence is elegantly reductive: the same criticisms levelled at KnY—derivative plotting, archetypal protagonists, structurally conventional arcs—apply with equal force to beloved fixtures of the medium, suggesting that the hostility is less aesthetic than sociological. A series that grosses billions invites a backlash commensurate with its success, regardless of intrinsic merit. The thread's contributors split accordingly, half offering qualified defences, half piling on with reflexive contrarianism. One poster, self-identifying as a Gundam 00 alumnus who favours engineering-inflected narratives, confesses to consuming KnY purely as a visual experience—an honourable compromise, if not an outright endorsement.",
-      "audio_url": "audio/2026-09-04/clip-a-kny-defense.mp3"
+      "text_en_b2": "Someone actually stuck up for Demon Slayer on /a/ and I'm still processing it. His argument was that most of the criticism boils down to jealousy over its success, since the same complaints could be lobbed at plenty of other beloved anime that simply didn't rake in billions. I powered through Season 2 recently and thought it was genuinely solid, even if the animation style isn't everyone's cup of tea.",
+      "text_en_c1": "An anonymous poster on /a/ has mounted what is, by the standards of that notoriously acerbic board, a remarkably measured defence of Demon Slayer, observing that the criticism levelled at the series appears to stem largely from its commercial ubiquity rather than any genuine artistic deficiency. He notes, with some justification, that the very same complaints could be transposed onto countless other beloved anime titles, yet those programmes escape scrutiny precisely because they did not generate billions in revenue.",
+      "text_en_c2": "There exists a rather curious phenomenon within anime discourse whereby works achieving genuine commercial success attract disproportionate criticism, a tendency the more cynical fans suggest owes less to aesthetic merit than to simple resentment of the mainstream. An anonymous contributor to /a/, currently working his way through Demon Slayer for the first time and now well into the second season, articulated the grievance with admirable clarity: virtually every criticism levelled at the series, he argued, could be applied with equal or greater force to other beloved titles, the only meaningful distinction being that those titles had not generated the sort of revenue that provokes resentment in the first place.",
+      "audio_url": "audio/2026-09-04/clip-anime-kny-defense.mp3"
     }
   ]
 }
