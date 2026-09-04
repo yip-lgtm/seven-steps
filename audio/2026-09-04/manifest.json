@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-04",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-btc15yr",
+      "topic_en": "15-year returns",
+      "topic_zh": "15年回報",
+      "category": "trading",
+      "file": "clip-biz-btc15yr.mp3",
+      "bytes": 418164,
+      "chars": 168
+    },
+    {
+      "id": "biz-cybercab",
+      "topic_en": "Cybercab passive income",
+      "topic_zh": "Cybercab被動收入",
+      "category": "trading",
+      "file": "clip-biz-cybercab.mp3",
+      "bytes": 192948,
+      "chars": 203
+    },
+    {
+      "id": "g-gpt6",
+      "topic_en": "GPT-6 Astra launch",
+      "topic_zh": "GPT-6 Astra",
+      "category": "tech/ai",
+      "file": "clip-g-gpt6.mp3",
+      "bytes": 209076,
+      "chars": 189
+    },
+    {
+      "id": "pol-finland",
+      "topic_en": "Europe migration thread",
+      "topic_zh": "外國亂況",
+      "category": "hk/news",
+      "file": "clip-pol-finland.mp3",
+      "bytes": 225780,
+      "chars": 213
+    },
+    {
+      "id": "v-japansteam",
+      "topic_en": "Eroge tops Steam Japan",
+      "topic_zh": "日本Steam榜首",
+      "category": "lol/esports",
+      "file": "clip-v-japansteam.mp3",
+      "bytes": 189492,
+      "chars": 165
+    },
+    {
+      "id": "fit-cut",
+      "topic_en": "Cutting bench excuses",
+      "topic_zh": "cut excuses串",
+      "category": "mma/fitness",
+      "file": "clip-fit-cut.mp3",
+      "bytes": 286836,
+      "chars": 244
+    },
+    {
+      "id": "a-kny",
+      "topic_en": "Demon Slayer debate",
+      "topic_zh": "鬼滅之刀",
+      "category": "anime/culture",
+      "file": "clip-a-kny.mp3",
+      "bytes": 232692,
+      "chars": 215
+    }
+  ]
+}
