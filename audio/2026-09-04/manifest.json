@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-btc-fomo",
-      "topic_en": "BTC FOMO after pump",
-      "topic_zh": "BTC 升完先追",
+      "id": "trade-macro-btc-pump",
+      "topic_en": "BTC post-pump buying",
+      "topic_zh": "BTC pump 之後",
       "category": "trading",
-      "file": "clip-t1-btc-fomo.mp3",
-      "bytes": 215412,
-      "chars": 198
+      "file": "clip-trade-macro-btc-pump.mp3",
+      "bytes": 238452,
+      "chars": 197
     },
     {
-      "id": "t2-15yr-returns",
-      "topic_en": "15 year returns",
-      "topic_zh": "15年回報",
+      "id": "trade-musk-cybercab-robotaxi",
+      "topic_en": "Cybercab robotaxi passive income",
+      "topic_zh": "Cybercab 被動收入",
       "category": "trading",
-      "file": "clip-t2-15yr-returns.mp3",
-      "bytes": 451572,
-      "chars": 205
+      "file": "clip-trade-musk-cybercab-robotaxi.mp3",
+      "bytes": 214260,
+      "chars": 215
     },
     {
-      "id": "ai-gpt6-astra",
-      "topic_en": "GPT-6 Astra launches",
-      "topic_zh": "GPT-6 Astra",
+      "id": "tech-gpt6-astra",
+      "topic_en": "GPT-6 Astra launch",
+      "topic_zh": "GPT-6 Astra AGI",
       "category": "tech/ai",
-      "file": "clip-ai-gpt6-astra.mp3",
-      "bytes": 273012,
-      "chars": 245
+      "file": "clip-tech-gpt6-astra.mp3",
+      "bytes": 263796,
+      "chars": 222
     },
     {
-      "id": "hk-haka-tanget",
-      "topic_en": "NZ haka cringe",
-      "topic_zh": "紐西蘭haka",
+      "id": "hk-news-haka-rant",
+      "topic_en": "Haka dance debate",
+      "topic_zh": "Haka 舞論戰",
       "category": "hk/news",
-      "file": "clip-hk-haka-tanget.mp3",
-      "bytes": 267252,
-      "chars": 282
+      "file": "clip-hk-news-haka-rant.mp3",
+      "bytes": 197556,
+      "chars": 231
     },
     {
-      "id": "lol-cloud-streaming",
-      "topic_en": "Cloud gaming dies",
-      "topic_zh": "雲端串流gg",
+      "id": "lol-eroge-japan",
+      "topic_en": "Eroge tops Japan Steam",
+      "topic_zh": "日本 Steam 排行",
       "category": "lol/esports",
-      "file": "clip-lol-cloud-streaming.mp3",
-      "bytes": 311604,
-      "chars": 312
+      "file": "clip-lol-eroge-japan.mp3",
+      "bytes": 199284,
+      "chars": 180
     },
     {
-      "id": "mma-fit-bench",
-      "topic_en": "Bench stalled",
-      "topic_zh": "Bench 力不從心",
+      "id": "mma-fit-physique-split",
+      "topic_en": "5'9 split advice",
+      "topic_zh": "5呎9 physique 攻略",
       "category": "mma/fitness",
-      "file": "clip-mma-fit-bench.mp3",
-      "bytes": 227508,
-      "chars": 217
+      "file": "clip-mma-fit-physique-split.mp3",
+      "bytes": 337524,
+      "chars": 244
     },
     {
       "id": "anime-kny-defense",
-      "topic_en": "Demon Slayer hate",
-      "topic_zh": "鬼滅之刃",
+      "topic_en": "Why Demon Slayer gets hate",
+      "topic_zh": "鬼滅之刃點解被彈",
       "category": "anime/culture",
       "file": "clip-anime-kny-defense.mp3",
-      "bytes": 278772,
-      "chars": 266
+      "bytes": 222324,
+      "chars": 233
     }
   ]
 }
