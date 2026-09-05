@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "btc-pump-fomo",
+      "id": "clip-1-btc-vs-gold",
       "category": "trading",
-      "topic_zh": "BTC升先追",
-      "topic_en": "BTC Post-Pump FOMO",
-      "text_zh": "BTC橫咗幾個星期，個個都唔理。升咗15%之後，全部人突然想買。點解永遠都係升咗先衝入去先入肉，lol。",
-      "text_en_b1": "You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15 percent, and suddenly everyone wants in. Why does everyone buy after the move has already happened? lol.",
-      "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "A /biz/ post mocking the habit of chasing Bitcoin after a pump.",
+      "topic_zh": "BTC vs 黃金",
+      "topic_en": "Bitcoin vs Gold",
+      "text_zh": "又係老問題。如果要揸一樣10年，Bitcoin定黃金？兩邊啲仔都話自己嗰樣好。但我而家CFD輸緊，真係無錢再買⋯⋯btw 你揀邊樣？",
+      "text_en_b1": "If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Both sides on /biz/ swear their pick wins long term. Storage, inflation hedge, upside — everyone has a different answer.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "Classic /biz/ 10-year hold debate",
       "signal": {
         "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Post-hoc observation about FOMO, with no actionable entry or exit setup."
-      },
-      "text_en_b2": "You sit on the sidelines for weeks while Bitcoin trades sideways, and hardly anyone pays attention. The moment it rips 15 percent, though, the entire timeline suddenly wants in. Why does retail always pile in after the move has already happened? It's like nobody wants to buy the dip, only chase the pump. The irony is painful, lol.",
-      "text_en_c1": "For weeks on end, BTC has essentially traded sideways, and the market has paid it virtually no attention whatsoever. Yet once it suddenly rallies by some fifteen percent, the same crowd that was ignoring it a moment ago is scrambling to pile in. The psychology behind this pattern is hardly new, but it remains endlessly amusing: retail capital invariably chases the move after the fact rather than positioning itself in advance. If you wanted to feel poorer, you could not do much worse than buying the breakout that everyone is suddenly celebrating. The irony, of course, is that those who arrive last invariably pay the highest entry. lol.",
-      "text_en_c2": "There is something almost anthropological in the way retail capital behaves around Bitcoin: weeks, sometimes a full month, of lateral price action, and the prevailing mood is one of studied indifference, so much so that the very mention of the asset provokes eye-rolls in certain Telegram circles. Then, the moment a fifteen-percent impulse leg materialises on the daily chart, the same crowd that was loudly dismissive now clamours for entries at any price. The phenomenon is so predictable that one could practically set one’s watch by it — a textbook instance of performance chasing, in which conviction arrives precisely when the easy money has already been made. It would be comic if it were not, for countless participants, genuinely ruinous.",
-      "audio_url": "audio/2026-09-05/clip-btc-pump-fomo.mp3"
-    },
-    {
-      "id": "cybercab-passive-income",
-      "category": "trading",
-      "topic_zh": "Cybercab搵錢",
-      "topic_en": "Cybercab Passive Income",
-      "text_zh": "買Tesla Cybercab，再放入Robotaxi network做passive income。聽落真係dream，但個setup究竟有幾多現實成分？",
-      "text_en_b1": "Redpill me on buying Tesla Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. How realistic is this setup, and what could make it fail?",
-      "source_url": "https://boards.4chan.org/biz/thread/62648173",
-      "source_hint": "A /biz/ thread asking whether Tesla Cybercabs could generate passive income through Robotaxi.",
-      "signal": {
-        "asset": "TSLA",
         "direction": "neutral",
         "conviction": "low",
         "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "The post explores passive income from Cybercabs but gives no clear buy, sell, price target, or stop."
+        "rationale": "OP is asking for opinions, not a setup — comparison thread with no clear edge"
       },
-      "text_en_b2": "I'm trying to get a realistic read on buying Tesla Cybercabs and running them through the Robotaxi network as a passive income stream. On paper, it sounds like the dream — your car earns money while you sleep. But between regulatory hurdles, full-self-driving limitations, and Tesla's spotty track record on timelines, how much of this is genuinely achievable, and what could realistically make the whole setup fall apart?",
-      "text_en_c1": "The pitch sounds remarkably seductive on paper: purchase a fleet of Tesla Cybercabs, deploy them across the Robotaxi network, and watch a steady stream of passive income trickle in while you sleep. In practice, however, the proposition raises more questions than it answers, ranging from regulatory approvals and insurance liabilities to demand forecasting in cities where the service does not yet exist. Even if Tesla manages to iron out the technical wrinkles, the unit economics hinge on assumptions that could collapse if utilisation rates fall short of projections. Anyone considering this setup should probably stress-test their assumptions before committing serious capital.",
-      "text_en_c2": "The proposition is seductively simple, which is reason enough to be wary of it: acquire one or more Tesla Cybercabs, enrol them in the Tesla Robotaxi network, and sit back while the vehicles ostensibly generate a stream of passive income, hands-off and ostensibly recession-proof. Theoretically, the unit economics are not absurd, since utilisation rates — should they materialise at scale — could plausibly amortise the upfront capital expenditure within a measurable horizon. Practically, however, the model hinges on a constellation of assumptions: regulatory clearance, mature autonomy, sustained consumer demand, and Tesla’s capacity to maintain both fleet uptime and competitive pricing against incumbent ride-hail operators. Each variable is independently plausible and collectively precarious. So is this a visionary arbitrage or yet another grandiloquent pitch deck? That is precisely the question.",
-      "audio_url": "audio/2026-09-05/clip-cybercab-passive-income.mp3"
+      "text_en_b2": "If you had to commit to a single asset for the coming decade, would you actually go with Bitcoin rather than gold? What underpins your reasoning? On /biz/, both camps dig in hard, insisting their pick will come out on top over the long run. Storage logistics, inflation hedging, upside potential — everyone brings a different angle to the table. Where do you stand?",
+      "text_en_c1": "Forced to hold a single asset for the next decade, which would you actually pick: Bitcoin or gold? On /biz/, partisans of either camp insist their favoured store of value will outperform in the long run. Gold bugs cite millennia of monetary history and physical scarcity; Bitcoin maximalists counter with its fixed supply schedule and asymptotic adoption curve. Storage considerations, inflationary hedging properties, and asymmetric upside are weighed ad nauseam. Personally, I am bleeding cash on leveraged CFD positions at present, so further capital deployment is hardly on the table. What say you, and on what grounds?",
+      "text_en_c2": "The perennial question resurfaces once again: faced with a ten-year horizon, which asset ought one to hold, Bitcoin or gold? On /biz/, partisans of either camp insist their preferred store of value will decisively outperform, marshalling arguments ranging from institutional adoption and fixed supply to millennia-proven inflation hedging. Advocates of Bitcoin emphasise its asymmetric upside and digital-native scarcity, while gold enthusiasts counter with the metal's tangible durability and its track record across civilisational upheavals. Each contingent offers compelling, if selective, reasoning. Meanwhile, the original poster confesses to ongoing losses in CFD positions and a depleted margin account, rendering further accumulation temporarily untenable. Storage logistics, volatility tolerance, and macroeconomic outlook further complicate any binary verdict. So, given your own convictions, which instrument would you select, and on what precise grounds does your choice prevail?",
+      "audio_url": "audio/2026-09-05/clip-clip-1-btc-vs-gold.mp3"
     },
     {
-      "id": "openai-astra-agi",
+      "id": "clip-2-tesla-cybercab",
+      "category": "trading",
+      "topic_zh": "Cybercab 揸入",
+      "topic_en": "Cybercab Robotaxi Income",
+      "text_zh": "真係笑死人。有人問可唔可以買一堆Cybercab，再擺上Tesla Robotaxi network收租，做passive income。我連CFD都輸緊，你仲話我買車？lol",
+      "text_en_b1": "Redpill me on buying Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. The whole pitch is: buy the car, let it drive itself on Tesla's network, collect fares while you sleep. Some /biz/ anons are actually running the numbers on this. Others think it's cope.",
+      "source_url": "https://boards.4chan.org/biz/thread/62648173",
+      "source_hint": "Robotaxi passive income fantasy thread",
+      "signal": {
+        "asset": "TSLA",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "months",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP is implicitly long TSLA — Robotaxi network monetization is the bull thesis"
+      },
+      "text_en_b2": "Walk me through the logic of snapping up a fleet of Cybercabs and running them on Tesla's Robotaxi network to generate passive income. The pitch goes like this: purchase the vehicle, let it operate autonomously on Tesla's platform, and collect fares while you're off the clock. Some /biz/ anons are genuinely crunching the figures, while others dismiss the whole thing as cope dressed up in a spreadsheet.",
+      "text_en_c1": "Someone over on /biz/ floated the prospect of purchasing a fleet of Cybercabs and letting them earn fares autonomously on Tesla's nascent Robotaxi network — passive income writ large, allegedly, while the owner sleeps soundly. The pitch is seductive on its face: acquire the vehicle, enrol it in the platform, and let algorithmic dispatch handle the rest. A few enterprising anons have actually run spreadsheet projections on utilisation rates and depreciation schedules. Sceptics, however, dismiss the entire premise as cope of the highest order. I, for my part, cannot even close out my losing CFDs — so the notion of buying a robotaxi is frankly absurd.",
+      "text_en_c2": "The proposition borders on the surreal: acquire a fleet of Tesla Cybercabs and deploy them upon the manufacturer's nascent Robotaxi network, thereby generating ostensibly passive income whilst you slumber. The pitch, stripped of its evangelical flourishes, is straightforward enough — purchase the autonomous vehicle, enrol it within Tesla's platform, and collect a share of fares minus operational overhead. Certain /biz/ commentators have indeed begun modelling unit economics, projecting depreciation curves, utilisation rates, and per-mile margins against expected vehicle lifespan. Sceptics, however, regard the entire enterprise as cope of the highest order, citing regulatory ambiguity, insurance liability, and the conspicuous absence of any verified revenue data.",
+      "audio_url": "audio/2026-09-05/clip-clip-2-tesla-cybercab.mp3"
+    },
+    {
+      "id": "clip-3-closeai-astra",
       "category": "tech/ai",
-      "topic_zh": "Astra係AGI",
-      "topic_en": "Astra Claims AGI",
-      "text_zh": "CloseAI新Astra model，話自己係AGI。喂，又係marketing定真係有咩突破？工程上最怕唔係demo勁，係repeat唔到。",
-      "text_en_b1": "CloseAI has released its new Astra model and claims it is AGI. So, what is the verdict, /g/? Is this a real engineering breakthrough, or mostly another round of AI marketing?",
+      "topic_zh": "Astra 係 AGI?",
+      "topic_en": "CloseAI Astra AGI?",
+      "text_zh": "CloseAI 出咗新model叫Astra，自己話係AGI。wtf 係咪又係噏。surveying都怕比AI搶埋，最尾連AP位都無⋯⋯🧐",
+      "text_en_b1": "CloseAI released a new model called Astra. They claim it is AGI. So what's your verdict, /g/? Anons are split — some say it's overhyped, some say the demo was genuinely different. Either way, every new release makes the white-collar and blue-collar replacement talk louder.",
       "source_url": "https://boards.4chan.org/g/thread/109730196",
-      "source_hint": "A /g/ discussion asking whether CloseAI's claimed AGI model is genuinely capable.",
+      "source_hint": "AGI claim meta-thread on /g/",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "A technology claim is being discussed, not a trade setup."
+        "rationale": "Tech hype discussion, no tradable setup"
       },
-      "text_en_b2": "CloseAI has rolled out its new Astra model and is loudly claiming it counts as AGI. The question on /g/ is whether this represents a genuine engineering breakthrough or simply another polished round of AI marketing. What worries people most isn't the flashy demo itself, but whether any of the results can actually be reproduced outside carefully staged conditions.",
-      "text_en_c1": "CloseAI has unveiled its latest model, Astra, and is once again claiming that what it has built qualifies as AGI. Whether this constitutes a genuine engineering milestone or merely another round of carefully orchestrated marketing is, predictably, the question on everyone's mind. The concerning part, as any seasoned observer would point out, is not how impressive the demo appears; it is whether the underlying capability can be reproduced reliably under independent scrutiny. Until third parties can replicate the results without cherry-picked prompts, the AGI label should be treated as little more than a press release. Scepticism, in this instance, seems eminently warranted.",
-      "text_en_c2": "OpenAI has unveiled Astra, and with characteristic flourish has hinted, if not outright declared, that the system ought to be regarded as a meaningful step toward artificial general intelligence. The pattern is by now depressingly familiar: a glossy livestream, a curated demonstration, and a chorus of breathless coverage that conveniently elides the methodological details one might actually want to scrutinise. The pertinent question is not whether the demo was impressive — it almost invariably is — but whether the underlying capabilities are reproducible under independent evaluation, out of distribution, and across the unglamorous benchmarks that tend to puncture such narratives. Marketing, after all, is the one domain in which AI laboratories have consistently demonstrated superhuman proficiency. Until external labs can replicate the results, AGI remains a verdict suspended in vapour.",
-      "audio_url": "audio/2026-09-05/clip-openai-astra-agi.mp3"
+      "text_en_b2": "CloseAI has rolled out a new model dubbed Astra, and they're billing it as AGI. So what's your take, /g/? Anons are split down the middle — some argue the launch is overhyped marketing fluff, while others insist the demo genuinely marked a shift. Either way, each release cranks up the volume on white-collar and blue-collar replacement fears, with surveyors reportedly bracing for the worst.",
+      "text_en_c1": "CloseAI has unveiled its latest model, codenamed Astra, with the company boldly asserting that the system constitutes genuine AGI. The denizens of /g/ are predictably divided: one camp contends the live demonstration showcased qualitatively different capabilities, whereas detractors dismiss the marketing as the usual vapourware dressed up in grandiose language. Regardless of where the technological truth lies, each successive release invariably intensifies the discourse surrounding white-collar and blue-collar displacement. As a surveyor myself, I harbour genuine reservations that even ostensibly creative professions will eventually be encroached upon — at which point the remaining options may be vanishingly few.",
+      "text_en_c2": "CloseAI has unveiled its latest model, christened Astra, and the company's leadership has had the temerity to label it AGI — a claim that, predictably, has detonated across /g/. The community remains sharply divided: one faction dismisses the announcement as yet another instance of vapourware dressed in marketing finery, whilst a smaller contingent argues that the demonstrative benchmarks evince something qualitatively distinct from its predecessors. What neither camp disputes, however, is the broader implication — that each successive release incrementally amplifies the discourse surrounding labour displacement. Surveyors, paralegals, and analysts increasingly confront an existential calculus, whilst even the most credentialed professionals quietly contemplate which industries, if any, will prove genuinely impervious. The original poster, surveying the wreckage of his chosen profession, wonders aloud whether even AP positions will eventually be subsumed.",
+      "audio_url": "audio/2026-09-05/clip-clip-3-closeai-astra.mp3"
     },
     {
-      "id": "bubble-chin-trend",
+      "id": "clip-4-bubble-chin",
       "category": "hk/news",
-      "topic_zh": "Bubble Chin熱潮",
+      "topic_zh": "泡泡下巴",
       "topic_en": "Bubble Chin Trend",
-      "text_zh": "中國網絡最新潮流：bubble chin。愈來愈多female influencers追捧。望落夠唔夠自然就見仁見智，lol。",
-      "text_en_b1": "The newest trend in China has arrived. Chinese internet users call it the “bubble chin,” and it is becoming increasingly fashionable among female influencers across the country.",
+      "text_zh": "大陸新潮流 — 叫bubble chin。啲女influencer個下巴愈做愈翹，個樣愈嚟愈膠。香港啲女都唔好學埋呢啲⋯⋯",
+      "text_en_b1": "Newest trend in China just dropped — Chinese internet users are calling it the bubble chin. It's becoming increasingly fashionable among Chinese female influencers on Douyin and Xiaohongshu. The look is a soft, rounded chin filler that gives a cartoon-like profile. Anons on /pol/ are roasting it hard.",
       "source_url": "https://boards.4chan.org/pol/thread/542008627",
-      "source_hint": "A /pol/ post about a beauty trend spreading among Chinese female influencers.",
+      "source_hint": "China beauty trend roast thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "This is a social trend, not a market or trade signal."
+        "rationale": "Culture gossip, no market setup"
       },
-      "text_en_b2": "The latest craze sweeping Chinese social media is something dubbed the \"bubble chin,\" an aesthetic procedure reportedly gaining traction among female influencers nationwide. While proponents insist the results look natural and refined, plenty of viewers find the effect somewhat off-putting. Whether it reads as elegant or just plain odd really comes down to personal taste, lol.",
-      "text_en_c1": "The latest aesthetic craze to sweep Chinese social media goes by the name of the bubble chin, and it has rapidly gathered momentum among female influencers who are eager to showcase the supposedly flattering contour it produces. Proponents argue that the technique delivers a softer, more youthful jawline, while critics maintain that the result reads as overtly artificial and somewhat unsettling. Whether the trend appears natural is, ultimately, a matter of subjective taste, though its proliferation across major platforms suggests that it has firmly captured public attention. The longevity of such fads, as history shows, rarely outlasts the cycle that produced them. lol.",
-      "text_en_c2": "The latest aesthetic aberration to wash across Chinese social media is the so-called ‘bubble chin,’ a contouring procedure — or, more charitably, a styling technique — in which the submental region is artificially rounded to emulate a softened, almost marionette-like profile. It has propagated, as these things tend to, from a handful of Shenzhen beauty accounts into the broader Douyin ecosystem, and from there into the curated visual vernacular of female influencers who are nothing if not attentive to algorithmic favour. Whether the result reads as natural is, predictably, a matter of vehement dispute: critics liken it to a couture-inspired botox mishap, while proponents insist the effect is merely ‘soft’ and ‘youthful.’ Both camps, one suspects, are overreading the artefact.",
-      "audio_url": "audio/2026-09-05/clip-bubble-chin-trend.mp3"
+      "text_en_b2": "A fresh trend out of China has just landed, and netizens are labelling it the bubble chin. It's rapidly gaining traction among Chinese female influencers flooding Douyin and Xiaohongshu. The look hinges on rounded chin filler that throws up a cartoonish profile, and the plastic sheen is hard to miss. Over on /pol/, anons are tearing into it without holding back.",
+      "text_en_c1": "The latest cosmetic craze sweeping mainland Chinese social media has been dubbed 'bubble chin' by netizens, and it is rapidly gaining traction among female influencers on Douyin and Xiaohongshu alike. The procedure involves exaggerated hyaluronic filler injected into the mentolabial region, producing an unnaturally rounded, almost cartoonish profile that many /pol/ anons find visually grotesque. Critics contend that the aesthetic is yet another symptom of algorithmic conformity, where filters dictate surgical decisions. Personally, I would urge discretion before emulating the trend — beauty standards that look uncanny at thirty rarely age gracefully thereafter.",
+      "text_en_c2": "A new aesthetic has metastasised across Chinese social media — the so-called bubble chin, wherein dermal fillers are injected along the mandibular line to produce an exaggeratedly rounded, almost cartoonish profile. On platforms such as Douyin and Xiaohongshu, female influencers have embraced the look with enthusiasm, fuelling its propagation among impressionable viewerships. Critics, however, contend that the result resembles less a sculpted jawline than a softening, plasticised caricature, with proportion and anatomical plausibility sacrificed upon the altar of algorithmic virality. On /pol/, the prevailing response has been one of withering derision, as anons catalogue the photographs with surgical disdain. Whether the trend represents an isolated phenomenon or a harbinger of broader homogenisation remains to be seen, though its Hong Kong diaspora, the original poster urges, ought to resist import wholesale.",
+      "audio_url": "audio/2026-09-05/clip-clip-4-bubble-chin.mp3"
     },
     {
-      "id": "overhead-press-315",
+      "id": "clip-5-fit-mtt",
       "category": "mma/fitness",
-      "topic_zh": "一槓一槓練",
-      "topic_en": "Overhead Press Goal",
-      "text_zh": "家下OHP已經接近1pl8，但bench仲未到2pl8，squat同deadlift更加差一大截。望吓一個月後可唔可以1pl8 OHP做到reps。",
-      "text_en_b1": "I am closer to a one-plate overhead press than to a two-plate bench, three-plate squat, or four-plate deadlift. I think I can press one plate for reps within one or two months.",
-      "source_url": "https://boards.4chan.org/fit/thread/77491789",
-      "source_hint": "A /fit/ user compares major lifting milestones and focuses on reaching a 1-plate overhead press.",
+      "topic_zh": "極短時間訓練",
+      "topic_en": "Minimal Time Training",
+      "text_zh": "時間真係無。返工、溫書、CFD睇市，邊有時間gym。肥仔信你唔好再叫我⋯⋯但MTT plan好似幾啱我喎。🙏",
+      "text_en_b1": "Minimal Time Training. Are you an entrepreneur? Just had a bunch of kids? Some other bullshit taking up most of your time? EXCELLENT GAINS CAN STILL BE MADE BROTHER. Take the MTT-pill: pleb tier (machines only near work), body weight sigma tier (park + pullup bar + nordics), ascended sigma tier (calisthenics + backpack loading).",
+      "source_url": "https://boards.4chan.org/fit/thread/77494345",
+      "source_hint": "Time-poor lifter routine thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "This is a personal strength goal, not a financial signal."
+        "rationale": "Training advice thread, no market setup"
       },
-      "text_en_b2": "My overhead press is creeping close to a one-plate milestone, but my bench is still nowhere near two plates, and my squat and deadlift are lagging even further behind. It's a strange imbalance given how much I prioritize pressing. Realistically, I think I can nail a clean one-plate OHP for reps within a month or two if I stay consistent.",
-      "text_en_c1": "My pressing strength has developed in a rather lopsided fashion: my overhead press is now approaching the coveted one-plate milestone, yet my bench press is nowhere near two plates, and both my squat and deadlift lag embarrassingly behind their respective plate targets. Given how rapidly the OHP has been progressing, I am cautiously optimistic that I will be able to handle one plate for clean reps within a month or two, provided I keep the volume consistent and my recovery on point. If all goes according to plan, a proper one-plate press should be well within reach. The other lifts, regrettably, remain a work in progress.",
-      "text_en_c2": "There is a particular satisfaction, of the quietly pathological kind, in watching the overhead press — long the runt of the big-three lifts and, in certain coaching circles, effectively abandoned in favour of push pressing — begin to converge on respectable strength. My own numbers are nonetheless telling in ways the ego would prefer to ignore: one plate for a single on the overhead press is almost within reach, while the bench press languishes just shy of two plates, and the squat and deadlift are scarcely worth mentioning in mixed company. The asymmetry is its own kind of programme, since pressing strength tends to translate only partially to the more compound movements that demand a fuller kinetic chain.",
-      "audio_url": "audio/2026-09-05/clip-overhead-press-315.mp3"
+      "text_en_b2": "Minimal Time Training, or MTT, is aimed squarely at guys who insist they've got zero hours to spare. Running a business, raising a handful of kids, or some other time-sucking commitment? Solid gains are still on the table, brother. Pop the MTT pill: pleb tier means machines near work, body-weight sigma tier means a park and pull-up bar, ascended sigma tier means calisthenics plus a loaded backpack.",
+      "text_en_c1": "Minimal Time Training, for the perpetually time-impoverished: entrepreneurs tethered to their ventures, new fathers surrendering sleep to infant feeds, or autodidacts juggling full-time employment with relentless self-study. The philosophy presupposes that meaningful hypertrophy remains achievable despite brutal schedule constraints, provided one selects the appropriate tier. Plebs gravitate towards machine work adjacent to the office; intermediate operators requisition a local park, a pull-up bar, and the occasional Nordic curl; the ascended employ calisthenics progressions supplemented by loaded backpacks. Gains, so the doctrine insists, are merely a function of intensity rather than duration — a thesis I find increasingly compelling given my own obligations.",
+      "text_en_c2": "Time, that most inelastic of resources, has become the operative constraint of contemporary life — work obligations, examination preparation, and the ceaseless vigil of CFD markets conspiring to leave scarcely a moment for conventional training regimens. The original poster, a self-proclaimed pleb in desperate circumstances, has consequently turned his attention towards Minimal Time Training, a methodology predicated upon the principle that hypertrophy and strength remain attainable even within severely truncated schedules. The taxonomy is characteristically hierarchical: the pleb tier accommodates machines adjacent to one's place of employment; the body-weight sigma tier demands merely a park, a pull-up bar, and the willingness to perform nordics; whilst the ascended sigma tier incorporates calisthenics augmented by progressive backpack loading. Whether the framework delivers upon its ambitious promises remains empirically contested, though its accessibility is undeniable.",
+      "audio_url": "audio/2026-09-05/clip-clip-5-fit-mtt.mp3"
     },
     {
-      "id": "chainsaw-man-manga",
-      "category": "anime/culture",
-      "topic_zh": "鏈鋸人漫畫",
-      "topic_en": "Chainsaw Man Manga",
-      "text_zh": "當年無睇Reze arc movie，但一直鍾意season 1。最近開始睇manga，真係明點解大家都推。個cinematic direction同panel layout幾夾，幾enjoyable。",
-      "text_en_b1": "I did not watch the Reze arc movie in theaters, but I always liked season one. Recently, I started reading the Chainsaw Man manga and can see why everyone loves the film. The manga is very enjoyable so far.",
-      "source_url": "https://boards.4chan.org/a/thread/290653357",
-      "source_hint": "An /a/ user describes enjoying the Chainsaw Man manga after previously liking season one.",
+      "id": "clip-6-lol-fallout4",
+      "category": "lol/esports",
+      "topic_zh": "Fallout 4 值唔值",
+      "topic_en": "Fallout 4 Worth It?",
+      "text_zh": "唔係LOL但講game。/v/有人問Fallout 4係咪真係咁好，話感覺rushed。我而家連game都唔夠時間打，考牌溫書先係正經事⋯⋯btw S15幾時開波？",
+      "text_en_b1": "Is Fallout 4 really as good as people say it is? When the anon first played it, it felt like a game that was developed too quickly and rushed to release. Some /v/ replies say the worldbuilding carries it anyway. Others say the story is mid and the engine is jank. Mixed reviews even now.",
+      "source_url": "https://boards.4chan.org/v/thread/746896527",
+      "source_hint": "Retro game review thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "This is an anime and manga discussion, not a trade setup."
+        "rationale": "Gaming nostalgia, no market setup"
       },
-      "text_en_b2": "I skipped the Reze arc movie when it hit theaters, although season one had genuinely hooked me back in the day. Recently I started working through the Chainsaw Man manga, and it didn't take long to see why fans keep recommending it. The cinematic direction paired with the panel layout makes each chapter feel remarkably readable and genuinely enjoyable.",
-      "text_en_c1": "I never managed to catch the Reze arc film during its theatrical run, though I have always harboured a genuine fondness for the first season's particular brand of unhinged storytelling. Recently, I finally committed to working through the source manga, and it has not taken long to understand why readers are so evangelical about Fujimoto's work. The cinematic direction of each sequence translates beautifully into the page, and the panel layouts themselves feel choreographed with an almost filmic sense of pacing and impact. What I am reading now explains precisely why the adaptation resonates so strongly. It really is a thoroughly enjoyable experience.",
-      "text_en_c2": "I confess to having been one of those who, inexplicably, declined to attend the Reze arc film during its theatrical run, despite having been a vocal advocate of the first season and the studio’s frankly unhinged directorial choices therein. The manga, which I have only recently begun reading from a position of belated diligence, has vindicated every recommendation I had previously dismissed as mere fanboy enthusiasm. What emerges, once one accustoms oneself to Tatsuki Fujimoto’s deliberately vertiginous panel composition, is a narrative rhythm that borrows liberally from cinematic grammar — reaction shots where reaction shots ought not to work, silence where exposition might be expected — and repays the reader handsomely for the effort. It is, in short, exceptionally good and something to be read rather than watched.",
-      "audio_url": "audio/2026-09-05/clip-chainsaw-man-manga.mp3"
+      "text_en_b2": "Not exactly /v/ territory, but worth asking: is Fallout 4 genuinely as strong as its reputation suggests? The original anon felt it had been pushed out the door too hastily, a product that landed half-baked. Some replies argue the worldbuilding picks up the slack regardless, although others reckon the narrative falls flat and the engine is pure jank. Reviews remain split to this day.",
+      "text_en_c1": "Not strictly a League discussion, but a gaming inquiry nonetheless: an /v/ poster recently asked whether Fallout 4 genuinely merits the lofty reputation it so frequently commands. Their initial impression was that the title felt rushed — evidently developed under punishing deadlines and shipped before its worldbuilding had fully matured. Defenders counter that the ambient storytelling and environmental design carry the experience regardless. Detractors, conversely, dismiss the central narrative as mediocre and lament the antiquated Creation Engine's notorious jank. Reception remains remarkably polarised even a decade on. As for me, licence prep leaves scant bandwidth for any recreational pursuit, let alone a hundred-hour wasteland odyssey.",
+      "text_en_c2": "An inquiry from /v/ has resurfaced an enduring question: is Fallout 4 genuinely the masterpiece its sales figures suggest, or does its evident craftsmanship conceal deeper structural deficiencies? The original poster, upon initial playthrough, discerned a pervasive sense of haste — quest design that feels truncated, dialogue trees that terminate prematurely, and a creation engine whose idiosyncrasies have aged poorly. Defenders contend that the environmental worldbuilding, atmospherically rendered and densely populated with emergent narratives, more than compensates for any narrative shortcomings, whilst detractors maintain that the central storyline remains stubbornly mediocre beneath its post-apocalyptic veneer. Critical opinion persists in its divided state, even years subsequent to release.",
+      "audio_url": "audio/2026-09-05/clip-clip-6-lol-fallout4.mp3"
     },
     {
-      "id": "fairy-tail-character",
+      "id": "clip-7-anime-fairytail",
       "category": "anime/culture",
-      "topic_zh": "妖精尾巴考試",
-      "topic_en": "Fairy Tail Test",
-      "text_zh": "如果你真係anime fan，就唔好諗。答一個唔係Lucy嘅Fairy Tail character先。呢種細節題，睇你係真粉定扮嘢，lol。",
-      "text_en_b1": "If you are a true anime fan, name one Fairy Tail character off the top of your head who is not Lucy. No explanation is needed; just give the character’s name.",
+      "topic_zh": "真正動漫迷",
+      "topic_en": "Real Anime Fan Test",
+      "text_zh": "/a/個測試：如果你係真fans，即刻講一個Fairy Tail角色名，唔可以係Lucy。我答Erza。lol Gundam 00同鬼滅都仲未追晒⋯⋯",
+      "text_en_b1": "If you're a true anime fan, mention one Fairy Tail character off the bat that is not Lucy. The thread is full of anos shouting Erza, Natsu, Gray, Juvia within seconds. Anyone who hesitates gets called a fake fan. Classic /a/ gatekeeping energy tonight.",
       "source_url": "https://boards.4chan.org/a/thread/290690711",
-      "source_hint": "An /a/ thread challenges readers to name a Fairy Tail character other than Lucy.",
+      "source_hint": "Anime gatekeeping meme thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "This is a fandom question, with no market implication."
+        "rationale": "Anime culture thread, no market setup"
       },
-      "text_en_b2": "If you genuinely call yourself an anime fan, this should take roughly two seconds. Name a single Fairy Tail character who isn't Lucy — no Googling, no overthinking, just the first name that comes to mind. It's a tiny detail question, but it instantly separates the actual fans from the ones who just happened to watch the show once, lol.",
-      "text_en_c1": "If you genuinely consider yourself a devoted anime enthusiast, then the test should scarcely require any deliberation whatsoever. Name, without hesitation, a single Fairy Tail character whose identity is not Lucy, and you will have already demonstrated that your fandom extends beyond surface-level recognition. The kind of trivia question that only a true fan can answer effortlessly is precisely what separates casual viewers from those who have actually invested the time. Anyone who draws a blank at this prompt has, frankly, exposed the limits of their devotion rather comprehensively. Skip this test, and the verdict writes itself.",
-      "text_en_c2": "The proposition is deceptively austere, which is of course the entire point: anyone claiming even a passing acquaintance with the Fairy Tail franchise ought to be able, without recourse to Google and within the span of a single breath, to name a character who is not Lucy Heartfilia. The test, if one can dignify it with such nomenclature, is not so much a measure of encyclopaedic knowledge as it is of involuntary recall — the sort of fact one retains only when a series has insinuated itself into one’s actual neural architecture. Natsu, Erza, Gray, Happy, Makarov: the roster is hardly a secret, and yet the request functions as an unerring litmus. Those who hesitate have, in some quiet and irrefutable sense, already failed it.",
-      "audio_url": "audio/2026-09-05/clip-fairy-tail-character.mp3"
+      "text_en_b2": "/a/'s unofficial litmus test goes like this: if you're a genuine anime fan, fire off a Fairy Tail character's name within seconds, and under no circumstances can it be Lucy. The thread is packed with anons blasting out Erza, Natsu, Gray, or Juvia before the dust settles. Anyone who hesitates even slightly gets promptly branded a fake fan — classic /a/ gatekeeping energy in full swing tonight.",
+      "text_en_c1": "A characteristically gatekeeping thread has surfaced on /a/: prove your otaku credentials by naming a Fairy Tail character within seconds — Lucy Heartfilia being, of course, explicitly disqualified as the obvious answer. The board erupted predictably, with respondents firing off Erza, Natsu, Gray, Juvia, and the like in rapid succession. Anyone who hesitated even momentarily was summarily branded a casual interloper unworthy of the community's respect. The exercise is, admittedly, rather effective at weeding out the dilettantes. I answered Erza myself, though I confess both Gundam 00 and Kimetsu no Yaiba remain languishing on my perpetually expanding watchlist.",
+      "text_en_c2": "A deceptively simple litmus test has descended upon /a/, ostensibly calibrated to distinguish the genuinely devoted from the dilettantes: name, without hesitation, a single character from Fairy Tail — with the conspicuous stipulation that Lucy is disqualified. The thread, as predictably as sunrise, has been inundated within seconds by anons brandishing their credentials — Erza, Natsu, Gray, Juvia — each response a declaration of fealty to the medium. Those who迟疑, who pause to deliberate, are immediately consigned to the category of impostor, their commitment to the anime canon deemed insufficiently rigorous. The exercise, whilst transparently absurd, encapsulates the gatekeeping impulse that periodically convulses the community.",
+      "audio_url": "audio/2026-09-05/clip-clip-7-anime-fairytail.mp3"
     }
   ]
 }

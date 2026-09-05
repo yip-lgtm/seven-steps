@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "btc-pump-fomo",
-      "topic_en": "BTC Post-Pump FOMO",
-      "topic_zh": "BTC升先追",
+      "id": "clip-1-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-btc-pump-fomo.mp3",
-      "bytes": 192372,
-      "chars": 182
+      "file": "clip-clip-1-btc-vs-gold.mp3",
+      "bytes": 267252,
+      "chars": 251
     },
     {
-      "id": "cybercab-passive-income",
-      "topic_en": "Cybercab Passive Income",
-      "topic_zh": "Cybercab搵錢",
+      "id": "clip-2-tesla-cybercab",
+      "topic_en": "Cybercab Robotaxi Income",
+      "topic_zh": "Cybercab 揸入",
       "category": "trading",
-      "file": "clip-cybercab-passive-income.mp3",
-      "bytes": 156084,
-      "chars": 169
+      "file": "clip-clip-2-tesla-cybercab.mp3",
+      "bytes": 302388,
+      "chars": 292
     },
     {
-      "id": "openai-astra-agi",
-      "topic_en": "Astra Claims AGI",
-      "topic_zh": "Astra係AGI",
+      "id": "clip-3-closeai-astra",
+      "topic_en": "CloseAI Astra AGI?",
+      "topic_zh": "Astra 係 AGI?",
       "category": "tech/ai",
-      "file": "clip-openai-astra-agi.mp3",
-      "bytes": 202740,
-      "chars": 174
+      "file": "clip-clip-3-closeai-astra.mp3",
+      "bytes": 280500,
+      "chars": 273
     },
     {
-      "id": "bubble-chin-trend",
+      "id": "clip-4-bubble-chin",
       "topic_en": "Bubble Chin Trend",
-      "topic_zh": "Bubble Chin熱潮",
+      "topic_zh": "泡泡下巴",
       "category": "hk/news",
-      "file": "clip-bubble-chin-trend.mp3",
-      "bytes": 171636,
-      "chars": 177
+      "file": "clip-clip-4-bubble-chin.mp3",
+      "bytes": 308724,
+      "chars": 302
     },
     {
-      "id": "overhead-press-315",
-      "topic_en": "Overhead Press Goal",
-      "topic_zh": "一槓一槓練",
+      "id": "clip-5-fit-mtt",
+      "topic_en": "Minimal Time Training",
+      "topic_zh": "極短時間訓練",
       "category": "mma/fitness",
-      "file": "clip-overhead-press-315.mp3",
-      "bytes": 175092,
-      "chars": 176
+      "file": "clip-clip-5-fit-mtt.mp3",
+      "bytes": 391092,
+      "chars": 330
     },
     {
-      "id": "chainsaw-man-manga",
-      "topic_en": "Chainsaw Man Manga",
-      "topic_zh": "鏈鋸人漫畫",
-      "category": "anime/culture",
-      "file": "clip-chainsaw-man-manga.mp3",
-      "bytes": 212532,
-      "chars": 206
+      "id": "clip-6-lol-fallout4",
+      "topic_en": "Fallout 4 Worth It?",
+      "topic_zh": "Fallout 4 值唔值",
+      "category": "lol/esports",
+      "file": "clip-clip-6-lol-fallout4.mp3",
+      "bytes": 307572,
+      "chars": 287
     },
     {
-      "id": "fairy-tail-character",
-      "topic_en": "Fairy Tail Test",
-      "topic_zh": "妖精尾巴考試",
+      "id": "clip-7-anime-fairytail",
+      "topic_en": "Real Anime Fan Test",
+      "topic_zh": "真正動漫迷",
       "category": "anime/culture",
-      "file": "clip-fairy-tail-character.mp3",
-      "bytes": 184308,
-      "chars": 158
+      "file": "clip-clip-7-anime-fairytail.mp3",
+      "bytes": 295476,
+      "chars": 252
     }
   ]
 }
