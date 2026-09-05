@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-05",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-cybercab-20260905",
+      "topic_en": "Cybercab passive income",
+      "topic_zh": "Cybercab被動收入",
+      "category": "trading",
+      "file": "clip-biz-cybercab-20260905.mp3",
+      "bytes": 289140,
+      "chars": 302
+    },
+    {
+      "id": "biz-btc-vs-gold-20260905",
+      "topic_en": "Bitcoin vs gold",
+      "topic_zh": "Bitcoin vs 黃金",
+      "category": "trading",
+      "file": "clip-biz-btc-vs-gold-20260905.mp3",
+      "bytes": 302964,
+      "chars": 283
+    },
+    {
+      "id": "g-closed-ai-astra-20260905",
+      "topic_en": "Astra AGI claim",
+      "topic_zh": "Astra 係咪AGI",
+      "category": "tech/ai",
+      "file": "clip-g-closed-ai-astra-20260905.mp3",
+      "bytes": 263220,
+      "chars": 243
+    },
+    {
+      "id": "pol-krakatoa-20260905",
+      "topic_en": "Krakatoa eruption",
+      "topic_zh": "Krakatoa 大爆發",
+      "category": "hk/news",
+      "file": "clip-pol-krakatoa-20260905.mp3",
+      "bytes": 258612,
+      "chars": 256
+    },
+    {
+      "id": "v-fallout4-rushed-20260905",
+      "topic_en": "Fallout 4 rushed?",
+      "topic_zh": "Fallout 4 趕工",
+      "category": "lol/esports",
+      "file": "clip-v-fallout4-rushed-20260905.mp3",
+      "bytes": 289716,
+      "chars": 301
+    },
+    {
+      "id": "fit-ohp-bench-20260905",
+      "topic_en": "OHP progress check",
+      "topic_zh": "OHP 進度",
+      "category": "mma/fitness",
+      "file": "clip-fit-ohp-bench-20260905.mp3",
+      "bytes": 372084,
+      "chars": 263
+    },
+    {
+      "id": "a-chainsawman-20260905",
+      "topic_en": "Chainsaw Man manga",
+      "topic_zh": "鏈鋸人漫畫",
+      "category": "anime/culture",
+      "file": "clip-a-chainsawman-20260905.mp3",
+      "bytes": 288564,
+      "chars": 294
+    }
+  ]
+}
