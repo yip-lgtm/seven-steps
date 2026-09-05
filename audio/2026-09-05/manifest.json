@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-cybercab-20260905",
-      "topic_en": "Cybercab passive income",
-      "topic_zh": "Cybercab被動收入",
+      "id": "btc-pump-fomo",
+      "topic_en": "BTC Post-Pump FOMO",
+      "topic_zh": "BTC升先追",
       "category": "trading",
-      "file": "clip-biz-cybercab-20260905.mp3",
-      "bytes": 289140,
-      "chars": 302
+      "file": "clip-btc-pump-fomo.mp3",
+      "bytes": 192372,
+      "chars": 182
     },
     {
-      "id": "biz-btc-vs-gold-20260905",
-      "topic_en": "Bitcoin vs gold",
-      "topic_zh": "Bitcoin vs 黃金",
+      "id": "cybercab-passive-income",
+      "topic_en": "Cybercab Passive Income",
+      "topic_zh": "Cybercab搵錢",
       "category": "trading",
-      "file": "clip-biz-btc-vs-gold-20260905.mp3",
-      "bytes": 302964,
-      "chars": 283
+      "file": "clip-cybercab-passive-income.mp3",
+      "bytes": 156084,
+      "chars": 169
     },
     {
-      "id": "g-closed-ai-astra-20260905",
-      "topic_en": "Astra AGI claim",
-      "topic_zh": "Astra 係咪AGI",
+      "id": "openai-astra-agi",
+      "topic_en": "Astra Claims AGI",
+      "topic_zh": "Astra係AGI",
       "category": "tech/ai",
-      "file": "clip-g-closed-ai-astra-20260905.mp3",
-      "bytes": 263220,
-      "chars": 243
+      "file": "clip-openai-astra-agi.mp3",
+      "bytes": 202740,
+      "chars": 174
     },
     {
-      "id": "pol-krakatoa-20260905",
-      "topic_en": "Krakatoa eruption",
-      "topic_zh": "Krakatoa 大爆發",
+      "id": "bubble-chin-trend",
+      "topic_en": "Bubble Chin Trend",
+      "topic_zh": "Bubble Chin熱潮",
       "category": "hk/news",
-      "file": "clip-pol-krakatoa-20260905.mp3",
-      "bytes": 258612,
-      "chars": 256
+      "file": "clip-bubble-chin-trend.mp3",
+      "bytes": 171636,
+      "chars": 177
     },
     {
-      "id": "v-fallout4-rushed-20260905",
-      "topic_en": "Fallout 4 rushed?",
-      "topic_zh": "Fallout 4 趕工",
-      "category": "lol/esports",
-      "file": "clip-v-fallout4-rushed-20260905.mp3",
-      "bytes": 289716,
-      "chars": 301
-    },
-    {
-      "id": "fit-ohp-bench-20260905",
-      "topic_en": "OHP progress check",
-      "topic_zh": "OHP 進度",
+      "id": "overhead-press-315",
+      "topic_en": "Overhead Press Goal",
+      "topic_zh": "一槓一槓練",
       "category": "mma/fitness",
-      "file": "clip-fit-ohp-bench-20260905.mp3",
-      "bytes": 372084,
-      "chars": 263
+      "file": "clip-overhead-press-315.mp3",
+      "bytes": 175092,
+      "chars": 176
     },
     {
-      "id": "a-chainsawman-20260905",
-      "topic_en": "Chainsaw Man manga",
+      "id": "chainsaw-man-manga",
+      "topic_en": "Chainsaw Man Manga",
       "topic_zh": "鏈鋸人漫畫",
       "category": "anime/culture",
-      "file": "clip-a-chainsawman-20260905.mp3",
-      "bytes": 288564,
-      "chars": 294
+      "file": "clip-chainsaw-man-manga.mp3",
+      "bytes": 212532,
+      "chars": 206
+    },
+    {
+      "id": "fairy-tail-character",
+      "topic_en": "Fairy Tail Test",
+      "topic_zh": "妖精尾巴考試",
+      "category": "anime/culture",
+      "file": "clip-fairy-tail-character.mp3",
+      "bytes": 184308,
+      "chars": 158
     }
   ]
 }
