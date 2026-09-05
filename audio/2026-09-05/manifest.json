@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-cybercab-roi",
-      "topic_en": "Cybercab passive income",
-      "topic_zh": "Tesla Cybercab 收租",
+      "id": "trade-btc-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "比特幣定黃金",
       "category": "trading",
-      "file": "clip-biz-cybercab-roi.mp3",
-      "bytes": 353076,
-      "chars": 359
-    },
-    {
-      "id": "biz-btc-vs-gold",
-      "topic_en": "BTC vs gold 10 years",
-      "topic_zh": "BTC vs 黃金十年",
-      "category": "trading",
-      "file": "clip-biz-btc-vs-gold.mp3",
-      "bytes": 262644,
-      "chars": 279
-    },
-    {
-      "id": "g-closeai-astra",
-      "topic_en": "Astra claims AGI",
-      "topic_zh": "CloseAI Astra AGI?",
-      "category": "tech/ai",
-      "file": "clip-g-closeai-astra.mp3",
-      "bytes": 298356,
-      "chars": 279
-    },
-    {
-      "id": "pol-bubble-chin",
-      "topic_en": "Bubble chin trend China",
-      "topic_zh": "中國 bubble chin 潮",
-      "category": "hk/news",
-      "file": "clip-pol-bubble-chin.mp3",
-      "bytes": 289140,
-      "chars": 295
-    },
-    {
-      "id": "v-fallout4-quality",
-      "topic_en": "Fallout 4 worth it?",
-      "topic_zh": "Fallout 4 值唔值",
-      "category": "lol/esports",
-      "file": "clip-v-fallout4-quality.mp3",
+      "file": "clip-trade-btc-gold.mp3",
       "bytes": 346740,
-      "chars": 334
+      "chars": 333
     },
     {
-      "id": "fit-grappling",
-      "topic_en": "Train grappling or get folded",
-      "topic_zh": "打 BJJ 唔做細佬",
+      "id": "trade-tsla-cybercab",
+      "topic_en": "Cybercab Robotaxi",
+      "topic_zh": "Cybercab 投資術",
+      "category": "trading",
+      "file": "clip-trade-tsla-cybercab.mp3",
+      "bytes": 281652,
+      "chars": 292
+    },
+    {
+      "id": "tech-ai-astra",
+      "topic_en": "CloseAI Astra AGI",
+      "topic_zh": "Astra 自稱AGI",
+      "category": "tech/ai",
+      "file": "clip-tech-ai-astra.mp3",
+      "bytes": 315636,
+      "chars": 314
+    },
+    {
+      "id": "hk-bubble-chin",
+      "topic_en": "Bubble Chin Trend",
+      "topic_zh": "泡泡下巴潮流",
+      "category": "hk/news",
+      "file": "clip-hk-bubble-chin.mp3",
+      "bytes": 328308,
+      "chars": 333
+    },
+    {
+      "id": "esports-fallout4",
+      "topic_en": "Fallout 4 Worth It",
+      "topic_zh": "Fallout 4 好玩嗎",
+      "category": "lol/esports",
+      "file": "clip-esports-fallout4.mp3",
+      "bytes": 326580,
+      "chars": 329
+    },
+    {
+      "id": "mma-grappling",
+      "topic_en": "Grappling or Bust",
+      "topic_zh": "練摔技定唔練",
       "category": "mma/fitness",
-      "file": "clip-fit-grappling.mp3",
-      "bytes": 340404,
-      "chars": 336
+      "file": "clip-mma-grappling.mp3",
+      "bytes": 341556,
+      "chars": 342
     },
     {
-      "id": "a-anime-quiz",
-      "topic_en": "Real anime fan test",
-      "topic_zh": "動漫迷測試",
+      "id": "anime-csm",
+      "topic_en": "Chainsaw Man Manga",
+      "topic_zh": "鏈鋸人漫畫",
       "category": "anime/culture",
-      "file": "clip-a-anime-quiz.mp3",
-      "bytes": 386484,
-      "chars": 351
+      "file": "clip-anime-csm.mp3",
+      "bytes": 313332,
+      "chars": 320
     }
   ]
 }
