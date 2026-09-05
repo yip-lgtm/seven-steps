@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-btc-gold",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "比特幣定黃金",
+      "id": "tsla-cybercab",
+      "topic_en": "Tesla Robotaxi Cybercab",
+      "topic_zh": "Tesla Cybercab 投資",
       "category": "trading",
-      "file": "clip-trade-btc-gold.mp3",
-      "bytes": 346740,
-      "chars": 333
+      "file": "clip-tsla-cybercab.mp3",
+      "bytes": 177972,
+      "chars": 197
     },
     {
-      "id": "trade-tsla-cybercab",
-      "topic_en": "Cybercab Robotaxi",
-      "topic_zh": "Cybercab 投資術",
+      "id": "btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold 10Y",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-trade-tsla-cybercab.mp3",
-      "bytes": 281652,
-      "chars": 292
+      "file": "clip-btc-vs-gold.mp3",
+      "bytes": 205044,
+      "chars": 183
     },
     {
-      "id": "tech-ai-astra",
-      "topic_en": "CloseAI Astra AGI",
-      "topic_zh": "Astra 自稱AGI",
+      "id": "thinkpad-printer",
+      "topic_en": "ThinkPad of printers",
+      "topic_zh": "打印機崩潰",
       "category": "tech/ai",
-      "file": "clip-tech-ai-astra.mp3",
-      "bytes": 315636,
-      "chars": 314
+      "file": "clip-thinkpad-printer.mp3",
+      "bytes": 301236,
+      "chars": 254
     },
     {
-      "id": "hk-bubble-chin",
-      "topic_en": "Bubble Chin Trend",
-      "topic_zh": "泡泡下巴潮流",
+      "id": "china-bubble-chin",
+      "topic_en": "China bubble chin trend",
+      "topic_zh": "中國泡泡下巴",
       "category": "hk/news",
-      "file": "clip-hk-bubble-chin.mp3",
-      "bytes": 328308,
-      "chars": 333
+      "file": "clip-china-bubble-chin.mp3",
+      "bytes": 216564,
+      "chars": 213
     },
     {
-      "id": "esports-fallout4",
-      "topic_en": "Fallout 4 Worth It",
-      "topic_zh": "Fallout 4 好玩嗎",
+      "id": "fallout-4-lol",
+      "topic_en": "Fallout 4 worth it?",
+      "topic_zh": "Fallout 4 值唔值玩",
       "category": "lol/esports",
-      "file": "clip-esports-fallout4.mp3",
-      "bytes": 326580,
-      "chars": 329
+      "file": "clip-fallout-4-lol.mp3",
+      "bytes": 198132,
+      "chars": 197
     },
     {
-      "id": "mma-grappling",
-      "topic_en": "Grappling or Bust",
-      "topic_zh": "練摔技定唔練",
+      "id": "grappling-pill",
+      "topic_en": "Grappling over bench press",
+      "topic_zh": "打Grappling 真理",
       "category": "mma/fitness",
-      "file": "clip-mma-grappling.mp3",
-      "bytes": 341556,
-      "chars": 342
+      "file": "clip-grappling-pill.mp3",
+      "bytes": 248244,
+      "chars": 252
     },
     {
-      "id": "anime-csm",
-      "topic_en": "Chainsaw Man Manga",
-      "topic_zh": "鏈鋸人漫畫",
+      "id": "fairytail-test",
+      "topic_en": "Fairy Tail non-Lucy test",
+      "topic_zh": "Fairy Tail 試煉",
       "category": "anime/culture",
-      "file": "clip-anime-csm.mp3",
-      "bytes": 313332,
-      "chars": 320
+      "file": "clip-fairytail-test.mp3",
+      "bytes": 202740,
+      "chars": 197
     }
   ]
 }
