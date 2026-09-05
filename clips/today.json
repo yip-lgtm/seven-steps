@@ -4,38 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "tsla-cybercab",
-      "category": "trading",
-      "topic_zh": "Tesla Cybercab 投資",
-      "topic_en": "Tesla Robotaxi Cybercab",
-      "text_zh": "Cybercab 真係可以買嚟放落 Tesla Robotaxi network 收租？被動收入聽落好正 但實質係點🤔 又係 Elon 隻講故事 唔好信晒 ok",
-      "text_en_b1": "Redpill me on buying Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. How realistic is it, and what kind of return could a retail buyer actually expect per year?",
-      "source_url": "https://boards.4chan.org/biz/thread/62648173",
-      "source_hint": "/biz/ thread asking whether buying Cybercabs for the Tesla Robotaxi network is a real passive-income play.",
-      "signal": {
-        "asset": "TSLA",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Implied bullish bet on Tesla Robotaxi narrative and Cybercab unit economics"
-      },
-      "text_en_b2": "Could somebody break down what would actually happen if a retail investor bought a Cybercab and listed it on Tesla's Robotaxi network for passive income? On paper the pitch sounds appealing, yet I remain sceptical because Elon has a track record of overpromising. What realistic annual yield could a small-time buyer genuinely expect once depreciation, maintenance and downtime are factored in? Hard numbers preferred over hype.",
-      "text_en_c1": "I'm looking for a sober, evidence-based breakdown of the Cybercab investment proposition. Assuming Tesla eventually launches its Robotaxi network and permits individual owners to enrol their vehicles, what realistic annual returns could a retail buyer genuinely anticipate, net of depreciation, insurance, maintenance, and platform fees? The passive-income narrative Musk has been pushing certainly sounds compelling, but projections tend to obscure the underlying assumptions. Before committing capital, I would welcome analysis that separates verifiable milestones from vapourware, and that quantifies the breakeven horizon under conservative utilisation scenarios. In short: is this a credible yield-generating asset, or another exercise in storytelling dressed up as financial planning?",
-      "text_en_c2": "I would welcome a sober assessment of the proposition that retail investors ought to acquire Cybercabs and subsequently lease them into Tesla's nascent Robotaxi network, thereby cultivating a stream of ostensibly passive revenue. On paper, the narrative is intoxicating: a fleet of autonomous vehicles earning fares while one sleeps, dividends arriving as neatly as quarterly coupons. In practice, however, the entire edifice rests on Musk's customary gift for theatrical announcements rather than verifiable operating metrics. The unit economics remain opaque, regulatory clearance is far from assured, and the discount rate one ought to apply to projected cash flows is, charitably, heroic. Before any retail participant commits capital, they would be well advised to interrogate the assumption that Musk's promises translate, however belatedly, into dependable yield.",
-      "audio_url": "audio/2026-09-05/clip-tsla-cybercab.mp3"
-    },
-    {
-      "id": "btc-vs-gold",
+      "id": "clip01-btc-vs-gold",
       "category": "trading",
       "topic_zh": "BTC vs 黃金",
-      "topic_en": "Bitcoin vs Gold 10Y",
-      "text_zh": "BTC 同黃金揀一樣揸十年 揀邊樣？其實我兩個都輸緊錢 lol 真係笑死人🙏 不過 long term 一定 BTC 啦 黃金太慢",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? State your case clearly, no copium.",
+      "topic_en": "Bitcoin vs Gold",
+      "text_zh": "又係我哋嘅終極問題 如果要hold一樣過未來10年 你揀BTC定黃金？OK 啲weak hand就會話黃金穩陣 但我哋真係想穩陣咩？🤔",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Anons on /biz/ are debating which one survives the next decade, and both sides think the other side is a boomer.",
       "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ debate thread forcing anons to pick Bitcoin or gold for a 10-year hold.",
+      "source_hint": "/biz/ debate on whether to hold BTC or gold for the long term",
       "signal": {
         "asset": "BTC",
         "direction": "long",
@@ -44,22 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anon leans long BTC over gold for the 10-year horizon; XAU framed as the slower alternative"
+        "rationale": "OP framing favors BTC as the long-term store of value over gold, implicit long bias"
       },
-      "text_en_b2": "If you were forced to pick a single asset and hold it for the next decade, would you go with Bitcoin or gold? Make your case clearly, because copium-infused answers will be ignored. Personally I am bleeding on both positions right now, which is honestly comical, but over the long run Bitcoin has to outperform. Gold simply moves too slowly to stay competitive.",
-      "text_en_c1": "If you were compelled to hold a single asset for the next decade, Bitcoin or gold, which would you select, and on what grounds? I am personally bleeding on both positions, so sentimentality is off the table. What matters is the underlying thesis: scarcity mechanics, monetary policy hedging, demographic demand, and the regulatory tailwinds or headwinds each faces. Gold's volatility profile is undeniably more sedate, yet its growth ceiling appears structurally constrained in a digital economy. Bitcoin, conversely, offers asymmetric upside alongside existential technological risk. Lay out your case methodically, cite whatever evidence you find persuasive, and spare me the copium. Conviction backed by reasoning is what I am after.",
-      "text_en_c2": "Were one compelled, by some hypothetical exercise in disciplined portfolio construction, to select a single asset to hold for the ensuing decade, the choice between Bitcoin and gold presents a genuinely instructive dilemma. Gold, after all, has endured millennia as a store of value precisely because it is dull: its scarcity is uncontested, its custody straightforward, and its correlation with broader monetary debasement both intuitive and well-documented. Bitcoin, by contrast, promises a far steeper ascent, predicated upon the thesis that programmable scarcity will ultimately eclipse the metal's inertial conservatism. Yet that same volatility cuts both ways, and the asset's notorious drawdowns have a habit of testing the resolve of those who purchased conviction at the peak.",
-      "audio_url": "audio/2026-09-05/clip-btc-vs-gold.mp3"
+      "text_en_b2": "The age-old question keeps resurfacing across /biz/: if you had to hold a single asset for the next ten years, would you go with Bitcoin or gold? What makes your pick superior to the alternative? Anons are going head to head, and although both camps claim the other side is stuck in the past, nobody is budging an inch.",
+      "text_en_c1": "The eternal question keeps resurfacing on /biz/: if you were forced to hold a single asset for the coming decade, would your money be on Bitcoin or gold? Gold advocates cite its track record as the ultimate store of value, whereas Bitcoin maximalists argue that digital scarcity, network effects, and programmability render gold obsolete for younger generations. Each camp dismisses the other as hopelessly out of touch, convinced that the opposing side simply cannot grasp what monetary sovereignty will look like in 2035. The thread has become a microcosm of generational divides.",
+      "text_en_c2": "The perennial question resurfaces yet again: if one were compelled to hold a single asset through the coming decade, would Bitcoin or gold merit the allocation? Predictably, the risk-averse contingent champions bullion on the grounds of its historical resilience, whereas the conviction holders contend that such prudence is, in essence, an abdication of ambition. Anons on /biz/ have once more devolved into mutual recrimination, each faction dismissing the other as relics of a bygone financial era, incapable of grasping the asymmetric upside that a digitally native, deflationary instrument purportedly affords. The thread, as ever, is less an exercise in analysis than a referendum on temperament.",
+      "audio_url": "audio/2026-09-05/clip-clip01-btc-vs-gold.mp3"
     },
     {
-      "id": "thinkpad-printer",
+      "id": "clip02-cybercab-robotaxi",
+      "category": "trading",
+      "topic_zh": "Cybercab 被動收入",
+      "topic_en": "Tesla Cybercab Passive Income",
+      "text_zh": "OK 條thread真係好chill 直接買Cybercab再放上Tesla Robotaxi network做被動收入喎🤔 唔使揸車 唔使請人 自己印銀紙 呢啲咪就係我夢想嘅exit",
+      "text_en_b1": "Redpill me on buying Cybercabs and putting them to work on the Tesla Robotaxi network for passive income. No driver, no staff, just buy the car and let Tesla's Robotaxi network run it for you. Is this the real way out or just cope from /biz/ bagholders?",
+      "source_url": "https://boards.4chan.org/biz/thread/62648173",
+      "source_hint": "/biz/ thread asking if Cybercab + Robotaxi is real passive income",
+      "signal": {
+        "asset": "TSLA",
+        "direction": "long",
+        "conviction": "low",
+        "time_horizon": "months",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP is bullish TSLA via Robotaxi thesis, but no specific levels given"
+      },
+      "text_en_b2": "Someone needs to redpill me on buying Cybercabs and deploying them across Tesla's Robotaxi network for passive income. Picture this: no one behind the wheel, no staff to manage, you simply purchase the car and let Tesla's infrastructure handle the operations. Is this genuinely the way out of the rat race, or are /biz/ bagholders simply coping at this point?",
+      "text_en_c1": "A thread circulating on /biz/ floats an audacious proposition: acquire a fleet of Tesla Cybercabs and deploy them onto the Robotaxi network as a hands-free revenue stream. The pitch is deceptively elegant, since no chauffeur, no managerial overhead, and minimal maintenance would translate into what enthusiasts describe as a money printer operating quietly in the background. Sceptics, however, contend that the entire thesis rests on vapourware, regulatory wishful thinking, and the delusions of bagholders desperate to rationalise sunken costs. Whether it constitutes genuine financial liberation or merely elaborate cope remains firmly contested.",
+      "text_en_c2": "The proposition under discussion on /biz/ is as seductive as it is fantastical: one purchases a fleet of Tesla Cybercabs, enrols them on the proprietary Robotaxi network, and thereafter reaps a passive income stream while remaining entirely insulated from the operational exigencies of driving, staffing, or maintenance. In essence, capital is converted into a self-executing revenue-generating instrument, untethered from human intervention. Whether this constitutes a credible financial egress or merely the elaborate cope of bagholders desperate to rationalise their positions remains, predictably, a matter of fervent contention, with sceptics invoking the usual litany of regulatory uncertainty.",
+      "audio_url": "audio/2026-09-05/clip-clip02-cybercab-robotaxi.mp3"
+    },
+    {
+      "id": "clip03-local-ai-joke",
       "category": "tech/ai",
-      "topic_zh": "打印機崩潰",
-      "topic_en": "ThinkPad of printers",
-      "text_zh": "2026年仲有火箭同AI 但打印機仲係廢物一個 紙 Jam 就死 噴頭壞就換機 wtf 我哋做工程嘅真係頂唔順🧐",
-      "text_en_b1": "Why is there no ThinkPad of printers? It's 2026. We have reusable rockets and powerful AI, yet consumer printers are still brittle, unreliable nightmares. We need tank-like build quality, modular parts, and true repairability. Why hasn't anyone built it?",
-      "source_url": "https://boards.4chan.org/g/thread/109723457",
-      "source_hint": "/g/ thread asking why no manufacturer has built a rugged, repairable ThinkPad-style printer.",
+      "topic_zh": "本地AI 廢",
+      "topic_en": "Local AI Is a Joke",
+      "text_zh": "OK 真係頂唔順💀 本地LLM 真係廢 問啲basic嘢都答錯曬 燒錢燒時間仲要比人笑 同我考HKIE一樣辛苦lol",
+      "text_en_b1": "Local AI is a complete joke. I asked my local LLM how far the earth is from the sun and it told me the sun is the 3rd largest planet and earth is 4 miles away. Total scam. Why does anyone waste time and money on this garbage?",
+      "source_url": "https://boards.4chan.org/g/thread/109731282",
+      "source_hint": "/g/ rant about local LLMs failing basic questions",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech rant, no trade setup"
+        "rationale": "Venting, no actionable setup"
       },
-      "text_en_b2": "Why on earth has nobody produced a ThinkPad equivalent for printers? It is 2026 and we have reusable rockets plus increasingly capable AI, yet consumer printers remain fragile, paper-jamming nightmares with proprietary parts and zero repairability. What engineers genuinely need is tank-like build quality, modular components and proper documentation. The technology clearly exists, so why has nobody bothered to build it?",
-      "text_en_c1": "It is frankly absurd that, in 2026, we have managed to land reusable orbital boosters and deploy generative AI at scale, yet the humble consumer printer remains a triumph of planned obsolescence. Paper jams, clogged printheads, proprietary cartridges, and driver incompatibilities continue to plague users who simply want reliable output. What the market evidently lacks is a ThinkPad equivalent: a machine engineered with modular components, documented schematics, and rugged construction prioritising repairability over quarterly revenue cycles. Given how mature the underlying technology is, one has to wonder whether the absence reflects genuine engineering difficulty or, more cynically, a coordinated preference among manufacturers for disposable hardware.",
-      "text_en_c2": "It is, frankly, astonishing that in an era characterised by reusable orbital launch vehicles and language models of startling capability, the consumer printer remains an exercise in engineered obsolescence and quiet user despair. Paper jams, clogged printheads, and proprietary DRM-locked consumables conspire to render a device that should be unremarkable into a recurring source of existential frustration. What the market conspicuously lacks, and what engineering tradition ought to have produced long ago, is a printer conceived along the same philosophical lines as a ThinkPad: robust chassis, modular components, readily available schematics, and a commitment to repairability that extends meaningfully beyond the cosmetic. The economics, one suspects, discourage such an enterprise, since disposability remains the industry's structural profit centre and longevity would, rather inconveniently, cannibalise recurring revenue streams.",
-      "audio_url": "audio/2026-09-05/clip-thinkpad-printer.mp3"
+      "text_en_b2": "Local AI is honestly a complete joke at this point. I threw a basic question at my local LLM, asking how far the earth sits from the sun, and it confidently claimed the sun is the third largest planet while earth is a mere four miles away. Total scam. Why on earth would anyone keep burning time and money on this garbage?",
+      "text_en_c1": "Local large language models are, frankly, an embarrassment to anyone who values their time and electricity bill. When prompted with something as elementary as the distance between Earth and the sun, a certain model confidently declared that the sun ranks as the third-largest planet and that our planet sits a meagre four miles away. Beyond the absurdity of the response lies a more troubling pattern: hallucinated facts dressed up in authoritative prose, hours of computation evaporating into confidently incorrect nonsense. Until these systems demonstrate elementary competence, enthusiasm for running them locally remains entirely unjustifiable.",
+      "text_en_c2": "The premise of running large language models locally, once heralded as a sovereign alternative to corporate APIs, has revealed itself, in practice, to be a thoroughly disillusioning endeavour. Even the most rudimentary factual inquiries elicit responses so catastrophically erroneous that one is compelled to question the very utility of the exercise; my own local model, when queried about the earth-sun distance, confidently asserted that the sun constitutes the third-largest planet, with our planet a mere four miles distant. The cumulative expenditure of compute and electricity, set against such abject failure, renders the entire proposition little more than an elaborate exercise in self-flagellation.",
+      "audio_url": "audio/2026-09-05/clip-clip03-local-ai-joke.mp3"
     },
     {
-      "id": "china-bubble-chin",
+      "id": "clip04-bubble-chin",
       "category": "hk/news",
-      "topic_zh": "中國泡泡下巴",
-      "topic_en": "China bubble chin trend",
-      "text_zh": "內地最新潮流係「泡泡下巴」 女性 influencer 帶起 omg 真係睇唔明 審美觀崩壞中 lol",
-      "text_en_b1": "Newest trend in China just dropped. Chinese internet users are calling it the bubble chin. It is becoming increasingly fashionable among Chinese female influencers and is spreading fast across lifestyle platforms.",
+      "topic_zh": "泡泡下巴",
+      "topic_en": "Bubble Chin Trend",
+      "text_zh": "wtf🧐 大陸啲女influencer開始興「泡泡下巴」 睇完真係唔知好定唔好 香港女仔都應該唔會跟lol",
+      "text_en_b1": "New trend in China just dropped. Chinese internet users are calling it the \"bubble chin\" and it is becoming increasingly fashionable among Chinese female influencers. Photos are floating around /pol/ tonight and anons are divided on whether it looks cute or cursed.",
       "source_url": "https://boards.4chan.org/pol/thread/542008627",
-      "source_hint": "/pol/ thread on the new bubble chin cosmetic trend among Chinese female influencers.",
+      "source_hint": "/pol/ thread on the bubble chin aesthetic going viral in China",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News / culture observation, no trade"
+        "rationale": "Culture observation, not a trade"
       },
-      "text_en_b2": "A rather bewildering aesthetic trend has just emerged across Chinese social media, and mainstream commentators are already labelling it the bubble chin. The look appears to have been popularised by lifestyle influencers and is reportedly spreading rapidly across Xiaohongshu and Douyin. Honestly, I struggle to see the appeal, and judging by the reaction threads many locals feel the same way. Standards are clearly slipping.",
-      "text_en_c1": "The latest aesthetic phenomenon to emerge from Chinese social media is, predictably, bewildering to outside observers. Referred to colloquially as the bubble chin, the trend involves a deliberately exaggerated, softened lower-jaw contour that has been popularised by lifestyle influencers and is now propagating across Xiaohongshu, Douyin, and adjacent platforms at considerable velocity. While the precise origins remain debated, the broader implications are more interesting than the look itself: it illustrates how algorithmic amplification can convert niche beauty standards into mass phenomena within weeks, often detached from any anatomical rationale. Whether this represents genuine aesthetic evolution or merely another cycle of internet-driven homogenisation is, frankly, an open question.",
-      "text_en_c2": "The latest aesthetic phenomenon to percolate through Chinese social media, colloquially termed the bubble chin, has ascended from niche subcultural curiosity to mainstream trend with remarkable velocity. Propelled by a constellation of female influencers who appear to have collectively decided that an exaggerated, inflated jawline constitutes the apogee of contemporary beauty, the look has proliferated across lifestyle platforms, beauty forums, and short-video applications with an intensity that borders on the missionary. Critics, perhaps predictably, have decried the trend as yet another symptom of aesthetic standards veering toward the absurd, while defenders insist it represents nothing more than playful self-expression.",
-      "audio_url": "audio/2026-09-05/clip-china-bubble-chin.mp3"
+      "text_en_b2": "A bizarre new trend has just dropped in China, and it is spreading like wildfire. Chinese netizens are calling it the \"bubble chin,\" and it is rapidly catching on among mainland female influencers. Photos are circulating across /pol/ tonight, with anons divided on whether the look is actually cute or genuinely cursed.",
+      "text_en_c1": "An emerging aesthetic trend on the Chinese internet, colloquially dubbed the bubble chin, is rapidly gaining traction among female influencers across major platforms. The procedure, which produces an unusually pronounced and rounded chin contour, has divided opinion sharply, with admirers praising its youthful, almost doll-like charm while detractors dismiss it as visually grotesque. Screenshots have proliferated across /pol/ tonight, where anons are split between those who find it endearing and those who consider it cursed. Hong Kong audiences, predictably, seem entirely uninterested in importing the look.",
+      "text_en_c2": "A new aesthetic aberration has begun proliferating amongst Chinese female influencers, colloquially termed the 'bubble chin,' whose proponents evidently regard it as the apogee of contemporary beauty, whilst sceptics discern something altogether more unsettling in the distended submandibular contours on display. Photographs have circulated with alacrity across /pol/ this evening, occasioning a schism within the community that mirrors broader anxieties about the trajectory of Chinese cultural exports. Whether the trend portends genuine adoption or merely constitutes a transient curiosity, derided and swiftly discarded, remains to be seen.",
+      "audio_url": "audio/2026-09-05/clip-clip04-bubble-chin.mp3"
     },
     {
-      "id": "fallout-4-lol",
+      "id": "clip05-fallout-4",
       "category": "lol/esports",
-      "topic_zh": "Fallout 4 值唔值玩",
-      "topic_en": "Fallout 4 worth it?",
-      "text_zh": "見個 Fallout 4 帖諗起以前打完又 Gank LOL 嘅日子 廢青中廢青lol btw Fallout 4 真係好game 定overhype？",
-      "text_en_b1": "Is Fallout 4 really as good as people say it is? When I first played it, it felt like a game that was developed too quickly and rushed to release. Curious how other anons feel about it years later.",
+      "topic_zh": "Fallout 4 值唔值",
+      "topic_en": "Is Fallout 4 Good",
+      "text_zh": "OK 唔做嘢嘅夜晚就係打機 /v/有人問Fallout 4係咪真係好似大家講咁好 有人話rushed 有人話神作 我就覺得OK打發時間ok",
+      "text_en_b1": "Is Fallout 4 really as good as people say it is? When I first played it, it felt like a game that was developed too quickly and rushed to release. Other anons say it is still one of the best open world RPGs of the last decade.",
       "source_url": "https://boards.4chan.org/v/thread/746896527",
-      "source_hint": "/v/ thread debating whether Fallout 4 deserved its huge reputation.",
+      "source_hint": "/v/ thread debating Fallout 4 quality",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -118,20 +118,20 @@
         "stop": null,
         "rationale": "Gaming discussion, no trade"
       },
-      "text_en_b2": "Is Fallout 4 genuinely worth playing today, or has the nostalgia simply clouded our judgement? When I first finished it years ago the whole experience felt rushed, as though Bethesda had pushed it out the door a year too early. The world-building was solid, yet the dialogue system and quest design left a lot to be desired. Curious how other anons rate it now.",
-      "text_en_c1": "Years after its release, Fallout 4 continues to divide the community in ways that newer titles rarely do. When I first played it, my impression was that Bethesda had clearly prioritised meeting a commercial deadline over delivering a polished experience; quests felt truncated, the dialogue system regressed, and the overall scope suggested a project that could have benefited from another twelve months in development. Revisiting it now, however, I am inclined to reassess. The modding ecosystem has matured considerably, the gunplay holds up reasonably well, and the world-building, while not on par with New Vegas, retains that distinctive Bethesda charm.",
-      "text_en_c2": "The question of whether Fallout 4 genuinely merits the canonical status so routinely bestowed upon it is one that has, in the years since its release, occasioned a great deal of spirited disagreement. Initial impressions among a substantial contingent of players were coloured by a pervasive sense that the title had been hurried through production, with compromises evident in dialogue systems, settlement mechanics, and a main questline that, frankly, felt somewhat vestigial. Yet subsequent playthroughs, particularly those undertaken after the Commonwealth has been properly explored and its factions fully engaged, tend to rehabilitate the title's reputation considerably. The world, for all its technical roughness, possesses a peculiar density, and the radiantly bleak humour endures.",
-      "audio_url": "audio/2026-09-05/clip-fallout-4-lol.mp3"
+      "text_en_b2": "Is Fallout 4 genuinely worth the hype people keep giving it? When I first fired it up, it struck me as a title that had clearly been rushed out the door to meet a deadline. Other anons insist it still stands among the finest open-world RPGs of the past decade, while skeptics argue it was cooked far too quickly.",
+      "text_en_c1": "On a slow evening thread over at /v/, the perennial debate resurfaces: does Fallout 4 genuinely deserve the acclaim it accumulated at launch, or is the praise largely retrospective nostalgia? Certain anons argue that the title bears all the hallmarks of a project rushed to meet commercial deadlines, with diluted writing and underdeveloped factions betraying production pressures. Defenders counter that, despite its imperfections, the game remains among the most engaging open-world RPGs of its generation, offering dozens of hours of compelling exploration. Personally, I find it perfectly serviceable as a time-killer between more demanding releases.",
+      "text_en_c2": "The perennial debate over Fallout 4's legacy has resurfaced on /v/, occasioned no doubt by another idle evening of disinclination towards productivity. One faction contends that the title bears all the hallmarks of a project expedited to meet commercial imperatives, its seams plainly visible beneath a veneer of post-apocalyptic polish; the opposing camp maintains that, notwithstanding any developmental compromises, the game remains amongst the most accomplished open-world role-playing experiences of the past decade. The thread, predictably, has devolved into a proxy conflict over nostalgia and taste, with neither side likely to relinquish their entrenched position.",
+      "audio_url": "audio/2026-09-05/clip-clip05-fallout-4.mp3"
     },
     {
-      "id": "grappling-pill",
+      "id": "clip06-grappling-pill",
       "category": "mma/fitness",
-      "topic_zh": "打Grappling 真理",
-      "topic_en": "Grappling over bench press",
-      "text_zh": "肥仔信成日話我 bench 太重 grap 太廢 又話被人 50lb 細佬打到仆街 lol 我信佢啦🧐 真係要開始練 BJJ",
-      "text_en_b1": "Hey nice bench press anon, 315 lbs really impressive. Any guy who weighs 50 pounds less than you can fold you in half on the ground. You have no reason to skip grappling, unless you want some smaller dude to make you his bitch. Take the grappling pill.",
+      "topic_zh": "Grappling 一定要練",
+      "topic_en": "Grappling Pill",
+      "text_zh": "肥仔信今日又話我🧐 練grappling啦兄弟 唔係俾人fold你 死舉重佬都冇用lol 我Gym circle啲friend真係好chur",
+      "text_en_b1": "Hey nice bench press anon, 315 lbs really impressive. Now imagine someone folds you in half on the mat. You have no reason to skip grappling unless you want a guy 50 pounds lighter to make you his bitch. Any half-decent grappler would have you staring at your own asshole in seconds.",
       "source_url": "https://boards.4chan.org/fit/thread/77497491",
-      "source_hint": "/fit/ thread telling lifters they are skipping grappling and getting humbled by lighter opponents.",
+      "source_hint": "/fit/ rant telling lifters to also train grappling",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness / martial arts advice, no trade"
+        "rationale": "Fitness/martial arts discussion, no trade"
       },
-      "text_en_b2": "Solid bench press, although bragging about lifting 315 pounds is frankly meaningless when any training partner weighing fifty pounds less can absolutely demolish you on the mats. Strength built in one plane does not transfer to live grappling, and that competitive gap becomes painfully obvious the moment you are taken down. Unless you genuinely enjoy being controlled by smaller opponents, start training Brazilian jiu-jitsu today.",
-      "text_en_c1": "Credit where it is due: a 315-pound bench press is objectively impressive and speaks to consistent, disciplined training. That said, strength metrics performed in a single plane of motion translate poorly to scenarios where the fight, quite literally, hits the ground. Any competent grappler weighing significantly less than you can, with minimal effort, neutralise that strength advantage through leverage, positional control, and technique refined over years of live sparring. The uncomfortable truth is that muscle mass, however aesthetic, is no substitute for grappling literacy. If your goal is functional self-defence rather than mirror aesthetics, Brazilian jiu-jitsu deserves a serious place in your programming.",
-      "text_en_c2": "Compliments to the anonymous individual whose bench press numbers are, by any reasonable standard, genuinely formidable; 315 pounds is not a feat to be dismissed. Strength, however, is not a unidimensional virtue, and the inflexibly linear worship of axial loading obscures a rather fundamental truth about combative reality: a man forty or fifty pounds lighter, provided he has invested even a modest portion of his training in Brazilian jiu-jitsu, can, with contemptuous ease, escort such a benched behemoth to the floor and there proceed to illustrate, through empirical demonstration, the perils of neglecting one's grappling curriculum. The illusion of dominance, so carefully cultivated beneath the barbell, dissolves with embarrassing speed the moment the contest transitions to horizontal entanglement.",
-      "audio_url": "audio/2026-09-05/clip-grappling-pill.mp3"
+      "text_en_b2": "Solid bench press, anon, 315 lbs is genuinely impressive. Now picture yourself getting folded in half on the mat by someone who actually trains grappling. You have absolutely no excuse to skip it unless you want a guy fifty pounds lighter to make you his personal chew toy. Any half-decent grappler would have you staring at your own belt buckle in seconds.",
+      "text_en_c1": "Congratulations on your bench press, anonymous; three hundred and fifteen pounds is undeniably impressive within the confines of a commercial gym. However, raw strength becomes almost irrelevant the moment a competent grappler closes the distance and initiates a takedown. Any practitioner with a rudimentary grasp of Brazilian jiu-jitsu could dismantle a pure powerlifter half their size within seconds, leaving them contorted into positions they never knew their bodies could achieve. If you genuinely value functional capability over mirror aesthetics, supplementing your barbell work with mat time is non-negotiable, no matter how taxing it proves.",
+      "text_en_c2": "The bench press enthusiast, having dutifully conveyed three hundred and fifteen pounds from floor to chest, is nonetheless gently reminded that such linear-progression achievements in the iron game pale into insignificance the moment a grappling exchange is initiated; any competent practitioner, irrespective of a substantial weight disadvantage, possesses the requisite toolkit to contort the hapless deadlifter into positions of exquisite submission. The gym's resident strongmen, it must be conceded, remain conspicuously reticent when confronted with the proposition that their hypertrophied musculature confers no particular immunity on the mat, a fact that the initiated find deliciously irrefutable.",
+      "audio_url": "audio/2026-09-05/clip-clip06-grappling-pill.mp3"
     },
     {
-      "id": "fairytail-test",
+      "id": "clip07-fairy-tail",
       "category": "anime/culture",
-      "topic_zh": "Fairy Tail 試煉",
-      "topic_en": "Fairy Tail non-Lucy test",
-      "text_zh": "一試真fans就知 Fairy Tail 唔計Lucy 即刻講個角色名 Erza ok🙏 我哋 Gundam 00 / 鬼滅 / Attack on Titan 老粉不要戰",
-      "text_en_b1": "If you are a true anime fan, mention one Fairy Tail character off the bat that is not Lucy. Go. Bonus points if you can also name a Demon Slayer hashira and a Gundam 00 pilot without Googling them.",
+      "topic_zh": "Fairy Tail 角色",
+      "topic_en": "Fairy Tail Challenge",
+      "text_zh": "ok 真正動漫迷先答到 Erza 😂 Firion 錯嘅話我認輸 但我而家睇緊Chainsaw man多 遲啲講",
+      "text_en_b1": "If you are a true anime fan, mention one Fairy Tail character off the bat that is not Lucy. Anons are jumping in with names like Erza, Natsu, Gray and Gray and getting roasted for mentioning Lucy anyway. The thread is basically a fan quiz.",
       "source_url": "https://boards.4chan.org/a/thread/290690711",
-      "source_hint": "/a/ thread testing who is actually a real anime fan via Fairy Tail trivia.",
+      "source_hint": "/a/ anime fan quiz thread on Fairy Tail",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime trivia discussion, no trade"
+        "rationale": "Anime culture chat, no trade"
       },
-      "text_en_b2": "A quick litmus test for self-proclaimed anime fans: name a Fairy Tail character other than Lucy immediately, and you have thirty seconds to do it. Erza is the obvious pick, yet plenty of viewers would draw a blank. For extra credit, identify a Demon Slayer hashira and a Gundam 00 pilot without resorting to Google. Anyone who passes clearly belongs to the veteran fanbase.",
-      "text_en_c1": "A quick litmus test for anyone claiming genuine long-term investment in anime as a medium: name, without hesitation, a Fairy Tail character who is not Lucy Heartfilia. Erza Scarlet is the obvious candidate, though Natsu or Gray would equally suffice. Should you wish to demonstrate broader credentials, extending the exercise to identify a Demon Slayer hashira and a Gundam 00 pilot from memory would be considerably more persuasive. The underlying point is not gatekeeping for its own sake; rather, it distinguishes casual viewers from those whose engagement spans years and franchises. If those references landed instantly, you have likely earned the title of veteran.",
-      "text_en_c2": "A modest proposal for distinguishing the genuine aficionado from the casual dilettante, the sort of test that separates those who have actually imbibed a series from those who have merely absorbed its cultural residue. Name, without recourse to external prompting, a Fairy Tail character who is not Lucy Heartfilia: should Erza Scarlet spring forth with appropriate alacrity, one may cautiously proceed. Should the respondent stumble and offer, say, a vague reference to Natsu, they may yet be redeemed by extending the inquiry to a Hashira from Demon Slayer, perhaps Giyu Tomioka or the incandescent Shinobu Kocho, and subsequently a Gundam 00 pilot, of whom Setsuna F. Seiei remains the perennial favourite.",
-      "audio_url": "audio/2026-09-05/clip-fairytail-test.mp3"
+      "text_en_b2": "If you are a genuine anime fan, name a Fairy Tail character off the top of your head, and it had better not be Lucy. Anons are flooding the thread with picks like Erza, Natsu and Gray, though plenty are still getting roasted for slipping up and mentioning Lucy anyway. The whole thread has basically turned into a casual fan quiz.",
+      "text_en_c1": "The thread poses what purports to be a litmus test for authentic anime enthusiasts: name a single Fairy Tail character immediately, on the condition that Lucy is excluded from consideration. Predictably, respondents have flooded the thread with names such as Erza, Natsu, and Gray, only to be promptly eviscerated the moment they inadvertently type Lucy regardless. What began as a straightforward fan quiz has devolved into an elaborate trap designed to humiliate overeager participants, with correct answers remaining stubbornly elusive. Meanwhile, I find myself occupied with Chainsaw Man lately, so my own credentials remain conveniently untested.",
+      "text_en_c2": "A deceptively simple litmus test for anime literacy has gained traction on /a/: name a Fairy Tail character unprompted, excluding the obvious answer of Lucy, whose mention invariably courts public excoriation. Respondents have proffered the customary roster of Erza, Natsu, and Gray, the latter appearing with such frequency that one suspects the thread has transcended its nominal quiz format and become, in effect, a referendum on whether participants can resist the path of least resistance. The discourse has since migrated towards Chainsaw Man, though the earlier inquisition remains, for the moment, unresolved.",
+      "audio_url": "audio/2026-09-05/clip-clip07-fairy-tail.mp3"
     }
   ]
 }

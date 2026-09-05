@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "tsla-cybercab",
-      "topic_en": "Tesla Robotaxi Cybercab",
-      "topic_zh": "Tesla Cybercab 投資",
-      "category": "trading",
-      "file": "clip-tsla-cybercab.mp3",
-      "bytes": 177972,
-      "chars": 197
-    },
-    {
-      "id": "btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold 10Y",
+      "id": "clip01-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
       "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-btc-vs-gold.mp3",
-      "bytes": 205044,
-      "chars": 183
+      "file": "clip-clip01-btc-vs-gold.mp3",
+      "bytes": 275316,
+      "chars": 260
     },
     {
-      "id": "thinkpad-printer",
-      "topic_en": "ThinkPad of printers",
-      "topic_zh": "打印機崩潰",
+      "id": "clip02-cybercab-robotaxi",
+      "topic_en": "Tesla Cybercab Passive Income",
+      "topic_zh": "Cybercab 被動收入",
+      "category": "trading",
+      "file": "clip-clip02-cybercab-robotaxi.mp3",
+      "bytes": 265524,
+      "chars": 253
+    },
+    {
+      "id": "clip03-local-ai-joke",
+      "topic_en": "Local AI Is a Joke",
+      "topic_zh": "本地AI 廢",
       "category": "tech/ai",
-      "file": "clip-thinkpad-printer.mp3",
-      "bytes": 301236,
-      "chars": 254
+      "file": "clip-clip03-local-ai-joke.mp3",
+      "bytes": 240180,
+      "chars": 225
     },
     {
-      "id": "china-bubble-chin",
-      "topic_en": "China bubble chin trend",
-      "topic_zh": "中國泡泡下巴",
+      "id": "clip04-bubble-chin",
+      "topic_en": "Bubble Chin Trend",
+      "topic_zh": "泡泡下巴",
       "category": "hk/news",
-      "file": "clip-china-bubble-chin.mp3",
-      "bytes": 216564,
-      "chars": 213
+      "file": "clip-clip04-bubble-chin.mp3",
+      "bytes": 263796,
+      "chars": 265
     },
     {
-      "id": "fallout-4-lol",
-      "topic_en": "Fallout 4 worth it?",
-      "topic_zh": "Fallout 4 值唔值玩",
+      "id": "clip05-fallout-4",
+      "topic_en": "Is Fallout 4 Good",
+      "topic_zh": "Fallout 4 值唔值",
       "category": "lol/esports",
-      "file": "clip-fallout-4-lol.mp3",
-      "bytes": 198132,
-      "chars": 197
+      "file": "clip-clip05-fallout-4.mp3",
+      "bytes": 225204,
+      "chars": 226
     },
     {
-      "id": "grappling-pill",
-      "topic_en": "Grappling over bench press",
-      "topic_zh": "打Grappling 真理",
+      "id": "clip06-grappling-pill",
+      "topic_en": "Grappling Pill",
+      "topic_zh": "Grappling 一定要練",
       "category": "mma/fitness",
-      "file": "clip-grappling-pill.mp3",
-      "bytes": 248244,
-      "chars": 252
+      "file": "clip-clip06-grappling-pill.mp3",
+      "bytes": 266676,
+      "chars": 283
     },
     {
-      "id": "fairytail-test",
-      "topic_en": "Fairy Tail non-Lucy test",
-      "topic_zh": "Fairy Tail 試煉",
+      "id": "clip07-fairy-tail",
+      "topic_en": "Fairy Tail Challenge",
+      "topic_zh": "Fairy Tail 角色",
       "category": "anime/culture",
-      "file": "clip-fairytail-test.mp3",
-      "bytes": 202740,
-      "chars": 197
+      "file": "clip-clip07-fairy-tail.mp3",
+      "bytes": 240756,
+      "chars": 239
     }
   ]
 }
