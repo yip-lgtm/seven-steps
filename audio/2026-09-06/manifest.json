@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "btc-gold-debate",
-      "topic_en": "Bitcoin vs Gold",
+      "id": "t1-btc-vs-gold",
+      "topic_en": "BTC vs Gold",
       "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-btc-gold-debate.mp3",
-      "bytes": 301812,
-      "chars": 263
+      "file": "clip-t1-btc-vs-gold.mp3",
+      "bytes": 261492,
+      "chars": 249
     },
     {
-      "id": "btc-fomo-postpump",
-      "topic_en": "BTC FOMO after pump",
-      "topic_zh": "Pump完先買",
+      "id": "t2-spacex-lockup",
+      "topic_en": "SpaceX lockup expiry",
+      "topic_zh": "SpaceX 解禁",
       "category": "trading",
-      "file": "clip-btc-fomo-postpump.mp3",
-      "bytes": 266676,
-      "chars": 258
+      "file": "clip-t2-spacex-lockup.mp3",
+      "bytes": 363444,
+      "chars": 275
     },
     {
-      "id": "mit-ai-democracy",
-      "topic_en": "MIT AI democracy paper",
-      "topic_zh": "AI滅民主",
+      "id": "tech-mit-ai",
+      "topic_en": "MIT paper on AI",
+      "topic_zh": "AI 滅民主",
       "category": "tech/ai",
-      "file": "clip-mit-ai-democracy.mp3",
-      "bytes": 330036,
+      "file": "clip-tech-mit-ai.mp3",
+      "bytes": 334644,
       "chars": 316
     },
     {
-      "id": "byd-ad-bessent",
+      "id": "hk-byd-ad",
       "topic_en": "BYD free ad",
-      "topic_zh": "BYD贏廣告",
+      "topic_zh": "BYD 最佳廣告",
       "category": "hk/news",
-      "file": "clip-byd-ad-bessent.mp3",
-      "bytes": 359988,
-      "chars": 266
+      "file": "clip-hk-byd-ad.mp3",
+      "bytes": 336948,
+      "chars": 232
     },
     {
       "id": "lol-western-rules",
-      "topic_en": "Western players and rules",
-      "topic_zh": "西人唔守規矩",
+      "topic_en": "Westerners and dev rules",
+      "topic_zh": "西人唔聽話",
       "category": "lol/esports",
       "file": "clip-lol-western-rules.mp3",
-      "bytes": 311028,
-      "chars": 310
+      "bytes": 244788,
+      "chars": 229
     },
     {
-      "id": "fit-405-bench",
-      "topic_en": "405 lb bench sighting",
-      "topic_zh": "405磅枱凳",
+      "id": "mma-grappling",
+      "topic_en": "Grappling vs bench",
+      "topic_zh": "打Grappling",
       "category": "mma/fitness",
-      "file": "clip-fit-405-bench.mp3",
-      "bytes": 298356,
-      "chars": 276
+      "file": "clip-mma-grappling.mp3",
+      "bytes": 269556,
+      "chars": 253
     },
     {
-      "id": "aotc-yani-neko",
-      "topic_en": "Yani Neko AOTY",
-      "topic_zh": "年貓年度最佳",
+      "id": "anime-fairy-tail",
+      "topic_en": "Real anime fan test",
+      "topic_zh": "真fans測試",
       "category": "anime/culture",
-      "file": "clip-aotc-yani-neko.mp3",
-      "bytes": 330612,
-      "chars": 312
+      "file": "clip-anime-fairy-tail.mp3",
+      "bytes": 287412,
+      "chars": 254
     }
   ]
 }
