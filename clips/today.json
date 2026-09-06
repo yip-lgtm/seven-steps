@@ -4,38 +4,38 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "t1-btc-vs-gold",
+      "id": "trade1",
       "category": "trading",
-      "topic_zh": "BTC vs 黃金",
-      "topic_en": "BTC vs Gold",
-      "text_zh": "又係呢條數。如果你hold一樣嘢10年，你揀BTC定黃金？我諗BTC，但黃金嗰啲lvh我真係唔識。靠AI續命，廢柴一個。",
-      "text_en_b1": "If you had to hold only one asset for the next 10 years, would you pick Bitcoin or gold? What makes your choice better than the other? Anon asks /biz/ to compare the two as long-term stores of value, and the thread is full of cope, math, and charts.",
+      "topic_zh": "比特幣vs黃金",
+      "topic_en": "Bitcoin vs Gold",
+      "text_zh": "十年long only淨係揸一樣，你揀BTC定係黃金？我兩邊都輸過，廢柴一個。真係要比，黃金我揸過實物，但Bitcoin真係我嘅信仰，又係信仰，唔知啦lol。",
+      "text_en_b1": "If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? The question asks what makes your choice better than the other. Bitcoin has rallied hard this cycle, but gold is hitting new highs too. Both seem to win, which is why this debate keeps going on /biz/.",
       "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ asks BTC vs gold for a 10-year hold",
+      "source_hint": "/biz/ thread asking BTC vs gold 10-year hold",
       "signal": {
         "asset": "BTC",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "years",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP frames it as a long-term store-of-value question, implicitly bullish on BTC, but no entry or target given"
+        "rationale": "Anecdotal debate post, no actionable setup"
       },
-      "text_en_b2": "If you were forced to hold a single asset for the next decade, would you go with Bitcoin or gold? Anon on /biz/ sparked a heated debate about which one makes the stronger long-term store of value, and while plenty of posters championed BTC, others admitted they barely understand gold's leverage dynamics. The thread quickly devolved into cope, half-baked math, and cherry-picked charts, although a few genuine arguments did surface between the noise.",
-      "text_en_c1": "Were you compelled to lock away a single asset for the coming decade, which would you ultimately favour: Bitcoin or physical gold? The /biz/ thread circulates the perennial question, with anons weighing Bitcoin's asymmetric upside against gold's enduring track record as a monetary anchor. The poster admits a lean toward BTC, conceding that the leverage vehicles attached to gold remain largely opaque to him. What emerges is a familiar cocktail of unverified projections, second-hand technical analysis, and the sort of charts whose axes seem calibrated more toward conviction than accuracy.",
-      "text_en_c2": "Forced to choose a single asset to hold over the ensuing decade, would you opt for Bitcoin or gold, and what precisely underwrites that conviction? The question, posed on /biz/, elicited the customary cascade of cope-laden rebuttals, half-baked models, and chart-laden prophecies. Pro-BTC posters invoked its fixed supply, portability, and the inevitability of monetary debasement; the goldbugs countered with millennia of durability, sovereign provenance, and an inconvenient absence of custodial risk. Beneath the rhetorical crossfire, however, lay a genuine dispute about what constitutes money, store of value, and the discretionary capacity to outlast successive cycles of regulatory overreach and speculative mania — neither side, predictably, conceded the merest inch.",
-      "audio_url": "audio/2026-09-06/clip-t1-btc-vs-gold.mp3"
+      "text_en_b2": "If you were forced to go long-only on a single asset over the coming decade, would you pin your bet on Bitcoin or gold? Both have posted remarkable gains this cycle, with BTC rallying aggressively while bullion keeps grinding out fresh highs. The whole debate keeps dragging on across /biz/ precisely because nobody can crown a clear winner. Personally, I've taken losses on both, so I'm hardly the one to judge — but having held physical gold myself, I'll admit Bitcoin borders on pure faith…",
+      "text_en_c1": "If one were compelled to hold a single asset over the coming decade, the perennial question resurfaces: Bitcoin or gold? This cycle has witnessed Bitcoin rallying with extraordinary force, yet gold has simultaneously notched successive all-time highs, which only intensifies the debate on /biz/. The framing presupposes that any choice must demonstrably outperform its alternative, a standard that both instruments arguably satisfy under prevailing macroeconomic conditions. Personally, I have held physical bullion and incurred losses on both, the eternal dilemma of conviction versus conviction, though Bitcoin remains, for want of a better word, an article of faith.",
+      "text_en_c2": "Were one compelled, by some hypothetical imperative, to select a single asset and hold it long-only across the coming decade, the perennial contest between Bitcoin and gold inevitably resurfaces, animated by devotees on either side who insist their conviction rests on something more substantial than mere sentiment. The contrarian case for either remains genuinely compelling: Bitcoin, the lodestar of a generation disenchanted with monetary orthodoxy, has rallied with ferocious velocity this cycle, while gold, that ancient store of value, has simultaneously scaled unprecedented nominal highs. To argue decisively that one constitutes the superior allocation betrays a certain naivety, yet if pressed, I would confess that Bitcoin constitutes something approaching an article of faith for me, an ideological commitment whose rational foundations I can no longer fully disentangle from sheer conviction.",
+      "audio_url": "audio/2026-09-06/clip-trade1.mp3"
     },
     {
-      "id": "t2-spacex-lockup",
+      "id": "trade2",
       "category": "trading",
-      "topic_zh": "SpaceX 解禁",
-      "topic_en": "SpaceX lockup expiry",
-      "text_zh": "SpaceX 解禁潮嚟緊。9月9號又多3.19億股可以賣，第三次lockup release。Elon engineering仲係穩，但股票short一short？lol，我份糧都唔夠畀期貨margin，算吧啦🙏",
-      "text_en_b1": "Around September 9, 2026, about 319 million extra SpaceX shares (roughly 7% of the baseline pool, about 2.4% of total shares outstanding) become eligible to sell. This is the 90th trading day since the IPO and the third major lockup release event. Anon is watching the float.",
+      "topic_zh": "SpaceX IPO解禁",
+      "topic_en": "SpaceX IPO Lockup",
+      "text_zh": "SpaceX IPO lockup又有嘢爆。9月2026大約3.19億股解禁，大約7%個baseline pool。Elon條友一出貨，TSLA同SpaceX相關全部都震，我個CFD又輸，wtf。",
+      "text_en_b1": "On September 9, 2026, about 319 million extra SpaceX shares become eligible for sale. That is around 7 percent of the baseline pool, roughly 2.4 percent of total shares outstanding. This is the 90th trading day since the IPO and the third major lockup release event.",
       "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ tracking SpaceX lockup release dates",
+      "source_hint": "/biz/ thread tracking SpaceX IPO lockup schedule",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -44,22 +44,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Calendar datapoint, no actionable setup in OP"
+        "rationale": "Not a trade, pure macro event note"
       },
-      "text_en_b2": "Roughly 319 million SpaceX shares become eligible for trading around September 9, 2026, marking the third major lockup release since the IPO. The float is set to expand by about 7% of the baseline pool, which represents nearly 2.4% of total shares outstanding. Although Elon's engineering track record remains rock solid, the looming supply pressure has some anons weighing a short position, while others shrug it off because they cannot even cover futures margin on their salary.",
-      "text_en_c1": "On or around September 9, 2026, approximately 319 million additional SpaceX shares become eligible for sale, representing roughly seven percent of the baseline insider pool and about 2.4 percent of total shares outstanding. The trigger is straightforward: ninety trading days have elapsed since the IPO, marking the third major lockup release event. Anon flags the implications for float dynamics and potential downward pressure, even as Elon's engineering narrative retains its grip on sentiment. He professes, with characteristic resignation, that his salary scarcely covers futures margin, so participation is firmly off the table.",
-      "text_en_c2": "A further tranche of approximately 319 million SpaceX shares becomes eligible for secondary sale around the ninth of September, 2026 — the third such lockup expiry since the IPO and, more pointedly, the ninetieth trading session, at which point insider restrictions lapse by force of the registration agreement. The float, which already accounts for a modest fraction of the total outstanding, is thereby enlarged by roughly 2.4 percent in a single, foreseeable event; seasoned participants had, of course, discounted the overhang well in advance. Whether the shares gravitate toward institutional accumulation or get routed into the customary short remains a matter of considerable conjecture. Elon's engineering bona fides are beyond reproach; the equity, less so — particularly for those whose margin precludes participation in such markets.",
-      "audio_url": "audio/2026-09-06/clip-t2-spacex-lockup.mp3"
+      "text_en_b2": "Another SpaceX IPO lockup cliff just surfaced in filings. Come September 9, 2026, roughly 319 million additional shares become eligible for trading, which works out to about 7 percent of the baseline pool and roughly 2.4 percent of total shares outstanding. This marks the third major lockup release and the 90th trading day since the IPO. The moment Elon even hints at offloading, every TSLA and SpaceX-linked position trembles, and sure enough, my CFD bled out again.",
+      "text_en_c1": "Yet another SpaceX lockup expiry has detonated across trading desks. On 9 September 2026, approximately 319 million shares become eligible for sale, representing roughly seven percent of the baseline pool and around 2.4 percent of total shares outstanding. This constitutes the third major lockup release and the ninetieth trading day since the IPO, a milestone that historically precipitates pronounced volatility. Should Elon offload a meaningful tranche, the contagion would inevitably ripple through TSLA and adjacent equities. My CFD position, once again, absorbed the brunt of the cascade.",
+      "text_en_c2": "Another lockup expiry event has detonated across the SpaceX shareholder register, and the collateral damage, predictably enough, extends well beyond the immediate ticker. On or about September 9, 2026, an additional 319 million shares become eligible for sale, a tranche that, while representing a comparatively modest seven percent of the baseline pool, constitutes something closer to 2.4 percent of the total shares outstanding. This milestone marks the ninetieth trading day since the IPO and, crucially, the third significant lockup release since listing, each event functioning as a stress examination of market depth and holder conviction. The mere possibility that Elon might liquidate even a fraction of his position sends tremors through anything tangentially connected, whether directly via SpaceX equity or indirectly through Tesla's symbiotic exposure.",
+      "audio_url": "audio/2026-09-06/clip-trade2.mp3"
     },
     {
-      "id": "tech-mit-ai",
+      "id": "tech1",
       "category": "tech/ai",
-      "topic_zh": "AI 滅民主",
-      "topic_en": "MIT paper on AI",
-      "text_zh": "MIT有篇paper話AI會毁滅民主。Automation同repression，wealth集中喺少數人手，到時工人會反抗，然後統治精英就會用AI鎮壓。wtf，我份工遲早畀AI搶，睇到背脊涼涼🧐",
-      "text_en_b1": "A Nobel-winning MIT economist published a paper called 'Automation and Repression'. As AI and automation replace human labor, wealth concentrates heavily in the hands of a tiny group of capital owners. Inequality skyrockets, and the ruling elite use AI-powered repression to crush any popular revolt. Democracy dies.",
+      "topic_zh": "AI毀滅民主",
+      "topic_en": "AI vs Democracy",
+      "text_zh": "MIT有篇paper話AI會搞死民主。自動化和AI取代晒啲人工，財富集中曬去資本家，唔平等爆煲就會壓迫工人。AI連我呢啲surveyor assistant都搞掂埋啦，廢物。",
+      "text_en_b1": "A Nobel-winning MIT economist published a paper called Automation and Repression. It says that as AI and automation replace human labor, wealth concentrates heavily in the hands of a tiny group of capital owners. Inequality skyrockets. When it hits a critical mass, workers realize they are crushed and the threat of revolt spikes.",
       "source_url": "https://boards.4chan.org/g/thread/109736154",
-      "source_hint": "/g/ reacting to MIT 'Automation and Repression' paper",
+      "source_hint": "/g/ thread discussing MIT paper on AI and inequality",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, no trade setup"
+        "rationale": "Editorial post, not a trade"
       },
-      "text_en_b2": "A Nobel-winning MIT economist has dropped a paper titled 'Automation and Repression' that paints a grim picture of where AI could lead us. As automation wipes out human labor, wealth concentrates in the hands of a tiny elite, inequality spirals out of control, and when workers inevitably push back, ruling classes deploy AI-powered repression to crush dissent. Democracy, according to the paper, could be the ultimate casualty, and anons on /g/ are quietly wondering how soon their own jobs get automated.",
-      "text_en_c1": "A Nobel-laureate economist at MIT has circulated a paper entitled Automation and Repression, sketching a scenario in which accelerating AI deployment hollows out labour markets and concentrates wealth among a vanishingly small capital-owning cohort. Inequality, the argument runs, will sharpen to a point where dispossessed workers mount sustained resistance. At which juncture the entrenched elite, armed with surveillance infrastructure and algorithmic enforcement, would deploy AI-powered repression to neutralise the threat. Democracy, in this framing, does not so much perish as wither under the weight of its own engineered inequities.",
-      "text_en_c2": "A Nobel laureate affiliated with MIT has circulated a paper entitled 'Automation and Repression,' in which he argues that the progressive displacement of human labour by artificial intelligence precipitates an unprecedented concentration of capital, and consequently of political leverage, in the hands of a vanishingly small cohort of asset-holders. As inequality metastasises, displaced workers are presumed to revolt; the governing stratum, endowed with vastly superior surveillance and predictive infrastructure, deploys those same algorithmic instruments to discipline dissent and entrench its prerogatives. The democratic settlement, in his reading, does not so much collapse as quietly evaporate. For readers whose livelihoods sit squarely within the projected displacement zone, the diagnosis lands with the chill of a premonition rather than the detachment of an academic exercise.",
-      "audio_url": "audio/2026-09-06/clip-tech-mit-ai.mp3"
+      "text_en_b2": "A Nobel-winning MIT economist just dropped a paper titled Automation and Repression, arguing that as AI and automation steadily displace human labor, wealth piles up in the hands of a tiny elite. Once that inequality crosses a critical threshold, workers grasp how thoroughly they've been crushed, and the latent threat of revolt spikes sharply. The paper's grim forecast already feels uncomfortably close to home — even my own surveying assistant role is being automated away, which is frankly infuriating.",
+      "text_en_c1": "A Nobel-laureate economist from MIT has circulated a paper provocatively titled Automation and Repression, advancing the thesis that AI and automation will displace human labour so comprehensively that wealth accumulates in the hands of a vanishingly small capital-owning elite. Once inequality crosses a critical threshold, the dispossessed masses recognise their predicament, at which point the latent threat of insurrection spikes precipitously. The implications extend well beyond macroeconomic abstraction; even surveyor assistants, my own profession included, may find themselves redundant.",
+      "text_en_c2": "A paper emerging from MIT, authored by an economist whose credentials include the rather considerable distinction of a Nobel Prize, has articulated a thesis sufficiently bleak to warrant sustained attention. Titled Automation and Repression, the work advances the proposition that as artificial intelligence and automated systems progressively render human labor redundant, the resultant concentration of wealth among an ever-diminishing stratum of capital owners will accelerate inequality beyond any historical precedent. When this stratification reaches critical mass, the paper contends, the displaced workforce will arrive at an unmistakable recognition of its predicament, at which juncture the latent threat of popular revolt will intensify commensurately, prompting preemptive repressive measures from those who control the commanding heights of the economy.",
+      "audio_url": "audio/2026-09-06/clip-tech1.mp3"
     },
     {
-      "id": "hk-byd-ad",
+      "id": "hk1",
       "category": "hk/news",
-      "topic_zh": "BYD 最佳廣告",
-      "topic_en": "BYD free ad",
-      "text_zh": "Bessent想踩中國補貼，結果全場淨係聽到一句：『BYD is the best $70,000 car that $35,000 can buy』。2026最佳免費廣告 🇭🇰，老闆Tommy揸緊邊部我都唔知lol",
-      "text_en_b1": "Treasury's Bessent tried to slam China over EV subsidies. But the only line anyone actually heard was: 'BYD is the best $70,000 car that $35,000 can buy.' Anon on /pol/ calls it the best free ad BYD got in 2026. The roast backfired.",
+      "topic_zh": "BYD最佳廣告",
+      "topic_en": "BYD Free Ad",
+      "text_zh": "美國財長Bessent想串中國補貼，結果全世界淨係記住一句：「BYD係$70,000嘅車，$35,000買到」。2026年最佳免費廣告，外國人都識BYD，國產車真係起勢。",
+      "text_en_b1": "US official Bessent tried to slam China over EV subsidies and policy. He said BYD is the best $70,000 car that $35,000 can buy. People only heard the price line. It became the best free ad for BYD in 2026. The internet will not let you bury a product, only promote it.",
       "source_url": "https://boards.4chan.org/pol/thread/542069584",
-      "source_hint": "/pol/ mocking Bessent's BYD backfire",
+      "source_hint": "/pol/ thread mocking US official's BYD comment",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, no trade setup"
+        "rationale": "News commentary, no trade setup"
       },
-      "text_en_b2": "Treasury Secretary Bessent tried to use a public appearance to slam Chinese EV subsidies, but the only line that actually stuck was a brutal counter-roast: 'BYD is the best $70,000 car that $35,000 can buy.' Anons on /pol/ immediately crowned it the best free advertisement BYD scored in 2026, because the attempt to undermine the brand completely backfired and turned into viral praise. Whoever runs BYD's marketing must be laughing all the way to the bank.",
-      "text_en_c1": "Treasury Secretary Bessent evidently intended a pointed rebuke of China's electric vehicle subsidies; what the room actually absorbed, however, was the immortal line: BYD is the best $70,000 car that $35,000 can buy. Anons on /pol/ promptly crowned it the finest unpaid endorsement BYD received in 2026. The intervention, designed to wound, ricocheted into a marketing coup, and the spectacle drew predictable amusement from bystanders who scarcely needed prompting. One commentator confessed ignorance as to which model CEO Tommy currently drives, which somehow only sharpened the absurdity.",
-      "text_en_c2": "Treasury Secretary Bessent evidently intended a measured rebuke of Beijing's industrial subsidies during a recent televised appearance; what transpired instead was an inadvertent endorsement that no marketing agency could have procured at any reasonable rate. The sole line that propagated across financial Twitter was, in essence, the proposition that BYD manufactures the pre-eminent seventy-thousand-dollar automobile attainable for thirty-five — a backhanded compliment whose commercial efficacy was immediate, conspicuous, and entirely disproportionate to the speaker's intent. Observers on /pol/ swiftly christened it the finest uncompensated advertisement of 2026, and one suspects BYD's senior management offered a silent toast. The episode illustrates, once again, how a poorly aimed critique can redound to the benefit of its ostensible target.",
-      "audio_url": "audio/2026-09-06/clip-hk-byd-ad.mp3"
+      "text_en_b2": "US official Bessent clearly intended to shame China over its EV subsidies and industrial policy, yet all the internet retained was a single devastating line: BYD is essentially a $70,000 car you can grab for $35,000. Rather than burying the brand, his comment backfired spectacularly and became the most valuable free advertisement BYD received in 2026. Foreign audiences worldwide now recognize the name, and honestly, domestic Chinese automakers are genuinely hitting their stride.",
+      "text_en_c1": "In a remarkable instance of political overreach, US official Bessent sought to criticise Chinese EV subsidies and industrial policy, inadvertently crafting what may stand as 2026's most consequential advertisement. His assertion that BYD constitutes a seventy-thousand-dollar vehicle obtainable for thirty-five thousand distilled precisely the value proposition the brand had struggled to articulate globally. The soundbite metastasised across social media; netizens retained only the price differential. The internet, it seems, refuses to bury products, it amplifies them, and foreign consumers now recognise BYD as never before.",
+      "text_en_c2": "In what must rank among the more exquisitely self-defeating interventions in recent diplomatic memory, US Treasury official Bessent evidently sought to chastise China over the particulars of EV subsidies and industrial policy, only to discover that the internet, with its remorseless appetite for quotable ammunition, has extracted from his remarks a single, immortal phrase. The line in question, asserting that BYD constitutes essentially the finest seventy-thousand-dollar vehicle obtainable for thirty-five thousand, has transmogrified into the most gratuitously effective advertisement the Chinese automaker could conceivably have hoped for in 2026. Whatever nuance Bessent intended has been comprehensively obliterated; what endures is the price comparison, repeated across every conceivable platform. The episode furnishes a near-perfect illustration of the contemporary attention economy's cardinal rule: the internet permits no product to be buried, only amplified.",
+      "audio_url": "audio/2026-09-06/clip-hk1.mp3"
     },
     {
-      "id": "lol-western-rules",
+      "id": "lol1",
       "category": "lol/esports",
-      "topic_zh": "西人唔聽話",
-      "topic_en": "Westerners and dev rules",
-      "text_zh": "點解西方選手成日違反Riot嘅合理規則？S15睇到火都嚟，戰術叫停都唔聽。我打機都冇時間，考牌都未溫完，仲要睇呢啲🧐",
-      "text_en_b1": "Anon on /v/ asks why Westerners can't obey entirely reasonable rules from game developers. The thread is full of examples of players ignoring devs, breaking ToS, and then complaining when they get banned. Same energy every patch.",
+      "topic_zh": "西洋人唔聽話",
+      "topic_en": "Western Gamers Rules",
+      "text_zh": "西人都係廢，開發商訂咗合理規則都唔遵守。LOL S15外卡選手成日犯規，好彩我淨係觀眾，唔使煩。",
+      "text_en_b1": "Why are Westerners unable to obey entirely reasonable rules from developers? The thread complains about Western gamers breaking basic in-game rules that East Asian players follow without thinking. Mods, devs, and entire communities seem to lose their minds when a rule is even mentioned.",
       "source_url": "https://boards.4chan.org/v/thread/746962726",
-      "source_hint": "/v/ complaining about Western player behavior",
+      "source_hint": "/v/ thread complaining about Western gamer behaviour",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, no trade setup"
+        "rationale": "Gamer culture rant, not trade-related"
       },
-      "text_en_b2": "Anon on /v/ vented about how Western players constantly violate entirely reasonable rules set by Riot, particularly during the S15 competitive season. Despite clear tactical pause calls and straightforward developer guidelines, pros and ranked players alike ignore them, then act shocked when bans follow. The thread filled up with examples of ToS-breaking behavior across multiple patches, while anons who are studying for driving tests wondered why they even bother watching the scene anymore.",
-      "text_en_c1": "A poster on /v/ poses a question that has, by now, acquired the texture of ritual complaint: why do Western competitors so routinely flout rules that Riot has issued with apparent reasonableness? Throughout Season 15, instances have accumulated of players disregarding tactical pause calls, brushing against terms of service, and then reacting with indignation once the inevitable ban arrives. The thread reads less as grievance than as resignation, a community that has internalised the cycle and largely ceased to expect deviation from it, patch after patch.",
-      "text_en_c2": "The perennial grievance resurfaces on /v/: why do Western competitors exhibit such an inveterate disregard for the eminently reasonable directives issued by Riot with respect to competitive conduct? Throughout the present season, the corpus of infractions has ranged from ignoring tactical pause protocols to wilfully circumventing clearly articulated terms of service, with the customary post-hoc lamentations materialising precisely when punitive action is meted out. The thread's respondents, having catalogued an exhaustive litany of precedents, observe that the pattern replicates itself with metronomic regularity each patch cycle — a Sisyphean exercise in expectation management for the developer, and a reliable source of schadenfreude for spectators whose own schedules preclude anything more demanding than keyboard-side critique.",
-      "audio_url": "audio/2026-09-06/clip-lol-western-rules.mp3"
+      "text_en_b2": "Why do Western gamers consistently fail to follow entirely reasonable rules that developers lay down? The thread laments how Western League of Legends players at the S15 international wild card bracket keep breaking basic in-game etiquette that East Asian competitors observe without a second thought. Moderators, developers, and entire subcommunities appear to lose their minds the moment anyone even dares to mention a rule. Meanwhile I'm just a spectator, so at least I don't have to deal with the fallout.",
+      "text_en_c1": "Why do Western gamers routinely flout the most elementary rules that developers, with considerable deliberation, have established? The thread laments a perceived cultural divergence whereby East Asian competitors observe standard protocols instinctively, whereas Western players appear constitutionally incapable of compliance. When moderators or developers merely reference the offending regulations, entire communities descend into paroxysms of indignation. The LOL S15 wildcard participants, in particular, seem constitutionally opposed to adherence, a phenomenon I observe with considerable relief from the comfortable remove of spectatorhood.",
+      "text_en_c2": "The capacity of Western gaming communities to flagrantly disregard rules that any reasonable observer would consider entirely uncontroversial constitutes one of the more confounding phenomena in contemporary multiplayer culture. The thread in question enumerates, with weary exasperation, how Western competitors in League of Legends' Season 15 wildcard circuit persistently violate foundational in-game protocols that their East Asian counterparts appear to internalize instinctively, as though the norms were encoded at some quasi-genetic level. What renders the spectacle particularly irksome is the disproportionate institutional response: moderators, developers, and entire community infrastructures appear to undergo collective apoplexy whenever the mere existence of a rule is invoked, transforming what should be a settled matter into an interminable procedural crisis.",
+      "audio_url": "audio/2026-09-06/clip-lol1.mp3"
     },
     {
-      "id": "mma-grappling",
+      "id": "mma1",
       "category": "mma/fitness",
-      "topic_zh": "打Grappling",
-      "topic_en": "Grappling vs bench",
-      "text_en_b1": "Hey nice bench press anon, 315 lbs really impressive. But I can fold you in half. You have no reason to skip grappling training, unless you want some guy 50 pounds lighter than you to make you his bitch. Anon on /fit/ says every lifter should train BJJ.",
-      "text_zh": "肥仔信啱啱message我：『喂你bench幾多都冇用，我喺ground整死你。』算吧啦，我返gym都係做leg extension同hamstring curl，死都唔做deadlift🙏",
+      "topic_zh": "練Grappling啦",
+      "topic_en": "Just Bench No Grappling",
+      "text_zh": "肥仔信成日笑我只做bench唔練BJJ。「315lbs bench，摺你一半」佢咁講。佢50磅瘦過我都搞到我仆街，聽日去gym啦ok。",
+      "text_en_b1": "Hey, nice bench press, 315 pounds really impressive. Now I will fold you in half. You have no reason not to train grappling, unless you want a guy 50 pounds lighter than you to make you his bitch. Any half-decent grappler would have you staring at your own asshole in seconds.",
       "source_url": "https://boards.4chan.org/fit/thread/77497491",
-      "source_hint": "/fit/ shaming bench-only lifters",
+      "source_hint": "/fit/ thread pushing grapplers vs lifters",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, no trade setup"
+        "rationale": "Fitness advice, no trade"
       },
-      "text_en_b2": "A heavier lifter on /fit/ just messaged to mock someone's 315 lbs bench press, claiming that raw strength means nothing once the fight hits the ground and grappling takes over. The poster argued that skipping BJJ leaves you exposed, because some guy fifty pounds lighter can absolutely dominate you with technique alone. Meanwhile, the original anon insisted on sticking to leg extensions and hamstring curls, stubbornly refusing to touch a deadlift bar, which only made the roast land harder.",
-      "text_en_c1": "A self-styled grappling purist has just dispatched the following: your bench press, however respectable at 315 pounds, confers no meaningful advantage once the contest reaches the ground, where technique and leverage render raw strength largely irrelevant. The implication, delivered with the customary bluntness of /fit/, is that any lifter neglecting Brazilian jiu-jitsu risks being submitted by opponents significantly smaller. The original poster confesses to confining his gym sessions to leg extensions and hamstring curls, deadlifts being apparently beyond his moral or physical constitution.",
-      "text_en_c2": "A correspondent on /fit/ delivered what he evidently considered an unanswerable proposition: your bench press, however imposing in the abstract, confers precisely zero functional advantage once the contest is conducted on the mat, where leverage and positional acuity render isolated muscular hypertrophy largely ornamental. Should you persist in forgoing grappling instruction, some competitor weighing a mere fraction of your mass will, with methodical inevitability, subordinate you — a humbling prospect for those whose training comprises exclusively leg extensions and supine hamstring curls, supplemented by a categorical refusal to engage with the deadlift. The thread's broader contention, that no serious lifter can afford to neglect Brazilian jiu-jitsu, is articulated with the earnest conviction of the recently converted, and is, in fairness, rather difficult to gainsay.",
-      "audio_url": "audio/2026-09-06/clip-mma-grappling.mp3"
+      "text_en_b2": "Nice bench press, champ — 315 pounds, genuinely impressive. Now allow me to fold you in half without breaking a sweat. Honestly, there's no defensible excuse for skipping grappling training unless you're perfectly content letting some guy fifty pounds lighter than you turn you into his personal punching bag. Any halfway competent grappler would have you reassessing your entire athletic identity in about ten seconds flat. See you at the gym tomorrow, I suppose.",
+      "text_en_c1": "Congratulations on your 315-pound bench press; an undeniably respectable achievement, and one which I shall now proceed to dismantle entirely. Should you persist in neglecting grappling, any competitor a mere fifty pounds lighter will reduce you to a supine, contemplative position within seconds. The bench constitutes but one facet of combat athletics, and a half-competent Brazilian Jiu-Jitsu practitioner would have you examining your own posterior with minimal exertion. Training BJJ tomorrow is, by any rational calculus, the soundest available investment of your time.",
+      "text_en_c2": "Compliments regarding one's bench press, however graciously proffered, frequently function as little more than prelude to an unsolicited discourse on grappling, delivered with the evangelical certitude of the recently converted. The fat interlocutor in question, having registered my 315-pound lift with what I had naively interpreted as admiration, immediately pivoted to the observation that he would, in his professional estimation, fold me in half, a characterization whose anatomical specificity I found myself disinclined to verify empirically. The argument's central thesis was unassailable: absent dedicated grappling training, one remains vulnerable to domination by opponents substantially smaller, the cited disparity being a mere fifty pounds, a deficit that evidently confers negligible advantage when the contest migrates horizontal. Any competent practitioner, he assured me, would have me contemplating my own navel in embarrassingly short order.",
+      "audio_url": "audio/2026-09-06/clip-mma1.mp3"
     },
     {
-      "id": "anime-fairy-tail",
+      "id": "anime1",
       "category": "anime/culture",
-      "topic_zh": "真fans測試",
-      "topic_en": "Real anime fan test",
-      "text_en_b1": "If you're a true anime fan, mention one Fairy Tail character off the bat that is not Lucy. Anon on /a/ starts a thread gatekeeping fans with a simple test. Easy for fans, impossible for casuals. The thread fills with Natsu, Erza, Gray, and Happy answers.",
-      "text_zh": "真fans即答：唔係Lu個Fairy Tail角色，30秒內講一個。我答Gray，旁邊肥仔信答Happy，lol。睇完要繼續溫HKIE，廢物一個🙏",
-      "source_url": "https://boards.4chan.org/a/thread/290690711",
-      "source_hint": "/a/ gatekeeping with a Fairy Tail quiz",
+      "topic_zh": "鏈鋸人漫畫",
+      "topic_en": "Chainsaw Man Manga",
+      "text_zh": "終於睇咗鏈鋸人漫畫Reze篇，雖然冇睇劇場版，但電影感好正。Season 1雖然畀人話，但panel layout本身就係cinematic，我又多一樣廢事。",
+      "text_en_b1": "Chainsaw Man volumes 6 and 7. I did not watch the Reze arc movie in theaters, but I always liked season 1, so I started reading the manga recently. I can see why everyone loved the movie. The manga is very enjoyable. People shit on the direction of season 1, but the cinematic style fits the panel layouts.",
+      "source_url": "https://boards.4chan.org/a/thread/290653357",
+      "source_hint": "/a/ thread praising Chainsaw Man manga",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, no trade setup"
+        "rationale": "Anime discussion, no trade"
       },
-      "text_en_b2": "Anon on /a/ devised a quick gatekeeping test for real Fairy Tail fans: name a character other than Lucy within thirty seconds, no hesitation allowed. While seasoned viewers rattled off answers like Gray, Natsu, Erza, and Happy, casual fans stumbled badly. The thread turned into a lighthearted loyalty check, and the poster wrapped it up by admitting they still had to cram for HKIE exams afterward, because apparently being a hardcore otaku does not exempt anyone from real-life responsibilities.",
-      "text_en_c1": "The test, as proposed by an anon on /a/, is deceptively simple: name a Fairy Tail character within thirty seconds, provided that character is not Lucy Heartfilia. For genuine fans the answer surfaces reflexively, the poster offering Gray without hesitation; his companion, less reliably briefed, offered Happy, the exceed, and confirmed suspicions about his commitment. The thread, predictably, fills with the canonical roster: Natsu, Erza, Gray, Happy, occasional deep cuts. Having discharged his gatekeeping duties, the poster announces an immediate return to HKIE revision, his self-assessment characteristically unforgiving.",
-      "text_en_c2": "A self-appointed arbiter on /a/ has devised an admirably minimalist litmus test for the bona fide Fairy Tail devotee: within thirty seconds, name a character who is decidedly not Lucy Heartfilia — a threshold effortlessly cleared by anyone who has endured more than a handful of episodes, yet one which casual viewers will find insurmountable. The thread predictably populated with the canonical pantheon: Natsu, Erza, Gray, Happy, and the obligatory contrarian nominations. The poster, having discharged this pedagogical duty, evidently returned to the decidedly less glamorous pursuit of revising for his Hong Kong Institute of Engineers examinations — a juxtaposition that captures, with unintentional precision, the bifurcated existence of the contemporary otaku, suspended uneasily between fantastical allegiance and professional obligation.",
-      "audio_url": "audio/2026-09-06/clip-anime-fairy-tail.mp3"
+      "text_en_b2": "I finally got around to reading the Chainsaw Man Reze arc in volumes 6 and 7, having skipped the theatrical release entirely, though I'd genuinely enjoyed the first season back in the day. The manga absolutely lives up to the hype, and I can see precisely why audiences flocked to the film adaptation. While plenty of viewers criticized the direction of season 1, the cinematic flourishes actually suit the panel layouts remarkably well — so apparently I've acquired yet another obsessive hobby.",
+      "text_en_c1": "Having finally perused the Chainsaw Man Reze arc in its manga incarnation, volumes six and seven proved thoroughly rewarding despite my having bypassed the theatrical release. Season one attracted considerable criticism for its directorial choices, yet the source material's panel layouts lend themselves naturally to cinematic translation, a structural quality that renders the animated adaptation's stylistic decisions defensible upon reflection. The cinematic sensibility permeates every sequence, and one emerges appreciating how the static page anticipated the kinetic possibilities of film.",
+      "text_en_c2": "Having at long last acquainted myself with the Reze arc of Chainsaw Man, encompassing volumes six and seven, I find myself belatedly comprehending the fervor that surrounded its theatrical adaptation, a film I regrettably declined to witness in cinemas. My tardiness notwithstanding, the experience of encountering the material in its original sequential-art form proved thoroughly rewarding, the narrative possessing an unmistakable cinematic sensibility that transcends the conventional limitations of the medium. Season 1 of the anime, which attracted considerable critical opprobrium for its directorial choices, increasingly appears vindicated upon comparison with the source material, whose panel compositions themselves exhibit a distinctly filmic grammar.",
+      "audio_url": "audio/2026-09-06/clip-anime1.mp3"
     }
   ]
 }

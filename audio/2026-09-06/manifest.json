@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-btc-vs-gold",
-      "topic_en": "BTC vs Gold",
-      "topic_zh": "BTC vs 黃金",
+      "id": "trade1",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "比特幣vs黃金",
       "category": "trading",
-      "file": "clip-t1-btc-vs-gold.mp3",
-      "bytes": 261492,
-      "chars": 249
+      "file": "clip-trade1.mp3",
+      "bytes": 287988,
+      "chars": 285
     },
     {
-      "id": "t2-spacex-lockup",
-      "topic_en": "SpaceX lockup expiry",
-      "topic_zh": "SpaceX 解禁",
+      "id": "trade2",
+      "topic_en": "SpaceX IPO Lockup",
+      "topic_zh": "SpaceX IPO解禁",
       "category": "trading",
-      "file": "clip-t2-spacex-lockup.mp3",
-      "bytes": 363444,
-      "chars": 275
+      "file": "clip-trade2.mp3",
+      "bytes": 311604,
+      "chars": 266
     },
     {
-      "id": "tech-mit-ai",
-      "topic_en": "MIT paper on AI",
-      "topic_zh": "AI 滅民主",
+      "id": "tech1",
+      "topic_en": "AI vs Democracy",
+      "topic_zh": "AI毀滅民主",
       "category": "tech/ai",
-      "file": "clip-tech-mit-ai.mp3",
-      "bytes": 334644,
-      "chars": 316
+      "file": "clip-tech1.mp3",
+      "bytes": 351348,
+      "chars": 331
     },
     {
-      "id": "hk-byd-ad",
-      "topic_en": "BYD free ad",
-      "topic_zh": "BYD 最佳廣告",
+      "id": "hk1",
+      "topic_en": "BYD Free Ad",
+      "topic_zh": "BYD最佳廣告",
       "category": "hk/news",
-      "file": "clip-hk-byd-ad.mp3",
-      "bytes": 336948,
-      "chars": 232
+      "file": "clip-hk1.mp3",
+      "bytes": 319092,
+      "chars": 268
     },
     {
-      "id": "lol-western-rules",
-      "topic_en": "Westerners and dev rules",
-      "topic_zh": "西人唔聽話",
+      "id": "lol1",
+      "topic_en": "Western Gamers Rules",
+      "topic_zh": "西洋人唔聽話",
       "category": "lol/esports",
-      "file": "clip-lol-western-rules.mp3",
-      "bytes": 244788,
-      "chars": 229
+      "file": "clip-lol1.mp3",
+      "bytes": 291444,
+      "chars": 287
     },
     {
-      "id": "mma-grappling",
-      "topic_en": "Grappling vs bench",
-      "topic_zh": "打Grappling",
+      "id": "mma1",
+      "topic_en": "Just Bench No Grappling",
+      "topic_zh": "練Grappling啦",
       "category": "mma/fitness",
-      "file": "clip-mma-grappling.mp3",
-      "bytes": 269556,
-      "chars": 253
+      "file": "clip-mma1.mp3",
+      "bytes": 286260,
+      "chars": 276
     },
     {
-      "id": "anime-fairy-tail",
-      "topic_en": "Real anime fan test",
-      "topic_zh": "真fans測試",
+      "id": "anime1",
+      "topic_en": "Chainsaw Man Manga",
+      "topic_zh": "鏈鋸人漫畫",
       "category": "anime/culture",
-      "file": "clip-anime-fairy-tail.mp3",
-      "bytes": 287412,
-      "chars": 254
+      "file": "clip-anime1.mp3",
+      "bytes": 312180,
+      "chars": 306
     }
   ]
 }
