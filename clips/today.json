@@ -1,65 +1,65 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "trade-btc-timing",
+      "id": "biz-spacex-lockup",
       "category": "trading",
-      "topic_zh": "BTC追入時機",
-      "topic_en": "BTC Buy Timing",
-      "text_zh": "又係咁。BTC幾個禮拜唔郁，冇人理。Pump完15%就全部人衝入去，即係成件事都已經發生了先買。即係坐艇嘅永遠都係遲到嗰啲人。😭",
-      "text_en_b1": "Why does everyone buy BTC after the pump? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened?",
-      "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ thread asking why people only chase BTC after the move",
+      "topic_zh": "SpaceX IPO 鎖倉解禁",
+      "topic_en": "SpaceX lockup expiry",
+      "text_zh": "SpaceX IPO 第三輪 lockup 9 月 9 日到期，約 2.4% 股數解禁。319M 股一齊湧出嚟，供應一定唔細。又係學費。",
+      "text_en_b1": "On September 9, 2026, about 319 million SpaceX shares — roughly 7% of the baseline IPO pool, or about 2.4% of total shares outstanding — become eligible for sale. This is the 90th trading day after the IPO and marks the third major lockup release event. Holders will be able to dump on the market.",
+      "source_url": "https://boards.4chan.org/biz/thread/62662968",
+      "source_hint": "/biz/ thread tracking the third SpaceX lockup expiry on Sep 9 2026",
       "signal": {
-        "asset": "BTC",
+        "asset": "SPACEX",
         "direction": "observation",
         "conviction": "none",
-        "time_horizon": "none",
+        "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post-hoc observation on retail FOMO chasing, no actionable setup"
+        "rationale": "Calendar event noted, no trade setup given — wait to see supply impact"
       },
-      "text_en_b2": "The same cycle plays out every single time. Bitcoin sits flat for weeks on end, and nobody gives it a second glance. Then the moment it pumps 15 percent, the crowd rushes in all at once. By that point the move has already happened, which means the people getting wrecked on bagholding are always the ones who showed up late.",
-      "text_en_c1": "It is baffling how this pattern keeps repeating itself with such predictability. Bitcoin languishes in a protracted period of consolidation for weeks on end, drawing virtually no interest from retail participants whatsoever. Then the moment price appreciates by a mere fifteen percent, the same crowd that dismissed it moments earlier scrambles to establish positions. If the move has already occurred, what exactly is the rationale for entry at that juncture? It essentially means those who end up underwater are invariably the ones who arrive at the party considerably after the host has left. The asymmetry is almost mathematical in its cruelty.",
-      "text_en_c2": "Why does Bitcoin suddenly become irresistible only after it has already risen? One watches it stagnate for several weeks, apparently devoid of momentum, while scarcely anyone pays attention; then, almost overnight, the price inflates by fifteen per cent and the previously indifferent rush to buy in. This recurrent inversion—during which BTC is treated as though it were dead before its advance, then embraced with the ardour of a new convert once the move has occurred—is precisely what turns ordinary holders into involuntary passengers on a sinking ship. The market’s collective attention seems governed less by value than by the fear of missing out, even though the most conspicuous evidence of that fear is that almost everybody has arrived after the event. /biz/ has never needed a more damning indictment of its own timing.",
-      "audio_url": "audio/2026-09-05/clip-trade-btc-timing.mp3"
+      "text_en_b2": "On September 9, 2026, roughly 319 million SpaceX shares — accounting for around 7% of the baseline IPO pool and approximately 2.4% of total shares outstanding — will become eligible for sale. Because this marks the third major lockup release on the 90th trading day after the IPO, holders are bracing for a significant supply dump. With that much stock flooding the market, the selling pressure could easily catch retail investors off guard.",
+      "text_en_c1": "On September 9, 2026, roughly 319 million SpaceX shares — amounting to approximately 7% of the baseline IPO allocation or 2.4% of total shares outstanding — will become eligible for resale. The date falls on the ninetieth session following the listing and represents the third significant lockup expiration since the offering was priced. Once the restriction lapses, insiders and pre-IPO backers will be free to liquidate their positions into an already fragile secondary market, an arrangement that, in all likelihood, will exert considerable downward pressure on the share price. Investors who entered during the early stages ought to brace themselves for the inevitable supply glut.",
+      "text_en_c2": "On the ninetieth trading day following SpaceX's IPO — September 9, 2026 — the third major lockup tranche expires, releasing roughly 319 million shares into circulation. That figure constitutes approximately seven percent of the baseline IPO pool and a non-trivial 2.4 percent of total shares outstanding, a quantity sufficient to overwhelm bid-side liquidity if holders elect to liquidate in concert. Insiders who purchased at the offering price now enjoy an unrestricted exit, and the market must absorb what amounts to a forced seller of considerable magnitude. Whether the float is digested gradually or dumped en masse will, in all likelihood, dictate the near-term trajectory of the stock. For late entrants, the lesson, as ever, is invariably expensive.",
+      "audio_url": "audio/2026-09-06/clip-biz-spacex-lockup.mp3"
     },
     {
-      "id": "trade-btc-vs-gold",
+      "id": "biz-btc-vs-gold",
       "category": "trading",
-      "topic_zh": "BTC定黃金",
-      "topic_en": "BTC vs Gold",
-      "text_zh": "十年hold一隻，揀邊樣？BTC定黃金？一個係數字，一個係實物。我而家兩個都輸緊，所以問都冇用lol。🙏",
-      "text_en_b1": "Bitcoin versus Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? This came up on /biz/ today and the replies are split down the middle.",
+      "topic_zh": "BTC vs 黃金十年",
+      "topic_en": "Bitcoin vs Gold decade",
+      "text_zh": "10年 holding 一個，BTC 定 gold？我揀 BTC，但每次問完自己都會心虛。CFD 開 gold 輸緊，唔該唔好再問。",
+      "text_en_b1": "If you had to hold only one asset for the next ten years, would you pick Bitcoin or gold? What makes your choice better than the other? Think about supply, adoption, and how each has behaved through past cycles. Which one survives the next decade intact?",
       "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ thread debating 10-year hold: BTC vs gold",
+      "source_hint": "/biz/ thread asking which asset to hold for 10 years, BTC or gold",
       "signal": {
-        "asset": "XAU",
-        "direction": "observation",
-        "conviction": "low",
+        "asset": "BTC",
+        "direction": "long",
+        "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Long-horizon BTC vs gold debate; no concrete entry, only framing the thesis"
+        "rationale": "Implicit long bias on BTC over gold, decade-scale thesis"
       },
-      "text_en_b2": "Ten-year hold, pick one and stick with it. Bitcoin versus gold, one digital and intangible, the other physical and tangible, each with its own merit. Most replies over on /biz/ are split right down the middle, although personally I am down on both right now, so the question is somewhat moot. Pick your poison I guess.",
-      "text_en_c1": "The perennial debate has resurfaced on /biz/, and the thread has predictably fractured into two entrenched camps. Were one compelled to hold a single asset for the next decade, Bitcoin or physical gold, which would warrant such a long-term commitment? One represents a purely digital, intangible construct governed by code and consensus; the other, a tangible store of value that has endured across civilisations. Personally, I find myself bleeding on both positions simultaneously, which rather undermines any pretense of authority on the matter. The replies remain utterly divided, with neither side convincing the other.",
-      "text_en_c2": "Bitcoin or gold: if one were compelled, for whatever reason, to hold only one of them for the next decade, which would merit the sacrifice? The choice is almost a contest between rival philosophies, since Bitcoin represents a scarce digital bearer asset, whereas gold is tangible, familiar, and physically possessed. Bitcoin promises portability, cryptographic scarcity, and an ingenious monetary future; gold offers durability, historical legitimacy, and the perverse comfort of being able to hold one’s conviction in the palm of one’s hand. Yet conviction is easier advertised than maintained. At present, I am losing money on both, although that embarrassing coincidence does not settle the underlying question but merely illustrates how gracefully a supposed investment thesis can become an expensive exercise in self-deception. The replies are divided down the middle, lol. https://boards.4chan.org/biz/thread/62645210",
-      "audio_url": "audio/2026-09-05/clip-trade-btc-vs-gold.mp3"
+      "text_en_b2": "If you were forced to hold only one asset for the next decade, would you go with Bitcoin or gold? What concrete factors actually justify your pick over the other? Consider how each has weathered past cycles, where institutional adoption currently stands, and what long-term scarcity looks like under various economic scenarios. Which one genuinely survives the next ten years intact, and which one gets left behind?",
+      "text_en_c1": "If one were compelled to select a single asset and hold it for the next decade, the choice between Bitcoin and gold would test one's conviction more than one's portfolio theory. Bitcoin's fixed issuance schedule and accelerating institutional integration suggest asymmetric upside, yet its volatility and dependence on continuous liquidity remain genuine concerns. Gold, by contrast, has weathered millennia of monetary experimentation, though its real returns have historically lagged risk assets over comparable horizons. Were survivability through geopolitical fragmentation the principal criterion, the calculus might tilt the other way, and an existing CFD position bleeding money hardly clarifies matters.",
+      "text_en_c2": "Were one compelled to hold a single asset across the coming decade, the choice between Bitcoin and gold would expose the fault lines of one's entire investment philosophy. Gold offers millennia of monetary trust, a finite physical supply, and the dull ballast of central-bank demand; Bitcoin promises programmatic scarcity, a twenty-four-hour global market, and an adoption curve that, however volatile, has historically rewarded patience through prior cycles. The purist argues that gold's industrial utility is negligible and its custodianship antiquated; the contrarian counters that no digital ledger has yet endured a genuine sovereign confiscation event. Both critiques carry weight, and the honest holder admits, perhaps grudgingly, that conviction in either camp requires a leap of faith no spreadsheet can quite justify.",
+      "audio_url": "audio/2026-09-06/clip-biz-btc-vs-gold.mp3"
     },
     {
-      "id": "tech-ai-astra",
+      "id": "g-mit-ai-democracy",
       "category": "tech/ai",
-      "topic_zh": "Astra話係AGI",
-      "topic_en": "Astra AGI Claim",
-      "text_zh": "CloseAI出新model叫Astra，自己話係AGI。/g/點睇？我就覺得AI遲早連我個surveying位都整死。靠AI續命🧐",
-      "text_en_b1": "CloseAI released a new model called Astra. They claim it is AGI. So what is your verdict, /g/? Is this actually it or just another marketing rebrand?",
-      "source_url": "https://boards.4chan.org/g/thread/109730196",
-      "source_hint": "/g/ thread reacting to CloseAI's new Astra AGI claim",
+      "topic_zh": "MIT 警告 AI 滅民主",
+      "topic_en": "MIT paper AI repression",
+      "text_zh": "MIT 經濟學家出 paper 講 AI 自動化會令財富集中、工人反抗，最後統治精英用 repression。睇到標題已經覺得係佢自己份糧。AI 真係遲早殺埋我呢行。",
+      "text_en_b1": "A Nobel-winning MIT economist published a paper called 'Automation and Repression'. It argues that as AI replaces human labor, wealth concentrates heavily in the hands of a tiny group of capital owners. Inequality skyrockets, the threat of revolt spikes, and the ruling elite turns to repression to protect itself.",
+      "source_url": "https://boards.4chan.org/g/thread/109736154",
+      "source_hint": "/g/ thread on a MIT paper warning that AI automation leads to inequality and repression",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech commentary, not a trade setup"
+        "rationale": "Macro opinion piece, not a trade setup"
       },
-      "text_en_b2": "CloseAI just rolled out a new model dubbed Astra, and naturally they are claiming it has finally crossed the AGI threshold. The folks over at /g/ are largely sceptical, dismissing it as little more than a marketing rebrand dressed up in fresh terminology. While I would not go quite that far, I am quietly bracing myself because AI is bound to render my surveying role obsolete eventually.",
-      "text_en_c1": "It appears CloseAI has unveiled their latest model, designated Astra, and they are making the rather audacious claim that it constitutes genuine artificial general intelligence. The /g/ board is consequently ablaze with speculation as to whether this marks the watershed moment enthusiasts have been anticipating, or whether it represents yet another instance of marketing rebranding masquerading as substantive progress. Regardless of which camp proves correct, the trajectory remains depressingly clear: if my current surveying position can be automated into obsolescence by such systems, then career longevity in technical fields is going to be decidedly short-lived.",
-      "text_en_c2": "CloseAI has unveiled Astra, a new model that it describes with admirable restraint as artificial general intelligence, although one naturally wonders whether this is a genuine technological threshold or merely the latest corporate exercise in semantic rebranding. The immediate question for /g/ is not whether the demonstration looks uncanny, but whether Astra exhibits the general, transferable reasoning that would justify such an audacious label. Marketing departments have always possessed an almost theological faith in terminology: rename the miracle, extend the press release, and the mystery is supposed to acquire a new name. My own verdict is less elevated. If AI can eventually perform the intellectual labour required by my surveying job, then the industry has not merely automated a task; it has made human professional judgement look like a temporary subscription service.",
-      "audio_url": "audio/2026-09-05/clip-tech-ai-astra.mp3"
+      "text_en_b2": "A Nobel-winning MIT economist has published a paper titled 'Automation and Repression' arguing that, as AI steadily replaces human labor, wealth will concentrate dramatically in the hands of a small elite. Although inequality skyrockets and the threat of mass revolt spikes accordingly, the paper suggests that ruling elites will ultimately resort to repression rather than redistributing power.",
+      "text_en_c1": "A Nobel laureate affiliated with MIT has published a working paper entitled 'Automation and Repression', in which he contends that accelerating AI deployment will progressively displace human labor across an entire economy, precipitating an unprecedented concentration of capital among a narrow stratum of asset holders. As inequality widens and the latent threat of popular insurrection intensifies, the governing elite, the paper argues, will ultimately resort to coercive instruments to safeguard their accumulated privileges. Cynics have already dismissed the thesis as a thinly veiled justification of the author's own professional relevance, though the trajectory it outlines is uncomfortably plausible for those whose livelihoods depend on automatable cognitive labor.",
+      "text_en_c2": "A Nobel laureate from MIT's economics faculty has circulated a working paper provocatively titled 'Automation and Repression,' in which he contends that accelerating artificial intelligence will precipitate an unprecedented concentration of capital among a vanishingly small owner class. As wage labour is progressively rendered obsolete, inequality metastasises, the latent threat of popular revolt intensifies, and the governing elite — confronted with diminishing legitimacy — resorts to coercive instruments of state power to safeguard its position. Cynics have noted, with some justification, that the author's professional incentives are scarcely orthogonal to the conclusions he advances. Whether or not the thesis survives peer review, its central proposition is unsettling: the same technological substrate that promises liberation may, under sufficient economic stress, furnish the machinery for its abolition.",
+      "audio_url": "audio/2026-09-06/clip-g-mit-ai-democracy.mp3"
     },
     {
-      "id": "hk-china-trend",
+      "id": "pol-elon-chess",
       "category": "hk/news",
-      "topic_zh": "中國bubble chin",
-      "topic_en": "Bubble Chin Trend",
-      "text_zh": "大陸最新潮流，bubble chin。即係塊面好似充晒氣咁。女influencer當新興時興，我覺得幾恐怖lol。wtf",
-      "text_en_b1": "Newest trend in China just dropped. Chinese internet users are calling it the bubble chin. It is becoming increasingly fashionable among Chinese female influencers and the photos are spreading on Weibo.",
-      "source_url": "https://boards.4chan.org/pol/thread/542008627",
-      "source_hint": "/pol/ thread on China bubble chin influencer trend",
+      "topic_zh": "Elon 同 Chess.com 互片",
+      "topic_en": "Elon loses chess beef",
+      "text_zh": "Elon 話 chess 太多步數，叫 AI 代打，俾 Chess.com 官 account 連環 ratio 佢。最後仲話人哋係 intern。連 Elon 都開始 online 崩潰，呢個世界真係睇唔晒。",
+      "text_en_b1": "Elon Musk complained that chess has too many possible moves for humans. Chess.com's official account ratio'd him three times in a row. He then tried to cope by saying robot chess will be better, and belittled the person running the account by calling them an intern. The community found the meltdown genuinely pathetic.",
+      "source_url": "https://boards.4chan.org/pol/thread/542060788",
+      "source_hint": "/pol/ thread on Elon getting ratio'd by Chess.com over a chess take",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News/observation, not a trade setup"
+        "rationale": "Celebrity online drama, no market setup"
       },
-      "text_en_b2": "The latest beauty craze out of mainland China has surfaced, and it is genuinely unsettling. Netizens have dubbed it the bubble chin look, essentially faces that appear as though they have been pumped full of air. Female influencers across Weibo are jumping on the bandwagon and posting selfies, although personally I find the whole aesthetic rather horrifying.",
-      "text_en_c1": "The latest aesthetic phenomenon to proliferate across mainland Chinese social media is what users have termed the bubble chin, a facial contour that appears almost unnaturally inflated, as though one had been overzealously insufflated with some pressurised substance. The trend has gained considerable traction among female influencers on Weibo, whose carefully curated photographs propagate the look with algorithmic efficiency. While devotees evidently consider it cutting-edge and desirable, the broader aesthetic effect strikes me as rather unsettling, though I concede this may simply reflect the perennial gulf between avant-garde sensibilities and my own evidently outdated tastes.",
-      "text_en_c2": "The latest aesthetic contagion to emerge from mainland China appears to be the so-called “bubble chin,” a deliberately inflated facial effect that makes the subject resemble a person who has discovered a pressure cooker but misplaced the release valve. It is becoming increasingly fashionable among Chinese female influencers, whose photographs are spreading across Weibo with the sort of velocity once reserved for properly consequential news. The appeal is difficult to fathom. Perhaps it is intended to suggest youthfulness, although one might have thought that a face capable of retaining its ordinary human proportions would serve that purpose more effectively. Instead, the trend turns softness into surplus, as though thechin had been inflated not for beauty but to demonstrate that a sufficiently diligent editor can distort even anatomy.",
-      "audio_url": "audio/2026-09-05/clip-hk-china-trend.mp3"
+      "text_en_b2": "Elon Musk publicly complained that chess contains far too many possible moves for any human to track properly. Chess.com's official account ratio'd him three times in rapid succession, after which he tried to save face by insisting robotic chess will eventually surpass the human game. He then belittled the person running the account by dismissing them as an intern, while the community watched the meltdown unfold in real time.",
+      "text_en_c1": "Elon Musk recently took to social media to lament that chess, owing to its astronomical branching factor, is fundamentally unsuited to human cognition and ought to be left to artificial engines. Chess.com's official account proceeded to ratio him on three consecutive occasions, a sequence that prompted him to pivot toward claiming that robot-versus-robot chess will inevitably eclipse human play, before dismissing the operator behind the account as a mere intern. Observers across the broader community have characterized the episode as a textbook public meltdown, suggesting that even figures of his stature are not immune to the gravitational pull of online humiliation.",
+      "text_en_c2": "Elon Musk took to his platform to lament that chess, with its combinatorial vastness, exceeds the cognitive capacity of unaided human players and ought therefore to be outsourced to artificial agents. Chess.com's official account responded with a trio of consecutive ratio replies, each more pointed than the last, reducing his grievance to absurdity in real time. Rather than concede the exchange, Musk pivoted to promising that robotic chess will, in due course, render organic play obsolete, before dismissing the operator behind the account as a mere intern — a transparently desperate feint that the community duly catalogued as a textbook public meltdown. The spectacle, were one charitably inclined, might be read as exhaustion; the uncharitable interpretation, and the prevailing one online, was simply pathetic.",
+      "audio_url": "audio/2026-09-06/clip-pol-elon-chess.mp3"
     },
     {
-      "id": "lol-fallout4",
+      "id": "v-western-rules",
       "category": "lol/esports",
-      "topic_zh": "Fallout 4好唔好玩",
-      "topic_en": "Fallout 4 Worth It?",
-      "text_zh": "打完LOL手都未暖，睇到Fallout 4係咪真係好似大家講咁好。當年出好似好趕咁，但而家可能值得再試。",
-      "text_en_b1": "Is Fallout 4 really as good as people say it is? When I first played it, it felt like a game that was developed too quickly and rushed to release. Worth another try in 2026?",
-      "source_url": "https://boards.4chan.org/v/thread/746896527",
-      "source_hint": "/v/ thread debating whether Fallout 4 is overrated",
+      "topic_zh": "西方選手唔聽話",
+      "topic_en": "Westerners ignore devs",
+      "text_zh": "/v/ 又有人問點解西方選手唔跟 developer 嘅規則。S15 啦兄弟，人哋玩 Meta 同我哋唔同，仲要解釋到幾時。睇完算。",
+      "text_en_b1": "A /v/ poster asks why Western players cannot follow entirely reasonable rules from game developers. The thread compares how Eastern and Western pro scenes interpret patch notes and competitive rulings, with most replies blaming ego and bad coaching more than the rules themselves.",
+      "source_url": "https://boards.4chan.org/v/thread/746962726",
+      "source_hint": "/v/ thread asking why Western players keep ignoring developer rules",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming discussion, not a trade setup"
+        "rationale": "Esports culture thread, no trade setup"
       },
-      "text_en_b2": "I have just wrapped up a League session and my hands are still warm, so I figured I would finally give Fallout 4 another shot. When it originally launched it struck me as a title that had clearly been rushed out the door to meet a deadline. Given that it is now 2026, is it actually worth revisiting?",
-      "text_en_c1": "Having only just wrapped up a League session, my hands were scarcely cooled when curiosity got the better of me regarding Fallout 4. The prevailing consensus online suggests it merits far more attention than I initially afforded it; I recall my original playthrough feeling distinctly underbaked, as though Bethesda had pushed the title out the door rather precipitously to meet fiscal obligations. In hindsight, however, the intervening years may have softened those reservations considerably. With patches, mods, and accumulated hindsight now layered atop the experience, perhaps a return engagement in 2026 would prove substantially more rewarding than that first, rushed impression.",
-      "text_en_c2": "Is Fallout 4 genuinely as good as its durable reputation suggests, or has nostalgia performed the same editorial function as a flattering camera angle? I played it when it first appeared, and although the scale was immediately impressive, the experience carried the unmistakable whiff of a project developed under intolerable pressure and released before every system had been permitted to settle. Missions were often serviceable rather than polished, dialogue radiated the emotional subtlety of a municipal noticeboard, and yet the Commonwealth retained that peculiar post-apocalyptic charm that makes mediocrity feel almost profound. Now, in 2026, when the game is no longer obliged to impersonate the future, it may be possible to appreciate it on its own terms: an expansive, occasionally careless sandbox whose limitations have softened with familiarity.",
-      "audio_url": "audio/2026-09-05/clip-lol-fallout4.mp3"
+      "text_en_b2": "A /v/ poster is once again asking why Western competitive players consistently ignore entirely reasonable rulings issued by game developers. Although the thread compares how Eastern and Western pro scenes interpret patch notes and competitive rules, most respondents tend to blame inflated egos and poor coaching rather than the rules themselves. With Season 15 already in full swing, the frustration clearly isn't going anywhere.",
+      "text_en_c1": "A poster on /v/ has once again posed the perennial question of why Western competitive players appear incapable of adhering to what most consider entirely reasonable directives from the development team. The ensuing thread draws comparisons between the Eastern circuit, where patch notes and official rulings are internalized with near-religious deference, and the Western scene, which tends to treat any restrictive guideline as a starting point for creative interpretation. The prevailing consensus attributes the divergence less to the rules themselves than to entrenched egos and coaching infrastructures that reward individual flair over disciplined execution, a tension that, were it ever resolved, would reshape the meta overnight.",
+      "text_en_c2": "A poster on /v/ has reignited the perennial inquiry as to why Western competitors so persistently disregard the ostensibly reasonable directives issued by game developers. The thread quickly metastasised into a comparative autopsy of regional competitive cultures: Eastern rosters, long acculturated to a deference bordering on the ritualistic, tend to internalise patch notes and rulings as gospel, whereas Western imports treat such pronouncements as merely advisory, subordinate to the perceived meta and to individual ego. Several respondents laid the blame less at the feet of the developers than at those of head coaches who permit, even encourage, such insubordination as a performative signal of competitive identity. The discussion resolved, as these discussions invariably do, into a weary shrug and a changed tab.",
+      "audio_url": "audio/2026-09-06/clip-v-western-rules.mp3"
     },
     {
-      "id": "mma-grappling",
+      "id": "fit-grappling-fold",
       "category": "mma/fitness",
-      "topic_zh": "唔練摔等被人屈",
-      "topic_en": "Train Grappling",
-      "text_zh": "肥仔信成日同我講一定要練摔。睇到呢個post即刻tag佢。bench 315但俾人細50磅屈起你都似笑話。lol",
-      "text_en_b1": "Hey nice bench press anon, 315 pounds really impressive. Anyhow, a grappler folds you in half. You have no reason to not train grappling, unless you want some guy who weighs 50 pounds less than you to make you his bitch.",
+      "topic_zh": "打 BJJ 摺到對手",
+      "topic_en": "Grappling folds lifters",
+      "text_zh": "個 bench 315lbs 都被人摺埋。肥仔信睇完應該笑我。Grappling 真係要 join，但又驚時間唔夠，考牌都未搞掂。",
+      "text_en_b1": "Someone with an impressive 315 lbs bench press can still be folded in half by a much lighter grappler. The thread argues there is no excuse not to train grappling, unless you want a guy 50 pounds lighter to turn you into his bitch. Even a half-decent grappler will have you staring at your own asshole in seconds.",
       "source_url": "https://boards.4chan.org/fit/thread/77497491",
-      "source_hint": "/fit/ thread arguing lifting bros must also train grappling",
+      "source_hint": "/fit/ thread arguing every lifter needs grappling because size does not save you",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness opinion, not a trade setup"
+        "rationale": "Fitness culture rant, no trade setup"
       },
-      "text_en_b2": "Nice bench, 315 pounds is genuinely impressive work. A grappler, on the other hand, would fold you in half without breaking a sweat. My buddy who can bench 315 keeps insisting I need to start training grappling, and honestly he has a point, because some dude weighing fifty pounds less than you should not be able to ragdoll you around.",
-      "text_en_c1": "My good friend, the corpulent one whose advice I typically take with a generous pinch of salt, has insisted with remarkable persistence that I take up grappling without further delay. Seeing this particular thread prompted me to tag him immediately. You can bench an impressive 315 pounds, certainly a respectable achievement, and yet a trained grappler who outweighs you by fifty pounds will fold you like wet laundry without the slightest hesitation. Unless, of course, you actively relish the prospect of being thoroughly dominated by someone substantially lighter, in which case your priorities may require reevaluation.",
-      "text_en_c2": "Congratulations on bench-pressing 315 pounds; that is an undeniably substantial achievement, provided one measures strength exclusively through a barbell’s elevation. It does not, however, guarantee that you will know what to do when another man closes the distance, obtains a waist-level grip, and converts your impressive physique into an immovable liability. The diligent fat guy I know keeps insisting that I must train grappling, and this post supplied precisely the evidence required to tag him. The uncomfortable truth is that strength is not universally advantageous; in a confined struggle, an opponent who is smaller by fifty pounds can still bend you in half if he understands leverage, balance, and the subtle art of making your own momentum testify against you. A muscular bench-press record is therefore not a talisman.",
-      "audio_url": "audio/2026-09-05/clip-mma-grappling.mp3"
+      "text_en_b2": "Someone capable of benching an impressive 315 pounds can still get folded in half by a much lighter grappler with solid fundamentals. The thread makes the case that there is genuinely no excuse for skipping grappling training, unless you genuinely enjoy letting a guy fifty pounds lighter turn you into his bitch. Even a half-decent grappler will have you staring at the ceiling in seconds.",
+      "text_en_c1": "A lifter capable of pressing 315 pounds on the bench can, with almost comical ease, be folded into a pretzel by a grappler weighing a mere fraction of that figure. The thread makes the case, with characteristic bluntness, that no rational excuse exists for neglecting grappling training, unless one derives genuine pleasure from being systematically dismantled by someone fifty pounds lighter. Even a modestly competent practitioner of Brazilian jiu-jitsu will, within seconds, position an opponent in such a way that the latter finds himself contemplating his own navel from an orientation nature never sanctioned, a humbling experience that the bench press alone cannot remediate.",
+      "text_en_c2": "A bencher capable of pressing 315 pounds — genuinely impressive by any gymnasium standard — can still be folded like laundry by a grappling opponent half his weight, provided that opponent has invested even a few months in competent instruction. The thread's consensus was unforgiving: there exists no defensible excuse for neglecting grappling training, unless one relishes the prospect of being routinely submitted, inverted, and forced into an intimate acquaintance with one's own navel by technicians of markedly inferior mass. Striking confers the illusion of control; grappling confers the reality of it. Practitioners who dismiss the discipline on grounds of insufficient time discover, almost without exception, that the time was always available — it was merely allocated elsewhere, and to poorer ends.",
+      "audio_url": "audio/2026-09-06/clip-fit-grappling-fold.mp3"
     },
     {
-      "id": "anime-fairytail",
+      "id": "a-yani-neko-aoty",
       "category": "anime/culture",
-      "topic_zh": "Fairy Tail測試",
-      "topic_en": "Fairy Tail Quiz",
-      "text_zh": "即刻答：Erza Scarlet。動漫迷梗係要識多過Lucy啦lol。我就係睇Fairy Tail同Gundam 00嗰代。🧐",
-      "text_en_b1": "If you are a true anime fan, mention one Fairy Tail character off the bat that is not Lucy. Easy starter pick: Erza Scarlet. The thread is full of Natsu, Gray and Erza replies on /a/ tonight.",
-      "source_url": "https://boards.4chan.org/a/thread/290690711",
-      "source_hint": "/a/ thread testing who is a real anime fan via Fairy Tail",
+      "topic_zh": "今年動畫之神",
+      "topic_en": "Anime of the year pick",
+      "text_zh": "Yani Neko 當 AOTY，毒品、體液、貧窮都畫出嚟，唔係表面咁簡單。廢柴如我都覺得有意義，考牌後要開黎睇。",
+      "text_en_b1": "Yani Neko is being called the greatest work of counterculture art to come out of anime in years. Critics say viewers get upset over its gross-out humor, sexual comedy, and substance abuse references, but those elements are real, not just shock value. The comedy framing hides a genuinely raw portrait of poverty and bodies.",
+      "source_url": "https://boards.4chan.org/a/thread/290703707",
+      "source_hint": "/a/ thread making the case for Yani Neko as anime of the year counterculture pick",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime culture discussion, not a trade setup"
+        "rationale": "Anime discourse thread, no trade setup"
       },
-      "text_en_b2": "Anyone who genuinely calls themselves an anime fan ought to fire off at least one Fairy Tail character on instinct, and it absolutely cannot be Lucy. Erza Scarlet is the obvious fallback answer, although Natsu and Gray will inevitably flood the replies over at /a/ tonight. That said, anyone who grew up watching Fairy Tail and Gundam 00 is already in the clear.",
-      "text_en_c1": "Any self-respecting anime aficionado should be able to name a Fairy Tail character at a moment's notice without defaulting to Lucy Heartfilia, whose ubiquity renders her the obvious, unimaginative answer. A far more discerning selection would be Erza Scarlet, the scarlet-haired swordswoman whose monologues and wardrobe changes have become practically synonymous with the franchise itself. I count myself among that generation weaned on Fairy Tail and Gundam 00 alike, works that defined a particular sensibility. The /a/ thread tonight has predictably devolved into a cascade of Natsu, Gray, and Erza mentions.",
-      "text_en_c2": "A genuine anime fan should be able, without hesitation, to name a Fairy Tail character other than Lucy Heartfilia, thereby demonstrating that familiarity with the guild extends beyond its most immediately recognisable blonde heroine. Erza Scarlet is the obvious opening answer: formidable, disciplined, theatrically over-equipped, and capable of turning almost any ostensibly lost battle into a carefully prepared exhibition of personal conviction. Then, naturally, come Natsu and Gray, each of whom represents a different species of durable shōnen logic—Natsu the combustible optimist, Gray the provocatively shirtless rival, and Erza the discipline that emerges whenever the plot requires somebody sensible to arrive. The thread is crowded with all three names tonight, although why /a/ should be so impressed by remembering characters from a series whose premise is guild membership and collective friendship remains a mystery.",
-      "audio_url": "audio/2026-09-05/clip-anime-fairytail.mp3"
+      "text_en_b2": "Yani Neko is increasingly being called the most significant work of counterculture art to emerge from anime in years, largely because its gross-out humor, explicit sexual comedy, and unflinching references to substance abuse refuse to play it safe. Although casual viewers often dismiss these elements as mere shock value, the comedy framing actually conceals a genuinely raw portrait of poverty and bodily existence.",
+      "text_en_c1": "Yani Neko has emerged as a strong contender for anime of the year, largely on the strength of its reputation as a countercultural work whose surface grotesquerie has alienated audiences unprepared for its ambition. Critics contend that the series deploys bodily fluids, recreational substance abuse, and abrasive sexual comedy not as gratuitous provocation but as a deliberate aesthetic vocabulary through which poverty, precarity, and the unglamorous textures of working-class existence are rendered with disarming honesty. The comedic scaffolding, in this reading, functions as a Trojan horse for a portrait whose rawness would otherwise be commercially untenable, an argument that converts the show from mere shock into something approaching genuine art.",
+      "text_en_c2": "Yani Neko has, with mounting critical consensus, been nominated as the foremost work of artistic dissent to emerge from the anime medium in recent memory. Detractors recoil at its scatological set pieces, its unflinching sexual humour, and its frankly rendered depictions of substance abuse, mistaking these for gratuitous provocation when they function, in fact, as the work's essential vernacular. Beneath the veneer of juvenile comedy lies a lacerating examination of economic precarity, bodily degradation, and the quiet indignities inflicted upon those whom polite society has elected to overlook. The laughter, the creators seem to insist, is a coping mechanism; the discomfort, the point. For viewers willing to sit with the squirm, the rewards are considerable — and, mercifully, no prerequisite certification is required to begin.",
+      "audio_url": "audio/2026-09-06/clip-a-yani-neko-aoty.mp3"
     }
   ]
 }

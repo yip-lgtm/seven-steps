@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-06",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-spacex-lockup",
+      "topic_en": "SpaceX lockup expiry",
+      "topic_zh": "SpaceX IPO 鎖倉解禁",
+      "category": "trading",
+      "file": "clip-biz-spacex-lockup.mp3",
+      "bytes": 372660,
+      "chars": 297
+    },
+    {
+      "id": "biz-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold decade",
+      "topic_zh": "BTC vs 黃金十年",
+      "category": "trading",
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 248820,
+      "chars": 254
+    },
+    {
+      "id": "g-mit-ai-democracy",
+      "topic_en": "MIT paper AI repression",
+      "topic_zh": "MIT 警告 AI 滅民主",
+      "category": "tech/ai",
+      "file": "clip-g-mit-ai-democracy.mp3",
+      "bytes": 317940,
+      "chars": 314
+    },
+    {
+      "id": "pol-elon-chess",
+      "topic_en": "Elon loses chess beef",
+      "topic_zh": "Elon 同 Chess.com 互片",
+      "category": "hk/news",
+      "file": "clip-pol-elon-chess.mp3",
+      "bytes": 293172,
+      "chars": 319
+    },
+    {
+      "id": "v-western-rules",
+      "topic_en": "Westerners ignore devs",
+      "topic_zh": "西方選手唔聽話",
+      "category": "lol/esports",
+      "file": "clip-v-western-rules.mp3",
+      "bytes": 283956,
+      "chars": 280
+    },
+    {
+      "id": "fit-grappling-fold",
+      "topic_en": "Grappling folds lifters",
+      "topic_zh": "打 BJJ 摺到對手",
+      "category": "mma/fitness",
+      "file": "clip-fit-grappling-fold.mp3",
+      "bytes": 298932,
+      "chars": 313
+    },
+    {
+      "id": "a-yani-neko-aoty",
+      "topic_en": "Anime of the year pick",
+      "topic_zh": "今年動畫之神",
+      "category": "anime/culture",
+      "file": "clip-a-yani-neko-aoty.mp3",
+      "bytes": 327732,
+      "chars": 323
+    }
+  ]
+}
