@@ -5,66 +5,66 @@
   "clips": [
     {
       "id": "biz-pons-doge",
-      "topic_en": "PONS and Doge1",
-      "topic_zh": "PONS同Doge幣",
+      "topic_en": "PONS and DOGE1 caps",
+      "topic_zh": "PONS 同 DOGE 啲 meme 點睇",
       "category": "trading",
       "file": "clip-biz-pons-doge.mp3",
-      "bytes": 365748,
-      "chars": 287
+      "bytes": 377844,
+      "chars": 285
     },
     {
       "id": "biz-spacex-lockup",
-      "topic_en": "SpaceX lockup release",
-      "topic_zh": "SpaceX IPO lockup",
+      "topic_en": "SpaceX lockup expiry",
+      "topic_zh": "SpaceX IPO lockup 9月",
       "category": "trading",
       "file": "clip-biz-spacex-lockup.mp3",
-      "bytes": 323700,
-      "chars": 273
+      "bytes": 320820,
+      "chars": 272
     },
     {
-      "id": "tech-mit-ai-paper",
-      "topic_en": "MIT AI paper",
-      "topic_zh": "MIT AI paper",
+      "id": "g-ai-democracy",
+      "topic_en": "MIT AI and democracy",
+      "topic_zh": "AI 會唔會滅咗 democracy",
       "category": "tech/ai",
-      "file": "clip-tech-mit-ai-paper.mp3",
-      "bytes": 343284,
-      "chars": 330
+      "file": "clip-g-ai-democracy.mp3",
+      "bytes": 390516,
+      "chars": 345
     },
     {
-      "id": "hk-byd-ad",
-      "topic_en": "BYD free ad",
-      "topic_zh": "BYD免費廣告",
+      "id": "pol-byd-ad",
+      "topic_en": "BYD the best deal",
+      "topic_zh": "BYD 70K 蚊車 35K 買到",
       "category": "hk/news",
-      "file": "clip-hk-byd-ad.mp3",
-      "bytes": 225204,
-      "chars": 160
+      "file": "clip-pol-byd-ad.mp3",
+      "bytes": 278196,
+      "chars": 188
     },
     {
-      "id": "lol-lis-dev",
-      "topic_en": "LiS developer dies",
-      "topic_zh": "LiS工作室執笠",
+      "id": "v-life-is-strange",
+      "topic_en": "DON'T NOD shutting down",
+      "topic_zh": "DON'T NOD 執笠",
       "category": "lol/esports",
-      "file": "clip-lol-lis-dev.mp3",
-      "bytes": 174516,
-      "chars": 193
+      "file": "clip-v-life-is-strange.mp3",
+      "bytes": 263220,
+      "chars": 269
     },
     {
-      "id": "mma-grappling",
-      "topic_en": "Grappling over bench",
-      "topic_zh": "MMA朋友講grappling",
+      "id": "fit-grappling",
+      "topic_en": "Add grappling or not",
+      "topic_zh": "要唔要加 grappling",
       "category": "mma/fitness",
-      "file": "clip-mma-grappling.mp3",
-      "bytes": 307572,
-      "chars": 313
+      "file": "clip-fit-grappling.mp3",
+      "bytes": 305844,
+      "chars": 295
     },
     {
-      "id": "anime-csm-reze",
+      "id": "a-csm-reze",
       "topic_en": "Chainsaw Man manga",
-      "topic_zh": "鏈鋸人漫畫",
+      "topic_zh": "鏈鋸人 Reze arc",
       "category": "anime/culture",
-      "file": "clip-anime-csm-reze.mp3",
-      "bytes": 302964,
-      "chars": 309
+      "file": "clip-a-csm-reze.mp3",
+      "bytes": 313332,
+      "chars": 317
     }
   ]
 }
