@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-spacex-lockup",
-      "topic_en": "SpaceX lockup expiry",
-      "topic_zh": "SpaceX IPO 鎖倉解禁",
+      "id": "btc-gold-debate",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-biz-spacex-lockup.mp3",
-      "bytes": 372660,
-      "chars": 297
+      "file": "clip-btc-gold-debate.mp3",
+      "bytes": 301812,
+      "chars": 263
     },
     {
-      "id": "biz-btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold decade",
-      "topic_zh": "BTC vs 黃金十年",
+      "id": "btc-fomo-postpump",
+      "topic_en": "BTC FOMO after pump",
+      "topic_zh": "Pump完先買",
       "category": "trading",
-      "file": "clip-biz-btc-vs-gold.mp3",
-      "bytes": 248820,
-      "chars": 254
+      "file": "clip-btc-fomo-postpump.mp3",
+      "bytes": 266676,
+      "chars": 258
     },
     {
-      "id": "g-mit-ai-democracy",
-      "topic_en": "MIT paper AI repression",
-      "topic_zh": "MIT 警告 AI 滅民主",
+      "id": "mit-ai-democracy",
+      "topic_en": "MIT AI democracy paper",
+      "topic_zh": "AI滅民主",
       "category": "tech/ai",
-      "file": "clip-g-mit-ai-democracy.mp3",
-      "bytes": 317940,
-      "chars": 314
+      "file": "clip-mit-ai-democracy.mp3",
+      "bytes": 330036,
+      "chars": 316
     },
     {
-      "id": "pol-elon-chess",
-      "topic_en": "Elon loses chess beef",
-      "topic_zh": "Elon 同 Chess.com 互片",
+      "id": "byd-ad-bessent",
+      "topic_en": "BYD free ad",
+      "topic_zh": "BYD贏廣告",
       "category": "hk/news",
-      "file": "clip-pol-elon-chess.mp3",
-      "bytes": 293172,
-      "chars": 319
+      "file": "clip-byd-ad-bessent.mp3",
+      "bytes": 359988,
+      "chars": 266
     },
     {
-      "id": "v-western-rules",
-      "topic_en": "Westerners ignore devs",
-      "topic_zh": "西方選手唔聽話",
+      "id": "lol-western-rules",
+      "topic_en": "Western players and rules",
+      "topic_zh": "西人唔守規矩",
       "category": "lol/esports",
-      "file": "clip-v-western-rules.mp3",
-      "bytes": 283956,
-      "chars": 280
+      "file": "clip-lol-western-rules.mp3",
+      "bytes": 311028,
+      "chars": 310
     },
     {
-      "id": "fit-grappling-fold",
-      "topic_en": "Grappling folds lifters",
-      "topic_zh": "打 BJJ 摺到對手",
+      "id": "fit-405-bench",
+      "topic_en": "405 lb bench sighting",
+      "topic_zh": "405磅枱凳",
       "category": "mma/fitness",
-      "file": "clip-fit-grappling-fold.mp3",
-      "bytes": 298932,
-      "chars": 313
+      "file": "clip-fit-405-bench.mp3",
+      "bytes": 298356,
+      "chars": 276
     },
     {
-      "id": "a-yani-neko-aoty",
-      "topic_en": "Anime of the year pick",
-      "topic_zh": "今年動畫之神",
+      "id": "aotc-yani-neko",
+      "topic_en": "Yani Neko AOTY",
+      "topic_zh": "年貓年度最佳",
       "category": "anime/culture",
-      "file": "clip-a-yani-neko-aoty.mp3",
-      "bytes": 327732,
-      "chars": 323
+      "file": "clip-aotc-yani-neko.mp3",
+      "bytes": 330612,
+      "chars": 312
     }
   ]
 }
