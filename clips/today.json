@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "trade1",
+      "id": "biz-pons-doge",
       "category": "trading",
-      "topic_zh": "比特幣vs黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "十年long only淨係揸一樣，你揀BTC定係黃金？我兩邊都輸過，廢柴一個。真係要比，黃金我揸過實物，但Bitcoin真係我嘅信仰，又係信仰，唔知啦lol。",
-      "text_en_b1": "If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? The question asks what makes your choice better than the other. Bitcoin has rallied hard this cycle, but gold is hitting new highs too. Both seem to win, which is why this debate keeps going on /biz/.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ thread asking BTC vs gold 10-year hold",
+      "topic_zh": "PONS同Doge幣",
+      "topic_en": "PONS and Doge1",
+      "text_zh": "又見memecoin 吹奏文。PONS話可以翻Pumfun，DOGE1 1% cap就$150M。Normie onboarding浪潮⋯⋯算吧啦，呢啲全部都係我之前輸過嘅pattern 🙏",
+      "text_en_b1": "PONS & Doge bros. How high can we go? Did the maths: if PONS flips Pumfun, we could see PONS at $3. If DOGE1 captures just 1% of the DOGE market cap, that is already a $150M market cap. Pairing memes with stocks is wild. Boomers who already own stocks can get into crypto with one click.",
+      "source_url": "https://boards.4chan.org/biz/thread/62663347",
+      "source_hint": "/biz/ thread hyping PONS token and DOGE1 alongside stocks",
       "signal": {
-        "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "low",
+        "time_horizon": "weeks",
         "entry_zone": "current",
-        "target": null,
+        "target": "3.00 (PONS flip target)",
         "stop": null,
-        "rationale": "Anecdotal debate post, no actionable setup"
+        "rationale": "OP is bullish on meme/stock crossover narrative but conviction is speculative"
       },
-      "text_en_b2": "If you were forced to go long-only on a single asset over the coming decade, would you pin your bet on Bitcoin or gold? Both have posted remarkable gains this cycle, with BTC rallying aggressively while bullion keeps grinding out fresh highs. The whole debate keeps dragging on across /biz/ precisely because nobody can crown a clear winner. Personally, I've taken losses on both, so I'm hardly the one to judge — but having held physical gold myself, I'll admit Bitcoin borders on pure faith…",
-      "text_en_c1": "If one were compelled to hold a single asset over the coming decade, the perennial question resurfaces: Bitcoin or gold? This cycle has witnessed Bitcoin rallying with extraordinary force, yet gold has simultaneously notched successive all-time highs, which only intensifies the debate on /biz/. The framing presupposes that any choice must demonstrably outperform its alternative, a standard that both instruments arguably satisfy under prevailing macroeconomic conditions. Personally, I have held physical bullion and incurred losses on both, the eternal dilemma of conviction versus conviction, though Bitcoin remains, for want of a better word, an article of faith.",
-      "text_en_c2": "Were one compelled, by some hypothetical imperative, to select a single asset and hold it long-only across the coming decade, the perennial contest between Bitcoin and gold inevitably resurfaces, animated by devotees on either side who insist their conviction rests on something more substantial than mere sentiment. The contrarian case for either remains genuinely compelling: Bitcoin, the lodestar of a generation disenchanted with monetary orthodoxy, has rallied with ferocious velocity this cycle, while gold, that ancient store of value, has simultaneously scaled unprecedented nominal highs. To argue decisively that one constitutes the superior allocation betrays a certain naivety, yet if pressed, I would confess that Bitcoin constitutes something approaching an article of faith for me, an ideological commitment whose rational foundations I can no longer fully disentangle from sheer conviction.",
-      "audio_url": "audio/2026-09-06/clip-trade1.mp3"
+      "text_en_b2": "The PONS and Doge1 crowd are back at it again, spitting out the usual memecoin hopium. I did the maths: if PONS manages to overtake Pumfun, we could see it push past $3, while DOGE1 capturing just 1% of DOGE's market cap already translates into a $150M valuation. Pairing meme tokens with traditional equities is genuinely unhinged, since boomers sitting on legacy portfolios can apparently wade into crypto with a single click.",
+      "text_en_c1": "Running the numbers on PONS and DOGE1, two memecoins that are generating a remarkable amount of speculative chatter. If PONS somehow manages to flip Pumfun in market cap, a target of roughly three dollars per token becomes mathematically plausible. Meanwhile, capturing even a modest one percent of the Dogecoin market would translate into a hundred and fifty million dollar valuation for DOGE1, a staggering figure for what is essentially a meme asset. The broader thesis is that pairing equities with cryptocurrencies lowers the barrier to entry for normies, particularly boomers whose brokerage accounts already sit a click away from crypto rails.",
+      "text_en_c2": "Another breathless memecoin manifesto has surfaced, this time courtesy of the PONS and Doge1 evangelists. Run the numbers and the projections border on the hallucinatory: should PONS somehow eclipse Pump.fun's market cap, one could plausibly see PONS at roughly three dollars, while Doge1 capturing a mere one percent of DOGE's circulating value already implies a hundred-and-fifty-million-dollar valuation. The accompanying thesis—that meme tokens can be braided with equity holdings to shepherd normies into crypto via a single click—is, frankly, a rerun of every speculative cycle I have personally been burned by. Still, the underlying psychology remains perversely compelling.",
+      "audio_url": "audio/2026-09-06/clip-biz-pons-doge.mp3"
     },
     {
-      "id": "trade2",
+      "id": "biz-spacex-lockup",
       "category": "trading",
-      "topic_zh": "SpaceX IPO解禁",
-      "topic_en": "SpaceX IPO Lockup",
-      "text_zh": "SpaceX IPO lockup又有嘢爆。9月2026大約3.19億股解禁，大約7%個baseline pool。Elon條友一出貨，TSLA同SpaceX相關全部都震，我個CFD又輸，wtf。",
-      "text_en_b1": "On September 9, 2026, about 319 million extra SpaceX shares become eligible for sale. That is around 7 percent of the baseline pool, roughly 2.4 percent of total shares outstanding. This is the 90th trading day since the IPO and the third major lockup release event.",
+      "topic_zh": "SpaceX IPO lockup",
+      "topic_en": "SpaceX lockup release",
+      "text_zh": "SpaceX IPO lockup第三release 9月9號到，319M股解禁，大約2.4% total。噉嘅supply⋯⋯唔怪得最近SpaceX pre-market一直軟。prop firm CFD做空又輸緊 😭 又係學費",
+      "text_en_b1": "On September 9, 2026, approximately 319 million additional SpaceX shares become eligible for sale. That is about 7% of the baseline pool, or roughly 2.4% of total shares outstanding. This marks the 90th trading day since the IPO and is the third major lockup release event.",
       "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ thread tracking SpaceX IPO lockup schedule",
+      "source_hint": "/biz/ thread on SpaceX lockup expiry dates",
       "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "asset": "SPY",
+        "direction": "short",
+        "conviction": "medium",
+        "time_horizon": "days",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade, pure macro event note"
+        "rationale": "Implied near-term supply overhang on SpaceX post-IPO could drag growth/tech indices"
       },
-      "text_en_b2": "Another SpaceX IPO lockup cliff just surfaced in filings. Come September 9, 2026, roughly 319 million additional shares become eligible for trading, which works out to about 7 percent of the baseline pool and roughly 2.4 percent of total shares outstanding. This marks the third major lockup release and the 90th trading day since the IPO. The moment Elon even hints at offloading, every TSLA and SpaceX-linked position trembles, and sure enough, my CFD bled out again.",
-      "text_en_c1": "Yet another SpaceX lockup expiry has detonated across trading desks. On 9 September 2026, approximately 319 million shares become eligible for sale, representing roughly seven percent of the baseline pool and around 2.4 percent of total shares outstanding. This constitutes the third major lockup release and the ninetieth trading day since the IPO, a milestone that historically precipitates pronounced volatility. Should Elon offload a meaningful tranche, the contagion would inevitably ripple through TSLA and adjacent equities. My CFD position, once again, absorbed the brunt of the cascade.",
-      "text_en_c2": "Another lockup expiry event has detonated across the SpaceX shareholder register, and the collateral damage, predictably enough, extends well beyond the immediate ticker. On or about September 9, 2026, an additional 319 million shares become eligible for sale, a tranche that, while representing a comparatively modest seven percent of the baseline pool, constitutes something closer to 2.4 percent of the total shares outstanding. This milestone marks the ninetieth trading day since the IPO and, crucially, the third significant lockup release since listing, each event functioning as a stress examination of market depth and holder conviction. The mere possibility that Elon might liquidate even a fraction of his position sends tremors through anything tangentially connected, whether directly via SpaceX equity or indirectly through Tesla's symbiotic exposure.",
-      "audio_url": "audio/2026-09-06/clip-trade2.mp3"
+      "text_en_b2": "On September 9, 2026, SpaceX faces its third post-IPO lockup release, with roughly 319 million shares becoming eligible for sale. That figure amounts to about 7% of the baseline pool, or somewhere in the neighbourhood of 2.4% of total shares outstanding, since the 90-day milestone has now been crossed. With that much supply hitting the market, it is hardly surprising the pre-market has been sliding steadily, and my prop firm CFD short is bleeding out yet again.",
+      "text_en_c1": "The third SpaceX post-IPO lockup release falls on September ninth, at which point approximately three hundred and nineteen million additional shares become eligible for trading. That figure represents roughly seven percent of the baseline restricted pool, or about two point four percent of total shares outstanding, which marks the ninetieth trading day since the listing. The supply overhang this creates helps explain why SpaceX shares on the pre-market have been drifting lower in recent sessions, a soft tape that anyone short via prop firm CFDs is currently learning the hard way. Education is rarely cheap, and tuition in this market is no exception.",
+      "text_en_c2": "SpaceX's third post-IPO lockup expiration arrives on the ninth of September, releasing approximately 319 million shares into eligibility for sale—constituting roughly seven percent of the baseline pool and a non-trivial 2.4 percent of total shares outstanding. Such a supply overhang, coinciding precisely with the ninetieth trading day since flotation, offers an elegant explanation for the persistent softness observable in pre-market quotations of late. Those of us prop-trading CFD shorts against the name have, predictably, been donating tuition money to the market once again. The pattern, it seems, never ceases to instruct.",
+      "audio_url": "audio/2026-09-06/clip-biz-spacex-lockup.mp3"
     },
     {
-      "id": "tech1",
+      "id": "tech-mit-ai-paper",
       "category": "tech/ai",
-      "topic_zh": "AI毀滅民主",
-      "topic_en": "AI vs Democracy",
-      "text_zh": "MIT有篇paper話AI會搞死民主。自動化和AI取代晒啲人工，財富集中曬去資本家，唔平等爆煲就會壓迫工人。AI連我呢啲surveyor assistant都搞掂埋啦，廢物。",
-      "text_en_b1": "A Nobel-winning MIT economist published a paper called Automation and Repression. It says that as AI and automation replace human labor, wealth concentrates heavily in the hands of a tiny group of capital owners. Inequality skyrockets. When it hits a critical mass, workers realize they are crushed and the threat of revolt spikes.",
+      "topic_zh": "MIT AI paper",
+      "topic_en": "MIT AI paper",
+      "text_zh": "MIT有Nobel economist出咗篇paper叫Automation and Repression。AI自動化 → 財富集中 → 工人反 → elite鎮壓。ok 所以我做surveying都唔安全？廢柴靠AI續命 🥲",
+      "text_en_b1": "MIT mathematically proved that AI will destroy democracy. A Nobel-winning MIT economist published a paper called Automation and Repression. As AI and automation replace human labor, wealth concentrates in the hands of a tiny group of capital owners. When inequality hits a critical mass, the ruling elite responds with repression.",
       "source_url": "https://boards.4chan.org/g/thread/109736154",
-      "source_hint": "/g/ thread discussing MIT paper on AI and inequality",
+      "source_hint": "/g/ thread discussing Nobel-winning MIT paper on AI, inequality and repression",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,20 +68,20 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Editorial post, not a trade"
+        "rationale": "Macro/societal commentary, not a trade setup"
       },
-      "text_en_b2": "A Nobel-winning MIT economist just dropped a paper titled Automation and Repression, arguing that as AI and automation steadily displace human labor, wealth piles up in the hands of a tiny elite. Once that inequality crosses a critical threshold, workers grasp how thoroughly they've been crushed, and the latent threat of revolt spikes sharply. The paper's grim forecast already feels uncomfortably close to home — even my own surveying assistant role is being automated away, which is frankly infuriating.",
-      "text_en_c1": "A Nobel-laureate economist from MIT has circulated a paper provocatively titled Automation and Repression, advancing the thesis that AI and automation will displace human labour so comprehensively that wealth accumulates in the hands of a vanishingly small capital-owning elite. Once inequality crosses a critical threshold, the dispossessed masses recognise their predicament, at which point the latent threat of insurrection spikes precipitously. The implications extend well beyond macroeconomic abstraction; even surveyor assistants, my own profession included, may find themselves redundant.",
-      "text_en_c2": "A paper emerging from MIT, authored by an economist whose credentials include the rather considerable distinction of a Nobel Prize, has articulated a thesis sufficiently bleak to warrant sustained attention. Titled Automation and Repression, the work advances the proposition that as artificial intelligence and automated systems progressively render human labor redundant, the resultant concentration of wealth among an ever-diminishing stratum of capital owners will accelerate inequality beyond any historical precedent. When this stratification reaches critical mass, the paper contends, the displaced workforce will arrive at an unmistakable recognition of its predicament, at which juncture the latent threat of popular revolt will intensify commensurately, prompting preemptive repressive measures from those who control the commanding heights of the economy.",
-      "audio_url": "audio/2026-09-06/clip-tech1.mp3"
+      "text_en_b2": "MIT researchers have effectively put a mathematical seal on what many suspected all along: AI is set to erode democratic institutions. A Nobel-winning economist there published a paper titled Automation and Repression, outlining how automation funnels wealth towards a tiny elite while displacing workers. Once inequality crosses a critical threshold, the paper argues, the ruling class inevitably reaches for repressive measures to maintain control.",
+      "text_en_c1": "An MIT economist with a Nobel on the shelf has published a paper titled Automation and Repression, in which he constructs a mathematical model suggesting that artificial intelligence will, in effect, corrode democratic governance. The mechanism runs as follows: as automation displaces human labor, wealth concentrates in the hands of a narrow capital-owning elite; once inequality crosses a critical threshold, the ruling class resorts to repressive measures to preserve its position. If a Nobel laureate has modelled this trajectory rigorously, then surveying, which I had assumed was relatively future-proof, looks considerably less secure.",
+      "text_en_c2": "An MIT economist with a Nobel on the shelf has formalised a rather grim syllogism: automation displaces labour, capital accrues to a vanishingly small elite, inequality crosses some critical threshold, and the resulting instability invites repressive governance. The paper, entitled Automation and Repression, marshals mathematical rigour to argue that artificial intelligence does not merely hollow out the middle class—it corrodes democratic legitimacy itself. One is left to wonder, with a certain gallows humour, whether surveying constitutes an endangered profession or merely an undignified one, propped up by algorithms whose indifference is, if nothing else, consistent.",
+      "audio_url": "audio/2026-09-06/clip-tech-mit-ai-paper.mp3"
     },
     {
-      "id": "hk1",
+      "id": "hk-byd-ad",
       "category": "hk/news",
-      "topic_zh": "BYD最佳廣告",
-      "topic_en": "BYD Free Ad",
-      "text_zh": "美國財長Bessent想串中國補貼，結果全世界淨係記住一句：「BYD係$70,000嘅車，$35,000買到」。2026年最佳免費廣告，外國人都識BYD，國產車真係起勢。",
-      "text_en_b1": "US official Bessent tried to slam China over EV subsidies and policy. He said BYD is the best $70,000 car that $35,000 can buy. People only heard the price line. It became the best free ad for BYD in 2026. The internet will not let you bury a product, only promote it.",
+      "topic_zh": "BYD免費廣告",
+      "topic_en": "BYD free ad",
+      "text_zh": "Bessent想踩中國補貼，結果全個internet得一句：'BYD is the best $70,000 car that $35,000 can buy'。BYD免費贏到廣告 lol。BYD香港周街都見到，唔關我事，考牌先算 🙏",
+      "text_en_b1": "Bessent tried to slam China over subsidies, but the only thing people heard was: BYD is the best $70,000 car that $35,000 can buy. Best free ad for BYD in 2026.",
       "source_url": "https://boards.4chan.org/pol/thread/542069584",
       "source_hint": "/pol/ thread mocking US official's BYD comment",
       "signal": {
@@ -94,20 +94,20 @@
         "stop": null,
         "rationale": "News commentary, no trade setup"
       },
-      "text_en_b2": "US official Bessent clearly intended to shame China over its EV subsidies and industrial policy, yet all the internet retained was a single devastating line: BYD is essentially a $70,000 car you can grab for $35,000. Rather than burying the brand, his comment backfired spectacularly and became the most valuable free advertisement BYD received in 2026. Foreign audiences worldwide now recognize the name, and honestly, domestic Chinese automakers are genuinely hitting their stride.",
-      "text_en_c1": "In a remarkable instance of political overreach, US official Bessent sought to criticise Chinese EV subsidies and industrial policy, inadvertently crafting what may stand as 2026's most consequential advertisement. His assertion that BYD constitutes a seventy-thousand-dollar vehicle obtainable for thirty-five thousand distilled precisely the value proposition the brand had struggled to articulate globally. The soundbite metastasised across social media; netizens retained only the price differential. The internet, it seems, refuses to bury products, it amplifies them, and foreign consumers now recognise BYD as never before.",
-      "text_en_c2": "In what must rank among the more exquisitely self-defeating interventions in recent diplomatic memory, US Treasury official Bessent evidently sought to chastise China over the particulars of EV subsidies and industrial policy, only to discover that the internet, with its remorseless appetite for quotable ammunition, has extracted from his remarks a single, immortal phrase. The line in question, asserting that BYD constitutes essentially the finest seventy-thousand-dollar vehicle obtainable for thirty-five thousand, has transmogrified into the most gratuitously effective advertisement the Chinese automaker could conceivably have hoped for in 2026. Whatever nuance Bessent intended has been comprehensively obliterated; what endures is the price comparison, repeated across every conceivable platform. The episode furnishes a near-perfect illustration of the contemporary attention economy's cardinal rule: the internet permits no product to be buried, only amplified.",
-      "audio_url": "audio/2026-09-06/clip-hk1.mp3"
+      "text_en_b2": "Bessent tried to take China to task over subsidies, yet the only line that actually stuck across the internet was a glowing endorsement disguised as criticism: BYD is the best $70,000 car that $35,000 can buy. That single soundbite ended up being the most effective free advertisement BYD could have wished for in 2026, although I doubt anyone in Hong Kong needs convincing, since their cars are plastered across every other street. Whatever, that is their problem.",
+      "text_en_c1": "When Treasury Secretary Bessent attempted to criticise Chinese industrial subsidies, the narrative he intended to construct was largely drowned out by a single quip that ricocheted across the internet: BYD is the best seventy-thousand-dollar car that thirty-five thousand can buy. The line, which captured the asymmetry between sticker price and perceived value, did more for BYD's brand than any conventional advertising campaign could have hoped to achieve. It was, in effect, the most generous free advertisement the company received throughout 2026, and one that money genuinely could not have bought.",
+      "text_en_c2": "When Treasury Secretary Bessent sought to chastise Beijing over industrial subsidies, the political theatre collapsed into a single, devastatingly quotable line: that BYD is, ostensibly, the best seventy-thousand-dollar car that thirty-five thousand can procure. The remark, intended as critique, ricocheted across the internet as an unsolicited testimonial, conferring upon BYD what any marketing executive would regard as the apotheosis of earned media—a free advertisement of precisely the calibre money cannot procure. One observes the brand ubiquitously on Hong Kong's streets, though such matters remain, for the moment, peripheral to the more pressing business of obtaining a driver's licence.",
+      "audio_url": "audio/2026-09-06/clip-hk-byd-ad.mp3"
     },
     {
-      "id": "lol1",
+      "id": "lol-lis-dev",
       "category": "lol/esports",
-      "topic_zh": "西洋人唔聽話",
-      "topic_en": "Western Gamers Rules",
-      "text_zh": "西人都係廢，開發商訂咗合理規則都唔遵守。LOL S15外卡選手成日犯規，好彩我淨係觀眾，唔使煩。",
-      "text_en_b1": "Why are Westerners unable to obey entirely reasonable rules from developers? The thread complains about Western gamers breaking basic in-game rules that East Asian players follow without thinking. Mods, devs, and entire communities seem to lose their minds when a rule is even mentioned.",
-      "source_url": "https://boards.4chan.org/v/thread/746962726",
-      "source_hint": "/v/ thread complaining about Western gamer behaviour",
+      "topic_zh": "LiS工作室執笠",
+      "topic_en": "LiS developer dies",
+      "text_zh": "DON'T NOD執笠，網民話係玩家嘅錯。咁S15都開打緊，戲外game studio都執笠，戲內新patch又ban晒啲meta。Lol 我隻LoL都冇時間打，考牌都未完 🧐",
+      "text_en_b1": "The Life is Strange developer DON'T NOD is shutting down, and apparently it is your fault because you did not buy their games. Studios keep closing while players keep complaining about patches.",
+      "source_url": "https://boards.4chan.org/v/thread/746977660",
+      "source_hint": "/v/ thread on DON'T NOD studio closure",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gamer culture rant, not trade-related"
+        "rationale": "Gaming industry news, no trade relevance"
       },
-      "text_en_b2": "Why do Western gamers consistently fail to follow entirely reasonable rules that developers lay down? The thread laments how Western League of Legends players at the S15 international wild card bracket keep breaking basic in-game etiquette that East Asian competitors observe without a second thought. Moderators, developers, and entire subcommunities appear to lose their minds the moment anyone even dares to mention a rule. Meanwhile I'm just a spectator, so at least I don't have to deal with the fallout.",
-      "text_en_c1": "Why do Western gamers routinely flout the most elementary rules that developers, with considerable deliberation, have established? The thread laments a perceived cultural divergence whereby East Asian competitors observe standard protocols instinctively, whereas Western players appear constitutionally incapable of compliance. When moderators or developers merely reference the offending regulations, entire communities descend into paroxysms of indignation. The LOL S15 wildcard participants, in particular, seem constitutionally opposed to adherence, a phenomenon I observe with considerable relief from the comfortable remove of spectatorhood.",
-      "text_en_c2": "The capacity of Western gaming communities to flagrantly disregard rules that any reasonable observer would consider entirely uncontroversial constitutes one of the more confounding phenomena in contemporary multiplayer culture. The thread in question enumerates, with weary exasperation, how Western competitors in League of Legends' Season 15 wildcard circuit persistently violate foundational in-game protocols that their East Asian counterparts appear to internalize instinctively, as though the norms were encoded at some quasi-genetic level. What renders the spectacle particularly irksome is the disproportionate institutional response: moderators, developers, and entire community infrastructures appear to undergo collective apoplexy whenever the mere existence of a rule is invoked, transforming what should be a settled matter into an interminable procedural crisis.",
-      "audio_url": "audio/2026-09-06/clip-lol1.mp3"
+      "text_en_b2": "The developer behind Life is Strange, DON'T NOD, is reportedly shutting its doors, and according to the chorus of online commentators, it is squarely the玩家的 fault for not buying enough copies. Studios keep folding one after another while the playerbase carries on moaning about balance patches in season 15. Meanwhile, I cannot even find the time to log into my LoL games, since my driving licence saga is far from finished, so the irony is not lost on me here.",
+      "text_en_c1": "DON'T NOD, the studio behind the Life is Strange franchise, is reportedly shuttering its doors, with a sizeable contingent of netizens hastening to blame the audience itself for failing to purchase enough copies. The irony is difficult to miss: studios continue to fold while players continue to lament every freshly deployed balance patch. Meanwhile, ranked Season 15 of League of Legends is already underway, meta champions have been nerfed into oblivion, and I have neither the time nor the energy to climb the ladder, particularly given that my driving licence lessons remain unfinished. The game, both in fiction and in reality, appears to be running itself.",
+      "text_en_c2": "Don't NOD, the studio behind the Life is Strange franchise, is shuttering its doors, and the discourse has predictably devolved into recrimination: the studio's demise is, we are told, the players' own fault for declining to purchase its offerings. The irony is difficult to overstate—studios continue to fold while their audiences lament balance patches and meta reshuffles, as though the two phenomena were unrelated. Season fifteen grinds on, in-game and out. One finds oneself without time even for League, let alone the licence examination that looms with quiet, persistent urgency.",
+      "audio_url": "audio/2026-09-06/clip-lol-lis-dev.mp3"
     },
     {
-      "id": "mma1",
+      "id": "mma-grappling",
       "category": "mma/fitness",
-      "topic_zh": "練Grappling啦",
-      "topic_en": "Just Bench No Grappling",
-      "text_zh": "肥仔信成日笑我只做bench唔練BJJ。「315lbs bench，摺你一半」佢咁講。佢50磅瘦過我都搞到我仆街，聽日去gym啦ok。",
-      "text_en_b1": "Hey, nice bench press, 315 pounds really impressive. Now I will fold you in half. You have no reason not to train grappling, unless you want a guy 50 pounds lighter than you to make you his bitch. Any half-decent grappler would have you staring at your own asshole in seconds.",
+      "topic_zh": "MMA朋友講grappling",
+      "topic_en": "Grappling over bench",
+      "text_zh": "肥仔信今日又message我：'315lb bench唔代表乜嘢，grappling先係真嘅'。我話我survey一日已經筋疲力竭⋯⋯btw佢講嘅都有道理，ground game真係會kill你 🧐",
+      "text_en_b1": "Hey nice bench press, 315 lbs really impressive, but a grappler who weighs 50 pounds less than you will fold you in half. You have no reason not to train grappling unless you want some smaller guy to make you his bitch on the ground. Any half-decent grappler would have you staring at your own asshole in seconds.",
       "source_url": "https://boards.4chan.org/fit/thread/77497491",
-      "source_hint": "/fit/ thread pushing grapplers vs lifters",
+      "source_hint": "/fit/ thread pushing grapplers over bench press",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness advice, no trade"
+        "rationale": "Fitness culture debate, not a trade"
       },
-      "text_en_b2": "Nice bench press, champ — 315 pounds, genuinely impressive. Now allow me to fold you in half without breaking a sweat. Honestly, there's no defensible excuse for skipping grappling training unless you're perfectly content letting some guy fifty pounds lighter than you turn you into his personal punching bag. Any halfway competent grappler would have you reassessing your entire athletic identity in about ten seconds flat. See you at the gym tomorrow, I suppose.",
-      "text_en_c1": "Congratulations on your 315-pound bench press; an undeniably respectable achievement, and one which I shall now proceed to dismantle entirely. Should you persist in neglecting grappling, any competitor a mere fifty pounds lighter will reduce you to a supine, contemplative position within seconds. The bench constitutes but one facet of combat athletics, and a half-competent Brazilian Jiu-Jitsu practitioner would have you examining your own posterior with minimal exertion. Training BJJ tomorrow is, by any rational calculus, the soundest available investment of your time.",
-      "text_en_c2": "Compliments regarding one's bench press, however graciously proffered, frequently function as little more than prelude to an unsolicited discourse on grappling, delivered with the evangelical certitude of the recently converted. The fat interlocutor in question, having registered my 315-pound lift with what I had naively interpreted as admiration, immediately pivoted to the observation that he would, in his professional estimation, fold me in half, a characterization whose anatomical specificity I found myself disinclined to verify empirically. The argument's central thesis was unassailable: absent dedicated grappling training, one remains vulnerable to domination by opponents substantially smaller, the cited disparity being a mere fifty pounds, a deficit that evidently confers negligible advantage when the contest migrates horizontal. Any competent practitioner, he assured me, would have me contemplating my own navel in embarrassingly short order.",
-      "audio_url": "audio/2026-09-06/clip-mma1.mp3"
+      "text_en_b2": "My overweight training partner messaged me again today, insisting that a 315lb bench means absolutely nothing because grappling is where the real test lies. He argued that any grappler weighing fifty pounds less would fold me in half, and frankly, he has a point, since mastering the ground game tends to brutalise strength-only athletes. I told him surveying already wipes me out, but the relentless nagging is wearing me down, and I suspect I will eventually cave and drag myself to class.",
+      "text_en_c1": "My friend, a stocky individual with strong opinions, messaged me again today to insist that a three-hundred-and-fifteen-pound bench press is, in his considered view, largely meaningless, and that grappling才是真正的试金石. His argument, delivered with characteristic confidence, is that any competent grappler who outweighs me by fifty pounds would dismantle me with minimal effort, particularly once the exchange hits the mat. While I remain sceptical, given that surveying already leaves me physically depleted by day's end, I must concede that his reasoning holds water: ground game genuinely does neutralise raw strength, and ignoring it would be foolish.",
+      "text_en_c2": "The corpulent correspondent has again taken to messaging me with his customary thesis: a 315-pound bench press, however imposing, signifies little when measured against the unforgiving ontology of grappling, where ground game annihilates static strength with metronomic indifference. After a full day's surveying, one can scarcely muster the energy for rebuttal, yet the man is not entirely wrong—technical submission work does, as he insists, humble the uninitiated with humiliating efficiency. There exists an undeniable truth in the proposition that a competent grappler weighing fifty pounds less could, given the opportunity, render one's anatomical geography distressingly novel.",
+      "audio_url": "audio/2026-09-06/clip-mma-grappling.mp3"
     },
     {
-      "id": "anime1",
+      "id": "anime-csm-reze",
       "category": "anime/culture",
       "topic_zh": "鏈鋸人漫畫",
-      "topic_en": "Chainsaw Man Manga",
-      "text_zh": "終於睇咗鏈鋸人漫畫Reze篇，雖然冇睇劇場版，但電影感好正。Season 1雖然畀人話，但panel layout本身就係cinematic，我又多一樣廢事。",
-      "text_en_b1": "Chainsaw Man volumes 6 and 7. I did not watch the Reze arc movie in theaters, but I always liked season 1, so I started reading the manga recently. I can see why everyone loved the movie. The manga is very enjoyable. People shit on the direction of season 1, but the cinematic style fits the panel layouts.",
+      "topic_en": "Chainsaw Man manga",
+      "text_zh": "有人推薦我睇CSM漫畫，Reze arc戲院個陣我冇去，但網上個discussion好熱。Panel layout真係好cinematic，season 1方向我覺得OK。 Gundam 00完咗之後終於有新嘢睇 🙏",
+      "text_en_b1": "Chainsaw Man volume 6 and 7. I did not watch the Reze arc movie when it was out in theaters but I always liked season 1, so I recently started reading the manga. I can see why everyone would love the movie so much. The manga is very enjoyable so far, with cinematic panel layouts that match the anime's style.",
       "source_url": "https://boards.4chan.org/a/thread/290653357",
-      "source_hint": "/a/ thread praising Chainsaw Man manga",
+      "source_hint": "/a/ thread recommending Chainsaw Man manga over the movie",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime discussion, no trade"
+        "rationale": "Anime recommendation, not a trade"
       },
-      "text_en_b2": "I finally got around to reading the Chainsaw Man Reze arc in volumes 6 and 7, having skipped the theatrical release entirely, though I'd genuinely enjoyed the first season back in the day. The manga absolutely lives up to the hype, and I can see precisely why audiences flocked to the film adaptation. While plenty of viewers criticized the direction of season 1, the cinematic flourishes actually suit the panel layouts remarkably well — so apparently I've acquired yet another obsessive hobby.",
-      "text_en_c1": "Having finally perused the Chainsaw Man Reze arc in its manga incarnation, volumes six and seven proved thoroughly rewarding despite my having bypassed the theatrical release. Season one attracted considerable criticism for its directorial choices, yet the source material's panel layouts lend themselves naturally to cinematic translation, a structural quality that renders the animated adaptation's stylistic decisions defensible upon reflection. The cinematic sensibility permeates every sequence, and one emerges appreciating how the static page anticipated the kinetic possibilities of film.",
-      "text_en_c2": "Having at long last acquainted myself with the Reze arc of Chainsaw Man, encompassing volumes six and seven, I find myself belatedly comprehending the fervor that surrounded its theatrical adaptation, a film I regrettably declined to witness in cinemas. My tardiness notwithstanding, the experience of encountering the material in its original sequential-art form proved thoroughly rewarding, the narrative possessing an unmistakable cinematic sensibility that transcends the conventional limitations of the medium. Season 1 of the anime, which attracted considerable critical opprobrium for its directorial choices, increasingly appears vindicated upon comparison with the source material, whose panel compositions themselves exhibit a distinctly filmic grammar.",
-      "audio_url": "audio/2026-09-06/clip-anime1.mp3"
+      "text_en_b2": "Someone finally pushed me towards the Chainsaw Man manga, and although I missed the Reze arc when it played in cinemas, the online discussion was impossible to ignore. Having enjoyed the first season's direction, I eventually caved and started reading from volume 6 onwards, and it has been an absolute blast so far. The panel layouts feel genuinely cinematic, mirroring the anime's visual flair, so now that Gundam 00 has wrapped, I finally have something fresh to sink my teeth into.",
+      "text_en_c1": "A friend recently recommended that I read the Chainsaw Man manga, volumes six and seven in particular, which cover the Reze arc that I had conspicuously missed when it screened theatrically. Having enjoyed the first season's animated adaptation, I resolved to catch up via the source material, and the experience has been thoroughly rewarding. The panel layouts are unmistakably cinematic, mirroring the kinetic visual language that made the anime so distinctive, and the story beats translate remarkably well to the printed page. With Gundam 00 finally wrapped up, I find myself, for the first time in months, with a genuinely compelling series to read. Long may it last.",
+      "text_en_c2": "Having been prevailed upon to sample Chainsaw Man's manga, volumes six and seven in particular, I approached the material with a degree of scepticism, having missed the Reze arc's theatrical run and harboured merely fond recollections of season one's adaptation. The subsequent immersion proved unexpectedly rewarding: Fujimoto's panel compositions possess a genuinely cinematic cadence, choreographing motion and silence with a visual economy that the animated iteration only intermittently approximates. With Gundam 00's broadcast concluded and the palate jaded by repetition, one discovers at last a successor worthy of sustained attention.",
+      "audio_url": "audio/2026-09-06/clip-anime-csm-reze.mp3"
     }
   ]
 }

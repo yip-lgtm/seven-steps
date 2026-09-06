@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade1",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "比特幣vs黃金",
+      "id": "biz-pons-doge",
+      "topic_en": "PONS and Doge1",
+      "topic_zh": "PONS同Doge幣",
       "category": "trading",
-      "file": "clip-trade1.mp3",
-      "bytes": 287988,
-      "chars": 285
-    },
-    {
-      "id": "trade2",
-      "topic_en": "SpaceX IPO Lockup",
-      "topic_zh": "SpaceX IPO解禁",
-      "category": "trading",
-      "file": "clip-trade2.mp3",
-      "bytes": 311604,
-      "chars": 266
-    },
-    {
-      "id": "tech1",
-      "topic_en": "AI vs Democracy",
-      "topic_zh": "AI毀滅民主",
-      "category": "tech/ai",
-      "file": "clip-tech1.mp3",
-      "bytes": 351348,
-      "chars": 331
-    },
-    {
-      "id": "hk1",
-      "topic_en": "BYD Free Ad",
-      "topic_zh": "BYD最佳廣告",
-      "category": "hk/news",
-      "file": "clip-hk1.mp3",
-      "bytes": 319092,
-      "chars": 268
-    },
-    {
-      "id": "lol1",
-      "topic_en": "Western Gamers Rules",
-      "topic_zh": "西洋人唔聽話",
-      "category": "lol/esports",
-      "file": "clip-lol1.mp3",
-      "bytes": 291444,
+      "file": "clip-biz-pons-doge.mp3",
+      "bytes": 365748,
       "chars": 287
     },
     {
-      "id": "mma1",
-      "topic_en": "Just Bench No Grappling",
-      "topic_zh": "練Grappling啦",
-      "category": "mma/fitness",
-      "file": "clip-mma1.mp3",
-      "bytes": 286260,
-      "chars": 276
+      "id": "biz-spacex-lockup",
+      "topic_en": "SpaceX lockup release",
+      "topic_zh": "SpaceX IPO lockup",
+      "category": "trading",
+      "file": "clip-biz-spacex-lockup.mp3",
+      "bytes": 323700,
+      "chars": 273
     },
     {
-      "id": "anime1",
-      "topic_en": "Chainsaw Man Manga",
+      "id": "tech-mit-ai-paper",
+      "topic_en": "MIT AI paper",
+      "topic_zh": "MIT AI paper",
+      "category": "tech/ai",
+      "file": "clip-tech-mit-ai-paper.mp3",
+      "bytes": 343284,
+      "chars": 330
+    },
+    {
+      "id": "hk-byd-ad",
+      "topic_en": "BYD free ad",
+      "topic_zh": "BYD免費廣告",
+      "category": "hk/news",
+      "file": "clip-hk-byd-ad.mp3",
+      "bytes": 225204,
+      "chars": 160
+    },
+    {
+      "id": "lol-lis-dev",
+      "topic_en": "LiS developer dies",
+      "topic_zh": "LiS工作室執笠",
+      "category": "lol/esports",
+      "file": "clip-lol-lis-dev.mp3",
+      "bytes": 174516,
+      "chars": 193
+    },
+    {
+      "id": "mma-grappling",
+      "topic_en": "Grappling over bench",
+      "topic_zh": "MMA朋友講grappling",
+      "category": "mma/fitness",
+      "file": "clip-mma-grappling.mp3",
+      "bytes": 307572,
+      "chars": 313
+    },
+    {
+      "id": "anime-csm-reze",
+      "topic_en": "Chainsaw Man manga",
       "topic_zh": "鏈鋸人漫畫",
       "category": "anime/culture",
-      "file": "clip-anime1.mp3",
-      "bytes": 312180,
-      "chars": 306
+      "file": "clip-anime-csm-reze.mp3",
+      "bytes": 302964,
+      "chars": 309
     }
   ]
 }
