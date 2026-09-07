@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-macro-btc-gold",
+      "id": "biz-spacex-lockup",
+      "topic_en": "SpaceX lockup release",
+      "topic_zh": "SpaceX鎖倉解禁",
+      "category": "trading",
+      "file": "clip-biz-spacex-lockup.mp3",
+      "bytes": 346164,
+      "chars": 277
+    },
+    {
+      "id": "biz-btc-vs-gold",
       "topic_en": "Bitcoin vs Gold",
       "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-trade-macro-btc-gold.mp3",
-      "bytes": 367476,
-      "chars": 328
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 266100,
+      "chars": 285
     },
     {
-      "id": "trade-musk-spacex-lockup",
-      "topic_en": "SpaceX lockup",
-      "topic_zh": "SpaceX 鎖倉解禁",
-      "category": "trading",
-      "file": "clip-trade-musk-spacex-lockup.mp3",
-      "bytes": 362868,
-      "chars": 274
-    },
-    {
-      "id": "tech-ai-paid-models",
-      "topic_en": "AI model shill",
-      "topic_zh": "AI 模型補習",
+      "id": "g-paid-models",
+      "topic_en": "Are paid AI models worth it?",
+      "topic_zh": "貴model係咪必要",
       "category": "tech/ai",
-      "file": "clip-tech-ai-paid-models.mp3",
-      "bytes": 293172,
-      "chars": 287
+      "file": "clip-g-paid-models.mp3",
+      "bytes": 349620,
+      "chars": 323
     },
     {
-      "id": "hk-stablecoin-banks",
-      "topic_en": "US stablecoin",
-      "topic_zh": "美元穩定幣",
+      "id": "pol-banks-stablecoin",
+      "topic_en": "21 US banks launch stablecoin",
+      "topic_zh": "21間美銀發穩定幣",
       "category": "hk/news",
-      "file": "clip-hk-stablecoin-banks.mp3",
-      "bytes": 342132,
-      "chars": 321
-    },
-    {
-      "id": "lol-character-dynamics",
-      "topic_en": "Game character dynamics",
-      "topic_zh": "遊戲角色關係",
-      "category": "lol/esports",
-      "file": "clip-lol-character-dynamics.mp3",
-      "bytes": 302964,
-      "chars": 297
-    },
-    {
-      "id": "mma-fit-deadlift-record",
-      "topic_en": "Deadlift world record",
-      "topic_zh": "硬舉世績",
-      "category": "mma/fitness",
-      "file": "clip-mma-fit-deadlift-record.mp3",
-      "bytes": 258036,
-      "chars": 261
-    },
-    {
-      "id": "anime-chainsawman",
-      "topic_en": "Chainsaw Man manga",
-      "topic_zh": "鏈鋸人漫畫",
-      "category": "anime/culture",
-      "file": "clip-anime-chainsawman.mp3",
-      "bytes": 287412,
+      "file": "clip-pol-banks-stablecoin.mp3",
+      "bytes": 323124,
       "chars": 287
+    },
+    {
+      "id": "v-genshin-tencent",
+      "topic_en": "Tencent vs Genshin Impact",
+      "topic_zh": "騰訊打壓原神",
+      "category": "lol/esports",
+      "file": "clip-v-genshin-tencent.mp3",
+      "bytes": 337524,
+      "chars": 319
+    },
+    {
+      "id": "fit-405-bench",
+      "topic_en": "405 lbs bench sighting",
+      "topic_zh": "405磅枱凳",
+      "category": "mma/fitness",
+      "file": "clip-fit-405-bench.mp3",
+      "bytes": 274740,
+      "chars": 253
+    },
+    {
+      "id": "a-100girlfriends-s3",
+      "topic_en": "100 Girlfriends S3 ep10",
+      "topic_zh": "100女友S3 EP10",
+      "category": "anime/culture",
+      "file": "clip-a-100girlfriends-s3.mp3",
+      "bytes": 271284,
+      "chars": 229
     }
   ]
 }
