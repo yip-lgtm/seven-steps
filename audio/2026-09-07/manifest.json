@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-pons-doge",
-      "topic_en": "PONS and DOGE1",
-      "topic_zh": "PONS 同 DOGE1",
+      "id": "t1-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "比特幣 vs 黃金",
       "category": "trading",
-      "file": "clip-biz-pons-doge.mp3",
-      "bytes": 414132,
-      "chars": 321
+      "file": "clip-t1-btc-vs-gold.mp3",
+      "bytes": 248244,
+      "chars": 236
     },
     {
-      "id": "biz-spacex-lockup",
-      "topic_en": "SpaceX lockup expiry",
-      "topic_zh": "SpaceX 解禁期",
+      "id": "t2-spacex-lockup",
+      "topic_en": "SpaceX lockup dump",
+      "topic_zh": "SpaceX IPO lockup",
       "category": "trading",
-      "file": "clip-biz-spacex-lockup.mp3",
-      "bytes": 350196,
-      "chars": 298
+      "file": "clip-t2-spacex-lockup.mp3",
+      "bytes": 324852,
+      "chars": 255
     },
     {
-      "id": "g-paid-models",
-      "topic_en": "Why everyone pushes paid AI",
-      "topic_zh": "點解全部叫人買 paid",
+      "id": "t3-paid-ai",
+      "topic_en": "Paid AI cope",
+      "topic_zh": "課金AI才識用",
       "category": "tech/ai",
-      "file": "clip-g-paid-models.mp3",
-      "bytes": 298356,
-      "chars": 301
+      "file": "clip-t3-paid-ai.mp3",
+      "bytes": 287412,
+      "chars": 289
     },
     {
-      "id": "pol-stablecoin-banks",
-      "topic_en": "US banks joint stablecoin",
-      "topic_zh": "美國銀行搞 stablecoin",
+      "id": "t4-stablecoin-bill",
+      "topic_en": "US banks launch stablecoin",
+      "topic_zh": "21間美國銀行發穩定幣",
       "category": "hk/news",
-      "file": "clip-pol-stablecoin-banks.mp3",
-      "bytes": 375540,
-      "chars": 337
+      "file": "clip-t4-stablecoin-bill.mp3",
+      "bytes": 320244,
+      "chars": 296
     },
     {
-      "id": "v-sakuga-100girlfriends",
-      "topic_en": "100 Girlfriends sakuga hype",
-      "topic_zh": "100 Girlfriends S3 集 sakuga",
+      "id": "t5-ffxiv-msq",
+      "topic_en": "FFXIV proper playthrough",
+      "topic_zh": "終於認真打FFXIV",
       "category": "lol/esports",
-      "file": "clip-v-sakuga-100girlfriends.mp3",
-      "bytes": 232692,
-      "chars": 202
+      "file": "clip-t5-ffxiv-msq.mp3",
+      "bytes": 254580,
+      "chars": 267
     },
     {
-      "id": "fit-cant-burn-fat",
-      "topic_en": "Can't burn fat",
-      "topic_zh": "燒極都燒唔到脂",
+      "id": "t6-405-bench",
+      "topic_en": "405lb bench sighting",
+      "topic_zh": "405磅臥推",
       "category": "mma/fitness",
-      "file": "clip-fit-cant-burn-fat.mp3",
-      "bytes": 320820,
-      "chars": 254
+      "file": "clip-t6-405-bench.mp3",
+      "bytes": 270708,
+      "chars": 251
     },
     {
-      "id": "a-bust-size",
-      "topic_en": "Anime bust size limits",
-      "topic_zh": "二次元胸部極限",
+      "id": "t7-hyakkano",
+      "topic_en": "Hyakkano episode 10",
+      "topic_zh": "百女戰10集",
       "category": "anime/culture",
-      "file": "clip-a-bust-size.mp3",
-      "bytes": 263796,
-      "chars": 263
+      "file": "clip-t7-hyakkano.mp3",
+      "bytes": 245940,
+      "chars": 217
     }
   ]
 }

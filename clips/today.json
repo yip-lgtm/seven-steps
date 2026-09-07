@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-pons-doge",
+      "id": "t1-btc-vs-gold",
       "category": "trading",
-      "topic_zh": "PONS 同 DOGE1",
-      "topic_en": "PONS and DOGE1",
-      "text_zh": "/biz/ 又有癲佬計數：如果 PONS 真係 flip 到 Pump.fun，可以殺到 $3。DOGE1 食到 1% DOGE 街貨已經 $150M market cap。又係 meme 配 stocks，boomer 直接入 crypto。望住個 chart 我又想 all-in，但又諗起上次 CFD 輸到阿媲都唔認 😭 命理叫我今日 hold 住先，唔好再加注。",
-      "text_en_b1": "How high can PONS and Doge actually go? I did the maths. If PONS flips Pump.fun, we could see PONS around $3. If DOGE1 captures just 1% of the real DOGE market cap, that is already a $150 million market cap. Pairing memes with stocks is wild. Boomers who already own stocks will be able to get into crypto with one click.",
-      "source_url": "https://boards.4chan.org/biz/thread/62663347",
-      "source_hint": "/biz/ thread about PONS and DOGE1 upside math",
+      "topic_zh": "比特幣 vs 黃金",
+      "topic_en": "Bitcoin vs Gold",
+      "text_zh": "十年長揸只揸一樣，BTC 定 XAU？我自己兩個都揸緊，但依個post問得好。黃金有央行背書，BTC就得個共識。命理同技術分析都畀唔到答案lol。📉",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, which one would you pick and what makes your choice better than the other? The question came up on /biz/ today and most anons just shitpost. Real arguments are welcome.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ thread asking BTC vs gold for the next decade",
       "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "weeks",
+        "asset": "BTC",
+        "direction": "neutral",
+        "conviction": "low",
+        "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP lays out a concrete upside case for DOGE1 capturing 1% of DOGE market cap, implicitly bullish on DOGE-adjacent plays"
+        "rationale": "Comparison post, no clear setup, sentiment is split"
       },
-      "text_en_b2": "Someone on /biz/ ran the numbers and the projections look genuinely wild. If PONS somehow manages to flip Pump.fun, we could realistically see PONS hitting around $3. Meanwhile, DOGE1 capturing just 1% of DOGE's market cap would already translate into roughly $150 million. Pairing meme tokens with traditional stocks is an unusual move, although it could let boomers pivot into crypto with a single click.",
-      "text_en_c1": "Should one really trust the deluded number-crunching on /biz/? Apparently, if PONS somehow managed to dethrone Pump.fun, its price could realistically approach three dollars. Meanwhile, DOGE1 absorbing merely one percent of DOGE's market capitalisation would translate into a valuation of roughly 150 million. The fusion of meme tokens with traditional equities is nothing short of absurd. Stock-holding boomers, who already navigate equities comfortably, could acquire cryptocurrency with a single click. Looking at the chart, half of me wants to go all-in; the other half remembers my CFD debacle last quarter. I think I'll heed the stars for once and simply hold my position rather than chasing further exposure.",
-      "text_en_c2": "A fresh round of speculative arithmetic has resurfaced on 4chan's /biz/, this time with PONS and DOGE1 in the crosshairs. Should PONS somehow succeed in flipping Pump.fun's valuation, a per-token figure in the vicinity of $3 appears mathematically plausible, while DOGE1 absorbing a mere 1% of Dogecoin's circulating market capitalisation would, by the poster's reckoning, translate into something approaching $150 million. The underlying thesis remains a familiar one: that the conflation of meme equities with traditional stock holdings could grant legacy investors seamless on-ramps into digital assets. Choreographed, perhaps, for the boomer cohort already overexposed to equities. Yet such charts invariably invite reckless conviction, and the writer confesses, with characteristic ambivalence, to being haunted by previous CFD misadventures. Astrology, mercifully, counsels restraint for the day.",
-      "audio_url": "audio/2026-09-07/clip-biz-pons-doge.mp3"
+      "text_en_b2": "Bitcoin versus gold: if you could hold only one asset for the next ten years, which would you choose, and what makes your case stronger than the alternative? This question surfaced on /biz/ today, but most anons responded with jokes and memes rather than a serious analysis. Gold is backed by central banks, whereas Bitcoin ultimately relies on market consensus. Although technical and fundamental analysis may offer clues, neither can provide a definitive answer. Genuine arguments are welcome.",
+      "text_en_c1": "Were you compelled to liquidate every alternative position and hold nothing but a single asset for the coming decade, Bitcoin or gold would secure your allegiance, and on what grounds does that conviction outweigh the rival case? The thread surfaced on /biz/ this morning and, predictably, devolved into the usual avalanche of memes and unserious posting, though a handful of anons have been making what look like substantive arguments, weighing central-bank endorsement against decentralised consensus, scarcity narratives against network effects. Neither technical analysis nor fundamental astrology, whichever one takes seriously, resolves the dilemma. Genuine reasoning, however flawed, would be a welcome departure from the noise.",
+      "text_en_c2": "A question surfaced on /biz/ that genuinely merits deliberation: if one were compelled to hold a single asset for the coming decade, should it be Bitcoin or gold, and what substantive reasoning underpins that preference? Most respondents, predictably, resorted to facile shitposting rather than rigorous analysis. Gold benefits from centuries of institutional trust, central-bank endorsement, and an entrenched role as a monetary anchor; Bitcoin, by contrast, derives its value entirely from decentralised consensus and cryptographic scarcity. Neither technical analysis nor astrological speculation offers a definitive verdict, yet the inquiry itself remains intellectually compelling, particularly for those already allocating capital across both instruments and seeking a more principled framework for conviction.",
+      "audio_url": "audio/2026-09-07/clip-t1-btc-vs-gold.mp3"
     },
     {
-      "id": "biz-spacex-lockup",
+      "id": "t2-spacex-lockup",
       "category": "trading",
-      "topic_zh": "SpaceX 解禁期",
-      "topic_en": "SpaceX lockup expiry",
-      "text_zh": "SpaceX 又有 lockup 到期🙏 9月9號大約 319M 股解禁，即係 7% baseline pool 同 2.4% total shares。IPO 後第 90 日，第三輪 major release event。Musk 仔又嚟料，short 佢定 long 佢好？上次 TSLA earnings 我已經輸一鑊，依家真係唔敢亂動。Tommy 叫我睇 AP 質素先再入場，但我個倉已經頂唔順。",
-      "text_en_b1": "On September 9, 2026, around 319 million more SpaceX shares become eligible to sell. That is about 7% of the baseline pool and roughly 2.4% of total shares outstanding. It marks the 90th trading day since the IPO and the third major lockup release event. Watch for supply pressure around that date.",
+      "topic_zh": "SpaceX IPO lockup",
+      "topic_en": "SpaceX lockup dump",
+      "text_zh": "2026年9月9號，大約3.19億股SpaceX stock解禁，佔總股本約2.4%。第三次lockup expiry。睇下TSLA會唔會被波及啦，prop firm倉好驚🧐",
+      "text_en_b1": "September 9, 2026: roughly 319 million additional SpaceX shares, about 7% of the baseline pool / roughly 2.4% of total shares outstanding, become eligible for sale. This marks the 90th trading day since the IPO and is the third major lockup release event.",
       "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ thread tracking SpaceX IPO lockup release calendar",
+      "source_hint": "/biz/ SpaceX IPO lockup expiry thread",
       "signal": {
-        "asset": "observation",
+        "asset": "TSLA",
         "direction": "observation",
         "conviction": "none",
-        "time_horizon": "none",
+        "time_horizon": "days",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Calendar item only, no actionable setup in the OP"
+        "rationale": "Lockup expiry is a known date risk, no clear trade direction implied"
       },
-      "text_en_b2": "Another SpaceX lockup expiry is approaching, and this one could shake things up. Around 319 million shares become eligible to sell on September 9, representing roughly 7% of the baseline pool and about 2.4% of total shares outstanding. It falls on the 90th trading day post-IPO, marking the third major release event. Supply pressure around that date could be significant, so I'm watching closely before deciding whether to short or go long.",
-      "text_en_c1": "Another SpaceX lockup expiry is approaching. On September 9th, approximately 319 million shares will become eligible for sale, representing roughly seven percent of the baseline pool and around 2.4 percent of total shares outstanding. This marks the ninetieth trading day following the IPO and constitutes the third major release event. Should one short the position or go long? My TSLA earnings misadventure still stings, so I am frankly hesitant to act. Tommy advised me to scrutinise the associated prospectus before committing any capital, but my portfolio can scarcely tolerate further volatility at this juncture.",
-      "text_en_c2": "Yet another lockup cliff has materialised for SpaceX, with approximately 319 million shares becoming tradeable on the ninth of September. That tranche constitutes in the order of 7% of the baseline pool and roughly 2.4% of total shares outstanding, falling precisely on the ninetieth trading day following the IPO and constituting the third major vesting event of this cycle. The implications for near-term supply pressure are, by any reasonable assessment, non-trivial, particularly given the inherent illiquidity of a stock that has only recently entered the public markets. The thread on /biz/ oscillates predictably between bearish conviction and opportunistic longing, with the author disavowing any directional bias after last quarter's Tesla earnings debacle. Prudence, presumably, shall prevail until prospectus-grade disclosure permits otherwise.",
-      "audio_url": "audio/2026-09-07/clip-biz-spacex-lockup.mp3"
+      "text_en_b2": "On September 9, 2026, roughly 319 million additional SpaceX shares will become eligible for sale. That figure represents about 7 percent of the baseline pool and approximately 2.4 percent of all shares outstanding. The release marks the 90th trading day since the company’s IPO and its third major lockup expiration. Although the shares may not all enter the market immediately, traders will be watching whether the increased supply puts pressure on TSLA or affects prop firms holding large positions.",
+      "text_en_c1": "On the ninth of September 2026, approximately 319 million additional SpaceX shares — equivalent to roughly seven percent of the baseline pool or about two and a half percent of total shares outstanding — will become eligible for sale, marking the ninetieth trading day since the IPO. This constitutes the third major lockup expiry, and prop desks are reportedly scrambling to model the overhang, since insider liquidations of this magnitude have historically exerted downward pressure even on names with strong fundamentals. Whether Tesla absorbs collateral damage depends on correlation and sentiment, but the trading desks I have spoken to are bracing themselves.",
+      "text_en_c2": "On 9 September 2026, approximately 319 million SpaceX shares will become eligible for resale, representing some 2.4 percent of total shares outstanding and roughly 7 percent of the baseline pool. This event, the third major lockup expiry since the company's IPO, coincides with the customary ninetieth trading day after the offering, a calendar inflection that institutional investors monitor with considerable vigilance. The implications extend well beyond SpaceX itself; should the float generate downward pressure, adjacent equities such as Tesla may experience correlated volatility, given the high-beta exposure favoured by prop-trading desks. Whether insider conviction or mere liquidity arithmetic will dominate remains an open question, one that market participants would do well to dissect in advance.",
+      "audio_url": "audio/2026-09-07/clip-t2-spacex-lockup.mp3"
     },
     {
-      "id": "g-paid-models",
+      "id": "t3-paid-ai",
       "category": "tech/ai",
-      "topic_zh": "點解全部叫人買 paid",
-      "topic_en": "Why everyone pushes paid AI",
-      "text_zh": "/g/ 有人問點解永遠有人叫人用 paid ChatGPT / Claude，話 paid 先睇到真正實力。但其實 Kimi、GLM、Qwen 已經做到 90% performance，價錢可能 10% 都唔使。Surveying 助理都好多人話俾錢買 AI 先穩陣，但工程牌我自己都考緊，真係冇咁多 budget。Dr. An 都叫我用 Qwen 寫嘢慳時間。",
-      "text_en_b1": "Have you noticed this type of post? 'If you have not tried the PAID models you do not know what they are capable of.' Why do you never see people telling others to spend a tiny fraction on a cheaper model like Kimi, GLM or Qwen, which gets you easily 90% of the performance for maybe 10% of the price?",
+      "topic_zh": "課金AI才識用",
+      "topic_en": "Paid AI cope",
+      "text_zh": "啲人成日叫人畀錢上ChatGPT Plus，但Kimi / Qwen / GLM平到笑，性能有90%。我考牌都靠Qwen續命，廢柴沒錢課金🧐",
+      "text_en_b1": "Have you noticed this type of post? People say \"if you haven't tried the PAID models you don't know what they are capable of\" and \"try the PAID tier, you'll see how scary they are.\" But cheaper models like Kimi, GLM or Qwen get you easily 90% of the performance for maybe 10% of the price.",
       "source_url": "https://boards.4chan.org/g/thread/109741497",
-      "source_hint": "/g/ thread about paid vs cheaper AI models",
+      "source_hint": "/g/ thread about people shilling paid AI tiers",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "General AI tooling discussion, not a trade setup"
+        "rationale": "Tech discussion, not a trade setup"
       },
-      "text_en_b2": "Have you noticed how /g/ is flooded with posts insisting you need to pay for ChatGPT or Claude to unlock their true potential? It is genuinely puzzling. Meanwhile, models like Kimi, GLM, and Qwen already deliver around 90% of that performance, often at a fraction of the cost. While premium tools certainly have their merits, many survey assistants still insist paid versions are the safer bet. I am juggling my engineering exams on a tight budget, so cheaper alternatives just make sense.",
-      "text_en_c1": "One frequently encounters posts asserting that anyone who has not tried paid ChatGPT or Claude has no genuine appreciation of their capabilities. Yet remarkably few advocate for cheaper alternatives such as Kimi, GLM, or Qwen, which arguably achieve ninety percent of the performance at perhaps ten percent of the price. Surveying assistants often insist that paid subscriptions are essential for reliability, but as someone currently pursuing engineering certifications, my budget simply cannot accommodate recurring AI costs. Dr. An recommended Qwen for streamlining documentation, and frankly, the value proposition is difficult to dispute.",
-      "text_en_c2": "A rhetorical pattern has grown irksome across the AI discourse: the insistent refrain that one cannot genuinely assess frontier capability without ponying up for ChatGPT or Claude subscriptions. The implicit suggestion is that the paid tier alone reveals what these systems can truly accomplish, while the open-weight alternatives remain consigned to permanent also-ran status. Yet Kimi, GLM and Qwen have demonstrably closed the gap to within striking distance of their proprietary counterparts, delivering what is colloquially termed ninety percent of the performance at a fraction, perhaps a tenth, of the cost. The economic calculus for an individual practitioner, particularly one juggling professional examinations on a constrained budget, renders the subscription gospel increasingly untenable. Subscriptions, after all, are recurrent; competence, once cultivated, compounds indefinitely.",
-      "audio_url": "audio/2026-09-07/clip-g-paid-models.mp3"
+      "text_en_b2": "Have you noticed how often people insist that ChatGPT Plus or other paid models are the only AI products worth trying? They argue that users cannot understand their capabilities until they have experienced the paid tier, which is allegedly far more capable. However, cheaper alternatives such as Kimi, Qwen, and GLM can deliver roughly 90 percent of that performance for perhaps 10 percent of the price.",
+      "text_en_c1": "Have you encountered that particular breed of post in which the author insists, with almost evangelical fervour, that anyone who has not sampled the paid tier of frontier models simply cannot appreciate their capabilities, and that those who try them will find them terrifying? The premise deserves scrutiny, because the open-weights ecosystem — Kimi, GLM, Qwen among others — now delivers something close to ninety percent of that performance at perhaps ten percent of the cost. I personally passed a licensing exam largely through Qwen-assisted study, which rather undermines the notion that meaningful capability remains exclusively behind a paywall.",
+      "text_en_c2": "A recurring strain of commentary insists that only paid-tier large language models deliver genuinely capable output, yet such assertions betray a certain incuriosity about the contemporary open-weight landscape. Models such as Kimi, Qwen, and GLM routinely achieve performance within striking distance of flagship offerings, often at a tenth of the subscription cost, a disparity that renders the premium tier something of a luxury rather than a necessity. For budget-constrained users, myself included, these alternatives have proven entirely serviceable for cognitively demanding tasks; professional licensure preparation, for instance, has been substantially supported by Qwen without recourse to a paid plan. The presumption that capability scales linearly with expenditure deserves more rigorous scrutiny than its proponents typically provide.",
+      "audio_url": "audio/2026-09-07/clip-t3-paid-ai.mp3"
     },
     {
-      "id": "pol-stablecoin-banks",
+      "id": "t4-stablecoin-bill",
       "category": "hk/news",
-      "topic_zh": "美國銀行搞 stablecoin",
-      "topic_en": "US banks joint stablecoin",
-      "text_zh": "21 間美國銀行夾份推 stablecoin，Trump 已經將美國賣晒俾私人公司同 bank。即將會有 Apple Coin、Google Coin、Tesla Coin、X Coin、銀行幣⋯⋯美國金融市場會俾幾百種 digital cash 淹沒。我喺 HK 都睇到呢單新聞，李生都話 bitcoin 可能受惠。考牌溫書溫到頭都痛，睇下新聞抖下。",
-      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. He has sold out the U.S. to private companies and banks, allowed them to issue their own currencies to sell government bonds. Soon there will be Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin everywhere.",
+      "topic_zh": "21間美國銀行發穩定幣",
+      "topic_en": "US banks launch stablecoin",
+      "text_zh": "21間美國銀行聯手發stablecoin。Trump將成個美國賣晒畀私人機構同銀行，Apple Coin、Microsoft Coin、X Coin全部會嚟。USD地位就嚟冇，到時BTC同gold點算？wtf",
+      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. Before long you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin. The U.S. financial markets will be flooded with hundreds of different digital currencies.",
       "source_url": "https://boards.4chan.org/pol/thread/542134554",
-      "source_hint": "/pol/ thread about US banks issuing a joint stablecoin",
+      "source_hint": "/pol/ thread on the U.S. bank stablecoin coalition",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News commentary on policy, no direct trade thesis in the OP"
+        "rationale": "News/political commentary, no actionable trade"
       },
-      "text_en_b2": "Twenty-one U.S. banks are joining forces to launch a joint stablecoin, and this could be the real endgame behind Trump's recent legislation. Critics argue he has effectively handed the country over to private corporations, since these entities can now mint their own currencies to sell government bonds. The market will soon be flooded with Apple Coin, Google Coin, Tesla Coin, and countless bank-issued tokens. Even from Hong Kong, the implications are impossible to ignore.",
-      "text_en_c1": "Twenty-one American banks have jointly agreed to launch a stablecoin, ostensibly fulfilling the underlying purpose of Trump's stablecoin legislation. Critics argue the administration has effectively outsourced America's monetary infrastructure to private corporations and financial institutions, permitting them to mint currencies for the purpose of offloading government debt. Within months, the financial ecosystem may well be inundated with hundreds of digital cash variants: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and various bank-issued tokens. Even from Hong Kong, one can scarcely escape the headlines. Mr. Lee speculated that bitcoin might ultimately benefit.",
-      "text_en_c2": "A consortium of twenty-one American banking institutions has coalesced around a joint stablecoin initiative, ostensibly to facilitate the issuance of tokenised debt against the federal government's balance sheet. The political reading, articulated with characteristic bluntness on /pol/, contends that the relevant stablecoin legislation represents a wholesale transfer of monetary sovereignty to private enterprise, with incumbent banks acquiring de facto authority to mint parallel currencies. The downstream proliferation appears inevitable: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and a generic Bank Coin shall, presumably, compete for transactional primacy in a marketplace already saturated with dollar-pegged alternatives. From Hong Kong, where one observes such developments with professional detachment, the implications for Bitcoin's relative scarcity thesis appear decidedly favourable, even as the regulatory perimeter remains conspicuously undefined.",
-      "audio_url": "audio/2026-09-07/clip-pol-stablecoin-banks.mp3"
+      "text_en_b2": "Twenty-one U.S. banks reportedly plan to launch a joint stablecoin, which some see as the real purpose behind Trump’s stablecoin bill. Before long, critics expect a flood of branded digital currencies, including Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin. The argument is that private companies and financial institutions are taking over the American economy. If hundreds of such currencies enter circulation, they could weaken the dollar’s position. What would that mean for Bitcoin, gold, and the wider financial system?",
+      "text_en_c1": "Twenty-one American banks are reportedly preparing to roll out a joint stablecoin, a development that many now regard as the genuine underlying rationale for the Trump administration's stablecoin legislation. Once the regulatory door swings open, expect a cascade of corporate issuers — Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, Bank Coin — flooding the financial plumbing with hundreds of distinct digital instruments. Whether such saturation entrenches dollar hegemony or dilutes it remains contested, though the implications for Bitcoin and gold, which thrive on monetary distrust, could prove considerable.",
+      "text_en_c2": "Twenty-one American banks have coalesced around the prospect of issuing a jointly administered stablecoin, a development whose significance transcends the immediate technical innovation and gestures toward something more structural. Critics contend that the underlying legislation, ostensibly championed by the Trump administration, effectively privatises the architecture of digital dollar circulation, ceding monetary infrastructure to consortia whose interests may not align with broader public welfare. The anticipated proliferation of corporate-issued tokens, ranging from Apple Coin and Microsoft Coin to X Coin and Bank Coin, portends a fragmented settlement landscape in which the dollar's primacy could erode not through external challenge but through internal dilution. Should that scenario materialise, Bitcoin and gold may yet find themselves reassessed as alternative stores of value.",
+      "audio_url": "audio/2026-09-07/clip-t4-stablecoin-bill.mp3"
     },
     {
-      "id": "v-sakuga-100girlfriends",
+      "id": "t5-ffxiv-msq",
       "category": "lol/esports",
-      "topic_zh": "100 Girlfriends S3 集 sakuga",
-      "topic_en": "100 Girlfriends sakuga hype",
-      "text_zh": "今日 100 Girlfriends S3E10，17 人 sword fight 再食拉麵，sakuga 預備。/v/ 啲人已經唔等得。LIHKG 都有巴打話等睇 action scene。今晚打完 gym 即刻返屋企追，肥仔信話佢已經開定串流等。考牌溫書都係要唞下，睇完先繼續溫 ICE module。",
-      "text_en_b1": "100 Girlfriends Season 3 Episode 10 is out. In this episode we get a huge 17 person sword fight, then they eat some ramen. Tune in for sakuga. The /a/ thread is hyped and the Tokyo MX stream link is up.",
-      "source_url": "https://boards.4chan.org/a/thread/290739220",
-      "source_hint": "/a/ hype thread for 100 Girlfriends S3E10",
+      "topic_zh": "終於認真打FFXIV",
+      "topic_en": "FFXIV proper playthrough",
+      "text_zh": "好耐冇打機，FFXIV斷斷續續玩咗幾年都未過MSQ。今晚開嚟hea下先，打完一集LoL再睇下LCK，s15啲隊真係難睇lol。打機時間都係錢🥲",
+      "text_en_b1": "I finally started playing FFXIV properly instead of making a character, doing a few quests, and dropping it for six months. The music is great, the world has a lot more personality than I expected. Please keep spoilers to a minimum. What jobs did everyone start with?",
+      "source_url": "https://boards.4chan.org/v/thread/747001345",
+      "source_hint": "/v/ thread from a new FFXIV player starting the MSQ",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime episode release, no market relevance"
+        "rationale": "Gaming chatter, not a trade setup"
       },
-      "text_en_b2": "100 Girlfriends Season 3 Episode 10 just dropped, and sakuga fans are losing their minds. The episode features an elaborate 17-person sword fight followed by a ramen scene that delivers beautifully animated character acting. The /a/ thread is buzzing with hype, and a Tokyo MX stream link has already been pinned for viewers across regions. After wrapping up my gym session, I am heading straight home to catch up before diving back into ICE module revision.",
-      "text_en_c1": "The long-awaited 100 Girlfriends Season 3 Episode 10 has finally dropped, delivering an elaborate seventeen-person swordfight before segueing into a quintessential ramen scene. The animation quality promises genuine sakuga moments that aficionados have been anticipating for weeks. Enthusiasts on /a/ have been refreshing threads impatiently, and LIHKG regulars have likewise been vocal about their eagerness for the action sequences. Once I finish my gym session tonight, I intend to head straight home and stream the episode. Fatty Shin has already loaded the Tokyo MX broadcast in preparation. Studying for the ICE module can wait until afterwards.",
-      "text_en_c2": "The tenth episode of 100 Girlfriends' third season has, at long last, dropped, and the animation community's anticipation has, predictably, reached fever pitch. The instalment delivers a sprawling seventeen-person swordfight, choreographed with the kinetic exuberance that has defined the adaptation's standout sequences, before pivoting to a comparatively meditative sequence in which the ensemble partakes of ramen. Sakuga aficionados on both /a/ and the LIHKG forums have been primed for precisely this brand of limited-budget spectacle, with the Tokyo MX stream having gone live as scheduled. Personal commitments, alas, intervened: an evening gym session preceded a hurried return home, and the inevitable study obligations pertaining to the ICE module shall necessarily be deferred until the credits have rolled. Tommy, characteristically, has had the stream queued since morning.",
-      "audio_url": "audio/2026-09-07/clip-v-sakuga-100girlfriends.mp3"
+      "text_en_b2": "I have finally started playing Final Fantasy XIV properly rather than creating a character, completing a handful of quests, and then disappearing for six months. Although I had played on and off for years, I had never managed to finish the main scenario quest. The music is excellent, while the world has far more personality than I expected. I would appreciate it if spoilers were kept to an absolute minimum. Which jobs did other players begin with when they first started?",
+      "text_en_c1": "After years of half-hearted attempts, in which I would create a character, dabble in a handful of starter quests, then abandon the game for roughly six months at a stretch, I have finally committed to playing Final Fantasy XIV properly and am working through the main scenario. The soundtrack is remarkably accomplished, and the world possesses a personality I had not anticipated; if anyone could refrain from spoiling upcoming story beats, I would be grateful. For those who persevered, which starting job did you ultimately settle on, and would you make the same choice now?",
+      "text_en_c2": "After several years of intermittent, perfunctory engagement with Final Fantasy XIV, characterised by the familiar cycle of character creation, cursory quest progression, and subsequent abandonment, I have finally committed to a proper playthrough of the main scenario. The soundtrack is, frankly, more distinguished than I had been led to anticipate, and Eorzea possesses a tonal idiosyncrasy that distinguishes it from its genre peers. Should any responders wish to contribute, I would be grateful for spoiler-free reflections on early job selections, as I am presently weighing the relative merits of several disciplines. The undertaking feels, for the first time, less like obligation and more like genuine investment of one's leisure hours.",
+      "audio_url": "audio/2026-09-07/clip-t5-ffxiv-msq.mp3"
     },
     {
-      "id": "fit-cant-burn-fat",
+      "id": "t6-405-bench",
       "category": "mma/fitness",
-      "topic_zh": "燒極都燒唔到脂",
-      "topic_en": "Can't burn fat",
-      "text_zh": "/fit/ 巴打 18% bf，每日行 15k-20k steps 燒 500-800 kcal，再 cut 500 kcal 食物，total 1000 kcal deficit。但 4 個禮拜落嚟個 scale 完全唔郁。Progressive overload 做到肌肉大咗但脂肪冇減。每週平均 90k steps，佢自己都好迷惘。睇到我好有 feel，肥仔信成日笑我 body image 焦慮，其實佢都係。",
-      "text_en_b1": "I'm at 18% body fat and stuck. I walk 15k to 20k steps a day, burning 500 to 800 calories just from that. I also cut 500 calories of food. So that is a 1000 kcal deficit. I can keep progressive overload and my muscles are getting bigger and more visible.",
-      "source_url": "https://boards.4chan.org/fit/thread/77492625",
-      "source_hint": "/fit/ thread from anon struggling to lose fat on a 1000 kcal deficit",
+      "topic_zh": "405磅臥推",
+      "topic_en": "405lb bench sighting",
+      "text_zh": "405磅bench我連做夢都未試過，睇到即刻tag肥仔信。佢而家1pl8 OHP都未穩陣，我哋兩個加埋都舉唔起條barlol。操到35歲睇下點",
+      "text_en_b1": "How often do you see a 405lb bench press in your gym? Anons replied that most commercial gyms you see one maybe once every few months, but serious powerlifting gyms get one almost every session. A few said 405 raw is a lifetime milestone for naturals.",
+      "source_url": "https://boards.4chan.org/fit/thread/77494557",
+      "source_hint": "/fit/ thread asking how often you see a 405lb bench press",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Body recomp question, not a trade"
+        "rationale": "Fitness discussion, not a trade setup"
       },
-      "text_en_b2": "I am hovering around 18% body fat and completely plateaued despite running a serious deficit. Each day I log between 15k and 20k steps, burning anywhere from 500 to 800 calories through walking alone. On top of that, I trim roughly 500 calories from my diet, bringing the total daily deficit to around 1000 kcal. Progressive overload is working since my muscles are visibly growing, yet the scale refuses to budge after four solid weeks of consistency.",
-      "text_en_c1": "I find myself genuinely perplexed by this plateau. Currently hovering around eighteen percent body fat, I log between fifteen and twenty thousand steps daily, burning somewhere in the region of 500 to 800 calories from ambulation alone. Combined with a 500-calorie reduction in caloric intake, my aggregate deficit should approach 1000 kilocalories. Progressive overload remains consistent, and my musculature has grown noticeably more defined. Nevertheless, after four consecutive weeks, the scale refuses to budge, and subcutaneous fat appears stubbornly unchanged. Averaging roughly 90,000 steps weekly, I am beginning to wonder whether my methodology requires fundamental reassessment rather than mere incremental adjustment.",
-      "text_en_c2": "A poster on /fit/ finds himself in a metabolic quandary that would be familiar to any trainee caught between the competing demands of caloric restriction and progressive overload. Holding steady at approximately 18% body fat, he logs between fifteen and twenty thousand daily steps, expending somewhere in the region of five to eight hundred kilocalories through ambulatory activity alone, to which he adds a further five hundred kilocalorie dietary deficit for an aggregate daily shortfall exceeding one thousand kilocalories. The training stimulus has, by his account, yielded discernible muscular hypertrophy, with muscle groups becoming visibly more defined as the weeks accumulate. The bathroom scale, however, remains obstinately unmoved across four consecutive weeks, and the resulting disillusionment is palpable.",
-      "audio_url": "audio/2026-09-07/clip-fit-cant-burn-fat.mp3"
+      "text_en_b2": "How often do you actually see a 405-pound bench press in your gym? Anons say that in most commercial gyms, a lift of that size might appear only once every few months, whereas serious powerlifting gyms can produce one almost every session. A few respondents described a raw 405 as a lifetime milestone for natural athletes. Personally, I cannot even imagine attempting it, and combining my strength with that of the person I would tag would still not get the bar moving.",
+      "text_en_c1": "How frequently does one actually witness a 405-pound bench press in a commercial gym setting, because by any honest accounting it remains a vanishingly rare event? Anons across the thread offered that in the typical big-box facility you might see such a number attempted perhaps once every several months, whereas dedicated powerlifting gyms tend to produce one almost every session, given the clientele. Several veterans remarked that pressing 405 raw, without the assistance of a suit or wraps, represents a lifetime milestone for natural lifters. Tagging my training partner who has yet to lock down a single-plate overhead press, may we both reach that threshold by thirty-five.",
+      "text_en_c2": "The sighting of a 405-pound bench press in a commercial gym remains, statistically speaking, a genuinely rare occurrence, perhaps once every several months in a typical setting, whereas serious powerlifting facilities witness such feats on an almost quotidian basis. For drug-free lifters, pressing 405 raw constitutes a benchmark widely regarded as a lifetime milestone, one that demarcates the merely dedicated from the genuinely committed. I find myself, candidly, nowhere near that threshold; my own pressing numbers remain modest, and the prospect of attaining such strength by thirty-five feels ambitious rather than implausible. Nonetheless, the discipline required to pursue such a goal confers benefits that transcend the numerical outcome itself.",
+      "audio_url": "audio/2026-09-07/clip-t6-405-bench.mp3"
     },
     {
-      "id": "a-bust-size",
+      "id": "t7-hyakkano",
       "category": "anime/culture",
-      "topic_zh": "二次元胸部極限",
-      "topic_en": "Anime bust size limits",
-      "text_zh": "/a/ 又有膠文問 anime 漫畫入面，女角胸部到底幾大先算太大。巴打們又開始引戰 Gundam 00、鬼滅、進擊嘅巨人比例問題。望住個 thread 我笑咗出嚟，今晚溫書溫到悶當娛樂。Tommy 應該都鍾意睇呢啲膠討論。",
-      "text_en_b1": "When it comes to anime and manga busts, how big is too big? Anons on /a/ are debating the limits of character design proportions. The thread is full of comparisons between classic shows and modern designs, with no real consensus on where the line should be drawn.",
-      "source_url": "https://boards.4chan.org/a/thread/290721854",
-      "source_hint": "/a/ discussion thread on anime bust size limits",
+      "topic_zh": "百女戰10集",
+      "topic_en": "Hyakkano episode 10",
+      "text_zh": "今晚準時開嚟睇，17個人拔刀＋食拉麵，呢個studio做sakuga真係唔錯。我寧願睇呢啲都唔好睇S15 LCK，太捽了🧐 考牌都未溫。",
+      "text_en_b1": "100 Girlfriends / Hyakkano Season 3 Episode 10. We will get a huge 17 person sword fight, then they will eat some ramen. Tune in for sakuga. The same studio handled the recent Gundam 00 action cuts and fans are hyped.",
+      "source_url": "https://boards.4chan.org/a/thread/290739220",
+      "source_hint": "/a/ preview thread for Hyakkano S3E10",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime character design banter, no trade relevance"
+        "rationale": "Anime discussion, not a trade setup"
       },
-      "text_en_b2": "Another day, another pointless thread on /a/ about anime bust proportions and where the line should actually be drawn. Anons are going back and forth, comparing classic series like Gundam 00 against modern hits such as Demon Slayer and Attack on Titan, debating which designs crossed the threshold. There is no real consensus, just endless flame wars over character silhouettes. Honestly, watching the thread unfold is far more entertaining than grinding through tonight's revision materials.",
-      "text_en_c1": "The eternal debate has resurfaced on /a/ regarding the upper limits of anatomical exaggeration in anime and manga character design. Specifically, contributors are dissecting precisely where proportionality crosses the threshold from stylistic flourish into outright absurdity. Comparisons range across established titles like Gundam 00, Demon Slayer, and Attack on Titan, with no discernible consensus emerging whatsoever. The thread devolves predictably into the customary Gundam versus contemporary aesthetic warfare that aficionados have witnessed countless times before. Honestly, watching the ensuing chaos provided welcome relief from an otherwise tedious evening of certification study.",
-      "text_en_c2": "The eternal question, resurrected once more on /a/, concerns the upper limits of mammary proportion within the medium of anime and manga, with the resident contrarians marshalling their customary array of comparative examples. Debates of this nature invariably devolve into partisan skirmishes over canonical franchises, with Gundam 00, Kimetsu no Yaiba, and Attack on Titan cited in alternating succession as either exemplars of restraint or harbingers of anatomical excess. The thread, predictably, has generated more heat than illumination, with participants ranging across stylistic eras in search of a definitive threshold. The absence of any genuine consensus is, of course, the entire point, and one observes the proceedings with the detached amusement afforded to those whose evening study sessions have grown insufferably tedious. Tommy, I suspect, would derive considerable pleasure from the spectacle.",
-      "audio_url": "audio/2026-09-07/clip-a-bust-size.mp3"
+      "text_en_b2": "100 Girlfriends, also known as Hyakkano, Season 3 Episode 10 is arriving, and fans are expecting a spectacular seventeen-person sword fight followed by a ramen scene. The same studio has produced strong sakuga in recent Gundam 00 action sequences, which explains why viewers are particularly excited. Although I still need to revise for my licensing exam, I would rather watch this episode than endure another grinding S15 LCK match.",
+      "text_en_c1": "Tune in tonight for the broadcast of 100 Girlfriends Season 3 Episode 10, in which a sprawling seventeen-person duel unfolds before the ensemble adjourns for a ramen sequence, an indication that the studio's commitment to sakuga remains undimmed. The same outfit recently handled the action cuts for the Gundam 00 rewatch, and fans have been vocal about their anticipation. I would frankly rather devote the evening to this than endure another slog of Season 15 LCK, where production values have grown increasingly sterile. My licensing exam revision, regrettably, will have to wait another night.",
+      "text_en_c2": "The tenth episode of Hyakkano's third season promises a sprawling seventeen-person sword engagement, followed, in characteristically capricious fashion, by an extended ramen interlude, a juxtaposition that somehow exemplifies the series' tonal dexterity. The studio responsible has demonstrated a commendable facility with sakuga, having recently delivered the action cuts for a Gundam 00 compilation that generated considerable approbation among aficionados. Such craftsmanship renders the programme a vastly preferable alternative to the current professional League of Legends circuit, whose strategic meta has calcified into something approaching aesthetic desolation. One's finite hours, after all, demand allocation toward experiences that reward rather than merely consume one's attention.",
+      "audio_url": "audio/2026-09-07/clip-t7-hyakkano.mp3"
     }
   ]
 }
