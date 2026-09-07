@@ -5,66 +5,66 @@
   "clips": [
     {
       "id": "t1-pons-doge",
-      "topic_en": "PONS Doge pump math",
-      "topic_zh": "PONS DOGE 爆升夢",
+      "topic_en": "Meme coin moonshot",
+      "topic_zh": "迷因幣押注",
       "category": "trading",
       "file": "clip-t1-pons-doge.mp3",
-      "bytes": 375540,
-      "chars": 331
+      "bytes": 339828,
+      "chars": 259
     },
     {
       "id": "t2-spacex-lockup",
       "topic_en": "SpaceX lockup expiry",
-      "topic_zh": "SpaceX 鎖倉解禁",
+      "topic_zh": "SpaceX IPO lockup",
       "category": "trading",
       "file": "clip-t2-spacex-lockup.mp3",
-      "bytes": 313332,
-      "chars": 245
+      "bytes": 315060,
+      "chars": 249
     },
     {
       "id": "ai-paid-models",
-      "topic_en": "Paid AI shills",
-      "topic_zh": "AI 模型付費撈汁",
+      "topic_en": "Paid AI model hype",
+      "topic_zh": "AI model之亂",
       "category": "tech/ai",
       "file": "clip-ai-paid-models.mp3",
-      "bytes": 242484,
-      "chars": 244
+      "bytes": 335220,
+      "chars": 314
     },
     {
-      "id": "hk-stablecoin-banks",
-      "topic_en": "US bank stablecoins",
-      "topic_zh": "美 21 銀行發穩定幣",
+      "id": "hk-stablecoin",
+      "topic_en": "US bank stablecoin",
+      "topic_zh": "美元穩定幣",
       "category": "hk/news",
-      "file": "clip-hk-stablecoin-banks.mp3",
-      "bytes": 292596,
-      "chars": 283
+      "file": "clip-hk-stablecoin.mp3",
+      "bytes": 391092,
+      "chars": 353
     },
     {
       "id": "lol-ffxiv",
-      "topic_en": "FFXIV first real run",
-      "topic_zh": "FFXIV 終於開局",
+      "topic_en": "FFXIV first time",
+      "topic_zh": "FF14新仔",
       "category": "lol/esports",
       "file": "clip-lol-ffxiv.mp3",
-      "bytes": 315060,
-      "chars": 313
+      "bytes": 332340,
+      "chars": 333
     },
     {
       "id": "mma-405-bench",
-      "topic_en": "405lbs bench sighting",
-      "topic_zh": "405 磅臥推神人",
+      "topic_en": "405lb bench sighting",
+      "topic_zh": "405磅bench",
       "category": "mma/fitness",
       "file": "clip-mma-405-bench.mp3",
-      "bytes": 192372,
-      "chars": 193
+      "bytes": 256308,
+      "chars": 206
     },
     {
-      "id": "anime-bust-size",
-      "topic_en": "Anime bust size debate",
-      "topic_zh": "動漫巨乳界線",
+      "id": "anime-chainsawman",
+      "topic_en": "Chainsaw Man manga",
+      "topic_zh": "鏈鋸人漫畫",
       "category": "anime/culture",
-      "file": "clip-anime-bust-size.mp3",
-      "bytes": 206196,
-      "chars": 204
+      "file": "clip-anime-chainsawman.mp3",
+      "bytes": 294900,
+      "chars": 306
     }
   ]
 }
