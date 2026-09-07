@@ -1,65 +1,65 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-pons-doge",
+      "id": "clip-01-btc-after-pump",
       "category": "trading",
-      "topic_zh": "PONS 同 DOGE 啲 meme 點睇",
-      "topic_en": "PONS and DOGE1 caps",
-      "text_zh": "PONS + DOGE1 啲 meme 真係癲。如果 PONS 真係 flip 到 Pumfun，可以殺到 $3。DOGE1 只要 capture 1% 真正 DOGE 個 cap 就 $150M cap。RH ecosystem 帶 normie 入場呢招好屈機。btw 我 CFD 又輸緊，又係學費 thx 🙏",
-      "text_en_b1": "PONS & DOGE1 bros. If PONS flips Pumfun, we could see PONS at $3. If DOGE1 captures just 1% of the real DOGE market cap, that is already a $150M market cap. The RH ecosystem could drive one of the biggest waves of normie onboarding we have ever seen. Pairing memes with stocks is wild.",
-      "source_url": "https://boards.4chan.org/biz/thread/62663347",
-      "source_hint": "/biz/ thread hyping PONS meme and DOGE1 alongside Robinhood onboarding",
+      "topic_zh": "BTC pump 後先買",
+      "topic_en": "BTC After the Pump",
+      "text_zh": "又係咁。BTC 橫盤兩三個禮拜冇人理，pump 完 15% 突然個個衝入去。我都係廢柴一個，止損又遲。考牌都未溫完，又輸一注。ok 當交學費。🙏",
+      "text_en_b1": "Why does everyone buy BTC after the pump? You watch BTC do nothing for weeks, ignore it completely. Then it pumps 15% and suddenly everyone wants in. This pattern repeats again and again. Buying after the move already happened is just paying tuition to the market.",
+      "source_url": "https://boards.4chan.org/biz/thread/62625769",
+      "source_hint": "/biz/ thread on chasing BTC after it already moved",
       "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "months",
+        "asset": "BTC",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP pitches DOGE1 capturing a slice of DOGE's cap as the bull case; no concrete levels"
+        "rationale": "Post is observational complaint about retail chasing, no setup"
       },
-      "text_en_b2": "PONS and DOGE1 are generating serious buzz across the meme scene right now. Should PONS manage to flip Pumfun's valuation, a $3 price target suddenly looks realistic, while DOGE1 capturing just one percent of real DOGE's market cap would already push it toward $150M. What makes this particularly clever is the RH ecosystem angle, since pairing meme tokens with familiar stocks could pull in normie capital that previously stayed on the sidelines.",
-      "text_en_c1": "PONS and DOGE1 have emerged as the standout speculative plays of the cycle, with proponents arguing that a flip against Pumpfun could propel PONS toward the $3 mark. Should DOGE1 capture even one percent of Dogecoin's market capitalisation, the resulting valuation would comfortably exceed $150 million. The Robinhood ecosystem, by bridging equities and memecoins through a single interface, appears uniquely positioned to onboard an unprecedented wave of retail participants who already hold traditional securities. This convergence of meme culture and mainstream finance feels genuinely unprecedented. Personally, my leveraged CFD positions continue bleeding capital, which I suppose is yet another tuition fee paid to the market gods.",
-      "text_en_c2": "PONS and DOGE1 exemplify the increasingly unhinged terrain of contemporary memecoin speculation. Should PONS actually overtake Pump.fun in market capitalisation, a valuation north of three dollars becomes entirely plausible. DOGE1, for its part, need only siphon a single percentage point of original Dogecoin's circulating supply to crystallise a fully diluted market cap of roughly one hundred and fifty million dollars. The Robinhood ecosystem functions as the principal conduit here, lowering barriers to entry for retail investors who already custody equities through traditional brokerage accounts. By telescoping equities and digital assets into a single interface, platforms effectively onboard legions of normie capital that would otherwise remain sequestered from on-chain activity. The fusion itself is genuinely wild.",
-      "audio_url": "audio/2026-09-06/clip-biz-pons-doge.mp3"
+      "text_en_b2": "Why does the crowd always pile into BTC once the pump has already happened? You can watch it sit flat for weeks on end with absolutely no interest, and then the moment it surges 15% out of nowhere, every retail trader suddenly wants a piece of the action. This keeps repeating itself over and over, and chasing the move after it has played out is essentially paying tuition fees to the market. Once again, I got stopped out far too late.",
+      "text_en_c1": "It is the same maddening cycle that plays out every single time. Bitcoin idles sideways for two or three weeks, attracting precisely zero attention from retail traders, and then the moment it pumps fifteen percent, the FOMO crowd piles in en masse. Chasing an asset after the move has already occurred is, in effect, handing the market a tuition fee in exchange for nothing more than a bruised ego and a lighter portfolio. If you had bought during the boredom phase, you would have been positioned long before the herd arrived, but watching paint dry requires a discipline that most participants simply do not possess.",
+      "text_en_c2": "There is a pattern so consistent it borders on ritual. Bitcoin consolidates sideways for two or three weeks, drawing precisely zero retail interest, until a fifteen-percent vertical move materialises overnight, at which point every laggard and their mother scrambles to pile in at the top. Capital preserved is capital earned, yet here I am, stop-loss once again triggered late, watching another position bleed out while my licensing exam revision sits untouched on the desk. The market, ever the patient pedagogue, has extracted another installment of tuition. Consider the lesson learned; consider, also, the asymmetric cost of ignoring it.",
+      "audio_url": "audio/2026-09-07/clip-clip-01-btc-after-pump.mp3"
     },
     {
-      "id": "biz-spacex-lockup",
+      "id": "clip-02-spacex-lockup",
       "category": "trading",
-      "topic_zh": "SpaceX IPO lockup 9月",
-      "topic_en": "SpaceX lockup expiry",
-      "text_zh": "SpaceX IPO 第三個 lockup release 喺 9月9號2026，大概 319M 股 (約 7% baseline pool / 2.4% total) 解禁。90th trading day since IPO。喂呢個真係要小心，prop firm 揸 SpaceX 嘅兄弟小心啲 lol",
-      "text_en_b1": "On September 9, 2026, about 319 million additional SpaceX shares, roughly 7 percent of the baseline pool and about 2.4 percent of total shares outstanding, become eligible for sale. This marks the 90th trading day since the IPO and is the third major lockup release event.",
+      "topic_zh": "SpaceX IPO 解禁",
+      "topic_en": "SpaceX Lockup Expiry",
+      "text_zh": "留意 SpaceX IPO。2026 年 9 月 9 號大約 3.19 億股解禁，大概係 baseline pool 7%、總股本 2.4%。IPO 後第 90 個交易日，第三次大解禁。Tesla 都係咁玩法，散戶接晒貨。🧐",
+      "text_en_b1": "On September 9, 2026, around 319 million extra SpaceX shares become eligible to sell. That is about 7% of the baseline pool and roughly 2.4% of total shares outstanding. It marks 90 trading days since the IPO and the third major lockup release event. Big supply dump incoming.",
       "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ thread flagging the third SpaceX IPO lockup release date",
+      "source_hint": "/biz/ thread on SpaceX IPO lockup release schedule",
       "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "asset": "TSLA",
+        "direction": "neutral",
+        "conviction": "low",
+        "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade setup; informational thread about lockup expiry"
+        "rationale": "Watch Sept 9 SpaceX unlock as overhang risk for Musk-linked names"
       },
-      "text_en_b2": "SpaceX's third post-IPO lockup expiry lands on September 9, 2026, unlocking roughly 319 million shares for eligible sale. That figure represents about 7 percent of the baseline pool and approximately 2.4 percent of total shares outstanding, hitting precisely on the 90th trading day since the IPO debut. Prop firms and retail traders holding SpaceX exposure should tread carefully around this window, because historical lockup releases have repeatedly triggered sharp downside moves as insider supply floods in.",
-      "text_en_c1": "The third major SpaceX lockup expiry is scheduled for September 9, 2026, at which point approximately 319 million shares, representing roughly seven percent of the baseline pool and 2.4 percent of total shares outstanding, will become eligible for sale. This release coincides with the ninetieth trading day following the IPO, making it a particularly significant milestone for early stakeholders and institutional holders alike. Anyone running a prop desk or managing concentrated exposure to SpaceX should presumably reassess their positioning well in advance. The cumulative supply pressure from staggered unlock events remains a structural risk that ought not be underestimated, especially given the heightened volatility typical of post-IPO periods.",
-      "text_en_c2": "The third post-IPO lockup expiry for SpaceX is scheduled for September 9, 2026, at which juncture approximately 319 million shares, equivalent to some seven percent of the baseline insider pool or roughly two point four percent of total shares outstanding, will become tradable. The release coincides almost exactly with the ninetieth trading day following the company's market debut, an inflection point that institutional desks have been quietly positioning around for months. For proprietary trading firms carrying concentrated exposure, the implications are far from trivial: a tranche of this magnitude flooding the secondary market in a compressed window could compress the bid-ask spread, induce cascading volatility, and precipitate precisely the kind of orderly liquidation that descends into disorderly rout.",
-      "audio_url": "audio/2026-09-06/clip-biz-spacex-lockup.mp3"
+      "text_en_b2": "Anyone keeping an eye on the SpaceX IPO situation should know that around 319 million shares are set to unlock on September 9, 2026, which translates to roughly 7% of the baseline pool and approximately 2.4% of total shares outstanding. This marks the third major lockup release, falling exactly 90 trading days after the listing. The pattern mirrors what happened with that company, where retail investors ended up absorbing the bulk of the supply being dumped onto the market.",
+      "text_en_c1": "Mark your calendars for the ninth of September, 2026, because approximately 319 million additional SpaceX shares will become eligible for sale at that point. That figure corresponds to roughly seven percent of the baseline insider pool and around two-point-four percent of total shares outstanding, marking the third major lockup expiry since the company's IPO and falling on the ninetieth trading day post-listing. Historically, such events have triggered significant supply pressure, with retail bagholders being the ones left holding depreciated positions, exactly as happened repeatedly with Tesla. Unless institutional buyers step in to absorb the overhang, one should brace for a meaningful correction.",
+      "text_en_c2": "Investors with exposure to SpaceX ought to mark September 9, 2026, in their calendars with appropriate foreboding. Approximately 319 million shares become eligible for resale that day, constituting some seven percent of the baseline pool and roughly two-point-four percent of total shares outstanding. This represents the third major lockup expiry event since the IPO, falling precisely on the ninetieth trading day post-listing. History, as Tesla holders will attest with weary familiarity, rhymes rather than repeats: institutional insiders distribute, retail absorbs the overhang, and price discovery suffers accordingly. A non-trivial supply shock is therefore imminent, and the prudent position is to recognise it.",
+      "audio_url": "audio/2026-09-07/clip-clip-02-spacex-lockup.mp3"
     },
     {
-      "id": "g-ai-democracy",
+      "id": "clip-03-paid-ai-shilling",
       "category": "tech/ai",
-      "topic_zh": "AI 會唔會滅咗 democracy",
-      "topic_en": "MIT AI and democracy",
-      "text_zh": "MIT 諾獎經濟學家出咗篇 paper「Automation and Repression」。AI 自動化和 AI 取代晒啲人工 → 財富集中 → 貧富懸殊去到 critical mass → 工人驚被碾碎就會反抗 → 統治精英用 AI 鎮壓。睇完真係靠AI續命 😵 30歲仲要諗呢啲，wtf",
-      "text_en_b1": "MIT mathematically proved AI will destroy democracy. A Nobel-winning MIT economist published a paper called Automation and Repression. As AI and automation replace human labor, wealth concentrates heavily in the hands of a tiny group of capital owners. Inequality skyrockets, and the ruling elite respond with repression once revolt risk spikes.",
-      "source_url": "https://boards.4chan.org/g/thread/109736154",
-      "source_hint": "/g/ thread discussing the MIT paper on automation and political repression",
+      "topic_zh": "AI 課金洗腦",
+      "topic_en": "Paid AI Shilling",
+      "text_zh": "而家啲人成日叫人買 ChatGPT / Claude 最貴個 tier。wtf，Qwen 同 GLM 平九成都夠我用。我考牌溫書都靠 AI 續命，唔使俾咁多 subscription。👍",
+      "text_en_b1": "Have you noticed this type of post? People keep telling you to try the PAID model tier, saying ChatGPT or Claude is so scary you have to pay for it. Why does nobody mention cheaper models like Kimi, GLM or Qwen? Those give you easily 90% of the performance for maybe 10% of the price.",
+      "source_url": "https://boards.4chan.org/g/thread/109741497",
+      "source_hint": "/g/ thread complaining about shilling for paid AI tiers",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pure observation, no trade setup"
+        "rationale": "Tech observation, no trade"
       },
-      "text_en_b2": "An MIT Nobel laureate in economics has dropped a paper titled Automation and Repression that mathematically models how artificial intelligence could gut democratic institutions. The argument runs like this: as automation displaces human labor across most sectors, wealth concentrates heavily among capital owners, pushing inequality past a critical threshold where workers, fearing total economic obsolescence, begin pushing back. The ruling elite, armed with sophisticated AI surveillance and enforcement tools, then deploy repression rather than concede meaningful reform.",
-      "text_en_c1": "A Nobel laureate economist from MIT has published a paper entitled Automation and Repression, which makes a mathematically rigorous case that artificial intelligence poses an existential threat to democratic governance. The underlying logic proceeds as follows: widespread automation precipitates dramatic labour displacement, capital becomes concentrated among an ever-shrinking elite, inequality reaches a critical threshold, and consequently the ruling class deploys AI-driven surveillance to pre-empt popular unrest. Whether one finds the conclusion alarmist or merely inevitable, the paper warrants serious engagement. At thirty, contemplating civilisational collapse between spreadsheet tabs feels rather less than ideal, yet here we are.",
-      "text_en_c2": "An MIT economist with a Nobel pedigree has issued a paper, Automation and Repression, whose thesis amounts to a mathematical obituary for representative governance. The mechanism is straightforward yet chilling: as AI systems and automation progressively supplant cognitive and manual labour, capital accrues disproportionately among an ever-shrinking coterie of asset holders. Inequality metastasises past a critical mass, at which juncture displaced workers, confronted with economic annihilation, register their grievances through whatever channels remain. The managerial class, threatened by instability, then deploys the very same AI infrastructure to surveil, preempt, and suppress dissent with surgical efficiency. The progression is depressingly linear, each link in the chain underwriting the next.",
-      "audio_url": "audio/2026-09-06/clip-g-ai-democracy.mp3"
+      "text_en_b2": "Have you noticed how every other thread these days is pushing you towards the priciest subscription tier of ChatGPT or Claude, as though those models are the only ones worth bothering with? Meanwhile, alternatives such as Kimi, Qwen and GLM deliver roughly 90% of the performance at perhaps 10% of the cost, yet hardly anyone seems to mention them. Personally, I've been getting through my licensing exam revision with AI doing the heavy lifting, and I can't justify splashing out on expensive monthly subscriptions when…",
+      "text_en_c1": "It is genuinely bewildering how aggressively people push the premium tiers of ChatGPT and Claude, framing them as indispensable tools that any serious user simply must subscribe to. Meanwhile, models such as Qwen, GLM and Kimi deliver what is arguably ninety percent of the performance at a mere fraction of the cost, often less than ten percent of what the flagship subscriptions charge on a monthly basis. Whether you are cramming for professional licensing exams or simply conducting research, these open-weight alternatives are more than sufficient for the vast majority of practical workloads.",
+      "text_en_c2": "One observes, with mounting exasperation, that the discourse surrounding ChatGPT and Claude has calcified into quasi-religious evangelism for the priciest subscription tier. Yet the open-source alternatives, Kimi, GLM, and Qwen chief among them, deliver what any rational assessment must concede is ninety percent of the capability at a tenth of the cost. I have, for the record, been sustaining my professional licensing studies almost entirely on these leaner models, and the marginal performance differential is, for my purposes, indistinguishable from noise. The subscription industrial complex, it seems, thrives on manufactured inadequacy more than on any genuine technical merit.",
+      "audio_url": "audio/2026-09-07/clip-clip-03-paid-ai-shilling.mp3"
     },
     {
-      "id": "pol-byd-ad",
+      "id": "clip-04-musk-power",
       "category": "hk/news",
-      "topic_zh": "BYD 70K 蚊車 35K 買到",
-      "topic_en": "BYD the best deal",
-      "text_zh": "Bessent 想踩中國補貼，結果全世界淨係記住一句：「BYD is the best $70,000 car that $35,000 can buy」。2026 最佳免費廣告 🇭🇰 而家係咪應該入返 BYD 過下香港窄路先 lol",
-      "text_en_b1": "Bessent tried to slam China over subsidies, but his only line people remember is: BYD is the best $70,000 car that $35,000 can buy. Best free ad for BYD in 2026. One quote, one global win.",
-      "source_url": "https://boards.4chan.org/pol/thread/542069584",
-      "source_hint": "/pol/ thread mocking Bessent's backfire into a BYD promo",
+      "topic_zh": "Musk 真權力",
+      "topic_en": "Musk True Power",
+      "text_zh": "pol 板啲人成日問 Musk 權力有幾高。btw 美國 21 間銀行合搞 stablecoin，Apple Coin、Tesla Coin、X Coin 排住隊出。HK 樓咁細、租金咁貴，呢邊真係搵唔到未來。lol",
+      "text_en_b1": "How high do you think Elon Musk's true power level is? Twenty-one U.S. banks are already planning to launch a joint stablecoin. Soon you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and Bank Coin flooding the market. One anon asked this on /pol/ tonight.",
+      "source_url": "https://boards.4chan.org/pol/thread/542134963",
+      "source_hint": "/pol/ thread asking about Musk's real political power",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, not a trade"
+        "rationale": "News / opinion piece, no trade"
       },
-      "text_en_b2": "Treasury Secretary Bessent clearly intended to criticize Chinese industrial policy and subsidies, yet somehow the only sentence anyone globally seems to remember is his backhanded compliment: BYD is the best $70,000 car that $35,000 can actually buy. One quote, completely unplanned, and BYD pockets arguably the most effective free advertisement of 2026. The irony writes itself, because while Bessent meant it as a slight, automotive buyers worldwide interpreted it as an enthusiastic endorsement of absurd value.",
-      "text_en_c1": "Treasury Secretary Bessent evidently intended to criticise Chinese industrial subsidies during a recent address, yet the only line to achieve genuine global traction was his grudging admission that BYD represents the best seventy-thousand-dollar car which thirty-five thousand dollars can actually procure. In marketing terms, this constitutes nothing short of a masterstroke for the manufacturer, who has secured priceless global publicity without expending a single dollar on advertising. The clip has circulated ubiquitously across financial media and social platforms. Perhaps the most rational response would be to finally test one of their vehicles on Hong Kong's notoriously labyrinthine road network.",
-      "text_en_c2": "Treasury Secretary Bessent evidently intended to chastise Beijing over its industrial subsidies, yet the sole line that escaped the discourse and lodged itself in the collective memory was gloriously inadvertent: BYD is the best seventy-thousand-dollar car that thirty-five thousand can buy. One ostensibly offhand remark, and the company secures what marketing executives would otherwise have laboured years and fortunes to procure, a global brand imprimatur delivered gratis by a hostile cabinet official. In an era when corporate communications are painstakingly stage-managed, this represents the apotheosis of unscripted publicity, a moment where adversary rhetoric transmutes, through sheer inadvertence, into unequivocal endorsement. Whether the company now intends to capitalise on the inadvertent endorsement by actually shipping vehicles through Hong Kong's notoriously narrow streets remains the deliciously tangential subplot.",
-      "audio_url": "audio/2026-09-06/clip-pol-byd-ad.mp3"
+      "text_en_b2": "How much genuine influence do you reckon Elon Musk actually wields at this point? Twenty-one American banks are already collaborating on a joint stablecoin venture, and once that framework lands you can bet your bottom dollar the floodgates will open. Expect Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and Bank Coin to come pouring out one after another.",
+      "text_en_c1": "A perennial debate on /pol/ concerns the true extent of Elon Musk's political and financial influence, and recent developments suggest that the answer is, quite frankly, far greater than most casual observers assume. Twenty-one American banks have already formalised plans to launch a joint stablecoin, which would fundamentally reshape the digital payments landscape once it reaches the market. Beyond that, Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and the inevitable Bank Coin are all reportedly queued for release in rapid succession. For those trapped in jurisdictions where housing is absurdly small and rents remain punishingly high, the technological momentum happening elsewhere is, to put it mildly, demoralising.",
+      "text_en_c2": "An inquiry surfaced tonight regarding the true apex of Elon Musk's influence, and the timing proves instructive. Twenty-one American banks, acting in concert, are poised to unveil a joint stablecoin, while Apple, Google, Microsoft, Tesla, and X queue with their own branded variants in what can only be described as a coordinated assault on monetary sovereignty itself. The consolidation of technological and financial power under a handful of unaccountable actors proceeds with such velocity that one is left to wonder whether the regulatory apparatus retains any meaningful purchase. From a city whose housing stock has shrunk beneath its populace and whose rents have soared beyond reason, the future looks decidedly elsewhere.",
+      "audio_url": "audio/2026-09-07/clip-clip-04-musk-power.mp3"
     },
     {
-      "id": "v-life-is-strange",
+      "id": "clip-05-fareidolia",
       "category": "lol/esports",
-      "topic_zh": "DON'T NOD 執笠",
-      "topic_en": "DON'T NOD shutting down",
-      "text_zh": "Life is Strange 開發商 DON'T NOD 執笠，啲人話係你哋唔買遊戲嘅錯。ok 認真問，S15 LoL 比賽仲有冇人睇？我下晝要跟 Tommy 落 site，但夜晚想開返個 replay 🧐",
-      "text_en_b1": "The Life is Strange developer DON'T NOD is shutting down, and people online say it is your fault, you did not buy their games. Small studios keep folding when the audience pirates instead of paying. The thread is full of eulogies for narrative games that once mattered.",
-      "source_url": "https://boards.4chan.org/v/thread/746977660",
-      "source_hint": "/v/ thread mourning DON'T NOD closure and blaming pirates",
+      "topic_zh": "Blue Archive 收皮",
+      "topic_en": "Blue Archive Devs New Game",
+      "text_zh": "lol Blue Archive 班開發者出新 3D game Fareidolia。一個時代結束。S15 我都未睇完，又多樣嘢要追。溫完 HKIE 先講。🙏",
+      "text_en_b1": "Blue Archive developers are now turning their attention elsewhere with a new game called Fareidolia. The new 3D anime game project, previously known as RX, was officially announced alongside new story details. Fans are calling this the end of an era for the franchise.",
+      "source_url": "https://boards.4chan.org/v/thread/747029974",
+      "source_hint": "/v/ thread on Blue Archive devs announcing Fareidolia",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, not a trade"
+        "rationale": "Esports / gacha news, no trade"
       },
-      "text_en_b2": "DON'T NOD, the beloved developer behind Life is Strange, is officially shutting its doors, with online discourse overwhelmingly blaming pirating audiences rather than examining broader industry failures. Small narrative-focused studios keep folding under exactly this kind of pressure, because when players pirate instead of purchasing, the developers bear the full cost. The resulting thread reads like a digital wake, packed with eulogies for games that genuinely shaped a generation of storytelling in interactive media.",
-      "text_en_c1": "French studio DON'T NOD, the developer behind the seminal Life is Strange franchise, has announced its closure, and predictably enough, online discourse has attributed the collapse to widespread piracy and insufficient consumer support for narrative-driven titles. Independent studios producing story-focused experiences continue to fold at an alarming rate, casualties of an industry that increasingly privileges live-service models over artistic ambition. The accompanying thread reads as a protracted eulogy for an entire medium. Meanwhile, with my afternoon site visit with Tommy fast approaching, I find myself weighing whether to catch a League of Legends replay once the evening rolls around.",
-      "text_en_c2": "DON'T NOD, the Parisian studio whose Life is Strange franchise defined an entire aesthetic of melancholic interactive fiction, has shuttered its doors, and the discourse has predictably ossified into a familiar recrimination: the audience is complicit, having allegedly pillaged the catalogue through piracy rather than purchasing it. Independent narrative studios, perpetually capital-starved and dependent on the conscientiousness of a fragmenting readership, continue to fold at a dispiriting cadence. The thread itself reads as a protracted eulogy for a vanished medium, with veterans cataloguing the titles that once mattered and lamenting the structural conditions that rendered their survival untenable. Whether the closure reflects market failure, audience apathy, or merely the terminal exhaustion of an aging creative cohort remains genuinely contested.",
-      "audio_url": "audio/2026-09-06/clip-v-life-is-strange.mp3"
+      "text_en_b2": "It looks like the Blue Archive development team have finally moved on, having officially unveiled a brand-new 3D anime game called Fareidolia, the very project that had previously circulated under the codename RX. Alongside the announcement, fresh story details were also shared, and longtime fans are already mourning the moment as the end of an era for the franchise. Meanwhile, I'm still struggling to finish watching Season 15, and now there's yet another title added to my ever-growing backlog.",
+      "text_en_c1": "The developers behind Blue Archive have officially unveiled Fareidolia, a brand-new three-dimensional anime project that was previously circulating under the codename RX. The announcement, which dropped alongside preliminary story details and character concepts, has been received by longtime fans as a symbolic passing of the torch, if not the outright end of an era for the franchise they once championed. Given that Season Fifteen has not yet been fully watched and professional licensing exam preparation looms, this represents yet another item on an already overflowing queue of media to consume. One can only hope that the quality matches the nostalgia.",
+      "text_en_c2": "Blue Archive, that venerable cornerstone of one's anime gaming routine, appears to be entering its twilight chapter as the development studio pivots attention toward Fareidolia, a freshly unveiled three-dimensional project previously circulating under the codename RX. New story details accompanied the announcement, and the prevailing sentiment across fan communities suggests an epoch has effectively concluded. Season fifteen of the existing title remains, for this correspondent, stubbornly unfinished, and now yet another entry joins the queue. Professional licensing examinations will, regrettably, take precedence; the Fareidolia rabbit hole must perforce wait its turn. One mourns, briefly, the inexorable passage of eras.",
+      "audio_url": "audio/2026-09-07/clip-clip-05-fareidolia.mp3"
     },
     {
-      "id": "fit-grappling",
+      "id": "clip-06-cut-no-fat-loss",
       "category": "mma/fitness",
-      "topic_zh": "要唔要加 grappling",
-      "topic_en": "Add grappling or not",
-      "text_zh": "/fit/ 啲人又嚟：225lb 臥推好巴閉？一個 grappler 直接攞你去做三角鎖。你唔練 grappling，50磅輕過你嘅都可以屈機。肥仔信 係我 circle 嘅 MMA 友，佢都成日叫我去 BJJ，但考牌真係冇時間 😭",
-      "text_en_b1": "Hey nice bench press anon, 315 lbs really impressive. Now imagine someone who weighs 50 pounds less than you makes you his bitch on the ground. Any half-decent grappler would have you staring at your own asshole in seconds. You have no reason not to train grappling unless you want that outcome.",
-      "source_url": "https://boards.4chan.org/fit/thread/77497491",
-      "source_hint": "/fit/ thread shaming bench-only lifters for ignoring grappling",
+      "topic_zh": "減脂減極唔甩",
+      "topic_en": "Can't Burn Fat",
+      "text_zh": "我同 fit 板個 post 一樣樣。日日行 15k-20k steps，食又 cut 500 卡，total 1000 kcal deficit。4 個禮拜個 scale 唔郁。但條命照返，肥仔信今日又 tag 我去 gym。靠 AI 續命。",
+      "text_en_b1": "Can't burn fat. I'm at 18% body fat. I walk 15k to 20k steps a day, burning 500 to 800 calories just from walking. Plus a 500 calorie food cut, so a 1000 kcal daily deficit. Progressive overload still works and my muscles are getting bigger. But the scale isn't moving after 4 weeks. 90k steps a week on average.",
+      "source_url": "https://boards.4chan.org/fit/thread/77492625",
+      "source_hint": "/fit/ thread on stalled cut despite big deficit",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, not a trade"
+        "rationale": "Fitness struggle post, no trade"
       },
-      "text_en_b2": "Congratulations on that impressive 225lb bench press, genuinely impressive raw strength, but consider this counterpoint from anyone who actually trains combat sports seriously. Any half-decent grappler weighing fifty pounds less than you would absolutely ragdoll you on the ground within seconds, slapping on a triangle choke before you even processed what happened. Unless you specifically train grappling to defend against that exact outcome, you are essentially volunteering to become someone's training dummy whenever an actual fight breaks out.",
-      "text_en_c1": "Should anyone feel particularly accomplished about pressing 225 pounds on the bench, a rudimentary grounding in grappling fundamentals would swiftly disabuse them of that notion. A competent practitioner weighing fifty pounds less could, with minimal effort, transition the encounter to the mat and secure a fight-ending submission within seconds. Any serious MMA circle will extol the virtues of Brazilian jiu-jitsu for precisely this reason, given that weight differentials evaporate entirely once the fight goes horizontal. My own friends have been urging me to enrol, yet finding the requisite hours between revision and obligations remains, lamentably, an insurmountable obstacle.",
-      "text_en_c2": "The denizens of the fitness boards are, as ever, eager to puncture the vanity of anyone who mistakes a serviceable bench press for martial competence. A respectable two hundred and twenty-five pounds on the bar merits congratulations, certainly, until one contemplates the experience of being redirected by a grappler fifty pounds lighter, who, with the casual efficiency of long practice, drags the ponderous lifter into a triangle choke and subjects him to the indignity of self-examination at extremely close range. The biomechanical asymmetry is the operative variable here: leverage and technique routinely neutralise raw mass in ways that hypertrophy enthusiasts, cocooned in their mirror-lit silos, systematically fail to internalise.",
-      "audio_url": "audio/2026-09-06/clip-fit-grappling.mp3"
+      "text_en_b2": "I'm stuck in exactly the same situation as the guy who posted on /fit/. I'm sitting at around 18% body fat and clocking in anywhere between 15,000 and 20,000 steps a day, which on its own burns through 500 to 800 calories. On top of that, I've trimmed roughly 500 calories from my diet, putting me at a solid 1000 kcal daily deficit, and progressive overload is still doing its job because my muscles are visibly growing.",
+      "text_en_c1": "Despite maintaining a daily regimen of fifteen to twenty thousand steps, sustaining a five-hundred-calorie dietary cut and operating at a total deficit of roughly one thousand kilocalories, the scale remains stubbornly stationary after four consecutive weeks. Progressive overload in the gym continues to function as intended, and muscle growth is visibly occurring, which would normally suggest that body recomposition is taking place beneath the surface. Yet the numbers on the weighing machine refuse to cooperate, hovering around eighteen percent body fat without any meaningful downward movement, even though weekly step totals consistently exceed ninety thousand.",
+      "text_en_c2": "Plateaus, the inveterate torment of every dedicated lifter, have apparently come for me with characteristic indifference. I presently sit at roughly eighteen percent body fat, clocking between fifteen and twenty thousand daily steps, which yields some five-to-eight hundred kilocalories of expenditure before any structured exercise. A further five-hundred-calorie dietary reduction produces a daily deficit comfortably north of one thousand kilocalories. Progressive overload continues to function as advertised, muscle accrues incrementally, yet after four weeks the scale has registered precisely nothing. Ninety thousand weekly steps, sustained religiously, and the number refuses to budge. Adaptive thermogenesis, water retention, or some other metabolic sleight of hand is presumably to blame.",
+      "audio_url": "audio/2026-09-07/clip-clip-06-cut-no-fat-loss.mp3"
     },
     {
-      "id": "a-csm-reze",
+      "id": "clip-07-anime-bust",
       "category": "anime/culture",
-      "topic_zh": "鏈鋸人 Reze arc",
-      "topic_en": "Chainsaw Man manga",
-      "text_zh": "冇睇 Reze arc 電影院版，最近睇返 Chainsaw Man manga vol 6-7。Season 1 啲導演手法畀人鬥，但我覺得 cinematic 風格幾啱呢套 panel。考牌悶到爆，靠呢啲續命 lol 👍",
-      "text_en_b1": "I missed the Reze arc movie in theaters but I always liked season 1, so I recently started reading the Chainsaw Man manga from volume 6 onwards. I get why everyone loves the movie now. The manga is very enjoyable. People shit on season 1's direction, but the cinematic style actually fits the cinematic panel layouts.",
-      "source_url": "https://boards.4chan.org/a/thread/290653357",
-      "source_hint": "/a/ thread recommending the Chainsaw Man manga after the Reze arc movie",
+      "topic_zh": "動漫巨乳",
+      "topic_en": "Anime Bust Limits",
+      "text_zh": "/a/ 板有人問動漫女角巨乳幾大先算過火。lol Gundam 00 同 Demon Slayer 起碼有個比例。考牌溫到眼花，上嚟笑下都好。🧐",
+      "text_en_b1": "When it comes to anime and manga busts, how big is too big? One anon asked this on /a/ tonight and the thread is full of clips from old series and sketches. Some replies joke that physics stopped applying decades ago. Others say the limit is when the character cannot stand up straight anymore.",
+      "source_url": "https://boards.4chan.org/a/thread/290721854",
+      "source_hint": "/a/ thread on absurd anime bust sizes",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, not a trade"
+        "rationale": "Anime culture thread, no trade"
       },
-      "text_en_b2": "I regrettably missed the Reze arc theatrical release during its initial run, but having genuinely enjoyed the first anime season, I recently picked up the Chainsaw Man manga starting from volume six. Honestly, reading those chapters finally made me understand precisely why fans have been championing the movie adaptation so enthusiastically online. While plenty of viewers criticized season one's directorial choices, I personally felt the cinematic visual approach suited Fujimoto's widescreen panel layouts remarkably well, capturing that filmic energy better than conventional anime framing could…",
-      "text_en_c1": "Having missed the theatrical release of the Reze arc, I recently turned to Fujimoto's original Chainsaw Man manga, working my way through volumes six and seven with considerable enthusiasm. Season one attracted substantial criticism for its idiosyncratic directorial choices, though I would argue that the overtly cinematic approach actually complements Fujimoto's deliberately filmic panel compositions rather beautifully. The transition from page to screen loses considerable nuance, whereas the source material rewards sustained attention. Revision for examinations has proven insufferably dull, and the manga has consequently served as a welcome palliative against the relentless tedium of academic preparation.",
-      "text_en_c2": "Having neglected the Reze arc during its theatrical run, I have lately compensated by revisiting the Chainsaw Man manga from volume six onward, and the experience has proven unexpectedly restorative. Season one's directorial choices drew considerable opprobrium from purists wedded to Fujimoto's idiosyncratic panel compositions, yet the cinematic treatment arguably suits a work whose visual grammar already aspires toward cinematic register. The kinetic splatter, the vertiginous framing, and the studied longueurs all translate rather elegantly between media. Whether the theatrical adaptation will vindicate its stylistic decisions remains contested, but the source material endures regardless of interpretation. With examination preparation grinding on mercilessly, such distractions function less as indulgence than as a kind of prophylactic against terminal tedium, a small reprieve against the encroaching grey.",
-      "audio_url": "audio/2026-09-06/clip-a-csm-reze.mp3"
+      "text_en_b2": "When it comes to character designs in anime and manga, where exactly do you draw the line on bust size before things cross into ridiculous territory? An anon posed that very question on /a/ tonight, and predictably the thread has exploded into a chaotic collage of classic series clips, rough sketches and heated debate. Some commenters joke that realism stopped being a consideration decades ago, while others insist the breaking point arrives the moment the poor character can no longer stand up straight without toppling…",
+      "text_en_c1": "An anonymous poster on /a/ recently posed the eternal question of where exactly the line should be drawn when it comes to anatomical proportions in anime and manga, particularly with regard to bust size. The thread promptly descended into chaos, accumulating clips from older series alongside hastily sketched comparisons, with contributors debating whether shows such as Gundam 00 and Demon Slayer at least respected basic ratios. Some respondents argued that physics ceased to apply several decades ago, while others insisted that the threshold is reached the moment a character can no longer stand upright without compromising her centre of gravity. It is, at its core, an unanswerable question.",
+      "text_en_c2": "A thread on /a/ tonight posed a question as old as fan service itself: at what magnitude do illustrated endowments cross the threshold from anatomical suggestion into outright thermodynamic impossibility? The replies, predictably, form a curated museum of absurdities, screenshot evidence culled from decades of increasingly unmoored character design. Certain contributors observe, with no small weariness, that physics ceased to apply to the genre somewhere around the late nineties; others, more pragmatically, identify the precise breaking point as the moment a figure can no longer maintain an upright posture. One continues revising for professional examinations until one's eyes blur, and such diversions provide, at minimum, palliative amusement.",
+      "audio_url": "audio/2026-09-07/clip-clip-07-anime-bust.mp3"
     }
   ]
 }

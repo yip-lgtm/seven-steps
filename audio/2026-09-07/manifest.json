@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-07",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "clip-01-btc-after-pump",
+      "topic_en": "BTC After the Pump",
+      "topic_zh": "BTC pump 後先買",
+      "category": "trading",
+      "file": "clip-clip-01-btc-after-pump.mp3",
+      "bytes": 282228,
+      "chars": 264
+    },
+    {
+      "id": "clip-02-spacex-lockup",
+      "topic_en": "SpaceX Lockup Expiry",
+      "topic_zh": "SpaceX IPO 解禁",
+      "category": "trading",
+      "file": "clip-clip-02-spacex-lockup.mp3",
+      "bytes": 348468,
+      "chars": 276
+    },
+    {
+      "id": "clip-03-paid-ai-shilling",
+      "topic_en": "Paid AI Shilling",
+      "topic_zh": "AI 課金洗腦",
+      "category": "tech/ai",
+      "file": "clip-clip-03-paid-ai-shilling.mp3",
+      "bytes": 288564,
+      "chars": 284
+    },
+    {
+      "id": "clip-04-musk-power",
+      "topic_en": "Musk True Power",
+      "topic_zh": "Musk 真權力",
+      "category": "hk/news",
+      "file": "clip-clip-04-musk-power.mp3",
+      "bytes": 291444,
+      "chars": 278
+    },
+    {
+      "id": "clip-05-fareidolia",
+      "topic_en": "Blue Archive Devs New Game",
+      "topic_zh": "Blue Archive 收皮",
+      "category": "lol/esports",
+      "file": "clip-clip-05-fareidolia.mp3",
+      "bytes": 271860,
+      "chars": 268
+    },
+    {
+      "id": "clip-06-cut-no-fat-loss",
+      "topic_en": "Can't Burn Fat",
+      "topic_zh": "減脂減極唔甩",
+      "category": "mma/fitness",
+      "file": "clip-clip-06-cut-no-fat-loss.mp3",
+      "bytes": 417012,
+      "chars": 312
+    },
+    {
+      "id": "clip-07-anime-bust",
+      "topic_en": "Anime Bust Limits",
+      "topic_zh": "動漫巨乳",
+      "category": "anime/culture",
+      "file": "clip-clip-07-anime-bust.mp3",
+      "bytes": 289716,
+      "chars": 294
+    }
+  ]
+}
