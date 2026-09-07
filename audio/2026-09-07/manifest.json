@@ -4,58 +4,58 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-pons-doge",
-      "topic_en": "Meme coin moonshot",
-      "topic_zh": "迷因幣押注",
+      "id": "trade-macro-btc-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-t1-pons-doge.mp3",
-      "bytes": 339828,
-      "chars": 259
+      "file": "clip-trade-macro-btc-gold.mp3",
+      "bytes": 367476,
+      "chars": 328
     },
     {
-      "id": "t2-spacex-lockup",
-      "topic_en": "SpaceX lockup expiry",
-      "topic_zh": "SpaceX IPO lockup",
+      "id": "trade-musk-spacex-lockup",
+      "topic_en": "SpaceX lockup",
+      "topic_zh": "SpaceX 鎖倉解禁",
       "category": "trading",
-      "file": "clip-t2-spacex-lockup.mp3",
-      "bytes": 315060,
-      "chars": 249
+      "file": "clip-trade-musk-spacex-lockup.mp3",
+      "bytes": 362868,
+      "chars": 274
     },
     {
-      "id": "ai-paid-models",
-      "topic_en": "Paid AI model hype",
-      "topic_zh": "AI model之亂",
+      "id": "tech-ai-paid-models",
+      "topic_en": "AI model shill",
+      "topic_zh": "AI 模型補習",
       "category": "tech/ai",
-      "file": "clip-ai-paid-models.mp3",
-      "bytes": 335220,
-      "chars": 314
+      "file": "clip-tech-ai-paid-models.mp3",
+      "bytes": 293172,
+      "chars": 287
     },
     {
-      "id": "hk-stablecoin",
-      "topic_en": "US bank stablecoin",
+      "id": "hk-stablecoin-banks",
+      "topic_en": "US stablecoin",
       "topic_zh": "美元穩定幣",
       "category": "hk/news",
-      "file": "clip-hk-stablecoin.mp3",
-      "bytes": 391092,
-      "chars": 353
+      "file": "clip-hk-stablecoin-banks.mp3",
+      "bytes": 342132,
+      "chars": 321
     },
     {
-      "id": "lol-ffxiv",
-      "topic_en": "FFXIV first time",
-      "topic_zh": "FF14新仔",
+      "id": "lol-character-dynamics",
+      "topic_en": "Game character dynamics",
+      "topic_zh": "遊戲角色關係",
       "category": "lol/esports",
-      "file": "clip-lol-ffxiv.mp3",
-      "bytes": 332340,
-      "chars": 333
+      "file": "clip-lol-character-dynamics.mp3",
+      "bytes": 302964,
+      "chars": 297
     },
     {
-      "id": "mma-405-bench",
-      "topic_en": "405lb bench sighting",
-      "topic_zh": "405磅bench",
+      "id": "mma-fit-deadlift-record",
+      "topic_en": "Deadlift world record",
+      "topic_zh": "硬舉世績",
       "category": "mma/fitness",
-      "file": "clip-mma-405-bench.mp3",
-      "bytes": 256308,
-      "chars": 206
+      "file": "clip-mma-fit-deadlift-record.mp3",
+      "bytes": 258036,
+      "chars": 261
     },
     {
       "id": "anime-chainsawman",
@@ -63,8 +63,8 @@
       "topic_zh": "鏈鋸人漫畫",
       "category": "anime/culture",
       "file": "clip-anime-chainsawman.mp3",
-      "bytes": 294900,
-      "chars": 306
+      "bytes": 287412,
+      "chars": 287
     }
   ]
 }

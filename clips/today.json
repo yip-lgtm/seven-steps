@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "t1-pons-doge",
+      "id": "trade-macro-btc-gold",
       "category": "trading",
-      "topic_zh": "迷因幣押注",
-      "topic_en": "Meme coin moonshot",
-      "text_zh": "PONS同Doge仔又有異動。條post計過數，PONS如果flip咗Pumpfun，可以去到$3。Doge1只要食到DOGE市值1%就$150M cap。佢覺得RH ecosystem會帶嚟最大嗰波normie onboarding。又想all-in但戶口已經見底 🧐 學費又嚟",
-      "text_en_b1": "PONS and Doge bros. How high can we go? I did the maths. If PONS flips Pumpfun, we could see PONS at $3. If DOGE1 captures just 1% of the real DOGE market cap, that is already a $150M market cap. Pairing memes with stocks is wild. This came up on /biz/ today.",
-      "source_url": "https://boards.4chan.org/biz/thread/62663347",
-      "source_hint": "/biz/ thread hyping PONS and DOGE1 meme flips",
+      "topic_zh": "BTC vs 黃金",
+      "topic_en": "Bitcoin vs Gold",
+      "text_zh": "十年long only揀一個，BTC定黃金？寫個post同巴膠傾下。黃金穩但慢，BTC爆升爆跌。考牌都未完又要做功課 lol。🙏",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Gold has been the safe store of value for thousands of years, but BTC is digital and limited to 21 million coins. Some /biz/ anons swear by gold, others say BTC will eat its lunch.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ thread debating whether BTC or gold wins over 10 years",
       "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "weeks",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anon is hyped on DOGE1 flip potential but conviction is purely vibes, no levels named"
-      },
-      "text_en_b2": "PONS and the Doge crowd are moving again, so the obvious question is how high this train can actually climb. I worked out the numbers: if PONS flips Pumpfun, a price of $3 is not completely out of the question. Meanwhile, DOGE1 would reach a $150M market cap by taking only 1% of DOGE’s current valuation. Pairing meme coins with stocks is a pretty wild concept, although the Robinhood ecosystem could bring in the biggest wave of ordinary retail users.",
-      "text_en_c1": "PONS and the Doge derivatives are stirring again. The poster has run the figures: should PONS manage to flip Pumpfun, a price target of roughly $3 appears entirely plausible, while DOGE1 capturing just 1% of Dogecoin's market capitalisation would translate into a $150 million valuation. The underlying thesis, apparently floated on /biz/, is that pairing meme tokens with conventional equities will catalyse the largest wave of normie adoption yet. The author is tempted to deploy everything, though the account is effectively depleted and tuition payments loom. The mathematics are seductive, the runway decidedly less so.",
-      "text_en_c2": "PONS and the Doge-affiliated tokens are exhibiting fresh volatility. A poster on /biz/ has run the numbers and concludes the upside is genuinely asymmetric. If PONS were to flip Pumpfun in market capitalisation, its implied valuation would reach roughly $3 per token; meanwhile, DOGE1 capturing a mere 1% of DOGE's extant market cap would translate into a $150M valuation. The thesis advanced is that pairing meme tokens with established equities will catalyse the next wave of normie onboarding into the broader ecosystem. The author confesses, however, to the customary dilemma: tempted to deploy every remaining dollar, yet the account balance is depleted and tuition looms imminently 🧐. Such is the rhythm of speculative life.",
-      "audio_url": "audio/2026-09-07/clip-t1-pons-doge.mp3"
-    },
-    {
-      "id": "t2-spacex-lockup",
-      "category": "trading",
-      "topic_zh": "SpaceX IPO lockup",
-      "topic_en": "SpaceX lockup expiry",
-      "text_zh": "SpaceX IPO lockup第三波release，9月9日約3.19億股解禁，大約2.4% total shares outstanding。即係話insider可以開始拋。睇下SpaceX上市後走勢有冇壓力 lol，雖然我戶口冇貨但要留意",
-      "text_en_b1": "September 9, 2026: around 319 million additional SpaceX shares, roughly 2.4% of total shares outstanding, become eligible for sale. This marks the 90th trading day since the IPO and is the third major lockup release event. Watch for supply pressure.",
-      "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ flagging third SpaceX lockup release date",
-      "signal": {
-        "asset": "SPY",
+        "asset": "BTC",
         "direction": "observation",
         "conviction": "none",
-        "time_horizon": "weeks",
+        "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Macro lockup supply event, no direct SPX setup implied, just a calendar marker"
+        "rationale": "Forced-choice debate post, no directional setup, anons split"
       },
-      "text_en_b2": "SpaceX is approaching the third major wave of IPO lockup releases, with roughly 319 million additional shares becoming eligible for sale on September 9, 2026. That amount represents around 2.4% of all shares currently outstanding. Since this is also the IPO’s 90th trading day, insiders will finally have a chance to cash out. The key thing to watch is whether this fresh supply puts sustained pressure on SpaceX’s post-listing price.",
-      "text_en_c1": "The third significant SpaceX lockup expiry is scheduled for September 9, 2026, at which point approximately 319 million additional shares, equating to roughly 2.4% of total shares outstanding, will become eligible for sale. The event, which corresponds with the 90th trading day following the IPO, effectively liberates insiders from their contractual restrictions and permits them to monetise holdings. Market participants should therefore anticipate latent supply pressure, particularly given the comparatively concentrated nature of pre-IPO equity ownership. The poster, notably, holds no position but considers the technical setup too consequential to ignore.",
-      "text_en_c2": "The third tranche of SpaceX's post-IPO lockup is set to expire on 9 September, releasing approximately 319 million shares into circulation—equivalent to roughly 2.4% of total shares outstanding. As this date coincides with the ninetieth trading session following the IPO, insiders are formally permitted to divest their holdings. While retail investors such as the author, who holds no position himself, cannot directly participate, the implications for price action merit scrutiny. A sudden injection of supply invariably exerts downward pressure, particularly when sentiment has already cooled. Market microstructure theory suggests that even a modest increase in float can depress valuations disproportionately. Whether institutional buyers absorb the overhang or retail capitulates first remains to be observed.",
-      "audio_url": "audio/2026-09-07/clip-t2-spacex-lockup.mp3"
+      "text_en_b2": "For a ten-year long-only position, would you rather hold Bitcoin or gold, and what actually justifies your pick? Gold has anchored value for millennia, whereas BTC remains digital and capped at twenty-one million coins. On /biz/, anons split sharply: gold bugs point to its proven track record, while BTC maximalists insist it will eventually eat gold's lunch entirely.",
+      "text_en_c1": "Forced into a ten-year long-only position, would you allocate capital to Bitcoin or gold, and on what grounds does your selection outperform the alternative? Gold has anchored portfolios as a store of value across millennia, whereas BTC, a purely digital asset capped at twenty-one million coins, embodies scarcity in algorithmic form. Adherents on /biz/ remain divided: bullion loyalists cite durability, while Bitcoin maximalists insist it will cannibalise gold's monetary premium entirely. Given that BTC's volatility is breathtaking in both directions, the risk-adjusted calculus hinges on one's conviction regarding digital sovereignty versus time-tested metallurgical trust. Neither is obviously superior, but the asymmetry of outcomes is precisely what makes the comparison irresistible.",
+      "text_en_c2": "Were one compelled to commit capital for the ensuing decade, the perennial contest between Bitcoin and gold resists any facile adjudication. Gold, with its millennia-long track record as a repository of value, embodies a conservatism that has weathered empires and devaluations alike; yet its appreciation, though steady, seldom thrills. Bitcoin, by contrast, is a digital artefact of predetermined scarcity, capped at twenty-one million units, whose volatility is matched only by its capacity for asymmetric upside. The schism on /biz/ is hardly novel: gold maximalists invoke civilisational precedent, while BTC partisans counter that digital scarcity will inexorably devour its analog rival.",
+      "audio_url": "audio/2026-09-07/clip-trade-macro-btc-gold.mp3"
     },
     {
-      "id": "ai-paid-models",
+      "id": "trade-musk-spacex-lockup",
+      "category": "trading",
+      "topic_zh": "SpaceX 鎖倉解禁",
+      "topic_en": "SpaceX lockup",
+      "text_zh": "SpaceX IPO鎖倉期2026年9月9日又到，約3.19億股解禁，佔總股本2.4%。第三波解禁日，要小心供應衝擊。🧐",
+      "text_en_b1": "September 9, 2026: about 319 million additional SpaceX shares, roughly 7% of the baseline pool and around 2.4% of total shares outstanding, become eligible for sale. This marks the 90th trading day since the IPO and the third major lockup release event. Big supply incoming.",
+      "source_url": "https://boards.4chan.org/biz/thread/62662968",
+      "source_hint": "/biz/ thread on SpaceX IPO lockup expiry",
+      "signal": {
+        "asset": "SPACEX",
+        "direction": "observation",
+        "conviction": "low",
+        "time_horizon": "days",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Lockup expiry implies near-term supply overhang on SpaceX shares"
+      },
+      "text_en_b2": "On September 9, 2026, roughly 319 million additional SpaceX shares become eligible for sale, accounting for about seven percent of the baseline pool and approximately 2.4 percent of total shares outstanding. This marks the third major lockup release since the IPO, and the additional supply hitting the market could weigh heavily on sentiment.",
+      "text_en_c1": "On the ninth of September 2026, approximately 319 million SpaceX shares, constituting roughly seven percent of the baseline pool and around 2.4 percent of total shares outstanding, will exit the post-IPO lockup window. This date marks the ninetieth trading day since the listing and constitutes the third tranche of restrictions releasing into the open market. Should secondary supply flood the float within a compressed timeframe, short-term price discovery could prove punishing even for a name as institutionally favoured as SpaceX. Lockup events have historically functioned as overhead resistance; whether fundamentals or mere mechanics dictate the next move remains the operative question for traders.",
+      "text_en_c2": "On the ninth of September 2026, SpaceX confronts its third major lockup expiry, a corporate milestone whose consequences extend well beyond routine technicality. Approximately 319 million shares, constituting roughly 7 percent of the baseline pool and 2.4 percent of total shares outstanding, become eligible for sale precisely on the ninetieth trading day following the IPO. That such tranche releases occur in staggered waves is by design, yet the cumulative supply pressure is substantial enough to merit scrutiny. Insiders who endured the statutory restriction now possess liquid optionality, and the market must price the probability of distribution against the prevailing appetite for risk. Whether this particular wave precipitates meaningful dilution or merely registers as a footnote depends on sentiment, secondary demand, and the broader appetite for exposure to private-equity-adjacent equities.",
+      "audio_url": "audio/2026-09-07/clip-trade-musk-spacex-lockup.mp3"
+    },
+    {
+      "id": "tech-ai-paid-models",
       "category": "tech/ai",
-      "topic_zh": "AI model之亂",
-      "topic_en": "Paid AI model hype",
-      "text_zh": "/g/有人問點解個個叫人用paid ChatGPT同Claude，明明Kimi、GLM、Qwen已經做到90% performance但價錢係10%😩 考牌都未搞掂，AI又嚟搵食。靠AI續命",
-      "text_en_b1": "Have you noticed this type of post? People say: if you have not tried the PAID models you do not know what they are capable of, you have to try ChatGPT or Claude. But nobody pushes cheaper models like Kimi, GLM or Qwen, which give you easily 90% of the performance for maybe 10% of the price. The thread is on /g/.",
+      "topic_zh": "AI 模型補習",
+      "topic_en": "AI model shill",
+      "text_zh": "成日叫人買ChatGPT/Claude paid tier，但Kimi、GLM、Qwen平到笑，性能已經90%。靠AI續命嘅廢柴覺得OK。👍",
+      "text_en_b1": "Why do you never see people telling others to spend a tiny fraction of the price on cheaper models like Kimi, GLM or Qwen, which give you easily 90% of the performance for maybe 10% of the cost? The paid tier of ChatGPT or Claude is great, but the gap is smaller than the shills pretend.",
       "source_url": "https://boards.4chan.org/g/thread/109741497",
-      "source_hint": "/g/ thread asking why nobody recommends cheaper AI models",
+      "source_hint": "/g/ thread asking why no one recommends cheaper AI models",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Discussion post about AI model pricing, not a trade"
+        "rationale": "Tech observation, not a trade"
       },
-      "text_en_b2": "Have you noticed how /g/ keeps telling everyone to use paid ChatGPT or Claude, as though cheaper alternatives barely count? The strange thing is that Kimi, GLM, and Qwen are rarely pushed with the same enthusiasm, even though they can deliver roughly 90% of the performance for only around 10% of the price. For people who are not wealthy, that difference is enormous rather than trivial.",
-      "text_en_c1": "An increasingly prevalent thread on /g/ poses a question that warrants serious attention: why does virtually every recommendation insist upon the paid tiers of ChatGPT or Claude, when alternatives such as Kimi, GLM, and Qwen demonstrably deliver somewhere in the region of 90% of the performance at roughly a tenth of the cost? The prevailing discourse appears fixated upon flagship Western models, whereas capable open-weight competitors are routinely overlooked. Whether this reflects genuine superiority or merely the gravitational pull of branding remains contested, though the economic argument for the latter camp is, by any reasonable measure, compelling.",
-      "text_en_c2": "A persistent refrain on /g/ demands that users pay for premium subscriptions, insisting that until you have sampled the paid tiers of ChatGPT or Claude you cannot appreciate their true capabilities. Yet conspicuously absent from such exhortations is any mention of Kimi, GLM or Qwen—open-weight alternatives that deliver, by most empirical accounts, approximately 90% of the performance at a tenth of the price. Whether this asymmetry reflects genuine capability gaps or merely the gravitational pull of brand recognition remains a matter of conjecture. Either way, the cost-conscious user is left to wonder whether the premium tier is genuinely indispensable or simply a luxury. The thread, predictably, devolves into the eternal certification-versus-displacement debate 😩.",
-      "audio_url": "audio/2026-09-07/clip-ai-paid-models.mp3"
+      "text_en_b2": "Why does nobody recommend cheaper alternatives like Kimi, GLM, or Qwen, which deliver roughly ninety percent of the performance at perhaps ten percent of what ChatGPT or Claude charge? The paid tiers are excellent, admittedly, but the actual gap is far narrower than the shills make out. Paying full price is essentially throwing money away.",
+      "text_en_c1": "It is striking how rarely anyone recommends the affordable alternatives to ChatGPT or Claude's premium tier, given that models such as Kimi, GLM, and Qwen routinely deliver approximately ninety percent of frontier performance at perhaps a tenth of the subscription cost. The marketing apparatus surrounding proprietary incumbents has evidently convinced a generation of knowledge workers that excellence is inseparable from a monthly invoice. Whether this perception reflects genuine capability gaps or merely the gravitational pull of brand prestige is debatable. For routine drafting, summarisation, and boilerplate reasoning, the cheaper models are, frankly, indistinguishable to all but the most demanding evaluators, rendering the markup indefensible.",
+      "text_en_c2": "It is a peculiarity of contemporary discourse that evangelism for ChatGPT or Claude's premium tiers proceeds unchallenged, while ostensibly equivalent alternatives languish in obscurity. Chinese-origin models such as Kimi, GLM, and Qwen now deliver what is, by any reasonable benchmark, ninety percent of frontier performance at perhaps a tenth of the subscription cost, yet one rarely encounters their proponents proselytising with comparable fervour. The disparity is instructive: shilling is, after all, a function of incentives, and the affiliate economics of premium Western tiers evidently outweigh the modest commissions available from domestic competitors. For users whose requirements remain prosaic, the rational calculus increasingly favours the cheaper alternative, notwithstanding the prestige conferred by a recognisable subscription. The gap narrows with each release cycle.",
+      "audio_url": "audio/2026-09-07/clip-tech-ai-paid-models.mp3"
     },
     {
-      "id": "hk-stablecoin",
+      "id": "hk-stablecoin-banks",
       "category": "hk/news",
       "topic_zh": "美元穩定幣",
-      "topic_en": "US bank stablecoin",
-      "text_zh": "21間美國銀行要joint launch穩定幣，Trump簽咗stablecoin bill。之後可能Apple Coin、Google Coin、Tesla Coin、X Coin乜都有。HK金管局睇緊呢樣嘢，我地呢行survey都受影響 wtf",
-      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump stablecoin bill. He has sold out the U.S. to private companies and banks. To sell government bonds, he has allowed banks and private companies to issue their own currencies. Soon you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and Bank Coin.",
+      "topic_en": "US stablecoin",
+      "text_zh": "21間美國銀行一齊推穩定幣，特朗普擺到明賣國，以後Apple Coin、Tesla Coin、X Coin周街都係。HK遲早被溝淡，廢物。🙏",
+      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. The real purpose behind Trump's stablecoin bill is to let private companies and banks issue their own currencies. Soon you'll see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, Bank Coin. The U.S. markets will be flooded with hundreds of digital cash tokens.",
       "source_url": "https://boards.4chan.org/pol/thread/542134554",
-      "source_hint": "/pol/ rant about Trump stablecoin bill and private bank currencies",
+      "source_hint": "/pol/ thread on US banks launching joint stablecoin",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News commentary on US stablecoin policy, no direct trade setup"
+        "rationale": "Macro news observation, no actionable setup"
       },
-      "text_en_b2": "Twenty-one American banks are reportedly preparing to launch a joint stablecoin after Trump signed the stablecoin bill. Critics argue that this is the real agenda: private companies and banks have been allowed to create their own currencies, partly so they can sell government debt. If that system takes off, we may eventually be dealing with Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and even Bank Coin.",
-      "text_en_c1": "Twenty-one American banks are reportedly preparing to co-issue a stablecoin, a development that many view as the substantive rationale behind the Trump administration's recent stablecoin legislation. Critics argue that the framework effectively privatises the issuance of currency, enabling financial institutions and corporations to mint tokens ostensibly backed by government debt. If the trend proceeds unchecked, one can readily anticipate an alphabet soup of branded currencies: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, and the inevitable X Coin. Hong Kong's monetary authorities are monitoring the situation closely, and local industry surveys have already begun registering the disruption.",
-      "text_en_c2": "Twenty-one American banking institutions have announced plans to co-issue a stablecoin, a development that crystallises the latent purpose behind the Trump administration's stablecoin legislation. Critics contend that the statute effectively privatises monetary sovereignty, permitting banks and corporations to issue their own tokenised tender under regulatory fig-leaf. The ostensible rationale—facilitating Treasury issuance—does little to assuage concerns about the long-term erosion of state-issued currency. One anticipates an inevitable proliferation: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and an alphabet soup of bespoke tokens. The Hong Kong Monetary Authority is monitoring developments closely, and industry surveys across the territory are being recalibrated accordingly. The financial landscape, it seems, is being redrawn in real time, with profound implications for incumbents and newcomers alike.",
-      "audio_url": "audio/2026-09-07/clip-hk-stablecoin.mp3"
+      "text_en_b2": "Twenty-one U.S. banks are jointly launching a stablecoin, and the underlying purpose of Trump's bill is to let private firms and financial institutions mint their own currencies. Once that door opens, we will likely see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, and X Coin flooding the market with countless digital tokens.",
+      "text_en_c1": "Twenty-one American banks are reportedly coalescing around a jointly issued stablecoin, ostensibly under legislation championed by the Trump administration whose underlying purpose appears to be licensing private issuers to mint their own digital cash. If this framework advances, the near-term landscape will likely feature branded tokens from Apple, Google, Microsoft, Tesla, and X, alongside bespoke instruments from individual financial institutions. Hundreds of such instruments could plausibly circulate, fragmenting liquidity rather than consolidating it. Whether Hong Kong's tightly regulated dollar-peg ecosystem can retain relevance amid this onslaught of corporatised monetary tokens is doubtful; the regime risks being diluted into irrelevance by sheer proliferation.",
+      "text_en_c2": "Twenty-one American banking institutions have coalesced around a joint stablecoin initiative, ostensibly a stride toward payment modernisation, though the underlying legislative architecture suggests something rather more ambitious. The Trump administration's stablecoin framework, whatever its public rationalisation, effectively grants private enterprise and chartered banks the prerogative to mint their own digital tender. The implications, if one extends the logic to its terminus, are staggering: an imminent proliferation of branded tokens, Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, ad infinitum, each a sovereign-adjacent liability masquerading as innovation. Hong Kong, whose monetary discipline has long served as regional ballast, will find itself diluted by transborder liquidity flows it cannot regulate. The American bazaar, it appears, has discovered tokenisation.",
+      "audio_url": "audio/2026-09-07/clip-hk-stablecoin-banks.mp3"
     },
     {
-      "id": "lol-ffxiv",
+      "id": "lol-character-dynamics",
       "category": "lol/esports",
-      "topic_zh": "FF14新仔",
-      "topic_en": "FFXIV first time",
-      "text_zh": "/v/有人終於唔再create character然後drop game，真係玩緊FFXIV。佢讚音樂好，世界有personality，角色唔係典型hero。比我想像中好玩lol",
-      "text_en_b1": "I finally started playing FFXIV properly instead of making a character, doing a few quests, and dropping it for six months. I am still pretty early into the MSQ. The music is great, the world has a lot more personality than I expected, and I am having fun playing a character who does not really fit neatly into one heroic archetype.",
-      "source_url": "https://boards.4chan.org/v/thread/747001345",
-      "source_hint": "/v/ anon actually committing to FFXIV MSQ for once",
+      "topic_zh": "遊戲角色關係",
+      "topic_en": "Game character dynamics",
+      "text_zh": "東方game character dynamics做到出神入化，西方game點解做唔到。S15打完等MSI，順便打機減壓 lol。",
+      "text_en_b1": "Character dynamics like this are illegal in western video games. The /v/ thread is pointing to how Eastern RPGs build layered relationships between party members, while western titles keep relationships flat. Screenshots from the post show multiple named NPCs reacting to each other across scenes.",
+      "source_url": "https://boards.4chan.org/v/thread/747006150",
+      "source_hint": "/v/ thread praising Eastern game character dynamics",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming lifestyle post, no market relevance"
+        "rationale": "Gaming culture post, not a trade"
       },
-      "text_en_b2": "After years of creating a character, playing a handful of quests, and then disappearing for another six months, I have finally started FFXIV properly. I am still at quite an early stage in the Main Scenario Quest, but the game is already far more enjoyable than I expected. The soundtrack is excellent, while the world has a personality that feels more distinctive than I had anticipated. Best of all, the protagonist does not fit neatly into the usual heroic archetype.",
-      "text_en_c1": "After years of habitually creating a character, completing a handful of introductory quests, and then abandoning the proceedings for half a year, a /v/ user has finally committed to Final Fantasy XIV in earnest. Still relatively early within the main scenario quest, the poster offers a cautiously enthusiastic verdict: the soundtrack is exceptional, the world exhibits considerably more character than anticipated, and there is genuine pleasure in inhabiting a protagonist who resists the conventional heroic mould. The thread then solicits recommendations regarding starter classes, an invitation that, predictably, has generated extensive and largely contradictory responses.",
-      "text_en_c2": "After years of ritual procrastination—creating a character, completing the tutorial zone and abandoning the venture for half a year—a /v/ poster has finally committed to FFXIV in earnest. Now several hours into the Main Scenario Questline, he finds himself unexpectedly charmed. The musical score, he observes, is exceptional; the world possesses a textured, idiosyncratic personality that distinguishes it from its MMO contemporaries; and his avatar—a figure who refuses the conventional heroic archetype—has proven more compelling than anticipated. The experience, he concedes, has surpassed his prior scepticism. Curious whether others find the same, he poses an inevitable question to the community: which jobs did veteran players select when they first stepped into Eorzea? Answers, predictably, diverge wildly.",
-      "audio_url": "audio/2026-09-07/clip-lol-ffxiv.mp3"
+      "text_en_b2": "Character dynamics executed at this level should frankly be illegal in Western RPGs. The /v/ thread highlights how Eastern titles weave layered relationships between party members across countless scenes, while Western developers largely keep their NPC interactions flat and uninspired. The attached screenshots showcase named characters reacting dynamically to one another.",
+      "text_en_c1": "Character dynamics of this calibre remain conspicuously absent from western RPG design, a deficit that /v/ has been cataloguing with considerable frustration. Eastern titles invest in layered, asymmetric relationships between party members, allowing named NPCs to register as discrete personalities whose interactions evolve across scenes and arcs. Western studios, by contrast, tend to treat companion characters as interchangeable quest dispensers, stripped of interior life. The screenshots circulating demonstrate precisely this contrast: portraits reacting, conflicting, and accruing history. Until western writers internalise that meaningful characterisation requires friction rather than exposition dumps, the gap will only widen.",
+      "text_en_c2": "Character dynamics of this calibre remain, as the /v/ consensus rightly observes, essentially proscribed within the western RPG tradition. Eastern developers, working from a fundamentally different narrative inheritance, cultivate interpersonal relationships whose evolution unfolds across dozens of granular beats, with party members whose grievances, affections, and betrayals accrue cumulative weight over the course of a hundred-hour campaign. Western titles, by contrast, persist in reducing companion characterisation to binary approval metrics, a mechanical flattening that strips relationships of their inherent ambiguity. The screenshots circulated in the original thread depict named NPCs whose reactions to one another register genuine texture across scenes. Whether this disparity reflects cultural disposition, design inertia, or simply divergent assumptions about player patience is debatable, but the qualitative gulf is undeniable.",
+      "audio_url": "audio/2026-09-07/clip-lol-character-dynamics.mp3"
     },
     {
-      "id": "mma-405-bench",
+      "id": "mma-fit-deadlift-record",
       "category": "mma/fitness",
-      "topic_zh": "405磅bench",
-      "topic_en": "405lb bench sighting",
-      "text_zh": "gym見到405lbs bench。講真我連1pl8 OHP都未穩，睇到人哋405 bench即刻覺得自己廢物。肥仔信今日又tag我去gym，諗緊去唔去 🧐",
-      "text_en_b1": "How often do you see a 405lbs bench press in your gym? I am still chasing a 1pl8 OHP for reps. Seeing someone rep 405 makes me feel like I am years behind, but it also motivates me to add 5lbs next session.",
-      "source_url": "https://boards.4chan.org/fit/thread/77494557",
-      "source_hint": "/fit/ thread asking how rare a 405lb bench is at commercial gyms",
+      "topic_zh": "硬舉世績",
+      "topic_en": "Deadlift world record",
+      "text_zh": "新硬舉世績出咗，北歐仔Thor俾個messican beat咗。今日OHP未做，deadlift下背仲緊。肥仔信又話gym見。🧐",
+      "text_en_b1": "New deadlift world record broken. Nordic bros, I'm not feeling too good. Some big ol' Mexican beat Thor's deadlift. The record attempt was pulled in competition and the video is up on YouTube. The standard for elite strongman pulling keeps moving up every year.",
+      "source_url": "https://boards.4chan.org/fit/thread/77500417",
+      "source_hint": "/fit/ thread on new deadlift world record by a Mexican lifter",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gym brag post, not a trade"
+        "rationale": "Strength sports news, not a trade"
       },
-      "text_en_b2": "How often do you actually see somebody bench-pressing 405 lbs in a normal gym? I am still struggling to get a proper set of 1-pl8 overhead presses, so watching someone rep 405 makes me feel as if I am years behind. It is not a pleasant comparison, but seeing that kind of strength can still motivate me to add five pounds during my next session. Fitness Fatboy tagged me about going to the gym again today, and now I am debating whether to accept.",
-      "text_en_c1": "How frequently does one actually witness a 405-pound bench press in a commercial gym setting? The poster, who openly admits to still grinding toward a one-plate overhead press for repetitions, experienced the spectacle firsthand and reports the now-familiar cocktail of inadequacy and inspiration. Witnessing a stranger rep the weight with apparent ease inevitably prompts unwelcome comparisons, yet the encounter has also galvanised a concrete plan: five additional pounds on the bar next session. Whether that resolve survives until Thursday, when the gym buddy inevitably resurfaces, remains to be seen.",
-      "text_en_c2": "A 405lb bench press executed for clean, controlled reps is, by universal consensus, a remarkable feat in any commercial gym. The poster, who candidly admits he is still grinding toward a single-plate overhead press for respectable volume, found the spectacle simultaneously humbling and galvanising. Witnessing such strength inevitably induces that peculiar mixture of inadequacy and aspiration that defines the lifting community. He has been implored, perhaps not for the first time, by his rotund companion to accompany him to the gym, and is presently weighing the proposition 🧐. The calculus is familiar: resistance is easier than commitment, yet progress is impossible without the latter. Whether the third invitation proves the charm remains, as ever, uncertain.",
-      "audio_url": "audio/2026-09-07/clip-mma-405-bench.mp3"
+      "text_en_b2": "A new deadlift world record has just fallen, and Nordic fans are feeling pretty rough about it. Some massive Mexican strongman managed to beat Thor's mark in competition, with the full video already circulating on YouTube. The bar for elite pulling keeps creeping upward year after year, making this era genuinely remarkable.",
+      "text_en_c1": "A new deadlift world record has been ratified, and the Nordic strongman contingent is processing what can only be described as a collective blow. Thor's previously dominant mark fell to a Mexican competitor whose pull, executed under full competition conditions, is documented on YouTube for sceptical posterity. The standard for elite strongman pulling continues its inexorable upward drift, with each generation rewriting the ceiling that seemed immutable a decade prior. Whether Thor mounts a response in his next sanctioned appearance will determine whether this represents a transitional moment or the genuine changing of the guard.",
+      "text_en_c2": "The barbell has once again been pulled into uncharted territory, and the Nordic strongman fraternity finds itself in a state of collective unease. A formidable Mexican competitor has eclipsed Thor's deadlift record, the lift executed under proper contest conditions and now circulating across strength-sport media with the customary velocity. That elite strongman pulling standards continue their inexorable ascent should surprise no one, as the sport's competitive depth has expanded considerably over the past decade, with athletes from previously peripheral federations now training under optimal protocols. For the recreational lifter nursing a recalcitrant lower back after deadlift work, the spectacle serves as both inspiration and humbling reminder: the parameters of human capability are revised with each meet, and the ceiling, it seems, refuses to settle.",
+      "audio_url": "audio/2026-09-07/clip-mma-fit-deadlift-record.mp3"
     },
     {
       "id": "anime-chainsawman",
       "category": "anime/culture",
       "topic_zh": "鏈鋸人漫畫",
       "topic_en": "Chainsaw Man manga",
-      "text_zh": "/a/有人開始睇Chainsaw Man漫畫，唔係睇Reze arc movie，係補返season 1之後嘅劇情。佢覺得cinematic panel layout幾啱電影感。Reze arc真係好正",
-      "text_en_b1": "I did not watch the Reze arc movie when it was out in theaters, but I always liked season 1 so I recently started reading the Chainsaw Man manga. I can see why everyone loves the movie so much. The manga has been very enjoyable so far. The cinematic panel layouts match the movie style well, in my opinion.",
+      "text_zh": "鏈鋸人volume 6同7，Reze arc睇完電影再睇漫畫，真心正。考牌溫到笑，睇下漫畫減吓壓。",
+      "text_en_b1": "Chainsaw Man volume 6 and 7. I didn't watch the Reze arc movie when it was in theaters, but I liked season 1 so I started reading the manga. The panel layouts feel very cinematic. People shit on season 1's direction, but the cinematic style actually fits the source material pretty well.",
       "source_url": "https://boards.4chan.org/a/thread/290653357",
-      "source_hint": "/a/ thread on new reader enjoying Chainsaw Man manga over the movie",
+      "source_hint": "/a/ thread on reading Chainsaw Man manga after skipping the Reze movie",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,11 +164,11 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime discussion, no market relevance"
+        "rationale": "Anime culture post, not a trade"
       },
-      "text_en_b2": "I missed the Reze arc movie when it was originally showing in theaters, but I always enjoyed the first Chainsaw Man anime season, so I recently decided to catch up by reading the manga instead. I have only reached the story after season one, yet it has been an absolute blast so far. What stands out most is the cinematic panel layout, which fits the movie’s visual style surprisingly well.",
-      "text_en_c1": "Having conspicuously avoided the Reze arc during its theatrical run, an /a/ user has nonetheless elected to catch up with Chainsaw Man by reading the manga from the conclusion of the first season onward. The decision, motivated by lingering affection for the anime, has evidently paid dividends: the source material, in their assessment, is thoroughly compelling. The cinematic panel compositions, which clearly informed the film's visual language, translate remarkably well to the printed page and, if anything, reward the reader with a density of detail that the adaptation necessarily condensed.",
-      "text_en_c2": "Having declined to view the Reze arc film during its theatrical run, an /a/ poster recently elected to commence the Chainsaw Man manga from the post-season-one juncture. What he discovered was a reading experience every bit as kinetic as the celebrated adaptation. Fujimoto's cinematic panel compositions—elongated vertical frames, vertiginous perspective shifts and the judicious deployment of negative space—render the source material remarkably filmic, almost as though each page were storyboarded by an animator. The reader concedes that he can now appreciate why devotees were so effusive about the movie; the manga's kinetic grammar anticipates and, in some instances, arguably surpasses its animated translation. The Reze arc, he confirms, is genuinely sublime—a masterclass in compressed, emotionally devastating storytelling.",
+      "text_en_b2": "Chainsaw Man volumes six and seven cover the Reze arc, which I missed in theaters but eventually experienced through the manga after enjoying season one. The panel layouts feel remarkably cinematic, almost storyboard-like in their composition. Although many viewers criticized season one's direction, that visual style actually suits the source material rather well.",
+      "text_en_c1": "Reading Chainsaw Man volumes six and seven, the Reze arc initially encountered via cinema rather than its original print iteration, has proven genuinely compelling when experienced through Tatsuki Fujimoto's panel compositions. Critics were quick to deride season one's direction as visually inert, yet the cinematic framing aligns remarkably well with material that was always conceived in cinematic terms. Whether subsequent adaptations can replicate the manga's idiosyncratic pacing remains doubtful, since static page-turning rewards an interiority that animated brevity tends to compress. For now, the printed source remains unambiguously superior to its televised counterpart.",
+      "text_en_c2": "Chainsaw Man's sixth and seventh volumes reward the reader who arrives at them via the Reze arc's cinematic adaptation, the recent film having imparted a visual vocabulary that enriches rather than competes with Tatsuki Fujimoto's source material. The panel compositions possess a distinctly kinetic sensibility, each splash page calibrated with the precision one might associate with storyboard art rather than conventional manga convention. Critics of the anime's first season derided its direction as idiosyncratic; yet, upon returning to the printed page, one appreciates how faithfully Fujimoto's framing anticipated that very aesthetic, a confluence of static and motion that suits the narrative's propulsive rhythms. For the reader grinding through professional examinations and seeking decompression, the series offers precisely the kind of calculated mayhem that restores equilibrium.",
       "audio_url": "audio/2026-09-07/clip-anime-chainsawman.mp3"
     }
   ]
