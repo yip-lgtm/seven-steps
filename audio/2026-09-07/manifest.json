@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-spacex-lockup",
-      "topic_en": "SpaceX lockup release",
-      "topic_zh": "SpaceX鎖倉解禁",
+      "id": "clip-01-btc-pump",
+      "topic_en": "Why Buy BTC After The Pump",
+      "topic_zh": "BTC 點解升完先買",
       "category": "trading",
-      "file": "clip-biz-spacex-lockup.mp3",
-      "bytes": 346164,
-      "chars": 277
+      "file": "clip-clip-01-btc-pump.mp3",
+      "bytes": 320820,
+      "chars": 301
     },
     {
-      "id": "biz-btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs 黃金",
+      "id": "clip-02-spacex-lockup",
+      "topic_en": "SpaceX IPO Lockup",
+      "topic_zh": "SpaceX 鎖倉解禁",
       "category": "trading",
-      "file": "clip-biz-btc-vs-gold.mp3",
-      "bytes": 266100,
-      "chars": 285
+      "file": "clip-clip-02-spacex-lockup.mp3",
+      "bytes": 347892,
+      "chars": 302
     },
     {
-      "id": "g-paid-models",
-      "topic_en": "Are paid AI models worth it?",
-      "topic_zh": "貴model係咪必要",
+      "id": "clip-03-paid-ai",
+      "topic_en": "Why Nobody Pushes Cheap AI",
+      "topic_zh": "點解唔推平價 AI",
       "category": "tech/ai",
-      "file": "clip-g-paid-models.mp3",
-      "bytes": 349620,
-      "chars": 323
+      "file": "clip-clip-03-paid-ai.mp3",
+      "bytes": 325428,
+      "chars": 308
     },
     {
-      "id": "pol-banks-stablecoin",
-      "topic_en": "21 US banks launch stablecoin",
-      "topic_zh": "21間美銀發穩定幣",
+      "id": "clip-04-stablecoin-banks",
+      "topic_en": "21 US Banks Plan Stablecoin",
+      "topic_zh": "21 間銀行發穩定幣",
       "category": "hk/news",
-      "file": "clip-pol-banks-stablecoin.mp3",
-      "bytes": 323124,
-      "chars": 287
+      "file": "clip-clip-04-stablecoin-banks.mp3",
+      "bytes": 351924,
+      "chars": 345
     },
     {
-      "id": "v-genshin-tencent",
-      "topic_en": "Tencent vs Genshin Impact",
-      "topic_zh": "騰訊打壓原神",
+      "id": "clip-05-onimusha",
+      "topic_en": "Onimusha Is Not Souls",
+      "topic_zh": "Onimusha 評價",
       "category": "lol/esports",
-      "file": "clip-v-genshin-tencent.mp3",
-      "bytes": 337524,
-      "chars": 319
+      "file": "clip-clip-05-onimusha.mp3",
+      "bytes": 262644,
+      "chars": 249
     },
     {
-      "id": "fit-405-bench",
-      "topic_en": "405 lbs bench sighting",
-      "topic_zh": "405磅枱凳",
+      "id": "clip-06-cant-cut",
+      "topic_en": "Can't Burn Fat At 18%",
+      "topic_zh": "減極都減唔到",
       "category": "mma/fitness",
-      "file": "clip-fit-405-bench.mp3",
-      "bytes": 274740,
-      "chars": 253
+      "file": "clip-clip-06-cant-cut.mp3",
+      "bytes": 452148,
+      "chars": 329
     },
     {
-      "id": "a-100girlfriends-s3",
-      "topic_en": "100 Girlfriends S3 ep10",
-      "topic_zh": "100女友S3 EP10",
+      "id": "clip-07-100girlfriends",
+      "topic_en": "100 Girlfriends S3 Episode 10",
+      "topic_zh": "100 女友第三季",
       "category": "anime/culture",
-      "file": "clip-a-100girlfriends-s3.mp3",
-      "bytes": 271284,
-      "chars": 229
+      "file": "clip-clip-07-100girlfriends.mp3",
+      "bytes": 222900,
+      "chars": 185
     }
   ]
 }

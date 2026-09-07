@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-spacex-lockup",
+      "id": "clip-01-btc-pump",
       "category": "trading",
-      "topic_zh": "SpaceX鎖倉解禁",
-      "topic_en": "SpaceX lockup release",
-      "text_zh": "嘩 SpaceX IPO 第三輪 lockup 9月9號到 期，即係大概 319M 股 (約 7% baseline pool / 2.4% total shares) 突然可以沽。90 個交易日後嘅 major lockup event，到時 supply 衝出來睇下點死 🧐 揸緊 TSLA 都驚被拖累",
-      "text_en_b1": "On September 9, 2026, about 319 million SpaceX shares become eligible for sale. That is roughly 7% of the baseline pool and about 2.4% of total shares outstanding. This is the 90th trading day after the IPO and the third major lockup release event. Watch supply hit the market.",
-      "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ thread on SpaceX third lockup release hitting Sep 9, 2026",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Observation post on lockup supply event, no actionable trade setup"
-      },
-      "text_en_b2": "On September 9, 2026, roughly 319 million SpaceX shares become eligible for sale, representing about 7% of the baseline pool and roughly 2.4% of total shares outstanding. This third major lockup release lands on the 90th trading day after the IPO, meaning a sudden wave of supply will likely flood the market. While bulls argue demand can absorb it, anyone holding Tesla should brace for potential drag from a related-party sell-off.",
-      "text_en_c1": "Approximately 319 million SpaceX shares are set to become eligible for trading on September 9, 2026, representing around 7% of the baseline pool and 2.4% of total shares outstanding. This marks the third major lockup release since the IPO, triggered precisely 90 trading days after listing. Such a sudden surge in circulating supply will inevitably exert downward pressure on the stock, particularly if secondary-market demand fails to absorb the overhang. Tesla holders, whose fortunes remain intertwined with SpaceX's valuation, should brace for potential contagion effects should sentiment deteriorate.",
-      "text_en_c2": "On the ninth of September 2026, the third major lockup expiry stemming from the SpaceX IPO unfreezes roughly 319 million shares for resale. This tranche, constituting approximately seven percent of the baseline pool and a comparatively modest 2.4 percent of total shares outstanding, will descend upon a market whose appetite remains untested. The release, occurring precisely ninety trading days post-listing, constitutes the most consequential supply shock since the original offering. Should demand fail to absorb the overhang with conviction, secondary prices face predictable gravitational pressure. Holders of correlated equities, notably TSLA, ought to brace for collateral drag as sentiment cascades. Watch the bid-ask spread, watch the volume profile, and, crucially, watch the prevailing appetite.",
-      "audio_url": "audio/2026-09-07/clip-biz-spacex-lockup.mp3"
-    },
-    {
-      "id": "biz-btc-vs-gold",
-      "category": "trading",
-      "topic_zh": "BTC vs 黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "10年 hold 一樣，你揸 BTC 定黃金？黃金我阿媽都識買，但 BTC 每次 pump 完都有人問可唔可以追。我自己 GOLD long + BTC 慢慢入，又係嗰句 — 又係學費 🙏",
-      "text_en_b1": "If you had to hold only one asset for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Gold has been around for thousands of years, but Bitcoin is digital, scarce, and global. The community is split, and the debate never ends on /biz/.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ thread comparing Bitcoin and gold as 10-year holds",
+      "topic_zh": "BTC 點解升完先買",
+      "topic_en": "Why Buy BTC After The Pump",
+      "text_zh": "成日都係咁。睇住 BTC 喺度 sideways 兩三個禮拜，零興趣，然後佢一抽 15%，個個就衝入場。到底 why？每次都係咁，fomo 死晒 🙏 入都入遲，止蝕都唔知擺邊",
+      "text_en_b1": "You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened? The chart sits flat, nobody cares, one green candle and Twitter fills up with new buyers. FOMO in full force every single time.",
+      "source_url": "https://boards.4chan.org/biz/thread/62625769",
+      "source_hint": "/biz/ thread complaining about post-pump FOMO buying",
       "signal": {
         "asset": "BTC",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "months",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Implicit long-BTC bias from a buy-and-hold comparison thread, but no entry timing"
+        "rationale": "Post-mortem rant about FOMO, no actionable setup"
       },
-      "text_en_b2": "If you had to commit to a single asset for the next decade, would you pick Bitcoin or gold? Gold has weathered thousands of years of human history, yet Bitcoin offers digital scarcity and a borderless settlement layer that no metal can replicate. While /biz/ remains bitterly divided, seasoned holders typically combine a gold long with gradual BTC accumulation, accepting that both positions will probably cost tuition money along the way.",
-      "text_en_c1": "Were one compelled to select a single asset for the next decade, the perennial Bitcoin-versus-gold debate offers no easy resolution. Gold, whose store-of-value credentials span millennia, remains intuitively accessible and requires no technological literacy. Bitcoin, by contrast, promises digital scarcity and borderless settlement, yet its volatility has historically tested even the most steadfast conviction. The community remains bitterly divided, and every rally reignites accusations that latecomers are chasing tops. Personal portfolios combining a gold long with gradual Bitcoin accumulation may yet prove the prudent middle path, provided one can stomach the tuition fees along the way.",
-      "text_en_c2": "Confronted with a hypothetical decade-long moratorium on portfolio rotation, would the discerning investor elect Bitcoin or gold as the singular anchor? Gold, the perennial refuge of monarchs and merchants alike, possesses millennia of empirical validation, yet it remains capital-intensive, geographically tethered, and lamentably indifferent to software. Bitcoin, conversely, is programmable scarcity incarnate, a bearer asset whose settlement rails traverse borders instantaneously, even if its volatility historically precipitates the same forlorn inquiry after every parabolic ascent: surely it cannot be chased at such valuations. The contrarian posture, evidently, is to maintain gold as the primary long while accumulating BTC through disciplined dollar-cost averaging, ostensibly a perpetual exercise in tuition rather than triumph. The debate, eternally inconclusive, persists with religious fervour across /biz/, where conviction is invariably more abundant than capital.",
-      "audio_url": "audio/2026-09-07/clip-biz-btc-vs-gold.mp3"
+      "text_en_b2": "Bitcoin sits sideways for a couple of weeks, and absolutely nobody gives a damn. The moment it suddenly pumps around 15%, though, everyone rushes in trying to chase the move. Why does this pattern keep repeating itself without fail? One green candle appears, and Twitter immediately fills up with fresh buyers piling in long after the breakout. Classic FOMO behaviour every single time, and by then the easy gains are already gone.",
+      "text_en_c1": "It happens with such monotonous regularity that one could almost set a calendar by it. Bitcoin sits in a prolonged sideways drift for two or three weeks, attracting virtually no interest whatsoever, and then a single 15% vertical move drags every sidelined retail participant back into the market in a frenzy. The irony, of course, is that by the point at which sentiment has shifted, the low has long since been left behind; what remains is the elevated entry, the late chase, and the inevitable question of where, if anywhere, one ought to place a stop. Classic FOMO in its purest form.",
+      "text_en_c2": "There exists a remarkably consistent pattern in retail crypto behaviour that borders on the pathological. Bitcoin drifts sideways for weeks on end, volume evaporates, and not a soul deigns to glance at the chart. Then a fifteen-percent wick materialises almost out of nowhere, and the very same individuals who previously yawned at consolidation come flooding back, licking their chops at what they imagine is a fresh opportunity. The irony is almost poetic: by the time price action has already delivered, positioning has become the worst it could possibly be, since the only people still buying are precisely those who should have been accumulating when nobody cared. Twitter fills with triumphant declarations, Telegram groups spawn anew, and somehow FOMO remains the most reliable contrarian indicator the market has ever produced.",
+      "audio_url": "audio/2026-09-07/clip-clip-01-btc-pump.mp3"
     },
     {
-      "id": "g-paid-models",
+      "id": "clip-02-spacex-lockup",
+      "category": "trading",
+      "topic_zh": "SpaceX 鎖倉解禁",
+      "topic_en": "SpaceX IPO Lockup",
+      "text_zh": "睇到呢個先醒起，2026 年 9 月 9 號 SpaceX IPO 第三批 lockup 解禁，大約 319M 股（baseline 7%）可以賣街。即係大概 7%，都幾大。即係下星期就 unlock，pre-IPO 持貨嘅兄弟準備定先 🧐",
+      "text_en_b1": "On September 9, 2026, roughly 319 million extra SpaceX shares (about 7% of the baseline pool, or 2.4% of total shares outstanding) become eligible for sale. This is the 90th trading day since the IPO and the third major lockup release. Anyone holding pre-IPO units should pay attention to the overhang.",
+      "source_url": "https://boards.4chan.org/biz/thread/62662968",
+      "source_hint": "/biz/ thread flagging SpaceX lockup release",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Lockup calendar event, observation only"
+      },
+      "text_en_b2": "Heads up for anyone holding pre-IPO SpaceX units: on September 9, 2026, roughly 319 million additional shares become eligible for sale as the third major lockup release kicks in. That figure represents around 7% of the baseline pool, or roughly 2.4% of total shares outstanding, marking the 90th trading day since the IPO. The overhang is significant, so holders should brace themselves for potential pressure on the share price next week.",
+      "text_en_c1": "It is worth flagging that on September 9, 2026, the third tranche of SpaceX's post-IPO lockup expires, releasing roughly 319 million shares into the market. That figure corresponds to approximately 7% of the baseline insider pool, or around 2.4% of total shares outstanding, and it represents the 90th trading day following the listing. Anyone holding pre-IPO units would do well to factor this overhang into their positioning, since a release of this magnitude, if met with insufficient demand, can exert meaningful downward pressure on price. Prepare accordingly.",
+      "text_en_c2": "It warrants attention that on the ninth of September 2026, the third major lockup tranche from the SpaceX IPO expires, releasing approximately 319 million additional shares onto the open market, which equates to roughly seven percent of the baseline allocation and somewhere around two-and-a-bit percent of total shares outstanding. This milestone, falling on the ninetieth trading day post-listing, is no minor footnote: it represents a genuine supply overhang that pre-IPO holders ought to factor into their calculations well in advance. While secondary trades at elevated implied valuations have masked any immediate selling pressure thus far, history suggests that even well-locked insider stock eventually tests its ceiling when restrictive covenants lapse. Holders should brace accordingly, lest they find themselves absorbing a liquidity event they had insufficiently priced in.",
+      "audio_url": "audio/2026-09-07/clip-clip-02-spacex-lockup.mp3"
+    },
+    {
+      "id": "clip-03-paid-ai",
       "category": "tech/ai",
-      "topic_zh": "貴model係咪必要",
-      "topic_en": "Are paid AI models worth it?",
-      "text_zh": "死窮鬼共鳴 — /g/ 啲人成日叫人 buy ChatGPT / Claude paid tier，但 Kimi / GLM / Qwen 平 90% 價錢做到 90% 嘢。AI 嚟搶我哋飯碗就話仲慘啲，連訂閱都畀人割 🧐 揾錢優先 ok",
-      "text_en_b1": "Have you noticed this kind of post? 'If you have not tried the PAID models, you do not know what they are capable of. You have to try the PAID tier of ChatGPT or Claude.' But nobody recommends cheaper models like Kimi, GLM, or Qwen, which deliver about 90% of the performance for maybe 10% of the price. Real spending hack.",
+      "topic_zh": "點解唔推平價 AI",
+      "topic_en": "Why Nobody Pushes Cheap AI",
+      "text_zh": "成日見到人話 '你試咗 paid model 未？你要試 ChatGPT Claude 先知幾恐怖'。點解從來冇人叫大家去用 Kimi、GLM、Qwen？cheap model 已經做到 90% 效果，得 10% 價錢喎。Ai 咁燒錢真係頂唔順",
+      "text_en_b1": "Anons keep saying 'you have not tried the paid model yet, try ChatGPT or Claude and you will see how scary they are.' But nobody ever tells people to spend less on cheaper models like Kimi, GLM or Qwen, which give about 90% of the performance for maybe 10% of the price. Has anyone else noticed this pattern?",
       "source_url": "https://boards.4chan.org/g/thread/109741497",
-      "source_hint": "/g/ thread questioning why everyone pushes paid AI tiers over cheap Chinese models",
+      "source_hint": "/g/ thread complaining about paid AI hype",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,23 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech discussion on AI model pricing, no trade"
+        "stop_loss": null,
+        "rationale": "Tech observation, not a trade"
       },
-      "text_en_b2": "On /g/ you constantly see posts insisting that without trying the paid tiers of ChatGPT or Claude, you simply cannot grasp what modern AI is capable of. Yet virtually nobody recommends cheaper alternatives like Kimi, GLM, or Qwen, which deliver roughly 90% of the performance for around 10% of the price. If AI is supposedly coming for our jobs, the least we can do is stop subsidising premium subscriptions we do not need.",
-      "text_en_c1": "A familiar refrain echoes across /g/: those who have never sampled the paid tiers of ChatGPT or Claude cannot fathom their true capabilities, the argument goes, and subscriptions are therefore deemed non-negotiable. Yet conspicuously absent from such recommendations are alternatives such as Kimi, GLM, and Qwen, which deliver roughly ninety percent of the performance at a fraction of the cost, perhaps ten percent of the prevailing subscription price. Should artificial intelligence ultimately displace our livelihoods, being systematically fleeced by subscription fees would prove a particularly bitter irony. Prioritising one's earnings remains, on balance, the saner course.",
-      "text_en_c2": "A persistent orthodoxy pervades certain AI discourse, whereby the uninitiated are admonished that comprehension of frontier capability is contingent upon subscribing to ChatGPT or Claude's premium tier. The proposition, while not entirely without merit, exhibits a curious myopia: models like Kimi, GLM, and Qwen routinely deliver perhaps ninety percent of the performance at a tenth of the financial outlay. For impecunious autodidacts, this represents not merely a budgetary optimisation but a categorical refutation of the received wisdom. Should artificial intelligence ultimately appropriate the breadwinning occupations of the cognitively displaced, the indignity is compounded by subscription servitude to the very instruments of displacement. The pragmatic calculus is straightforward. Preserve liquidity, maximise utility per dollar expended, and refrain from purchasing prestige. The unpaid tiers suffice; the premium tier is largely conspicuous consumption masquerading as intellectual infrastructure.",
-      "audio_url": "audio/2026-09-07/clip-g-paid-models.mp3"
+      "text_en_b2": "Anons keep insisting that paid models like ChatGPT or Claude are on another level entirely, yet nobody bothers to recommend cheaper alternatives such as Kimi, GLM or Qwen. These budget options already deliver around 90% of the performance for roughly a tenth of the price, which makes the constant push toward expensive subscriptions feel somewhat suspicious. Has anyone else picked up on this pattern, or am I imagining things?",
+      "text_en_c1": "There is a curious pattern that anyone who spends time on these boards cannot have failed to notice: users perpetually insist that one must sample the premium tier, that ChatGPT or Claude will fundamentally recalibrate one's expectations of what an LLM can do. What nobody ever volunteers, however, is that models like Kimi, GLM and Qwen already deliver somewhere in the region of 90% of that performance for roughly a tenth of the subscription cost. Given how catastrophically capital-intensive inference has become, one might reasonably ask why this alternative is so rarely championed.",
+      "text_en_c2": "It is a curious phenomenon, one that recurs with almost mechanical regularity in certain online communities: whenever the subject of large language models arises, there is invariably some interlocutor eager to insist that one simply must experience the paid tier, that ChatGPT or Claude will reveal how terrifyingly capable these systems truly are. What is conspicuously absent from such evangelism, however, is any meaningful advocacy for the open-weights alternatives — Kimi, GLM, Qwen — models that, by most objective benchmarks, deliver somewhere in the region of ninety percent of frontier performance at perhaps a tenth of the monthly subscription cost. Whether this omission stems from genuine ignorance, reflexive brand-loyalty, or simply the algorithmic incentives that reward endorsing expensive incumbents is debatable, but the pattern itself is unmistakably consistent.",
+      "audio_url": "audio/2026-09-07/clip-clip-03-paid-ai.mp3"
     },
     {
-      "id": "pol-banks-stablecoin",
+      "id": "clip-04-stablecoin-banks",
       "category": "hk/news",
-      "topic_zh": "21間美銀發穩定幣",
-      "topic_en": "21 US banks launch stablecoin",
-      "text_zh": "omg 21間美國銀行一齊出 stablecoin，特朗普擺明賣咗美國畀私人公司同 bank。Apple Coin / Tesla Coin / X Coin 全部嚟，US financial market 會被幾百種 digital cash 淹沒 🧐 BTC 仲有得諗，alts 就死硬",
-      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. He has sold out the U.S. to private companies and banks. Soon you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin flooding the financial markets.",
+      "topic_zh": "21 間銀行發穩定幣",
+      "topic_en": "21 US Banks Plan Stablecoin",
+      "text_zh": "美國 21 間銀行一齊發 stablecoin，呢個先係 Trump 個 bill 嘅真正目的啦。Apple Coin, Google Coin, Microsoft Coin, X Coin 即將出現，一堆 digital cash 湧入市場 🇺🇸 美元霸權真係要變晒樣",
+      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. He has sold out the U.S. to private companies and banks, and allowed them to issue their own currencies to sell government bonds. Soon you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin and X Coin flood the financial markets.",
       "source_url": "https://boards.4chan.org/pol/thread/542134554",
-      "source_hint": "/pol/ thread on 21 US banks planning a joint stablecoin under Trump's bill",
+      "source_hint": "/pol/ thread about US bank stablecoin initiative",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +93,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News commentary on US stablecoin policy, no direct trade"
+        "rationale": "Macro news observation"
       },
-      "text_en_b2": "Twenty-one U.S. banks have reportedly banded together to launch a joint stablecoin, confirming what sceptics warned about all along: Trump's stablecoin bill effectively handed the American financial system to private corporations. Expect a tidal wave of branded tokens hitting the market, from Apple Coin and Google Coin to Tesla Coin and X Coin. While Bitcoin may weather the storm, altcoins are almost certainly doomed as hundreds of digital cash variants cannibalise liquidity.",
-      "text_en_c1": "Twenty-one American banks have coalesced around a joint stablecoin initiative, ostensibly fulfilling the latent objective of Trump's recently enacted stablecoin legislation. Critics contend that the administration has effectively ceded American monetary sovereignty to private financial institutions, whose interests seldom align with those of ordinary citizens. The proliferation appears relentless: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and assorted Bank Coins threaten to inundate domestic markets with hundreds of competing digital currencies. Amid this saturated landscape, Bitcoin retains a credible thesis, whereas altcoins face existential jeopardy.",
-      "text_en_c2": "An ostensibly innocuous consortium of twenty-one American banking institutions has announced a jointly issued stablecoin, ostensibly to compete within the burgeoning digital payments landscape, though the underlying political economy warrants considerably more scrutiny. Critics contend that the preceding stablecoin legislation constitutes a transparently transactional instrument whereby the erstwhile sovereign prerogative of currency issuance has been effectively ceded to private capital. The downstream consequences, it is feared, will manifest as a Cambrian explosion of tokenised instruments, with corporate entrants such as Apple, Google, Microsoft, Tesla, X, and assorted banking conglomerates each proffering proprietary digital cash. Such proliferation would inevitably dilute the informational signal of any individual stablecoin, fragmenting liquidity and corroding monetary coherence. For Bitcoin maximalists, the thesis remains viable; for altcoin enthusiasts, however, the prognosis is rather more grim. Caveat emptor.",
-      "audio_url": "audio/2026-09-07/clip-pol-banks-stablecoin.mp3"
+      "text_en_b2": "Twenty-one American banks are reportedly teaming up to launch a joint stablecoin, and this is arguably the genuine purpose behind Trump's so-called stablecoin bill. By handing control over to private corporations and financial institutions, the government has effectively allowed them to mint their own currencies and sell government bonds through them. Brace yourselves for Apple Coin, Google Coin, Microsoft Coin, Tesla Coin and X Coin flooding the markets very soon.",
+      "text_en_c1": "Twenty-one American banks are moving collectively to issue a joint stablecoin, which, if one reads the legislation soberly, appears to be the genuine endgame of the Trump administration's digital asset bill. The framework effectively privatises the issuance of dollar-denominated tokens, handing corporate America the means to monetise its own balance sheets by selling government debt into this parallel liquidity. What should therefore be expected is a proliferation of branded stablecoins, with Apple, Google, Microsoft, Tesla and X each plausibly entering the field. The architecture of dollar hegemony is, it seems, about to be quietly rewritten.",
+      "text_en_c2": "Twenty-one American banking institutions have coalesced around a joint stablecoin initiative, and it is becoming increasingly apparent that this coordinated effort — rather than the legislation itself — constitutes the substantive thrust of Trump's much-vaunted stablecoin bill. In essence, the administration has effectively ceded a measure of monetary sovereignty to private enterprise, permitting corporates to mint their own dollar-pegged tokens, which can then be deployed to absorb Treasury issuance. The downstream implications are rather staggering: one can reasonably anticipate Apple Coin, Google Coin, Microsoft Coin, and presumably an X Coin flooding the marketplace, fragmenting what was once a comparatively unified dollar ecosystem into a constellation of branded digital cash. Whether this represents a bold reimagining of US monetary hegemony or a quiet privatisation thereof depends, I suppose, upon one's priors.",
+      "audio_url": "audio/2026-09-07/clip-clip-04-stablecoin-banks.mp3"
     },
     {
-      "id": "v-genshin-tencent",
+      "id": "clip-05-onimusha",
       "category": "lol/esports",
-      "topic_zh": "騰訊打壓原神",
-      "topic_en": "Tencent vs Genshin Impact",
-      "text_zh": "lol 騰訊真係細 — 開始 mass report 同落架嘅 Genshin Impact 影片，連 Honda Mariko (Sandrone 聲優) 嘅 stream 都被人 spam 叫佢轉去玩 Wuthering Waves。Tencent 連聲優都搞，呢間公司真係毒 🧐 我繼續食瓜",
-      "text_en_b1": "The Asian gaming world is rocked by drama as Tencent has started mass reporting and taking down videos and streams about Genshin Impact. In the most notorious case, Honda Mariko, the JP voice actor for Sandrone and streamer, was harassed, her stream was spammed with insults and demands to play Wuthering Waves instead.",
-      "source_url": "https://boards.4chan.org/v/thread/746986469",
-      "source_hint": "/v/ thread on Tencent takedown campaign against Genshin Impact content",
+      "topic_zh": "Onimusha 評價",
+      "topic_en": "Onimusha Is Not Souls",
+      "text_zh": "Onimusha 嗰邊啲人話似 Souls / Sekiro 簡直黐線，認真講其實似 Dragon's Dogma 加個 Samurai vocation 再 spin-off 出嚟。capcom 終於識做動作遊戲喇lol。考牌溫到爆，煲下 game",
+      "text_en_b1": "Anyone saying Onimusha plays like Souls or Sekiro is off their meds. It actually feels closer to Dragon's Dogma if you took the Samurai vocation and spun it off into its own game. Capcom finally remembered how to design a proper action game in 2026.",
+      "source_url": "https://boards.4chan.org/v/thread/747004346",
+      "source_hint": "/v/ thread discussing Onimusha gameplay feel",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +117,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports industry drama, no trade"
+        "rationale": "Gaming observation, not a trade"
       },
-      "text_en_b2": "The Asian gaming scene is in uproar after Tencent allegedly began mass-reporting Genshin Impact content across social platforms, triggering a wave of takedowns. The most egregious case involves Honda Mariko, the Japanese voice actress for Sandrone, whose livestream was bombarded with spam demanding she promote Wuthering Waves instead. Targeting voice actors crosses a line, and while the popcorn keeps flowing, this kind of corporate thuggery poisons the entire industry.",
-      "text_en_c1": "The Asian gaming sphere finds itself embroiled in yet another corporate skirmish, as Tencent reportedly orchestrates mass-reporting campaigns aimed at suppressing Genshin Impact-related content across video platforms. Streams promoting the title have been targeted with takedown notices, while prominent creators face coordinated harassment. Most infamously, Honda Mariko, the Japanese voice actress portraying Sandrone, endured sustained stream spam during a recent broadcast, with viewers relentlessly demanding she pivot to Wuthering Waves instead. That a conglomerate would stoop to intimidating individual performers speaks volumes about the company's questionable tactics. Spectators shall continue enjoying the spectacle from a safe distance.",
-      "text_en_c2": "The Asian gaming industry finds itself once again embroiled in a controversy whose pettiness is matched only by its persistence. Tencent, allegedly unsettled by the continued commercial ascendancy of Genshin Impact, has reportedly orchestrated coordinated mass-reporting campaigns designed to suppress promotional content, thereby precipitating the algorithmic takedown of innocuous videos and streams. The most egregious incident, however, involves Honda Mariko, the Japanese voice actress embodying Sandrone, whose otherwise innocuous livestream was subjected to orchestrated harassment demanding her immediate defection to Wuthering Waves. Such tactics, targeting talent rather than the product itself, betray a corporate culture whose competitive instincts have curdled into something altogether more toxic. The broader competitive landscape, meanwhile, continues to function as intended: competitors compete, audiences spectate, and schadenfreude remains the lingua franca of the consumer. The show, regrettably, goes on.",
-      "audio_url": "audio/2026-09-07/clip-v-genshin-tencent.mp3"
+      "text_en_b2": "Anyone claiming that Onimusha plays like a Souls game or Sekiro is clearly off their rocker. In reality, it feels far closer to Dragon's Dogma if you took the Samurai vocation and spun it off into a standalone title. Capcom has finally remembered how to design a genuinely engaging action game again in 2026, and the learning curve will keep you glued to the screen for hours.",
+      "text_en_c1": "Anyone who insists that the new Onimusha bears any meaningful resemblance to FromSoftware's Souls catalogue, or to Sekiro in particular, is labouring under a fairly substantial misapprehension. Mechanically, the game reads far more convincingly as a Dragon's Dogma spinoff built around the Samurai vocation, stripped of the pawn system and refocused on tighter, more deliberate engagements. Capcom, it would appear, has finally remembered the design grammar that once made its action catalogue genuinely formidable, rather than coasting on brand recognition alone. A welcome development, and a thoroughly competent one.",
+      "text_en_c2": "Anyone drawing facile comparisons between Onimusha and the Soulsborne catalogue — or, heaven forbid, likening it to Sekiro — is operating under a rather profound misapprehension of what the title actually delivers. Strip away the surface veneer of Sengoku-period aesthetics and what emerges is something far closer in spirit to Dragon's Dogma, were one to extract the Samurai vocation and grant it the dignity of a standalone spinoff. The combat possesses a weighty, deliberate cadence that owes more to Capcom's own accumulated heritage than to any FromSoftware template, and the encounter design rewards tactical patience rather than reflexive dodging. It is, dare I suggest, the first genuinely accomplished action title the studio has shipped in rather some time, and the fact that it has flown beneath the discourse is itself telling.",
+      "audio_url": "audio/2026-09-07/clip-clip-05-onimusha.mp3"
     },
     {
-      "id": "fit-405-bench",
+      "id": "clip-06-cant-cut",
       "category": "mma/fitness",
-      "topic_zh": "405磅枱凳",
-      "topic_en": "405 lbs bench sighting",
-      "text_zh": "睇完好自閉 — 405lbs bench press 真係咁都有人做。我仲喺度諗 1pl8 OHP 幾時得，肥仔信都笑我細 🙃 返屋企即刻 push day",
-      "text_en_b1": "How often do you actually see a 405 lbs bench press in your gym? Most people never see one in their entire lifting career. It takes years of consistent training, proper programming, and good nutrition. When a 405 bencher walks in, the whole gym notices.",
-      "source_url": "https://boards.4chan.org/fit/thread/77494557",
-      "source_hint": "/fit/ thread asking how often people witness a 405 lbs bench press",
+      "topic_zh": "減極都減唔到",
+      "topic_en": "Can't Burn Fat At 18%",
+      "text_zh": "兄弟求救。18% bf 死喺度，每日行 15k-20k 步燒 500-800 kcal，再 cut 500 kcal 食，總共 1000 kcal deficit。肌肉係大咗，但個 scale 一啲都唔郁，4 個禮拜都係咁。90k 步一星期，仲可以點 thx",
+      "text_en_b1": "Been walking 15k to 20k steps a day, burning 500 to 800 kcal just from walking. Plus a 500 kcal food cut. Total 1000 kcal deficit. Progressive overload still works and muscles are getting bigger. But the scale is not moving and I do not feel like I am burning fat at all. 4 weeks in, 90k steps a week average, still 18% body fat.",
+      "source_url": "https://boards.4chan.org/fit/thread/77492625",
+      "source_hint": "/fit/ thread frustrated about stalled fat loss",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +141,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness discussion, no trade"
+        "rationale": "Fitness observation, not a trade"
       },
-      "text_en_b2": "Spotted a 405 lbs bench press in the wild today, and it genuinely hit different. Most lifters train for years without ever witnessing that number loaded onto a bar, since hitting it demands consistent programming, disciplined nutrition, and frankly, decent genetics. Meanwhile I am still grinding away at a single-plate overhead press, feeling absolutely dwarfed by the bigger guys. Time to head home and crank out a serious push day.",
-      "text_en_c1": "A genuine 405-pound bench press sighting remains a rare phenomenon within commercial gym environments, one that the vast majority of lifters never witness across an entire training career. Attaining such a milestone typically demands years of disciplined programming, meticulous nutritional adherence, and physiological fortune. Meanwhile, intermediate trainees fixate on considerably humbler objectives, such as conquering a single-plate overhead press, achievements that seasoned veterans might dismiss with amusement. Nevertheless, witnessing elite performance firsthand possesses an undeniable galvanising effect, invariably compelling observers to recalibrate their own training intensity upon returning home.",
-      "text_en_c2": "How frequently does one genuinely witness a 405-pound bench press executed with technical adequacy? For the overwhelming majority of dedicated lifters, the answer remains a rather dispiriting never, despite years of meticulous programming, nutritional discipline, and the gradual accumulation of incremental strength. The achievement, ostensibly prosaic, represents a milestone whose considerable difficulty is inversely proportional to its apparent mundanity. Observing such a lifter saunter casually into the facility while lesser mortals still deliberate the merits of a single plate overhead press produces an almost existential disquiet, compounded by the gentle derision of portly colleagues whose own aspirations remain similarly modest. The appropriate response, however, is neither capitulation nor envy, but rather the immediate commencement of one's prescribed push session, executed with renewed conviction. The iron, as ever, awaits.",
-      "audio_url": "audio/2026-09-07/clip-fit-405-bench.mp3"
+      "text_en_b2": "Fitting in 15,000 to 20,000 steps every single day, burning somewhere between 500 and 800 kcal from walking alone, while also cutting 500 kcal from my food intake. That puts me at a 1,000 kcal daily deficit, and progressive overload is still working since my muscles are gradually growing. However, the scale refuses to budge and I cannot shake the feeling that nothing is happening fat-wise after four solid weeks.",
+      "text_en_c1": "Genuinely at a loss here, so any insight would be gratefully received. I am clocking between 15,000 and 20,000 steps daily, which alone accounts for somewhere in the region of 500 to 800 kcal of expenditure, and I have held a further 500 kcal deficit through dietary restriction, bringing the cumulative shortfall to roughly 1,000 kcal per day. Progressive overload in the gym remains productive and my musculature has continued to develop, yet the scale has remained absolutely intransigent across four consecutive weeks, and I am still sitting at 18% body fat. What am I missing?",
+      "text_en_c2": "I find myself in rather an exasperating predicament and would welcome any insight the thread might proffer. My body composition has plateaued stubbornly at eighteen percent body fat despite adherence to what ought, by any reasonable metabolic arithmetic, to constitute an aggressive deficit: fifteen to twenty thousand daily steps, which alone expend between five and eight hundred kilocalories, augmented by a further five-hundred-kilocalorie reduction in caloric intake, yielding an aggregate daily shortfall of roughly one thousand kilocalories. Progressive overload continues to function precisely as intended, and hypertrophy remains observable in the mirror, yet the scale has registered precisely zero movement across four consecutive weeks, with weekly step totals averaging ninety thousand. The disconnect between effort expended and adipose tissue mobilised is, frankly, beginning to feel almost conspiratorial in nature.",
+      "audio_url": "audio/2026-09-07/clip-clip-06-cant-cut.mp3"
     },
     {
-      "id": "a-100girlfriends-s3",
+      "id": "clip-07-100girlfriends",
       "category": "anime/culture",
-      "topic_zh": "100女友S3 EP10",
-      "topic_en": "100 Girlfriends S3 ep10",
-      "text_zh": "今晚有 100 Girlfriends S3 EP10 — 17人 sword fight 加食 ramen sakuga。www.lovelivegundam.top 又返嚟 🧐 等肥仔信打完 gym 一齊睇",
-      "text_en_b1": "100 Girlfriends, also known as 100 Kanojo or Hyakkano, Season 3 Episode 10 airs tonight. In this episode we will get a huge 17 person sword fight, then they will all eat some ramen. Tune in for sakuga at the Tokyo-MX stream link.",
+      "topic_zh": "100 女友第三季",
+      "topic_en": "100 Girlfriends S3 Episode 10",
+      "text_zh": "100 Girlfriends 第三季第 10 集，會有 17 人 sword fight 之後食 ramen。sakuga 應該好正，搞到我溫書又想偷望。考牌溫到爆，需要廢下lol",
+      "text_en_b1": "100 Girlfriends / Hyakkano Season 3 Episode 10 will feature a huge 17-person sword fight, then everyone eats ramen. Tune in for the sakuga. The studio animation looks great this season.",
       "source_url": "https://boards.4chan.org/a/thread/290739220",
-      "source_hint": "/a/ episode thread for 100 Girlfriends Season 3 Episode 10",
+      "source_hint": "/a/ thread previewing 100 Girlfriends S3E10",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +165,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime episode discussion, no trade"
+        "rationale": "Anime observation, not a trade"
       },
-      "text_en_b2": "Tonight brings episode 10 of 100 Girlfriends Season 3, also known as Hyakkano, and the previews look absolutely stacked. Expect a sprawling 17-person sword fight followed by a warm ramen scene that should deliver some genuinely gorgeous sakuga animation. The usual Tokyo-MX stream links are circulating again, so grab your snacks and settle in, because this studio rarely phones it in when the choreography gets this ambitious.",
-      "text_en_c1": "Season 3 Episode 10 of 100 Girlfriends, alternatively known as 100 Kanojo or Hyakkano, premieres this evening with what promises to be a particularly action-packed instalment. Viewers can anticipate an elaborate seventeen-person sword fight sequence followed by a communal ramen scene, both rendered in the studio's characteristic sakuga style. Returning viewers will recognise the familiar Tokyo-MX stream link, www.lovelivegundam.top, which has reliably served the community across previous seasons. Fellow enthusiasts recovering from gym sessions may find this evening's broadcast a welcome reward for their exertions.",
-      "text_en_c2": "The long-awaited tenth episode of 100 Girlfriends' third season graces the broadcasting schedules this evening, promising a conflation of narrative absurdity and visual splendour that has become the franchise's signature. The episode purportedly features a choreographed sword fight encompassing no fewer than seventeen participants, an undertaking whose logistical complexity alone merits commendation, before transitioning into an ostensibly pastoral sequence wherein the assembled combatants convene over steaming ramen. The accompanying sakuga, courtesy of the animators at www.lovelivegundam.top, is rumoured to rival the franchise's previous benchmarks for kinetic exuberance. Whether the romantic convolution of the preceding episodes finds any meaningful resolution remains, characteristically, an open question. Tune in, suspend disbelief, and prepare for the quintessential anime experience: one wherein narrative pretension, culinary indulgence, and animated excellence converge in glorious, unrestrained equilibrium.",
-      "audio_url": "audio/2026-09-07/clip-a-100girlfriends-s3.mp3"
+      "text_en_b2": "Season 3 Episode 10 of 100 Girlfriends is set to feature an absolutely massive 17-person sword fight, followed by everyone piling into a bowl of ramen together. The sakuga should be absolutely insane this time around, which makes revising for exams considerably harder when I keep glancing at the screen. The studio's work this season has genuinely been on another level, and I desperately need the break.",
+      "text_en_c1": "The forthcoming tenth episode of Hyakkano's third season promises a set piece that is, on paper at least, almost absurdly ambitious: a seventeen-person sword duel, choreographed with what one can only assume will be the studio's full sakuga budget deployed at maximum intensity, followed, in classic anime convention, by a communal ramen scene. The production values this season have been conspicuously elevated, and the animators appear to be relishing every opportunity to flex. For those of us currently grinding through revision, it constitutes a deeply unhelpful but irresistible distraction.",
+      "text_en_c2": "The forthcoming tenth episode of Hyakkano's third season promises what may well be the season's most extravagant set-piece: a choreographed melee involving no fewer than seventeen participants, each presumably brandishing some variation of blade-work, before the ensemble reconvenes for an extended ramen interlude that has become something of a series signature. The sakuga should prove exceptional, given that the production committee has evidently allocated considerably more to in-between animation than is customary for a property of this commercial bracket, and the studio's work this season has been quietly remarkable in ways the discourse has yet to fully appreciate. Regrettably, this particular episode lands squarely in the midst of my licensing examination preparations, a coincidence that will almost certainly prove ruinous to my concentration.",
+      "audio_url": "audio/2026-09-07/clip-clip-07-100girlfriends.mp3"
     }
   ]
 }
