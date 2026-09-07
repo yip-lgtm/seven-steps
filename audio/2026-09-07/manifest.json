@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "clip-01-btc-after-pump",
-      "topic_en": "BTC After the Pump",
-      "topic_zh": "BTC pump 後先買",
+      "id": "biz-pons-doge",
+      "topic_en": "PONS and DOGE1",
+      "topic_zh": "PONS 同 DOGE1",
       "category": "trading",
-      "file": "clip-clip-01-btc-after-pump.mp3",
-      "bytes": 282228,
-      "chars": 264
+      "file": "clip-biz-pons-doge.mp3",
+      "bytes": 414132,
+      "chars": 321
     },
     {
-      "id": "clip-02-spacex-lockup",
-      "topic_en": "SpaceX Lockup Expiry",
-      "topic_zh": "SpaceX IPO 解禁",
+      "id": "biz-spacex-lockup",
+      "topic_en": "SpaceX lockup expiry",
+      "topic_zh": "SpaceX 解禁期",
       "category": "trading",
-      "file": "clip-clip-02-spacex-lockup.mp3",
-      "bytes": 348468,
-      "chars": 276
+      "file": "clip-biz-spacex-lockup.mp3",
+      "bytes": 350196,
+      "chars": 298
     },
     {
-      "id": "clip-03-paid-ai-shilling",
-      "topic_en": "Paid AI Shilling",
-      "topic_zh": "AI 課金洗腦",
+      "id": "g-paid-models",
+      "topic_en": "Why everyone pushes paid AI",
+      "topic_zh": "點解全部叫人買 paid",
       "category": "tech/ai",
-      "file": "clip-clip-03-paid-ai-shilling.mp3",
-      "bytes": 288564,
-      "chars": 284
+      "file": "clip-g-paid-models.mp3",
+      "bytes": 298356,
+      "chars": 301
     },
     {
-      "id": "clip-04-musk-power",
-      "topic_en": "Musk True Power",
-      "topic_zh": "Musk 真權力",
+      "id": "pol-stablecoin-banks",
+      "topic_en": "US banks joint stablecoin",
+      "topic_zh": "美國銀行搞 stablecoin",
       "category": "hk/news",
-      "file": "clip-clip-04-musk-power.mp3",
-      "bytes": 291444,
-      "chars": 278
+      "file": "clip-pol-stablecoin-banks.mp3",
+      "bytes": 375540,
+      "chars": 337
     },
     {
-      "id": "clip-05-fareidolia",
-      "topic_en": "Blue Archive Devs New Game",
-      "topic_zh": "Blue Archive 收皮",
+      "id": "v-sakuga-100girlfriends",
+      "topic_en": "100 Girlfriends sakuga hype",
+      "topic_zh": "100 Girlfriends S3 集 sakuga",
       "category": "lol/esports",
-      "file": "clip-clip-05-fareidolia.mp3",
-      "bytes": 271860,
-      "chars": 268
+      "file": "clip-v-sakuga-100girlfriends.mp3",
+      "bytes": 232692,
+      "chars": 202
     },
     {
-      "id": "clip-06-cut-no-fat-loss",
-      "topic_en": "Can't Burn Fat",
-      "topic_zh": "減脂減極唔甩",
+      "id": "fit-cant-burn-fat",
+      "topic_en": "Can't burn fat",
+      "topic_zh": "燒極都燒唔到脂",
       "category": "mma/fitness",
-      "file": "clip-clip-06-cut-no-fat-loss.mp3",
-      "bytes": 417012,
-      "chars": 312
+      "file": "clip-fit-cant-burn-fat.mp3",
+      "bytes": 320820,
+      "chars": 254
     },
     {
-      "id": "clip-07-anime-bust",
-      "topic_en": "Anime Bust Limits",
-      "topic_zh": "動漫巨乳",
+      "id": "a-bust-size",
+      "topic_en": "Anime bust size limits",
+      "topic_zh": "二次元胸部極限",
       "category": "anime/culture",
-      "file": "clip-clip-07-anime-bust.mp3",
-      "bytes": 289716,
-      "chars": 294
+      "file": "clip-a-bust-size.mp3",
+      "bytes": 263796,
+      "chars": 263
     }
   ]
 }

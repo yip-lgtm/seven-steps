@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "clip-01-btc-after-pump",
+      "id": "biz-pons-doge",
       "category": "trading",
-      "topic_zh": "BTC pump 後先買",
-      "topic_en": "BTC After the Pump",
-      "text_zh": "又係咁。BTC 橫盤兩三個禮拜冇人理，pump 完 15% 突然個個衝入去。我都係廢柴一個，止損又遲。考牌都未溫完，又輸一注。ok 當交學費。🙏",
-      "text_en_b1": "Why does everyone buy BTC after the pump? You watch BTC do nothing for weeks, ignore it completely. Then it pumps 15% and suddenly everyone wants in. This pattern repeats again and again. Buying after the move already happened is just paying tuition to the market.",
-      "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ thread on chasing BTC after it already moved",
+      "topic_zh": "PONS 同 DOGE1",
+      "topic_en": "PONS and DOGE1",
+      "text_zh": "/biz/ 又有癲佬計數：如果 PONS 真係 flip 到 Pump.fun，可以殺到 $3。DOGE1 食到 1% DOGE 街貨已經 $150M market cap。又係 meme 配 stocks，boomer 直接入 crypto。望住個 chart 我又想 all-in，但又諗起上次 CFD 輸到阿媲都唔認 😭 命理叫我今日 hold 住先，唔好再加注。",
+      "text_en_b1": "How high can PONS and Doge actually go? I did the maths. If PONS flips Pump.fun, we could see PONS around $3. If DOGE1 captures just 1% of the real DOGE market cap, that is already a $150 million market cap. Pairing memes with stocks is wild. Boomers who already own stocks will be able to get into crypto with one click.",
+      "source_url": "https://boards.4chan.org/biz/thread/62663347",
+      "source_hint": "/biz/ thread about PONS and DOGE1 upside math",
       "signal": {
-        "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Post is observational complaint about retail chasing, no setup"
-      },
-      "text_en_b2": "Why does the crowd always pile into BTC once the pump has already happened? You can watch it sit flat for weeks on end with absolutely no interest, and then the moment it surges 15% out of nowhere, every retail trader suddenly wants a piece of the action. This keeps repeating itself over and over, and chasing the move after it has played out is essentially paying tuition fees to the market. Once again, I got stopped out far too late.",
-      "text_en_c1": "It is the same maddening cycle that plays out every single time. Bitcoin idles sideways for two or three weeks, attracting precisely zero attention from retail traders, and then the moment it pumps fifteen percent, the FOMO crowd piles in en masse. Chasing an asset after the move has already occurred is, in effect, handing the market a tuition fee in exchange for nothing more than a bruised ego and a lighter portfolio. If you had bought during the boredom phase, you would have been positioned long before the herd arrived, but watching paint dry requires a discipline that most participants simply do not possess.",
-      "text_en_c2": "There is a pattern so consistent it borders on ritual. Bitcoin consolidates sideways for two or three weeks, drawing precisely zero retail interest, until a fifteen-percent vertical move materialises overnight, at which point every laggard and their mother scrambles to pile in at the top. Capital preserved is capital earned, yet here I am, stop-loss once again triggered late, watching another position bleed out while my licensing exam revision sits untouched on the desk. The market, ever the patient pedagogue, has extracted another installment of tuition. Consider the lesson learned; consider, also, the asymmetric cost of ignoring it.",
-      "audio_url": "audio/2026-09-07/clip-clip-01-btc-after-pump.mp3"
-    },
-    {
-      "id": "clip-02-spacex-lockup",
-      "category": "trading",
-      "topic_zh": "SpaceX IPO 解禁",
-      "topic_en": "SpaceX Lockup Expiry",
-      "text_zh": "留意 SpaceX IPO。2026 年 9 月 9 號大約 3.19 億股解禁，大概係 baseline pool 7%、總股本 2.4%。IPO 後第 90 個交易日，第三次大解禁。Tesla 都係咁玩法，散戶接晒貨。🧐",
-      "text_en_b1": "On September 9, 2026, around 319 million extra SpaceX shares become eligible to sell. That is about 7% of the baseline pool and roughly 2.4% of total shares outstanding. It marks 90 trading days since the IPO and the third major lockup release event. Big supply dump incoming.",
-      "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ thread on SpaceX IPO lockup release schedule",
-      "signal": {
-        "asset": "TSLA",
-        "direction": "neutral",
-        "conviction": "low",
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "medium",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Watch Sept 9 SpaceX unlock as overhang risk for Musk-linked names"
+        "rationale": "OP lays out a concrete upside case for DOGE1 capturing 1% of DOGE market cap, implicitly bullish on DOGE-adjacent plays"
       },
-      "text_en_b2": "Anyone keeping an eye on the SpaceX IPO situation should know that around 319 million shares are set to unlock on September 9, 2026, which translates to roughly 7% of the baseline pool and approximately 2.4% of total shares outstanding. This marks the third major lockup release, falling exactly 90 trading days after the listing. The pattern mirrors what happened with that company, where retail investors ended up absorbing the bulk of the supply being dumped onto the market.",
-      "text_en_c1": "Mark your calendars for the ninth of September, 2026, because approximately 319 million additional SpaceX shares will become eligible for sale at that point. That figure corresponds to roughly seven percent of the baseline insider pool and around two-point-four percent of total shares outstanding, marking the third major lockup expiry since the company's IPO and falling on the ninetieth trading day post-listing. Historically, such events have triggered significant supply pressure, with retail bagholders being the ones left holding depreciated positions, exactly as happened repeatedly with Tesla. Unless institutional buyers step in to absorb the overhang, one should brace for a meaningful correction.",
-      "text_en_c2": "Investors with exposure to SpaceX ought to mark September 9, 2026, in their calendars with appropriate foreboding. Approximately 319 million shares become eligible for resale that day, constituting some seven percent of the baseline pool and roughly two-point-four percent of total shares outstanding. This represents the third major lockup expiry event since the IPO, falling precisely on the ninetieth trading day post-listing. History, as Tesla holders will attest with weary familiarity, rhymes rather than repeats: institutional insiders distribute, retail absorbs the overhang, and price discovery suffers accordingly. A non-trivial supply shock is therefore imminent, and the prudent position is to recognise it.",
-      "audio_url": "audio/2026-09-07/clip-clip-02-spacex-lockup.mp3"
+      "text_en_b2": "Someone on /biz/ ran the numbers and the projections look genuinely wild. If PONS somehow manages to flip Pump.fun, we could realistically see PONS hitting around $3. Meanwhile, DOGE1 capturing just 1% of DOGE's market cap would already translate into roughly $150 million. Pairing meme tokens with traditional stocks is an unusual move, although it could let boomers pivot into crypto with a single click.",
+      "text_en_c1": "Should one really trust the deluded number-crunching on /biz/? Apparently, if PONS somehow managed to dethrone Pump.fun, its price could realistically approach three dollars. Meanwhile, DOGE1 absorbing merely one percent of DOGE's market capitalisation would translate into a valuation of roughly 150 million. The fusion of meme tokens with traditional equities is nothing short of absurd. Stock-holding boomers, who already navigate equities comfortably, could acquire cryptocurrency with a single click. Looking at the chart, half of me wants to go all-in; the other half remembers my CFD debacle last quarter. I think I'll heed the stars for once and simply hold my position rather than chasing further exposure.",
+      "text_en_c2": "A fresh round of speculative arithmetic has resurfaced on 4chan's /biz/, this time with PONS and DOGE1 in the crosshairs. Should PONS somehow succeed in flipping Pump.fun's valuation, a per-token figure in the vicinity of $3 appears mathematically plausible, while DOGE1 absorbing a mere 1% of Dogecoin's circulating market capitalisation would, by the poster's reckoning, translate into something approaching $150 million. The underlying thesis remains a familiar one: that the conflation of meme equities with traditional stock holdings could grant legacy investors seamless on-ramps into digital assets. Choreographed, perhaps, for the boomer cohort already overexposed to equities. Yet such charts invariably invite reckless conviction, and the writer confesses, with characteristic ambivalence, to being haunted by previous CFD misadventures. Astrology, mercifully, counsels restraint for the day.",
+      "audio_url": "audio/2026-09-07/clip-biz-pons-doge.mp3"
     },
     {
-      "id": "clip-03-paid-ai-shilling",
+      "id": "biz-spacex-lockup",
+      "category": "trading",
+      "topic_zh": "SpaceX 解禁期",
+      "topic_en": "SpaceX lockup expiry",
+      "text_zh": "SpaceX 又有 lockup 到期🙏 9月9號大約 319M 股解禁，即係 7% baseline pool 同 2.4% total shares。IPO 後第 90 日，第三輪 major release event。Musk 仔又嚟料，short 佢定 long 佢好？上次 TSLA earnings 我已經輸一鑊，依家真係唔敢亂動。Tommy 叫我睇 AP 質素先再入場，但我個倉已經頂唔順。",
+      "text_en_b1": "On September 9, 2026, around 319 million more SpaceX shares become eligible to sell. That is about 7% of the baseline pool and roughly 2.4% of total shares outstanding. It marks the 90th trading day since the IPO and the third major lockup release event. Watch for supply pressure around that date.",
+      "source_url": "https://boards.4chan.org/biz/thread/62662968",
+      "source_hint": "/biz/ thread tracking SpaceX IPO lockup release calendar",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Calendar item only, no actionable setup in the OP"
+      },
+      "text_en_b2": "Another SpaceX lockup expiry is approaching, and this one could shake things up. Around 319 million shares become eligible to sell on September 9, representing roughly 7% of the baseline pool and about 2.4% of total shares outstanding. It falls on the 90th trading day post-IPO, marking the third major release event. Supply pressure around that date could be significant, so I'm watching closely before deciding whether to short or go long.",
+      "text_en_c1": "Another SpaceX lockup expiry is approaching. On September 9th, approximately 319 million shares will become eligible for sale, representing roughly seven percent of the baseline pool and around 2.4 percent of total shares outstanding. This marks the ninetieth trading day following the IPO and constitutes the third major release event. Should one short the position or go long? My TSLA earnings misadventure still stings, so I am frankly hesitant to act. Tommy advised me to scrutinise the associated prospectus before committing any capital, but my portfolio can scarcely tolerate further volatility at this juncture.",
+      "text_en_c2": "Yet another lockup cliff has materialised for SpaceX, with approximately 319 million shares becoming tradeable on the ninth of September. That tranche constitutes in the order of 7% of the baseline pool and roughly 2.4% of total shares outstanding, falling precisely on the ninetieth trading day following the IPO and constituting the third major vesting event of this cycle. The implications for near-term supply pressure are, by any reasonable assessment, non-trivial, particularly given the inherent illiquidity of a stock that has only recently entered the public markets. The thread on /biz/ oscillates predictably between bearish conviction and opportunistic longing, with the author disavowing any directional bias after last quarter's Tesla earnings debacle. Prudence, presumably, shall prevail until prospectus-grade disclosure permits otherwise.",
+      "audio_url": "audio/2026-09-07/clip-biz-spacex-lockup.mp3"
+    },
+    {
+      "id": "g-paid-models",
       "category": "tech/ai",
-      "topic_zh": "AI 課金洗腦",
-      "topic_en": "Paid AI Shilling",
-      "text_zh": "而家啲人成日叫人買 ChatGPT / Claude 最貴個 tier。wtf，Qwen 同 GLM 平九成都夠我用。我考牌溫書都靠 AI 續命，唔使俾咁多 subscription。👍",
-      "text_en_b1": "Have you noticed this type of post? People keep telling you to try the PAID model tier, saying ChatGPT or Claude is so scary you have to pay for it. Why does nobody mention cheaper models like Kimi, GLM or Qwen? Those give you easily 90% of the performance for maybe 10% of the price.",
+      "topic_zh": "點解全部叫人買 paid",
+      "topic_en": "Why everyone pushes paid AI",
+      "text_zh": "/g/ 有人問點解永遠有人叫人用 paid ChatGPT / Claude，話 paid 先睇到真正實力。但其實 Kimi、GLM、Qwen 已經做到 90% performance，價錢可能 10% 都唔使。Surveying 助理都好多人話俾錢買 AI 先穩陣，但工程牌我自己都考緊，真係冇咁多 budget。Dr. An 都叫我用 Qwen 寫嘢慳時間。",
+      "text_en_b1": "Have you noticed this type of post? 'If you have not tried the PAID models you do not know what they are capable of.' Why do you never see people telling others to spend a tiny fraction on a cheaper model like Kimi, GLM or Qwen, which gets you easily 90% of the performance for maybe 10% of the price?",
       "source_url": "https://boards.4chan.org/g/thread/109741497",
-      "source_hint": "/g/ thread complaining about shilling for paid AI tiers",
+      "source_hint": "/g/ thread about paid vs cheaper AI models",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech observation, no trade"
+        "rationale": "General AI tooling discussion, not a trade setup"
       },
-      "text_en_b2": "Have you noticed how every other thread these days is pushing you towards the priciest subscription tier of ChatGPT or Claude, as though those models are the only ones worth bothering with? Meanwhile, alternatives such as Kimi, Qwen and GLM deliver roughly 90% of the performance at perhaps 10% of the cost, yet hardly anyone seems to mention them. Personally, I've been getting through my licensing exam revision with AI doing the heavy lifting, and I can't justify splashing out on expensive monthly subscriptions when…",
-      "text_en_c1": "It is genuinely bewildering how aggressively people push the premium tiers of ChatGPT and Claude, framing them as indispensable tools that any serious user simply must subscribe to. Meanwhile, models such as Qwen, GLM and Kimi deliver what is arguably ninety percent of the performance at a mere fraction of the cost, often less than ten percent of what the flagship subscriptions charge on a monthly basis. Whether you are cramming for professional licensing exams or simply conducting research, these open-weight alternatives are more than sufficient for the vast majority of practical workloads.",
-      "text_en_c2": "One observes, with mounting exasperation, that the discourse surrounding ChatGPT and Claude has calcified into quasi-religious evangelism for the priciest subscription tier. Yet the open-source alternatives, Kimi, GLM, and Qwen chief among them, deliver what any rational assessment must concede is ninety percent of the capability at a tenth of the cost. I have, for the record, been sustaining my professional licensing studies almost entirely on these leaner models, and the marginal performance differential is, for my purposes, indistinguishable from noise. The subscription industrial complex, it seems, thrives on manufactured inadequacy more than on any genuine technical merit.",
-      "audio_url": "audio/2026-09-07/clip-clip-03-paid-ai-shilling.mp3"
+      "text_en_b2": "Have you noticed how /g/ is flooded with posts insisting you need to pay for ChatGPT or Claude to unlock their true potential? It is genuinely puzzling. Meanwhile, models like Kimi, GLM, and Qwen already deliver around 90% of that performance, often at a fraction of the cost. While premium tools certainly have their merits, many survey assistants still insist paid versions are the safer bet. I am juggling my engineering exams on a tight budget, so cheaper alternatives just make sense.",
+      "text_en_c1": "One frequently encounters posts asserting that anyone who has not tried paid ChatGPT or Claude has no genuine appreciation of their capabilities. Yet remarkably few advocate for cheaper alternatives such as Kimi, GLM, or Qwen, which arguably achieve ninety percent of the performance at perhaps ten percent of the price. Surveying assistants often insist that paid subscriptions are essential for reliability, but as someone currently pursuing engineering certifications, my budget simply cannot accommodate recurring AI costs. Dr. An recommended Qwen for streamlining documentation, and frankly, the value proposition is difficult to dispute.",
+      "text_en_c2": "A rhetorical pattern has grown irksome across the AI discourse: the insistent refrain that one cannot genuinely assess frontier capability without ponying up for ChatGPT or Claude subscriptions. The implicit suggestion is that the paid tier alone reveals what these systems can truly accomplish, while the open-weight alternatives remain consigned to permanent also-ran status. Yet Kimi, GLM and Qwen have demonstrably closed the gap to within striking distance of their proprietary counterparts, delivering what is colloquially termed ninety percent of the performance at a fraction, perhaps a tenth, of the cost. The economic calculus for an individual practitioner, particularly one juggling professional examinations on a constrained budget, renders the subscription gospel increasingly untenable. Subscriptions, after all, are recurrent; competence, once cultivated, compounds indefinitely.",
+      "audio_url": "audio/2026-09-07/clip-g-paid-models.mp3"
     },
     {
-      "id": "clip-04-musk-power",
+      "id": "pol-stablecoin-banks",
       "category": "hk/news",
-      "topic_zh": "Musk 真權力",
-      "topic_en": "Musk True Power",
-      "text_zh": "pol 板啲人成日問 Musk 權力有幾高。btw 美國 21 間銀行合搞 stablecoin，Apple Coin、Tesla Coin、X Coin 排住隊出。HK 樓咁細、租金咁貴，呢邊真係搵唔到未來。lol",
-      "text_en_b1": "How high do you think Elon Musk's true power level is? Twenty-one U.S. banks are already planning to launch a joint stablecoin. Soon you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and Bank Coin flooding the market. One anon asked this on /pol/ tonight.",
-      "source_url": "https://boards.4chan.org/pol/thread/542134963",
-      "source_hint": "/pol/ thread asking about Musk's real political power",
+      "topic_zh": "美國銀行搞 stablecoin",
+      "topic_en": "US banks joint stablecoin",
+      "text_zh": "21 間美國銀行夾份推 stablecoin，Trump 已經將美國賣晒俾私人公司同 bank。即將會有 Apple Coin、Google Coin、Tesla Coin、X Coin、銀行幣⋯⋯美國金融市場會俾幾百種 digital cash 淹沒。我喺 HK 都睇到呢單新聞，李生都話 bitcoin 可能受惠。考牌溫書溫到頭都痛，睇下新聞抖下。",
+      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. He has sold out the U.S. to private companies and banks, allowed them to issue their own currencies to sell government bonds. Soon there will be Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin everywhere.",
+      "source_url": "https://boards.4chan.org/pol/thread/542134554",
+      "source_hint": "/pol/ thread about US banks issuing a joint stablecoin",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News / opinion piece, no trade"
+        "rationale": "News commentary on policy, no direct trade thesis in the OP"
       },
-      "text_en_b2": "How much genuine influence do you reckon Elon Musk actually wields at this point? Twenty-one American banks are already collaborating on a joint stablecoin venture, and once that framework lands you can bet your bottom dollar the floodgates will open. Expect Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and Bank Coin to come pouring out one after another.",
-      "text_en_c1": "A perennial debate on /pol/ concerns the true extent of Elon Musk's political and financial influence, and recent developments suggest that the answer is, quite frankly, far greater than most casual observers assume. Twenty-one American banks have already formalised plans to launch a joint stablecoin, which would fundamentally reshape the digital payments landscape once it reaches the market. Beyond that, Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin and the inevitable Bank Coin are all reportedly queued for release in rapid succession. For those trapped in jurisdictions where housing is absurdly small and rents remain punishingly high, the technological momentum happening elsewhere is, to put it mildly, demoralising.",
-      "text_en_c2": "An inquiry surfaced tonight regarding the true apex of Elon Musk's influence, and the timing proves instructive. Twenty-one American banks, acting in concert, are poised to unveil a joint stablecoin, while Apple, Google, Microsoft, Tesla, and X queue with their own branded variants in what can only be described as a coordinated assault on monetary sovereignty itself. The consolidation of technological and financial power under a handful of unaccountable actors proceeds with such velocity that one is left to wonder whether the regulatory apparatus retains any meaningful purchase. From a city whose housing stock has shrunk beneath its populace and whose rents have soared beyond reason, the future looks decidedly elsewhere.",
-      "audio_url": "audio/2026-09-07/clip-clip-04-musk-power.mp3"
+      "text_en_b2": "Twenty-one U.S. banks are joining forces to launch a joint stablecoin, and this could be the real endgame behind Trump's recent legislation. Critics argue he has effectively handed the country over to private corporations, since these entities can now mint their own currencies to sell government bonds. The market will soon be flooded with Apple Coin, Google Coin, Tesla Coin, and countless bank-issued tokens. Even from Hong Kong, the implications are impossible to ignore.",
+      "text_en_c1": "Twenty-one American banks have jointly agreed to launch a stablecoin, ostensibly fulfilling the underlying purpose of Trump's stablecoin legislation. Critics argue the administration has effectively outsourced America's monetary infrastructure to private corporations and financial institutions, permitting them to mint currencies for the purpose of offloading government debt. Within months, the financial ecosystem may well be inundated with hundreds of digital cash variants: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and various bank-issued tokens. Even from Hong Kong, one can scarcely escape the headlines. Mr. Lee speculated that bitcoin might ultimately benefit.",
+      "text_en_c2": "A consortium of twenty-one American banking institutions has coalesced around a joint stablecoin initiative, ostensibly to facilitate the issuance of tokenised debt against the federal government's balance sheet. The political reading, articulated with characteristic bluntness on /pol/, contends that the relevant stablecoin legislation represents a wholesale transfer of monetary sovereignty to private enterprise, with incumbent banks acquiring de facto authority to mint parallel currencies. The downstream proliferation appears inevitable: Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and a generic Bank Coin shall, presumably, compete for transactional primacy in a marketplace already saturated with dollar-pegged alternatives. From Hong Kong, where one observes such developments with professional detachment, the implications for Bitcoin's relative scarcity thesis appear decidedly favourable, even as the regulatory perimeter remains conspicuously undefined.",
+      "audio_url": "audio/2026-09-07/clip-pol-stablecoin-banks.mp3"
     },
     {
-      "id": "clip-05-fareidolia",
+      "id": "v-sakuga-100girlfriends",
       "category": "lol/esports",
-      "topic_zh": "Blue Archive 收皮",
-      "topic_en": "Blue Archive Devs New Game",
-      "text_zh": "lol Blue Archive 班開發者出新 3D game Fareidolia。一個時代結束。S15 我都未睇完，又多樣嘢要追。溫完 HKIE 先講。🙏",
-      "text_en_b1": "Blue Archive developers are now turning their attention elsewhere with a new game called Fareidolia. The new 3D anime game project, previously known as RX, was officially announced alongside new story details. Fans are calling this the end of an era for the franchise.",
-      "source_url": "https://boards.4chan.org/v/thread/747029974",
-      "source_hint": "/v/ thread on Blue Archive devs announcing Fareidolia",
+      "topic_zh": "100 Girlfriends S3 集 sakuga",
+      "topic_en": "100 Girlfriends sakuga hype",
+      "text_zh": "今日 100 Girlfriends S3E10，17 人 sword fight 再食拉麵，sakuga 預備。/v/ 啲人已經唔等得。LIHKG 都有巴打話等睇 action scene。今晚打完 gym 即刻返屋企追，肥仔信話佢已經開定串流等。考牌溫書都係要唞下，睇完先繼續溫 ICE module。",
+      "text_en_b1": "100 Girlfriends Season 3 Episode 10 is out. In this episode we get a huge 17 person sword fight, then they eat some ramen. Tune in for sakuga. The /a/ thread is hyped and the Tokyo MX stream link is up.",
+      "source_url": "https://boards.4chan.org/a/thread/290739220",
+      "source_hint": "/a/ hype thread for 100 Girlfriends S3E10",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports / gacha news, no trade"
+        "rationale": "Anime episode release, no market relevance"
       },
-      "text_en_b2": "It looks like the Blue Archive development team have finally moved on, having officially unveiled a brand-new 3D anime game called Fareidolia, the very project that had previously circulated under the codename RX. Alongside the announcement, fresh story details were also shared, and longtime fans are already mourning the moment as the end of an era for the franchise. Meanwhile, I'm still struggling to finish watching Season 15, and now there's yet another title added to my ever-growing backlog.",
-      "text_en_c1": "The developers behind Blue Archive have officially unveiled Fareidolia, a brand-new three-dimensional anime project that was previously circulating under the codename RX. The announcement, which dropped alongside preliminary story details and character concepts, has been received by longtime fans as a symbolic passing of the torch, if not the outright end of an era for the franchise they once championed. Given that Season Fifteen has not yet been fully watched and professional licensing exam preparation looms, this represents yet another item on an already overflowing queue of media to consume. One can only hope that the quality matches the nostalgia.",
-      "text_en_c2": "Blue Archive, that venerable cornerstone of one's anime gaming routine, appears to be entering its twilight chapter as the development studio pivots attention toward Fareidolia, a freshly unveiled three-dimensional project previously circulating under the codename RX. New story details accompanied the announcement, and the prevailing sentiment across fan communities suggests an epoch has effectively concluded. Season fifteen of the existing title remains, for this correspondent, stubbornly unfinished, and now yet another entry joins the queue. Professional licensing examinations will, regrettably, take precedence; the Fareidolia rabbit hole must perforce wait its turn. One mourns, briefly, the inexorable passage of eras.",
-      "audio_url": "audio/2026-09-07/clip-clip-05-fareidolia.mp3"
+      "text_en_b2": "100 Girlfriends Season 3 Episode 10 just dropped, and sakuga fans are losing their minds. The episode features an elaborate 17-person sword fight followed by a ramen scene that delivers beautifully animated character acting. The /a/ thread is buzzing with hype, and a Tokyo MX stream link has already been pinned for viewers across regions. After wrapping up my gym session, I am heading straight home to catch up before diving back into ICE module revision.",
+      "text_en_c1": "The long-awaited 100 Girlfriends Season 3 Episode 10 has finally dropped, delivering an elaborate seventeen-person swordfight before segueing into a quintessential ramen scene. The animation quality promises genuine sakuga moments that aficionados have been anticipating for weeks. Enthusiasts on /a/ have been refreshing threads impatiently, and LIHKG regulars have likewise been vocal about their eagerness for the action sequences. Once I finish my gym session tonight, I intend to head straight home and stream the episode. Fatty Shin has already loaded the Tokyo MX broadcast in preparation. Studying for the ICE module can wait until afterwards.",
+      "text_en_c2": "The tenth episode of 100 Girlfriends' third season has, at long last, dropped, and the animation community's anticipation has, predictably, reached fever pitch. The instalment delivers a sprawling seventeen-person swordfight, choreographed with the kinetic exuberance that has defined the adaptation's standout sequences, before pivoting to a comparatively meditative sequence in which the ensemble partakes of ramen. Sakuga aficionados on both /a/ and the LIHKG forums have been primed for precisely this brand of limited-budget spectacle, with the Tokyo MX stream having gone live as scheduled. Personal commitments, alas, intervened: an evening gym session preceded a hurried return home, and the inevitable study obligations pertaining to the ICE module shall necessarily be deferred until the credits have rolled. Tommy, characteristically, has had the stream queued since morning.",
+      "audio_url": "audio/2026-09-07/clip-v-sakuga-100girlfriends.mp3"
     },
     {
-      "id": "clip-06-cut-no-fat-loss",
+      "id": "fit-cant-burn-fat",
       "category": "mma/fitness",
-      "topic_zh": "減脂減極唔甩",
-      "topic_en": "Can't Burn Fat",
-      "text_zh": "我同 fit 板個 post 一樣樣。日日行 15k-20k steps，食又 cut 500 卡，total 1000 kcal deficit。4 個禮拜個 scale 唔郁。但條命照返，肥仔信今日又 tag 我去 gym。靠 AI 續命。",
-      "text_en_b1": "Can't burn fat. I'm at 18% body fat. I walk 15k to 20k steps a day, burning 500 to 800 calories just from walking. Plus a 500 calorie food cut, so a 1000 kcal daily deficit. Progressive overload still works and my muscles are getting bigger. But the scale isn't moving after 4 weeks. 90k steps a week on average.",
+      "topic_zh": "燒極都燒唔到脂",
+      "topic_en": "Can't burn fat",
+      "text_zh": "/fit/ 巴打 18% bf，每日行 15k-20k steps 燒 500-800 kcal，再 cut 500 kcal 食物，total 1000 kcal deficit。但 4 個禮拜落嚟個 scale 完全唔郁。Progressive overload 做到肌肉大咗但脂肪冇減。每週平均 90k steps，佢自己都好迷惘。睇到我好有 feel，肥仔信成日笑我 body image 焦慮，其實佢都係。",
+      "text_en_b1": "I'm at 18% body fat and stuck. I walk 15k to 20k steps a day, burning 500 to 800 calories just from that. I also cut 500 calories of food. So that is a 1000 kcal deficit. I can keep progressive overload and my muscles are getting bigger and more visible.",
       "source_url": "https://boards.4chan.org/fit/thread/77492625",
-      "source_hint": "/fit/ thread on stalled cut despite big deficit",
+      "source_hint": "/fit/ thread from anon struggling to lose fat on a 1000 kcal deficit",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness struggle post, no trade"
+        "rationale": "Body recomp question, not a trade"
       },
-      "text_en_b2": "I'm stuck in exactly the same situation as the guy who posted on /fit/. I'm sitting at around 18% body fat and clocking in anywhere between 15,000 and 20,000 steps a day, which on its own burns through 500 to 800 calories. On top of that, I've trimmed roughly 500 calories from my diet, putting me at a solid 1000 kcal daily deficit, and progressive overload is still doing its job because my muscles are visibly growing.",
-      "text_en_c1": "Despite maintaining a daily regimen of fifteen to twenty thousand steps, sustaining a five-hundred-calorie dietary cut and operating at a total deficit of roughly one thousand kilocalories, the scale remains stubbornly stationary after four consecutive weeks. Progressive overload in the gym continues to function as intended, and muscle growth is visibly occurring, which would normally suggest that body recomposition is taking place beneath the surface. Yet the numbers on the weighing machine refuse to cooperate, hovering around eighteen percent body fat without any meaningful downward movement, even though weekly step totals consistently exceed ninety thousand.",
-      "text_en_c2": "Plateaus, the inveterate torment of every dedicated lifter, have apparently come for me with characteristic indifference. I presently sit at roughly eighteen percent body fat, clocking between fifteen and twenty thousand daily steps, which yields some five-to-eight hundred kilocalories of expenditure before any structured exercise. A further five-hundred-calorie dietary reduction produces a daily deficit comfortably north of one thousand kilocalories. Progressive overload continues to function as advertised, muscle accrues incrementally, yet after four weeks the scale has registered precisely nothing. Ninety thousand weekly steps, sustained religiously, and the number refuses to budge. Adaptive thermogenesis, water retention, or some other metabolic sleight of hand is presumably to blame.",
-      "audio_url": "audio/2026-09-07/clip-clip-06-cut-no-fat-loss.mp3"
+      "text_en_b2": "I am hovering around 18% body fat and completely plateaued despite running a serious deficit. Each day I log between 15k and 20k steps, burning anywhere from 500 to 800 calories through walking alone. On top of that, I trim roughly 500 calories from my diet, bringing the total daily deficit to around 1000 kcal. Progressive overload is working since my muscles are visibly growing, yet the scale refuses to budge after four solid weeks of consistency.",
+      "text_en_c1": "I find myself genuinely perplexed by this plateau. Currently hovering around eighteen percent body fat, I log between fifteen and twenty thousand steps daily, burning somewhere in the region of 500 to 800 calories from ambulation alone. Combined with a 500-calorie reduction in caloric intake, my aggregate deficit should approach 1000 kilocalories. Progressive overload remains consistent, and my musculature has grown noticeably more defined. Nevertheless, after four consecutive weeks, the scale refuses to budge, and subcutaneous fat appears stubbornly unchanged. Averaging roughly 90,000 steps weekly, I am beginning to wonder whether my methodology requires fundamental reassessment rather than mere incremental adjustment.",
+      "text_en_c2": "A poster on /fit/ finds himself in a metabolic quandary that would be familiar to any trainee caught between the competing demands of caloric restriction and progressive overload. Holding steady at approximately 18% body fat, he logs between fifteen and twenty thousand daily steps, expending somewhere in the region of five to eight hundred kilocalories through ambulatory activity alone, to which he adds a further five hundred kilocalorie dietary deficit for an aggregate daily shortfall exceeding one thousand kilocalories. The training stimulus has, by his account, yielded discernible muscular hypertrophy, with muscle groups becoming visibly more defined as the weeks accumulate. The bathroom scale, however, remains obstinately unmoved across four consecutive weeks, and the resulting disillusionment is palpable.",
+      "audio_url": "audio/2026-09-07/clip-fit-cant-burn-fat.mp3"
     },
     {
-      "id": "clip-07-anime-bust",
+      "id": "a-bust-size",
       "category": "anime/culture",
-      "topic_zh": "動漫巨乳",
-      "topic_en": "Anime Bust Limits",
-      "text_zh": "/a/ 板有人問動漫女角巨乳幾大先算過火。lol Gundam 00 同 Demon Slayer 起碼有個比例。考牌溫到眼花，上嚟笑下都好。🧐",
-      "text_en_b1": "When it comes to anime and manga busts, how big is too big? One anon asked this on /a/ tonight and the thread is full of clips from old series and sketches. Some replies joke that physics stopped applying decades ago. Others say the limit is when the character cannot stand up straight anymore.",
+      "topic_zh": "二次元胸部極限",
+      "topic_en": "Anime bust size limits",
+      "text_zh": "/a/ 又有膠文問 anime 漫畫入面，女角胸部到底幾大先算太大。巴打們又開始引戰 Gundam 00、鬼滅、進擊嘅巨人比例問題。望住個 thread 我笑咗出嚟，今晚溫書溫到悶當娛樂。Tommy 應該都鍾意睇呢啲膠討論。",
+      "text_en_b1": "When it comes to anime and manga busts, how big is too big? Anons on /a/ are debating the limits of character design proportions. The thread is full of comparisons between classic shows and modern designs, with no real consensus on where the line should be drawn.",
       "source_url": "https://boards.4chan.org/a/thread/290721854",
-      "source_hint": "/a/ thread on absurd anime bust sizes",
+      "source_hint": "/a/ discussion thread on anime bust size limits",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime culture thread, no trade"
+        "rationale": "Anime character design banter, no trade relevance"
       },
-      "text_en_b2": "When it comes to character designs in anime and manga, where exactly do you draw the line on bust size before things cross into ridiculous territory? An anon posed that very question on /a/ tonight, and predictably the thread has exploded into a chaotic collage of classic series clips, rough sketches and heated debate. Some commenters joke that realism stopped being a consideration decades ago, while others insist the breaking point arrives the moment the poor character can no longer stand up straight without toppling…",
-      "text_en_c1": "An anonymous poster on /a/ recently posed the eternal question of where exactly the line should be drawn when it comes to anatomical proportions in anime and manga, particularly with regard to bust size. The thread promptly descended into chaos, accumulating clips from older series alongside hastily sketched comparisons, with contributors debating whether shows such as Gundam 00 and Demon Slayer at least respected basic ratios. Some respondents argued that physics ceased to apply several decades ago, while others insisted that the threshold is reached the moment a character can no longer stand upright without compromising her centre of gravity. It is, at its core, an unanswerable question.",
-      "text_en_c2": "A thread on /a/ tonight posed a question as old as fan service itself: at what magnitude do illustrated endowments cross the threshold from anatomical suggestion into outright thermodynamic impossibility? The replies, predictably, form a curated museum of absurdities, screenshot evidence culled from decades of increasingly unmoored character design. Certain contributors observe, with no small weariness, that physics ceased to apply to the genre somewhere around the late nineties; others, more pragmatically, identify the precise breaking point as the moment a figure can no longer maintain an upright posture. One continues revising for professional examinations until one's eyes blur, and such diversions provide, at minimum, palliative amusement.",
-      "audio_url": "audio/2026-09-07/clip-clip-07-anime-bust.mp3"
+      "text_en_b2": "Another day, another pointless thread on /a/ about anime bust proportions and where the line should actually be drawn. Anons are going back and forth, comparing classic series like Gundam 00 against modern hits such as Demon Slayer and Attack on Titan, debating which designs crossed the threshold. There is no real consensus, just endless flame wars over character silhouettes. Honestly, watching the thread unfold is far more entertaining than grinding through tonight's revision materials.",
+      "text_en_c1": "The eternal debate has resurfaced on /a/ regarding the upper limits of anatomical exaggeration in anime and manga character design. Specifically, contributors are dissecting precisely where proportionality crosses the threshold from stylistic flourish into outright absurdity. Comparisons range across established titles like Gundam 00, Demon Slayer, and Attack on Titan, with no discernible consensus emerging whatsoever. The thread devolves predictably into the customary Gundam versus contemporary aesthetic warfare that aficionados have witnessed countless times before. Honestly, watching the ensuing chaos provided welcome relief from an otherwise tedious evening of certification study.",
+      "text_en_c2": "The eternal question, resurrected once more on /a/, concerns the upper limits of mammary proportion within the medium of anime and manga, with the resident contrarians marshalling their customary array of comparative examples. Debates of this nature invariably devolve into partisan skirmishes over canonical franchises, with Gundam 00, Kimetsu no Yaiba, and Attack on Titan cited in alternating succession as either exemplars of restraint or harbingers of anatomical excess. The thread, predictably, has generated more heat than illumination, with participants ranging across stylistic eras in search of a definitive threshold. The absence of any genuine consensus is, of course, the entire point, and one observes the proceedings with the detached amusement afforded to those whose evening study sessions have grown insufferably tedious. Tommy, I suspect, would derive considerable pleasure from the spectacle.",
+      "audio_url": "audio/2026-09-07/clip-a-bust-size.mp3"
     }
   ]
 }
