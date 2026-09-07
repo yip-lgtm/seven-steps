@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "t1-btc-vs-gold",
+      "id": "t1-pons-doge",
       "category": "trading",
-      "topic_zh": "比特幣 vs 黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "十年長揸只揸一樣，BTC 定 XAU？我自己兩個都揸緊，但依個post問得好。黃金有央行背書，BTC就得個共識。命理同技術分析都畀唔到答案lol。📉",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, which one would you pick and what makes your choice better than the other? The question came up on /biz/ today and most anons just shitpost. Real arguments are welcome.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ thread asking BTC vs gold for the next decade",
+      "topic_zh": "PONS DOGE 爆升夢",
+      "topic_en": "PONS Doge pump math",
+      "text_zh": "又睇到呢種 post…算了 當睇下戲。如果 PONS 真係 flip咗 Pumpfun，理論值 $3。DOGE1 食到真正 DOGE 市值 1%，已經 $150M cap。講真我信唔過…太理想化。但 normie onboarding 呢個 concept 真係 work。算啦 我錢包扁 唔關我事🧐",
+      "text_en_b1": "PONS and Doge bros, how high can we actually go? If PONS flips Pumpfun, we could see it at $3. If DOGE1 captures just 1% of the real Dogecoin market cap, that's already $150M. Pairing memes with stocks could drive one of the biggest waves of normie onboarding we've ever seen. Boomers who own stocks can join crypto with one click.",
+      "source_url": "https://boards.4chan.org/biz/thread/62663347",
+      "source_hint": "/biz/ thread on PONS and DOGE1 pump math",
       "signal": {
-        "asset": "BTC",
-        "direction": "neutral",
+        "asset": "DOGE",
+        "direction": "long",
         "conviction": "low",
-        "time_horizon": "months",
+        "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Comparison post, no clear setup, sentiment is split"
+        "rationale": "OP is bullish on DOGE1 ecosystem but conviction is speculative, no level targets given"
       },
-      "text_en_b2": "Bitcoin versus gold: if you could hold only one asset for the next ten years, which would you choose, and what makes your case stronger than the alternative? This question surfaced on /biz/ today, but most anons responded with jokes and memes rather than a serious analysis. Gold is backed by central banks, whereas Bitcoin ultimately relies on market consensus. Although technical and fundamental analysis may offer clues, neither can provide a definitive answer. Genuine arguments are welcome.",
-      "text_en_c1": "Were you compelled to liquidate every alternative position and hold nothing but a single asset for the coming decade, Bitcoin or gold would secure your allegiance, and on what grounds does that conviction outweigh the rival case? The thread surfaced on /biz/ this morning and, predictably, devolved into the usual avalanche of memes and unserious posting, though a handful of anons have been making what look like substantive arguments, weighing central-bank endorsement against decentralised consensus, scarcity narratives against network effects. Neither technical analysis nor fundamental astrology, whichever one takes seriously, resolves the dilemma. Genuine reasoning, however flawed, would be a welcome departure from the noise.",
-      "text_en_c2": "A question surfaced on /biz/ that genuinely merits deliberation: if one were compelled to hold a single asset for the coming decade, should it be Bitcoin or gold, and what substantive reasoning underpins that preference? Most respondents, predictably, resorted to facile shitposting rather than rigorous analysis. Gold benefits from centuries of institutional trust, central-bank endorsement, and an entrenched role as a monetary anchor; Bitcoin, by contrast, derives its value entirely from decentralised consensus and cryptographic scarcity. Neither technical analysis nor astrological speculation offers a definitive verdict, yet the inquiry itself remains intellectually compelling, particularly for those already allocating capital across both instruments and seeking a more principled framework for conviction.",
-      "audio_url": "audio/2026-09-07/clip-t1-btc-vs-gold.mp3"
+      "text_en_b2": "Another one of these moonshot posts, but let me break down the math anyway. If PONS manages to flip Pumpfun, the theoretical target sits around $3. Meanwhile, DOGE1 capturing even 1% of Dogecoin's actual market cap would amount to roughly $150M. While the underlying concept of marrying meme tokens with stock mechanics seems sound, my wallet's too empty to bite. Boomers who already hold equities could literally onboard into crypto with a single click, which is genuinely underrated.",
+      "text_en_c1": "Considering how high PONS and the broader Dogecoin derivative ecosystem could conceivably climb, one has to run the arithmetic carefully. Should PONS manage to flip Pumpfun in terms of valuation, a theoretical price of around three dollars becomes plausible rather than fanciful. Likewise, if DOGE1 captures even a single percent of Dogecoin's market capitalisation, the resulting figure would land somewhere in the vicinity of a hundred and fifty million. Whether meme-stock pairings genuinely represent the next major onboarding vector for retail investors remains debatable, yet the underlying thesis is not without merit.",
+      "text_en_c2": "The post in question rehearses a now-familiar speculative crescendo, one that conflates meme-token arithmetic with genuine sector rotation. Its central conceit, that PONS could supplant Pumpfun and, by extension, trade at a notional three dollars, rests on assumptions so generous they border on the axiomatic. A derivative DOGE1 capturing a mere one per cent of Dogecoin's extant market capitalisation would, admittedly, clear the hundred-and-fifty-million-dollar threshold, though such symmetry between joke-coin sentiment and institutional liquidity has historically proven elusive. What does hold water is the underlying thesis concerning normie onboarding: pairing equities with memecoins lowers the cognitive barrier to entry for an ageing retail cohort whose portfolios already resemble a fixed-income buffet. Whether that translation proves durable or merely cyclical remains, however, an open question.",
+      "audio_url": "audio/2026-09-07/clip-t1-pons-doge.mp3"
     },
     {
       "id": "t2-spacex-lockup",
       "category": "trading",
-      "topic_zh": "SpaceX IPO lockup",
-      "topic_en": "SpaceX lockup dump",
-      "text_zh": "2026年9月9號，大約3.19億股SpaceX stock解禁，佔總股本約2.4%。第三次lockup expiry。睇下TSLA會唔會被波及啦，prop firm倉好驚🧐",
-      "text_en_b1": "September 9, 2026: roughly 319 million additional SpaceX shares, about 7% of the baseline pool / roughly 2.4% of total shares outstanding, become eligible for sale. This marks the 90th trading day since the IPO and is the third major lockup release event.",
+      "topic_zh": "SpaceX 鎖倉解禁",
+      "topic_en": "SpaceX lockup expiry",
+      "text_zh": "嘩 SpaceX IPO 後 90 日，第三輪 lockup release…大概 319M 股解禁，大約係 baseline pool 7%，即總股數 2.4%。9月9號到。insider 終於可以散貨。我冇 hold 到但呢個日期要 mark 低，又可以睇下 Musk 點樣 perform🧐",
+      "text_en_b1": "Around September 9, 2026, about 319 million extra SpaceX shares become eligible to sell. That is roughly 7% of the baseline pool, or about 2.4% of all shares. It marks the 90th trading day since the IPO and is the third big lockup release event.",
       "source_url": "https://boards.4chan.org/biz/thread/62662968",
-      "source_hint": "/biz/ SpaceX IPO lockup expiry thread",
+      "source_hint": "/biz/ thread tracking SpaceX IPO lockup release dates",
       "signal": {
-        "asset": "TSLA",
+        "asset": "observation",
         "direction": "observation",
         "conviction": "none",
-        "time_horizon": "days",
+        "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Lockup expiry is a known date risk, no clear trade direction implied"
+        "rationale": "Informational post, no trade setup"
       },
-      "text_en_b2": "On September 9, 2026, roughly 319 million additional SpaceX shares will become eligible for sale. That figure represents about 7 percent of the baseline pool and approximately 2.4 percent of all shares outstanding. The release marks the 90th trading day since the company’s IPO and its third major lockup expiration. Although the shares may not all enter the market immediately, traders will be watching whether the increased supply puts pressure on TSLA or affects prop firms holding large positions.",
-      "text_en_c1": "On the ninth of September 2026, approximately 319 million additional SpaceX shares — equivalent to roughly seven percent of the baseline pool or about two and a half percent of total shares outstanding — will become eligible for sale, marking the ninetieth trading day since the IPO. This constitutes the third major lockup expiry, and prop desks are reportedly scrambling to model the overhang, since insider liquidations of this magnitude have historically exerted downward pressure even on names with strong fundamentals. Whether Tesla absorbs collateral damage depends on correlation and sentiment, but the trading desks I have spoken to are bracing themselves.",
-      "text_en_c2": "On 9 September 2026, approximately 319 million SpaceX shares will become eligible for resale, representing some 2.4 percent of total shares outstanding and roughly 7 percent of the baseline pool. This event, the third major lockup expiry since the company's IPO, coincides with the customary ninetieth trading day after the offering, a calendar inflection that institutional investors monitor with considerable vigilance. The implications extend well beyond SpaceX itself; should the float generate downward pressure, adjacent equities such as Tesla may experience correlated volatility, given the high-beta exposure favoured by prop-trading desks. Whether insider conviction or mere liquidity arithmetic will dominate remains an open question, one that market participants would do well to dissect in advance.",
+      "text_en_b2": "Coming up on September 9th, SpaceX hits its 90-day post-IPO milestone, unlocking roughly 319 million additional shares for insiders to offload. That figure represents around 7% of the baseline pool, or just 2.4% of the total float. While I'm not currently holding any position, this is a date worth circling on the calendar since it marks the third major lockup expiry event and could easily trigger some volatility.",
+      "text_en_c1": "With the third lockup expiry falling approximately ninety days after SpaceX's IPO, roughly 319 million shares will become eligible for trading come September the ninth. That figure represents about seven percent of the baseline pool, which translates to roughly two point four percent of total outstanding shares. Insiders who have been compelled to hold their positions will finally have the latitude to liquidate, a development that tends to introduce meaningful volatility into any newly public security. Market participants would do well to mark the date accordingly.",
+      "text_en_c2": "The third post-IPO lockup expiry, scheduled for the ninth of September 2026, will release approximately 319 million SpaceX shares into eligibility for sale. That tranche constitutes roughly seven per cent of the baseline insider pool, or about 2.4 per cent of total outstanding shares, a numerically modest figure that nonetheless carries disproportionate signalling weight. Ninety trading days having elapsed since the listing, early backers and employees will, at last, secure meaningful liquidity, and the temptation to monetise even partial positions will likely prove irresistible after such an extended vesting horizon. Although the float expansion is, in absolute terms, marginal, secondary-market dynamics rarely behave in proportion to disclosed supply; price discovery in the aftermath will hinge less on the headline figure than on the choreography of insider behaviour itself. Worth marking in the calendar.",
       "audio_url": "audio/2026-09-07/clip-t2-spacex-lockup.mp3"
     },
     {
-      "id": "t3-paid-ai",
+      "id": "ai-paid-models",
       "category": "tech/ai",
-      "topic_zh": "課金AI才識用",
-      "topic_en": "Paid AI cope",
-      "text_zh": "啲人成日叫人畀錢上ChatGPT Plus，但Kimi / Qwen / GLM平到笑，性能有90%。我考牌都靠Qwen續命，廢柴沒錢課金🧐",
-      "text_en_b1": "Have you noticed this type of post? People say \"if you haven't tried the PAID models you don't know what they are capable of\" and \"try the PAID tier, you'll see how scary they are.\" But cheaper models like Kimi, GLM or Qwen get you easily 90% of the performance for maybe 10% of the price.",
+      "topic_zh": "AI 模型付費撈汁",
+      "topic_en": "Paid AI shills",
+      "text_zh": "成日見到人叫人試 paid ChatGPT 或 Claude，講到幾咁恐怖。但其實平價 model Kimi、GLM、Qwen 都做到 90% 效果，價錢先係 10%。咁多人點解唔推介平嘢？真係奇怪。又係 AI 泡沫嚟lol",
+      "text_en_b1": "Why do people only push paid models and tell you they are scary? You never see anyone telling you to try cheap models like Kimi, GLM, or Qwen, which give you about 90% of the performance for maybe 10% of the price. Has anyone else noticed this?",
       "source_url": "https://boards.4chan.org/g/thread/109741497",
-      "source_hint": "/g/ thread about people shilling paid AI tiers",
+      "source_hint": "/g/ thread questioning paid AI model shilling",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech discussion, not a trade setup"
+        "rationale": "Discussion post, not a trade"
       },
-      "text_en_b2": "Have you noticed how often people insist that ChatGPT Plus or other paid models are the only AI products worth trying? They argue that users cannot understand their capabilities until they have experienced the paid tier, which is allegedly far more capable. However, cheaper alternatives such as Kimi, Qwen, and GLM can deliver roughly 90 percent of that performance for perhaps 10 percent of the price.",
-      "text_en_c1": "Have you encountered that particular breed of post in which the author insists, with almost evangelical fervour, that anyone who has not sampled the paid tier of frontier models simply cannot appreciate their capabilities, and that those who try them will find them terrifying? The premise deserves scrutiny, because the open-weights ecosystem — Kimi, GLM, Qwen among others — now delivers something close to ninety percent of that performance at perhaps ten percent of the cost. I personally passed a licensing exam largely through Qwen-assisted study, which rather undermines the notion that meaningful capability remains exclusively behind a paywall.",
-      "text_en_c2": "A recurring strain of commentary insists that only paid-tier large language models deliver genuinely capable output, yet such assertions betray a certain incuriosity about the contemporary open-weight landscape. Models such as Kimi, Qwen, and GLM routinely achieve performance within striking distance of flagship offerings, often at a tenth of the subscription cost, a disparity that renders the premium tier something of a luxury rather than a necessity. For budget-constrained users, myself included, these alternatives have proven entirely serviceable for cognitively demanding tasks; professional licensure preparation, for instance, has been substantially supported by Qwen without recourse to a paid plan. The presumption that capability scales linearly with expenditure deserves more rigorous scrutiny than its proponents typically provide.",
-      "audio_url": "audio/2026-09-07/clip-t3-paid-ai.mp3"
+      "text_en_b2": "I've been puzzled by how aggressively people push paid models like ChatGPT and Claude, framing them as almost intimidatingly powerful. Meanwhile, affordable alternatives such as Kimi, GLM, and Qwen deliver around 90% of the capability at roughly a tenth of the price. So why does nobody ever recommend the budget options? It genuinely baffles me, and honestly it feels like yet another symptom of the AI hype bubble.",
+      "text_en_c1": "It strikes me as rather peculiar that so few voices champion the open-weight alternatives to the headline-grabbing paid models. While ChatGPT and Claude dominate every recommendation thread, contenders such as Kimi, GLM, and Qwen deliver what is arguably ninety percent of the performance at a mere fraction of the subscription cost. The economics are self-evident, yet the discourse remains stubbornly concentrated on premium offerings. One cannot help but wonder whether this constitutes an organic preference, or whether something considerably more deliberate is at play.",
+      "text_en_c2": "The conspicuous asymmetry in how frontier models are promoted merits closer scrutiny than it typically receives. Paid offerings such as ChatGPT and Claude are relentlessly marketed as though their capabilities dwarfed every alternative, yet the empirical gap between them and their budget counterparts — Kimi, GLM, Qwen among the most cited — narrows by the quarter. For roughly ten per cent of the subscription cost, these leaner systems deliver something approximating ninety per cent of the functional output across the majority of quotidian tasks, a value proposition that ought, by any rational calculus, to dominate recommendation threads. Its absence suggests that advocacy operates less on technical merit than on affiliate economics, the familiar gravitational pull of revenue share masquerading as informed counsel. One observes the pattern and draws the obvious inference.",
+      "audio_url": "audio/2026-09-07/clip-ai-paid-models.mp3"
     },
     {
-      "id": "t4-stablecoin-bill",
+      "id": "hk-stablecoin-banks",
       "category": "hk/news",
-      "topic_zh": "21間美國銀行發穩定幣",
-      "topic_en": "US banks launch stablecoin",
-      "text_zh": "21間美國銀行聯手發stablecoin。Trump將成個美國賣晒畀私人機構同銀行，Apple Coin、Microsoft Coin、X Coin全部會嚟。USD地位就嚟冇，到時BTC同gold點算？wtf",
-      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. Before long you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin. The U.S. financial markets will be flooded with hundreds of different digital currencies.",
+      "topic_zh": "美 21 銀行發穩定幣",
+      "topic_en": "US bank stablecoins",
+      "text_zh": "嘩 21 間美資銀行一齊推 stablecoin…Trump 擺到明將美元私有化。Apple Coin、Tesla Coin、X Coin 遲早出齊。咁玩法 CBDC 都唔使搞。香港遲早被夾住…我個 prop firm 又關呢 d 事😭",
+      "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. The poster says this is the real purpose behind Trump's stablecoin bill, letting private banks and companies issue their own currencies. Soon we will see Apple Coin, Google Coin, Tesla Coin, X Coin, and Bank Coin flooding the markets.",
       "source_url": "https://boards.4chan.org/pol/thread/542134554",
-      "source_hint": "/pol/ thread on the U.S. bank stablecoin coalition",
+      "source_hint": "/pol/ thread on US banks launching joint stablecoin",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News/political commentary, no actionable trade"
+        "rationale": "News commentary, no actionable trade"
       },
-      "text_en_b2": "Twenty-one U.S. banks reportedly plan to launch a joint stablecoin, which some see as the real purpose behind Trump’s stablecoin bill. Before long, critics expect a flood of branded digital currencies, including Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, and Bank Coin. The argument is that private companies and financial institutions are taking over the American economy. If hundreds of such currencies enter circulation, they could weaken the dollar’s position. What would that mean for Bitcoin, gold, and the wider financial system?",
-      "text_en_c1": "Twenty-one American banks are reportedly preparing to roll out a joint stablecoin, a development that many now regard as the genuine underlying rationale for the Trump administration's stablecoin legislation. Once the regulatory door swings open, expect a cascade of corporate issuers — Apple Coin, Google Coin, Microsoft Coin, Tesla Coin, X Coin, Bank Coin — flooding the financial plumbing with hundreds of distinct digital instruments. Whether such saturation entrenches dollar hegemony or dilutes it remains contested, though the implications for Bitcoin and gold, which thrive on monetary distrust, could prove considerable.",
-      "text_en_c2": "Twenty-one American banks have coalesced around the prospect of issuing a jointly administered stablecoin, a development whose significance transcends the immediate technical innovation and gestures toward something more structural. Critics contend that the underlying legislation, ostensibly championed by the Trump administration, effectively privatises the architecture of digital dollar circulation, ceding monetary infrastructure to consortia whose interests may not align with broader public welfare. The anticipated proliferation of corporate-issued tokens, ranging from Apple Coin and Microsoft Coin to X Coin and Bank Coin, portends a fragmented settlement landscape in which the dollar's primacy could erode not through external challenge but through internal dilution. Should that scenario materialise, Bitcoin and gold may yet find themselves reassessed as alternative stores of value.",
-      "audio_url": "audio/2026-09-07/clip-t4-stablecoin-bill.mp3"
+      "text_en_b2": "Apparently 21 major US banks are banding together to roll out a joint stablecoin, which effectively turns the dollar into a privately issued asset. The poster argues this is the real endgame behind Trump's stablecoin legislation, letting corporations mint their own currencies while sidestepping any genuine CBDC framework. We're likely heading toward Apple Coin, Tesla Coin, X Coin, and similar tokens flooding the market, while Hong Kong gets squeezed from both sides.",
+      "text_en_c1": "The coordinated announcement involving twenty-one major American banking institutions launching a unified stablecoin represents a watershed moment for monetary policy in private hands. What had been speculated about for months has now crystallised into an explicit agenda, one that effectively renders central bank digital currencies redundant. Inevitable follow-ons such as Apple Coin, Tesla Coin, and X Coin are no longer hypothetical; they are simply a matter of timing. Hong Kong, whose regulatory framework had positioned it as a stablecoin hub, now finds itself in a markedly more constrained position.",
+      "text_en_c2": "Twenty-one American banks have coalesced around a jointly issued stablecoin, an arrangement whose subtext the original poster identified with uncharacteristic precision. Far from a benign piece of payments infrastructure, the initiative crystallises a long-brewing project: the quiet privatisation of the dollar, executed not through overt monetary reform but through regulatory tolerance for private issuance. The downstream consequences are scarcely subtle. Once JPMorgan, Bank of America and their consortium peers have established the template, the floodgates effectively open for corporate variants — an Apple Coin, a Tesla Coin, an X Coin, even a putative Bank Coin — each diluting the conceptual boundary between currency and loyalty programme. Central bank digital currencies, that once-touted public-sector alternative, become otiose before they are properly legislated.",
+      "audio_url": "audio/2026-09-07/clip-hk-stablecoin-banks.mp3"
     },
     {
-      "id": "t5-ffxiv-msq",
+      "id": "lol-ffxiv",
       "category": "lol/esports",
-      "topic_zh": "終於認真打FFXIV",
-      "topic_en": "FFXIV proper playthrough",
-      "text_zh": "好耐冇打機，FFXIV斷斷續續玩咗幾年都未過MSQ。今晚開嚟hea下先，打完一集LoL再睇下LCK，s15啲隊真係難睇lol。打機時間都係錢🥲",
-      "text_en_b1": "I finally started playing FFXIV properly instead of making a character, doing a few quests, and dropping it for six months. The music is great, the world has a lot more personality than I expected. Please keep spoilers to a minimum. What jobs did everyone start with?",
+      "topic_zh": "FFXIV 終於開局",
+      "topic_en": "FFXIV first real run",
+      "text_zh": "巴打終於肯認真打 FFXIV…做個人，做幾個 quest，然後丟低六個月。loop 到死lol。但講真隻 game 音樂世界都 OK，character 又唔係典型救世主。我冇玩開呢類…但睇個 post 都想去試下。考牌溫完先算🙏",
+      "text_en_b1": "The poster finally started playing FFXIV properly instead of just making a character, doing a few quests, then dropping the game for six months. The MSQ music is great, the world has more personality than expected, and the character does not fit neatly into one heroic archetype. What job did everyone start with?",
       "source_url": "https://boards.4chan.org/v/thread/747001345",
-      "source_hint": "/v/ thread from a new FFXIV player starting the MSQ",
+      "source_hint": "/v/ thread on finally starting FFXIV properly",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming chatter, not a trade setup"
+        "rationale": "Gaming discussion, no trade"
       },
-      "text_en_b2": "I have finally started playing Final Fantasy XIV properly rather than creating a character, completing a handful of quests, and then disappearing for six months. Although I had played on and off for years, I had never managed to finish the main scenario quest. The music is excellent, while the world has far more personality than I expected. I would appreciate it if spoilers were kept to an absolute minimum. Which jobs did other players begin with when they first started?",
-      "text_en_c1": "After years of half-hearted attempts, in which I would create a character, dabble in a handful of starter quests, then abandon the game for roughly six months at a stretch, I have finally committed to playing Final Fantasy XIV properly and am working through the main scenario. The soundtrack is remarkably accomplished, and the world possesses a personality I had not anticipated; if anyone could refrain from spoiling upcoming story beats, I would be grateful. For those who persevered, which starting job did you ultimately settle on, and would you make the same choice now?",
-      "text_en_c2": "After several years of intermittent, perfunctory engagement with Final Fantasy XIV, characterised by the familiar cycle of character creation, cursory quest progression, and subsequent abandonment, I have finally committed to a proper playthrough of the main scenario. The soundtrack is, frankly, more distinguished than I had been led to anticipate, and Eorzea possesses a tonal idiosyncrasy that distinguishes it from its genre peers. Should any responders wish to contribute, I would be grateful for spoiler-free reflections on early job selections, as I am presently weighing the relative merits of several disciplines. The undertaking feels, for the first time, less like obligation and more like genuine investment of one's leisure hours.",
-      "audio_url": "audio/2026-09-07/clip-t5-ffxiv-msq.mp3"
+      "text_en_b2": "After months of the usual cycle, creating a character, grinding a handful of quests, then abandoning the game for half a year, the poster finally committed to FFXIV properly. Although they typically avoid MMOs, the MSQ soundtrack genuinely hooked them, and the world carries far more personality than expected, with a protagonist who defies the standard heroic mold. Which job did everyone originally roll when starting out?",
+      "text_en_c1": "After years of half-hearted attempts, the poster has finally committed to playing Final Fantasy XIV with a degree of seriousness, eschewing the familiar pattern of crafting a character, completing a handful of introductory quests, and then abandoning the game indefinitely. The Main Scenario Quest soundtrack has proven surprisingly accomplished, the worldbuilding possesses a depth that exceeds initial expectations, and the protagonist resists easy categorisation within conventional heroic archetypes. Should one persist past the early hours, the rewards appear genuinely substantial.",
+      "text_en_c2": "The poster has, at long last, committed to Final Fantasy XIV in earnest — a small but not insignificant concession from someone whose prior pattern involved character creation, the obligatory tutorial quests, and then a six-month hiatus indistinguishable from abandonment. What appears to have arrested the cycle is the Main Scenario Quest's soundtrack, whose compositional ambition comfortably exceeds the genre's median, and a world whose geography resists the tidy moral cartography typical of its peers. The protagonist, conspicuously, refuses the Manichean scaffolding of conventional hero narratives, occupying instead an ambiguous register that lends the early hours a certain reflective weight. Having finished the examination revision, one may yet yield to curiosity and discover which starting class the community finds most congenial for a first proper run.",
+      "audio_url": "audio/2026-09-07/clip-lol-ffxiv.mp3"
     },
     {
-      "id": "t6-405-bench",
+      "id": "mma-405-bench",
       "category": "mma/fitness",
-      "topic_zh": "405磅臥推",
-      "topic_en": "405lb bench sighting",
-      "text_zh": "405磅bench我連做夢都未試過，睇到即刻tag肥仔信。佢而家1pl8 OHP都未穩陣，我哋兩個加埋都舉唔起條barlol。操到35歲睇下點",
-      "text_en_b1": "How often do you see a 405lb bench press in your gym? Anons replied that most commercial gyms you see one maybe once every few months, but serious powerlifting gyms get one almost every session. A few said 405 raw is a lifetime milestone for naturals.",
+      "topic_zh": "405 磅臥推神人",
+      "topic_en": "405lbs bench sighting",
+      "text_zh": "嘩 405 磅 bench…即係 184kg。我而家 1pl8 都未穩，講緊 60kg 咋。睇完個 post 又要去 gym 打大佬😅。肥仔信今日又叫我去，我話 OK THX，但又係 trade loss 完冇動力lol",
+      "text_en_b1": "How often do you see a 405lbs bench press in your gym? The poster is asking other lifters how rare that number actually is, since most gyms never see anyone touch four plates on the flat bench.",
       "source_url": "https://boards.4chan.org/fit/thread/77494557",
-      "source_hint": "/fit/ thread asking how often you see a 405lb bench press",
+      "source_hint": "/fit/ thread asking how common 405lbs bench is",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness discussion, not a trade setup"
+        "rationale": "Gym talk, not a trade"
       },
-      "text_en_b2": "How often do you actually see a 405-pound bench press in your gym? Anons say that in most commercial gyms, a lift of that size might appear only once every few months, whereas serious powerlifting gyms can produce one almost every session. A few respondents described a raw 405 as a lifetime milestone for natural athletes. Personally, I cannot even imagine attempting it, and combining my strength with that of the person I would tag would still not get the bar moving.",
-      "text_en_c1": "How frequently does one actually witness a 405-pound bench press in a commercial gym setting, because by any honest accounting it remains a vanishingly rare event? Anons across the thread offered that in the typical big-box facility you might see such a number attempted perhaps once every several months, whereas dedicated powerlifting gyms tend to produce one almost every session, given the clientele. Several veterans remarked that pressing 405 raw, without the assistance of a suit or wraps, represents a lifetime milestone for natural lifters. Tagging my training partner who has yet to lock down a single-plate overhead press, may we both reach that threshold by thirty-five.",
-      "text_en_c2": "The sighting of a 405-pound bench press in a commercial gym remains, statistically speaking, a genuinely rare occurrence, perhaps once every several months in a typical setting, whereas serious powerlifting facilities witness such feats on an almost quotidian basis. For drug-free lifters, pressing 405 raw constitutes a benchmark widely regarded as a lifetime milestone, one that demarcates the merely dedicated from the genuinely committed. I find myself, candidly, nowhere near that threshold; my own pressing numbers remain modest, and the prospect of attaining such strength by thirty-five feels ambitious rather than implausible. Nonetheless, the discipline required to pursue such a goal confers benefits that transcend the numerical outcome itself.",
-      "audio_url": "audio/2026-09-07/clip-t6-405-bench.mp3"
+      "text_en_b2": "A 405-pound bench press equals roughly 184 kilograms, which is an absolutely absurd working weight in any commercial gym. Most lifters never witness four plates loaded on a flat bench, so the poster is essentially asking how statistically rare that kind of feat actually is. Even though my own one-plate max still wobbles at around 60 kilograms, seeing posts like this somehow reignites motivation to get back under the bar.",
+      "text_en_c1": "Witnessing a four-hundred-and-five-pound bench press in a commercial gym setting remains an exceedingly uncommon occurrence, one that tends to command attention regardless of how jaded the surrounding lifters may be. The poster, whose own working weights remain considerably more modest, found the feat sufficiently motivating to reconsider an imminent training session. Whether such spectacles function as inspiration or merely as a humbling reminder of one's present limitations is, of course, an entirely separate question worth pondering.",
+      "text_en_c2": "A 405-pound flat bench press — one hundred and eighty-four kilograms for those who insist on metric propriety — remains, even within serious lifting communities, an event of sufficient rarity to warrant photographic documentation. Most commercial gyms will witness exactly zero such lifts across an entire calendar year; the four-plate threshold operates as an informal credential separating the genuinely strong from the merely dedicated. The poster's evident awe, therefore, is neither performative nor disproportionate, though one's own current working weight of sixty kilograms renders the comparison somewhat invidious. A friend has, with characteristic persistence, invited attendance at tomorrow's session, an overture accepted in principle if not yet in spirit. Trading losses, it should be noted, have a peculiar talent for extinguishing whatever motivational residue the previous evening had managed to accumulate.",
+      "audio_url": "audio/2026-09-07/clip-mma-405-bench.mp3"
     },
     {
-      "id": "t7-hyakkano",
+      "id": "anime-bust-size",
       "category": "anime/culture",
-      "topic_zh": "百女戰10集",
-      "topic_en": "Hyakkano episode 10",
-      "text_zh": "今晚準時開嚟睇，17個人拔刀＋食拉麵，呢個studio做sakuga真係唔錯。我寧願睇呢啲都唔好睇S15 LCK，太捽了🧐 考牌都未溫。",
-      "text_en_b1": "100 Girlfriends / Hyakkano Season 3 Episode 10. We will get a huge 17 person sword fight, then they will eat some ramen. Tune in for sakuga. The same studio handled the recent Gundam 00 action cuts and fans are hyped.",
-      "source_url": "https://boards.4chan.org/a/thread/290739220",
-      "source_hint": "/a/ preview thread for Hyakkano S3E10",
+      "topic_zh": "動漫巨乳界線",
+      "topic_en": "Anime bust size debate",
+      "text_zh": "睇到呢個 post 真係笑死。動漫巨乳幾大先算 too big？我諗 Gundam 00 嗰陣完全唔使諗呢樣嘢lol。Demon Slayer 都還好。但 OP 講到好似好認真咁…我就……算 唔答了🧐",
+      "text_en_b1": "When it comes to anime and manga busts, how big is too big? The poster is asking where the line is between fanservice and ridiculous, since some recent art keeps pushing the scale past what looks natural.",
+      "source_url": "https://boards.4chan.org/a/thread/290721854",
+      "source_hint": "/a/ thread debating anime bust size limits",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime discussion, not a trade setup"
+        "rationale": "Anime discussion, not a trade"
       },
-      "text_en_b2": "100 Girlfriends, also known as Hyakkano, Season 3 Episode 10 is arriving, and fans are expecting a spectacular seventeen-person sword fight followed by a ramen scene. The same studio has produced strong sakuga in recent Gundam 00 action sequences, which explains why viewers are particularly excited. Although I still need to revise for my licensing exam, I would rather watch this episode than endure another grinding S15 LCK match.",
-      "text_en_c1": "Tune in tonight for the broadcast of 100 Girlfriends Season 3 Episode 10, in which a sprawling seventeen-person duel unfolds before the ensemble adjourns for a ramen sequence, an indication that the studio's commitment to sakuga remains undimmed. The same outfit recently handled the action cuts for the Gundam 00 rewatch, and fans have been vocal about their anticipation. I would frankly rather devote the evening to this than endure another slog of Season 15 LCK, where production values have grown increasingly sterile. My licensing exam revision, regrettably, will have to wait another night.",
-      "text_en_c2": "The tenth episode of Hyakkano's third season promises a sprawling seventeen-person sword engagement, followed, in characteristically capricious fashion, by an extended ramen interlude, a juxtaposition that somehow exemplifies the series' tonal dexterity. The studio responsible has demonstrated a commendable facility with sakuga, having recently delivered the action cuts for a Gundam 00 compilation that generated considerable approbation among aficionados. Such craftsmanship renders the programme a vastly preferable alternative to the current professional League of Legends circuit, whose strategic meta has calcified into something approaching aesthetic desolation. One's finite hours, after all, demand allocation toward experiences that reward rather than merely consume one's attention.",
-      "audio_url": "audio/2026-09-07/clip-t7-hyakkano.mp3"
+      "text_en_b2": "There's an ongoing thread debating where exactly anime and manga bust sizes cross the line from fanservice into absurd territory, and it spiraled into something hilariously serious. While older titles like Gundam 00 never even came close, modern art keeps escalating past anything resembling realism. The original poster seemed genuinely invested in the argument, although I personally couldn't muster the enthusiasm to weigh in.",
+      "text_en_c1": "The question of precisely where the threshold lies between acceptable artistic licence and outright anatomical absurdity in contemporary anime and manga has evidently resurfaced with renewed vigour. Certain recent illustrations appear to have abandoned any pretence of proportionality, thereby provoking the inevitable discourse among long-suffering viewers. Works of earlier vintages such as Gundam 00 rarely invited such scrutiny, while even Demon Slayer, for all its stylisation, generally manages to remain on the defensible side of the line.",
+      "text_en_c2": "The question of where anatomical licence crosses into the frankly absurd has, of late, acquired a renewed urgency within certain fandom circles. Proportions once confined to the outer reaches of doujinshi have migrated, with quiet inevitability, into mainstream seasonal productions, prompting debates whose taxonomic earnestness belies their essentially aesthetic subject matter. Older reference points — Gundam 00's relative restraint, Demon Slayer's disciplined silhouettes — now read as almost ascetic by contemporary standards, artefacts of a more austere visual grammar. Where precisely the threshold lies between legitimate stylisation and mere inflationary excess remains, charitably, a matter of connoisseurship rather than consensus. The original poster's apparent sincerity, however, renders engagement perilous: any substantive response risks an entanglement from which reputational recovery proves, shall we say, protracted.",
+      "audio_url": "audio/2026-09-07/clip-anime-bust-size.mp3"
     }
   ]
 }

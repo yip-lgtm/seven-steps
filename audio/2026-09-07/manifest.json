@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "比特幣 vs 黃金",
+      "id": "t1-pons-doge",
+      "topic_en": "PONS Doge pump math",
+      "topic_zh": "PONS DOGE 爆升夢",
       "category": "trading",
-      "file": "clip-t1-btc-vs-gold.mp3",
-      "bytes": 248244,
-      "chars": 236
+      "file": "clip-t1-pons-doge.mp3",
+      "bytes": 375540,
+      "chars": 331
     },
     {
       "id": "t2-spacex-lockup",
-      "topic_en": "SpaceX lockup dump",
-      "topic_zh": "SpaceX IPO lockup",
+      "topic_en": "SpaceX lockup expiry",
+      "topic_zh": "SpaceX 鎖倉解禁",
       "category": "trading",
       "file": "clip-t2-spacex-lockup.mp3",
-      "bytes": 324852,
-      "chars": 255
+      "bytes": 313332,
+      "chars": 245
     },
     {
-      "id": "t3-paid-ai",
-      "topic_en": "Paid AI cope",
-      "topic_zh": "課金AI才識用",
+      "id": "ai-paid-models",
+      "topic_en": "Paid AI shills",
+      "topic_zh": "AI 模型付費撈汁",
       "category": "tech/ai",
-      "file": "clip-t3-paid-ai.mp3",
-      "bytes": 287412,
-      "chars": 289
+      "file": "clip-ai-paid-models.mp3",
+      "bytes": 242484,
+      "chars": 244
     },
     {
-      "id": "t4-stablecoin-bill",
-      "topic_en": "US banks launch stablecoin",
-      "topic_zh": "21間美國銀行發穩定幣",
+      "id": "hk-stablecoin-banks",
+      "topic_en": "US bank stablecoins",
+      "topic_zh": "美 21 銀行發穩定幣",
       "category": "hk/news",
-      "file": "clip-t4-stablecoin-bill.mp3",
-      "bytes": 320244,
-      "chars": 296
+      "file": "clip-hk-stablecoin-banks.mp3",
+      "bytes": 292596,
+      "chars": 283
     },
     {
-      "id": "t5-ffxiv-msq",
-      "topic_en": "FFXIV proper playthrough",
-      "topic_zh": "終於認真打FFXIV",
+      "id": "lol-ffxiv",
+      "topic_en": "FFXIV first real run",
+      "topic_zh": "FFXIV 終於開局",
       "category": "lol/esports",
-      "file": "clip-t5-ffxiv-msq.mp3",
-      "bytes": 254580,
-      "chars": 267
+      "file": "clip-lol-ffxiv.mp3",
+      "bytes": 315060,
+      "chars": 313
     },
     {
-      "id": "t6-405-bench",
-      "topic_en": "405lb bench sighting",
-      "topic_zh": "405磅臥推",
+      "id": "mma-405-bench",
+      "topic_en": "405lbs bench sighting",
+      "topic_zh": "405 磅臥推神人",
       "category": "mma/fitness",
-      "file": "clip-t6-405-bench.mp3",
-      "bytes": 270708,
-      "chars": 251
+      "file": "clip-mma-405-bench.mp3",
+      "bytes": 192372,
+      "chars": 193
     },
     {
-      "id": "t7-hyakkano",
-      "topic_en": "Hyakkano episode 10",
-      "topic_zh": "百女戰10集",
+      "id": "anime-bust-size",
+      "topic_en": "Anime bust size debate",
+      "topic_zh": "動漫巨乳界線",
       "category": "anime/culture",
-      "file": "clip-t7-hyakkano.mp3",
-      "bytes": 245940,
-      "chars": 217
+      "file": "clip-anime-bust-size.mp3",
+      "bytes": 206196,
+      "chars": 204
     }
   ]
 }
