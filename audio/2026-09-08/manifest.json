@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-fed-powell",
-      "topic_en": "Fed Hike Drama",
-      "topic_zh": "聯儲局加息與否",
+      "id": "trade1",
+      "topic_en": "BTC vs Gold",
+      "topic_zh": "比特幣vs黃金",
       "category": "trading",
-      "file": "clip-t1-fed-powell.mp3",
-      "bytes": 294324,
-      "chars": 290
+      "file": "clip-trade1.mp3",
+      "bytes": 259764,
+      "chars": 248
     },
     {
-      "id": "t2-tsla-double",
-      "topic_en": "TSLA Double Up?",
-      "topic_zh": "TSLA仲有冇得升",
+      "id": "trade2",
+      "topic_en": "Tesla Buy",
+      "topic_zh": "買Tesla時機",
       "category": "trading",
-      "file": "clip-t2-tsla-double.mp3",
-      "bytes": 362292,
-      "chars": 332
+      "file": "clip-trade2.mp3",
+      "bytes": 209076,
+      "chars": 213
     },
     {
-      "id": "t3-ai-jobs",
-      "topic_en": "AI Job Doom",
-      "topic_zh": "AI會搶你飯碗？",
+      "id": "techai",
+      "topic_en": "Nitter Returns",
+      "topic_zh": "Nitter復活",
       "category": "tech/ai",
-      "file": "clip-t3-ai-jobs.mp3",
-      "bytes": 305268,
-      "chars": 322
+      "file": "clip-techai.mp3",
+      "bytes": 260916,
+      "chars": 269
     },
     {
-      "id": "t4-america-fat",
-      "topic_en": "America Obesity",
+      "id": "hknews",
+      "topic_en": "US Obesity",
       "topic_zh": "美國肥佬問題",
       "category": "hk/news",
-      "file": "clip-t4-america-fat.mp3",
-      "bytes": 381876,
-      "chars": 375
+      "file": "clip-hknews.mp3",
+      "bytes": 242484,
+      "chars": 251
     },
     {
-      "id": "t5-fit-405",
-      "topic_en": "405 Bench Club",
-      "topic_zh": "405磅臥推幾常見",
-      "category": "mma/fitness",
-      "file": "clip-t5-fit-405.mp3",
-      "bytes": 297780,
-      "chars": 273
-    },
-    {
-      "id": "t6-anime-season",
-      "topic_en": "Fall Anime Picks",
-      "topic_zh": "今季睇咩動畫",
-      "category": "anime/culture",
-      "file": "clip-t6-anime-season.mp3",
-      "bytes": 338676,
-      "chars": 319
-    },
-    {
-      "id": "t7-btc-after-pump",
-      "topic_en": "LOL Pro Scene",
-      "topic_zh": "LOL同esports",
+      "id": "lolesports",
+      "topic_en": "Male Protagonist Design",
+      "topic_zh": "遊戲角色造型",
       "category": "lol/esports",
-      "file": "clip-t7-btc-after-pump.mp3",
-      "bytes": 327732,
-      "chars": 354
+      "file": "clip-lolesports.mp3",
+      "bytes": 191220,
+      "chars": 204
+    },
+    {
+      "id": "mmafitness",
+      "topic_en": "Can't Lose Fat",
+      "topic_zh": "燒脂燒唔到",
+      "category": "mma/fitness",
+      "file": "clip-mmafitness.mp3",
+      "bytes": 311028,
+      "chars": 238
+    },
+    {
+      "id": "animeculture",
+      "topic_en": "Anime of the Season",
+      "topic_zh": "本季新番揀邊套",
+      "category": "anime/culture",
+      "file": "clip-animeculture.mp3",
+      "bytes": 196404,
+      "chars": 192
     }
   ]
 }
