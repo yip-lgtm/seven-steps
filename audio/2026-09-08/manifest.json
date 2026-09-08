@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "tesla-double-talk",
-      "topic_en": "Tesla Double Talk",
-      "topic_zh": "Tesla買唔買",
+      "id": "tsla-double-01",
+      "topic_en": "Tesla double up?",
+      "topic_zh": "TSLA仲有冇得炒",
       "category": "trading",
-      "file": "clip-tesla-double-talk.mp3",
-      "bytes": 137652,
-      "chars": 141
+      "file": "clip-tsla-double-01.mp3",
+      "bytes": 254580,
+      "chars": 244
     },
     {
-      "id": "btc-after-pump",
-      "topic_en": "Buying After The Pump",
-      "topic_zh": "BTC升先追",
+      "id": "btc-vs-gold-02",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-btc-after-pump.mp3",
-      "bytes": 230388,
-      "chars": 202
+      "file": "clip-btc-vs-gold-02.mp3",
+      "bytes": 251124,
+      "chars": 245
     },
     {
-      "id": "ai-jobs-truth",
-      "topic_en": "AI Job Loss Debate",
-      "topic_zh": "AI會唔會搶工",
+      "id": "ai-ubi-nuke-03",
+      "topic_en": "AI jobs truth nuke",
+      "topic_zh": "AI會搶咗你份工？",
       "category": "tech/ai",
-      "file": "clip-ai-jobs-truth.mp3",
-      "bytes": 222324,
-      "chars": 235
+      "file": "clip-ai-ubi-nuke-03.mp3",
+      "bytes": 291444,
+      "chars": 268
     },
     {
-      "id": "america-obesity",
-      "topic_en": "America's Obesity Problem",
-      "topic_zh": "美國肥胖問題",
+      "id": "fed-no-hike-04",
+      "topic_en": "Fed won't hike",
+      "topic_zh": "聯儲局加息？",
       "category": "hk/news",
-      "file": "clip-america-obesity.mp3",
-      "bytes": 203892,
-      "chars": 220
+      "file": "clip-fed-no-hike-04.mp3",
+      "bytes": 271284,
+      "chars": 253
     },
     {
-      "id": "rugged-protagonists",
-      "topic_en": "Rugged Game Heroes",
-      "topic_zh": "打機男主造型",
-      "category": "lol/esports",
-      "file": "clip-rugged-protagonists.mp3",
-      "bytes": 163572,
-      "chars": 168
-    },
-    {
-      "id": "fat-loss-scale",
-      "topic_en": "Fat Loss Plateau",
-      "topic_zh": "減脂卡數不動",
+      "id": "deadlift-record-05",
+      "topic_en": "Deadlift world record",
+      "topic_zh": "硬拉新世界紀錄",
       "category": "mma/fitness",
-      "file": "clip-fat-loss-scale.mp3",
-      "bytes": 252852,
-      "chars": 213
+      "file": "clip-deadlift-record-05.mp3",
+      "bytes": 256884,
+      "chars": 247
     },
     {
-      "id": "anime-season-choice",
-      "topic_en": "Anime Of The Season",
-      "topic_zh": "今季動畫揀咩",
+      "id": "anime-of-season-06",
+      "topic_en": "Anime of the season",
+      "topic_zh": "今季睇咩anime",
       "category": "anime/culture",
-      "file": "clip-anime-season-choice.mp3",
-      "bytes": 134196,
-      "chars": 146
+      "file": "clip-anime-of-season-06.mp3",
+      "bytes": 267252,
+      "chars": 245
+    },
+    {
+      "id": "fediverse-07",
+      "topic_en": "LOL rugged vs smooth protags",
+      "topic_zh": "LOL新角色造型？",
+      "category": "lol/esports",
+      "file": "clip-fediverse-07.mp3",
+      "bytes": 298356,
+      "chars": 256
     }
   ]
 }
