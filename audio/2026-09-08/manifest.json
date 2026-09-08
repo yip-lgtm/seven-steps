@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "tsla-double-01",
-      "topic_en": "Tesla double up?",
-      "topic_zh": "TSLA仲有冇得炒",
+      "id": "t1-fed-powell",
+      "topic_en": "Fed Hike Drama",
+      "topic_zh": "聯儲局加息與否",
       "category": "trading",
-      "file": "clip-tsla-double-01.mp3",
-      "bytes": 254580,
-      "chars": 244
+      "file": "clip-t1-fed-powell.mp3",
+      "bytes": 294324,
+      "chars": 290
     },
     {
-      "id": "btc-vs-gold-02",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs 黃金",
+      "id": "t2-tsla-double",
+      "topic_en": "TSLA Double Up?",
+      "topic_zh": "TSLA仲有冇得升",
       "category": "trading",
-      "file": "clip-btc-vs-gold-02.mp3",
-      "bytes": 251124,
-      "chars": 245
+      "file": "clip-t2-tsla-double.mp3",
+      "bytes": 362292,
+      "chars": 332
     },
     {
-      "id": "ai-ubi-nuke-03",
-      "topic_en": "AI jobs truth nuke",
-      "topic_zh": "AI會搶咗你份工？",
+      "id": "t3-ai-jobs",
+      "topic_en": "AI Job Doom",
+      "topic_zh": "AI會搶你飯碗？",
       "category": "tech/ai",
-      "file": "clip-ai-ubi-nuke-03.mp3",
-      "bytes": 291444,
-      "chars": 268
+      "file": "clip-t3-ai-jobs.mp3",
+      "bytes": 305268,
+      "chars": 322
     },
     {
-      "id": "fed-no-hike-04",
-      "topic_en": "Fed won't hike",
-      "topic_zh": "聯儲局加息？",
+      "id": "t4-america-fat",
+      "topic_en": "America Obesity",
+      "topic_zh": "美國肥佬問題",
       "category": "hk/news",
-      "file": "clip-fed-no-hike-04.mp3",
-      "bytes": 271284,
-      "chars": 253
+      "file": "clip-t4-america-fat.mp3",
+      "bytes": 381876,
+      "chars": 375
     },
     {
-      "id": "deadlift-record-05",
-      "topic_en": "Deadlift world record",
-      "topic_zh": "硬拉新世界紀錄",
+      "id": "t5-fit-405",
+      "topic_en": "405 Bench Club",
+      "topic_zh": "405磅臥推幾常見",
       "category": "mma/fitness",
-      "file": "clip-deadlift-record-05.mp3",
-      "bytes": 256884,
-      "chars": 247
+      "file": "clip-t5-fit-405.mp3",
+      "bytes": 297780,
+      "chars": 273
     },
     {
-      "id": "anime-of-season-06",
-      "topic_en": "Anime of the season",
-      "topic_zh": "今季睇咩anime",
+      "id": "t6-anime-season",
+      "topic_en": "Fall Anime Picks",
+      "topic_zh": "今季睇咩動畫",
       "category": "anime/culture",
-      "file": "clip-anime-of-season-06.mp3",
-      "bytes": 267252,
-      "chars": 245
+      "file": "clip-t6-anime-season.mp3",
+      "bytes": 338676,
+      "chars": 319
     },
     {
-      "id": "fediverse-07",
-      "topic_en": "LOL rugged vs smooth protags",
-      "topic_zh": "LOL新角色造型？",
+      "id": "t7-btc-after-pump",
+      "topic_en": "LOL Pro Scene",
+      "topic_zh": "LOL同esports",
       "category": "lol/esports",
-      "file": "clip-fediverse-07.mp3",
-      "bytes": 298356,
-      "chars": 256
+      "file": "clip-t7-btc-after-pump.mp3",
+      "bytes": 327732,
+      "chars": 354
     }
   ]
 }
