@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "trade1",
+      "id": "biz-fed-rates-01",
       "category": "trading",
-      "topic_zh": "比特幣vs黃金",
-      "topic_en": "BTC vs Gold",
-      "text_zh": "BTC定黃金？十年長揸揀邊樣好。有人話BTC係digital gold，又有人話黃金先係真正嘅store of value。我啱啱喺prop firm燒咗一注學費，睇到呢個帖又想all-in。唔好再嘈喇🙏",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Most Bitcoin supporters online call it digital gold and say the supply is fixed at 21 million coins.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ thread asking which asset to hold for the next decade",
+      "topic_zh": "聯儲局唔加息",
+      "topic_en": "Fed Not Hiking",
+      "text_zh": "聯儲局根本唔會加息。Warsh 同 Bessent 一齊演緊戲，Trump 又鬧 Powell 話應該減息。睇完真係一句 wtf，搞到我 CFD 又輸多一轉。命理都話我今年唔好 all-in 🧐",
+      "text_en_b1": "The Federal Reserve is NOT going to hike. Warsh says they're serious about inflation but keeps doing nothing. Bessent plans yen buys and doubles Yellen's buybacks, hinting he might dump a trillion into them. Trump keeps criticizing Powell for not cutting rates while the economy stays strong. The whole thing looks like theater to me.",
+      "source_url": "https://boards.4chan.org/biz/thread/62668712",
+      "source_hint": "/biz/ thread mocking the Fed's inflation theater",
       "signal": {
-        "asset": "BTC",
+        "asset": "USD",
         "direction": "observation",
-        "conviction": "low",
+        "conviction": "none",
         "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP asks a comparison question, no clear entry setup"
+        "rationale": "OP is pure policy commentary, no setup"
       },
-      "text_en_b2": "Bitcoin or gold: if you could hold only one for the next ten years, which would you choose, and what makes it superior? Most Bitcoin supporters describe it as “digital gold,” largely because its supply is capped at 21 million coins. Gold supporters, however, regard it as the more reliable store of value. I have already paid a painful tuition fee at a prop firm, so I would genuinely appreciate a straight answer before doing anything reckless.",
-      "text_en_c1": "Forced to choose between Bitcoin and gold as a ten-year hold, which would genuinely prevail? Bitcoin advocates routinely brandish the 'digital gold' narrative, pointing to its hard-capped supply of twenty-one million coins, whereas traditionalists counter that bullion has weathered centuries of monetary upheaval precisely because it possesses no counterparty risk. Having just haemorrhaged capital on a proprietary prop firm trial, I find myself eyeing this thread with dangerous conviction. Could anyone actually settle this debate once and for all, rather than recycling the same partisan talking points ad infinitum?",
-      "text_en_c2": "The perennial question resurfaces: if one were compelled to hold a single asset for the coming decade, would Bitcoin or gold prove the superior store of value? Advocates of the former brandish the term digital gold, pointing to its hard-capped supply of twenty-one million coins as a deterministic bulwark against monetary debasement, whereas traditionalists counter that millennia of human consensus render bullion uniquely resistant to regulatory whim and technological obsolescence. Both arguments carry genuine weight, yet each rests on assumptions about liquidity, custodial risk, and macro tail-events that rarely receive adequate scrutiny. The decision, ultimately, hinges less on ideological conviction than on one's appetite for volatility versus the quiet erosion of purchasing power that gold's proponents are so fond of invoking.",
-      "audio_url": "audio/2026-09-08/clip-trade1.mp3"
+      "text_en_b2": "The Federal Reserve is absolutely not going to hike rates. Warsh insists inflation remains a serious concern, yet he keeps sitting on his hands. Meanwhile, Bessent is supposedly preparing yen purchases while effectively doubling Yellen's buyback programme, hinting that a trillion-dollar injection might not be far off. Trump continues hammering Powell for refusing to cut, even though the economy shows no signs of weakness. Honestly, it all looks like coordinated theatre to me.",
+      "text_en_c1": "The Federal Reserve is in absolutely no position to hike rates, and the entire policy theatre unfolding between Warsh, who professes grave concern about inflation while presiding over complete inertia, and Bessent, whose yen-buying scheme effectively doubles Yellen's existing buyback programme and suggests a trillion-dollar deployment is on the table, bears all the hallmarks of coordinated signalling. Meanwhile, Trump continues lambasting Powell for failing to cut rates even as the underlying economy demonstrates remarkable resilience. The whole spectacle reeks of stage-managed kabuki designed to manipulate sentiment, leaving anyone holding leveraged CFD positions nursing yet another loss.",
+      "text_en_c2": "The Federal Reserve will categorically refrain from any rate hike, irrespective of the performative posturing emanating from within. Warsh publicly professes unwavering concern about inflationary pressures yet translates such rhetoric into precisely no actionable policy, while Bessent, ever the strategist, has signalled yen-buying intentions and is reportedly prepared to double Yellen's buyback programme — perhaps even injecting a further trillion into the mechanism. Trump, meanwhile, has resumed his customary assault on Powell, demanding rate cuts despite an economy that, by most conventional indicators, remains robust. Strip away the choreography and one discerns a tableau vivant: a coordinated exercise in monetary theatre, cynically calibrated to sustain market liquidity without provoking genuine tightening.",
+      "audio_url": "audio/2026-09-08/clip-biz-fed-rates-01.mp3"
     },
     {
-      "id": "trade2",
+      "id": "biz-tsla-buy-02",
       "category": "trading",
-      "topic_zh": "買Tesla時機",
-      "topic_en": "Tesla Buy",
-      "text_zh": "係咪時候入TSLA？CyberCab、SpaceX合併、Optimus——全部都未priced in。我份糧就嚟燒晒喺CFD度，睇完又想加倉。Elon你唔好再玩我🙏",
-      "text_en_b1": "Is it a good time to buy Tesla? It seems like it will at least double from here considering CyberCabs, SpaceX merger potential, and Optimus. The market is still underpricing all three of those catalysts right now.",
+      "topic_zh": "TSLA 撈底時機",
+      "topic_en": "Buy Tesla Now?",
+      "text_zh": "而家係咪撈 TSLA 好時機？CyberCab、SpaceX 合併、Optimus 三條線齊發。睇呢條 /biz/ post 我覺得可以 double，考牌都未搞完又想加倉。命理叫我忍下 🧐🙏",
+      "text_en_b1": "Is it a good time to buy Tesla? It seems like it'll at least double from here if you consider the CyberCab launch, the possible SpaceX merger, and Optimus progress. Three big catalysts in one stock is rare.",
       "source_url": "https://boards.4chan.org/biz/thread/62667801",
-      "source_hint": "/biz/ thread arguing TSLA is a double from current levels",
+      "source_hint": "/biz/ thread arguing Tesla will double from current levels",
       "signal": {
         "asset": "TSLA",
         "direction": "long",
         "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
-        "target": null,
+        "target": "double from current",
         "stop": null,
-        "rationale": "OP explicitly argues TSLA doubles from here on Cybercab, SpaceX merger and Optimus catalysts"
+        "rationale": "OP names CyberCab, SpaceX merger, Optimus as triple catalysts"
       },
-      "text_en_b2": "Is it finally a good time to buy Tesla, or am I setting myself up for another round of expensive lessons? The bull case appears to rest on three potential catalysts: CyberCabs, a possible SpaceX merger, and Optimus. Although each project remains surrounded by uncertainty, all three seem substantially underpriced by the market. My salary is already being eaten alive by leveraged CFD losses, yet seeing these claims still makes me want to add more exposure. Elon, please stop playing with my financial well-being.",
-      "text_en_c1": "Is Tesla genuinely undervalued at present levels, given the constellation of catalysts that mainstream analysts appear to be dismissing? CyberCab's autonomous rollout, the prospective SpaceX merger that would unlock latent shareholder value, and Optimus's commercial trajectory collectively suggest that a doubling from here hardly constitutes an unreasonable expectation. The market, it seems, is still failing to price in any of these tailwinds properly. Having already torched a considerable portion of my salary on leveraged CFD positions, I am nevertheless contemplating whether to increase my exposure, despite the obvious risks.",
-      "text_en_c2": "Is Tesla genuinely attractive at current valuations, or merely a Rorschach test upon which the bullish project whatever narrative suits them? Proponents contend that the equity remains substantially undervalued once one accounts for the optionality embedded in CyberCab's autonomous ambitions, the latent upside from any SpaceX-related corporate restructuring, and the longer-horizon thesis surrounding Optimus and humanoid robotics. Skeptics, reasonably, counter that none of these catalysts have yet generated material revenue and that the market's reluctance to price them reflects not myopia but appropriate skepticism. The gap between these positions is unlikely to narrow absent a concrete earnings inflection. Until then, anyone contemplating fresh exposure might consider whether doubling from here constitutes prudent asymmetric upside or simply the gravitational pull of a story one desperately wishes to believe. Your CFD position, presumably, awaits a verdict.",
-      "audio_url": "audio/2026-09-08/clip-trade2.mp3"
+      "text_en_b2": "Is now genuinely a good moment to load up on Tesla? When you weigh the CyberCab rollout, the rumoured SpaceX merger, and the steady Optimus progress, doubling from current levels hardly seems far-fetched. Having three distinct catalysts firing in a single stock is exceptionally rare, and the market hasn't fully priced them in yet. I'm tempted to add to my position, although part of me knows I should probably wait for a proper pullback first.",
+      "text_en_c1": "Is Tesla genuinely worth accumulating at current valuations? When one weighs the impending CyberCab rollout, the persistent rumours of a SpaceX-style merger that would consolidate the Musk ecosystem, and the demonstrable progress Optimus has made on its humanoid roadmap, the asymmetry becomes compelling. Three independent, high-conviction catalysts converging within a single equity is a relative rarity in today's market, and if even two materialise, a doubling from present levels appears well within the realm of possibility. Patient capital willing to stomach the volatility could be rewarded handsomely.",
+      "text_en_c2": "Is Tesla presently a compelling proposition? The confluence of catalysts renders any bearish thesis increasingly untenable: the CyberCab launch, which promises to recalibrate the entire autonomous-vehicle paradigm; the persistent rumblings surrounding a potential SpaceX merger, an audacious confluence of industrial verticals under a single visionary stewardship; and Optimus, whose developmental trajectory, if credibly extrapolated, portends nothing less than a wholesale reordering of the labour economy. Three genuinely transformative levers operating simultaneously within a single equity is, frankly, an exceptional — if not unprecedented — constellation. The conviction, accordingly, is straightforward: a doubling from current levels seems less optimistic than arithmetically inevitable, provided execution does not catastrophically falter.",
+      "audio_url": "audio/2026-09-08/clip-biz-tsla-buy-02.mp3"
     },
     {
-      "id": "techai",
+      "id": "tech-ai-jobs-03",
       "category": "tech/ai",
-      "topic_zh": "Nitter復活",
-      "topic_en": "Nitter Returns",
-      "text_zh": "Nitter又返嚟啦。X又嚟搞cease and desist，連embed都告。搞咁多最後都係逼到啲人自建instance。同AI搶飯碗一樣，點閂都閂唔晒🧐",
-      "text_en_b1": "Nitter is back online. X Corp saw a FOSS front-end letting people use X without ads or tracking, then sent a cease and desist letter to the project under the Texas Harmful Access by Computer Act and Lanham Act. They even hit unrelated embed sites like TwitterWebViewer.",
-      "source_url": "https://boards.4chan.org/g/thread/109745896",
-      "source_hint": "/g/ thread on X Corp suing Nitter and alt front-ends",
+      "topic_zh": "AI 真係搶飯碗？",
+      "topic_en": "AI Won't Take Jobs",
+      "text_zh": "呢條 /g/ post 直接講中我顧慮。如果 AI 真係咁勁，所有政府應該即刻傾 UBI，但而家邊個政府做緊啲咩。即係 AI 搶走嘅工可能少過 1%，我廢柴都唔使咁驚 lol 👍",
+      "text_en_b1": "If AI could really do what people claim, every government in the world would be urgently discussing UBI right now. But they are not. Not one government is doing one single thing about the supposed job losses. This tells me AI will take less than 1% of jobs. I feel sorry for the people who fell for the marketing.",
+      "source_url": "https://boards.4chan.org/g/thread/109749718",
+      "source_hint": "/g/ thread arguing AI job-loss fears are overblown",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech news observation, not a trade setup"
+        "rationale": "Pure opinion post, no trade setup"
       },
-      "text_en_b2": "Nitter is back online, although X has reportedly gone after it with another cease-and-desist demand. What makes this particularly frustrating is the legal basis: X targeted a free, open-source front end that allowed users to browse without advertisements or tracking, citing the Texas Harmful Access by Computer Act and the Lanham Act. It even pursued unrelated embedding services such as TwitterWebViewer. Although these tactics may shut down individual projects, they also push people towards self-hosted instances, where they are far harder to remove.",
-      "text_en_c1": "Nitter has resurfaced, much to the relief of anyone who values frictionless access to public discourse without surrendering their data to surveillance capitalism. X Corp, evidently unwilling to tolerate even this modest encroachment upon its advertising hegemony, has resorted to issuing cease and desist correspondence, citing the Texas Harmful Access by Computer Act alongside the Lanham Act. Curiously, they have also targeted peripheral embed services such as TwitterWebViewer, which had absolutely nothing to do with the underlying dispute. It resembles AI displacing workers: however aggressively the gates are slammed shut, determined individuals will inevitably construct their own ingress.",
-      "text_en_c2": "Nitter, the venerable FOSS front-end that long allowed users to peruse X without surrendering their attention to algorithmic feeds or invasive tracking, has resurfaced after yet another legal offensive from Elon Musk's legal apparatus. This time the cease and desist invokes both the Texas Harmful Access by Computer Act and the Lanham Act, signalling a noticeably aggressive posture that extends even to peripheral services such as TwitterWebViewer, whose only offence appears to have been rendering embedded posts. The episode illustrates, once more, how institutional pressure tends to atomise rather than extinguish open-source communities; forks proliferate, instances multiply across jurisdictions less solicitous of American IP maximalism, and the underlying demand persists regardless of how vigorously the upstream platform litigates. Whack-a-mole, in other words, has become the structural condition of contemporary digital life.",
-      "audio_url": "audio/2026-09-08/clip-techai.mp3"
+      "text_en_b2": "If artificial intelligence really lived up to the hype, every government on the planet would be scrambling to roll out universal basic income right now. The fact that none of them are doing a single meaningful thing tells me the threat is largely manufactured. Based on that silence, I'd wager AI will ultimately displace less than one percent of actual jobs. I genuinely feel for the people who swallowed the marketing hook, line, and sinker.",
+      "text_en_c1": "If artificial intelligence genuinely possessed the transformative capabilities its evangelists routinely proclaim, one would expect every competent government on the planet to be convening emergency sessions on universal basic income with palpable urgency. Yet the silence is deafening; not a single administration appears to have enacted any meaningful preparatory legislation. This conspicuous absence of policy response suggests, rather persuasively, that the actual displacement figure will fall well below one percent of the workforce. Those who liquidated positions or abandoned career paths in deference to the marketing deserve every ounce of sympathy.",
+      "text_en_c2": "Were artificial intelligence genuinely capable of supplanting human labour to the apocalyptic extent that its evangelists relentlessly insist, one would reasonably expect every sovereign government on the planet to have convened emergency sessions, legislating universal basic income with unprecedented alacrity. Yet not a single administration — neither in Washington, nor in Brussels, nor in Beijing — has enacted any meaningful policy response. This conspicuous legislative paralysis is, in itself, the most damning indictment imaginable: governments, which excel precisely at anticipating demographic crises, are evidently unperturbed. The inescapable inference is that AI will, at most, displace a vanishingly small fraction — certainly under one per cent — of the workforce. Pity, then, those who succumbed to the marketing.",
+      "audio_url": "audio/2026-09-08/clip-tech-ai-jobs-03.mp3"
     },
     {
-      "id": "hknews",
+      "id": "pol-deind-04",
       "category": "hk/news",
-      "topic_zh": "美國肥佬問題",
-      "topic_en": "US Obesity",
-      "text_zh": "點解美國肥佬特別多？歐洲同東亞都工業化、都唔缺糧，點解就係美國肥到咁？我返到HK覺得呢度細但至少行得出去，美國大但坐喺度🧐",
-      "text_en_b1": "Why does America uniquely suffer from such a rampant obesity problem? Europe and East Asia are also heavily industrialized countries with abundant local food. What exactly is America doing differently that is leading to such an obese population today?",
-      "source_url": "https://boards.4chan.org/pol/thread/542174314",
-      "source_hint": "/pol/ thread asking why America is more obese than Europe or East Asia",
+      "topic_zh": "去工業化禍害",
+      "topic_en": "Deindustrialization Ruined West",
+      "text_zh": "美國歐洲自己去工業化搞到今日咁。衫都係、導彈都係，全部 outsourcing，剩低得一堆廢紙。香港都係咁，做 surveying 仲要同 AI 搶食。命理叫我頂住 🙏",
+      "text_en_b1": "Honestly, who thought deindustrialization was a good idea? If you want to wage war, factories must keep running. Western countries outsourced everything from clothes to missiles, and now all they have left is a pile of worthless paper. Europe attacked Russia and lost its energy supply. The U.S. attacked China and lost rare earth access. Nobody thought this through.",
+      "source_url": "https://boards.4chan.org/pol/thread/542196057",
+      "source_hint": "/pol/ thread blaming deindustrialization for Western decline",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,46 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Cultural commentary, no trade"
+        "rationale": "Geopolitical rant, no trade setup"
       },
-      "text_en_b2": "Why does the United States appear to have a uniquely severe obesity problem? Europe and East Asia are highly industrialized too, and none of these regions suffers from a serious shortage of food, so industrial development and food availability cannot fully explain the difference. Something about American living conditions is clearly having a powerful effect. After returning to Hong Kong, I was struck by the contrast: the city is cramped, but it forces you to walk, whereas the US is spacious and seems designed for…",
-      "text_en_c1": "Why does the United States, alone among heavily industrialised nations, exhibit such a disproportionate obesity epidemic? Europe and East Asia have undergone comparable economic development, possess equally abundant food supplies, and yet demonstrate markedly lower rates of metabolic dysfunction. Whatever distinguishing factor is at play, whether cultural, infrastructural, or regulatory, it clearly transcends mere caloric availability. Returning to Hong Kong after an extended stay abroad, I am struck by how compact the city feels, yet one can actually traverse it on foot; America sprawls endlessly, but its inhabitants remain, paradoxically, sedentary.",
-      "text_en_c2": "Why does the United States manifest such a singularly acute obesity epidemic when comparable industrialised societies, from Western Europe through Japan and Korea, enjoy broadly equivalent caloric abundance without comparable metabolic consequence? The anomaly resists any monocausal explanation, though several contributing vectors are reasonably well documented: sprawling suburban morphology that renders car dependency effectively mandatory, aggressive subsidisation of high-fructose corn syrup and ultra-processed foods, the collapse of routine physical activity accompanying sedentary service-sector employment, and a healthcare system that treats the downstream pathologies of obesity rather than their upstream determinants. Cultural normalisation of portion sizes and the relentless marketing engineered toward children further compound matters.",
-      "audio_url": "audio/2026-09-08/clip-hknews.mp3"
+      "text_en_b2": "Honestly, who genuinely thought deindustrialisation was a brilliant strategy? If you ever intend to wage war, you need functioning factories. Western nations outsourced everything from textiles to missile components, and now they're left holding nothing but worthless paper assets. Europe poked the bear in Russia and lost its energy lifelines, while the United States provoked China and watched its rare earth supply evaporate. Nobody apparently thought any of this through.",
+      "text_en_c1": "One genuinely struggles to fathom who originally endorsed deindustrialisation as a sound strategic doctrine. Should a nation require the capacity to wage one, functioning factories represent an existential prerequisite rather than a negotiable luxury. Western governments outsourced everything from textile manufacturing to missile production, hollowing out the productive base and leaving behind nothing but depreciating paper instruments. Europe provoked Russia and consequently forfeited reliable energy access, while the United States antagonised China and thereby surrendered critical rare-earth supply chains. Virtually nobody appears to have stress-tested the second-order consequences.",
+      "text_en_c2": "In retrospect, who genuinely believed that wholesale deindustrialisation constituted a defensible strategic posture? A polity that aspires to wage war must, by immutable logic, retain functional factories; yet the Western hemisphere has outsourced everything from textile manufacture to missile production, leaving itself with little more than reams of essentially worthless paper currency. Europe, having waged economic war against Russia, discovered it could no longer heat its dwellings; the United States, having provoked a trade confrontation with China, discovered its rare-earth dependencies had become untenable. Neither decision was adequately stress-tested, neither reversal remains readily executable, and the consequences are now thoroughly embedded within the strategic calculus of the twenty-first century.",
+      "audio_url": "audio/2026-09-08/clip-pol-deind-04.mp3"
     },
     {
-      "id": "lolesports",
-      "category": "lol/esports",
-      "topic_zh": "遊戲角色造型",
-      "topic_en": "Male Protagonist Design",
-      "text_zh": "男主角你prefer Wolverine嗰種粗獷毛人，定Link嗰種smooth一啲？我打到S15排位緊，講真角色造型真係影響我想唔想買隻game lol",
-      "text_en_b1": "Do you prefer if game developers designed more hairy, rugged male protagonists like Wolverine, or more smooth, feminine male protagonists like Link? The aesthetic choice shapes the whole vibe of the game.",
-      "source_url": "https://boards.4chan.org/v/thread/747079781",
-      "source_hint": "/v/ thread on male protagonist design preferences",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Gaming design discussion, no trade"
-      },
-      "text_en_b2": "Which kind of male protagonist do you prefer: the hairy, rugged archetype represented by Wolverine, or the smoother, more feminine-looking hero embodied by Link? This is not merely a cosmetic detail, because character design shapes the atmosphere, tone, and emotional identity of an entire game. I have been grinding my way through Season 15 ranked matches lately, but the protagonist’s appearance can still determine whether a game feels worth buying. A strong visual identity may matter more than developers are willing to admit.",
-      "text_en_c1": "When developers conceptualise a male protagonist, which aesthetic archetype resonates more strongly with contemporary audiences: the rugged, hyper-masculine sensibility epitomised by Wolverine, or the smoother, almost androgynous presentation exemplified by Link? This is hardly a trivial consideration, since the protagonist's visual identity functions as the primary conduit through which players forge an emotional attachment to the entire experience. As I grind through Season 15 ranked matches, I find myself reflecting that character design frequently determines whether I purchase a title at all, an admittedly superficial but undeniably powerful heuristic.",
-      "text_en_c2": "Consider, for a moment, the philosophical question of protagonist design: should the contemporary action-adventure lead embody the rugged, hirsute archetype epitomised by Wolverine, bristling with feral masculinity and scarred by an implied history of violence, or ought designers instead favour the smoother, more androgynous aesthetic exemplified by Link, whose grace and ambiguity permit broader player projection? Neither extreme, of course, exists in isolation; the medium has cycled through these ideals for decades, and the current pendulum swing toward latter-day pretty boys reflects commercial calculation as much as artistic preference. Aesthetic decisions of this kind, however ostensibly superficial, exert an outsized gravitational pull on purchase intent, since players frequently confess, half sheepishly, that visual identification with a protagonist matters more than mechanical depth.",
-      "audio_url": "audio/2026-09-08/clip-lolesports.mp3"
-    },
-    {
-      "id": "mmafitness",
+      "id": "fit-ohp-05",
       "category": "mma/fitness",
-      "topic_zh": "燒脂燒唔到",
-      "topic_en": "Can't Lose Fat",
-      "text_zh": "18%體脂，日行15K-20K步，cut 500kcal，加埋walking 1000kcal赤字，4星期啦體重完全唔郁。我同肥仔信傾完佢笑我，連deadlift都仲未破2pl8🧐",
-      "text_en_b1": "Sup guys, 18% body fat here. Walking 15k to 20k steps a day and burning 500 to 800 calories from walking, plus a 500 calorie food cut, total 1000 kcal deficit. Progressive overload is still working, but the scale has not moved in 4 weeks.",
-      "source_url": "https://boards.4chan.org/fit/thread/77492625",
-      "source_hint": "/fit/ thread on a guy stuck at 18% body fat despite a 1000 kcal deficit",
+      "topic_zh": "OHP 接近 1pl8",
+      "topic_en": "1pl8 OHP Goal",
+      "text_zh": "OHP 接近 1pl8 但 bench 仲未到 2pl8。睇完條 post 我覺得我同 OP 一樣廢。考牌讀書都搞唔掂，gym 都係半桶水。肥仔信今日又叫我 squat lol 🧐",
+      "text_en_b1": "I'm closer to a 1pl8 OHP than I am to 2pl8 bench, 3pl8 squat, or 4pl8 deadlift. I think I'll have a 1pl8 OHP for reps in about a month or two. The lower body lifts are still way behind.",
+      "source_url": "https://boards.4chan.org/fit/thread/77491789",
+      "source_hint": "/fit/ thread about OHP progress lagging other lifts",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness log, no trade"
+        "rationale": "Lifestyle post, no trade setup"
       },
-      "text_en_b2": "Guys, I need some straight advice because I am stuck at roughly 18 percent body fat, and the scale has not moved for four weeks. I walk between 15,000 and 20,000 steps every day, while tracking suggests that I burn around 500 to 800 calories from walking alone. On top of that, I cut roughly 500 calories from my diet, producing a daily deficit of about 1,000 kcal.",
-      "text_en_c1": "Fellow lifters, I find myself in a rather perplexing predicament: presently sitting at approximately eighteen percent body fat, I have been accumulating between fifteen and twenty thousand steps daily, expending anywhere from five to eight hundred calories through ambulatory activity alone, whilst simultaneously maintaining a five-hundred-kilocalorie dietary deficit, yielding a combined shortfall of roughly one thousand calories. Progressive overload on my compound lifts continues to function admirably, yet the scale has remained stubbornly indifferent over four consecutive weeks. After confiding in a friend, he simply laughed at my frustration.",
-      "text_en_c2": "A familiar lament resounds across the lifting forums: eighteen percent body fat, faithfully accumulating between fifteen and twenty thousand daily steps, sustaining a five-hundred-calorie dietary deficit augmented by roughly a thousand additional kilocalories expended through low-intensity ambulation, yet the scale has obstinately refused to register movement across four consecutive weeks. The iron itself tells a more encouraging tale, as progressive overload continues to deliver incremental strength gains and the deadlift edges ever closer, though not quite past, the cherished two-plate milestone. The dissonance is instructive: adipose redistribution, water retention accompanying muscular adaptation, and the body's homeostatic resistance to sustained caloric restriction collectively conspire to render weekly weigh-ins a singularly unreliable metric. Patience, recalibrated expectations, and perhaps a body-composition measurement rather than a bathroom scale would collectively prove more diagnostic than continued frustration.",
-      "audio_url": "audio/2026-09-08/clip-mmafitness.mp3"
+      "text_en_b2": "Somehow I'm tantalisingly close to a one-plate overhead press, yet my bench press remains miles away from two plates, my squat lags behind three, and my deadlift is nowhere near four. I reckon I'll be hitting a clean single-plate OHP for reps within a month or two. My lower body lifts, however, are still embarrassingly behind, and I can't quite figure out how to close the gap effectively.",
+      "text_en_c1": "My pressing numbers have converged into a rather perverse hierarchy: my overhead press is tantalisingly close to a one-plate milestone, yet my bench press remains stubbornly distant from two plates, my squat lags considerably behind three, and my deadlift is nowhere near four. At present trajectory, repping a one-plate OHP appears achievable within perhaps six to eight weeks, provided recovery and nutrition remain disciplined. The lower-body compound lifts, however, continue to lag in a manner that suggests either programming deficiencies or simply insufficient progressive overload.",
+      "text_en_c2": "There exists a peculiar irony in finding oneself within touching distance of a one-plate overhead press whilst one's compound lifts languish in a state of comparative disgrace. The upper body has, through stubborn adherence to a pressing programme, crept inexorably toward that coveted milestone — a 1pl8 OHP for multiple repetitions seems attainable within a month or six weeks. The lower body, however, presents a rather more humiliating tableau: the bench press remains obstinately short of two plates, the squat of three, and the deadlift of four. The asymmetry is both physiologically curious and psychologically galling; one suspects the pressing musculature has simply been more diligently cultivated.",
+      "audio_url": "audio/2026-09-08/clip-fit-ohp-05.mp3"
     },
     {
-      "id": "animeculture",
-      "category": "anime/culture",
-      "topic_zh": "本季新番揀邊套",
-      "topic_en": "Anime of the Season",
-      "text_zh": "夏天就嚟完喇，新番揀咗未？我自己S15打到天昏地暗都仲抽到時間睇番，Gundam 00嗰陣嘅熱血返晒嚟。今季有乜嘢值得追？🙏",
-      "text_en_b1": "Summer is ending. Have you decided on your anime of the season yet? With so many shows dropping at once, picking what to actually watch is harder than ever. Drop your top pick and tell us why.",
-      "source_url": "https://boards.4chan.org/a/thread/290767628",
-      "source_hint": "/a/ thread asking anons to pick their anime of the season",
+      "id": "v-vidya-06",
+      "category": "lol/esports",
+      "topic_zh": "遊戲男主造型",
+      "topic_en": "Male Protagonist Design",
+      "text_zh": "遊戲公司應該整多啲 Wolverine 嗰種毛茸茸粗獷男主角，定係 Link 嗰種 smooth 仔？S15 開打緊我都無時間打 LOL，Tommy 又叫我 OT。睇下 reddit 算啦 lol 🙏",
+      "text_en_b1": "Do you prefer game developers designing more hairy, rugged male protagonists like Wolverine, or smooth, feminine male leads like Link? Both styles have their fans, but the industry keeps pushing one direction.",
+      "source_url": "https://boards.4chan.org/v/thread/747079781",
+      "source_hint": "/v/ thread on male protagonist design choices",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +140,36 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Seasonal anime discussion, no trade"
+        "rationale": "Gaming design discussion, no trade setup"
       },
-      "text_en_b2": "Summer is nearly over, so have you finally chosen your anime of the season? New shows are arriving in such a constant stream that finding the time to watch them properly has become almost as difficult as keeping up with ranked games. Somehow, despite spending what feels like every waking hour grinding through Season 15, I have still managed to squeeze in a few episodes. In fact, watching Gundam 00 again brought back the same热血 and sense of excitement I felt years ago.",
-      "text_en_c1": "With summer drawing to a close, the perennial question resurfaces: which series deserves the coveted 'anime of the season' designation? The sheer volume of simulcast offerings this season has made curation genuinely formidable, particularly for viewers juggling demanding schedules. Despite grinding through Season 15 ranked matches until the small hours, I have somehow managed to carve out sufficient bandwidth to keep abreast of the new releases, and that nostalgic Mobile Suit Gundam 00 fervour has resurfaced with full intensity. What hidden gems merit attention?",
-      "text_en_c2": "Summer's waning days compel the perennial ritual of seasonal curation, and the autumn slate appears, at first inspection, unusually crowded with competing claims upon one's diminishing leisure hours. The miracle, surely, lies in squeezing any anime between ranked sessions that themselves stretch past midnight, yet the habit endures because certain shows reanimate something one had rather forgotten existed: the uncomplicated ardour of a properly executed Gundam 00-era mech opera, say, or the quieter pleasures of a contemplative drama that asks nothing of the viewer beyond sustained attention. This season offers the usual surfeit of isekai derivative works, a handful of adaptations whose faithfulness to source material remains contested, and perhaps one or two genuine surprises awaiting discovery.",
-      "audio_url": "audio/2026-09-08/clip-animeculture.mp3"
+      "text_en_b2": "Should game developers bring back more rugged, hairy male protagonists in the Wolverine mould, or keep pushing the smooth, androgynous leads à la Link? Both archetypes have passionate fan bases, yet the industry stubbornly insists on cranking out only one flavour. Personally, I find it baffling that developers keep doubling down on a design philosophy that clearly alienates a huge chunk of their audience.",
+      "text_en_c1": "Should game studios prioritise the cultivation of rugged, masculinity-coded protagonists reminiscent of Wolverine's visceral aesthetic, or alternatively continue refining the smoother, more aesthetically ambiguous leads à la Link that defined earlier generations? Both archetypes command devoted followings, yet contemporary development pipelines have exhibited a pronounced gravitational pull toward the latter style. The irony, of course, lies in how such creative decisions frequently alienate precisely the demographic whose purchasing power originally sustained the medium, suggesting that market forces may eventually rebalance prevailing trends.",
+      "text_en_c2": "The aesthetic question confronting contemporary game developers is, upon reflection, more ideologically freighted than it initially appears. Should protagonists embody the rugged, hirsute masculinity of a Wolverine — that feral, laconic archetype defined by savagery and stoic emotional reticence — or should they instead cultivate the lithesome, almost androgynous elegance epitomised by Link, whose serene features and elfin grace have become de rigueur within the industry? Both archetypes command devoted followings, yet the prevailing corporate instinct appears relentlessly monochromatic. The hairy, the rough-hewn, the traditionally masculine — these are progressively marginalised, displaced by a sanitised homogeneity that, whatever its commercial merits, grows tiresome.",
+      "audio_url": "audio/2026-09-08/clip-v-vidya-06.mp3"
+    },
+    {
+      "id": "a-anime-season-07",
+      "category": "anime/culture",
+      "topic_zh": "今季動畫揀好未",
+      "topic_en": "Anime of the Season",
+      "text_zh": "夏天就嚟完啦，你揀好今季動畫未？我連 LOL S15 都睇唔晒，仲話睇新番。考牌溫書溫到半夜，命理叫我放鬆下 🧐 算啦遲啲先 binge。",
+      "text_en_b1": "Summer is ending. Have you decided on your anime of the season yet? Every season I tell myself I'll keep up with at least five shows, but by week three I'm already three episodes behind on all of them.",
+      "source_url": "https://boards.4chan.org/a/thread/290767628",
+      "source_hint": "/a/ thread asking viewers to pick their seasonal anime",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Seasonal anime chatter, no trade setup"
+      },
+      "text_en_b2": "Summer is wrapping up, so have you settled on your anime of the season yet? Every single season I swear I'll keep up with at least five shows, yet by week three I inevitably find myself three episodes behind on every single one. Between work, revision, and everything else piling up, I honestly don't know how anyone still manages weekly viewing. Maybe I'll just binge everything during the holidays instead.",
+      "text_en_c1": "With the summer simulcast season drawing inexorably to a close, one must inevitably confront the annual reckoning: which series merit sustained attention and which shall be quietly abandoned by episode four? Every year I solemnly commit to following at least five concurrent shows, only to discover, invariably by the third week, that I have fallen a minimum of three episodes behind on absolutely everything. The cumulative exhaustion of professional obligations renders heroic viewing schedules aspirational at best, and resignation becomes the pragmatic recourse.",
+      "text_en_c2": "Summer is drawing inexorably to its close, and the perennial ritual of curating one's viewing slate has once again assumed a faintly absurd dimension. Each season arrives accompanied by the same self-assurances: this time, one shall diligently keep pace with at least five concurrent series; this time, one shall eschew the temptation to binge-watch retrospectively. Yet by the third week, the familiar pattern reasserts itself with metronomic inevitability — three episodes in arrears on every title, the seasonal calendar quietly defeated by accumulated lethargy. The current rotation offers several ostensibly compelling options, though the practical reality suggests they will accumulate, unwatched, until some indeterminate winter recess permits the customary marathon.",
+      "audio_url": "audio/2026-09-08/clip-a-anime-season-07.mp3"
     }
   ]
 }

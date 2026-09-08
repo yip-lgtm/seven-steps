@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade1",
-      "topic_en": "BTC vs Gold",
-      "topic_zh": "比特幣vs黃金",
+      "id": "biz-fed-rates-01",
+      "topic_en": "Fed Not Hiking",
+      "topic_zh": "聯儲局唔加息",
       "category": "trading",
-      "file": "clip-trade1.mp3",
-      "bytes": 259764,
-      "chars": 248
+      "file": "clip-biz-fed-rates-01.mp3",
+      "bytes": 316212,
+      "chars": 334
     },
     {
-      "id": "trade2",
-      "topic_en": "Tesla Buy",
-      "topic_zh": "買Tesla時機",
+      "id": "biz-tsla-buy-02",
+      "topic_en": "Buy Tesla Now?",
+      "topic_zh": "TSLA 撈底時機",
       "category": "trading",
-      "file": "clip-trade2.mp3",
-      "bytes": 209076,
-      "chars": 213
+      "file": "clip-biz-tsla-buy-02.mp3",
+      "bytes": 207348,
+      "chars": 206
     },
     {
-      "id": "techai",
-      "topic_en": "Nitter Returns",
-      "topic_zh": "Nitter復活",
+      "id": "tech-ai-jobs-03",
+      "topic_en": "AI Won't Take Jobs",
+      "topic_zh": "AI 真係搶飯碗？",
       "category": "tech/ai",
-      "file": "clip-techai.mp3",
-      "bytes": 260916,
-      "chars": 269
+      "file": "clip-tech-ai-jobs-03.mp3",
+      "bytes": 310452,
+      "chars": 313
     },
     {
-      "id": "hknews",
-      "topic_en": "US Obesity",
-      "topic_zh": "美國肥佬問題",
+      "id": "pol-deind-04",
+      "topic_en": "Deindustrialization Ruined West",
+      "topic_zh": "去工業化禍害",
       "category": "hk/news",
-      "file": "clip-hknews.mp3",
-      "bytes": 242484,
-      "chars": 251
+      "file": "clip-pol-deind-04.mp3",
+      "bytes": 368052,
+      "chars": 367
     },
     {
-      "id": "lolesports",
-      "topic_en": "Male Protagonist Design",
-      "topic_zh": "遊戲角色造型",
-      "category": "lol/esports",
-      "file": "clip-lolesports.mp3",
-      "bytes": 191220,
-      "chars": 204
-    },
-    {
-      "id": "mmafitness",
-      "topic_en": "Can't Lose Fat",
-      "topic_zh": "燒脂燒唔到",
+      "id": "fit-ohp-05",
+      "topic_en": "1pl8 OHP Goal",
+      "topic_zh": "OHP 接近 1pl8",
       "category": "mma/fitness",
-      "file": "clip-mmafitness.mp3",
-      "bytes": 311028,
-      "chars": 238
+      "file": "clip-fit-ohp-05.mp3",
+      "bytes": 251700,
+      "chars": 185
     },
     {
-      "id": "animeculture",
+      "id": "v-vidya-06",
+      "topic_en": "Male Protagonist Design",
+      "topic_zh": "遊戲男主造型",
+      "category": "lol/esports",
+      "file": "clip-v-vidya-06.mp3",
+      "bytes": 203892,
+      "chars": 209
+    },
+    {
+      "id": "a-anime-season-07",
       "topic_en": "Anime of the Season",
-      "topic_zh": "本季新番揀邊套",
+      "topic_zh": "今季動畫揀好未",
       "category": "anime/culture",
-      "file": "clip-animeculture.mp3",
-      "bytes": 196404,
-      "chars": 192
+      "file": "clip-a-anime-season-07.mp3",
+      "bytes": 195252,
+      "chars": 201
     }
   ]
 }
