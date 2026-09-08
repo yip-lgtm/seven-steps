@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "tsla-buy-cybercab-0908",
-      "topic_en": "TSLA Buy Now?",
-      "topic_zh": "TSLA入唔入市",
+      "id": "tesla-double-talk",
+      "topic_en": "Tesla Double Talk",
+      "topic_zh": "Tesla買唔買",
       "category": "trading",
-      "file": "clip-tsla-buy-cybercab-0908.mp3",
-      "bytes": 260916,
-      "chars": 246
+      "file": "clip-tesla-double-talk.mp3",
+      "bytes": 137652,
+      "chars": 141
     },
     {
-      "id": "btc-vs-gold-0908",
-      "topic_en": "BTC vs Gold Decade",
-      "topic_zh": "BTC vs 黃金十年",
+      "id": "btc-after-pump",
+      "topic_en": "Buying After The Pump",
+      "topic_zh": "BTC升先追",
       "category": "trading",
-      "file": "clip-btc-vs-gold-0908.mp3",
-      "bytes": 240180,
-      "chars": 249
+      "file": "clip-btc-after-pump.mp3",
+      "bytes": 230388,
+      "chars": 202
     },
     {
-      "id": "ai-jobs-truth-0908",
-      "topic_en": "AI Job Takeover?",
-      "topic_zh": "AI真係搶飯碗？",
+      "id": "ai-jobs-truth",
+      "topic_en": "AI Job Loss Debate",
+      "topic_zh": "AI會唔會搶工",
       "category": "tech/ai",
-      "file": "clip-ai-jobs-truth-0908.mp3",
-      "bytes": 290868,
-      "chars": 275
+      "file": "clip-ai-jobs-truth.mp3",
+      "bytes": 222324,
+      "chars": 235
     },
     {
-      "id": "elon-son-fashion-0908",
-      "topic_en": "Elon's Kid Rebels",
-      "topic_zh": "Elon個仔反枱",
+      "id": "america-obesity",
+      "topic_en": "America's Obesity Problem",
+      "topic_zh": "美國肥胖問題",
       "category": "hk/news",
-      "file": "clip-elon-son-fashion-0908.mp3",
-      "bytes": 244788,
-      "chars": 259
+      "file": "clip-america-obesity.mp3",
+      "bytes": 203892,
+      "chars": 220
     },
     {
-      "id": "lol-hairy-protags-0908",
-      "topic_en": "Game Protagonists",
-      "topic_zh": "遊戲男主角",
+      "id": "rugged-protagonists",
+      "topic_en": "Rugged Game Heroes",
+      "topic_zh": "打機男主造型",
       "category": "lol/esports",
-      "file": "clip-lol-hairy-protags-0908.mp3",
-      "bytes": 273588,
-      "chars": 231
+      "file": "clip-rugged-protagonists.mp3",
+      "bytes": 163572,
+      "chars": 168
     },
     {
-      "id": "fit-1pl8-ohp-0908",
-      "topic_en": "1pl8 OHP Goal",
-      "topic_zh": "OHP終於近1pl8",
+      "id": "fat-loss-scale",
+      "topic_en": "Fat Loss Plateau",
+      "topic_zh": "減脂卡數不動",
       "category": "mma/fitness",
-      "file": "clip-fit-1pl8-ohp-0908.mp3",
-      "bytes": 248820,
+      "file": "clip-fat-loss-scale.mp3",
+      "bytes": 252852,
       "chars": 213
     },
     {
-      "id": "anime-season-pick-0908",
-      "topic_en": "Anime of the Season",
-      "topic_zh": "今季動漫揀邊套",
+      "id": "anime-season-choice",
+      "topic_en": "Anime Of The Season",
+      "topic_zh": "今季動畫揀咩",
       "category": "anime/culture",
-      "file": "clip-anime-season-pick-0908.mp3",
-      "bytes": 226932,
-      "chars": 214
+      "file": "clip-anime-season-choice.mp3",
+      "bytes": 134196,
+      "chars": 146
     }
   ]
 }
