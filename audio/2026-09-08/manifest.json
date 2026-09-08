@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-08",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "tsla-buy-cybercab-0908",
+      "topic_en": "TSLA Buy Now?",
+      "topic_zh": "TSLA入唔入市",
+      "category": "trading",
+      "file": "clip-tsla-buy-cybercab-0908.mp3",
+      "bytes": 260916,
+      "chars": 246
+    },
+    {
+      "id": "btc-vs-gold-0908",
+      "topic_en": "BTC vs Gold Decade",
+      "topic_zh": "BTC vs 黃金十年",
+      "category": "trading",
+      "file": "clip-btc-vs-gold-0908.mp3",
+      "bytes": 240180,
+      "chars": 249
+    },
+    {
+      "id": "ai-jobs-truth-0908",
+      "topic_en": "AI Job Takeover?",
+      "topic_zh": "AI真係搶飯碗？",
+      "category": "tech/ai",
+      "file": "clip-ai-jobs-truth-0908.mp3",
+      "bytes": 290868,
+      "chars": 275
+    },
+    {
+      "id": "elon-son-fashion-0908",
+      "topic_en": "Elon's Kid Rebels",
+      "topic_zh": "Elon個仔反枱",
+      "category": "hk/news",
+      "file": "clip-elon-son-fashion-0908.mp3",
+      "bytes": 244788,
+      "chars": 259
+    },
+    {
+      "id": "lol-hairy-protags-0908",
+      "topic_en": "Game Protagonists",
+      "topic_zh": "遊戲男主角",
+      "category": "lol/esports",
+      "file": "clip-lol-hairy-protags-0908.mp3",
+      "bytes": 273588,
+      "chars": 231
+    },
+    {
+      "id": "fit-1pl8-ohp-0908",
+      "topic_en": "1pl8 OHP Goal",
+      "topic_zh": "OHP終於近1pl8",
+      "category": "mma/fitness",
+      "file": "clip-fit-1pl8-ohp-0908.mp3",
+      "bytes": 248820,
+      "chars": 213
+    },
+    {
+      "id": "anime-season-pick-0908",
+      "topic_en": "Anime of the Season",
+      "topic_zh": "今季動漫揀邊套",
+      "category": "anime/culture",
+      "file": "clip-anime-season-pick-0908.mp3",
+      "bytes": 226932,
+      "chars": 214
+    }
+  ]
+}
