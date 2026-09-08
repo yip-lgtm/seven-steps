@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-fed-rates-01",
-      "topic_en": "Fed Not Hiking",
-      "topic_zh": "聯儲局唔加息",
+      "id": "biz-tsla-2609",
+      "topic_en": "Tesla buy now?",
+      "topic_zh": "TSLA入唔入市",
       "category": "trading",
-      "file": "clip-biz-fed-rates-01.mp3",
-      "bytes": 316212,
-      "chars": 334
+      "file": "clip-biz-tsla-2609.mp3",
+      "bytes": 236724,
+      "chars": 234
     },
     {
-      "id": "biz-tsla-buy-02",
-      "topic_en": "Buy Tesla Now?",
-      "topic_zh": "TSLA 撈底時機",
+      "id": "biz-fed-2609",
+      "topic_en": "Fed not hiking",
+      "topic_zh": "聯儲局加息定減息",
       "category": "trading",
-      "file": "clip-biz-tsla-buy-02.mp3",
-      "bytes": 207348,
-      "chars": 206
+      "file": "clip-biz-fed-2609.mp3",
+      "bytes": 323124,
+      "chars": 274
     },
     {
-      "id": "tech-ai-jobs-03",
-      "topic_en": "AI Won't Take Jobs",
-      "topic_zh": "AI 真係搶飯碗？",
+      "id": "g-nitter-2609",
+      "topic_en": "Nitter is back",
+      "topic_zh": "Nitter復活",
       "category": "tech/ai",
-      "file": "clip-tech-ai-jobs-03.mp3",
-      "bytes": 310452,
-      "chars": 313
+      "file": "clip-g-nitter-2609.mp3",
+      "bytes": 296052,
+      "chars": 285
     },
     {
-      "id": "pol-deind-04",
-      "topic_en": "Deindustrialization Ruined West",
-      "topic_zh": "去工業化禍害",
+      "id": "pol-deind-2609",
+      "topic_en": "Deindustrialization ruins the West",
+      "topic_zh": "去工業化玩完",
       "category": "hk/news",
-      "file": "clip-pol-deind-04.mp3",
-      "bytes": 368052,
-      "chars": 367
+      "file": "clip-pol-deind-2609.mp3",
+      "bytes": 243060,
+      "chars": 306
     },
     {
-      "id": "fit-ohp-05",
-      "topic_en": "1pl8 OHP Goal",
-      "topic_zh": "OHP 接近 1pl8",
-      "category": "mma/fitness",
-      "file": "clip-fit-ohp-05.mp3",
-      "bytes": 251700,
-      "chars": 185
-    },
-    {
-      "id": "v-vidya-06",
-      "topic_en": "Male Protagonist Design",
-      "topic_zh": "遊戲男主造型",
+      "id": "v-protags-2609",
+      "topic_en": "Hairy vs smooth protags",
+      "topic_zh": "遊戲男角定型",
       "category": "lol/esports",
-      "file": "clip-v-vidya-06.mp3",
-      "bytes": 203892,
-      "chars": 209
+      "file": "clip-v-protags-2609.mp3",
+      "bytes": 274740,
+      "chars": 242
     },
     {
-      "id": "a-anime-season-07",
-      "topic_en": "Anime of the Season",
-      "topic_zh": "今季動畫揀好未",
+      "id": "fit-squat-2609",
+      "topic_en": "Squats are a meme",
+      "topic_zh": "深蹲係咪meme",
+      "category": "mma/fitness",
+      "file": "clip-fit-squat-2609.mp3",
+      "bytes": 295476,
+      "chars": 277
+    },
+    {
+      "id": "a-aotd-2609",
+      "topic_en": "Anime of the season",
+      "topic_zh": "本季動漫揀咗未",
       "category": "anime/culture",
-      "file": "clip-a-anime-season-07.mp3",
-      "bytes": 195252,
-      "chars": 201
+      "file": "clip-a-aotd-2609.mp3",
+      "bytes": 251700,
+      "chars": 241
     }
   ]
 }
