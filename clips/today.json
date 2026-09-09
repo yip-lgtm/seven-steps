@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "clip-1-trading-macro",
+      "id": "t1-xrp-btc-doge",
       "category": "trading",
-      "topic_zh": "鮑爾與聯儲局",
-      "topic_en": "Fed Powell Drama",
-      "text_zh": "聯儲局唔會加息。Warsh 出嚟話認真對付通脹，但實際做乜都冇。Bessent 買緊 yen，跟住暗示會拋一萬億美元落嚟。Trump 又鬧 Powell 減息太遲。又係炒吓。命理都話我今年唔好亂開倉🙏",
-      "text_en_b1": "The Federal Reserve is NOT going to hike. Warsh says they are really serious about inflation, they have a taskforce looking into it, then they continue doing nothing. Bessent's to-do list: buy yen, double Yellen's buybacks, and strongly imply he might dump a trillion dollars on those buybacks. Trump criticizes Powell for not cutting rates because the economy is so good.",
-      "source_url": "https://boards.4chan.org/biz/thread/62668712",
-      "source_hint": "/biz/ thread mocking the Fed's inflation theater",
+      "topic_zh": "XRP BTC DOGE 信仰",
+      "topic_en": "Crypto Faith",
+      "text_zh": "5年最難頂嘅市照hold住XRP BTC同DOGE。5年呀大佬，我loss緊都未夠佢哋一半耐力。😭🙏 算啦，學費囉。",
+      "text_en_b1": "In one week's time you will know why you held XRP, BTC and DOGE through the toughest five years any investor has ever faced. Five years of holding through pain, and the payoff is supposedly coming next week. Hodlers are posting this as a victory lap setup.",
+      "source_url": "https://boards.4chan.org/biz/thread/62671972",
+      "source_hint": "/biz/ thread promising a payday for XRP/BTC/DOGE holders",
       "signal": {
-        "asset": "DXY",
-        "direction": "short",
+        "asset": "BTC",
+        "direction": "long",
         "conviction": "medium",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP implies dollar weakness from Bessent's intervention and Trump demanding cuts"
+        "rationale": "OP implicitly bullish on holding BTC/XRP/DOGE through 5-year drawdown, expecting breakout next week"
       },
-      "text_en_b2": "The Federal Reserve is hardly about to raise rates, regardless of the noise. Warsh keeps insisting they are finally getting tough on inflation, yet a taskforce is announced and nothing concrete actually follows. Meanwhile, Bessent's agenda seems to boil down to snapping up yen, doubling Yellen's buybacks, and hinting he could unleash a trillion dollars against them. Trump, for his part, hammers Powell for holding off on cuts despite the economy supposedly being so strong. Classic cycle of theatrics, no substance.",
-      "text_en_c1": "The Federal Reserve will almost certainly refrain from further hikes. Kevin Warsh has publicly committed to tackling inflation with renewed vigour, yet the taskforce assembled for that purpose appears to have produced nothing of substance. Scott Bessent, meanwhile, has been quietly accumulating yen, doubling the buyback operations initiated under Janet Yellen, and hinting rather unsubtly that a one-trillion-dollar intervention might materialise should conditions deteriorate. Donald Trump has separately lambasted Jerome Powell for delaying cuts, arguing that the underlying economy is robust enough to justify immediate easing. Taken in aggregate, these competing signals suggest that traders should anticipate volatility rather than directional conviction.",
-      "text_en_c2": "Speculation that the Federal Reserve might yet raise rates remains, in this commentator's view, fanciful. Kevin Warsh has publicly intimated that the institution harbours a steely resolve to subdue inflation, having convened a dedicated task force to examine the problem; yet no tangible tightening has materialised, the rhetoric drifting conspicuously into the void. Meanwhile, Scott Bessent's purported agenda appears to involve accumulating yen, doubling Janet Yellen's prior round of buybacks, and darkly hinting that a trillion-dollar deluge might be unleashed against those very positions. Donald Trump, for his part, has lambasted Chair Jerome Powell for tardiness in easing monetary policy, contending that the underlying economy merits such a move forthwith. The observer wryly notes that fortune-telling advises against opening fresh positions this year.",
-      "audio_url": "audio/2026-09-09/clip-clip-1-trading-macro.mp3"
+      "text_en_b2": "In roughly one week's time, investors will supposedly find out why holding XRP, BTC and DOGE through the most brutal five-year stretch any crypto holder has endured was worth the pain. The original poster frames this as a vindication moment, suggesting the patience will finally pay off. After half a decade of relentless drawdowns, the implication is clear: those who managed to hold on are about to be proven right.",
+      "text_en_c1": "Within a single week, the rationale for enduring what can only be described as the most punishing five-year stretch any retail investor has weathered will finally become apparent. Those who refused to capitulate on XRP, BTC, and DOGE, absorbing drawdown after drawdown with grim determination, are now positioning themselves for a vindication narrative. What began as quiet conviction has morphed into a coordinated victory lap, with hodlers across forums posting the same prophetic template. Should the anticipated move materialise, the suffering will retrospectively be reframed as tuition paid in advance. Whether markets oblige remains, of course, an entirely separate matter.",
+      "text_en_c2": "A self-styled crypto evangelist is publicly proclaiming that within a single trading week, the rationale behind enduring XRP, BTC, and DOGE through what he describes as the most punishing five-year stretch any market participant has ever weathered will become manifestly vindicated. Five years of unflagging conviction through successive drawdowns, sustained ostensibly on faith alone, are now being positioned as the prelude to imminent vindication. The post reads less as analysis than as ritualistic affirmation, the kind of declaration one issues before a long-anticipated payoff materialises, or fails to. Hodlers circulate the message as a victory lap already rehearsed, a preemptive coronation of a thesis whose merit remains, for now, a matter of doctrinal belief rather than demonstrated return.",
+      "audio_url": "audio/2026-09-09/clip-t1-xrp-btc-doge.mp3"
     },
     {
-      "id": "clip-2-trading-musk",
+      "id": "t2-fed-no-hike",
       "category": "trading",
-      "topic_zh": "BTC vs 黃金",
-      "topic_en": "BTC vs Gold",
-      "text_zh": "十年長揸你揀 BTC 定黃金？XRP 同 DOGE 真係陪我捱過五個地獄年。CFD 啲帳面真係見唔到光，靠 AI 續命🧐 prop firm 嗰邊又未過 eval。算啦，當交學費。",
-      "text_en_b1": "Bitcoin versus gold: if you had to hold only one for the next ten years, which would you choose, and what makes it better than the other? Meanwhile, in one week's time you will know why you held XRP, BTC and DOGE through the toughest five years any investor has ever faced.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ thread asking which asset to hold for a decade",
+      "topic_zh": "聯儲局唔加息",
+      "topic_en": "Fed No Hike",
+      "text_zh": "Warsh同Bessent搞咩鬼呀？Powell又俾Trump鬧，通脹又唔理，搞個taskforce扮嘢。wtf 美國儲局真係黐線，gold同oil睇緊。",
+      "text_en_b1": "The Federal Reserve is NOT going to hike. Warsh creates a taskforce but does nothing. Bessent wants to buy yen and hints at dumping a trillion in buybacks. Trump criticizes Powell for not cutting rates because the economy is so good it deserves lower rates. The setup is dovish.",
+      "source_url": "https://boards.4chan.org/biz/thread/62668712",
+      "source_hint": "/biz/ thread about the Fed not hiking, Warsh/Bessent doing nothing",
       "signal": {
-        "asset": "BTC",
+        "asset": "XAU",
         "direction": "long",
         "conviction": "medium",
-        "time_horizon": "months",
+        "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP frames long-term conviction hold; pairs BTC vs gold comparison"
+        "rationale": "Dovish Fed narrative is bullish for gold as real yields drop"
       },
-      "text_en_b2": "Holding for the long haul raises a genuine dilemma: over the next ten years, would Bitcoin or gold deliver more, and on what grounds? The poster argues the toughest five-year stretch any investor has had to stomach only proved why holding XRP, BTC and DOGE through sheer hell was worth it. Meanwhile, retail traders burned by CFDs and stuck waiting on a prop firm eval can take cold comfort: at least the tuition fee bought something.",
-      "text_en_c1": "If one were compelled to select a single asset for the next decade, would Bitcoin or gold represent the more compelling proposition, and what fundamental characteristics would inform that decision? Proponents of the former cite its asymmetric upside and decentralised architecture, whereas traditionalists maintain that bullion's millennia-long track record confers an almost irreplaceable store-of-value function. The original poster, evidently nursing losses from CFD positions that have yet to break even, defends his conviction in XRP, Bitcoin and DOGE, all of which he held throughout what he describes as five harrowing years for any retail investor. Prop firm evaluations remain pending, and the AI-assisted trading experiment continues to underperform.",
-      "text_en_c2": "Were one compelled to select a single asset for an entire decade of unwavering conviction, would it be Bitcoin or gold that one entrusts with such stewardship, and what intrinsic attribute renders it superior to its rival? The poster contends that within merely seven days the rationale for weathering the most punishing five-year crucible any contemporary investor has endured whilst holding XRP, BTC and DOGE will become resplendently apparent. Margin accounts have languished in perpetual deficit, sustained only by artificially inflated AI-generated valuations, whilst proprietary trading evaluations remain obstinately incomplete. The poster concedes, with philosophical equanimity, that these tribulations ought to be regarded as tuition rather than catastrophe.",
-      "audio_url": "audio/2026-09-09/clip-clip-2-trading-musk.mp3"
+      "text_en_b2": "The Federal Reserve is unlikely to hike rates anytime soon, despite the theatre surrounding it. While Warsh has quietly set up a taskforce that does little of substance, Bessent has been hinting at intervention through yen purchases and a potential trillion-dollar buyback scheme. Meanwhile, Trump keeps pressuring Powell to cut rates on the grounds that the economy is thriving. The overall picture leans dovish, which has gold and oil watchers paying close attention.",
+      "text_en_c1": "The Federal Reserve, in its current configuration, is highly unlikely to proceed with any rate hike whatsoever. Kevin Warsh has conspicuously established a taskforce whose remit appears confined to issuing press releases rather than enacting policy, while Scott Bessent has floated the rather extraordinary notion of intervening in yen markets and orchestrating a trillion-dollar buyback operation. Meanwhile, the President has once again taken to publicly admonishing Chair Powell, arguing that an economy performing as robustly as this one ostensibly deserves materially lower borrowing costs. Against this backdrop, the macroeconomic setup remains distinctly dovish, which is why gold and crude have been bid accordingly.",
+      "text_en_c2": "The conviction that the Federal Reserve will refrain from hiking rates is hardening among market commentators, notwithstanding the labyrinthine theatre surrounding the institution. Warsh has convened a taskforce that has thus far produced nothing of substance; Bessent, for his part, is openly agitating for yen intervention while floating the prospect of deploying roughly a trillion dollars into corporate buybacks, a staggering figure whose plausibility remains questionable. Trump, meanwhile, has resumed his customary broadsides against Powell, lambasting the Chair for declining to cut rates on the dubious premise that economic strength itself warrants accommodation. The cumulative effect is decidedly dovish positioning, which is precisely why gold and crude are being watched with such wary attentiveness.",
+      "audio_url": "audio/2026-09-09/clip-t2-fed-no-hike.mp3"
     },
     {
-      "id": "clip-3-tech-ai",
+      "id": "tech-ai-nitter",
       "category": "tech/ai",
-      "topic_zh": "AI 識做數學",
-      "topic_en": "AI Math Theft",
-      "text_zh": "OpenAI 又出事了。兩個數學家用 claude 同 gpt 合作解難題，OpenAI 就話自己個 agent swarm 獨立解咗。連 credit 都冇俾。靠 AI 續命嘅廢柴如我，睇到都驚。日後連考牌都可能被 AI 代我答🙏",
-      "text_en_b1": "OpenAI steals a math breakthrough. Mathematicians Alpage and Buckmaster collaborated using Claude and GPT and made good progress. OpenAI then claimed an agent swarm solved the problem independently, with an approach very similar to their work. The mathematicians were not credited in the paper.",
-      "source_url": "https://boards.4chan.org/g/thread/109762595",
-      "source_hint": "/g/ thread on OpenAI allegedly taking credit for math work",
+      "topic_zh": "Nitter復活",
+      "topic_en": "Nitter Returns",
+      "text_zh": "X Corp又嚟搞Nitter啦，抄人Texas法ban咗十幾個instance，轉個頭另一啲又即刻出返嚟。FOSS真係打不死，lol。",
+      "text_en_b1": "Nitter is back online. X Corp sent a cease and desist letter to the FOSS front-end project, citing the Texas Harmful Access by Computer Act. They went after individual instances and even unrelated embed sites. They all complied. Within days, a dozen alternate instances popped up elsewhere.",
+      "source_url": "https://boards.4chan.org/g/thread/109745896",
+      "source_hint": "/g/ thread about X Corp killing Nitter frontends and new ones spawning",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade, AI industry observation"
+        "rationale": "Tech/AI observation clip, no trade setup"
       },
-      "text_en_b2": "OpenAI finds itself in hot water once again. Mathematicians Alpage and Buckmaster had been collaborating through Claude and GPT and were making solid headway on a stubborn problem. Shortly afterwards, OpenAI put out a paper claiming its agent swarm cracked the same challenge independently, using an approach suspiciously close to theirs. No credit whatsoever was given to the original pair, and the community is rightly calling it out as outright theft of intellectual work.",
-      "text_en_c1": "OpenAI stands accused of appropriating a mathematical breakthrough that ought to have belonged to its collaborators. Mathematicians Alpage and Buckmaster had been making considerable headway on a notoriously intractable problem using Claude and GPT in tandem, refining hypotheses iteratively across multiple sessions. OpenAI subsequently asserted that an internal agent swarm had solved the very same problem autonomously, employing an approach strikingly reminiscent of the pair's published methodology. The mathematicians received no acknowledgement whatsoever in the resulting paper, a striking omission given the documented overlap in reasoning.",
-      "text_en_c2": "OpenAI has once again found itself mired in controversy, after two mathematicians, working in concert with Anthropic's Claude and OpenAI's own GPT, achieved meaningful progress on a recalcitrant problem. OpenAI subsequently alleged that an autonomous agent swarm had independently arrived at the solution, employing a methodology strikingly homologous to that of the human researchers. The mathematicians, it transpires, received no acknowledgement whatsoever in the published paper. Observers dependent upon AI to perpetuate otherwise untenable workflows confess to genuine disquiet at such appropriations, wondering whether professional examinations themselves may soon be similarly outsourced. The episode casts an unflattering pall upon prevailing notions of intellectual attribution.",
-      "audio_url": "audio/2026-09-09/clip-clip-3-tech-ai.mp3"
+      "text_en_b2": "Nitter has come back online after X Corp's latest crackdown. According to reports, the company issued cease and desist letters to the FOSS front-end project, invoking the Texas Harmful Access by Computer Act. They pursued individual instances and even unrelated embed sites, all of which complied. Within days, however, roughly a dozen alternative instances had already sprung up elsewhere, proving once again that open-source projects have a way of bouncing back.",
+      "text_en_c1": "Nitter, the privacy-preserving FOSS front-end for X, has resurfaced after a brief but concerted campaign of legal intimidation. X Corp dispatched a cease and desist invoking the Texas Harmful Access by Computer Act, a statute whose applicability to public-content aggregation remains contested. Not content with targeting the primary instances, their legal team also pursued unrelated embed services, all of which complied promptly. Yet within mere days, a dozen alternative mirrors had already materialised elsewhere, demonstrating once again that genuinely decentralised infrastructure tends to recover faster than it can be suppressed. The cat-and-mouse dynamic, it seems, is firmly back on.",
+      "text_en_c2": "Nitter, the FOSS front-end that long served as the principal refuge for users seeking to view X content without the indignity of authentication or tracking, has resurfaced after a concerted legal offensive. X Corp dispatched cease and desist correspondence invoking the Texas Harmful Access by Computer Act, a statute whose applicability to open-source scraping remains contested. The campaign systematically targeted individual instances and, in a notably aggressive flourish, even ancillary embed sites, all of whom capitulated promptly. Yet within a matter of days, a fresh constellation of approximately a dozen mirror instances has materialised elsewhere, hosted by developers who evidently regard the legal threat as an occupational hazard rather than a deterrent. The whack-a-mole dynamic persists.",
+      "audio_url": "audio/2026-09-09/clip-tech-ai-nitter.mp3"
     },
     {
-      "id": "clip-4-hk-news",
+      "id": "hk-news-pol",
       "category": "hk/news",
-      "topic_zh": "外媒換血",
-      "topic_en": "Media Insider",
-      "text_zh": "有個 pol 板 insider 出 post，話主流媒體開始換黑人內容做印度內容。Hip hop 同 Nike 嘢突然 dead 咗，funding 唔知去晒邊。廢物如我只睇 LIHKG 同 biz，呢啲大棋同我無關lol",
-      "text_en_b1": "An insider on pol claims media companies are quietly switching black media coverage to Indian media. Hip hop and Nike stuff basically died overnight, as if someone cut all funding. Where did all the funding go? The poster says they cannot reveal which company for fear of being fired.",
-      "source_url": "https://boards.4chan.org/pol/thread/542256298",
-      "source_hint": "/pol/ insider post on media industry shift",
+      "topic_zh": "白人憎印度人",
+      "topic_en": "Pol: India vs West",
+      "text_zh": "pol板嗰啲嘢真係越嚟越癲，又話白人驚印度人因為印度唔做奴隸。睇完好lihkg feel返，呢度啲人算正常。",
+      "text_en_b1": "White people seethe at Indians because we refused to be your slave. The poster argues the West only likes ethnicities that stay subservient. India used to be a spiritual place for hippies, and now attitudes have shifted because India has real global influence. Ethnic geopolitics rant on /pol/.",
+      "source_url": "https://boards.4chan.org/pol/thread/542223248",
+      "source_hint": "/pol/ thread ranting about Western attitudes toward India",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Cultural observation, no trade setup"
+        "rationale": "HK/news observation clip, no trade setup"
       },
-      "text_en_b2": "An insider posting on /pol/ claims mainstream outlets are quietly pivoting away from black-oriented content and pivoting toward Indian-focused material instead. Hip hop coverage and Nike-driven marketing essentially evaporated overnight, as though somebody yanked the funding overnight. Where that capital ended up, nobody can say for certain, although the original poster insists they cannot name the company involved without risking their job. Apparently, the whole thing is part of some larger chess move.",
-      "text_en_c1": "An anonymous insider posting from the politics board has alleged that mainstream media organisations are quietly transitioning their editorial focus from black-centric coverage to Indian-centric content, a pivot so abrupt that it appears almost coordinated. Hip-hop coverage and Nike-sponsored features have reportedly evaporated overnight, suggesting that advertising budgets and institutional funding have been redirected elsewhere with remarkable speed. Where precisely these resources have migrated remains undisclosed, as the poster claims professional obligations preclude naming the corporation involved. The broader implications, should the allegation prove accurate, would extend well beyond entertainment journalism, potentially reshaping how demographic minorities are represented in commercial media.",
-      "text_en_c2": "An anonymous insider purporting to be affiliated with a political messaging board has alleged that mainstream media conglomerates are orchestrating a quiet, calculated pivot away from black-oriented cultural coverage toward Indian-subcontinent-focused content. Hip-hop promotion and Nike-aligned narratives, the poster contends, have withered virtually overnight, as though funding streams had been abruptly severed. The destination of those redirected resources remains undisclosed, though the insider claims professional jeopardy precludes identifying the corporation responsible. The commentator observes, with characteristic detachment, that such grand stratagems scarcely impinge upon those whose media diet consists exclusively of local Hong Kong forums and financial boards.",
-      "audio_url": "audio/2026-09-09/clip-clip-4-hk-news.mp3"
+      "text_en_b2": "A /pol/ rant argues that white people increasingly resent Indians precisely because India refused to become subservient to the West. The poster claims the West only seems to admire ethnicities that stay comfortably obedient. India, once romanticised by hippies as a spiritual haven, has undergone a dramatic shift in perception as its global influence has grown. The thread descends into classic ethnic geopolitics, blaming shifting attitudes on India's rising stature.",
+      "text_en_c1": "A lengthy geopolitical screed on /pol/ argues that Western sentiment toward India has curdled precisely because the subcontinent declined to occupy the subservient role historically expected of non-European civilisations. The poster contends that prior affection, manifested in the hippy trail era when India functioned as a spiritual playground for disaffected Western youth, has given way to resentment now that New Delhi wields genuine diplomatic and economic leverage. Ethnic relations, in this framing, function as a barometer of geopolitical obedience; populations that refuse deference invariably attract contempt. Returning to LIHKG afterwards felt, by contrast, like a return to relative sanity.",
+      "text_en_c2": "A polemic circulating on /pol/ contends that Western antipathy toward Indians stems not from cultural friction but from a recalibration of historical deference, the assertion being that the Anglosphere only genuinely esteems those populations content to remain perpetually subordinate. The poster frames India's refusal of historical servility as the proximate cause of contemporary resentment, arguing that the subcontinent's emergence as a geopolitical heavyweight has irrevocably altered the calculus of Western affection. There is, admittedly, a certain grim irony in observing that India was once venerated as a spiritual Mecca for disaffected Western youth, a locus of mystical import, whereas it is now regarded with suspicion precisely because it possesses the material capacity to defy external pressure.",
+      "audio_url": "audio/2026-09-09/clip-hk-news-pol.mp3"
     },
     {
-      "id": "clip-5-lol-esports",
+      "id": "lol-nintendo-trail",
       "category": "lol/esports",
-      "topic_zh": "任天堂神秘新作",
+      "topic_zh": "任天堂開發者消失",
       "topic_en": "Nintendo Mystery Dev",
-      "text_zh": "任天堂出新 trailer，但 developer 名邊度都見唔到。網站、宣傳品、邊度都冇。究竟 outsource 咗俾邊個？S15 暫時悶到抽筋，唯有靠呢啲 4chan 帖止癮lol",
-      "text_en_b1": "Does no one find it suspicious that the developer is not listed anywhere in the trailer, website, or promotional materials? The poster asks who Nintendo outsourced the new project to, since the studio name appears nowhere in any official materials.",
+      "text_zh": "lol 任天堂新game連developer都唔列名，邊個 outsource㗎？成個 trailer 都唔見個 studio logo。唔係掛，又係 AI 做？🧐",
+      "text_en_b1": "Does NO ONE find it suspicious that the developer isn't listed anywhere in the trailer, website, or promotional materials? The poster asks who Nintendo outsourced this new project to. The studio name is completely missing from all marketing, which is unusual for a first-party style release.",
       "source_url": "https://boards.4chan.org/v/thread/747187009",
-      "source_hint": "/v/ thread on an unannounced Nintendo developer",
+      "source_hint": "/v/ thread speculating about an uncredited developer on a Nintendo trailer",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,24 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming industry gossip, no trade"
+        "rationale": "Gaming observation clip, no trade setup"
       },
-      "text_en_b2": "Does nobody else find it genuinely suspicious that the developer's name appears absolutely nowhere? The trailer, the official site, every piece of promotional material released so far, and still no studio credit. The poster wonders aloud whether Nintendo has outsourced the project to an unannounced partner or is deliberately keeping things under wraps until launch. The guessing game has officially overtaken any actual hype around the title itself.",
-      "text_en_c1": "Is it not somewhat conspicuous that Nintendo's most recent trailer makes no reference whatsoever to the studio entrusted with development? Neither the official website, nor the accompanying promotional materials, nor any press release identifies the outsourcing partner responsible for the project, a silence that has predictably ignited considerable speculation across enthusiast forums. Season fifteen of the prevailing competitive league has, by the poster's own admission, grown rather stale, leaving fans to derive what entertainment they can from deciphering corporate mysteries. Several plausible candidates have been floated, ranging from established second-party collaborators to entirely unannounced studios, though Nintendo's characteristic opacity renders any definitive attribution essentially impossible at this juncture.",
-      "text_en_c2": "Does nobody else find it mildly disquieting that Nintendo's freshly unveiled trailer fails to disclose the development studio anywhere within its duration, accompanying website, or supplementary promotional collateral? The conspicuous omission, deliberate or otherwise, has ignited considerable conjecture within the community regarding the identity of the outsourced partner entrusted with the project. Forum denizens have pored over every frame, hunted through metadata, and scoured press releases, yet the studio's name remains conspicuously absent from any official artefact. Season fifteen of competitive play has stagnated into torpor; speculative threads such as this one, the poster concedes, provide the only present solace against terminal boredom.",
-      "audio_url": "audio/2026-09-09/clip-clip-5-lol-esports.mp3"
+      "text_en_b2": "Does anyone else find it genuinely suspicious that the developer behind this new Nintendo project isn't credited anywhere in the trailer, the official website, or any promotional materials whatsoever? The original poster wondered openly which studio Nintendo had outsourced the work to. While speculation ranges from a hidden first-party team to potential AI involvement, the conspicuous absence of any studio logo remains a glaring oddity.",
+      "text_en_c1": "Is nobody remotely bothered by the conspicuous absence of any credited developer across the entire promotional apparatus for this supposed Nintendo release? The trailer, the official site, the press kit, and every ancillary marketing channel omit even a studio logo, which would be unthinkable for a genuine first-party production. The implication, whether intentional or otherwise, is that the project has been outsourced to an external partner whose identity Nintendo evidently wishes to withhold. Whether this reflects an unannounced collaboration with an established studio, a smaller indie outfit, or something altogether more speculative remains the question exercising the commentariat.",
+      "text_en_c2": "The conspicuous absence of any credited developer in Nintendo's newly unveiled trailer, official website, and associated promotional apparatus has not escaped the more paranoid elements of the gaming community, who regard such omission as categorically anomalous for a project that otherwise bears every superficial hallmark of a first-party release. The studio's name, ordinarily a fixture of any self-respecting Nintendo marketing campaign, is nowhere to be found, prompting speculation that the work has been outsourced to an external contractor whose identity Nintendo is either disinclined or contractually prohibited from disclosing. Whether this represents standard operational secrecy or something more disquieting, perhaps the increasingly ubiquitous deployment of generative AI tools in game production, remains a matter of conjecture.",
+      "audio_url": "audio/2026-09-09/clip-lol-nintendo-trail.mp3"
     },
     {
-      "id": "clip-6-mma-fitness",
+      "id": "mma-fit-1pl8",
       "category": "mma/fitness",
-      "topic_zh": "深蹲係咪必要",
-      "topic_en": "Squats Are a Meme",
-      "topic_zh2": "深蹲係咪 meme",
-      "topic_en2": "Squat Debate",
-      "text_zh": "有 fit 板膠膠噏話深蹲係現代 lifting 神話，古希臘人都唔做。佢話 bench、OHP、DL 加跑步已經夠練腿。肥仔信今日又叫我 squat，睇完呢個 post 我有藉口偷懶lol🙏",
-      "text_en_b1": "Squats are a meme lift, prioritized way too much in modern lifting. The poster says the ancient Greeks never did squats, they just ran and carried heavy things. He argues bench, overhead press, deadlift, running, and carrying heavy stuff are all you need to train like the best athletes in history.",
-      "source_url": "https://boards.4chan.org/fit/thread/77498059",
-      "source_hint": "/fit/ thread arguing squats are overrated",
+      "topic_zh": "1pl8 OHP 目標",
+      "topic_en": "1pl8 OHP Goal",
+      "text_zh": "肥仔信一定笑我，仲未上到1pl8 OHP reps。但squat同DL都過哂，OHP真係最廢。繼續grind，gym唔等人。💪",
+      "text_en_b1": "I'm closer to a 1-plate overhead press than I am to a 2-plate bench, 3-plate squat, or 4-plate deadlift. The poster thinks a 1-plate OHP for reps is realistic in one or two months. Upper-body pressing is clearly lagging compared to lower-body lifts.",
+      "source_url": "https://boards.4chan.org/fit/thread/77491789",
+      "source_hint": "/fit/ thread about lifting progression, specifically OHP",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -142,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness opinion, no trade setup"
+        "rationale": "Fitness observation clip, no trade setup"
       },
-      "text_en_b2": "Squats have become something of a meme exercise in modern lifting culture, prioritised far beyond what the movement actually delivers. The poster argues that ancient Greek athletes never touched a squat bar, relying instead on running, carrying heavy loads, and the basics. In his view, combining bench press, overhead press, deadlift, running, and loaded carries is more than enough to train like the greatest athletes history has produced. Apparently, skipping leg day just got a legitimate defence.",
-      "text_en_c1": "A contentious thread on the fitness board has reignited an enduring debate by characterising the squat as an overemphasised artefact of contemporary strength culture rather than a genuinely indispensable movement. The original poster contends that ancient Greek athletes, whose physiques remain objects of admiration, never performed barbell squats in any recognisable form, relying instead on sprinting, loaded carries and unstructured physical labour. He proposes that bench press, overhead press, deadlift, running and the transportation of heavy objects constitute a sufficient regimen for those aspiring to historic athletic excellence. Critics counter that bilateral lower-body hypertrophy requires dedicated loading patterns unavailable through carries alone.",
-      "text_en_c2": "A fitness enthusiast has provocatively characterised the barbell back squat as a contemporary lifting myth, disproportionately venerated within modern strength culture despite, he insists, a complete absence of corroboration in antiquity. The Greeks, he contends, never performed the movement as such; their celebrated physiques were forged instead through running, overhead pressing, and the patient carriage of substantial loads over considerable distances. He maintains that bench press, overhead press, deadlift, distance running, and weighted carries constitute the entirety of what any aspiring athlete requires to approximate the conditioning of history's finest. He confesses, with endearing candour, that the thread has furnished him the perfect pretext to abscond from today's scheduled session.",
-      "audio_url": "audio/2026-09-09/clip-clip-6-mma-fitness.mp3"
+      "text_en_b2": "I've managed to clear a three-plate squat and a four-plate deadlift, yet a proper one-plate overhead press for reps still eludes me. The frustrating reality is that my pressing strength lags considerably behind my lower-body lifts, so a one-plate OHP within a couple of months feels like a realistic goal. Meanwhile, a two-plate bench remains stubbornly out of reach. The grind continues regardless.",
+      "text_en_c1": "Although my squat has comfortably cleared the three-plate threshold and my deadlift has breached four plates with relative consistency, my overhead press stubbornly refuses to cooperate, lagging behind to such an extent that achieving a single plate for multiple repetitions still represents an aspirational rather than accomplished milestone. The disparity between my lower-body development and pressing strength has become almost comical, a familiar affliction among lifters whose legs respond readily to progressive overload while their shoulders remain obstinately recalcitrant. Two months of focused pressing work should, in theory, remedy the situation, provided I resist the temptation to neglect accessories.",
+      "text_en_c2": "A frustratingly lopsided progression has befallen the poster's lifting portfolio: he stands tantalisingly closer to a one-plate overhead press for reps than to any of the more celebrated milestones in conventional strength training nomenclature, the two-plate bench, the three-plate squat, or the four-plate deadlift, all of which remain comfortably within reach while the comparatively modest OHP target continues to elude him. He estimates, with the cautious optimism characteristic of intermediates, that a one-plate overhead for clean reps is achievable within perhaps two months of dedicated training. The diagnosis is unmistakable: his posterior chain and lower-body mechanics have developed apace, whereas his pressing strength, a stubborn deficiency afflicting lifters with longer torsos, lags conspicuously behind.",
+      "audio_url": "audio/2026-09-09/clip-mma-fit-1pl8.mp3"
     },
     {
-      "id": "clip-7-anime-culture",
+      "id": "anime-wsm-issue41",
       "category": "anime/culture",
-      "topic_zh": "少年マガジン",
-      "topic_en": "Weekly Shonen",
-      "text_zh": "WSM 第41期 2026，Yowayowa 有彩頁，仲有新連載 Onryou Biyori。Gundam 00 重溫第三次都未悶，考牌溫到傻唯有煲老番lol",
-      "text_en_b1": "Weekly Shonen Magazine issue 41 of 2026 has color pages for Yowayowa, plus a brand new manga titled Onryou Biyori starting in this issue. The thread catalogs the new serializations and color page announcements for that weekly release.",
+      "topic_zh": "少年Magazine新刊",
+      "topic_en": "Weekly Shonen Magazine",
+      "text_zh": "WSM第41期出新連載Yowayowa，Onryou Biyori又有彩頁。今期睇下有冇伏，sifu叫我少啲睇廢漫但又手多多。",
+      "text_en_b1": "Weekly Shonen Magazine issue 41, 2026 has color pages for Yowayowa, plus a new manga called Onryou Biyori. The poster is previewing what's inside. Kodansha's weekly lineup keeps rotating new titles every few months to test reader interest.",
       "source_url": "https://boards.4chan.org/a/thread/290794985",
-      "source_hint": "/a/ thread on Weekly Shonen Magazine issue 41",
+      "source_hint": "/a/ thread previewing Weekly Shonen Magazine issue 41 new manga",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -166,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime magazine release news, no trade"
+        "rationale": "Anime/culture observation clip, no trade setup"
       },
-      "text_en_b2": "Weekly Shonen Magazine's issue 41 for 2026 drops with colour pages dedicated to Yowayowa, alongside a freshly launched serialization titled Onryou Biyori kicking off in the same issue. The thread essentially compiles every new series debut and colour-page announcement tied to that weekly release, giving readers a tidy rundown of what to look forward to. For anybody burnt out on revision, it doubles as a perfectly timed distraction from real responsibilities.",
-      "text_en_c1": "Weekly Shonen Magazine's forty-first issue of 2026 features colour pages dedicated to Yowayowa, alongside the debut of an entirely new serialisation titled Onryou Biyori, whose premise has already attracted modest discussion among dedicated readers. The thread catalogues these announcements methodically, parsing which titles received premium placement and which newcomers might warrant sustained attention in subsequent issues. Elsewhere, the poster confesses to revisiting Mobile Suit Gundam 00 for what must be at least the third occasion, finding the narrative remarkably resilient to familiarity, presumably as a palliative against the more onerous demands of professional licensing examination preparation. Such nostalgia-driven viewing habits appear increasingly common among overworked students.",
-      "text_en_c2": "Weekly Shonen Magazine's forthcoming issue forty-one for 2026 is generating quiet excitement, with colour-page prominence afforded to Yowayowa alongside the inaugural chapter of an entirely new serialisation titled Onryou Biyori. The thread meticulously catalogues each fresh announcement and visual feature slated for that weekly instalment, ranging from returning favourites to debuting properties awaiting their moment in the spotlight. The poster confesses that revision for impending professional examinations has driven him to rewatch Gundam 00 for the third consecutive time, a venerable mecha series whose intricate geopolitical allegories provide welcome cognitive respite. Familiar comfort viewing, he concedes, remains an incomparable palliative against examination-induced despair.",
-      "audio_url": "audio/2026-09-09/clip-clip-7-anime-culture.mp3"
+      "text_en_b2": "Weekly Shonen Magazine issue 41 for 2026 has dropped, featuring colour pages for the newer series Yowayowa alongside a fresh manga titled Onryou Biyori. The poster is previewing the issue, wondering whether any of the new additions are worth following. Although Kodansha routinely rotates titles every few months to gauge reader interest, sifu keeps telling me to cut back on disposable manga.",
+      "text_en_c1": "Issue 41 of Weekly Shonen Magazine for 2026 features colour pages for Yowayowa alongside a brand-new serialisation entitled Onryou Biyori, whose premise and tonal palette remain as yet undisclosed. Kodansha's longstanding strategy of cycling fresh titles through its flagship anthology on a quarterly basis continues apace, ostensibly to gauge reader reception before committing to longer runs. Whether either of these properties possesses genuine longevity or will quietly vanish within three chapters remains the perennial gamble of magazine serialisation. My sifu's repeated admonishments to consume less disposable manga went, predictably, unheeded once again this week.",
+      "text_en_c2": "Weekly Shonen Magazine's forty-first issue for 2026 has arrived bearing its customary cargo of serialised content, prominently featuring colour pages for Yowayowa, an established title, alongside a fresh new series entitled Onryou Biyori, whose thematic orientation remains, for the moment, an exercise in informed speculation. The poster is canvassing reader reaction to determine whether the new property warrants sustained attention or represents merely another disposable offering in Kodansha's perpetual churn of trial-balloon serialisations. The publisher's strategy of rotating prospective titles on a roughly quarterly basis, a deliberate mechanism for gauging market reception before committing to longer runs, continues to characterise the magazine's editorial philosophy.",
+      "audio_url": "audio/2026-09-09/clip-anime-wsm-issue41.mp3"
     }
   ]
 }
