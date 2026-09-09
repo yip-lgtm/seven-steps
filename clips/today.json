@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "xrp-btc-doge-hold",
+      "id": "trade-btc-vs-gold",
       "category": "trading",
-      "topic_zh": "持貨五年",
-      "topic_en": "Hold Through Five Years",
-      "text_zh": "XRP BTC DOGE 持咗五年，最辛苦嘅五年。一星期後你就會知點解要 hold。又係另一個 biz post 講緊啲我已經輸緊嘅嘢。lol 考牌都未搞掂，仲輸緊錢，廢柴。",
-      "text_en_b1": "In one week's time you will know why you held XRP, BTC and DOGE through the toughest five years any investor has ever faced. Anon is calling for patience after a long stretch of pain. The post suggests the reward is finally coming next week. Holders are being told to stay strong and not sell at the bottom.",
-      "source_url": "https://boards.4chan.org/biz/thread/62671972",
-      "source_hint": "/biz/ thread telling holders the payoff is coming in one week",
+      "topic_zh": "BTC vs 黃金十年",
+      "topic_en": "BTC vs Gold Decade",
+      "text_zh": "又係呢條數。十年揸BTC定揸黃金？我兩樣都輸緊，廢柴。真係要揸一樣，我會揸BTC，因為prop firm都係做crypto多。黃金太慢。",
+      "text_en_b1": "Someone on /biz/ asked: if you had to hold only one asset for the next 10 years, Bitcoin or gold, what makes your choice better? The thread has both sides arguing hard. Gold bugs talk about 5,000 years of trust. BTC maxis talk about the next 5,000 years of math. Nobody agrees. Classic 4chan.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ thread comparing BTC and gold as 10-year holds",
       "signal": {
         "asset": "BTC",
         "direction": "long",
+        "conviction": "low",
+        "time_horizon": "months",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP frames a 10-year BTC vs gold debate; no entry level, weak long lean from the comparison"
+      },
+      "text_en_b2": "A /biz/ thread poses the eternal dilemma: if you had to commit to a single asset for the next ten years, would you pick Bitcoin or gold, and what underpins your conviction? Predictably, both camps dug in their heels. Gold advocates lean on roughly five millennia of accumulated trust, while BTC maximalists counter with the promise of mathematics carrying us through the next five. Unsurprisingly, nobody budged. The whole thing captures 4chan at its most archetypal.",
+      "text_en_c1": "A recurring thread on /biz/ resurfaced the decade-long debate: if one were compelled to hold a single asset for the next ten years, would Bitcoin or gold prove the wiser bet? Both camps articulated their positions with characteristic conviction. Gold advocates invoked five millennia of accumulated trust, while Bitcoin maximalists countered with a forward-looking appeal to cryptographic mathematics. No consensus emerged, as is customary, and the thread dissolved into the familiar partisan bickering that defines the board. Personally, were I forced into a corner, I would reluctantly side with BTC, largely because proprietary trading firms continue gravitating toward crypto; gold, by contrast, feels painfully pedestrian in its rate of appreciation.",
+      "text_en_c2": "A recent /biz/ thread poses a question that has by now acquired the status of catechism: should one, forced to commit for the next decade, hold Bitcoin or gold, and on what grounds does that choice stand? The replies diverge with almost theological ferocity. Gold partisans invoke five millennia of accumulated trust, the metal's stubbornness as a cultural constant; the Bitcoin maximalists counter with what they style the next five millennia of mathematics, scarcity codified, trust transmuted into protocol. Neither camp concedes. The poster, holding both and losing on both, professes a lean toward BTC chiefly because proprietary trading desks, those temples of leverage, remain overweight in crypto, whereas gold, to his eye, simply moves too glacially to justify conviction. The thread is, in essence, 4chan's familiar pantomime of unresolved eschatology.",
+      "audio_url": "audio/2026-09-09/clip-trade-btc-vs-gold.mp3"
+    },
+    {
+      "id": "trade-fed-no-hike",
+      "category": "trading",
+      "topic_zh": "聯儲局唔加息",
+      "topic_en": "Fed Won't Hike",
+      "text_zh": "OK，Warsh同Bessent呢班友又噏乜。Trump又話要劈息。但CPI唔係假嘅。CFD揸USD/JPY短線，等下執幾十點都係錢。考牌都未完，又要睇美債，廢物。",
+      "text_en_b1": "A /biz/ post breaks down the new Fed lineup. Warsh says they are really serious about inflation this time, has a taskforce looking into it, but is doing nothing. Bessent wants to buy yen and double Yellen's buybacks, strongly hinting he might dump a trillion on them. Trump criticizes Powell as too late and pushes for cuts. The OP thinks no rate hike is coming.",
+      "source_url": "https://boards.4chan.org/biz/thread/62668712",
+      "source_hint": "/biz/ thread on the new Fed team and rate path",
+      "signal": {
+        "asset": "DXY",
+        "direction": "short",
         "conviction": "medium",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Patience narrative post, implicitly bullish on held coins like BTC, XRP, DOGE"
+        "rationale": "OP implies USD weakness from Bessent's yen-buyback threat and Trump pushing cuts, so a short USD bias fits"
       },
-      "text_en_b2": "Next week will reveal exactly why holding XRP, BTC and DOGE through the most gruelling five-year stretch any investor has endured was the right call. /biz/ is rallying around patience after an extended period of losses, insisting the payoff is finally around the corner. Holders are being urged not to capitulate at the bottom, since many have been waiting years for this kind of setup to deliver. Stay strong, sell later.",
-      "text_en_c1": "By the end of next week, anyone who endured five gruelling years holding XRP, BTC and DOGE should finally understand what the patience was for. /biz/ is calling for conviction after an extended stretch of capital pain, insisting that the payoff is imminent. Holders are urged not to capitulate at the cycle's bottom, however tempting a sale might seem. Long-term participants contend that setups of this magnitude reward those who simply refuse to liquidate. Another day, another thread preaching endurance to a board already bleeding out.",
-      "text_en_c2": "In roughly one week's time, the rationale behind holding XRP, BTC, and DOGE through what can only be described as the most punishing five-year stretch any retail investor has endured will, ostensibly, become self-evident. The poster, weary from accumulated losses, frames this forthcoming revelation as vindication rather than speculation, urging holders to resist the reflexive impulse to liquidate at the cycle's nadir. Across /biz/, the consensus coalesces around a single thesis: that the prolonged capitulation has primed the market for a decisive re-rating. Whether one ascribes to this conviction or regards it as yet another exercise in collective self-delusion, the rhetorical architecture is unmistakable, conflating stoicism with strategy, and patience with prudence. The subtext, of course, is that nobody wishes to be the last fool holding the bag when sentiment finally inverts.",
-      "audio_url": "audio/2026-09-09/clip-xrp-btc-doge-hold.mp3"
+      "text_en_b2": "A /biz/ post dissects the freshly announced Fed lineup, and the implications are anything but straightforward. Warsh insists the committee is genuinely committed to tackling inflation this round and has set up a dedicated taskforce, though concrete action remains conspicuously absent. Bessent, meanwhile, is reportedly pushing to purchase yen and double Yellen's previous buyback volume, strongly hinting he could unleash a trillion onto the market. Trump has publicly branded Powell as far too slow and is demanding immediate rate cuts.",
+      "text_en_c1": "A recent /biz/ post dissected the Federal Reserve's evolving lineup, parsing the public remarks of figures like Warsh and Bessent with considerable skepticism. Warsh has constituted a taskforce ostensibly aimed at tackling inflation, though concrete action remains conspicuously absent. Bessent, meanwhile, has signaled an intention to acquire yen and double Yellen's prior buyback commitments, with some interpreting his rhetoric as preparation for a trillion-dollar intervention. Trump continues lambasting Powell for acting too cautiously and is lobbying aggressively for immediate rate cuts.",
+      "text_en_c2": "A /biz/ thread dissects the freshly constituted Federal Reserve lineup with the weary scepticism of someone who has watched too many press conferences. Warsh professes fealty to the inflation mandate, convenes a taskforce to investigate, and proceeds, predictably, to do precisely nothing; Bessent, by contrast, entertains yen purchases and a doubling of Yellen's buyback regime, telegraphing with characteristic vagueness the possibility of unleashing a trillion dollars should conditions warrant. Trump, never one for diplomatic register, excoriates Powell as fatally behind the curve and demands immediate rate reductions. The poster concedes CPI data is not conveniently malleable and concludes no hike is forthcoming; meanwhile, scalping USD/JPY on CFDs for a few dozen pips remains his modest ambition, even as professional examinations, unglamorous but indispensable, remain incomplete.",
+      "audio_url": "audio/2026-09-09/clip-trade-fed-no-hike.mp3"
     },
     {
-      "id": "btc-pump-chase",
-      "category": "trading",
-      "topic_zh": "追入已升",
-      "topic_en": "Buying After The Pump",
-      "text_zh": "又係 BTC post。個個都係升咗15%先想追，又係廢物先會咁做。我反而跌緊先溝貨，不過溝完都係輸。考牌要錢，CFD 都唔俾我贏下，ok 真係好難。",
-      "text_en_b1": "Why buy BTC after the pump? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened? Anon is calling out retail for chasing strength instead of buying the quiet months when nobody cares. Classic late-FOMO behaviour that /biz/ complains about every cycle.",
-      "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ thread mocking retail for chasing BTC after the move",
-      "signal": {
-        "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Post-hoc rant about chasing, no concrete entry or target"
-      },
-      "text_en_b2": "BTC sits flat for weeks and nobody bats an eye, yet the moment it pumps 15%, retail suddenly scrambles to pile in. /biz/ anons are losing it over this pattern, calling out the irony of chasing strength rather than accumulating during the quiet months when nobody cares. It's textbook late-FOMO behaviour, the same mistake repeated every single cycle while the smart money quietly scales out.",
-      "text_en_c1": "It is genuinely baffling that retail only develops an appetite for BTC once it has already moved fifteen percent. Weeks of sideways consolidation attract precisely no buyers, yet the moment momentum arrives, the late-FOMO crowd piles in at the worst possible price. This is the pattern /biz/ lampoons every single cycle: strength is chased rather than accumulated in the quiet months when nobody is paying attention. Buying after the breakout guarantees participation in someone else's exit. If your strategy requires a 15% move to justify entry, you are not investing; you are reacting.",
-      "text_en_c2": "The perennial spectacle of retail capital chasing strength rather than accumulating during periods of indifference has once again materialised on /biz, and the prevailing exasperation is entirely warranted. Observers watched Bitcoin meander for weeks with scarcely a glance, only to witness a sudden 15% impulse rally galvanise the very demographic that had previously dismissed the asset as moribund. The irony, of course, is exquisite: those who declined to deploy capital when conviction was both affordable and contrarian are now scrambling to participate at the precise juncture when risk-reward asymmetry has palpably deteriorated. Such late-FOMO behaviour, a fixture of every cycle, betrays a fundamental misunderstanding of how generational wealth in volatile instruments is actually compounded. Patience, not velocity of entry, remains the indispensable variable.",
-      "audio_url": "audio/2026-09-09/clip-btc-pump-chase.mp3"
-    },
-    {
-      "id": "fed-not-hike",
+      "id": "tech-openai-math",
       "category": "tech/ai",
-      "topic_zh": "聯儲唔加息",
-      "topic_en": "Fed Not Hiking",
-      "text_zh": "Warsh Bessent 加 Powell 一齊做戲，講到天花龍鳳但其實乜都冇做。Trump 又話 Powell 太遲減息。如果真係減，TSLA 應該會郁下。Musk 個 X platform drama 都幾好笑，Nitter 又收皮，廢物。",
-      "text_en_b1": "The Federal Reserve is NOT going to hike. Be Warsh: guys we are really serious about inflation for real, we have a taskforce looking into it, then continue doing nothing. Be Bessent: to do, buy yen, double Yellen's buybacks, strongly imply you might dump a trillion on these buybacks.",
-      "source_url": "https://boards.4chan.org/biz/thread/62668712",
-      "source_hint": "/biz/ thread mocking the Fed cast for theatre instead of action",
+      "topic_zh": "OpenAI 數學突破",
+      "topic_en": "OpenAI Math Claim",
+      "text_zh": "OpenAI又話自己agent搞掂Navier-Stokes。我哋呢行survey靠AI續命，但真係驚畀佢搶埋白領。Anthropic即刻出嚟拆枱，膠膠噏lol。",
+      "text_en_b1": "A /g/ thread claims OpenAI has solved a Millennium Prize math problem, the Navier-Stokes equations. It says the paper will be published tomorrow. The post also says there is currently a major Anthropic-led shilling campaign online trying to discredit OpenAI before the paper drops.",
+      "source_url": "https://boards.4chan.org/g/thread/109759117",
+      "source_hint": "/g/ thread on OpenAI's claimed Navier-Stokes breakthrough",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,46 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Politics-Fed satire thread, no actionable trade"
+        "rationale": "Tech/AI news thread, no trade setup"
       },
-      "text_en_b2": "Nobody at the Fed is actually going to hike. Warsh puts on a serious face about inflation and taskforces while changing nothing. Bessent drops vague hints about buying yen and doubling Yellen's buybacks. Trump meanwhile slams Powell for not cutting rates sooner. The whole cast is essentially performing a scripted routine, and TSLA barely twitches because nobody believes a word of it.",
-      "text_en_c1": "The Federal Reserve is plainly not going to hike, and the entire cast appears to be engaged in an elaborate performance piece. Warsh delivers grave-sounding rhetoric about inflation taskforces whilst effectively doing nothing; Bessent mulls yen purchases and trebling Yellen's buybacks while vaguely implying he might unload a trillion onto them. Trump, meanwhile, lambasts Powell for cutting rates too late, as though a robust economy deserves cheaper money. It is monetary theatre all the way down, and whichever way TSLA eventually moves, the script was written long ago.",
-      "text_en_c2": "The current monetary theatre at the Federal Reserve has descended into a choreography of studied ambivalence, wherein each principal delivers carefully calibrated soundbites whilst substantive policy action remains conspicuously absent. Warsh, invoking the spectre of inflation with theatrical gravity, gestures toward a taskforce whose deliberations appear perpetually inconclusive. Bessent, ever the impresario of innuendo, alludes to yen acquisitions and the doubling of Yellen's buyback architecture, perhaps the merest hint of a trillion-dollar intervention. Trump, meanwhile, excoriates 'too-late Powell' for declining to ease into a booming economy. The aggregate effect is one of performance art rather than governance. TSLA may yet stir should genuine accommodation materialise, though Musk's concomitant X platform machinations — and Nitter's subsequent capitulation — provide comic relief rather than clarity.",
-      "audio_url": "audio/2026-09-09/clip-fed-not-hike.mp3"
+      "text_en_b2": "A /g/ thread is buzzing over claims that OpenAI has cracked a Millennium Prize problem, specifically the Navier-Stokes equations. According to the post, the formal paper is set to drop tomorrow, which, if legitimate, would mark a genuine breakthrough. Alongside the announcement, the OP alleges there is currently a sizeable Anthropic-led shilling campaign circulating online, apparently aimed at undermining OpenAI's credibility before the publication lands and the results can be independently verified.",
+      "text_en_c1": "A /g/ thread recently circulated the claim that OpenAI has effectively resolved the Navier-Stokes equations, one of the seven Millennium Prize problems in mathematics, with publication reportedly slated for the following day. While researchers in adjacent fields increasingly rely on AI tools to keep pace with the literature, there is a quiet, pervasive anxiety that white-collar analytical work itself may be next on the chopping block. Almost immediately, an Anthropic-coordinated campaign emerged across social platforms, attempting to discredit the announcement before the paper could even be peer-reviewed or scrutinized in earnest. The whole episode, frankly, reeks of competitive maneuvering dressed up as scientific skepticism.",
+      "text_en_c2": "A /g/ thread has detonated with the claim that OpenAI has resolved a Millennium Prize problem, the Navier-Stokes equations, whose smoothness in three dimensions has bedevilled analysts since 2000. The poster asserts a paper will surface imminently. What renders the spectacle more combustible is the assertion of a coordinated, Anthropic-orchestrated shilling campaign across social platforms, evidently designed to discredit the result preemptively, before publication permits any technical rebuttal. The poster, a researcher whose own survey work leans on large language models for its continuance, confesses to ambivalence: wonder at the achievement is shadowed by a more visceral anxiety, that the same architectures may soon render his own white-collar competencies redundant. The forum, characteristically, reduces these tremors to irreverent mockery.",
+      "audio_url": "audio/2026-09-09/clip-tech-openai-math.mp3"
     },
     {
-      "id": "nitter-c2",
-      "category": "tech/ai",
-      "topic_zh": "Nitter 復活",
-      "topic_en": "Nitter Back Online",
-      "text_zh": "Nitter 又上返，X Corp 寄 C&D 告人侵權，搞咗一輪最後都係有人起返 alternates。Musk 班友真係鍾意搞事 lol。AI 連 twitter frontend 都要搶，睇住佢哋點死。",
-      "text_en_b1": "Nitter is back online. X Corp saw the FOSS front-end letting people use X without ads or tracking and sent a cease and desist letter, claiming it violated the Texas Harmful Access by Computer Act and Lanham Act. They sent letters to individual instances and even unrelated sites like TwitterWebViewer. They all complied because nobody wants to be sued.",
-      "source_url": "https://boards.4chan.org/g/thread/109745896",
-      "source_hint": "/g/ thread celebrating Nitter returning despite X Corp legal threats",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Tech-drama thread, observation only"
-      },
-      "text_en_b2": "Nitter is back online after X Corp sent cease-and-desist letters to operators of the FOSS front-end, citing the Texas Harmful Access by Computer Act and Lanham Act violations. Every targeted instance complied, alongside unrelated sites caught in the crossfire, because nobody wants a lawsuit on their hands. Within days, though, a dozen alternates sprang right back up, proving the cat-and-mouse game is far from over.",
-      "text_en_c1": "Nitter has resurfaced once again, which should surprise absolutely nobody familiar with how FOSS communities operate. X Corp dispatched cease-and-desist correspondence citing the Texas Harmful Access by Computer Act and the Lanham Act, targeting not only Nitter's instances but unrelated mirrors such as TwitterWebViewer. Operators complied promptly, since litigation is rarely worth contesting over a frontend. Within hours, however, a fresh constellation of alternates materialised to fill the vacuum. Musk's team evidently fails to grasp that suppressing the symptom does nothing to extinguish the underlying demand. The cat-and-mouse choreography continues indefinitely.",
-      "text_en_c2": "Nitter, the venerable FOSS front-end that had long permitted users to access X sans advertising or the indignity of pervasive behavioural tracking, has resurfaced following an aggressive legal offensive from X Corp. The cease-and-desist correspondence, invoking both the Texas Harmful Access by Computer Act and the Lanham Act, was dispatched not merely to the canonical instances but to tangential operations such as TwitterWebViewer, the legal equivalent of carpet bombing. Compliance was, predictably, universal; the appetite for protracted litigation against a plaintiff of X Corp's resources is, among volunteer operators, vanishingly thin. Within hours, however, the hydra had regenerated: a dozen alternate instances materialised, each configured to circumvent the prevailing blocking infrastructure. The cat-and-mouse dynamic persists, and Musk's apparent determination to litigate his own user base into submission continues to furnish observers with grim amusement.",
-      "audio_url": "audio/2026-09-09/clip-nitter-c2.mp3"
-    },
-    {
-      "id": "ai-not-take-jobs",
+      "id": "hk-wtc-leases",
       "category": "hk/news",
-      "topic_zh": "AI唔會搶工",
-      "topic_en": "AI Won't Take Jobs",
-      "text_zh": "Anon 話 AI 搶工係吹水，理由係冇一個政府搞 UBI。我就覺得藍領先死，白 collar 仲可以撐下。不過 HK 而家咁嘅環境，survey 都難做，AI 真係嚟到 survey assistant 都唔使做。",
-      "text_en_b1": "Absolute hiroshima-sized truth nuke. If AI could really do what people say, every government in the world would be urgently discussing UBI right now. But they are not. Not one single government is doing one single thing about supposed job losses. This tells me AI will take less than 1 percent of jobs. I feel sorry for the plebs who fell for the marketing.",
-      "source_url": "https://boards.4chan.org/g/thread/109749718",
-      "source_hint": "/g/ thread arguing no government UBI means AI won't take jobs",
+      "topic_zh": "WTC 陰謀論",
+      "topic_en": "WTC Conspiracy",
+      "text_zh": "pol區又翻炒WTC lease果單嘢。Silverstein 14M落注，3.2B lease。睇完我覺得香港地產lease都係一樣玩法，細佬唔好信財技。",
+      "text_en_b1": "A /pol/ thread brings up old WTC conspiracy material. It says the World Trade Center was leased from the City of New York for 3.2 billion just weeks before the 9/11 attack. It claims Larry Silverstein only had 14 million of his own money in the deal, with the rest coming from a consortium, like Twitter being acquired for 44 billion was not entirely Musk…",
+      "source_url": "https://boards.4chan.org/pol/thread/542262842",
+      "source_hint": "/pol/ thread reviving WTC lease conspiracy",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "AI-opinion thread, no trade"
+        "rationale": "Conspiracy recap, no trade setup"
       },
-      "text_en_b2": "The argument cuts through the noise: if AI genuinely threatened mass unemployment, every government on the planet would be scrambling to roll out UBI. Instead, not a single one is lifting a finger, which suggests the hysteria is wildly overblown. Blue-collar work will suffer first, while white-collar roles hold up longer. The marketing has worked, but the reality hasn't caught up yet.",
-      "text_en_c1": "If AI genuinely threatened mass displacement on the scale currently being marketed, every competent government would already be legislating universal basic income with extraordinary urgency. None are. Not a single jurisdiction has enacted meaningful preparatory legislation, which rather undermines the apocalyptic narrative propagated by tech evangelists. Personally, I suspect blue-collar roles will bear the brunt of automation first, whilst white-collar work retains a protective buffer for some time yet. Those who genuinely fell for the hype deserve sympathy more than scorn. The doomsday forecasts, quite frankly, remain substantially overcooked.",
-      "text_en_c2": "The argument advanced by this /biz/ interlocutor possesses a certain crystalline logic that merits serious engagement rather than reflexive dismissal. Were artificial intelligence genuinely poised to displace labour at the scale its evangelists routinely proclaim, one would expect a commensurate governmental response, a concerted policy apparatus grappling with the dislocations such a transition would entail. Universal basic income, regulatory frameworks for algorithmic displacement, retraining initiatives at civilisational scale. Yet, the poster observes, not a single sovereign entity has undertaken any meaningful preparatory action. The inference drawn is provocatively stark: that the anticipated displacement will, in reality, prove statistically negligible. The poster's sympathies reside, perhaps counter-intuitively, with white-collar workers, whose analytical functions remain less susceptible to automation than manual occupations, though in HK's present circumstances even the survey assistants find themselves precariously positioned.",
-      "audio_url": "audio/2026-09-09/clip-ai-not-take-jobs.mp3"
+      "text_en_b2": "A /pol/ thread drags up the perennial World Trade Center conspiracy argument yet again. It points out that the entire complex was leased from the City of New York for a staggering 3.2 billion just weeks before the September 11 attacks unfolded. The post further claims that Larry Silverstein had only 14 million of his own capital tied up in the deal, with the remainder financed by a consortium of backers, drawing a parallel to how Twitter's 44 billion acquisition was never purely Musk money…",
+      "text_en_c1": "A /pol/ thread has once again exhumed the long-dormant World Trade Center lease conspiracy, dusting off material that resurfaces with metronomic regularity. The core allegation is straightforward: the Twin Towers were leased from the City of New York for 3.2 billion dollars mere weeks before the September eleventh attacks. Critics further note that Larry Silverstein's personal exposure amounted to a mere fourteen million, with the balance syndicated through a consortium of investors—an arrangement they liken to Musk's Twitter acquisition, where headline figures obscured the underlying capital structure.",
+      "text_en_c2": "A /pol/ thread exhumes the venerable World Trade Center lease conspiracy, that hardy perennial of online suspicion. The arrangement, the poster notes, was struck mere weeks before the September attacks: a 3.2 billion dollar lease with the City of New York, of which Larry Silverstein contributed a scant 14 million from his own coffers, the remainder syndicated through a consortium whose structure parallels, in his telling, the 44 billion Twitter acquisition, where Musk's personal exposure proved considerably less than headlines suggested. The thread, having mined this American precedent, extends the argument to Hong Kong's commercial property sector, where leases, the poster contends, operate by analogous financial engineering, and where smaller stakeholders would do well to discount the elegance of the paperwork before signing.",
+      "audio_url": "audio/2026-09-09/clip-hk-wtc-leases.mp3"
     },
     {
-      "id": "v-developer-suspicious",
+      "id": "lol-kh4-leak",
       "category": "lol/esports",
-      "topic_zh": "開發商消失",
-      "topic_en": "No Developer Listed",
-      "text_zh": "Nintendo 個 trailer 連開發商都冇列出嚟，邊個做㗎？LOL S15 都冇咁神秘 lol，話晒冠軍邊隊打都寫晒喺度。考牌溫書溫到腦細晒，要放鬆下。",
-      "text_en_b1": "Does NO ONE find it suspicious that the developer is not listed anywhere in the trailer, website, or promotional materials? Who did Nintendo outsource this to? Anon is asking who is actually making this game when the credits page is empty. Trust and brand recognition go a long way, and Nintendo usually puts its name on everything. This time, the silence is suspicious.",
-      "source_url": "https://boards.4chan.org/v/thread/747187009",
-      "source_hint": "/v/ thread asking why Nintendo hid the developer for this game",
+      "topic_zh": "KH4 成就外洩",
+      "topic_en": "KH4 Achievement Leak",
+      "text_zh": "SteamDB見到KH4成就外洩，Star Wars、Haunted Mansion、Zootopia都有。唔關LOL事但都係遊戲區嘢lol。S15今晚記住開戰。",
+      "text_en_b1": "A /v/ thread links a SteamDB leak for Kingdom Hearts 4 achievements. The list points at new worlds: Star Wars, Haunted Mansion, Hundred Acre Wood, Zootopia, and Imagineer Planet. Two hidden achievements read Dark Avenger / 魔神ハンター and The Last Name / その名はカラ. Worlds roster looks mostly confirmed.",
+      "source_url": "https://boards.4chan.org/v/thread/747195757",
+      "source_hint": "/v/ thread on KH4 achievements spotted on SteamDB",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming speculation thread, no trade"
+        "rationale": "Gaming leak thread, not a trade"
       },
-      "text_en_b2": "Is nobody remotely suspicious that Nintendo's latest trailer, website, and promotional materials fail to credit a single developer? Who on earth did they outsource this to? Normally the brand stamps its name on everything, since trust and recognition are half the battle. The complete absence of credits this time round speaks volumes, leaving the entire /v/ thread speculating about what is actually going on behind closed doors.",
-      "text_en_c1": "Is anyone else remotely troubled that Nintendo has omitted the developer from its trailer, official website, and every other piece of promotional collateral? A studio whose brand equity rests on careful curation does not normally withhold such elementary information. Speculation on /v/ has accordingly run rampant, with users dissecting every frame for clues as to which outsourced partner might have been entrusted with the project. When a credits page reads blank, anons understandably begin questioning the chain of accountability.",
-      "text_en_c2": "The conspicuous absence of any credited studio from Nintendo's promotional apparatus has occasioned considerable speculation on /v/, and the unease is wholly justified. Trailer, official website, accompanying press materials — each surface yields the same deliberate void where a developer's imprimatur would ordinarily reside. The question of provenance, which Nintendo has historically treated as sacrosanct, has instead been answered with strategic silence, a gambit that sits uneasily with a corporation whose brand equity derives substantially from the prestige of its internal development apparatus. Anons have, with some justification, drawn unflattering comparisons to productions whose credits were similarly opaque, though few franchises command Nintendo's reservoir of accumulated goodwill. Whether this reticence reflects an outsourcing arrangement, a reveal deferred, or something more substantive, the withholding itself constitutes a signal that demands interpretation.",
-      "audio_url": "audio/2026-09-09/clip-v-developer-suspicious.mp3"
+      "text_en_b2": "A /v/ thread surfaces a SteamDB leak purporting to reveal the achievement list for Kingdom Hearts 4, and the roster looks remarkably comprehensive. The data points toward several unannounced worlds, including Star Wars, Haunted Mansion, Hundred Acre Wood, Zootopia, and the newly revealed Imagineer Planet. Two hidden achievements have also surfaced, reading Dark Avenger and The Last Name. Taken together, the leak effectively confirms the worlds lineup ahead of any official reveal from Square Enix.",
+      "text_en_c1": "A /v/ thread highlighted a freshly leaked SteamDB entry revealing the achievement list for Kingdom Hearts IV, which appears to confirm an expansive roster of new worlds. Among the recognizable IPs surfaced are Star Wars, Haunted Mansion, Hundred Acre Wood, Zootopia, and an intriguing location referred to as Imagineer Planet. Two concealed achievements, rendered as Dark Avenger and The Last Name alongside their Japanese equivalents, hint at narrative threads the developers evidently wish to withhold until launch. While the leak pertains to console gaming rather than League of Legends, the thread naturally segued into broader gaming discussion, with users reminding one another that Season Fifteen commences that evening.",
+      "text_en_c2": "A /v/ thread has surfaced a SteamDB leak purporting to enumerate the achievement list for Kingdom Hearts 4, and the implications are substantial. New worlds are catalogued with disquieting specificity: Star Wars, the Haunted Mansion, the Hundred Acre Wood, and Zootopia, alongside an Imagineer Planet that gestures toward meta-commentary on the franchise's own construction. Two hidden achievements, rendered as Dark Avenger, or 魔神ハンター, and The Last Name, or その名はカラ, hint at narrative beats more sombre than the title's prevailing whimsy might suggest. The roster, the consensus holds, is effectively confirmed, even if Square Enix has yet to issue corroboration. Elsewhere on the board, posters pivot to League of Legends, where Season 15 commences tonight.",
+      "audio_url": "audio/2026-09-09/clip-lol-kh4-leak.mp3"
     },
     {
-      "id": "ohp-1pl8",
+      "id": "mma-dl-record",
       "category": "mma/fitness",
-      "topic_zh": "1pl8 OHP",
-      "topic_en": "OHP 1pl8 Goal",
-      "text_zh": "OHP 1pl8 bench 2pl8 squat 3pl8 DL 4pl8，仲差少少先夠。肥仔信今日又叫人去 gym，我都要 keep住 train，唔好畀 AI 搶咗個 body 都唔知。1pl8 OHP reps 一兩個月內應該得。",
-      "text_en_b1": "I'm closer to a 1-plate OHP than I am to a 2-plate bench, 3-plate squat, or 4-plate deadlift. I think I will have a 1-plate OHP for reps in a month or two. Numbers are: 1 plate OHP, 2 plate bench, 3 plate squat, 4 plate deadlift. Anon is grinding the overhead press while the other big lifts are still catching up.",
-      "source_url": "https://boards.4chan.org/fit/thread/77491789",
-      "source_hint": "/fit/ thread sharing lifting PR progress, close to 1-plate OHP",
+      "topic_zh": "DL 世界紀錄",
+      "topic_en": "Deadlift Record",
+      "text_zh": "肥仔信傳嘅：Thors deadlift紀錄畀個messican破咗。睇完條片我都想試返下我個DL，雖然離4pl8好遠。Gym circle講到笑，考牌都未完。",
+      "text_en_b1": "A /fit/ thread says a new deadlift world record has been broken. The poster, a Nordic lifter, admits he is not feeling great about it. A big Mexican lifter has beaten Hafthor Bjornsson's deadlift mark. A YouTube link to the lift is included. The thread is full of strongmen arguing about straps and judges.",
+      "source_url": "https://boards.4chan.org/fit/thread/77500417",
+      "source_hint": "/fit/ thread on a new deadlift world record",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness progress thread, no trade"
+        "rationale": "Strongman record news, not a trade"
       },
-      "text_en_b2": "Curiously enough, a 1-plate OHP sits within closer reach than a 2-plate bench, 3-plate squat, or 4-plate deadlift. The overhead press has quietly become the strongest lift in the rotation while the others play catch-up. A clean set of reps should land within a month or two, provided training stays consistent. Meanwhile, the AI job-loss panic makes keeping the gains even more urgent.",
-      "text_en_c1": "Of my four major lifts, the overhead press is indisputably the closest to its milestone, whereas the bench, squat and deadlift remain stubbornly distant at two-, three-, and four-plate targets respectively. Realistically, I expect to be repping a single plate overhead within a month or two, provided training intensity holds steady. The bench, squat and deadlift are steadily catching up, but progression there feels markedly slower. Meanwhile, one keeps hearing that AI will soon render physical strength obsolete, which seems an excellent reason not to neglect the gym entirely.",
-      "text_en_c2": "In the iron theatre of progressive overload, one's proximity to milestones frequently inverts conventional expectations: this particular aspirant finds himself demonstrably closer to a one-plate overhead press than to a two-plate bench, a three-plate squat, or, most damningly, a four-plate deadlift. The disparity speaks to the idiosyncratic biomechanics of the standing press, where stabiliser engagement and thoracic mobility conspire to render even modest loads formidable. His projection, calibrated and unremarkable, anticipates repping a one-plate OHP within a one-to-two-month horizon, a target that privileges endurance over maximal expression. The ancillary lifts, whilst presently lagging, are presumably destined to converge through accumulated volume. Whether this particular trajectory constitutes triumph or merely the slow amelioration of inadequacy is, of course, a matter of framing. The implicit injunction to maintain consistency remains, regardless, unimpeachable.",
-      "audio_url": "audio/2026-09-09/clip-ohp-1pl8.mp3"
+      "text_en_b2": "A /fit/ thread reports that the all-time deadlift world record has officially fallen, and the news has the entire strongman community up in arms. A notably large Mexican lifter has managed to eclipse the legendary mark previously set by Hafthor Bjornsson, with a YouTube link to the lift already circulating. The original poster, a Nordic lifter himself, admits he is not exactly thrilled about losing the national bragging rights. Predictably, the comments have descended into heated arguments over strap usage and judging standards.",
+      "text_en_c1": "A /fit/ thread circulated news that Hafthor Bjornsson's longstanding deadlift record had finally been surpassed, this time by a notably stout Mexican competitor whose name has since dominated strongman forums. The original poster, a Nordic lifter himself, conceded somewhat sheepishly that the achievement left him feeling rather inadequate, particularly given that his own pulls remain a distant cry from the four-plate barrier. A YouTube link documenting the lift was dutifully shared, prompting the inevitable digression into debates over strap usage, judging standards, and equipment calibration. Such arguments, while tiresome, remain the lifeblood of any serious strength community, even when one's own training credentials leave much to be desired.",
+      "text_en_c2": "A /fit/ thread announces that a Mexican strongman has eclipsed the deadlift record previously held by Hafthor Bjornsson, that monumental benchmark of barbell mythology. The original poster, a Nordic lifter, confesses to a complicated reaction: admiration alloyed with the competitive melancholy familiar to anyone who has spent years chasing a number now rendered obsolete. A YouTube link to the lift circulates with predictable haste. The comments devolve, as strongman threads invariably do, into procedural disputes over equipment: whether straps confer advantage or merely mitigate grip failure, whether the judges' adjudication conformed to federated standards. The poster, mid-examination preparation, resolves to revisit his own deadlift, however distant the four-plate milestone remains from his current working weight.",
+      "audio_url": "audio/2026-09-09/clip-mma-dl-record.mp3"
     },
     {
-      "id": "anime-busts",
+      "id": "anime-wsm-41",
       "category": "anime/culture",
-      "topic_zh": "動漫巨乳",
-      "topic_en": "Anime Bust Size",
-      "text_zh": "啲 anime 角色個胸做到幾大先叫過火？睇完 Demon Slayer 同 Gundam 00 都仲係覺得而家啲新番太誇張。bust 大到呢個 size 真係 out of proportion lol。",
-      "text_en_b1": "When it comes to anime and manga busts, how big is too big? Anon is asking the board to draw the line on ridiculous proportions. The thread is full of examples that go way past realistic anatomy. Some anons think fanservice has totally lost the plot. Others argue stylisation is fine as long as it stays consistent with the character design.",
-      "source_url": "https://boards.4chan.org/a/thread/290721854",
-      "source_hint": "/a/ thread debating when anime bust size goes too far",
+      "topic_zh": "少年雜誌第41期",
+      "topic_en": "Weekly Shonen 41",
+      "text_zh": "WSM第41期色頁有Yowayowa，新連載叫Onryou Biyori。睇完我都想畫返兩筆，但考牌溫書都未搞掂。放工再算。",
+      "text_en_b1": "A /a/ thread lists contents from Weekly Shonen Magazine issue 41, 2026. The color pages feature Yowayowa. A new manga called Onryou Biyori is also announced in the issue. The poster shares scans and a brief comment on the new series' tone.",
+      "source_url": "https://boards.4chan.org/a/thread/290794985",
+      "source_hint": "/a/ thread listing WSM issue 41 contents",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -188,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime art discussion, no trade"
+        "rationale": "Anime magazine roundup, not a trade"
       },
-      "text_en_b2": "At what point do anime bust sizes cross from stylised into outright absurd? Anon is asking /a/ to draw the line after bingeing Demon Slayer and Gundam 00, only to find newer shows pushing proportions well past anything resembling anatomy. Some anons insist fanservice has completely lost the plot, whereas others argue that exaggerated designs work fine when they stay consistent with the character.",
-      "text_en_c1": "At what precise point do anime and manga bust sizes cross from stylised flourish into anatomical absurdity? The board's latest thread wrestles with that question, though consensus remains elusive. Returning to Demon Slayer or Gundam 00 makes contemporary offerings appear almost grotesque by comparison; the proportions encountered in recent seasonal productions frequently defy any plausible gravitational logic. Some anons argue that fanservice has thoroughly overreached itself, whilst others counter that exaggerated silhouettes remain legitimate provided they remain internally consistent with each character's established design language.",
-      "text_en_c2": "The aesthetic frontier where anatomical stylisation transmutes into outright absurdity has, predictably, occasioned renewed deliberation on /a/, with participants invited to delineate the precise threshold beyond which fanservice ceases to be defensible. Recent productions, when measured against the comparatively restrained exemplars of Demon Slayer and Gundam 00, appear to have transgressed whatever consensus boundary once existed. The contention, distilled, is whether exaggerated proportions constitute legitimate character design or a regression into crude titillation. Some contributors, adopting the formalist position, argue that internal stylistic consistency renders any proportion permissible so long as the artist commits to the conceit; others maintain that such representations betray a fundamental disengagement from the medium's narrative obligations. The discourse, inevitably, collapses into the familiar impasse between puritanical objection and permissive indulgence.",
-      "audio_url": "audio/2026-09-09/clip-anime-busts.mp3"
+      "text_en_b2": "A /a/ thread catalogues the contents of Weekly Shonen Magazine issue 41 for 2026, and there is genuinely something for everyone this week. The color pages go to Yowayowa, while a brand-new series titled Onryou Biyori gets formally announced alongside it. The original poster has helpfully shared scans and offered a brief verdict on the new manga's overall tone. Initial reactions across the thread suggest the series is already generating a fair amount of curiosity among readers.",
+      "text_en_c1": "A /a/ thread catalogued the contents of Weekly Shonen Magazine issue forty-one for 2026, drawing particular attention to the color spread featuring Yowayowa, whose serialized chapters have steadily cultivated a devoted readership. The issue also formally announces a new series titled Onryou Biyori, whose premise—ostensibly blending supernatural elements with slice-of-life sensibilities—has already divided the fanbase into enthusiasts and skeptics. The poster, evidently pressed for time, shared accompanying scans alongside a measured comment on the title's tonal leanings, while lamenting that personal commitments had prevented any meaningful engagement with the material. Reading and replicating the work will, regrettably, have to wait until after the certification exam concludes.",
+      "text_en_c2": "A /a/ thread catalogues the contents of Weekly Shonen Magazine's 2026 issue 41 with the assiduousness the board reserves for matters of genuine consequence. The colour pages feature Yowayowa, while a new serialisation, Onryou Biyori, is announced, its title evoking the vengeful spirits of folklore, and its tonal register, the poster ventures, promises something more melancholic than the magazine's prevailing register might prepare the reader for. Scans are shared, brief commentary appended. The poster then confesses a parallel aspiration to return to drawing himself, an ambition promptly deferred beneath the weight of professional examination preparation, which remains, as ever, incomplete. The thread closes with the familiar injunction: after work, perhaps; tonight, certainly not.",
+      "audio_url": "audio/2026-09-09/clip-anime-wsm-41.mp3"
     }
   ]
 }

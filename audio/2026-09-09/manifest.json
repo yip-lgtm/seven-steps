@@ -4,76 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "xrp-btc-doge-hold",
-      "topic_en": "Hold Through Five Years",
-      "topic_zh": "持貨五年",
+      "id": "trade-btc-vs-gold",
+      "topic_en": "BTC vs Gold Decade",
+      "topic_zh": "BTC vs 黃金十年",
       "category": "trading",
-      "file": "clip-xrp-btc-doge-hold.mp3",
-      "bytes": 304116,
-      "chars": 307
+      "file": "clip-trade-btc-vs-gold.mp3",
+      "bytes": 361140,
+      "chars": 292
     },
     {
-      "id": "btc-pump-chase",
-      "topic_en": "Buying After The Pump",
-      "topic_zh": "追入已升",
+      "id": "trade-fed-no-hike",
+      "topic_en": "Fed Won't Hike",
+      "topic_zh": "聯儲局唔加息",
       "category": "trading",
-      "file": "clip-btc-pump-chase.mp3",
-      "bytes": 382452,
-      "chars": 371
+      "file": "clip-trade-fed-no-hike.mp3",
+      "bytes": 353652,
+      "chars": 362
     },
     {
-      "id": "fed-not-hike",
-      "topic_en": "Fed Not Hiking",
-      "topic_zh": "聯儲唔加息",
+      "id": "tech-openai-math",
+      "topic_en": "OpenAI Math Claim",
+      "topic_zh": "OpenAI 數學突破",
       "category": "tech/ai",
-      "file": "clip-fed-not-hike.mp3",
-      "bytes": 298932,
-      "chars": 284
+      "file": "clip-tech-openai-math.mp3",
+      "bytes": 307572,
+      "chars": 281
     },
     {
-      "id": "nitter-c2",
-      "topic_en": "Nitter Back Online",
-      "topic_zh": "Nitter 復活",
-      "category": "tech/ai",
-      "file": "clip-nitter-c2.mp3",
-      "bytes": 364596,
-      "chars": 352
-    },
-    {
-      "id": "ai-not-take-jobs",
-      "topic_en": "AI Won't Take Jobs",
-      "topic_zh": "AI唔會搶工",
+      "id": "hk-wtc-leases",
+      "topic_en": "WTC Conspiracy",
+      "topic_zh": "WTC 陰謀論",
       "category": "hk/news",
-      "file": "clip-ai-not-take-jobs.mp3",
-      "bytes": 359988,
-      "chars": 357
+      "file": "clip-hk-wtc-leases.mp3",
+      "bytes": 384180,
+      "chars": 356
     },
     {
-      "id": "v-developer-suspicious",
-      "topic_en": "No Developer Listed",
-      "topic_zh": "開發商消失",
+      "id": "lol-kh4-leak",
+      "topic_en": "KH4 Achievement Leak",
+      "topic_zh": "KH4 成就外洩",
       "category": "lol/esports",
-      "file": "clip-v-developer-suspicious.mp3",
-      "bytes": 373236,
-      "chars": 370
+      "file": "clip-lol-kh4-leak.mp3",
+      "bytes": 359988,
+      "chars": 295
     },
     {
-      "id": "ohp-1pl8",
-      "topic_en": "OHP 1pl8 Goal",
-      "topic_zh": "1pl8 OHP",
+      "id": "mma-dl-record",
+      "topic_en": "Deadlift Record",
+      "topic_zh": "DL 世界紀錄",
       "category": "mma/fitness",
-      "file": "clip-ohp-1pl8.mp3",
-      "bytes": 402036,
-      "chars": 314
+      "file": "clip-mma-dl-record.mp3",
+      "bytes": 292596,
+      "chars": 306
     },
     {
-      "id": "anime-busts",
-      "topic_en": "Anime Bust Size",
-      "topic_zh": "動漫巨乳",
+      "id": "anime-wsm-41",
+      "topic_en": "Weekly Shonen 41",
+      "topic_zh": "少年雜誌第41期",
       "category": "anime/culture",
-      "file": "clip-anime-busts.mp3",
-      "bytes": 341556,
-      "chars": 341
+      "file": "clip-anime-wsm-41.mp3",
+      "bytes": 313332,
+      "chars": 239
     }
   ]
 }
