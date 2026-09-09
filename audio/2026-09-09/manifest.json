@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-xrp-btc-doge",
-      "topic_en": "Hold Through Pain",
-      "topic_zh": "持幣信仰",
+      "id": "clip-01-btc-pump",
+      "topic_en": "BTC pump hindsight",
+      "topic_zh": "BTC遲早爆",
       "category": "trading",
-      "file": "clip-trade-xrp-btc-doge.mp3",
-      "bytes": 244788,
-      "chars": 245
+      "file": "clip-clip-01-btc-pump.mp3",
+      "bytes": 248820,
+      "chars": 243
     },
     {
-      "id": "fed-no-hike",
-      "topic_en": "Fed Will Not Hike",
-      "topic_zh": "聯儲局唔加息",
+      "id": "clip-02-tesla-nitter",
+      "topic_en": "Tesla X drama",
+      "topic_zh": "TSLA X戰場",
       "category": "trading",
-      "file": "clip-fed-no-hike.mp3",
-      "bytes": 270708,
+      "file": "clip-clip-02-tesla-nitter.mp3",
+      "bytes": 329460,
+      "chars": 330
+    },
+    {
+      "id": "clip-03-japan-doomed",
+      "topic_en": "Japan tech decline",
+      "topic_zh": "日本玩完",
+      "category": "hk/news",
+      "file": "clip-clip-03-japan-doomed.mp3",
+      "bytes": 331188,
+      "chars": 323
+    },
+    {
+      "id": "clip-04-openai-math",
+      "topic_en": "OpenAI math theft",
+      "topic_zh": "OpenAI數學賊",
+      "category": "tech/ai",
+      "file": "clip-clip-04-openai-math.mp3",
+      "bytes": 292596,
+      "chars": 297
+    },
+    {
+      "id": "clip-05-bust-size",
+      "topic_en": "Anime bust debate",
+      "topic_zh": "動漫胸圍",
+      "category": "anime/culture",
+      "file": "clip-clip-05-bust-size.mp3",
+      "bytes": 291444,
       "chars": 267
     },
     {
-      "id": "ai-job-losses",
-      "topic_en": "AI Will Not Take Jobs",
-      "topic_zh": "AI會搶飯碗？",
-      "category": "tech/ai",
-      "file": "clip-ai-job-losses.mp3",
-      "bytes": 297204,
-      "chars": 300
-    },
-    {
-      "id": "china-yuan-oil",
-      "topic_en": "China Yuan Oil Peg",
-      "topic_zh": "人民幣掛鈎原油",
-      "category": "hk/news",
-      "file": "clip-china-yuan-oil.mp3",
-      "bytes": 254004,
-      "chars": 251
-    },
-    {
-      "id": "nintendo-outsource",
-      "topic_en": "Nintendo Outsourced Dev",
-      "topic_zh": "Nintendo外判",
-      "category": "lol/esports",
-      "file": "clip-nintendo-outsource.mp3",
-      "bytes": 266100,
-      "chars": 263
-    },
-    {
-      "id": "ohp-progress",
-      "topic_en": "OHP Closing In",
-      "topic_zh": "OHP衝1pl8",
+      "id": "clip-06-squat-meme",
+      "topic_en": "Are squats a meme",
+      "topic_zh": "Squat係咪meme",
       "category": "mma/fitness",
-      "file": "clip-ohp-progress.mp3",
-      "bytes": 268980,
-      "chars": 237
+      "file": "clip-clip-06-squat-meme.mp3",
+      "bytes": 282228,
+      "chars": 259
     },
     {
-      "id": "wsm-issue-41",
-      "topic_en": "Weekly Shonen Magazine",
-      "topic_zh": "週刊少年Magazine",
-      "category": "anime/culture",
-      "file": "clip-wsm-issue-41.mp3",
-      "bytes": 283956,
-      "chars": 202
+      "id": "clip-07-kingdom-hearts",
+      "topic_en": "KH4 world leak",
+      "topic_zh": "KH4新世界",
+      "category": "lol/esports",
+      "file": "clip-clip-07-kingdom-hearts.mp3",
+      "bytes": 298932,
+      "chars": 282
     }
   ]
 }
