@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-btc-vs-gold",
-      "topic_en": "BTC vs Gold Decade",
-      "topic_zh": "BTC vs 黃金十年",
+      "id": "trade-xrp-btc-doge",
+      "topic_en": "Hold Through Pain",
+      "topic_zh": "持幣信仰",
       "category": "trading",
-      "file": "clip-trade-btc-vs-gold.mp3",
-      "bytes": 361140,
-      "chars": 292
+      "file": "clip-trade-xrp-btc-doge.mp3",
+      "bytes": 244788,
+      "chars": 245
     },
     {
-      "id": "trade-fed-no-hike",
-      "topic_en": "Fed Won't Hike",
+      "id": "fed-no-hike",
+      "topic_en": "Fed Will Not Hike",
       "topic_zh": "聯儲局唔加息",
       "category": "trading",
-      "file": "clip-trade-fed-no-hike.mp3",
-      "bytes": 353652,
-      "chars": 362
+      "file": "clip-fed-no-hike.mp3",
+      "bytes": 270708,
+      "chars": 267
     },
     {
-      "id": "tech-openai-math",
-      "topic_en": "OpenAI Math Claim",
-      "topic_zh": "OpenAI 數學突破",
+      "id": "ai-job-losses",
+      "topic_en": "AI Will Not Take Jobs",
+      "topic_zh": "AI會搶飯碗？",
       "category": "tech/ai",
-      "file": "clip-tech-openai-math.mp3",
-      "bytes": 307572,
-      "chars": 281
+      "file": "clip-ai-job-losses.mp3",
+      "bytes": 297204,
+      "chars": 300
     },
     {
-      "id": "hk-wtc-leases",
-      "topic_en": "WTC Conspiracy",
-      "topic_zh": "WTC 陰謀論",
+      "id": "china-yuan-oil",
+      "topic_en": "China Yuan Oil Peg",
+      "topic_zh": "人民幣掛鈎原油",
       "category": "hk/news",
-      "file": "clip-hk-wtc-leases.mp3",
-      "bytes": 384180,
-      "chars": 356
+      "file": "clip-china-yuan-oil.mp3",
+      "bytes": 254004,
+      "chars": 251
     },
     {
-      "id": "lol-kh4-leak",
-      "topic_en": "KH4 Achievement Leak",
-      "topic_zh": "KH4 成就外洩",
+      "id": "nintendo-outsource",
+      "topic_en": "Nintendo Outsourced Dev",
+      "topic_zh": "Nintendo外判",
       "category": "lol/esports",
-      "file": "clip-lol-kh4-leak.mp3",
-      "bytes": 359988,
-      "chars": 295
+      "file": "clip-nintendo-outsource.mp3",
+      "bytes": 266100,
+      "chars": 263
     },
     {
-      "id": "mma-dl-record",
-      "topic_en": "Deadlift Record",
-      "topic_zh": "DL 世界紀錄",
+      "id": "ohp-progress",
+      "topic_en": "OHP Closing In",
+      "topic_zh": "OHP衝1pl8",
       "category": "mma/fitness",
-      "file": "clip-mma-dl-record.mp3",
-      "bytes": 292596,
-      "chars": 306
+      "file": "clip-ohp-progress.mp3",
+      "bytes": 268980,
+      "chars": 237
     },
     {
-      "id": "anime-wsm-41",
-      "topic_en": "Weekly Shonen 41",
-      "topic_zh": "少年雜誌第41期",
+      "id": "wsm-issue-41",
+      "topic_en": "Weekly Shonen Magazine",
+      "topic_zh": "週刊少年Magazine",
       "category": "anime/culture",
-      "file": "clip-anime-wsm-41.mp3",
-      "bytes": 313332,
-      "chars": 239
+      "file": "clip-wsm-issue-41.mp3",
+      "bytes": 283956,
+      "chars": 202
     }
   ]
 }
