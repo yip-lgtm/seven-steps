@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "tsla-double",
-      "topic_en": "Tesla double",
-      "topic_zh": "TSLA 翻倍",
+      "id": "clip-1-trading-macro",
+      "topic_en": "Fed Powell Drama",
+      "topic_zh": "鮑爾與聯儲局",
       "category": "trading",
-      "file": "clip-tsla-double.mp3",
-      "bytes": 258036,
-      "chars": 268
+      "file": "clip-clip-1-trading-macro.mp3",
+      "bytes": 360564,
+      "chars": 372
     },
     {
-      "id": "btc-vs-gold",
+      "id": "clip-2-trading-musk",
       "topic_en": "BTC vs Gold",
       "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-btc-vs-gold.mp3",
-      "bytes": 245940,
-      "chars": 234
+      "file": "clip-clip-2-trading-musk.mp3",
+      "bytes": 295476,
+      "chars": 273
     },
     {
-      "id": "openai-math-heist",
-      "topic_en": "OpenAI math heist",
-      "topic_zh": "OpenAI 抄數學",
+      "id": "clip-3-tech-ai",
+      "topic_en": "AI Math Theft",
+      "topic_zh": "AI 識做數學",
       "category": "tech/ai",
-      "file": "clip-openai-math-heist.mp3",
-      "bytes": 291444,
-      "chars": 281
+      "file": "clip-clip-3-tech-ai.mp3",
+      "bytes": 296628,
+      "chars": 294
     },
     {
-      "id": "pol-shitpost",
-      "topic_en": "Pol shitpost",
-      "topic_zh": "國際膠文",
+      "id": "clip-4-hk-news",
+      "topic_en": "Media Insider",
+      "topic_zh": "外媒換血",
       "category": "hk/news",
-      "file": "clip-pol-shitpost.mp3",
-      "bytes": 260916,
-      "chars": 267
+      "file": "clip-clip-4-hk-news.mp3",
+      "bytes": 270132,
+      "chars": 284
     },
     {
-      "id": "lol-persona6",
-      "topic_en": "Persona 6 leak",
-      "topic_zh": "Persona 6 漏",
+      "id": "clip-5-lol-esports",
+      "topic_en": "Nintendo Mystery Dev",
+      "topic_zh": "任天堂神秘新作",
       "category": "lol/esports",
-      "file": "clip-lol-persona6.mp3",
-      "bytes": 230388,
-      "chars": 254
+      "file": "clip-clip-5-lol-esports.mp3",
+      "bytes": 250548,
+      "chars": 248
     },
     {
-      "id": "fit-ciaco",
-      "topic_en": "CICO is cope",
-      "topic_zh": "CICO 係膠",
+      "id": "clip-6-mma-fitness",
+      "topic_en": "Squats Are a Meme",
+      "topic_zh": "深蹲係咪必要",
       "category": "mma/fitness",
-      "file": "clip-fit-ciaco.mp3",
-      "bytes": 246516,
-      "chars": 264
+      "file": "clip-clip-6-mma-fitness.mp3",
+      "bytes": 311028,
+      "chars": 298
     },
     {
-      "id": "bleach-fist",
-      "topic_en": "Bleach new series",
-      "topic_zh": "BLEACH 新作",
+      "id": "clip-7-anime-culture",
+      "topic_en": "Weekly Shonen",
+      "topic_zh": "少年マガジン",
       "category": "anime/culture",
-      "file": "clip-bleach-fist.mp3",
-      "bytes": 321972,
-      "chars": 271
+      "file": "clip-clip-7-anime-culture.mp3",
+      "bytes": 256884,
+      "chars": 234
     }
   ]
 }

@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "tsla-double",
+      "id": "clip-1-trading-macro",
       "category": "trading",
-      "topic_zh": "TSLA 翻倍",
-      "topic_en": "Tesla double",
-      "text_zh": "/biz/ 又有廢柴問依家入 TSLA 好唔好。講到 CyberCab、SpaceX 合併、Optimus⋯⋯屌，我已經輸緊 CFD，仲睇到呢啲 post 真係想喊 🙏",
-      "text_en_b1": "Is it a good time to buy Tesla? Some anons on /biz/ think it will at least double from here. The reasons they give are CyberCabs rolling out, the SpaceX merger rumor, and Optimus progress. Nobody on the thread actually has a price target, but the vibe is very bullish.",
-      "source_url": "https://boards.4chan.org/biz/thread/62667801",
-      "source_hint": "/biz/ TSLA double thread",
+      "topic_zh": "鮑爾與聯儲局",
+      "topic_en": "Fed Powell Drama",
+      "text_zh": "聯儲局唔會加息。Warsh 出嚟話認真對付通脹，但實際做乜都冇。Bessent 買緊 yen，跟住暗示會拋一萬億美元落嚟。Trump 又鬧 Powell 減息太遲。又係炒吓。命理都話我今年唔好亂開倉🙏",
+      "text_en_b1": "The Federal Reserve is NOT going to hike. Warsh says they are really serious about inflation, they have a taskforce looking into it, then they continue doing nothing. Bessent's to-do list: buy yen, double Yellen's buybacks, and strongly imply he might dump a trillion dollars on those buybacks. Trump criticizes Powell for not cutting rates because the economy is so good.",
+      "source_url": "https://boards.4chan.org/biz/thread/62668712",
+      "source_hint": "/biz/ thread mocking the Fed's inflation theater",
       "signal": {
-        "asset": "TSLA",
+        "asset": "DXY",
+        "direction": "short",
+        "conviction": "medium",
+        "time_horizon": "weeks",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP implies dollar weakness from Bessent's intervention and Trump demanding cuts"
+      },
+      "text_en_b2": "The Federal Reserve is hardly about to raise rates, regardless of the noise. Warsh keeps insisting they are finally getting tough on inflation, yet a taskforce is announced and nothing concrete actually follows. Meanwhile, Bessent's agenda seems to boil down to snapping up yen, doubling Yellen's buybacks, and hinting he could unleash a trillion dollars against them. Trump, for his part, hammers Powell for holding off on cuts despite the economy supposedly being so strong. Classic cycle of theatrics, no substance.",
+      "text_en_c1": "The Federal Reserve will almost certainly refrain from further hikes. Kevin Warsh has publicly committed to tackling inflation with renewed vigour, yet the taskforce assembled for that purpose appears to have produced nothing of substance. Scott Bessent, meanwhile, has been quietly accumulating yen, doubling the buyback operations initiated under Janet Yellen, and hinting rather unsubtly that a one-trillion-dollar intervention might materialise should conditions deteriorate. Donald Trump has separately lambasted Jerome Powell for delaying cuts, arguing that the underlying economy is robust enough to justify immediate easing. Taken in aggregate, these competing signals suggest that traders should anticipate volatility rather than directional conviction.",
+      "text_en_c2": "Speculation that the Federal Reserve might yet raise rates remains, in this commentator's view, fanciful. Kevin Warsh has publicly intimated that the institution harbours a steely resolve to subdue inflation, having convened a dedicated task force to examine the problem; yet no tangible tightening has materialised, the rhetoric drifting conspicuously into the void. Meanwhile, Scott Bessent's purported agenda appears to involve accumulating yen, doubling Janet Yellen's prior round of buybacks, and darkly hinting that a trillion-dollar deluge might be unleashed against those very positions. Donald Trump, for his part, has lambasted Chair Jerome Powell for tardiness in easing monetary policy, contending that the underlying economy merits such a move forthwith. The observer wryly notes that fortune-telling advises against opening fresh positions this year.",
+      "audio_url": "audio/2026-09-09/clip-clip-1-trading-macro.mp3"
+    },
+    {
+      "id": "clip-2-trading-musk",
+      "category": "trading",
+      "topic_zh": "BTC vs 黃金",
+      "topic_en": "BTC vs Gold",
+      "text_zh": "十年長揸你揀 BTC 定黃金？XRP 同 DOGE 真係陪我捱過五個地獄年。CFD 啲帳面真係見唔到光，靠 AI 續命🧐 prop firm 嗰邊又未過 eval。算啦，當交學費。",
+      "text_en_b1": "Bitcoin versus gold: if you had to hold only one for the next ten years, which would you choose, and what makes it better than the other? Meanwhile, in one week's time you will know why you held XRP, BTC and DOGE through the toughest five years any investor has ever faced.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ thread asking which asset to hold for a decade",
+      "signal": {
+        "asset": "BTC",
         "direction": "long",
         "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP implies TSLA at least doubles on CyberCab, SpaceX merger, Optimus"
+        "rationale": "OP frames long-term conviction hold; pairs BTC vs gold comparison"
       },
-      "text_en_b2": "A fresh wave of /biz/ anons is jumping on the Tesla bandwagon, insisting the stock will at least double from current levels. Their main arguments revolve around the imminent CyberCab rollout, the swirling SpaceX merger rumours, and steady Optimus progress. While nobody on the thread bothers to put forward a concrete price target, the overall vibe is unmistakably upbeat — which is frankly salt in the wound for anyone already bleeding from CFD positions.",
-      "text_en_c1": "A recent thread on /biz/ has reignited speculation over whether Tesla represents a compelling entry point at present valuations. Contributors cite the impending rollout of CyberCab services, persistent rumours surrounding a SpaceX merger, and incremental Optimus milestones as catalysts that could propel shares upward. Although no participant has articulated a concrete price target, the prevailing sentiment is unmistakably bullish. Should even a fraction of these initiatives materialise, a doubling of the share price would scarcely appear implausible. The enthusiasm, however, stands in stark contrast to retail traders already bleeding from leveraged CFD positions, for whom such optimism feels particularly galling.",
-      "text_en_c2": "On /biz/, the inevitable novice has resurfaced, canvassing sentiment on whether Tesla remains a viable entry point at current valuations. The consensus, such as it is, tilts emphatically bullish: adherents cite the imminent Cybercab rollout, the persistent SpaceX merger rumours, and what they describe as tangible Optimus progress as a constellation of catalysts sufficient to propel the share price upward by a factor of two or more. Strikingly, none of the participants deigns to articulate a concrete price target or a defined timeframe, preferring instead the warm camaraderie of unanchored optimism. For those presently nursing mark-to-market losses on leveraged CFD positions, such posts function less as analysis than as a particularly pointed form of psychological torment.",
-      "audio_url": "audio/2026-09-09/clip-tsla-double.mp3"
+      "text_en_b2": "Holding for the long haul raises a genuine dilemma: over the next ten years, would Bitcoin or gold deliver more, and on what grounds? The poster argues the toughest five-year stretch any investor has had to stomach only proved why holding XRP, BTC and DOGE through sheer hell was worth it. Meanwhile, retail traders burned by CFDs and stuck waiting on a prop firm eval can take cold comfort: at least the tuition fee bought something.",
+      "text_en_c1": "If one were compelled to select a single asset for the next decade, would Bitcoin or gold represent the more compelling proposition, and what fundamental characteristics would inform that decision? Proponents of the former cite its asymmetric upside and decentralised architecture, whereas traditionalists maintain that bullion's millennia-long track record confers an almost irreplaceable store-of-value function. The original poster, evidently nursing losses from CFD positions that have yet to break even, defends his conviction in XRP, Bitcoin and DOGE, all of which he held throughout what he describes as five harrowing years for any retail investor. Prop firm evaluations remain pending, and the AI-assisted trading experiment continues to underperform.",
+      "text_en_c2": "Were one compelled to select a single asset for an entire decade of unwavering conviction, would it be Bitcoin or gold that one entrusts with such stewardship, and what intrinsic attribute renders it superior to its rival? The poster contends that within merely seven days the rationale for weathering the most punishing five-year crucible any contemporary investor has endured whilst holding XRP, BTC and DOGE will become resplendently apparent. Margin accounts have languished in perpetual deficit, sustained only by artificially inflated AI-generated valuations, whilst proprietary trading evaluations remain obstinately incomplete. The poster concedes, with philosophical equanimity, that these tribulations ought to be regarded as tuition rather than catastrophe.",
+      "audio_url": "audio/2026-09-09/clip-clip-2-trading-musk.mp3"
     },
     {
-      "id": "btc-vs-gold",
-      "category": "trading",
-      "topic_zh": "BTC vs 黃金",
-      "topic_en": "BTC vs Gold",
-      "text_zh": "10年揸一樣⋯⋯BTC 定 XAU？兩邊都有人話自己係 winner。我啲期貨倉都未平，又要比我諗呢啲 macro 嘢 lol 🧐",
-      "text_en_b1": "If you had to hold only one asset for the next 10 years, would you pick Bitcoin or gold? The /biz/ thread is split. Gold bugs say it has 5,000 years of history as money. Bitcoiners say it is digital, scarce, and the new reserve asset.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ BTC vs Gold 10-year hold thread",
-      "signal": {
-        "asset": "BTC",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Open-ended poll, no actionable setup"
-      },
-      "text_en_b2": "Forced to pick a single asset to hold over the next decade, would you go with Bitcoin or gold? The /biz/ thread is split right down the middle. Gold bugs hammer home the point that it carries five millennia of monetary history, whereas Bitcoiners counter that it is inherently scarce, borderless, and primed to become the next global reserve asset. Neither camp is willing to concede ground.",
-      "text_en_c1": "Should one be compelled to allocate capital to a single asset for the coming decade, the perennial debate between Bitcoin and gold resurfaces with renewed vigour on /biz/. Gold advocates invoke its five-millennium track record as a monetary store of value, whilst Bitcoin maximalists counter that its digital scarcity and decentralised architecture position it as the contemporary reserve asset. The thread remains evenly divided, with neither camp gaining the upper hand. For those simultaneously juggling open futures positions, contemplating such macro quandaries feels less like prudent diversification and more like a futile exercise in futility, prompting an exasperated chuckle rather than genuine conviction.",
-      "text_en_c2": "A thread on /biz/ has reignited a perennial parlour game: if constrained to a single asset for the coming decade, would one elect Bitcoin or physical gold? The fissure is, as ever, total. Gold partisans invoke five millennia of monetary precedent, central-bank accumulation, and the metal's enduring role as a crisis hedge. Their digital-native counterparts counter that programmability, verifiable scarcity, and an accelerating institutional embrace position Bitcoin as the nascent reserve asset of a de-dollared financial order. Neither camp persuades the other, since the underlying ontological dispute — whether money is fundamentally a store of narrative or of arithmetic — admits no empirical resolution.",
-      "audio_url": "audio/2026-09-09/clip-btc-vs-gold.mp3"
-    },
-    {
-      "id": "openai-math-heist",
+      "id": "clip-3-tech-ai",
       "category": "tech/ai",
-      "topic_zh": "OpenAI 抄數學",
-      "topic_en": "OpenAI math heist",
-      "text_zh": "OpenAI 又嚟⋯⋯兩個 mathematician 用 claude + gpt 做緊嘅問題，OpenAI 直接出 paper 話自己 swarm agent 解咗，credit 都冇俾人。AI 連數學家都搶，仲有咩係安全 🧐",
-      "text_en_b1": "Two mathematicians, Alpöge and Buckmaster, were collaborating on a problem using Claude and GPT and made real progress. Then OpenAI published a paper claiming their agent swarm solved the same problem on its own. The approach was very similar. The mathematicians were not credited.",
+      "topic_zh": "AI 識做數學",
+      "topic_en": "AI Math Theft",
+      "text_zh": "OpenAI 又出事了。兩個數學家用 claude 同 gpt 合作解難題，OpenAI 就話自己個 agent swarm 獨立解咗。連 credit 都冇俾。靠 AI 續命嘅廢柴如我，睇到都驚。日後連考牌都可能被 AI 代我答🙏",
+      "text_en_b1": "OpenAI steals a math breakthrough. Mathematicians Alpage and Buckmaster collaborated using Claude and GPT and made good progress. OpenAI then claimed an agent swarm solved the problem independently, with an approach very similar to their work. The mathematicians were not credited in the paper.",
       "source_url": "https://boards.4chan.org/g/thread/109762595",
-      "source_hint": "/g/ thread on OpenAI allegedly stealing a math result",
+      "source_hint": "/g/ thread on OpenAI allegedly taking credit for math work",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "AI ethics story, not a trade setup"
+        "rationale": "Not a trade, AI industry observation"
       },
-      "text_en_b2": "Two mathematicians, Alpöge and Buckmaster, had been quietly collaborating on a research problem using Claude and GPT and were making tangible headway. Then OpenAI dropped a paper claiming their own agent swarm had independently cracked the same problem — using a strikingly similar approach, yet failing to credit the original duo. If AI outfits are now muscling in on mathematicians, one has to wonder what niche is actually safe anymore.",
-      "text_en_c1": "Two mathematicians, Alpöge and Buckmaster, had been making substantive progress on a problem through iterative collaboration with Claude and GPT. Shortly thereafter, OpenAI released a paper asserting that their agent swarm had independently arrived at a comparable solution. The methodological overlap was striking, yet no acknowledgement of the prior work was forthcoming. Should established AI laboratories feel entitled to appropriate intellectual contributions from individual researchers without attribution, the implications for academic integrity are profoundly disquieting. If even mathematics, long regarded as a bastion of rigorous attribution, cannot withstand such incursions, the question of which domains remain secure becomes increasingly rhetorical.",
-      "text_en_c2": "Two mathematicians, Alpöge and Buckmaster, had been making substantive headway on an open problem by orchestrated deployment of Claude and GPT as collaborative research assistants. OpenAI then published a paper whose central claim — that their proprietary agent swarm had independently resolved the same question — sits uncomfortably adjacent to the prior work, both in methodology and in substance. No acknowledgement was extended to the original contributors. The episode, whatever its technical merits, crystallises a gathering anxiety: that the very laboratories tasked with augmenting human cognition are increasingly inclined to appropriate it, with attribution reduced to a discretionary courtesy rather than an institutional norm.",
-      "audio_url": "audio/2026-09-09/clip-openai-math-heist.mp3"
+      "text_en_b2": "OpenAI finds itself in hot water once again. Mathematicians Alpage and Buckmaster had been collaborating through Claude and GPT and were making solid headway on a stubborn problem. Shortly afterwards, OpenAI put out a paper claiming its agent swarm cracked the same challenge independently, using an approach suspiciously close to theirs. No credit whatsoever was given to the original pair, and the community is rightly calling it out as outright theft of intellectual work.",
+      "text_en_c1": "OpenAI stands accused of appropriating a mathematical breakthrough that ought to have belonged to its collaborators. Mathematicians Alpage and Buckmaster had been making considerable headway on a notoriously intractable problem using Claude and GPT in tandem, refining hypotheses iteratively across multiple sessions. OpenAI subsequently asserted that an internal agent swarm had solved the very same problem autonomously, employing an approach strikingly reminiscent of the pair's published methodology. The mathematicians received no acknowledgement whatsoever in the resulting paper, a striking omission given the documented overlap in reasoning.",
+      "text_en_c2": "OpenAI has once again found itself mired in controversy, after two mathematicians, working in concert with Anthropic's Claude and OpenAI's own GPT, achieved meaningful progress on a recalcitrant problem. OpenAI subsequently alleged that an autonomous agent swarm had independently arrived at the solution, employing a methodology strikingly homologous to that of the human researchers. The mathematicians, it transpires, received no acknowledgement whatsoever in the published paper. Observers dependent upon AI to perpetuate otherwise untenable workflows confess to genuine disquiet at such appropriations, wondering whether professional examinations themselves may soon be similarly outsourced. The episode casts an unflattering pall upon prevailing notions of intellectual attribution.",
+      "audio_url": "audio/2026-09-09/clip-clip-3-tech-ai.mp3"
     },
     {
-      "id": "pol-shitpost",
+      "id": "clip-4-hk-news",
       "category": "hk/news",
-      "topic_zh": "國際膠文",
-      "topic_en": "Pol shitpost",
-      "text_zh": "/pol/ 又係白人 vs 印度人膠戰，講乜印度以前係 spiritual，依家 white people 唔控制到就嬲。睇完我淨係覺得⋯⋯香港都唔好話，呢啲嘢同我份 surveying job 有咩關係 lol",
-      "text_en_b1": "The thread argues white people only like an ethnicity when it stays subservient. India used to be seen as a spiritual place where Western hippies went to find themselves. Now that India has real global influence, the poster says Western attitudes have turned hostile.",
-      "source_url": "https://boards.4chan.org/pol/thread/542223248",
-      "source_hint": "/pol/ India vs West culture war rant",
+      "topic_zh": "外媒換血",
+      "topic_en": "Media Insider",
+      "text_zh": "有個 pol 板 insider 出 post，話主流媒體開始換黑人內容做印度內容。Hip hop 同 Nike 嘢突然 dead 咗，funding 唔知去晒邊。廢物如我只睇 LIHKG 同 biz，呢啲大棋同我無關lol",
+      "text_en_b1": "An insider on pol claims media companies are quietly switching black media coverage to Indian media. Hip hop and Nike stuff basically died overnight, as if someone cut all funding. Where did all the funding go? The poster says they cannot reveal which company for fear of being fired.",
+      "source_url": "https://boards.4chan.org/pol/thread/542256298",
+      "source_hint": "/pol/ insider post on media industry shift",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Political rant, not trade relevant"
+        "rationale": "Cultural observation, no trade setup"
       },
-      "text_en_b2": "Another /pol/ thread has devolved into the familiar whites-versus-Indians culture war, claiming Westerners only romanticised India back when it stayed subservient and spiritually accessible to hippie tourists. Now that India wields genuine global clout, the poster argues, those same attitudes have curdled into outright hostility. The whole debate feels completely divorced from anything resembling real life — let alone anyone's actual surveying job.",
-      "text_en_c1": "A characteristic /pol/ thread has devolved into familiar racial sparring, this time concerning Western attitudes toward India. The prevailing argument, distilled, suggests that European populations historically celebrated non-Western cultures only insofar as those cultures remained deferential. India was once romanticised as a destination where disenchanted Westerners might pursue spiritual enlightenment. Now that the nation wields genuine geopolitical influence, the poster contends, that affection has curdled into open antagonism. For the average reader, whose professional obligations, such as a surveying assignment, bear no relation whatsoever to these abstruse cultural grievances, the spectacle amounts to little more than performative outrage divorced from tangible consequence.",
-      "text_en_c2": "The latest /pol/ provocation rehearses a familiar thesis: Western affection for ostensibly exotic cultures tends to flourish precisely so long as those cultures remain deferential. India, in this framing, was long cherished as a spiritual reservoir — a locale where disaffected Western seekers could transact in mysticism on terms entirely of their own devising. Yet as New Delhi has accrued genuine geopolitical weight, the register of commentary has palpably soured, transitioning from reverent curiosity to something more openly resentful. Whether this constitutes a coherent ideological position or merely the predictable reflux of displaced influence remains, charitably, open to interpretation.",
-      "audio_url": "audio/2026-09-09/clip-pol-shitpost.mp3"
+      "text_en_b2": "An insider posting on /pol/ claims mainstream outlets are quietly pivoting away from black-oriented content and pivoting toward Indian-focused material instead. Hip hop coverage and Nike-driven marketing essentially evaporated overnight, as though somebody yanked the funding overnight. Where that capital ended up, nobody can say for certain, although the original poster insists they cannot name the company involved without risking their job. Apparently, the whole thing is part of some larger chess move.",
+      "text_en_c1": "An anonymous insider posting from the politics board has alleged that mainstream media organisations are quietly transitioning their editorial focus from black-centric coverage to Indian-centric content, a pivot so abrupt that it appears almost coordinated. Hip-hop coverage and Nike-sponsored features have reportedly evaporated overnight, suggesting that advertising budgets and institutional funding have been redirected elsewhere with remarkable speed. Where precisely these resources have migrated remains undisclosed, as the poster claims professional obligations preclude naming the corporation involved. The broader implications, should the allegation prove accurate, would extend well beyond entertainment journalism, potentially reshaping how demographic minorities are represented in commercial media.",
+      "text_en_c2": "An anonymous insider purporting to be affiliated with a political messaging board has alleged that mainstream media conglomerates are orchestrating a quiet, calculated pivot away from black-oriented cultural coverage toward Indian-subcontinent-focused content. Hip-hop promotion and Nike-aligned narratives, the poster contends, have withered virtually overnight, as though funding streams had been abruptly severed. The destination of those redirected resources remains undisclosed, though the insider claims professional jeopardy precludes identifying the corporation responsible. The commentator observes, with characteristic detachment, that such grand stratagems scarcely impinge upon those whose media diet consists exclusively of local Hong Kong forums and financial boards.",
+      "audio_url": "audio/2026-09-09/clip-clip-4-hk-news.mp3"
     },
     {
-      "id": "lol-persona6",
+      "id": "clip-5-lol-esports",
       "category": "lol/esports",
-      "topic_zh": "Persona 6 漏",
-      "topic_en": "Persona 6 leak",
-      "text_zh": "Persona 6 成就表成個 leak 出咗，背景係橫濱，玩家做差佬拉人。聽日可能 Nintendo Direct 直接公佈。打 LOL 都打到悶，等緊 S15，呢啲 leak 反而有啲料到 👍",
-      "text_en_b1": "The full list of Persona 6 achievements has leaked online. The setting is confirmed as Yokohama, and the main character is basically a cop who arrests people. The game might appear at a Nintendo Direct tomorrow and could release sooner than fans thought.",
-      "source_url": "https://boards.4chan.org/v/thread/747182709",
-      "source_hint": "/v/ Persona 6 achievements leak",
+      "topic_zh": "任天堂神秘新作",
+      "topic_en": "Nintendo Mystery Dev",
+      "text_zh": "任天堂出新 trailer，但 developer 名邊度都見唔到。網站、宣傳品、邊度都冇。究竟 outsource 咗俾邊個？S15 暫時悶到抽筋，唯有靠呢啲 4chan 帖止癮lol",
+      "text_en_b1": "Does no one find it suspicious that the developer is not listed anywhere in the trailer, website, or promotional materials? The poster asks who Nintendo outsourced the new project to, since the studio name appears nowhere in any official materials.",
+      "source_url": "https://boards.4chan.org/v/thread/747187009",
+      "source_hint": "/v/ thread on an unannounced Nintendo developer",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,24 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming leak, no trade"
+        "rationale": "Gaming industry gossip, no trade"
       },
-      "text_en_b2": "The full achievement list for Persona 6 has leaked online, confirming Yokohama as the backdrop and casting the protagonist as essentially a cop who collars criminals. There is genuine buzz that the game could surface during tomorrow's Nintendo Direct and possibly release far sooner than the fanbase anticipated. After grinding League of Legends into the ground, a leak like this is honestly a welcome change of pace.",
-      "text_en_c1": "The complete achievement list for Persona 6 has surfaced online, corroborating earlier speculation that the setting will be Yokohama. The protagonist, apparently, operates as an enforcer of sorts, apprehending individuals in a vaguely policing capacity. Industry observers speculate that Nintendo may formally unveil the title at an impending Direct presentation, potentially accelerating a release window that fans had not anticipated so soon. Should the announcement materialise, it would furnish a welcome respite for players currently disenchanted with the staleness of ranked League of Legends queues, offering a genuine prospect of substance amid the usual cacophony of half-baked rumours.",
-      "text_en_c2": "The complete Persona 6 achievement catalogue has surfaced online, corroborating long-circulated rumours: the action unfolds in Yokohama, with a protagonist whose vocation — apprehending wrongdoers — is functionally indistinguishable from that of a conventional police procedural. Speculation now centres on tomorrow's Nintendo Direct, where an official announcement appears increasingly probable. Insomniac League of Legends grinders awaiting the S15 reset have, somewhat ironically, found their interim entertainment in poring over achievement strings rather than ranked queues. Should the leak prove accurate, a release window considerably more proximate than the franchise's customary multi-year cadence would be in view.",
-      "audio_url": "audio/2026-09-09/clip-lol-persona6.mp3"
+      "text_en_b2": "Does nobody else find it genuinely suspicious that the developer's name appears absolutely nowhere? The trailer, the official site, every piece of promotional material released so far, and still no studio credit. The poster wonders aloud whether Nintendo has outsourced the project to an unannounced partner or is deliberately keeping things under wraps until launch. The guessing game has officially overtaken any actual hype around the title itself.",
+      "text_en_c1": "Is it not somewhat conspicuous that Nintendo's most recent trailer makes no reference whatsoever to the studio entrusted with development? Neither the official website, nor the accompanying promotional materials, nor any press release identifies the outsourcing partner responsible for the project, a silence that has predictably ignited considerable speculation across enthusiast forums. Season fifteen of the prevailing competitive league has, by the poster's own admission, grown rather stale, leaving fans to derive what entertainment they can from deciphering corporate mysteries. Several plausible candidates have been floated, ranging from established second-party collaborators to entirely unannounced studios, though Nintendo's characteristic opacity renders any definitive attribution essentially impossible at this juncture.",
+      "text_en_c2": "Does nobody else find it mildly disquieting that Nintendo's freshly unveiled trailer fails to disclose the development studio anywhere within its duration, accompanying website, or supplementary promotional collateral? The conspicuous omission, deliberate or otherwise, has ignited considerable conjecture within the community regarding the identity of the outsourced partner entrusted with the project. Forum denizens have pored over every frame, hunted through metadata, and scoured press releases, yet the studio's name remains conspicuously absent from any official artefact. Season fifteen of competitive play has stagnated into torpor; speculative threads such as this one, the poster concedes, provide the only present solace against terminal boredom.",
+      "audio_url": "audio/2026-09-09/clip-clip-5-lol-esports.mp3"
     },
     {
-      "id": "fit-ciaco",
+      "id": "clip-6-mma-fitness",
       "category": "mma/fitness",
-      "topic_zh": "CICO 係膠",
-      "topic_en": "CICO is cope",
-      "text_zh": "/fit/ 有人問 calories in calories out 係咪低 IQ。我都想知⋯⋯我日日做 surveying 行到死死，點解 body composition 仲係咁樣。肥仔信叫我聽日夾去 gym，唔知會唔會去 🧐",
-      "text_en_b1": "The poster argues that calories in, calories out is a useless tautology. Knowing you stored the calories does not explain why you stored them. It is like answering 'why is Elon Musk rich' with 'he took in more money than he spent' — true, but it tells you nothing.",
-      "source_url": "https://boards.4chan.org/fit/thread/77505779",
-      "source_hint": "/fit/ CICO is a tautology rant",
+      "topic_zh": "深蹲係咪必要",
+      "topic_en": "Squats Are a Meme",
+      "topic_zh2": "深蹲係咪 meme",
+      "topic_en2": "Squat Debate",
+      "text_zh": "有 fit 板膠膠噏話深蹲係現代 lifting 神話，古希臘人都唔做。佢話 bench、OHP、DL 加跑步已經夠練腿。肥仔信今日又叫我 squat，睇完呢個 post 我有藉口偷懶lol🙏",
+      "text_en_b1": "Squats are a meme lift, prioritized way too much in modern lifting. The poster says the ancient Greeks never did squats, they just ran and carried heavy things. He argues bench, overhead press, deadlift, running, and carrying heavy stuff are all you need to train like the best athletes in history.",
+      "source_url": "https://boards.4chan.org/fit/thread/77498059",
+      "source_hint": "/fit/ thread arguing squats are overrated",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +142,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness rant, not trade relevant"
+        "rationale": "Fitness opinion, no trade setup"
       },
-      "text_en_b2": "The /fit/ thread takes aim at the calories-in-calories-out crowd, calling it a useless tautology dressed up as science. Sure, knowing the calories were stored explains what happened, but it completely sidesteps why the body held onto them in the first place. The poster likens it to answering 'why is Elon Musk rich' with 'because he earned more than he spent' — technically accurate, yet utterly devoid of insight.",
-      "text_en_c1": "A poster on /fit/ contends that the calories-in-calories-out framework constitutes a vacuous oversimplification masquerading as nutritional science. Identifying that one has consumed surplus energy merely establishes that excess intake occurred, not the underlying hormonal, metabolic, or behavioural mechanisms that precipitated it. The analogy offered is apt: asserting that Elon Musk is wealthy because his revenues exceeded his expenditures is technically accurate yet explanatorily vacuous. For those whose physically demanding occupations yield negligible aesthetic returns despite meticulous caloric accounting, such critiques resonate uncomfortably. Whether this epiphany will translate into actually attending tomorrow's proposed gym session with fellow trainees remains, however, decidedly uncertain.",
-      "text_en_c2": "A /fit/ regular has taken up cudgels against the Calories In, Calories Out orthodoxy, contending that the framework is less a mechanistic explanation than a semantic tautology — observing that stored energy exists does not illuminate the hormonal, neurological, and behavioural pathways through which it came to be stored. The analogy deployed is illustrative: to say Musk is affluent because revenue exceeded expenditure is technically defensible yet explanatorily vacuous. For those whose professions involve considerable ambulation yet whose physiques remain stubbornly refractory to intervention, the post resonates as a clinical rejoinder to received nutritional wisdom.",
-      "audio_url": "audio/2026-09-09/clip-fit-ciaco.mp3"
+      "text_en_b2": "Squats have become something of a meme exercise in modern lifting culture, prioritised far beyond what the movement actually delivers. The poster argues that ancient Greek athletes never touched a squat bar, relying instead on running, carrying heavy loads, and the basics. In his view, combining bench press, overhead press, deadlift, running, and loaded carries is more than enough to train like the greatest athletes history has produced. Apparently, skipping leg day just got a legitimate defence.",
+      "text_en_c1": "A contentious thread on the fitness board has reignited an enduring debate by characterising the squat as an overemphasised artefact of contemporary strength culture rather than a genuinely indispensable movement. The original poster contends that ancient Greek athletes, whose physiques remain objects of admiration, never performed barbell squats in any recognisable form, relying instead on sprinting, loaded carries and unstructured physical labour. He proposes that bench press, overhead press, deadlift, running and the transportation of heavy objects constitute a sufficient regimen for those aspiring to historic athletic excellence. Critics counter that bilateral lower-body hypertrophy requires dedicated loading patterns unavailable through carries alone.",
+      "text_en_c2": "A fitness enthusiast has provocatively characterised the barbell back squat as a contemporary lifting myth, disproportionately venerated within modern strength culture despite, he insists, a complete absence of corroboration in antiquity. The Greeks, he contends, never performed the movement as such; their celebrated physiques were forged instead through running, overhead pressing, and the patient carriage of substantial loads over considerable distances. He maintains that bench press, overhead press, deadlift, distance running, and weighted carries constitute the entirety of what any aspiring athlete requires to approximate the conditioning of history's finest. He confesses, with endearing candour, that the thread has furnished him the perfect pretext to abscond from today's scheduled session.",
+      "audio_url": "audio/2026-09-09/clip-clip-6-mma-fitness.mp3"
     },
     {
-      "id": "bleach-fist",
+      "id": "clip-7-anime-culture",
       "category": "anime/culture",
-      "topic_zh": "BLEACH 新作",
-      "topic_en": "Bleach new series",
-      "text_zh": "久保帶人新短篇 BLEACH THE HIGH SCHOOL WARFARE，日本 24 小時內賣晒。仲有 ZOMBIEPOWDER 重印、Burn The Witch、Bleach Hell arc，佢一個人 hold 3-4 個 series。羨慕到爆，我考牌都未搞掂 🙏",
-      "text_en_b1": "Tite Kubo's new one-shot, BLEACH THE HIGH SCHOOL WARFARE, sold out in Japan within 24 hours. Rumors say Kubo is being asked for a monthly short series, plus an anime season, a movie, and a live-action. Add ZOMBIEPOWDER reprint, Burn The Witch return, and Bleach Hell arc.",
-      "source_url": "https://boards.4chan.org/a/thread/290799160",
-      "source_hint": "/a/ Kubo Tite BLEACH new one-shot thread",
+      "topic_zh": "少年マガジン",
+      "topic_en": "Weekly Shonen",
+      "text_zh": "WSM 第41期 2026，Yowayowa 有彩頁，仲有新連載 Onryou Biyori。Gundam 00 重溫第三次都未悶，考牌溫到傻唯有煲老番lol",
+      "text_en_b1": "Weekly Shonen Magazine issue 41 of 2026 has color pages for Yowayowa, plus a brand new manga titled Onryou Biyori starting in this issue. The thread catalogs the new serializations and color page announcements for that weekly release.",
+      "source_url": "https://boards.4chan.org/a/thread/290794985",
+      "source_hint": "/a/ thread on Weekly Shonen Magazine issue 41",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +166,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime publishing news, not a trade"
+        "rationale": "Anime magazine release news, no trade"
       },
-      "text_en_b2": "Tite Kubo's latest one-shot, BLEACH THE HIGH SCHOOL WARFARE, flew off Japanese shelves within a mere 24 hours. Whispers suggest publishers are courting him for a monthly short series, a full anime season, a feature film, and a live-action adaptation on top of that. Throw in the ZOMBIEPOWDER reprint, the Burn The Witch comeback, and the looming Bleach Hell arc, and the man is essentially juggling four concurrent series.",
-      "text_en_c1": "Tite Kubo's latest one-shot, BLEACH THE HIGH SCHOOL WARFARE, reportedly sold out across Japanese retailers within a mere twenty-four hours of release. Industry speculation suggests that publishers are courting Kubo for a sustained monthly serial, accompanied by a fresh anime season, a theatrical production, and a live-action adaptation. Should these conjectures prove accurate, Kubo would effectively be juggling three or four concurrent franchises, including the ZOMBIEPOWDER reprint, the resurgent Burn The Witch, and the long-anticipated Bleach Hell arc. Such prodigious output is enough to induce profound envy in anyone still struggling to obtain a professional certification.",
-      "text_en_c2": "Tite Kubo's recently unveiled one-shot, BLEACH THE HIGH SCHOOL WARFARE, vanished from Japanese retail within twenty-four hours, with aftermarket premiums already commanding multiples of cover price. Industry whispers suggest the publisher is angling for a monthly short-form serialisation, alongside an anime adaptation, a feature film, and a live-action production. Set against this abundance, ZOMBIEPOWDER reprints, the Burn The Witch revival, and the long-promised Bleach Hell arc collectively render Kubo something approaching a one-man editorial conglomerate. The spectacle of singular creative bandwidth is, for the struggling aspirant, equal parts inspiring and galling.",
-      "audio_url": "audio/2026-09-09/clip-bleach-fist.mp3"
+      "text_en_b2": "Weekly Shonen Magazine's issue 41 for 2026 drops with colour pages dedicated to Yowayowa, alongside a freshly launched serialization titled Onryou Biyori kicking off in the same issue. The thread essentially compiles every new series debut and colour-page announcement tied to that weekly release, giving readers a tidy rundown of what to look forward to. For anybody burnt out on revision, it doubles as a perfectly timed distraction from real responsibilities.",
+      "text_en_c1": "Weekly Shonen Magazine's forty-first issue of 2026 features colour pages dedicated to Yowayowa, alongside the debut of an entirely new serialisation titled Onryou Biyori, whose premise has already attracted modest discussion among dedicated readers. The thread catalogues these announcements methodically, parsing which titles received premium placement and which newcomers might warrant sustained attention in subsequent issues. Elsewhere, the poster confesses to revisiting Mobile Suit Gundam 00 for what must be at least the third occasion, finding the narrative remarkably resilient to familiarity, presumably as a palliative against the more onerous demands of professional licensing examination preparation. Such nostalgia-driven viewing habits appear increasingly common among overworked students.",
+      "text_en_c2": "Weekly Shonen Magazine's forthcoming issue forty-one for 2026 is generating quiet excitement, with colour-page prominence afforded to Yowayowa alongside the inaugural chapter of an entirely new serialisation titled Onryou Biyori. The thread meticulously catalogues each fresh announcement and visual feature slated for that weekly instalment, ranging from returning favourites to debuting properties awaiting their moment in the spotlight. The poster confesses that revision for impending professional examinations has driven him to rewatch Gundam 00 for the third consecutive time, a venerable mecha series whose intricate geopolitical allegories provide welcome cognitive respite. Familiar comfort viewing, he concedes, remains an incomparable palliative against examination-induced despair.",
+      "audio_url": "audio/2026-09-09/clip-clip-7-anime-culture.mp3"
     }
   ]
 }
