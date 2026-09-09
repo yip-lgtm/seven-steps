@@ -4,67 +4,76 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-xrp-btc-doge",
-      "topic_en": "Crypto Faith",
-      "topic_zh": "XRP BTC DOGE 信仰",
+      "id": "xrp-btc-doge-hold",
+      "topic_en": "Hold Through Five Years",
+      "topic_zh": "持貨五年",
       "category": "trading",
-      "file": "clip-t1-xrp-btc-doge.mp3",
-      "bytes": 270708,
-      "chars": 256
+      "file": "clip-xrp-btc-doge-hold.mp3",
+      "bytes": 304116,
+      "chars": 307
     },
     {
-      "id": "t2-fed-no-hike",
-      "topic_en": "Fed No Hike",
-      "topic_zh": "聯儲局唔加息",
+      "id": "btc-pump-chase",
+      "topic_en": "Buying After The Pump",
+      "topic_zh": "追入已升",
       "category": "trading",
-      "file": "clip-t2-fed-no-hike.mp3",
-      "bytes": 280500,
-      "chars": 278
+      "file": "clip-btc-pump-chase.mp3",
+      "bytes": 382452,
+      "chars": 371
     },
     {
-      "id": "tech-ai-nitter",
-      "topic_en": "Nitter Returns",
-      "topic_zh": "Nitter復活",
+      "id": "fed-not-hike",
+      "topic_en": "Fed Not Hiking",
+      "topic_zh": "聯儲唔加息",
       "category": "tech/ai",
-      "file": "clip-tech-ai-nitter.mp3",
-      "bytes": 307572,
-      "chars": 290
+      "file": "clip-fed-not-hike.mp3",
+      "bytes": 298932,
+      "chars": 284
     },
     {
-      "id": "hk-news-pol",
-      "topic_en": "Pol: India vs West",
-      "topic_zh": "白人憎印度人",
+      "id": "nitter-c2",
+      "topic_en": "Nitter Back Online",
+      "topic_zh": "Nitter 復活",
+      "category": "tech/ai",
+      "file": "clip-nitter-c2.mp3",
+      "bytes": 364596,
+      "chars": 352
+    },
+    {
+      "id": "ai-not-take-jobs",
+      "topic_en": "AI Won't Take Jobs",
+      "topic_zh": "AI唔會搶工",
       "category": "hk/news",
-      "file": "clip-hk-news-pol.mp3",
-      "bytes": 293172,
-      "chars": 294
+      "file": "clip-ai-not-take-jobs.mp3",
+      "bytes": 359988,
+      "chars": 357
     },
     {
-      "id": "lol-nintendo-trail",
-      "topic_en": "Nintendo Mystery Dev",
-      "topic_zh": "任天堂開發者消失",
+      "id": "v-developer-suspicious",
+      "topic_en": "No Developer Listed",
+      "topic_zh": "開發商消失",
       "category": "lol/esports",
-      "file": "clip-lol-nintendo-trail.mp3",
-      "bytes": 285108,
-      "chars": 291
+      "file": "clip-v-developer-suspicious.mp3",
+      "bytes": 373236,
+      "chars": 370
     },
     {
-      "id": "mma-fit-1pl8",
-      "topic_en": "1pl8 OHP Goal",
-      "topic_zh": "1pl8 OHP 目標",
+      "id": "ohp-1pl8",
+      "topic_en": "OHP 1pl8 Goal",
+      "topic_zh": "1pl8 OHP",
       "category": "mma/fitness",
-      "file": "clip-mma-fit-1pl8.mp3",
-      "bytes": 319668,
-      "chars": 249
+      "file": "clip-ohp-1pl8.mp3",
+      "bytes": 402036,
+      "chars": 314
     },
     {
-      "id": "anime-wsm-issue41",
-      "topic_en": "Weekly Shonen Magazine",
-      "topic_zh": "少年Magazine新刊",
+      "id": "anime-busts",
+      "topic_en": "Anime Bust Size",
+      "topic_zh": "動漫巨乳",
       "category": "anime/culture",
-      "file": "clip-anime-wsm-issue41.mp3",
-      "bytes": 295476,
-      "chars": 239
+      "file": "clip-anime-busts.mp3",
+      "bytes": 341556,
+      "chars": 341
     }
   ]
 }
