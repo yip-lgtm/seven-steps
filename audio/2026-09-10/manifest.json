@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-condo-stuck",
+      "id": "biz-condo",
       "topic_en": "Stuck with a Condo",
-      "topic_zh": "樓市困獸",
+      "topic_zh": "condo困局",
       "category": "trading",
-      "file": "clip-t1-condo-stuck.mp3",
-      "bytes": 336372,
-      "chars": 293
+      "file": "clip-biz-condo.mp3",
+      "bytes": 335796,
+      "chars": 299
     },
     {
-      "id": "t2-btc-after-pump",
-      "topic_en": "Why buy BTC after the pump",
-      "topic_zh": "FOMO入場",
+      "id": "biz-muskev",
+      "topic_en": "TSLA & Musk Thread",
+      "topic_zh": "Tesla同Elon",
       "category": "trading",
-      "file": "clip-t2-btc-after-pump.mp3",
-      "bytes": 268404,
-      "chars": 273
+      "file": "clip-biz-muskev.mp3",
+      "bytes": 258612,
+      "chars": 251
     },
     {
-      "id": "ai-astraplagiarism",
-      "topic_en": "OpenAI plagiarism claim",
-      "topic_zh": "OpenAI抄功課",
+      "id": "g-openai-steal",
+      "topic_en": "Did OpenAI Steal It?",
+      "topic_zh": "OpenAI抄嘢",
       "category": "tech/ai",
-      "file": "clip-ai-astraplagiarism.mp3",
-      "bytes": 353652,
-      "chars": 316
+      "file": "clip-g-openai-steal.mp3",
+      "bytes": 315636,
+      "chars": 303
     },
     {
-      "id": "hk-china-pisa",
-      "topic_en": "Chinese Century PISA",
-      "topic_zh": "中國學生贏晒",
+      "id": "pol-china-pisa",
+      "topic_en": "Chinese Century / PISA",
+      "topic_zh": "中國學生PISA",
       "category": "hk/news",
-      "file": "clip-hk-china-pisa.mp3",
-      "bytes": 393396,
-      "chars": 328
+      "file": "clip-pol-china-pisa.mp3",
+      "bytes": 359412,
+      "chars": 288
     },
     {
-      "id": "lol-blizzard-union",
-      "topic_en": "Blizzard union win",
+      "id": "v-blizzard-union",
+      "topic_en": "Blizzard Unionizes",
       "topic_zh": "暴雪搞工會",
       "category": "lol/esports",
-      "file": "clip-lol-blizzard-union.mp3",
-      "bytes": 294324,
-      "chars": 295
+      "file": "clip-v-blizzard-union.mp3",
+      "bytes": 262644,
+      "chars": 250
     },
     {
-      "id": "fit-cico-dogma",
-      "topic_en": "CICO is a meme",
-      "topic_zh": "卡路里謬論",
+      "id": "fit-cico-retard",
+      "topic_en": "CICO Is a Dogma",
+      "topic_zh": "CICO係低能",
       "category": "mma/fitness",
-      "file": "clip-fit-cico-dogma.mp3",
-      "bytes": 326004,
-      "chars": 330
+      "file": "clip-fit-cico-retard.mp3",
+      "bytes": 295476,
+      "chars": 282
     },
     {
-      "id": "anime-madoka-homu",
-      "topic_en": "Madoka Homu love",
-      "topic_zh": "圓焰實錘",
+      "id": "a-madoka",
+      "topic_en": "Madoka Walpurgis",
+      "topic_zh": "Madoka新搞作",
       "category": "anime/culture",
-      "file": "clip-anime-madoka-homu.mp3",
-      "bytes": 292596,
-      "chars": 273
+      "file": "clip-a-madoka.mp3",
+      "bytes": 291444,
+      "chars": 250
     }
   ]
 }
