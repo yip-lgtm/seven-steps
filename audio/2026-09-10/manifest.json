@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t1-condo-stuck",
-      "topic_en": "Stuck with a Condo",
-      "topic_zh": "上車之後",
+      "id": "trade-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-t1-condo-stuck.mp3",
-      "bytes": 399732,
-      "chars": 315
+      "file": "clip-trade-btc-vs-gold.mp3",
+      "bytes": 283380,
+      "chars": 293
     },
     {
-      "id": "t2-xrp-btc-doge",
-      "topic_en": "XRP, BTC, DOGE Faith",
-      "topic_zh": "XRP / BTC / DOGE 信仰",
+      "id": "trade-btc-pump",
+      "topic_en": "BTC Buy After Pump",
+      "topic_zh": "點解泵完先入",
       "category": "trading",
-      "file": "clip-t2-xrp-btc-doge.mp3",
-      "bytes": 277044,
-      "chars": 291
+      "file": "clip-trade-btc-pump.mp3",
+      "bytes": 288564,
+      "chars": 284
     },
     {
-      "id": "ai-astra-stolen",
-      "topic_en": "OpenAI Accused of Theft",
-      "topic_zh": "OpenAI 抄人research？",
+      "id": "tech-ai-steal",
+      "topic_en": "AI Stealing Research",
+      "topic_zh": "AI偷你research",
       "category": "tech/ai",
-      "file": "clip-ai-astra-stolen.mp3",
-      "bytes": 334068,
-      "chars": 321
+      "file": "clip-tech-ai-steal.mp3",
+      "bytes": 287988,
+      "chars": 295
     },
     {
-      "id": "hk-grok-tos",
-      "topic_en": "Grok TOS Change",
-      "topic_zh": "Grok 改TOS",
+      "id": "hk-pisa",
+      "topic_en": "China PISA Scores",
+      "topic_zh": "中國PISA屠榜",
       "category": "hk/news",
-      "file": "clip-hk-grok-tos.mp3",
-      "bytes": 361716,
-      "chars": 364
+      "file": "clip-hk-pisa.mp3",
+      "bytes": 393972,
+      "chars": 302
     },
     {
       "id": "lol-blizz-union",
-      "topic_en": "Blizzard Forms Union",
+      "topic_en": "Blizzard Union",
       "topic_zh": "暴雪搞工會",
       "category": "lol/esports",
       "file": "clip-lol-blizz-union.mp3",
-      "bytes": 337524,
-      "chars": 345
+      "bytes": 251700,
+      "chars": 273
     },
     {
-      "id": "fit-ohp-1pl8",
-      "topic_en": "Chasing 1pl8 OHP",
-      "topic_zh": "1pl8 OHP 之路",
+      "id": "mma-cico",
+      "topic_en": "CICO Is Retarded",
+      "topic_zh": "CICO係低能",
       "category": "mma/fitness",
-      "file": "clip-fit-ohp-1pl8.mp3",
-      "bytes": 330612,
-      "chars": 265
+      "file": "clip-mma-cico.mp3",
+      "bytes": 311028,
+      "chars": 319
     },
     {
       "id": "anime-soremachi",
-      "topic_en": "Soremachi & Friends",
-      "topic_zh": "Soremachi & Friends",
+      "topic_en": "Soremachi Manga Ranking",
+      "topic_zh": "Soremachi角色rank",
       "category": "anime/culture",
       "file": "clip-anime-soremachi.mp3",
-      "bytes": 376116,
-      "chars": 386
+      "bytes": 290868,
+      "chars": 298
     }
   ]
 }
