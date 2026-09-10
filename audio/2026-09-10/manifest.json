@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-10",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t1-condo-stuck",
+      "topic_en": "Stuck with a Condo",
+      "topic_zh": "上車之後",
+      "category": "trading",
+      "file": "clip-t1-condo-stuck.mp3",
+      "bytes": 399732,
+      "chars": 315
+    },
+    {
+      "id": "t2-xrp-btc-doge",
+      "topic_en": "XRP, BTC, DOGE Faith",
+      "topic_zh": "XRP / BTC / DOGE 信仰",
+      "category": "trading",
+      "file": "clip-t2-xrp-btc-doge.mp3",
+      "bytes": 277044,
+      "chars": 291
+    },
+    {
+      "id": "ai-astra-stolen",
+      "topic_en": "OpenAI Accused of Theft",
+      "topic_zh": "OpenAI 抄人research？",
+      "category": "tech/ai",
+      "file": "clip-ai-astra-stolen.mp3",
+      "bytes": 334068,
+      "chars": 321
+    },
+    {
+      "id": "hk-grok-tos",
+      "topic_en": "Grok TOS Change",
+      "topic_zh": "Grok 改TOS",
+      "category": "hk/news",
+      "file": "clip-hk-grok-tos.mp3",
+      "bytes": 361716,
+      "chars": 364
+    },
+    {
+      "id": "lol-blizz-union",
+      "topic_en": "Blizzard Forms Union",
+      "topic_zh": "暴雪搞工會",
+      "category": "lol/esports",
+      "file": "clip-lol-blizz-union.mp3",
+      "bytes": 337524,
+      "chars": 345
+    },
+    {
+      "id": "fit-ohp-1pl8",
+      "topic_en": "Chasing 1pl8 OHP",
+      "topic_zh": "1pl8 OHP 之路",
+      "category": "mma/fitness",
+      "file": "clip-fit-ohp-1pl8.mp3",
+      "bytes": 330612,
+      "chars": 265
+    },
+    {
+      "id": "anime-soremachi",
+      "topic_en": "Soremachi & Friends",
+      "topic_zh": "Soremachi & Friends",
+      "category": "anime/culture",
+      "file": "clip-anime-soremachi.mp3",
+      "bytes": 376116,
+      "chars": 386
+    }
+  ]
+}
