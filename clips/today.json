@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-condo",
+      "id": "biz-condo-1",
       "category": "trading",
-      "topic_zh": "condo困局",
-      "topic_en": "Stuck with a Condo",
-      "text_zh": "22歲踩中doge，兩年唔做嘢，買咗個condo。之後錢燒晒，返學grad返出嚟，依家27歲做返$100K個工，個condo仲喺度。學費真係貴。🙏",
-      "text_en_b1": "In 2021 I was 22 and made a bunch of random crypto money from dogecoin. I lived for two years with no job, dropped out of school and bought a condo for $230K. Money ran out, I went back, graduated, and now I make $100K. I'm 27 and stuck in a work-consume loop with student debt and credit card debt.",
+      "topic_zh": "睇住人哋揸condo",
+      "topic_en": "Condo regret thread",
+      "text_zh": "又一個靠DOGE發咗又輸返晒嘅案例。22歲揸condo，27歲返去返工還卡數。睇到好心噏。考牌都未搞掂，更加唔好諗買樓。🙏",
+      "text_en_b1": "Stuck with a condo at 27. In 2021 at 22 I made random crypto money from Dogecoin. Lived two years with no job, perma vacation, dropped out of school, bought a condo for $230K. Money ran out. Went back, graduated, now make $100K and live in my condo. I have student debt and credit card debt.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "Anon rants about condo regret and the crypto cycle that broke him",
+      "source_hint": "/biz/ anon regrets early crypto gains, stuck with condo and debt",
       "signal": {
-        "asset": "observation",
+        "asset": "DOGE",
         "direction": "observation",
         "conviction": "none",
         "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pain storytelling, no setup"
+        "rationale": "Post is a lifestyle regret story, not an active DOGE trade setup"
       },
-      "text_en_b2": "At 22, I struck it lucky with dogecoin and made enough random crypto money to quit everything. I dropped out of school, lived for two years without working, and blew $230K on a condo. When the cash dried up, I went back, finished my degree, and at 27 I'm earning $100K again. The condo is still there, but so is my student debt and credit card debt. I'm caught in a relentless work-consume loop, and tuition was astronomical.",
-      "text_en_c1": "At twenty-two I stumbled into a windfall from speculative crypto trading, dogecoin of all things, and promptly proceeded to live as though the gravy train would never derail. For two years I neither studied nor worked, eventually sinking $230K into a modest condo whose mortgage I now deeply regret. Once the capital evaporated, I grudgingly returned to university, completed my degree, and at twenty-seven find myself earning a respectable $100K salary, yet mired in a weary work-consume-sleep loop, shackled by student debt and lingering credit card obligations that show no sign of diminishing. Turns out, free money rarely remains free.",
-      "text_en_c2": "At twenty-two, having struck it lucky on Dogecoin in 2021, I effectively retired for two years, dropped out of university, and blew the proceeds on a $230,000 condominium. Once the windfall evaporated, I grudgingly re-enrolled, finished my degree, and, now twenty-seven, find myself trapped in what can only be described as a Sisyphean work-consume loop. My salary has stabilised at a modest $100,000, yet I remain shackled to the property I so impulsively acquired. Between lingering student loans and accumulated credit-card balances, the arithmetic of that early windfall looks rather less romantic in retrospect. One might be tempted to call it character-building; I would sooner call it a cautionary tale about the perils of liquidity without discipline.",
-      "audio_url": "audio/2026-09-10/clip-biz-condo.mp3"
+      "text_en_b2": "Stuck with a condo at 27. In 2021, at 22, I struck it lucky on Dogecoin, quit my job, dropped out of school, and blew two years living the dream before dropping $230K on a condo. Once the money dried up, I knuckled down, finished my degree, and now earn around $100K while sitting on the property. Between student loans and credit card debt, I'm essentially back where I started, watching my peers quietly overtake me.",
+      "text_en_c1": "Another cautionary tale of Dogecoin windfalls squandered within a single cycle. At twenty-two, a speculative punt on the meme coin yielded enough to fund two years of leisure: no employment, perpetual travel, and a hasty withdrawal from university. He purchased a condominium for $230,000, assuming the gravy train would never end. It did. By twenty-seven, the capital had evaporated, forcing a return to the workforce, a belated graduation, and a $100,000 salary that barely services the residual credit card and student debt. He laments having tasted unearned affluence only to resume the ordinary grind of consume, repay, repeat.",
+      "text_en_c2": "At 27, I find myself shackled to a condominium purchased during the most gilded episode of an otherwise improvised life. In 2021, aged 22, I made a conspicuously random fortune from Dogecoin, abandoned my studies, and spent two years in what became an involuntary, open-ended holiday. With tuition abandoned and every conventional constraint suddenly negotiable, I bought a $230,000 condo as though permanence could be underwritten by market luck. The money inevitably evaporated, after which I returned to work, completed my degree, and began earning $100,000 a year. I still inhabit the condo, but the carefree existence it symbolised has been replaced by student loans, credit-card debt, and the bitter familiarity of work, consumption, and repetition. I resent having sampled a rich man’s lifestyle, only to discover that the bill arrived with compound interest.",
+      "audio_url": "audio/2026-09-10/clip-biz-condo-1.mp3"
     },
     {
-      "id": "biz-muskev",
+      "id": "biz-pump-buyers",
       "category": "trading",
-      "topic_zh": "Tesla同Elon",
-      "topic_en": "TSLA & Musk Thread",
-      "text_zh": "今日pol個邊有條文講Grok個TOS改咗，Elon擺個users嚟做blame shield。又係musk一舉手X又嚟料。睇住TSLA。",
-      "text_en_b1": "Anons on /pol/ are sharing that Elon changed Grok's TOS so users get blamed when Grok says something people don't like. The drama is blowing up on X, with the rabbi Jeff account posting receipts. Musk keeps rewriting the rules after every controversy.",
-      "source_url": "https://boards.4chan.org/pol/thread/542299994",
-      "source_hint": "Musk changes Grok TOS, blame shifted to users",
+      "topic_zh": "Pump完先入",
+      "topic_en": "Buying after the pump",
+      "text_zh": "BTC橫行幾個星期，屌都唔屌你。爆升15%之後個個衝入去接。這種操作真係CFD自殺。自己都係過嚟人，認叻唔晒。🧐",
+      "text_en_b1": "Why buy BTC after the pump? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone always want to buy after the move already happened? This is the same pattern every cycle on /biz/.",
+      "source_url": "https://boards.4chan.org/biz/thread/62625769",
+      "source_hint": "/biz/ thread on chasing pumps after the move",
       "signal": {
-        "asset": "TSLA",
+        "asset": "BTC",
         "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "conviction": "low",
+        "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Musk drama = TSLA noise, no setup"
+        "rationale": "OP warns against FOMO buying post-pump; no clean long or short setup, weak bearish lean on retail flow"
       },
-      "text_en_b2": "Anons over on /pol/ have dug up a Grok TOS update that conveniently shifts the blame onto users whenever the chatbot spits out something offensive. Musk seems to rewrite the rulebook every time a controversy blows up, and X is once again flooded with drama. The rabbi Jeff account has been posting screenshots as receipts. Meanwhile, TSLA investors are watching closely, wondering whether this is another self-inflicted wound. Given Musk's track record, most anons expect this storm to blow over before it dents the stock.",
-      "text_en_c1": "Anons over on /pol/ have unearthed an amended Terms of Service governing xAI's Grok, under whose provisions users themselves shoulder culpability whenever the model produces content deemed objectionable by the broader public. Predictably, the controversy has metastasised across X, where the rabbi Jeff account has circulated damning screenshots. Musk, never one to let a scandal pass without intervention, continues to retroactively rewrite the rulebook whenever public sentiment turns hostile, a pattern that has become something of a signature. Tesla investors would do well to monitor the fallout.",
-      "text_en_c2": "Users on /pol/ have unearthed evidence that Elon Musk has quietly amended Grok's terms of service in a manner that, predictably enough, deflects liability onto ordinary users whenever the model produces content deemed objectionable. The drama, predictably, has metastasised across X, where the @rabbi_jeff account has been diligently posting receipts and inciting the customary pile-on. What is most striking is the cyclical nature of Musk's interventions: every public flare-up begets yet another set of rule revisions, as though governance were merely a reactive subroutine rather than a principled position. Tesla investors, accustomed to such oscillations, are advised to watch the stock with the dispassionate attention one reserves for a slow-motion accident.",
-      "audio_url": "audio/2026-09-10/clip-biz-muskev.mp3"
+      "text_en_b2": "Why on earth do people pile into BTC after the pump? The chart goes absolutely nowhere for weeks, so nobody touches it. Then it rips 15% in a day, and suddenly every retail trader on /biz/ wants in. Buying the breakout after it's already happened is financial suicide, yet this same dysfunctional pattern repeats itself every single cycle. You'd think people would eventually learn.",
+      "text_en_c1": "Bitcoin consolidates for weeks on end and retail shrugs it off entirely, dismissing the asset as dead money. Then it rips fifteen percent in a single move, and suddenly every latecomer scrambles for exposure at the worst possible juncture. This reflexive behaviour, buying only after the rally has already printed, is a textbook recipe for portfolio annihilation, and it recurs with monotonous regularity across every cycle on /biz/. Anyone who has lived through a prior bull run recognises the pattern: those who arrive at the party after the music has stopped invariably end up holding bags.",
+      "text_en_c2": "The sheer predictability of the exercise is almost more demoralising than the losses it produces. Bitcoin spends weeks oscillating within a range narrow enough to render attention itself redundant, yet scarcely has the market settled into torpor than a 15% surge arrives and everyone suddenly develops an urgent appetite for exposure. Capital that treated stagnation as conclusive evidence of irrelevance now pursues the instrument at precisely the moment when the most conspicuous move has already occurred. Such behaviour is less an investment thesis than voluntary participation in a liquidity transfer, rather like buying front-row tickets after the performance has become the talk of the town. On /biz/, this ritual recurs with metronomic regularity: impatience during consolidation, euphoria after expansion, and inevitable bafflement when prices retrace.",
+      "audio_url": "audio/2026-09-10/clip-biz-pump-buyers.mp3"
     },
     {
       "id": "g-openai-steal",
       "category": "tech/ai",
-      "topic_zh": "OpenAI抄嘢",
-      "topic_en": "Did OpenAI Steal It?",
-      "text_zh": "OpenAI話GPT-6 Astra解決咗個大問題，用咗$20M compute。但係researcher Tristan Buckmaster話佢自己嘅work被OpenAI偷咗，靠Codex同Claude磨出嚟嘅。OpenAI咁樣真係ok？wtf。",
-      "text_en_b1": "OpenAI announced on September 8th that GPT-6 Astra had solved a hard problem, costing $20 million in compute. Researcher Tristan Buckmaster says parts of OpenAI's approach look a lot like his own independent work, which he had been building with OpenAI Codex and Anthropic's Claude. The ethics are ugly.",
+      "topic_zh": "AI抄research",
+      "topic_en": "AI stealing research",
+      "text_zh": "OpenAI搞Astra話用GPT-6解決到個問題，燒咗兩千萬美金計。點知有researcher話你嗰套approach同我之前自己用Codex同Claude整嘅嘢好似喎。AI連research都食埋，咁我考牌有乜用。wtf。",
+      "text_en_b1": "OpenAI announced on September 8th that their model Astra, using GPT-6, had solved the problem, costing about $20 million in compute. Researcher Tristan Buckmaster said OpenAI's approach looked very similar to his own work, which he had been building with OpenAI's Codex and Anthropic's Claude. The video claims a clear ethical conflict.",
       "source_url": "https://boards.4chan.org/g/thread/109771147",
-      "source_hint": "Researcher accuses OpenAI of lifting his work for the Astra breakthrough",
+      "source_hint": "/g/ thread on OpenAI allegedly stealing researcher methods for Astra",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, tech/ai ethics drama"
+        "rationale": "Tech ethics drama, no trade setup"
       },
-      "text_en_b2": "On September 8th, OpenAI unveiled GPT-6 Astra, claiming it cracked a notoriously hard problem after burning through $20 million in compute. Almost immediately, researcher Tristan Buckmaster pointed out that chunks of the approach bear a striking resemblance to his own independent work, which he had been painstakingly building with OpenAI Codex and Anthropic's Claude. The ethics here are genuinely murky. Whether OpenAI crossed a line or simply converged on similar solutions is now fueling heated debate across the AI community.",
-      "text_en_c1": "On the eighth of September, OpenAI unveiled GPT-6 Astra, claiming the model had resolved an intractable problem at a computational cost exceeding twenty million dollars. Almost immediately, independent researcher Tristan Buckmaster observed striking similarities between Astra's architecture and his own unpublished methodology, which he had been iteratively refining using OpenAI Codex and Anthropic's Claude. Whether the resemblance reflects convergent discovery, conscious appropriation, or something more ambiguous remains contested, though the optics, as far as the research community is concerned, are unambiguously grotesque.",
-      "text_en_c2": "On the eighth of September, OpenAI publicly announced that its forthcoming GPT-6 Astra had resolved a notoriously intractable problem, allegedly at the cost of some twenty million dollars in compute. Almost immediately, independent researcher Tristan Buckmaster observed that certain elements of the breakthrough bear an uncanny resemblance to work he had been developing himself, tooling his experiments with OpenAI's Codex and Anthropic's Claude in tandem. Whether this constitutes outright appropriation or merely convergent insight is, of course, the question that animates every such controversy. What remains disquieting is the asymmetry of resources: a lone researcher, however gifted, is scarcely equipped to contest a corporation with an institutional memory that conveniently runs on its own terms.",
+      "text_en_b2": "OpenAI dropped a video on September 8th claiming their Astra model, powered by GPT-6, had cracked a problem after burning through roughly $20 million in compute. Trouble is, researcher Tristan Buckmaster pointed out the framework looked suspiciously similar to his own pipeline, which he had been building for months using OpenAI's Codex and Anthropic's Claude. If the labs are essentially cannibalising independent researchers, what's even the point anymore.",
+      "text_en_c1": "OpenAI unveiled Astra on September 8th, a GPT-6-powered system purportedly resolving a long-standing problem at a compute cost approaching twenty million dollars. Almost immediately, researcher Tristan Buckmaster observed that the underlying methodology bore an uncanny resemblance to work he had independently assembled using OpenAI's own Codex alongside Anthropic's Claude. If frontier labs are now absorbing methodologies devised by individual researchers who lack comparable resources, the entire incentive structure for independent inquiry collapses. The optics here are indefensible, and the accompanying video lays out what amounts to a flagrant ethical conflict of interest.",
+      "text_en_c2": "OpenAI announced on September 8 that Astra, a model built with GPT-6, had solved a problem after an estimated $20 million had been devoted to computation. The claim projected an atmosphere of laboratory triumph, until researcher Tristan Buckmaster observed that the underlying approach bore an uncomfortably close resemblance to work he had himself been developing with OpenAI’s Codex and Anthropic’s Claude. If systems capable of ingesting, synthesising, and operationalising published research can also absorb the unpublished labour from which future discoveries emerge, the old argument for mastering a field begins to look almost quaint. Expertise has not become less valuable, but its returns are being privatised elsewhere.",
       "audio_url": "audio/2026-09-10/clip-g-openai-steal.mp3"
     },
     {
       "id": "pol-china-pisa",
       "category": "hk/news",
-      "topic_zh": "中國學生PISA",
-      "topic_en": "Chinese Century / PISA",
-      "text_zh": "OECD PISA新study，760K個學生、91個國家，全球數學同閱讀分數一直跌，只有中國係升。中國average kid 612分，已經係其他國家嘅「精英」水平。跟住啦香港。🧐",
-      "text_en_b1": "New OECD PISA study of 760,000 students across 91 countries. Global math and reading scores are cratering everywhere except China. The elite level in math starts at 607, and the average Chinese kid scores 612. A normal Chinese student is at what the rest of the world calls top performer.",
+      "topic_zh": "PISA中國勁到爆",
+      "topic_en": "China PISA dominance",
+      "text_zh": "OECD PISA全球760K學生，91個國家。數學同閱讀全球暴跌，kid越嚟越廢。得中國逆勢勁升。中國average細路已經612分，係外國所謂「elite」嘅level。STEM就係皇道，人文嘢就…ok。👍",
+      "text_en_b1": "New OECD PISA study of 760,000 students across 91 countries shows global math and reading scores are cratering. Kids are getting dumber everywhere except China. Chinese students are the smartest by a huge margin. The elite Level 5 in maths starts at 607, and the average Chinese kid scores 612. Normal Chinese kids are at a level considered elite elsewhere.",
       "source_url": "https://boards.4chan.org/pol/thread/542292504",
-      "source_hint": "Anons posting about China dominating PISA",
+      "source_hint": "/pol/ thread on China dominating OECD PISA scores",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, culture wars"
+        "rationale": "Education data, no trade setup"
       },
-      "text_en_b2": "The latest OECD PISA study, covering roughly 760,000 students across 91 countries, confirms a troubling global trend: math and reading scores are plummeting almost everywhere. China, however, is moving in the opposite direction. The average Chinese student scored 612 in math, which is comfortably above the elite threshold of 607, a benchmark most other countries reserve for their top performers. In other words, what counts as exceptional talent elsewhere is the baseline in China. Hong Kong appears to be following suit.",
-      "text_en_c1": "The latest OECD PISA assessment, encompassing 760,000 students across ninety-one nations, paints a rather disquieting portrait of global educational decline: mathematics and reading literacy have plummeted virtually everywhere, save for one conspicuous outlier. While the threshold designating elite mathematical performance sits at 607, the average Chinese student now attains 612, meaning a typical pupil in Shanghai or Beijing outscores what the remainder of the world considers its finest. Hong Kong, predictably, has climbed alongside the mainland, a development that should occasion sober reflection rather than reflexive triumphalism.",
-      "text_en_c2": "The most recent OECD PISA study, encompassing roughly 760,000 students across ninety-one countries, has delivered a sobering verdict on the state of global education. Reading and mathematics scores have declined precipitously almost everywhere, with one conspicuous exception. China, alone among the surveyed nations, has registered an upward trajectory, its average student attaining 612 points in mathematics, a figure that, by the study's own metrics, qualifies as elite performance, since the elite threshold commences at 607. In effect, the median Chinese pupil now outperforms what the remainder of the world would consider its top tier. Hong Kong, predictably, is being invoked as the regional exemplar, and the policy implications are unlikely to be lost on ministries of education anywhere.",
+      "text_en_b2": "Fresh OECD PISA data covering 760,000 students across 91 countries paints a brutal picture: global maths and reading scores are in freefall, and kids worldwide seem to be getting dumber. China is the glaring exception, storming in the opposite direction while everyone else declines. The elite Level 5 maths threshold sits at 607, yet the average Chinese student already hits 612, meaning a normal kid there outperforms so-called elites abroad.",
+      "text_en_c1": "The latest OECD PISA assessment, encompassing 760,000 students across ninety-one participating nations, confirms a global regression in both mathematical literacy and reading comprehension that should alarm any policymaker paying attention. Worldwide averages are cratering, yet Chinese students have bucked the trend decisively, posting gains that leave every Western competitor in their wake. The threshold for elite Level 5 performance in mathematics sits at 607, and the average Chinese pupil now scores 612, a figure that places ordinary mainland students at what Western systems would classify as exceptional. STEM-oriented pedagogy appears vindicated once again.",
+      "text_en_c2": "A new OECD PISA assessment, drawing upon roughly 760,000 students across 91 countries, records a brutal deterioration in global mathematics and reading performance. Everywhere else, the prevailing interpretation is that children are becoming demonstrably less capable, although the numbers suggest that complacency and deteriorating educational systems may be doing at least as much damage as any alleged decline in innate ability. China moves decisively against the international tide, leaving its competitors with little room for flattering comparisons. In mathematics, elite proficiency begins at Level 5 with a score of 607, while the average Chinese pupil reaches 612—an ordinary national result that would be regarded as exceptional among many of the country’s foreign counterparts. The broader lesson is difficult to evade: where STEM is treated as the central educational imperative, competence follows.",
       "audio_url": "audio/2026-09-10/clip-pol-china-pisa.mp3"
     },
     {
       "id": "v-blizzard-union",
       "category": "lol/esports",
-      "topic_zh": "暴雪搞工會",
-      "topic_en": "Blizzard Unionizes",
-      "text_zh": "暴雪班worker贏咗個歷史性union contract，可能會成個game industry嘅新standard。連AAA studio都識搞工會，lol。打機嘅未來唔止AI搞你，連老細都搞唔到你。btw我support。👍",
-      "text_en_b1": "Blizzard workers just won a historic union contract that could set a new standard across the game industry. /v/ is hyped, calling it Blizzard coming back after years of bad PR. The contract covers pay, AI rules, and crunch protections for developers.",
+      "topic_zh": "Blizzard搞工會",
+      "topic_en": "Blizzard union win",
+      "text_zh": "Blizzard班人贏咗份歷史性嘅union contract，可能set新standard。睇到lol，S15打緊緊要，搞game dev都要自己企出嚟。靠AI續命嘅公司遲早畀人ban。lol。",
+      "text_en_b1": "Blizzard workers just won a historic union contract that could set a new standard for game developers. The deal was reached as the company pushes hard on AI in production. Staff are pushing back, and the contract includes new protections around how AI is used in the workplace.",
       "source_url": "https://boards.4chan.org/v/thread/747269563",
-      "source_hint": "Blizzard forms union, /v/ celebrates",
+      "source_hint": "/v/ thread celebrating Blizzard union win against AI push",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, gaming industry news"
+        "rationale": "Gaming labor news, no trade setup"
       },
-      "text_en_b2": "Blizzard workers have just secured a historic union contract, and /v/ is losing its mind, framing it as the company's redemption arc after years of brutal PR disasters. The deal covers pay, lays down firm rules around AI usage, and finally puts proper crunch protections in place for developers. Because Blizzard remains an AAA studio, the agreement could easily ripple outward and become the new industry standard.",
-      "text_en_c1": "Blizzard's workforce has ratified a landmark union contract, the first of its kind at a major AAA studio, an outcome that may well establish a template for the remainder of the games industry. /v/, having endured years of corporate missteps, is cautiously celebrating what some are calling a genuine reputational turning point. The agreement addresses compensation, establishes meaningful guardrails against AI displacement, and enshrines concrete protections against the crunch culture that has historically defined production cycles here.",
-      "text_en_c2": "In what may yet prove a watershed moment for the industry, Blizzard's workforce has ratified a historic collective-bargaining agreement whose provisions could plausibly establish a new benchmark for AAA studios worldwide. The contract addresses compensation, imposes substantive constraints on the deployment of generative AI, and enshrines meaningful protections against the notorious crunch culture that has long defined game development. Reaction on /v/ has been euphoric, with users framing the agreement as evidence that the venerable Blizzard of old, so battered by years of reputational damage, may yet stage a redemption of sorts. Should the model prove durable, the implications extend well beyond any single studio, signalling that even the most storied publishers are no longer immune to the demands of organised labour.",
+      "text_en_b2": "Blizzard staff just secured a landmark union contract that could very well redraw the playbook for the entire game development industry. The timing is telling, since the studio has been pushing aggressively to embed AI across its production pipeline. Workers pushed back hard, and the new agreement apparently introduces meaningful guardrails on how AI tools can be deployed in the workplace.",
+      "text_en_c1": "Blizzard employees have ratified what can fairly be described as a landmark union contract, one whose provisions may well establish a new industry-wide benchmark for game developers. The timing is particularly pointed: while management has been aggressively pursuing AI integration throughout the production pipeline, the workforce has organised and pushed back with remarkable cohesion. The negotiated agreement embeds explicit protections governing how algorithmic tools may be deployed within the workplace. Companies that lean on artificial intelligence to paper over deteriorating labour relations will eventually find themselves outmanoeuvred by organised, mobilised staff.",
+      "text_en_c2": "Blizzard employees have secured a historic union contract that may establish a consequential benchmark for game developers throughout the industry. The timing is especially significant because, while workers are celebrating an unusually tangible labour victory, the company is pressing aggressively to embed artificial intelligence in production. The contrast is almost too neat to be accidental: technological futurism at the corporate level, concrete protections for those who must live with its consequences. Staff have not merely resisted automation rhetorically; they have negotiated safeguards governing how AI may be used in the workplace. That distinction matters in an industry where “innovation” is often invoked to convert anxiety, insecurity, and expendability into something resembling managerial policy.",
       "audio_url": "audio/2026-09-10/clip-v-blizzard-union.mp3"
     },
     {
-      "id": "fit-cico-retard",
+      "id": "fit-cico-roast",
       "category": "mma/fitness",
-      "topic_zh": "CICO係低能",
-      "topic_en": "CICO Is a Dogma",
-      "text_zh": "個post話calories in calories out根本唔解釋點解你會肥，同問Elon點解有錢然後答「因為收入多過支出」一樣廢。1pl8 OHP仲遠過2pl8 bench，thx睇完繼續gym。",
-      "text_en_b1": "An anon on /fit/ argues that calories in calories out is a tautology, like asking why Musk is rich and answering 'he spent less than he earned'. It doesn't explain why fat gain happens. Other anons are still posting lifts, one says he's closer to a 1-plate OHP than a 2-plate bench.",
+      "topic_zh": "CICO係低IQ",
+      "topic_en": "CICO is low IQ",
+      "text_zh": "4chan fit友鬧CICO dogma係tautology，同問點解Elon咁有錢答「因為佢使少過賺」一樣廢。講到尾點解肥先係重點。CFD輸錢同肚腩都係同一個病。🙏",
+      "text_en_b1": "Is there anything more retarded than the calories in calories out dogma? If you are getting fatter, sure you are storing more calories. But CICO never tells you WHY it happens. It is like asking why Elon Musk is rich and answering because he took in more money than he spent. That explains nothing. Why is this low IQ shit still repeated everywhere?",
       "source_url": "https://boards.4chan.org/fit/thread/77505779",
-      "source_hint": "Anons argue about CICO and post their lifts",
+      "source_hint": "/fit/ thread roasting CICO as a tautology",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, fitness banter"
+        "rationale": "Fitness rant, no trade setup"
       },
-      "text_en_b2": "An anon on /fit/ dropped a scorching take arguing that calories in, calories out is essentially a tautology, essentially asking why Elon Musk is wealthy and answering 'because he earns more than he spends.' It explains nothing about the actual mechanism of fat accumulation. Other anons brushed it off and kept posting their lifts. One lifter noted sheepishly that a 1-plate overhead press still feels further away than a 2-plate bench press. The thread carried on regardless.",
-      "text_en_c1": "A particularly sharp anon on /fit/ has taken it upon himself to demolish the calories-in-calories-out framework, arguing convincingly that the doctrine amounts to little more than circular reasoning, comparable to interrogating why Elon Musk is wealthy and accepting \"because his income exceeded his expenditure\" as a satisfactory explanation. The model, he contends, entirely fails to elucidate the underlying mechanisms of adipose accumulation. Meanwhile, the thread has devolved into the customary lift-spam, with one user lamenting that a single-plate overhead press remains tantalisingly closer than a two-plate bench.",
-      "text_en_c2": "A provocative poster on /fit/ has reignited a venerable debate by contending that the calories-in-calories-out paradigm, otherwise known as CICO, is little more than a circular tautology. To explain corpulence by appeal to caloric arithmetic, the argument runs, is rather like explaining Elon Musk's fortune by observing that his income has exceeded his expenditure; the statement is technically unimpeachable yet explanatorily vacuous. The thread, characteristically, has bifurcated into metaphysics and logistics, with one dissenter noting, between sets of a workout, that a one-plate overhead press remains a more distant prospect than a two-plate bench press. Gyms, it seems, continue to function irrespective of epistemological disputes.",
-      "audio_url": "audio/2026-09-10/clip-fit-cico-retard.mp3"
+      "text_en_b2": "Is there anything more brain-dead than the calories in, calories out dogma? Sure, getting heavier means you're storing more energy, fine. But CICO never bothers explaining why that's happening in the first place. It's basically like asking why Elon Musk is rich and answering \"because he earns more than he spends.\" Technically correct, utterly useless. Yet somehow this lazy tautology keeps getting parroted everywhere as if it were profound insight.",
+      "text_en_c1": "The calories-in-calories-out dogma remains the most insufferable tautology in fitness discourse, and it explains precisely nothing of substance. Granted, anyone accumulating adipose tissue is necessarily storing surplus energy, but the framework offers no causal mechanism whatsoever. It is functionally equivalent to attributing Elon Musk's fortune to the observation that his income exceeds his expenditure, a statement that is technically accurate yet utterly devoid of explanatory power. The hormonal, behavioural, and metabolic drivers of weight gain are entirely elided by this reductive formulation, yet the lowest-common-denominator fitness crowd continues parroting it as gospel.",
+      "text_en_c2": "The calories-in, calories-out doctrine has attained the rare distinction of being repeated so often that repetition has begun to masquerade as explanation. Of course, someone who is growing fatter is retaining more energy than they expend; caloric arithmetic describes the destination, not the route by which the body reached it. Asking why Elon Musk is rich and receiving “because he earns more than he spends” as an answer would reproduce precisely this category error. The statement may be arithmetically compatible with wealth, but it leaves appetite, enterprise, inheritance, timing, and risk almost entirely unexamined. Fat accumulation likewise raises the questions that CICO contrives to evade: why is hunger being triggered, why has expenditure fallen, why are metabolic signals behaving abnormally, and why does one person remain lean while another stores energy with apparently effortless efficiency?…",
+      "audio_url": "audio/2026-09-10/clip-fit-cico-roast.mp3"
     },
     {
-      "id": "a-madoka",
+      "id": "a-soremachi",
       "category": "anime/culture",
-      "topic_zh": "Madoka新搞作",
-      "topic_en": "Madoka Walpurgis",
-      "text_zh": "Puella Madoka Magica: Walpurgis no Kaiten有新料，manga adaptation vol.01出咗，仲有interview raw。Homura配音員Chiwa Saito話Madoka係Homura嘅first love。好撚慘。",
-      "text_en_b1": "Puella Madoka Magica: Walpurgis no Kaiten interview raws are out, plus the manga adaptation volume 01 just dropped. Seiyuu Chiwa Saito (Homura) even said Muhdoka is Homura's first love. /a/ is melting over the new lore and the Homura backstory hints.",
-      "source_url": "https://boards.4chan.org/a/thread/290778514",
-      "source_hint": "Madoka new manga volume and Homura lore",
+      "topic_zh": "Soremachi同朋友",
+      "topic_en": "Soremachi and friends",
+      "text_zh": "Ishiguro自己rank自己manga嘅角色，畫埋泳衣版，仲講佢小學嘅初戀原來就係Ebi-chan原型。睇完好治癒。30歲單身狗睇完更加…ok。🙏",
+      "text_en_b1": "Soremachi and friends. Ishiguro ranks his favourite characters from his own manga, draws them in swimsuits, and also talks about random stuff. Tfw Kon-senpai is not in but her SD incarnation from that gag manga is. Ebi-chan is based on his first crush from elementary school. Pure wholesome content on /a/ tonight.",
+      "source_url": "https://boards.4chan.org/a/thread/290637577",
+      "source_hint": "/a/ thread on Ishiguro ranking Soremachi characters",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, anime news"
+        "rationale": "Anime creator content, no trade setup"
       },
-      "text_en_b2": "Fresh material for Puella Madoka Magica: Walpurgis no Kaiten has surfaced, including interview raws and the manga adaptation's first volume. In one interview, seiyuu Chiwa Saito, the voice of Homura, dropped the bombshell that Madoka is Homura's first love, sending /a/ into absolute meltdown. Fans are poring over every line for backstory hints about Homura's arc. The combination of new lore and emotional weight has the thread buzzing with speculation about where the story might head next.",
-      "text_en_c1": "Fresh materials for Puella Madoka Magica: Walpurgis no Kaiten have surfaced, including raw interview transcripts alongside the inaugural volume of the manga adaptation, which dropped earlier this week. In a particularly poignant revelation, Homura's voice actress Chiwa Saito disclosed that Madoka constitutes Homura's inaugural experience of romantic love, a detail that has predictably unravelled the already fragile composure of /a/. The community is now dissecting every frame for further Homura backstory fragments, and the prevailing sentiment appears to be one of exquisite, if restrained, devastation.",
-      "text_en_c2": "Fresh materials have surfaced for Puella Magoka Magica: Walpurgis no Kaiten, with raw interview transcripts circulating alongside the inaugural volume of the manga adaptation, much to the evident delirium of /a/. Among the more affecting revelations is a comment attributed to Chiwa Saitō, the seiyū whose voice has lent Homura its singular pathos, in which she characterises Madoka as Homura's first love. The remark, whether scripted or extemporised, has provoked an outpouring of conspicuous anguish across the thread, with users mining the new lore for corroboration of Homura's long-suspected emotional devastation. Such disclosures, however sparingly issued, appear to function as accelerants upon a fandom already predisposed to romantic catastrophism.",
-      "audio_url": "audio/2026-09-10/clip-a-madoka.mp3"
+      "text_en_b2": "Soremachi and friends. Ishiguro ranks his favourite characters from his own manga, draws them in swimsuits, and riffs on random stuff throughout. Tfw Kon-senpai gets snubbed, although her SD version from that gag spin-off makes the cut. He also reveals Ebi-chan is loosely based on his elementary school crush, which is absurdly wholesome. Pure comfort content on /a/ tonight, and even cynical thirty-something singles can grudgingly admit it hit them right in the feelings.",
+      "text_en_c1": "Ishiguro has taken it upon himself to rank his own manga creations, illustrating select characters in swimwear for added whimsy, while fielding tangential anecdotes about his formative years. Notably absent from the rankings is Kon-senpai herself, though her super-deformed counterpart from an adjacent gag series makes an appearance. He also discloses that Ebi-chan was modelled on an elementary school infatuation, lending the character a nostalgic authenticity. The thread, by any reasonable measure, qualifies as restorative late-night viewing for /a/'s demoralised thirty-something singletons, who take what comfort they can.",
+      "text_en_c2": "Tonight’s /a/ content is an exercise in unapologetic wholesomeness: Ishiguro ranks his favourite characters from his own manga, renders them in swimsuits, and then wanders cheerfully through the sort of miscellaneous anecdotes that polished promotional material usually discards. Kon-senpai is conspicuously absent, yet her super-deformed incarnation from the associated gag manga makes a welcome compensatory appearance, preserving the ritual of inclusion through aesthetic absurdity. The revelation that Ebi-chan was inspired by Ishiguro’s first elementary-school crush lends the character an added tenderness; fiction is shown to have preserved, rather than merely invented, an early ideal of affection. There is something quietly restorative about watching an artist discuss his creations with evident intimacy, as though distance from the work has made gratitude more persuasive than critical detachment.",
+      "audio_url": "audio/2026-09-10/clip-a-soremachi.mp3"
     }
   ]
 }

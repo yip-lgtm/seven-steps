@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-condo",
-      "topic_en": "Stuck with a Condo",
-      "topic_zh": "condo困局",
+      "id": "biz-condo-1",
+      "topic_en": "Condo regret thread",
+      "topic_zh": "睇住人哋揸condo",
       "category": "trading",
-      "file": "clip-biz-condo.mp3",
-      "bytes": 335796,
-      "chars": 299
+      "file": "clip-biz-condo-1.mp3",
+      "bytes": 364020,
+      "chars": 291
     },
     {
-      "id": "biz-muskev",
-      "topic_en": "TSLA & Musk Thread",
-      "topic_zh": "Tesla同Elon",
+      "id": "biz-pump-buyers",
+      "topic_en": "Buying after the pump",
+      "topic_zh": "Pump完先入",
       "category": "trading",
-      "file": "clip-biz-muskev.mp3",
-      "bytes": 258612,
-      "chars": 251
+      "file": "clip-biz-pump-buyers.mp3",
+      "bytes": 269556,
+      "chars": 255
     },
     {
       "id": "g-openai-steal",
-      "topic_en": "Did OpenAI Steal It?",
-      "topic_zh": "OpenAI抄嘢",
+      "topic_en": "AI stealing research",
+      "topic_zh": "AI抄research",
       "category": "tech/ai",
       "file": "clip-g-openai-steal.mp3",
-      "bytes": 315636,
-      "chars": 303
+      "bytes": 350772,
+      "chars": 336
     },
     {
       "id": "pol-china-pisa",
-      "topic_en": "Chinese Century / PISA",
-      "topic_zh": "中國學生PISA",
+      "topic_en": "China PISA dominance",
+      "topic_zh": "PISA中國勁到爆",
       "category": "hk/news",
       "file": "clip-pol-china-pisa.mp3",
-      "bytes": 359412,
-      "chars": 288
+      "bytes": 472884,
+      "chars": 357
     },
     {
       "id": "v-blizzard-union",
-      "topic_en": "Blizzard Unionizes",
-      "topic_zh": "暴雪搞工會",
+      "topic_en": "Blizzard union win",
+      "topic_zh": "Blizzard搞工會",
       "category": "lol/esports",
       "file": "clip-v-blizzard-union.mp3",
-      "bytes": 262644,
-      "chars": 250
+      "bytes": 273012,
+      "chars": 277
     },
     {
-      "id": "fit-cico-retard",
-      "topic_en": "CICO Is a Dogma",
-      "topic_zh": "CICO係低能",
+      "id": "fit-cico-roast",
+      "topic_en": "CICO is low IQ",
+      "topic_zh": "CICO係低IQ",
       "category": "mma/fitness",
-      "file": "clip-fit-cico-retard.mp3",
-      "bytes": 295476,
-      "chars": 282
+      "file": "clip-fit-cico-roast.mp3",
+      "bytes": 370356,
+      "chars": 349
     },
     {
-      "id": "a-madoka",
-      "topic_en": "Madoka Walpurgis",
-      "topic_zh": "Madoka新搞作",
+      "id": "a-soremachi",
+      "topic_en": "Soremachi and friends",
+      "topic_zh": "Soremachi同朋友",
       "category": "anime/culture",
-      "file": "clip-a-madoka.mp3",
-      "bytes": 291444,
-      "chars": 250
+      "file": "clip-a-soremachi.mp3",
+      "bytes": 346740,
+      "chars": 314
     }
   ]
 }
