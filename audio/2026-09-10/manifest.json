@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs 黃金",
+      "id": "t1-condo-stuck",
+      "topic_en": "Stuck with a Condo",
+      "topic_zh": "樓市困獸",
       "category": "trading",
-      "file": "clip-trade-btc-vs-gold.mp3",
-      "bytes": 283380,
+      "file": "clip-t1-condo-stuck.mp3",
+      "bytes": 336372,
       "chars": 293
     },
     {
-      "id": "trade-btc-pump",
-      "topic_en": "BTC Buy After Pump",
-      "topic_zh": "點解泵完先入",
+      "id": "t2-btc-after-pump",
+      "topic_en": "Why buy BTC after the pump",
+      "topic_zh": "FOMO入場",
       "category": "trading",
-      "file": "clip-trade-btc-pump.mp3",
-      "bytes": 288564,
-      "chars": 284
-    },
-    {
-      "id": "tech-ai-steal",
-      "topic_en": "AI Stealing Research",
-      "topic_zh": "AI偷你research",
-      "category": "tech/ai",
-      "file": "clip-tech-ai-steal.mp3",
-      "bytes": 287988,
-      "chars": 295
-    },
-    {
-      "id": "hk-pisa",
-      "topic_en": "China PISA Scores",
-      "topic_zh": "中國PISA屠榜",
-      "category": "hk/news",
-      "file": "clip-hk-pisa.mp3",
-      "bytes": 393972,
-      "chars": 302
-    },
-    {
-      "id": "lol-blizz-union",
-      "topic_en": "Blizzard Union",
-      "topic_zh": "暴雪搞工會",
-      "category": "lol/esports",
-      "file": "clip-lol-blizz-union.mp3",
-      "bytes": 251700,
+      "file": "clip-t2-btc-after-pump.mp3",
+      "bytes": 268404,
       "chars": 273
     },
     {
-      "id": "mma-cico",
-      "topic_en": "CICO Is Retarded",
-      "topic_zh": "CICO係低能",
-      "category": "mma/fitness",
-      "file": "clip-mma-cico.mp3",
-      "bytes": 311028,
-      "chars": 319
+      "id": "ai-astraplagiarism",
+      "topic_en": "OpenAI plagiarism claim",
+      "topic_zh": "OpenAI抄功課",
+      "category": "tech/ai",
+      "file": "clip-ai-astraplagiarism.mp3",
+      "bytes": 353652,
+      "chars": 316
     },
     {
-      "id": "anime-soremachi",
-      "topic_en": "Soremachi Manga Ranking",
-      "topic_zh": "Soremachi角色rank",
+      "id": "hk-china-pisa",
+      "topic_en": "Chinese Century PISA",
+      "topic_zh": "中國學生贏晒",
+      "category": "hk/news",
+      "file": "clip-hk-china-pisa.mp3",
+      "bytes": 393396,
+      "chars": 328
+    },
+    {
+      "id": "lol-blizzard-union",
+      "topic_en": "Blizzard union win",
+      "topic_zh": "暴雪搞工會",
+      "category": "lol/esports",
+      "file": "clip-lol-blizzard-union.mp3",
+      "bytes": 294324,
+      "chars": 295
+    },
+    {
+      "id": "fit-cico-dogma",
+      "topic_en": "CICO is a meme",
+      "topic_zh": "卡路里謬論",
+      "category": "mma/fitness",
+      "file": "clip-fit-cico-dogma.mp3",
+      "bytes": 326004,
+      "chars": 330
+    },
+    {
+      "id": "anime-madoka-homu",
+      "topic_en": "Madoka Homu love",
+      "topic_zh": "圓焰實錘",
       "category": "anime/culture",
-      "file": "clip-anime-soremachi.mp3",
-      "bytes": 290868,
-      "chars": 298
+      "file": "clip-anime-madoka-homu.mp3",
+      "bytes": 292596,
+      "chars": 273
     }
   ]
 }
