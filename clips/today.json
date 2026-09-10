@@ -4,14 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "clip01-trading-condo",
+      "id": "biz-condo",
       "category": "trading",
-      "topic_zh": "Condo困局",
-      "topic_en": "Stuck with a Condo",
-      "text_zh": "22歲賭狗賺咗錢，即刻買咗condo，唔返學唔做嘢。兩年燒晒，出嚟做返$100K工，仲要背學生債同卡數。我睇到個post即時諗起自己prop firm輸緊嗰幾千美金⋯⋯都係同一個loop。廢柴。",
-      "text_en_b1": "In 2021, when the OP was 22, he made random crypto money from dogecoin. He lived for two years with no job, took a permanent vacation, and dropped out of school to buy a $230K condo. The money eventually ran out. Now 27, he works again, earns $100K, but still carries student debt and credit card debt.",
+      "topic_zh": "食晒無得返",
+      "topic_en": "Crypto condo story",
+      "text_zh": "22歲狗幣贏錢 買咗condo 兩年後返學grad返工 而家100K年薪 揹住卡數學生貸 一睇就grim 廢柴模式on",
+      "text_en_b1": "In 2021 he was 22 and made random crypto money from dogecoin. He lived two years with no job, dropped out of school, and bought a condo for $230K. Then money ran out. He went back, graduated, and now makes $100K at 27. Stuck in a loop of work and consume, with student debt and credit card debt.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ thread about an ex-crypto kid stuck with a condo and debt at 27",
+      "source_hint": "/biz/ anon lost his crypto gains, now trapped in the grind",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -20,46 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pure life-story loss post, no trade setup"
+        "rationale": "Anon's story is a cautionary tale, no trade setup"
       },
-      "text_en_b2": "When the OP was 22, he struck it lucky with dogecoin and promptly dropped out of school to fund a $230K condo, treating life as one long holiday. Two years of coasting later, the windfall dried up. Now 27, he's back on a $100K salary but still saddled with student loans and credit card debt. He says getting a brief taste of the high life has left him thoroughly stuck, and honestly, watching prop firm losses bleed my account dry, I can relate to that…",
-      "text_en_c1": "Back in 2021, at just twenty-two, the OP struck lucky on speculative crypto gains, primarily from dogecoin. Flush with cash and evidently intoxicated by sudden wealth, he dropped out of his studies, abandoned any notion of employment, and committed roughly $230,000 to a condominium purchase. For two idle years he coasted along, treating life as one endless holiday. Predictably, the funds evaporated. Now twenty-seven, he has returned to the workforce earning around $100K, yet student loans and accumulated credit card debt continue to weigh heavily.",
-      "text_en_c2": "At twenty-two, the OP stumbled into a modest fortune through speculative crypto trading, primarily Dogecoin, and promptly abandoned both his studies and any pretence of gainful employment. Flush with the proceeds, he purchased a condominium for roughly $230,000 and proceeded to enjoy what can only be described as an indefinite sabbatical, complete with permanent-vacation hedonism. Two years sufficed to drain the reserves entirely; now twenty-seven, he has been compelled to re-enter the labour market on a salary of $100,000, still encumbered by lingering student loans and accumulated credit-card debt. He laments having tasted prosperity only to find himself wedged, mid-thirties approach notwithstanding, between diminished circumstances and the tantalising memory of an easier life. The trajectory is, by all accounts, distressingly familiar to anyone who has ever ridden a bull market into complacency.",
-      "audio_url": "audio/2026-09-10/clip-clip01-trading-condo.mp3"
+      "text_en_b2": "Back in 2021, when he was 22, this guy stumbled into a small fortune after throwing money at dogecoin on a whim. For roughly two years he coasted along with no real job, dropped out of school, and splashed $230K on a condo. Once the windfall dried up, though, he had to swallow his pride, return to finish his degree, and land a $100K salary at 27. Now he's stuck grinding through debt payments, buried under student loans and credit card bills.",
+      "text_en_c1": "At 22, he had the kind of windfall most people only daydream about: a speculative dogecoin position that paid out handsomely during the 2021 surge. Flush with cash, he dropped out of university, blew through two years of leisure, and put $230,000 down on a condominium. The party, however, was not meant to last. Once the money evaporated, reality came knocking. He eventually re-enrolled, finished his degree, and now, at 27, earns a respectable $100K salary. Yet the gloss has worn off entirely. He is burdened by lingering student loans and credit card debt, trapped in the familiar grind-to-consume cycle.",
+      "text_en_c2": "In 2021, at twenty-two, he parlayed an evidently fortuitous windfall on Dogecoin into a life of ostentatious leisure: two years of abstaining from any gainful employment, an abandoned academic trajectory, and the acquisition of a condominium valued at roughly $230,000. When the capital evaporated, necessity reasserted itself with rather brutal clarity. He re-enrolled, eventually graduated, and now, at twenty-seven, draws a respectable $100,000 salary, yet remains tethered to outstanding student loans and revolving credit card balances, ensnared in what he himself characterised as an interminable work-and-consume cycle. Having once sampled the headier pleasures of unfettered affluence, he confesses an unwillingness to relinquish them, and the entire trajectory reads as an object lesson in how fleeting, speculative gains tend to recalibrate one's expectations in ways that subsequent, conventional prosperity can seldom satisfy.",
+      "audio_url": "audio/2026-09-10/clip-biz-condo.mp3"
     },
     {
-      "id": "clip02-trading-btc-timing",
+      "id": "biz-elon",
       "category": "trading",
-      "topic_zh": "泵完先追",
-      "topic_en": "Why Buy BTC After the Pump",
-      "text_zh": "個post講得好中：『你睇BTC兩星期唔郁完全唔理，然後佢一pump 15%，個個就衝入去』⋯⋯我都係咁。每次breakout先FOMO入，stop又窄，俾人食晒。命理都話我今年唔適合all-in，btw。",
-      "text_en_b1": "BTC does nothing for weeks, and everyone ignores it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone always want to buy only after the move already happened? The OP is frustrated that retail always chases the breakout instead of buying the quiet pre-pump weeks.",
-      "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "/biz/ thread about retail buying BTC only after the pump",
+      "topic_zh": "Elon炒幣路",
+      "topic_en": "Musk trading thread",
+      "text_zh": "Doge pump又係Elon tweet 炒開就知 等佢出post先入 OK lol 我又輸緊 學費",
+      "text_en_b1": "Anyone else fed up with Musk trying to get shit to trend on 4chan? He pumps money into AfD and still can't break 50% of the vote. The guy only got rich because his daddy's mining money let him in. X is just Musk crying into the void asking people to boost his posts.",
+      "source_url": "https://boards.4chan.org/pol/thread/542322818",
+      "source_hint": "/pol/ thread dragging Musk for X trending begging",
       "signal": {
-        "asset": "BTC",
+        "asset": "DOGE",
         "direction": "observation",
-        "conviction": "low",
-        "time_horizon": "weeks",
+        "conviction": "none",
+        "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post is about bad timing, not a directional call"
+        "rationale": "Musk-tweet-driven Dogecoin chatter, no clean setup"
       },
-      "text_en_b2": "The original post nails a frustrating pattern: BTC sits idle for weeks, and retail shrugs it off, but once it suddenly pumps 15%, everyone piles in. Why does nobody want to buy during the boring pre-pump phase? The OP is venting that retail traders consistently chase breakouts instead of accumulating quietly beforehand. I fall into the same trap, entering on FOMO with tight stops that get shredded, while my fate chart insists this isn't my year for all-ins.",
-      "text_en_c1": "The original observation captures a pattern so universal it hardly needs elaboration. Bitcoin trades sideways for weeks on end, consolidating in a tight range while retail sentiment drifts towards outright indifference. Then, almost inevitably, a fifteen-percent rally materialises overnight, and the very same individuals who couldn't care less moments earlier scramble to pile in at the worst possible juncture. The frustration articulated here is entirely legitimate: capital consistently chases momentum that has already manifested, rather than positioning itself during the dull, pre-pump accumulation phase. Stop-losses get hunted, entries get wrecked, and the cycle repeats with tedious predictability.",
-      "text_en_c2": "There exists a peculiar collective psychosis whereby Bitcoin will languish in absolute torpor for weeks on end, scarcely registering a flicker of movement, during which period the retail masses profess serene indifference and pledge never again to be lured into speculative manias. Then, invariably, the price jolts upward by some fifteen percent, and precisely the same cohort stampedes back into the market with the credulous urgency of those who have suddenly remembered a forgotten appointment. The original poster's exasperation is entirely warranted, since this pattern, in which capital is deployed only after the prevailing trend has announced itself with maximum conspicuousness, constitutes perhaps the most reliable indicator of amateur participation in any given cycle.",
-      "audio_url": "audio/2026-09-10/clip-clip02-trading-btc-timing.mp3"
+      "text_en_b2": "Is anyone else thoroughly fed up with Musk trying to manipulate what trends on 4chan? Despite pumping serious cash into AfD, the party still can't crack 50% of the vote. The bloke only got filthy rich because daddy's mining empire handed him the keys. Meanwhile X is basically Musk screaming into the void, begging randoms to boost his engagement. A lot of it stinks like paid astroturfing and completely broken metrics. Honestly, between the astroturfing and the desperate self-promotion, the whole operation reeks.",
+      "text_en_c1": "It is becoming increasingly tiresome to watch Musk perpetually attempting to manipulate trends across forums. He lavishes funds on Germany's AfD, yet the party still cannot breach the 50 percent threshold that would actually matter. His fortune, in truth, owes far more to inherited emerald mining capital than to any genuine business acumen. The platform formerly known as Twitter has devolved into little more than a megaphone for his grievances, a place where he pleads with users to amplify his posts. Much of the engagement appears suspiciously manufactured—bot traffic, inflated metrics, the whole charade.",
+      "text_en_c2": "It is scarcely surprising that seasoned traders recognise the now-familiar choreography: whenever Dogecoin registers an appreciable surge, one can almost invariably trace the catalyst to a single, opportune missive from Elon Musk. Astute operators have, accordingly, refined their playbook to a principle of studied passivity, awaiting his post before committing capital, lest they be left acquiring at the apex. The present author confesses, somewhat ruefully, to still being ensnared in such a position, the loss constituting yet another instalment in what can only be described as an ongoing, prohibitively expensive tuition. Whether this constitutes market intelligence or merely the latest instalment in a personal finance cautionary tale remains, perhaps, a matter of perspective. Source: 4chan /pol/.",
+      "audio_url": "audio/2026-09-10/clip-biz-elon.mp3"
     },
     {
-      "id": "clip03-tech-openai-steal",
+      "id": "g-ai-steal",
       "category": "tech/ai",
-      "topic_zh": "OpenAI抄功課？",
-      "topic_en": "Did OpenAI Steal Research?",
-      "text_zh": "🙃 又嚟。今次Astra/GPT-6解決個數學難題，獨立研究者話自己嘅方法被OpenAI直接攞去用。AI越嚟越勁，但係靠食人功課嚟進度，真係好恐怖。我個surveying job遲早都俾AI頂。",
-      "text_en_b1": "OpenAI announced on September 8th that their model Astra, running on GPT-6, had solved a hard problem. It supposedly cost $20 million in compute. But researcher Tristan Buckmaster says OpenAI's approach looks very similar to his own independent work, which he had been refining using OpenAI Codex and Anthropic Claude. The video claims a serious ethical conflict.",
+      "topic_zh": "AI抄功課",
+      "topic_en": "OpenAI stealing work",
+      "text_zh": "OpenAI又偷人research 今次係GPT-6解咗個math problem 個researcher話佢用緊Codex同Claude做 抄到出面 真係黐線 AI咁樣我考牌都驚被搶",
+      "text_en_b1": "OpenAI announced on September 8th that their model Astra, running on GPT-6, had solved a hard math problem, costing about $20 million in compute. Then researcher Tristan Buckmaster said OpenAI's approach looked a lot like his own work, which he had been developing with OpenAI's Codex and Anthropic's Claude. The video alleges an ethical conflict over unattributed use.",
       "source_url": "https://boards.4chan.org/g/thread/109771147",
-      "source_hint": "/g/ thread alleging OpenAI copied a researcher's method for GPT-6",
+      "source_hint": "/g/ thread on OpenAI allegedly copying a researcher's work for GPT-6",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News drama, not a trade"
+        "rationale": "AI ethics drama, not a trade"
       },
-      "text_en_b2": "OpenAI announced on September 8th that their Astra model, running on GPT-6, had cracked a notoriously hard mathematical problem, reportedly burning through $20 million in compute. However, researcher Tristan Buckmaster points out that their methodology bears a striking resemblance to his own independent work, which he had been iterating on using OpenAI Codex and Anthropic Claude. The accompanying video highlights a serious ethical conflict, and frankly, if AI keeps feeding off other people's homework, my surveying job is doomed.",
-      "text_en_c1": "On the eighth of September, OpenAI unveiled Astra, a model purportedly running on GPT-6 architecture, which the organisation claims solved an exceptionally challenging mathematical problem at a reported compute cost of twenty million dollars. Almost immediately, independent researcher Tristan Buckmaster raised pointed objections, noting that the methodology deployed bears striking resemblance to work he had been refining using OpenAI Codex and Anthropic Claude. Whether this constitutes outright appropriation or merely convergent methodology remains genuinely contested, yet the ethical implications are considerable. If frontier progress increasingly depends upon absorbing the labour of unaffiliated researchers without acknowledgment, the entire incentive structure underpinning open contribution begins to look untenable.",
-      "text_en_c2": "On the eighth of September, OpenAI unveiled its latest feat: the Astra system, running atop the newly minted GPT-6 architecture, which purportedly resolved an exceptionally difficult mathematical problem at a computational expenditure rumoured to exceed twenty million dollars. The announcement, however, has been complicated by the objections of researcher Tristan Buckmaster, who has noted striking parallels between OpenAI's methodology and his own independent work, refined over months with the assistance of OpenAI's own Codex and Anthropic's Claude. The accompanying video frames this as a grave ethical transgression, one whose implications extend well beyond any single researcher or paper. Whether one regards the enterprise as systematic appropriation or merely convergent discovery, the broader anxiety it provokes is unmistakable: the institutions most aggressively pursuing artificial intelligence appear increasingly to derive their progress from the uncompensated intellectual labour…",
-      "audio_url": "audio/2026-09-10/clip-clip03-tech-openai-steal.mp3"
+      "text_en_b2": "On September 8th, OpenAI revealed that their model Astra, running on GPT-6, had cracked a notoriously difficult math problem, burning through roughly $20 million in compute along the way. Shortly afterwards, researcher Tristan Buckmaster pointed out that OpenAI's approach bore a striking resemblance to his own ongoing work, which he had been developing with the help of OpenAI's Codex and Anthropic's Claude. The leaked video suggests a genuine ethical conflict over unattributed use of someone's research.",
+      "text_en_c1": "On September 8th, OpenAI made headlines by announcing that their Astra model, built atop GPT-6, had cracked an exceptionally difficult mathematical problem—an achievement that reportedly consumed roughly $20 million in compute resources. Almost immediately, however, trouble surfaced. Researcher Tristan Buckmaster publicly observed that the methodology bore a striking resemblance to work he had been pursuing with OpenAI's own Codex and Anthropic's Claude. A leaked video subsequently alleged that OpenAI had absorbed substantial portions of his research without due attribution. If true, this would constitute a serious ethical breach and raise uncomfortable questions about the extent to which frontier AI laboratories appropriate the intellectual labour of independent academics.",
+      "text_en_c2": "OpenAI disclosed on the eighth of September that their forthcoming model, Astra, operating on the GPT-6 architecture, had successfully resolved a particularly intractable mathematical problem, an undertaking that reportedly consumed approximately twenty million dollars in computational expenditure. Almost immediately, however, the researcher Tristan Buckmaster publicly noted that the methodology bore a rather conspicuous resemblance to work he had himself been cultivating, notably with assistance from OpenAI's own Codex system and Anthropic's Claude. The accompanying video documentation appears to allege a substantive ethical conflict concerning unacknowledged appropriation of intellectual contributions, and the affair has predictably ignited fervent debate regarding the increasingly porous boundaries between collaborative iteration and outright plagiarism within the contemporary artificial intelligence research ecosystem.",
+      "audio_url": "audio/2026-09-10/clip-g-ai-steal.mp3"
     },
     {
-      "id": "clip04-hk-china-pisa",
+      "id": "hk-pisa",
       "category": "hk/news",
-      "topic_zh": "PISA中國贏",
-      "topic_en": "China Wins PISA Again",
-      "text_zh": "『Chinese Century』。OECD PISA全球760,000學生，數學閱讀全部跌，只有中國繼續贏。平均612分，歐美elite level嘅門檻607。🙏 香港仔聽到應該有啲感受，我諗返轉頭我嗰7年喺美國⋯⋯真係兩邊都唔到岸。",
-      "text_en_b1": "A new OECD PISA study covered 760,000 students across 91 countries. Global math and reading comprehension scores are cratering, and kids are getting dumber. But Chinese students are the smartest by a huge margin. The top math level starts at 607. The average kid in China scores 612, putting normal Chinese kids at a level considered elite everywhere else.",
+      "topic_zh": "中國學生勁",
+      "topic_en": "China tops PISA",
+      "text_zh": "OECD PISA 760K學生91國 全球數學閱讀跌 中國平均612 已經等於其他國家精英級 香港都唔得啦 wtf",
+      "text_en_b1": "A new OECD PISA study tested 760,000 students across 91 countries and global scores in math and reading comprehension are dropping. Except in China. The average Chinese kid scored 612, which is already above the elite level 5 threshold of 607 that marks top performers in the rest of the world. Normal Chinese students sit at a level considered elite elsewhere.",
       "source_url": "https://boards.4chan.org/pol/thread/542292504",
-      "source_hint": "/pol/ thread on China topping PISA while the world declines",
+      "source_hint": "/pol/ thread on China dominating new PISA results",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News/society thread, no market setup"
+        "rationale": "News observation, no trade"
       },
-      "text_en_b2": "A fresh OECD PISA study surveyed 760,000 students across 91 countries, and the results paint a grim picture: global math and reading comprehension scores are cratering almost everywhere. Yet Chinese students continue to pull ahead by a substantial margin. While the elite math threshold sits at 607, the average Chinese student scores 612, meaning typical Chinese kids outperform what other countries consider their top tier. As a Hong Konger who spent seven years in the States, I feel caught between two worlds.",
-      "text_en_c1": "The latest OECD PISA assessment, drawing upon data from 760,000 students distributed across ninety-one countries, paints a rather disquieting picture of global educational trajectories. Mathematics and reading comprehension scores have declined markedly across most participating nations, prompting hand-wringing about declining standards and worsening preparedness. China, however, continues to outperform its peers by a considerable margin, with the average student scoring 612 in mathematics. That figure is particularly striking given that the threshold for elite-level proficiency globally sits at 607, meaning a typical Chinese pupil effectively clears the bar that elsewhere distinguishes the exceptional from the merely competent.",
-      "text_en_c2": "The most recent OECD PISA assessment, encompassing some 760,000 students across ninety-one participating nations, delivers a dispiriting verdict on the global state of educational attainment: mathematical literacy and reading comprehension alike have plummeted almost everywhere, with the precipitous decline suggesting a generation in quiet intellectual retreat. Against this dismal backdrop, however, Chinese students have once again emerged as outliers of extraordinary proficiency, their average mathematics score of 612 comfortably exceeding the 607 threshold that demarcates elite performance in every other jurisdiction surveyed. The contrast is not merely statistical but almost civilisational in its implications, lending renewed credibility to the much-mocked notion of a Chinese century and raising uncomfortable questions about why peer nations, despite vastly greater per-capita expenditure, continue to produce such conspicuously inferior outcomes.",
-      "audio_url": "audio/2026-09-10/clip-clip04-hk-china-pisa.mp3"
+      "text_en_b2": "A fresh OECD PISA study, which tested around 760,000 students across 91 countries, found that global scores in math and reading comprehension are steadily declining — except in China. The average Chinese student scored 612, which already clears the elite Level 5 threshold of 607, a benchmark that essentially marks top-tier performance elsewhere in the world. In other words, a run-of-the-mill kid in China is performing at what other countries would consider an elite level.",
+      "text_en_c1": "The latest OECD PISA assessment, which surveyed 760,000 students across 91 countries, has delivered a sobering verdict on global educational standards: mathematical literacy and reading comprehension have both declined across most regions. There is, however, one conspicuous exception. Chinese students averaged 612, a figure that exceeds the 607 threshold defining the elite Level 5 tier, which elsewhere is reached only by the top-performing percentile. In other words, a representative Chinese pupil now performs at a level considered exceptional throughout the rest of the world. The implications for universities and employers in the West are rather disquieting, particularly given that even Hong Kong's once-dominant results have begun to slip.",
+      "text_en_c2": "The most recent OECD Programme for International Student Assessment administered its rigorous battery of evaluations to approximately 760,000 students distributed across ninety-one participating nations, and the aggregate findings are, by most measures, disquieting: global competencies in both mathematics and reading comprehension have registered a discernible decline, a trajectory that has occasioned considerable hand-wringing among educational policymakers. China constitutes the conspicuous exception to this otherwise bleak tendency, with the mean Chinese student achieving a score of 612, comfortably eclipsing the elite Level 5 threshold of 607 that demarcates top-tier performance throughout the remainder of the surveyed world. What elsewhere qualifies as exceptional attainment is, for the average Chinese pupil, merely the baseline, a distinction that inevitably provokes uncomfortable questions about pedagogical methodology and curricular rigour elsewhere.",
+      "audio_url": "audio/2026-09-10/clip-hk-pisa.mp3"
     },
     {
-      "id": "clip05-lol-blizzard-union",
+      "id": "lol-vg",
       "category": "lol/esports",
-      "topic_zh": "暴雪搞工會",
-      "topic_en": "Blizzard Forms Union vs AI",
-      "text_zh": "『BLIZZARD IS BACK BABY』。唔係新patch，係工人贏咗份歷史性工會合約。對抗AI入侵game dev嗰個立場⋯⋯lol，做game嘅都驚被自己寫嘅AI頂，做surveying嘅我更加唔使講。",
-      "text_en_b1": "Blizzard workers have won a historic union contract that could set a new standard for game industry labour. The union was specifically formed to push back against AI replacing game developers. The OP says this proves Blizzard is back, because the studio is finally standing up for its staff against automation.",
-      "source_url": "https://boards.4chan.org/v/thread/747269563",
-      "source_hint": "/v/ thread about Blizzard forming a union to fight AI replacement",
+      "topic_zh": "打機廢青",
+      "topic_en": "What anon played",
+      "text_zh": "連LOL都唔打 淨係玩RPCS3 Dante's Inferno 同朋友World at War 四人房 我都係夜晚S15返嚟捱吓lol",
+      "text_en_b1": "STOP, TELL ME WHAT YOU PLAYED THIS WEEK OR YOU'RE A FAGGOT. I've been playing RPCS3, mostly Dante's Inferno, and running four-man parties every night with my friends on World at War and Borderlands 1. Modded Left 4 Dead 2 is up next. Been replaying Quake and Lollipop Chainsaw to get ready for the sequel. I also tried the Heatwarped Demo. Try Dante's Inferno.",
+      "source_url": "https://boards.4chan.org/v/thread/747277953",
+      "source_hint": "/v/ weekly 'what did you play' thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports/labour news, no trade"
+        "rationale": "Gaming thread, no trade"
       },
-      "text_en_b2": "Blizzard workers have just clinched a historic union contract that could set a new benchmark for the entire game industry. Although no new patch dropped, the OP celebrates this as proof that Blizzard is finally back, because the union was specifically mobilised to push back against AI encroaching on game dev roles. Standing up against automation is a powerful statement, and honestly, if people who build games fear being replaced by their own creations, my surveying career has even less hope.",
-      "text_en_c1": "Rather than unveiling a new patch or announcing a long-awaited feature, Blizzard has achieved something arguably more significant: a landmark union contract that may well establish a new benchmark for labour relations across the entire games industry. The timing is hardly coincidental, as the union was explicitly constituted to resist the encroachment of artificial intelligence upon development workflows. For a sector that has watched generative tools encroaching upon art, writing, and coding pipelines with alarming speed, this represents a meaningful assertion of worker agency. The OP frames it as proof that the studio's institutional culture is, at long last, recovering its footing.",
-      "text_en_c2": "The announcement that has the gaming community genuinely enthused is not, contrary to the usual expectations, the arrival of a long-awaited patch or the reveal of a forthcoming expansion, but rather the ratification of a landmark union contract by Blizzard's workforce, an agreement widely regarded as the most consequential labour accord in the history of the interactive entertainment industry. What lends the development its particular resonance is the union's explicit founding mandate: to serve as a bulwark against the encroachment of artificial intelligence into game development, a domain whose practitioners now confront the unnerving prospect of obsolescence at the hands of systems trained upon their own creative output.",
-      "audio_url": "audio/2026-09-10/clip-clip05-lol-blizzard-union.mp3"
+      "text_en_b2": "STOP, TELL ME WHAT YOU PLAYED THIS WEEK OR YOU'RE A FAGGOT. I've been putting hours into RPCS3, mostly working through Dante's Inferno, while running four-man lobbies every night with the lads on World at War and the original Borderlands. Modded Left 4 Dead 2 is queued up next on my list. I've also been replaying Quake and Lollipop Chainsaw to brush up before the sequel drops. The Heatwarped demo got a spin too, honestly give Dante's Inferno a shot.",
+      "text_en_c1": "FORGET WHATEVER YOU WERE DOING: I demand to know what you have been playing this week, or else we cannot possibly be friends. My own schedule has been dominated by RPCS3 emulation, particularly Dante's Inferno, which holds up remarkably well despite its age. My group of friends and I have been running nightly four-player sessions on World at War and the original Borderlands, with a heavily modded Left 4 Dead 2 lined up next. In preparation for the imminent sequel, I have been replaying both Quake and Lollipop Chainsaw, and I managed to sample the Heat Signature demo while I was at it.",
+      "text_en_c2": "Cease immediately and disclose what diversions have occupied your leisure this week, lest ye be consigned to the appropriate pejorative. This correspondent has, somewhat unfashionably, eschewed League of Legends entirely, instead devoting considerable hours to RPCS3 emulation, with particular emphasis upon Dante's Inferno, whilst coordinating nightly four-man excursions into World at War and the original Borderlands with a cadre of similarly devoted companions. Modded Left 4 Dead 2 awaits imminent deployment, and a deliberate revisitation of both Quake and Lollipop Chainsaw has been undertaken in preparation for the latter's forthcoming sequel. The Heatwarred demo has likewise received cursory attention, though one feels compelled to insist that Dante's Inferno merits particular consideration from any reader whose sensibilities incline toward the baroque.",
+      "audio_url": "audio/2026-09-10/clip-lol-vg.mp3"
     },
     {
-      "id": "clip06-fit-ciaco",
+      "id": "fit-ohp",
       "category": "mma/fitness",
-      "topic_zh": "CICO係低能",
-      "topic_en": "Calories In Calories Out Is Dumb",
-      "text_zh": "個post笑死人：『咁Elon點解咁有錢？因為收入多過支出？廢話嚟。』同個道理，CICO根本唔解釋點解你會肥。我同肥仔信傾過，佢只係笑笑口：『你都係唔夠操。』wtf。",
-      "text_en_b1": "The OP argues that calories in, calories out is a low-IQ tautology. Of course you store more calories when you get fatter, but CICO never explains why it happens. He compares it to answering 'why is Elon Musk rich' with 'because he makes more than he spends.' It tells you nothing meaningful about the actual mechanism.",
-      "source_url": "https://boards.4chan.org/fit/thread/77505779",
-      "source_hint": "/fit/ thread dunking on the CICO diet dogma",
+      "topic_zh": "舉鐵進度",
+      "topic_en": "OHP progress",
+      "text_zh": "1/2/3/4標準 我仲差OHP一塊緊 1pl8 OHP rep 應該一兩個月ok 肥仔信又笑我細隻 lol",
+      "text_en_b1": "I'm aiming for the classic 1/2/3/4 standard: one-plate overhead press, two-plate bench, three-plate squat, four-plate deadlift. Right now I'm closer to a 1-plate OHP than to 2-plate bench, 3-plate squat, or 4-plate deadlift. I think I'll hit 1-plate OHP for reps within a month or two. Squat and deadlift are still far behind.",
+      "source_url": "https://boards.4chan.org/fit/thread/77491789",
+      "source_hint": "/fit/ progress thread on hitting 1/2/3/4 lifts",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness/diet rant, not a market setup"
+        "rationale": "Fitness progress, no trade"
       },
-      "text_en_b2": "The OP argues that calories in, calories out is essentially a low-IQ tautology that explains precisely nothing. Of course fatter bodies store more calories, but CICO never addresses the underlying mechanism driving weight gain. He draws a parallel to answering 'why is Elon Musk rich' with 'because he makes more than he spends', which, while technically accurate, offers zero genuine insight. I brought this up with a chubby friend once, and he just smirked and said I clearly wasn't training hard enough, which was infuriating.",
-      "text_en_c1": "The post dismantles the calories-in-calories-out framework with a particularly pointed analogy: explaining why Elon Musk is wealthy by observing that his income exceeds his expenditure is technically accurate yet entirely vacuous. It describes the outcome without illuminating the underlying mechanism, which is precisely the criticism levelled against simplistic energy-balance thinking. Of course heavier individuals accumulate more calories; that observation hardly constitutes an explanation. Worse still, when challenged on the matter, devotees retreat to platitudes about insufficient discipline, which adds nothing substantive to the discussion. The dismissal feels smug precisely because it substitutes moral judgment for genuine physiological inquiry.",
-      "text_en_c2": "The original poster's demolition of the calories-in-calories-out paradigm is, in its own crude way, philosophically unassailable, since to observe that corpulent individuals accumulate energy is merely to restate the phenomenon requiring explanation rather than to elucidate its underlying mechanism. He draws an apt parallel with the inanity of answering the question of why Elon Musk is wealthy by recourse to the observation that his revenues exceed his expenditures, a formulation that conveys precisely nothing about the structural conditions, market positioning, or decision-making architectures that produced the outcome in question. The colleague who responded with the smug admonition that the interlocutor was simply insufficiently disciplined betrays, in so doing, a fundamental category error: he has mistaken an empirical observation for an explanatory framework, and in the process has revealed far more about his own intellectual limitations…",
-      "audio_url": "audio/2026-09-10/clip-clip06-fit-ciaco.mp3"
+      "text_en_b2": "I'm currently chasing the classic 1/2/3/4 strength standard: a one-plate overhead press, two-plate bench, three-plate squat, and four-plate deadlift. At the moment, I'm noticeably closer to grinding out a one-plate OHP than I am to hitting the other three milestones. I reckon I should be able to push one plate overhead for reps within a month or two. Squat and deadlift, however, are still lagging pretty far behind schedule.",
+      "text_en_c1": "I have been steadily pursuing what gym circles typically refer to as the 1/2/3/4 benchmark: a one-plate overhead press, a two-plate bench press, a three-plate squat, and a four-plate deadlift. At present, however, I find myself lagging considerably across most of these milestones. My overhead press is hovering tantalisingly close to a single plate for reps, whereas my bench remains stubbornly short of two plates and my squat and deadlift are still some way off their respective targets. Realistically, I anticipate hitting that one-plate OHP within a month or two of consistent training. The remaining lifts will require substantially more patience and considerably more food.",
+      "text_en_c2": "One pursues, with measured if perhaps quixotic ambition, the venerable 1/2/3/4 standard beloved of strength-training enthusiasts: a one-plate overhead press, a two-plate bench, a three-plate squat, and a four-plate deadlift, an ostensibly modest benchmark that nevertheless proves elusive in practice. At present, the one-plate overhead press represents the most attainable milestone, whilst the squat and deadlift remain, lamentably, rather more distant objectives upon the horizon. A single-plate overhead press for repetitions appears plausibly achievable within a month or two of concerted effort, assuming reasonable continuity of training and nutritional discipline. The remaining lifts, however, shall require rather more protracted cultivation, and one's more generously proportioned acquaintances continue, with predictable hilarity, to remark upon the comparatively diminutive proportions currently exhibited.",
+      "audio_url": "audio/2026-09-10/clip-fit-ohp.mp3"
     },
     {
-      "id": "clip07-anime-soremachi",
+      "id": "a-madoka",
       "category": "anime/culture",
-      "topic_zh": "Soremachi登場",
-      "topic_en": "Soremachi & Friends",
-      "text_zh": "石黑老師自己排自己manga嘅角色，仲要畫泳衣版。Kon-senpai竟然唔喺正榜，只有SD版入圍。⋯⋯我幾年冇開過gundam 00以外嘅anime，btw，睇到呢個post即刻想re-watch。",
-      "text_en_b1": "Mangaka Ishiguro ranks his own favourite characters from his manga Soremachi, draws them in swimsuits, and talks about random stuff in a new YouTube video. Kon-senpai is missing from the list, but her SD version from a gag manga is included. Ebi-chan is based on his first crush from elementary school.",
-      "source_url": "https://boards.4chan.org/a/thread/290637577",
-      "source_hint": "/a/ thread on Ishiguro's Soremachi character ranking video",
+      "topic_zh": "圓出新搞作",
+      "topic_en": "Madoka new project",
+      "text_zh": "Walpurgis no Kaiten訪問raw同漫畫第一期都流咗出嚟 Homura聲優Chiwa Saito話Muhdoka係Homura初戀 WTF 巴哈膠晒",
+      "text_en_b1": "The Kaiten interview raws and the manga adaptation volume 01 of Puella Magica Madoka: Walpurgis no Kaiten are out. Volume 1 of the manga is already being shared online. Chiwa Saito, Homura's voice actress, said in an interview that Muhdoka is Homura's first love. The old fanbase is melting down about it.",
+      "source_url": "https://boards.4chan.org/a/thread/290778514",
+      "source_hint": "/a/ thread on new Madoka Magica project leaks",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime/manga culture, no trade"
+        "rationale": "Anime news, no trade"
       },
-      "text_en_b2": "Mangaka Ishiguro has posted a new YouTube video where he ranks his own favourite characters from Soremachi, sketches them in swimsuits, and rambles about whatever crosses his mind. Curiously, Kon-senpai doesn't make the proper list, though her SD counterpart from a gag manga sneaks in. He also reveals that Ebi-chan was loosely inspired by his very first crush back in elementary school, and seeing all this made me want to rewatch the whole series immediately.",
-      "text_en_c1": "Mangaka Ishiguro has uploaded a new YouTube video in which he ranks his own characters from Soremachi with the unselfconscious enthusiasm of an author thoroughly enjoying his own creations, even sketching several of them in swimwear. Curiously, Kon-senpai herself fails to make the principal ranking, though her SD rendition from a spin-off gag manga receives an honourable mention. Ebi-chan, it transpires, draws inspiration from his very first childhood crush during elementary school. The combination of self-indulgent ranking, breezy asides, and affectionate character sketches possesses a charm that is difficult to resist, even for viewers whose anime consumption has dwindled considerably over recent years.",
-      "text_en_c2": "Mangaka Ishiguro, evidently unable to resist the temptation that has undone greater authors, has taken it upon himself to rank his own characters from the manga Soremachi, illustrated them in various states of beachwear, and discoursed at considerable length upon a panoply of unrelated preoccupations in a recently uploaded YouTube feature. Curiously, Kon-senpai has been omitted from the principal ranking, though her chibi counterpart from an associated parody serial has somehow secured inclusion, a slight that fans have greeted with the sort of performative outrage customary to the medium. Ishiguro further reveals that the character Ebi-chan is, in fact, a lightly fictionalised incarnation of his very first crush from elementary school, a confession that ought to occasion no surprise whatsoever to anyone who has spent any appreciable time studying the author's artistic preoccupations.",
-      "audio_url": "audio/2026-09-10/clip-clip07-anime-soremachi.mp3"
+      "text_en_b2": "The raw interview transcripts for Walpurgis no Kaiten have leaked online, alongside scans of the manga adaptation's first volume for Puella Magica Madoka. Fans have already been sharing volume one across various boards. In a particularly eyebrow-raising moment from the interview, Chiwa Saito, Homura's voice actress, casually dropped that Muhdoka is essentially Homura's first love. Predictably, the veteran fanbase has completely lost it, with threads melting down over the implications.",
+      "text_en_c1": "Both the raw transcript of the Walpurgis no Kaiten production interview and the inaugural volume of its manga adaptation have now surfaced online, much to the delight of curious fans. The leak has, predictably, set the community ablaze, particularly because Chiwa Saito—Homura's longtime voice actress—dropped a rather incendiary revelation during the conversation. She disclosed that the character Muhdoka is, in her own characterisation, Homura's first love, a narrative development that has prompted considerable hand-wringing among the veteran fanbase. Whether this constitutes elegant world-building or a gratuitous subversion of established canon depends very much on whom you ask. The forums, predictably, have descended into absolute pandemonium.",
+      "text_en_c2": "The preliminary interview transcripts pertaining to Walpurgis no Kaiten, alongside the inaugural volume of its accompanying manga adaptation of Puella Magica Madoka, have, somewhat prematurely, found their way into wider circulation, occasioning considerable perturbation amongst the established fan community. Volume one of the manga in particular has proliferated with what can only be described as alacrity. Chiwa Saito, the esteemed voice actress entrusted with the portrayal of Homura, reportedly articulated during the interview that Muhdoka constitutes Homura's inaugural romantic attachment, a revelation that has predictably induced a rather spectacular collective meltdown amongst longstanding enthusiasts. Whether this constitutes a substantive narrative development or merely a provocation designed to destabilise the faithful remains a matter of considerable interpretive contention.",
+      "audio_url": "audio/2026-09-10/clip-a-madoka.mp3"
     }
   ]
 }

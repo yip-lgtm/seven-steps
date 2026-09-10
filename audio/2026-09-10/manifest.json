@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "clip01-trading-condo",
-      "topic_en": "Stuck with a Condo",
-      "topic_zh": "Condo困局",
+      "id": "biz-condo",
+      "topic_en": "Crypto condo story",
+      "topic_zh": "食晒無得返",
       "category": "trading",
-      "file": "clip-clip01-trading-condo.mp3",
-      "bytes": 398004,
-      "chars": 302
+      "file": "clip-biz-condo.mp3",
+      "bytes": 354228,
+      "chars": 295
     },
     {
-      "id": "clip02-trading-btc-timing",
-      "topic_en": "Why Buy BTC After the Pump",
-      "topic_zh": "泵完先追",
+      "id": "biz-elon",
+      "topic_en": "Musk trading thread",
+      "topic_zh": "Elon炒幣路",
       "category": "trading",
-      "file": "clip-clip02-trading-btc-timing.mp3",
-      "bytes": 292596,
-      "chars": 292
+      "file": "clip-biz-elon.mp3",
+      "bytes": 281652,
+      "chars": 266
     },
     {
-      "id": "clip03-tech-openai-steal",
-      "topic_en": "Did OpenAI Steal Research?",
-      "topic_zh": "OpenAI抄功課？",
+      "id": "g-ai-steal",
+      "topic_en": "OpenAI stealing work",
+      "topic_zh": "AI抄功課",
       "category": "tech/ai",
-      "file": "clip-clip03-tech-openai-steal.mp3",
-      "bytes": 383028,
-      "chars": 363
+      "file": "clip-g-ai-steal.mp3",
+      "bytes": 391092,
+      "chars": 369
     },
     {
-      "id": "clip04-hk-china-pisa",
-      "topic_en": "China Wins PISA Again",
-      "topic_zh": "PISA中國贏",
+      "id": "hk-pisa",
+      "topic_en": "China tops PISA",
+      "topic_zh": "中國學生勁",
       "category": "hk/news",
-      "file": "clip-clip04-hk-china-pisa.mp3",
-      "bytes": 411828,
-      "chars": 356
+      "file": "clip-hk-pisa.mp3",
+      "bytes": 429684,
+      "chars": 361
     },
     {
-      "id": "clip05-lol-blizzard-union",
-      "topic_en": "Blizzard Forms Union vs AI",
-      "topic_zh": "暴雪搞工會",
+      "id": "lol-vg",
+      "topic_en": "What anon played",
+      "topic_zh": "打機廢青",
       "category": "lol/esports",
-      "file": "clip-clip05-lol-blizzard-union.mp3",
-      "bytes": 302964,
-      "chars": 310
+      "file": "clip-lol-vg.mp3",
+      "bytes": 349044,
+      "chars": 360
     },
     {
-      "id": "clip06-fit-ciaco",
-      "topic_en": "Calories In Calories Out Is Dumb",
-      "topic_zh": "CICO係低能",
+      "id": "fit-ohp",
+      "topic_en": "OHP progress",
+      "topic_zh": "舉鐵進度",
       "category": "mma/fitness",
-      "file": "clip-clip06-fit-ciaco.mp3",
-      "bytes": 324852,
-      "chars": 319
+      "file": "clip-fit-ohp.mp3",
+      "bytes": 427956,
+      "chars": 326
     },
     {
-      "id": "clip07-anime-soremachi",
-      "topic_en": "Soremachi & Friends",
-      "topic_zh": "Soremachi登場",
+      "id": "a-madoka",
+      "topic_en": "Madoka new project",
+      "topic_zh": "圓出新搞作",
       "category": "anime/culture",
-      "file": "clip-clip07-anime-soremachi.mp3",
-      "bytes": 313908,
-      "chars": 302
+      "file": "clip-a-madoka.mp3",
+      "bytes": 331188,
+      "chars": 305
     }
   ]
 }
