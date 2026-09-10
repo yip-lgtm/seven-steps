@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-condo-stuck",
+      "id": "clip01-trading-condo",
       "topic_en": "Stuck with a Condo",
       "topic_zh": "Condo困局",
       "category": "trading",
-      "file": "clip-biz-condo-stuck.mp3",
-      "bytes": 335796,
-      "chars": 273
+      "file": "clip-clip01-trading-condo.mp3",
+      "bytes": 398004,
+      "chars": 302
     },
     {
-      "id": "biz-buy-after-pump",
-      "topic_en": "Why buy after the pump",
-      "topic_zh": "Pump完先追",
+      "id": "clip02-trading-btc-timing",
+      "topic_en": "Why Buy BTC After the Pump",
+      "topic_zh": "泵完先追",
       "category": "trading",
-      "file": "clip-biz-buy-after-pump.mp3",
-      "bytes": 283380,
-      "chars": 281
+      "file": "clip-clip02-trading-btc-timing.mp3",
+      "bytes": 292596,
+      "chars": 292
     },
     {
-      "id": "g-openai-steal",
-      "topic_en": "OpenAI research drama",
-      "topic_zh": "OpenAI抄功課",
+      "id": "clip03-tech-openai-steal",
+      "topic_en": "Did OpenAI Steal Research?",
+      "topic_zh": "OpenAI抄功課？",
       "category": "tech/ai",
-      "file": "clip-g-openai-steal.mp3",
-      "bytes": 462516,
-      "chars": 411
+      "file": "clip-clip03-tech-openai-steal.mp3",
+      "bytes": 383028,
+      "chars": 363
     },
     {
-      "id": "pol-china-pisa",
-      "topic_en": "China PISA dominance",
-      "topic_zh": "中國PISA屠榜",
+      "id": "clip04-hk-china-pisa",
+      "topic_en": "China Wins PISA Again",
+      "topic_zh": "PISA中國贏",
       "category": "hk/news",
-      "file": "clip-pol-china-pisa.mp3",
-      "bytes": 408372,
-      "chars": 339
+      "file": "clip-clip04-hk-china-pisa.mp3",
+      "bytes": 411828,
+      "chars": 356
     },
     {
-      "id": "v-blizzard-union",
-      "topic_en": "Blizzard unionizes",
+      "id": "clip05-lol-blizzard-union",
+      "topic_en": "Blizzard Forms Union vs AI",
       "topic_zh": "暴雪搞工會",
       "category": "lol/esports",
-      "file": "clip-v-blizzard-union.mp3",
-      "bytes": 314484,
-      "chars": 315
+      "file": "clip-clip05-lol-blizzard-union.mp3",
+      "bytes": 302964,
+      "chars": 310
     },
     {
-      "id": "fit-squat-meme",
-      "topic_en": "Are squats a meme",
-      "topic_zh": "Squat係咪meme",
+      "id": "clip06-fit-ciaco",
+      "topic_en": "Calories In Calories Out Is Dumb",
+      "topic_zh": "CICO係低能",
       "category": "mma/fitness",
-      "file": "clip-fit-squat-meme.mp3",
-      "bytes": 288564,
-      "chars": 372
+      "file": "clip-clip06-fit-ciaco.mp3",
+      "bytes": 324852,
+      "chars": 319
     },
     {
-      "id": "a-soremachi-ebi",
-      "topic_en": "Soremachi creator chat",
-      "topic_zh": "Soremachi回憶",
+      "id": "clip07-anime-soremachi",
+      "topic_en": "Soremachi & Friends",
+      "topic_zh": "Soremachi登場",
       "category": "anime/culture",
-      "file": "clip-a-soremachi-ebi.mp3",
-      "bytes": 270132,
-      "chars": 278
+      "file": "clip-clip07-anime-soremachi.mp3",
+      "bytes": 313908,
+      "chars": 302
     }
   ]
 }

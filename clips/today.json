@@ -4,14 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-condo-stuck",
+      "id": "clip01-trading-condo",
       "category": "trading",
       "topic_zh": "Condo困局",
       "topic_en": "Stuck with a Condo",
-      "text_zh": "Condo困局認真共鳴。22歲靠狗狗幣賺一筆，兩年唔返工去旅行，230K 買咗個Condo。之後錢燒晒，去讀返書畢業，依家返緊100K份工，27歲又再返去返工、消費、重複。學生貸款、信用卡債全部壓住。佢嗰句『食過好日子就返唔到去』真係頂我肺。🙏",
-      "text_en_b1": "I made random crypto money from dogecoin at 22. I lived two years on perma vacation, dropped out of school and bought a condo for $230K. Then the money ran out. I went back, graduated, and earn $100K now at 27. I hate that I got a taste of the rich life and cannot go back.",
+      "text_zh": "22歲賭狗賺咗錢，即刻買咗condo，唔返學唔做嘢。兩年燒晒，出嚟做返$100K工，仲要背學生債同卡數。我睇到個post即時諗起自己prop firm輸緊嗰幾千美金⋯⋯都係同一個loop。廢柴。",
+      "text_en_b1": "In 2021, when the OP was 22, he made random crypto money from dogecoin. He lived for two years with no job, took a permanent vacation, and dropped out of school to buy a $230K condo. The money eventually ran out. Now 27, he works again, earns $100K, but still carries student debt and credit card debt.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "Anon rants about early crypto gains trapping him in condo debt cycle",
+      "source_hint": "/biz/ thread about an ex-crypto kid stuck with a condo and debt at 27",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -20,46 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pure life-story post about crypto gains gone wrong, no actionable setup"
+        "rationale": "Pure life-story loss post, no trade setup"
       },
-      "text_en_b2": "I struck it rich with dogecoin at 22, so I dropped out, blew two years travelling, and splashed out $230K on a condo. The money eventually dried up, forcing me back to school and into a $100K job by 27. What really gets under my skin is that having tasted the easy life, I can't stomach going back to the grind, even while student loans and credit card debt pile up.",
-      "text_en_c1": "Striking how thoroughly this resonates. I stumbled into a windfall from dogecoin at 22, promptly abandoned my studies, and proceeded to blow the better part of two years globe-trotting on what felt like a permanent holiday. Somewhere along the way I sank $230K into a condo, convinced the gravy train would never end. It did. I crawled back, eventually graduated, and now at 27 I'm back to grinding out a $100K salary, shackled to student loans and a stack of credit card debt. What genuinely haunts me is having sampled genuine leisure and knowing full well I can't reclaim it. Work, spend, repeat — the hamster wheel resumes.",
-      "text_en_c2": "At twenty-two I stumbled into an improbable windfall from dogecoin, a stroke of fortune that effectively derailed any conventional life trajectory. For two years I drifted through what was essentially permanent leisure, deferring my education while sinking $230K into a condominium I could ill afford once the euphoria faded. Eventually the capital evaporated; I returned to university, graduated, and now draw a $100K salary at twenty-seven, shackled to student loans and revolving credit card debt. The cruel irony is that having tasted unfettered abundance, the gravitational pull back to the work-consume-repay cycle feels almost unbearable. One adjusts, ostensibly, yet the memory of that prior freedom renders every spreadsheet an exercise in quiet resignation. You adapt, but you never truly reconcile.",
-      "audio_url": "audio/2026-09-10/clip-biz-condo-stuck.mp3"
+      "text_en_b2": "When the OP was 22, he struck it lucky with dogecoin and promptly dropped out of school to fund a $230K condo, treating life as one long holiday. Two years of coasting later, the windfall dried up. Now 27, he's back on a $100K salary but still saddled with student loans and credit card debt. He says getting a brief taste of the high life has left him thoroughly stuck, and honestly, watching prop firm losses bleed my account dry, I can relate to that…",
+      "text_en_c1": "Back in 2021, at just twenty-two, the OP struck lucky on speculative crypto gains, primarily from dogecoin. Flush with cash and evidently intoxicated by sudden wealth, he dropped out of his studies, abandoned any notion of employment, and committed roughly $230,000 to a condominium purchase. For two idle years he coasted along, treating life as one endless holiday. Predictably, the funds evaporated. Now twenty-seven, he has returned to the workforce earning around $100K, yet student loans and accumulated credit card debt continue to weigh heavily.",
+      "text_en_c2": "At twenty-two, the OP stumbled into a modest fortune through speculative crypto trading, primarily Dogecoin, and promptly abandoned both his studies and any pretence of gainful employment. Flush with the proceeds, he purchased a condominium for roughly $230,000 and proceeded to enjoy what can only be described as an indefinite sabbatical, complete with permanent-vacation hedonism. Two years sufficed to drain the reserves entirely; now twenty-seven, he has been compelled to re-enter the labour market on a salary of $100,000, still encumbered by lingering student loans and accumulated credit-card debt. He laments having tasted prosperity only to find himself wedged, mid-thirties approach notwithstanding, between diminished circumstances and the tantalising memory of an easier life. The trajectory is, by all accounts, distressingly familiar to anyone who has ever ridden a bull market into complacency.",
+      "audio_url": "audio/2026-09-10/clip-clip01-trading-condo.mp3"
     },
     {
-      "id": "biz-buy-after-pump",
+      "id": "clip02-trading-btc-timing",
       "category": "trading",
-      "topic_zh": "Pump完先追",
-      "topic_en": "Why buy after the pump",
-      "text_zh": "成日都係咁。BTC 悶幾個星期冇人理，pump 15% 之後個個湧入。問吓點解唔喺橫行嗰陣入場啦，唔好又係FOMO追頂啦🙏 永遠都係郁完先知，等到喊都冇用。",
-      "text_en_b1": "Why do people buy BTC after the pump? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened? This pattern repeats every single cycle and people still fall for it.",
+      "topic_zh": "泵完先追",
+      "topic_en": "Why Buy BTC After the Pump",
+      "text_zh": "個post講得好中：『你睇BTC兩星期唔郁完全唔理，然後佢一pump 15%，個個就衝入去』⋯⋯我都係咁。每次breakout先FOMO入，stop又窄，俾人食晒。命理都話我今年唔適合all-in，btw。",
+      "text_en_b1": "BTC does nothing for weeks, and everyone ignores it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone always want to buy only after the move already happened? The OP is frustrated that retail always chases the breakout instead of buying the quiet pre-pump weeks.",
       "source_url": "https://boards.4chan.org/biz/thread/62625769",
-      "source_hint": "Anon calls out retail buying BTC after the move",
+      "source_hint": "/biz/ thread about retail buying BTC only after the pump",
       "signal": {
         "asset": "BTC",
-        "direction": "neutral",
+        "direction": "observation",
         "conviction": "low",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post is observational critique of FOMO behaviour, no clear long or short setup"
+        "rationale": "Post is about bad timing, not a directional call"
       },
-      "text_en_b2": "This is getting ridiculous. BTC consolidates for weeks on end, nobody bats an eye, then a 15% pump suddenly pulls the crowd back in. People who refuse to build positions during the sideways action pile in afterwards because FOMO kicks in. The pattern plays out every cycle, yet retail traders keep falling for the same trap and end up buying the top.",
-      "text_en_c1": "The cycle never fails to repeat itself. BTC will consolidate sideways for weeks on end, met with total indifference from the broader market, and then the moment it rips 15% higher, the FOMO crowd materialises out of thin air demanding entry. What I genuinely cannot fathom is why anyone would chase momentum after the move has already played out, yet every single cycle without exception, retail capitulates into positions at or near the local top. By the time the chorus of regret kicks in, the liquidation cascade has typically already begun. It's almost poetic in its predictability.",
-      "text_en_c2": "The phenomenon is almost mechanical in its predictability: Bitcoin languishes in prolonged consolidation for weeks on end, commanding scarcely a glance from retail participants, before suddenly vaulting fifteen percent in a matter of days. At that precise moment, an army of opportunistic latecomers materialises, scrambling to establish positions at precisely the wrong juncture. The question scarcely needs asking, yet it bears repeating: why does the buying impulse only crystallise after the substantive price discovery has already occurred? This behavioural pattern, wherein investors capitulate to fear of missing out precisely when asymmetric upside has been exhausted, recurs with metronomic regularity across every cycle. The chorus of lamentation that subsequently arises is therefore entirely self-inflicted, a ritual the market performs with wearying inevitability. History, it seems, offers instruction to precisely no one.",
-      "audio_url": "audio/2026-09-10/clip-biz-buy-after-pump.mp3"
+      "text_en_b2": "The original post nails a frustrating pattern: BTC sits idle for weeks, and retail shrugs it off, but once it suddenly pumps 15%, everyone piles in. Why does nobody want to buy during the boring pre-pump phase? The OP is venting that retail traders consistently chase breakouts instead of accumulating quietly beforehand. I fall into the same trap, entering on FOMO with tight stops that get shredded, while my fate chart insists this isn't my year for all-ins.",
+      "text_en_c1": "The original observation captures a pattern so universal it hardly needs elaboration. Bitcoin trades sideways for weeks on end, consolidating in a tight range while retail sentiment drifts towards outright indifference. Then, almost inevitably, a fifteen-percent rally materialises overnight, and the very same individuals who couldn't care less moments earlier scramble to pile in at the worst possible juncture. The frustration articulated here is entirely legitimate: capital consistently chases momentum that has already manifested, rather than positioning itself during the dull, pre-pump accumulation phase. Stop-losses get hunted, entries get wrecked, and the cycle repeats with tedious predictability.",
+      "text_en_c2": "There exists a peculiar collective psychosis whereby Bitcoin will languish in absolute torpor for weeks on end, scarcely registering a flicker of movement, during which period the retail masses profess serene indifference and pledge never again to be lured into speculative manias. Then, invariably, the price jolts upward by some fifteen percent, and precisely the same cohort stampedes back into the market with the credulous urgency of those who have suddenly remembered a forgotten appointment. The original poster's exasperation is entirely warranted, since this pattern, in which capital is deployed only after the prevailing trend has announced itself with maximum conspicuousness, constitutes perhaps the most reliable indicator of amateur participation in any given cycle.",
+      "audio_url": "audio/2026-09-10/clip-clip02-trading-btc-timing.mp3"
     },
     {
-      "id": "g-openai-steal",
+      "id": "clip03-tech-openai-steal",
       "category": "tech/ai",
-      "topic_zh": "OpenAI抄功課",
-      "topic_en": "OpenAI research drama",
-      "text_zh": "OpenAI 9月8號宣稱個 Astra 模型（用GPT-6）解咗個難題，燒咗2000萬美金計力。但研究員 Tristan Buckmaster 指出，佢自己用 OpenAI 自己嘅 Codex 加 Anthropic 嘅 Claude 做嘅研究同 Astra 嘅做法好相似。AI 咁樣食人研究成果，仲有冇人想繼續做研究？wtf。",
-      "text_en_b1": "On September 8th OpenAI claimed their Astra model, built on GPT-6, solved a big research problem using about $20 million in compute. Researcher Tristan Buckmaster then pointed out that OpenAI's approach closely matches his own independent work, which he had been refining with OpenAI's Codex and Anthropic's Claude. The video alleges serious ethical conflict around AI models stealing or copying human research.",
+      "topic_zh": "OpenAI抄功課？",
+      "topic_en": "Did OpenAI Steal Research?",
+      "text_zh": "🙃 又嚟。今次Astra/GPT-6解決個數學難題，獨立研究者話自己嘅方法被OpenAI直接攞去用。AI越嚟越勁，但係靠食人功課嚟進度，真係好恐怖。我個surveying job遲早都俾AI頂。",
+      "text_en_b1": "OpenAI announced on September 8th that their model Astra, running on GPT-6, had solved a hard problem. It supposedly cost $20 million in compute. But researcher Tristan Buckmaster says OpenAI's approach looks very similar to his own independent work, which he had been refining using OpenAI Codex and Anthropic Claude. The video claims a serious ethical conflict.",
       "source_url": "https://boards.4chan.org/g/thread/109771147",
-      "source_hint": "Anon posts about OpenAI allegedly cribbing a researcher's work for GPT-6 Astra",
+      "source_hint": "/g/ thread alleging OpenAI copied a researcher's method for GPT-6",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech ethics drama, not a trade"
+        "rationale": "News drama, not a trade"
       },
-      "text_en_b2": "On September 8th, OpenAI claimed their Astra model, which runs on GPT-6, cracked a major research problem while burning through roughly $20 million in compute. Then researcher Tristan Buckmaster pointed out that OpenAI's methodology closely resembles his own independent work, refined using OpenAI's Codex and Anthropic's Claude. The whole saga raises uncomfortable questions about AI systems quietly absorbing human research without proper credit.",
-      "text_en_c1": "On September 8th, OpenAI announced that their Astra model, ostensibly built atop GPT-6, had cracked a significant research problem at an estimated compute cost of roughly $20 million. Independent researcher Tristan Buckmaster subsequently drew attention to the uncomfortable fact that his own work, developed iteratively using OpenAI's own Codex alongside Anthropic's Claude, bears striking methodological similarities to what Astra claims to have achieved. If frontier models are systematically absorbing, repackaging, and republishing the intellectual labour of the very researchers whose tools built them, one has to ask whether academic contribution to this ecosystem remains remotely rational.",
-      "text_en_c2": "On the eighth of September, OpenAI made the rather audacious claim that its Astra model, constructed atop the GPT-6 architecture, had resolved a formidable research problem at an expenditure of roughly twenty million dollars in compute resources. The triumphalist narrative, however, swiftly unravelled when the independent researcher Tristan Buckmaster publicly observed that Astra's methodology bore a striking resemblance to his own ongoing investigations, work he had been painstakingly refining through an iterative dialogue with OpenAI's own Codex alongside Anthropic's Claude. The implications are profoundly disquieting: if frontier AI systems can effectively ingest, digest, and repurpose human intellectual labour without attribution or compensation, what rational incentive remains for researchers to publish, share, or even pursue open inquiry? The entire apparatus of collaborative science risks being hollowed out from within, a grotesque inversion of the ecosystem that…",
-      "audio_url": "audio/2026-09-10/clip-g-openai-steal.mp3"
+      "text_en_b2": "OpenAI announced on September 8th that their Astra model, running on GPT-6, had cracked a notoriously hard mathematical problem, reportedly burning through $20 million in compute. However, researcher Tristan Buckmaster points out that their methodology bears a striking resemblance to his own independent work, which he had been iterating on using OpenAI Codex and Anthropic Claude. The accompanying video highlights a serious ethical conflict, and frankly, if AI keeps feeding off other people's homework, my surveying job is doomed.",
+      "text_en_c1": "On the eighth of September, OpenAI unveiled Astra, a model purportedly running on GPT-6 architecture, which the organisation claims solved an exceptionally challenging mathematical problem at a reported compute cost of twenty million dollars. Almost immediately, independent researcher Tristan Buckmaster raised pointed objections, noting that the methodology deployed bears striking resemblance to work he had been refining using OpenAI Codex and Anthropic Claude. Whether this constitutes outright appropriation or merely convergent methodology remains genuinely contested, yet the ethical implications are considerable. If frontier progress increasingly depends upon absorbing the labour of unaffiliated researchers without acknowledgment, the entire incentive structure underpinning open contribution begins to look untenable.",
+      "text_en_c2": "On the eighth of September, OpenAI unveiled its latest feat: the Astra system, running atop the newly minted GPT-6 architecture, which purportedly resolved an exceptionally difficult mathematical problem at a computational expenditure rumoured to exceed twenty million dollars. The announcement, however, has been complicated by the objections of researcher Tristan Buckmaster, who has noted striking parallels between OpenAI's methodology and his own independent work, refined over months with the assistance of OpenAI's own Codex and Anthropic's Claude. The accompanying video frames this as a grave ethical transgression, one whose implications extend well beyond any single researcher or paper. Whether one regards the enterprise as systematic appropriation or merely convergent discovery, the broader anxiety it provokes is unmistakable: the institutions most aggressively pursuing artificial intelligence appear increasingly to derive their progress from the uncompensated intellectual labour…",
+      "audio_url": "audio/2026-09-10/clip-clip03-tech-openai-steal.mp3"
     },
     {
-      "id": "pol-china-pisa",
+      "id": "clip04-hk-china-pisa",
       "category": "hk/news",
-      "topic_zh": "中國PISA屠榜",
-      "topic_en": "China PISA dominance",
-      "text_zh": "新 OECD PISA 報告，91個國家76萬學生，全球數學同閱讀分數全部插水。但中國學生一枝獨秀，數學頂級Level 5要607分，中國平均612分。香港細路讀書真係俾人遠遠拋開。🧐",
-      "text_en_b1": "New OECD PISA study covered 760,000 students across 91 countries. Global math and reading scores are cratering and kids are getting dumber everywhere, except in China. Chinese students are the smartest by a huge margin. Level 5 maths starts at 607, but the average Chinese kid scores 612, a level considered elite in the rest of the world.",
+      "topic_zh": "PISA中國贏",
+      "topic_en": "China Wins PISA Again",
+      "text_zh": "『Chinese Century』。OECD PISA全球760,000學生，數學閱讀全部跌，只有中國繼續贏。平均612分，歐美elite level嘅門檻607。🙏 香港仔聽到應該有啲感受，我諗返轉頭我嗰7年喺美國⋯⋯真係兩邊都唔到岸。",
+      "text_en_b1": "A new OECD PISA study covered 760,000 students across 91 countries. Global math and reading comprehension scores are cratering, and kids are getting dumber. But Chinese students are the smartest by a huge margin. The top math level starts at 607. The average kid in China scores 612, putting normal Chinese kids at a level considered elite everywhere else.",
       "source_url": "https://boards.4chan.org/pol/thread/542292504",
-      "source_hint": "Anon posts about OECD PISA showing Chinese students far ahead globally",
+      "source_hint": "/pol/ thread on China topping PISA while the world declines",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Education news, not tradeable"
+        "rationale": "News/society thread, no market setup"
       },
-      "text_en_b2": "The latest OECD PISA report, covering 760,000 students across 91 countries, shows global math and reading scores plummeting almost everywhere. China, however, is pulling further ahead while the rest declines. The Level 5 maths threshold sits at 607, yet the average Chinese student scores 612, which puts them firmly in elite territory by international standards and leaves Hong Kong trailing badly.",
-      "text_en_c1": "The latest OECD PISA assessment, surveying roughly 760,000 students across 91 participating countries, paints a bleak picture of global educational outcomes, with both mathematical literacy and reading comprehension in steep, broadly synchronised decline. Against that backdrop, China's performance stands as a striking outlier. The threshold for elite Level 5 mathematical proficiency sits at 607, yet the average Chinese student now posts 612, a margin that, in practical terms, places the typical mainland pupil above the elite cut-off applied to the rest of the world's cohort. Hong Kong students, by comparison, find themselves decisively outclassed.",
-      "text_en_c2": "The latest OECD PISA assessment, encompassing some 760,000 students drawn from ninety-one participating nations, delivers a disquieting verdict on the global trajectory of educational attainment. Mathematics and reading scores across the developed world have plummeted precipitously, with each successive cohort seemingly less equipped than its predecessor, save for one conspicuous outlier. Chinese students have not merely weathered the decline; they have decisively outpaced every competitor, posting results that border on the preternatural. Consider that the threshold for the elite Level 5 mathematics proficiency begins at 607 points, yet the average Chinese student now registers 612, a figure that would constitute exceptional achievement almost anywhere else. Hong Kong pupils, once regional pacesetters, find themselves increasingly outflanked by their mainland counterparts. The chasm is no longer merely statistical; it portends something far more consequential for decades hence.",
-      "audio_url": "audio/2026-09-10/clip-pol-china-pisa.mp3"
+      "text_en_b2": "A fresh OECD PISA study surveyed 760,000 students across 91 countries, and the results paint a grim picture: global math and reading comprehension scores are cratering almost everywhere. Yet Chinese students continue to pull ahead by a substantial margin. While the elite math threshold sits at 607, the average Chinese student scores 612, meaning typical Chinese kids outperform what other countries consider their top tier. As a Hong Konger who spent seven years in the States, I feel caught between two worlds.",
+      "text_en_c1": "The latest OECD PISA assessment, drawing upon data from 760,000 students distributed across ninety-one countries, paints a rather disquieting picture of global educational trajectories. Mathematics and reading comprehension scores have declined markedly across most participating nations, prompting hand-wringing about declining standards and worsening preparedness. China, however, continues to outperform its peers by a considerable margin, with the average student scoring 612 in mathematics. That figure is particularly striking given that the threshold for elite-level proficiency globally sits at 607, meaning a typical Chinese pupil effectively clears the bar that elsewhere distinguishes the exceptional from the merely competent.",
+      "text_en_c2": "The most recent OECD PISA assessment, encompassing some 760,000 students across ninety-one participating nations, delivers a dispiriting verdict on the global state of educational attainment: mathematical literacy and reading comprehension alike have plummeted almost everywhere, with the precipitous decline suggesting a generation in quiet intellectual retreat. Against this dismal backdrop, however, Chinese students have once again emerged as outliers of extraordinary proficiency, their average mathematics score of 612 comfortably exceeding the 607 threshold that demarcates elite performance in every other jurisdiction surveyed. The contrast is not merely statistical but almost civilisational in its implications, lending renewed credibility to the much-mocked notion of a Chinese century and raising uncomfortable questions about why peer nations, despite vastly greater per-capita expenditure, continue to produce such conspicuously inferior outcomes.",
+      "audio_url": "audio/2026-09-10/clip-clip04-hk-china-pisa.mp3"
     },
     {
-      "id": "v-blizzard-union",
+      "id": "clip05-lol-blizzard-union",
       "category": "lol/esports",
       "topic_zh": "暴雪搞工會",
-      "topic_en": "Blizzard unionizes",
-      "text_zh": "暴雪班打工仔贏咗歷史性嘅工會合約，可能會定立新標準。S15啱啱睇完LCK，但呢單工會新聞對成個gaming行業更加重要。AI再勁都唔可以食晒晒。👍",
-      "text_en_b1": "Blizzard workers just won a historic union contract that could set a new standard for game developers. This came up on /v/ as proof the studio is 'back' under the union deal. With AI threatening every studio pipeline, organised labour inside game companies is starting to fight back against being replaced outright.",
+      "topic_en": "Blizzard Forms Union vs AI",
+      "text_zh": "『BLIZZARD IS BACK BABY』。唔係新patch，係工人贏咗份歷史性工會合約。對抗AI入侵game dev嗰個立場⋯⋯lol，做game嘅都驚被自己寫嘅AI頂，做surveying嘅我更加唔使講。",
+      "text_en_b1": "Blizzard workers have won a historic union contract that could set a new standard for game industry labour. The union was specifically formed to push back against AI replacing game developers. The OP says this proves Blizzard is back, because the studio is finally standing up for its staff against automation.",
       "source_url": "https://boards.4chan.org/v/thread/747269563",
-      "source_hint": "Anon celebrates Blizzard union contract as win for devs against AI",
+      "source_hint": "/v/ thread about Blizzard forming a union to fight AI replacement",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming labour news, not tradeable"
+        "rationale": "Esports/labour news, no trade"
       },
-      "text_en_b2": "Blizzard's workforce has just secured a landmark union contract that could set a powerful precedent across the entire gaming industry. While competitive League streams like LCK S15 tend to dominate conversation on /v/, this labour victory arguably matters far more for the long term. With AI creeping into every production pipeline, organised workers inside studios are finally fighting back against being sidelined.",
-      "text_en_c1": "Blizzard's workforce has secured what can only be described as a landmark union contract, one whose ripple effects across the broader games industry could prove genuinely precedent-setting. Coming hot on the heels of S15 LCK coverage, the news lands with considerably more weight, suggesting that organised labour within major studios is finally finding its footing. With AI-driven automation threatening every stage of the development pipeline, from concept art to QA, the calculus for employees has shifted decisively. Workers are no longer content to be treated as a disposable line item awaiting algorithmic replacement, and the unionisation drive reflects precisely that sentiment.",
-      "text_en_c2": "In what may well prove a watershed moment for labour relations across the gaming industry, Blizzard's workforce has secured a landmark union contract whose ripple effects are likely to reverberate far beyond the studio's own corridors. Although the broader gaming discourse remains preoccupied with competitive fixtures such as the recently concluded LCK Summer Split, it is arguably this organising victory that carries the more profound long-term significance. With artificial intelligence poised to disintermediate virtually every production pipeline, from asset generation to quality assurance, the proposition that creative labour can simply be automated into obsolescence grows ever more plausible. What Blizzard's workers have demonstrated, however, is that collective bargaining retains meaningful traction even against such headwinds.",
-      "audio_url": "audio/2026-09-10/clip-v-blizzard-union.mp3"
+      "text_en_b2": "Blizzard workers have just clinched a historic union contract that could set a new benchmark for the entire game industry. Although no new patch dropped, the OP celebrates this as proof that Blizzard is finally back, because the union was specifically mobilised to push back against AI encroaching on game dev roles. Standing up against automation is a powerful statement, and honestly, if people who build games fear being replaced by their own creations, my surveying career has even less hope.",
+      "text_en_c1": "Rather than unveiling a new patch or announcing a long-awaited feature, Blizzard has achieved something arguably more significant: a landmark union contract that may well establish a new benchmark for labour relations across the entire games industry. The timing is hardly coincidental, as the union was explicitly constituted to resist the encroachment of artificial intelligence upon development workflows. For a sector that has watched generative tools encroaching upon art, writing, and coding pipelines with alarming speed, this represents a meaningful assertion of worker agency. The OP frames it as proof that the studio's institutional culture is, at long last, recovering its footing.",
+      "text_en_c2": "The announcement that has the gaming community genuinely enthused is not, contrary to the usual expectations, the arrival of a long-awaited patch or the reveal of a forthcoming expansion, but rather the ratification of a landmark union contract by Blizzard's workforce, an agreement widely regarded as the most consequential labour accord in the history of the interactive entertainment industry. What lends the development its particular resonance is the union's explicit founding mandate: to serve as a bulwark against the encroachment of artificial intelligence into game development, a domain whose practitioners now confront the unnerving prospect of obsolescence at the hands of systems trained upon their own creative output.",
+      "audio_url": "audio/2026-09-10/clip-clip05-lol-blizzard-union.mp3"
     },
     {
-      "id": "fit-squat-meme",
+      "id": "clip06-fit-ciaco",
       "category": "mma/fitness",
-      "topic_zh": "Squat係咪meme",
-      "topic_en": "Are squats a meme",
-      "text_zh": "條post話squat根本係meme lift，現代gym過度神化佢。古希臘人唔做squat嘅，佢哋跑步練腿、舉重練上身、搬重物練腿。最佳運動員就係bench、OHP、DL加跑山同搬重物。下次肥仔信再笑我squat太差我就有稿啦lol。",
-      "text_en_b1": "Squats are a meme lift that modern lifting over-prioritises. The ancient Greeks never did squats. They ran to train legs, lifted heavy things to train the upper body, and carried heavy loads for legs. If you want to train like the best athletes in history, all you need is bench, overhead press, deadlift, running, and carrying heavy things. Heavy squats are not required.",
-      "source_url": "https://boards.4chan.org/fit/thread/77498059",
-      "source_hint": "Anon argues squats are over-rated compared to carries and running",
+      "topic_zh": "CICO係低能",
+      "topic_en": "Calories In Calories Out Is Dumb",
+      "text_zh": "個post笑死人：『咁Elon點解咁有錢？因為收入多過支出？廢話嚟。』同個道理，CICO根本唔解釋點解你會肥。我同肥仔信傾過，佢只係笑笑口：『你都係唔夠操。』wtf。",
+      "text_en_b1": "The OP argues that calories in, calories out is a low-IQ tautology. Of course you store more calories when you get fatter, but CICO never explains why it happens. He compares it to answering 'why is Elon Musk rich' with 'because he makes more than he spends.' It tells you nothing meaningful about the actual mechanism.",
+      "source_url": "https://boards.4chan.org/fit/thread/77505779",
+      "source_hint": "/fit/ thread dunking on the CICO diet dogma",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness opinion thread, no trade"
+        "rationale": "Fitness/diet rant, not a market setup"
       },
-      "text_en_b2": "The argument basically claims squats are an overhyped meme lift that modern gym culture puts on a pedestal. Ancient Greek athletes never touched a barbell squat; they ran to build leg endurance, pressed weights overhead for upper-body strength, and hauled heavy loads to develop functional leg power. Bench, overhead press, deadlift, hill sprints, and loaded carries were more than enough.",
-      "text_en_c1": "The post argues, with a certain contrarian flair, that the squat has been grotesquely over-mythologised by contemporary gym culture to the point of becoming little more than a meme lift. Notably, the ancient Greeks, widely regarded as among the most functionally capable athletes in recorded history, apparently never performed them. Their conditioning came from running for leg endurance, heavy upper-body lifting for pressing strength, and hauling substantial loads for posterior chain development. If you're genuinely inclined to train like the finest athletes of antiquity, the template would be bench, overhead press, deadlift, hill running, and loaded carries. Heavy back squats, it turns out, were never strictly necessary.",
-      "text_en_c2": "There exists a rather seductive contrarian argument circulating within lifting communities that the squat, that most venerated of barbell exercises, is essentially a meme load that contemporary gyms have elevated to unwarranted mythological status. The historical justification, such as it is, rests upon the observation that the ancient Greeks, hardly slouches when it came to physical culture, evidently never performed anything resembling a modern bilateral squat. Their methodology instead favoured locomotion: distance running for lower body development, overhead stone work for the upper body, and the carrying of substantial loads for functional leg strength. Should one wish to train along genuinely time-honoured lines, the prescription reduces to a handful of movements: the bench press, overhead press, and deadlift for upper tension and posterior chain development, supplemented by hill running and loaded carries.",
-      "audio_url": "audio/2026-09-10/clip-fit-squat-meme.mp3"
+      "text_en_b2": "The OP argues that calories in, calories out is essentially a low-IQ tautology that explains precisely nothing. Of course fatter bodies store more calories, but CICO never addresses the underlying mechanism driving weight gain. He draws a parallel to answering 'why is Elon Musk rich' with 'because he makes more than he spends', which, while technically accurate, offers zero genuine insight. I brought this up with a chubby friend once, and he just smirked and said I clearly wasn't training hard enough, which was infuriating.",
+      "text_en_c1": "The post dismantles the calories-in-calories-out framework with a particularly pointed analogy: explaining why Elon Musk is wealthy by observing that his income exceeds his expenditure is technically accurate yet entirely vacuous. It describes the outcome without illuminating the underlying mechanism, which is precisely the criticism levelled against simplistic energy-balance thinking. Of course heavier individuals accumulate more calories; that observation hardly constitutes an explanation. Worse still, when challenged on the matter, devotees retreat to platitudes about insufficient discipline, which adds nothing substantive to the discussion. The dismissal feels smug precisely because it substitutes moral judgment for genuine physiological inquiry.",
+      "text_en_c2": "The original poster's demolition of the calories-in-calories-out paradigm is, in its own crude way, philosophically unassailable, since to observe that corpulent individuals accumulate energy is merely to restate the phenomenon requiring explanation rather than to elucidate its underlying mechanism. He draws an apt parallel with the inanity of answering the question of why Elon Musk is wealthy by recourse to the observation that his revenues exceed his expenditures, a formulation that conveys precisely nothing about the structural conditions, market positioning, or decision-making architectures that produced the outcome in question. The colleague who responded with the smug admonition that the interlocutor was simply insufficiently disciplined betrays, in so doing, a fundamental category error: he has mistaken an empirical observation for an explanatory framework, and in the process has revealed far more about his own intellectual limitations…",
+      "audio_url": "audio/2026-09-10/clip-clip06-fit-ciaco.mp3"
     },
     {
-      "id": "a-soremachi-ebi",
+      "id": "clip07-anime-soremachi",
       "category": "anime/culture",
-      "topic_zh": "Soremachi回憶",
-      "topic_en": "Soremachi creator chat",
-      "text_zh": "石黑正數自己排最鍾意嘅角色、畫泳裝版，仲講咗一大堆random嘢。佢話蝦醬原型係佢小學初戀lol。Kon-senpai冇份但SD版有，廚到暹。👍",
-      "text_en_b1": "Ishiguro ranked his favourite characters from his own manga Soremachi, drew them in swimsuits, and talked about random stuff. Ebi-chan is based on his first crush from elementary school. Kon-senpai is missing from the list but her SD version from the gag manga is there instead.",
+      "topic_zh": "Soremachi登場",
+      "topic_en": "Soremachi & Friends",
+      "text_zh": "石黑老師自己排自己manga嘅角色，仲要畫泳衣版。Kon-senpai竟然唔喺正榜，只有SD版入圍。⋯⋯我幾年冇開過gundam 00以外嘅anime，btw，睇到呢個post即刻想re-watch。",
+      "text_en_b1": "Mangaka Ishiguro ranks his own favourite characters from his manga Soremachi, draws them in swimsuits, and talks about random stuff in a new YouTube video. Kon-senpai is missing from the list, but her SD version from a gag manga is included. Ebi-chan is based on his first crush from elementary school.",
       "source_url": "https://boards.4chan.org/a/thread/290637577",
-      "source_hint": "Anon posts Ishiguro interview about Soremachi characters and his first crush",
+      "source_hint": "/a/ thread on Ishiguro's Soremachi character ranking video",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime author interview, not tradeable"
+        "rationale": "Anime/manga culture, no trade"
       },
-      "text_en_b2": "Ishiguro Masakazu ranked his personal favourite characters from his own manga Soremachi and even sketched them in swimsuits, chatting through a bunch of miscellaneous topics along the way. He casually dropped that Ebi-chan was essentially modelled on his elementary school crush, which is endearingly embarrassing. Kon-senpai missed the main ranking, although her SD counterpart from the gag spinoff made the cut.",
-      "text_en_c1": "Ishiguro Masakazu took it upon himself to rank his own favourite characters from Soremachi, commission swimsuit renditions, and meander through a characteristically tangential discourse on assorted trivia. In a disclosure that nobody particularly asked for, he revealed that Ebi-chan's design was apparently inspired by his elementary school crush, which is precisely the kind of detail one neither requires nor can successfully unlearn. Curiously absent from his rankings is Kon-senpai, though her super-deformed incarnation from the gag spin-off does receive an honourable mention. The man is, by any objective measure, a grade-A evangelist for his own creation, and longtime readers are quietly suffering for it.",
-      "text_en_c2": "Ishiguro Masakazu, the reclusive auteur behind the quietly beloved Soremachi, recently convened one of those disarmingly candid creator sessions in which he discoursed at length upon his own creations. The proceedings, typically equal parts shilling and confession, saw him ranking his personal favourites among the ensemble cast before sketching them in various states of beachwear, a ritual as inevitable as it is commercially motivated. Amid the expected ephemera, however, emerged a genuinely arresting revelation: the character Ebi-chan, ostensibly modelled upon a childhood acquaintance, was in fact drawn from his very first elementary school crush, a disclosure that recontextualises her rather pointed mannerisms entirely. Curiously absent from the rankings was Kon-senpai, whose conspicuous omission is partially offset by the inclusion of her super-deformed incarnation from the satirical spinoff.",
-      "audio_url": "audio/2026-09-10/clip-a-soremachi-ebi.mp3"
+      "text_en_b2": "Mangaka Ishiguro has posted a new YouTube video where he ranks his own favourite characters from Soremachi, sketches them in swimsuits, and rambles about whatever crosses his mind. Curiously, Kon-senpai doesn't make the proper list, though her SD counterpart from a gag manga sneaks in. He also reveals that Ebi-chan was loosely inspired by his very first crush back in elementary school, and seeing all this made me want to rewatch the whole series immediately.",
+      "text_en_c1": "Mangaka Ishiguro has uploaded a new YouTube video in which he ranks his own characters from Soremachi with the unselfconscious enthusiasm of an author thoroughly enjoying his own creations, even sketching several of them in swimwear. Curiously, Kon-senpai herself fails to make the principal ranking, though her SD rendition from a spin-off gag manga receives an honourable mention. Ebi-chan, it transpires, draws inspiration from his very first childhood crush during elementary school. The combination of self-indulgent ranking, breezy asides, and affectionate character sketches possesses a charm that is difficult to resist, even for viewers whose anime consumption has dwindled considerably over recent years.",
+      "text_en_c2": "Mangaka Ishiguro, evidently unable to resist the temptation that has undone greater authors, has taken it upon himself to rank his own characters from the manga Soremachi, illustrated them in various states of beachwear, and discoursed at considerable length upon a panoply of unrelated preoccupations in a recently uploaded YouTube feature. Curiously, Kon-senpai has been omitted from the principal ranking, though her chibi counterpart from an associated parody serial has somehow secured inclusion, a slight that fans have greeted with the sort of performative outrage customary to the medium. Ishiguro further reveals that the character Ebi-chan is, in fact, a lightly fictionalised incarnation of his very first crush from elementary school, a confession that ought to occasion no surprise whatsoever to anyone who has spent any appreciable time studying the author's artistic preoccupations.",
+      "audio_url": "audio/2026-09-10/clip-clip07-anime-soremachi.mp3"
     }
   ]
 }
