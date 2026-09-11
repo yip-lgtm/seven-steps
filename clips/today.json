@@ -1,6 +1,175 @@
 {
   "date": "2026-09-11",
-  "source": "pool-fallback",
+  "source": "ai",
   "persona": "wsb",
-  "clips": []
+  "clips": [
+    {
+      "id": "trade-condo-001",
+      "category": "trading",
+      "topic_zh": "炒幣換condo",
+      "topic_en": "Crypto condo regret",
+      "text_zh": "22歲靠doge賺到第一桶金，230K美金買咗condo，之後冇job、冇income，攤喺度。回學校grad完，依家返工$100K，condo自己住，學生貸款同卡數一齊嚟。咁啱同我好似，我哋都係被市場教識做人。🙏",
+      "text_en_b1": "A 27-year-old anon on /biz/ made a bunch of crypto money from Dogecoin back in 2021. He dropped out of school, bought a $230K condo, and lived the perma vacation life for two years. Now he works a $100K job, has student debt and credit card debt, and feels stuck. Sound familiar to anyone else who ape'd in too early?",
+      "source_url": "https://boards.4chan.org/biz/thread/62674411",
+      "source_hint": "/biz/ anon who bought condo with doge money, now stuck in work-consume-repeat cycle",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Post-hoc reflection on past crypto gains, no setup"
+      },
+      "text_en_b2": "A 27-year-old /biz/ poster cashed in on Dogecoin during the 2021 surge and walked away with enough to drop out of school. He put $230K down on a condo, coasted through two years of perma-vacation with no income, then eventually went back, finished his degree, and now pulls $100K at a regular job. Student loans and credit-card debt piled up along the way, so even though he's earning again, he feels completely trapped. Anyone else who aped in too early know the feeling? 🙏",
+      "text_en_c1": "A 27-year-old anonymous poster on /biz/ recounts how, having made a considerable sum from Dogecoin during the 2021 bull run, he elected to abandon his studies and sink roughly $230,000 into a condominium. For the next two years he coasted along on what amounted to a permanent holiday, free of any real obligations. Once the money dried up, however, reality set in: he returned to university, graduated, and is now employed in a role paying $100K, albeit saddled with both student loans and lingering credit-card debt. The condo remains his primary residence, yet any equity feels largely illusory given the repayments looming on the horizon.",
+      "text_en_c2": "A 27-year-old /biz/ poster recounts how a Dogecoin windfall during the 2021 retail frenzy reshaped his financial trajectory, albeit in ways he now deeply regrets. Fresh out of school, he liquidated his gains and put down $230,000 on a condominium, settling into an extended idyll of perma-vacation and conspicuous consumption. Two years of unearned leisure later, the inevitable reckoning arrived: no degree, no income stream, and a lifestyle that could not be sustained. He ultimately returned to university, graduated, and now earns a respectable $100,000 salary, yet the condo remains a millstone, mortgaged and personally occupied, while delinquent student loans and spiralling credit-card balances compound. He concludes, with weary self-awareness, that the market has schooled him thoroughly, and asks whether others who aped in prematurely share his particular flavour of remorse.",
+      "audio_url": "audio/2026-09-11/clip-trade-condo-001.mp3"
+    },
+    {
+      "id": "trade-doge-space-002",
+      "category": "trading",
+      "topic_zh": "Doge上太空",
+      "topic_en": "Doge to space",
+      "text_zh": "3日後Doge真係上太空啦，個event就嚟。呢個唔係SNL 2.0，所以可以小注ap一下，爆上去就食，唔爆就揸住算。依家CFD帳面又紅緊，當學費囉。lol 🐕",
+      "text_en_b1": "Doge goes to fucking space in 3 days and you're not buying. /biz/ anon says if this thing explodes it's still gonna move up, so why not ape a bit. Then sell so it doesn't become SNL 2.0. Or maybe it will just start the hype again. Either way the catalyst is real.",
+      "source_url": "https://boards.4chan.org/biz/thread/62676654",
+      "source_hint": "/biz/ thread hyping Dogecoin space catalyst in 3 days",
+      "signal": {
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "days",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Catalyst play, small size ahead of space event, plan to sell into pump"
+      },
+      "text_en_b2": "Look, Dogecoin actually goes to space in three days, and you're sitting on the sidelines doing nothing. One /biz/ poster argues that even if the launch flops, the event itself still has enough fuel to push price higher, so throwing a small position in makes sense. Sell into any spike, though, because holding the bag is what turned the SNL cameo into a disaster. If nothing else, the catalyst is genuinely real this time around. lol 🐕",
+      "text_en_c1": "With the actual Dogecoin space mission reportedly slated within the next 72 hours, a /biz/ regular insists that anyone sitting on the sidelines has fundamentally misread the setup. Granted, the previous SNL-induced fumble offers a cautionary precedent, but the catalyst this time round is tangible rather than hype-driven, which is precisely why a modest position, hedged via CFD if exposure must be controlled, makes strategic sense. Should the launch narrative capture attention again, trim the position before momentum exhausts itself; should it falter, the loss is contained. Either way, the risk-reward calculus is skewed favourably enough to warrant engagement rather than passive observation.",
+      "text_en_c2": "In three days, Dogecoin will literally reach space, a concrete catalyst rather than the metaphorical moonshot of meme-stock lore, and /biz/ sentiment has duly recalibrated around the imminent launch event. The prevailing consensus, articulated by a self-styled contrarian with a live CFD position bleeding red, is that the asymmetry warrants a measured speculative allocation. If the launch precipitates a genuine breakout, trim the position; if it merely generates another tepid pump, hold through the noise rather than capitulate. The prevailing dread is that this materialises into SNL 2.0, that is, a flash-in-the-pan spectacle that incinerates late capital, though the poster insists the underlying catalyst renders that outcome improbable. His red P&L, he remarks with characteristic gallows humour, shall be written off as tuition.",
+      "audio_url": "audio/2026-09-11/clip-trade-doge-space-002.mp3"
+    },
+    {
+      "id": "ai-agi-quit-003",
+      "category": "tech/ai",
+      "topic_zh": "AI研究員劈炮",
+      "topic_en": "Anthropic researcher quits",
+      "text_zh": "Anthropic有個researcher直接劈炮，話唔想參加呢場self-improving AI軍備競賽，驚失控毀滅人類。即係連自己人都驚，仲點話可控？我哋呢啲surveyor+AI已經頂唔順，civil engineer都係時間問題。wtf",
+      "text_en_b1": "Jacob Coxon, an Anthropic researcher who trains AI models on huge amounts of data, is leaving the company. He said Tuesday he does not want to take part in the industrywide rush to build AI systems that can improve themselves. He worries such systems could spiral out of control and destroy humanity.",
+      "source_url": "https://boards.4chan.org/g/thread/109769311",
+      "source_hint": "/g/ thread on Anthropic researcher quitting over self-improving AI fears",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Industry news, not a trade setup"
+      },
+      "text_en_b2": "Jacob Coxon, a researcher at Anthropic who trains models on massive datasets, has publicly walked away from the company. He explained on Tuesday that he has no intention of contributing to the industry-wide arms race around self-improving AI systems, because he's genuinely terrified they could spiral out of control and wipe humanity off the map. If someone building this stuff from the inside feels that uneasy, what exactly are the rest of us supposed to take away from it? Surveyors are already cooked, and civil…",
+      "text_en_c1": "Jacob Coxon, a researcher at Anthropic whose remit involves training frontier models on genuinely vast datasets, has publicly resigned from the organisation. In a statement issued on Tuesday, he explained that he no longer wishes to participate in what he characterised as an industry-wide, self-improving AI arms race, one whose terminal endpoint he finds existentially alarming. Specifically, he voiced concern that recursive self-improvement could yield systems whose behaviour spirals beyond human oversight, with catastrophic consequences for civilisation.",
+      "text_en_c2": "Jacob Coxon, an Anthropic researcher whose remit encompassed training frontier models on vast datasets, has publicly resigned from the company, issuing a parting statement that has sent ripples through the AI alignment community. His stated rationale is unambiguous: he refuses, on principle, to participate any longer in what he characterises as the reckless, industry-wide arms race toward self-improving artificial intelligence, systems capable of recursive self-modification that he believes could catastrophically elude human control and, in extremis, annihilate civilisation. The resignation is particularly damning because it originates not from a peripheral critic but from a practitioner intimately familiar with the engineering realities. If those constructing these systems harbour genuine existential dread, the corollary for external observers is uncomfortable. Surveyors already lean on AI; civil engineers, it seems, are merely next in the queue.",
+      "audio_url": "audio/2026-09-11/clip-ai-agi-quit-003.mp3"
+    },
+    {
+      "id": "hk-mrna-004",
+      "category": "hk/news",
+      "topic_zh": "蝴蝶mRNA",
+      "topic_en": "Butterfly mRNA",
+      "text_zh": "/pol/ 又嚟膠膠噏，今次係話可以將人變成蝴蝶。仲要話Elon宣布嘅🙄 個link係某個盲人Vision出嘅post，似係嘲諷多過真新聞。我淨係想知prop firm幾時返本。",
+      "text_en_b1": "/pol/ anon claims we can turn humans into butterflies with mRNA, and says Elon Musk announced it. He links a Vision4theBlind post and asks if you will take the butterfly mRNA vaccine. Pure shitpost territory, but the OP is clearly having fun with the Elon brand.",
+      "source_url": "https://boards.4chan.org/pol/thread/542357574",
+      "source_hint": "/pol/ shitpost about Elon announcing butterfly mRNA vaccine",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Shitpost, not tradeable"
+      },
+      "text_en_b2": "/pol/ has cooked up another absolute banger, and this time they're claiming mRNA can supposedly turn people into butterflies, with Elon Musk apparently doing the announcing. The link points to some Vision4theBlind post that reads way more like mockery than anything resembling real reporting. Meanwhile, I'm just sitting here refreshing my prop-firm dashboard wondering when I'll actually see green again. 🙄",
+      "text_en_c1": "A /pol/ thread has latched onto the proposition that forthcoming mRNA technology will ostensibly enable humans to undergo metamorphosis into butterflies, with the obligatory attribution to Elon Musk doing the rounds. The cited link, however, traces back to a Vision4theBlind social media post that, on closer inspection, reads as parody or satire rather than genuine reportage. Whether the original poster is deliberately toying with the gullibility of the board or merely amplifying misinformation for amusement is unclear, but the entire exercise exemplifies how easily fabricated narratives, once tagged to a recognisable personal brand, gain unwarranted traction. Meanwhile, prop firm traders await nothing more substantive than a return to baseline.",
+      "text_en_c2": "/pol/ has, predictably, resumed its penchant for absurdist agitprop, this time asserting that forthcoming mRNA technology shall metamorphose humans into butterflies, the revelation attributed, with characteristic credulity, to an Elon Musk announcement. The provenance, as ever, is illuminating: the linked citation traces to a Vision4theBlind post, whose author appears far more invested in satirising Musk's messianic brand than in disseminating bona fide science. Nevertheless, the OP persists in earnest, soliciting whether respondents would consent to inoculation with the putative butterfly serum. The entire exercise reads as performance art, a knowing pisstake that nevertheless weaponises the Musk name to harvest engagement. The lone respondent confesses that his sole concern, amidst this carnival of misinformation, remains the slow haemorrhaging of his proprietary trading firm's capital.",
+      "audio_url": "audio/2026-09-11/clip-hk-mrna-004.mp3"
+    },
+    {
+      "id": "lol-dev-budget-005",
+      "category": "lol/esports",
+      "topic_zh": "305M開發",
+      "topic_en": "AAA dev budget leak",
+      "text_zh": "305M美金嘅development budget，未計marketing，係leaked doc流出嚟。唔知係邊隻game，但金額真係離晒譜。S15開打緊，prop firm又輸緊，睇下戲頂住先。lol",
+      "text_en_b1": "Leaked documents show a single game project carried a $305 million development budget, and that is excluding marketing costs. /v/ thread notes this is way more than what big franchises used to spend on full cycles. Amazing what they can achieve these days, the anon says, half-sarcastic.",
+      "source_url": "https://boards.4chan.org/v/thread/747345785",
+      "source_hint": "/v/ thread reacting to leaked $305M game dev budget",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Industry discussion, not a trade"
+      },
+      "text_en_b2": "Leaked internal documents circulating on /v/ suggest one unnamed game project carried a staggering $305 million development budget, and that figure doesn't even factor in marketing. Anons quickly pointed out this dwarfs what legacy franchises used to spend across entire production cycles, so the sheer waste on display is hard to ignore. The thread quickly derailed into prop-firm losses anyway, because Season 15 isn't going to watch itself. lol",
+      "text_en_c1": "According to leaked internal documentation that has since circulated across industry circles, a single undisclosed game project carried a development budget in the region of $305 million, a figure that excludes marketing expenditure entirely. For context, this sum eclipses what established franchises historically allocated across entire production cycles, including promotion. Whether the document pertains to a forthcoming AAA release or an already-shipping title remains unverified, though the sheer magnitude has predictably provoked disbelief on /v/, where commenters oscillate between outrage at perceived fiscal profligacy and grudging acknowledgement that contemporary scope creep scarcely leaves publishers any choice but to escalate spending to such stratospheric levels.",
+      "text_en_c2": "A leaked development document, whose provenance remains deliberately obscured, discloses that an unidentified single-project budget has ballooned to $305 million, a figure that excludes any marketing expenditure whatsoever and therefore represents merely the production cost floor. The /v/ thread, predictably, has seized upon the revelation with mingled incredulity and weary resignation, noting that such sums dwarf the entire lifecycle expenditure of legacy franchises from earlier console generations. What studios now achieve, or more pertinently, fail to achieve, with these gargantuan outlays has become a perennial industry vexation, encompassing bloated rosters, protracted crunch, and shippable products that somehow feel perpetually half-finished. The poster, with studied sarcasm, observes that modern production values evidently come at a price. Meanwhile, his proprietary firm's Season 15 campaign continues its familiar trajectory of incremental losses.",
+      "audio_url": "audio/2026-09-11/clip-lol-dev-budget-005.mp3"
+    },
+    {
+      "id": "mma-fit-bulk-006",
+      "category": "mma/fitness",
+      "topic_zh": "bulk定cut",
+      "topic_en": "Bulk or cut dilemma",
+      "text_zh": "/fit/ 仔問幾時先夠秤去cut走skinnyfat。2025年5月83kg肥，cut到2026年4月65kg連20kg bar都推唔起，lean bulk到依家返番80kg，flat bench 1plate 3x8，squat 90kg 3x6，deadlift 120kg 3x8。我都係咁，肥仔信成日笑我細隻。🧐",
+      "text_en_b1": "An anon on /fit/ asks how to know when he has bulked enough to cut and escape skinnyfat. In May 2025 he was 83kg and fat. He cut to 65kg by mid-April 2026, struggled to bench even the 20kg bar, then lean bulked back to 80kg. Now he benches 1 plate for 3x8, squats 90kg 3x6, deadlifts 120kg 3x8.",
+      "source_url": "https://boards.4chan.org/fit/thread/77510161",
+      "source_hint": "/fit/ thread on when to stop bulking and start cutting from skinnyfat",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Lifestyle post, not tradeable"
+      },
+      "text_en_b2": "A /fit/ poster wants to know when you're actually big enough to cut and finally shake skinnyfat. Back in May 2025 he was carrying 83kg and visibly fluffy, so he shredded down to 65kg by April 2026, but got so weak he could barely bench the empty 20kg bar. He lean-bulked back up to 80kg and now hits a flat bench at one plate for 3x8, squats 90kg for 3x6, and pulls 120kg for 3x8.",
+      "text_en_c1": "A /fit/ regular poses the perennial question that plagues intermediate lifters: precisely how does one determine when a bulk has run its course and a cut becomes advisable, particularly for those still navigating the limbo between skinny and merely lean? His own trajectory offers a useful case study. In May 2025 he tipped the scales at 83kg with a soft, untidy physique. A subsequent cut brought him down to 65kg by mid-April 2026, at which point even an empty 20kg barbell proved punishing on the bench.",
+      "text_en_c2": "A /fit/ poster, weary of his skinnyfat physique, has meticulously chronicled a multi-year recomposition that merits examination. In May 2025 he tipped the scales at 83 kilograms, visibly soft, whereupon he embarked upon an aggressive cut that saw him descend to 65 kilograms by mid-April 2026, at which nadir his strength had atrophied to the point that even a 20-kilogram barbell exceeded his bench capacity. Undeterred, he initiated a disciplined lean bulk, restoring his mass to a present 80 kilograms with substantially recomposed tissue. His current working weights reflect the dividends: a flat bench of one plate for 3 sets of 8, a squat of 90 kilograms for 3 sets of 6, and a deadlift of 120 kilograms for 3 sets of 8. The trajectory, he notes with measured satisfaction, vindicated the methodology.",
+      "audio_url": "audio/2026-09-11/clip-mma-fit-bulk-006.mp3"
+    },
+    {
+      "id": "anime-wsj-toc-007",
+      "category": "anime/culture",
+      "topic_zh": "Jump新一週TOC",
+      "topic_en": "Weekly Shonen Jump TOC",
+      "text_zh": "WSJ新一期TOC出咗，Sakamoto Days拎LCP cover，One Piece同Madan no Ichi跟住。Akanebanashi同Shinobigoto今期都有CP。Roku no Okashi na Ie仲喺度撐住，唔知幾時俾人腰斬。考牌都睇下呢啲先。",
+      "text_en_b1": "This week's Shonen Jump TOC: Sakamoto Days takes the LCP cover. Madan no Ichi and One Piece follow. Someone Hertz Me & Roboco, Greykeith no Makai Goyakuroku get CP. Akanebanashi and Shinobigoto also pick up CP. Roku no Okashi na Ie is still alive for now. Next issue: cover and LCP go to Someone Hertz.",
+      "source_url": "https://boards.4chan.org/a/thread/290835556",
+      "source_hint": "/a/ thread listing the latest Weekly Shonen Jump table of contents",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Anime news, not a trade"
+      },
+      "text_en_b2": "This week's Weekly Shonen Jump TOC is out, and Sakamoto Days has grabbed the coveted LCP cover slot, with One Piece and Madan no Ichi slotting in right behind it. Akanebanashi and Shinobigoto both manage to land color pages, while Roku no Okashi na Ie keeps clinging on to survival, though its cancellation axe seems to be swinging any day now. Next week's cover and LCP reportedly go to Someone Hertz Me, which should at least give the exam-cramming crowd something to skim through.",
+      "text_en_c1": "The latest edition of Weekly Shonen Jump has dropped, and the table of contents offers a fairly conventional lineup. Sakamoto Days secures the coveted lead colour page cover, with One Piece and Madan no Ichi trailing in the remaining top positions, their established readerships guaranteeing consistent placement. Both Akanebanashi and the newer Shinobigoto have managed to hold on to colour pages this issue, a quiet win for series whose long-term prospects remain uncertain. Roboco and Someone Hertz Me, alongside Greykeith no Makai Goyakuroku, round out the colour-page roster. Roku no Okashi na Ie persists, though the looming threat of cancellation continues to cast its shadow over each successive release.",
+      "text_en_c2": "The latest Weekly Shonen Jump table of contents has been published, and the hierarchy reveals the usual jockeying among established heavyweights and ascendant contenders. Sakamoto Days has secured the coveted Lead Colour Page cover, a placement that signals editorial confidence in its commercial momentum, with One Piece and Madan no Ichi trailing in the supporting slots. Both Akanebanashi and Shinobigoto have garnered Colour Page features, indicative of mid-tier promotional treatment designed to buttress their respective readerships. Elsewhere, Roku no Okashi na Ie clings precariously to serialisation, its survival a perennial source of reader speculation that the axe may fall at any juncture. The subsequent issue, per the OP, will bestow both cover and LCP upon Someone Hertz. He confesses, in closing, that licensure examinations await, and this distraction suffices for now.",
+      "audio_url": "audio/2026-09-11/clip-anime-wsj-toc-007.mp3"
+    }
+  ]
 }
