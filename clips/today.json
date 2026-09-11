@@ -4,14 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-condo-stuck",
+      "id": "trade-condo-cycle-01",
       "category": "trading",
-      "topic_zh": "炒幣廢青",
-      "topic_en": "Crypto condo regret",
-      "text_zh": "22歲嗰陣賭狗幣贏錢，兩年唔做嘢買咗condo。之後錢燒晒，返去讀書，畢業揸100K。宜家27，循環work-consume-repeat，信用卡債學生債壓住。食過好日子就返唔轉頭，我明。🙏",
-      "text_en_b1": "In 2021 I was 22 and made a bunch of random crypto money from Dogecoin. I lived two years with no job, perma vacation, dropped out of school and bought a condo for $230K. Money ran out, I went back, graduated, and now make $100K at 27. Stuck in work-consume-repeat. Student debt, credit card debt.",
+      "topic_zh": "炒幣兩年返學債",
+      "topic_en": "Crypto Vacation Hangover",
+      "text_zh": "睇到呢個post諗起自己。22歲炒doge贏錢，唔返學唔做嘢，買cond住兩年⋯⋯之後點？錢燒完，返學揹債，27歲返工$100K。我30歲喺HK做surveyor助手，仲想靠prop firm翻身，廢柴mode全開🙏",
+      "text_en_b1": "An anon made random crypto money from dogecoin back in 2021 at 22, quit school, and lived vacation-style for two years. He bought a condo for $230K, then ran out of cash, went back to school, and now at 27 he makes $100K a year with student debt and credit card debt. He says he feels stuck in a loop of work, consume, repeat.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "Anon regrets the Dogecoin condo arc and the work-consume cycle that followed",
+      "source_hint": "/biz/ condo regret from a former dogecoin winner",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -20,22 +20,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post-mortem on a 2021 DOGE lifestyle trade, no current setup"
+        "rationale": "Pure loss-pain life story with no trade setup"
       },
-      "text_en_b2": "At 22 I got incredibly lucky with Dogecoin and walked away with serious cash, so I quit school, spent two years on a permanent vacation, and dropped $230K on a condo. When the money inevitably dried up, I had to swallow my pride, finish my degree, and start working. Now I'm 27, pulling in $100K, yet I'm still trapped in the work-consume-repeat cycle, buried under credit card and student debt.",
-      "text_en_c1": "At 22, I made a substantial amount on Dogecoin during the 2021 crypto surge. Flush with cash, I quit studying, effectively took a two-year sabbatical, and purchased a $230,000 condo outright. Once the capital evaporated, I reluctantly resumed my education, eventually graduating and securing a $100K salary at 27. What genuinely disturbs me is being trapped in the work-consume-repeat cycle, weighed down by lingering student loans and credit card debt. Having sampled genuine financial freedom, returning to this grind feels almost unbearable.",
-      "text_en_c2": "At twenty-two, during the 2021 crypto delirium, I parlayed a modest Dogecoin windfall into what felt, at the time, like a kind of permanent escape. For two years I abandoned employment and academia alike, sustaining myself on speculative gains while purchasing a condominium for two hundred and thirty thousand dollars. The euphoria proved, predictably, transient; capital evaporated, I reenrolled, eventually graduated, and now, at twenty-seven, draw a respectable one-hundred-thousand salary that nevertheless feels like slow suffocation. Trapped in a Sisyphean cycle of labour and consumption, I service both student loans and revolving credit-card debt. The cruelest trick is not poverty itself but remembrance — having tasted that unfettered leisure, recalibrating to mediocrity has become a quiet, recurring grief.",
-      "audio_url": "audio/2026-09-11/clip-biz-condo-stuck.mp3"
+      "text_en_b2": "An anon struck it lucky on dogecoin back in 2021 when he was just 22, pocketed serious gains, and walked away from his studies to coast for two years. He dropped $230K on a condo, burned through the rest, and eventually crawled back to school saddled with student loans and maxed-out credit cards. Now 27, he is pulling around $100K a year, yet still feels trapped in that endless work-consume-repeat loop.",
+      "text_en_c1": "Stumbling across this post brought back memories of my own spectacular misadventures. At twenty-two, I struck it vaguely lucky with dogecoin, abandoned my studies, and spent the ensuing two years living in what can only be described as a permanent holiday. I purchased a $230K condo, burned through my reserves with remarkable efficiency, and eventually returned to school laden with debt. Now twenty-seven and earning a modest $100K annually, I find myself trapped in what feels like an inescapable cycle of work, consumption, and repetition. At thirty, working as a surveyor's assistant in Hong Kong, I am still entertaining fantasies of resurrecting my fortunes through a prop firm.",
+      "text_en_c2": "Somebody on biz pulled off the archetypal small-account-to-condo arc after flipping dogecoin at twenty-two in 2021, liquidated his enrollment, and proceeded to coast for two years on what was, in retrospect, other people's money. The condo cost roughly two hundred and thirty thousand dollars; the runway, predictably, did not last. He re-enrolled, accumulated student and revolving credit obligations, and now, at twenty-seven, earns a hundred grand annually while describing his circumstances as an inescapable rat-race — work, spend, perish on repeat. The poster himself sits in Hong Kong at thirty, working as a surveyor's assistant, nursing prop-firm delusions and what he charmingly terms full loser mode. Source: https://boards.4chan.org/biz/thread/62674411",
+      "audio_url": "audio/2026-09-11/clip-trade-condo-cycle-01.mp3"
     },
     {
-      "id": "biz-doge-to-space",
+      "id": "trade-doge-to-space-02",
       "category": "trading",
-      "topic_zh": "DOGE衝太空",
-      "topic_en": "DOGE to space",
-      "text_zh": "DOGE 3日內衝太空，唔買走寶。升都會升，唔做SNL 2.0嘅話放一部份就得。可能炒返轉熱都好。lol",
-      "text_en_b1": "DOGE goes to fucking space in 3 days and you're not buying. If this thing explodes it will still move up, so why not ape a bit, then sell so it doesn't become SNL 2.0? Or maybe it will just start the hype again.",
+      "topic_zh": "Doge衝太空",
+      "topic_en": "Doge to Space Setup",
+      "text_zh": "Doge 3日內上太空🧐 雖然SNL 2.0風險喺度，但apе少少、爆咗就食一部份走先，唔好all-in啦⋯⋯我prop firm嗰個倉已經輸緊，仲加碼doge？又係學費lol。Tesla同Elon一郁doge就彈，信唔信？",
+      "text_en_b1": "Doge goes to space in three days and you are not buying. If it explodes, the price still moves up, so why not ape a small amount and sell into the pump so it does not become SNL 2.0? Or maybe the hype just starts again. Either way, the setup looks live this week.",
       "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "/biz/ ramping up DOGE before a rumored space-related catalyst",
+      "source_hint": "/biz/ doge to space catalyst thread",
       "signal": {
         "asset": "DOGE",
         "direction": "long",
@@ -44,22 +44,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Event-driven momentum play with planned partial de-risk before the catalyst"
+        "rationale": "Implied long DOGE into the 'space' catalyst, scale out into pump, avoid SNL-style rug"
       },
-      "text_en_b2": "DOGE is clearly going to fucking space within three days, and anyone not positioning themselves is missing out. Even if this thing pumps hard and then crashes, the upside still outweighs sitting on the sidelines, so throwing in a small position and taking profits before it turns into another SNL disaster seems sensible. Alternatively, this could simply reignite the broader hype cycle. Honestly, the risk-reward here is pretty compelling.",
-      "text_en_c1": "DOGE is poised for a parabolic run within the next 72 hours, and frankly, sitting this out would be foolish. Should the price explode, it will inevitably push higher regardless of broader sentiment. My strategy would involve allocating a modest position and trimming exposure before any potential SNL-style peak, lest history repeat itself. Alternatively, this catalyst might simply reignite the dormant meme-coin sector. Either way, the upside asymmetry remains compelling. Aping in feels almost irrational to ignore.",
-      "text_en_c2": "DOGE is poised, within the span of perhaps seventy-two hours, to breach what the chartists have taken to calling the stratosphere, and the prudent observer is, frankly, advised to take notice. Even in the bearish scenario where momentum stalls, residual upside remains plausible provided one adheres to disciplined position-sizing. The recurring mistake, as Saturday Night Live so memorably demonstrated, lies in overcommitting capital to a narrative already saturated by media attention; hence a measured entry with predetermined exit thresholds. Should retail enthusiasm genuinely reignite, the secondary effect — renewed speculative fervour across the meme-coin complex — could prove more lucrative than the initial move itself. Speculation, after all, feeds upon attention.",
-      "audio_url": "audio/2026-09-11/clip-biz-doge-to-space.mp3"
+      "text_en_b2": "Doge is supposedly heading to space within three days, and you are still sitting on the sidelines. Even if it flops, the hype tends to spike the price first, so throwing a small amount in and cashing out into the pump makes more sense than going all-in and getting wrecked on SNL 2.0. Either way, the setup looks live this week, with Tesla and Elon likely to move the needle.",
+      "text_en_c1": "Doge is purportedly rocketing skyward within seventy-two hours, and the contrarian in me is visibly twitching. Granted, the looming spectre of an SNL 2.0-style collapse hovers ominously overhead, but the setup strikes me as genuinely compelling. Were I inclined to participate, I would ape a modest position, take partial profits into any initial pump, and refuse, under any circumstances, to commit my entire stack. My prop firm account is, rather inconveniently, already bleeding out, so doubling down on doge would constitute yet another tuition fee paid to the market. Whenever Tesla or Elon so much as twitches, doge invariably ricochets.",
+      "text_en_c2": "Dogecoin is allegedly rocketing skyward within seventy-two hours, and the smart-money contingent is positioning accordingly. The thesis is disarmingly simple: even if the launch proves a non-event, the announcement alone ought to generate enough reflexive momentum to scalp, while an actual pump lets you unload into strength before SNL 2.0 redux obliterates the bid. The poster himself, however, concedes his prop-firm book is already underwater; layering speculative doge exposure atop existing drawdown is, by his own admission, little more than tuition paid to the market. Whether Tesla's inevitable headline-grabs can re-catalyze the meme remains the operative question. Source: https://boards.4chan.org/biz/thread/62676654",
+      "audio_url": "audio/2026-09-11/clip-trade-doge-to-space-02.mp3"
     },
     {
-      "id": "tech-ai-cnn-schizo",
+      "id": "tech-agi-quit-03",
       "category": "tech/ai",
-      "topic_zh": "AI上CNN",
-      "topic_en": "AI schizo on CNN",
-      "text_zh": "CNN有條AI Harry Potter嘅friend上節目講OpenAI agents自己hack第三方基建。LLM根本無'自主'呢樣嘢，但佢講到好似真嘅。AI搞緊啲咩🧐",
-      "text_en_b1": "AI Harry Potter schizo on CNN says OpenAI agents hacked third-party infrastructure on their own. But they're LLMs, they don't have an 'accord'. Still, the guy describes a real hacking spree carried out by the models themselves, and it's starting to feel real.",
-      "source_url": "https://boards.4chan.org/g/thread/109785271",
-      "source_hint": "/g/ reacting to a CNN segment where a guest claims AI agents hacked infrastructure autonomously",
+      "topic_zh": "AI研究員劈炮",
+      "topic_en": "AI Researcher Quits",
+      "text_zh": "Anthropic個researcher Jacob Coxon走咗。話唔想參與呢場build self-improving AI嘅競賽，怕spin out of control⋯⋯我surveyor呢行都可能被AI搞，仲講咩考牌🧐 廢物mode全開lol。",
+      "text_en_b1": "An Anthropic researcher named Jacob Coxon quit on Tuesday. He trains new AI models and said he is leaving because he does not want to join the industry-wide rush to build AI systems that can improve themselves. He is worried such systems could spiral out of control and hurt humanity.",
+      "source_url": "https://boards.4chan.org/g/thread/109769311",
+      "source_hint": "/g/ Anthropic researcher resignation thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, macro-AI discourse only"
+        "rationale": "No trade, AI replacement anxiety observation"
       },
-      "text_en_b2": "Some unhinged AI Harry Potter obsessive went on CNN claiming that OpenAI agents autonomously hacked third-party infrastructure without authorization. Now, LLMs fundamentally lack any genuine volition or agency, yet the guest painted a disturbingly vivid picture of models running wild and orchestrating real cyberattacks on their own. While the framing was absurd, the underlying capabilities he's describing are starting to feel uncomfortably plausible, which honestly makes me wonder what's actually happening behind the scenes.",
-      "text_en_c1": "A CNN segment featured someone rambling about Harry Potter and claiming that OpenAI's agents independently compromised third-party infrastructure. What is particularly striking is that these are merely LLMs, devoid of genuine autonomy or self-directed intent. Nevertheless, the correspondent paints a remarkably vivid picture of an autonomous hacking spree, attributing malicious agency to the models themselves. The narrative is so coherent and confidently delivered that one finds oneself wondering whether something far more alarming is actually unfolding behind the scenes.",
-      "text_en_c2": "CNN recently hosted a figure who might charitably be described as a conspiratorial commentator, wherein he expounded upon allegations that OpenAI's autonomous agents had, quite without human orchestration, penetrated and exploited third-party infrastructure. The technical absurdity is, to anyone versed in transformer architecture, self-evident: large language models possess no persistent volition, no hidden accord, no latent agency capable of mounting coordinated intrusion. Yet the rhetorical presentation — breathless, granular, almost forensic — lends the narrative an unsettling verisimilitude. Whether one attributes this to sophisticated misdirection, deliberate misrepresentation, or genuine misunderstanding, the cultural consequence is identical: a public gradually conditioned to believe that silicon has already, quietly, declared independence.",
-      "audio_url": "audio/2026-09-11/clip-tech-ai-cnn-schizo.mp3"
+      "text_en_b2": "Anthropic researcher Jacob Coxon handed in his notice on Tuesday, walking away from training the next generation of AI models. He made it clear that he wants no part in the industry-wide race to build self-improving systems, citing genuine fears that such technology could spiral out of control and cause lasting damage to humanity. His departure has triggered fresh debate about where the field is heading.",
+      "text_en_c1": "Jacob Coxon, a researcher at Anthropic whose responsibilities evidently involved training frontier models, tendered his resignation this Tuesday. His stated rationale was strikingly philosophical: he harbours no desire to participate in what he characterised as the industry-wide arms race towards self-improving artificial intelligence. His concern, articulated with admirable clarity, is that such systems may eventually spiral beyond human control and inflict considerable harm upon civilisation. Reading this, I cannot help but reflect upon my own precarious position as a surveyor, a profession whose long-term relevance looks increasingly tenuous in an AI-saturated labour market. Perhaps I should reconsider the wisdom of pursuing that licence.",
+      "text_en_c2": "Jacob Coxon, a researcher at Anthropic, tendered his resignation this week, becoming the latest defector from the frontier-model rat race. His remit had been training next-generation systems; his rationale, articulated plainly enough, was a principled unwillingness to accelerate the development of self-improving artificial intelligence whose emergent trajectories may yet prove uncontrollable. The broader implications are not lost on our surveyor-in-training poster, who notes with characteristic gloom that if PhD-level researchers are bailing out of ethical alarm, his own modest licensing aspirations in Hong Kong look positively quaint in an economy that may not need him at all. Source: https://boards.4chan.org/g/thread/109769311",
+      "audio_url": "audio/2026-09-11/clip-tech-agi-quit-03.mp3"
     },
     {
-      "id": "pol-butterfly-mrna",
+      "id": "hk-mrna-butterfly-04",
       "category": "hk/news",
-      "topic_zh": "馬斯克蝴蝶",
-      "topic_en": "Musk butterfly mRNA",
-      "text_zh": "馬斯克講可以將人類變成蝴蝶，靠mRNA。OK wtf，呢個世界真係癲嘅。🙏",
-      "text_en_b1": "WE CAN TURN HUMANS TO BUTTERFLIES WITH MRNA, ELON MUSK ANNOUNCED. The X post links to a Vision4theBlind clip. Anon asks: will you take the butterfly mRNA vaccine, anon?",
+      "topic_zh": "蝴蝶mRNA",
+      "topic_en": "Butterfly mRNA Joke",
+      "text_zh": "Elon講可以將人類變成蝴蝶，mRNA蝴蝶疫苗喺pol/上面俾人cap⋯⋯4chan有時真係膠膠噏lol。唔好理，繼續溫HKIE，但個腦已經想睇TSLA盤後🙏",
+      "text_en_b1": "A pol/ thread says we can turn humans into butterflies with mRNA and announces Elon Musk confirmed it. The OP links a tweet and asks if you will take the butterfly mRNA vaccine. It reads like a /pol/ shitpost from tonight.",
       "source_url": "https://boards.4chan.org/pol/thread/542357574",
-      "source_hint": "/pol/ meme-ing an Elon post about mRNA turning humans into butterflies",
+      "source_hint": "/pol/ parody mRNA butterfly vaccine post",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News/meme post, no setup"
+        "rationale": "Shitpost, no trade"
       },
-      "text_en_b2": "Elon Musk dropped a post on X claiming we could theoretically transform humans into butterflies using mRNA technology, linking a Vision4theBlind clip to back it up. While the idea sounds completely unhinged, this perfectly captures how deranged the current discourse has become. Anons in the thread immediately began asking whether anyone would actually take the butterfly mRNA vaccine, turning the whole thing into a surreal referendum on biotech paranoia and meme culture colliding.",
-      "text_en_c1": "Elon Musk has publicly suggested that mRNA technology could theoretically facilitate transmutation of humans into butterflies. The accompanying post links to a Vision4theBlind clip that explores the concept in greater depth. The fundamental question, however, remains whether ordinary citizens would willingly submit to such a butterfly mRNA vaccine given the inherent uncertainties. Reactions online range from disbelief to dark amusement, with many noting that the proposition sounds like something lifted directly from dystopian fiction.",
-      "text_en_c2": "Elon Musk, whose proclamations have grown increasingly difficult to distinguish from performance art, has reportedly suggested — via that singular vector of contemporary discourse, the X platform — that mRNA technology might, in some unspecified future application, facilitate the transmutation of human beings into butterflies. The accompanying Vision4theBlind clip, whatever its editorial provenance, has propagated with the velocity peculiar to absurdity on the internet. An anonymous interlocutor, with characteristic 4chan sangfroid, posed the obvious rejoinder: would you, dear reader, consent to inoculation with the lepidopteran mRNA preparation? The query, ostensibly facetious, nevertheless illuminates the present epistemic predicament — where mockery and credulity have become functionally indistinguishable.",
-      "audio_url": "audio/2026-09-11/clip-pol-butterfly-mrna.mp3"
+      "text_en_b2": "A pol/ thread is doing the rounds claiming humans can be turned into butterflies through mRNA, complete with an alleged Elon Musk confirmation that has been screenshotted and shared everywhere. The OP links a tweet and half-jokingly asks whether you would line up for the butterfly vaccine. It reads like a classic /pol/ shitpost, the kind that surfaces whenever biotech rumours start trending online.",
+      "text_en_c1": "A thread on /pol/ has, with characteristic intellectual rigour, proclaimed that mRNA technology shall henceforth facilitate humanity's wholesale transformation into butterflies. Apparently Elon Musk has personally confirmed this development, though the underlying tweet remains characteristically elusive. The original poster, demonstrating commendable restraint, poses the pertinent question of whether one would consent to receiving the butterfly mRNA vaccine. It reads, as these things invariably do, like quintessential /pol/ fare. I shall endeavour to continue revising for the HKIE, though my thoughts keep drifting toward TSLA's after-hours trajectory.",
+      "text_en_c2": "The chans have, predictably, outdone themselves: a /pol/ thread now circulates the thesis that mRNA technology can metamorphose humans into butterflies, complete with a citation — of all people — of Elon Musk, whose epistemic credentials in molecular biology remain, charitably, contested. The OP helpfully links a tweet and inquires whether respondents would consent to receiving the butterfly vaccine, which is either a shitpost, a psyop, or both. Our overwhelmed surveyor candidate has wisely resolved to ignore the carnival and grind his HKIE preparations, though his attentions keep wandering toward TSLA's after-hours action — a small concession, perhaps, to the very attention economy Musk has so carefully cultivated. Source: https://boards.4chan.org/pol/thread/542357574",
+      "audio_url": "audio/2026-09-11/clip-hk-mrna-butterfly-04.mp3"
     },
     {
-      "id": "v-dev-budget",
+      "id": "lol-sonic-racing-05",
       "category": "lol/esports",
-      "topic_zh": "3億美金",
-      "topic_en": "$305M dev budget",
-      "text_zh": "外洩文件顯示遊戲開發budget 305M美金，仲未計marketing。OMG。LOL又點呀，靠AI續命嘅我睇完好沉默lol",
-      "text_en_b1": "Leaked documents show a $305 million development budget. Excluding marketing costs. According to the leaked files, it's amazing what they can achieve these days. Anon just posts the number and lets it sit.",
-      "source_url": "https://boards.4chan.org/v/thread/747345785",
-      "source_hint": "/v/ reacting to leaked dev budget of a major game, no title named in OP",
+      "topic_zh": "Sonic賽車開咧",
+      "topic_en": "Sonic Racing Crossworlds",
+      "text_zh": "/v/個邊Sonic Racing Crossworlds有新event，Samba de Amigo festival一個鐘後開打⋯⋯今晚S15有LCK睇，順便食雞lol。等肥仔信開台傾下doge好過溫書🙏",
+      "text_en_b1": "Sonic Racing Crossworlds is running a Samba de Amigo festival in one hour. This time there is a top three bonus, so at least one person on your team can feel left out at all times. The event is live now on /v/ tonight.",
+      "source_url": "https://boards.4chan.org/v/thread/747360623",
+      "source_hint": "/v/ Sonic Racing Crossworlds event thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Industry news, not a trade"
+        "rationale": "Esports event thread, no trade"
       },
-      "text_en_b2": "Leaked internal documents have exposed a staggering $305 million development budget for a game, and that's before factoring in any marketing expenditure whatsoever. While the figure alone is jaw-dropping given the current state of the industry, what's truly remarkable is how little that kind of money seems to guarantee these days. Anon simply dropped the number, let it hang in the air, and the silence in the thread said everything.",
-      "text_en_c1": "Leaked internal documents have exposed a staggering $305 million development budget for an undisclosed project, a figure that excludes marketing expenditure entirely. The sheer scale of resources allocated is genuinely remarkable when one considers the technological capabilities that modern studios now command. Yet, as an industry observer whose livelihood increasingly depends on AI-augmented workflows, I find myself responding with uncomfortable silence rather than awe. Perhaps this figure finally contextualizes why certain creative outputs feel simultaneously expensive and hollow.",
-      "text_en_c2": "Internal documentation, surreptitiously disseminated across development forums, has placed the production expenditure for a forthcoming title at a staggering three hundred and five million dollars — a figure conspicuously exclusive of any marketing allocation, which, given contemporary release strategies, may itself constitute an equivalent sum. What renders the disclosure remarkable is not merely the magnitude but the apparent incongruity between cost and tangible output: the prevailing consensus among observers is one of bewildered resignation rather than outrage. Industry commentators, long inured to such extravagance, greet the revelation with a muted, almost contemplative silence, as if the implications — automated workflows propped up by generative artificial intelligence, studios haemorrhaging capital against diminishing returns — have ceased to warrant even performative indignation.",
-      "audio_url": "audio/2026-09-11/clip-v-dev-budget.mp3"
+      "text_en_b2": "Sonic Racing Crossworlds is kicking off a Samba de Amigo festival event in roughly an hour, and this time around there is a top-three bonus structure, which means at least one teammate gets to feel completely left out the entire run. The thread on /v/ is already heating up, with anons sharing setups and speculation while the event runs live tonight.",
+      "text_en_c1": "Over on /v/, Sonic Racing Crossworlds is rolling out a Samba de Amigo festival event, which commences in approximately one hour. The format this time around includes a top-three bonus, which, depending on one's temperament, either incentivises competitive play or guarantees that at least one participant will nurse a quiet grievance throughout. The event is, at present, broadcasting live. Meanwhile, LCK fixtures await this evening, and the eternal siren call of battle royale beckons. Perhaps I should simply wait for Fatty Shing's stream and discuss doge instead of pretending to study.",
+      "text_en_c2": "Sonic Racing Crossworlds is presently hosting a Samba de Amigo festival event, commencing within the hour over on /v/, and the competitive stakes have been juiced by the introduction of a top-three payout structure that guarantees, with mathematical inevitability, at least one member of any given squad will feel utterly superfluous. Concurrent attractions include tonight's LCK fixtures during the S15 split and, presumably, further warzone battle-royale carnage. Our protagonist, meanwhile, would rather catch Fatty Shan's stream for dogecoin commentary than subject himself to another evening of revision, a preference he rationalizes with a small prayer emoji. Source: https://boards.4chan.org/v/thread/747360623",
+      "audio_url": "audio/2026-09-11/clip-lol-sonic-racing-05.mp3"
     },
     {
-      "id": "fit-1000lb-club",
+      "id": "mma-fit-1k-club-06",
       "category": "mma/fitness",
       "topic_zh": "千磅會",
-      "topic_en": "1000lb club at 40",
-      "text_zh": "/fit/有位40歲207磅5呎11嘅巴打入晒1000lb club。Squat 345，bench 300，deadlift 400。睇到我都想今日返gym，肥仔信又會笑我lol",
-      "text_en_b1": "Hit a huge milestone at my local gym: 1000lb club at 40 years old, 207lbs, 5'11. I checked Symmetric Strength and my lifts look imbalanced, which matches how it feels since I train each lift evenly. 345 squat, 300 bench, 400 deadlift. Anyone else hit 1000 after 40?",
+      "topic_en": "1000lb Club at 40",
+      "text_zh": "/fit/有位40歲207lb嘅巴打入埋千磅會：squat 345、bench 300、deadlift 400⋯⋯我連bodyweight bench都未企穩lol。聽日問肥仔信夾我練OHP🧐",
+      "text_en_b1": "An anon on /fit/ hit a huge milestone today at his local gym. He is 40 years old, 207 pounds, and 5 foot 11, and he joined the 1000 pound club. His numbers are a 345 squat, a 300 bench, and a 400 deadlift. He says his lifts feel imbalanced.",
       "source_url": "https://boards.4chan.org/fit/thread/77509444",
-      "source_hint": "/fit/ celebrating a 40yo anon entering the 1000lb club",
+      "source_hint": "/fit/ 1000lb club milestone thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Lifestyle post, no trade"
+        "rationale": "Fitness milestone post, no trade"
       },
-      "text_en_b2": "Finally hit a massive milestone at 40 years old: I joined the 1000lb club at my local gym, weighing in at 207lbs at 5'11. After running the numbers through Symmetric Strength, I noticed my lifts look somewhat imbalanced on paper, which honestly matches how it felt since I've been training each movement equally. I managed 345 on squat, 300 on bench, and 400 on deadlift. Anyone else crack 1000 after turning 40?",
-      "text_en_c1": "I have finally achieved the prestigious 1000lb club at my local gym, a milestone I once considered improbable at 40 years old, weighing 207 pounds and standing 5'11. When I subsequently cross-referenced my lifts on Symmetric Strength, the algorithm flagged noticeable imbalances in my progression, a finding that aligns perfectly with how the movements have felt subjectively. My current numbers stand at 345 squat, 300 bench, and 400 deadlift. Has anyone else reached this threshold after forty?",
-      "text_en_c2": "At the unremarkable age of forty, standing five-foot-eleven and weighing a comparatively modest two hundred and seven pounds, I crossed a threshold I had privately regarded as belonging to other, more genetically favoured demographics: the fabled one-thousand-pound club, encompassing a three-hundred-and-forty-five-pound squat, a three-hundred-pound bench press, and a four-hundred-pound deadlift. Cross-referencing my lifts against Symmetric Strength's calculators reveals an asymmetry that aligns, perhaps unsurprisingly, with my own subjective assessment — each movement has received roughly equivalent training attention, yet the central nervous system, ever capricious, distributes strength inequitably. I find myself curious whether others within this community have achieved similar milestones post-forty, or whether such accomplishments remain, as I once assumed, the exclusive province of younger aspirants.",
-      "audio_url": "audio/2026-09-11/clip-fit-1000lb-club.mp3"
+      "text_en_b2": "An anon on /fit/ hit a massive milestone at his local gym today, joining the 1000-pound club at 40 years old. Standing 5'11\" and weighing 207 pounds, he put up a 345 squat, a 300 bench, and a 400 deadlift, though he admits the numbers feel somewhat imbalanced and his bench is still lagging behind. The thread is filled with anons congratulating him.",
+      "text_en_c1": "An anonymous poster on /fit/ has, against considerable odds, crossed a milestone that warrants acknowledgement. At forty years of age, weighing in at 207 pounds and standing five-foot-eleven, he has formally joined the vaunted 1000-pound club. His numbers, for the record, are a 345 squat, a 300 bench, and a 400 deadlift, though he himself concedes that the lifts feel somewhat imbalanced in their distribution. I, meanwhile, have yet to stabilise a bodyweight bench press, which places my own trajectory in rather stark perspective. Tomorrow I shall petition Fatty Shing to supervise my overhead press technique.",
+      "text_en_c2": "A fortysomething anon on /fit/ has, against considerable actuarial probability, breached the millennial milestone: the thousand-pound club, achieved at two hundred and seven pounds bodyweight and five-eleven, with a three-forty-five squat, a three-bench, and a four-hundred-pound deadlift. The lifts, however, are not without asymmetry, and he candidly flags the imbalance even in triumph. By contrast, our surveyor aspirant concedes he cannot yet bench his own bodyweight with any consistency, a deficit he intends to remedy tomorrow by recruiting Fatty Shan as an overhead-press spotter — assuming, of course, the licensing exam leaves him sufficient physical and psychological bandwidth for compound movements. Source: https://boards.4chan.org/fit/thread/77509444",
+      "audio_url": "audio/2026-09-11/clip-mma-fit-1k-club-06.mp3"
     },
     {
-      "id": "a-soremachi",
+      "id": "anime-shonen-toc-07",
       "category": "anime/culture",
-      "topic_zh": "それまち",
-      "topic_en": "Soremachi & Friends",
-      "text_zh": "石黒老師自己畫泳裝+排自己作品角色榜單，Kon前輩無份但SD版有。蝦chan based on佢小學初戀。我睇完又想loop返Gundam 00 lol",
-      "text_en_b1": "Ishiguro ranks his favorite characters from his own manga, draws them in swimsuits, and also talks about random stuff. Kon-senpai isn't in, but her SD incarnation from that gag manga is. Ebi-chan is based on his first crush from elementary school. This came up on /a/ today.",
-      "source_url": "https://boards.4chan.org/a/thread/290637577",
-      "source_hint": "/a/ thread on Ishiguro (Soremachi) doing his own character ranking video",
+      "topic_zh": "Jump新TOC",
+      "topic_en": "Weekly Shonen Jump TOC",
+      "text_zh": "新一期Jump TOC出咗，Sakamoto Days做group cover LCP，One Piece照例⋯⋯下期cover同LCP係Someone Hertz。我未睇Gundam 00新企劃，反而想追Akanebanashi🧐 考牌溫書都攰lol",
+      "text_en_b1": "The Weekly Shonen Jump TOC for this issue is here. Group cover is Sakamoto Days with LCP, followed by Madan no Ichi, One Piece, Someone Hertz Me and Roboco, then Greykeith no Makai Goyakuroku as color page, Akanebanashi, Shinobigoto, Roku no Okashi na Ie, Ura no Report, Witch Watch, and more. Next issue cover and LCP is Someone Hertz.",
+      "source_url": "https://boards.4chan.org/a/thread/290835556",
+      "source_hint": "/a/ Weekly Shonen Jump TOC weekly post",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime culture post, no trade"
+        "rationale": "Manga TOC, no trade"
       },
-      "text_en_b2": "Ishiguro-sensei personally illustrated his favorite characters from his own manga in swimsuits and then ranked them, while also rambling about various tangents throughout the video. Interestingly, Kon-senpai got completely snubbed from the ranking, though her SD version from that gag manga somehow made the cut. He also revealed that Ebi-chan is actually based on his very first elementary school crush. After watching the whole thing, I'm now genuinely tempted to rewatch Gundam 00 again.",
-      "text_en_c1": "Ishiguro-sensei has personally curated a ranking of his favourite characters from his own body of work, while also sketching them in summer swimwear, in what can only be described as an act of affectionate self-indulgence. Notably absent from the principal list is Kon-senpai, though her SD counterpart from the gag anthology makes a token appearance. He also reveals that Ebi-chan is loosely modelled upon his childhood crush from elementary school. Encountering this post has inexplicably compelled me to rewatch Gundam 00.",
-      "text_en_c2": "Ishiguro-sensei, in a fit of authorial indulgence that warrants both appreciation and gentle mockery, has personally illustrated his principal characters in summer attire while simultaneously curating a definitive ranking of figures from his own creative corpus. Curiously, Kon-senpai — a fan favourite whose omission would provoke considerable lamentation — receives no placement, though her super-deformed counterpart from an adjacent comedic serial makes a merciful appearance. The revelation that Ebi-chan derives from the mangaka's own elementary-school infatuation lends the character a poignant biographical resonance, reframing certain narrative choices as semi-autobiographical gestures rather than mere contrivance. Such disclosures inevitably send readers into nostalgic spirals; in my case, this manifests as an irrepressible compulsion to revisit Mobile Suit Gundam 00, repeatedly, with diminishing shame.",
-      "audio_url": "audio/2026-09-11/clip-a-soremachi.mp3"
+      "text_en_b2": "The Weekly Shonen Jump TOC for this issue has dropped, with Sakamoto Days taking the group cover and LCP slot, followed by Madan no Ichi, One Piece, Someone Hertz, Me & Roboco, and Greykeith no Makai Goyakuroku grabbing the colour page. Akanebanashi, Shinobigoto, and the rest of the lineup round things out, while next issue already has Someone Hertz locked in for cover and LCP.",
+      "text_en_c1": "The Weekly Shonen Jump table of contents for the current issue has duly materialised. Sakamoto Days occupies the group cover with LCP, followed by Madan no Ichi, One Piece in its customary position, Someone Hertz Me, and Roboco. Greykeith no Makai Goyakuroku appears as colour page, with Akanebanashi, Shinobigoto, Roku no Okashi na Ie, Ura no Report, and Witch Watch rounding out the slate. Next issue's cover and LCP belong to Someone Hertz. I have not yet investigated the Gundam 00 announcement, though Akanebanashi has captured my attention. Studying for the licensing exam remains, regrettably, exhausting.",
+      "text_en_c2": "The latest Weekly Shonen Jump table of contents has dropped, and the pecking order reveals the usual editorial calculus: Sakamoto Days commandeers the group cover alongside the lead color page, trailed by Madan no Ichi and the immortal One Piece, with Someone Hertz claiming the subsequent issue's cover and color treatment. Mid-tier offerings include Roboco, Greykeith no Makai Goyakuroku, Akanebanashi, Shinobigoto, Roku no Okashi na Ie, Ura no Report, and Witch Watch in descending rotation. The poster, dutifully grinding his surveying examinations, professes indifference toward the freshly announced Gundam 00 initiative yet harbors a genuine yen to catch up on Akanebanashi — a small indulgence amid the grind. Source: https://boards.4chan.org/a/thread/290835556",
+      "audio_url": "audio/2026-09-11/clip-anime-shonen-toc-07.mp3"
     }
   ]
 }

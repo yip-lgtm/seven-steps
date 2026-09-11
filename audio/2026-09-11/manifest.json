@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-condo-stuck",
-      "topic_en": "Crypto condo regret",
-      "topic_zh": "炒幣廢青",
+      "id": "trade-condo-cycle-01",
+      "topic_en": "Crypto Vacation Hangover",
+      "topic_zh": "炒幣兩年返學債",
       "category": "trading",
-      "file": "clip-biz-condo-stuck.mp3",
-      "bytes": 373236,
-      "chars": 297
+      "file": "clip-trade-condo-cycle-01.mp3",
+      "bytes": 399732,
+      "chars": 326
     },
     {
-      "id": "biz-doge-to-space",
-      "topic_en": "DOGE to space",
-      "topic_zh": "DOGE衝太空",
+      "id": "trade-doge-to-space-02",
+      "topic_en": "Doge to Space Setup",
+      "topic_zh": "Doge衝太空",
       "category": "trading",
-      "file": "clip-biz-doge-to-space.mp3",
-      "bytes": 195252,
-      "chars": 211
+      "file": "clip-trade-doge-to-space-02.mp3",
+      "bytes": 287412,
+      "chars": 263
     },
     {
-      "id": "tech-ai-cnn-schizo",
-      "topic_en": "AI schizo on CNN",
-      "topic_zh": "AI上CNN",
+      "id": "tech-agi-quit-03",
+      "topic_en": "AI Researcher Quits",
+      "topic_zh": "AI研究員劈炮",
       "category": "tech/ai",
-      "file": "clip-tech-ai-cnn-schizo.mp3",
-      "bytes": 285684,
-      "chars": 259
+      "file": "clip-tech-agi-quit-03.mp3",
+      "bytes": 283956,
+      "chars": 284
     },
     {
-      "id": "pol-butterfly-mrna",
-      "topic_en": "Musk butterfly mRNA",
-      "topic_zh": "馬斯克蝴蝶",
+      "id": "hk-mrna-butterfly-04",
+      "topic_en": "Butterfly mRNA Joke",
+      "topic_zh": "蝴蝶mRNA",
       "category": "hk/news",
-      "file": "clip-pol-butterfly-mrna.mp3",
-      "bytes": 204468,
-      "chars": 168
+      "file": "clip-hk-mrna-butterfly-04.mp3",
+      "bytes": 226356,
+      "chars": 222
     },
     {
-      "id": "v-dev-budget",
-      "topic_en": "$305M dev budget",
-      "topic_zh": "3億美金",
+      "id": "lol-sonic-racing-05",
+      "topic_en": "Sonic Racing Crossworlds",
+      "topic_zh": "Sonic賽車開咧",
       "category": "lol/esports",
-      "file": "clip-v-dev-budget.mp3",
-      "bytes": 222900,
-      "chars": 205
+      "file": "clip-lol-sonic-racing-05.mp3",
+      "bytes": 231540,
+      "chars": 218
     },
     {
-      "id": "fit-1000lb-club",
-      "topic_en": "1000lb club at 40",
+      "id": "mma-fit-1k-club-06",
+      "topic_en": "1000lb Club at 40",
       "topic_zh": "千磅會",
       "category": "mma/fitness",
-      "file": "clip-fit-1000lb-club.mp3",
-      "bytes": 339828,
-      "chars": 265
+      "file": "clip-mma-fit-1k-club-06.mp3",
+      "bytes": 302964,
+      "chars": 240
     },
     {
-      "id": "a-soremachi",
-      "topic_en": "Soremachi & Friends",
-      "topic_zh": "それまち",
+      "id": "anime-shonen-toc-07",
+      "topic_en": "Weekly Shonen Jump TOC",
+      "topic_zh": "Jump新TOC",
       "category": "anime/culture",
-      "file": "clip-a-soremachi.mp3",
-      "bytes": 297780,
-      "chars": 274
+      "file": "clip-anime-shonen-toc-07.mp3",
+      "bytes": 419892,
+      "chars": 336
     }
   ]
 }
