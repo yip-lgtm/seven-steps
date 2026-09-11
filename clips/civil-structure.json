@@ -1,0 +1,42 @@
+{
+  "title": "Civil + Structure English pack",
+  "level": "A2-B1",
+  "use": "Shadow these clips. Then freestyle for 60 seconds on the same topic.",
+  "clips": [
+    {
+      "id": "slope-01",
+      "topic_zh": "斜坡巡查",
+      "topic_en": "Slope survey",
+      "text_zh": "首先我睇 EI 同 GI 報告。然後我做測量，搵裂紋同堵塞嘅排水。之後鑽孔攜泥土數據。最後先擁維修方法，例如 soil nailing 或者灌混凝土。",
+      "text_en": "Yesterday I went to the slope to survey it. First I checked the EI and GI reports. Then I walked the slope and marked the cracks. I also looked at the drainage. After rain, water was not flowing well. That is a problem because water makes the soil weaker."
+    },
+    {
+      "id": "slope-02",
+      "topic_zh": "點解要用 soil nail",
+      "topic_en": "Why soil nailing",
+      "text_zh": "斜坡有裂紋，排水又差，所以泥土唔穩。Soil nailing 有效，因為釘可以將力由弱土傳到後面較強嘅岩土。計算就睇 factor of safety，抵抗力除以推動力，要高過 1.2。",
+      "text_en": "The slope has cracks and weak soil near the surface. Soil nailing works because the nails transfer load from the weak soil into stronger ground behind it. We check the factor of safety. That is the resisting force divided by the driving force. We need it above 1.2. If it is lower, we add more nails or make them longer."
+    },
+    {
+      "id": "struct-01",
+      "topic_zh": "荷載路徑",
+      "topic_en": "Load path",
+      "text_zh": "荷載路徑就係力點樣行過座樓。樓板傳到樑，樑傳到柱，柱傳到地基。任何一段弱咗，結構就不安全。",
+      "text_en": "A load path is how force travels through a building. Live load and dead load go from the slab to the beams. The beams take the load to the columns. The columns take it down to the foundation. If any part of that path is weak, the structure is not safe. I always ask: where does this load go?"
+    },
+    {
+      "id": "struct-02",
+      "topic_zh": "點解要用鋼筋混凝土",
+      "topic_en": "Why reinforced concrete",
+      "text_zh": "混凝土抗壓強、抗拉弱。鋼筋抗拉強。所以混凝土負責擠壓力，鋼筋負責拉力。兩者一齊，樑先可以彎而唔斷。",
+      "text_en": "Concrete is strong in compression but weak in tension. Steel is strong in tension. That is why we put steel bars in concrete. The concrete takes the squeezing force. The steel takes the pulling force. Together they make a beam that can bend without breaking. Cover to the bars also protects the steel from rust."
+    },
+    {
+      "id": "exam-01",
+      "topic_zh": "考官會點問",
+      "topic_en": "How examiners ask",
+      "text_zh": "考官會問點解用呢個方法，同點樣計。我分三步：先講問題，再講方法點解得，最後講點樣驗算。",
+      "text_en": "An examiner will ask why we chose this method and how we calculate it. I use three steps. First, I state the problem: cracks, poor drainage, low factor of safety. Second, I say why the method solves it. Third, I say how we check the numbers. If I only list tools and cannot explain the reason, the answer is not complete."
+    }
+  ]
+}
