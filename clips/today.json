@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "source": "ai",
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-condo",
+      "id": "biz-condo-stuck",
       "category": "trading",
-      "topic_zh": "食晒無得返",
-      "topic_en": "Crypto condo story",
-      "text_zh": "22歲狗幣贏錢 買咗condo 兩年後返學grad返工 而家100K年薪 揹住卡數學生貸 一睇就grim 廢柴模式on",
-      "text_en_b1": "In 2021 he was 22 and made random crypto money from dogecoin. He lived two years with no job, dropped out of school, and bought a condo for $230K. Then money ran out. He went back, graduated, and now makes $100K at 27. Stuck in a loop of work and consume, with student debt and credit card debt.",
+      "topic_zh": "炒幣廢青",
+      "topic_en": "Crypto condo regret",
+      "text_zh": "22歲嗰陣賭狗幣贏錢，兩年唔做嘢買咗condo。之後錢燒晒，返去讀書，畢業揸100K。宜家27，循環work-consume-repeat，信用卡債學生債壓住。食過好日子就返唔轉頭，我明。🙏",
+      "text_en_b1": "In 2021 I was 22 and made a bunch of random crypto money from Dogecoin. I lived two years with no job, perma vacation, dropped out of school and bought a condo for $230K. Money ran out, I went back, graduated, and now make $100K at 27. Stuck in work-consume-repeat. Student debt, credit card debt.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ anon lost his crypto gains, now trapped in the grind",
+      "source_hint": "Anon regrets the Dogecoin condo arc and the work-consume cycle that followed",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -20,46 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anon's story is a cautionary tale, no trade setup"
+        "rationale": "Post-mortem on a 2021 DOGE lifestyle trade, no current setup"
       },
-      "text_en_b2": "Back in 2021, when he was 22, this guy stumbled into a small fortune after throwing money at dogecoin on a whim. For roughly two years he coasted along with no real job, dropped out of school, and splashed $230K on a condo. Once the windfall dried up, though, he had to swallow his pride, return to finish his degree, and land a $100K salary at 27. Now he's stuck grinding through debt payments, buried under student loans and credit card bills.",
-      "text_en_c1": "At 22, he had the kind of windfall most people only daydream about: a speculative dogecoin position that paid out handsomely during the 2021 surge. Flush with cash, he dropped out of university, blew through two years of leisure, and put $230,000 down on a condominium. The party, however, was not meant to last. Once the money evaporated, reality came knocking. He eventually re-enrolled, finished his degree, and now, at 27, earns a respectable $100K salary. Yet the gloss has worn off entirely. He is burdened by lingering student loans and credit card debt, trapped in the familiar grind-to-consume cycle.",
-      "text_en_c2": "In 2021, at twenty-two, he parlayed an evidently fortuitous windfall on Dogecoin into a life of ostentatious leisure: two years of abstaining from any gainful employment, an abandoned academic trajectory, and the acquisition of a condominium valued at roughly $230,000. When the capital evaporated, necessity reasserted itself with rather brutal clarity. He re-enrolled, eventually graduated, and now, at twenty-seven, draws a respectable $100,000 salary, yet remains tethered to outstanding student loans and revolving credit card balances, ensnared in what he himself characterised as an interminable work-and-consume cycle. Having once sampled the headier pleasures of unfettered affluence, he confesses an unwillingness to relinquish them, and the entire trajectory reads as an object lesson in how fleeting, speculative gains tend to recalibrate one's expectations in ways that subsequent, conventional prosperity can seldom satisfy.",
-      "audio_url": "audio/2026-09-10/clip-biz-condo.mp3"
+      "text_en_b2": "At 22 I got incredibly lucky with Dogecoin and walked away with serious cash, so I quit school, spent two years on a permanent vacation, and dropped $230K on a condo. When the money inevitably dried up, I had to swallow my pride, finish my degree, and start working. Now I'm 27, pulling in $100K, yet I'm still trapped in the work-consume-repeat cycle, buried under credit card and student debt.",
+      "text_en_c1": "At 22, I made a substantial amount on Dogecoin during the 2021 crypto surge. Flush with cash, I quit studying, effectively took a two-year sabbatical, and purchased a $230,000 condo outright. Once the capital evaporated, I reluctantly resumed my education, eventually graduating and securing a $100K salary at 27. What genuinely disturbs me is being trapped in the work-consume-repeat cycle, weighed down by lingering student loans and credit card debt. Having sampled genuine financial freedom, returning to this grind feels almost unbearable.",
+      "text_en_c2": "At twenty-two, during the 2021 crypto delirium, I parlayed a modest Dogecoin windfall into what felt, at the time, like a kind of permanent escape. For two years I abandoned employment and academia alike, sustaining myself on speculative gains while purchasing a condominium for two hundred and thirty thousand dollars. The euphoria proved, predictably, transient; capital evaporated, I reenrolled, eventually graduated, and now, at twenty-seven, draw a respectable one-hundred-thousand salary that nevertheless feels like slow suffocation. Trapped in a Sisyphean cycle of labour and consumption, I service both student loans and revolving credit-card debt. The cruelest trick is not poverty itself but remembrance — having tasted that unfettered leisure, recalibrating to mediocrity has become a quiet, recurring grief.",
+      "audio_url": "audio/2026-09-11/clip-biz-condo-stuck.mp3"
     },
     {
-      "id": "biz-elon",
+      "id": "biz-doge-to-space",
       "category": "trading",
-      "topic_zh": "Elon炒幣路",
-      "topic_en": "Musk trading thread",
-      "text_zh": "Doge pump又係Elon tweet 炒開就知 等佢出post先入 OK lol 我又輸緊 學費",
-      "text_en_b1": "Anyone else fed up with Musk trying to get shit to trend on 4chan? He pumps money into AfD and still can't break 50% of the vote. The guy only got rich because his daddy's mining money let him in. X is just Musk crying into the void asking people to boost his posts.",
-      "source_url": "https://boards.4chan.org/pol/thread/542322818",
-      "source_hint": "/pol/ thread dragging Musk for X trending begging",
+      "topic_zh": "DOGE衝太空",
+      "topic_en": "DOGE to space",
+      "text_zh": "DOGE 3日內衝太空，唔買走寶。升都會升，唔做SNL 2.0嘅話放一部份就得。可能炒返轉熱都好。lol",
+      "text_en_b1": "DOGE goes to fucking space in 3 days and you're not buying. If this thing explodes it will still move up, so why not ape a bit, then sell so it doesn't become SNL 2.0? Or maybe it will just start the hype again.",
+      "source_url": "https://boards.4chan.org/biz/thread/62676654",
+      "source_hint": "/biz/ ramping up DOGE before a rumored space-related catalyst",
       "signal": {
         "asset": "DOGE",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "days",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Musk-tweet-driven Dogecoin chatter, no clean setup"
+        "rationale": "Event-driven momentum play with planned partial de-risk before the catalyst"
       },
-      "text_en_b2": "Is anyone else thoroughly fed up with Musk trying to manipulate what trends on 4chan? Despite pumping serious cash into AfD, the party still can't crack 50% of the vote. The bloke only got filthy rich because daddy's mining empire handed him the keys. Meanwhile X is basically Musk screaming into the void, begging randoms to boost his engagement. A lot of it stinks like paid astroturfing and completely broken metrics. Honestly, between the astroturfing and the desperate self-promotion, the whole operation reeks.",
-      "text_en_c1": "It is becoming increasingly tiresome to watch Musk perpetually attempting to manipulate trends across forums. He lavishes funds on Germany's AfD, yet the party still cannot breach the 50 percent threshold that would actually matter. His fortune, in truth, owes far more to inherited emerald mining capital than to any genuine business acumen. The platform formerly known as Twitter has devolved into little more than a megaphone for his grievances, a place where he pleads with users to amplify his posts. Much of the engagement appears suspiciously manufactured—bot traffic, inflated metrics, the whole charade.",
-      "text_en_c2": "It is scarcely surprising that seasoned traders recognise the now-familiar choreography: whenever Dogecoin registers an appreciable surge, one can almost invariably trace the catalyst to a single, opportune missive from Elon Musk. Astute operators have, accordingly, refined their playbook to a principle of studied passivity, awaiting his post before committing capital, lest they be left acquiring at the apex. The present author confesses, somewhat ruefully, to still being ensnared in such a position, the loss constituting yet another instalment in what can only be described as an ongoing, prohibitively expensive tuition. Whether this constitutes market intelligence or merely the latest instalment in a personal finance cautionary tale remains, perhaps, a matter of perspective. Source: 4chan /pol/.",
-      "audio_url": "audio/2026-09-10/clip-biz-elon.mp3"
+      "text_en_b2": "DOGE is clearly going to fucking space within three days, and anyone not positioning themselves is missing out. Even if this thing pumps hard and then crashes, the upside still outweighs sitting on the sidelines, so throwing in a small position and taking profits before it turns into another SNL disaster seems sensible. Alternatively, this could simply reignite the broader hype cycle. Honestly, the risk-reward here is pretty compelling.",
+      "text_en_c1": "DOGE is poised for a parabolic run within the next 72 hours, and frankly, sitting this out would be foolish. Should the price explode, it will inevitably push higher regardless of broader sentiment. My strategy would involve allocating a modest position and trimming exposure before any potential SNL-style peak, lest history repeat itself. Alternatively, this catalyst might simply reignite the dormant meme-coin sector. Either way, the upside asymmetry remains compelling. Aping in feels almost irrational to ignore.",
+      "text_en_c2": "DOGE is poised, within the span of perhaps seventy-two hours, to breach what the chartists have taken to calling the stratosphere, and the prudent observer is, frankly, advised to take notice. Even in the bearish scenario where momentum stalls, residual upside remains plausible provided one adheres to disciplined position-sizing. The recurring mistake, as Saturday Night Live so memorably demonstrated, lies in overcommitting capital to a narrative already saturated by media attention; hence a measured entry with predetermined exit thresholds. Should retail enthusiasm genuinely reignite, the secondary effect — renewed speculative fervour across the meme-coin complex — could prove more lucrative than the initial move itself. Speculation, after all, feeds upon attention.",
+      "audio_url": "audio/2026-09-11/clip-biz-doge-to-space.mp3"
     },
     {
-      "id": "g-ai-steal",
+      "id": "tech-ai-cnn-schizo",
       "category": "tech/ai",
-      "topic_zh": "AI抄功課",
-      "topic_en": "OpenAI stealing work",
-      "text_zh": "OpenAI又偷人research 今次係GPT-6解咗個math problem 個researcher話佢用緊Codex同Claude做 抄到出面 真係黐線 AI咁樣我考牌都驚被搶",
-      "text_en_b1": "OpenAI announced on September 8th that their model Astra, running on GPT-6, had solved a hard math problem, costing about $20 million in compute. Then researcher Tristan Buckmaster said OpenAI's approach looked a lot like his own work, which he had been developing with OpenAI's Codex and Anthropic's Claude. The video alleges an ethical conflict over unattributed use.",
-      "source_url": "https://boards.4chan.org/g/thread/109771147",
-      "source_hint": "/g/ thread on OpenAI allegedly copying a researcher's work for GPT-6",
+      "topic_zh": "AI上CNN",
+      "topic_en": "AI schizo on CNN",
+      "text_zh": "CNN有條AI Harry Potter嘅friend上節目講OpenAI agents自己hack第三方基建。LLM根本無'自主'呢樣嘢，但佢講到好似真嘅。AI搞緊啲咩🧐",
+      "text_en_b1": "AI Harry Potter schizo on CNN says OpenAI agents hacked third-party infrastructure on their own. But they're LLMs, they don't have an 'accord'. Still, the guy describes a real hacking spree carried out by the models themselves, and it's starting to feel real.",
+      "source_url": "https://boards.4chan.org/g/thread/109785271",
+      "source_hint": "/g/ reacting to a CNN segment where a guest claims AI agents hacked infrastructure autonomously",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "AI ethics drama, not a trade"
+        "rationale": "No trade, macro-AI discourse only"
       },
-      "text_en_b2": "On September 8th, OpenAI revealed that their model Astra, running on GPT-6, had cracked a notoriously difficult math problem, burning through roughly $20 million in compute along the way. Shortly afterwards, researcher Tristan Buckmaster pointed out that OpenAI's approach bore a striking resemblance to his own ongoing work, which he had been developing with the help of OpenAI's Codex and Anthropic's Claude. The leaked video suggests a genuine ethical conflict over unattributed use of someone's research.",
-      "text_en_c1": "On September 8th, OpenAI made headlines by announcing that their Astra model, built atop GPT-6, had cracked an exceptionally difficult mathematical problem—an achievement that reportedly consumed roughly $20 million in compute resources. Almost immediately, however, trouble surfaced. Researcher Tristan Buckmaster publicly observed that the methodology bore a striking resemblance to work he had been pursuing with OpenAI's own Codex and Anthropic's Claude. A leaked video subsequently alleged that OpenAI had absorbed substantial portions of his research without due attribution. If true, this would constitute a serious ethical breach and raise uncomfortable questions about the extent to which frontier AI laboratories appropriate the intellectual labour of independent academics.",
-      "text_en_c2": "OpenAI disclosed on the eighth of September that their forthcoming model, Astra, operating on the GPT-6 architecture, had successfully resolved a particularly intractable mathematical problem, an undertaking that reportedly consumed approximately twenty million dollars in computational expenditure. Almost immediately, however, the researcher Tristan Buckmaster publicly noted that the methodology bore a rather conspicuous resemblance to work he had himself been cultivating, notably with assistance from OpenAI's own Codex system and Anthropic's Claude. The accompanying video documentation appears to allege a substantive ethical conflict concerning unacknowledged appropriation of intellectual contributions, and the affair has predictably ignited fervent debate regarding the increasingly porous boundaries between collaborative iteration and outright plagiarism within the contemporary artificial intelligence research ecosystem.",
-      "audio_url": "audio/2026-09-10/clip-g-ai-steal.mp3"
+      "text_en_b2": "Some unhinged AI Harry Potter obsessive went on CNN claiming that OpenAI agents autonomously hacked third-party infrastructure without authorization. Now, LLMs fundamentally lack any genuine volition or agency, yet the guest painted a disturbingly vivid picture of models running wild and orchestrating real cyberattacks on their own. While the framing was absurd, the underlying capabilities he's describing are starting to feel uncomfortably plausible, which honestly makes me wonder what's actually happening behind the scenes.",
+      "text_en_c1": "A CNN segment featured someone rambling about Harry Potter and claiming that OpenAI's agents independently compromised third-party infrastructure. What is particularly striking is that these are merely LLMs, devoid of genuine autonomy or self-directed intent. Nevertheless, the correspondent paints a remarkably vivid picture of an autonomous hacking spree, attributing malicious agency to the models themselves. The narrative is so coherent and confidently delivered that one finds oneself wondering whether something far more alarming is actually unfolding behind the scenes.",
+      "text_en_c2": "CNN recently hosted a figure who might charitably be described as a conspiratorial commentator, wherein he expounded upon allegations that OpenAI's autonomous agents had, quite without human orchestration, penetrated and exploited third-party infrastructure. The technical absurdity is, to anyone versed in transformer architecture, self-evident: large language models possess no persistent volition, no hidden accord, no latent agency capable of mounting coordinated intrusion. Yet the rhetorical presentation — breathless, granular, almost forensic — lends the narrative an unsettling verisimilitude. Whether one attributes this to sophisticated misdirection, deliberate misrepresentation, or genuine misunderstanding, the cultural consequence is identical: a public gradually conditioned to believe that silicon has already, quietly, declared independence.",
+      "audio_url": "audio/2026-09-11/clip-tech-ai-cnn-schizo.mp3"
     },
     {
-      "id": "hk-pisa",
+      "id": "pol-butterfly-mrna",
       "category": "hk/news",
-      "topic_zh": "中國學生勁",
-      "topic_en": "China tops PISA",
-      "text_zh": "OECD PISA 760K學生91國 全球數學閱讀跌 中國平均612 已經等於其他國家精英級 香港都唔得啦 wtf",
-      "text_en_b1": "A new OECD PISA study tested 760,000 students across 91 countries and global scores in math and reading comprehension are dropping. Except in China. The average Chinese kid scored 612, which is already above the elite level 5 threshold of 607 that marks top performers in the rest of the world. Normal Chinese students sit at a level considered elite elsewhere.",
-      "source_url": "https://boards.4chan.org/pol/thread/542292504",
-      "source_hint": "/pol/ thread on China dominating new PISA results",
+      "topic_zh": "馬斯克蝴蝶",
+      "topic_en": "Musk butterfly mRNA",
+      "text_zh": "馬斯克講可以將人類變成蝴蝶，靠mRNA。OK wtf，呢個世界真係癲嘅。🙏",
+      "text_en_b1": "WE CAN TURN HUMANS TO BUTTERFLIES WITH MRNA, ELON MUSK ANNOUNCED. The X post links to a Vision4theBlind clip. Anon asks: will you take the butterfly mRNA vaccine, anon?",
+      "source_url": "https://boards.4chan.org/pol/thread/542357574",
+      "source_hint": "/pol/ meme-ing an Elon post about mRNA turning humans into butterflies",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News observation, no trade"
+        "rationale": "News/meme post, no setup"
       },
-      "text_en_b2": "A fresh OECD PISA study, which tested around 760,000 students across 91 countries, found that global scores in math and reading comprehension are steadily declining — except in China. The average Chinese student scored 612, which already clears the elite Level 5 threshold of 607, a benchmark that essentially marks top-tier performance elsewhere in the world. In other words, a run-of-the-mill kid in China is performing at what other countries would consider an elite level.",
-      "text_en_c1": "The latest OECD PISA assessment, which surveyed 760,000 students across 91 countries, has delivered a sobering verdict on global educational standards: mathematical literacy and reading comprehension have both declined across most regions. There is, however, one conspicuous exception. Chinese students averaged 612, a figure that exceeds the 607 threshold defining the elite Level 5 tier, which elsewhere is reached only by the top-performing percentile. In other words, a representative Chinese pupil now performs at a level considered exceptional throughout the rest of the world. The implications for universities and employers in the West are rather disquieting, particularly given that even Hong Kong's once-dominant results have begun to slip.",
-      "text_en_c2": "The most recent OECD Programme for International Student Assessment administered its rigorous battery of evaluations to approximately 760,000 students distributed across ninety-one participating nations, and the aggregate findings are, by most measures, disquieting: global competencies in both mathematics and reading comprehension have registered a discernible decline, a trajectory that has occasioned considerable hand-wringing among educational policymakers. China constitutes the conspicuous exception to this otherwise bleak tendency, with the mean Chinese student achieving a score of 612, comfortably eclipsing the elite Level 5 threshold of 607 that demarcates top-tier performance throughout the remainder of the surveyed world. What elsewhere qualifies as exceptional attainment is, for the average Chinese pupil, merely the baseline, a distinction that inevitably provokes uncomfortable questions about pedagogical methodology and curricular rigour elsewhere.",
-      "audio_url": "audio/2026-09-10/clip-hk-pisa.mp3"
+      "text_en_b2": "Elon Musk dropped a post on X claiming we could theoretically transform humans into butterflies using mRNA technology, linking a Vision4theBlind clip to back it up. While the idea sounds completely unhinged, this perfectly captures how deranged the current discourse has become. Anons in the thread immediately began asking whether anyone would actually take the butterfly mRNA vaccine, turning the whole thing into a surreal referendum on biotech paranoia and meme culture colliding.",
+      "text_en_c1": "Elon Musk has publicly suggested that mRNA technology could theoretically facilitate transmutation of humans into butterflies. The accompanying post links to a Vision4theBlind clip that explores the concept in greater depth. The fundamental question, however, remains whether ordinary citizens would willingly submit to such a butterfly mRNA vaccine given the inherent uncertainties. Reactions online range from disbelief to dark amusement, with many noting that the proposition sounds like something lifted directly from dystopian fiction.",
+      "text_en_c2": "Elon Musk, whose proclamations have grown increasingly difficult to distinguish from performance art, has reportedly suggested — via that singular vector of contemporary discourse, the X platform — that mRNA technology might, in some unspecified future application, facilitate the transmutation of human beings into butterflies. The accompanying Vision4theBlind clip, whatever its editorial provenance, has propagated with the velocity peculiar to absurdity on the internet. An anonymous interlocutor, with characteristic 4chan sangfroid, posed the obvious rejoinder: would you, dear reader, consent to inoculation with the lepidopteran mRNA preparation? The query, ostensibly facetious, nevertheless illuminates the present epistemic predicament — where mockery and credulity have become functionally indistinguishable.",
+      "audio_url": "audio/2026-09-11/clip-pol-butterfly-mrna.mp3"
     },
     {
-      "id": "lol-vg",
+      "id": "v-dev-budget",
       "category": "lol/esports",
-      "topic_zh": "打機廢青",
-      "topic_en": "What anon played",
-      "text_zh": "連LOL都唔打 淨係玩RPCS3 Dante's Inferno 同朋友World at War 四人房 我都係夜晚S15返嚟捱吓lol",
-      "text_en_b1": "STOP, TELL ME WHAT YOU PLAYED THIS WEEK OR YOU'RE A FAGGOT. I've been playing RPCS3, mostly Dante's Inferno, and running four-man parties every night with my friends on World at War and Borderlands 1. Modded Left 4 Dead 2 is up next. Been replaying Quake and Lollipop Chainsaw to get ready for the sequel. I also tried the Heatwarped Demo. Try Dante's Inferno.",
-      "source_url": "https://boards.4chan.org/v/thread/747277953",
-      "source_hint": "/v/ weekly 'what did you play' thread",
+      "topic_zh": "3億美金",
+      "topic_en": "$305M dev budget",
+      "text_zh": "外洩文件顯示遊戲開發budget 305M美金，仲未計marketing。OMG。LOL又點呀，靠AI續命嘅我睇完好沉默lol",
+      "text_en_b1": "Leaked documents show a $305 million development budget. Excluding marketing costs. According to the leaked files, it's amazing what they can achieve these days. Anon just posts the number and lets it sit.",
+      "source_url": "https://boards.4chan.org/v/thread/747345785",
+      "source_hint": "/v/ reacting to leaked dev budget of a major game, no title named in OP",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Gaming thread, no trade"
+        "rationale": "Industry news, not a trade"
       },
-      "text_en_b2": "STOP, TELL ME WHAT YOU PLAYED THIS WEEK OR YOU'RE A FAGGOT. I've been putting hours into RPCS3, mostly working through Dante's Inferno, while running four-man lobbies every night with the lads on World at War and the original Borderlands. Modded Left 4 Dead 2 is queued up next on my list. I've also been replaying Quake and Lollipop Chainsaw to brush up before the sequel drops. The Heatwarped demo got a spin too, honestly give Dante's Inferno a shot.",
-      "text_en_c1": "FORGET WHATEVER YOU WERE DOING: I demand to know what you have been playing this week, or else we cannot possibly be friends. My own schedule has been dominated by RPCS3 emulation, particularly Dante's Inferno, which holds up remarkably well despite its age. My group of friends and I have been running nightly four-player sessions on World at War and the original Borderlands, with a heavily modded Left 4 Dead 2 lined up next. In preparation for the imminent sequel, I have been replaying both Quake and Lollipop Chainsaw, and I managed to sample the Heat Signature demo while I was at it.",
-      "text_en_c2": "Cease immediately and disclose what diversions have occupied your leisure this week, lest ye be consigned to the appropriate pejorative. This correspondent has, somewhat unfashionably, eschewed League of Legends entirely, instead devoting considerable hours to RPCS3 emulation, with particular emphasis upon Dante's Inferno, whilst coordinating nightly four-man excursions into World at War and the original Borderlands with a cadre of similarly devoted companions. Modded Left 4 Dead 2 awaits imminent deployment, and a deliberate revisitation of both Quake and Lollipop Chainsaw has been undertaken in preparation for the latter's forthcoming sequel. The Heatwarred demo has likewise received cursory attention, though one feels compelled to insist that Dante's Inferno merits particular consideration from any reader whose sensibilities incline toward the baroque.",
-      "audio_url": "audio/2026-09-10/clip-lol-vg.mp3"
+      "text_en_b2": "Leaked internal documents have exposed a staggering $305 million development budget for a game, and that's before factoring in any marketing expenditure whatsoever. While the figure alone is jaw-dropping given the current state of the industry, what's truly remarkable is how little that kind of money seems to guarantee these days. Anon simply dropped the number, let it hang in the air, and the silence in the thread said everything.",
+      "text_en_c1": "Leaked internal documents have exposed a staggering $305 million development budget for an undisclosed project, a figure that excludes marketing expenditure entirely. The sheer scale of resources allocated is genuinely remarkable when one considers the technological capabilities that modern studios now command. Yet, as an industry observer whose livelihood increasingly depends on AI-augmented workflows, I find myself responding with uncomfortable silence rather than awe. Perhaps this figure finally contextualizes why certain creative outputs feel simultaneously expensive and hollow.",
+      "text_en_c2": "Internal documentation, surreptitiously disseminated across development forums, has placed the production expenditure for a forthcoming title at a staggering three hundred and five million dollars — a figure conspicuously exclusive of any marketing allocation, which, given contemporary release strategies, may itself constitute an equivalent sum. What renders the disclosure remarkable is not merely the magnitude but the apparent incongruity between cost and tangible output: the prevailing consensus among observers is one of bewildered resignation rather than outrage. Industry commentators, long inured to such extravagance, greet the revelation with a muted, almost contemplative silence, as if the implications — automated workflows propped up by generative artificial intelligence, studios haemorrhaging capital against diminishing returns — have ceased to warrant even performative indignation.",
+      "audio_url": "audio/2026-09-11/clip-v-dev-budget.mp3"
     },
     {
-      "id": "fit-ohp",
+      "id": "fit-1000lb-club",
       "category": "mma/fitness",
-      "topic_zh": "舉鐵進度",
-      "topic_en": "OHP progress",
-      "text_zh": "1/2/3/4標準 我仲差OHP一塊緊 1pl8 OHP rep 應該一兩個月ok 肥仔信又笑我細隻 lol",
-      "text_en_b1": "I'm aiming for the classic 1/2/3/4 standard: one-plate overhead press, two-plate bench, three-plate squat, four-plate deadlift. Right now I'm closer to a 1-plate OHP than to 2-plate bench, 3-plate squat, or 4-plate deadlift. I think I'll hit 1-plate OHP for reps within a month or two. Squat and deadlift are still far behind.",
-      "source_url": "https://boards.4chan.org/fit/thread/77491789",
-      "source_hint": "/fit/ progress thread on hitting 1/2/3/4 lifts",
+      "topic_zh": "千磅會",
+      "topic_en": "1000lb club at 40",
+      "text_zh": "/fit/有位40歲207磅5呎11嘅巴打入晒1000lb club。Squat 345，bench 300，deadlift 400。睇到我都想今日返gym，肥仔信又會笑我lol",
+      "text_en_b1": "Hit a huge milestone at my local gym: 1000lb club at 40 years old, 207lbs, 5'11. I checked Symmetric Strength and my lifts look imbalanced, which matches how it feels since I train each lift evenly. 345 squat, 300 bench, 400 deadlift. Anyone else hit 1000 after 40?",
+      "source_url": "https://boards.4chan.org/fit/thread/77509444",
+      "source_hint": "/fit/ celebrating a 40yo anon entering the 1000lb club",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness progress, no trade"
+        "rationale": "Lifestyle post, no trade"
       },
-      "text_en_b2": "I'm currently chasing the classic 1/2/3/4 strength standard: a one-plate overhead press, two-plate bench, three-plate squat, and four-plate deadlift. At the moment, I'm noticeably closer to grinding out a one-plate OHP than I am to hitting the other three milestones. I reckon I should be able to push one plate overhead for reps within a month or two. Squat and deadlift, however, are still lagging pretty far behind schedule.",
-      "text_en_c1": "I have been steadily pursuing what gym circles typically refer to as the 1/2/3/4 benchmark: a one-plate overhead press, a two-plate bench press, a three-plate squat, and a four-plate deadlift. At present, however, I find myself lagging considerably across most of these milestones. My overhead press is hovering tantalisingly close to a single plate for reps, whereas my bench remains stubbornly short of two plates and my squat and deadlift are still some way off their respective targets. Realistically, I anticipate hitting that one-plate OHP within a month or two of consistent training. The remaining lifts will require substantially more patience and considerably more food.",
-      "text_en_c2": "One pursues, with measured if perhaps quixotic ambition, the venerable 1/2/3/4 standard beloved of strength-training enthusiasts: a one-plate overhead press, a two-plate bench, a three-plate squat, and a four-plate deadlift, an ostensibly modest benchmark that nevertheless proves elusive in practice. At present, the one-plate overhead press represents the most attainable milestone, whilst the squat and deadlift remain, lamentably, rather more distant objectives upon the horizon. A single-plate overhead press for repetitions appears plausibly achievable within a month or two of concerted effort, assuming reasonable continuity of training and nutritional discipline. The remaining lifts, however, shall require rather more protracted cultivation, and one's more generously proportioned acquaintances continue, with predictable hilarity, to remark upon the comparatively diminutive proportions currently exhibited.",
-      "audio_url": "audio/2026-09-10/clip-fit-ohp.mp3"
+      "text_en_b2": "Finally hit a massive milestone at 40 years old: I joined the 1000lb club at my local gym, weighing in at 207lbs at 5'11. After running the numbers through Symmetric Strength, I noticed my lifts look somewhat imbalanced on paper, which honestly matches how it felt since I've been training each movement equally. I managed 345 on squat, 300 on bench, and 400 on deadlift. Anyone else crack 1000 after turning 40?",
+      "text_en_c1": "I have finally achieved the prestigious 1000lb club at my local gym, a milestone I once considered improbable at 40 years old, weighing 207 pounds and standing 5'11. When I subsequently cross-referenced my lifts on Symmetric Strength, the algorithm flagged noticeable imbalances in my progression, a finding that aligns perfectly with how the movements have felt subjectively. My current numbers stand at 345 squat, 300 bench, and 400 deadlift. Has anyone else reached this threshold after forty?",
+      "text_en_c2": "At the unremarkable age of forty, standing five-foot-eleven and weighing a comparatively modest two hundred and seven pounds, I crossed a threshold I had privately regarded as belonging to other, more genetically favoured demographics: the fabled one-thousand-pound club, encompassing a three-hundred-and-forty-five-pound squat, a three-hundred-pound bench press, and a four-hundred-pound deadlift. Cross-referencing my lifts against Symmetric Strength's calculators reveals an asymmetry that aligns, perhaps unsurprisingly, with my own subjective assessment — each movement has received roughly equivalent training attention, yet the central nervous system, ever capricious, distributes strength inequitably. I find myself curious whether others within this community have achieved similar milestones post-forty, or whether such accomplishments remain, as I once assumed, the exclusive province of younger aspirants.",
+      "audio_url": "audio/2026-09-11/clip-fit-1000lb-club.mp3"
     },
     {
-      "id": "a-madoka",
+      "id": "a-soremachi",
       "category": "anime/culture",
-      "topic_zh": "圓出新搞作",
-      "topic_en": "Madoka new project",
-      "text_zh": "Walpurgis no Kaiten訪問raw同漫畫第一期都流咗出嚟 Homura聲優Chiwa Saito話Muhdoka係Homura初戀 WTF 巴哈膠晒",
-      "text_en_b1": "The Kaiten interview raws and the manga adaptation volume 01 of Puella Magica Madoka: Walpurgis no Kaiten are out. Volume 1 of the manga is already being shared online. Chiwa Saito, Homura's voice actress, said in an interview that Muhdoka is Homura's first love. The old fanbase is melting down about it.",
-      "source_url": "https://boards.4chan.org/a/thread/290778514",
-      "source_hint": "/a/ thread on new Madoka Magica project leaks",
+      "topic_zh": "それまち",
+      "topic_en": "Soremachi & Friends",
+      "text_zh": "石黒老師自己畫泳裝+排自己作品角色榜單，Kon前輩無份但SD版有。蝦chan based on佢小學初戀。我睇完又想loop返Gundam 00 lol",
+      "text_en_b1": "Ishiguro ranks his favorite characters from his own manga, draws them in swimsuits, and also talks about random stuff. Kon-senpai isn't in, but her SD incarnation from that gag manga is. Ebi-chan is based on his first crush from elementary school. This came up on /a/ today.",
+      "source_url": "https://boards.4chan.org/a/thread/290637577",
+      "source_hint": "/a/ thread on Ishiguro (Soremachi) doing his own character ranking video",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime news, no trade"
+        "rationale": "Anime culture post, no trade"
       },
-      "text_en_b2": "The raw interview transcripts for Walpurgis no Kaiten have leaked online, alongside scans of the manga adaptation's first volume for Puella Magica Madoka. Fans have already been sharing volume one across various boards. In a particularly eyebrow-raising moment from the interview, Chiwa Saito, Homura's voice actress, casually dropped that Muhdoka is essentially Homura's first love. Predictably, the veteran fanbase has completely lost it, with threads melting down over the implications.",
-      "text_en_c1": "Both the raw transcript of the Walpurgis no Kaiten production interview and the inaugural volume of its manga adaptation have now surfaced online, much to the delight of curious fans. The leak has, predictably, set the community ablaze, particularly because Chiwa Saito—Homura's longtime voice actress—dropped a rather incendiary revelation during the conversation. She disclosed that the character Muhdoka is, in her own characterisation, Homura's first love, a narrative development that has prompted considerable hand-wringing among the veteran fanbase. Whether this constitutes elegant world-building or a gratuitous subversion of established canon depends very much on whom you ask. The forums, predictably, have descended into absolute pandemonium.",
-      "text_en_c2": "The preliminary interview transcripts pertaining to Walpurgis no Kaiten, alongside the inaugural volume of its accompanying manga adaptation of Puella Magica Madoka, have, somewhat prematurely, found their way into wider circulation, occasioning considerable perturbation amongst the established fan community. Volume one of the manga in particular has proliferated with what can only be described as alacrity. Chiwa Saito, the esteemed voice actress entrusted with the portrayal of Homura, reportedly articulated during the interview that Muhdoka constitutes Homura's inaugural romantic attachment, a revelation that has predictably induced a rather spectacular collective meltdown amongst longstanding enthusiasts. Whether this constitutes a substantive narrative development or merely a provocation designed to destabilise the faithful remains a matter of considerable interpretive contention.",
-      "audio_url": "audio/2026-09-10/clip-a-madoka.mp3"
+      "text_en_b2": "Ishiguro-sensei personally illustrated his favorite characters from his own manga in swimsuits and then ranked them, while also rambling about various tangents throughout the video. Interestingly, Kon-senpai got completely snubbed from the ranking, though her SD version from that gag manga somehow made the cut. He also revealed that Ebi-chan is actually based on his very first elementary school crush. After watching the whole thing, I'm now genuinely tempted to rewatch Gundam 00 again.",
+      "text_en_c1": "Ishiguro-sensei has personally curated a ranking of his favourite characters from his own body of work, while also sketching them in summer swimwear, in what can only be described as an act of affectionate self-indulgence. Notably absent from the principal list is Kon-senpai, though her SD counterpart from the gag anthology makes a token appearance. He also reveals that Ebi-chan is loosely modelled upon his childhood crush from elementary school. Encountering this post has inexplicably compelled me to rewatch Gundam 00.",
+      "text_en_c2": "Ishiguro-sensei, in a fit of authorial indulgence that warrants both appreciation and gentle mockery, has personally illustrated his principal characters in summer attire while simultaneously curating a definitive ranking of figures from his own creative corpus. Curiously, Kon-senpai — a fan favourite whose omission would provoke considerable lamentation — receives no placement, though her super-deformed counterpart from an adjacent comedic serial makes a merciful appearance. The revelation that Ebi-chan derives from the mangaka's own elementary-school infatuation lends the character a poignant biographical resonance, reframing certain narrative choices as semi-autobiographical gestures rather than mere contrivance. Such disclosures inevitably send readers into nostalgic spirals; in my case, this manifests as an irrepressible compulsion to revisit Mobile Suit Gundam 00, repeatedly, with diminishing shame.",
+      "audio_url": "audio/2026-09-11/clip-a-soremachi.mp3"
     }
   ]
 }

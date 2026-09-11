@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-11",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-condo-stuck",
+      "topic_en": "Crypto condo regret",
+      "topic_zh": "炒幣廢青",
+      "category": "trading",
+      "file": "clip-biz-condo-stuck.mp3",
+      "bytes": 373236,
+      "chars": 297
+    },
+    {
+      "id": "biz-doge-to-space",
+      "topic_en": "DOGE to space",
+      "topic_zh": "DOGE衝太空",
+      "category": "trading",
+      "file": "clip-biz-doge-to-space.mp3",
+      "bytes": 195252,
+      "chars": 211
+    },
+    {
+      "id": "tech-ai-cnn-schizo",
+      "topic_en": "AI schizo on CNN",
+      "topic_zh": "AI上CNN",
+      "category": "tech/ai",
+      "file": "clip-tech-ai-cnn-schizo.mp3",
+      "bytes": 285684,
+      "chars": 259
+    },
+    {
+      "id": "pol-butterfly-mrna",
+      "topic_en": "Musk butterfly mRNA",
+      "topic_zh": "馬斯克蝴蝶",
+      "category": "hk/news",
+      "file": "clip-pol-butterfly-mrna.mp3",
+      "bytes": 204468,
+      "chars": 168
+    },
+    {
+      "id": "v-dev-budget",
+      "topic_en": "$305M dev budget",
+      "topic_zh": "3億美金",
+      "category": "lol/esports",
+      "file": "clip-v-dev-budget.mp3",
+      "bytes": 222900,
+      "chars": 205
+    },
+    {
+      "id": "fit-1000lb-club",
+      "topic_en": "1000lb club at 40",
+      "topic_zh": "千磅會",
+      "category": "mma/fitness",
+      "file": "clip-fit-1000lb-club.mp3",
+      "bytes": 339828,
+      "chars": 265
+    },
+    {
+      "id": "a-soremachi",
+      "topic_en": "Soremachi & Friends",
+      "topic_zh": "それまち",
+      "category": "anime/culture",
+      "file": "clip-a-soremachi.mp3",
+      "bytes": 297780,
+      "chars": 274
+    }
+  ]
+}
