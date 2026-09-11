@@ -4,38 +4,38 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "trade-condo-001",
+      "id": "trade-macro-01",
       "category": "trading",
-      "topic_zh": "炒幣換condo",
-      "topic_en": "Crypto condo regret",
-      "text_zh": "22歲靠doge賺到第一桶金，230K美金買咗condo，之後冇job、冇income，攤喺度。回學校grad完，依家返工$100K，condo自己住，學生貸款同卡數一齊嚟。咁啱同我好似，我哋都係被市場教識做人。🙏",
-      "text_en_b1": "A 27-year-old anon on /biz/ made a bunch of crypto money from Dogecoin back in 2021. He dropped out of school, bought a $230K condo, and lived the perma vacation life for two years. Now he works a $100K job, has student debt and credit card debt, and feels stuck. Sound familiar to anyone else who ape'd in too early?",
-      "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ anon who bought condo with doge money, now stuck in work-consume-repeat cycle",
+      "topic_zh": "十年持有BTC定黃金",
+      "topic_en": "Bitcoin vs Gold 10Y",
+      "text_zh": "/biz/ 條友問：未來十年你揸BTC定揸黃金？兩個邊個好啲？我心入面其實已經有答案⋯ 黃金就擺到實，prop firm個倉又點睇？🙏",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Anon on /biz/ wants to know which one survives the decade. BTC fans say digital scarcity. Gold bugs say 5,000 years of proof. Pick one, anon.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ asks BTC vs gold for the next 10 years",
       "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
+        "asset": "BTC",
+        "direction": "neutral",
+        "conviction": "low",
+        "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post-hoc reflection on past crypto gains, no setup"
+        "rationale": "No actionable setup, just a debate thread on which is the better long-term hold"
       },
-      "text_en_b2": "A 27-year-old /biz/ poster cashed in on Dogecoin during the 2021 surge and walked away with enough to drop out of school. He put $230K down on a condo, coasted through two years of perma-vacation with no income, then eventually went back, finished his degree, and now pulls $100K at a regular job. Student loans and credit-card debt piled up along the way, so even though he's earning again, he feels completely trapped. Anyone else who aped in too early know the feeling? 🙏",
-      "text_en_c1": "A 27-year-old anonymous poster on /biz/ recounts how, having made a considerable sum from Dogecoin during the 2021 bull run, he elected to abandon his studies and sink roughly $230,000 into a condominium. For the next two years he coasted along on what amounted to a permanent holiday, free of any real obligations. Once the money dried up, however, reality set in: he returned to university, graduated, and is now employed in a role paying $100K, albeit saddled with both student loans and lingering credit-card debt. The condo remains his primary residence, yet any equity feels largely illusory given the repayments looming on the horizon.",
-      "text_en_c2": "A 27-year-old /biz/ poster recounts how a Dogecoin windfall during the 2021 retail frenzy reshaped his financial trajectory, albeit in ways he now deeply regrets. Fresh out of school, he liquidated his gains and put down $230,000 on a condominium, settling into an extended idyll of perma-vacation and conspicuous consumption. Two years of unearned leisure later, the inevitable reckoning arrived: no degree, no income stream, and a lifestyle that could not be sustained. He ultimately returned to university, graduated, and now earns a respectable $100,000 salary, yet the condo remains a millstone, mortgaged and personally occupied, while delinquent student loans and spiralling credit-card balances compound. He concludes, with weary self-awareness, that the market has schooled him thoroughly, and asks whether others who aped in prematurely share his particular flavour of remorse.",
-      "audio_url": "audio/2026-09-11/clip-trade-condo-001.mp3"
+      "text_en_b2": "If you had to pick a single asset to hold for the next decade, would you go with Bitcoin or gold? Anon on /biz/ posed this question, and the thread immediately split into two camps. BTC maximalists keep hammering home the point about digital scarcity and fixed supply, whereas gold bugs counter with roughly five millennia of proven store-of-value credentials. Choose your side, anon.",
+      "text_en_c1": "Should one's capital be deployed into Bitcoin or gold over the forthcoming decade, assuming one could only retain a single asset class? An anonymous poster on /biz/ solicited precisely this comparison, to which most respondents appeared predisposed. Bitcoin advocates champion its programmed scarcity, whereas traditionalists invoke roughly five millennia of monetary precedent. Both arguments carry undeniable weight, though the verdict remains fiercely contested. Were one compelled to select, the choice would ultimately hinge on whether digital resilience or tangible permanence holds greater conviction, a dilemma that has long divided retail investors. Either way, anon, commit to your thesis.",
+      "text_en_c2": "Forced to hold a single asset for the coming decade, would one's better judgment favour Bitcoin or gold? The query, posted to /biz/, ostensibly solicits reasoned comparison but conceals a verdict already reached. Bitcoin partisans champion programmed scarcity, algorithmic issuance, and the institutional embrace now visibly underway; gold advocates counter with five millennia of monetary validation, physical custody, and immunity to ledger failure. Neither case lacks merit, yet the very framing betrays conviction: one does not pose a question to which one already knows the answer. The prop-firm contingent, predictably, demurs—hedging, as ever, in the margins of conviction. Choose, anon, and be prepared to defend the choice through ten volatile years.",
+      "audio_url": "audio/2026-09-11/clip-trade-macro-01.mp3"
     },
     {
-      "id": "trade-doge-space-002",
+      "id": "trade-musk-01",
       "category": "trading",
-      "topic_zh": "Doge上太空",
-      "topic_en": "Doge to space",
-      "text_zh": "3日後Doge真係上太空啦，個event就嚟。呢個唔係SNL 2.0，所以可以小注ap一下，爆上去就食，唔爆就揸住算。依家CFD帳面又紅緊，當學費囉。lol 🐕",
-      "text_en_b1": "Doge goes to fucking space in 3 days and you're not buying. /biz/ anon says if this thing explodes it's still gonna move up, so why not ape a bit. Then sell so it doesn't become SNL 2.0. Or maybe it will just start the hype again. Either way the catalyst is real.",
+      "topic_zh": "DOGE跟Elon上去",
+      "topic_en": "Doge to Space",
+      "text_zh": "Doge 三日內上太空，你唔買？😅 aped少少，然後食糊走人，唔好變SNL 2.0 Elon條Tweet又嚟啦⋯ 跟住啦屌",
+      "text_en_b1": "Doge goes to fucking space in 3 days and you're not buying. If this shit explodes it's still gonna move up, so why not ape a bit, then sell so it doesn't become SNL 2.0. Or maybe it will just start the hype again. Classic Musk catalyst trade, /biz/ is buzzing.",
       "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "/biz/ thread hyping Dogecoin space catalyst in 3 days",
+      "source_hint": "/biz/ threads a Dogecoin 'to the moon' Musk catalyst play",
       "signal": {
         "asset": "DOGE",
         "direction": "long",
@@ -44,22 +44,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Catalyst play, small size ahead of space event, plan to sell into pump"
+        "rationale": "Catalyst event (SpaceX mission) with short-term scalp-then-fade vibe; ride the hype for a few days"
       },
-      "text_en_b2": "Look, Dogecoin actually goes to space in three days, and you're sitting on the sidelines doing nothing. One /biz/ poster argues that even if the launch flops, the event itself still has enough fuel to push price higher, so throwing a small position in makes sense. Sell into any spike, though, because holding the bag is what turned the SNL cameo into a disaster. If nothing else, the catalyst is genuinely real this time around. lol 🐕",
-      "text_en_c1": "With the actual Dogecoin space mission reportedly slated within the next 72 hours, a /biz/ regular insists that anyone sitting on the sidelines has fundamentally misread the setup. Granted, the previous SNL-induced fumble offers a cautionary precedent, but the catalyst this time round is tangible rather than hype-driven, which is precisely why a modest position, hedged via CFD if exposure must be controlled, makes strategic sense. Should the launch narrative capture attention again, trim the position before momentum exhausts itself; should it falter, the loss is contained. Either way, the risk-reward calculus is skewed favourably enough to warrant engagement rather than passive observation.",
-      "text_en_c2": "In three days, Dogecoin will literally reach space, a concrete catalyst rather than the metaphorical moonshot of meme-stock lore, and /biz/ sentiment has duly recalibrated around the imminent launch event. The prevailing consensus, articulated by a self-styled contrarian with a live CFD position bleeding red, is that the asymmetry warrants a measured speculative allocation. If the launch precipitates a genuine breakout, trim the position; if it merely generates another tepid pump, hold through the noise rather than capitulate. The prevailing dread is that this materialises into SNL 2.0, that is, a flash-in-the-pan spectacle that incinerates late capital, though the poster insists the underlying catalyst renders that outcome improbable. His red P&L, he remarks with characteristic gallows humour, shall be written off as tuition.",
-      "audio_url": "audio/2026-09-11/clip-trade-doge-space-002.mp3"
+      "text_en_b2": "Doge is heading to fucking space in three days, and somehow you're still on the fence. Even if the launch flops, the token will likely catch a bid on the hype alone, so throwing a small position at it makes sense — just don't get stuck holding the bag when it turns into SNL 2.0. Classic Musk catalyst play, and /biz/ is going absolutely ballistic over it.",
+      "text_en_c1": "Doge, that perpetually meme-fuelled cryptocurrency, is purportedly headed skyward within seventy-two hours, ostensibly aboard a SpaceX mission of some description. Were one inclined toward speculative positioning, taking a modest position before promptly exiting would arguably constitute prudent risk management, lest holders suffer a repeat of the infamous SNL episode which cratered sentiment. Should the launch prove visually compelling, however, the resultant social media frenzy could easily reignite parabolic momentum. Classic Musk catalyst dynamics: whichever way the trade resolves, the board's attention is already locked in. Absent genuine conviction, however, one might do well to sit this one out.",
+      "text_en_c2": "Doge ascends, quite literally, to low orbit within seventy-two hours, and one contemplates abstention? The catalyst, predictably Muskian, functions as both spectacle and signal: even should the parabolic move flatten into disappointment, residual sentiment guarantees an interim trajectory northward. A measured position, taken and relinquished before sentiment sours, averts the SNL debacle that haunted the spring. Alternatively, the announcement merely reignites a speculative bonfire that had begun, rather prematurely, to smoulder. Such is the choreography of the Musk catalyst trade—an orchestration that /biz/ greets with its customary mixture of derision and credulity. Follow at one's peril, but ignore at one's cost.",
+      "audio_url": "audio/2026-09-11/clip-trade-musk-01.mp3"
     },
     {
-      "id": "ai-agi-quit-003",
+      "id": "tech-ai-01",
       "category": "tech/ai",
-      "topic_zh": "AI研究員劈炮",
-      "topic_en": "Anthropic researcher quits",
-      "text_zh": "Anthropic有個researcher直接劈炮，話唔想參加呢場self-improving AI軍備競賽，驚失控毀滅人類。即係連自己人都驚，仲點話可控？我哋呢啲surveyor+AI已經頂唔順，civil engineer都係時間問題。wtf",
-      "text_en_b1": "Jacob Coxon, an Anthropic researcher who trains AI models on huge amounts of data, is leaving the company. He said Tuesday he does not want to take part in the industrywide rush to build AI systems that can improve themselves. He worries such systems could spiral out of control and destroy humanity.",
-      "source_url": "https://boards.4chan.org/g/thread/109769311",
-      "source_hint": "/g/ thread on Anthropic researcher quitting over self-improving AI fears",
+      "topic_zh": "AGI仲有咩我做得到",
+      "topic_en": "What Can Beat AGI",
+      "text_zh": "/g/ 條友問：你哋有咩係最新OpenAI AGI model做唔到嘅？講真我都諗唔到，AI連我份工都想搶⋯ 🧐 靠AI續命",
+      "text_en_b1": "What can you do that the newest OpenAI AGI model can't do better? Anon on /g/ is asking in despair. Surveying, drafting emails, code review, basic maths, even creative writing — most white-collar tasks are already on the chopping block. /g/ thread got quiet real fast. RIP office jobs.",
+      "source_url": "https://boards.4chan.org/g/thread/109785847",
+      "source_hint": "/g/ existential thread — what humans still beat AGI at",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Industry news, not a trade setup"
+        "rationale": "Observation only; thread is existential, not a trade setup"
       },
-      "text_en_b2": "Jacob Coxon, a researcher at Anthropic who trains models on massive datasets, has publicly walked away from the company. He explained on Tuesday that he has no intention of contributing to the industry-wide arms race around self-improving AI systems, because he's genuinely terrified they could spiral out of control and wipe humanity off the map. If someone building this stuff from the inside feels that uneasy, what exactly are the rest of us supposed to take away from it? Surveyors are already cooked, and civil…",
-      "text_en_c1": "Jacob Coxon, a researcher at Anthropic whose remit involves training frontier models on genuinely vast datasets, has publicly resigned from the organisation. In a statement issued on Tuesday, he explained that he no longer wishes to participate in what he characterised as an industry-wide, self-improving AI arms race, one whose terminal endpoint he finds existentially alarming. Specifically, he voiced concern that recursive self-improvement could yield systems whose behaviour spirals beyond human oversight, with catastrophic consequences for civilisation.",
-      "text_en_c2": "Jacob Coxon, an Anthropic researcher whose remit encompassed training frontier models on vast datasets, has publicly resigned from the company, issuing a parting statement that has sent ripples through the AI alignment community. His stated rationale is unambiguous: he refuses, on principle, to participate any longer in what he characterises as the reckless, industry-wide arms race toward self-improving artificial intelligence, systems capable of recursive self-modification that he believes could catastrophically elude human control and, in extremis, annihilate civilisation. The resignation is particularly damning because it originates not from a peripheral critic but from a practitioner intimately familiar with the engineering realities. If those constructing these systems harbour genuine existential dread, the corollary for external observers is uncomfortable. Surveyors already lean on AI; civil engineers, it seems, are merely next in the queue.",
-      "audio_url": "audio/2026-09-11/clip-ai-agi-quit-003.mp3"
+      "text_en_b2": "What exactly can you do that the latest OpenAI AGI model can't handle better? Anon on /g/ posed the question half-jokingly, but the thread went quiet pretty fast. Surveying, drafting emails, code review, basic maths, even creative writing — virtually every white-collar task now sits squarely on the chopping block. The consensus seems grim: office jobs as we knew them are finished.",
+      "text_en_c1": "What competencies, if any, can a knowledge worker plausibly claim against the latest iteration of OpenAI's purportedly general intelligence model? An increasingly despondent poster on /g/ posed precisely this question, and the responses were conspicuously sparse. Surveying, correspondence drafting, rudimentary code review, elementary arithmetic, even competent copywriting; the ranks of white-collar professions appear to be dwindling at an alarming rate. Even tasks once considered exclusively human, such as nuanced creative synthesis, seem increasingly within reach of these systems. The thread descended into uncharacteristic silence, which, for /g/, speaks volumes. Adapt or perish, the consensus suggests.",
+      "text_en_c2": "What faculty, precisely, does the human practitioner retain that OpenAI's ostensibly frontier model cannot already replicate, if not surpass? The /g/ poster poses the question half in jest, half in genuine apprehension. Survey design, the drafting of professional correspondence, code review, elementary computation, even rudimentary creative composition—the bulk of cognitively white-collar labour finds itself, demonstrably, on the cusp of redundancy. The thread, having begun in sardonic bravado, lapsed into an uncharacteristic silence as respondents tallied their own occupational vulnerabilities. Whether such introspection yields resignation or reinvention remains, for the moment, suspended. The office, one suspects, shall endure—though its erstwhile occupants may not.",
+      "audio_url": "audio/2026-09-11/clip-tech-ai-01.mp3"
     },
     {
-      "id": "hk-mrna-004",
+      "id": "hk-news-01",
       "category": "hk/news",
-      "topic_zh": "蝴蝶mRNA",
-      "topic_en": "Butterfly mRNA",
-      "text_zh": "/pol/ 又嚟膠膠噏，今次係話可以將人變成蝴蝶。仲要話Elon宣布嘅🙄 個link係某個盲人Vision出嘅post，似係嘲諷多過真新聞。我淨係想知prop firm幾時返本。",
-      "text_en_b1": "/pol/ anon claims we can turn humans into butterflies with mRNA, and says Elon Musk announced it. He links a Vision4theBlind post and asks if you will take the butterfly mRNA vaccine. Pure shitpost territory, but the OP is clearly having fun with the Elon brand.",
+      "topic_zh": "蝴蝶mRNA笑話",
+      "topic_en": "Butterfly mRNA Joke",
+      "text_zh": "/pol/ 班友又嚟：Elon話mRNA可以將人類變成蝴蝶🐛🦋 wtf 呢啲post越嚟越癲，我當笑話睇lol",
+      "text_en_b1": "WE CAN TURN HUMANS TO BUTTERFLIES WITH MRNA, ELON MUSK ANNOUNCED!!! Will you take the butterfly mRNA vaccine, anon? Classic /pol/ shitpost mixing Musk and conspiracy. No actual vaccine exists. Just /pol/ being /pol/ at 2am as usual.",
       "source_url": "https://boards.4chan.org/pol/thread/542357574",
-      "source_hint": "/pol/ shitpost about Elon announcing butterfly mRNA vaccine",
+      "source_hint": "/pol/ parody thread pretending Musk announced butterfly mRNA",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Shitpost, not tradeable"
+        "rationale": "Satire post, no market signal"
       },
-      "text_en_b2": "/pol/ has cooked up another absolute banger, and this time they're claiming mRNA can supposedly turn people into butterflies, with Elon Musk apparently doing the announcing. The link points to some Vision4theBlind post that reads way more like mockery than anything resembling real reporting. Meanwhile, I'm just sitting here refreshing my prop-firm dashboard wondering when I'll actually see green again. 🙄",
-      "text_en_c1": "A /pol/ thread has latched onto the proposition that forthcoming mRNA technology will ostensibly enable humans to undergo metamorphosis into butterflies, with the obligatory attribution to Elon Musk doing the rounds. The cited link, however, traces back to a Vision4theBlind social media post that, on closer inspection, reads as parody or satire rather than genuine reportage. Whether the original poster is deliberately toying with the gullibility of the board or merely amplifying misinformation for amusement is unclear, but the entire exercise exemplifies how easily fabricated narratives, once tagged to a recognisable personal brand, gain unwarranted traction. Meanwhile, prop firm traders await nothing more substantive than a return to baseline.",
-      "text_en_c2": "/pol/ has, predictably, resumed its penchant for absurdist agitprop, this time asserting that forthcoming mRNA technology shall metamorphose humans into butterflies, the revelation attributed, with characteristic credulity, to an Elon Musk announcement. The provenance, as ever, is illuminating: the linked citation traces to a Vision4theBlind post, whose author appears far more invested in satirising Musk's messianic brand than in disseminating bona fide science. Nevertheless, the OP persists in earnest, soliciting whether respondents would consent to inoculation with the putative butterfly serum. The entire exercise reads as performance art, a knowing pisstake that nevertheless weaponises the Musk name to harvest engagement. The lone respondent confesses that his sole concern, amidst this carnival of misinformation, remains the slow haemorrhaging of his proprietary trading firm's capital.",
-      "audio_url": "audio/2026-09-11/clip-hk-mrna-004.mp3"
+      "text_en_b2": "WE CAN TURN HUMANS INTO BUTTERFLIES WITH MRNA, ELON MUSK ANNOUNCED!!! Would you actually take the butterfly vaccine, anon? Classic /pol/ shitpost, mashing together Musk and conspiracy theory bait at 2am. No vaccine remotely like this exists, of course, but the thread is doing numbers because the lunacy has reached peak absurdity. Just /pol/ being /pol/, as usual.",
+      "text_en_c1": "WE CAN TRANSFORM HUMAN BEINGS INTO BUTTERFLIES VIA mRNA TECHNOLOGY, ELON MUSK ANNOUNCES!!! Would you submit to the butterfly vaccine, dear anon? Such is the latest fever dream emanating from /pol/, that notorious breeding ground for conspiratorial half-truths and outright fabrication. No such pharmaceutical product exists, nor is any remotely plausible, yet the thread proliferates with characteristic abandon. Classic 2am /pol/ fare, this particular post seamlessly fuses techno-utopian delusion with anti-vaccine paranoia into a single bewildering artefact. The board, predictably, laps it up. Critical thinking, as ever, remains conspicuously absent.",
+      "text_en_c2": "Elon Musk, that most prolific of contemporary soothsayers, has proclaimed, in terms unequivocal, that mRNA biotechnology shall henceforth metamorphose Homo sapiens into Lepidoptera. The disclosure, disseminated across /pol/ with characteristic earnestness, occasions neither shock nor genuine bewilderment among seasoned observers; it merely confirms the board's abiding commitment to a particular aesthetic. No such vaccine exists, nor could it, given the elementary biology the premise flouts. Yet the post proliferates regardless, because /pol/ at the small hours operates according to internalised laws immune to empirical refutation. One laughs, scrolls onward, and reflects that absurdity, once institutionalised, becomes indistinguishable from commentary.",
+      "audio_url": "audio/2026-09-11/clip-hk-news-01.mp3"
     },
     {
-      "id": "lol-dev-budget-005",
+      "id": "lol-esports-01",
       "category": "lol/esports",
-      "topic_zh": "305M開發",
-      "topic_en": "AAA dev budget leak",
-      "text_zh": "305M美金嘅development budget，未計marketing，係leaked doc流出嚟。唔知係邊隻game，但金額真係離晒譜。S15開打緊，prop firm又輸緊，睇下戲頂住先。lol",
-      "text_en_b1": "Leaked documents show a single game project carried a $305 million development budget, and that is excluding marketing costs. /v/ thread notes this is way more than what big franchises used to spend on full cycles. Amazing what they can achieve these days, the anon says, half-sarcastic.",
+      "topic_zh": "300M開發預算",
+      "topic_en": "Game Budget Leak",
+      "text_zh": "/v/ 有人爆：個game 305M美金development budget，未計marketing lol 一隻game洗到咁？咁 LOL S15 嘅投入⋯ 算吧啦",
+      "text_en_b1": "305 million dollar development budget. Excluding marketing costs. According to leaked documents. Amazing what they can achieve these days. /v/ is losing their minds over a AAA game's leaked budget. Anon asks if that means AAA devs will finally deliver, or if marketing swallowed it all.",
       "source_url": "https://boards.4chan.org/v/thread/747345785",
-      "source_hint": "/v/ thread reacting to leaked $305M game dev budget",
+      "source_hint": "/v/ reacts to leaked $305M dev budget for an unnamed AAA game",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Industry discussion, not a trade"
+        "rationale": "Industry discussion thread, no trade setup"
       },
-      "text_en_b2": "Leaked internal documents circulating on /v/ suggest one unnamed game project carried a staggering $305 million development budget, and that figure doesn't even factor in marketing. Anons quickly pointed out this dwarfs what legacy franchises used to spend across entire production cycles, so the sheer waste on display is hard to ignore. The thread quickly derailed into prop-firm losses anyway, because Season 15 isn't going to watch itself. lol",
-      "text_en_c1": "According to leaked internal documentation that has since circulated across industry circles, a single undisclosed game project carried a development budget in the region of $305 million, a figure that excludes marketing expenditure entirely. For context, this sum eclipses what established franchises historically allocated across entire production cycles, including promotion. Whether the document pertains to a forthcoming AAA release or an already-shipping title remains unverified, though the sheer magnitude has predictably provoked disbelief on /v/, where commenters oscillate between outrage at perceived fiscal profligacy and grudging acknowledgement that contemporary scope creep scarcely leaves publishers any choice but to escalate spending to such stratospheric levels.",
-      "text_en_c2": "A leaked development document, whose provenance remains deliberately obscured, discloses that an unidentified single-project budget has ballooned to $305 million, a figure that excludes any marketing expenditure whatsoever and therefore represents merely the production cost floor. The /v/ thread, predictably, has seized upon the revelation with mingled incredulity and weary resignation, noting that such sums dwarf the entire lifecycle expenditure of legacy franchises from earlier console generations. What studios now achieve, or more pertinently, fail to achieve, with these gargantuan outlays has become a perennial industry vexation, encompassing bloated rosters, protracted crunch, and shippable products that somehow feel perpetually half-finished. The poster, with studied sarcasm, observes that modern production values evidently come at a price. Meanwhile, his proprietary firm's Season 15 campaign continues its familiar trajectory of incremental losses.",
-      "audio_url": "audio/2026-09-11/clip-lol-dev-budget-005.mp3"
+      "text_en_b2": "A leaked 305-million-dollar development budget — excluding marketing entirely — has surfaced for an upcoming AAA title, and /v/ is losing its collective mind. The sheer scale of the spend is almost comical when you think about it. Anons are now debating whether devs will finally deliver something worthwhile, or whether the marketing budget quietly swallowed the lion's share before launch.",
+      "text_en_c1": "A leaked internal document, whose provenance remains stubbornly opaque, claims that a single AAA title consumed roughly 305 million dollars in development expenditure alone, marketing costs conspicuously omitted from the reckoning. Should this figure prove accurate, it represents an almost incomprehensible allocation of capital for a singular interactive product. /v/, predictably, has descended into collective apoplexy over the disclosure, with users split between cautious optimism, hoping such lavish funding might translate into genuine innovation, and grim resignation, suspecting that marketing departments swallowed the lion's share. The debate rages on, as it always does.",
+      "text_en_c2": "Three hundred and five million dollars: the development budget, exclusive of marketing expenditure, allegedly itemised in documents whose provenance the /v/ thread dissects with forensic zeal. The figure, staggering by any prior reckoning, prompts a reckoning of its own—if such sums are routinely committed to a single title, what manner of deliverable does the contemporary AAA studio actually produce, and where, precisely, do the remainder vanish? Whether such prodigious capital heralds an epoch of unprecedented refinement, or merely finances promotional saturation that eclipses the underlying product, remains the unresolved question. The thread oscillates between incredulity and resignation, neither quite prevailing. One suspects, privately, that marketing swallowed the lion's share.",
+      "audio_url": "audio/2026-09-11/clip-lol-esports-01.mp3"
     },
     {
-      "id": "mma-fit-bulk-006",
+      "id": "mma-fit-01",
       "category": "mma/fitness",
-      "topic_zh": "bulk定cut",
-      "topic_en": "Bulk or cut dilemma",
-      "text_zh": "/fit/ 仔問幾時先夠秤去cut走skinnyfat。2025年5月83kg肥，cut到2026年4月65kg連20kg bar都推唔起，lean bulk到依家返番80kg，flat bench 1plate 3x8，squat 90kg 3x6，deadlift 120kg 3x8。我都係咁，肥仔信成日笑我細隻。🧐",
-      "text_en_b1": "An anon on /fit/ asks how to know when he has bulked enough to cut and escape skinnyfat. In May 2025 he was 83kg and fat. He cut to 65kg by mid-April 2026, struggled to bench even the 20kg bar, then lean bulked back to 80kg. Now he benches 1 plate for 3x8, squats 90kg 3x6, deadlifts 120kg 3x8.",
-      "source_url": "https://boards.4chan.org/fit/thread/77510161",
-      "source_hint": "/fit/ thread on when to stop bulking and start cutting from skinnyfat",
+      "topic_zh": "1000lb Club 40歲",
+      "topic_en": "1000lb Club 40yo",
+      "text_zh": "/fit/ 條友40歲，207lbs，5'11，終於入1000lb Club 🏋️ 345 squat / 300 bench / 400 deadlift 肥仔信睇到都話想跟⋯ 我而家bench緊1 plate，差好遠😭",
+      "text_en_b1": "Sup /fit/. Hit a huge milestone today at my local gym. 1,000lb club at 40 years old, 207lbs, 5'11. I checked Symmetric Strength and my lifts look very imbalanced even though I train each lift evenly. 345 squat, 300 bench, 400 deadlift. Goals right there.",
+      "source_url": "https://boards.4chan.org/fit/thread/77509444",
+      "source_hint": "/fit/ 40yo anon hits the 1000lb total milestone",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Lifestyle post, not tradeable"
+        "rationale": "Lifting milestone post, no trade setup"
       },
-      "text_en_b2": "A /fit/ poster wants to know when you're actually big enough to cut and finally shake skinnyfat. Back in May 2025 he was carrying 83kg and visibly fluffy, so he shredded down to 65kg by April 2026, but got so weak he could barely bench the empty 20kg bar. He lean-bulked back up to 80kg and now hits a flat bench at one plate for 3x8, squats 90kg for 3x6, and pulls 120kg for 3x8.",
-      "text_en_c1": "A /fit/ regular poses the perennial question that plagues intermediate lifters: precisely how does one determine when a bulk has run its course and a cut becomes advisable, particularly for those still navigating the limbo between skinny and merely lean? His own trajectory offers a useful case study. In May 2025 he tipped the scales at 83kg with a soft, untidy physique. A subsequent cut brought him down to 65kg by mid-April 2026, at which point even an empty 20kg barbell proved punishing on the bench.",
-      "text_en_c2": "A /fit/ poster, weary of his skinnyfat physique, has meticulously chronicled a multi-year recomposition that merits examination. In May 2025 he tipped the scales at 83 kilograms, visibly soft, whereupon he embarked upon an aggressive cut that saw him descend to 65 kilograms by mid-April 2026, at which nadir his strength had atrophied to the point that even a 20-kilogram barbell exceeded his bench capacity. Undeterred, he initiated a disciplined lean bulk, restoring his mass to a present 80 kilograms with substantially recomposed tissue. His current working weights reflect the dividends: a flat bench of one plate for 3 sets of 8, a squat of 90 kilograms for 3 sets of 6, and a deadlift of 120 kilograms for 3 sets of 8. The trajectory, he notes with measured satisfaction, vindicated the methodology.",
-      "audio_url": "audio/2026-09-11/clip-mma-fit-bulk-006.mp3"
+      "text_en_b2": "After years of grinding, anon finally cracked the 1,000lb club at 40 years old, weighing 207lbs at 5'11. The lifts are nothing to sneeze at: 345lb squat, 300lb bench, and a 400lb deadlift. He checked his numbers on Symmetric Strength and noticed some imbalance despite training each lift evenly, which suggests his accessory work probably needs tweaking going forward.",
+      "text_en_c1": "At the relatively advanced age of forty, weighing 207 pounds and standing 5'11, an anonymous /fit/ regular has finally crossed the hallowed 1,000-pound club threshold, a feat whose statistical rarity demands genuine respect. The constituent lifts read as follows: 345 pounds on the squat, 300 on the bench, and 400 on the deadlift. Curiously, despite training each movement with comparable frequency, a Symmetric Strength assessment suggests pronounced imbalances between the lifts, a discrepancy the poster finds perplexing. Regardless, this constitutes a remarkable milestone. For those benching a single plate, motivation duly received.",
+      "text_en_c2": "At forty years of age, standing five-foot-eleven and weighing 207 pounds, one finally gains admission to the vaunted 1,000-pound club—an achievement chronicled with undisguised pride upon /fit/. The numbers, dutifully enumerated, bespeak years of methodical accumulation: a 345-pound squat, a 300-pound bench press, a 400-pound deadlift. A subsequent consultation with Symmetric Strength, however, introduces an unwelcome nuance: the lifts, though trained with apparent evenness, betray asymmetries the celebrant had not anticipated. Such is the perennial paradox of progressive overload—milestones attained, and immediately reframed as waypoints toward more exacting equilibria. The poster, meanwhile, benching a single plate, watches with the mingled aspiration and resignation endemic to the iron game.",
+      "audio_url": "audio/2026-09-11/clip-mma-fit-01.mp3"
     },
     {
-      "id": "anime-wsj-toc-007",
+      "id": "anime-cul-01",
       "category": "anime/culture",
-      "topic_zh": "Jump新一週TOC",
-      "topic_en": "Weekly Shonen Jump TOC",
-      "text_zh": "WSJ新一期TOC出咗，Sakamoto Days拎LCP cover，One Piece同Madan no Ichi跟住。Akanebanashi同Shinobigoto今期都有CP。Roku no Okashi na Ie仲喺度撐住，唔知幾時俾人腰斬。考牌都睇下呢啲先。",
-      "text_en_b1": "This week's Shonen Jump TOC: Sakamoto Days takes the LCP cover. Madan no Ichi and One Piece follow. Someone Hertz Me & Roboco, Greykeith no Makai Goyakuroku get CP. Akanebanashi and Shinobigoto also pick up CP. Roku no Okashi na Ie is still alive for now. Next issue: cover and LCP go to Someone Hertz.",
+      "topic_zh": "少年Jump TOC",
+      "topic_en": "Weekly Shonen Jump",
+      "text_zh": "WSJ今期TOC出咗：Sakamoto Days封面（LCP），One Piece仲有，Akanebanashi同Shinobigoto都仲未仆⋯ Demon Slayer呢？🧐 我跟開嗰幾部都穩",
+      "text_en_b1": "WSJ: Weekly Shonen Jump. TOC: Group cover Sakamoto Days (LCP), Madan no Ichi, One Piece, Someone Hertz Me & Roboco, Greykeith no Makai Goyakuroku (CP), Akanebanashi, Shinobigoto, Roku no Okashi na Ie (CP), Ura no Report, Witch Watch, Animal Signal, Nue's Exorcist, Exorcist no Kiyoshi-kun (CP), Under Doctor, Oneshot. Next issue cover & LCP: Someone Hertz.",
       "source_url": "https://boards.4chan.org/a/thread/290835556",
-      "source_hint": "/a/ thread listing the latest Weekly Shonen Jump table of contents",
+      "source_hint": "/a/ WSJ Table of Contents for the current issue",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime news, not a trade"
+        "rationale": "Manga release calendar thread, no market relevance"
       },
-      "text_en_b2": "This week's Weekly Shonen Jump TOC is out, and Sakamoto Days has grabbed the coveted LCP cover slot, with One Piece and Madan no Ichi slotting in right behind it. Akanebanashi and Shinobigoto both manage to land color pages, while Roku no Okashi na Ie keeps clinging on to survival, though its cancellation axe seems to be swinging any day now. Next week's cover and LCP reportedly go to Someone Hertz Me, which should at least give the exam-cramming crowd something to skim through.",
-      "text_en_c1": "The latest edition of Weekly Shonen Jump has dropped, and the table of contents offers a fairly conventional lineup. Sakamoto Days secures the coveted lead colour page cover, with One Piece and Madan no Ichi trailing in the remaining top positions, their established readerships guaranteeing consistent placement. Both Akanebanashi and the newer Shinobigoto have managed to hold on to colour pages this issue, a quiet win for series whose long-term prospects remain uncertain. Roboco and Someone Hertz Me, alongside Greykeith no Makai Goyakuroku, round out the colour-page roster. Roku no Okashi na Ie persists, though the looming threat of cancellation continues to cast its shadow over each successive release.",
-      "text_en_c2": "The latest Weekly Shonen Jump table of contents has been published, and the hierarchy reveals the usual jockeying among established heavyweights and ascendant contenders. Sakamoto Days has secured the coveted Lead Colour Page cover, a placement that signals editorial confidence in its commercial momentum, with One Piece and Madan no Ichi trailing in the supporting slots. Both Akanebanashi and Shinobigoto have garnered Colour Page features, indicative of mid-tier promotional treatment designed to buttress their respective readerships. Elsewhere, Roku no Okashi na Ie clings precariously to serialisation, its survival a perennial source of reader speculation that the axe may fall at any juncture. The subsequent issue, per the OP, will bestow both cover and LCP upon Someone Hertz. He confesses, in closing, that licensure examinations await, and this distraction suffices for now.",
-      "audio_url": "audio/2026-09-11/clip-anime-wsj-toc-007.mp3"
+      "text_en_b2": "The Weekly Shonen Jump TOC has dropped, and the lineup looks fairly stable this week. Sakamoto Days takes the group cover and lead color pages, with One Piece still hanging in there despite rumours. Akanebanashi and Shinobigoto remain alive for now, while newer titles like Witch Watch and Animal Signal continue to hold their ground. Next issue's cover and LCP go to Someone Hertz.",
+      "text_en_c1": "The Table of Contents for the latest issue of Weekly Shonen Jump has been unveiled, prompting the customary flurry of prognostications from the readership. Sakamoto Days claims the coveted Lead Colour Page alongside its group cover, whilst One Piece continues its seemingly inexorable march. Madan no Ichi, Someone Hertz Me, and Roboco occupy the next tier, followed by Greykeith's CP and Akanebanashi, whose survival prospects have long been debated. Shinobigoto likewise persists, alongside Witch Watch and the rest of the lineup. Next week's cover and LCP: Someone Hertz, somewhat surprisingly.",
+      "text_en_c2": "The Weekly Shonen Jump table of contents for the current issue, as meticulously transcribed by the /a/ correspondent, yields a portrait of editorial calculus at its most transparently strategic. Sakamoto Days commands the lead-colour page, its narrative momentum apparently considered sufficient to anchor the issue; One Piece persists in its gravitational centrality, while Akanebanashi and Shinobigoto, perennial candidates for the axe, endure by dint of sales rather than acclaim. The conspicuous absence of Demon Slayer prompts the inevitable query—scheduled hiatus, or something more ominous? The remaining titles, dutifully catalogued, suggest an issue constructed for continuity rather than revelation. Next week's cover, one is informed, falls to Someone Hertz. Stability, evidently, remains the operative doctrine.",
+      "audio_url": "audio/2026-09-11/clip-anime-cul-01.mp3"
     }
   ]
 }

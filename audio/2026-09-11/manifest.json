@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-condo-001",
-      "topic_en": "Crypto condo regret",
-      "topic_zh": "炒幣換condo",
+      "id": "trade-macro-01",
+      "topic_en": "Bitcoin vs Gold 10Y",
+      "topic_zh": "十年持有BTC定黃金",
       "category": "trading",
-      "file": "clip-trade-condo-001.mp3",
-      "bytes": 370356,
-      "chars": 317
+      "file": "clip-trade-macro-01.mp3",
+      "bytes": 323124,
+      "chars": 289
     },
     {
-      "id": "trade-doge-space-002",
-      "topic_en": "Doge to space",
-      "topic_zh": "Doge上太空",
+      "id": "trade-musk-01",
+      "topic_en": "Doge to Space",
+      "topic_zh": "DOGE跟Elon上去",
       "category": "trading",
-      "file": "clip-trade-doge-space-002.mp3",
-      "bytes": 288564,
-      "chars": 263
+      "file": "clip-trade-musk-01.mp3",
+      "bytes": 255732,
+      "chars": 260
     },
     {
-      "id": "ai-agi-quit-003",
-      "topic_en": "Anthropic researcher quits",
-      "topic_zh": "AI研究員劈炮",
+      "id": "tech-ai-01",
+      "topic_en": "What Can Beat AGI",
+      "topic_zh": "AGI仲有咩我做得到",
       "category": "tech/ai",
-      "file": "clip-ai-agi-quit-003.mp3",
-      "bytes": 308724,
-      "chars": 300
+      "file": "clip-tech-ai-01.mp3",
+      "bytes": 357108,
+      "chars": 285
     },
     {
-      "id": "hk-mrna-004",
-      "topic_en": "Butterfly mRNA",
-      "topic_zh": "蝴蝶mRNA",
+      "id": "hk-news-01",
+      "topic_en": "Butterfly mRNA Joke",
+      "topic_zh": "蝴蝶mRNA笑話",
       "category": "hk/news",
-      "file": "clip-hk-mrna-004.mp3",
-      "bytes": 273012,
-      "chars": 262
+      "file": "clip-hk-news-01.mp3",
+      "bytes": 289140,
+      "chars": 232
     },
     {
-      "id": "lol-dev-budget-005",
-      "topic_en": "AAA dev budget leak",
-      "topic_zh": "305M開發",
+      "id": "lol-esports-01",
+      "topic_en": "Game Budget Leak",
+      "topic_zh": "300M開發預算",
       "category": "lol/esports",
-      "file": "clip-lol-dev-budget-005.mp3",
-      "bytes": 307572,
-      "chars": 287
+      "file": "clip-lol-esports-01.mp3",
+      "bytes": 324852,
+      "chars": 286
     },
     {
-      "id": "mma-fit-bulk-006",
-      "topic_en": "Bulk or cut dilemma",
-      "topic_zh": "bulk定cut",
+      "id": "mma-fit-01",
+      "topic_en": "1000lb Club 40yo",
+      "topic_zh": "1000lb Club 40歲",
       "category": "mma/fitness",
-      "file": "clip-mma-fit-bulk-006.mp3",
-      "bytes": 440628,
-      "chars": 294
+      "file": "clip-mma-fit-01.mp3",
+      "bytes": 359988,
+      "chars": 254
     },
     {
-      "id": "anime-wsj-toc-007",
-      "topic_en": "Weekly Shonen Jump TOC",
-      "topic_zh": "Jump新一週TOC",
+      "id": "anime-cul-01",
+      "topic_en": "Weekly Shonen Jump",
+      "topic_zh": "少年Jump TOC",
       "category": "anime/culture",
-      "file": "clip-anime-wsj-toc-007.mp3",
-      "bytes": 407220,
-      "chars": 302
+      "file": "clip-anime-cul-01.mp3",
+      "bytes": 610548,
+      "chars": 356
     }
   ]
 }
