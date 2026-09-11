@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-condo-cycle",
-      "topic_en": "Condo regret cycle",
-      "topic_zh": "買錯樓嘅宿命",
+      "id": "biz-condo-stuck",
+      "topic_en": "Crypto life regret",
+      "topic_zh": "加密貨幣人生",
       "category": "trading",
-      "file": "clip-biz-condo-cycle.mp3",
-      "bytes": 363444,
-      "chars": 300
+      "file": "clip-biz-condo-stuck.mp3",
+      "bytes": 369204,
+      "chars": 306
     },
     {
-      "id": "biz-elf-maid",
-      "topic_en": "Time-travelling elf maid",
-      "topic_zh": "時光機精靈maid",
+      "id": "biz-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-biz-elf-maid.mp3",
-      "bytes": 542580,
-      "chars": 262
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 375540,
+      "chars": 356
     },
     {
-      "id": "g-agi-vs-you",
-      "topic_en": "AGI vs you",
-      "topic_zh": "AGI vs 你",
+      "id": "g-meta-agi",
+      "topic_en": "AGI already scary",
+      "topic_zh": "AGI 已經識搞人",
       "category": "tech/ai",
-      "file": "clip-g-agi-vs-you.mp3",
-      "bytes": 268404,
-      "chars": 259
+      "file": "clip-g-meta-agi.mp3",
+      "bytes": 326580,
+      "chars": 335
     },
     {
       "id": "pol-butterfly-mrna",
       "topic_en": "Butterfly mRNA",
-      "topic_zh": "蝴蝶mRNA",
+      "topic_zh": "蝴蝶mRNA疫苗",
       "category": "hk/news",
       "file": "clip-pol-butterfly-mrna.mp3",
-      "bytes": 262644,
-      "chars": 243
+      "bytes": 293172,
+      "chars": 270
     },
     {
-      "id": "v-budget-305m",
+      "id": "v-budget-leak",
       "topic_en": "$305M dev budget",
-      "topic_zh": "305M budget",
+      "topic_zh": "$305M 開發預算",
       "category": "lol/esports",
-      "file": "clip-v-budget-305m.mp3",
-      "bytes": 279924,
-      "chars": 266
+      "file": "clip-v-budget-leak.mp3",
+      "bytes": 324276,
+      "chars": 328
     },
     {
-      "id": "fit-twins-calorie",
-      "topic_en": "Twin calorie mystery",
-      "topic_zh": "雙胞胎卡路里",
+      "id": "fit-1k-club",
+      "topic_en": "1000lb club at 40",
+      "topic_zh": "千磅俱樂部",
       "category": "mma/fitness",
-      "file": "clip-fit-twins-calorie.mp3",
-      "bytes": 279348,
-      "chars": 262
+      "file": "clip-fit-1k-club.mp3",
+      "bytes": 375540,
+      "chars": 284
     },
     {
       "id": "a-soremachi",
-      "topic_en": "Soremachi friends",
-      "topic_zh": "Soremachi推し",
+      "topic_en": "Soremachi character rank",
+      "topic_zh": "Soremachi 角色排名",
       "category": "anime/culture",
       "file": "clip-a-soremachi.mp3",
-      "bytes": 247092,
-      "chars": 258
+      "bytes": 361716,
+      "chars": 351
     }
   ]
 }
