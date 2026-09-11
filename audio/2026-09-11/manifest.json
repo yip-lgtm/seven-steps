@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-condo-stuck",
-      "topic_en": "Crypto life regret",
-      "topic_zh": "加密貨幣人生",
+      "id": "trading-condo-stuck",
+      "topic_en": "Stuck with Condo",
+      "topic_zh": "炒幣上車廢掉",
       "category": "trading",
-      "file": "clip-biz-condo-stuck.mp3",
-      "bytes": 369204,
-      "chars": 306
+      "file": "clip-trading-condo-stuck.mp3",
+      "bytes": 338100,
+      "chars": 279
     },
     {
-      "id": "biz-btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold",
+      "id": "trading-btc-vs-gold",
+      "topic_en": "BTC vs Gold",
       "topic_zh": "BTC vs 黃金",
       "category": "trading",
-      "file": "clip-biz-btc-vs-gold.mp3",
-      "bytes": 375540,
-      "chars": 356
-    },
-    {
-      "id": "g-meta-agi",
-      "topic_en": "AGI already scary",
-      "topic_zh": "AGI 已經識搞人",
-      "category": "tech/ai",
-      "file": "clip-g-meta-agi.mp3",
-      "bytes": 326580,
+      "file": "clip-trading-btc-vs-gold.mp3",
+      "bytes": 363444,
       "chars": 335
     },
     {
-      "id": "pol-butterfly-mrna",
-      "topic_en": "Butterfly mRNA",
-      "topic_zh": "蝴蝶mRNA疫苗",
+      "id": "tech-ai-agi-cant-do",
+      "topic_en": "AGI vs Anon",
+      "topic_zh": "AI仲有咩做唔到",
+      "category": "tech/ai",
+      "file": "clip-tech-ai-agi-cant-do.mp3",
+      "bytes": 317940,
+      "chars": 309
+    },
+    {
+      "id": "hk-pol-doge-checks",
+      "topic_en": "Fell for It Again",
+      "topic_zh": "美國政策中伏",
       "category": "hk/news",
-      "file": "clip-pol-butterfly-mrna.mp3",
-      "bytes": 293172,
-      "chars": 270
+      "file": "clip-hk-pol-doge-checks.mp3",
+      "bytes": 358836,
+      "chars": 310
     },
     {
-      "id": "v-budget-leak",
-      "topic_en": "$305M dev budget",
-      "topic_zh": "$305M 開發預算",
+      "id": "lol-v-budget",
+      "topic_en": "AAA Budget Leak",
+      "topic_zh": "遊戲開發成本",
       "category": "lol/esports",
-      "file": "clip-v-budget-leak.mp3",
-      "bytes": 324276,
-      "chars": 328
+      "file": "clip-lol-v-budget.mp3",
+      "bytes": 362292,
+      "chars": 336
     },
     {
-      "id": "fit-1k-club",
-      "topic_en": "1000lb club at 40",
-      "topic_zh": "千磅俱樂部",
+      "id": "mma-fit-twin-brother",
+      "topic_en": "Twin Body Mystery",
+      "topic_zh": "雙胞胎兄弟肥瘦",
       "category": "mma/fitness",
-      "file": "clip-fit-1k-club.mp3",
-      "bytes": 375540,
-      "chars": 284
+      "file": "clip-mma-fit-twin-brother.mp3",
+      "bytes": 323700,
+      "chars": 331
     },
     {
-      "id": "a-soremachi",
-      "topic_en": "Soremachi character rank",
-      "topic_zh": "Soremachi 角色排名",
+      "id": "anime-dame-ningen",
+      "topic_en": "Used Goods in Anime",
+      "topic_zh": "二手角色動漫",
       "category": "anime/culture",
-      "file": "clip-a-soremachi.mp3",
-      "bytes": 361716,
-      "chars": 351
+      "file": "clip-anime-dame-ningen.mp3",
+      "bytes": 330612,
+      "chars": 315
     }
   ]
 }

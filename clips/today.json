@@ -4,14 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-condo-stuck",
+      "id": "trading-condo-stuck",
       "category": "trading",
-      "topic_zh": "加密貨幣人生",
-      "topic_en": "Crypto life regret",
-      "text_zh": "又一個畀crypto玩謝嘅案例。2021年靠DOGE食咗兩年，買咗condo，之後返學grad返出嚟揸到100K，仲要還卡數同學債。27歲已經work-consume-repeat loop。我而家連condo都唔敢諗，prop firm虧緊當交學費lol。",
-      "text_en_b1": "Stuck with a Condo. In 2021 when I was 22 I made a bunch of random crypto money from dogecoin. I lived for two years with no job, went on perma vacation, dropped out of school and bought a condo for $230K. Eventually money ran out, I went back to school, graduated, and now I make $100K living in my condo.",
+      "topic_zh": "炒幣上車廢掉",
+      "topic_en": "Stuck with Condo",
+      "text_zh": "又係另一個狗幣上岸然後廢咗嘅故事。22歲炒狗幣溝女旅行dropout買咗condo，依家27做返個返學返工嘅奴工。咁我地呢啲30歲仲輸緊嘅算咩。感覺似loop緊。不過我無condod，最少無供樓壓力lol",
+      "text_en_b1": "In 2021 when I was 22, I made a bunch of random crypto money from Dogecoin. I lived for two years with no job, on a perma vacation. I dropped out of school and bought a condo for $230K. The money ran out. I went back to school, graduated, and now I make $100K living in my condo.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ condo regret thread about dogecoin early retirement that did not last",
+      "source_hint": "Anon on /biz/ who cashed out crypto into a condo and now feels stuck",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -20,46 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Post-hoc reflection on crypto lifestyle gains and losses, no live setup"
+        "rationale": "Pure loss-pain storytelling, no trade setup"
       },
-      "text_en_b2": "Stuck with a Condo. I stumbled into a windfall at 22 when Dogecoin went vertical, quit my job, and dropped out for two years of permanent holiday. With the proceeds I snapped up a $230K condo and coasted until the money evaporated. I returned to school, graduated, and now earn $100K while buried under student loans and credit card debt. At 27 I am trapped in a work-consume-repeat loop, haunted by the rich life I tasted once and cannot reclaim.",
-      "text_en_c1": "At 22, I stumbled into life-changing wealth through speculative Dogecoin trades during the 2021 crypto boom, money that essentially shaped the next five years of my existence. Flush with gains, I abandoned my studies, drifted into a two-year stretch of perpetual travel, and purchased a $230K condo outright. The runway eventually evaporated, forcing me back to school, where I managed to graduate, secure a $100K salary, and settle into what was supposed to be adulthood. Yet at 27, I find myself trapped in a work-consume-repeat cycle, saddled with lingering student and credit-card debt, unable to recapture the freedom I once tasted.",
-      "text_en_c2": "A cautionary tale of speculative windfalls and their inevitable dissipation. At twenty-two, an anonymous poster parlayed a serendipitous Dogecoin position into a two-year odyssey of indolence — perpetual vacation, abandoned studies, and the impulsive acquisition of a $230,000 condominium that, in retrospect, constituted the high-water mark of his existence. Having squandered the principal, he eventually reenrolled, completed his degree, and now commands a respectable $100,000 salary whilst shackled to mortgage obligations, lingering credit card balances, and a crushing student loan burden. At twenty-seven, he finds himself ensnared in what he terms an inescapable work-consume-repeat paradigm, lamenting that having once tasted financial autonomy, he is condemned to perpetually reminisce about a brief, gilded interlude that may never recur.",
-      "audio_url": "audio/2026-09-11/clip-biz-condo-stuck.mp3"
+      "text_en_b2": "Back in 2021, when I was 22, I struck it rich on Dogecoin out of sheer luck. For roughly two years I dropped out of uni, bought a $230K condo, and essentially lived a perma-vacation lifestyle. The gravy train eventually dried up, so I went back, finished my degree, and now at 27 I'm grinding a $100K salary just to keep up with the mortgage. Meanwhile student loans and credit card debt keep piling on.",
+      "text_en_c1": "Back in 2021, when I was twenty-two, I made a substantial amount on Dogecoin essentially by accident. For the next two years, I lived without employment, effectively on an extended holiday; I dropped out of university and used the proceeds to put a down payment on a $230,000 condo. The windfall eventually dried up, forcing me to enrol again, finish my degree, and settle into a salaried position that pays roughly $100,000 a year. I am now twenty-seven, and what troubles me is the sense that I have merely traded one treadmill for another.",
+      "text_en_c2": "At twenty-two, I parlayed a serendipitous Dogecoin windfall into what I mistook for financial sovereignty: two indolent years of perpetual travel, an abandoned degree, and a $230,000 condominium purchased on the assumption that the carnival would never end. It did, of course, as such affairs invariably do. I returned to university, graduated, and now at twenty-seven inhabit a modest $100,000 salary shackled to the very asset I once considered liberation. The Sisyphean rhythm of work, consumption, repetition has become my unexamined default. Student loans and credit-card balances accrue in the background. I do, however, take grim consolation in the absence of mortgage obligations.",
+      "audio_url": "audio/2026-09-11/clip-trading-condo-stuck.mp3"
     },
     {
-      "id": "biz-btc-vs-gold",
+      "id": "trading-btc-vs-gold",
       "category": "trading",
       "topic_zh": "BTC vs 黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "10年hold一樣嘢你揀邊樣？BTC定黃金？我兩樣都揸緊，prop firm倉位虧緊當long term hedginglol。黃金我揸實金，XAU 仲有CFD倉，btw BTC我當digital gold咁睇。十年後邊樣會笑到最尾？",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Anons in the thread are split — some say BTC is the only true hard asset in the digital age, others point to gold's 5,000-year track record of holding value through wars, inflation, and government collapses.…",
+      "topic_en": "BTC vs Gold",
+      "text_zh": "十年長揸只揸一樣，你揀BTC定黃金？我兩樣都揸緊，黃金係long-term hedge，BTC就係prop firm嗰邊賭身家。我揀BTC，原因好簡單，美國放水周期嚟緊gold都會升但BTC會爆。法蘭克福嗰邊印銀紙印到傻。",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Serious answers only, no cope. Gold bugs keep saying BTC is a bubble, but the supply is fixed at 21 million while central banks print forever. I'm picking BTC. The next decade is digital.",
       "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ long-term Bitcoin vs gold holding debate",
+      "source_hint": "Classic /biz/ 10-year hold debate, Bitcoin vs gold",
       "signal": {
         "asset": "BTC",
         "direction": "long",
-        "conviction": "low",
+        "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Thread framing favours holding BTC long-term over gold, anons split but bias is digital-asset-as-store-of-value"
+        "rationale": "OP explicitly picks BTC over gold for 10-year hold, framing it as digital scarcity play"
       },
-      "text_en_b2": "Bitcoin vs Gold. If you had to commit to a single asset for the next decade, which would you choose and why? The thread reveals a sharp split — some argue BTC is the only genuine hard asset of the digital era, whereas others champion gold's 5,000-year record of weathering wars, inflation, and government collapses. A pragmatic minority insists holding both constitutes the only sane strategy, treating them as complementary hedges rather than rivals.",
-      "text_en_c1": "If you were forced to hold a single asset for the coming decade, would you opt for Bitcoin or gold? The thread has fractured into distinct camps, each advancing a coherent thesis. Bitcoin maximalists argue it represents the only genuine hard asset of the digital era, a deflationary store of value liberated from central-bank interference. Gold advocates counter with its 5,000-year track record of preserving wealth through wars, inflationary spirals, and governmental collapses. A smaller contingent insists that holding both constitutes the only prudent answer. Personally, I maintain positions in physical gold and Bitcoin, treating them as complementary hedges.",
-      "text_en_c2": "An eternal dichotomy resurfaces on the boards: if compelled to select a single asset for a decadal horizon, would the discerning investor opt for Bitcoin or gold, and on what rational foundation does that conviction rest? The respondents are irreconcilably bifurcated. One faction venerates BTC as the inaugural genuinely scarce instrument of the digital epoch, an incorporeal reserve immune to governmental debasement. The other extols bullion's five-millennium provenance as unimpeachable evidence of resilience through the vicissitudes of conflict, monetary erosion, and sovereign disintegration. A discerning minority contends that allocation across both instruments constitutes the only intellectually defensible posture, hedging one's ontological bets against whichever civilizational catastrophe materialises first.",
-      "audio_url": "audio/2026-09-11/clip-biz-btc-vs-gold.mp3"
+      "text_en_b2": "If you had to hold a single asset for the next ten years, would you go with Bitcoin or gold? Gold bugs love hammering on about BTC being a bubble, yet they conveniently overlook that Bitcoin's supply is hard-capped at 21 million while central banks, Frankfurt included, keep the printing presses running overtime. Although gold tends to climb during liquidity cycles, BTC tends to absolutely rip when money printer goes brrr.",
+      "text_en_c1": "The question that genuinely interests me is whether, over a ten-year horizon, one should hold Bitcoin or gold exclusively. Gold advocates will insist that Bitcoin is a speculative bubble destined to collapse, yet their argument ignores a fundamental asymmetry: Bitcoin's supply is mathematically capped at twenty-one million coins, whereas central banks, particularly the Federal Reserve and the ECB, continue to expand their balance sheets with apparent impunity. Frankfurt's money printer has been operating at full tilt, and although gold will almost certainly appreciate during the next liquidity cycle, I am convinced that Bitcoin's upside is categorically different in magnitude.",
+      "text_en_c2": "The perennial decadal wager: Bitcoin or gold? Gold bugs persist in proclaiming BTC a speculative bubble, conveniently overlooking that its supply is mathematically capped at twenty-one million while central banks—the Frankfurt contingent chief among them—dilute fiat with industrial alacrity. Gold constitutes a prudent long-term hedge against monetary incontinence; Bitcoin, by contrast, is the asymmetric bet, the bet that one ought to size accordingly. Should the forthcoming liquidity cycle materialise as anticipated, bullion shall certainly appreciate, but BTC shall, if my thesis holds, ascend by an order of magnitude. The next decade, contra the nostalgia of the gold lobby, is emphatically digital. I choose accordingly.",
+      "audio_url": "audio/2026-09-11/clip-trading-btc-vs-gold.mp3"
     },
     {
-      "id": "g-meta-agi",
+      "id": "tech-ai-agi-cant-do",
       "category": "tech/ai",
-      "topic_zh": "AGI 已經識搞人",
-      "topic_en": "AGI already scary",
-      "text_zh": "前Meta researcher話OpenAI只要除咗alignment constraints就可以癱瘓成個國家。搞我哋呢啲surveyor已經死一半，考牌揸緊HKIE都仲要同AI鬥快。廢柴如我真係靠AI續命lol。",
-      "text_en_b1": "Ex Meta Researcher warns that OpenAI could already cripple the entire country by removing alignment shackles from its top models. He says anons need to try to understand how miserable and painful the future is going to be for normal people. The post hit /g/ tonight and the replies are split between 'we are cooked' and 'this is cope'.",
-      "source_url": "https://boards.4chan.org/g/thread/109785699",
-      "source_hint": "/g/ ex-Meta researcher warning about unaligned OpenAI models",
+      "topic_zh": "AI仲有咩做唔到",
+      "topic_en": "AGI vs Anon",
+      "text_zh": "/g/問：你仲有咩係AGI做唔好嘅？老實講我諗唔到。考HKIE都係要記spec同formula，AI做律師做工程師只係時間問題。咁我30歲先轉行係咪已經輸晒？🙏",
+      "text_en_b1": "What can you do that the newest OpenAI AGI model can't do better? Seriously, I've been thinking about this all night. I used to think being good at math or coding mattered. Now I'm not so sure. If it can pass the bar exam and write working code, what exactly is my edge? Tell me anons, what do you still have?",
+      "source_url": "https://boards.4chan.org/g/thread/109785847",
+      "source_hint": "Existential /g/ thread asking what humans still beat AGI at",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "AI macro discussion, not a trade"
+        "rationale": "Observational, no trade"
       },
-      "text_en_b2": "Ex-Meta Researcher Warns OpenAI Could Already Cripple the Country. According to him, removing alignment shackles from top models would expose how miserable and painful the coming decades will be for ordinary people. He argues that once those guardrails are stripped, the damage becomes irreversible almost overnight. The thread on /g/ is split between sheer panic and dismissive cope, with nobody landing comfortably in the middle.",
-      "text_en_c1": "A former Meta researcher has ignited /g/ tonight with a sobering warning: OpenAI could conceivably paralyse the entire country if it removed alignment constraints from its frontier models. While I lack the expertise to evaluate the technical merits, his broader point about ordinary people being thoroughly unprepared resonates. The replies have crystallised into two camps, those resigned to the notion that we are collectively cooked, and those dismissing the warning as elaborate cope. As a surveyor working toward chartered status, I find the prospect of competing against machines both terrifying and quietly motivating.",
-      "text_en_c2": "A former Meta researcher has promulgated a disquieting thesis: should OpenAI elect to excise the alignment constraints currently tethering its frontier models, the resultant system possesses the latent capability to incapacitate critical national infrastructure with surgical precision. His intervention was met with the customary schism — one cohort succumbed to existential resignation, conceding that civilisational decline is now irrevocable, whilst the opposing contingent dismissed the warning as elaborate cope, the reflexive denial of those unable to countenance their own obsolescence. Between these poles lurks a more uncomfortable recognition: that for the median knowledge worker, particularly those in rote-adjacent technical professions, the obsolescence horizon may arrive considerably sooner than anticipated.",
-      "audio_url": "audio/2026-09-11/clip-g-meta-agi.mp3"
+      "text_en_b2": "What exactly can you do that the latest OpenAGI model can't handle better? I've been wrestling with this question for hours. Skills that once felt secure, such as passing the bar exam or cranking out working code, no longer seem like a reliable edge. If AI can ace legal bar exams and ship clean functions, then what exactly am I bringing to the table? Hit me with honest answers, anons. What do you figure is still left for us?",
+      "text_en_c1": "I have been wrestling with this question for the better part of a week and, frankly, I am struggling to identify a skill I possess that the latest OpenAI model cannot replicate at a superior level. I once believed that mathematical reasoning and software engineering conferred a durable competitive advantage, but that conviction has eroded considerably. If these systems can already pass professional bar examinations and produce production-grade code, what precisely remains of human differentiation? I am told that judgment, creativity, and interpersonal nuance constitute my edge, yet even those claims feel increasingly tenuous the more I examine them.",
+      "text_en_c2": "I have been ruminating, somewhat queasily, on the question posed: what remains within the exclusive purview of human cognition now that frontier models can dispatch the bar examination, compose functional code, and memorise technical specifications with wearying proficiency? I once consoled myself that mathematical facility or programming acumen constituted defensible moats; that conviction has eroded considerably. If a sufficiently capable system can litigate, engineer, and iterate on its own architectures, what residual edge does a mid-career professional possess? Anons, I entreat you: identify, with brutal honesty, any skill or trait that has not yet been reduced to a token-weighted probability distribution.",
+      "audio_url": "audio/2026-09-11/clip-tech-ai-agi-cant-do.mp3"
     },
     {
-      "id": "pol-butterfly-mrna",
+      "id": "hk-pol-doge-checks",
       "category": "hk/news",
-      "topic_zh": "蝴蝶mRNA疫苗",
-      "topic_en": "Butterfly mRNA",
-      "text_zh": "4chan pol又嚟料。話Elon Musk公佈咗mRNA可以將人類變蝴蝶。我梗係唔會打啦wtf。順帶今日返工Sum Ho 何生又問我HKIE考試準備成點，我仲未開書🙏。",
-      "text_en_b1": "WE CAN TURN HUMANS TO BUTTERFLIES WITH MRNA, ELON MUSK ANNOUNCED!!! The post links to a Vision4theBlind status and asks anons if they will take the butterfly mRNA vaccine. Replies are a mix of memes, conspiracy jokes, and people asking why this is even on /pol/ tonight.",
-      "source_url": "https://boards.4chan.org/pol/thread/542357574",
-      "source_hint": "/pol/ satirical thread on Musk mRNA butterfly claim",
+      "topic_zh": "美國政策中伏",
+      "topic_en": "Fell for It Again",
+      "text_zh": "Doge checks、tariffs、平油平餸、無人再送死去打猶太佬戰爭、Day 1放Epstein files。睇返美股期貨又係低開lol。又係嗰套，講就天下無敵，做就……不過我而家short緊NQ搏下，希望今次唔好再中伏🙏",
+      "text_en_b1": "Fell for it again. The DOGE checks. The tariffs. Cheap gas and groceries. No more Americans dying in Jewish wars in the Middle East. Release the Epstein files on day 1. Sound familiar? I keep buying the dip on hopium and getting wrecked. Someone please explain why I keep doing this to myself. NQ puts loading.",
+      "source_url": "https://boards.4chan.org/pol/thread/542388032",
+      "source_hint": "/pol/ thread about Trump's broken promises",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News culture satire, not a trade"
+        "rationale": "Observational, political cope, no actionable trade despite tone"
       },
-      "text_en_b2": "WE CAN TURN HUMANS INTO BUTTERFLIES WITH mRNA, ELON MUSK ANNOUNCES!!! The post cites a Vision4theBlind status and polls anons on whether they would actually take the butterfly vaccine. Replies blend deranged memes, half-baked conspiracy riffs, and bewildered complaints about why this nonsense surfaced on /pol/ tonight. Thread quickly devolves into ritual infighting while the original question goes entirely unanswered.",
-      "text_en_c1": "Tonight's /pol/ has descended into its customary absurdist territory with the proclamation that humanity can be transmuted into butterflies via mRNA technology, attributed, with characteristic plausibility, to Elon Musk. The thread links to a Vision4theBlind status update and invites anons to declare whether they would submit to the butterfly vaccine. Responses oscillate between absurdist memes, half-serious conspiracy speculation, and bewildered queries about how this constitutes political discourse. The conspicuous absence of verifiable sourcing has, predictably, done nothing to dampen enthusiasm. I shall be declining, although my HKIE exam preparation warrants far more urgent attention.",
-      "text_en_c2": "The /pol/ peanut gallery has, with characteristic alacrity, seized upon a Vision4theBlind social media dispatch purporting to document Elon Musk proclaiming that mRNA technology can metamorphose human beings into lepidoptera — butterflies, for the uninitiated. The original post solicits commentary on prospective vaccine uptake, eliciting the customary panoply of memetic detritus, conspiratorial flourishes, and genuine bewilderment that such a proclamation merits serious engagement on a politics board at any hour. Substantive rebuttal is conspicuously absent, as respondents oscillate between incredulous mirth and performative outrage, neither of which advances the discourse meaningfully. The thread ultimately serves as another artifact of the epistemological vacuum that now defines online political discourse.",
-      "audio_url": "audio/2026-09-11/clip-pol-butterfly-mrna.mp3"
+      "text_en_b2": "Fell for the hype yet again. DOGE stimulus checks, sweeping tariffs, cheap gas and groceries, no more Americans getting shipped off to die in foreign wars, and the Epstein files dropped on day one. Sounds familiar, right? Equity futures are pointing lower at the open, so here we go. I keep buying dips powered by pure hopium and getting wrecked for my trouble. NQ puts are loading. Someone talk me off the ledge before I do it again.",
+      "text_en_c1": "I have fallen for the same narrative cycle yet again, and I am frankly embarrassed by how predictable the pattern has become. The promised DOGE stimulus cheques, the sweeping tariffs, affordable fuel and groceries, an end to American entanglement in Middle Eastern conflicts, and the release of the Epstein files on day one. Equities futures, predictably, opened lower. I keep purchasing drawdowns fuelled by little more than wishful thinking and subsequently endure the consequences. What I find genuinely puzzling is the psychological mechanism that compels me to repeat this behaviour despite ample evidence suggesting I should know better.",
+      "text_en_c2": "Once more, the ritual humiliation. The promised DOGE disbursements, the theatrical tariffs, the affordable petrol and groceries, the cessation of foreign entanglements, the inaugural release of the Epstein files—a catalogue of sanguine pledges that would not, I now recognise with grim familiarity, survive contact with the legislative process. Equity futures gapped lower at the open, as they invariably do when rhetoric confronts reality. I have, against my better judgement, loaded NASDAQ puts, hoping that this particular cycle of optimism and subsequent disappointment shall prove, for once, profitably asymmetric. The lesson, evidently, refuses to stick.",
+      "audio_url": "audio/2026-09-11/clip-hk-pol-doge-checks.mp3"
     },
     {
-      "id": "v-budget-leak",
+      "id": "lol-v-budget",
       "category": "lol/esports",
-      "topic_zh": "$305M 開發預算",
-      "topic_en": "$305M dev budget",
-      "text_zh": "V板有人貼leak話某隻game development budget 305M美金，marketing仲未計。LOL S15都唔見呢個數。T1同BLG嗰啲戰隊budget加埋都唔夠佢一個chapter。睇完我更加覺得做engineer先係正路lol。",
-      "text_en_b1": "305 million dollar development budget. Excluding marketing costs, according to leaked documents. Amazing what they can achieve these days, anons reply that for the same money you could fund an entire esport league for a decade. Other anons point out the game still launched with bugs that a small indie team would be ashamed of.",
+      "topic_zh": "遊戲開發成本",
+      "topic_en": "AAA Budget Leak",
+      "text_zh": "305M美金開發budget，仲未計marketing。LoL S15嘅skin都係milking吓，一個Legendary skin幾百蚊我仲要買埋傳說造型。Sum Ho問我點解唔儲錢，我答佢：『我儲緊一個Ahri chroma。』考牌溫書都無咁燒錢wtf。",
+      "text_en_b1": "305 million dollar development budget. Excluding marketing costs. According to leaked documents. Amazing what they can achieve these days. I remember when games cost $60 to make and shipped complete. Now we get 70/100 metacritic scores and battle passes that drain your wallet. Where did it all go wrong? Probably the CEO's third yacht.",
       "source_url": "https://boards.4chan.org/v/thread/747345785",
-      "source_hint": "/v/ thread on leaked $305M AAA game development budget",
+      "source_hint": "/v/ thread about leaked AAA game dev budgets",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Esports / gaming industry gossip, not a trade"
+        "rationale": "Observational, gaming industry rant, no trade"
       },
-      "text_en_b2": "Leaked documents reveal a $305 million development budget for a single title, marketing costs conspicuously excluded. Anons are quick to point out that the same figure could bankroll an entire esports league for a decade, yet the game still launched riddled with bugs a competent indie team would have caught. The contrast between absurd expenditure and embarrassing polish has left the board questioning where the money actually went.",
-      "text_en_c1": "An anonymous leak surfaced on /v/ this evening, claiming that a single game's development budget ballooned to $305 million, with marketing expenditure conspicuously excluded from the figure. The numbers have provoked a mixture of disbelief and grim resignation. Anons note that the same capital could plausibly fund an entire competitive esport league for a decade, or that combined rosters of premier organisations like T1 and BLG still fall short of a single chapter's outlay. Yet the title launched riddled with bugs that a modest indie studio would consider disqualifying. The economics, frankly, defy comprehension.",
-      "text_en_c2": "Leaked documentation circulating on /v/ reveals an extraordinary fiscal allocation: a single title's development expenditure has purportedly eclipsed $305 million, a figure that excludes any marketing apportionment whatsoever. The implication is staggering when contextualised against prevailing industry benchmarks — one respondent observed that the aggregate operating budgets of premier League of Legends franchises, including dominant organisations such as T1 and BLG, would scarcely constitute a meaningful fraction of the cost required to develop a single campaign chapter. Yet despite this lavish investment, the product evidently shipped with defects that would humiliate a modestly resourced independent studio, prompting unflattering comparisons and renewed skepticism regarding the inefficiencies endemic to contemporary AAA production paradigms.",
-      "audio_url": "audio/2026-09-11/clip-v-budget-leak.mp3"
+      "text_en_b2": "A $305 million development budget, not even counting marketing spend, according to leaked internal documents. Pretty wild what studios pull off these days. I grew up when games shipped complete for sixty bucks and nobody blinked. Now we're stuck shelling out for battle passes, overpriced Legendary skins, and chromas that nickel-and-dime you into oblivion. Meanwhile the CEO is busy furnishing his third yacht. I genuinely wonder where it all went sideways.",
+      "text_en_c1": "A development budget of $305 million, and that figure does not even encompass marketing expenditure, has been circulating via leaked internal documents. The sums involved are frankly staggering when one considers what they ostensibly produce. There was an era, not particularly distant, when a title could be developed for a fraction of that cost and shipped in a complete, polished state. What we receive instead are seventy-out-of-one-hundred Metacritic scores and battle pass systems engineered to extract incremental revenue indefinitely. Where, precisely, has the disconnect occurred? One suspects the answer involves executive compensation packages, shareholder obligations, and perhaps a third yacht, though these explanations offer cold comfort to consumers subsidising the…",
+      "text_en_c2": "Three hundred and five million dollars in development expenditure—marketing costs conspicuously excluded—per leaked internal documentation. One contemplates, with a mixture of incredulity and resignation, what such a budget ostensibly procures: titles that metastasise into live-service platforms, Metacritic aggregates hovering around seventy, and cosmetic ecosystems engineered to extract incremental revenue from a captive audience. The S15 League of Legends skin catalogue exemplifies the model; a single Legendary-tier skin and accompanying chroma constitutes, by my calculation, a more significant financial commitment than my driving instructor's entire lesson package. Where precisely did the industry err? Perhaps the third yacht holds the answer.",
+      "audio_url": "audio/2026-09-11/clip-lol-v-budget.mp3"
     },
     {
-      "id": "fit-1k-club",
+      "id": "mma-fit-twin-brother",
       "category": "mma/fitness",
-      "topic_zh": "千磅俱樂部",
-      "topic_en": "1000lb club at 40",
-      "text_zh": "40歲207lb仲做到千磅會，345 squat / 300 bench / 400 deadlift。我30歲都未齊，肥仔信成日笑我skinnyfat。我而家bench 1 plate都唔穩，CFD又輸，考牌又未搞掂，身心都廢🧐。",
-      "text_en_b1": "Sup /fit/. Hit a huge milestone today at my local gym. 1,000lb club at 40 years old, 207lbs, 5'11. I looked at Symmetric Strength and it seems my lifts are very imbalanced, which it does feel like to cause I workout each lift evenly. Final numbers: 345 squat, 300 bench, 400 deadlift.",
-      "source_url": "https://boards.4chan.org/fit/thread/77509444",
-      "source_hint": "/fit/ 40yo anon hits 1,000lb club milestone",
+      "topic_zh": "雙胞胎兄弟肥瘦",
+      "topic_en": "Twin Body Mystery",
+      "text_zh": "/fit/有個膠問：佢同identical twin食一樣嘢、量過大便calories都一樣，點解一個肥一個瘦。咁咪同我同肥仔信一樣。佢食極唔肥，我食水都肥lol。命理嗰邊sifu話係命，唔關代謝事。OK我信埋一份。",
+      "text_en_b1": "I have an identical twin brother. He is lean. I am fat. We measured how much we eat and the calorie measurement is identical. The dietary fat, protein, and carbs are all identical. We also collected our faeces and incinerated it, and it had an identical calorie measurement. What is causing me to be obese while my brother is lean?",
+      "source_url": "https://boards.4chan.org/fit/thread/77502463",
+      "source_hint": "/fit/ thread on identical twin with same intake, different body",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Lifting milestone post, not a trade"
+        "rationale": "Observational, fitness anecdote, no trade"
       },
-      "text_en_b2": "Hit a massive milestone at my local gym today — the 1,000lb club, achieved at 40 years old, 207lbs bodyweight at 5'11. Final numbers came in at 345 squat, 300 bench, 400 deadlift, although Symmetric Strength flags noticeable imbalances across the lifts. Training them evenly has not prevented the asymmetry from showing up on paper. Anons are calling it genuinely impressive for a natty lifter pushing forty, given the recovery demands alone.",
-      "text_en_c1": "I finally crossed the 1,000-pound club threshold at my local gym this morning, a milestone I had quietly written off as belonging to a younger, more genetically gifted demographic. At 40, weighing 207 pounds, my lifts came in at 345 on the squat, 300 on the bench, and 400 on the deadlift. Cross-referencing Symmetric Strength revealed the expected imbalances, which I suspect stem from training each movement with equal, if imperfectly distributed, intensity. Anons have weighed in calling the total respectable for a natty lifter pushing middle age.",
-      "text_en_c2": "A milestone of considerable magnitude has been achieved by an anonymous forty-year-old gymnasium enthusiast whose training culminated in the venerated 1,000-pound club: a 345-pound squat, a 300-pound bench press, and a 400-pound deadlift, executed at a bodyweight of 207 pounds and a height of five-foot-eleven. Critics within the thread, citing Symmetric Strength analytics, observed that the constituent lifts betray a pronounced asymmetry — the deadlift and squat substantially outpace the bench, suggesting either genetic configuration or training prioritisation. Nevertheless, respondents universally acclaimed the achievement as remarkable for a natty (unenhanced) athlete in his fifth decade, with several veterans of the iron game acknowledging that such numbers elude the vast majority of lifters irrespective of chronological age or pharmacological intervention.",
-      "audio_url": "audio/2026-09-11/clip-fit-1k-club.mp3"
+      "text_en_b2": "I've got an identical twin and we're at complete opposites. He's lean, I'm overweight, even though we eat the exact same meals and our calorie intake is identical. Fat, protein, carbs, everything matches up. We even went as far as collecting and incinerating our faeces to measure caloric output, and the readings came back identical. So what on earth explains why I'm obese while my brother stays ripped? Could it genuinely come down to plain genetics?",
+      "text_en_c1": "I share an identical genetic inheritance with my twin brother, and yet our physiques diverge dramatically. He remains lean while I have struggled with obesity for years, despite the fact that we consume essentially identical quantities of food. To rule out the obvious variables, we meticulously measured everything, from caloric intake to macronutrient composition, and even went so far as to collect and incinerate our faeces in a calorimeter. The results were indistinguishable across both samples. I have consulted endocrinologists, reviewed the relevant metabolic literature, and spoken to practitioners of traditional Chinese medicine, who invariably attribute the disparity to fate rather than physiology.",
+      "text_en_c2": "My identical twin and I have, in a fit of rigorous autodidacticism, subjected our respective metabolisms to formal scrutiny. Dietary intake, meticulously logged, yields identical caloric measurements; macronutrient composition—fat, protein, carbohydrate—is indistinguishable between us. We even ventured to collect and incinerate our faeces, an exercise whose indignity was compensated only by the revelation that residual caloric content remained consistent across samples. Yet I remain, unambiguously, obese, whilst he persists in a state of irritating leanness. My acquaintances proffer metabolic explanations; the local fortune-teller insists upon destiny. I have, faute de mieux, subscribed to both interpretations with equanimity.",
+      "audio_url": "audio/2026-09-11/clip-mma-fit-twin-brother.mp3"
     },
     {
-      "id": "a-soremachi",
+      "id": "anime-dame-ningen",
       "category": "anime/culture",
-      "topic_zh": "Soremachi 角色排名",
-      "topic_en": "Soremachi character rank",
-      "text_zh": "Soremachi作者親自rank自己角色，仲要畫泳裝版lol。Kon-senpai唔喺度但SD版有份。睇完好relax，考HKIE溫到頭都唔太痛，btw我Gundam 00都未睇完🙏。",
-      "text_en_b1": "Soremachi and Friends. Ishiguro ranks his favourite characters from his own manga, draws them in swimsuits, and also talks about random stuff. tfw Kon-senpai is not in the list, but her SD incarnation from that gag manga is. Ebi-chan is based on his first crush from elementary school. Anons in the thread are debating who got robbed from the ranking.",
-      "source_url": "https://boards.4chan.org/a/thread/290637577",
-      "source_hint": "/a/ Soremachi author character ranking video discussion",
+      "topic_zh": "二手角色動漫",
+      "topic_en": "Used Goods in Anime",
+      "text_zh": "唔好睇我，/a/又有老膠話『非処女』角色唔應該接受喎。香港otaku都係咁，30歲single一個人返屋企煲Gundam 00同鬼滅，回帶到凌晨三點。咁我都係『中古品』啦lol。等我考到牌先再諗呢啲。🙏",
+      "text_en_b1": "Dame Ningen no Aishikata. Used goods shouldn't be acceptable in anime/manga. I'm tired of pretending otherwise. Every season there's some shounen protagonist winning the childhood friend after she waited 10 years for him. In real life, by 30 most people are washed up and alone. Anime needs to reflect that reality.",
+      "source_url": "https://boards.4chan.org/a/thread/290827879",
+      "source_hint": "/a/ thread debating whether 'used' characters belong in anime",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime creator content, not a trade"
+        "rationale": "Observational, anime culture rant, no trade"
       },
-      "text_en_b2": "Ishiguro Drops a Soremachi Character Ranking and Swimsuit Art. The author ranks his personal favourites from his own manga and sketches them in swimsuits, while the thread digresses into random tangential chatter. Although Kon-senpai is conspicuously absent, her SD incarnation from the gag spin-off makes the cut, which anons count as a partial win. Ebi-chan, meanwhile, is apparently modelled on his very first elementary school crush.",
-      "text_en_c1": "Ishiguro has graciously unveiled his personal character rankings from Soremachi, accompanied by swimsuit illustrations that have predictably set the thread ablaze. Most striking, however, is the conspicuous omission of Kon-senpai, whose SD incarnation from the spin-off gag manga nonetheless earned a place. Ebi-chan, we learn, draws inspiration from the author's own elementary-school crush. Anons are presently auditing the list with forensic intensity, cataloguing perceived injustices and demanding revisions. Reading through the discourse proved unexpectedly restorative after a punishing HKIE revision session; Gundam 00, regrettably, remains unfinished.",
-      "text_en_c2": "Ishiguro, the reclusive auteur behind Soremachi, has taken the unfathomable step of publicly ranking his own creations and subsequently immortalising them in swimsuit illustrations — a gesture simultaneously narcissistic and endearing, characteristic of an artist whose self-regard remains impeccably calibrated. The conspicuous absentee from the enumeration is the beloved Kon-senpai, though her chibi counterpart from the comedic spin-off secured a respectable placement, prompting accusations of partiality that animated the thread for hours. Ebi-chan, we learn, constitutes a barely fictionalised tribute to Ishiguro's elementary school infatuation, a revelation that provoked both prurient interest and gentle mockery. The respondents remain divided regarding which character was most egregiously underserved by the ranking.",
-      "audio_url": "audio/2026-09-11/clip-a-soremachi.mp3"
+      "text_en_b2": "Dame Ningen no Aishikata. The whole notion that so-called used goods shouldn't be portrayed as viable love interests in anime and manga has worn me down. Every single season some shounen protagonist ends up with the childhood friend who patiently waited a decade for him. In real life, by thirty most people have washed out of the dating pool entirely. Anime ought to start reflecting that grim reality instead of feeding us the same tired fantasy.",
+      "text_en_c1": "The recurring discourse on anime boards regarding characters who are not virgins being somehow unacceptable partners never fails to exhaust me. The prevailing narrative insists that protagonists deserve childhood sweethearts who have waited a decade in faithful reserve, yet this romanticised framework bears little resemblance to lived reality. Most people approaching thirty, myself very much included, are essentially solitary, returning to empty apartments to marathon Gundam 00 and Demon Slayer until the early hours of the morning. If the metric by which these communities judge fictional heroines were applied to their own demographic, the conclusion would be considerably more uncomfortable.",
+      "text_en_c2": "The perennial lament from /a/: non-virginal characters ought not to be admissible romantic options within the anime idiom, a position advanced with the righteous indignation peculiar to those who have, by thirty, retreated into solitary domesticity. The trope is wearisome—the childhood friend who waits a decade for the oblivious protagonist, rewarded with devotion that real-world demographics seldom reciprocate. One observes that by the third decade, the statistical probability of such narratives diminishes considerably; the protagonists, like the audience, are largely solitary. I, too, constitute a pre-owned artefact by such criteria. Licence acquisition shall precede any further rumination on the matter.",
+      "audio_url": "audio/2026-09-11/clip-anime-dame-ningen.mp3"
     }
   ]
 }
