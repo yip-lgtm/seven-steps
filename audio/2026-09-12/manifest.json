@@ -4,121 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-oil-cramer",
-      "topic_en": "Oil to $150?",
-      "topic_zh": "油價要爆？",
-      "category": "trading",
-      "file": "clip-biz-oil-cramer.mp3",
-      "bytes": 312180,
-      "chars": 256
-    },
-    {
-      "id": "biz-btc-vs-gold",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs Gold",
-      "category": "trading",
-      "file": "clip-biz-btc-vs-gold.mp3",
-      "bytes": 297780,
-      "chars": 290
-    },
-    {
-      "id": "biz-doge-launch",
-      "topic_en": "Doge to Space",
-      "topic_zh": "Doge衝天",
-      "category": "trading",
-      "file": "clip-biz-doge-launch.mp3",
-      "bytes": 249396,
-      "chars": 238
-    },
-    {
-      "id": "biz-time-elf",
-      "topic_en": "Crypto Price Predictions",
-      "topic_zh": "預言家又嚟",
-      "category": "trading",
-      "file": "clip-biz-time-elf.mp3",
-      "bytes": 586356,
-      "chars": 253
-    },
-    {
-      "id": "biz-condo-regret",
+      "id": "biz-condo-stuck",
       "topic_en": "Stuck With Condo",
-      "topic_zh": "返唔到轉頭",
+      "topic_zh": "Condo困局",
       "category": "trading",
-      "file": "clip-biz-condo-regret.mp3",
-      "bytes": 398580,
-      "chars": 307
-    },
-    {
-      "id": "tech-grok-update",
-      "topic_en": "Grok Update Sucks",
-      "topic_zh": "Grok廢咗",
-      "category": "tech/ai",
-      "file": "clip-tech-grok-update.mp3",
-      "bytes": 279924,
+      "file": "clip-biz-condo-stuck.mp3",
+      "bytes": 345012,
       "chars": 291
     },
     {
-      "id": "tech-anthropic-quit",
-      "topic_en": "AI Researcher Quits",
-      "topic_zh": "AI末日論",
+      "id": "biz-musk-tech",
+      "topic_en": "Musk Tech Tracker",
+      "topic_zh": "Tesla/SpaceX跟進",
+      "category": "trading",
+      "file": "clip-biz-musk-tech.mp3",
+      "bytes": 388788,
+      "chars": 314
+    },
+    {
+      "id": "g-anthropic-quit",
+      "topic_en": "AI Alignment Quit",
+      "topic_zh": "AI失控恐慌",
       "category": "tech/ai",
-      "file": "clip-tech-anthropic-quit.mp3",
-      "bytes": 317940,
+      "file": "clip-g-anthropic-quit.mp3",
+      "bytes": 319092,
       "chars": 310
     },
     {
-      "id": "pol-aoc-thread",
-      "topic_en": "AOC Controversy",
-      "topic_zh": "AOC又出招",
-      "category": "hk/news",
-      "file": "clip-pol-aoc-thread.mp3",
-      "bytes": 293748,
-      "chars": 272
-    },
-    {
       "id": "pol-china-2nm",
-      "topic_en": "China 2nm Without EUV",
-      "topic_zh": "中國2nm",
+      "topic_en": "China 2nm Chip",
+      "topic_zh": "中國2nm突破",
       "category": "hk/news",
       "file": "clip-pol-china-2nm.mp3",
-      "bytes": 314484,
-      "chars": 280
+      "bytes": 299508,
+      "chars": 283
     },
     {
-      "id": "fit-bulk-cut",
-      "topic_en": "When to Cut",
-      "topic_zh": "Bulk定Cut",
+      "id": "fit-skinnyfat-cut",
+      "topic_en": "Skinnyfat Cut Timing",
+      "topic_zh": "消脂vs留肌",
       "category": "mma/fitness",
-      "file": "clip-fit-bulk-cut.mp3",
-      "bytes": 450420,
-      "chars": 298
-    },
-    {
-      "id": "fit-twin",
-      "topic_en": "Twin Calorie Mystery",
-      "topic_zh": "雙胞胎迷團",
-      "category": "mma/fitness",
-      "file": "clip-fit-twin.mp3",
-      "bytes": 345012,
-      "chars": 298
-    },
-    {
-      "id": "v-persona6",
-      "topic_en": "Persona 6 Leaks",
-      "topic_zh": "Persona 6爆料",
-      "category": "anime/culture",
-      "file": "clip-v-persona6.mp3",
-      "bytes": 327732,
-      "chars": 342
+      "file": "clip-fit-skinnyfat-cut.mp3",
+      "bytes": 432564,
+      "chars": 265
     },
     {
       "id": "a-soremachi",
-      "topic_en": "Soremachi & Friends",
-      "topic_zh": "Soremachi周邊",
+      "topic_en": "Soremachi Ranking",
+      "topic_zh": "Soremachi角色",
       "category": "anime/culture",
       "file": "clip-a-soremachi.mp3",
-      "bytes": 307572,
-      "chars": 283
+      "bytes": 306996,
+      "chars": 314
+    },
+    {
+      "id": "biz-oil-150",
+      "topic_en": "Oil $150 Shock",
+      "topic_zh": "原油$150衝擊",
+      "category": "civil/structure",
+      "file": "clip-biz-oil-150.mp3",
+      "bytes": 344436,
+      "chars": 304
     }
   ]
 }
