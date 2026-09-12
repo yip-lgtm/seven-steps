@@ -1,6 +1,175 @@
 {
   "date": "2026-09-12",
-  "source": "pool-fallback",
+  "source": "ai",
   "persona": "wsb",
-  "clips": []
+  "clips": [
+    {
+      "id": "biz-condo-stuck",
+      "category": "trading",
+      "topic_zh": "加密貨幣上岸之後",
+      "topic_en": "Stuck With a Condo",
+      "text_zh": "22歲靠DOGE撈咗一筆，住咗兩年冇做嘢，去旅行，drop out，買咗個condo 230K美金。之後錢燒晒，回去讀書，grad完而家返緊100K文職，27歲已經 work, consume, repeat。卡數 student debt 全部返晒嚟。又係另一種 tuition。🙏",
+      "text_en_b1": "OP on /biz/ says he was 22 when he made random crypto money from dogecoin in 2021. He lived two years with no job, dropped out of school, and bought a $230K condo. Then the money ran out. He went back to school, graduated, and now earns $100K at 27.",
+      "source_url": "https://boards.4chan.org/biz/thread/62674411",
+      "source_hint": "/biz/ - condo owner stuck after crypto money ran out",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Post-hoc life story, no actionable trade setup"
+      },
+      "text_en_b2": "An OP on /biz/ recounts how he struck it big with Dogecoin at 22, spent two years living it up without a job, dropped out, and snapped up a $230K condo. Once the money dried up, he returned to university, eventually graduating and landing a $100K office gig at 27. Although he is grateful to be employed, he feels trapped in a monotonous loop of work, consume, repeat, with student debt and credit card bills piling up.",
+      "text_en_c1": "OP on /biz/ recounts how, at 22, he made a windfall on Dogecoin in 2021 and promptly abandoned any notion of financial discipline. For roughly two years he neither studied nor worked, travelling instead, before dropping out and purchasing a $230,000 condo outright. Once the capital evaporated, he returned to university, graduated, and now, at 27, earns a modest $100,000 in an office job. Trapped in what he describes as a Sisyphean loop of work, consume, repeat, he is once again servicing student loans and credit card balances.",
+      "text_en_c2": "A /biz/ poster recounts how, at twenty-two, he parlayed an incidental windfall from Dogecoin into a brief illusion of financial invincibility, whereupon he abandoned his studies, idled for two unremarkable years, and committed roughly $230,000 to a condominium purchase. The capital, inevitably, evaporated. Now twenty-seven and gainfully employed in a salaried position commanding $100,000, he finds himself indentured once more to the numbing liturgy of work, consume, repeat, with resurrected student obligations and accumulated credit balances hovering over his present circumstances. What stings, he implies, is not the poverty per se but the fleeting acquaintance with奢侈 that has made ordinariness unbearable, a tuition of sorts paid twice over by those who glimpse escape only to be remanded to the ledger. The post metastasised into a cautionary exhibit for the terminally online.",
+      "audio_url": "audio/2026-09-12/clip-biz-condo-stuck.mp3"
+    },
+    {
+      "id": "biz-oil-150",
+      "category": "trading",
+      "topic_zh": "油價150即將來臨",
+      "topic_en": "Oil $150 Is Reality",
+      "text_zh": "Cramer 話 oil $150 即將成真。pipelines 被攻擊，supply 出事，CFD long crude 嗰啲應該贏緊。但我 CFD 戶口得返一舊錢，唔好再吹我嚇我🙏 wtf",
+      "text_en_b1": "OP on /biz/ is sharing a Jim Cramer tweet and yelling that oil $150 is about to be reality, bros. He links to a status post and tags it HAPPENING. The vibe is full panic bullish on crude. Threads like this usually mean short-term squeeze energy on oil and energy stocks, but nobody on /biz/ actually knows if it holds past a news cycle.",
+      "source_url": "https://boards.4chan.org/biz/thread/62673203",
+      "source_hint": "/biz/ - Jim Cramer oil $150 is happening thread",
+      "signal": {
+        "asset": "XAU",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "days",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP implies an oil shock narrative which is bullish for gold as a hedge"
+      },
+      "text_en_b2": "An OP on /biz/ is losing his mind over a Jim Cramer tweet insisting that oil is barreling toward $150. He points to recent pipeline attacks and serious supply disruptions, claiming anyone holding CFD longs on crude must be sitting on a goldmine. While the energy stocks and oil market have genuine short-term squeeze potential, most /biz/ regulars are sceptical. Although the panic-bullish vibe is electric, almost nobody truly believes this rally will hold past the current news cycle.",
+      "text_en_c1": "OP on /biz/ circulates a Jim Cramer tweet insisting that oil at $150 is no longer a hypothetical but an imminent reality, citing pipeline attacks and mounting supply disruptions. He exhorts those holding CFD longs on crude to recognise that they are, in his view, already winning. Yet he confesses that his own CFD account has been reduced to a token balance, pleading with readers to stop piling in and spooking the position. Beneath the bravado lies genuine anxiety about whether the move can be sustained beyond a single news cycle. The thread captures the paranoid bullishness that tends to mark the late stages of any squeeze narrative.",
+      "text_en_c2": "A /biz/ thread amplifies a Jim Cramer observation regarding the imminent ascent of crude to $150 per barrel, with the original poster feverishly appending 'HAPPENING' and gesturing toward sabotaged pipeline infrastructure as evidence of an irreversible supply dislocation. Those harbouring long positions via contracts for difference are presumably enjoying a sanguine interval, though the OP's own derivative account has dwindled to a residual pittance, prompting an uncharacteristic plea for the chorus of permabulls to desist from further respiratory exertions in his direction. The subculture's customary epistemic ambiguity persists: such threads tend to presage nothing more durable than a transient squeeze on crude and affiliated energy equities, their predictive half-life rarely extending beyond the next news cycle. Epistemic confidence remains, as ever, inversely proportional to the poster's residual liquidity.",
+      "audio_url": "audio/2026-09-12/clip-biz-oil-150.mp3"
+    },
+    {
+      "id": "biz-btc-vs-gold",
+      "category": "trading",
+      "topic_en": "Bitcoin vs Gold 10yr",
+      "topic_zh": "BTC定黃金十年",
+      "text_zh": "十年長揸，你揀 BTC 定 gold？我又想分散又想瞓得著，搞到我兩邊都揸唔到。prop firm 戶口又爆咗，真係好撚煩👍",
+      "text_en_b1": "OP on /biz/ asks the classic question. If you had to hold only one for the next 10 years, Bitcoin or gold, which would you pick and why is your choice better than the other? He wants a real answer, not vibes. Classic /biz/ holy war thread between goldbugs and coiners, with nobody changing their mind either way.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ - Bitcoin vs gold 10 year hold debate",
+      "signal": {
+        "asset": "BTC",
+        "direction": "observation",
+        "conviction": "low",
+        "time_horizon": "months",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Debate thread with no edge, mild bullish undertone from /biz/ crowd"
+      },
+      "text_en_b2": "An OP on /biz/ poses the eternal question, would you rather lock in Bitcoin or gold for a full decade? He admits to wanting diversification badly enough that he has ended up unable to commit to either position. To make matters worse, his prop firm account just blew up, adding to the frustration. Although goldbugs and coiners will keep grinding the same axes in the replies, nobody is genuinely going to switch sides.",
+      "text_en_c1": "OP on /biz/ poses what he considers the definitive long-horizon question: should one hold Bitcoin or gold for the next ten years, and on what basis is either superior? He candidly admits that his desire to diversify has paradoxically paralysed him, leaving him underexposed on both sides of the trade. Matters are compounded by the recent blow-up of his proprietary firm account, which has done little for his conviction either way. The thread predictably devolves into the customary holy war between goldbugs and maximalists, each camp rehearsing familiar grievances. As ever on /biz/, no minds are changed, though considerable keyboard mileage is accumulated in the attempt.",
+      "text_en_c2": "A perennial /biz/ provocation rears its head:倘若 constrained to a single ten-year conviction, does one cleave to Bitcoin or to gold, and by what mechanism does one's selection transcend mere tribal allegiance? The original poster articulates a recognisable affliction, that of the would-be diversifier paralysed by indecision, equally unwilling to commit to either allocation lest the alternative perform spectacularly without him. His prop firm account having recently succumbed to liquidation, the philosophical register acquires an unwelcome biographical urgency. Predictably, the ensuing exchange devolves into the customary theological skirmish between goldbugs and coiners, two mutually impermeable congregations whose adherents derive succour primarily from the confirmation of priors rather than from any genuine engagement with the opposing thesis. Minds, as ever, remain hermetically sealed.",
+      "audio_url": "audio/2026-09-12/clip-biz-btc-vs-gold.mp3"
+    },
+    {
+      "id": "g-anthropic-quit",
+      "category": "tech/ai",
+      "topic_zh": "AI 研究員跳船",
+      "topic_en": "Anthropic Researcher Quits",
+      "text_zh": "Anthropic 有個 researcher Jacob Coxon 自己劈炮，話唔想再 train 嗰啲 self-improving AI，驚會失控毁滅人類。睇到我都想返屋企抖下🧐 AI 真係會搶我哋藍領白領兩邊齊落。",
+      "text_en_b1": "OP on /g/ shares the news that Anthropic researcher Jacob Coxon is quitting over fears that AI is out of control. Coxon said on Tuesday he does not want to take part in the industrywide rush to build AI systems that can improve themselves, because such systems could spiral out of control and destroy humanity. Another safety warning from inside the lab.",
+      "source_url": "https://boards.4chan.org/g/thread/109769311",
+      "source_hint": "/g/ - Anthropic researcher quits over AI self-improvement fears",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "News/observation thread, no trade setup"
+      },
+      "text_en_b2": "An OP on /g/ shares breaking news that Anthropic researcher Jacob Coxon has handed in his resignation. Coxon publicly stated on Tuesday that he refuses to participate in the industrywide race toward self-improving AI, warning that such systems could spiral dangerously out of control and potentially destroy humanity. The post has sparked heavy discussion about AI alignment and whether insider defections signal genuine danger. While some regulars dismiss the resignation as clout-chasing, many see it as another grim safety warning straight from inside the lab.",
+      "text_en_c1": "OP on /g/ disseminates the news that Jacob Coxon, a researcher at Anthropic, has tendered his resignation, citing ethical objections to the industry-wide race towards self-improving artificial intelligence. Coxon stated on Tuesday that he could no longer, in good conscience, contribute to systems whose iterative self-refinement might, however unintentionally, spiral beyond human control and ultimately prove catastrophic. The post frames the departure as a rare instance of an insider prioritising existential caution over commercial momentum. It also strikes a chord with readers who harbour anxieties that the technology will render both blue-collar and white-collar labour structurally obsolete, prompting one commenter to muse aloud about retreating homeward for a well-earned lie-down.",
+      "text_en_c2": "A /g/ submission disseminates the intelligence that Jacob Coxon, a researcher at Anthropic, has tendered his resignation over conscientious objections pertaining to the development of self-improving artificial intelligence systems. Coxon articulated, on a Tuesday of apparently unremarkable consequence, his unwillingness to participate in what he characterised as an industry-wide pell-mell toward recursive architectures whose emergent trajectories may elude human oversight and, in extremis, culminate in civilisational ruin. The disclosure constitutes yet another datum in the accumulating dossier of internal apostasy from frontier laboratories, prompting the original poster, evidently unmoored, to muse upon the prospect of retreating homeward for an indefinite convalescence. Should the technology indeed encroach upon both manual and cognitive labour with comparable facility, the anxieties articulated by Coxon may yet prove insufficiently apocalyptic.",
+      "audio_url": "audio/2026-09-12/clip-g-anthropic-quit.mp3"
+    },
+    {
+      "id": "pol-china-2nm",
+      "category": "hk/news",
+      "topic_zh": "中國2nm突破",
+      "topic_en": "China Hits 2nm",
+      "text_zh": "中國唔靠 EUV 都做到 2nm。pol 板啲人話根本冇得同 Superman 鬥。睇到我幾年前返嚟香港係咪做錯咗🧐 Anyway Nvidia 我都揸唔起啦。",
+      "text_en_b1": "OP on /pol/ declares that China has reached 2nm without even using EUV lithography, and claims it is impossible to compete with the Chinese Superman. Typical /pol/ tech hype thread with zero engineering detail, just national pride posting. Still matters for semiconductor supply chains and Nvidia competition if the claim has any real weight behind it.",
+      "source_url": "https://boards.4chan.org/pol/thread/542442826",
+      "source_hint": "/pol/ - China 2nm breakthrough hype post",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "News/opinion thread, no trade setup"
+      },
+      "text_en_b2": "An OP on /pol/ is raving that China has cracked 2nm chip manufacturing without relying on EUV lithography at all, declaring it flat-out impossible to compete with the so-called Chinese Superman. Typical /pol/ fare, heavy on national pride, light on actual engineering substance, and almost entirely free of technical detail. While the claim sounds almost too good to be true, it could genuinely shake up semiconductor supply chains and intensify the competitive pressure on Nvidia.",
+      "text_en_c1": "OP on /pol/ proclaims that Chinese semiconductor engineers have achieved 2nm fabrication without recourse to EUV lithography, a feat he presents as effectively unassailable by Western competitors. The thread is characterised by the board's customary blend of technological triumphalism and geopolitical chest-thumping, with participants invoking Superman metaphors to underscore what they regard as an insurmountable lead. Engineering specifics are conspicuously absent, replaced instead by national-pride posturing. The OP, a returnee to Hong Kong, wonders whether his repatriation may have been ill-advised, before conceding that Nvidia shares are, in any case, beyond his reach.",
+      "text_en_c2": "A /pol/ correspondent proclaims, with characteristic technological sanguinity, that Chinese fabs have purportedly achieved 2-nanometre fabrication without recourse to extreme ultraviolet lithography, a feat which, were it substantiated, would constitute a watershed in the geopolitics of semiconductors. The board's consensus, insofar as one may impute consensus to /pol/, holds that competition with this so-called Chinese Superman is a categorically futile endeavour, a framing whose analytical rigour is inversely proportional to its rhetorical enthusiasm. Engineering particulars are conspicuously absent, as is any acknowledgment of the customary lag between laboratory demonstration and mass production. Were the claim to bear even partial scrutiny, however, the ramifications for advanced supply chains and the hegemony presently enjoyed by Nvidia would be neither trivial nor containable within a nationalist affectation, irrespective of how threadbare the accompanying technical exposition.",
+      "audio_url": "audio/2026-09-12/clip-pol-china-2nm.mp3"
+    },
+    {
+      "id": "fit-twin-calorie",
+      "category": "mma/fitness",
+      "topic_zh": "孖生兄弟熱量",
+      "topic_en": "Twin Calorie Mystery",
+      "text_zh": "fit 板有條 post 講佢同佢 twin brother 食一樣多嘢，連屙出嚟都量過卡路里一樣，一個瘦一個肥。wtf 咁我減極都減唔落係咪因為我屙嘢有問題lol。",
+      "text_en_b1": "OP on /fit/ says he has an identical twin brother. The twin is lean and he is fat. They measured how much they eat and the calories are identical. The macros are identical. They even collected and incinerated their faeces, and the calorie measurement from that was also identical. He wants to know what is causing him to be obese while his brother stays lean.",
+      "source_url": "https://boards.4chan.org/fit/thread/77502463",
+      "source_hint": "/fit/ - identical twin calorie mystery thread",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Lifestyle/fitness discussion, no trade setup"
+      },
+      "text_en_b2": "An OP on /fit/ reveals he has an identical twin brother who is noticeably lean while he himself is obese, despite their identical calorie intake and matching macros. In a bizarre twist, the brothers even collected and incinerated their faeces to measure calories, and the results came back identical. He is at a complete loss, wondering whether his own digestive issues are sabotaging every weight loss effort.",
+      "text_en_c1": "OP on /fit/ describes what he considers a baffling physiological puzzle involving his identical twin brother. Although the two consume identical quantities of food, with matching macronutrient profiles, and have even resorted to incinerating their faeces to confirm that caloric excretion is likewise indistinguishable, the OP remains obese while his brother stays lean. He is seeking an explanation that reconciles these observed similarities with the divergent outcomes, half-joking that his own digestive tract must be somehow compromised. The post has attracted considerable engagement, with respondents variously proposing metabolic efficiency, microbiome composition, or thermogenic differences as plausible variables.",
+      "text_en_c2": "A /fit/ contribution describes a singularly instructive predicament involving the poster and his monozygotic twin, who consume identical quantities of food, exhibit identical macronutrient distributions, and whose combusted faecal matter, subjected to calorimetric analysis, yields indistinguishable energy values. Notwithstanding this evidentiary symmetry, one brother remains lean whilst the other accumulates adipose tissue with unseemly alacrity, a divergence the poster finds existentially perplexing. He solicits clarification regarding the metabolic or microbial mechanism that might account for his corpulent predicament whilst his chromosomal duplicate maintains leanness. The episode occasioned broader hand-wringing among respondents who, having endured recalcitrant adipose tissue despite ostensible caloric rectitude, found in the poster's plight an unsettling validation of their own metabolic fatalism. Twin studies of this calibre, one observes, tend to illuminate precisely how much remains opaque.",
+      "audio_url": "audio/2026-09-12/clip-fit-twin-calorie.mp3"
+    },
+    {
+      "id": "biz-doge-space",
+      "category": "anime/culture",
+      "topic_zh": "Doge太空三日",
+      "topic_en": "Doge to Space in 3 Days",
+      "text_zh": "biz 板又有人話 DOGE 三日內會飛上太空，叫大家買少少再 sell，怕又變 SNL 2.0。Elon 講嘢真係每次都搞到我個倉郁嚟郁去🧐 我手上 DOGE 已經輸到唔想望個 account🙏",
+      "text_en_b1": "OP on /biz/ says Doge is going to space in 3 days and asks why you are not buying. He admits if it explodes it will still move up, so why not ape a little and then sell so it does not become SNL 2.0. Or maybe it just starts the hype cycle all over again.",
+      "source_url": "https://boards.4chan.org/biz/thread/62676654",
+      "source_hint": "/biz/ - Doge to space in 3 days ape thread",
+      "signal": {
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "low",
+        "time_horizon": "days",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP implies a short-term Musk hype play on DOGE, low conviction scalp"
+      },
+      "text_en_b2": "An OP on /biz/ insists Dogecoin is blasting off to the moon within three days and demands to know why you are not buying yet. He concedes that even if the price spikes, it will eventually climb higher, so why not throw in a small amount and cash out before it turns into another SNL-shaped disaster. He half-jokes that it might just kick off yet another hype cycle all over again.",
+      "text_en_c1": "OP on /biz/ insists that Dogecoin is destined for orbit within seventy-two hours and presses readers to explain why they are not accumulating a position. He concedes that even if the pump fizzles, an initial push higher remains probable, and therefore counsels a modest entry followed by a timely exit before the inevitable SNL-style rug pull materialises. Alternatively, the move might simply inaugurate another hype cycle, with attendant volatility for anyone caught overexposed. The thread epitomises the Musk-induced whiplash that periodically convulses DOGE markets, as each vague pronouncement sends positions ricocheting.",
+      "text_en_c2": "A /biz/ missive forecasts the imminent celestial trajectory of DOGE within a triumvirate of days, urging the assembled multitude to acquire a modest position and liquidate promptly, lest the episode devolve into an unwelcome reprise of the SNL debacle. The original poster acknowledges the asymmetry whereby even a spectacular collapse would, paradoxically, generate sufficient upward momentum to reward the nimble, a strategy whose sophistication is inversely proportional to its likelihood of being executed by the average anon. Whether the announcement inaugurates a fresh hype cycle or merely punctuates the extant one with another Muskian non-sequitur remains, as ever, indeterminate. The poster's own DOGE holdings have reportedly depreciated to a level at which he cannot bring himself to inspect the account, a sentiment with which the entire retail cohort presumably evinces a rueful solidarity.",
+      "audio_url": "audio/2026-09-12/clip-biz-doge-space.mp3"
+    }
+  ]
 }

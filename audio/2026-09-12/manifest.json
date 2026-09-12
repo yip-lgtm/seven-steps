@@ -4,76 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-btc-gold-1",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs 黃金",
+      "id": "biz-condo-stuck",
+      "topic_en": "Stuck With a Condo",
+      "topic_zh": "加密貨幣上岸之後",
       "category": "trading",
-      "file": "clip-trade-btc-gold-1.mp3",
-      "bytes": 305268,
-      "chars": 256
+      "file": "clip-biz-condo-stuck.mp3",
+      "bytes": 328884,
+      "chars": 249
     },
     {
-      "id": "trade-oil-cramer-2",
-      "topic_en": "Oil $150 Warning",
-      "topic_zh": "油價 150 預警",
+      "id": "biz-oil-150",
+      "topic_en": "Oil $150 Is Reality",
+      "topic_zh": "油價150即將來臨",
       "category": "trading",
-      "file": "clip-trade-oil-cramer-2.mp3",
-      "bytes": 324276,
-      "chars": 246
+      "file": "clip-biz-oil-150.mp3",
+      "bytes": 359412,
+      "chars": 336
     },
     {
-      "id": "civil-slope-gi",
-      "topic_en": "Slope Survey vs GI",
-      "topic_zh": "斜坡調查 vs GI",
-      "category": "civil/structure",
-      "file": "clip-civil-slope-gi.mp3",
-      "bytes": 293748,
-      "chars": 277
+      "id": "biz-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold 10yr",
+      "topic_zh": "BTC定黃金十年",
+      "category": "trading",
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 331188,
+      "chars": 312
     },
     {
-      "id": "struct-loadpath",
-      "topic_en": "Load Path Logic",
-      "topic_zh": "荷載傳遞路徑",
-      "category": "civil/structure",
-      "file": "clip-struct-loadpath.mp3",
-      "bytes": 278772,
-      "chars": 255
-    },
-    {
-      "id": "tech-grok-update",
-      "topic_en": "Grok Nerfed",
-      "topic_zh": "Grok 變廢",
+      "id": "g-anthropic-quit",
+      "topic_en": "Anthropic Researcher Quits",
+      "topic_zh": "AI 研究員跳船",
       "category": "tech/ai",
-      "file": "clip-tech-grok-update.mp3",
-      "bytes": 286836,
-      "chars": 269
+      "file": "clip-g-anthropic-quit.mp3",
+      "bytes": 351348,
+      "chars": 354
     },
     {
-      "id": "hk-china-2nm",
-      "topic_en": "China 2nm Chip",
-      "topic_zh": "中國 2nm",
+      "id": "pol-china-2nm",
+      "topic_en": "China Hits 2nm",
+      "topic_zh": "中國2nm突破",
       "category": "hk/news",
-      "file": "clip-hk-china-2nm.mp3",
-      "bytes": 280500,
-      "chars": 233
-    },
-    {
-      "id": "fit-bulk-cut",
-      "topic_en": "Bulk vs Cut",
-      "topic_zh": "Bulk 定 Cut",
-      "category": "mma/fitness",
-      "file": "clip-fit-bulk-cut.mp3",
+      "file": "clip-pol-china-2nm.mp3",
       "bytes": 364596,
-      "chars": 265
+      "chars": 352
     },
     {
-      "id": "anime-soremachi",
-      "topic_en": "Soremachi Characters",
-      "topic_zh": "Soremachi 角色",
+      "id": "fit-twin-calorie",
+      "topic_en": "Twin Calorie Mystery",
+      "topic_zh": "孖生兄弟熱量",
+      "category": "mma/fitness",
+      "file": "clip-fit-twin-calorie.mp3",
+      "bytes": 354804,
+      "chars": 359
+    },
+    {
+      "id": "biz-doge-space",
+      "topic_en": "Doge to Space in 3 Days",
+      "topic_zh": "Doge太空三日",
       "category": "anime/culture",
-      "file": "clip-anime-soremachi.mp3",
-      "bytes": 303540,
-      "chars": 284
+      "file": "clip-biz-doge-space.mp3",
+      "bytes": 262068,
+      "chars": 254
     }
   ]
 }
