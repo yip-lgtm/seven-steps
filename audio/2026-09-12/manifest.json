@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-macro-1",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "比特幣 vs 黃金",
+      "id": "biz-condo-stuck",
+      "topic_en": "Stuck With Condo",
+      "topic_zh": "Condo困局",
       "category": "trading",
-      "file": "clip-trade-macro-1.mp3",
-      "bytes": 258612,
-      "chars": 235
+      "file": "clip-biz-condo-stuck.mp3",
+      "bytes": 366324,
+      "chars": 298
     },
     {
-      "id": "trade-oil-2",
-      "topic_en": "Oil Heading To 150",
-      "topic_zh": "油價 150 來了",
+      "id": "biz-oil-150",
+      "topic_en": "Oil $150 Coming",
+      "topic_zh": "油價150",
       "category": "trading",
-      "file": "clip-trade-oil-2.mp3",
-      "bytes": 258612,
-      "chars": 208
+      "file": "clip-biz-oil-150.mp3",
+      "bytes": 404916,
+      "chars": 311
     },
     {
-      "id": "civil-1",
-      "topic_en": "Slope And Soil Nailing",
-      "topic_zh": "斜坡同打樁",
-      "category": "civil/structure",
-      "file": "clip-civil-1.mp3",
-      "bytes": 236148,
-      "chars": 238
-    },
-    {
-      "id": "struct-2",
-      "topic_en": "RC Load Path Check",
-      "topic_zh": "RC 結構 load path",
-      "category": "civil/structure",
-      "file": "clip-struct-2.mp3",
-      "bytes": 234420,
-      "chars": 249
-    },
-    {
-      "id": "tech-ai-1",
-      "topic_en": "AI Taking Jobs",
-      "topic_zh": "AI 搶飯碗",
+      "id": "g-anthropic-quit",
+      "topic_en": "AI Researcher Quits",
+      "topic_zh": "AI研究員劈炮",
       "category": "tech/ai",
-      "file": "clip-tech-ai-1.mp3",
-      "bytes": 255156,
-      "chars": 253
+      "file": "clip-g-anthropic-quit.mp3",
+      "bytes": 320244,
+      "chars": 312
     },
     {
-      "id": "mma-fit-1",
-      "topic_en": "Bulk Or Cut",
-      "topic_zh": "肥仔信gym日",
+      "id": "pol-china-2nm",
+      "topic_en": "China 2nm Without EUV",
+      "topic_zh": "中國2nm",
+      "category": "hk/news",
+      "file": "clip-pol-china-2nm.mp3",
+      "bytes": 414708,
+      "chars": 340
+    },
+    {
+      "id": "fit-bulk-cut",
+      "topic_en": "Bulk vs Cut Cycle",
+      "topic_zh": "Bulk定Cut",
       "category": "mma/fitness",
-      "file": "clip-mma-fit-1.mp3",
-      "bytes": 365748,
-      "chars": 249
+      "file": "clip-fit-bulk-cut.mp3",
+      "bytes": 435444,
+      "chars": 280
     },
     {
-      "id": "anime-1",
-      "topic_en": "Late Night Anime",
-      "topic_zh": "睇動漫夜晚",
+      "id": "a-soremachi",
+      "topic_en": "Soremachi Ranking",
+      "topic_zh": "Soremachi",
       "category": "anime/culture",
-      "file": "clip-anime-1.mp3",
-      "bytes": 247092,
-      "chars": 251
+      "file": "clip-a-soremachi.mp3",
+      "bytes": 320820,
+      "chars": 319
+    },
+    {
+      "id": "biz-crypto-maid",
+      "topic_en": "Crypto Elf Maid Predictions",
+      "topic_zh": "Crypto Maid預言",
+      "category": "trading",
+      "file": "clip-biz-crypto-maid.mp3",
+      "bytes": 536820,
+      "chars": 305
     }
   ]
 }
