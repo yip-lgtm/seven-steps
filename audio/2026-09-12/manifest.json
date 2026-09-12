@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-12",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-oil-cramer",
+      "topic_en": "Oil to $150?",
+      "topic_zh": "油價要爆？",
+      "category": "trading",
+      "file": "clip-biz-oil-cramer.mp3",
+      "bytes": 312180,
+      "chars": 256
+    },
+    {
+      "id": "biz-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs Gold",
+      "category": "trading",
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 297780,
+      "chars": 290
+    },
+    {
+      "id": "biz-doge-launch",
+      "topic_en": "Doge to Space",
+      "topic_zh": "Doge衝天",
+      "category": "trading",
+      "file": "clip-biz-doge-launch.mp3",
+      "bytes": 249396,
+      "chars": 238
+    },
+    {
+      "id": "biz-time-elf",
+      "topic_en": "Crypto Price Predictions",
+      "topic_zh": "預言家又嚟",
+      "category": "trading",
+      "file": "clip-biz-time-elf.mp3",
+      "bytes": 586356,
+      "chars": 253
+    },
+    {
+      "id": "biz-condo-regret",
+      "topic_en": "Stuck With Condo",
+      "topic_zh": "返唔到轉頭",
+      "category": "trading",
+      "file": "clip-biz-condo-regret.mp3",
+      "bytes": 398580,
+      "chars": 307
+    },
+    {
+      "id": "tech-grok-update",
+      "topic_en": "Grok Update Sucks",
+      "topic_zh": "Grok廢咗",
+      "category": "tech/ai",
+      "file": "clip-tech-grok-update.mp3",
+      "bytes": 279924,
+      "chars": 291
+    },
+    {
+      "id": "tech-anthropic-quit",
+      "topic_en": "AI Researcher Quits",
+      "topic_zh": "AI末日論",
+      "category": "tech/ai",
+      "file": "clip-tech-anthropic-quit.mp3",
+      "bytes": 317940,
+      "chars": 310
+    },
+    {
+      "id": "pol-aoc-thread",
+      "topic_en": "AOC Controversy",
+      "topic_zh": "AOC又出招",
+      "category": "hk/news",
+      "file": "clip-pol-aoc-thread.mp3",
+      "bytes": 293748,
+      "chars": 272
+    },
+    {
+      "id": "pol-china-2nm",
+      "topic_en": "China 2nm Without EUV",
+      "topic_zh": "中國2nm",
+      "category": "hk/news",
+      "file": "clip-pol-china-2nm.mp3",
+      "bytes": 314484,
+      "chars": 280
+    },
+    {
+      "id": "fit-bulk-cut",
+      "topic_en": "When to Cut",
+      "topic_zh": "Bulk定Cut",
+      "category": "mma/fitness",
+      "file": "clip-fit-bulk-cut.mp3",
+      "bytes": 450420,
+      "chars": 298
+    },
+    {
+      "id": "fit-twin",
+      "topic_en": "Twin Calorie Mystery",
+      "topic_zh": "雙胞胎迷團",
+      "category": "mma/fitness",
+      "file": "clip-fit-twin.mp3",
+      "bytes": 345012,
+      "chars": 298
+    },
+    {
+      "id": "v-persona6",
+      "topic_en": "Persona 6 Leaks",
+      "topic_zh": "Persona 6爆料",
+      "category": "anime/culture",
+      "file": "clip-v-persona6.mp3",
+      "bytes": 327732,
+      "chars": 342
+    },
+    {
+      "id": "a-soremachi",
+      "topic_en": "Soremachi & Friends",
+      "topic_zh": "Soremachi周邊",
+      "category": "anime/culture",
+      "file": "clip-a-soremachi.mp3",
+      "bytes": 307572,
+      "chars": 283
+    }
+  ]
+}
