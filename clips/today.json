@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-oil-150",
+      "id": "trade-macro-1",
       "category": "trading",
-      "topic_zh": "油價衝150",
-      "topic_en": "Oil to 150",
-      "text_zh": "Cramer 又話油價會去150。🔥 呢啲人講嘅話邊次中過。但今次中東真係亂，WTI 都升緊。又係學費 😩 唔好再 long oil 啦大佬。",
-      "text_en_b1": "HAPPENING — OIL $150 IS ABOUT TO BE REALITY BROS. Jim Cramer posted on X that crude could hit $150 soon. Anons are split: some say it's hopium, others point to real supply risk in the Middle East. Either way, oil is already ripping this week and energy stocks are green again.",
-      "source_url": "https://boards.4chan.org/biz/thread/62673203",
-      "source_hint": "/biz/ thread quoting Jim Cramer on $150 oil",
+      "topic_zh": "比特幣 vs 黃金",
+      "topic_en": "Bitcoin vs Gold",
+      "text_zh": "十年前你揸一樣嘢，揀BTC定黃金？黃金老嘢穩陣啲，BTC就係digital gold。又係選擇題lol 我自己就All-in左prop firm。🙏",
+      "text_en_b1": "If you had to hold only one asset for the next 10 years, would you pick Bitcoin or gold? Gold is the old safe choice, while Bitcoin is often called digital gold. Anons on /biz/ are arguing about which one is better. /biz/ thread today.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "/biz/ thread debating Bitcoin vs gold as a 10-year hold",
       "signal": {
-        "asset": "XAU",
+        "asset": "BTC",
         "direction": "long",
         "conviction": "medium",
-        "time_horizon": "weeks",
+        "time_horizon": "years",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP cites Cramer's $150 oil call amid Middle East tension; energy/oil thesis implies hard-asset hedge via gold"
+        "rationale": "OP frames Bitcoin as a long-term hold versus gold, implicitly bullish on BTC over a 10-year horizon"
       },
-      "text_en_b2": "BREAKING: OIL COULD HIT $150 AND NOBODY'S PAYING ATTENTION. Jim Cramer dropped a post on X suggesting crude is heading towards $150, and /biz/ is absolutely losing it. While some anons are brushing it off as hopium, others point to genuine supply-side risk brewing in the Middle East. Although Cramer's track record is pretty hit-or-miss, WTI is already ripping this week and energy stocks are firmly back in the green.",
-      "text_en_c1": "The prospect of crude oil breaching $150 is once again doing the rounds, with Jim Cramer publicly suggesting on X that the benchmark could approach that level sooner than markets anticipate. While seasoned traders remain sceptical — pointing out that his calls have historically been anything but reliable — there is a grudging acknowledgment that Middle Eastern supply disruptions could lend the thesis some traction. WTI has already been climbing throughout the week, and energy equities are firmly back in positive territory, regardless of whether the prognosticator ultimately proves correct.",
-      "text_en_c2": "Jim Cramer has once again taken to X to proclaim that crude is destined for $150, a forecast that, given his track record of conspicuous misfires, would normally be dismissed outright. Yet this time the Middle East situation appears genuinely combustible, with WTI already posting a meaningful rally this week and energy names greening across the board. Anons remain divided: the permabears sniff hopium and point to decades of failed calls, while others note that supply disruption is no longer a theoretical risk but an observable reality. For those tempted to reload longs, the tuition costs have historically been punitive. Proceed with the caveat that every prior Cramer breakout prediction has eventually met the same ignominious end.",
-      "audio_url": "audio/2026-09-12/clip-biz-oil-150.mp3"
+      "text_en_b2": "If you were forced to hold a single asset for the next ten years, would you go with Bitcoin or gold? Gold remains the classic safe haven that has weathered countless storms, whereas Bitcoin is increasingly pitched as digital gold for the tech-savvy crowd. Anons over on /biz/ are once again tearing each other apart over which pick actually wins long-term. At the end of the day, I went all-in on a prop firm challenge instead and I am not looking back.",
+      "text_en_c1": "Were one compelled to allocate capital to a single asset for the coming decade, the perennial debate between Bitcoin and gold would resurface with renewed vigour. Gold, the time-honoured store of value, offers a provenance of stability stretching back millennia, whereas Bitcoin — frequently dubbed digital gold — promises asymmetric upside, albeit accompanied by profound volatility. The thread on /biz/ has, predictably, bifurcated into maximalists and goldbugs, each marshalling historical precedent and chartist conviction alike. Personally, I have eschewed the binary altogether, having committed my capital to a proprietary trading firm, where the firm's risk parameters govern my exposure rather than the vicissitudes of either market.",
+      "text_en_c2": "Forced to commit a single position for the coming decade, the perennial question resurfaces on /biz/: Bitcoin or gold? Gold, the venerable store of value refined over millennia, is widely regarded as the more conservative allocation, whereas Bitcoin, notwithstanding its volatility, has been elevated by its proponents to the status of digital gold—an asset whose scarcity is algorithmic rather than geological. The thread today devolves, predictably, into the familiar partisan skirmish between permabulls dismissing the yellow metal as a relic and goldbugs decrying crypto as a speculative fever dream. I, for my part, have eschewed both in favour of allocating capital to a proprietary trading firm, though whether that constitutes prudence or merely a different species of hubris remains, charitably, an open question.",
+      "audio_url": "audio/2026-09-12/clip-trade-macro-1.mp3"
     },
     {
-      "id": "biz-doge-space",
+      "id": "trade-oil-2",
       "category": "trading",
-      "topic_zh": "Doge衝太空",
-      "topic_en": "Doge to space",
-      "text_zh": "Doge 三日內衝太空。🚀 又係呢種 post，每次都係 pump 再 dump。今次可能真？ape 細注 ok，唔好 all in，記住上次 SNL 嘅教訓。🙏",
-      "text_en_b1": "Doge goes to fucking space in 3 days and you're not buying. If this thing explodes it's still gonna move up, so why not ape a bit, then sell before it becomes SNL 2.0? Or maybe it will just restart the hype cycle again. Either way, three days. /biz/ is split, some are loading, some are laughing.",
-      "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "/biz/ Doge pump thread with SNL comparison",
+      "topic_zh": "油價 150 來了",
+      "topic_en": "Oil Heading To 150",
+      "text_zh": "Cramer話油價可能上150美金。CFD又爆倉區😭 真係又係學費。MACD睇緊，all-in就死。ok 繼續返工地盤。",
+      "text_en_b1": "Cramer posted on X saying oil at $150 is about to be reality. The /biz/ thread is reacting hard. Some anons say this is the setup to go long crude futures or energy CFDs. Others say it is a fake-out headline.",
+      "source_url": "https://boards.4chan.org/biz/thread/62673203",
+      "source_hint": "/biz/ thread on Cramer tweet about oil hitting $150",
       "signal": {
-        "asset": "DOGE",
+        "asset": "OIL",
         "direction": "long",
         "conviction": "low",
-        "time_horizon": "days",
+        "time_horizon": "weeks",
         "entry_zone": "current",
-        "target": null,
+        "target": "150",
         "stop": null,
-        "rationale": "OP suggests small long with quick exit, but timing-based hype trade with no level — low conviction scalp"
+        "rationale": "OP shares Cramer's bullish oil call at $150, thread sentiment leans long crude but with meme-tier conviction"
       },
-      "text_en_b2": "DOGE TO FUCKING SPACE IN THREE DAYS. Look, if this thing genuinely explodes it's still going to rip higher first, so why not throw a small position at it and take profits before it turns into SNL 2.0? That said, posts like these show up every single cycle, and nine times out of ten they end in tears. Whether we're witnessing the start of a fresh hype cycle or another classic pump-and-dump remains to be seen, but the board is completely split.",
-      "text_en_c1": "The familiar refrain that Dogecoin is destined for the stratosphere within seventy-two hours has resurfaced once more on /biz/, and reactions remain characteristically divided. Veteran anons will recognise the pattern: an initial pump, a euphoric chorus of true believers, followed inevitably by a brutal retrace that punishes the latecomers. Yet if the asset were to break out convincingly, even a modest position could yield returns before the inevitable SNL 2.0 dénouement. Whether this constitutes a genuine paradigm shift or merely the latest instalment of cyclical meme-coin theatrics remains, as ever, anyone's guess.",
-      "text_en_c2": "The familiar refrain returns: Dogecoin shall ascend to improbable stratospheric valuations within seventy-two hours, and the perpetually incredulous are urged to position accordingly. The reflexive response, conditioned by countless prior pump-and-dump cycles terminating in tears, is to scoff and move on. And yet, as several anons note with no small measure of irony, even a failed breakout typically produces enough upward momentum to reward a modest speculative position, provided one exits before the post-Nasdaq-listing SNL-style collapse. Others argue the broader meme-coin narrative is already morphing into its next iteration regardless. The board is predictably fractured between loaders gleefully apeing in and skeptics howling at what they perceive as terminal cope. Either way, three days.",
-      "audio_url": "audio/2026-09-12/clip-biz-doge-space.mp3"
+      "text_en_b2": "Cramer dropped a post on X claiming that oil hitting 150 dollars a barrel is no longer some fringe fantasy but a near-term reality. The /biz/ thread is absolutely on fire, with some anons arguing this is the perfect setup to go long on crude futures, while others insist it is just another fake-out headline designed to lure retail traders into another CFD blow-up. MACD is flashing a cautious signal, so I am staying on the sidelines for now.",
+      "text_en_c1": "Cramer, never one to understate a directional thesis, recently took to X to declare that crude oil reaching the seemingly audacious level of $150 per barrel is no longer a hypothetical but an imminent reality. The reaction on /biz/ was immediate and visceral, with anons weighing whether to initiate long positions in crude futures or leveraged energy CFDs, while a more cautious contingent dismissed the proclamation as little more than headline-driven theatre. Having witnessed my own account obliterated on similar calls, I treat MACD divergence with the reverence it deserves before committing capital, lest a premature all-in prove terminal.",
+      "text_en_c2": "Cramer has once again taken to X to proclaim that crude at one hundred and fifty dollars per barrel is no longer a hypothetical tail risk but an imminent reality, sending the /biz/ thread into its customary state of apoplectic frenzy. The contingent advocating a long position in futures contracts or leveraged energy CFDs interprets the call as a generational entry point, while sceptics dismiss it as yet another headline-driven fake-out engineered to part retail traders from their margin. The MACD, as ever, is being scrutinised with quasi-religious intensity, and the consensus among the more battle-scarred participants is unambiguous: anyone contemplating an all-in position at this juncture is, to put it indelicately, consigning their capital to the bonfire. Back to the trading desk it is, then.",
+      "audio_url": "audio/2026-09-12/clip-trade-oil-2.mp3"
     },
     {
-      "id": "biz-condo-22",
-      "category": "civil-structure",
-      "topic_zh": "Condo困局",
-      "topic_en": "Stuck with Condo",
-      "text_zh": "2021 靠狗幣發咗達，22歲買咗個 condo，$230K。🧐 依家27歲返工還卡數。人生循環 work-consume-repeat。同我地工程佬一樣：搵錢、還債、睇住個 mortgage。🙏",
-      "text_en_b1": "Stuck with a Condo. In 2021 when I was 22 I made a bunch of random crypto money from dogecoin. Lived for two years with no job, perma vacation, dropped out of school and bought a condo for $230K. Eventually the money ran out. Went back to school, graduated, and now make $100K living in my condo.",
+      "id": "civil-1",
+      "category": "civil/structure",
+      "topic_zh": "斜坡同打樁",
+      "topic_en": "Slope And Soil Nailing",
+      "text_zh": "今日做緊斜坡condition survey，soil nail design review，factor of safety要check返。日曬雨淋。Tommy叫我順便睇埋drainage，真係多嘢做😩 考牌都未溫完書。",
+      "text_en_b1": "On site today doing a slope condition survey and checking the soil nailing design. Factor of safety needs to be verified before sign-off. Tommy also asked me to review the drainage layout at the same time. It is a lot of work for one day.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ condo regret story tied to 2021 dogecoin",
+      "source_hint": "General civil engineering context tied to OP's site-day frustration",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trading setup, lifestyle/finance observation post"
+        "rationale": "Site work observation, no trade"
       },
-      "text_en_b2": "Stuck with a Condo at 27. Back in 2021 I struck it lucky on some random dogecoin gamble at 22, quit school, and blew two years travelling while spending absolutely nothing on rent. With the profits I put a down payment on a $230K condo, which felt like winning the lottery at the time. Eventually the money dried up, I went back to school, graduated, and now I'm pulling $100K a year living in the place I once considered a trophy.",
-      "text_en_c1": "Having stumbled into modest crypto wealth courtesy of Dogecoin in 2021, I committed the cardinal sin of mistaking luck for acumen. At twenty-two I abandoned my studies, embarked on an extended period of unemployed leisure, and purchased a condominium for $230,000. Predictably, the capital evaporated; I subsequently returned to university, graduated, and now earn approximately $100,000 annually while servicing both student loans and lingering credit-card debt. At twenty-seven, I find myself locked into an inescapable loop of labour, consumption, and the inevitable mortgage payment, with no obvious exit strategy.",
-      "text_en_c2": "The archetypal /biz/ cautionary tale unfolds: aged twenty-two in 2021, the poster stumbled into a windfall of indeterminate provenance via Dogecoin, whereupon he proceeded to abandon his studies, embark upon a two-year perma-vacation, and commit to a condominium purchase valued at $230K. The inevitability of arithmetic eventually reasserted itself when the funds evaporated. Now twenty-seven and gainfully employed at a $100K salary, he finds himself marooned within his own asset, burdened simultaneously by student loans and revolving credit obligations, trapped in the Sisyphean cycle of work, consume, repeat. The condo, once emblematic of liberated living, has calcified into a gilded cage whose mortgage payments constitute a monthly confession of premature financial exuberance.",
-      "audio_url": "audio/2026-09-12/clip-biz-condo-22.mp3"
+      "text_en_b2": "On site today grinding through a slope condition survey while simultaneously reviewing the soil nailing design, and the factor of safety still needs a thorough cross-check before I can sign anything off. Although the work itself is pretty routine, Tommy has piled on extra tasks by asking me to take a look at the drainage layout as well, which means I am basically juggling two jobs at once. Pouring rain, blazing sun, and my FE exam revision is still gathering dust on the desk.",
+      "text_en_c1": "On site today conducting a comprehensive slope condition survey, with a concurrent soil nailing design review awaiting my attention. The factor of safety calculations, which must demonstrably exceed the stipulated threshold prior to formal sign-off, demand meticulous cross-referencing against the geotechnical report. Tommy, evidently operating under the assumption that my schedule permits lateral assignments, has also requested a drainage layout appraisal — a not-insubstantial addition to an already demanding itinerary. Under the punishing sun and intermittent rainfall, I find myself yearning for the sanctuary of an office, particularly given that my professional licensure examination preparation remains, embarrassingly, incomplete.",
+      "text_en_c2": "Spent the better part of the morning conducting a slope condition survey, methodically cataloguing superficial defects, measuring inclination gradients, and reviewing the soil nailing design against the geotechnical specifications. The factor of safety, that indispensable metric governing the margin between resisting and driving forces, requires thorough verification before any consultant can reasonably affix their signature to the submission. Tommy, with the serene optimism of a man unburdened by my deadlines, then requested—almost as an afterthought—that I audit the drainage layout as well, since, in his words, the storm drains have been 'looking a bit lively' after the recent downpours. The FE examination, meanwhile, remains an unopened chapter on my desk, taunting me with its unwavering indifference to the demands of fieldwork.",
+      "audio_url": "audio/2026-09-12/clip-civil-1.mp3"
     },
     {
-      "id": "biz-btc-vs-gold",
-      "category": "civil-structure",
-      "topic_zh": "BTC vs 黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "十年長揸，揀 BTC 定 XAU？🤔 我兩樣都揸緊。BTC 倍數高但波動大，黃金穩陣但慢。工程佬儲錢優先，黃金穩啲。但 prop firm 又想我 all in BTC。😭",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? Anons are arguing scarcity, halving cycles, central bank buying, ETF flows, and store-of-value theory. Classic /biz/ thread, no real answer.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ BTC vs gold 10-year hold debate",
+      "id": "struct-2",
+      "category": "civil/structure",
+      "topic_zh": "RC 結構 load path",
+      "topic_en": "RC Load Path Check",
+      "text_zh": "返到office對住張beam-column layout圖，load path要行清楚，RC detail要check reinforcement同concrete cover。FE exam啱啱溫到這chapter lol。🙏",
+      "text_en_b1": "Sitting in the office checking a reinforced concrete beam and column layout. I need to follow the load path from slab to beam to column, then verify the steel reinforcement and concrete cover. It is exactly the kind of detail the FE exam asks about.",
+      "source_url": "https://boards.4chan.org/biz/thread/62678641",
+      "source_hint": "Structural RC check tied to FE exam revision",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Long-term philosophical debate, no actionable trade"
+        "rationale": "Study and office work observation, no trade"
       },
-      "text_en_b2": "BITCOIN VS GOLD: THE TEN-YEAR GRUDGE MATCH. If you had to lock up capital in only one of these for the next decade, which would actually come out on top? Anons are throwing around scarcity arguments, halving cycles, central bank accumulation, ETF flows, and the usual store-of-value debate. Bitcoin clearly offers higher multiples, although that volatility cuts both ways, while gold tends to creep up reliably without ever truly mooning.",
-      "text_en_c1": "The perennial /biz/ question resurfaces: should one commit to a decade-long position in Bitcoin or in physical gold? Proponents of the former emphasise programmed scarcity, the quadrennial halving cycle, persistent ETF inflows, and the asymmetric upside inherent in a still-emerging asset class. Defenders of the latter counter that centuries of monetary history confer an unmatched store-of-value pedigree, free from the existential risks of regulatory backlash or technological obsolescence. No consensus emerges, predictably, though the thread offers a useful synthesis of competing narratives for those willing to read between the lines.",
-      "text_en_c2": "The perennial /biz/ theological dispute resurfaces in its classic formulation: over a ten-year horizon, the rational allocator must choose between Bitcoin and gold, and defend the selection with doctrinal rigour. The faithful on each side marshal their customary eschatology. BTC partisans invoke programmed scarcity, the quadrennial halving, and ETF-amplified demand flows that render gold's millennia-old store-of-value narrative quaint. Gold advocates counter with sovereign accumulation trends and the inconvenient observation that no central bank balance sheet currently denominates anything in satoshis. The debate, as ever, devolves into an unsolvable syllogism whose only genuine conclusion is that a diversified position obviates the need for resolution. Classic /biz/ territory, wherein consensus signals only that the thread has exhausted itself.",
-      "audio_url": "audio/2026-09-12/clip-biz-btc-vs-gold.mp3"
+      "text_en_b2": "Back at the office staring at a reinforced concrete beam-column layout, and I need to trace the load path carefully from slab right through to the foundation. The RC detailing itself looks alright, but the steel reinforcement spacing and concrete cover still need a meticulous review before I commit anything. It is funny because this exact chapter just happened to come up in my FE exam revision yesterday, so at least the theory is still fresh in my head.",
+      "text_en_c1": "Back at the office, I find myself engrossed in a reinforced concrete beam-and-column layout that warrants a methodical load-path verification — tracing tributary forces from slab through beam to column before any subsequent detailing can be deemed reliable. The reinforcement schedule and concrete cover specifications demand rigorous scrutiny, given that minor discrepancies in either parameter can precipitate disproportionately adverse structural consequences. Curiously, the chapter I had been revising for my Fundamentals of Engineering examination earlier that very day dovetailed precisely with these practical considerations, lending the theoretical preparation an immediate, tangible salience that I had not anticipated.",
+      "text_en_c2": "Back at the office and hunched over a reinforced concrete beam-column layout drawing whose linework suggests it was drafted in some bygone era of CAD orthodoxy. The load path—that is, the trajectory by which gravitational demands migrate from slab through beam to column and ultimately into the foundation—must be traced with deliberate care if one is to avoid the embarrassment of a detailing error surfacing at the most inopportune juncture. Reinforcement schedules demand verification against bending moment envelopes, and concrete cover requirements, often neglected until the resident engineer raises an eyebrow, must be cross-checked against the relevant code provisions. Curiously, the chapter I had been revising for the FE examination the previous evening addressed precisely this constellation of minutiae, a small mercy I shall not soon take for granted.",
+      "audio_url": "audio/2026-09-12/clip-struct-2.mp3"
     },
     {
-      "id": "g-anthropic-quit",
-      "category": "tech-ai",
-      "topic_zh": "AI研究員劈炮",
-      "topic_en": "AI researcher quits",
-      "text_zh": "Anthropic 研究員走人，驚 AI 自己 upgrade 自己 🤯。我哋呢啲 engineer 都驚，blue collar 先死，跟住 white collar。靠 AI 續命，但 AI 自己都驚 AI。wtf。",
-      "text_en_b1": "ANTHROPIC RESEARCHER QUITS over 'out of control' fears. Jacob Coxon, a researcher who trains new AI models by feeding them huge amounts of data, said Tuesday he is leaving the company. He does not want to take part in the industry-wide rush to build AI systems that can improve themselves. He worries such systems could spiral out of control and destroy humanity.",
-      "source_url": "https://boards.4chan.org/g/thread/109769311",
-      "source_hint": "/g/ thread on Anthropic researcher resigning over AI self-improvement fears",
+      "id": "tech-ai-1",
+      "category": "tech/ai",
+      "topic_zh": "AI 搶飯碗",
+      "topic_en": "AI Taking Jobs",
+      "text_zh": "/g/有人問：仲有咩嘢係AI做唔到？ex-Meta researcher話AI已經可以摧毀成個國家。我個civil engineer job暫時安全，但white collar真係凍過水🧐 靠AI續命中。",
+      "text_en_b1": "An ex-Meta researcher posted on /g/ that OpenAI could already cripple the entire country by removing the alignment limits on its top models. Anons are asking what jobs humans can still do better than the newest AI. It is a scary thread to read at night.",
+      "source_url": "https://boards.4chan.org/g/thread/109785699",
+      "source_hint": "/g/ thread on ex-Meta researcher warning about AI alignment",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,46 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "AI safety news, no trade setup"
+        "rationale": "AI anxiety observation, no trade"
       },
-      "text_en_b2": "ANTHROPIC RESEARCHER WALKS OUT OVER 'OUT OF CONTROL' AI FEARS. Jacob Coxon, who has spent years training new models by feeding them colossal datasets, announced on Tuesday that he's done with the company. His reason is straightforward enough: he refuses to be part of the industry's headlong rush towards building AI systems capable of upgrading themselves. He worries that once a model can iteratively rewrite its own weights, the whole thing could spiral well beyond anyone's ability to contain.",
-      "text_en_c1": "A researcher at Anthropic has tendered his resignation over what he characterises as runaway, uncontrollable artificial intelligence. Jacob Coxon, whose remit involves training nascent models on colossal corpora of data, announced on Tuesday that he could no longer in good conscience participate in what he regards as a frenzied, industry-wide race towards self-improving systems. His specific concern is that recursively autonomous agents, once unleashed, could depart irreversibly from human oversight and precipitate catastrophic, potentially civilisation-ending consequences — a sobering caution from someone intimately acquainted with the underlying engineering.",
-      "text_en_c2": "Anthropic researcher Jacob Coxon has tendered his resignation, citing profound disquiet over the industry's pell-mell pursuit of self-improving artificial intelligence. As someone professionally tasked with training successive model generations by ingesting vast corpora of data, Coxon occupies an unusually informed vantage point from which to observe the trajectory. His stated concern is not the familiar caricature of sci-fi apocalypse, but rather the sober possibility that recursive self-enhancement, once initiated beyond a certain threshold of capability, may prove catastrophically difficult to constrain. His departure crystallises a paradox now haunting the sector: those best positioned to perceive the risks are precisely those whose labour sustains the accelerating capability curve. The engineer, comfortable in routine, contemplates an unsettling horizon.",
-      "audio_url": "audio/2026-09-12/clip-g-anthropic-quit.mp3"
+      "text_en_b2": "A former Meta researcher posted a pretty chilling take on /g/, arguing that if OpenAI stripped the alignment guardrails from its flagship models, the fallout could potentially cripple an entire nation overnight. Anons are now scrambling to figure out which white-collar professions still have any meaningful edge over the latest generation of AI. As a civil engineer, my job feels relatively safe for the moment, although I am quietly leaning on AI tools more and more to get through the day.",
+      "text_en_c1": "On /g/, an ex-Meta researcher has ignited a particularly unsettling discourse by suggesting that the most capable AI models, were their alignment constraints abruptly lifted, could already inflict systemic damage upon a nation's critical infrastructure. Anons, predictably, have pivoted to the question du jour: what remains of human economic value when artificial intelligence can ostensibly perform the preponderance of cognitive labour? As a civil engineer, my own employment prospects appear, for the moment, reasonably insulated — yet the broader white-collar erosion he describes scarcely permits complacency, and one suspects the reprieve may prove temporary.",
+      "text_en_c2": "A former Meta researcher, posting on /g/, has advanced the rather arresting proposition that OpenAI could, by simply relinquishing the alignment constraints currently imposed upon its most capable models, inflict crippling damage upon the nation's critical infrastructure. The thread that has ensued oscillates between existential alarm and sardonic resignation, with anons earnestly cataloguing those occupations—plumbing, electrical work, civil engineering, the trades generally—that remain, for the moment at least, beyond the reach of even the most sophisticated transformer architectures. White-collar cognitarians are, by contrast, contemplating their curricula vitae with mounting unease. I, however, derive no small comfort from the observation that reinforced concrete detailing continues to resist automation with admirable stubbornness, and shall continue to lean upon AI as a research adjunct rather than a career obituary.",
+      "audio_url": "audio/2026-09-12/clip-tech-ai-1.mp3"
     },
     {
-      "id": "pol-china-2nm",
-      "category": "hk-news",
-      "topic_zh": "中國2nm突破",
-      "topic_en": "China 2nm breakthrough",
-      "text_zh": "中國唔使 EUV 都做到 2nm。🇨🇳 4chan 佬話「冇得鬥」。我哋做 engineering 都知呢個唔簡單，TSMC 都未敢講 2nm 量產。對香港 semiconductor 行有冇影響？睇住先。🧐",
-      "text_en_b1": "CHINA HAS REACHED 2NM WITHOUT EVEN USING EUV. IT IS IMPOSSIBLE TO COMPETE WITH THE CHINESE SUPERMAN. /pol/ anons are losing it, saying the West is finished and ASML is dead money. Some push back and call it cope, pointing out that yields and mass production matter more than a single demo. Either way the chip war just got louder.",
-      "source_url": "https://boards.4chan.org/pol/thread/542442826",
-      "source_hint": "/pol/ thread on China 2nm chip claim",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Geopolitical news headline, no actionable setup"
-      },
-      "text_en_b2": "CHINA CRACKS 2NM WITHOUT EUV AND /POL/ IS LOSING ITS MIND. Anons are popping champagne, declaring the West finished and ASML basically dead money overnight. Pushback is mounting, though, with plenty pointing out that a single demo chip means little if yields are trash and mass production is still years out. TSMC itself hasn't even committed to 2nm volume manufacturing yet, so let's pump the brakes before we crown anyone.",
-      "text_en_c1": "Reports that Chinese semiconductor fabricators have demonstrated functional 2-nanometre chips without recourse to ASML's extreme-ultraviolet lithography platforms have sent ripples through the industry. On /pol/, the consensus among posters is that Western supremacy is effectively over and that ASML's equity is doomed; this assessment is, predictably, rather reductive. Practitioners in the field recognise that a single prototype bears little resemblance to high-yield mass production, a distinction TSMC itself has yet to resolve at the 2nm node. The implications for Hong Kong's semiconductor ecosystem, while potentially profound, remain to be substantiated by sustained commercial output.",
-      "text_en_c2": "Reports emanating from Chinese semiconductor laboratories suggest that sub-2nm-class nodes have been demonstrated without recourse to ASML's extreme ultraviolet lithography, an achievement that, if independently verified, would constitute a genuine inflection point in the technology contest. /pol/ predictably erupts, with some posters declaring the West strategically obsolete and ASML a corpse in waiting. More measured voices counter that a singular proof-of-concept, however photogenic, is worlds apart from sustained high-yield mass production, a distinction TSMC itself has yet to publicly demonstrate at this node. The geopolitical ramifications, particularly for downstream industries in Hong Kong and the broader region, remain contingent upon manufacturing maturity rather than headline-grabbing technical disclosures. Observers are advised to maintain epistemic humility.",
-      "audio_url": "audio/2026-09-12/clip-pol-china-2nm.mp3"
-    },
-    {
-      "id": "fit-skinnyfat",
-      "category": "mma-fitness",
-      "topic_zh": "Skinnyfat循環",
-      "topic_en": "Escaping skinnyfat",
-      "text_zh": "83kg fat → cut 到 65kg skinnyfat → 80kg 重新 bulk。🏋️ 卧推 1 plate，深蹲 90kg，硬拉 120kg。同我而家好似。但未夠肥仔信嗰個 level。lol",
-      "text_en_b1": "How do I know when I've bulked enough to cut and escape skinnyfat? In May 2025 I was 83kg fat, almost no muscle. I cut aggressively until mid-April 2026 and got down to 65kg skinnyfat, struggling to bench even the 20kg bar. Then I lean bulked up till now, back to 80kg.",
+      "id": "mma-fit-1",
+      "category": "mma/fitness",
+      "topic_zh": "肥仔信gym日",
+      "topic_en": "Bulk Or Cut",
+      "text_zh": "肥仔信今日又whatsapp叫我去做gym。我自己80kg，bench 1 plate，squat 90kg，deadlift 120kg。flat到睇唔出有muscle😩 應該cut定繼續bulk？wtf。",
+      "text_en_b1": "An anon on /fit/ asks how to know when he has bulked enough to cut. He went from 83kg fat, cut to 65kg skinnyfat, then lean bulked back to 80kg. His lifts now are bench 3x8 at one plate, squat 3x6 at 90kg, deadlift 3x8 at 120kg. He still looks flat.",
       "source_url": "https://boards.4chan.org/fit/thread/77510161",
-      "source_hint": "/fit/ bulk-cut cycle thread with specific lift numbers",
+      "source_hint": "/fit/ thread about when to stop bulking and start cutting",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness log post, no trade"
+        "rationale": "Fitness question observation, no trade"
       },
-      "text_en_b2": "How do I actually know when I've bulked enough to cut and finally escape skinnyfat? Back in May 2025 I was a soft 83kg with virtually no muscle underneath, so I cut aggressively until mid-April 2026 and bottomed out at 65kg, where I could barely bench the empty 20kg bar. Since then I've been lean bulking and I'm back up to 80kg. My numbers have climbed with me: flat bench 3x8 at one plate, squat 3x6 at 90kg, and deadlift 3x8 at 120kg.",
-      "text_en_c1": "The perpetual dilemma of the recovering skinnyfat trainee is determining precisely when caloric surplus has done sufficient work to justify another cut. By May 2025 I was a bloated eighty-three kilograms with negligible musculature; an aggressive deficit brought me, by April 2026, to a gaunt sixty-five — at which point even the unladened twenty-kilogram barbell felt insurmountable on the bench. A subsequent lean bulk has restored me to eighty kilograms, and my working numbers have improved markedly: flat bench three by eight at one plate, squat three by six at ninety, and deadlift three by eight at one-twenty.",
-      "text_en_c2": "The eternal skinnyfat quandary presents itself once more, as the poster seeks empirical guidance on when surplus accumulation ought to terminate in favour of a cutting phase. His trajectory is instructively dramatic: from a substantially overweight eighty-three kilograms in May 2025, virtually devoid of meaningful muscle tissue, he subjected himself to an aggressive caloric deficit until mid-April 2026, emerging at a gaunt sixty-five kilograms and struggling to press even the unweighted twenty-kilogram bar. Subsequent lean bulking has restored him to eighty kilograms, whereupon his current working weights stand at a one-plate bench for three sets of eight, a ninety-kilogram squat for triples of six, and a one-hundred-twenty-kilogram deadlift. The metrics, while respectable, evidently remain insufficient to dispel lingering dysmorphia.",
-      "audio_url": "audio/2026-09-12/clip-fit-skinnyfat.mp3"
+      "text_en_b2": "An anon on /fit/ is stuck in that classic bulk-or-cut dilemma and wants a clear signal on when he has finally piled on enough muscle to start cutting. His journey so far has been a rollercoaster: he kicked off at 83 kilos and fairly overweight, then cut all the way down to a skinnyfat 65, before lean bulking his way back up to a solid 80.",
+      "text_en_c1": "On /fit/, an anon posed the eternally vexing question of how one ought to determine when a bulk has sufficiently concluded and a cut ought to commence. His trajectory is instructive: an initial 83 kilograms of what might charitably be termed adipose tissue preceded an aggressive cut to a rather gaunt 65 kilograms, after which a methodical lean bulk restored him to his present 80 kilograms. His current lifts — a bench press of one plate for three sets of eight, a squat of 90 kilograms across three sets of six, and a deadlift of 120 kilograms for three sets of eight — suggest respectable strength, yet aesthetically he remains,…",
+      "text_en_c2": "The /fit/ thread poses the eternal quandary of the intermediate lifter: how does one ascertain, with any reasonable confidence, the optimal juncture at which a lean bulk ought to yield to a cutting phase? The poster in question embarked upon his journey at a somewhat rotund eighty-three kilograms, endured the requisite caloric penance to arrive at a rather gaunt sixty-five, and has subsequently lean-bulked his way back to a presentable eighty. His current lifts—a bench press of one plate for three sets of eight, a squat of ninety kilograms for three sets of six, and a deadlift of one hundred and twenty kilograms for three sets of eight—suggest commendable adherence to progressive overload.",
+      "audio_url": "audio/2026-09-12/clip-mma-fit-1.mp3"
     },
     {
-      "id": "a-soremachi",
-      "category": "anime-culture",
-      "topic_zh": "Soremachi閒聊",
-      "topic_en": "Soremachi & Friends",
-      "text_zh": "石黑自己排自己 manga 角色，穿泳衣繪圖 lol。Ebi-chan 係佢小學初戀原型。🧐 我而家溫 FE 都係咁，靠 YouTube 陪自己。btw Gundam 00 第二季幾時出。",
-      "text_en_b1": "Soremachi & Friends. Ishiguro ranks his favourite characters from his own manga, draws them in swimsuits, and also talks about random stuff. Tfw Kon-senpai isn't in but her SD incarnation from that gag manga is. Ebi-chan is based on his first crush from elementary school. Classic comfy /a/ stream content for the night.",
+      "id": "anime-1",
+      "category": "anime/culture",
+      "topic_zh": "睇動漫夜晚",
+      "topic_en": "Late Night Anime",
+      "text_zh": "返到屋企一個人，又開Netflix睇動漫。睇下Soremachi同朋友嘅新一集lol。30歲仲睇動漫，廢柴確認。但開心lol。👍",
+      "text_en_b1": "Ishiguro ranked his favourite characters from his own manga Soremachi and drew them in swimsuits. He also talked about random stuff, like how Ebi-chan is based on his first crush from elementary school. It is a nice chill thread for late night on /a/.",
       "source_url": "https://boards.4chan.org/a/thread/290637577",
-      "source_hint": "/a/ Ishiguro Soremachi stream discussion",
+      "source_hint": "/a/ thread on Soremachi author ranking his own characters",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -188,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime culture chat, no trade"
+        "rationale": "Anime chill observation, no trade"
       },
-      "text_en_b2": "Soremachi & Friends is peak comfort content for a late-night /a/ stream. Ishiguro spends the episode ranking his favourite characters from his own manga, sketches them in swimsuits, and drifts into tangents about basically anything. Tfw Kon-senpai gets snubbed from the main ranking, although her SD version from that gag spinoff makes a cameo, which is honestly the best consolation prize.",
-      "text_en_c1": "Ishiguro, evidently besotted with his own creations, has taken to ranking his favourite characters from the Soremachi & Friends manga and illustrating them in various states of swimwear — a display of authorial indulgence that the faithful adore. Disappointingly, Kon-senpai herself is absent, though her super-deformed counterpart from the spin-off gag comic makes a cameo. Ebi-chan, meanwhile, is revealed to be modelled upon his elementary-school infatuation. Classic, unassuming /a/ stream content: the sort of low-stakes, nostalgic viewing that pairs perfectly with rewatching Fire Emblem and awaiting any news of Gundam 00's second season.",
-      "text_en_c2": "During a characteristically meandering late-night broadcast, mangaka Ishiguro indulged in the time-honoured creative prerogative of ranking his own creations, even rendering them in swimsuits for the audience's evident delectation. The conspicuous absence of Kon-senpai proper was partially mitigated by the inclusion of her super-deformed counterpart from the spin-off gag manga, a concession that satisfied few. More unexpectedly, Ishiguro disclosed that Ebi-chan, long rumoured to be autobiographical, is indeed modelled upon his elementary-school first crush, a revelation promptly metabolised by viewers into intricate shipping discourse. The stream drifted amiably into nostalgia, Fire Emblem reminiscences, and the perpetually unresolved question of when Gundam 00's second season might materialise. Par for the comfortable /a/ course.",
-      "audio_url": "audio/2026-09-12/clip-a-soremachi.mp3"
+      "text_en_b2": "Got home from a long day, kicked off my shoes, and ended up alone on the couch with Netflix queued up and Soremachi lined up for a late-night session. Caught the newest episode with a friend and honestly had a proper laugh at the absurd character interactions. Turning thirty and still binging anime pretty much every weekend, so I have officially confirmed the full-on degenerate lifestyle at this point.",
+      "text_en_c1": "Returning home to an uncharacteristically quiet apartment, I surrendered once again to the comforting predictability of Netflix and the latest episode of Soremachi, that wistful chronicle of friendships forged and frayed. Ishiguro, the author, had taken to /a/ to rank his favourite characters from the very series he had created, rendering them in swimsuits with an evident affection, whilst regaling readers with ancillary reminiscences — notably that Ebi-chan owes her existence to his formative crush from elementary school. At thirty, indulging in such fare might constitute confirmation of terminal underachievement, yet the unalloyed pleasure it bestows remains, I would argue, beyond rational dispute.",
+      "text_en_c2": "Ishiguro, in a manifestation of authorial indulgence that can only be described as endearingly self-congratulatory, has elected to rank his favoured characters from his own manga Soremachi and subsequently render them in swimsuits, an exercise that has occasioned no small measure of affectionate bemusement within the /a/ thread. He also meanders, with characteristic nonchalance, through a variety of ostensibly tangential observations, including the disclosure that the character Ebi-chan was modelled, with what one assumes is a mixture of nostalgia and mild embarrassment, upon his very first infatuation during the elementary school years. For those of us navigating the twilight hours between productivity and sleep, the thread functions as a delightful palate cleanser, a reminder that creators occasionally possess the capacity to be simultaneously insufferable and thoroughly charming in roughly equal measure.",
+      "audio_url": "audio/2026-09-12/clip-anime-1.mp3"
     }
   ]
 }

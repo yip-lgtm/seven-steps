@@ -4,76 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-oil-150",
-      "topic_en": "Oil to 150",
-      "topic_zh": "油價衝150",
-      "category": "trading",
-      "file": "clip-biz-oil-150.mp3",
-      "bytes": 317364,
-      "chars": 276
-    },
-    {
-      "id": "biz-doge-space",
-      "topic_en": "Doge to space",
-      "topic_zh": "Doge衝太空",
-      "category": "trading",
-      "file": "clip-biz-doge-space.mp3",
-      "bytes": 295476,
-      "chars": 296
-    },
-    {
-      "id": "biz-condo-22",
-      "topic_en": "Stuck with Condo",
-      "topic_zh": "Condo困局",
-      "category": "civil-structure",
-      "file": "clip-biz-condo-22.mp3",
-      "bytes": 362292,
-      "chars": 296
-    },
-    {
-      "id": "biz-btc-vs-gold",
+      "id": "trade-macro-1",
       "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs 黃金",
-      "category": "civil-structure",
-      "file": "clip-biz-btc-vs-gold.mp3",
-      "bytes": 335796,
-      "chars": 288
+      "topic_zh": "比特幣 vs 黃金",
+      "category": "trading",
+      "file": "clip-trade-macro-1.mp3",
+      "bytes": 258612,
+      "chars": 235
     },
     {
-      "id": "g-anthropic-quit",
-      "topic_en": "AI researcher quits",
-      "topic_zh": "AI研究員劈炮",
-      "category": "tech-ai",
-      "file": "clip-g-anthropic-quit.mp3",
-      "bytes": 346164,
-      "chars": 363
+      "id": "trade-oil-2",
+      "topic_en": "Oil Heading To 150",
+      "topic_zh": "油價 150 來了",
+      "category": "trading",
+      "file": "clip-trade-oil-2.mp3",
+      "bytes": 258612,
+      "chars": 208
     },
     {
-      "id": "pol-china-2nm",
-      "topic_en": "China 2nm breakthrough",
-      "topic_zh": "中國2nm突破",
-      "category": "hk-news",
-      "file": "clip-pol-china-2nm.mp3",
-      "bytes": 362868,
-      "chars": 330
+      "id": "civil-1",
+      "topic_en": "Slope And Soil Nailing",
+      "topic_zh": "斜坡同打樁",
+      "category": "civil/structure",
+      "file": "clip-civil-1.mp3",
+      "bytes": 236148,
+      "chars": 238
     },
     {
-      "id": "fit-skinnyfat",
-      "topic_en": "Escaping skinnyfat",
-      "topic_zh": "Skinnyfat循環",
-      "category": "mma-fitness",
-      "file": "clip-fit-skinnyfat.mp3",
-      "bytes": 361716,
-      "chars": 269
+      "id": "struct-2",
+      "topic_en": "RC Load Path Check",
+      "topic_zh": "RC 結構 load path",
+      "category": "civil/structure",
+      "file": "clip-struct-2.mp3",
+      "bytes": 234420,
+      "chars": 249
     },
     {
-      "id": "a-soremachi",
-      "topic_en": "Soremachi & Friends",
-      "topic_zh": "Soremachi閒聊",
-      "category": "anime-culture",
-      "file": "clip-a-soremachi.mp3",
-      "bytes": 347892,
-      "chars": 320
+      "id": "tech-ai-1",
+      "topic_en": "AI Taking Jobs",
+      "topic_zh": "AI 搶飯碗",
+      "category": "tech/ai",
+      "file": "clip-tech-ai-1.mp3",
+      "bytes": 255156,
+      "chars": 253
+    },
+    {
+      "id": "mma-fit-1",
+      "topic_en": "Bulk Or Cut",
+      "topic_zh": "肥仔信gym日",
+      "category": "mma/fitness",
+      "file": "clip-mma-fit-1.mp3",
+      "bytes": 365748,
+      "chars": 249
+    },
+    {
+      "id": "anime-1",
+      "topic_en": "Late Night Anime",
+      "topic_zh": "睇動漫夜晚",
+      "category": "anime/culture",
+      "file": "clip-anime-1.mp3",
+      "bytes": 247092,
+      "chars": 251
     }
   ]
 }
