@@ -4,67 +4,76 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-condo-stuck",
-      "topic_en": "Stuck With Condo",
-      "topic_zh": "Condo困局",
+      "id": "biz-oil-150",
+      "topic_en": "Oil to 150",
+      "topic_zh": "油價衝150",
       "category": "trading",
-      "file": "clip-biz-condo-stuck.mp3",
-      "bytes": 345012,
-      "chars": 291
+      "file": "clip-biz-oil-150.mp3",
+      "bytes": 317364,
+      "chars": 276
     },
     {
-      "id": "biz-musk-tech",
-      "topic_en": "Musk Tech Tracker",
-      "topic_zh": "Tesla/SpaceX跟進",
+      "id": "biz-doge-space",
+      "topic_en": "Doge to space",
+      "topic_zh": "Doge衝太空",
       "category": "trading",
-      "file": "clip-biz-musk-tech.mp3",
-      "bytes": 388788,
-      "chars": 314
+      "file": "clip-biz-doge-space.mp3",
+      "bytes": 295476,
+      "chars": 296
+    },
+    {
+      "id": "biz-condo-22",
+      "topic_en": "Stuck with Condo",
+      "topic_zh": "Condo困局",
+      "category": "civil-structure",
+      "file": "clip-biz-condo-22.mp3",
+      "bytes": 362292,
+      "chars": 296
+    },
+    {
+      "id": "biz-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
+      "category": "civil-structure",
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 335796,
+      "chars": 288
     },
     {
       "id": "g-anthropic-quit",
-      "topic_en": "AI Alignment Quit",
-      "topic_zh": "AI失控恐慌",
-      "category": "tech/ai",
+      "topic_en": "AI researcher quits",
+      "topic_zh": "AI研究員劈炮",
+      "category": "tech-ai",
       "file": "clip-g-anthropic-quit.mp3",
-      "bytes": 319092,
-      "chars": 310
+      "bytes": 346164,
+      "chars": 363
     },
     {
       "id": "pol-china-2nm",
-      "topic_en": "China 2nm Chip",
+      "topic_en": "China 2nm breakthrough",
       "topic_zh": "中國2nm突破",
-      "category": "hk/news",
+      "category": "hk-news",
       "file": "clip-pol-china-2nm.mp3",
-      "bytes": 299508,
-      "chars": 283
+      "bytes": 362868,
+      "chars": 330
     },
     {
-      "id": "fit-skinnyfat-cut",
-      "topic_en": "Skinnyfat Cut Timing",
-      "topic_zh": "消脂vs留肌",
-      "category": "mma/fitness",
-      "file": "clip-fit-skinnyfat-cut.mp3",
-      "bytes": 432564,
-      "chars": 265
+      "id": "fit-skinnyfat",
+      "topic_en": "Escaping skinnyfat",
+      "topic_zh": "Skinnyfat循環",
+      "category": "mma-fitness",
+      "file": "clip-fit-skinnyfat.mp3",
+      "bytes": 361716,
+      "chars": 269
     },
     {
       "id": "a-soremachi",
-      "topic_en": "Soremachi Ranking",
-      "topic_zh": "Soremachi角色",
-      "category": "anime/culture",
+      "topic_en": "Soremachi & Friends",
+      "topic_zh": "Soremachi閒聊",
+      "category": "anime-culture",
       "file": "clip-a-soremachi.mp3",
-      "bytes": 306996,
-      "chars": 314
-    },
-    {
-      "id": "biz-oil-150",
-      "topic_en": "Oil $150 Shock",
-      "topic_zh": "原油$150衝擊",
-      "category": "civil/structure",
-      "file": "clip-biz-oil-150.mp3",
-      "bytes": 344436,
-      "chars": 304
+      "bytes": 347892,
+      "chars": 320
     }
   ]
 }
