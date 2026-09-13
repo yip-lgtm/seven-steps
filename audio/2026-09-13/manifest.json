@@ -4,76 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-macro-oil",
-      "topic_en": "Saudi pipeline hit",
-      "topic_zh": "沙地油管被炸",
+      "id": "trade-macro-01",
+      "topic_en": "Oil pipeline hit",
+      "topic_zh": "油價沙特管道",
       "category": "trading",
-      "file": "clip-trade-macro-oil.mp3",
-      "bytes": 379572,
-      "chars": 339
+      "file": "clip-trade-macro-01.mp3",
+      "bytes": 354228,
+      "chars": 312
     },
     {
-      "id": "trade-musk-tesla",
-      "topic_en": "Tesla and Musk",
-      "topic_zh": "Tesla與Elon",
+      "id": "trade-musk-02",
+      "topic_en": "Doge to the moon",
+      "topic_zh": "Doge上太空",
       "category": "trading",
-      "file": "clip-trade-musk-tesla.mp3",
-      "bytes": 329460,
-      "chars": 324
+      "file": "clip-trade-musk-02.mp3",
+      "bytes": 252852,
+      "chars": 272
     },
     {
-      "id": "civil-slope",
-      "topic_en": "Slope and soil nailing",
-      "topic_zh": "斜坡與土釘",
+      "id": "civil-01",
+      "topic_en": "Stuck with a condo",
+      "topic_zh": "食condo困局",
       "category": "civil/structure",
-      "file": "clip-civil-slope.mp3",
-      "bytes": 345012,
-      "chars": 333
+      "file": "clip-civil-01.mp3",
+      "bytes": 361140,
+      "chars": 294
     },
     {
-      "id": "structure-load",
-      "topic_en": "RC load path",
-      "topic_zh": "荷載路徑RC",
-      "category": "civil/structure",
-      "file": "clip-structure-load.mp3",
-      "bytes": 329460,
-      "chars": 362
-    },
-    {
-      "id": "tech-ai-wall",
-      "topic_en": "AI hitting the wall",
-      "topic_zh": "AI撞牆論",
+      "id": "tech-ai-01",
+      "topic_en": "AI plateau cope",
+      "topic_zh": "AI頂到樽頸",
       "category": "tech/ai",
-      "file": "clip-tech-ai-wall.mp3",
-      "bytes": 349620,
-      "chars": 340
+      "file": "clip-tech-ai-01.mp3",
+      "bytes": 264372,
+      "chars": 286
     },
     {
-      "id": "hk-news-condo",
-      "topic_en": "Condo stuck",
-      "topic_zh": "Condo困局",
+      "id": "hk-news-01",
+      "topic_en": "Trump and DOGE cuts",
+      "topic_zh": "Trump DOGE",
       "category": "hk/news",
-      "file": "clip-hk-news-condo.mp3",
-      "bytes": 408948,
-      "chars": 328
+      "file": "clip-hk-news-01.mp3",
+      "bytes": 304116,
+      "chars": 325
     },
     {
-      "id": "mma-fit-bulk",
-      "topic_en": "Bulk or cut",
-      "topic_zh": "增肌定減脂",
+      "id": "mma-fit-01",
+      "topic_en": "Twin calorie mystery",
+      "topic_zh": "雙胞胎熱量",
       "category": "mma/fitness",
-      "file": "clip-mma-fit-bulk.mp3",
-      "bytes": 398004,
-      "chars": 305
+      "file": "clip-mma-fit-01.mp3",
+      "bytes": 338676,
+      "chars": 336
     },
     {
-      "id": "anime-gits",
+      "id": "anime-01",
       "topic_en": "Ghost in the Shell",
       "topic_zh": "攻殼動畫",
       "category": "anime/culture",
-      "file": "clip-anime-gits.mp3",
-      "bytes": 302388,
-      "chars": 306
+      "file": "clip-anime-01.mp3",
+      "bytes": 277044,
+      "chars": 289
     }
   ]
 }
