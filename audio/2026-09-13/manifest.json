@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-macro-1",
-      "topic_en": "Oil pipeline hit",
-      "topic_zh": "油價大事件",
+      "id": "biz-doge-space",
+      "topic_en": "Doge to space",
+      "topic_zh": "狗狗幣上太空",
       "category": "trading",
-      "file": "clip-trade-macro-1.mp3",
-      "bytes": 391668,
-      "chars": 330
+      "file": "clip-biz-doge-space.mp3",
+      "bytes": 271860,
+      "chars": 266
     },
     {
-      "id": "trade-musk-1",
-      "topic_en": "Doge to the moon",
-      "topic_zh": "DOGE 同 SNL",
+      "id": "biz-oil-saudi-pipeline",
+      "topic_en": "Saudi pipeline hit",
+      "topic_zh": "油價大件事",
       "category": "trading",
-      "file": "clip-trade-musk-1.mp3",
-      "bytes": 268980,
-      "chars": 249
+      "file": "clip-biz-oil-saudi-pipeline.mp3",
+      "bytes": 417012,
+      "chars": 355
     },
     {
-      "id": "civil-1",
-      "topic_en": "Stuck with a condo",
-      "topic_zh": "搵唔到出路",
-      "category": "civil/structure",
-      "file": "clip-civil-1.mp3",
-      "bytes": 359412,
-      "chars": 298
-    },
-    {
-      "id": "tech-ai-1",
-      "topic_en": "AI has plateaued",
-      "topic_zh": "AI 撞牆",
+      "id": "biz-btc-vs-gold",
+      "topic_en": "BTC vs Gold 10yr",
+      "topic_zh": "BTC vs 黃金",
       "category": "tech/ai",
-      "file": "clip-tech-ai-1.mp3",
-      "bytes": 255732,
-      "chars": 258
+      "file": "clip-biz-btc-vs-gold.mp3",
+      "bytes": 315060,
+      "chars": 283
     },
     {
-      "id": "hk-news-1",
-      "topic_en": "Britain dystopian",
-      "topic_zh": "英國亂晒籠",
+      "id": "g-ai-plateau",
+      "topic_en": "AI plateau cope",
+      "topic_zh": "AI 模型到樽頸",
+      "category": "tech/ai",
+      "file": "clip-g-ai-plateau.mp3",
+      "bytes": 271284,
+      "chars": 279
+    },
+    {
+      "id": "pol-condo-trap",
+      "topic_en": "Stuck with a condo",
+      "topic_zh": "condo困局",
       "category": "hk/news",
-      "file": "clip-hk-news-1.mp3",
-      "bytes": 359988,
-      "chars": 329
+      "file": "clip-pol-condo-trap.mp3",
+      "bytes": 335796,
+      "chars": 304
     },
     {
-      "id": "mma-fit-1",
-      "topic_en": "When to cut",
-      "topic_zh": "點 cut 走 skinnyfat",
+      "id": "fit-skinnyfat-bulk",
+      "topic_en": "Skinnyfat bulk cutoff",
+      "topic_zh": "skinnyfat切換",
       "category": "mma/fitness",
-      "file": "clip-mma-fit-1.mp3",
-      "bytes": 332916,
-      "chars": 255
+      "file": "clip-fit-skinnyfat-bulk.mp3",
+      "bytes": 305268,
+      "chars": 254
     },
     {
-      "id": "anime-1",
-      "topic_en": "100 Girlfriends",
-      "topic_zh": "100 個女朋友",
+      "id": "a-100-kanojo-dump",
+      "topic_en": "100 Kanojo ch255",
+      "topic_zh": "100女友更新",
       "category": "anime/culture",
-      "file": "clip-anime-1.mp3",
-      "bytes": 230964,
-      "chars": 220
+      "file": "clip-a-100-kanojo-dump.mp3",
+      "bytes": 385908,
+      "chars": 279
     }
   ]
 }

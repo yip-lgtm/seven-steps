@@ -4,86 +4,86 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "trade-macro-1",
+      "id": "biz-doge-space",
       "category": "trading",
-      "topic_zh": "油價大事件",
-      "topic_en": "Oil pipeline hit",
-      "text_zh": "沙特東西輸油管俾人打中，火燭幾個位，AI 估要 6 至 12 個月先修得好。即係 Hormuz 峽都唔使點守。但油價今日反而跌咗，反常到爆。靠 CFD 揸緊 oil，頭都痕。",
-      "text_en_b1": "Big news: oil may hit $150 soon. The Saudi east-west pipeline got hit, so Saudi oil can no longer go around the Strait of Hormuz. This is the only pipeline from the Persian Gulf to the Red Sea. Satellite pictures show fires in multiple places. AI repair estimates say 6 to 12 months. Saudi Arabia has 10% of global oil production.",
+      "topic_zh": "狗狗幣上太空",
+      "topic_en": "Doge to space",
+      "text_zh": "Doge 3日內上太空，你仲唔買？最衰都會郁上去啦，偷注少少再放就得，唔好變 SNL 2.0 🙏",
+      "text_en_b1": "Doge goes to fucking space in 3 days and you are not buying. If this shit explodes it will still move up, so why not ape a bit, then sell so it does not become SNL 2.0? Or maybe it will just start the hype again. Either way, the risk is small and the upside is real.",
+      "source_url": "https://boards.4chan.org/biz/thread/62676654",
+      "source_hint": "Biz OP hyping a Dogecoin catalyst tied to a space launch.",
+      "signal": {
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "days",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP is urging a small long into a known 3-day catalyst, then sell into hype."
+      },
+      "text_en_b2": "Dogecoin is genuinely heading to space within the next three days, and yet people are still hesitant to get in. Even if the launch turns out to be a damp squib, the token will almost certainly bounce on the hype alone, so throwing a modest position at it makes sense. Take a small bet, bank the profits quickly, and avoid letting it become another Saturday Night Live disaster. At worst, the announcement reignites retail interest and sparks another leg up.",
+      "text_en_c1": "Dogecoin is, allegedly, heading to space within the next three days, and you are still sitting on the fence. Even in a worst-case scenario where the mission fails spectacularly, the resulting volatility is likely to drive the price upward for a brief window. The rational move, therefore, would be to allocate a modest position, ride the momentum, and exit before sentiment collapses — lest we witness a repeat of the infamous SNL disaster. Of course, should the launch generate renewed enthusiasm, one might simply hold. Either way, the downside risk appears negligible compared with the upside, which is hardly negligible at all.",
+      "text_en_c2": "Dogecoin is, by all credible indicators, poised to breach the thermosphere within seventy-two hours, and yet here you sit, conspicuously abstaining. Even in the bleakest scenario, where the venture collapses under its own absurdity, residual momentum will almost certainly propel the price upward, if only briefly. The prudent play, therefore, is a modest speculative position with a clearly defined exit, lest history rhyme with the SNL fiasco and retail capital evaporates once more. Should the launch prove anticlimactic, the prevailing optimism will likely reassert itself. Conversely, genuine traction would reignite the broader euphoria. Asymmetric risk, tangible upside.",
+      "audio_url": "audio/2026-09-13/clip-biz-doge-space.mp3"
+    },
+    {
+      "id": "biz-oil-saudi-pipeline",
+      "category": "trading",
+      "topic_zh": "油價大件事",
+      "topic_en": "Saudi pipeline hit",
+      "text_zh": "沙特東西輸油管被炸，沙特10%全球產能受影響，維修要6至12個月。今日油價反倒下插，wtf 🧐 等低位再long？",
+      "text_en_b1": "Big happening: 150 dollar oil soon? The Saudi east-west pipeline got hit. Saudi Arabia can no longer go around the Strait of Hormuz. Satellite pictures show the pipeline is damaged in many places, and a pump station may be hit too. AI estimates 6 to 12 months for repair. Saudi Arabia has 10 percent of global oil production. Ironically, oil dumped today.",
       "source_url": "https://boards.4chan.org/biz/thread/62683316",
-      "source_hint": "/biz/ thread about Saudi pipeline damage and oil supply",
+      "source_hint": "Biz OP claiming a Saudi pipeline strike with multi-month repair time.",
       "signal": {
         "asset": "XAU",
-        "direction": "long",
+        "direction": "observation",
         "conviction": "medium",
         "time_horizon": "weeks",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP sees Middle East supply shock and irony of oil dumping — classic inflation/geopolitical hedge setup favors gold long"
+        "rationale": "Supply shock setup favours oil but OP notes price dumped anyway; also a classic gold hedge catalyst for the learner."
       },
-      "text_en_b2": "Saudi Arabia's east-west pipeline has been struck, with satellite imagery confirming multiple fires along the route. Although repairs could reportedly take anywhere from six to twelve months, crude actually dumped in today's session, which frankly defies logic. Given that the Kingdom accounts for roughly ten percent of global supply, the Strait of Hormuz suddenly becomes far less of a chokepoint.",
-      "text_en_c1": "Saudi Arabia's east-west pipeline has been struck, with satellite imagery confirming multiple fires along its length. This single artery, which ordinarily bypasses the Strait of Hormuz entirely, accounts for the Gulf's only viable export route to the Red Sea, and AI-assisted damage assessments suggest repairs could take anywhere from six to twelve months. Given that the kingdom produces roughly ten percent of global oil, one would naturally expect prices to spike. Paradoxically, crude actually dumped during the session, a move that defies conventional logic.",
-      "text_en_c2": "The East-West pipeline has reportedly been struck at several points, with conflagrations visible across multiple segments in freshly circulated satellite imagery. AI-driven damage assessments, insofar as such probabilistic models can be trusted, project a remediation window of anywhere between six and twelve months. Given that this conduit constitutes the sole artery diverting Saudi crude away from the chokepoint at Hormuz, the strategic calculus in the Gulf has been quietly redrawn. Saudi Arabia still commands roughly a tenth of global production, yet despite the geopolitical magnitude of the disruption, front-month Brent sold off sharply in today's session, a paradoxical reaction that flummoxed even seasoned desks. Those of us long oil via contracts for difference are nursing the consequences. One suspects the algos are pricing diplomatic de-escalation rather than physical scarcity.",
-      "audio_url": "audio/2026-09-13/clip-trade-macro-1.mp3"
+      "text_en_b2": "Brent crude touching 150 dollars a barrel now looks like a real possibility after the Saudi East-West pipeline suffered significant damage. Satellite imagery reveals multiple breach points along the route, while reports suggest a pump station was also struck, effectively closing off the bypass around the Strait of Hormuz. Analysts estimate repairs could take anywhere between six and twelve months, and Saudi Arabia controls roughly ten percent of global supply.",
+      "text_en_c1": "Are we witnessing the prelude to one-hundred-and-fifty-dollar oil? Saudi Arabia's east-west pipeline has suffered a substantial blow, effectively severing the kingdom's ability to circumvent the Strait of Hormuz. Satellite imagery reveals extensive damage across multiple sections of the infrastructure, with at least one pumping station reportedly compromised. Industry analysts estimate that full restoration could take anywhere between six and twelve months, a timeframe that would constrain roughly ten percent of global supply. Curiously, despite the magnitude of the disruption, prices have dipped intraday — a development that would warrant either aggressive buying at the dip or a serious reassessment of market positioning.",
+      "text_en_c2": "A consequential development, one that ought to have sent crude soaring: the Saudi East–West pipeline has reportedly sustained substantial damage, effectively neutering Riyadh's strategic workaround for the Strait of Hormuz. Satellite imagery corroborates multiple breach points along the artery, with at least one pump station plausibly compromised. Independent assessments, leveraging advanced modelling, project a remediation timeline of six to twelve months, a duration during which roughly ten percent of global supply remains imperilled. Yet, in a tableau of exquisite market irony, oil has dumped precipitously today. The contrarian instinct whispers to accumulate on weakness, to long into what may be a transient dislocation before fundamentals reassert their inexorable gravity.",
+      "audio_url": "audio/2026-09-13/clip-biz-oil-saudi-pipeline.mp3"
     },
     {
-      "id": "trade-musk-1",
-      "category": "trading",
-      "topic_zh": "DOGE 同 SNL",
-      "topic_en": "Doge to the moon",
-      "text_zh": "又話 DOGE 三日內衝上太空，叫人入少少再放，唔好變 SNL 2.0。今次真係假反彈定真起飛？prop firm 啲錢都唔夠燒。",
-      "text_en_b1": "Doge goes to space in 3 days and you are not buying. If this thing explodes it will still move up, so why not ape a bit, then sell before it becomes SNL 2.0. Or maybe it just starts the hype cycle again. Either way, easy scalp setup on the CFD desk.",
-      "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "/biz/ Doge hype thread about an upcoming catalyst",
-      "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "days",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP proposes a small long scalp into a hype catalyst, with planned sell to avoid SNL-style dump"
-      },
-      "text_en_b2": "Apparently DOGE is blasting off within three days, and the consensus seems to be: ape a small position, then dump before it inevitably turns into another SNL-style rug pull. While some argue this could merely reignite the broader hype cycle, others insist it is a classic fakeout designed to fleece latecomers. Either way, prop firm capital is getting shredded in the meantime, because traders cannot resist chasing what looks like an easy scalp setup on the CFD desk.",
-      "text_en_c1": "Doge is purportedly heading to the stratosphere within seventy-two hours, and the prevailing wisdom suggests a measured position before any potential SNL-style collapse. If the token genuinely catches fire, even a modest allocation would yield disproportionate gains on the way up, provided one exits before the crowd rotates out. Should the rally prove illusory, the resulting bleed would likely mirror the 2021 SNL episode that wiped out leveraged longs. Either scenario presents a textbook scalp opportunity at the CFD desk, particularly given that prop firm capital is evaporating faster than anticipated. The asymmetry looks compelling, yet the timing window remains razor-thin.",
-      "text_en_c2": "The thesis circulating among retail cohorts is straightforward: DOGE purportedly has a three-day window before some catalyst, perhaps a platform integration or a celebrity cameo, propels it toward orbit. The asymmetry, proponents argue, remains compelling even if the upside is capped, since a measured entry with a tight invalidation still offers a respectable risk-adjusted scalp. Skeptics, however, counter that this resembles the SNL episode of 2021, when a parabolic advance collapsed into a brutal retracement once liquidity dried up. Whether one interprets the present setup as a genuine trend resumption or merely a reflexive bounce within a broader capitulation structure, the tactical conclusion for CFD operators is unaltered. Prop shops, already thinned by the preceding drawdowns, are unlikely to absorb another round of forced liquidations without visible strain.",
-      "audio_url": "audio/2026-09-13/clip-trade-musk-1.mp3"
-    },
-    {
-      "id": "civil-1",
-      "category": "civil/structure",
-      "topic_zh": "搵唔到出路",
-      "topic_en": "Stuck with a condo",
-      "text_zh": "22 歲 dogecoin 贏錢即刻買 condo，兩年無做過嘢。27 歲返去做返工程仔，背住學貸同 card debt。feel like I am stuck。同我個 case 太似。考牌都未完，邊度有 230K。",
-      "text_en_b1": "Stuck with a condo. Back in 2021, when I was 22, I made random crypto money from dogecoin. I lived for two years with no job, perma vacation, dropped out of school, and bought a condo for $230K. Eventually the money ran out. I went back to school, graduated, and now make $100K, living in my condo.",
-      "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ regret thread from a 27-year-old who cashed out crypto and bought a condo",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Personal-finance regret story, no actionable trade setup"
-      },
-      "text_en_b2": "Back in 2021, at twenty-two, I struck it lucky with dogecoin and bought a two-hundred-thirty-K condo outright. I spent two years living like a permanent tourist, dropped out of school, and burned through every last dollar. Eventually I crawled back, finished my engineering degree, and now pull in around a hundred grand while drowning in student loans and credit card debt.",
-      "text_en_c1": "At twenty-two, I stumbled into a windfall from speculative Dogecoin positions, and within months I had abandoned my engineering studies and sunk the proceeds into a two-bedroom condominium that cost roughly $230K. For two years I coasted through a kind of permanent holiday, convinced the gravy train had no terminus. When the capital inevitably dried up, I returned to university, eventually graduating into a $100K salary, which on paper should have felt like redemption. Instead, I find myself at twenty-seven trapped in what can only be described as a Sisyphean loop of earning and consuming, shackled to student loans and revolving credit card debt.",
-      "text_en_c2": "At twenty-two, flush with an improbable windfall from dogecoin, I purchased a condominium for $230,000 and proceeded to suspend all productive activity for two full years, a period characterised by perma-vacation, deferred tuition, and a creeping sense that the music would never stop. It did. By the time the capital evaporated, I had re-enrolled, eventually graduated, and secured a position paying a respectable $100,000, which I now inhabit within the very unit that once symbolised my escape. At twenty-seven, the arithmetic is unflattering: student obligations, revolving credit balances, and a salary consumed almost entirely by mortgage maintenance. The travail is not poverty, but something subtler, namely the paralysing awareness that one has already inhabited a stratum of life that one's current trajectory cannot indefinitely sustain.",
-      "audio_url": "audio/2026-09-13/clip-civil-1.mp3"
-    },
-    {
-      "id": "tech-ai-1",
+      "id": "biz-btc-vs-gold",
       "category": "tech/ai",
-      "topic_zh": "AI 撞牆",
-      "topic_en": "AI has plateaued",
-      "text_zh": "啲 AI 公司自己都認 model 撞牆啦，跟住又話「self-restraint」呃 VC 錢。咁我仲使唔使驚被 AI 取代？廢柴 engineering 路仲有冇得行。",
-      "text_en_b1": "They are now admitting AI models have plateaued. The labs are making up a story about self-restraint so they do not lose VC money. The real scaling laws hit a wall, but nobody on the cap table wants to admit it yet. Bullshit cycle continues, just slower now.",
+      "topic_zh": "BTC vs 黃金",
+      "topic_en": "BTC vs Gold 10yr",
+      "text_zh": "10年你淨係hold一樣，你揀BTC定黃金？好老土但我真係諗緊，萬一真係返美之前要跑贏通脵 😅",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? This came up on /biz/ today and every reply is the usual cope and maxis fighting. The split is roughly 60/40 for BTC in recent threads.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "Biz OP asking which asset to hold for the next decade.",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Philosophical thread, no actionable setup."
+      },
+      "text_en_b2": "If you could only hold a single asset for the next decade, would your money go into Bitcoin or gold? The thread kicked off that exact debate on /biz/, and predictably it descended into the usual clash between gold bugs and Bitcoin maxis shouting cope at each other. Recent polls put the split at around sixty-forty in favour of BTC, though the gold camp argues the metal has weathered centuries of monetary experimentation.",
+      "text_en_c1": "A question that sounds almost trite yet warrants genuine consideration: were you compelled to hold a single asset for the next decade, would you select Bitcoin or gold? The thread on /biz/ has predictably devolved into the usual spectacle of maximalists and goldbugs trading ideological barbs, with little substantive analysis to be found. Recent polls suggest a roughly sixty-forty split in favour of BTC, though such figures reflect tribal allegiance more than rigorous reasoning. The real question, of course, is which instrument offers superior protection should monetary conditions deteriorate markedly before any hypothetical return to pre-inflation norms.",
+      "text_en_c2": "The perennial question, freshly resurgent on the boards: should one, given a ten-year horizon and the constraint of a singular position, elect Bitcoin or gold? The thread has predictably devolved into the customary theatre, with maximalist partisans trading rhetorical volleys while the silent majority watches. Recent polling suggests a rough consensus, perhaps sixty-forty in favour of BTC, though such figures mean little against the vagaries of the next decade. What animates the inquiry, ostensibly, is the creeping anxiety over dollar debasement. Yet beneath the contrarian posturing lies a more elemental anxiety, namely, whether either asset class will meaningfully outpace the erosive tide of inflation.",
+      "audio_url": "audio/2026-09-13/clip-biz-btc-vs-gold.mp3"
+    },
+    {
+      "id": "g-ai-plateau",
+      "category": "tech/ai",
+      "topic_zh": "AI 模型到樽頸",
+      "topic_en": "AI plateau cope",
+      "text_zh": "終於有人認AI model到樽頸，搞個self restraint嘅story出嚟呃VC錢。又係咁上下 🙏 我份工仲有幾耐？",
+      "text_en_b1": "So they are admitting AI models have plateaued and are making up some fake story about self restraint so they do not lose VC money. The cope is incredible. New model launches are basically the same benchmark numbers with a marketing spin. I am so tired of this talmudic bullshit.",
       "source_url": "https://boards.4chan.org/g/thread/109799487",
-      "source_hint": "/g/ thread arguing AI labs are hiding plateau from VCs",
+      "source_hint": "/g/ OP calling out labs for plateaued AI progress.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Industry commentary, not a trade"
+        "rationale": "Tech commentary, no trade setup."
       },
-      "text_en_b2": "The major labs are quietly conceding that their frontier models have hit a wall, although they are spinning a convenient narrative about deliberate self-restraint to keep VC money flowing in. The underlying scaling laws have essentially broken down, yet nobody sitting on those cap tables wants to break the bad news to their limited partners. So the bullshit cycle grinds on, albeit at a noticeably slower pace, while ordinary engineers wonder whether their careers are doomed or whether the AI apocalypse has been quietly postponed.",
-      "text_en_c1": "The frontier laboratories have quietly conceded that their latest models have hit a wall, though publicly they prefer the more palatable narrative of deliberate self-restraint, presumably to preserve their valuation discussions with venture capital allocators. The underlying scaling laws, which once promised exponential returns on compute expenditure, appear to have flattened, a development that anyone following the empirical benchmarks foresaw. Yet nobody holding a board seat is particularly incentivised to acknowledge that the well has run dry, since doing so would crater their next funding round overnight.",
-      "text_en_c2": "The leading laboratories have, with conspicuous reluctance, conceded that frontier models are exhibiting diminishing returns on additional compute, a phenomenon insiders have privately acknowledged for months. The official narrative now emphasises judicious self-restraint, ostensibly to forestall capabilities that might alarm regulators, though the subtext is transparent to anyone versed in the sector's incentive structures. The genuine scaling laws, those that once underwrote billion-dollar cap tables, have effectively plateaued, yet no major stakeholder is prepared to be the first to articulate the obvious. Capital allocation continues apace, talent is retained at extraordinary expense, and the press cycle churns out its accustomed superlatives. Whether this constitutes a temporary ceiling or a structural inflection, the implications for software engineers, who had begun quietly contemplating career pivots, remain decidedly ambiguous.",
-      "audio_url": "audio/2026-09-13/clip-tech-ai-1.mp3"
+      "text_en_b2": "It is genuinely refreshing to see labs openly admitting that frontier AI models have hit a plateau, though unsurprisingly they are spinning some elaborate tale about deliberate self-restraint to keep VC cheques rolling in. The cope has reached absurd levels, with each new release basically recycling identical benchmark scores wrapped in slick marketing language. Anyone paying attention can see the diminishing returns are real, yet the funding circus grinds on regardless.",
+      "text_en_c1": "At long last, insiders are openly conceding that frontier AI models have hit a discernible plateau, yet the corporate apparatus has spun an elaborate narrative about self-imposed restraint to preserve the illusion of inevitable progress. The cope, frankly, is breathtaking in its audacity: every successive launch repackages identical benchmark scores with a fresh veneer of marketing polish. Meanwhile, those of us whose livelihoods depend on these trajectories are left to contemplate how much runway remains before the venture capital well runs dry and the sector's frothy valuations undergo a long-overdue correction.",
+      "text_en_c2": "At long last, the prevailing orthodoxy concedes the inevitable: the frontier models have demonstrably plateaued, their incremental gains yielding diminishing returns against the colossal expenditure required to eke out marginal benchmark improvements. Rather than own this admission forthrightly, the incumbents have opted for the more palatable narrative of deliberate self-restraint, a sanitising conceit designed to mollify venture capital while preserving the illusion of imminent superintelligence. The contortions required to sustain this fiction border on the theological, hence the sardonic invocation of the talmudic. Meanwhile, the benchmarks themselves have calcified into marketing collateral, indistinguishable save for the typography. One wonders, with mounting unease, how long this elaborate charade can persist.",
+      "audio_url": "audio/2026-09-13/clip-g-ai-plateau.mp3"
     },
     {
-      "id": "hk-news-1",
+      "id": "pol-condo-trap",
       "category": "hk/news",
-      "topic_zh": "英國亂晒籠",
-      "topic_en": "Britain dystopian",
-      "text_zh": "英國 Skimpflation 又嚟，罐頭鯖魚頂住先。KFC 刀斬少年，加埋反移民自己出船堵。睇完好慶幸自己響香港做 slope survey，唔好去英國搞嘢。",
-      "text_en_b1": "Britain looks dystopian right now. Skimpflation warning as tinned mackerel alternative hits more supermarket shelves. A boy, 14, was among three teenagers stabbed in a KFC machete gang fight. Anti-immigration protesters say they will use their own boat to intercept migrants in the Channel. Three stories, one week, same country.",
-      "source_url": "https://boards.4chan.org/pol/thread/542494644",
-      "source_hint": "/pol/ Brit dystopian news roundup thread",
+      "topic_zh": "condo困局",
+      "topic_en": "Stuck with a condo",
+      "text_zh": "21歲炒dogecoin贏錢，買咗condo，之後打回原形。依家返學做返100K USD份工，揹住學貸同卡數。又係另一個香港故事 🇭🇰",
+      "text_en_b1": "Stuck with a Condo. In 2021 when I was 22 I made a bunch of random crypto money from Dogecoin. I lived for two years with no job, perma vacation, dropped out of school and bought a condo for 230K USD. Eventually the money ran out. I went back to school, graduated, and now I make 100K a year in my condo.",
+      "source_url": "https://boards.4chan.org/biz/thread/62674411",
+      "source_hint": "Biz OP reflecting on crypto windfall turned into debt trap.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News roundup, not a trade"
+        "rationale": "Life story post, no setup — but mirrors the learner's own crypto path."
       },
-      "text_en_b2": "Britain is starting to look genuinely dystopian, because three grim stories landed in a single week. Supermarkets are quietly rolling out tinned mackerel as a budget substitute under what economists are calling the latest skimpflation wave. Meanwhile, a fourteen-year-old boy was hospitalised after a machete brawl broke out inside a KFC. To top it off, anti-immigration activists have vowed to deploy their own vessel to intercept migrant boats crossing the Channel.",
-      "text_en_c1": "Britain appears to be descending into something resembling a dystopian tableau, if the past week's headlines are any indication. Supermarket shelves are increasingly populated with tinned mackerel, a stopgap measure as skimpflation creeps across the grocery sector and quality erodes by stealth. Separately, a fourteen-year-old boy was hospitalised after being macheted during a gang altercation inside a KFC, a scene that would have seemed farcical a decade ago. Compounding matters, anti-immigration activists have vowed to deploy private vessels in the Channel to physically intercept migrant dinghies.",
-      "text_en_c2": "Britain appears, by any reasonable measure, to be undergoing a quiet unraveling across multiple vectors simultaneously. Supermarket shelves now routinely stock tinned mackerel as a cost-driven substitute for pricier proteins, a phenomenon dubbed skimpflation, which speaks volumes about the discretionary budget of the average household. Meanwhile, in a KFC outlet, three teenagers, one merely fourteen, were hospitalised following a machete altercation that would have been unthinkable a decade ago. Concurrently, anti-immigration activists have announced intentions to deploy private vessels in the Channel to physically intercept migrant crossings. Three vignettes, one calendar week, each emblematic of a polity grappling with inflation, youth violence, and contested sovereignty. From my vantage point conducting slope surveys in Hong Kong, the decision not to relocate westward feels vindicated.",
-      "audio_url": "audio/2026-09-13/clip-hk-news-1.mp3"
+      "text_en_b2": "Back in 2021, when I was just 22, I struck it moderately lucky on Dogecoin and walked away with a ridiculous amount of money for someone my age. I promptly quit my job, dropped out of uni, and splashed out 230K USD on a condo, basically living a permanent holiday for two solid years. Predictably, the funds dried up eventually, and I had to crawl back to school, graduate, and accept a 100K-a-year salary just to keep the roof over my head.",
+      "text_en_c1": "The archetypal cautionary tale: at twenty-two, a speculative windfall from Dogecoin furnished two glorious years of perpetual vacation, an abandoned education, and a two-hundred-thirty-thousand-dollar condominium purchased on what proved to be borrowed euphoria. The inevitable reckoning arrived, funds depleted, and at twenty-seven I find myself indentured to a six-figure salary that services both student loans and accumulated credit card debt while I languish in the very asset I once celebrated. Hong Kong's housing trap claims yet another casualty — a cautionary reminder that timing the market and timing one's life seldom align.",
+      "text_en_c2": "Another cautionary tableau from the meme-asset generation: at twenty-two, serendipitous Dogecoin speculation furnished sufficient lucre to render conventional ambition obsolete. For two languorous years, the protagonist existed in a state of perma-vacation, forsaking academia, whereupon a condominium was acquired for a sum approximating 230K USD. The terminal phase proved inevitable: liquidity depleted, the gilded interlude concluded, and recourse was had to reinstatement at the educational institution from which departure had been so cavalierly effected. Graduation followed, as did employment yielding a six-figure salary, ostensibly the realisation of every millennial aspiration. Yet the conditional reality is rather more Sisyphean: a condominium encumbered by student obligations and revolving credit liabilities, with the protagonist, now twenty-seven, trapped within an inexorable cycle of labour, consumption, and repetition.",
+      "audio_url": "audio/2026-09-13/clip-pol-condo-trap.mp3"
     },
     {
-      "id": "mma-fit-1",
+      "id": "fit-skinnyfat-bulk",
       "category": "mma/fitness",
-      "topic_zh": "點 cut 走 skinnyfat",
-      "topic_en": "When to cut",
-      "text_zh": "肥仔信問我幾時 cut 好。我由 83kg 切到 65kg，再 lean bulk 上返 80kg。bench 1 plate、squat 90kg、deadlift 120kg。睇落同零訓練嘅 80kg 唔同，但係咪夠？睇完條 thread 我又要去 gym。",
-      "text_en_b1": "How do I know when I have bulked enough to cut and escape skinnyfat. In May 2025 I was 83kg fat with almost no muscle. I cut hard until mid April 2026 down to 65kg skinnyfat, I could not even bench the 20kg bar. Then I lean bulked up to now, back to 80kg.",
+      "topic_zh": "skinnyfat切換",
+      "topic_en": "Skinnyfat bulk cutoff",
+      "text_zh": "83kg肥落65kg skinnyfat，再lean bulk到80kg。臥推1 plate，深蹲90kg，硬拉120kg。係咪可以開始cut？肥仔信今日又叫我加重量 🧐",
+      "text_en_b1": "How do I know when I have bulked enough to cut and escape skinnyfat? In May 2025 I was 83kg fat with almost no muscle. I cut aggressively until April 2026 and got down to 65kg skinnyfat, struggling to bench even the 20kg bar. Then I lean bulked to today.",
       "source_url": "https://boards.4chan.org/fit/thread/77510161",
-      "source_hint": "/fit/ bulk vs cut progress thread with concrete numbers",
+      "source_hint": "/fit/ OP asking when to switch from lean bulk to cut.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness progress post, not a trade"
+        "rationale": "Body recomp question, no trade setup."
       },
-      "text_en_b2": "I started at eighty-three kilos of largely sedentary fat back in May 2025, then cut hard down to sixty-five by mid-April 2026, at which point I could barely bench the empty twenty-kilo bar. After that I ran a lean bulk back up to eighty kilos, and my numbers have climbed accordingly: three by eight at one plate on bench, three by six at ninety on squat, and three by eight at a hundred and twenty on deadlift.",
-      "text_en_c1": "A novice lifter asked the thread at what point one ought to commence a cut in order to escape the dreaded skinnyfat physique. My own trajectory provides a reasonably instructive case: back in May 2025 I tipped the scales at eighty-three kilograms with negligible muscle mass, prompting an aggressive deficit that bottomed out at sixty-five kilograms by mid-April 2026, at which point I could barely press the unloaded twenty-kilogram barbell. From that nadir I embarked on a measured lean bulk, and currently I sit at eighty kilograms, which on the mirror looks markedly different from my untrained 2025 self.",
-      "text_en_c2": "The perennial question confronting the formerly overweight novice is when, precisely, sufficient lean mass has accrued to justify a caloric deficit without sacrificing the muscle painstakingly accumulated. My own trajectory offers a case study. In May 2025, I tipped the scales at 83 kilograms with negligible muscular development, a body composition that conventional wisdom would classify as obese. I executed an aggressive cut through April 2026, emerging at 65 kilograms in a state textbook skinnyfat, so depleted that even the unloaded twenty-kilogram barbell posed a challenge. Subsequently, I commenced a measured lean bulk, restoring my weight to 80 kilograms while progressively loading compound movements: bench press at one plate for sets of eight, squats at ninety kilograms, and deadlifts at 120.",
-      "audio_url": "audio/2026-09-13/clip-mma-fit-1.mp3"
+      "text_en_b2": "How on earth do you actually figure out when it is time to start cutting instead of continuing to bulk? Back in May 2025 I was carrying 83kg of pure blubber with virtually no muscle underneath. I committed to an aggressive cut that lasted until April 2026, dropping down to a miserable 65kg of classic skinnyfat territory where I could barely bench the empty 20kg bar.",
+      "text_en_c1": "At what precise inflection point does a former skinnyfat physique acquire sufficient muscle mass to warrant a cutting phase? In May 2025, I tipped the scales at a bloated eighty-three kilograms with negligible lean tissue. An aggressive caloric deficit spanning nearly a year reduced me to a gaunt sixty-five, at which point even a twenty-kilogram barbell felt insurmountable on the flat bench. Following a methodical lean bulk, I now stand at eighty kilograms, pressing one plate for three sets of eight, squatting ninety kilograms for similar volume, and pulling one-hundred-twenty on the deadlift — numbers which suggest readiness to cut.",
+      "text_en_c2": "The diagnostic conundrum for the formerly adipose, now merely lean-deficient: at what juncture does one transition from caloric surplus to aggressive catabolism without forfeiting the hard-won musculature? In May 2025, I presented as classically obese at 83 kilograms, adipose tissue constituting the predominant fraction of body mass. An aggressive, sustained cut culminated in April 2026, with my weight bottoming at 65 kilograms, though the regression was stark, my bench press reduced to the unadorned twenty-kilogram bar. Subsequently, a disciplined lean bulk restored me to 80 kilograms. Current metrics: a flat bench of one plate for triples of eight, a squat of ninety kilograms for triples of six, and a deadlift of 120 kilograms for triples of eight.",
+      "audio_url": "audio/2026-09-13/clip-fit-skinnyfat-bulk.mp3"
     },
     {
-      "id": "anime-1",
+      "id": "a-100-kanojo-dump",
       "category": "anime/culture",
-      "topic_zh": "100 個女朋友",
-      "topic_en": "100 Girlfriends",
-      "text_zh": "100 Kanojo 第 255 章 TL 出咗超過一個鐘，dumper 嫌大家瞓晒唔等。我就最鍾意呢啲半夜先出嘅 anime 帖。",
-      "text_en_b1": "100 Kanojo chapter 255 TL has been out for over an hour. I have waited long enough, so I guess I better be the one to dump it before everyone goes to sleep. New girl intro this chapter looks wild from the panel previews.",
+      "topic_zh": "100女友更新",
+      "topic_en": "100 Kanojo ch255",
+      "text_zh": "100 Kanojo第255話TL出咗1個幾鐘，趁啲人未瞓自己先dump lol",
+      "text_en_b1": "100 Kanojo chapter 255 TL is out. https://danke.moe/read/manga/100-girlfriends/255/1/ The TL has been out for over an hour. I have waited long enough, so I guess I will be the one to dump it before everyone goes to sleep. New girl introduced this week, usual love triangle setup.",
       "source_url": "https://boards.4chan.org/a/thread/290856473",
-      "source_hint": "/a/ 100 Girlfriends manga chapter dump thread",
+      "source_hint": "/a/ OP dropping a fresh manga TL for the nightly thread.",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Manga release thread, not a trade"
+        "rationale": "Manga release thread, no trade setup."
       },
-      "text_en_b2": "Chapter 255 of 100 Kanojo has been fully translated for over an hour now, and although the thread is practically dead, I figured I might as well be the one to drop it before everyone clocks out for the night. Judging by the panel previews floating around, this particular chapter appears to introduce yet another unhinged new girl into the harem, which honestly tracks with the series' escalating absurdity. These late-night anime dump threads remain an absolute staple of the board.",
-      "text_en_c1": "Chapter 255 of 100 Kanojo has been circulating in translation for well over an hour now, and I suspect most regular readers have long since retreated to their beds, which obliges someone to shoulder the responsibility of posting the dump. These predawn releases, dropped while the broader board is dormant, possess a particular charm that the daylight threads never quite replicate. From the panel previews that have been circulating, the latest heroine introduction appears characteristically unhinged, the kind of baroque romantic absurdism the series has made its calling card. If the translation quality holds, this thread should sustain itself comfortably until the Eastern timezones wake.",
-      "text_en_c2": "The translation of 100 Kanojo chapter 255 has, as of this composition, been publicly available for slightly over an hour, a window that the dedicated scanlation community has learned through hard experience not to squander. Most prospective readers across the relevant time zones have already retired, which leaves the posting thread conspicuously dormant, a condition the original translator evidently found intolerable. The preview panels circulating on aggregator boards suggest an arresting introduction for this week's romantic contender, whose design appears calculated to provoke spirited deliberation among the fandom. There is, I confess, a peculiar satisfaction in stumbling across such nocturnal drops, a quiet insurgency against the regimented release schedules imposed by official simulcast platforms, and a small affirmation that grassroots translation labour endures.",
-      "audio_url": "audio/2026-09-13/clip-anime-1.mp3"
+      "text_en_b2": "The English translation for chapter 255 of The 100 Girlfriends Who Really, Really, Really Love You has finally dropped, and it has been floating around for well over an hour now. Rather than twiddling my thumbs waiting for someone else to post it, I figured I would bite the bullet and share the link before the board goes quiet for the night. This week's chapter introduces yet another new love interest, which inevitably kicks off the standard love-triangle setup the series has built its reputation…",
+      "text_en_c1": "The translation for chapter 255 of one-hundred-girlfriends has surfaced, and given that it has been circulating in private channels for over an hour, I shall take the liberty of disseminating it before the broader readership retires for the evening. The latest instalment introduces a fresh romantic contender, thereby perpetuating the manga's signature formula of escalating harem dynamics and the inevitable love-triangle entanglement that follows each new arrival. Whether this latest addition enriches the narrative or merely inflates an already congested roster remains, as ever, a matter of fervent debate among devotees.",
+      "text_en_c2": "The translation for chapter 255 of the interminable harem comedy has, at long last, materialised, a full hour having elapsed since its clandestine dissemination across aggregator boards. Patience having been duly exhausted, and with the broader readership presumably retreating toward slumber, the onerous burden of publicising the release falls, by default, upon my humble shoulders. This instalment introduces yet another prospective paramour to the protagonist's ever-expanding coterie, with the customary love-triangle scaffolding dutifully erected. The formula remains inviolable: a new face, a contrived misunderstanding, and the protagonist's signature avowal. One can only admire the author's relentless, almost industrial commitment to the bit.",
+      "audio_url": "audio/2026-09-13/clip-a-100-kanojo-dump.mp3"
     }
   ]
 }
