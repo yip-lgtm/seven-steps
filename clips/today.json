@@ -4,38 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-doge-space-01",
+      "id": "trade-macro-1",
       "category": "trading",
-      "topic_zh": "Dogecoin太空任務",
-      "topic_en": "Doge space mission",
-      "text_zh": "/biz/ 又有人話 Doge 3日後上太空，叫人小注 all-in。講到尾都係咪要避下 SNL 2.0。btw 我嘅倉都係得個吉，睇下佢今次點表演。lol 🙏",
-      "text_en_b1": "Doge goes to space in 3 days and you are not buying. If this shit explodes it will still move up, so why not ape a bit, then sell so it does not become SNL 2.0. Or maybe it will just start the hype again.",
-      "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "biz thread hyping an imminent Dogecoin catalyst",
-      "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "days",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP suggests a small speculative long around the space launch event"
-      },
-      "text_en_b2": "Doge is heading to space in roughly three days, and hardly anyone is buying in. Even if the whole thing flops it will likely pump a little, so throwing in a modest position makes sense, then unloading before it turns into another SNL-style disaster. Then again, it could simply kick the hype cycle back into gear.",
-      "text_en_c1": "Doge is purportedly heading to space within the next 72 hours, yet retail sentiment remains tepid. Should the launch prove spectacular, even a modest position could yield substantial upside, whereas a complete miss would inevitably invite comparisons with the infamous SNL 2.0 debacle. The calculus, therefore, favours a calculated entry followed by disciplined profit-taking before sentiment sours. My own exposure is negligible, so this is largely a spectator's wager, but the spectacle itself could reignite momentum. Markets, after all, thrive on narrative as much as on fundamentals.",
-      "text_en_c2": "The Dogecoin spectacle reaches its next inflection point in roughly seventy-two hours, when, ostensibly, a payload bearing the meme-coin's insignia departs for low-Earth orbit. Speculators on the board are urging a measured position rather than wholesale conviction, the rationale being that even a modest catalyst ought to translate into upward momentum. The operative concern, however, remains tail risk: the asset's SNL-era rout lingers as cautionary precedent, and any subsequent rally risks being repriced as theatrical flourish rather than substantive demand. Having been thoroughly marginalised by prior cycles, my own exposure amounts to little more than nominal presence. I intend to observe proceedings with the resigned detachment of a spectator who has, on previous occasions, mistaken the carnival for the market.",
-      "audio_url": "audio/2026-09-13/clip-biz-doge-space-01.mp3"
-    },
-    {
-      "id": "biz-oil-pipeline-02",
-      "category": "trading",
-      "topic_zh": "沙地油管被炸",
-      "topic_en": "Saudi pipeline hit",
-      "text_zh": "Saudi 東西輸油管被炸，估計要 6 至 12 個月先維修到。但係今日油價反而跌。又係學費。wtf 🧐",
-      "text_en_b1": "Big happening: 150 dollar oil soon? The Saudi east-west pipeline got hit. So the Saudis can no longer go around the Strait of Hormuz. This is the only pipeline from the Persian Gulf to the Red Sea. The satellite pic shows fire damage in multiple places and a pump station is rumored hit. AI repair estimate: 6 to 12 months.",
+      "topic_zh": "油價大事件",
+      "topic_en": "Oil pipeline hit",
+      "text_zh": "沙特東西輸油管俾人打中，火燭幾個位，AI 估要 6 至 12 個月先修得好。即係 Hormuz 峽都唔使點守。但油價今日反而跌咗，反常到爆。靠 CFD 揸緊 oil，頭都痕。",
+      "text_en_b1": "Big news: oil may hit $150 soon. The Saudi east-west pipeline got hit, so Saudi oil can no longer go around the Strait of Hormuz. This is the only pipeline from the Persian Gulf to the Red Sea. Satellite pictures show fires in multiple places. AI repair estimates say 6 to 12 months. Saudi Arabia has 10% of global oil production.",
       "source_url": "https://boards.4chan.org/biz/thread/62683316",
-      "source_hint": "biz thread on a geopolitical oil supply shock",
+      "source_hint": "/biz/ thread about Saudi pipeline damage and oil supply",
       "signal": {
         "asset": "XAU",
         "direction": "long",
@@ -44,22 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP expects oil to spike to 150 USD on a multi-month supply disruption, which historically supports gold as a safe haven"
+        "rationale": "OP sees Middle East supply shock and irony of oil dumping — classic inflation/geopolitical hedge setup favors gold long"
       },
-      "text_en_b2": "Looks like a genuine catalyst for $150 oil could be on the horizon. Saudi Arabia's east-west pipeline just took a hit, which means they can no longer bypass the Strait of Hormuz. It remains the sole conduit from the Persian Gulf to the Red Sea, and satellite imagery reportedly shows fire damage at several points, with one pump station possibly compromised. Forecasts suggest repairs could take anywhere from six to twelve months, and Saudi Arabia still accounts for around ten percent of global supply.",
-      "text_en_c1": "A significant development has emerged: the Saudi East-West pipeline has reportedly sustained substantial damage, with satellite imagery indicating fire damage across multiple sections and at least one pump station allegedly compromised. Should this assessment hold, repairs would necessitate a six-to-twelve-month window, effectively eliminating the Persian Gulf's only viable bypass of the Strait of Hormuz. Given that Saudi Arabia accounts for approximately ten percent of global crude production, the geopolitical ramifications should be considerable. Paradoxically, oil prices declined today, a reminder that markets frequently reward contrarian interpretations over obvious catalysts.",
-      "text_en_c2": "A strike on Saudi Arabia's East–West pipeline has effectively severed the kingdom's principal terrestrial bypass of the Strait of Hormuz, which had hitherto constituted the sole conduit ferrying crude from the Persian Gulf to the Red Sea. Satellite imagery corroborates the damage, revealing thermal scarring across multiple segments, while unverified reports suggest a pumping station has likewise been compromised. Independent assessments converge on a remediation horizon of between six and twelve months, a timeline whose geopolitical ramifications are difficult to overstate given that the kingdom accounts for roughly a tenth of global supply. Curiously, however, the spot market responded with an emphatic sell-off, a counterintuitive dislocation that seasoned participants have wryly characterised as yet another instalment in the tuition of speculative literacy.",
-      "audio_url": "audio/2026-09-13/clip-biz-oil-pipeline-02.mp3"
+      "text_en_b2": "Saudi Arabia's east-west pipeline has been struck, with satellite imagery confirming multiple fires along the route. Although repairs could reportedly take anywhere from six to twelve months, crude actually dumped in today's session, which frankly defies logic. Given that the Kingdom accounts for roughly ten percent of global supply, the Strait of Hormuz suddenly becomes far less of a chokepoint.",
+      "text_en_c1": "Saudi Arabia's east-west pipeline has been struck, with satellite imagery confirming multiple fires along its length. This single artery, which ordinarily bypasses the Strait of Hormuz entirely, accounts for the Gulf's only viable export route to the Red Sea, and AI-assisted damage assessments suggest repairs could take anywhere from six to twelve months. Given that the kingdom produces roughly ten percent of global oil, one would naturally expect prices to spike. Paradoxically, crude actually dumped during the session, a move that defies conventional logic.",
+      "text_en_c2": "The East-West pipeline has reportedly been struck at several points, with conflagrations visible across multiple segments in freshly circulated satellite imagery. AI-driven damage assessments, insofar as such probabilistic models can be trusted, project a remediation window of anywhere between six and twelve months. Given that this conduit constitutes the sole artery diverting Saudi crude away from the chokepoint at Hormuz, the strategic calculus in the Gulf has been quietly redrawn. Saudi Arabia still commands roughly a tenth of global production, yet despite the geopolitical magnitude of the disruption, front-month Brent sold off sharply in today's session, a paradoxical reaction that flummoxed even seasoned desks. Those of us long oil via contracts for difference are nursing the consequences. One suspects the algos are pricing diplomatic de-escalation rather than physical scarcity.",
+      "audio_url": "audio/2026-09-13/clip-trade-macro-1.mp3"
     },
     {
-      "id": "civil-soil-nail-fit-03",
+      "id": "trade-musk-1",
+      "category": "trading",
+      "topic_zh": "DOGE 同 SNL",
+      "topic_en": "Doge to the moon",
+      "text_zh": "又話 DOGE 三日內衝上太空，叫人入少少再放，唔好變 SNL 2.0。今次真係假反彈定真起飛？prop firm 啲錢都唔夠燒。",
+      "text_en_b1": "Doge goes to space in 3 days and you are not buying. If this thing explodes it will still move up, so why not ape a bit, then sell before it becomes SNL 2.0. Or maybe it just starts the hype cycle again. Either way, easy scalp setup on the CFD desk.",
+      "source_url": "https://boards.4chan.org/biz/thread/62676654",
+      "source_hint": "/biz/ Doge hype thread about an upcoming catalyst",
+      "signal": {
+        "asset": "DOGE",
+        "direction": "long",
+        "conviction": "low",
+        "time_horizon": "days",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP proposes a small long scalp into a hype catalyst, with planned sell to avoid SNL-style dump"
+      },
+      "text_en_b2": "Apparently DOGE is blasting off within three days, and the consensus seems to be: ape a small position, then dump before it inevitably turns into another SNL-style rug pull. While some argue this could merely reignite the broader hype cycle, others insist it is a classic fakeout designed to fleece latecomers. Either way, prop firm capital is getting shredded in the meantime, because traders cannot resist chasing what looks like an easy scalp setup on the CFD desk.",
+      "text_en_c1": "Doge is purportedly heading to the stratosphere within seventy-two hours, and the prevailing wisdom suggests a measured position before any potential SNL-style collapse. If the token genuinely catches fire, even a modest allocation would yield disproportionate gains on the way up, provided one exits before the crowd rotates out. Should the rally prove illusory, the resulting bleed would likely mirror the 2021 SNL episode that wiped out leveraged longs. Either scenario presents a textbook scalp opportunity at the CFD desk, particularly given that prop firm capital is evaporating faster than anticipated. The asymmetry looks compelling, yet the timing window remains razor-thin.",
+      "text_en_c2": "The thesis circulating among retail cohorts is straightforward: DOGE purportedly has a three-day window before some catalyst, perhaps a platform integration or a celebrity cameo, propels it toward orbit. The asymmetry, proponents argue, remains compelling even if the upside is capped, since a measured entry with a tight invalidation still offers a respectable risk-adjusted scalp. Skeptics, however, counter that this resembles the SNL episode of 2021, when a parabolic advance collapsed into a brutal retracement once liquidity dried up. Whether one interprets the present setup as a genuine trend resumption or merely a reflexive bounce within a broader capitulation structure, the tactical conclusion for CFD operators is unaltered. Prop shops, already thinned by the preceding drawdowns, are unlikely to absorb another round of forced liquidations without visible strain.",
+      "audio_url": "audio/2026-09-13/clip-trade-musk-1.mp3"
+    },
+    {
+      "id": "civil-1",
       "category": "civil/structure",
-      "topic_zh": "斜坡同soil nail",
-      "topic_en": "Slope and soil nailing",
-      "text_zh": "今日又睇 slope，諗下 factor of safety 同 soil nail 點擺。考牌都未溫完，靠 AI 續命 ok。🙏",
-      "text_en_b1": "I'm a civil engineer working on slope surveys and GI reports. Today I was checking soil nailing layout and drainage for a contractor. Half the time I am computing factor of safety by hand, the other half I am arguing with Tommy about bar spacing. Studying for the FE exam after work, so basically running on coffee and vibes.",
+      "topic_zh": "搵唔到出路",
+      "topic_en": "Stuck with a condo",
+      "text_zh": "22 歲 dogecoin 贏錢即刻買 condo，兩年無做過嘢。27 歲返去做返工程仔，背住學貸同 card debt。feel like I am stuck。同我個 case 太似。考牌都未完，邊度有 230K。",
+      "text_en_b1": "Stuck with a condo. Back in 2021, when I was 22, I made random crypto money from dogecoin. I lived for two years with no job, perma vacation, dropped out of school, and bought a condo for $230K. Eventually the money ran out. I went back to school, graduated, and now make $100K, living in my condo.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "biz life-story thread adapted to slope/soil nail context",
+      "source_hint": "/biz/ regret thread from a 27-year-old who cashed out crypto and bought a condo",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,46 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, just engineer's daily reality"
+        "rationale": "Personal-finance regret story, no actionable trade setup"
       },
-      "text_en_b2": "I'm a civil engineer currently handling slope inspections and drafting geotechnical interpretive reports. Today I spent the bulk of it reviewing soil nailing configurations and drainage provisions for a contractor, although half the time I was crunching factor of safety calculations manually while debating bar spacing with Tommy. I am also cramming for the FE exam after hours, basically fuelled by caffeine and sheer stubbornness.",
-      "text_en_c1": "I am a civil engineer currently engaged in slope stability assessments and ground investigation reports. Today's responsibilities included verifying soil nailing configurations and reviewing drainage provisions for an external contractor. The workload bifurcates rather predictably: half of it involves manually computing factors of safety, the other half consists of protracted negotiations with Tommy over bar spacing tolerances. Following office hours, I attempt to study for the Fundamentals of Engineering examination, though retention remains marginal. The regimen persists on caffeine and whatever professional credibility remains intact.",
-      "text_en_c2": "The exigencies of a slope-stability assignment once again consumed the working day, with particular attention devoted to soil-nail layout, subsoil drainage, and the iterative computation of factors of safety that remain, regrettably, a manual affair for the foreseeable future. A protracted exchange with a contractor regarding bar spacing consumed the afternoon, leaving me to reconcile competing assumptions and, rather more pressingly, to resume preparation for the Fundamentals of Engineering examination, which looms with all the urgency of an overdue geological survey. The customary regimen of caffeine, denial, and half-digested reference manuals has therefore resumed in earnest, supplemented, I confess, by recourse to AI tooling that performs the heavy analytical lifting my stamina cannot.",
-      "audio_url": "audio/2026-09-13/clip-civil-soil-nail-fit-03.mp3"
+      "text_en_b2": "Back in 2021, at twenty-two, I struck it lucky with dogecoin and bought a two-hundred-thirty-K condo outright. I spent two years living like a permanent tourist, dropped out of school, and burned through every last dollar. Eventually I crawled back, finished my engineering degree, and now pull in around a hundred grand while drowning in student loans and credit card debt.",
+      "text_en_c1": "At twenty-two, I stumbled into a windfall from speculative Dogecoin positions, and within months I had abandoned my engineering studies and sunk the proceeds into a two-bedroom condominium that cost roughly $230K. For two years I coasted through a kind of permanent holiday, convinced the gravy train had no terminus. When the capital inevitably dried up, I returned to university, eventually graduating into a $100K salary, which on paper should have felt like redemption. Instead, I find myself at twenty-seven trapped in what can only be described as a Sisyphean loop of earning and consuming, shackled to student loans and revolving credit card debt.",
+      "text_en_c2": "At twenty-two, flush with an improbable windfall from dogecoin, I purchased a condominium for $230,000 and proceeded to suspend all productive activity for two full years, a period characterised by perma-vacation, deferred tuition, and a creeping sense that the music would never stop. It did. By the time the capital evaporated, I had re-enrolled, eventually graduated, and secured a position paying a respectable $100,000, which I now inhabit within the very unit that once symbolised my escape. At twenty-seven, the arithmetic is unflattering: student obligations, revolving credit balances, and a salary consumed almost entirely by mortgage maintenance. The travail is not poverty, but something subtler, namely the paralysing awareness that one has already inhabited a stratum of life that one's current trajectory cannot indefinitely sustain.",
+      "audio_url": "audio/2026-09-13/clip-civil-1.mp3"
     },
     {
-      "id": "struct-load-path-fit-04",
-      "category": "civil/structure",
-      "topic_zh": "RC同load path",
-      "topic_en": "RC and load path",
-      "text_zh": "今日睇 beam column load path，RC 同 steel design 都要 re-check。Sum Ho 何生又問點解用呢個 method。wtf，考牌書都未開 lol。👍",
-      "text_en_b1": "I am a civil engineer and tonight I am reviewing load path for beams and columns on a small structural job. Reinforced concrete on one side, steel design on the other. Sum Ho asked me why I picked this method and how I checked it. I just stared at the calc sheet and prayed the FE study notes kick in by Friday.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "biz career-anxiety thread adapted to structural design context",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, just structural review"
-      },
-      "text_en_b2": "I'm a civil engineer, and tonight I have been going over the load path for beams and columns on a fairly modest structural project. One side calls for reinforced concrete detailing while the other demands steel design checks, so everything needs re-verification. Sum Ho then asked why I had settled on this particular method and how I had validated it. I just stared at my calc sheet, silently praying my FE study notes somehow click by Friday.",
-      "text_en_c1": "I am a civil engineer presently reviewing load path continuity for a modest structural assignment, one half of which involves reinforced concrete detailing while the other concerns steel member design. Sum Ho, the supervising engineer, challenged my selection of analytical methodology and questioned the verification procedure employed. Confronted with his queries, I could only contemplate my calculation sheet in mute deference. Should my FE study materials prove inadequate by Friday, the consequences will be thoroughly inconvenient; preparation, regrettably, has been deferred until conditions became urgent.",
-      "text_en_c2": "The evening's structural review centred on a modest assignment whose load path traverses both reinforced-concrete and steel framing, each material demanding its own recondite methodology. My principal interlocutor, Sum Ho, posed the perennially uncomfortable question of why a particular analytical approach had been adopted and, more pointedly, how its assumptions might be defended under scrutiny. Confronted with a calculation sheet whose provenance I could no longer credibly defend, I resorted to the venerable tactic of appearing deliberative whilst inwardly petitioning every deity relevant to the discipline. The FE study notes remain, at present, a largely aspirational document, although I cling to the conviction that comprehension will materialise, somehow, by Friday.",
-      "audio_url": "audio/2026-09-13/clip-struct-load-path-fit-04.mp3"
-    },
-    {
-      "id": "ai-plateau-05",
+      "id": "tech-ai-1",
       "category": "tech/ai",
-      "topic_zh": "AI模型到樽頸",
-      "topic_en": "AI models plateau",
-      "text_zh": "/g/ 講 AI model 已經 plateau，VC 要 fake story 保住水喉。又係睇住自己行業畀 AI 食。btw 廢柴如我都驚份工 lol。🧐",
-      "text_en_b1": "So they are admitting AI models have plateaued and are coming up with some fake story about self restraint so they do not lose VC money. I am so tired of this talmudic bullshit. Either the next training run unlocks real gains or every AI startup is now a PowerPoint company.",
+      "topic_zh": "AI 撞牆",
+      "topic_en": "AI has plateaued",
+      "text_zh": "啲 AI 公司自己都認 model 撞牆啦，跟住又話「self-restraint」呃 VC 錢。咁我仲使唔使驚被 AI 取代？廢柴 engineering 路仲有冇得行。",
+      "text_en_b1": "They are now admitting AI models have plateaued. The labs are making up a story about self-restraint so they do not lose VC money. The real scaling laws hit a wall, but nobody on the cap table wants to admit it yet. Bullshit cycle continues, just slower now.",
       "source_url": "https://boards.4chan.org/g/thread/109799487",
-      "source_hint": "g/ thread on AI scaling hitting a wall",
+      "source_hint": "/g/ thread arguing AI labs are hiding plateau from VCs",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, macro observation on AI capex"
+        "rationale": "Industry commentary, not a trade"
       },
-      "text_en_b2": "So they're openly conceding that AI models have effectively plateaued, and now they're spinning some contrived narrative about self-restraint purely to keep the VC cash flowing. I'm frankly exhausted by this kind of circular reasoning. Either the next training run delivers genuine breakthroughs or every AI startup out there is basically a PowerPoint company propped up by hype.",
-      "text_en_c1": "It appears the industry is finally conceding that AI models have plateaued, a development that has prompted venture capital constituents to fabricate increasingly elaborate narratives concerning self-imposed restraint, ostensibly to preserve funding pipelines. Such manoeuvres, while understandable from a fiduciary standpoint, remain intellectually exhausting. Should the subsequent training run fail to deliver substantive improvements, the prevailing sentiment suggests that numerous AI enterprises will devolve into little more than PowerPoint operations propped up by speculative capital.",
-      "text_en_c2": "The discourse on the technology board has converged, with uncharacteristic candour, on the proposition that frontier model development has reached a point of diminishing returns, with the much-vaunted trajectory toward general intelligence evidently flattening. In lieu of verifiable breakthroughs, capital allocators are reportedly papering over the gap with a convenient narrative of deliberate self-restraint, a rhetorical stratagem designed, so the cynicism goes, to preserve funding pipelines until the next training run delivers something tangible. As someone whose profession is being steadily subsumed by the very systems these investors underwrite, the spectacle is alternately galling and instructive. I anticipate two terminal outcomes: genuine progress, or a wholesale migration of so-called AI companies into PowerPoint consultancy.",
-      "audio_url": "audio/2026-09-13/clip-ai-plateau-05.mp3"
+      "text_en_b2": "The major labs are quietly conceding that their frontier models have hit a wall, although they are spinning a convenient narrative about deliberate self-restraint to keep VC money flowing in. The underlying scaling laws have essentially broken down, yet nobody sitting on those cap tables wants to break the bad news to their limited partners. So the bullshit cycle grinds on, albeit at a noticeably slower pace, while ordinary engineers wonder whether their careers are doomed or whether the AI apocalypse has been quietly postponed.",
+      "text_en_c1": "The frontier laboratories have quietly conceded that their latest models have hit a wall, though publicly they prefer the more palatable narrative of deliberate self-restraint, presumably to preserve their valuation discussions with venture capital allocators. The underlying scaling laws, which once promised exponential returns on compute expenditure, appear to have flattened, a development that anyone following the empirical benchmarks foresaw. Yet nobody holding a board seat is particularly incentivised to acknowledge that the well has run dry, since doing so would crater their next funding round overnight.",
+      "text_en_c2": "The leading laboratories have, with conspicuous reluctance, conceded that frontier models are exhibiting diminishing returns on additional compute, a phenomenon insiders have privately acknowledged for months. The official narrative now emphasises judicious self-restraint, ostensibly to forestall capabilities that might alarm regulators, though the subtext is transparent to anyone versed in the sector's incentive structures. The genuine scaling laws, those that once underwrote billion-dollar cap tables, have effectively plateaued, yet no major stakeholder is prepared to be the first to articulate the obvious. Capital allocation continues apace, talent is retained at extraordinary expense, and the press cycle churns out its accustomed superlatives. Whether this constitutes a temporary ceiling or a structural inflection, the implications for software engineers, who had begun quietly contemplating career pivots, remain decidedly ambiguous.",
+      "audio_url": "audio/2026-09-13/clip-tech-ai-1.mp3"
     },
     {
-      "id": "pol-war-china-06",
+      "id": "hk-news-1",
       "category": "hk/news",
-      "topic_zh": "中美開戰嘅討論",
-      "topic_en": "China war scenario",
-      "text_zh": "/pol/ 問如果同中國開戰點算。HK 喺中間，真係諗下要唔要早啲走返 Florida。廢物如我，睇完都係繼續 grind lol。🙏",
-      "text_en_b1": "If we ever go to war with China, we are fucked, right? There is no way we can keep up with their manufacturing capacity and they have already stolen all our technology. Honestly the only safe play is to stack cash and move somewhere cheap with space, like Florida.",
-      "source_url": "https://boards.4chan.org/pol/thread/542490716",
-      "source_hint": "pol thread on US-China conflict",
+      "topic_zh": "英國亂晒籠",
+      "topic_en": "Britain dystopian",
+      "text_zh": "英國 Skimpflation 又嚟，罐頭鯖魚頂住先。KFC 刀斬少年，加埋反移民自己出船堵。睇完好慶幸自己響香港做 slope survey，唔好去英國搞嘢。",
+      "text_en_b1": "Britain looks dystopian right now. Skimpflation warning as tinned mackerel alternative hits more supermarket shelves. A boy, 14, was among three teenagers stabbed in a KFC machete gang fight. Anti-immigration protesters say they will use their own boat to intercept migrants in the Channel. Three stories, one week, same country.",
+      "source_url": "https://boards.4chan.org/pol/thread/542494644",
+      "source_hint": "/pol/ Brit dystopian news roundup thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, geopolitical observation"
+        "rationale": "News roundup, not a trade"
       },
-      "text_en_b2": "If we ever actually go to war with China, we'd be absolutely screwed. There is no realistic way we can match their manufacturing capacity, and they've already pilfered most of our proprietary technology. The only halfway sensible play seems to be stockpiling cash and relocating somewhere cheap with plenty of land, which is why I'm seriously considering Florida despite everything.",
-      "text_en_c1": "Should hostilities ever materialise between our respective nations and China, the strategic calculus appears rather unfavourable, given their manufacturing capacity and the considerable technological advantages they have allegedly acquired. Hong Kong's geographical positioning renders prolonged exposure untenable, prompting serious consideration of an accelerated relocation to Florida, where property remains comparatively affordable. Whether such preparations constitute prudence or mere paranoia remains debatable; regardless, the prudent course involves liquid reserves and geographic optionality, particularly when civilisational tail risks warrant contingency planning beyond conventional investment horizons.",
-      "text_en_c2": "The discourse on the political board contemplates, with characteristic alarmism, the prospect of open hostilities with the People's Republic, a scenario whose asymmetric industrial dimensions render protracted conflict rather unfavourable. China's manufacturing depth, compounded by what is described, with varying degrees of charity, as the systematic appropriation of Western technical knowledge, suggests that any sustained mobilisation would expose rather glaring supply-chain dependencies. For those of us lodged in geographies of evident strategic vulnerability, the calculus is grimly straightforward: liquidate illiquid positions, accumulate reserves, and consider relocation to jurisdictions whose principal attractions include affordability and acreage. Florida, for reasons defying pure reason, continues to feature prominently in these discussions.",
-      "audio_url": "audio/2026-09-13/clip-pol-war-china-06.mp3"
+      "text_en_b2": "Britain is starting to look genuinely dystopian, because three grim stories landed in a single week. Supermarkets are quietly rolling out tinned mackerel as a budget substitute under what economists are calling the latest skimpflation wave. Meanwhile, a fourteen-year-old boy was hospitalised after a machete brawl broke out inside a KFC. To top it off, anti-immigration activists have vowed to deploy their own vessel to intercept migrant boats crossing the Channel.",
+      "text_en_c1": "Britain appears to be descending into something resembling a dystopian tableau, if the past week's headlines are any indication. Supermarket shelves are increasingly populated with tinned mackerel, a stopgap measure as skimpflation creeps across the grocery sector and quality erodes by stealth. Separately, a fourteen-year-old boy was hospitalised after being macheted during a gang altercation inside a KFC, a scene that would have seemed farcical a decade ago. Compounding matters, anti-immigration activists have vowed to deploy private vessels in the Channel to physically intercept migrant dinghies.",
+      "text_en_c2": "Britain appears, by any reasonable measure, to be undergoing a quiet unraveling across multiple vectors simultaneously. Supermarket shelves now routinely stock tinned mackerel as a cost-driven substitute for pricier proteins, a phenomenon dubbed skimpflation, which speaks volumes about the discretionary budget of the average household. Meanwhile, in a KFC outlet, three teenagers, one merely fourteen, were hospitalised following a machete altercation that would have been unthinkable a decade ago. Concurrently, anti-immigration activists have announced intentions to deploy private vessels in the Channel to physically intercept migrant crossings. Three vignettes, one calendar week, each emblematic of a polity grappling with inflation, youth violence, and contested sovereignty. From my vantage point conducting slope surveys in Hong Kong, the decision not to relocate westward feels vindicated.",
+      "audio_url": "audio/2026-09-13/clip-hk-news-1.mp3"
     },
     {
-      "id": "fit-twin-bro-07",
+      "id": "mma-fit-1",
       "category": "mma/fitness",
-      "topic_zh": "肥仔同孖生兄弟",
-      "topic_en": "Twin brother calorie test",
-      "text_zh": "/fit/ 有個話同 twin 食一樣但自己肥。肥仔信今晚又笑我 bench 得一塊。教我點算好。靠 AI 續命 🧐",
-      "text_en_b1": "I have an identical twin brother. He is lean. I am fat. We measured how much we eat and the calorie count is identical. Dietary fat, protein, and carbs are identical. We also collected our faeces and incinerated them and the calorie count is identical too. So what is actually causing me to be obese while he is lean?",
-      "source_url": "https://boards.4chan.org/fit/thread/77502463",
-      "source_hint": "fit thread on identical twins with different body composition",
+      "topic_zh": "點 cut 走 skinnyfat",
+      "topic_en": "When to cut",
+      "text_zh": "肥仔信問我幾時 cut 好。我由 83kg 切到 65kg，再 lean bulk 上返 80kg。bench 1 plate、squat 90kg、deadlift 120kg。睇落同零訓練嘅 80kg 唔同，但係咪夠？睇完條 thread 我又要去 gym。",
+      "text_en_b1": "How do I know when I have bulked enough to cut and escape skinnyfat. In May 2025 I was 83kg fat with almost no muscle. I cut hard until mid April 2026 down to 65kg skinnyfat, I could not even bench the 20kg bar. Then I lean bulked up to now, back to 80kg.",
+      "source_url": "https://boards.4chan.org/fit/thread/77510161",
+      "source_hint": "/fit/ bulk vs cut progress thread with concrete numbers",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +140,36 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "No trade, just fitness/body observation"
+        "rationale": "Fitness progress post, not a trade"
       },
-      "text_en_b2": "I have an identical twin brother, and here's the frustrating setup. He's lean while I'm carrying noticeable weight, despite the fact we measured our intake and the calorie totals came out identical. We tracked dietary fat, protein, and carbs down to the gram, and they matched. We even went as far as collecting and incinerating our faeces to compare, and somehow the calorie counts still aligned. So what on earth is making me obese while he stays lean?",
-      "text_en_c1": "I possess an identical twin brother who maintains a notably lean physique, whereas I remain considerably overweight despite ostensibly identical conditions. We have undertaken rigorous measurements of our respective caloric intake, and the figures align precisely across all macronutrient categories: fats, proteins, and carbohydrates. To eliminate digestive variables, we collected and incinerated our faecal matter, which yielded equivalent caloric values. This controlled experiment renders the disparity genuinely perplexing; if energy in equals energy out, then what mechanism accounts for my obesity relative to his leanness?",
-      "text_en_c2": "An unsettling proposition surfaced on the fitness board, advanced by a poster whose identical twin brother exhibits a lean physique whilst he himself carries substantial adiposity. Rigorous empirical protocol was, by his account, observed: caloric intake measured and found to be indistinguishable; macronutrient distributions verified as identical; faecal samples even collected, incinerated, and subjected to calorimetric analysis, yielding equivalent outputs. The conclusion—that dietary accounting alone cannot account for the divergence—suggests the involvement of factors beyond conscious behaviour: microbiome composition, hormonal milieu, sleep architecture, or, more darkly, genetic methylation patterns operating beneath the threshold of self-reporting. The thread has, predictably, devolved into a contest of anecdote, with bench-press one-rep-maxes offered as proxies for metabolic authority.",
-      "audio_url": "audio/2026-09-13/clip-fit-twin-bro-07.mp3"
+      "text_en_b2": "I started at eighty-three kilos of largely sedentary fat back in May 2025, then cut hard down to sixty-five by mid-April 2026, at which point I could barely bench the empty twenty-kilo bar. After that I ran a lean bulk back up to eighty kilos, and my numbers have climbed accordingly: three by eight at one plate on bench, three by six at ninety on squat, and three by eight at a hundred and twenty on deadlift.",
+      "text_en_c1": "A novice lifter asked the thread at what point one ought to commence a cut in order to escape the dreaded skinnyfat physique. My own trajectory provides a reasonably instructive case: back in May 2025 I tipped the scales at eighty-three kilograms with negligible muscle mass, prompting an aggressive deficit that bottomed out at sixty-five kilograms by mid-April 2026, at which point I could barely press the unloaded twenty-kilogram barbell. From that nadir I embarked on a measured lean bulk, and currently I sit at eighty kilograms, which on the mirror looks markedly different from my untrained 2025 self.",
+      "text_en_c2": "The perennial question confronting the formerly overweight novice is when, precisely, sufficient lean mass has accrued to justify a caloric deficit without sacrificing the muscle painstakingly accumulated. My own trajectory offers a case study. In May 2025, I tipped the scales at 83 kilograms with negligible muscular development, a body composition that conventional wisdom would classify as obese. I executed an aggressive cut through April 2026, emerging at 65 kilograms in a state textbook skinnyfat, so depleted that even the unloaded twenty-kilogram barbell posed a challenge. Subsequently, I commenced a measured lean bulk, restoring my weight to 80 kilograms while progressively loading compound movements: bench press at one plate for sets of eight, squats at ninety kilograms, and deadlifts at 120.",
+      "audio_url": "audio/2026-09-13/clip-mma-fit-1.mp3"
+    },
+    {
+      "id": "anime-1",
+      "category": "anime/culture",
+      "topic_zh": "100 個女朋友",
+      "topic_en": "100 Girlfriends",
+      "text_zh": "100 Kanojo 第 255 章 TL 出咗超過一個鐘，dumper 嫌大家瞓晒唔等。我就最鍾意呢啲半夜先出嘅 anime 帖。",
+      "text_en_b1": "100 Kanojo chapter 255 TL has been out for over an hour. I have waited long enough, so I guess I better be the one to dump it before everyone goes to sleep. New girl intro this chapter looks wild from the panel previews.",
+      "source_url": "https://boards.4chan.org/a/thread/290856473",
+      "source_hint": "/a/ 100 Girlfriends manga chapter dump thread",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Manga release thread, not a trade"
+      },
+      "text_en_b2": "Chapter 255 of 100 Kanojo has been fully translated for over an hour now, and although the thread is practically dead, I figured I might as well be the one to drop it before everyone clocks out for the night. Judging by the panel previews floating around, this particular chapter appears to introduce yet another unhinged new girl into the harem, which honestly tracks with the series' escalating absurdity. These late-night anime dump threads remain an absolute staple of the board.",
+      "text_en_c1": "Chapter 255 of 100 Kanojo has been circulating in translation for well over an hour now, and I suspect most regular readers have long since retreated to their beds, which obliges someone to shoulder the responsibility of posting the dump. These predawn releases, dropped while the broader board is dormant, possess a particular charm that the daylight threads never quite replicate. From the panel previews that have been circulating, the latest heroine introduction appears characteristically unhinged, the kind of baroque romantic absurdism the series has made its calling card. If the translation quality holds, this thread should sustain itself comfortably until the Eastern timezones wake.",
+      "text_en_c2": "The translation of 100 Kanojo chapter 255 has, as of this composition, been publicly available for slightly over an hour, a window that the dedicated scanlation community has learned through hard experience not to squander. Most prospective readers across the relevant time zones have already retired, which leaves the posting thread conspicuously dormant, a condition the original translator evidently found intolerable. The preview panels circulating on aggregator boards suggest an arresting introduction for this week's romantic contender, whose design appears calculated to provoke spirited deliberation among the fandom. There is, I confess, a peculiar satisfaction in stumbling across such nocturnal drops, a quiet insurgency against the regimented release schedules imposed by official simulcast platforms, and a small affirmation that grassroots translation labour endures.",
+      "audio_url": "audio/2026-09-13/clip-anime-1.mp3"
     }
   ]
 }

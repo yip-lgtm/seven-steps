@@ -4,67 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-doge-space-01",
-      "topic_en": "Doge space mission",
-      "topic_zh": "Dogecoin太空任務",
+      "id": "trade-macro-1",
+      "topic_en": "Oil pipeline hit",
+      "topic_zh": "油價大事件",
       "category": "trading",
-      "file": "clip-biz-doge-space-01.mp3",
-      "bytes": 208500,
-      "chars": 204
+      "file": "clip-trade-macro-1.mp3",
+      "bytes": 391668,
+      "chars": 330
     },
     {
-      "id": "biz-oil-pipeline-02",
-      "topic_en": "Saudi pipeline hit",
-      "topic_zh": "沙地油管被炸",
+      "id": "trade-musk-1",
+      "topic_en": "Doge to the moon",
+      "topic_zh": "DOGE 同 SNL",
       "category": "trading",
-      "file": "clip-biz-oil-pipeline-02.mp3",
-      "bytes": 371508,
-      "chars": 323
+      "file": "clip-trade-musk-1.mp3",
+      "bytes": 268980,
+      "chars": 249
     },
     {
-      "id": "civil-soil-nail-fit-03",
-      "topic_en": "Slope and soil nailing",
-      "topic_zh": "斜坡同soil nail",
+      "id": "civil-1",
+      "topic_en": "Stuck with a condo",
+      "topic_zh": "搵唔到出路",
       "category": "civil/structure",
-      "file": "clip-civil-soil-nail-fit-03.mp3",
-      "bytes": 342708,
-      "chars": 325
+      "file": "clip-civil-1.mp3",
+      "bytes": 359412,
+      "chars": 298
     },
     {
-      "id": "struct-load-path-fit-04",
-      "topic_en": "RC and load path",
-      "topic_zh": "RC同load path",
-      "category": "civil/structure",
-      "file": "clip-struct-load-path-fit-04.mp3",
-      "bytes": 307572,
-      "chars": 311
-    },
-    {
-      "id": "ai-plateau-05",
-      "topic_en": "AI models plateau",
-      "topic_zh": "AI模型到樽頸",
+      "id": "tech-ai-1",
+      "topic_en": "AI has plateaued",
+      "topic_zh": "AI 撞牆",
       "category": "tech/ai",
-      "file": "clip-ai-plateau-05.mp3",
-      "bytes": 264948,
-      "chars": 274
+      "file": "clip-tech-ai-1.mp3",
+      "bytes": 255732,
+      "chars": 258
     },
     {
-      "id": "pol-war-china-06",
-      "topic_en": "China war scenario",
-      "topic_zh": "中美開戰嘅討論",
+      "id": "hk-news-1",
+      "topic_en": "Britain dystopian",
+      "topic_zh": "英國亂晒籠",
       "category": "hk/news",
-      "file": "clip-pol-war-china-06.mp3",
-      "bytes": 263220,
-      "chars": 264
+      "file": "clip-hk-news-1.mp3",
+      "bytes": 359988,
+      "chars": 329
     },
     {
-      "id": "fit-twin-bro-07",
-      "topic_en": "Twin brother calorie test",
-      "topic_zh": "肥仔同孖生兄弟",
+      "id": "mma-fit-1",
+      "topic_en": "When to cut",
+      "topic_zh": "點 cut 走 skinnyfat",
       "category": "mma/fitness",
-      "file": "clip-fit-twin-bro-07.mp3",
-      "bytes": 351348,
-      "chars": 317
+      "file": "clip-mma-fit-1.mp3",
+      "bytes": 332916,
+      "chars": 255
+    },
+    {
+      "id": "anime-1",
+      "topic_en": "100 Girlfriends",
+      "topic_zh": "100 個女朋友",
+      "category": "anime/culture",
+      "file": "clip-anime-1.mp3",
+      "bytes": 230964,
+      "chars": 220
     }
   ]
 }
