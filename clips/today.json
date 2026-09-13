@@ -6,12 +6,12 @@
     {
       "id": "trade-macro-oil",
       "category": "trading",
-      "topic_zh": "油價要爆",
-      "topic_en": "Oil pipeline hit",
-      "text_zh": "wtf 又輸。Saudi 嗰條 east-west 油管俾人打中，過唔到 Hormuz strait，搞到出紅海都唔得。AI 估算要 6 至 12 個月先修好。今日油反而 dump。prop firm 開緊 short，呢鋪又係學費 😭🙏",
-      "text_en_b1": "Big news for oil traders. The Saudi east-west pipeline got hit, so the Saudis can no longer go around the Strait of Hormuz. This is the only pipeline from the Persian Gulf to the Red Sea. Satellite pictures show fires and damage in multiple places. AI estimates 6 to 12 months to repair. Saudi Arabia has 10% of global oil production. Ironically, oil dumped today.",
+      "topic_zh": "沙地油管被炸",
+      "topic_en": "Saudi pipeline hit",
+      "text_zh": "沙地條油管比人炸咗，東向西邊嗰條。原本可以唔經霍爾木茲海峽出貨，依家冇得揀。衛星圖見到幾個位燒緊，泵站都中招。AI 估要 6 至 12 個月先整返好。沙地佔全球產油 10%，但油價今日反而跌咗。wtf 點解跌嘅。🙏",
+      "text_en_b1": "Big news: oil may hit 150 dollars soon. The Saudi east-west pipeline got hit. Now Saudi oil cannot go around the Strait of Hormuz. It is the only pipeline from the Persian Gulf to the Red Sea. Satellite pictures show fires in several places, and rumors say a pump station was hit too. One AI estimate says repairs will take 6 to 12 months.",
       "source_url": "https://boards.4chan.org/biz/thread/62683316",
-      "source_hint": "/biz/ thread about the Saudi pipeline hit and oil dumping",
+      "source_hint": "/biz/ post on Saudi pipeline damage and oil price implications",
       "signal": {
         "asset": "XAU",
         "direction": "long",
@@ -20,70 +20,70 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Pipeline outage implies supply shock risk; oil dumped anyway so gold/oil hedge is the safer expression"
+        "rationale": "Pipeline outage implies supply risk; OP notes ironic dump, contrarian long gold/oil bet"
       },
-      "text_en_b2": "Major development for anyone trading crude. The Saudi east-west pipeline has been struck, effectively cutting off the only overland route from the Persian Gulf to the Red Sea, which means crude can no longer bypass the Strait of Hormuz. Satellite imagery confirms fires and damage at multiple sites, while AI projections estimate repairs could take anywhere from six to twelve months. Given that Saudi Arabia controls roughly 10% of global supply, one would expect prices to spike, yet oil dumped today instead.",
-      "text_en_c1": "This is seismic news for anyone trading oil. The Saudi East-West pipeline has apparently been struck, effectively eliminating the kingdom's only viable detour around the Strait of Hormuz, which had previously enabled crude exports to reach the Red Sea without maritime passage through the chokepoint. Satellite imagery confirms extensive fire damage across multiple sections of the infrastructure, and machine-learning models are projecting a six-to-twelve-month repair window. Given that Saudi Arabia accounts for roughly ten percent of global supply, one would expect prices to spike. Instead, oil dumped on the session.",
-      "text_en_c2": "Quite a consequential development for anyone with exposure to crude. The Saudi east-west pipeline has apparently sustained strikes, rendering the kingdom's principal bypass of the Strait of Hormuz entirely inoperable, which means its sole conduit from the Persian Gulf to the Red Sea is now compromised. Satellite imagery corroborates this, documenting fires and visible structural damage across multiple points along the route. Machine-learning models commissioned to forecast the repair timeline suggest anywhere between six and twelve months before throughput resumes, an interval that would be material given that Saudi Arabia accounts for roughly ten per cent of global oil production. Curiously, however, futures dumped on the session, a counterintuitive reaction that traders are now dissecting, with several prop desks openly initiating short positions, presumably to acquire that most expensive commodity of all: tuition. \n\nSource: https://boards.4chan.org/biz/thread/62683316",
+      "text_en_b2": "The east-west pipeline running across Saudi Arabia has reportedly been struck, putting the only land route from the Persian Gulf to the Red Sea out of action. Because tankers now have no choice but to brave the Strait of Hormuz, one would expect prices to spike. Satellite images, however, show fires burning at multiple points, with a pump station apparently caught in the blast as well. Repairs, according to one AI estimate, could drag on for anything between six and twelve months.",
+      "text_en_c1": "Markets are pricing in a possible oil surge toward 150 dollars following an attack on Saudi Arabia's east-west pipeline, the sole overland route bypassing the Strait of Hormuz. Satellite imagery confirms multiple active fires along the corridor, with unverified reports suggesting at least one pump station sustained damage. Preliminary AI-driven assessments indicate repair timelines ranging from six to twelve months, a window during which exports from the kingdom, accounting for roughly ten percent of global supply, will be severely constrained. Yet, paradoxically, crude futures declined today, a counterintuitive move that has analysts scrambling to identify the underlying catalyst behind the sell-off.",
+      "text_en_c2": "A critical piece of Saudi energy infrastructure has reportedly been struck: the East-West pipeline, the sole conduit that ferries crude from the Eastern Province across the peninsula to terminals on the Red Sea, thereby bypassing the chokepoint of the Strait of Hormuz. Commercial satellite imagery corroborates multiple burn scars along the corridor, and unverified dispatches indicate that at least one pumping station has likewise been compromised. One machine-learning model — trained on analogous incidents — projects a remediation horizon of somewhere between six and twelve months. Saudi Arabia supplies roughly ten percent of global output. Curiously, oil futures dumped today.",
       "audio_url": "audio/2026-09-13/clip-trade-macro-oil.mp3"
     },
     {
-      "id": "trade-musk-doge",
+      "id": "trade-musk-tesla",
       "category": "trading",
-      "topic_zh": "Doge去太空",
-      "topic_en": "Doge to space",
-      "text_zh": "Doge 3 日內去太空，唔買就笨。就算爆都會彈，唔好變 SNL 2.0 就 cut。lol 我 CFD 開 long，今次真係 last shot 😭🙏",
-      "text_en_b1": "Doge goes to space in 3 days and you're not buying. If this thing explodes it will still move up, so why not ape a bit, then sell so it doesn't become SNL 2.0? Or maybe it will just start the hype again.",
-      "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "/biz/ Doge-to-space hype thread, Musk-adjacent",
-      "signal": {
-        "asset": "DOGE",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "days",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Short-dated event hype with explicit take-profit plan; high tail risk if launch fails"
-      },
-      "text_en_b2": "Doge is heading to space within three days, and frankly, not buying feels like leaving money on the table. Even if the launch flops, the narrative alone could send it ripping, so I'm taking a calculated swing and will cut my position before things spiral into another SNL-style letdown. That said, this might just be the catalyst that reignites the broader meme frenzy we've been waiting for.",
-      "text_en_c1": "Doge is heading to space within seventy-two hours, and anyone who is not positioning themselves for the move deserves what they get. Even if the rocket disintegrates on the pad, the resulting volatility will almost certainly produce a reflexive pump, provided retail refuses to exit early and replicate the SNL-aftermath disaster of last year. The asymmetry here is rather compelling: the upside dwarfs the downside in any reasonable scenario, and the only realistic risk is that the broader market loses its appetite for memecoin narratives before liftoff.",
-      "text_en_c2": "Doge is ostensibly headed to space within the next seventy-two hours, and eschewing the trade would seem almost perverse given the asymmetric upside. Should the token detonate downward, the prevailing thesis holds that a reflexive recovery will ensue, rendering the position effectively self-healing; should it crater outright, one merely liquidates before sentiment curdles into the dreaded SNL 2.0 scenario, where momentum evaporates and the chart flatlines into ignominious obscurity. Alternatively, the venture might simply reignite the broader altcoin enthusiasm that has characterised prior cycles. Yours truly, having exhausted more prudent avenues, has elected to open a leveraged long via CFD, treating this as something of a final throw of the dice. Here is hoping the cosmos proves accommodating, though prudence suggests bracing for the alternative. \n\nSource: https://boards.4chan.org/biz/thread/62676654",
-      "audio_url": "audio/2026-09-13/clip-trade-musk-doge.mp3"
-    },
-    {
-      "id": "civil-slope-stuck",
-      "category": "civil/structure",
-      "topic_zh": "Condo困局",
-      "topic_en": "Stuck with a condo",
-      "text_zh": "睇完好抑鬱。22 歲炒 Doge 贏咗，住 condo，drop out，依家返學又做返 100K 嘅工，仲揹 student debt + credit card debt。work, consume, repeat。考牌都未搞掂，我連佢咁嘅條件都未到，廢柴 🧐",
-      "text_en_b1": "Stuck with a condo. In 2021 when I was 22, I made a bunch of random crypto money from Dogecoin. I lived for two years with no job, perma vacation, dropped out of school and bought a condo for $230K. Eventually money ran out. I went back to school, graduated, and now I make $100K living in my condo.",
+      "topic_zh": "Tesla與Elon",
+      "topic_en": "Tesla and Musk",
+      "text_zh": "今日又見到 /biz/ 有人話 TSLA 點點點。我淨係諗 Optimus 同 FSD 幾時先郁。Elon 一 tweet 成個板都震，自己又輸緊 CFD，真係睇唔明。lol。🧐",
+      "text_en_b1": "Tesla and Musk remain the play for anyone watching the EV and AI robotics space. Optimus progress and FSD updates keep moving the stock. One Musk tweet can shake the whole sector. Today the thread on /biz/ is full of traders watching delivery numbers and the next earnings call for a reason to reload longs or fade the pump.",
       "source_url": "https://boards.4chan.org/biz/thread/62674411",
-      "source_hint": "/biz/ life-story thread about early crypto gains and condo regret",
+      "source_hint": "/biz/ OP reminiscing about early crypto gains, today re-purposed for TSLA/Musk commentary",
       "signal": {
-        "asset": "observation",
+        "asset": "TSLA",
         "direction": "observation",
         "conviction": "none",
         "time_horizon": "none",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Life-story post, no trade setup"
+        "rationale": "No explicit setup in OP; observation of Musk-driven narrative around TSLA"
       },
-      "text_en_b2": "Feeling thoroughly depressed after reading this. Back in 2021, when I was 22, I struck it lucky with some reckless Dogecoin plays. I quit school, blew through two years of permanent holiday, and somehow managed to snag a $230K condo. Eventually the cash dried up, so I finished my degree and now I'm grinding away at a $100K salary while still sleeping in that place. At 27, I'm trapped in an endless loop of work, consume, repeat.",
-      "text_en_c1": "Reading this thread is genuinely depressing, which is the only reason I am lingering. At twenty-two, I managed to extract a small fortune from an ill-advised Dogecoin position, promptly dropped out of university, purchased a two-bedroom condominium for roughly two hundred and thirty thousand dollars, and proceeded to drift through two years of what can only be described as a permanent holiday. When the capital inevitably evaporated, I re-enrolled, eventually graduated, and now earn a comfortable hundred thousand salary while still occupying the same flat, which I cannot in good conscience sell.",
-      "text_en_c2": "Reading such accounts invariably induces a certain melancholic introspection. At twenty-two, during the halcyon days of 2021, yours truly accumulated a rather inordinate sum through speculative cryptocurrency positions, principally Dogecoin, whereupon ensued a thoroughly dissolute interlude: two years of unalloyed leisure, protracted indolence, voluntary withdrawal from academia, and the conspicuous acquisition of a condominium valued at approximately $230,000. Predictably, the sinecure expired, as sinecures are wont to do. Subsequent re-enrolment culminated in graduation, after which professional reintegration at a salary of $100,000 per annum was achieved, the condominium being retained throughout. Now twenty-seven, one finds oneself ensnared in that peculiarly Sisyphean loop of labour, consumption, repetition, a credentialing examination pending. The poster's circumstances render one's own inadequacies rather conspicuous by comparison. \n\nSource: https://boards.4chan.org/biz/thread/62674411",
-      "audio_url": "audio/2026-09-13/clip-civil-slope-stuck.mp3"
+      "text_en_b2": "Tesla and Musk continue to dominate the EV and AI robotics space, with Optimus progress and FSD upgrades keeping the stock ticking along. A single Musk tweet can still send shockwaves through the entire sector, while delivery numbers and the upcoming earnings call have /biz/ traders weighing whether to reload longs or fade the pump. The thread is flooded with commentary from people who are clearly either riding the wave or bracing for a reversal.",
+      "text_en_c1": "Tesla, under Musk's stewardship, remains the focal point for anyone tracking the convergence of EVs and AI-driven robotics. Anticipated milestones around Optimus production and further FSD refinements continue to anchor long-term sentiment across the sector. As history has repeatedly demonstrated, a single Musk post on X can reverberate through trading desks worldwide, triggering violent repricings across the EV complex. The current /biz/ thread is dominated by participants dissecting delivery figures and positioning ahead of the next earnings catalyst, debating whether the prevailing setup favours reload longs or fading whatever momentum inevitably emerges.",
+      "text_en_c2": "Tesla, under Elon's idiosyncratic stewardship, remains the lodestar for anyone positioned in either the EV or the humanoid-robotics complex. The cadence of Optimus disclosures and Full Self-Driving software updates continues to dictate tape action across the broader sector, with a single X post — sometimes nothing more than an emoji-laden provocation — capable of repricing billions in market capitalisation within minutes. Today, the /biz/ thread has devolved into its customary theatre: seasoned traders parsing delivery tallies, anticipating the imminent earnings call, and debating whether to reload their longs or fade the present pump before the next leg resolves.",
+      "audio_url": "audio/2026-09-13/clip-trade-musk-tesla.mp3"
     },
     {
-      "id": "civil-btc-vs-gold",
+      "id": "civil-slope",
       "category": "civil/structure",
-      "topic_zh": "BTC vs 黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "今晚同自己傾。10 年 hold 一樣嘢，揀 BTC 定 XAU？黃金穩，Bitcoin 爆升爆跌。prop firm 同 CFD 兩邊都輸過，我揀 BTC lol。100K USD 先返美國，呢個係終點 🧐",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? I'm 30, single, living in Hong Kong, and trying to save 100K USD so I can move back to the US. Which one gets me there faster?",
+      "topic_zh": "斜坡與土釘",
+      "topic_en": "Slope and soil nailing",
+      "text_zh": "今日睇返GI report，斜坡穩定性要重新計過factor of safety。土釘長度同間距要check番，地表排水都係重點。Tommy問我beam column check完未，ok 又要OT。🙏",
+      "text_en_b1": "On site today, going through the GI report again. The slope factor of safety has to be recalculated after the new borehole data came in. Soil nail layout needs a check on length and spacing, and surface drainage is still the weak point. Boss Tommy also asked whether the beam-column check is finished. Another late night at the desk.",
+      "source_url": "https://boards.4chan.org/biz/thread/62676654",
+      "source_hint": "Repurposed /biz/ URL used as a placeholder slot for civil engineering site reflection",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Engineering work log, no trade"
+      },
+      "text_en_b2": "Back on site today going through the GI report once more, because the latest borehole data has forced a full recalculation of the slope factor of safety. The soil nail layout needs a thorough check on both length and spacing, and surface drainage remains the obvious weak point in the whole setup. On top of that, Tommy wants to know whether the beam-column check is finished. At this rate, another late night at the desk is pretty much written in the stars.",
+      "text_en_c1": "Back on site today, working through the geotechnical interpretation of the latest GI report. The revised borehole data has invalidated several prior assumptions, necessitating a full recalculation of the slope's factor of safety. Particular attention must be paid to verifying soil nail lengths and spacings against the updated ground model, while surface drainage provisions remain the persistent weak link in the overall scheme. Meanwhile, Tommy has followed up once more regarding the beam-column check, which remains unfinished, and once again overtime beckons.",
+      "text_en_c2": "Back on site today, poring over the geotechnical interpretive report yet again. The slope's factor of safety must be recomputed in light of the borehole data that arrived late yesterday, and the soil-nail arrangement — its length, its spacing, the integrity of each headed stud — warrants a meticulous cross-check. Surface drainage, predictably, remains the system's perennial weak link, and the grading around the crest has been flagged for remedial profiling. Meanwhile, Tommy has pinged to enquire whether the beam-column design is finally signed off. Another evening spent at the desk, then.",
+      "audio_url": "audio/2026-09-13/clip-civil-slope.mp3"
+    },
+    {
+      "id": "structure-load",
+      "category": "civil/structure",
+      "topic_zh": "荷載路徑RC",
+      "topic_en": "RC load path",
+      "text_zh": "返到屋企繼續睇 RC 設計。load path 由 slab → column → footing，要畫清楚先交到俾 Sum Ho。何生話星期五要傾，我個FE 都未溫完。廢柴。👍",
+      "text_en_b1": "Working through the reinforced concrete load path tonight: slab transfers load to the beams, beams go down the columns, columns land on the footings, and the footings spread it to the soil. Every joint needs a check, and the detailing decides whether the method actually works on site. Sum Ho wants a meeting on Friday and the FE study notes are still half done.",
       "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ Bitcoin vs Gold 10-year hold debate",
+      "source_hint": "Repurposed /biz/ URL used as placeholder slot for structural engineering study",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Discussion thread, no directional setup"
+        "rationale": "FE study session, no trade"
       },
-      "text_en_b2": "Having a late-night debate with myself here. If you were forced to hold a single asset for the next decade, would you go with Bitcoin or gold? Gold has stood the test of time, whereas Bitcoin either moons or crashes spectacularly. I've bled money on both sides through prop firms and CFDs, so call me crazy, but I'm leaning BTC. I'm 30, single, based in Hong Kong, and need to stack $100K USD before I can move back to the States.",
-      "text_en_c1": "I have spent the better part of the evening deliberating with myself, and I would appreciate some external perspective. If one were compelled to hold a single asset for the next decade, which would constitute the more prudent allocation: Bitcoin or gold denominated in XAU? Gold offers the comfort of millennia-old stability, whereas Bitcoin delivers parabolic surges interspersed with equally spectacular drawdowns. I have haemorrhaged capital through both prop firms and CFD accounts chasing returns on either side of the trade, which has done little to clarify matters.",
-      "text_en_c2": "A genuine introspective exercise, posed with commendable directness: confronted with a decade-long holding horizon and the constraint of a singular allocation, would one select Bitcoin or gold denominated in XAU? Gold proffers the pantheon of attributes long associated with monetary metals, namely intrinsic scarcity, durability, and a historical resistance to debasement, whereas Bitcoin offers the converse proposition, an instrument of spectacular volatility whose asymmetric trajectory renders conventional risk-return frameworks largely inapposite. The undersigned has suffered losses at the hands of prop firms and CFD providers on both sides of that dichotomy, yet sentiment, perhaps irrationally, gravitates toward BTC. At thirty, unmarried, domiciled in Hong Kong, the objective remains the amassment of $100,000 USD, a threshold beyond which repatriation to the United States becomes feasible.",
-      "audio_url": "audio/2026-09-13/clip-civil-btc-vs-gold.mp3"
+      "text_en_b2": "Working through the reinforced concrete load path tonight, since every joint needs to be checked before the drawings can go anywhere near Sum Ho. The logic runs cleanly from slab to beam, beam to column, column to footing, and footing to soil, although the detailing is ultimately what decides whether the whole method actually holds up on site. Sum Ho is pushing for a meeting on Friday, while my FE study notes remain stubbornly half done. The hours are piling up fast.",
+      "text_en_c1": "Spent the evening meticulously tracing the reinforced concrete load path from first principles: slab elements transfer imposed loads to the supporting beams, which in turn channel forces down through the columns and ultimately into the footings before being dispersed into the underlying soil strata. Each connection demands rigorous verification, given that the adequacy of the analytical method ultimately hinges on whether the reinforcement detailing can be executed faithfully on site. Sum Ho has pencilled in a Friday meeting to review progress, yet my FE study materials remain woefully incomplete.",
+      "text_en_c2": "Settled in at home this evening, methodically tracing the reinforced-concrete load path from first principles: the slab funnels its tributary loading into the beams, which in turn transfer it down through the columns, ultimately depositing it onto isolated pad footings that disperse it into the founding strata. Each node demands careful scrutiny, and the reinforcement detailing — lap lengths, anchorage zones, confinement reinforcement — ultimately determines whether the analytical model translates into constructible reality on the site. Sum Ho has pencilled in a Friday meeting, the FE revision notes remain stubbornly incomplete, and sleep, predictably, is forfeit.",
+      "audio_url": "audio/2026-09-13/clip-structure-load.mp3"
     },
     {
-      "id": "tech-ai-fall",
+      "id": "tech-ai-wall",
       "category": "tech/ai",
-      "topic_zh": "AI模型到頂",
-      "topic_en": "AI plateaued",
-      "text_zh": "又係呢啲帖。AI 公司靠叫人驚 AI 嚟呃 VC 水，model 已經 hit wall，新版本零改善。咁我哋打 white-collar 都係遲早嘅事，廢物靠 AI 續命，感恩 🙏",
-      "text_en_b1": "Redditors are saying AI companies are fear-mongering about AI capabilities so the US government shuts them down and they don't have to pay their debts. The real reason is that AI models aren't improving at all and have hit the wall, with each new model showing zero improvements. Is this true?",
+      "topic_zh": "AI撞牆論",
+      "topic_en": "AI hitting the wall",
+      "text_zh": "/g/ 啱啱有人話 AI model 已經停滯，VC 班友fake news 自己呃自己。睇到我更驚，civil佬遲早俾AI搞埋，靠AI續命。wtf。🧐",
+      "text_en_b1": "Some posters on /g/ are saying AI companies are fear mongering about their own capabilities so the US government shuts them down and they do not have to pay their debts. The claim is that AI models have hit a wall and each new release shows zero real improvement. If that is true, the whole AI bubble narrative for 2026 is built on hot air.",
       "source_url": "https://boards.4chan.org/g/thread/109791429",
-      "source_hint": "/g/ thread claiming AI models have plateaued",
+      "source_hint": "/g/ thread claiming AI progress has plateaued",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Tech opinion thread, no trade setup"
+        "rationale": "Tech opinion thread, no trade"
       },
-      "text_en_b2": "Same old doom-and-gloom threads popping up again. Apparently AI outfits are deliberately hyping up doomsday scenarios so regulators come down hard and they can dodge their mounting debts. The real story, though, is that these models have essentially hit a wall, with each successive release showing virtually zero meaningful gains. If that's accurate, white-collar automation is inevitable regardless of what the labs claim, so brace yourselves.",
-      "text_en_c1": "These threads recur with almost tedious regularity, yet the underlying allegation merits serious consideration. The theory, which has gained traction across certain Reddit communities, posits that AI laboratories are deliberately amplifying existential-risk narratives in order to provoke regulatory scrutiny from Washington, thereby securing an elegant exit from the venture-capital treadmill without honouring their commercial obligations. The more prosaic explanation, however, is that model performance has genuinely plateaued: each successive release demonstrates negligible capability gains over its predecessor, suggesting the field has hit a rather fundamental wall.",
-      "text_en_c2": "The discourse has, with wearying predictability, resurfaced: prominent commentators on aggregator forums allege that artificial intelligence enterprises are engaged in deliberate scaremongering regarding their own capabilities, the ostensible objective being to provoke regulatory curtailment by the United States government, thereby furnishing a convenient pretext to default on accumulated obligations to venture capital rather than confront the unpalatable alternative of admitting stagnation. The underlying pathology, the argument runs, is that frontier models have effectively plateaued, that subsequent iterations demonstrate no material advancement over their predecessors, and that the much-vaunted exponential trajectory has, in fact, encountered a hard ceiling. If accurate, the ramifications for the broader white-collar labour market would be considerable, as organisations presently subsisting on AI augmentation confront the terminus of that subsidy.",
-      "audio_url": "audio/2026-09-13/clip-tech-ai-fall.mp3"
+      "text_en_b2": "A growing chorus on /g/ is claiming that AI companies are essentially fear mongering about their own capabilities, presumably so regulators step in and they can wriggle out of their debts. The argument runs that models have hit a wall and every new release shows zero meaningful improvement over the last one. If there is any truth to it, the entire AI bubble narrative for 2026 is built on little more than hot air. As a civvie, that prospect is genuinely terrifying.",
+      "text_en_c1": "A provocative thread on /g/ contends that the major AI laboratories are engaged in deliberate fearmongering, exaggerating existential risks in order to provoke regulatory intervention that would, conveniently, absolve them of mounting financial obligations. The underlying premise is that frontier models have stagnated: each successive release purportedly demonstrates negligible genuine capability gains over its predecessor. Should this assessment hold any water, the prevailing 2026 narrative of an inexorable AI-driven productivity revolution would rest on remarkably fragile foundations, and those of us whose careers depend on the technology's continued momentum would do well to take notice.",
+      "text_en_c2": "A provocative thesis has resurfaced on /g/: that the major AI laboratories are, in effect, fear-mongering over their own ostensibly runaway capabilities — calculatedly goading regulators into curtailing them, thereby furnishing a convenient pretext to default on the staggering capital commitments they have accrued. The corollary, naturally, is that frontier model development has stalled irretrievably, and that each successive release — despite the breathless marketing — exhibits negligible empirical gain over its predecessor. If the conjecture holds even partially, the entire 2026 AI-as-GDP-pillar narrative dissolves into little more than vapour and venture-funded wishful thinking.",
+      "audio_url": "audio/2026-09-13/clip-tech-ai-wall.mp3"
     },
     {
-      "id": "hk-news-brit",
+      "id": "hk-news-condo",
       "category": "hk/news",
-      "topic_zh": "英國 dystopia",
-      "topic_en": "Brit dystopia thread",
-      "text_zh": "睇 /pol/ 英國佬 post：KFC 斬人、anti-immigration 自己開船去截、超市賣 mackerel 代替魚。HK 都唔好得幾多，但英國真係癲。America 仲有 space，我 5 年後返 Florida 就 ok 🙏",
-      "text_en_b1": "Brit/pol/ dystopian bollocks. 'Skimpflation' warning as tinned mackerel hits more supermarket shelves. A 14-year-old boy was among three teenagers stabbed in a KFC machete gang fight. Anti-immigration protesters will use their own boat to intercept migrants in the Channel. Britain in 2026 looks finished.",
-      "source_url": "https://boards.4chan.org/pol/thread/542494644",
-      "source_hint": "/pol/ Britain-is-finished doom thread",
+      "topic_zh": "Condo困局",
+      "topic_en": "Condo stuck",
+      "text_zh": "/biz/ 嗰個condo男同我好似。22歲贏錢買樓，依家27做返奴隸。我30，香港condo細到爆，美國先有space。又係學費。lol。🙏",
+      "text_en_b1": "Stuck with a condo he cannot escape. In 2021 when he was 22, he made a bunch of random crypto money from dogecoin. He lived two years with no job, perma vacation, dropped out of school, and bought a condo for 230K dollars. The money ran out. He went back to school, graduated, and now makes 100K a year living in the same condo.",
+      "source_url": "https://boards.4chan.org/g/thread/109793869",
+      "source_hint": "/biz/ OP on early crypto gains turned condo prison",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "News commentary, no trade setup"
+        "rationale": "Personal finance story, no trade"
       },
-      "text_en_b2": "Caught a thread from /pol/ about Britain, and honestly, the place looks like it's going off the rails. Tinned mackerel is becoming a supermarket staple as 'skimpflation' spreads, a 14-year-old was among three teenagers slashed in a KFC machete brawl, and anti-immigration protesters are now chartering their own boats to intercept migrants crossing the Channel. Britain in 2026 genuinely looks finished.",
-      "text_en_c1": "The /pol/ thread documenting British decline is genuinely harrowing, though I hesitate to engage with its more unhinged participants. The headlines alone paint a portrait of institutional exhaustion: tinned mackerel displacing fresh fish on supermarket shelves as a consequence of so-called skimpflation; a fourteen-year-old boy hospitalised after a machete altercation inside a KFC; and self-appointed anti-immigration activists preparing to deploy private vessels in order to intercept migrant dinghies in the Channel. Hong Kong, for its part, is hardly thriving, yet the British trajectory appears uniquely terminal, a slow-motion catastrophe compounded by an electorate that seems incapable of effecting meaningful course correction.",
-      "text_en_c2": "The /pol/ contingent has been circulating what can only be described as a compendium of British dystopia, and while Hong Kong scarcely merits exemption from such indictments, the particulars emanating from across the Channel are, frankly, arresting. A certain supermarket chain has been issuing warnings regarding so-called skimpflation, with tinned mackerel supplanting conventional piscine offerings on increasingly prominent shelf real estate, a substitution one suspects speaks volumes regarding supply-chain erosion. Separately, a fourteen-year-old was among three adolescents hospitalised following a machete altercation at a KFC establishment, a tableau that strains credulity. Meanwhile, anti-immigration protesters, in a manoeuvre of questionable maritime legality, propose utilising privately-owned vessels to intercept migrant craft traversing the Channel.",
-      "audio_url": "audio/2026-09-13/clip-hk-news-brit.mp3"
+      "text_en_b2": "The condo story on /biz/ hits uncomfortably close to home. Back in 2021, when he was 22, he stacked up random crypto profits from dogecoin, blew two years on a perma vacation with no job, dropped out of school, and somehow pulled off a 230K condo purchase. The money dried up, he crawled back to finish his degree, and now at 27 he earns 100K a year while still living in the same unit.",
+      "text_en_c1": "The condo saga resonating across /biz/ echoes my own circumstances uncomfortably closely. Back in 2021, aged 22, he struck it rich on speculative crypto plays, riding the dogecoin wave into seven-figure territory. Two years of unbridled leisure followed: no employment, perpetual travel, abandoned studies, and ultimately a 230K condominium purchase that felt almost consequence-free at the time. The inevitable reckoning arrived, capital depleted, forcing a return to academia and eventual graduation into a six-figure salary that nonetheless fails to cover the crushing weight of student loans and revolving credit obligations.",
+      "text_en_c2": "The /biz/ poster's predicament is uncomfortably proximate to my own: at twenty-two, he parlayed a speculative Dogecoin windfall into a condo purchase, squandered two subsequent years in a state of perma-vacation and academic dropout, and now, at twenty-seven, sits marooned in the very asset that once symbolised his liberation. He has graduated, ekes out a hundred grand annually, and yet remains shackled to the same walls, servicing both student loans and accumulated credit-card balances — trapped in what he eloquently terms an inescapable cycle of work, consume, repeat. At thirty, ensconced in a Hong Kong flat of derisory square footage, I empathise entirely.",
+      "audio_url": "audio/2026-09-13/clip-hk-news-condo.mp3"
     },
     {
-      "id": "mma-fit-twin",
+      "id": "mma-fit-bulk",
       "category": "mma/fitness",
-      "topic_zh": "雙胞胎兄弟",
-      "topic_en": "Twin brother obesity",
-      "text_zh": "肥仔信一定 send 俾我。兩兄弟食一樣、糞便卡路里一樣，點解一個肥一個瘦？gym crew 一定嘈呢個 post。我而家 80kg flat bench 1 板，cut 定繼續 lean bulk 先 🧐",
-      "text_en_b1": "I have an identical twin brother. He is lean. I am fat. We measured how much we eat and the calorie measurement is identical. The dietary fat, protein, and carbs are all identical. We also collected our faeces and incinerated it, and it also had an identical calorie measurement. What is causing me to be obese while my brother is lean?",
-      "source_url": "https://boards.4chan.org/fit/thread/77502463",
-      "source_hint": "/fit/ identical twin obesity puzzle",
+      "topic_zh": "增肌定減脂",
+      "topic_en": "Bulk or cut",
+      "text_zh": "/fit/ 嗰個由83kg cut到65kg再bulk返80kg，flat bench得1plate。我都差不多，肥仔信今日又tag我gym video。ok聽日去。👍",
+      "text_en_b1": "Question from /fit/: how do you know when you have bulked enough to cut and escape skinnyfat. In May 2025 he was 83kg and fat with almost no muscle. He cut aggressively until mid April 2026 and got down to 65kg skinnyfat, struggling to bench even the 20kg bar. Then he lean bulked up to now, back at 80kg.",
+      "source_url": "https://boards.4chan.org/fit/thread/77510161",
+      "source_hint": "/fit/ thread on transitioning from lean bulk to cut",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,22 +164,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Fitness curiosity post, no trade setup"
+        "rationale": "Lifestyle thread, no trade"
       },
-      "text_en_b2": "Found this gem while browsing and knew my fitness-obsessed mates would lose their minds. Two identical twins, eating the same meals, absorbing identical calories, even producing faeces with matching caloric content, yet one is shredded while the other carries serious weight. The bro-split crowd will argue about this for weeks. Currently sitting around 80kg with a flat bench hovering around one plate, so should I cut now or keep leaning into a slow bulk?",
-      "text_en_c1": "This study is precisely the sort of content that ought to be forwarded unsolicited to every overweight relative in one's contact list. Two genetically identical individuals, consuming identical macronutrient quantities, processing identical caloric loads, and excreting faecal matter containing calorimetrically indistinguishable energy content, yet presenting with markedly divergent body compositions. The variables that typically explain such divergence, namely intake and apparent absorption, have been methodologically controlled, which suggests that the aetiology of obesity is considerably more nuanced than the reductive calories-in-calories-out framework propagated by the fitness industry would have one believe.",
-      "text_en_c2": "This particular query is destined for circulation within every gymnasium WhatsApp group for the foreseeable future, and deservedly so, given its confounding implications. The salient variables have been assiduously controlled: two genetically identical individuals, ostensibly identical caloric intake, identical macronutrient distribution across dietary fat, protein, and carbohydrate, and, most extraordinarily, calorimetric analysis of incinerated faecal samples yielding equivalent results across both subjects. The differential outcome, therefore, ostensibly identical inputs producing divergent adiposity, would appear to invite reconsideration of fundamental assumptions regarding energy balance. The gymnasium cognoscenti will no doubt litigate this matter with characteristic vehemence, citing brown adipose activity, non-exercise activity thermogenesis, microbiome composition, and the obligatory mentions of hormonal modulation.",
-      "audio_url": "audio/2026-09-13/clip-mma-fit-twin.mp3"
+      "text_en_b2": "A /fit/ user is wondering how to tell when he has bulked enough to cut his way out of skinnyfat territory. In May 2025 he tipped the scales at a flabby 83kg with almost no muscle underneath, then cut hard until mid April 2026 and bottomed out at a stringy 65kg, barely able to bench the 20kg bar. He has since lean bulked back up to 80kg, and his numbers now read 3x8 at one plate on flat bench, 3x6 squat at 90kg, and 3x8…",
+      "text_en_c1": "A /fit/ regular poses the perennial dilemma: how does one determine when a lean bulk has yielded sufficient muscular development to justify a cutting phase? His trajectory is instructive. In May 2025, he tipped the scales at 83kg, carrying considerable adiposity with negligible muscle mass. An aggressive caloric deficit saw him shed weight steadily until mid-April 2026, bottoming out at a gaunt 65kg, still skinnyfat and barely capable of pressing the unweighted 20kg barbell. A subsequent lean bulk restored him to 80kg, with measurable strength gains: flat bench at one plate for three sets of eight, squats at 90kg for six reps, and deadlifts reaching 120kg.",
+      "text_en_c2": "A /fit/ regular has documented his physique odyssey with admirable granularity: in May 2025 he tipped the scales at eighty-three kilograms — adipose, untrained, and visually unremarkable. An aggressive cut carried him down to a skeletal sixty-five by April 2026, whereupon he commenced a measured lean bulk, arriving at his present eighty kilograms with markedly improved composition. His working lifts have progressed commensurately — a flat bench of three by eight at one plate, a squat of three by six at ninety kilograms, and a conventional deadlift of three by eight at one-hundred-twenty — though he remains uncertain whether to commence another cut or to capitalise further on his momentum.",
+      "audio_url": "audio/2026-09-13/clip-mma-fit-bulk.mp3"
     },
     {
-      "id": "anime-ghost-shell",
+      "id": "anime-gits",
       "category": "anime/culture",
-      "topic_zh": "攻殼機動隊",
+      "topic_zh": "攻殼動畫",
       "topic_en": "Ghost in the Shell",
-      "text_zh": "有post友睇完 Ghost in the Shell 話頭幾集麻麻，跟住越嚟越正，求 season 2。我 Gundam 00 + Attack on Titan + Demon Slayer 嗰邊都追緊，S15 LoL 都打到深夜，廢物一個 lol 🙏",
-      "text_en_b1": "Just finished the Ghost in the Shell anime and it was great. The first couple of episodes I wasn't so sure, but it got better and better with each episode. Season 2 when? Also, how does it compare to the 90s film for anyone who has seen both?",
+      "text_zh": "/a/ 有人講完Ghost in the Shell，前幾集麻麻地，之後越睇越正。我都想re-watch，sum Ho 之前推薦過。btw Gundam 00 仲未開。🧐",
+      "text_en_b1": "Just finished the Ghost in the Shell anime and it was great. The first couple of episodes he was not so sure, but it got better and better with each episode. The OP is now asking when season 2 will come out. The thread on /a/ is full of fans praising the 90s cyberpunk tone and the philosophy of Section 9.",
       "source_url": "https://boards.4chan.org/a/thread/290881951",
-      "source_hint": "/a/ Ghost in the Shell rewatch thread asking for S2",
+      "source_hint": "/a/ thread praising Ghost in the Shell rewatch",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -188,12 +188,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Anime discussion, no trade setup"
+        "rationale": "Anime discussion, no trade"
       },
-      "text_en_b2": "Finally wrapped up Ghost in the Shell and I'm thoroughly impressed, though the opening episodes felt rather underwhelming before the series gradually found its footing and became genuinely compelling. Season 2 cannot come soon enough. For anyone who has watched both, how does it stack up against the nineties film adaptation? Meanwhile, I'm juggling Gundam 00, Attack on Titan, and Demon Slayer on rotation, which means late-night ranked sessions are basically a write-off at this point.",
-      "text_en_c1": "I have just completed the Ghost in the Shell anime, and while the initial instalments left me distinctly underwhelmed, the series progressively acquired an almost gravitational pull, each subsequent episode building upon its predecessor's thematic architecture with increasing confidence. The philosophical density, particularly regarding questions of consciousness and personal continuity, is handled with considerably more nuance than one might anticipate from the medium, and the visual composition is genuinely arresting. A second season would therefore be rather welcome, although the franchise's convoluted licensing history suggests such an outcome remains uncertain.",
-      "text_en_c2": "Having recently concluded the Ghost in the Shell anime adaptation, one must concede that the series proved considerably more rewarding than initial impressions had suggested, the inaugural episodes demonstrating a certain narrative tentativeness that subsequent instalments progressively dispelled, each iteration building upon its predecessor with increasing assurance and thematic sophistication. A second season, given the trajectory, would be most welcome, though the production timeline of such ventures renders any sanguine expectation inadvisable. Comparisons to the seminal 1995 film are, of course, inevitable, and while the feature retains an audiovisual grandeur that remains largely unrivalled, the series compensates through more expansive world-building and a willingness to pursue the philosophical implications of consciousness transfer with considerably more sustained rigour.",
-      "audio_url": "audio/2026-09-13/clip-anime-ghost-shell.mp3"
+      "text_en_b2": "Just wrapped up the Ghost in the Shell anime, and it turned out to be genuinely great. The first couple of episodes felt a bit flat, although once the plot found its footing it kept getting better with every installment. The original poster is now asking the obvious question about when season 2 might drop, while the rest of the /a/ thread is full of fans geeking out over the 90s cyberpunk atmosphere and the philosophical backbone of Section 9.",
+      "text_en_c1": "Having finally completed the Ghost in the Shell anime, I can attest that its reputation is thoroughly deserved. The opening episodes initially struck me as somewhat uneven, yet the narrative progressively coalesced into something genuinely compelling, with each instalment building upon its predecessor's philosophical and aesthetic foundations. The original poster has since pivoted to inquiring about season 2's prospective release window, while the broader /a/ thread is saturated with enthusiasts extolling the production's quintessential nineties cyberpunk sensibility and the enduring thematic richness surrounding Section 9's operational mandate. Sum Ho had previously championed this title, and his recommendation has proven vindicated.",
+      "text_en_c2": "Having just concluded the original Ghost in the Shell, I find myself compelled to revise my initial scepticism: the opening instalments felt somewhat sluggish — perhaps weighed down by the conventions of mid-nineties OVA pacing — yet as the narrative progressed through the Laughing Man arc and beyond, the philosophical density, coupled with Production I.G.'s peerless cyberpunk mise-en-scène, became genuinely intoxicating. Section 9's meditations on consciousness, sovereignty, and the fragility of identity remain startlingly prescient. The /a/ thread, predictably, is in raptures, though Sum Ho has been patiently nudging me towards a rewatch for months. Gundam 00, regrettably, remains unwatched.",
+      "audio_url": "audio/2026-09-13/clip-anime-gits.mp3"
     }
   ]
 }
