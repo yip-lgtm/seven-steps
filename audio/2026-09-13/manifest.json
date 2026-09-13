@@ -5,66 +5,75 @@
   "clips": [
     {
       "id": "trade-macro-oil",
-      "topic_en": "Saudi pipeline hit",
-      "topic_zh": "沙地輸油管被炸",
+      "topic_en": "Oil pipeline hit",
+      "topic_zh": "油價要爆",
       "category": "trading",
       "file": "clip-trade-macro-oil.mp3",
-      "bytes": 324276,
-      "chars": 318
+      "bytes": 407796,
+      "chars": 364
     },
     {
-      "id": "trade-crypto-doge",
-      "topic_en": "DOGE space mission",
-      "topic_zh": "Doge 衝太空",
+      "id": "trade-musk-doge",
+      "topic_en": "Doge to space",
+      "topic_zh": "Doge去太空",
       "category": "trading",
-      "file": "clip-trade-crypto-doge.mp3",
-      "bytes": 211380,
-      "chars": 217
+      "file": "clip-trade-musk-doge.mp3",
+      "bytes": 196980,
+      "chars": 203
     },
     {
-      "id": "civil-skinnyfat",
-      "topic_en": "Skinnyfat to gains",
-      "topic_zh": "由 skinnyfat 到有肉",
+      "id": "civil-slope-stuck",
+      "topic_en": "Stuck with a condo",
+      "topic_zh": "Condo困局",
       "category": "civil/structure",
-      "file": "clip-civil-skinnyfat.mp3",
-      "bytes": 472884,
-      "chars": 314
+      "file": "clip-civil-slope-stuck.mp3",
+      "bytes": 373236,
+      "chars": 299
     },
     {
-      "id": "struct-twins",
-      "topic_en": "Twin calorie mystery",
-      "topic_zh": "雙胞胎熱量一樣",
+      "id": "civil-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs 黃金",
       "category": "civil/structure",
-      "file": "clip-struct-twins.mp3",
-      "bytes": 326580,
-      "chars": 328
+      "file": "clip-civil-btc-vs-gold.mp3",
+      "bytes": 297204,
+      "chars": 274
     },
     {
-      "id": "tech-ai-plateau",
-      "topic_en": "AI plateau cope",
-      "topic_zh": "AI 撞天花板",
+      "id": "tech-ai-fall",
+      "topic_en": "AI plateaued",
+      "topic_zh": "AI模型到頂",
       "category": "tech/ai",
-      "file": "clip-tech-ai-plateau.mp3",
-      "bytes": 224628,
-      "chars": 238
+      "file": "clip-tech-ai-fall.mp3",
+      "bytes": 276468,
+      "chars": 293
     },
     {
-      "id": "hk-brit-dystopia",
-      "topic_en": "Brit dystopia dump",
-      "topic_zh": "英國末日新聞",
+      "id": "hk-news-brit",
+      "topic_en": "Brit dystopia thread",
+      "topic_zh": "英國 dystopia",
       "category": "hk/news",
-      "file": "clip-hk-brit-dystopia.mp3",
-      "bytes": 293172,
+      "file": "clip-hk-news-brit.mp3",
+      "bytes": 364596,
       "chars": 305
     },
     {
-      "id": "anime-myojo",
-      "topic_en": "MyGo Ave Mujica",
-      "topic_zh": "BanG Dream 新季",
+      "id": "mma-fit-twin",
+      "topic_en": "Twin brother obesity",
+      "topic_zh": "雙胞胎兄弟",
+      "category": "mma/fitness",
+      "file": "clip-mma-fit-twin.mp3",
+      "bytes": 351924,
+      "chars": 336
+    },
+    {
+      "id": "anime-ghost-shell",
+      "topic_en": "Ghost in the Shell",
+      "topic_zh": "攻殼機動隊",
       "category": "anime/culture",
-      "file": "clip-anime-myojo.mp3",
-      "bytes": 242484,
-      "chars": 233
+      "file": "clip-anime-ghost-shell.mp3",
+      "bytes": 232692,
+      "chars": 242
     }
   ]
 }
