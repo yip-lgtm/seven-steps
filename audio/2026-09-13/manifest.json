@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-13",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-doge-space-01",
+      "topic_en": "Doge space mission",
+      "topic_zh": "Dogecoin太空任務",
+      "category": "trading",
+      "file": "clip-biz-doge-space-01.mp3",
+      "bytes": 208500,
+      "chars": 204
+    },
+    {
+      "id": "biz-oil-pipeline-02",
+      "topic_en": "Saudi pipeline hit",
+      "topic_zh": "沙地油管被炸",
+      "category": "trading",
+      "file": "clip-biz-oil-pipeline-02.mp3",
+      "bytes": 371508,
+      "chars": 323
+    },
+    {
+      "id": "civil-soil-nail-fit-03",
+      "topic_en": "Slope and soil nailing",
+      "topic_zh": "斜坡同soil nail",
+      "category": "civil/structure",
+      "file": "clip-civil-soil-nail-fit-03.mp3",
+      "bytes": 342708,
+      "chars": 325
+    },
+    {
+      "id": "struct-load-path-fit-04",
+      "topic_en": "RC and load path",
+      "topic_zh": "RC同load path",
+      "category": "civil/structure",
+      "file": "clip-struct-load-path-fit-04.mp3",
+      "bytes": 307572,
+      "chars": 311
+    },
+    {
+      "id": "ai-plateau-05",
+      "topic_en": "AI models plateau",
+      "topic_zh": "AI模型到樽頸",
+      "category": "tech/ai",
+      "file": "clip-ai-plateau-05.mp3",
+      "bytes": 264948,
+      "chars": 274
+    },
+    {
+      "id": "pol-war-china-06",
+      "topic_en": "China war scenario",
+      "topic_zh": "中美開戰嘅討論",
+      "category": "hk/news",
+      "file": "clip-pol-war-china-06.mp3",
+      "bytes": 263220,
+      "chars": 264
+    },
+    {
+      "id": "fit-twin-bro-07",
+      "topic_en": "Twin brother calorie test",
+      "topic_zh": "肥仔同孖生兄弟",
+      "category": "mma/fitness",
+      "file": "clip-fit-twin-bro-07.mp3",
+      "bytes": 351348,
+      "chars": 317
+    }
+  ]
+}
