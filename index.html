@@ -194,6 +194,37 @@
   .btn-large { font-size: 16px; padding: 14px 28px; }
   .btn-block { display: flex; width: 100%; justify-content: center; }
   .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  /* Review archive */
+  .review-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 18px; }
+  .review-head h1 { font-size: 26px; letter-spacing: -0.02em; line-height: 1.15; }
+  .review-head p { color: var(--ink-soft); font-size: 14px; margin-top: 6px; }
+  .review-day {
+    display: block; width: 100%; text-align: left;
+    background: var(--bg); border: 1px solid var(--line);
+    border-radius: 14px; padding: 14px 16px; margin-bottom: 10px;
+    cursor: pointer; font-family: inherit; color: inherit;
+    min-height: 44px;
+  }
+  .review-day:hover { border-color: var(--accent); }
+  .review-day .when { font-size: 11px; color: var(--ink-faint); letter-spacing: 0.06em; text-transform: uppercase; }
+  .review-day .count { font-weight: 700; font-size: 18px; letter-spacing: -0.02em; margin-top: 2px; }
+  .review-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .review-chip {
+    font-size: 12px; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 999px; padding: 3px 10px; color: var(--ink-soft);
+  }
+  .review-clip { border-bottom: 1px solid var(--line); padding: 16px 0; }
+  .review-clip:last-child { border-bottom: none; }
+  .review-clip .zh { font-weight: 600; font-size: 16px; }
+  .review-clip .en { color: var(--ink-soft); font-size: 13px; margin-top: 2px; }
+  .review-clip .body {
+    margin-top: 10px; font-size: 14px; line-height: 1.55;
+    background: var(--bg); border-radius: 12px; padding: 12px 14px;
+  }
+  .review-clip .zh-txt { color: var(--ink-soft); margin-top: 8px; }
+  body.dark .review-day { background: #1c2128; }
+  body.dark .review-clip .body { background: #1c2128; }
   .btn-icon { padding: 10px 12px; }
 
   /* Session */
@@ -503,6 +534,9 @@ const state = {
   dailyDate: null,         // date string of the loaded daily pool, or null if baseline
   currentLevel: loadLevel(),   // 'B1' or 'B2' (or 'A2' if user prefers easy)
   recentRatings: loadRatings(), // last 10 ratings, used to auto-adjust level
+  history: { days: [] },   // past daily packs for the Review page
+  reviewDate: null,        // YYYY-MM-DD currently open in review
+  returnView: null,        // where to go after a review session
 };
 
 function loadLevel() {
@@ -559,6 +593,66 @@ function getTextForLevel(clip) {
 
 function getTopicForLevel(clip) {
   return clip.topic_en || clip.topic;
+}
+
+function esc(str) {
+  const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  return String(str || '').replace(/[&<>"']/g, c => map[c]);
+}
+
+function sessionPool() {
+  if (state.session && Array.isArray(state.session.pool) && state.session.pool.length) {
+    return state.session.pool;
+  }
+  return state.clips || [];
+}
+
+function sessionClip(offset) {
+  if (!state.session) return null;
+  const idx = state.session.clipIdx + (offset || 0);
+  const qi = state.session.clipQueue[idx];
+  if (qi == null) return null;
+  return sessionPool()[qi] || null;
+}
+
+function formatReviewDate(iso) {
+  const [y, m, d] = (iso || '').split('-').map(Number);
+  if (!y) return iso || '';
+  return `${y}年${m}月${d}日`;
+}
+
+async function loadHistory() {
+  try {
+    const res = await fetch('clips/history.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('not ok');
+    const data = await res.json();
+    const days = Array.isArray(data.days) ? data.days.filter(d => d && d.date && (d.clips || []).length) : [];
+    state.history = { days };
+  } catch (e) {
+    state.history = { days: [] };
+  }
+}
+
+function startSessionWithPool(pool, opts = {}) {
+  const list = (pool || []).filter(Boolean);
+  if (!list.length) {
+    toast('呢日未有短文。');
+    return;
+  }
+  const n = list.length;
+  state.returnView = opts.returnView || 'home';
+  state.session = {
+    clipIdx: 0,
+    stepIdx: 0,
+    clipQueue: list.map((_, i) => i),
+    pool: list,
+    currentClipRatings: [],
+    sessionRecordings: [],
+    startedAt: Date.now(),
+    fromReview: !!opts.returnView && opts.returnView !== 'home',
+  };
+  state.view = 'session';
+  render();
 }
 
 function formatSourceLabel(url) {
@@ -951,7 +1045,6 @@ async function loadDailyClips() {
 }
 
 function startSession() {
-  // Pick clips from the active pool (daily if loaded, baseline otherwise)
   const pool = state.clips || [];
   if (!pool.length) {
     toast('今日未有短文。稍後再試，或撳 Retry fetch / Trigger cron。');
@@ -959,20 +1052,9 @@ function startSession() {
   }
   const startIdx = state.todayLog.clips % pool.length;
   const n = Math.min(state.settings.clipsPerSession, pool.length);
-  const clips = [];
-  for (let i = 0; i < n; i++) {
-    clips.push((startIdx + i) % pool.length);
-  }
-  state.session = {
-    clipIdx: 0,
-    stepIdx: 0,
-    clipQueue: clips,
-    currentClipRatings: [],
-    sessionRecordings: [],
-    startedAt: Date.now(),
-  };
-  state.view = 'session';
-  render();
+  const ordered = [];
+  for (let i = 0; i < n; i++) ordered.push(pool[(startIdx + i) % pool.length]);
+  startSessionWithPool(ordered, { returnView: 'home' });
 }
 
 function nextStep() {
@@ -1046,7 +1128,7 @@ function endSessionEarly() {
   state.progress.totalSessions += 1;
   saveProgress(state.progress);
   state.session = null;
-  state.view = 'home';
+  state.view = state.returnView || 'home';
   render();
 }
 
@@ -1085,6 +1167,8 @@ function render() {
   else if (state.view === 'clipComplete') view.innerHTML = renderClipComplete();
   else if (state.view === 'sessionComplete') view.innerHTML = renderSessionComplete();
   else if (state.view === 'settings') view.innerHTML = renderSettings();
+  else if (state.view === 'review') view.innerHTML = renderReview();
+  else if (state.view === 'reviewDay') view.innerHTML = renderReviewDay();
   attachHandlers();
 }
 
@@ -1172,6 +1256,7 @@ function renderHome() {
 
       <div class="btn-row">
         <button class="btn btn-primary btn-large" id="btn-start" ${state.clips.length ? '' : 'disabled'}>${log.clips > 0 ? 'Continue today' : 'Start today'}</button>
+        <button class="btn btn-ghost" id="btn-review">重温</button>
         <button class="btn btn-ghost" id="btn-settings">Settings</button>
       </div>
 
@@ -1187,12 +1272,11 @@ function renderSession() {
   const clipNum = sess.clipIdx + 1;
   const total = sess.clipQueue.length;
   const step = STEPS[sess.stepIdx];
-  const clipIdx = sess.clipQueue[sess.clipIdx];
-  const clip = state.clips[clipIdx];
+  const clip = sessionClip(0);
   if (!clip) {
-    state.view = 'home';
+    state.view = state.returnView || 'home';
     state.session = null;
-    return renderHome();
+    return state.view === 'reviewDay' ? renderReviewDay() : state.view === 'review' ? renderReview() : renderHome();
   }
   const winThreshold = state.settings.winThreshold;
   const stepBody = renderStepBody(step, clip, sess);
@@ -1402,7 +1486,7 @@ function renderStepBody(step, clip, sess) {
 
 function renderClipComplete() {
   const sess = state.session;
-  const clip = state.clips[sess.clipQueue[sess.clipIdx - 1]];
+  const clip = sessionClip(-1) || { topic_zh: '', topic_en: '' };
   const enTopic = getTopicForLevel(clip);
   const zhTopic = clip.topic_zh || '';
   return `
@@ -1497,6 +1581,79 @@ function renderSignalTable() {
         </thead>
         <tbody>${rows}</tbody>
       </table>
+    </div>
+  `;
+}
+
+function renderReview() {
+  const days = (state.history && state.history.days) || [];
+  const rows = days.length
+    ? days.map(d => {
+        const n = (d.clips || []).length;
+        const chips = (d.clips || []).slice(0, 4).map(c =>
+          `<span class="review-chip">${esc(c.topic_zh || c.topic_en || '')}</span>`
+        ).join('');
+        const extra = n > 4 ? `<span class="review-chip">+${n - 4}</span>` : '';
+        return `
+          <button type="button" class="review-day" data-date="${esc(d.date)}">
+            <div class="when">${esc(formatReviewDate(d.date))}</div>
+            <div class="count">${n} 則</div>
+            <div class="review-chips">${chips}${extra}</div>
+          </button>`;
+      }).join('')
+    : `<div class="empty-state"><p>未有可重温嘅短文。每日 08:00 出新一組之後會喺呢度留低。</p></div>`;
+
+  return `
+    <div class="card">
+      <div class="review-head">
+        <div>
+          <h1>重温</h1>
+          <p>以前嘅每日短文。撳一日睇全文，可以再聽同再練。</p>
+        </div>
+      </div>
+      ${rows}
+      <div class="btn-row mt-4">
+        <button class="btn btn-primary" id="btn-back">← Back</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderReviewDay() {
+  const day = ((state.history && state.history.days) || []).find(d => d.date === state.reviewDate);
+  if (!day) {
+    return `<div class="card"><p>搵唔到呢日。</p><div class="btn-row mt-4"><button class="btn btn-primary" id="btn-review-back">← 重温</button></div></div>`;
+  }
+  const clips = day.clips || [];
+  const items = clips.map((c, i) => {
+    const en = getTextForLevel(c);
+    return `
+      <div class="review-clip" data-idx="${i}">
+        ${c.category ? `<div class="topic-tag">${esc(c.category)}</div>` : ''}
+        <div class="zh">${esc(c.topic_zh || '')}</div>
+        <div class="en">${esc(c.topic_en || '')}</div>
+        <div class="body">${esc(en)}</div>
+        ${c.text_zh ? `<div class="body zh-txt">${esc(c.text_zh)}</div>` : ''}
+        <div class="btn-row mt-2">
+          <button class="btn" data-review-play="${i}">Play</button>
+          <button class="btn btn-primary" data-review-practice="${i}">练呢則</button>
+        </div>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="card">
+      <div class="review-head">
+        <div>
+          <h1>${esc(formatReviewDate(day.date))}</h1>
+          <p>${clips.length} 則 · 撳 Play 聽，或者练返嗰則嘅七步。</p>
+        </div>
+      </div>
+      ${items}
+      <div class="btn-row mt-4">
+        <button class="btn" id="btn-review-practice-all" ${clips.length ? '' : 'disabled'}>练成日</button>
+        <button class="btn btn-primary" id="btn-review-back">← 重温</button>
+      </div>
     </div>
   `;
 }
@@ -1626,6 +1783,44 @@ function attachHandlers() {
   const btnSettings = document.getElementById('btn-settings');
   if (btnSettings) btnSettings.addEventListener('click', () => { state.view = 'settings'; render(); });
 
+  const btnReview = document.getElementById('btn-review');
+  if (btnReview) btnReview.addEventListener('click', () => { state.view = 'review'; render(); });
+
+  document.querySelectorAll('.review-day').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.reviewDate = btn.getAttribute('data-date');
+      state.view = 'reviewDay';
+      render();
+    });
+  });
+
+  const btnReviewBack = document.getElementById('btn-review-back');
+  if (btnReviewBack) btnReviewBack.addEventListener('click', () => { state.view = 'review'; render(); });
+
+  document.querySelectorAll('[data-review-play]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const day = ((state.history && state.history.days) || []).find(d => d.date === state.reviewDate);
+      const clip = day && day.clips[Number(btn.getAttribute('data-review-play'))];
+      if (clip) speakAndToggle(clip, btn);
+    });
+  });
+
+  document.querySelectorAll('[data-review-practice]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const day = ((state.history && state.history.days) || []).find(d => d.date === state.reviewDate);
+      const clip = day && day.clips[Number(btn.getAttribute('data-review-practice'))];
+      if (clip) startSessionWithPool([clip], { returnView: 'reviewDay' });
+    });
+  });
+
+  const btnPracticeAll = document.getElementById('btn-review-practice-all');
+  if (btnPracticeAll) btnPracticeAll.addEventListener('click', () => {
+    const day = ((state.history && state.history.days) || []).find(d => d.date === state.reviewDate);
+    if (day && day.clips && day.clips.length) {
+      startSessionWithPool(day.clips, { returnView: 'reviewDay' });
+    }
+  });
+
   const btnTheme = document.getElementById('btn-theme');
   if (btnTheme) btnTheme.addEventListener('click', toggleTheme);
 
@@ -1753,7 +1948,7 @@ function attachHandlers() {
   // Session
   const btnPlay = document.getElementById('btn-play');
   if (btnPlay) {
-    const clip = state.clips[state.session.clipQueue[state.session.clipIdx]];
+    const clip = sessionClip(0);
     btnPlay.addEventListener('click', () => speakAndToggle(clip, btnPlay));
   }
 
@@ -1771,7 +1966,11 @@ function attachHandlers() {
   if (btnNextClip) btnNextClip.addEventListener('click', continueToNextClip);
 
   const btnHome = document.getElementById('btn-home');
-  if (btnHome) btnHome.addEventListener('click', () => { state.view = 'home'; render(); });
+  if (btnHome) btnHome.addEventListener('click', () => {
+    state.view = state.returnView || 'home';
+    state.session = null;
+    render();
+  });
 
   // Stars (rate step) — record rating, update rolling average, may change level
   const stars = document.getElementById('stars');
@@ -1886,6 +2085,7 @@ function attachHandlers() {
   applyTheme(loadTheme());
   // Try to load today's daily content. If it fails, keep the baseline CLIPS.
   await loadDailyClips();
+  await loadHistory();
   render();
 })();
 </script>

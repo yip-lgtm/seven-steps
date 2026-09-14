@@ -1081,6 +1081,35 @@ async function callLLM(prompt, opts = {}) {
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(`  → wrote ${outPath}`);
 
+  // Append to rolling archive so the Review page can replay past days.
+  try {
+    const histPath = path.join(__dirname, '..', 'clips', 'history.json');
+    let hist = { updated: today, days: [] };
+    try { hist = JSON.parse(fs.readFileSync(histPath, 'utf8')); } catch (_) {}
+    if (!Array.isArray(hist.days)) hist.days = [];
+    const slim = finalClips.map(c => ({
+      id: c.id,
+      category: c.category,
+      topic_zh: c.topic_zh || '',
+      topic_en: c.topic_en || '',
+      text_zh: c.text_zh || '',
+      text_en_b1: c.text_en_b1 || '',
+      text_en_b2: c.text_en_b2 || '',
+      text_en_c1: c.text_en_c1 || '',
+      text_en_c2: c.text_en_c2 || '',
+      source_url: c.source_url || '',
+      source_hint: c.source_hint || '',
+    }));
+    hist.days = hist.days.filter(d => d && d.date !== today);
+    hist.days.unshift({ date: today, source: 'ai', clips: slim });
+    hist.days = hist.days.filter(d => Array.isArray(d.clips) && d.clips.length).slice(0, 45);
+    hist.updated = today;
+    fs.writeFileSync(histPath, JSON.stringify(hist, null, 2));
+    console.log(`  → history.json now ${hist.days.length} days`);
+  } catch (err) {
+    console.warn('  [history] skip:', err.message);
+  }
+
   // 7. Print summary including source-url analysis
   const directCount = finalClips.filter(c => isDirectPostUrl(c.source_url)).length;
   console.log(`\nTopics (${directCount}/${finalClips.length} have direct post URLs):`);
