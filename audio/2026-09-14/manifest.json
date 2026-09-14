@@ -4,67 +4,76 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "doge-space-001",
-      "topic_en": "Doge to Space",
-      "topic_zh": "Dogecoin上太空",
+      "id": "trade-musk-1",
+      "topic_en": "Tesla Earnings Watch",
+      "topic_zh": "Tesla / Musk",
       "category": "trading",
-      "file": "clip-doge-space-001.mp3",
-      "bytes": 266100,
-      "chars": 231
+      "file": "clip-trade-musk-1.mp3",
+      "bytes": 351924,
+      "chars": 315
     },
     {
-      "id": "tsla-spacex-002",
-      "topic_en": "Tesla and SpaceX vibe",
-      "topic_zh": "Tesla同SpaceX啱啱",
+      "id": "trade-btc-gold-1",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "BTC vs Gold",
       "category": "trading",
-      "file": "clip-tsla-spacex-002.mp3",
-      "bytes": 313332,
-      "chars": 302
+      "file": "clip-trade-btc-gold-1.mp3",
+      "bytes": 287412,
+      "chars": 273
     },
     {
-      "id": "slope-soil-003",
-      "topic_en": "Slope and soil nailing",
-      "topic_zh": "斜坡同土釘",
-      "category": "civil",
-      "file": "clip-slope-soil-003.mp3",
-      "bytes": 281652,
-      "chars": 261
+      "id": "civil-1",
+      "topic_en": "Factor of Safety",
+      "topic_zh": "斜坡安全系數",
+      "category": "civil/structure",
+      "file": "clip-civil-1.mp3",
+      "bytes": 306996,
+      "chars": 290
     },
     {
-      "id": "load-path-004",
-      "topic_en": "Load path in RC",
-      "topic_zh": "荷載傳遞RC",
-      "category": "structure",
-      "file": "clip-load-path-004.mp3",
-      "bytes": 263796,
-      "chars": 238
+      "id": "civil-2",
+      "topic_en": "Load Path Talk",
+      "topic_zh": "荷載傳遞路徑",
+      "category": "civil/structure",
+      "file": "clip-civil-2.mp3",
+      "bytes": 310452,
+      "chars": 294
     },
     {
-      "id": "ai-bubble-005",
-      "topic_en": "AI bubble and GPU melting",
-      "topic_zh": "AI泡沫同GPU",
+      "id": "tech-ai-1",
+      "topic_en": "AI Plateau Fear",
+      "topic_zh": "AI模型撞牆",
       "category": "tech/ai",
-      "file": "clip-ai-bubble-005.mp3",
-      "bytes": 285684,
-      "chars": 291
+      "file": "clip-tech-ai-1.mp3",
+      "bytes": 315636,
+      "chars": 300
     },
     {
-      "id": "hk-news-006",
-      "topic_en": "AI race and China",
-      "topic_zh": "AI同中國大局",
+      "id": "hk-news-1",
+      "topic_en": "AI Doomer Victory",
+      "topic_zh": "Doomer贏咗",
       "category": "hk/news",
-      "file": "clip-hk-news-006.mp3",
-      "bytes": 265524,
-      "chars": 230
+      "file": "clip-hk-news-1.mp3",
+      "bytes": 309876,
+      "chars": 300
     },
     {
-      "id": "fit-cut-007",
-      "topic_en": "Cut or keep bulking",
-      "topic_zh": "cut定繼續bulk",
+      "id": "mma-fit-1",
+      "topic_en": "Bulk vs Cut",
+      "topic_zh": "Bulk定Cut",
       "category": "mma/fitness",
-      "file": "clip-fit-cut-007.mp3",
-      "bytes": 443508,
-      "chars": 304
+      "file": "clip-mma-fit-1.mp3",
+      "bytes": 395124,
+      "chars": 316
+    },
+    {
+      "id": "anime-1",
+      "topic_en": "Tenmaku No Jaadugar",
+      "topic_zh": "Tenmaku魔法使",
+      "category": "anime/culture",
+      "file": "clip-anime-1.mp3",
+      "bytes": 342132,
+      "chars": 315
     }
   ]
 }
