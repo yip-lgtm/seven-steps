@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>無限出句 · Seven Steps</title>
 <style>
-  :root { --bg:#f6f1e7;--surface:#fffbf2;--ink:#1f2a2e;--ink-soft:#5a6a72;--ink-faint:#8c98a0; --accent:#0f6b66;--warm:#c77f3b;--warm-soft:#f3dcc1;--line:#e0d6c2;--danger:#b3402a; }
-  body.dark { --bg:#0e1116;--surface:#161b22;--ink:#e6edf3;--ink-soft:#b1bac4;--ink-faint:#7d8590; --accent:#4ec9b0;--warm:#e8a87c;--warm-soft:#3a2a1f;--line:#30363d;--danger:#f85149; }
+  :root { --bg:#f6f1e7;--surface:#fffbf2;--ink:#1f2a2e;--ink-soft:#5a6a72;--ink-faint:#8c98a0; --accent:#0f6b66;--warm:#c77f3b;--line:#e0d6c2;--danger:#b3402a; }
+  body.dark { --bg:#0e1116;--surface:#161b22;--ink:#e6edf3;--ink-soft:#b1bac4;--ink-faint:#7d8590; --accent:#4ec9b0;--warm:#e8a87c;--line:#30363d;--danger:#f85149; }
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:-apple-system,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
   .app{max-width:720px;margin:0 auto;padding:24px 20px 80px}
@@ -19,7 +19,7 @@
   .row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
   .chip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;font-family:inherit}
   .chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-  .meta{font-size:12px;color:var(--ink-faint);letter-spacing:.06em;margin:8px 0}
+  .meta{font-size:12px;color:var(--ink-faint);margin:8px 0}
   .en{font-size:22px;line-height:1.45;font-weight:650;margin:10px 0 14px}
   .zh{color:var(--ink-soft);font-size:15px;border-left:3px solid var(--warm);padding-left:12px;margin-bottom:18px}
   .btn{padding:12px 18px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:15px;font-weight:600;cursor:pointer;font-family:inherit}
@@ -38,26 +38,27 @@
 <body>
 <div class="app">
   <div class="topbar">
-    <a class="brand" href="./"><div class="brand-mark">7</div><div><div>無限出句</div><div style="font-size:12px;color:var(--ink-faint)">真 AI + 題庫後備</div></div></a>
+    <a class="brand" href="./"><div class="brand-mark">7</div><div><div>無限出句</div><div style="font-size:12px;color:var(--ink-faint)">不重複</div></div></a>
     <a class="back" href="./">返主頁</a>
   </div>
   <div class="card">
     <h1>真 AI 無限出新句</h1>
-    <p class="lead">貼一次 OpenRouter key，撳下一句就叫 AI 出全新 20-30 字。Key 只存在你部機。</p>
+    <p class="lead">用過嘅英文句會記住，下一句唔會再出同一句。</p>
     <div class="keybox">
       <div class="meta">OpenRouter key</div>
       <input id="key" type="password" placeholder="sk-or-v1-... 去 openrouter.ai 開">
       <div class="row" style="margin-top:8px">
         <button class="btn" id="save">儲存 key</button>
         <button class="btn" id="clear">刪 key</button>
+        <button class="btn" id="reset">清空已用句</button>
         <span class="ok" id="keystat"></span>
       </div>
     </div>
     <div class="meta">題目</div><div class="row" id="topics"></div>
     <div class="meta">長度</div><div class="row" id="lens"></div>
     <div class="meta" id="tag">—</div>
-    <div class="en" id="en">儲 key 之後撳下一句。</div>
-    <div class="zh" id="zh">冇 key 都會用題庫出句。</div>
+    <div class="en" id="en">撳下一句。</div>
+    <div class="zh" id="zh">用過嘅句會鎖住，唔重複。</div>
     <div class="err" id="err"></div>
     <div class="btn-row">
       <button class="btn btn-primary" id="next">下一句</button>
@@ -70,17 +71,44 @@
 const TOPICS=[{id:"fle",label:"ICE FLE"},{id:"ise",label:"IStructE"},{id:"slope",label:"斜坡"},{id:"struct",label:"結構"},{id:"mix",label:"全部"}];
 const LENS=[{id:"short",label:"短句"},{id:"mid",label:"20-30字"}];
 const KEY_ID="ss.openrouter";
-let topic="fle",len="mid",n=0,last="";
-const TOPIC_EN={fle:"ICE FLE exam English, first person I, Early Warning, NEC4, case study",ise:"IStructE, two distinct viable schemes, load path, transfer plate, bored piles",slope:"HK slope, cracks, blocked drainage, soil nails, factor of safety 1.4",struct:"retaining wall, reinforcement, compression tension, cheaper option",mix:"civil and structural exam English"};
+const USED_ID="ss.used.v1";
+let topic="fle",len="mid",n=0;
+const TOPIC_EN={fle:"ICE FLE, I, Early Warning, NEC4, case study, no copy",ise:"IStructE two schemes, load path, transfer plate, bored pile",slope:"slope cracks, blocked drain, soil nails, factor of safety",struct:"retaining wall, steel, compression tension, cheaper option",mix:"civil structural exam English"};
 function pick(a){return a[Math.floor(Math.random()*a.length)]}
+function norm(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}
+function loadUsed(){try{return JSON.parse(localStorage.getItem(USED_ID)||"[]")}catch(e){return[]}}
+function saveUsed(arr){localStorage.setItem(USED_ID, JSON.stringify(arr.slice(-400)))}
+function isUsed(en){return loadUsed().includes(norm(en))}
+function markUsed(en){const u=loadUsed(); const k=norm(en); if(!u.includes(k)){u.push(k); saveUsed(u)}}
 function key(){return (localStorage.getItem(KEY_ID)||"").trim()}
-function setStat(){document.getElementById("keystat").textContent=key()?"已有 key，用真 AI":"未有 key，用題庫";document.getElementById("key").value=key()?"********":""}
-const FALLBACK={fle:[["I write in the first person and apply the answer to the case.","我用第一人稱寫，將答案套入個案。"]],ise:[["I proposed two distinct and viable schemes for the building.","我為座樓提出兩個唔同可行方案。"]],slope:[["I redesigned the soil nail spacing to raise the safety factor to 1.4.","我改土釘間距，將安全系數加到 1.4。"]],struct:[["The load path goes from the slab to the beam, then down to the pile.","荷載路徑由板到樑，再落到樁。"]],mix:[["As the project manager, I issue an Early Warning under NEC4.","作為項目經理，我按 NEC4 發早期警告。"]]};
-function fallback(){const bag=topic==="mix"?Object.values(FALLBACK).flat():FALLBACK[topic];const hit=pick(bag);return {en:hit[0],zh:hit[1],tag:topic}}
-async function aiSentence(){
+function setStat(){document.getElementById("keystat").textContent=(key()?"真 AI":"題庫")+" · 已鎖 "+loadUsed().length+" 句";document.getElementById("key").value=key()?"********":""}
+const FALLBACK=[
+["fle","I write in the first person and apply the answer to the case.","我用第一人稱寫，將答案套入個案。"],
+["fle","I do not copy old papers. I use the site facts in every answer.","我唔抄舊卷。每個答案都用地盤事實。"],
+["fle","Part B lasts seven hours, so I keep time for all five modules.","Part B 有七小時，所以五大單元我都留時間。"],
+["fle","If the subcontractor goes bust, I check the bond and re-tender the works.","如果分判商執笠，我查擔保再重新招標。"],
+["ise","I proposed two distinct and viable schemes for the office building.","我為寫字樓提出兩個唔同可行方案。"],
+["ise","The transfer plate spreads floor loads to the columns below.","轉換板將樓面荷載散到下面柱。"],
+["ise","The bored pile sockets into rock and limits settlement.","鑽孔樁嵌入岩石，限制沉降。"],
+["ise","Scheme one is RC frames. Scheme two is composite steel.","方案一係混凝土框架。方案二係組合鋼。"],
+["slope","Blocked drains let water push the soil outward after heavy rain.","排水塞咗，大雨後水推開泥土。"],
+["slope","I marked three cracks and ordered a new GI hole near the crest.","我標咗三條裂紋，並喺坡頂加鑽一個 GI 孔。"],
+["slope","The pull-out test failed, so I made the nails longer and closer.","拉拔試驗唔合格，所以土釘加長加密。"],
+["slope","I raised the factor of safety to 1.4 by changing the nail grid.","我改土釘網格，將安全系數加到 1.4。"],
+["struct","The client wants a cheaper wall, so I compare steel and concrete.","業主要平啲牆，所以我比較鋼同混凝土。"],
+["struct","Concrete takes compression. Steel bars take tension in the beam.","混凝土抗壓。樑入面鋼筋抗拉。"],
+["struct","I follow the load from slab to beam to column to the pile cap.","我跟荷載：板到樑到柱到樁帽。"],
+["struct","High soil pressure on the highway wall needs extra reinforcement.","公路擋土牆土壓高，要加多啲鋼筋。"]
+];
+function fallback(){
+  const bag=FALLBACK.filter(x=>(topic==="mix"||x[0]===topic)&&!isUsed(x[1]));
+  const src=bag.length?pick(bag):pick(FALLBACK);
+  return {en:src[1],zh:src[2],tag:src[0]};
+}
+async function callAI(avoid){
   const k=key(); if(!k) return fallback();
   const words=len==="short"?"8 to 12 words":"20 to 30 words";
-  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"Seven Steps Practice"},body:JSON.stringify({model:"openai/gpt-4o-mini",temperature:0.9,messages:[{role:"system",content:"You write one oral shadowing sentence for an A2-B1 Hong Kong civil engineer. Reply JSON only: {\"en\":\"...\",\"zh\":\"...\"}. zh must be Cantonese."},{role:"user",content:"Topic: "+TOPIC_EN[topic]+". Length: "+words+". First person I. New, not a copy of: "+(last||"none")+"."}]})});
+  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"Seven Steps Practice"},body:JSON.stringify({model:"openai/gpt-4o-mini",temperature:1.0,messages:[{role:"system",content:"One new oral sentence for A2-B1 HK civil engineer. JSON only {\"en\":\"\",\"zh\":\"\"}. zh=Cantonese. Never repeat avoided sentences."},{role:"user",content:"Topic: "+TOPIC_EN[topic]+". Length: "+words+". First person I. Avoid these: "+avoid.join(" | ")}]})});
   if(!res.ok) throw new Error("AI 失敗 "+res.status);
   const data=await res.json();
   const raw=(data.choices&&data.choices[0]&&data.choices[0].message&&data.choices[0].message.content)||"";
@@ -88,12 +116,33 @@ async function aiSentence(){
   if(!json.en||!json.zh) throw new Error("AI 格式唔啱");
   return {en:json.en,zh:json.zh,tag:topic};
 }
-function show(hit,src){last=hit.en;n+=1;const labels={fle:"ICE FLE",ise:"IStructE",slope:"斜坡",struct:"結構",mix:"全部"};document.getElementById("tag").textContent=(labels[hit.tag]||hit.tag)+" · "+src;document.getElementById("en").textContent=hit.en;document.getElementById("zh").textContent=hit.zh;document.getElementById("count").textContent="已出 "+n+" 句"}
-async function next(){const btn=document.getElementById("next");const err=document.getElementById("err");err.textContent="";btn.disabled=true;document.getElementById("en").textContent=key()?"AI 出緊句...":"題庫出句...";try{show(await aiSentence(),key()?"真 AI":"題庫")}catch(e){err.textContent=String(e.message||e)+"。已轉題庫。";show(fallback(),"題庫")}btn.disabled=false}
+async function aiSentence(){
+  const avoid=loadUsed().slice(-30);
+  let hit=await callAI(avoid);
+  if(isUsed(hit.en)) hit=await callAI(avoid.concat([norm(hit.en)]));
+  if(isUsed(hit.en)) hit=fallback();
+  return hit;
+}
+function show(hit,src){
+  markUsed(hit.en); n+=1; setStat();
+  const labels={fle:"ICE FLE",ise:"IStructE",slope:"斜坡",struct:"結構",mix:"全部"};
+  document.getElementById("tag").textContent=(labels[hit.tag]||hit.tag)+" · "+src;
+  document.getElementById("en").textContent=hit.en;
+  document.getElementById("zh").textContent=hit.zh;
+  document.getElementById("count").textContent="已出 "+n+" 句 · 已鎖 "+loadUsed().length;
+}
+async function next(){
+  const btn=document.getElementById("next"); const err=document.getElementById("err");
+  err.textContent=""; btn.disabled=true;
+  document.getElementById("en").textContent=key()?"AI 出緊新句...":"題庫揀未用過嘅句...";
+  try{show(await aiSentence(), key()?"真 AI":"題庫")}catch(e){err.textContent=String(e.message||e)+"。已轉題庫。";show(fallback(),"題庫")}
+  btn.disabled=false;
+}
 function speak(){const text=document.getElementById("en").textContent;if(!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=0.92;speechSynthesis.speak(u)}
 function renderChips(){const t=document.getElementById("topics");t.innerHTML="";TOPICS.forEach(x=>{const b=document.createElement("button");b.className="chip"+(topic===x.id?" on":"");b.textContent=x.label;b.onclick=()=>{topic=x.id;renderChips()};t.appendChild(b)});const l=document.getElementById("lens");l.innerHTML="";LENS.forEach(x=>{const b=document.createElement("button");b.className="chip"+(len===x.id?" on":"");b.textContent=x.label;b.onclick=()=>{len=x.id;renderChips()};l.appendChild(b)})}
 document.getElementById("save").onclick=()=>{const v=document.getElementById("key").value.trim();if(v&&v!=="********")localStorage.setItem(KEY_ID,v);setStat()};
 document.getElementById("clear").onclick=()=>{localStorage.removeItem(KEY_ID);setStat()};
+document.getElementById("reset").onclick=()=>{localStorage.removeItem(USED_ID);setStat();document.getElementById("count").textContent="已清空已用句"};
 document.getElementById("next").onclick=next;
 document.getElementById("speak").onclick=speak;
 if(localStorage.getItem("ss.theme")==="dark")document.body.classList.add("dark");
