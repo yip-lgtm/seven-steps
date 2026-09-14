@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>無限出句 · Seven Steps</title>
+<style>
+  :root {
+    --bg: #f6f1e7; --surface: #fffbf2; --ink: #1f2a2e;
+    --ink-soft: #5a6a72; --ink-faint: #8c98a0;
+    --accent: #0f6b66; --accent-deep: #0a5a55; --accent-soft: #c8e3df;
+    --warm: #c77f3b; --warm-soft: #f3dcc1; --line: #e0d6c2;
+  }
+  body.dark {
+    --bg: #0e1116; --surface: #161b22; --ink: #e6edf3;
+    --ink-soft: #b1bac4; --ink-faint: #7d8590;
+    --accent: #4ec9b0; --accent-deep: #3aa995; --accent-soft: #1f3a37;
+    --warm: #e8a87c; --warm-soft: #3a2a1f; --line: #30363d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .app { max-width: 720px; margin: 0 auto; padding: 24px 20px 80px; }
+  .topbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-bottom: 16px; margin-bottom: 20px; border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+  .brand-mark {
+    width: 36px; height: 36px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), var(--warm));
+    color: white; display: grid; place-items: center; font-weight: 700;
+  }
+  .brand-name { font-weight: 600; font-size: 16px; }
+  .brand-sub { color: var(--ink-faint); font-size: 12px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 18px; padding: 22px;
+  }
+  h1 { font-size: 26px; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .lead { color: var(--ink-soft); font-size: 14px; margin-bottom: 16px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+    border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer;
+    font-family: inherit;
+  }
+  .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .meta { font-size: 12px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px; }
+  .en {
+    font-size: 22px; line-height: 1.45; font-weight: 650;
+    letter-spacing: -0.02em; margin: 10px 0 14px;
+  }
+  .zh {
+    color: var(--ink-soft); font-size: 15px; border-left: 3px solid var(--warm);
+    padding-left: 12px; margin-bottom: 18px;
+  }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 12px 18px; border-radius: 999px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); font-size: 15px;
+    font-weight: 600; cursor: pointer; font-family: inherit;
+  }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-warm { background: var(--warm); color: #fff; border-color: var(--warm); }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .count { margin-top: 16px; font-size: 12px; color: var(--ink-faint); }
+  a.back { color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <a class="brand" href="./">
+      <div class="brand-mark">7</div>
+      <div>
+        <div class="brand-name">無限出句</div>
+        <div class="brand-sub">ICE / IStructE / 斜坡結構</div>
+      </div>
+    </a>
+    <a class="back" href="./">返主頁</a>
+  </div>
+  <div class="card">
+    <h1>跟住讀，撰下一句無限出。</h1>
+    <p class="lead">唔使 API。頁面自己研 20–30 字英文句，配粵語意思。選題目，再撰「下一句」。</p>
+    <div class="meta">題目</div>
+    <div class="row" id="topics"></div>
+    <div class="meta">長度</div>
+    <div class="row" id="lens"></div>
+    <div class="meta" id="tag">—</div>
+    <div class="en" id="en">撰下一句開始。</div>
+    <div class="zh" id="zh">跟住我讀。唔好執 grammar，意思啲就得。</div>
+    <div class="btn-row">
+      <button class="btn btn-primary" id="next">下一句</button>
+      <button class="btn btn-warm" id="speak">讀出嚟</button>
+      <button class="btn" id="again">再讀一次</button>
+    </div>
+    <div class="count" id="count">已出 0 句</div>
+  </div>
+</div>
+<script>
+const TOPICS = [
+  { id: "fle", label: "ICE FLE" },
+  { id: "ise", label: "IStructE" },
+  { id: "slope", label: "斜坡" },
+  { id: "struct", label: "結構" },
+  { id: "mix", label: "全部" }
+];
+const LENS = [
+  { id: "short", label: "短句" },
+  { id: "mid", label: "20–30字" }
+];
+let topic = "fle";
+let len = "mid";
+let n = 0;
+let last = null;
+const pick = a => a[Math.floor(Math.random() * a.length)];
+const BANK = {
+  fle: {
+    short: [
+      ["FLE tests master's level thinking.", "FLE 考碧士級思考。"],
+      ["I write in the first person.", "我用第一人稱寫。"],
+      ["Do not copy other papers.", "唔好抄其他人嘅卷。"],
+      ["The exam lasts seven hours.", "考試長達七小時。"],
+      ["I issue an Early Warning.", "我發出早期警告。"],
+      ["Critical thinking is required.", "一定要有批判性思考。"],
+      ["Apply the answer to the case.", "答案要套入個案。"],
+      ["Two markers mark each paper.", "兩位考官獨立評卷。"]
+    ],
+    mid: [
+      ["As the project manager, I issue an Early Warning under NEC4 and call a risk reduction meeting.", "作為項目經理，我按 NEC4 發早期警告，並召開減風險會議。"],
+      ["I write in the first person I and apply each answer to the case study, not generic theory.", "我用第一人稱 I 寫，將每個答案套入個案，唔抄泛泛理論。"],
+      ["Part B is a seven-hour case study. I plan time so I cover all five modules.", "Part B 係七小時個案。我會分配時間，五大單元都答到。"],
+      ["If the contractor is late, I issue a warning and record the delay under the contract.", "如果承辦商遲咗，我會發警告，並按合約記錄延誤。"],
+      ["I do not copy old scripts. I use the site facts and explain my trade-offs.", "我唔抄舊卷。我會用地盤事實，講清楚權衡取捨。"],
+      ["Safety by design comes first. I use ERIC to eliminate risk before I add PPE.", "設計安全先行。我用 ERIC 先消除風險，先至加個人防護。"],
+      ["I link contract, cost, safety and carbon in one answer so the marker sees breadth.", "我將合約、成本、安全同碳排串埋一句，考官睇到知識面闊。"]
+    ]
+  },
+  ise: {
+    short: [
+      ["I proposed two distinct and viable schemes.", "我提出兩個唔同、可行嘅方案。"],
+      ["The transfer plate spreads the load.", "轉換板將荷載散落去下面。"],
+      ["The bored pile goes into the rock.", "鑽孔檀入到岩石。"],
+      ["The slab resists bending.", "樓板抵抗彎曲。"],
+      ["Define the load path.", "定義荷載路徑。"],
+      ["I recommend the concrete scheme.", "我建議用混凝土方案。"]
+    ],
+    mid: [
+      ["The transfer plate spreads the floor load to the columns below and keeps the grid clear.", "轉換板將樓面荷載散到下面柱，保持柱網暢通。"],
+      ["The bored pile goes deep into the rock. It carries the heavy column load with little settlement.", "鑽孔檀深入岩石，承住重柱荷載，沉降細。"],
+      ["I proposed two distinct and viable schemes: an RC frame and a composite steel frame.", "我提出兩個唔同可行方案：鋼筋混凝土框架同組合鋼框架。"],
+      ["The load path is the route that forces take from the roof down to the foundation.", "荷載路徑就係力由屋頂行到地基嘅路。"],
+      ["I size the slab for bending and check deflection so the finishes do not crack.", "我按彎瞬定板厚，再查撼度，避免裝修裂。"],
+      ["Scheme one uses shear walls. Scheme two uses braced bays. Both are stable in wind.", "方案一用剪力牆。方案二用支撐跨。兩個咽風荷載下都穩。"]
+    ]
+  },
+  slope: {
+    short: [
+      ["The slope is unstable because drainage is blocked.", "斜坡唔穩，因為排水堵塞。"],
+      ["Water builds up behind the wall.", "水咽牆後積聚。"],
+      ["I look for cracks and water damage.", "我搜裂紋同水跡。"],
+      ["We need soil nails.", "我哋需要土釘。"],
+      ["The factor of safety is 1.4.", "安全係數係 1.4。"],
+      ["The soil nail failed the pull-out test.", "土釘拉拔試驗唔合格。"]
+    ],
+    mid: [
+      ["The slope is unstable because the drain is blocked. Water builds up and pushes the soil outward.", "斜坡唔穩因為排水塞咗。水積起推開泥土。"],
+      ["I redesigned the soil nail spacing to increase the safety factor to 1.4.", "我重新設計土釘間距，將安全係數加到 1.4。"],
+      ["I check the slope every week and look for cracks, holes and blocked drains.", "我每個禮拜巡斜坡，搜裂紋、穢同塞咗嘅排水。"],
+      ["The soil nail failed the pull-out test, so I ordered a redesign of the length and spacing.", "土釘拉拔唔合格，所以我下令改長度同間距。"],
+      ["After heavy rain the flow is not fluent, so we tender maintenance and repair of the slope.", "大雨之後水流唔暢，所以我哋招標做斜坡維修。"],
+      ["I use the GI report soil data to choose soil nails, pit-by-pit works or concrete fill.", "我用 GI 報告泥土數據，擁土釘、分段開挖定灌混凝土。"]
+    ]
+  },
+  struct: {
+    short: [
+      ["I design a retaining wall for the highway.", "我為公路設計擋土牆。"],
+      ["The soil pressure is high.", "土壓好高。"],
+      ["I use steel reinforcement.", "我用鋼筋。"],
+      ["Concrete takes compression. Steel takes tension.", "混凝土抗壓，鋼筋抗拉。"],
+      ["The client asked for a cheaper option.", "業主想要平啲嘅方案。"]
+    ],
+    mid: [
+      ["I design a retaining wall for the highway. The soil pressure is high, so I use steel reinforcement.", "我為公路設計擋土牆。土壓高，所以用鋼筋。"],
+      ["The client asked for a cheaper option. I proposed steel instead of concrete to cut time.", "業主要平方案。我建議用鋼代混凝土，縮短工期。"],
+      ["Concrete is strong in compression. Steel is strong in tension. Together the beam can bend safely.", "混凝土抗壓強，鋼筋抗拉強。兩者一齊，樑可以安全彎。"],
+      ["I follow the load path from slab to beam, beam to column, and column to the pile cap.", "我跟荷載路徑：板到樑，樑到柱，柱到檀帽。"],
+      ["I proposed a cheaper steel scheme, but I still checked fire protection and deflection.", "我出咗平啲嘅鋼方案，但仍然查防火同撼度。"]
+    ]
+  }
+};
+function pool() {
+  if (topic === "mix") {
+    const keys = ["fle", "ise", "slope", "struct"];
+    const rows = [];
+    keys.forEach(k => BANK[k][len].forEach(x => rows.push([k, x])));
+    const hit = pick(rows);
+    return { tag: hit[0], pair: hit[1] };
+  }
+  return { tag: topic, pair: pick(BANK[topic][len]) };
+}
+function extra() {
+  const who = pick(["I", "As the project manager, I", "As the design engineer, I"]);
+  const act = pick([
+    ["issue an Early Warning and record the delay", "發早期警告並記錄延誤"],
+    ["redesign the soil nail spacing", "重新設計土釘間距"],
+    ["check the factor of safety", "核對安全係數"],
+    ["propose two distinct schemes", "提出兩個唔同方案"],
+    ["define the load path to the foundation", "定義去到地基嘅荷載路徑"],
+    ["order a pull-out test on the nails", "下令做土釘拉拔試驗"]
+  ]);
+  const why = pick([
+    ["because the contractor missed the deadline", "因為承辦商錯過期限"],
+    ["because the slope cracked after heavy rain", "因為大雨後斜坡開裂"],
+    ["because the client wants a cheaper option", "因為業主要平方案"],
+    ["because the safety factor is below 1.4", "因為安全係數低過 1.4"]
+  ]);
+  if (len === "short") {
+    return { tag: "mix", pair: [who.replace("As the project manager, I", "I").replace("As the design engineer, I", "I") + " " + act[0] + ".", act[1] + "。"] };
+  }
+  return { tag: "mix", pair: [who + " " + act[0] + " " + why[0] + ".", who.includes("As") ? "作為負責人，我" + act[1] + "，" + why[1] + "。" : "我" + act[1] + "，" + why[1] + "。"] };
+}
+function renderChips() {
+  const t = document.getElementById("topics");
+  t.innerHTML = "";
+  TOPICS.forEach(x => {
+    const b = document.createElement("button");
+    b.className = "chip" + (topic === x.id ? " on" : "");
+    b.textContent = x.label;
+    b.onclick = () => { topic = x.id; renderChips(); };
+    t.appendChild(b);
+  });
+  const l = document.getElementById("lens");
+  l.innerHTML = "";
+  LENS.forEach(x => {
+    const b = document.createElement("button");
+    b.className = "chip" + (len === x.id ? " on" : "");
+    b.textContent = x.label;
+    b.onclick = () => { len = x.id; renderChips(); };
+    l.appendChild(b);
+  });
+}
+function next() {
+  let hit = Math.random() < 0.55 ? pool() : extra();
+  if (last && hit.pair[0] === last) hit = extra();
+  last = hit.pair[0];
+  n += 1;
+  const labels = { fle: "ICE FLE", ise: "IStructE", slope: "斜坡", struct: "結構", mix: "組合句" };
+  document.getElementById("tag").textContent = labels[hit.tag] || hit.tag;
+  document.getElementById("en").textContent = hit.pair[0];
+  document.getElementById("zh").textContent = hit.pair[1];
+  document.getElementById("count").textContent = "已出 " + n + " 句";
+}
+function speak() {
+  const text = document.getElementById("en").textContent;
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US";
+  u.rate = 0.92;
+  speechSynthesis.speak(u);
+}
+document.getElementById("next").onclick = next;
+document.getElementById("speak").onclick = speak;
+document.getElementById("again").onclick = speak;
+if (localStorage.getItem("ss.theme") === "dark") document.body.classList.add("dark");
+renderChips();
+next();
+</script>
+</body>
+</html>
