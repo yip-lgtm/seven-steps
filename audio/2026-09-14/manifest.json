@@ -4,76 +4,67 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-musk-1",
-      "topic_en": "Tesla Earnings Watch",
-      "topic_zh": "Tesla / Musk",
+      "id": "trade-btc-gold",
+      "topic_en": "BTC vs Gold 10y",
+      "topic_zh": "BTC vs黃金10年",
       "category": "trading",
-      "file": "clip-trade-musk-1.mp3",
+      "file": "clip-trade-btc-gold.mp3",
+      "bytes": 270132,
+      "chars": 269
+    },
+    {
+      "id": "trade-doge-space",
+      "topic_en": "Doge Space in 3d",
+      "topic_zh": "DOGE太空三日",
+      "category": "trading",
+      "file": "clip-trade-doge-space.mp3",
+      "bytes": 263220,
+      "chars": 263
+    },
+    {
+      "id": "civil-utility",
+      "topic_en": "Slope Survey Notes",
+      "topic_zh": "斜坡勘測",
+      "category": "civil/structure",
+      "file": "clip-civil-utility.mp3",
       "bytes": 351924,
-      "chars": 315
+      "chars": 266
     },
     {
-      "id": "trade-btc-gold-1",
-      "topic_en": "Bitcoin vs Gold",
-      "topic_zh": "BTC vs Gold",
-      "category": "trading",
-      "file": "clip-trade-btc-gold-1.mp3",
-      "bytes": 287412,
-      "chars": 273
-    },
-    {
-      "id": "civil-1",
-      "topic_en": "Factor of Safety",
-      "topic_zh": "斜坡安全系數",
+      "id": "civil-struct-load",
+      "topic_en": "Load Path Logic",
+      "topic_zh": "負載路徑",
       "category": "civil/structure",
-      "file": "clip-civil-1.mp3",
-      "bytes": 306996,
-      "chars": 290
+      "file": "clip-civil-struct-load.mp3",
+      "bytes": 331764,
+      "chars": 351
     },
     {
-      "id": "civil-2",
-      "topic_en": "Load Path Talk",
-      "topic_zh": "荷載傳遞路徑",
-      "category": "civil/structure",
-      "file": "clip-civil-2.mp3",
-      "bytes": 310452,
-      "chars": 294
-    },
-    {
-      "id": "tech-ai-1",
-      "topic_en": "AI Plateau Fear",
-      "topic_zh": "AI模型撞牆",
+      "id": "tech-ai-gpu",
+      "topic_en": "AI GPU Bubble",
+      "topic_zh": "GPU點算",
       "category": "tech/ai",
-      "file": "clip-tech-ai-1.mp3",
-      "bytes": 315636,
-      "chars": 300
-    },
-    {
-      "id": "hk-news-1",
-      "topic_en": "AI Doomer Victory",
-      "topic_zh": "Doomer贏咗",
-      "category": "hk/news",
-      "file": "clip-hk-news-1.mp3",
-      "bytes": 309876,
-      "chars": 300
-    },
-    {
-      "id": "mma-fit-1",
-      "topic_en": "Bulk vs Cut",
-      "topic_zh": "Bulk定Cut",
-      "category": "mma/fitness",
-      "file": "clip-mma-fit-1.mp3",
-      "bytes": 395124,
-      "chars": 316
-    },
-    {
-      "id": "anime-1",
-      "topic_en": "Tenmaku No Jaadugar",
-      "topic_zh": "Tenmaku魔法使",
-      "category": "anime/culture",
-      "file": "clip-anime-1.mp3",
+      "file": "clip-tech-ai-gpu.mp3",
       "bytes": 342132,
-      "chars": 315
+      "chars": 344
+    },
+    {
+      "id": "hk-news-tariff",
+      "topic_en": "Tariff 21T Thread",
+      "topic_zh": "關稅21T",
+      "category": "hk/news",
+      "file": "clip-hk-news-tariff.mp3",
+      "bytes": 300084,
+      "chars": 281
+    },
+    {
+      "id": "anime-mii-chan",
+      "topic_en": "Mii-chan Anime",
+      "topic_zh": "Mii-chan動畫",
+      "category": "anime/culture",
+      "file": "clip-anime-mii-chan.mp3",
+      "bytes": 343284,
+      "chars": 337
     }
   ]
 }
