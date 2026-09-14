@@ -28,7 +28,7 @@
   .btn-warm{background:var(--warm);color:#fff;border-color:var(--warm)}
   .btn-row{display:flex;flex-wrap:wrap;gap:10px}
   .count{margin-top:16px;font-size:12px;color:var(--ink-faint)}
-  a.back,a.link{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
+  a.back{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
   .keybox{margin:10px 0 14px;padding:12px;border:1px dashed var(--line);border-radius:12px;background:var(--bg)}
   .keybox input{width:100%;margin-top:6px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
   .ok{color:#3b7a4f;font-size:12px}
@@ -43,7 +43,7 @@
   </div>
   <div class="card">
     <h1>免費模型出新句</h1>
-    <p class="lead">403 即係呢個免費模型唔肯接。頁面會自動換第二個。OpenRouter 免費 key 或者 Gemini 免費 key 都得。</p>
+    <p class="lead">429 = 免費額滿。模型亂寫文字都會盡量抽出英文同粵語。全部失敗先用題庫。</p>
     <div class="keybox">
       <div class="meta">Key（sk-or-v1-... 或 AIza...）</div>
       <input id="key" type="password" placeholder="OpenRouter 或 Gemini 免費 key">
@@ -59,7 +59,7 @@
     <div class="meta">長度</div><div class="row" id="lens"></div>
     <div class="meta" id="tag">—</div>
     <div class="en" id="en">撳下一句。</div>
-    <div class="zh" id="zh">403 會自動換模型，全部都 403 先用題庫。</div>
+    <div class="zh" id="zh">免費模型忙就換第二個。</div>
     <div class="err" id="err"></div>
     <div class="btn-row">
       <button class="btn btn-primary" id="next">下一句</button>
@@ -72,11 +72,11 @@
 const TOPICS=[{id:"fle",label:"ICE FLE"},{id:"ise",label:"IStructE"},{id:"slope",label:"斜坡"},{id:"struct",label:"結構"},{id:"mix",label:"全部"}];
 const LENS=[{id:"short",label:"短句"},{id:"mid",label:"20-30字"}];
 const PROVIDERS=[{id:"auto",label:"自動免費"},{id:"openrouter",label:"OpenRouter 免費"},{id:"gemini",label:"Gemini 免費"}];
-const OR_MODELS=["openrouter/free","google/gemma-4-26b-a4b-it:free","nvidia/nemotron-3.5-lightning:free","inclusionai/ling-3.0-flash-sante:free","google/gemma-4-31b-it:free"];
+const OR_MODELS=["nvidia/nemotron-3.5-lightning:free","inclusionai/ling-3.0-flash-sante:free","openrouter/free","google/gemma-4-26b-a4b-it:free"];
 const GEM_MODELS=["gemini-2.5-flash","gemini-2.0-flash","gemini-2.0-flash-lite"];
 const KEY_ID="ss.openrouter"; const USED_ID="ss.used.v1"; const PROV_ID="ss.provider";
 let topic="fle", len="mid", n=0, provider=localStorage.getItem(PROV_ID)||"auto";
-const TOPIC_EN={fle:"ICE FLE Early Warning NEC4 case study first person I",ise:"IStructE two schemes load path transfer plate",slope:"HK slope cracks blocked drain soil nails factor of safety",struct:"retaining wall steel reinforcement cheaper option",mix:"civil structural exam English"};
+const TOPIC_EN={fle:"ICE FLE Early Warning NEC4 case study",ise:"IStructE two schemes load path transfer plate",slope:"slope cracks blocked drain soil nails safety factor",struct:"retaining wall steel cheaper option",mix:"civil structural exam English"};
 function pick(a){return a[Math.floor(Math.random()*a.length)]}
 function norm(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}
 function loadUsed(){try{return JSON.parse(localStorage.getItem(USED_ID)||"[]")}catch(e){return[]}}
@@ -85,32 +85,54 @@ function isUsed(en){return loadUsed().includes(norm(en))}
 function markUsed(en){const u=loadUsed(); const k=norm(en); if(!u.includes(k)){u.push(k); saveUsed(u)}}
 function key(){return (localStorage.getItem(KEY_ID)||"").trim()}
 function keyType(k){ if((k||"").startsWith("AIza")) return "gemini"; if((k||"").startsWith("sk-or")) return "openrouter"; return "unknown" }
-function setStat(){const k=key(); const t=k?keyType(k):"none"; document.getElementById("keystat").textContent=k?("已存 "+t):"未有 key"; document.getElementById("key").value=k?"********":""}
+function setStat(){const k=key(); document.getElementById("keystat").textContent=k?("已存 "+keyType(k)):"未有 key"; document.getElementById("key").value=k?"********":""}
 const FALLBACK=[
 ["fle","I write in the first person and apply the answer to the case.","我用第一人稱寫，將答案套入個案。"],
-["fle","I do not copy old papers. I use the site facts in every answer.","我唔抄舊卷。每個答案都用地盤事實。"],
+["fle","If the contractor is late, I issue an Early Warning under NEC4.","如果承辦商遲咗，我按 NEC4 發早期警告。"],
 ["ise","I proposed two distinct and viable schemes for the office building.","我為寫字樓提出兩個唔同可行方案。"],
-["slope","I raised the factor of safety to 1.4 by changing the nail grid.","我改土釘網格，將安全系數加到 1.4。"],
+["slope","Blocked drains let water push the soil outward after heavy rain.","排水塞咗，大雨後水推開泥土。"],
 ["struct","I follow the load from slab to beam to column to the pile cap.","我跟荷載：板到樑到柱到樁帽。"]
 ];
 function fallback(){const bag=FALLBACK.filter(x=>(topic==="mix"||x[0]===topic)&&!isUsed(x[1])); const src=bag.length?pick(bag):pick(FALLBACK); return {en:src[1],zh:src[2],tag:src[0]}}
-function parseJson(raw){const t=(raw||"").replace(/```json|```/g,"").trim(); const m=t.match(/\{[\s\S]*\}/); return JSON.parse(m?m[0]:t)}
-function prompt(avoid){const words=len==="short"?"8 to 12 words":"20 to 30 words"; return "One new oral sentence for A2-B1 HK civil engineer. JSON only {\"en\":\"\",\"zh\":\"\"}. zh=Cantonese. Topic: "+TOPIC_EN[topic]+". Length: "+words+". First person I. Avoid: "+avoid.join(" | ")}
+function extractPair(raw){
+  const t=(raw||"").replace(/```json|```/g,"").trim();
+  const grab=(re)=>{const m=t.match(re); return m&&m[1]?m[1].trim().replace(/^\"|\"$/g,""):""};
+  let en=grab(/\"en\"\s*:\s*\"([^\"\\n]+)/) || grab(/EN:\s*(.+)/i) || grab(/English:\s*(.+)/i);
+  let zh=grab(/\"zh\"\s*:\s*\"([^\"\\n]+)/) || grab(/ZH:\s*(.+)/i) || grab(/中文[：:]\s*(.+)/) || grab(/粵語[：:]\s*(.+)/);
+  if(en) en=en.replace(/[\"}]+$/, "").trim();
+  if(zh) zh=zh.replace(/[\"}]+$/, "").trim();
+  if(en && zh) return {en, zh};
+  try{
+    const m=t.match(/\{[\s\S]*\}/);
+    if(m){ const j=JSON.parse(m[0]); if(j.en&&j.zh) return j; }
+  }catch(e){}
+  throw new Error("格式唔啱");
+}
+function friendlyErr(s){
+  if(/429/.test(s)) return "429 免費額滿，等幾分鐘或換 Gemini key。";
+  if(/403/.test(s)) return "403 呢個免費模型而家唔開放。";
+  if(/格式/.test(s)) return "模型冇按格式出句，已換下一個。";
+  return s.slice(0,180);
+}
+function prompt(avoid){
+  const words=len==="short"?"8-12":"20-30";
+  return "Reply exactly two lines.\nEN: <one "+words+" word English sentence>\nZH: <Cantonese>\nTopic: "+TOPIC_EN[topic]+". First person I. Avoid: "+avoid.join(" | ");
+}
 async function callOpenRouter(mid, avoid, k){
-  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"Seven Steps Free"},body:JSON.stringify({model:mid,temperature:1,max_tokens:180,messages:[{role:"user",content:prompt(avoid)}]})});
+  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"Seven Steps Free"},body:JSON.stringify({model:mid,temperature:1,max_tokens:220,messages:[{role:"user",content:prompt(avoid)}]})});
   const text=await res.text();
-  if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " " + ((j.error&&j.error.message)||text).slice(0,160)}catch(e){msg += " "+text.slice(0,120)} throw new Error(msg)} 
+  if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " "+((j.error&&j.error.message)||"")}catch(e){} throw new Error(msg)} 
   const data=JSON.parse(text);
   const raw=(data.choices&&data.choices[0]&&data.choices[0].message&&data.choices[0].message.content)||"";
-  const json=parseJson(raw); if(!json.en||!json.zh) throw new Error("格式唔啱"); return {en:json.en,zh:json.zh,tag:topic,via:mid};
+  const json=extractPair(raw); return {en:json.en,zh:json.zh,tag:topic,via:mid};
 }
 async function callGemini(mid, avoid, k){
-  const res=await fetch("https://generativelanguage.googleapis.com/v1beta/models/"+mid+":generateContent?key="+encodeURIComponent(k),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({contents:[{parts:[{text:prompt(avoid)}]}],generationConfig:{temperature:1,maxOutputTokens:180}})});
+  const res=await fetch("https://generativelanguage.googleapis.com/v1beta/models/"+mid+":generateContent?key="+encodeURIComponent(k),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({contents:[{parts:[{text:prompt(avoid)}]}],generationConfig:{temperature:1,maxOutputTokens:220}})});
   const text=await res.text();
-  if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " " + ((j.error&&j.error.message)||text).slice(0,160)}catch(e){msg += " "+text.slice(0,120)} throw new Error(msg)}
+  if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " "+((j.error&&j.error.message)||"")}catch(e){} throw new Error(msg)}
   const data=JSON.parse(text);
   const raw=((((data.candidates||[])[0]||{}).content||{}).parts||[]).map(p=>p.text||"").join("");
-  const json=parseJson(raw); if(!json.en||!json.zh) throw new Error("格式唔啱"); return {en:json.en,zh:json.zh,tag:topic,via:mid};
+  const json=extractPair(raw); return {en:json.en,zh:json.zh,tag:topic,via:mid};
 }
 async function aiSentence(){
   const k=key(); if(!k) return fallback();
@@ -118,18 +140,10 @@ async function aiSentence(){
   const type=keyType(k);
   const errs=[];
   const tryOR=provider!=="gemini" && type!=="gemini";
-  const tryGem=provider!=="openrouter" && (type==="gemini" || provider==="gemini" || provider==="auto");
-  if(tryOR){
-    for(const mid of OR_MODELS){
-      try{ const hit=await callOpenRouter(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) }
-    }
-  }
-  if(tryGem && type==="gemini"){
-    for(const mid of GEM_MODELS){
-      try{ const hit=await callGemini(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) }
-    }
-  }
-  throw new Error(errs.slice(0,3).join("\n") || "全部免費模型失敗");
+  const tryGem=provider!=="openrouter" && type==="gemini";
+  if(tryOR){ for(const mid of OR_MODELS){ try{ const hit=await callOpenRouter(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) } } }
+  if(tryGem){ for(const mid of GEM_MODELS){ try{ const hit=await callGemini(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) } } }
+  throw new Error(errs.map(friendlyErr).slice(0,3).join("\n")||"全部免費模型失敗");
 }
 function show(hit,src){
   markUsed(hit.en); n+=1; setStat();
@@ -144,7 +158,7 @@ async function next(){
   err.textContent=""; btn.disabled=true;
   document.getElementById("en").textContent=key()?"免費模型出緊句...":"題庫出句...";
   try{ show(await aiSentence(), key()?"免費 LLM":"題庫") }
-  catch(e){ err.textContent=String(e.message||e)+"\n已轉題庫。403=呢個免費模型而家唔開放，換 key 或用 Gemini。"; show(fallback(),"題庫") }
+  catch(e){ err.textContent=String(e.message||e)+"\n已轉題庫。等幾分鐘再試，或者貼 Gemini key。"; show(fallback(),"題庫") }
   btn.disabled=false;
 }
 function speak(){const text=document.getElementById("en").textContent; if(!window.speechSynthesis)return; speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; u.rate=0.92; speechSynthesis.speak(u)}
