@@ -996,28 +996,11 @@ async function callLLM(prompt, opts = {}) {
   // 3 expansion LLM calls on an empty list, and the empty-array write
   // would break the app (no clips to show). Fall back to clips/pool.json.
   if (!baseClips.length) {
-    console.warn('  [empty-base] LLM returned 0 clips, falling back to clips/pool.json');
-    const poolPath = path.join(__dirname, '..', 'clips', 'pool.json');
-    if (fs.existsSync(poolPath)) {
-      const pool = JSON.parse(fs.readFileSync(poolPath, 'utf8'));
-      const fallback = (pool.clips || []).slice(0, 7).map((c, i) => ({
-        id: c.id || ('pool-fallback-' + i),
-        category: c.category || 'general',
-        topic_zh: c.topic_zh || c.topic || '',
-        topic_en: c.topic_en || c.topic || '',
-        text_zh: c.text_zh || '',
-        text_en_b1: c.text_en_b1 || c.text_en || '',
-        source_url: c.source_url || '',
-        source_hint: c.source_hint || '(pool fallback — AI gen returned 0 clips today)',
-        signal: c.signal || { asset: 'observation', direction: 'observation', conviction: 'none', time_horizon: 'none', entry_zone: 'current', target: null, stop: null, rationale: 'Pool fallback' },
-      }));
-      const out = { date: today, source: 'pool-fallback', persona: PERSONA.name, clips: fallback };
-      const outPath = path.join(__dirname, '..', 'clips', 'today.json');
-      fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
-      console.log(`  [pool-fallback] wrote ${fallback.length} clips from pool.json`);
-    } else {
-      throw new Error('LLM returned 0 clips AND clips/pool.json is missing');
-    }
+    // pool.json is a flat array (not {clips:[]}), and writing [] would
+    // crash Start today (0 % 0 → NaN, then clip.topic_zh on undefined).
+    // Keep the previous today.json so the live site stays playable.
+    console.warn('  [empty-base] LLM returned 0 clips — keeping previous clips/today.json (do not overwrite with [])');
+    process.exit(0);
   }
 
   // 4. EXPANSION calls

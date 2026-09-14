@@ -952,7 +952,11 @@ async function loadDailyClips() {
 
 function startSession() {
   // Pick clips from the active pool (daily if loaded, baseline otherwise)
-  const pool = state.clips;
+  const pool = state.clips || [];
+  if (!pool.length) {
+    toast('今日未有短文。稍後再試，或撳 Retry fetch / Trigger cron。');
+    return;
+  }
   const startIdx = state.todayLog.clips % pool.length;
   const n = Math.min(state.settings.clipsPerSession, pool.length);
   const clips = [];
@@ -1167,7 +1171,7 @@ function renderHome() {
       </div>
 
       <div class="btn-row">
-        <button class="btn btn-primary btn-large" id="btn-start">${log.clips > 0 ? 'Continue today' : 'Start today'}</button>
+        <button class="btn btn-primary btn-large" id="btn-start" ${state.clips.length ? '' : 'disabled'}>${log.clips > 0 ? 'Continue today' : 'Start today'}</button>
         <button class="btn btn-ghost" id="btn-settings">Settings</button>
       </div>
 
@@ -1185,6 +1189,11 @@ function renderSession() {
   const step = STEPS[sess.stepIdx];
   const clipIdx = sess.clipQueue[sess.clipIdx];
   const clip = state.clips[clipIdx];
+  if (!clip) {
+    state.view = 'home';
+    state.session = null;
+    return renderHome();
+  }
   const winThreshold = state.settings.winThreshold;
   const stepBody = renderStepBody(step, clip, sess);
 
