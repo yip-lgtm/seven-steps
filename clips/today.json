@@ -4,14 +4,14 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "clip01-biz-doge",
+      "id": "doge-space-001",
       "category": "trading",
-      "topic_zh": "狗幣再衝",
-      "topic_en": "Doge to the moon",
-      "text_zh": "又睇到Doge post。3日內爆space，叫我哋ap。贏就贏，輸就當SNL 2.0學費囉lol。唔買又驚miss，買咗又驚接刀，真係廢柴。🙏",
-      "text_en_b1": "Doge goes to fucking space in three days and you are not buying. If this shit explodes it will still move up, so why not ape a bit, then sell so it does not become SNL 2.0. Or maybe it will just start the hype again. The setup is right there if you are not too scared.",
+      "topic_zh": "Dogecoin上太空",
+      "topic_en": "Doge to Space",
+      "text_zh": "又見DOGE post 🙄 DOGE 3日內上太空喎，你又唔買。爆咗都會升啦，唔係就SNL 2.0結局。細注試下又點啫。我今個月CFD已經輸到入肉，DOGE都唔敢再溝⋯當睇戲啦",
+      "text_en_b1": "Doge goes to fucking space in 3 days and you're not buying. If this thing explodes it will still move up, so why not ape a bit, then sell before it becomes SNL 2.0? Or maybe it will just start the hype again. Posted on /biz/ today.",
       "source_url": "https://boards.4chan.org/biz/thread/62676654",
-      "source_hint": "/biz/ Doge thread, pre-event ape logic",
+      "source_hint": "/biz/ thread hyping a DOGE catalyst in 3 days",
       "signal": {
         "asset": "DOGE",
         "direction": "long",
@@ -20,46 +20,46 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP frames a 3-day catalyst event with defined risk plan to sell before it can become SNL 2.0"
+        "rationale": "OP implies a small long position before the catalyst, with intent to sell into the pump"
       },
-      "text_en_b2": "Doge is about to shoot into fucking space within three days, and you're still sitting on the fence. If it actually explodes, even a modest position will ride the wave, so throwing in a small ape makes sense provided you take profits before it collapses into another SNL-style pump and dump. The setup is staring you in the face, but fear is holding you back. Buy the dip if it comes.",
-      "text_en_c1": "Doge appears poised for a parabolic move within roughly seventy-two hours, with multiple signals suggesting an imminent breakout. The dilemma is fundamentally psychological: positioning oneself in advance carries the risk of catching a falling knife, while abstaining almost guarantees regret should momentum accelerate. The pragmatic compromise, which I am inclined toward, involves allocating a modest tranche and exiting before any euphoria peaks, lest this cycle repeat the SNL-induced collapse that wiped out late entrants. Were the setup to falter, the loss would amount to nothing more than tuition paid for another lesson in speculative excess. The pattern, however, remains textbook: consolidation at the lows, sentiment rebuilding, liquidity quietly accumulating.",
-      "text_en_c2": "The Doge chatter is, once again, impossible to ignore. Apparently we are looking at a celestial ascent within the next seventy-two hours, which is, of course, the cue for the board to commence aping into positions with the usual fervour. The calculus is rather straightforward: if the move materialises, there is still ample upside to ride, and if it does not, one simply treats the loss as a tuition fee for having been snubbed by the SNL fiasco all over again. Yet the deeper affliction lies in the perennial paralysis of conviction, since abstaining invites the dread of having missed the trade, while participating summons the ever-present spectre of catching a falling knife.",
-      "audio_url": "audio/2026-09-14/clip-clip01-biz-doge.mp3"
+      "text_en_b2": "Doge is genuinely heading to space within three days, yet you're still sitting on the fence. Even if this thing turns out to be a non-event, momentum alone could carry it higher before everything unravels. Picture SNL 2.0 if it flops, or the hype simply reignites. Some anons are throwing in a small position just to ride the wave. I dropped my CFD margin hard this month, so I'm merely spectating. Posted on /biz/ today.",
+      "text_en_c1": "Doge is, quite frankly, hurtling toward the stratosphere within seventy-two hours, and yet you remain stubbornly on the sidelines. If the announcement detonates the way insiders expect, the price will almost certainly rip upward regardless of underlying fundamentals; the prudent play is therefore to allocate a modest position and offload before sentiment deteriorates into an SNL-style rout. Conversely, should momentum reignite the broader rally, latecomers will be left chasing. One cannot help but notice the thread appeared on /biz/ today, which in itself is worth reading carefully.",
+      "text_en_c2": "Doge is purportedly en route to the stratosphere within the next seventy-two hours, yet one persists in abstaining — a posture that strikes me as almost perverse given the prevailing asymmetry. Should the anticipated catalyst materialise, even a fleeting repricing would more than compensate for a measured position; should it spectacularly implode, one merely averts the SNL 2.0 dénouement that still haunts retail lore. What, then, is the objection to a token allocation, however modest? I, for my part, have been so comprehensively eviscerated by CFD exposure this month that even Doge feels untouchable — my brokerage account reduced, in effect, to a cadaver. Consider it theatre, then: popcorn, detachment, and the quiet consolation that schadenfreude, if nothing else, remains reliably on offer.",
+      "audio_url": "audio/2026-09-14/clip-doge-space-001.mp3"
     },
     {
-      "id": "clip02-biz-btc-vs-gold",
+      "id": "tsla-spacex-002",
       "category": "trading",
-      "topic_zh": "Bitcoin vs Gold",
-      "topic_en": "BTC vs gold 10-year hold",
-      "text_zh": "10年揀一樣hold，Bitcoin定黃金？問咗全世界都係呢句。我揀BTC，黃金太慢，但黃金仔都識郁lol。命理都話今年金水弱，可能啦。",
-      "text_en_b1": "Bitcoin versus gold. If you had to hold only one for the next ten years, would you choose Bitcoin or gold. What makes your choice better than the other. Think about store of value, supply growth, and how each behaves in a real crisis. Ten years is a long time.",
-      "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ Bitcoin vs gold long-term debate",
-      "signal": {
-        "asset": "BTC",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP asks a framing question; implied bias is to overweight BTC over gold for a 10-year horizon"
-      },
-      "text_en_b2": "The classic dilemma: if you had to hold a single asset for the next ten years, would you pick Bitcoin or gold? I lean towards BTC because gold simply moves too slowly, although even bullion manages to creep up these days. Proponents of the metal point to weak metal-water energy this year in Chinese metaphysics, so the timing might favour gold. Either way, store of value matters.",
-      "text_en_c1": "Forced into a ten-year time horizon with a single asset, the choice between Bitcoin and gold reduces to a question of monetary velocity and demographic demand. Gold, whose supply grows at roughly one to two percent annually, has functioned as a crisis hedge for millennia; it moves, albeit glacially, particularly when traditional metal indices flicker with seasonal conviction. Bitcoin, by contrast, offers a fixed issuance schedule, programmatic scarcity, and an addressable audience increasingly comfortable with self-custody. The deciding factor for me is portability: an entire position can traverse borders in a seed phrase, whereas bullion invites confiscation risk.",
-      "text_en_c2": "The perennial question resurfaces with monotonous inevitability: were one compelled to hold a single asset for the ensuing decade, would one elect Bitcoin or gold, and on what rigorously articulated premise? The unvarnished reality is that gold, whatever its venerated status as a store of value, exhibits a glacial rate of appreciation that borders on the somnolent, whereas Bitcoin, for all its contortions, remains structurally positioned to outperform during any sustained period of monetary debasement. Supply trajectories, crisis-era correlations, and the relative velocity of capital appreciation must all be weighed against the inertia of bullion. Even the more pedestrian gold equities, it must be conceded, possess a modest capacity for movement, though scarcely enough to vindicate the proposition.",
-      "audio_url": "audio/2026-09-14/clip-clip02-biz-btc-vs-gold.mp3"
-    },
-    {
-      "id": "clip03-civ-struct",
-      "category": "civil/structure",
-      "topic_zh": "岩土斜坡",
-      "topic_en": "Slope investigation basics",
-      "text_zh": "今日再做slope survey。factor of safety數晒出嚟，但contractor問點解用soil nailing唔用其他。我答唔晒，英文又窒。Tommy叫我下星期interview要有理據。🧐",
-      "text_en_b1": "Slope survey today. Factor of safety is calculated for every section, but the contractor asked why we used soil nailing instead of other methods. I could not explain all the reasons, and my English broke down. My boss told me I need clear reasoning for the interview next week.",
+      "topic_zh": "Tesla同SpaceX啱啱",
+      "topic_en": "Tesla and SpaceX vibe",
+      "text_zh": "今日睇Tesla同SpaceX兩邊都熱，Musk一出X post成個板都震下。我啲prop firm倉太集中喺TSLA，遲啲要分散啲。今晚谷FE chapter 3先 🤮",
+      "text_en_b1": "Musk stuff is everywhere tonight — TSLA earnings buzz, SpaceX Starship test updates, Optimus progress clips on X. When Musk posts, the whole sector moves. Some /biz/ anons are rotating into TSLA calls while waiting on the next Starship launch date. Crazy how one account can shake the market like that.",
       "source_url": "https://boards.4chan.org/biz/thread/62678496",
-      "source_hint": "/biz/ generic macro post, repurposed as site-work language",
+      "source_hint": "/biz/ thread linking Musk policy moves to market action",
+      "signal": {
+        "asset": "TSLA",
+        "direction": "long",
+        "conviction": "medium",
+        "time_horizon": "weeks",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "OP frames Musk as a market-moving force; TSLA calls implied as the cleanest expression"
+      },
+      "text_en_b2": "Musk-related content is dominating every feed tonight, with TSLA earnings chatter heating up alongside fresh SpaceX Starship test footage and the usual Optimus progress clips circulating on X. The moment he posts anything, the entire sector reacts almost instantly. A handful of /biz/ anons are rotating capital into TSLA call options while they wait for the next confirmed Starship launch window. It is frankly remarkable how a single account can rattle the market like this.",
+      "text_en_c1": "Tonight the Musk ecosystem is exhibiting an unusual degree of coordinated activity: TSLA earnings speculation is intensifying, fresh Starship test footage is fuelling discussion, and Optimus development clips are once more dominating timelines. Whenever that single account publishes, the entire sector seems to pivot in response, which is frankly staggering when one stops to consider it. On /biz/ certain anons are quietly rotating capital into TSLA call options while they wait for the next Starship launch window to be confirmed. My proprietary-firm book, regrettably, remains disproportionately exposed to Tesla, and I have resolved to diversify the allocation before further concentration risk erodes the account.",
+      "text_en_c2": "Musk-related stimuli are saturating the discourse tonight — TSLA earnings chatter reverberates alongside SpaceX Starship telemetry leaks, while Optimus demonstration footage circulates on X with metronomic regularity. The phenomenon is, on reflection, almost liturgical in its predictability: a single keystroke from one account, and the entire risk-on complex shudders accordingly. Several /biz/ regulars are, accordingly, rotating capital into near-dated TSLA calls rather than awaiting the next confirmed Starship window, a posture predicated on contango and volatility alike. That one individual can summon such dislocation — that a personal feed can function, in effect, as a sovereign macro signal — remains, to my mind, the most disquieting feature of this peculiar cycle.",
+      "audio_url": "audio/2026-09-14/clip-tsla-spacex-002.mp3"
+    },
+    {
+      "id": "slope-soil-003",
+      "category": "civil",
+      "topic_zh": "斜坡同土釘",
+      "topic_en": "Slope and soil nailing",
+      "text_zh": "今日返工地做斜坡survey，搵到一處factor of safety得1.05⋯真係揸頸。要design soil nail加返上去先交到report。Tommy叫我聽日同contractor開會，全程英文⋯救命",
+      "text_en_b1": "On site doing slope inspection today. Found a section where the factor of safety is only about 1.05 — basically right at the limit. Going to propose extra soil nails to bring the FoS up before the GI report goes out. Contractor meeting tomorrow, all in English.",
+      "source_url": "https://boards.4chan.org/biz/thread/62645210",
+      "source_hint": "Generic /biz/ thread repurposed for site-work English practice",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,22 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade"
+        "rationale": "Civil engineering site context, not a trade"
       },
-      "text_en_b2": "I was out on a slope survey today, crunching the factor of safety for every section, when the contractor fired off a tricky question: why soil nailing rather than any of the alternative methods? I struggled to articulate the reasoning, and my English kept falling apart halfway through my explanations. My boss, Tommy, has made it clear that the interview next week demands solid technical justification, not vague hand-waving.",
-      "text_en_c1": "I spent the morning conducting a slope stability survey, working through the factor-of-safety calculations for each delineated section. The numerical results, fortunately, were coherent across the board; it was the subsequent technical dialogue that exposed my limitations. The contractor, reasonably enough, pressed me on why soil nailing had been specified over alternative reinforcement methods such as rock bolting or retaining structures, and I found myself groping for half-formed justifications while my English, already strained, began to unravel entirely. Tommy later informed me that the upcoming client interview will demand not merely calculations but articulate, defensible reasoning.",
-      "text_en_c2": "Another day spent conducting slope surveys, and the factor of safety has been dutifully tabulated for each discretised section, yet the moment the contractor pressed me on why soil nailing was specified in lieu of alternative stabilisation measures, I found myself thoroughly outmanoeuvred. The technical justification is by no means obscure, but articulating the comparative advantages of soil nailing over, say, reinforced earth or gravity retaining systems, with the requisite engineering precision, proved altogether beyond my linguistic means. My English, for want of a more charitable descriptor, simply disintegrated under the pressure. Tommy has since intimated, in his characteristically unsentimental fashion, that the forthcoming interview will demand not merely competent answers but a defensible rationale rooted in first principles, which, given my present predicament, suggests that the intervening week will be spent in a state…",
-      "audio_url": "audio/2026-09-14/clip-clip03-civ-struct.mp3"
+      "text_en_b2": "Spent most of the day on site carrying out a slope inspection, and one section came back with a factor of safety hovering around 1.05 — effectively sitting right on the edge of acceptable. I'll need to specify additional soil nails to bring that FoS up before the geotechnical interpretive report goes out. There's a contractor meeting scheduled for tomorrow, and apparently the whole thing will be conducted in English.",
+      "text_en_c1": "Spent the afternoon on site conducting a slope inspection, and the findings are, to put it mildly, uncomfortable. One particular section returned a factor of safety of roughly 1.05, which essentially means we are brushing against the regulatory threshold with virtually no margin to spare. Before the geotechnical interpretive report can be issued, I shall need to specify additional soil nails at carefully chosen spacings in order to elevate the FoS to an acceptable range. Tomorrow brings a contractor meeting, conducted entirely in English, where I will be required to defend the proposal to Tommy and the site team.",
+      "text_en_c2": "I spent the morning on a rather unforgiving slope inspection, and the numbers were, frankly, sobering: one particular stretch registered a factor of safety hovering around 1.05 — a value so marginal it might as well be engraved on a headstone. To salvage any semblance of compliance before the geotechnical interpretive report is tendered, I shall have to specify supplementary soil nailing, with all the attendant iterative recalculation that implies. Tommy has further compounded matters by scheduling a contractor meeting for tomorrow morning, conducted entirely in English, which is rather akin to asking a cat to swim. The irony of having to defend a 1.05 FoS to a roomful of sceptics, in a second language, at eight a.m., is not entirely lost on me.",
+      "audio_url": "audio/2026-09-14/clip-slope-soil-003.mp3"
     },
     {
-      "id": "clip04-civ-struct2",
-      "category": "civil/structure",
-      "topic_zh": "荷載路徑",
-      "topic_en": "Load path in steel design",
-      "text_zh": "夜晚溫FE，load path由beam去column到foundation。concept識，但講唔出點樣check shear connection，英文真係廢。考牌都未完，又燒時間。",
-      "text_en_b1": "Studying for the FE exam at night. Load path goes from beam to column down to the foundation. I understand the concept, but I cannot explain how to check the shear connection in clear English. The professional license is not done yet and I am burning time again.",
+      "id": "load-path-004",
+      "category": "structure",
+      "topic_zh": "荷載傳遞RC",
+      "topic_en": "Load path in RC",
+      "text_zh": "溫習緊RC load path，beam column joint搞到我頭都痛。FE chapter都未睇完，又要做structural calc。Sum Ho 何生下個禮拜要交份column schedule俾佢⋯🙏",
+      "text_en_b1": "Studying reinforced concrete load path tonight. Beam-column joints are killing me — shear transfer, confinement, anchorage, all of it. Need to finish the column schedule for Sum Ho by next week. FE manual is sitting on my desk judging me.",
       "source_url": "https://boards.4chan.org/biz/thread/62678148",
-      "source_hint": "/biz/ macro post, repurposed for structural English",
+      "source_hint": "/biz/ thread repurposed for structural English practice",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -92,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade"
+        "rationale": "Structural study context, not a trade"
       },
-      "text_en_b2": "Burning the midnight oil on FE exam revision again. The load path concept is fairly straightforward, running from beam down through the column and into the foundation, yet when it comes to explaining how to verify the shear connection in clear English, I completely draw a blank. The professional licence still isn't in the bag, and I'm haemorrhaging time on language rather than actual engineering content.",
-      "text_en_c1": "Another evening buried in Fundamentals of Engineering revision, tracing the load path conceptually from beam to column and ultimately down to the foundation. The theoretical sequence is intuitive enough; where I falter is in articulating how one systematically verifies the shear connection in a manner that satisfies an examiner's expectations. My spoken English, regrettably, disintegrates the moment precision is required, and the professional licensure process, still incomplete, continues to consume hours I can scarcely spare. Each session reinforces the same uncomfortable conclusion: technical comprehension and professional communication are distinct competencies, and neglecting the latter undermines the former regardless of how solid the underlying calculation may be.",
-      "text_en_c2": "Evening revision for the Fundamentals of Engineering examination has, once again, devolved into a rather humbling exercise in confronting the chasm between conceptual understanding and articulate expression. The load path in question traverses from the beam through the column down to the foundation, a sequence I can sketch with the confidence of long acquaintance, yet when pressed to elucidate the methodology for verifying the shear connection in lucid, technically defensible prose, my command of the English language betrays a rather conspicuous inadequacy. The professional licensure remains, as ever, a work in progress, and the realisation that time is being expended without commensurate intellectual return is, to put it mildly, galling.",
-      "audio_url": "audio/2026-09-14/clip-clip04-civ-struct2.mp3"
+      "text_en_b2": "I've been grinding through reinforced concrete load path revision tonight, and beam-column joints are absolutely wrecking me. Shear transfer, confinement detailing, anchorage requirements — every topic seems to pile up faster than I can process. On top of that, I still haven't finished the FE manual chapters, yet I need to deliver a complete column schedule to Sum Ho by next week. My desk has effectively become a guilt-ridden battlefield.",
+      "text_en_c1": "I have been revising reinforced concrete load paths until well past midnight, and the beam-column joint in particular is proving to be a formidable adversary. Shear transfer mechanisms, confinement detailing, development length, and anchorage requirements each demand a level of fluency that, frankly, I have not yet cultivated. Were that not enough, the FE manual chapters remain unfinished, lying accusingly on my desk, while a structural calc package waits in the queue. By next week, Sum Ho expects a complete column schedule, properly formatted and ready for review, and the deadline shows no sign of retreating.",
+      "text_en_c2": "I am presently engaged in what can only be described as an adversarial relationship with reinforced concrete load-path theory, and the beam-column joint in particular has become my principal antagonist. Shear transfer, confinement detailing, anchorage length — each clause of the code reads less like guidance than like an indictment of my own intellectual shortcomings. The FE manual sits accusingly upon my desk, its spine uncracked, while the column schedule for Sum Ho looms over the week like an impending tribunal. There is, I suspect, a particular irony in being undone not by calculation itself but by the bureaucratic apparatus that surrounds it — paperwork, it transpires, defeats the structural engineer more reliably than any axial load ever could.",
+      "audio_url": "audio/2026-09-14/clip-load-path-004.mp3"
     },
     {
-      "id": "clip05-tech-ai",
+      "id": "ai-bubble-005",
       "category": "tech/ai",
-      "topic_zh": "AI乞求監管",
-      "topic_en": "AI CEOs want regulation",
-      "text_zh": "Dario、Sam、Elon三個突然一齊叫政府監管AI？opensource model追上就即刻想被regulate，擺明係想鎖死對手lol。AI遲早殺埋藍領同白領，我仲考咩牌。",
-      "text_en_b1": "Dario Amodei says we need government regulation. Sam Altman says we need government regulation. Elon Musk says we need government regulation. I see what they are doing here. Funny how they start screaming come regulate us right after open-source models are catching up to the frontier.",
-      "source_url": "https://boards.4chan.org/g/thread/109811285",
-      "source_hint": "/g/ thread on AI CEOs all calling for regulation at once",
+      "topic_zh": "AI泡沫同GPU",
+      "topic_en": "AI bubble and GPU melting",
+      "text_zh": "睇完條post真係心寒⋯AI model plateau咗，而家仲要fake story頂住VC。GPU泡沫爆咗之後會唔會連我份engineer工都冇埋？靠AI續命嘅日子越嚟越近 🧐",
+      "text_en_b1": "So they're admitting AI models have plateaued and they're coming up with some fake story about self restraint so they don't lose VC money. I'm so tired of this talmudic bullshit. And you thought you could get cheap GPUs after the AI bubble pops? Think again, they're all getting melted down.",
+      "source_url": "https://boards.4chan.org/g/thread/109807123",
+      "source_hint": "/g/ thread about GPUs being scrapped, not sold cheap",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade"
+        "rationale": "Tech/AI commentary, not a trade setup"
       },
-      "text_en_b2": "So Dario Amodei, Sam Altman, and Elon Musk all suddenly cry out for sweeping government regulation of AI, in perfect unison. Funny how that chorus only kicked off once open-source models started closing the gap on frontier systems. The playbook is glaringly obvious: rope in regulators to strangle the competition before they catch up. Meanwhile, the technology marches on, devouring both blue-collar and white-collar jobs alike.",
-      "text_en_c1": "It is hardly coincidental that Dario Amodei, Sam Altman, and Elon Musk have converged, almost in unison, on a single public message: government must regulate artificial intelligence before it spirals beyond oversight. The choreography of these statements, emerging precisely as open-source models begin approaching frontier capability, betrays a strategic calculus that should not escape anyone paying attention. Frontier laboratories, having exhausted their first-mover advantage, now seek regulatory moats that would entrench incumbents while strangling nascent competitors in compliance overhead.",
-      "text_en_c2": "It is, to put it charitably, a remarkable spectacle: Dario Amodei, Sam Altman, and Elon Musk, those erstwhile champions of unfettered innovation, suddenly discover, in remarkable unison, an urgent and previously latent affection for governmental oversight of artificial intelligence. The timing, one cannot help but observe, is nothing if not propitious, given that open-source models have, in recent months, narrowed the gap with frontier systems to a degree that must occasion considerable unease in certain boardrooms. The stratagem is scarcely veiled: invoke the precautionary principle, entreat the regulators to intervene, and thereby inscribe, in the language of statute, a moat that protects incumbency from competitive disruption.",
-      "audio_url": "audio/2026-09-14/clip-clip05-tech-ai.mp3"
+      "text_en_b2": "Apparently they're now openly admitting that AI models have plateaued, and instead of addressing it honestly, they're spinning some fabricated narrative about responsible scaling just to keep VC funding flowing. The whole thing feels deeply dishonest, frankly. And if you were hoping to pick up affordable GPUs once the AI bubble bursts, forget it — they're all being melted down. Even my engineering role could be on the chopping block soon.",
+      "text_en_c1": "Having read the post in its entirety, I find myself genuinely unsettled by what it implies for the broader technology landscape. The admission that frontier AI models have effectively plateaued, followed by the rather transparent attempt to repackage that stagnation as a principled exercise in self-restraint, is precisely the sort of narrative gymnastics one has come to expect from cash-hungry founders chasing the next venture round. The delusion that consumer-grade GPUs will become affordable once the bubble bursts is, frankly, laughable, since the units are being melted down for recovery rather than resold.",
+      "text_en_c2": "It is, upon reflection, a remarkably candid admission — frontier models have, by all credible accounts, plateaued, and rather than confront that reality with any rigour, the prevailing instinct appears to be the manufacture of a self-congratulatory narrative around restraint. The subtext, lest anyone miss it, is that venture capital must continue to flow uninterrupted, lest the entire edifice collapse under the weight of its own forward projections. As for those who imagine that a corrective revaluation might at least deliver affordable silicon: perish the thought — the GPUs, one suspects, will be ceremonially melted long before they reach a secondary market. I find myself weary of this particular species of financial sophistry, weary in a way that no quantity of caffeine can plausibly remedy.",
+      "audio_url": "audio/2026-09-14/clip-ai-bubble-005.mp3"
     },
     {
-      "id": "clip06-hk-news",
+      "id": "hk-news-006",
       "category": "hk/news",
-      "topic_zh": "糧食危機",
-      "topic_en": "Global famine warning",
-      "text_zh": "Pol板講全球糧食危機，5億人湧去美墨邊境，最後都係美國食晒。對我嚟講，反而想快啲返Florida，起碼糧食平啲lol。",
-      "text_en_b1": "You realize this means global famine. Nobody wants to talk about it because there is no solution. It is like a meteor headed straight for earth. Sure mostly Africa and South Asia will starve, but that is only the beginning. It will trigger mass migration into the US on a scale the world has never seen.",
-      "source_url": "https://boards.4chan.org/pol/thread/542549225",
-      "source_hint": "/pol/ thread warning about coming global famine and migration",
+      "topic_zh": "AI同中國大局",
+      "topic_en": "AI race and China",
+      "text_zh": "Dario slowing down，Musk on board，Altman tapping out⋯frontier model真係慢落嚟？咁中國追過嚟嘅機會就大。我份工都係⋯算啦，睇住先。HK真係好細，5年後返Florida先算 🙏",
+      "text_en_b1": "Dario slowing down, Musk on board, Altman tapping out. P(doom) status? 1%. The frontier models are slowing down. They are ready to deal with China. Total AI doomer victory on /pol/ tonight, anons are actually celebrating for once.",
+      "source_url": "https://boards.4chan.org/pol/thread/542565628",
+      "source_hint": "/pol/ thread claiming frontier AI slowdown and China angle",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +140,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade"
+        "rationale": "Geopolitical AI commentary, no actionable trade"
       },
-      "text_en_b2": "Take a step back and you'll see this spells out global famine on a catastrophic scale. Nobody wants to confront the issue because there genuinely is no clean solution. Sure, Africa and South Asia will bear the initial brunt, yet that crisis will cascade outwards, triggering mass migration towards the US border on a magnitude the world has never witnessed. America's the final destination, and food prices will skyrocket accordingly.",
-      "text_en_c1": "The geopolitical board has been discussing cascading food insecurity, and the trajectory, though unfashionable to acknowledge, points toward systemic collapse rather than localised disruption. A projected half-billion displaced persons would, by any historical precedent, converge on the most agriculturally productive hemisphere available, namely the United States, whose grain belts would absorb demands they were never designed to meet. The result would be inflationary pressure severe enough to render current grocery prices almost quaint by comparison. Personally, the calculus has become unexpectedly straightforward: returning to Florida sooner rather than later may be prudent, if only because caloric expenditure per dollar remains comparatively tolerable there.",
-      "text_en_c2": "The discussion on the political board concerning the impending global food crisis has, regrettably, the ring of apocalyptic prophecy, yet the discomfiting truth is that scarcely anyone is prepared to confront the implications with the candour they deserve, principally because no palatable solution presents itself. The trajectory resembles that of an errant celestial body on an inexorable collision course, and while the initial casualties will be absorbed, with characteristic grim predictability, by sub-Saharan Africa and South Asia, one must understand that mass starvation at that scale is never merely a regional affliction. The subsequent displacement will, in all likelihood, manifest as an unprecedented migratory torrent toward the southern border of the United States, a phenomenon for which no historical analogue adequately prepares us, and whose secondary effects, economic and otherwise, will reorder the geopolitical landscape…",
-      "audio_url": "audio/2026-09-14/clip-clip06-hk-news.mp3"
+      "text_en_b2": "Dario is pumping the brakes, Musk has climbed on board, and Altman is quietly stepping back from the helm. With frontier development visibly decelerating, China's window to close the gap is widening significantly. The so-called doomers over on /pol/ are practically throwing a parade tonight, celebrating for once. My own position feels increasingly precarious, though I suppose I'll just watch how things unfold. Five years from now, Florida might be the move.",
+      "text_en_c1": "Dario appears to be throttling back, Musk has reportedly been brought into the fold, and Altman seems to be quietly disengaging, which collectively suggests that the frontier-model race is decelerating in ways that observers had previously dismissed as improbable. If the leading laboratories are genuinely willing to negotiate terms with Beijing rather than press ahead at full velocity, the geopolitical implications are considerable, and China's relative position strengthens accordingly. On /pol/ tonight, the prevailing mood borders on triumphant, with anons celebrating what they perceive as an unambiguous AI doomer victory.",
+      "text_en_c2": "The convergence is, at this juncture, difficult to dismiss as coincidence: Dario easing his pace, Musk recalibrating his rhetoric, Altman quietly withdrawing from public combat — the signal is unmistakable, even if each actor disavows any coordinated intent. P(doom), for those keeping score, sits at a rather restrained one percent, which is itself a kind of tell. The frontier, in other words, is decelerating, and the implications for the China file are as obvious as they are uncomfortable. /pol/ is, predictably, in a state of subdued euphoria — anons actually savouring a rare win rather than merely anticipating one. As for my own position in this matrix: I shall observe, with professional detachment, until such time as relocation to Florida becomes operationally tenable.",
+      "audio_url": "audio/2026-09-14/clip-hk-news-006.mp3"
     },
     {
-      "id": "clip07-mma-fit",
+      "id": "fit-cut-007",
       "category": "mma/fitness",
-      "topic_zh": "健身由skinnyfat起飛",
-      "topic_en": "Skinnyfat to bulk",
-      "text_zh": "睇到個fit帖同我情況好似。2025年83kg肥，cut到65kg廢，之後lean bulk返80kg。bench 1板、squat 90、dead 120。但係flat，我覺得我仲係skinnyfat。肥仔信一定笑我。",
-      "text_en_b1": "In May 2025 I was 83kg fat with almost no muscle. Aggressive cut until mid-April 2026, I was 65kg skinnyfat and could barely bench the 20kg bar. Then I leaned bulk to now, back up to 80kg. Flat bench 3x8 one plate, squat 3x6 90kg, deadlift 3x8 120kg. I look different but still feel flat.",
+      "topic_zh": "cut定繼續bulk",
+      "topic_en": "Cut or keep bulking",
+      "text_zh": "睇完條post諗下自己⋯2025年83kg肥佬，cut到65kg skinnyfat，依家lean bulk返上80kg。bench 1 plate 3x8⋯同條post差唔多level 🤡 肥仔信仲叫我聽日一齊gym⋯lol",
+      "text_en_b1": "How do I know when I've bulked enough to cut and escape skinnyfat? In May 2025 I was 83kg fat, almost no muscle. Aggressive cut till mid April 2026, down to 65kg skinnyfat, couldn't bench even the 20kg bar. Then lean bulked back up to 80kg. Bench 3x8 at 1 plate, squat 3x6 at 90kg, deadlift 3x8 at 120kg.",
       "source_url": "https://boards.4chan.org/fit/thread/77510161",
-      "source_hint": "/fit/ classic skinnyfat-to-bulk progress and cut timing question",
+      "source_hint": "/fit/ thread asking when to switch from bulk to cut",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +164,12 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade"
+        "rationale": "Fitness progression question, not a trade"
       },
-      "text_en_b2": "Back in May 2025 I tipped the scales at 83kg with barely any muscle to speak of. I went on an aggressive cut that dragged me down to a miserable 65kg by mid-April 2026, pathetically skinnyfat and struggling to bench even the empty bar. Since then I've leaned bulk steadily back up to 80kg, hitting a flat bench of one plate, squatting 90kg, and pulling 120kg on deadlifts. My physique has shifted, but I still look flat, and doubt keeps creeping in.",
-      "text_en_c1": "My trajectory bears an uncanny resemblance to that of the original poster, and the parallels are instructive if not entirely reassuring. In May 2025, I tipped the scales at eighty-three kilograms with negligible muscle mass; an aggressive cut through mid-April 2026 left me at a gaunt sixty-five, barely capable of pressing the unweighted bar. A subsequent lean bulk has restored me to roughly eighty kilograms, with flat bench now at three plates for sets of eight, squat at ninety kilograms for six, and deadlift at one-twenty for eight.",
-      "text_en_c2": "The fitness thread in question mirrored my own circumstances with an accuracy that bordered on the uncanny, and so I find myself compelled to recount the rather protracted chronology of my own transformation. In May of 2025, I presented at eighty-three kilograms, adipose tissue predominating, with musculature so negligible as to render the term generous. An aggressive caloric deficit was subsequently imposed, which, by the following April, had reduced me to sixty-five kilograms of what can only be described as the quintessential skinnyfat phenotype, scarcely capable of pressing an unloaded Olympic bar.",
-      "audio_url": "audio/2026-09-14/clip-clip07-mma-fit.mp3"
+      "text_en_b2": "Reading that post hit a little too close to home, so I figured I'd map out my own journey. Back in May 2025, I tipped the scales at 83kg with virtually no muscle to speak of. I committed to an aggressive cut that dragged me down to a skinnyfat 65kg by mid-April 2026, barely handling the empty 20kg bar. Since then I've been lean bulking back up to 80kg, hitting bench 3x8 at one plate.",
+      "text_en_c1": "Reading the original post prompted a somewhat uncomfortable degree of self-recognition, since the trajectory described mirrors my own rather closely. In May 2025 I tipped the scales at a distinctly soft eighty-three kilograms, whereupon I committed to an aggressive cut that, by mid-April 2026, had reduced me to a decidedly skinnyfat sixty-five, at which point even an empty twenty-kilogram barbell felt punitive on the chest. A lean bulk thereafter restored me to roughly eighty kilograms, where I now bench three sets of eight at one plate, squat three sets of six at ninety kilograms, and deadlift three sets of eight at one hundred and twenty.",
+      "text_en_c2": "Having read that thread with more than passing interest, I find myself confronted by an unflattering mirror — the trajectory is, in essence, my own, rendered in a stranger's spreadsheet. May of 2025 found me at eighty-three kilograms, adipose and apologetic, possessing neither aesthetics nor athletic capacity to recommend the physique. I committed thereafter to an aggressive cut, enduring until April 2026, at which point I had arrived at sixty-five kilograms of rather pitiable skinnyfat — a state so aesthetically desolate that even the empty barbell defeated me. A subsequent lean bulk has restored me to roughly eighty kilograms, and the lifts have followed: bench three by eight at one plate, squat three by six at ninety, deadlift three by eight at one-twenty.",
+      "audio_url": "audio/2026-09-14/clip-fit-cut-007.mp3"
     }
   ]
 }
