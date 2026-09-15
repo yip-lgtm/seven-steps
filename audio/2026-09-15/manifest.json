@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-15",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-btc-vs-gold-1",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "比特幣 vs 黃金",
+      "category": "trading",
+      "file": "clip-biz-btc-vs-gold-1.mp3",
+      "bytes": 226932,
+      "chars": 225
+    },
+    {
+      "id": "fit-deadlift-pr-2",
+      "topic_en": "Deadlift 220kg Double",
+      "topic_zh": "硬拉220kg",
+      "category": "mma/fitness",
+      "file": "clip-fit-deadlift-pr-2.mp3",
+      "bytes": 291444,
+      "chars": 252
+    },
+    {
+      "id": "g-ai-gpu-meltdown-3",
+      "topic_en": "AI Bubble GPU Meltdown",
+      "topic_zh": "AI泡沫爆破",
+      "category": "tech/ai",
+      "file": "clip-g-ai-gpu-meltdown-3.mp3",
+      "bytes": 239604,
+      "chars": 244
+    },
+    {
+      "id": "biz-tariff-trillions-4",
+      "topic_en": "Tariffs 21 Trillion",
+      "topic_zh": "關稅2.1兆",
+      "category": "trading",
+      "file": "clip-biz-tariff-trillions-4.mp3",
+      "bytes": 263796,
+      "chars": 252
+    },
+    {
+      "id": "pol-hk-news-5",
+      "topic_en": "White Men Asian Wives",
+      "topic_zh": "白男娶亞女",
+      "category": "hk/news",
+      "file": "clip-pol-hk-news-5.mp3",
+      "bytes": 241332,
+      "chars": 232
+    },
+    {
+      "id": "fit-protein-staple-6",
+      "topic_en": "Protein and Slopes",
+      "topic_zh": "蛋白質同斜坡",
+      "category": "civil/structure",
+      "file": "clip-fit-protein-staple-6.mp3",
+      "bytes": 241332,
+      "chars": 237
+    },
+    {
+      "id": "a-anime-60s-70s-8",
+      "topic_en": "60s 70s Anime Era",
+      "topic_zh": "60至70年代動漫",
+      "category": "anime/culture",
+      "file": "clip-a-anime-60s-70s-8.mp3",
+      "bytes": 254004,
+      "chars": 240
+    }
+  ]
+}
