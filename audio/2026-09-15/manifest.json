@@ -4,67 +4,88 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "trade-macro-btc-vs-gold",
-      "topic_en": "BTC vs Gold",
-      "topic_zh": "BTC vs 黃金",
+      "id": "btc-vs-gold-10y",
+      "topic_en": "BTC vs Gold 10Y",
+      "topic_zh": "比特幣 vs 黃金十年",
       "category": "trading",
-      "file": "clip-trade-macro-btc-vs-gold.mp3",
-      "bytes": 250548,
-      "chars": 232
+      "files": {
+        "b1": "clip-btc-vs-gold-10y-b1.mp3",
+        "b2": "clip-btc-vs-gold-10y-b2.mp3",
+        "c1": "clip-btc-vs-gold-10y-c1.mp3",
+        "c2": "clip-btc-vs-gold-10y-c2.mp3"
+      }
     },
     {
-      "id": "trade-musk-tesla",
-      "topic_en": "Tesla AI guardrails",
-      "topic_zh": "特斯拉同AI大佬",
-      "category": "trading",
-      "file": "clip-trade-musk-tesla.mp3",
-      "bytes": 306420,
-      "chars": 234
-    },
-    {
-      "id": "civil-gpu-meltdown",
-      "topic_en": "GPUs melted down",
-      "topic_zh": "GPU熔掉",
-      "category": "tech/ai",
-      "file": "clip-civil-gpu-meltdown.mp3",
-      "bytes": 189492,
-      "chars": 191
-    },
-    {
-      "id": "hk-tariff-trillions",
-      "topic_en": "Tariff trillions",
-      "topic_zh": "關稅21兆",
+      "id": "tariffs-21t-claim",
+      "topic_en": "Tariffs $21T Claim",
+      "topic_zh": "關稅2萬1千億美金",
       "category": "hk/news",
-      "file": "clip-hk-tariff-trillions.mp3",
-      "bytes": 192372,
-      "chars": 178
+      "files": {
+        "b1": "clip-tariffs-21t-claim-b1.mp3",
+        "b2": "clip-tariffs-21t-claim-b2.mp3",
+        "c1": "clip-tariffs-21t-claim-c1.mp3",
+        "c2": "clip-tariffs-21t-claim-c2.mp3"
+      }
     },
     {
-      "id": "mma-deadlift-pr",
-      "topic_en": "220kg deadlift double",
-      "topic_zh": "220kg硬拉",
+      "id": "ai-gpu-meltdown",
+      "topic_en": "AI Bubble GPU Melt",
+      "topic_zh": "AI泡沫GPU被熔",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-gpu-meltdown-b1.mp3",
+        "b2": "clip-ai-gpu-meltdown-b2.mp3",
+        "c1": "clip-ai-gpu-meltdown-c1.mp3",
+        "c2": "clip-ai-gpu-meltdown-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-cottage-cheese",
+      "topic_en": "Cottage Cheese Protein",
+      "topic_zh": "茅屋芝士蛋白質",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-cottage-cheese-b1.mp3",
+        "b2": "clip-civil-cottage-cheese-b2.mp3",
+        "c1": "clip-civil-cottage-cheese-c1.mp3",
+        "c2": "clip-civil-cottage-cheese-c2.mp3"
+      }
+    },
+    {
+      "id": "deadlift-220-double",
+      "topic_en": "Deadlift 220kg x2",
+      "topic_zh": "硬拉220kg兩下",
       "category": "mma/fitness",
-      "file": "clip-mma-deadlift-pr.mp3",
-      "bytes": 302964,
-      "chars": 223
+      "files": {
+        "b1": "clip-deadlift-220-double-b1.mp3",
+        "b2": "clip-deadlift-220-double-b2.mp3",
+        "c1": "clip-deadlift-220-double-c1.mp3",
+        "c2": "clip-deadlift-220-double-c2.mp3"
+      }
     },
     {
-      "id": "anime-60s-70s",
-      "topic_en": "60s-70s anime",
-      "topic_zh": "舊動漫",
+      "id": "gochiusa-s4-news",
+      "topic_en": "Gochiusa S4 News",
+      "topic_zh": "輕音少女S4消息",
       "category": "anime/culture",
-      "file": "clip-anime-60s-70s.mp3",
-      "bytes": 216564,
-      "chars": 185
+      "files": {
+        "b1": "clip-gochiusa-s4-news-b1.mp3",
+        "b2": "clip-gochiusa-s4-news-b2.mp3",
+        "c1": "clip-gochiusa-s4-news-c1.mp3",
+        "c2": "clip-gochiusa-s4-news-c2.mp3"
+      }
     },
     {
-      "id": "anime-gochiusa",
-      "topic_en": "Gochiusa season 4",
-      "topic_zh": "Gochiusa S4",
-      "category": "anime/culture",
-      "file": "clip-anime-gochiusa.mp3",
-      "bytes": 188340,
-      "chars": 166
+      "id": "rich-30-lonely-roastie",
+      "topic_en": "Rich But 30 And Lonely",
+      "topic_zh": "有錢但30冇女",
+      "category": "trading",
+      "files": {
+        "b1": "clip-rich-30-lonely-roastie-b1.mp3",
+        "b2": "clip-rich-30-lonely-roastie-b2.mp3",
+        "c1": "clip-rich-30-lonely-roastie-c1.mp3",
+        "c2": "clip-rich-30-lonely-roastie-c2.mp3"
+      }
     }
   ]
 }
