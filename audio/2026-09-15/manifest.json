@@ -4,87 +4,87 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "btc-vs-gold-10y",
-      "topic_en": "BTC vs Gold 10Y",
-      "topic_zh": "比特幣 vs 黃金十年",
+      "id": "biz-btc-vs-gold",
+      "topic_en": "Bitcoin vs Gold",
+      "topic_zh": "比特幣 vs 黃金",
       "category": "trading",
       "files": {
-        "b1": "clip-btc-vs-gold-10y-b1.mp3",
-        "b2": "clip-btc-vs-gold-10y-b2.mp3",
-        "c1": "clip-btc-vs-gold-10y-c1.mp3",
-        "c2": "clip-btc-vs-gold-10y-c2.mp3"
+        "b1": "clip-biz-btc-vs-gold-b1.mp3",
+        "b2": "clip-biz-btc-vs-gold-b2.mp3",
+        "c1": "clip-biz-btc-vs-gold-c1.mp3",
+        "c2": "clip-biz-btc-vs-gold-c2.mp3"
       }
     },
     {
-      "id": "tariffs-21t-claim",
-      "topic_en": "Tariffs $21T Claim",
-      "topic_zh": "關稅2萬1千億美金",
-      "category": "hk/news",
+      "id": "biz-boring-guy-doompilled",
+      "topic_en": "Boomer Macro Picker",
+      "topic_zh": "睇呢條片要買咩",
+      "category": "trading",
       "files": {
-        "b1": "clip-tariffs-21t-claim-b1.mp3",
-        "b2": "clip-tariffs-21t-claim-b2.mp3",
-        "c1": "clip-tariffs-21t-claim-c1.mp3",
-        "c2": "clip-tariffs-21t-claim-c2.mp3"
+        "b1": "clip-biz-boring-guy-doompilled-b1.mp3",
+        "b2": "clip-biz-boring-guy-doompilled-b2.mp3",
+        "c1": "clip-biz-boring-guy-doompilled-c1.mp3",
+        "c2": "clip-biz-boring-guy-doompilled-c2.mp3"
       }
     },
     {
-      "id": "ai-gpu-meltdown",
-      "topic_en": "AI Bubble GPU Melt",
-      "topic_zh": "AI泡沫GPU被熔",
+      "id": "g-ai-iq-replace",
+      "topic_en": "AI Replaces Low IQ",
+      "topic_zh": "AI 殺 IQ 低嘅人",
       "category": "tech/ai",
       "files": {
-        "b1": "clip-ai-gpu-meltdown-b1.mp3",
-        "b2": "clip-ai-gpu-meltdown-b2.mp3",
-        "c1": "clip-ai-gpu-meltdown-c1.mp3",
-        "c2": "clip-ai-gpu-meltdown-c2.mp3"
+        "b1": "clip-g-ai-iq-replace-b1.mp3",
+        "b2": "clip-g-ai-iq-replace-b2.mp3",
+        "c1": "clip-g-ai-iq-replace-c1.mp3",
+        "c2": "clip-g-ai-iq-replace-c2.mp3"
       }
     },
     {
-      "id": "civil-cottage-cheese",
-      "topic_en": "Cottage Cheese Protein",
-      "topic_zh": "茅屋芝士蛋白質",
-      "category": "civil/structure",
+      "id": "biz-tariffs-21t",
+      "topic_en": "Tariffs 21 Trillion",
+      "topic_zh": "關稅21兆美元",
+      "category": "hk/news",
       "files": {
-        "b1": "clip-civil-cottage-cheese-b1.mp3",
-        "b2": "clip-civil-cottage-cheese-b2.mp3",
-        "c1": "clip-civil-cottage-cheese-c1.mp3",
-        "c2": "clip-civil-cottage-cheese-c2.mp3"
+        "b1": "clip-biz-tariffs-21t-b1.mp3",
+        "b2": "clip-biz-tariffs-21t-b2.mp3",
+        "c1": "clip-biz-tariffs-21t-c1.mp3",
+        "c2": "clip-biz-tariffs-21t-c2.mp3"
       }
     },
     {
-      "id": "deadlift-220-double",
-      "topic_en": "Deadlift 220kg x2",
-      "topic_zh": "硬拉220kg兩下",
+      "id": "biz-trump-10-years",
+      "topic_en": "Trump 10 Year Recap",
+      "topic_zh": "Trump 10年回顧",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-biz-trump-10-years-b1.mp3",
+        "b2": "clip-biz-trump-10-years-b2.mp3",
+        "c1": "clip-biz-trump-10-years-c1.mp3",
+        "c2": "clip-biz-trump-10-years-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-deadlift-220kg",
+      "topic_en": "Deadlift 220kg Double",
+      "topic_zh": "Deadlift 220kg 兩下",
       "category": "mma/fitness",
       "files": {
-        "b1": "clip-deadlift-220-double-b1.mp3",
-        "b2": "clip-deadlift-220-double-b2.mp3",
-        "c1": "clip-deadlift-220-double-c1.mp3",
-        "c2": "clip-deadlift-220-double-c2.mp3"
+        "b1": "clip-fit-deadlift-220kg-b1.mp3",
+        "b2": "clip-fit-deadlift-220kg-b2.mp3",
+        "c1": "clip-fit-deadlift-220kg-c1.mp3",
+        "c2": null
       }
     },
     {
-      "id": "gochiusa-s4-news",
-      "topic_en": "Gochiusa S4 News",
-      "topic_zh": "輕音少女S4消息",
+      "id": "a-gochiusa-s4",
+      "topic_en": "Gochiusa Season 4",
+      "topic_zh": "Gochiusa S4 製作中",
       "category": "anime/culture",
       "files": {
-        "b1": "clip-gochiusa-s4-news-b1.mp3",
-        "b2": "clip-gochiusa-s4-news-b2.mp3",
-        "c1": "clip-gochiusa-s4-news-c1.mp3",
-        "c2": "clip-gochiusa-s4-news-c2.mp3"
-      }
-    },
-    {
-      "id": "rich-30-lonely-roastie",
-      "topic_en": "Rich But 30 And Lonely",
-      "topic_zh": "有錢但30冇女",
-      "category": "trading",
-      "files": {
-        "b1": "clip-rich-30-lonely-roastie-b1.mp3",
-        "b2": "clip-rich-30-lonely-roastie-b2.mp3",
-        "c1": "clip-rich-30-lonely-roastie-c1.mp3",
-        "c2": "clip-rich-30-lonely-roastie-c2.mp3"
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
       }
     }
   ]
