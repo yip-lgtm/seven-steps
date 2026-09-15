@@ -8,7 +8,8 @@
 //   MINIMAX_API_KEY — also used for LLM. TTS endpoint is /v1/t2a_v2.
 //
 // Output:
-//   audio/{date}/clip-{id}.mp3       — per-clip audio (B1 text)
+//   audio/{date}/clip-{id}.mp3       — per-clip audio (B1, legacy)
+//   audio/{date}/clip-{id}-{b1,b2,c1,c2}.mp3 — per-level audio
 //   audio/{date}/digest.mp3          — all 7 clips concatenated with
 //                                      short pauses between them
 //   audio/index.json                 — { latest: date, dates: [...] }
@@ -84,74 +85,68 @@ async function callMiniMaxTTS(text, opts = {}) {
   let totalBytes = 0;
   let totalCost = 0;
 
-  for (const clip of clips) {
-    const text = clip.text_en_b1 || clip.text_zh;
-    if (!text) {
-      console.warn(`  [skip] clip ${clip.id} — no text`);
-      continue;
-    }
-    // Strip any markdown that snuck in
-    const clean = text
+  const LEVELS = ['b1', 'b2', 'c1', 'c2'];
+  const textFor = (clip, lvl) => clip['text_en_' + lvl] || (lvl === 'b1' ? (clip.text_en_b1 || clip.text) : '');
+
+  function cleanText(text) {
+    return String(text || '')
       .replace(/\*+/g, '')
       .replace(/_+/g, '')
       .replace(/`+/g, '')
       .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
       .trim();
-    if (clean.length < 4) continue;
-
-    const file = `clip-${String(clip.id).replace(/[^a-z0-9_-]/gi, '_')}.mp3`;
-    const outPath = path.join(dayDir, file);
-    process.stdout.write(`  [tts] ${clip.id} (${clean.length} chars) → ${file} ... `);
-    try {
-      const audio = await callMiniMaxTTS(clean);
-      fs.writeFileSync(outPath, audio);
-      const sizeKb = (audio.length / 1024).toFixed(1);
-      console.log(`${sizeKb} KB`);
-      manifest.clips.push({
-        id: clip.id,
-        topic_en: clip.topic_en,
-        topic_zh: clip.topic_zh,
-        category: clip.category,
-        file,
-        bytes: audio.length,
-        chars: clean.length,
-      });
-      totalBytes += audio.length;
-      totalCost++;
-    } catch (e) {
-      console.log(`FAILED: ${e.message.slice(0, 100)}`);
-      manifest.clips.push({
-        id: clip.id,
-        file: null,
-        error: e.message.slice(0, 200),
-      });
-    }
   }
 
-  // Write manifest for this day
+  for (const clip of clips) {
+    const safe = String(clip.id).replace(/[^a-z0-9_-]/gi, '_');
+    const entry = {
+      id: clip.id,
+      topic_en: clip.topic_en,
+      topic_zh: clip.topic_zh,
+      category: clip.category,
+      files: {},
+    };
+    for (const lvl of LEVELS) {
+      const clean = cleanText(textFor(clip, lvl));
+      if (clean.length < 4) continue;
+      const file = `clip-${safe}-${lvl}.mp3`;
+      const outPath = path.join(dayDir, file);
+      process.stdout.write(`  [tts] ${clip.id} ${lvl.toUpperCase()} (${clean.length} chars) → ${file} ... `);
+      try {
+        const audio = await callMiniMaxTTS(clean);
+        fs.writeFileSync(outPath, audio);
+        console.log(`${(audio.length / 1024).toFixed(1)} KB`);
+        entry.files[lvl] = file;
+        totalBytes += audio.length;
+        totalCost++;
+        if (lvl === 'b1') {
+          fs.copyFileSync(outPath, path.join(dayDir, `clip-${safe}.mp3`));
+        }
+      } catch (e) {
+        console.log(`FAILED: ${e.message.slice(0, 100)}`);
+        entry.files[lvl] = null;
+      }
+    }
+    manifest.clips.push(entry);
+  }
+
   fs.writeFileSync(
     path.join(dayDir, 'manifest.json'),
     JSON.stringify(manifest, null, 2),
   );
 
-  // Patch clips/today.json with audio_url per clip so the app knows
-  // where to fetch the pre-rendered MP3 (instead of using Web Speech
-  // API at runtime). Also re-write today.json with the new field set.
-  const fileToClipId = new Map();
-  for (const m of manifest.clips) {
-    if (m.file && m.id) fileToClipId.set(m.file, m.id);
-  }
   for (const c of today.clips) {
     const safe = String(c.id).replace(/[^a-z0-9_-]/gi, '_');
-    const file = `clip-${safe}.mp3`;
-    if (manifest.clips.find(m => m.file === file)) {
-      c.audio_url = `audio/${TODAY}/${file}`;
+    const entry = manifest.clips.find(m => m.id === c.id);
+    const files = (entry && entry.files) || {};
+    if (files.b1) c.audio_url = `audio/${TODAY}/clip-${safe}.mp3`;
+    for (const lvl of ['b1', 'b2', 'c1', 'c2']) {
+      if (files[lvl]) c['audio_url_' + lvl] = `audio/${TODAY}/clip-${safe}-${lvl}.mp3`;
     }
   }
   fs.writeFileSync(TODAY_JSON, JSON.stringify(today, null, 2));
   console.log(`  → patched audio_url into ${TODAY_JSON}`);
 
-  // Update audio/index.json with the list of available dates
   let indexFile = { latest: null, dates: [] };
   const indexPath = path.join(AUDIO_DIR, 'index.json');
   if (fs.existsSync(indexPath)) {
@@ -162,7 +157,7 @@ async function callMiniMaxTTS(text, opts = {}) {
   indexFile.latest = TODAY;
   fs.writeFileSync(indexPath, JSON.stringify(indexFile, null, 2));
 
-  const ok = manifest.clips.filter(c => c.file).length;
+  const ok = manifest.clips.filter(c => c.files && c.files.b1).length;
   console.log(`\nDone. ${ok}/${clips.length} clips rendered. Total ${(totalBytes / 1024).toFixed(1)} KB → audio/${TODAY}/`);
 })().catch(e => {
   console.error('gen-audio FAILED:', e.message);
