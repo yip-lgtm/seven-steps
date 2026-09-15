@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>無限出句 · Seven Steps</title>
+<title>無限出句 · 7劍下天山</title>
 <style>
   :root { --bg:#f6f1e7;--surface:#fffbf2;--ink:#1f2a2e;--ink-soft:#5a6a72;--ink-faint:#8c98a0; --accent:#0f6b66;--warm:#c77f3b;--line:#e0d6c2;--danger:#b3402a; }
   body.dark { --bg:#0e1116;--surface:#161b22;--ink:#e6edf3;--ink-soft:#b1bac4;--ink-faint:#7d8590; --accent:#4ec9b0;--warm:#e8a87c;--line:#30363d;--danger:#f85149; }
@@ -38,7 +38,7 @@
 <body>
 <div class="app">
   <div class="topbar">
-    <a class="brand" href="./"><div class="brand-mark">7</div><div><div>無限出句</div><div style="font-size:12px;color:var(--ink-faint)">免費 LLM</div></div></a>
+    <a class="brand" href="./"><div class="brand-mark">7</div><div><div>無限出句</div><div style="font-size:12px;color:var(--ink-faint)">7劍下天山 · 免費 LLM</div></div></a>
     <a class="back" href="./">返主頁</a>
   </div>
   <div class="card">
@@ -58,7 +58,7 @@
     <div class="meta">題目</div><div class="row" id="topics"></div>
     <div class="meta">長度</div><div class="row" id="lens"></div>
     <div class="meta" id="tag">—</div>
-    <div class="en" id="en">撳下一句。</div>
+    <div class="en" id="en">撲下一句。</div>
     <div class="zh" id="zh">免費模型忙就換第二個。</div>
     <div class="err" id="err"></div>
     <div class="btn-row">
@@ -72,7 +72,12 @@
 const TOPICS=[{id:"fle",label:"ICE FLE"},{id:"ise",label:"IStructE"},{id:"slope",label:"斜坡"},{id:"struct",label:"結構"},{id:"mix",label:"全部"}];
 const LENS=[{id:"short",label:"短句"},{id:"mid",label:"20-30字"}];
 const PROVIDERS=[{id:"auto",label:"自動免費"},{id:"openrouter",label:"OpenRouter 免費"},{id:"gemini",label:"Gemini 免費"}];
-const OR_MODELS=["nvidia/nemotron-3.5-lightning:free","inclusionai/ling-3.0-flash-sante:free","openrouter/free","google/gemma-4-26b-a4b-it:free"];
+const OR_MODELS=[
+  "nvidia/nemotron-3-super-120b-a12b:free",
+  "google/gemma-4-31b-it:free",
+  "inclusionai/ling-3.0-flash-sante:free",
+  "nvidia/nemotron-3.5-lightning:free"
+];
 const GEM_MODELS=["gemini-2.5-flash","gemini-2.0-flash","gemini-2.0-flash-lite"];
 const KEY_ID="ss.openrouter"; const USED_ID="ss.used.v1"; const PROV_ID="ss.provider";
 let topic="fle", len="mid", n=0, provider=localStorage.getItem(PROV_ID)||"auto";
@@ -96,7 +101,7 @@ const FALLBACK=[
 function fallback(){const bag=FALLBACK.filter(x=>(topic==="mix"||x[0]===topic)&&!isUsed(x[1])); const src=bag.length?pick(bag):pick(FALLBACK); return {en:src[1],zh:src[2],tag:src[0]}}
 function extractPair(raw){
   const t=(raw||"").replace(/```json|```/g,"").trim();
-  const grab=(re)=>{const m=t.match(re); return m&&m[1]?m[1].trim().replace(/^\"|\"$/g,""):""};
+  const grab=(re)=>{const m=t.match(re); return m&&m[1]?m[1].trim().replace(/^[\"']|[\"']$/g,""):""};
   let en=grab(/\"en\"\s*:\s*\"([^\"\\n]+)/) || grab(/EN:\s*(.+)/i) || grab(/English:\s*(.+)/i);
   let zh=grab(/\"zh\"\s*:\s*\"([^\"\\n]+)/) || grab(/ZH:\s*(.+)/i) || grab(/中文[：:]\s*(.+)/) || grab(/粵語[：:]\s*(.+)/);
   if(en) en=en.replace(/[\"}]+$/, "").trim();
@@ -106,7 +111,7 @@ function extractPair(raw){
     const m=t.match(/\{[\s\S]*\}/);
     if(m){ const j=JSON.parse(m[0]); if(j.en&&j.zh) return j; }
   }catch(e){}
-  throw new Error("格式唔啱");
+  throw new Error("格式唔啲");
 }
 function friendlyErr(s){
   if(/429/.test(s)) return "429 免費額滿，等幾分鐘或換 Gemini key。";
@@ -119,7 +124,7 @@ function prompt(avoid){
   return "Reply exactly two lines.\nEN: <one "+words+" word English sentence>\nZH: <Cantonese>\nTopic: "+TOPIC_EN[topic]+". First person I. Avoid: "+avoid.join(" | ");
 }
 async function callOpenRouter(mid, avoid, k){
-  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"Seven Steps Free"},body:JSON.stringify({model:mid,temperature:1,max_tokens:220,messages:[{role:"user",content:prompt(avoid)}]})});
+  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"7劍下天山 Free"},body:JSON.stringify({model:mid,temperature:1,max_tokens:220,messages:[{role:"user",content:prompt(avoid)}]})});
   const text=await res.text();
   if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " "+((j.error&&j.error.message)||"")}catch(e){} throw new Error(msg)} 
   const data=JSON.parse(text);
