@@ -4,62 +4,62 @@
   "persona": "wsb",
   "clips": [
     {
-      "id": "biz-btc-vs-gold-1",
+      "id": "trade-macro-btc-vs-gold",
       "category": "trading",
-      "topic_zh": "比特幣 vs 黃金",
-      "topic_en": "Bitcoin vs Gold",
-      "text_zh": "又黎呢條⋯10年你揸BTC定黃金？我兩樣都輸過，廢柴一個lol。btw黃金我已經唔敢再掂🙏",
-      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? An anon on /biz/ asked this today and the thread is already 400 replies deep.",
+      "topic_zh": "BTC vs 黃金",
+      "topic_en": "BTC vs Gold",
+      "text_zh": "又係呢條友問十年長揸邊樣。BTC定黃金真係冇標準答案，但我而家輸緊錢揀唔到，兩樣都唔想再跌🙏 算啦當儲命",
+      "text_en_b1": "Bitcoin vs Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? This came up again on /biz/ tonight and anons are still split, with no clean answer.",
       "source_url": "https://boards.4chan.org/biz/thread/62645210",
-      "source_hint": "/biz/ asks BTC vs gold 10-year hold debate",
+      "source_hint": "/biz/ thread asking BTC vs gold for a 10-year hold",
       "signal": {
-        "asset": "BTC",
+        "asset": "XAU",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Comparison thread with no actionable setup"
+      },
+      "text_en_b2": "The old question resurfaced on /biz/ tonight: if you had to lock in a single ten-year hold, would you go with Bitcoin or gold? What really tips the scales? Anons remain sharply split, and while there's no clean-cut answer, plenty of them are nursing losses on both, so neither pick feels especially safe at the moment.",
+      "text_en_c1": "The eternal question resurfaced on /biz/ tonight: were you compelled to hold either Bitcoin or gold exclusively for the next decade, which would merit your conviction and on what grounds? Anons remain as divided as ever, and the consensus, insofar as one exists, suggests there is no objectively correct answer. I find myself currently nursing losses on both positions, watching red ink accumulate with weary resignation. Call it preserving one's sanity at this point, because conviction requires capital I no longer possess. Bless the charts, I suppose.",
+      "text_en_c2": "Bitcoin versus gold, a perennial fixture on /biz/, has resurfaced once again this evening with the customary ten-year holding horizon. Anons, still nursing losses from the recent drawdown, find themselves unwilling to commit to either asset while both remain vulnerable to further depreciation. The thread's prevailing sentiment suggests a psychological retreat: holders rationalise their positions as a long-term store of value, almost a wager against the erosion of confidence itself. Yet the underlying tension persists, since neither camp can marshal decisive evidence to trump the other, and the discourse degenerates into familiar tribal posturing. No clean answer emerges.",
+      "audio_url": "audio/2026-09-15/clip-trade-macro-btc-vs-gold.mp3"
+    },
+    {
+      "id": "trade-musk-tesla",
+      "category": "trading",
+      "topic_zh": "特斯拉同AI大佬",
+      "topic_en": "Tesla AI guardrails",
+      "text_zh": "Dario同Sam同Musk夾埋唔畀guardrails？我睇完都係LOL。TSLA我揸住等交學費😭 都唔知係邊個話High IQ就唔會被AI取代lol",
+      "text_en_b1": "Why are Dario, Sam and Musk conspiring to hold back AMERICA? 'The only control or guardrails that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the USA has that, in spades!' A /g/ anon is convinced the AI CEOs are scheming.",
+      "source_url": "https://boards.4chan.org/g/thread/109817277",
+      "source_hint": "/g/ thread on Musk, Altman and Amodei vs White House AI policy",
+      "signal": {
+        "asset": "TSLA",
         "direction": "long",
         "conviction": "medium",
         "time_horizon": "months",
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "OP frames it as a 10-year store-of-value hold, implicitly bullish on BTC vs gold"
+        "rationale": "Implied bullish on Musk-aligned AI narrative lifting TSLA"
       },
-      "text_en_b2": "Bitcoin versus gold — which one would you actually hold over the next ten years, and more importantly, why is your pick the stronger one? The question popped up on /biz/ this morning, and although the thread has already blown past four hundred replies, the debate shows no sign of cooling down. Most anons are split right down the middle.",
-      "text_en_c1": "The perennial question has resurfaced on /biz/: if you were compelled to hold a single asset for the next decade, would your conviction lie with Bitcoin or with gold, and on what grounds does your selection eclipse the alternative? The thread, which has already amassed some four hundred replies within hours, betrays a forum evenly split between those who champion crypto's asymmetric upside and those who, scarred by prior drawdowns, treat the yellow metal as the only rational hedge against monetary debasement. One anonymous contributor, candidly admitting losses on both fronts, has vowed never to touch gold again.",
-      "text_en_c2": "Bitcoin versus gold: a perennial dilemma reframed for the coming decade. An anonymous poster on /biz/ posed the question this morning, asking which asset one ought to hold exclusively for the next ten years, and by what rationale. Within hours the thread had ballooned past four hundred replies, a microcosm of speculative conviction and bruised hindsight. Commentators cite gold's millennia-long store-of-value pedigree against Bitcoin's volatility and untested monetary thesis. Several anons confess to having lost money on both, though gold remains, for them, a sort of financial trauma from which recovery seems improbable. The discussion, predictably, devolves into tribal allegiance, with each camp dismissing the other as deluded. The underlying question, of course, remains unanswered, as it has been for every generation of retail investors who mistook optimism for analysis.",
-      "audio_url": "audio/2026-09-15/clip-biz-btc-vs-gold-1.mp3"
+      "text_en_b2": "A /g/ poster is dead certain that Dario, Sam and Musk are quietly colluding to hold America back. The smoking gun? A claim that the only guardrails AI actually requires is a strong, smart, high-IQ president, and apparently the US has that in spades. Meanwhile, TSLA holders are bracing for what could turn into an expensive lesson in how fragile conviction can get.",
+      "text_en_c1": "Apparently Dario, Sam and Musk have been conspiring to dismantle America's competitive edge, a claim so preposterous it scarcely merits engagement, though /g/ evidently disagrees. The cited logic, that AI requires nothing more than a 'STRONG AND SMART (High IQ!) PRESIDENT,' which the United States evidently possesses 'in spades,' is the kind of reasoning that gives confidence a bad name. Whoever insisted that elevated intelligence renders one impervious to AI displacement deserves every cent of tuition I am presently paying into TSLA. Lower my cost basis in peace.",
+      "text_en_c2": "Why are Dario, Sam and Musk, ostensibly the architects of frontier artificial intelligence, perceived to be colluding in a manner that imperils American technological supremacy? A /g/ poster, apparently convinced that the industry's principal executives are engaged in concerted scheming, has distilled their thesis into a memorable formulation: the sole regulatory mechanism AI genuinely requires is a formidable and intellectually gifted president, which the United States, in their estimation, possesses in abundance. The accompanying scepticism is palpable, given that even ostensibly high-IQ individuals appear susceptible to the very displacement they presume to govern. TSLA holders, meanwhile, endure the spectacle in resigned silence, contemplating tuition fees yet unpaid.",
+      "audio_url": "audio/2026-09-15/clip-trade-musk-tesla.mp3"
     },
     {
-      "id": "fit-deadlift-pr-2",
-      "category": "mma/fitness",
-      "topic_zh": "硬拉220kg",
-      "topic_en": "Deadlift 220kg Double",
-      "text_zh": "肥仔信睇到呢條應該又笑我😅220kg double⋯我都未摸過桿。考牌都未搞掂，gym真係冇時間🧐",
-      "text_en_b1": "I went deadlifting again, I did 220 kg for a double. I thought I could do more reps, I think I'm just good at single reps, I'm not good at higher reps. My PR is 240 kg and I have gotten stronger since. This is my first time deadlifting in over a month.",
-      "source_url": "https://boards.4chan.org/fit/thread/77504262",
-      "source_hint": "/fit/ deadlift PR thread, 220kg double",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Not a trade, fitness post"
-      },
-      "text_en_b2": "I dragged myself back to the deadlift platform today and pulled 220 kilograms for a clean double, although honestly I thought I had at least one more rep in the tank. I seem to be built for heavy singles rather than grinding out high-volume sets, which is a bit frustrating. My all-time PR is still 240 kilograms, but since then I have gradually put on strength, so knocking that out feels within reach.",
-      "text_en_c1": "After an absence of more than four weeks from any serious pulling work, I returned to the platform today and managed a clean double at 220 kilograms, although I had quietly anticipated a third repetition that simply refused to materialise. The pattern is becoming familiar: for whatever reason, my nervous system seems primed for heavy singles rather than the grinding endurance demanded by higher rep ranges, a peculiarity that makes programming somewhat frustrating. My previous personal record sits at 240 kilograms, and given the strength gains accumulated since, surpassing that figure feels less like a question of if than when.",
-      "text_en_c2": "Returning to the platform after a layoff of more than a month, I managed a 220 kilogram double on the deadlift, a figure that, while respectable, fell short of the ambitions I had harboured upon warming up. I had genuinely expected to grind out additional repetitions; my physiology, it seems, is better suited to single maximal efforts than to higher-volume work, a peculiar asymmetry I have only recently begun to appreciate. Since recording my previous personal record of 240 kilograms, I have continued to add mass to my frame and refine my technique, though rust inevitably accumulates during extended absence. The session reaffirmed what I already suspected: strength, once banked, demands continual maintenance, and the barbell, unforgiving as ever, remembers nothing of past feats.",
-      "audio_url": "audio/2026-09-15/clip-fit-deadlift-pr-2.mp3"
-    },
-    {
-      "id": "g-ai-gpu-meltdown-3",
+      "id": "civil-gpu-meltdown",
       "category": "tech/ai",
-      "topic_zh": "AI泡沫爆破",
-      "topic_en": "AI Bubble GPU Meltdown",
-      "text_zh": "omg 又係呢類post⋯話AI泡沫爆完GPU會被鎹咗。咁我地啲engineer仲有冇得撈？靠AI續命囉lol🙏",
-      "text_en_b1": "You thought you could get cheap GPUs after the AI bubble pops? Think again, they're all getting melted down. The post went up on /g/ today and anons are arguing about whether Nvidia cards even have resale value once the datacenters stop buying.",
+      "topic_zh": "GPU熔掉",
+      "topic_en": "GPUs melted down",
+      "text_zh": "AI泡沫爆咗都唔會有平GPU，全部畀人熔咗。咁我啲fe exam要既數又點算lol，靠AI續命咯🙏",
+      "text_en_b1": "You thought you could get cheap GPUs after the AI bubble pops? Think again, they are all getting melted down. A /g/ anon thinks the hardware will be scrapped, not dumped, so prices stay high.",
       "source_url": "https://boards.4chan.org/g/thread/109807123",
-      "source_hint": "/g/ AI bubble, GPUs melted down theory",
+      "source_hint": "/g/ thread on AI bubble GPUs being melted after pop",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -68,46 +68,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Observation, no trade"
+        "rationale": "Hardware shortage observation, no single trade"
       },
-      "text_en_b2": "You assumed GPUs would get dirt cheap once the AI bubble finally bursts? Think again, because the chatter on /g/ today suggests that datacenter cards are simply going to be melted down rather than dumped on the second-hand market. Anons are arguing fiercely about whether Nvidia hardware will hold any resale value at all once the hyperscalers stop placing orders.",
-      "text_en_c1": "Anyone harbouring fantasies of snapping up Nvidia hardware at clearance prices once the artificial intelligence bubble eventually deflates should disabuse themselves of the notion rather swiftly, because the prevailing rumour, posted this morning on /g/, suggests that once hyperscale operators finish purchasing, the remaining stock will simply be smelted into raw silicon. The thread has ignited considerable debate regarding whether consumer-grade GPUs retain any meaningful resale value whatsoever in a market where the principal buyer, the data centre complex, abruptly withdraws its bids. Engineers whose livelihoods depend on the ecosystem watch nervously from the sidelines.",
-      "text_en_c2": "The notion that GPUs will become affordable once the artificial intelligence bubble inevitably bursts is, according to a provocative thread on /g/, a comforting delusion. Far from flooding the secondary market, the cards are allegedly destined for the smelter, consigned to be melted down and recycled into the next generation of silicon. Anons have fractured into opposing camps: those who insist that Nvidia hardware retains residual resale value, and those who contend that once hyperscale datacentres cease their voracious procurement, the enthusiast market will be left with depreciating inventory of dubious utility. The broader anxiety lurking beneath the discourse concerns the engineers themselves, whose livelihoods appear increasingly tethered to a single, possibly transient, technological paradigm.",
-      "audio_url": "audio/2026-09-15/clip-g-ai-gpu-meltdown-3.mp3"
+      "text_en_b2": "Anyone banking on cheap GPUs after the AI bubble bursts is in for a rude awakening. According to a /g/ anon, the hardware isn't going to flood the second-hand market because it's all being melted down and scrapped outright. So even if the hype collapses, prices aren't likely to come crashing down, and FE candidates relying on AI to carry them through may want a backup plan.",
+      "text_en_c1": "The naive assumption that a bursting AI bubble would precipitate a secondary market glut of affordable GPUs warrants considerable scrutiny, as /g/ has rightly observed. Rather than being liquidated at fire-sale prices, the hardware in question is reportedly being decommissioned and physically melted down, which would sustain elevated pricing well beyond any demand-side collapse. As for my forthcoming actuarial examinations, whose quantitative demands remain formidable, I shall continue relying upon AI as a crutch. Pray the silicon holds out long enough.",
+      "text_en_c2": "The presumption that an AI bubble, once it inevitably deflates, will precipitate a glut of affordable GPU hardware deserves to be challenged forthrightly. A /g/ contributor contends that the silicon underpinning the present boom will not be offloaded onto secondary markets at depressed valuations; rather, the equipment will be decommissioned, quite possibly melted down for raw material recovery, thereby ensuring that retail prices remain prohibitively elevated. The implication for downstream consumers, particularly those pursuing professional examinations requiring substantial computational resources, is stark. Should the prediction prove accurate, AI itself will continue to serve as the principal lifeline for anyone hoping to navigate the resulting scarcity.",
+      "audio_url": "audio/2026-09-15/clip-civil-gpu-meltdown.mp3"
     },
     {
-      "id": "biz-tariff-trillions-4",
-      "category": "trading",
-      "topic_zh": "關稅2.1兆",
-      "topic_en": "Tariffs 21 Trillion",
-      "text_zh": "wtf 21 trillion？！關稅收到2.1兆⋯咁美股應該爆上啦？點解仲跌🧐 我個prop firm帳戶又輸🙏",
-      "text_en_b1": "We took in 21 trillion from tariffs? The linked X post claims the tariff number is 21 trillion and anons on /biz/ are split. Half say this is bullish for the US dollar and stocks. Half say the math is fake and the country is being destroyed on purpose.",
-      "source_url": "https://boards.4chan.org/biz/thread/62678148",
-      "source_hint": "/biz/ tariff revenue 21 trillion debate",
-      "signal": {
-        "asset": "SPY",
-        "direction": "long",
-        "conviction": "low",
-        "time_horizon": "weeks",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Bullish tariff-revenue narrative, but anons split so conviction is low"
-      },
-      "text_en_b2": "We supposedly brought in twenty-one trillion from tariffs, according to a viral X post that has split /biz/ straight down the middle. Roughly half the thread is treating the figure as extremely bullish for US equities and the dollar, while the other half insists the math is cooked and that the economy is being deliberately gutted. Nobody on my prop firm desk can agree either.",
-      "text_en_c1": "An X post, freshly linked on /biz/, claims that tariff receipts have ballooned to a scarcely believable twenty-one trillion dollars, a figure so staggering that one struggles to credit it. The thread has fractured into two irreconcilable camps: those who interpret the windfall as emphatically bullish for American equities and the dollar, and those who insist the arithmetic is cooked, the methodology fraudulent, and the broader economy is being hollowed out by design. My proprietary trading account, incidentally, absorbed another painful drawdown this week, so take any optimism herein with appropriate grains of salt.",
-      "text_en_c2": "A circulating claim asserts that tariffs have generated an almost inconceivable twenty-one trillion in revenue, a figure so staggering that it has cleaved /biz/ into warring interpretive factions. One cohort interprets the magnitude as unequivocally bullish, envisioning a strengthened dollar and a renewed ascent in American equities, while the other dismisses the arithmetic as fabricated, accusing policymakers of orchestrating the nation's economic decline with theatrical efficiency. The dispute illuminates a familiar epistemic gulf: when reality becomes implausible, partisans on either side retreat into their preferred narratives with equal conviction. Meanwhile, retail participants, their proprietary firm accounts already nursing losses, watch the spectacle unfold with the resigned bewilderment of spectators at a match whose rules keep changing.",
-      "audio_url": "audio/2026-09-15/clip-biz-tariff-trillions-4.mp3"
-    },
-    {
-      "id": "pol-hk-news-5",
+      "id": "hk-tariff-trillions",
       "category": "hk/news",
-      "topic_zh": "白男娶亞女",
-      "topic_en": "White Men Asian Wives",
-      "text_zh": "⋯⋯呢條pol睇完真係唔知講咩。算啦 睇完都係返屋企繼續睇FE notes🙏 30歲單身又一晚lol",
-      "text_en_b1": "Why do white men marry these mentally ill asians? The OP on /pol/ tonight claims Asian women are mentally ill freaks and undatable, and asks if there is really no single white woman better. Typical 4chan late-night race bait thread.",
-      "source_url": "https://boards.4chan.org/pol/thread/542605079",
-      "source_hint": "/pol/ rant about white men marrying Asian women",
+      "topic_zh": "關稅21兆",
+      "topic_en": "Tariff trillions",
+      "text_zh": "21 trillion美金關稅？呢條數痴線啦。Tommy問我地GI report點寫都好都唔會咁誇張wtf，到底想點🧐",
+      "text_en_b1": "We took in 21 trillion from tariffs? A /biz/ thread links a tweet claiming a huge tariff windfall. Anons are arguing over the real number, the timeline, and who actually pays it.",
+      "source_url": "https://boards.4chan.org/biz/thread/62678148",
+      "source_hint": "/biz/ thread on 21 trillion tariff claim",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -116,22 +92,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade, culture/pol post"
+        "rationale": "Headline reaction with no trade setup"
       },
-      "text_en_b2": "Why do white men keep marrying these mentally unstable Asian women, asks the OP on /pol/ tonight, before declaring them completely undatable and wondering out loud whether there is genuinely not a single decent white woman left on the market. It is classic late-night race-bait bait, the kind of thread that makes you close the tab and question your life choices.",
-      "text_en_c1": "Late-night /pol/ delivers the customary fare: an original poster contends that Asian women are, almost without exception, mentally unhinge and categorically undatable, before posing the rhetorical inquiry of whether any respectable white woman actually exists. It is vintage race-bait content, the sort of thread that thrives when sensible folk have logged off. Having exhausted the thread without arriving at any coherent conclusion, I returned home to pore over actuarial examination notes, where the prospects for a thirty-year-old bachelor continue to look, statistically speaking, rather bleak.",
-      "text_en_c2": "A late-night thread on /pol/ posed the question with characteristic bluntness, asking why white men elect to marry Asian women whom the original poster characterised as mentally unstable and categorically undatable, implicitly suggesting that no eligible white partner could possibly prove inferior. The post is a textbook specimen of race-bait provocation, the sort of thread that flourishes in the small hours when inhibition wanes and anonymity emboldens. Predictably, the replies devolved into familiar territory, with respondents furnishing either contrarian anecdotes or rehearsed ideological invective. The discourse, such as it is, offers little beyond the grim confirmation that the internet's capacity for dehumanising generalisation persists, regardless of how many times it has been exhaustively debunked.",
-      "audio_url": "audio/2026-09-15/clip-pol-hk-news-5.mp3"
+      "text_en_b2": "A /biz/ thread is circulating a tweet that claims the US raked in a mind-boggling 21 trillion dollars in tariff revenue. Anons are tearing the figure apart, debating the actual timeline, the methodology, and ultimately who foots the bill. Even Tommy's GI report, infamous for stretching numbers, would have struggled to spin something quite that outrageous without raising eyebrows.",
+      "text_en_c1": "Twenty-one trillion dollars in tariff revenue is a figure so staggeringly divorced from fiscal plausibility that even the most charitable interpretation strains credulity. A /biz/ thread has surfaced linking a tweet that purportedly documents this windfall, and the ensuing discourse has devolved into spirited debate over the methodology, the relevant timeframe and, crucially, the identity of the party ultimately bearing the burden. Tommy has inquired how on earth our GI report ought to frame this. The question, frankly, is whether anyone intends to.",
+      "text_en_c2": "Twenty-one trillion dollars in tariff revenue, as a recent /biz/ thread circulating a contentious tweet suggests, strains credulity beyond reasonable measure. Anons, having scrutinised the accompanying figures with growing incredulity, find themselves unable to reconcile the headline with any plausible fiscal arithmetic, particularly since even the most generous extrapolation of recent collections falls orders of magnitude short. The episode has degenerated into a forensic exercise, with participants dissecting the timeline, the underlying methodology, and the ultimate incidence of the burden. Whatever the provenance of the claim, its propagation speaks to a broader appetite for figures that flatter rather than inform.",
+      "audio_url": "audio/2026-09-15/clip-hk-tariff-trillions.mp3"
     },
     {
-      "id": "fit-protein-staple-6",
-      "category": "civil/structure",
-      "topic_zh": "蛋白質同斜坡",
-      "topic_en": "Protein and Slopes",
-      "text_zh": "哈哈 /fit/ post話某樣嘢解決好多protein問題⋯睇完好似我地做slope investigation咁，要搵個穩定solution🙏 今日Tommy又派新job",
-      "text_en_b1": "It solves a lot of your protein problems. It is a great staple in a cutting or bulking diet. It lets you skip some dishes. It supports your gut microbiome as a bonus. The anon on /fit/ posted this as a food recommendation thread tonight.",
-      "source_url": "https://boards.4chan.org/fit/thread/77511570",
-      "source_hint": "/fit/ protein staple food thread",
+      "id": "mma-deadlift-pr",
+      "category": "mma/fitness",
+      "topic_zh": "220kg硬拉",
+      "topic_en": "220kg deadlift double",
+      "text_zh": "肥仔信睇到一定話我廢。220kg我得兩下 PR 240kg，諗住一陣call佢開gym lol",
+      "text_en_b1": "I went deadlifting again and did 220 kg for a double. I thought I could do more reps, I think I am just good at single reps, not higher reps. My PR is 240 kg and I have gotten stronger since, I should have tried 245 or 250.",
+      "source_url": "https://boards.4chan.org/fit/thread/77504262",
+      "source_hint": "/fit/ deadlift PR log thread",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -140,22 +116,22 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade, fitness/nutrition post used as slope metaphor"
+        "rationale": "Workout log, not a trade"
       },
-      "text_en_b2": "It single-handedly solves a surprising number of your everyday protein problems, and it slots straight into both cutting and bulking diets without any fuss. Because it is so versatile, you can skip a whole stack of side dishes while still hitting your macros, and on top of that it feeds your gut microbiome as a pleasant bonus. The /fit/ recommendation thread tonight swears by it.",
-      "text_en_c1": "Tonight's food recommendation thread on /fit/ extols a single ingredient that, in the poster's estimation, resolves a disproportionate share of one's daily protein requirements without ceremony or expense. The item allegedly slots seamlessly into either a cutting or a bulking regimen, permitting the omission of entire meal categories while delivering, as an incidental bonus, meaningful support to the gut microbiome, which is no small consideration for lifters whose digestive systems have been battered by years of aggressive supplementation. The recommendation has the hallmarks of gospel among those who have tried it, and of heresy among those who have not.",
-      "text_en_c2": "A recent thread on /fit/ extolled a particular foodstuff as something of a panacea for the protein-conscious lifter, with the anonymous poster enumerating its manifold virtues: it is purportedly an excellent staple for those engaged in either cutting or bulking phases, it permits the omission of certain less palatable dishes from one's daily regimen, and, as an incidental benefit, it appears to nourish the gut microbiome with commendable efficacy. The endorsement reads less like nutritional analysis than like a stability investigation, the kind one undertakes when seeking a dependable solution amid volatile conditions. Perhaps this explains its appeal to the site's demographic, perpetually optimising variables in pursuit of marginal gains, ever in search of that elusive, foundational constant upon which all subsequent progress might reliably be constructed.",
-      "audio_url": "audio/2026-09-15/clip-fit-protein-staple-6.mp3"
+      "text_en_b2": "Hit the gym for another deadlift session and pulled 220 kilograms for a clean double, although honestly I thought I had a few more reps in the tank. My current PR sits at 240, and since I've gotten noticeably stronger lately, I probably should have bitten the bullet and gone for 245 or 250. Fatty Sin would definitely have called that a wasted warm-up.",
+      "text_en_c1": "Returned to the platform this evening and managed a clean double at 220 kilograms, which is respectable, if not quite the performance I had visualised beforehand. I suspect my physiology favours maximal loads over volume work, since higher rep brackets continue to elude me despite consistent training. My current standing personal record sits at 240 kilograms, and given the progressive overload I have sustained, attempting 245 or 250 would have been the prudent course. Fat-shaming elder brother shall be informed posthaste, gym session pending.",
+      "text_en_c2": "Returning to the platform after an interval, I resumed deadlifting and managed a clean double at 220 kilograms, though I had anticipated additional repetitions given my present conditioning. The disparity is revealing: maximal strength, it seems, has always been my comparative advantage, whereas sustained volume work has consistently lagged. My personal record stands at 240 kilograms, set some months ago, and since then my training has compounded steadily, suggesting that an attempt at 245 or perhaps 250 would not have been unreasonable. I intend to contact my erstwhile training partner shortly, secure a gym, and demonstrate that the intervening period has not been squandered.",
+      "audio_url": "audio/2026-09-15/clip-mma-deadlift-pr.mp3"
     },
     {
-      "id": "a-anime-60s-70s-8",
+      "id": "anime-60s-70s",
       "category": "anime/culture",
-      "topic_zh": "60至70年代動漫",
-      "topic_en": "60s 70s Anime Era",
-      "text_zh": "/a/問60-70年代動漫⋯我諗起Gundam 00同老曬嘅宮崎駿lol。睇完都係要返去溫FE 😭 考牌都未搞掂🙏",
-      "text_en_b1": "I wanna ask does /a/ like 60s to 70s era anime and manga? The OP thinks they were more impressive than Hanna Barbera and says a lot of good anime from that era is not really translated. Big mangakas from that time need more love, he argues.",
+      "topic_zh": "舊動漫",
+      "topic_en": "60s-70s anime",
+      "text_zh": "講真70年代嘅動漫畫風我覺得靚過而家好多。睇完鐵之千葉又諗起Demon Slayer同Gundam 00，廢柴我連op都睇唔完lol",
+      "text_en_b1": "Does /a/ actually like 60s to 70s era anime and manga? The old work feels more impressive than modern Hanna-Barbera stuff, and a lot of the big mangakas of that time need more love too.",
       "source_url": "https://boards.4chan.org/a/thread/290885440",
-      "source_hint": "/a/ nostalgia for 60s-70s anime and manga",
+      "source_hint": "/a/ nostalgia thread for classic 60s-70s anime",
       "signal": {
         "asset": "observation",
         "direction": "observation",
@@ -164,12 +140,36 @@
         "entry_zone": "current",
         "target": null,
         "stop": null,
-        "rationale": "Not a trade, anime nostalgia post"
+        "rationale": "Anime discussion, no trade setup"
       },
-      "text_en_b2": "Does /a/ actually appreciate sixties and seventies anime and manga, or has the era been quietly forgotten? The OP argues that the output from that period was far more ambitious than anything Hanna-Barbera ever shipped, and points out that a huge swathe of classic work still has not been properly translated. He closes by insisting that the legendary mangakas of that era deserve far more recognition than they currently get.",
-      "text_en_c1": "A thread on /a/ poses the question of whether the boards genuinely appreciate anime and manga produced during the sixties and seventies, an era the original poster considers vastly superior to contemporaneous Hanna-Barbera output and woefully underrepresented in contemporary discourse. He laments the fact that seminal works from that period remain inadequately translated, leaving Anglophone audiences unable to appreciate the architects of modern visual storytelling. It brought to mind certain classics, including the venerable Gundam lineage and Miyazaki's earliest, sun-drenched work, before I inevitably drifted back to actuarial revision, where my licensing examination remains stubbornly unconquered.",
-      "text_en_c2": "The question surfaced on /a/ with genuine curiosity: does the board harbour affection for anime and manga of the sixties and seventies, an era the original poster contends produced work of a sophistication that Hanna-Barbera never approached? The thread laments the regrettable paucity of translations, observing that seminal works by towering mangakas of that period remain inaccessible to Anglophone audiences, their brilliance dimmed by linguistic neglect. Respondents invoked the era's distinctive aesthetic economy, its willingness to trust silence and suggestion, qualities that contemporary productions, saturated with exposition, often forfeit. The discussion evoked the mythic early days of Gundam, the patient wonder of Miyazaki's formative shorts, and a broader nostalgia for an artistic moment that, however imperfect, possessed an unmistakable conviction of purpose.",
-      "audio_url": "audio/2026-09-15/clip-a-anime-60s-70s-8.mp3"
+      "text_en_b2": "Does /a/ genuinely appreciate anime and manga from the sixties and seventies? There's something about that era's artwork that still holds up remarkably well against modern Hanna-Barbera-style productions, and frankly the legendary mangakas of that period deserve far more recognition. Titles like Blade of the Immortal, Demon Slayer, and Gundam 00 keep pulling people back, even if watching a full opening already feels like an achievement.",
+      "text_en_c1": "Does /a/ genuinely harbour affection for anime and manga originating from the sixties and seventies, or has the prevailing nostalgia curdled into uncritical hagiography? The aesthetic sensibilities of that era, exemplified by works such as Chiba's Iron and the lineage that influenced Demon Slayer and Gundam 00, possess a distinctive visual grammar that contemporary productions, with their slick Hanna-Barbera-esque polish, frequently fail to replicate. Many of the period's principal mangakas remain chronically underappreciated. This neophyte, regrettably, has yet to finish even a single opening sequence.",
+      "text_en_c2": "Does /a/ genuinely harbour affection for anime and manga produced between the sixties and seventies, or is the appreciation merely retrospective romanticism? The artistic sensibilities of that era, characterised by disciplined linework and an unembellished visual grammar, exert a gravitational pull that contemporary productions, however lavishly budgeted, seldom replicate. Watching Chiba LFO inevitably summons comparisons with more recent works such as Demon Slayer and Gundam 00, the latter notwithstanding its technical sophistication. The irony, of course, is that the present generation frequently forfeits patience with opening sequences, thereby declining precisely the stylistic inheritance it purports to celebrate.",
+      "audio_url": "audio/2026-09-15/clip-anime-60s-70s.mp3"
+    },
+    {
+      "id": "anime-gochiusa",
+      "category": "anime/culture",
+      "topic_zh": "Gochiusa S4",
+      "topic_en": "Gochiusa season 4",
+      "text_zh": "Koi繼續做就好。考FE都未完又開新季度，等我有錢返Florida先算🙏",
+      "text_en_b1": "Gochiusa. It is another beautiful day knowing Koi is working hard on season 4, the movie and the next McDonalds collab. /a/ is calm and just waiting for more content.",
+      "source_url": "https://boards.4chan.org/a/thread/290884354",
+      "source_hint": "/a/ cozy Gochiusa season 4 hype thread",
+      "signal": {
+        "asset": "observation",
+        "direction": "observation",
+        "conviction": "none",
+        "time_horizon": "none",
+        "entry_zone": "current",
+        "target": null,
+        "stop": null,
+        "rationale": "Franchise hype, no trade setup"
+      },
+      "text_en_b2": "It's another peaceful day on /a/ knowing that Koi is steadily grinding away on season four, the upcoming movie, and the next McDonalds collaboration. The community is largely calm, simply biding its time until more content drops. For anyone buried in FE exam prep while dreaming of a Florida getaway, that next episode can't come soon enough, assuming the wallet ever recovers.",
+      "text_en_c1": "So long as Koi remains steadfastly labouring at her craft, the faithful of /a/ shall endure with patient equanimity, awaiting the eventual unveiling of season four, the forthcoming cinematic instalment and whatever McDonald's promotional synergy the franchise contrives next. The collective temperament is, for once, remarkably sanguine, which in itself feels almost anomalous for a board accustomed to perpetual rancour. Meanwhile, my actuarial examinations persist in their unrelenting demands, and any pilgrimage to Florida shall remain contingent upon the eventual cessation thereof.",
+      "text_en_c2": "Gochiusa continues its quiet ascendancy, and the knowledge that Koi remains assiduously labouring upon season four, the forthcoming feature film, and yet another McDonald's collaboration provides a measure of consolation amid present uncertainties. The /a/ contingent, characteristically phlegmatic, has assumed a posture of patient anticipation, content to await further instalments without recourse to undue agitation. For my part, the calculus is straightforward: the professional examination remains incomplete, fiscal constraints preclude any imminent return to Florida, and the prudent course is to bide one's time until circumstances permit the indulgence that the franchise so reliably rewards.",
+      "audio_url": "audio/2026-09-15/clip-anime-gochiusa.mp3"
     }
   ]
 }
