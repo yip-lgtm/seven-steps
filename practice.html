@@ -180,7 +180,7 @@ function rawFromOpenRouter(data){
   return parts.join("\n");
 }
 async function callOpenRouter(mid, avoid, k){
-  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"7劍下天山 Free"},body:JSON.stringify({model:mid,temperature:0.8,max_tokens:900,messages:[{role:"user",content:prompt(avoid)}]})});
+  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"Seven Swords Practice"},body:JSON.stringify({model:mid,temperature:0.8,max_tokens:900,messages:[{role:"user",content:prompt(avoid)}]})});
   const text=await res.text();
   if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " "+((j.error&&j.error.message)||"")}catch(e){} throw new Error(msg)} 
   const data=JSON.parse(text);
