@@ -43,7 +43,7 @@
   </div>
   <div class="card">
     <h1>免費模型出新句</h1>
-    <p class="lead">429 = 免費額滿。模型亂寫文字都會盡量抽出英文同粵語。全部失敗先用題庫。</p>
+    <p class="lead">推理模型的思考文字會被剝走。亂寫也會抽英文同粵語。全部失敗先用題庫。</p>
     <div class="keybox">
       <div class="meta">Key（sk-or-v1-... 或 AIza...）</div>
       <input id="key" type="password" placeholder="OpenRouter 或 Gemini 免費 key">
@@ -99,40 +99,96 @@ const FALLBACK=[
 ["struct","I follow the load from slab to beam to column to the pile cap.","我跟荷載：板到樑到柱到樁帽。"]
 ];
 function fallback(){const bag=FALLBACK.filter(x=>(topic==="mix"||x[0]===topic)&&!isUsed(x[1])); const src=bag.length?pick(bag):pick(FALLBACK); return {en:src[1],zh:src[2],tag:src[0]}}
+function cleanLine(s){
+  return String(s||"").replace(/^[\"'`*#\-\s]+|[\"'`*#\s]+$/g,"").replace(/^[\{\},]+|[\{\},]+$/g,"").trim();
+}
+function hasCjk(s){ return /[\u4e00-\u9fff]/.test(s||""); }
+function wordCount(s){ return (s||"").trim().split(/\s+/).filter(Boolean).length; }
+function stripThink(t){
+  return String(t||"")
+    .replace(/<think>[\s\S]*?<\/think>/gi," ")
+    .replace(/<reasoning>[\s\S]*?<\/reasoning>/gi," ")
+    .replace(/```(?:json|text)?/gi," ")
+    .trim();
+}
 function extractPair(raw){
-  const t=(raw||"").replace(/```json|```/g,"").trim();
-  const grab=(re)=>{const m=t.match(re); return m&&m[1]?m[1].trim().replace(/^[\"']|[\"']$/g,""):""};
-  let en=grab(/\"en\"\s*:\s*\"([^\"\\n]+)/) || grab(/EN:\s*(.+)/i) || grab(/English:\s*(.+)/i);
-  let zh=grab(/\"zh\"\s*:\s*\"([^\"\\n]+)/) || grab(/ZH:\s*(.+)/i) || grab(/中文[：:]\s*(.+)/) || grab(/粵語[：:]\s*(.+)/);
-  if(en) en=en.replace(/[\"}]+$/, "").trim();
-  if(zh) zh=zh.replace(/[\"}]+$/, "").trim();
-  if(en && zh) return {en, zh};
-  try{
-    const m=t.match(/\{[\s\S]*\}/);
-    if(m){ const j=JSON.parse(m[0]); if(j.en&&j.zh) return j; }
-  }catch(e){}
+  const t=stripThink(raw);
+  if(!t) throw new Error("空回覆");
+  const grab=(re)=>{const ms=[...t.matchAll(re)]; if(!ms.length) return ""; return cleanLine(ms[ms.length-1][1]);};
+  let en = grab(/\"en\"\s*:\s*\"([^\"\\n]+)/i)
+        || grab(/'en'\s*:\s*'([^'\\n]+)/i)
+        || grab(/\bEN\s*[:：]\s*(.+)/ig)
+        || grab(/English\s*[:：]\s*(.+)/ig)
+        || grab(/\*\*EN\*\*\s*[:：]\s*(.+)/ig);
+  let zh = grab(/\"zh\"\s*:\s*\"([^\"\\n]+)/i)
+        || grab(/'zh'\s*:\s*'([^'\\n]+)/i)
+        || grab(/\bZH\s*[:：]\s*(.+)/ig)
+        || grab(/中文\s*[:：]\s*(.+)/g)
+        || grab(/粵語\s*[:：]\s*(.+)/g)
+        || grab(/Cantonese\s*[:：]\s*(.+)/ig);
+  if(!en || !zh){
+    try{
+      const m=t.match(/\{[\s\S]*\}/);
+      if(m){ const j=JSON.parse(m[0]); if(j.en) en=en||cleanLine(j.en); if(j.zh) zh=zh||cleanLine(j.zh); }
+    }catch(e){}
+  }
+  if(!en || !zh){
+    const lines=t.split(/\n+/).map(x=>cleanLine(x)).filter(Boolean);
+    if(!en){
+      const cand=lines.filter(x=>!hasCjk(x) && wordCount(x)>=5 && !/^(topic|avoid|reply|output|note)\b/i.test(x));
+      if(cand.length) en=cand[cand.length-1];
+    }
+    if(!zh){
+      const cand=lines.filter(x=>hasCjk(x) && x.length>=4);
+      if(cand.length) zh=cand[cand.length-1];
+    }
+  }
+  if(en) en=en.replace(/\s*ZH\s*[:：].*$/i,"").trim();
+  if(en && zh && hasCjk(en) && !hasCjk(zh)){ const tmp=en; en=zh; zh=tmp; }
+  if(en && wordCount(en)>=4){
+    if(!zh) zh="（模型冇出中文）";
+    return {en, zh};
+  }
   throw new Error("格式唔啲");
 }
 function friendlyErr(s){
   if(/429/.test(s)) return "429 免費額滿，等幾分鐘或換 Gemini key。";
   if(/403/.test(s)) return "403 呢個免費模型而家唔開放。";
-  if(/格式/.test(s)) return "模型冇按格式出句，已換下一個。";
+  if(/404/.test(s)) return "404 模型 ID 唔見。";
+  if(/空回覆/.test(s)) return "模型只出咗思考，已換下一個。";
+  if(/格式/.test(s)) return "模型亂寫，已換下一個。";
   return s.slice(0,180);
 }
 function prompt(avoid){
-  const words=len==="short"?"8-12":"20-30";
-  return "Reply exactly two lines.\nEN: <one "+words+" word English sentence>\nZH: <Cantonese>\nTopic: "+TOPIC_EN[topic]+". First person I. Avoid: "+avoid.join(" | ");
+  const words=len==="short"?"8 to 12":"20 to 30";
+  return [
+    "After any thinking, output ONLY these two lines and nothing else.",
+    "EN: one English sentence of "+words+" words, first person I.",
+    "ZH: the same meaning in Cantonese.",
+    "Topic: "+TOPIC_EN[topic]+".",
+    "Do not number. Do not explain. Avoid: "+avoid.slice(-8).join(" | ")
+  ].join("\n");
+}
+function rawFromOpenRouter(data){
+  const msg=(data&&data.choices&&data.choices[0]&&data.choices[0].message)||{};
+  const parts=[];
+  if(msg.content) parts.push(msg.content);
+  if(msg.reasoning) parts.push(msg.reasoning);
+  if(Array.isArray(msg.reasoning_details)){
+    msg.reasoning_details.forEach(d=>{ if(d&&d.text) parts.push(d.text); });
+  }
+  return parts.join("\n");
 }
 async function callOpenRouter(mid, avoid, k){
-  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"7劍下天山 Free"},body:JSON.stringify({model:mid,temperature:1,max_tokens:220,messages:[{role:"user",content:prompt(avoid)}]})});
+  const res=await fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+k,"Content-Type":"application/json","HTTP-Referer":location.origin,"X-Title":"7劍下天山 Free"},body:JSON.stringify({model:mid,temperature:0.8,max_tokens:900,messages:[{role:"user",content:prompt(avoid)}]})});
   const text=await res.text();
   if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " "+((j.error&&j.error.message)||"")}catch(e){} throw new Error(msg)} 
   const data=JSON.parse(text);
-  const raw=(data.choices&&data.choices[0]&&data.choices[0].message&&data.choices[0].message.content)||"";
+  const raw=rawFromOpenRouter(data);
   const json=extractPair(raw); return {en:json.en,zh:json.zh,tag:topic,via:mid};
 }
 async function callGemini(mid, avoid, k){
-  const res=await fetch("https://generativelanguage.googleapis.com/v1beta/models/"+mid+":generateContent?key="+encodeURIComponent(k),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({contents:[{parts:[{text:prompt(avoid)}]}],generationConfig:{temperature:1,maxOutputTokens:220}})});
+  const res=await fetch("https://generativelanguage.googleapis.com/v1beta/models/"+mid+":generateContent?key="+encodeURIComponent(k),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({contents:[{parts:[{text:prompt(avoid)}]}],generationConfig:{temperature:0.8,maxOutputTokens:500}})});
   const text=await res.text();
   if(!res.ok){ let msg=mid+" "+res.status; try{const j=JSON.parse(text); msg += " "+((j.error&&j.error.message)||"")}catch(e){} throw new Error(msg)}
   const data=JSON.parse(text);
@@ -148,7 +204,7 @@ async function aiSentence(){
   const tryGem=provider!=="openrouter" && type==="gemini";
   if(tryOR){ for(const mid of OR_MODELS){ try{ const hit=await callOpenRouter(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) } } }
   if(tryGem){ for(const mid of GEM_MODELS){ try{ const hit=await callGemini(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) } } }
-  throw new Error(errs.map(friendlyErr).slice(0,3).join("\n")||"全部免費模型失敗");
+  throw new Error(errs.map(friendlyErr).slice(0,4).join("\n")||"全部免費模型失敗");
 }
 function show(hit,src){
   markUsed(hit.en); n+=1; setStat();
