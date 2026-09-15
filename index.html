@@ -1,1 +1,188 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Seven Steps</title>
+<style>
+:root{--bg:#0e1116;--surface:#161b22;--ink:#e6edf3;--ink-soft:#b1bac4;--ink-faint:#7d8590;--accent:#4ec9b0;--accent-deep:#3aa995;--accent-soft:#1f3a37;--warm:#e8a87c;--line:#30363d;--danger:#f85149}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+.app{max-width:720px;margin:0 auto;padding:20px 16px 72px}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;margin-bottom:20px;border-bottom:1px solid var(--line)}
+.brand{font-weight:600}.brand small{display:block;color:var(--ink-faint);font-weight:400;font-size:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px}
+h1{font-size:26px;letter-spacing:-.02em;margin-bottom:8px}
+.sub{color:var(--ink-soft);font-size:14px;margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font:500 15px inherit;cursor:pointer}
+.btn-primary{background:var(--accent);color:#06221d;border-color:var(--accent)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.btn:disabled{opacity:.4}
+.play{width:92px;height:92px;border-radius:50%;border:0;background:var(--accent);color:#06221d;display:grid;place-items:center;cursor:pointer;margin:0 auto}
+.play svg{width:36px;height:36px}
+.label{font-size:11px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.06em;margin:12px 0 6px}
+.zh{color:var(--ink-soft);border-left:3px solid var(--warm);padding-left:12px;font-style:italic}
+.en{font-size:17px;line-height:1.65}
+textarea{width:100%;min-height:90px;border:1px solid var(--line);border-radius:10px;padding:12px;background:#0d1117;color:var(--ink);font:15px inherit}
+.topic{font-weight:600;margin:8px 0 4px}
+.chip{display:inline-block;background:#1c2128;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--ink-soft);margin:0 6px 6px 0}
+.day{display:block;width:100%;text-align:left;background:#1c2128;border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 10px;color:inherit;font:inherit;cursor:pointer}
+select{padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:#0d1117;color:var(--ink)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#21262d;padding:10px 16px;border-radius:999px;opacity:0;transition:.2s}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar"><div class="brand">The Seven Steps <small>one clip, seven reps</small></div><div id="stat" style="color:var(--ink-faint);font-size:12px"></div></div>
+  <div id="view"></div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+const STEPS=[
+  {id:'rate',name:'Rate',hint:'Hear it. Rate how much you understood.'},
+  {id:'grasp',name:'Grasp',hint:'Play it again. Write the meaning in your own words.'},
+  {id:'hum',name:'Hum',hint:'Hum the tune. No words.'},
+  {id:'shadow',name:'Shadow',hint:'Speak WITH the voice, in real time.'},
+  {id:'read',name:'Read',hint:'Read it out loud with the audio.'},
+  {id:'recall',name:'Recall',hint:'Hide the text and say it from memory.'},
+  {id:'freestyle',name:'Freestyle',hint:'Sixty seconds on the same topic.'}
+];
+const state={view:'home',clips:[],history:{days:[]},session:null,level:localStorage.getItem('ss.level')||'C1',reviewDate:null,returnView:'home'};
+const today=()=>new Date().toISOString().slice(0,10);
+function toast(m){const el=document.getElementById('toast');el.textContent=m;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2200)}
+function textFor(c){
+  if(!c)return '';
+  if(state.level==='C2'&&c.text_en_c2)return c.text_en_c2;
+  if(state.level==='C1'&&c.text_en_c1)return c.text_en_c1;
+  if(state.level==='B2'&&c.text_en_b2)return c.text_en_b2;
+  return c.text_en_b1||c.text||'';
+}
+function audioFor(c){
+  if(!c)return null;
+  const lvl=String(state.level||'B1').toLowerCase();
+  if(c['audio_url_'+lvl])return c['audio_url_'+lvl];
+  if(lvl==='b1')return c.audio_url||null;
+  return null;
+}
+function speak(text){
+  return new Promise(res=>{
+    if(!('speechSynthesis'in window)){toast('No TTS');return res()}
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang='en-US';u.rate=0.9;
+    const vs=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith('en'));
+    if(vs[0])u.voice=vs[0];
+    u.onend=u.onerror=res;
+    setTimeout(res, Math.max(4000, text.split(/\s+/).length*420));
+    speechSynthesis.speak(u);
+  });
+}
+let speaking=false, audioEl=null;
+async function playClip(c, btn){
+  const text=textFor(c);
+  const src=audioFor(c);
+  if(speaking){
+    if(audioEl){audioEl.pause();audioEl=null}
+    speechSynthesis.cancel();speaking=false;return;
+  }
+  speaking=true;
+  if(src){
+    audioEl=new Audio(src);
+    await new Promise(r=>{audioEl.onended=audioEl.onerror=r;audioEl.play().catch(r)});
+    audioEl=null;
+  } else {
+    await speak(text);
+  }
+  speaking=false;
+}
+async function load(){
+  try{
+    const d=await (await fetch('clips/today.json',{cache:'no-cache'})).json();
+    state.clips=d.clips||[];
+    state.date=d.date;
+  }catch(e){state.clips=[]}
+  try{
+    const h=await (await fetch('clips/history.json',{cache:'no-cache'})).json();
+    state.history={days:(h.days||[]).filter(x=>x&&x.clips&&x.clips.length)};
+  }catch(e){}
+  render();
+}
+function start(pool, back){
+  if(!pool||!pool.length){toast('未有短文');return}
+  state.returnView=back||'home';
+  state.session={i:0,s:0,pool};
+  state.view='session';render();
+}
+function render(){
+  document.getElementById('stat').textContent=(state.level||'')+' \u00b7 '+(state.date||'');
+  const v=document.getElementById('view');
+  if(state.view==='home'){
+    v.innerHTML=`<div class="card"><h1>One clip. Seven reps.</h1>
+      <p class="sub">Play now matches the English on screen (${state.level}), not the short B1 recording.</p>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="go" ${state.clips.length?'':'disabled'}>Start today</button>
+        <button class="btn" id="rev">重温</button>
+        <button class="btn" id="set">Settings</button>
+      </div></div>`;
+    document.getElementById('go').onclick=()=>start(state.clips,'home');
+    document.getElementById('rev').onclick=()=>{state.view='review';render()};
+    document.getElementById('set').onclick=()=>{state.view='settings';render()};
+  } else if(state.view==='settings'){
+    v.innerHTML=`<div class="card"><h1>Settings</h1>
+      <div class="label">English level</div>
+      <select id="lv">${['B1','B2','C1','C2'].map(l=>`<option ${l===state.level?'selected':''}>${l}</option>`).join('')}</select>
+      <div class="btn-row"><button class="btn btn-primary" id="back">Back</button></div></div>`;
+    document.getElementById('lv').onchange=e=>{state.level=e.target.value;localStorage.setItem('ss.level',state.level)};
+    document.getElementById('back').onclick=()=>{state.view='home';render()};
+  } else if(state.view==='review'){
+    const days=state.history.days||[];
+    v.innerHTML=`<div class="card"><h1>重温</h1><p class="sub">Past daily clips</p>
+      ${days.map(d=>`<button class="day" data-d="${d.date}"><div class="label">${d.date}</div>${d.clips.length} 則 · ${(d.clips[0]&&d.clips[0].topic_zh)||''}</button>`).join('')}
+      <div class="btn-row"><button class="btn btn-primary" id="back">Back</button></div></div>`;
+    document.querySelectorAll('.day').forEach(b=>b.onclick=()=>{state.reviewDate=b.dataset.d;state.view='reviewDay';render()});
+    document.getElementById('back').onclick=()=>{state.view='home';render()};
+  } else if(state.view==='reviewDay'){
+    const day=(state.history.days||[]).find(d=>d.date===state.reviewDate)||{clips:[]};
+    v.innerHTML=`<div class="card"><h1>${day.date||''}</h1>
+      ${day.clips.map((c,i)=>`<div style="padding:14px 0;border-bottom:1px solid var(--line)">
+        <div class="topic">${c.topic_zh||''}</div><div class="sub">${c.topic_en||''}</div>
+        <div class="en">${textFor(c)}</div>
+        ${c.text_zh?`<div class="zh" style="margin-top:8px">${c.text_zh}</div>`:''}
+        <div class="btn-row"><button class="btn" data-p="${i}">Play</button><button class="btn btn-primary" data-g="${i}">练呢則</button></div>
+      </div>`).join('')}
+      <div class="btn-row"><button class="btn btn-primary" id="back">重温</button></div></div>`;
+    document.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>playClip(day.clips[+b.dataset.p]));
+    document.querySelectorAll('[data-g]').forEach(b=>b.onclick=()=>start([day.clips[+b.dataset.g]],'reviewDay'));
+    document.getElementById('back').onclick=()=>{state.view='review';render()};
+  } else if(state.view==='session'){
+    const sess=state.session;const clip=sess.pool[sess.i];const step=STEPS[sess.s];
+    if(!clip){state.view=state.returnView;render();return}
+    const en=textFor(clip);
+    v.innerHTML=`<div class="card">
+      <div class="label">Clip ${sess.i+1}/${sess.pool.length} · Step ${sess.s+1}/7 · ${state.level}</div>
+      <div class="topic">${clip.topic_zh||''} <span style="color:var(--ink-soft);font-weight:400">${clip.topic_en||''}</span></div>
+      <h1>${step.name}</h1><p class="sub">${step.hint}</p>
+      <button class="play" id="play" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+      <p class="sub" style="text-align:center;margin-top:10px">Play speaks the ${state.level} text below.</p>
+      ${step.id==='grasp'?`<div class="label">Your version</div><textarea id="g" placeholder="Type the gist in English"></textarea><div class="btn-row"><button class="btn" id="reveal">Reveal original</button></div><div id="orig" style="display:none">`:''}
+      ${['grasp','read','recall'].includes(step.id)?`<div class="label">中文</div><div class="zh">${clip.text_zh||''}</div><div class="label">English (${state.level})</div><div class="en">${en}</div>`:''}
+      ${step.id==='grasp'?'</div>':''}
+      <div class="btn-row"><button class="btn" id="quit">End</button><button class="btn btn-primary" id="next">${sess.s===6?'Finish clip':'Next step'}</button></div>
+    </div>`;
+    document.getElementById('play').onclick=()=>playClip(clip);
+    const rev=document.getElementById('reveal');
+    if(rev)rev.onclick=()=>document.getElementById('orig').style.display='block';
+    document.getElementById('quit').onclick=()=>{state.view=state.returnView;state.session=null;render()};
+    document.getElementById('next').onclick=()=>{
+      speechSynthesis.cancel();speaking=false;
+      sess.s+=1;
+      if(sess.s>=7){sess.s=0;sess.i+=1;if(sess.i>=sess.pool.length){state.session=null;state.view=state.returnView}}
+      render();
+    };
+  }
+}
+load();
+</script>
+</body>
+</html>
