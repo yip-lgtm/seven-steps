@@ -81,13 +81,35 @@ function formatReviewDate(iso) {
   return y + '年' + m + '月' + d + '日';
 }
 async function loadHistory() {
+  const days = [];
+  const seen = new Set();
+  async function addPack(data) {
+    if (!data || !data.date || !Array.isArray(data.clips) || !data.clips.length) return;
+    if (seen.has(data.date)) return;
+    seen.add(data.date);
+    days.push({ date: data.date, source: data.source || 'ai', clips: data.clips });
+  }
+  try {
+    const res = await fetch('clips/today.json', { cache: 'no-cache' });
+    if (res.ok) await addPack(await res.json());
+  } catch (e) {}
+  for (let i = 1; i <= 10; i++) {
+    const dt = new Date(Date.now() - i * 86400000).toISOString().slice(0, 10);
+    if (seen.has(dt)) continue;
+    try {
+      const res = await fetch('clips/days/' + dt + '.json', { cache: 'no-cache' });
+      if (res.ok) await addPack(await res.json());
+    } catch (e) {}
+  }
   try {
     const res = await fetch('clips/history.json', { cache: 'no-cache' });
-    if (!res.ok) throw new Error('not ok');
-    const data = await res.json();
-    const days = Array.isArray(data.days) ? data.days.filter(d => d && d.date && (d.clips || []).length) : [];
-    state.history = { days };
-  } catch (e) { state.history = { days: [] }; }
+    if (res.ok) {
+      const data = await res.json();
+      for (const d of (data.days || [])) await addPack(d);
+    }
+  } catch (e) {}
+  days.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  state.history = { days };
 }
 function startSessionWithPool(pool, opts) {
   opts = opts || {};
