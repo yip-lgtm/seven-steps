@@ -3,21 +3,14 @@ name: Daily Content
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions' scheduler has become increasingly unreliable —
-    # observed 3 skip events over 7 days (27 Aug, 1 Sep, 3 Sep) and
-    # the run timestamps show the scheduler fires at random hours
-    # (e.g. 04:53 UTC instead of 00:00 UTC for the 9/2 00:00 cron).
-    # To compensate, we run 8 triggers across 2 hours at HKT 08-10am.
-    # Worst case at least one fires; the gen-today.cjs script is
-    # idempotent so duplicate runs just re-write the same file.
-    - cron: '0 0 * * *'   # 08:00 HKT
-    - cron: '15 0 * * *'  # 08:15 HKT
-    - cron: '30 0 * * *'  # 08:30 HKT
-    - cron: '45 0 * * *'  # 08:45 HKT
-    - cron: '0 1 * * *'   # 09:00 HKT
-    - cron: '15 1 * * *'  # 09:15 HKT
-    - cron: '30 1 * * *'  # 09:30 HKT
-    - cron: '45 1 * * *'  # 09:45 HKT
+    - cron: '0 0 * * *'
+    - cron: '15 0 * * *'
+    - cron: '30 0 * * *'
+    - cron: '45 0 * * *'
+    - cron: '0 1 * * *'
+    - cron: '15 1 * * *'
+    - cron: '30 1 * * *'
+    - cron: '45 1 * * *'
 
 concurrency:
   group: daily-content
@@ -46,8 +39,6 @@ jobs:
           else
             rc=$?
             echo "::warning::AI generation failed (exit $rc), falling back to static pool"
-            # Build a minimal today.json from the static pool so the app
-            # still has SOMETHING to show. Stale, but better than empty.
             node -e '
               const fs = require("fs");
               const today = new Date().toISOString().slice(0, 10);
@@ -84,7 +75,6 @@ jobs:
         if: success()
         run: |
           cd "$GITHUB_WORKSPACE"
-          # Keep audio/{today-N} directories up to 14 days old. Prune the rest.
           cutoff=$(date -u -d '14 days ago' +%Y-%m-%d 2>/dev/null || date -u -v-14d +%Y-%m-%d)
           for d in audio/20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]; do
             [ -d "$d" ] || continue
@@ -94,7 +84,6 @@ jobs:
               rm -rf "$d"
             fi
           done
-          # Rebuild index.json without pruned dates
           if [ -f audio/index.json ]; then
             node -e '
               const fs = require("fs");
@@ -114,13 +103,9 @@ jobs:
           set +e
           git config user.name "seven-steps-bot"
           git config user.email "seven-steps-bot@users.noreply.github.com"
-          # `git add <path>` fails fatally on a nonexistent path (e.g.
-          # recordings/ before the user has set a PAT) which would
-          # abort the entire `git add` line and stage nothing. Use
-          # `git add -A` with explicit path filters and 2>/dev/null
-          # tolerance, or stage one-at-a-time with || true so a
-          # missing path doesn't poison the rest.
           git add clips/today.json 2>/dev/null || true
+          git add clips/history.json 2>/dev/null || true
+          git add clips/days/ 2>/dev/null || true
           git add audio/ 2>/dev/null || true
           git add recordings/ 2>/dev/null || true
           git add .gitignore 2>/dev/null || true
@@ -129,11 +114,6 @@ jobs:
             exit 0
           fi
           git commit -m "chore(clips): bilingual refresh + audio $(date -u +%Y-%m-%d)"
-          # Retry push up to 3 times — if another bot run beat us to
-          # the commit (concurrency-group above prevents simultaneous
-          # runs, but an external push is still possible), pull
-          # --rebase and try again. Track success in a flag so the
-          # step exits 0 when at least one push succeeded.
           pushed=0
           for attempt in 1 2 3; do
             if git push; then
