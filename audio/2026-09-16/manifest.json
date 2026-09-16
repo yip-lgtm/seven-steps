@@ -4,87 +4,87 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-tariffs-today",
-      "topic_en": "Tariff Take",
-      "topic_zh": "關稅大數",
+      "id": "t01-bonds-yields",
+      "topic_en": "Bond yields breakout",
+      "topic_zh": "債息破頂",
       "category": "trading",
       "files": {
-        "b1": "clip-biz-tariffs-today-b1.mp3",
-        "b2": "clip-biz-tariffs-today-b2.mp3",
-        "c1": "clip-biz-tariffs-today-c1.mp3",
-        "c2": "clip-biz-tariffs-today-c2.mp3"
+        "b1": "clip-t01-bonds-yields-b1.mp3",
+        "b2": "clip-t01-bonds-yields-b2.mp3",
+        "c1": "clip-t01-bonds-yields-c1.mp3",
+        "c2": "clip-t01-bonds-yields-c2.mp3"
       }
     },
     {
-      "id": "biz-bond-yield-oil",
-      "topic_en": "Bonds vs Crypto",
-      "topic_zh": "債息油價",
+      "id": "t02-musk-china-ai",
+      "topic_en": "Musk US-China AI",
+      "topic_zh": "Musk撐中美合作",
       "category": "trading",
       "files": {
-        "b1": "clip-biz-bond-yield-oil-b1.mp3",
-        "b2": "clip-biz-bond-yield-oil-b2.mp3",
-        "c1": "clip-biz-bond-yield-oil-c1.mp3",
-        "c2": "clip-biz-bond-yield-oil-c2.mp3"
+        "b1": "clip-t02-musk-china-ai-b1.mp3",
+        "b2": "clip-t02-musk-china-ai-b2.mp3",
+        "c1": "clip-t02-musk-china-ai-c1.mp3",
+        "c2": "clip-t02-musk-china-ai-c2.mp3"
       }
     },
     {
-      "id": "biz-doge-penny",
-      "topic_en": "Doge Penny",
-      "topic_zh": "狗幣美分",
-      "category": "trading",
-      "files": {
-        "b1": "clip-biz-doge-penny-b1.mp3",
-        "b2": "clip-biz-doge-penny-b2.mp3",
-        "c1": "clip-biz-doge-penny-c1.mp3",
-        "c2": "clip-biz-doge-penny-c2.mp3"
-      }
-    },
-    {
-      "id": "g-anthropic-profit",
-      "topic_en": "Anthropic Profits?",
-      "topic_zh": "Anthropic 賺錢？",
+      "id": "c01-anthropic-profit",
+      "topic_en": "Anthropic profitable",
+      "topic_zh": "Anthropic話自己賺錢",
       "category": "tech/ai",
       "files": {
-        "b1": "clip-g-anthropic-profit-b1.mp3",
-        "b2": "clip-g-anthropic-profit-b2.mp3",
-        "c1": "clip-g-anthropic-profit-c1.mp3",
-        "c2": "clip-g-anthropic-profit-c2.mp3"
+        "b1": "clip-c01-anthropic-profit-b1.mp3",
+        "b2": "clip-c01-anthropic-profit-b2.mp3",
+        "c1": "clip-c01-anthropic-profit-c1.mp3",
+        "c2": "clip-c01-anthropic-profit-c2.mp3"
       }
     },
     {
-      "id": "v-lol-iq",
-      "topic_en": "LoL Climbing",
-      "topic_zh": "LoL IQ 論",
-      "category": "lol/esports",
+      "id": "c02-openai-astra-5",
+      "topic_en": "OpenAI model routing",
+      "topic_zh": "Astra = GPT-5.5",
+      "category": "tech/ai",
       "files": {
-        "b1": "clip-v-lol-iq-b1.mp3",
-        "b2": "clip-v-lol-iq-b2.mp3",
-        "c1": "clip-v-lol-iq-c1.mp3",
-        "c2": "clip-v-lol-iq-c2.mp3"
+        "b1": "clip-c02-openai-astra-5-b1.mp3",
+        "b2": "clip-c02-openai-astra-5-b2.mp3",
+        "c1": "clip-c02-openai-astra-5-c1.mp3",
+        "c2": "clip-c02-openai-astra-5-c2.mp3"
       }
     },
     {
-      "id": "fit-deadlift-220",
-      "topic_en": "Deadlift 220kg",
-      "topic_zh": "Deadlift 220",
+      "id": "n01-weapons-space",
+      "topic_en": "US weapons in space",
+      "topic_zh": "美軍太空武器",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-n01-weapons-space-b1.mp3",
+        "b2": "clip-n01-weapons-space-b2.mp3",
+        "c1": "clip-n01-weapons-space-c1.mp3",
+        "c2": "clip-n01-weapons-space-c2.mp3"
+      }
+    },
+    {
+      "id": "m01-deadlift-220",
+      "topic_en": "220kg deadlift double",
+      "topic_zh": "Deadlift 220kg",
       "category": "mma/fitness",
       "files": {
-        "b1": "clip-fit-deadlift-220-b1.mp3",
-        "b2": "clip-fit-deadlift-220-b2.mp3",
-        "c1": "clip-fit-deadlift-220-c1.mp3",
-        "c2": "clip-fit-deadlift-220-c2.mp3"
+        "b1": "clip-m01-deadlift-220-b1.mp3",
+        "b2": "clip-m01-deadlift-220-b2.mp3",
+        "c1": "clip-m01-deadlift-220-c1.mp3",
+        "c2": "clip-m01-deadlift-220-c2.mp3"
       }
     },
     {
-      "id": "a-2000s-anime",
-      "topic_en": "2000s Anime Rewatch",
-      "topic_zh": "2000s 番睇",
+      "id": "a01-2000s-anime",
+      "topic_en": "2000s anime rewatch",
+      "topic_zh": "2000s動畫回憶",
       "category": "anime/culture",
       "files": {
-        "b1": null,
-        "b2": null,
-        "c1": null,
-        "c2": null
+        "b1": "clip-a01-2000s-anime-b1.mp3",
+        "b2": "clip-a01-2000s-anime-b2.mp3",
+        "c1": "clip-a01-2000s-anime-c1.mp3",
+        "c2": "clip-a01-2000s-anime-c2.mp3"
       }
     }
   ]
