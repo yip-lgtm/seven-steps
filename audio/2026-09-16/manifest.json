@@ -4,87 +4,87 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "t01-bonds-yields",
-      "topic_en": "Bond yields breakout",
-      "topic_zh": "債息破頂",
+      "id": "bond-yield-breakout-1",
+      "topic_en": "Bond Yields Breaking Out",
+      "topic_zh": "美債息向上突破",
       "category": "trading",
       "files": {
-        "b1": "clip-t01-bonds-yields-b1.mp3",
-        "b2": "clip-t01-bonds-yields-b2.mp3",
-        "c1": "clip-t01-bonds-yields-c1.mp3",
-        "c2": "clip-t01-bonds-yields-c2.mp3"
+        "b1": "clip-bond-yield-breakout-1-b1.mp3",
+        "b2": "clip-bond-yield-breakout-1-b2.mp3",
+        "c1": "clip-bond-yield-breakout-1-c1.mp3",
+        "c2": "clip-bond-yield-breakout-1-c2.mp3"
       }
     },
     {
-      "id": "t02-musk-china-ai",
-      "topic_en": "Musk US-China AI",
-      "topic_zh": "Musk撐中美合作",
+      "id": "tsla-musk-china-ai-2",
+      "topic_en": "Musk US-China AI Team Up",
+      "topic_zh": "馬斯克籲中美AI合作",
       "category": "trading",
       "files": {
-        "b1": "clip-t02-musk-china-ai-b1.mp3",
-        "b2": "clip-t02-musk-china-ai-b2.mp3",
-        "c1": "clip-t02-musk-china-ai-c1.mp3",
-        "c2": "clip-t02-musk-china-ai-c2.mp3"
+        "b1": "clip-tsla-musk-china-ai-2-b1.mp3",
+        "b2": "clip-tsla-musk-china-ai-2-b2.mp3",
+        "c1": "clip-tsla-musk-china-ai-2-c1.mp3",
+        "c2": "clip-tsla-musk-china-ai-2-c2.mp3"
       }
     },
     {
-      "id": "c01-anthropic-profit",
-      "topic_en": "Anthropic profitable",
-      "topic_zh": "Anthropic話自己賺錢",
+      "id": "anthropic-profitable-3",
+      "topic_en": "Anthropic Says It Is Profitable",
+      "topic_zh": "Anthropic自稱有錢賺",
       "category": "tech/ai",
       "files": {
-        "b1": "clip-c01-anthropic-profit-b1.mp3",
-        "b2": "clip-c01-anthropic-profit-b2.mp3",
-        "c1": "clip-c01-anthropic-profit-c1.mp3",
-        "c2": "clip-c01-anthropic-profit-c2.mp3"
+        "b1": "clip-anthropic-profitable-3-b1.mp3",
+        "b2": "clip-anthropic-profitable-3-b2.mp3",
+        "c1": "clip-anthropic-profitable-3-c1.mp3",
+        "c2": "clip-anthropic-profitable-3-c2.mp3"
       }
     },
     {
-      "id": "c02-openai-astra-5",
-      "topic_en": "OpenAI model routing",
-      "topic_zh": "Astra = GPT-5.5",
-      "category": "tech/ai",
-      "files": {
-        "b1": "clip-c02-openai-astra-5-b1.mp3",
-        "b2": "clip-c02-openai-astra-5-b2.mp3",
-        "c1": "clip-c02-openai-astra-5-c1.mp3",
-        "c2": "clip-c02-openai-astra-5-c2.mp3"
-      }
-    },
-    {
-      "id": "n01-weapons-space",
-      "topic_en": "US weapons in space",
-      "topic_zh": "美軍太空武器",
+      "id": "us-space-weapons-4",
+      "topic_en": "US Confirms Space Weapons",
+      "topic_zh": "美軍太空部署武器",
       "category": "hk/news",
       "files": {
-        "b1": "clip-n01-weapons-space-b1.mp3",
-        "b2": "clip-n01-weapons-space-b2.mp3",
-        "c1": "clip-n01-weapons-space-c1.mp3",
-        "c2": "clip-n01-weapons-space-c2.mp3"
+        "b1": "clip-us-space-weapons-4-b1.mp3",
+        "b2": "clip-us-space-weapons-4-b2.mp3",
+        "c1": "clip-us-space-weapons-4-c1.mp3",
+        "c2": "clip-us-space-weapons-4-c2.mp3"
       }
     },
     {
-      "id": "m01-deadlift-220",
-      "topic_en": "220kg deadlift double",
-      "topic_zh": "Deadlift 220kg",
+      "id": "deadlift-220-5",
+      "topic_en": "Deadlift 220kg Double",
+      "topic_zh": "Deadlift 220kg PR",
       "category": "mma/fitness",
       "files": {
-        "b1": "clip-m01-deadlift-220-b1.mp3",
-        "b2": "clip-m01-deadlift-220-b2.mp3",
-        "c1": "clip-m01-deadlift-220-c1.mp3",
-        "c2": "clip-m01-deadlift-220-c2.mp3"
+        "b1": "clip-deadlift-220-5-b1.mp3",
+        "b2": "clip-deadlift-220-5-b2.mp3",
+        "c1": "clip-deadlift-220-5-c1.mp3",
+        "c2": "clip-deadlift-220-5-c2.mp3"
       }
     },
     {
-      "id": "a01-2000s-anime",
-      "topic_en": "2000s anime rewatch",
-      "topic_zh": "2000s動畫回憶",
+      "id": "2000s-anime-hellsing-6",
+      "topic_en": "2000s Anime Rewatch",
+      "topic_zh": "2000年代舊番回帶",
       "category": "anime/culture",
       "files": {
-        "b1": "clip-a01-2000s-anime-b1.mp3",
-        "b2": "clip-a01-2000s-anime-b2.mp3",
-        "c1": "clip-a01-2000s-anime-c1.mp3",
-        "c2": "clip-a01-2000s-anime-c2.mp3"
+        "b1": "clip-2000s-anime-hellsing-6-b1.mp3",
+        "b2": "clip-2000s-anime-hellsing-6-b2.mp3",
+        "c1": "clip-2000s-anime-hellsing-6-c1.mp3",
+        "c2": "clip-2000s-anime-hellsing-6-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-drainage-tutor-7",
+      "topic_en": "Underground Utilities Survey",
+      "topic_zh": "地下渠管condition survey",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-drainage-tutor-7-b1.mp3",
+        "b2": "clip-civil-drainage-tutor-7-b2.mp3",
+        "c1": "clip-civil-drainage-tutor-7-c1.mp3",
+        "c2": null
       }
     }
   ]
