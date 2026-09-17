@@ -4,87 +4,99 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-bonds-627",
-      "topic_en": "Bond yields spike, Fed cut",
-      "topic_zh": "債息抽上 聯儲又cut",
+      "id": "bondstard",
+      "topic_en": "US Bonds Pumping",
+      "topic_zh": "美債癲咗",
       "category": "trading",
       "files": {
-        "b1": "clip-biz-bonds-627-b1.mp3",
-        "b2": "clip-biz-bonds-627-b2.mp3",
-        "c1": "clip-biz-bonds-627-c1.mp3",
-        "c2": "clip-biz-bonds-627-c2.mp3"
+        "b1": "clip-bondstard-b1.mp3",
+        "b2": "clip-bondstard-b2.mp3",
+        "c1": "clip-bondstard-c1.mp3",
+        "c2": "clip-bondstard-c2.mp3"
       }
     },
     {
-      "id": "biz-doge-penny-628",
-      "topic_en": "Doge kills the penny",
-      "topic_zh": "DOGE又搞penny",
+      "id": "pentard",
+      "topic_en": "Penny Debate",
+      "topic_zh": "美鈕幾時死",
       "category": "trading",
       "files": {
-        "b1": "clip-biz-doge-penny-628-b1.mp3",
-        "b2": "clip-biz-doge-penny-628-b2.mp3",
-        "c1": "clip-biz-doge-penny-628-c1.mp3",
-        "c2": "clip-biz-doge-penny-628-c2.mp3"
+        "b1": "clip-pentard-b1.mp3",
+        "b2": "clip-pentard-b2.mp3",
+        "c1": "clip-pentard-c1.mp3",
+        "c2": "clip-pentard-c2.mp3"
       }
     },
     {
-      "id": "g-astra-robot-629",
-      "topic_en": "GPT-6 Astra controls robots",
-      "topic_zh": "GPT-6 Astra識搬嘢",
-      "category": "tech/ai",
-      "files": {
-        "b1": "clip-g-astra-robot-629-b1.mp3",
-        "b2": "clip-g-astra-robot-629-b2.mp3",
-        "c1": "clip-g-astra-robot-629-c1.mp3",
-        "c2": "clip-g-astra-robot-629-c2.mp3"
-      }
-    },
-    {
-      "id": "pol-diesel-630",
-      "topic_en": "US diesel export cut",
-      "topic_zh": "美國斷柴油 全球on9",
-      "category": "hk/news",
-      "files": {
-        "b1": "clip-pol-diesel-630-b1.mp3",
-        "b2": "clip-pol-diesel-630-b2.mp3",
-        "c1": "clip-pol-diesel-630-c1.mp3",
-        "c2": "clip-pol-diesel-630-c2.mp3"
-      }
-    },
-    {
-      "id": "fit-routine-review-631",
-      "topic_en": "Home gym routine check",
-      "topic_zh": "屋企gym routine",
-      "category": "mma/fitness",
-      "files": {
-        "b1": "clip-fit-routine-review-631-b1.mp3",
-        "b2": null,
-        "c1": null,
-        "c2": null
-      }
-    },
-    {
-      "id": "a-2000s-anime-632",
-      "topic_en": "2000s anime rewatch",
-      "topic_zh": "2000年代動畫回帶",
-      "category": "anime/culture",
-      "files": {
-        "b1": null,
-        "b2": null,
-        "c1": null,
-        "c2": null
-      }
-    },
-    {
-      "id": "biz-canada-633",
-      "topic_en": "Canada economy doomed",
-      "topic_zh": "Canada國運on9",
+      "id": "slopeutils",
+      "topic_en": "Slope and Drainage",
+      "topic_zh": "斜坡同雨水",
       "category": "civil/structure",
       "files": {
-        "b1": null,
-        "b2": null,
-        "c1": null,
-        "c2": null
+        "b1": "clip-slopeutils-b1.mp3",
+        "b2": "clip-slopeutils-b2.mp3",
+        "c1": "clip-slopeutils-c1.mp3",
+        "c2": "clip-slopeutils-c2.mp3"
+      }
+    },
+    {
+      "id": "beamcol",
+      "topic_en": "Beam Column Path",
+      "topic_zh": "樑柱 load path",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-beamcol-b1.mp3",
+        "b2": "clip-beamcol-b2.mp3",
+        "c1": "clip-beamcol-c1.mp3",
+        "c2": "clip-beamcol-c2.mp3"
+      }
+    },
+    {
+      "id": "astrabot",
+      "topic_en": "Astra Robot Hands",
+      "topic_zh": "AI 識郁機械手",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-astrabot-b1.mp3",
+        "b2": "clip-astrabot-b2.mp3",
+        "c1": "clip-astrabot-c1.mp3",
+        "c2": "clip-astrabot-c2.mp3"
+      }
+    },
+    {
+      "id": "dieselpain",
+      "topic_en": "Global Diesel Crisis",
+      "topic_zh": "全球柴油荒",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-dieselpain-b1.mp3",
+        "b2": "clip-dieselpain-b2.mp3",
+        "c1": "clip-dieselpain-c1.mp3",
+        "c2": "clip-dieselpain-c2.mp3"
+      }
+    },
+    {
+      "id": "deadliftlift",
+      "topic_en": "Deadlift Double",
+      "topic_zh": "拉 220kg",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-deadliftlift-b1.mp3",
+        "b2": "clip-deadliftlift-b2.mp3",
+        "c1": "clip-deadliftlift-c1.mp3",
+        "c2": "clip-deadliftlift-c2.mp3"
+      }
+    },
+    {
+      "id": "2000sanime",
+      "topic_en": "Retro 2000s Anime",
+      "topic_zh": "2000 年代番回帶",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-2000sanime-b1.mp3",
+        "b2": "clip-2000sanime-b2.mp3",
+        "c1": "clip-2000sanime-c1.mp3",
+        "c2": "clip-2000sanime-c2.mp3"
       }
     }
   ]
