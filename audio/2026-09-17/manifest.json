@@ -4,87 +4,87 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "bond-62691782",
-      "topic_en": "Bond Yields Surge",
-      "topic_zh": "債息瘋狂",
+      "id": "biz-bonds-rant-1",
+      "topic_en": "Bonds Yield Rampage",
+      "topic_zh": "債息向上聯儲局",
       "category": "trading",
       "files": {
-        "b1": "clip-bond-62691782-b1.mp3",
-        "b2": "clip-bond-62691782-b2.mp3",
-        "c1": "clip-bond-62691782-c1.mp3",
-        "c2": "clip-bond-62691782-c2.mp3"
+        "b1": "clip-biz-bonds-rant-1-b1.mp3",
+        "b2": "clip-biz-bonds-rant-1-b2.mp3",
+        "c1": "clip-biz-bonds-rant-1-c1.mp3",
+        "c2": "clip-biz-bonds-rant-1-c2.mp3"
       }
     },
     {
-      "id": "robot-109835992",
-      "topic_en": "GPT-6 Controls Robots",
-      "topic_zh": "AI識郁機械人",
-      "category": "tech/ai",
+      "id": "biz-penny-doge-2",
+      "topic_en": "Penny Killed By Doge",
+      "topic_zh": "廢除一仙狗部",
+      "category": "trading",
       "files": {
-        "b1": "clip-robot-109835992-b1.mp3",
-        "b2": "clip-robot-109835992-b2.mp3",
-        "c1": "clip-robot-109835992-c1.mp3",
-        "c2": "clip-robot-109835992-c2.mp3"
+        "b1": "clip-biz-penny-doge-2-b1.mp3",
+        "b2": "clip-biz-penny-doge-2-b2.mp3",
+        "c1": "clip-biz-penny-doge-2-c1.mp3",
+        "c2": "clip-biz-penny-doge-2-c2.mp3"
       }
     },
     {
-      "id": "slope-77516189",
-      "topic_en": "Site Survey Story",
-      "topic_zh": "斜坡Survey奇遇",
-      "category": "civil/structure",
-      "files": {
-        "b1": "clip-slope-77516189-b1.mp3",
-        "b2": "clip-slope-77516189-b2.mp3",
-        "c1": "clip-slope-77516189-c1.mp3",
-        "c2": "clip-slope-77516189-c2.mp3"
-      }
-    },
-    {
-      "id": "beam-109833569",
-      "topic_en": "Load Path Basics",
-      "topic_zh": "結構Load Path",
-      "category": "civil/structure",
-      "files": {
-        "b1": "clip-beam-109833569-b1.mp3",
-        "b2": "clip-beam-109833569-b2.mp3",
-        "c1": "clip-beam-109833569-c1.mp3",
-        "c2": "clip-beam-109833569-c2.mp3"
-      }
-    },
-    {
-      "id": "diesel-542730181",
-      "topic_en": "Diesel Crisis Warning",
-      "topic_zh": "柴油荒恐慌",
+      "id": "biz-canada-eu-3",
+      "topic_en": "Canada EU Spiral",
+      "topic_zh": "加拿大歐盟化",
       "category": "hk/news",
       "files": {
-        "b1": "clip-diesel-542730181-b1.mp3",
-        "b2": "clip-diesel-542730181-b2.mp3",
-        "c1": "clip-diesel-542730181-c1.mp3",
-        "c2": "clip-diesel-542730181-c2.mp3"
+        "b1": "clip-biz-canada-eu-3-b1.mp3",
+        "b2": "clip-biz-canada-eu-3-b2.mp3",
+        "c1": "clip-biz-canada-eu-3-c1.mp3",
+        "c2": "clip-biz-canada-eu-3-c2.mp3"
       }
     },
     {
-      "id": "gyno-77516189",
-      "topic_en": "Gyno Check",
-      "topic_zh": "Puffy Nip苦惱",
+      "id": "g-domestic-bots-4",
+      "topic_en": "Ugly Home Robots",
+      "topic_zh": "家用機械人樣衰",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-domestic-bots-4-b1.mp3",
+        "b2": "clip-g-domestic-bots-4-b2.mp3",
+        "c1": "clip-g-domestic-bots-4-c1.mp3",
+        "c2": "clip-g-domestic-bots-4-c2.mp3"
+      }
+    },
+    {
+      "id": "g-astra-robot-5",
+      "topic_en": "GPT-6 Astra Robot Skills",
+      "topic_zh": "GPT-6 Astra識郁",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-astra-robot-5-b1.mp3",
+        "b2": "clip-g-astra-robot-5-b2.mp3",
+        "c1": "clip-g-astra-robot-5-c1.mp3",
+        "c2": "clip-g-astra-robot-5-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-deadlift-220-6",
+      "topic_en": "Deadlift 220 Double",
+      "topic_zh": "Deadlift 220kg",
       "category": "mma/fitness",
       "files": {
-        "b1": "clip-gyno-77516189-b1.mp3",
-        "b2": "clip-gyno-77516189-b2.mp3",
-        "c1": null,
-        "c2": null
+        "b1": "clip-fit-deadlift-220-6-b1.mp3",
+        "b2": "clip-fit-deadlift-220-6-b2.mp3",
+        "c1": "clip-fit-deadlift-220-6-c1.mp3",
+        "c2": "clip-fit-deadlift-220-6-c2.mp3"
       }
     },
     {
-      "id": "yuru-290855593",
+      "id": "a-yuru-camp-7",
       "topic_en": "Yuru Camp Rewatch",
-      "topic_zh": "露營重溫",
+      "topic_zh": "搵埋露營重溫",
       "category": "anime/culture",
       "files": {
-        "b1": null,
-        "b2": null,
-        "c1": null,
-        "c2": null
+        "b1": "clip-a-yuru-camp-7-b1.mp3",
+        "b2": "clip-a-yuru-camp-7-b2.mp3",
+        "c1": "clip-a-yuru-camp-7-c1.mp3",
+        "c2": "clip-a-yuru-camp-7-c2.mp3"
       }
     }
   ]
