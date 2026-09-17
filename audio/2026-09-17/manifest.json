@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-17",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-bonds-fed",
+      "topic_en": "Bond market freakout",
+      "topic_zh": "美債癲佬",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-bonds-fed-b1.mp3",
+        "b2": "clip-biz-bonds-fed-b2.mp3",
+        "c1": "clip-biz-bonds-fed-c1.mp3",
+        "c2": "clip-biz-bonds-fed-c2.mp3"
+      }
+    },
+    {
+      "id": "v-hajime-chainsaw",
+      "topic_en": "Lollipop Chainsaw 2",
+      "topic_zh": "Chainsaw 2",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-v-hajime-chainsaw-b1.mp3",
+        "b2": "clip-v-hajime-chainsaw-b2.mp3",
+        "c1": "clip-v-hajime-chainsaw-c1.mp3",
+        "c2": "clip-v-hajime-chainsaw-c2.mp3"
+      }
+    },
+    {
+      "id": "g-nvidia-doomer",
+      "topic_en": "Jensen says AI doom is fake",
+      "topic_zh": "Jensen 話 AI 末日係吹",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-nvidia-doomer-b1.mp3",
+        "b2": "clip-g-nvidia-doomer-b2.mp3",
+        "c1": "clip-g-nvidia-doomer-c1.mp3",
+        "c2": "clip-g-nvidia-doomer-c2.mp3"
+      }
+    },
+    {
+      "id": "pol-diesel-famine",
+      "topic_en": "Diesel famine warning",
+      "topic_zh": "柴油末日",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-pol-diesel-famine-b1.mp3",
+        "b2": "clip-pol-diesel-famine-b2.mp3",
+        "c1": "clip-pol-diesel-famine-c1.mp3",
+        "c2": "clip-pol-diesel-famine-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-deadlift-220",
+      "topic_en": "Deadlift PR check",
+      "topic_zh": "Deadlift 220kg",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-deadlift-220-b1.mp3",
+        "b2": "clip-fit-deadlift-220-b2.mp3",
+        "c1": "clip-fit-deadlift-220-c1.mp3",
+        "c2": "clip-fit-deadlift-220-c2.mp3"
+      }
+    },
+    {
+      "id": "a-yurucamp-rewatch",
+      "topic_en": "Yuru Camp rewatch",
+      "topic_zh": "露營重溫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-yurucamp-rewatch-b1.mp3",
+        "b2": "clip-a-yurucamp-rewatch-b2.mp3",
+        "c1": "clip-a-yurucamp-rewatch-c1.mp3",
+        "c2": "clip-a-yurucamp-rewatch-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-doge-penny",
+      "topic_en": "Doge kills the penny",
+      "topic_zh": "一仙都殺",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-doge-penny-b1.mp3",
+        "b2": "clip-biz-doge-penny-b2.mp3",
+        "c1": "clip-biz-doge-penny-c1.mp3",
+        "c2": "clip-biz-doge-penny-c2.mp3"
+      }
+    }
+  ]
+}
