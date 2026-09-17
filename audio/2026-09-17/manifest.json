@@ -4,87 +4,87 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "biz-bonds-fed",
-      "topic_en": "Bond market freakout",
-      "topic_zh": "美債癲佬",
+      "id": "biz-bonds-627",
+      "topic_en": "Bond yields spike, Fed cut",
+      "topic_zh": "債息抽上 聯儲又cut",
       "category": "trading",
       "files": {
-        "b1": "clip-biz-bonds-fed-b1.mp3",
-        "b2": "clip-biz-bonds-fed-b2.mp3",
-        "c1": "clip-biz-bonds-fed-c1.mp3",
-        "c2": "clip-biz-bonds-fed-c2.mp3"
+        "b1": "clip-biz-bonds-627-b1.mp3",
+        "b2": "clip-biz-bonds-627-b2.mp3",
+        "c1": "clip-biz-bonds-627-c1.mp3",
+        "c2": "clip-biz-bonds-627-c2.mp3"
       }
     },
     {
-      "id": "v-hajime-chainsaw",
-      "topic_en": "Lollipop Chainsaw 2",
-      "topic_zh": "Chainsaw 2",
-      "category": "anime/culture",
+      "id": "biz-doge-penny-628",
+      "topic_en": "Doge kills the penny",
+      "topic_zh": "DOGE又搞penny",
+      "category": "trading",
       "files": {
-        "b1": "clip-v-hajime-chainsaw-b1.mp3",
-        "b2": "clip-v-hajime-chainsaw-b2.mp3",
-        "c1": "clip-v-hajime-chainsaw-c1.mp3",
-        "c2": "clip-v-hajime-chainsaw-c2.mp3"
+        "b1": "clip-biz-doge-penny-628-b1.mp3",
+        "b2": "clip-biz-doge-penny-628-b2.mp3",
+        "c1": "clip-biz-doge-penny-628-c1.mp3",
+        "c2": "clip-biz-doge-penny-628-c2.mp3"
       }
     },
     {
-      "id": "g-nvidia-doomer",
-      "topic_en": "Jensen says AI doom is fake",
-      "topic_zh": "Jensen 話 AI 末日係吹",
+      "id": "g-astra-robot-629",
+      "topic_en": "GPT-6 Astra controls robots",
+      "topic_zh": "GPT-6 Astra識搬嘢",
       "category": "tech/ai",
       "files": {
-        "b1": "clip-g-nvidia-doomer-b1.mp3",
-        "b2": "clip-g-nvidia-doomer-b2.mp3",
-        "c1": "clip-g-nvidia-doomer-c1.mp3",
-        "c2": "clip-g-nvidia-doomer-c2.mp3"
+        "b1": "clip-g-astra-robot-629-b1.mp3",
+        "b2": "clip-g-astra-robot-629-b2.mp3",
+        "c1": "clip-g-astra-robot-629-c1.mp3",
+        "c2": "clip-g-astra-robot-629-c2.mp3"
       }
     },
     {
-      "id": "pol-diesel-famine",
-      "topic_en": "Diesel famine warning",
-      "topic_zh": "柴油末日",
+      "id": "pol-diesel-630",
+      "topic_en": "US diesel export cut",
+      "topic_zh": "美國斷柴油 全球on9",
       "category": "hk/news",
       "files": {
-        "b1": "clip-pol-diesel-famine-b1.mp3",
-        "b2": "clip-pol-diesel-famine-b2.mp3",
-        "c1": "clip-pol-diesel-famine-c1.mp3",
-        "c2": "clip-pol-diesel-famine-c2.mp3"
+        "b1": "clip-pol-diesel-630-b1.mp3",
+        "b2": "clip-pol-diesel-630-b2.mp3",
+        "c1": "clip-pol-diesel-630-c1.mp3",
+        "c2": "clip-pol-diesel-630-c2.mp3"
       }
     },
     {
-      "id": "fit-deadlift-220",
-      "topic_en": "Deadlift PR check",
-      "topic_zh": "Deadlift 220kg",
+      "id": "fit-routine-review-631",
+      "topic_en": "Home gym routine check",
+      "topic_zh": "屋企gym routine",
       "category": "mma/fitness",
       "files": {
-        "b1": "clip-fit-deadlift-220-b1.mp3",
-        "b2": "clip-fit-deadlift-220-b2.mp3",
-        "c1": "clip-fit-deadlift-220-c1.mp3",
-        "c2": "clip-fit-deadlift-220-c2.mp3"
+        "b1": "clip-fit-routine-review-631-b1.mp3",
+        "b2": null,
+        "c1": null,
+        "c2": null
       }
     },
     {
-      "id": "a-yurucamp-rewatch",
-      "topic_en": "Yuru Camp rewatch",
-      "topic_zh": "露營重溫",
+      "id": "a-2000s-anime-632",
+      "topic_en": "2000s anime rewatch",
+      "topic_zh": "2000年代動畫回帶",
       "category": "anime/culture",
       "files": {
-        "b1": "clip-a-yurucamp-rewatch-b1.mp3",
-        "b2": "clip-a-yurucamp-rewatch-b2.mp3",
-        "c1": "clip-a-yurucamp-rewatch-c1.mp3",
-        "c2": "clip-a-yurucamp-rewatch-c2.mp3"
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
       }
     },
     {
-      "id": "biz-doge-penny",
-      "topic_en": "Doge kills the penny",
-      "topic_zh": "一仙都殺",
-      "category": "trading",
+      "id": "biz-canada-633",
+      "topic_en": "Canada economy doomed",
+      "topic_zh": "Canada國運on9",
+      "category": "civil/structure",
       "files": {
-        "b1": "clip-biz-doge-penny-b1.mp3",
-        "b2": "clip-biz-doge-penny-b2.mp3",
-        "c1": "clip-biz-doge-penny-c1.mp3",
-        "c2": "clip-biz-doge-penny-c2.mp3"
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
       }
     }
   ]
