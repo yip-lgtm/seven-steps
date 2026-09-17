@@ -4,99 +4,87 @@
   "model": "speech-02-hd",
   "clips": [
     {
-      "id": "bondstard",
-      "topic_en": "US Bonds Pumping",
-      "topic_zh": "美債癲咗",
+      "id": "bond-62691782",
+      "topic_en": "Bond Yields Surge",
+      "topic_zh": "債息瘋狂",
       "category": "trading",
       "files": {
-        "b1": "clip-bondstard-b1.mp3",
-        "b2": "clip-bondstard-b2.mp3",
-        "c1": "clip-bondstard-c1.mp3",
-        "c2": "clip-bondstard-c2.mp3"
+        "b1": "clip-bond-62691782-b1.mp3",
+        "b2": "clip-bond-62691782-b2.mp3",
+        "c1": "clip-bond-62691782-c1.mp3",
+        "c2": "clip-bond-62691782-c2.mp3"
       }
     },
     {
-      "id": "pentard",
-      "topic_en": "Penny Debate",
-      "topic_zh": "美鈕幾時死",
-      "category": "trading",
-      "files": {
-        "b1": "clip-pentard-b1.mp3",
-        "b2": "clip-pentard-b2.mp3",
-        "c1": "clip-pentard-c1.mp3",
-        "c2": "clip-pentard-c2.mp3"
-      }
-    },
-    {
-      "id": "slopeutils",
-      "topic_en": "Slope and Drainage",
-      "topic_zh": "斜坡同雨水",
-      "category": "civil/structure",
-      "files": {
-        "b1": "clip-slopeutils-b1.mp3",
-        "b2": "clip-slopeutils-b2.mp3",
-        "c1": "clip-slopeutils-c1.mp3",
-        "c2": "clip-slopeutils-c2.mp3"
-      }
-    },
-    {
-      "id": "beamcol",
-      "topic_en": "Beam Column Path",
-      "topic_zh": "樑柱 load path",
-      "category": "civil/structure",
-      "files": {
-        "b1": "clip-beamcol-b1.mp3",
-        "b2": "clip-beamcol-b2.mp3",
-        "c1": "clip-beamcol-c1.mp3",
-        "c2": "clip-beamcol-c2.mp3"
-      }
-    },
-    {
-      "id": "astrabot",
-      "topic_en": "Astra Robot Hands",
-      "topic_zh": "AI 識郁機械手",
+      "id": "robot-109835992",
+      "topic_en": "GPT-6 Controls Robots",
+      "topic_zh": "AI識郁機械人",
       "category": "tech/ai",
       "files": {
-        "b1": "clip-astrabot-b1.mp3",
-        "b2": "clip-astrabot-b2.mp3",
-        "c1": "clip-astrabot-c1.mp3",
-        "c2": "clip-astrabot-c2.mp3"
+        "b1": "clip-robot-109835992-b1.mp3",
+        "b2": "clip-robot-109835992-b2.mp3",
+        "c1": "clip-robot-109835992-c1.mp3",
+        "c2": "clip-robot-109835992-c2.mp3"
       }
     },
     {
-      "id": "dieselpain",
-      "topic_en": "Global Diesel Crisis",
-      "topic_zh": "全球柴油荒",
+      "id": "slope-77516189",
+      "topic_en": "Site Survey Story",
+      "topic_zh": "斜坡Survey奇遇",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-slope-77516189-b1.mp3",
+        "b2": "clip-slope-77516189-b2.mp3",
+        "c1": "clip-slope-77516189-c1.mp3",
+        "c2": "clip-slope-77516189-c2.mp3"
+      }
+    },
+    {
+      "id": "beam-109833569",
+      "topic_en": "Load Path Basics",
+      "topic_zh": "結構Load Path",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-beam-109833569-b1.mp3",
+        "b2": "clip-beam-109833569-b2.mp3",
+        "c1": "clip-beam-109833569-c1.mp3",
+        "c2": "clip-beam-109833569-c2.mp3"
+      }
+    },
+    {
+      "id": "diesel-542730181",
+      "topic_en": "Diesel Crisis Warning",
+      "topic_zh": "柴油荒恐慌",
       "category": "hk/news",
       "files": {
-        "b1": "clip-dieselpain-b1.mp3",
-        "b2": "clip-dieselpain-b2.mp3",
-        "c1": "clip-dieselpain-c1.mp3",
-        "c2": "clip-dieselpain-c2.mp3"
+        "b1": "clip-diesel-542730181-b1.mp3",
+        "b2": "clip-diesel-542730181-b2.mp3",
+        "c1": "clip-diesel-542730181-c1.mp3",
+        "c2": "clip-diesel-542730181-c2.mp3"
       }
     },
     {
-      "id": "deadliftlift",
-      "topic_en": "Deadlift Double",
-      "topic_zh": "拉 220kg",
+      "id": "gyno-77516189",
+      "topic_en": "Gyno Check",
+      "topic_zh": "Puffy Nip苦惱",
       "category": "mma/fitness",
       "files": {
-        "b1": "clip-deadliftlift-b1.mp3",
-        "b2": "clip-deadliftlift-b2.mp3",
-        "c1": "clip-deadliftlift-c1.mp3",
-        "c2": "clip-deadliftlift-c2.mp3"
+        "b1": "clip-gyno-77516189-b1.mp3",
+        "b2": "clip-gyno-77516189-b2.mp3",
+        "c1": null,
+        "c2": null
       }
     },
     {
-      "id": "2000sanime",
-      "topic_en": "Retro 2000s Anime",
-      "topic_zh": "2000 年代番回帶",
+      "id": "yuru-290855593",
+      "topic_en": "Yuru Camp Rewatch",
+      "topic_zh": "露營重溫",
       "category": "anime/culture",
       "files": {
-        "b1": "clip-2000sanime-b1.mp3",
-        "b2": "clip-2000sanime-b2.mp3",
-        "c1": "clip-2000sanime-c1.mp3",
-        "c2": "clip-2000sanime-c2.mp3"
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
       }
     }
   ]
