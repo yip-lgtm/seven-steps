@@ -56,6 +56,12 @@ jobs:
             '
           fi
 
+      - name: Archive today into days/ + history.json
+        if: success()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          node scripts/archive-today.cjs
+
       - name: Generate today's audio (TTS via MiniMax)
         if: success()
         continue-on-error: true
