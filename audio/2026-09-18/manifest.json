@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-18",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-canada-greece",
+      "topic_en": "Canada as Greece",
+      "topic_zh": "加國淪希債",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-canada-greece-b1.mp3",
+        "b2": "clip-biz-canada-greece-b2.mp3",
+        "c1": "clip-biz-canada-greece-c1.mp3",
+        "c2": "clip-biz-canada-greece-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-mortgage-warehouse",
+      "topic_en": "Can't Get Pre-Approved",
+      "topic_zh": "買樓絕望",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-mortgage-warehouse-b1.mp3",
+        "b2": "clip-biz-mortgage-warehouse-b2.mp3",
+        "c1": "clip-biz-mortgage-warehouse-c1.mp3",
+        "c2": "clip-biz-mortgage-warehouse-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-hdd-died",
+      "topic_en": "10TB HDD Died",
+      "topic_zh": "10TB死火",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-hdd-died-b1.mp3",
+        "b2": "clip-tech-hdd-died-b2.mp3",
+        "c1": "clip-tech-hdd-died-c1.mp3",
+        "c2": "clip-tech-hdd-died-c2.mp3"
+      }
+    },
+    {
+      "id": "pol-el-nino",
+      "topic_en": "Godzilla El Niño",
+      "topic_zh": "El Nino怪獸",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-pol-el-nino-b1.mp3",
+        "b2": "clip-pol-el-nino-b2.mp3",
+        "c1": "clip-pol-el-nino-c1.mp3",
+        "c2": "clip-pol-el-nino-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-puffy-nips",
+      "topic_en": "Puffy Nipples",
+      "topic_zh": "乳頭脂肪",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-puffy-nips-b1.mp3",
+        "b2": "clip-fit-puffy-nips-b2.mp3",
+        "c1": "clip-fit-puffy-nips-c1.mp3",
+        "c2": "clip-fit-puffy-nips-c2.mp3"
+      }
+    },
+    {
+      "id": "a-2000s-anime",
+      "topic_en": "2000s Anime Thread",
+      "topic_zh": "千禧動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-2000s-anime-b1.mp3",
+        "b2": "clip-a-2000s-anime-b2.mp3",
+        "c1": "clip-a-2000s-anime-c1.mp3",
+        "c2": "clip-a-2000s-anime-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-aot-roast",
+      "topic_en": "AOT Take",
+      "topic_zh": "巨人被噏",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-aot-roast-b1.mp3",
+        "b2": "clip-anime-aot-roast-b2.mp3",
+        "c1": "clip-anime-aot-roast-c1.mp3",
+        "c2": "clip-anime-aot-roast-c2.mp3"
+      }
+    }
+  ]
+}

@@ -1,6 +1,103 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "days": [
+    {
+      "date": "2026-09-18",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-canada-greece",
+          "category": "trading",
+          "topic_zh": "加國淪希債",
+          "topic_en": "Canada as Greece",
+          "text_zh": "啱啱睇完個post 真係笑咗😂 法國德國直接食晒你 加拿大成個經濟就係撐政府開支 最後又係austerity 自己搞死自己 仲要選個極端政府返嚟🤡 又係學費囉 ok 算啦",
+          "text_en_b1": "The thread says Canada has literally no voting rights. France and Germany steal what little Canada produces. The whole economy exists to prop up extreme government spending on welfare. Then austerity kills it again. Canada elects an extremist government but still cannot do anything. EU association means they have no real control. The poster calls Canada another Greece in the making.",
+          "text_en_b2": "The original poster argues that Canada has effectively zero voting leverage within the EU. France and Germany keep siphoning off whatever Canada actually produces, while the entire economy is essentially propped up to sustain extreme government spending on welfare programmes. Austerity will eventually strangle it again, and although Canadians may vote in an extremist government, EU association strips away any meaningful control. The thread is calling Canada another Greece in the making, warning that austerity will collapse under its own weight once more.",
+          "text_en_c1": "The thread argues that Canada effectively wields no voting rights whatsoever, since France and Germany absorb whatever Canada manages to produce. What passes for the economy is little more than a mechanism for sustaining extreme government expenditure on welfare programmes. When austerity inevitably follows, it once again strangles the very thing it was meant to preserve. Even if Canadians were to elect a genuinely radical administration, nothing would materially change, because EU association forecloses any meaningful autonomy. The poster therefore concludes that Canada is essentially Greece in waiting. If history is any guide, the next round of austerity will prove just as self-defeating as the last.",
+          "text_en_c2": "The poster's thesis, delivered with characteristic 4chan irreverence, reduces Canada to a fiscal vassal state. France and Germany, he argues, effectively expropriate whatever productive surplus the Canadian economy manages to generate. What remains is channelled into extravagant entitlement programmes, a self-perpetuating cycle in which swelling public outlays eventually provoke the very austerity measures that strangle growth. Having voted in an extreme administration, Canadians discover, to no avail, that EU-adjacent status strips them of meaningful policy autonomy. The historical analogy is unmistakable: Greece, reheated and served across the Atlantic. Whether one finds the comparison hyperbolic or merely unflattering, the underlying logic is depressingly familiar: expansion, retrenchment, collapse, repeat.",
+          "source_url": "https://boards.4chan.org/biz/thread/62695951",
+          "source_hint": "/biz/ rant comparing Canada's economy to Greece under EU-style austerity"
+        },
+        {
+          "id": "biz-mortgage-warehouse",
+          "category": "trading",
+          "topic_zh": "買樓絕望",
+          "topic_en": "Can't Get Pre-Approved",
+          "text_zh": "睇完好sad 個poster cs degree都揸唔到 去做warehouse 60K蚊house又過唔到pre-approval Zillow個system自動scan你個bank 真係離譜🤡 美國咁就叫做upward mobility? 我喺HK都冇咁慘 ok",
+          "text_en_b1": "A mid-20s guy with a CS degree just got a warehouse job. He tried to buy a $60,000 house, a 3-bed 1-bath in a decent-ish neighborhood facing foreclosure. He went through Zillow's automated pre-approval system. The system scanned his bank accounts and paystubs and rejected him. He cannot even get pre-qualified for a mortgage. The thread is asking what to do next.",
+          "text_en_b2": "A guy in his mid-twenties with a CS degree ended up landing a warehouse job. He attempted to buy a $60,000 three-bed one-bath place in a fairly decent neighbourhood that was facing foreclosure, so he ran Zillow's automated pre-approval system. Although the platform scanned his bank accounts and paystubs straight away, he still got rejected outright and cannot even get pre-qualified for a basic mortgage. The thread is asking what realistic options he has left, since upward mobility looks grim.",
+          "text_en_c1": "A man in his mid-twentics, who holds a computer science degree, has been compelled to take a warehouse position after months of fruitless searching. He set his sights on a three-bedroom, one-bathroom property listed at sixty thousand dollars in a reasonably maintained neighbourhood that was facing foreclosure. Upon submitting his details through Zillow's automated pre-approval pipeline, the platform scanned his bank balances and recent paystubs before flatly rejecting him. He cannot even secure a preliminary qualification for a mortgage, let alone a firm offer. The thread is now inundated with replies asking what realistic recourse he has left, given that conventional lending channels appear to have closed entirely.",
+          "text_en_c2": "A computer science graduate in his mid-twenties, presumably primed for graduate-level employment, has instead taken a warehouse position. The property in question, a modest three-bedroom foreclosure listed at $60,000, ought to have been within reach of a buyer with stable, albeit unglamorous, income. Zillow's algorithmic pre-approval process, which scans applicants' bank accounts and paystubs in real time, returned an automatic denial. He cannot even obtain pre-qualification, let alone financing. The thread oscillates between commiseration and incredulity: if a credentialed worker scraping by on warehouse wages cannot secure a mortgage on a distress-sale home, the much-vaunted upward mobility of contemporary America begins to resemble a closed shop.",
+          "source_url": "https://boards.4chan.org/biz/thread/62685002",
+          "source_hint": "/biz/ anon locked out of the housing market by automated underwriting"
+        },
+        {
+          "id": "tech-hdd-died",
+          "category": "tech/ai",
+          "topic_zh": "10TB死火",
+          "topic_en": "10TB HDD Died",
+          "text_zh": "OMG 10TB HDD跌落枱就bye bye 十年嘅嘢一嘢冇晒 😭 Backup 10TB真係冇可能 雲端又唔可能 我啲trade journal都冇backup 真係要搞下先🙏 AI都未殺到我 個HDD先殺咗我",
+          "text_en_b1": "His external 10TB HDD fell off the desk. It clicked, spun up weird, took forever to be detected, and died. He lost a decade of rare files, paid content that is almost impossible to find, personal memories, all gone in one second. He admits he never backed up because backing up 10TB is a massive time sink. Cloud was never an option for him either.",
+          "text_en_b2": "His external 10TB HDD took a tumble off the desk and kicked the bucket immediately. It started clicking, spun up in some weird way, took forever to get detected, and then flatlined. He lost roughly a decade's worth of rare files, paid content that is basically impossible to track down these days, plus years of personal memories, all wiped out in one go.",
+          "text_en_c1": "His external ten-terabyte hard drive tumbled off the edge of his desk, clicked mournfully, spun up in an erratic fashion, and was eventually detected by the system only after an agonising delay, by which point the damage was irreversible. A decade's worth of irreplaceable files vanished in an instant: rare media that is virtually unobtainable today, paid content he cannot reacquire, and personal memories with no duplicates anywhere. He concedes, rather candidly, that he had never maintained backups, since mirroring ten terabytes is an enormous undertaking in both time and storage. Cloud services were never a viable option, given the sheer volume and the recurring costs involved.",
+          "text_en_c2": "An external 10-terabyte hard drive, dislodged from a desk by what must have been a casual accident, began emitting ominous clicks before failing to mount. A decade's worth of archival material, including rare files, purchased media that exists nowhere else, and irreplaceable personal memories, evaporated in an instant. The owner candidly acknowledges that his archival discipline was, charitably, negligent: mirroring ten terabytes is an undertaking of such magnitude that he perpetually deferred it. Cloud storage, meanwhile, was a non-starter for reasons of cost or privacy. The irony is exquisite: artificial intelligence has not yet displaced him, but gravity, in conjunction with mechanical failure, accomplished the feat without effort.",
+          "source_url": "https://boards.4chan.org/g/thread/109823726",
+          "source_hint": "/g/ tech disaster thread, ten years of hoarding lost in one fall"
+        },
+        {
+          "id": "pol-el-nino",
+          "category": "hk/news",
+          "topic_zh": "El Nino怪獸",
+          "topic_en": "Godzilla El Niño",
+          "text_zh": "NOAA話今次El Nino有90%機會變Godzilla 75%破晒紀錄 咁香港落雨會更加癲🤡 雖然我唔係做水務 但drainage嗰邊一定on9 算啦 天氣我控制唔到 ok",
+          "text_en_b1": "Trump's NOAA now gives the developing El Niño over a 90 percent chance of becoming Godzilla strength. There is a 75 percent chance it will exceed every event on record. Manta rays and whale sharks are showing up along the California coast. Southern kelp forests are being destroyed. Salmon and cold-water food webs are moving north to escape.",
+          "text_en_b2": "Trump's NOAA is now giving the developing El Niño well over a 90 percent chance of reaching full Godzilla strength, and roughly a 75 percent chance of smashing every previous record. Manta rays and whale sharks have started turning up along the California coast, while southern kelp forests are getting hammered. Salmon and other cold-water species are pushing further north to escape the warming. The thread is asking what actually happened the last time an El Niño of this magnitude hit the Pacific.",
+          "text_en_c1": "Trump-era NOAA has placed the odds of the developing El Niño attaining Godzilla-class intensity at over ninety percent, with a seventy-five percent likelihood that it will surpass every recorded event in the historical dataset. The biological consequences are already manifesting: manta rays and whale sharks have begun appearing along the Californian coastline far earlier than usual. Southern kelp forests are being systematically decimated, while salmon populations and the broader cold-water food web are migrating northward in search of survivable conditions. The thread is now asking what actually transpired the last time an El Niño of comparable magnitude struck.",
+          "text_en_c2": "NOAA, presumably under fresh political stewardship, has assigned the nascent El Niño a 90 per cent probability of attaining what meteorologists are calling Godzilla-tier intensity, with a 75 per cent likelihood of exceeding every recorded analogue. The ecological indicators are already conspicuous: manta rays and whale sharks have begun appearing along the Californian coast, while southern kelp forests are bleaching out. Salmon and the broader cold-water food web are migrating poleward in what amounts to a wholesale redistribution of marine life. The thread, characteristically, devolves into speculation about what catastrophe occurred the last time an event of comparable magnitude struck.",
+          "source_url": "https://boards.4chan.org/pol/thread/542782609",
+          "source_hint": "/pol/ climate thread on a record-strength El Niño forecast"
+        },
+        {
+          "id": "fit-puffy-nips",
+          "category": "mma/fitness",
+          "topic_zh": "乳頭脂肪",
+          "topic_en": "Puffy Nipples",
+          "text_zh": "師兄咁我都係😭 點lean都仲有 醫生話gyno太細唔做手術 我都想問大佬們點算 肥仔信今日又叫我去gym 但我成日喺度grind mode🤡 ok 算啦 繼續舉鐵",
+          "text_en_b1": "He has always wanted a flat twink chest, no fat, just clean. But he was cursed with puffy nipples. No matter how much he leans out and benches, fat still sits on his chest. His doctor said the gyno is so minimal that nobody would operate on it. He is asking what to do next.",
+          "text_en_b2": "He has always wanted a flat, clean chest with no fat whatsoever, but he was basically cursed with puffy nipples right from the start. No matter how aggressively he leans out or how much he benches, stubborn fat keeps clinging to his chest. His doctor told him the gyno is so minimal that nobody would bother operating on it. While he knows someone will inevitably call him dyel, he points out that the photo is older and asks the thread what he should realistically do…",
+          "text_en_c1": "He has always aspired to the kind of flat, defined chest typically associated with twinks, free of any lingering adipose tissue. Unfortunately, he was dealt a genetic hand that left him with persistently puffy nipples. Regardless of how aggressively he leans out or how disciplined his bench press routine becomes, a stubborn layer of fat continues to cling to his pectorals. His physician has informed him that the gyno is so marginal that no surgeon would consent to operate. He is therefore appealing to the broader community for advice.",
+          "text_en_c2": "He aspires to the sort of austere, etiolated physique that boards celebrate: flat chest, paper-thin skin, definition bordering on the anatomical. Alas, his constitution has allocated him a modest deposit of adipose tissue directly beneath the areolae, a stubborn enclave that survives even aggressive cuts. A physician, consulted for an opinion, pronounced the gynaecomastia so marginal that surgical intervention would be clinically unjustifiable. He anticipates being dismissed as dyel and stipulates that the photograph pre-dates his current conditioning. The thread, sympathetic in aggregate, offers the bleak counsel of continued iron-pumping and patient recompounding.",
+          "source_url": "https://boards.4chan.org/fit/thread/77516189",
+          "source_hint": "/fit/ body-image thread about stubborn chest fat and mild gyno"
+        },
+        {
+          "id": "a-2000s-anime",
+          "category": "anime/culture",
+          "topic_zh": "千禧動畫",
+          "topic_en": "2000s Anime Thread",
+          "text_zh": "千禧動畫真係神 Hellsing Wolf's Rain Bleach Azumanga 全部都係我細個睇 真係懷念😭 而家連gym都冇時間睇新野 Gundam 00同埋Demon Slayer就ok啦 算啦 溫下習先",
+          "text_en_b1": "He says seasonal anime is fine but going back to older shows is more fun. He has been rewatching 2000s stuff lately. His list is Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh. He posts a Hellsing picture and asks what everyone else has been rewatching. The thread is a general 2000s anime nostalgia thread.",
+          "text_en_b2": "He reckons seasonal anime is fine, but going back to older shows hits differently and ends up being way more fun lately. He has been on a 2000s rewatch streak recently, working through titles like Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh. He even drops a Hellsing picture into the thread and asks what everyone else has been revisiting. The whole thread has basically turned into a 2000s anime nostalgia fest where people keep swapping recommendations and childhood memories.",
+          "text_en_c1": "He concedes the current seasonal slate is perfectly acceptable, yet finds himself gravitating back towards older titles with a kind of nostalgic inevitability. Over the past few weeks he has been steadily revisiting a curated selection of 2000s classics: Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh, each of which occupies a somewhat hallowed place in his memory. He has taken the liberty of attaching a Hellsing still for the thread's benefit and is now soliciting recommendations from the assembled anons. The thread itself has evolved into a broader meditation on 2000s anime nostalgia, with users trading reminiscences about forgotten favourites.",
+          "text_en_c2": "Seasonal simulcasts hold little appeal for him; the vintage catalogues of the early 2000s, by contrast, exert an almost gravitational pull. He has lately been revisiting the canon of that period: Hellsing, with its operatic violence; Wolf's Rain and its melancholic lupine wanderers; Bleach in its unjaded early arc; and Azumanga Daioh, an exercise in gently absurd high-school mundanity. He appends a still from Hellsing and solicits recommendations from the congregation. What emerges is less a recommendation thread than a collective act of remembrance, with contributors trading half-remembered opening sequences and forgotten character designers.",
+          "source_url": "https://boards.4chan.org/a/thread/290972310",
+          "source_hint": "/a/ nostalgia thread asking what 2000s anime people rewatch"
+        },
+        {
+          "id": "anime-aot-roast",
+          "category": "anime/culture",
+          "topic_zh": "巨人被噏",
+          "topic_en": "AOT Take",
+          "text_zh": "講真Attack on Titan個art真係好樣衰🤢 我都係睇Gundam 00同Demon Slayer 巨人我都覺得OK啦 唔明點解有人話deep lol 算啦 各花入各眼 ok",
+          "text_en_b1": "He says Attack on Titan is a stupid person's idea of a deep anime. On top of being extremely boring, it also has one of the worst art styles he has ever seen. He is posting the opinion to bait the thread. Other anons usually rush in to defend the show.",
+          "text_en_b2": "He insists Attack on Titan is essentially a stupid person's idea of what counts as a deep anime. Aside from being extremely boring to sit through, he argues it also has one of the ugliest art styles he has ever had to endure, and he is deliberately posting the take to bait the thread. Although he personally finds it overrated, he acknowledges that other anons usually rush in to defend the show whenever someone takes a swing at it.",
+          "text_en_c1": "He contends, with characteristic bluntness, that Attack on Titan represents precisely the sort of pseudo-profound drivel that less perceptive viewers mistake for genuine intellectual depth. Beyond what he considers the show's pretentious thematic scaffolding, he finds it insufferably dull and notes that its visual aesthetic ranks among the worst he has encountered in the medium. He is openly posting the take in deliberate provocation, fully aware that defenders of the series will materialise within minutes. Other anons, as predicted, have already begun streaming in to mount an impassioned defence of what they regard as a modern masterpiece.",
+          "text_en_c2": "Attack on Titan, he contends, represents the intellectually incurious viewer's notion of profundity, a spectacle mistaken for substance. Beyond the alleged thematic bankruptcy, the production design strikes him as aesthetically retrograde, the character work derivative, and the pacing gruelling. The post is, by his own admission, bait: he anticipates the Pavlovian rush of defenders descending to enumerate the show's narrative virtues. That they will arrive, citations in hand, is itself a small confirmation of his thesis. Aesthetic judgement, after all, is rarely arbitrated by argument; it is simply enumerated, repeatedly, until one side wearies.",
+          "source_url": "https://boards.4chan.org/a/thread/291010448",
+          "source_hint": "/a/ contrarian roast of Attack on Titan's art and depth"
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "source": "ai",
@@ -95,6 +192,103 @@
           "text_en_c2": "Gentlemen, a proposition has been advanced, and after due deliberation we have elected to embark upon a communal rewatch of Yuru Camp in anticipation of the forthcoming fourth season, which we anticipate shall grace our screens sometime during the spring of the coming year. Our prescribed regimen consists of one to two episodes per week drawn from the initial three seasons, with the various OVAs and the theatrical film to be slotted in at the appropriate junctures. Whether this constitutes your inaugural viewing or your tenth, the consensus is that conviviality shall be the order of the day, and the resultant serenity ought to fortify us against an additional day of overtime, however reluctantly endured.",
           "source_url": "https://boards.4chan.org/a/thread/290855593",
           "source_hint": "/a/ OP organizing a Yuru Camp rewatch ahead of S4"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-btc-vs-gold",
+          "category": "trading",
+          "topic_zh": "比特幣 vs 黃金",
+          "topic_en": "Bitcoin vs Gold",
+          "text_zh": "/biz/ 今晚個post問：未來10年只可以揩一樣，你擇Bitcoin定黃金？",
+          "text_en_b1": "If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? Gold has thousands of years of history as a store of value. Bitcoin is only about 17 years old but has digital scarcity.",
+          "text_en_b2": "If you were forced to hold just one asset for the next decade, would you back Bitcoin or gold, and what makes your choice objectively stronger?",
+          "text_en_c1": "A thread on /biz/ posed a dilemma: if one were compelled to hold a single asset for the coming decade, should that asset be Bitcoin or gold?",
+          "text_en_c2": "Were one constrained to a single position for the coming decade, the rational choice between Bitcoin and gold hinges upon permanence versus algorithmic scarcity.",
+          "source_url": "https://boards.4chan.org/biz/thread/62645210",
+          "source_hint": "/biz/ BTC vs gold"
+        },
+        {
+          "id": "biz-boring-guy-doompilled",
+          "category": "trading",
+          "topic_zh": "睇呢條片要買哪",
+          "topic_en": "Boomer Macro Picker",
+          "text_zh": "/biz/ 有人話佢每星期都睇呢條片，問應該買哪。",
+          "text_en_b1": "He covers the AI bubble and circular financing, the end of the USA and the rise of Europe. If you watch his videos every week, what do you actually invest in?",
+          "text_en_b2": "If you watched his videos religiously, what would you actually buy? Most replies recommend going long gold and short US equities.",
+          "text_en_c1": "If even twenty percent of his thesis proves accurate, the logical portfolio would short US equities while going long Europe, gold, and BTC.",
+          "text_en_c2": "Were one to internalise even twenty percent of his prognostications, the prescribed portfolio would entail short US equities, long gold, and long Bitcoin.",
+          "source_url": "https://boards.4chan.org/biz/thread/62688762",
+          "source_hint": "/biz/ doompilled macro"
+        },
+        {
+          "id": "g-ai-iq-replace",
+          "category": "tech/ai",
+          "topic_zh": "AI 殺 IQ 低嘅人",
+          "topic_en": "AI Replaces Low IQ",
+          "text_zh": "/g/ 有人話ChatGPT新AGI model會取代你。",
+          "text_en_b1": "AI is just a tool for 160+ IQ geniuses, but for the rest of us ChatGPT's new AGI model will replace us. Mid-tier office workers are the first to go.",
+          "text_en_b2": "Once companies catch on, unemployment will spread rapidly across the West, because this is fundamentally an IQ problem.",
+          "text_en_c1": "Most anons concur that mid-tier administrative occupations face displacement first, whereas engineers and trades occupy more defensible positions.",
+          "text_en_c2": "Individuals of merely average intellect will find their professional competencies progressively superseded by automated systems.",
+          "source_url": "https://boards.4chan.org/g/thread/109820792",
+          "source_hint": "/g/ AI IQ"
+        },
+        {
+          "id": "biz-tariffs-21t",
+          "category": "hk/news",
+          "topic_zh": "關稅21兆美元",
+          "topic_en": "Tariffs 21 Trillion",
+          "text_zh": "/biz/ 有人post條link話關稅收咗21兆美金？",
+          "text_en_b1": "A /biz/ anon posted that the US took in 21 trillion dollars from tariffs. The number is so absurd it broke containment on the board.",
+          "text_en_b2": "Most replies noted that global GDP sits around 100 trillion, making 21 trillion from tariffs alone laughable nonsense.",
+          "text_en_c1": "Beneath the hyperbole lies a genuine market signal: traders continue pricing in trade-war turbulence and gravitating toward gold and Bitcoin.",
+          "text_en_c2": "Such fabrications, whilst fictitious, serve as barometers of sentiment about US trade policy.",
+          "source_url": "https://boards.4chan.org/biz/thread/62678148",
+          "source_hint": "/biz/ 21T tariffs"
+        },
+        {
+          "id": "biz-trump-10-years",
+          "category": "hk/news",
+          "topic_zh": "Trump 10年回顧",
+          "topic_en": "Trump 10 Year Recap",
+          "text_zh": "/pol/ 有人post咗個10年Trump journey list。",
+          "text_en_b1": "The OP recaps a 10 year journey from gamergate to the election to china virus. The poster says it was all for nothing.",
+          "text_en_b2": "Anons are split between calling it cope and hailing it as the most based timeline ever.",
+          "text_en_c1": "The original poster concludes that the cumulative effort amounted to little.",
+          "text_en_c2": "Respondents partition themselves between dismissing the sentiment as mere cope and celebrating the most based timeline in living memory.",
+          "source_url": "https://boards.4chan.org/pol/thread/542631031",
+          "source_hint": "/pol/ Trump recap"
+        },
+        {
+          "id": "fit-deadlift-220kg",
+          "category": "mma/fitness",
+          "topic_zh": "Deadlift 220kg 兩下",
+          "topic_en": "Deadlift 220kg Double",
+          "text_zh": "/fit/ 有條友post deadlift 220kg做咗兩下，PR俖240kg。",
+          "text_en_b1": "The OP went deadlifting again and hit 220 kg for a double. His PR is 240 kg. First time deadlifting in over a month.",
+          "text_en_b2": "This marked his first deadlift session in over a month, since he has been training at home with kettlebell clean and press.",
+          "text_en_c1": "His strength had not merely persisted but compounded, deadlifting 220 kilograms for a clean double after a month away.",
+          "text_en_c2": "He successfully completed two repetitions at two hundred and twenty kilograms, approaching his established personal record of two hundred and forty.",
+          "source_url": "https://boards.4chan.org/fit/thread/77504262",
+          "source_hint": "/fit/ 220kg DL"
+        },
+        {
+          "id": "a-gochiusa-s4",
+          "category": "anime/culture",
+          "topic_zh": "Gochiusa S4 製作中",
+          "topic_en": "Gochiusa Season 4",
+          "text_zh": "/a/ 有人post Gochiusa，話Koi努力做緊season 4、movie、同埋下一個McDonald's crossover。",
+          "text_en_b1": "Koi is working hard on season 4, the movie, and the next McDonald's collab for Gochiusa.",
+          "text_en_b2": "Anons are thrilled, although the franchise has been stuck on a painfully slow production cycle for years.",
+          "text_en_c1": "Anticipation is elevated, notwithstanding lingering anxieties regarding potential staff turnover at the studio.",
+          "text_en_c2": "The announcement that Koi Studio continues production of Gochiusa season four has occasioned considerable enthusiasm on the anime board.",
+          "source_url": "https://boards.4chan.org/a/thread/290884354",
+          "source_hint": "/a/ Gochiusa S4"
         }
       ]
     },
