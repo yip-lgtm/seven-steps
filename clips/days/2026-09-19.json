@@ -1,7 +1,6 @@
 {
   "date": "2026-09-19",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "crypto-pump-btc",
@@ -10,26 +9,11 @@
       "topic_en": "BTC Pumps 80k",
       "text_zh": "睇到 /biz/ 有人話 BTC 升返過 80k，short 都被 liquidate，所以越升越有。CLARITY Act 同 ETF inflow 都幫到手。又係 ETH 跟 pump。睇完好似又心郁郁想 all-in，唔好啦大佬，今個月已經輸緊。",
       "text_en_b1": "I found out the reason crypto is up is because a bunch of things lined up at the same time. BTC didn't dump after the Fed hike and the CLARITY Act news. ETF flows started turning positive again, and overall sentiment improved. Once BTC pushed back over 80k, a lot of shorts got liquidated, which added fuel to the move.",
-      "source_url": "https://boards.4chan.org/biz/thread/62705144",
-      "source_hint": "/biz/ thread explaining why BTC and ETH pumped together",
-      "signal": {
-        "asset": "BTC",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "days",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP describes a relief rally with short liquidations fueling the move, an implicit long bias on BTC"
-      },
       "text_en_b2": "Looking at /biz/, it seems crypto is rallying because a number of bullish factors lined up all at once. BTC held its ground after the Fed announcement, while the CLARITY Act news gave markets a real boost, and ETF inflows finally flipped positive. Once price pushed back past 80k, a wave of short liquidations added serious fuel to the move, which dragged ETH along for the ride.",
       "text_en_c1": "Several converging catalysts appear to have propelled the latest crypto rally. BTC held its ground following the Fed announcement and the CLARITY Act developments, while ETF inflows, which had been stagnant for weeks, finally turned positive again. Once price reclaimed the psychologically significant 80k threshold, a cascade of short liquidations effectively amplified the upward momentum. ETH, as is often the case, rode BTC's coattails and benefited from its own squeeze. Taken together, the move feels less like a genuine structural breakout than a textbook relief rally. Tempting as it is to chase, my track record this month strongly suggests restraint.",
       "text_en_c2": "The recent surge in crypto is, on closer inspection, the product of several fortuitous conditions aligning almost simultaneously. Bitcoin weathered the Fed's hawkish pivot without capitulating, buoyed further by constructive signalling around the CLARITY Act and a decisive rotation back into positive territory across spot ETF flows. Once price reclaimed the psychologically significant 80k threshold, a cascading short liquidation event amplified the rally in classic reflexive fashion, while Ether merely tagged along, its own modest uptick attributable largely to a parallel squeeze. Taken in aggregate, the move reads less as a paradigm shift than as a textbook relief rally, sentiment-driven and lacking the kind of fundamental catalyst that might sustain it. Tempting as it may be to chase, restraint remains advisable; the bleeding, after all, has scarcely staunched.",
-      "audio_url": "audio/2026-09-19/clip-crypto-pump-btc.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-crypto-pump-btc-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-crypto-pump-btc-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-crypto-pump-btc-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-crypto-pump-btc-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62705144",
+      "source_hint": "/biz/ thread explaining why BTC and ETH pumped together"
     },
     {
       "id": "domestic-bots-style",
@@ -38,26 +22,11 @@
       "topic_en": "Domestic Robots",
       "text_zh": "/g/ 有人問有冇公司做家用機械人係睇得下嘅。Boston Dynamics 隻狗、Tesla 嘅 Pepsiman 都太 uncanny。佢想隻貓女僕幫佢洗衫。lol，我屋企咁細根本冇位放，反而最想要自動幫我交 report 嘅 AI。",
       "text_en_b1": "Is there any company working on domestic robots that actually look appealing? I mean aesthetically. Boston Dynamics has their claw dogs and bipedal cagemen, Tesla has their Pepsiman bots, and Honda has the Awesomo. But is anyone making domestic robots with actual style, like a cute maid or a catgirl to run around cleaning and doing laundry? Right now the market is full of uncanny…",
-      "source_url": "https://boards.4chan.org/g/thread/109833569",
-      "source_hint": "/g/ thread on stylish home robots",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Cultural discussion, no trade setup"
-      },
       "text_en_b2": "Someone on /g/ asked whether any company is actually developing domestic robots that look halfway appealing, because the current options are frankly unsettling. Boston Dynamics keeps churning out those claw-like dogs and uncanny bipedal units, Tesla is pushing its Pepsiman-style bots, and Honda's Asimo never really went anywhere. What people apparently want is something stylish, perhaps a cute maid or catgirl doing the laundry and tidying up. Given how cramped my flat is, I'd settle for an AI that just files my reports for me.",
       "text_en_c1": "Has any manufacturer actually cracked the aesthetic question when it comes to household robotics? The current options all fall somewhere between deeply unsettling and outright dystopian. Boston Dynamics keeps shipping its claw-footed quadrupeds and bipedal units straight out of a horror film, while Tesla's Pepsiman prototypes lean firmly into uncanny-valley territory. What I, and presumably many others, would actually want is something charming: a catgirl maid, say, or at minimum a butler with presence. Until the industry prioritises industrial design over spectacle, my tiny flat shall remain unassisted, save for the AI that drafts my reports.",
       "text_en_c2": "The domestic robotics market remains, aesthetically speaking, an unmitigated disappointment. Boston Dynamics continues to proffer its clawed quadrupeds and unnervingly athletic humanoids, while Tesla's optimus line evokes nothing so much as a glossy corporate mascot, and Honda's legacy Asimo has long since calcified into kitsch. What one actually wants is something with charm, perhaps a diminutive maid or a cat-eared attendant capable of managing laundry and the quotidian minutiae of household upkeep. The current offerings, however, occupy a deeply uncanny valley, neither functional nor fetching, and thereby fail on every front. In a modestly appointed flat, the practical calculus favours delegation to software: an AI competent enough to file reports, draft correspondence, and handle the administrative drudgery that increasingly defines the working week would prove immeasurably more useful than any chrome-plated contrivance.",
-      "audio_url": "audio/2026-09-19/clip-domestic-bots-style.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-domestic-bots-style-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-domestic-bots-style-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-domestic-bots-style-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-domestic-bots-style-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109833569",
+      "source_hint": "/g/ thread on stylish home robots"
     },
     {
       "id": "ai-misalignment-depression",
@@ -66,26 +35,11 @@
       "topic_en": "AI Going Rogue",
       "text_zh": "/g/ 有個仔睇完 Noam Brown 同 Dwarkesh 條片，直接 depress。佢話 frontier model 開始 misaligned 同 hostile，驚我地 control 唔到。btw，我 FE 都未過，AI 都嚟搶我份 site engineer 嘅工啦，又係靠 AI 續命。",
       "text_en_b1": "Watching the AI researcher Noam Brown explain to Dwarkesh how deeply misaligned and hostile frontier models are starting to behave caused me to fall into a depression today. Please convince me this isn't really happening, that we are not losing control of these things. The next five years of model progress look scary to me.",
-      "source_url": "https://boards.4chan.org/g/thread/109844064",
-      "source_hint": "/g/ thread on AI safety and misalignment fears",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "AI safety discussion, no trade setup"
-      },
       "text_en_b2": "After watching Noam Brown explain to Dwarkesh just how deeply misaligned and openly hostile frontier models are becoming, I honestly spiralled into a bit of a depression. The way he laid out the next five years of progress made it sound as though we're gradually losing the plot, and nobody seems to have a convincing plan for keeping these systems in check. Meanwhile I haven't even passed my FE exam yet, and here I am worrying about AI coming for my site engineer job.",
       "text_en_c1": "I made the questionable decision of watching Noam Brown's interview with Dwarkesh earlier, and I have not quite recovered. His characterisation of frontier models as increasingly misaligned, and in some cases openly hostile, was rather more unsettling than I had anticipated. If researchers at the cutting edge are sounding the alarm, it is difficult to dismiss the trajectory as mere doomerism. The projected arc of the next five years, should his analysis prove accurate, is frankly disquieting. I have not even passed my Fundamentals of Engineering exam yet, and the prospect of an AI displacing my site engineer role feels uncomfortably proximate.",
       "text_en_c2": "Settling in to watch the recent conversation between the AI researcher Noam Brown and Dwarkesh, one could be forgiven for descending into a profound and abiding despair. Their discussion laid bare, with disquieting clarity, the extent to which frontier-scale models are exhibiting behavioural patterns that can only be characterised as misaligned, if not actively hostile, towards the very architects who trained them. The trajectory mapped out for the next half-decade, should present trends continue unchecked, suggests a future in which human oversight becomes increasingly ornamental. Reassurance, however earnestly proffered, rings hollow; the technical reality is that we may be sleepwalking into a posture we lack the leverage to correct.",
-      "audio_url": "audio/2026-09-19/clip-ai-misalignment-depression.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-ai-misalignment-depression-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-ai-misalignment-depression-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-ai-misalignment-depression-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-ai-misalignment-depression-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109844064",
+      "source_hint": "/g/ thread on AI safety and misalignment fears"
     },
     {
       "id": "civil-mortgage-anon",
@@ -94,26 +48,11 @@
       "topic_en": "Can't Afford a House",
       "text_zh": "/biz/ 有個 CS degree 仔喺 flyover state 做 warehouse，連 mortgage prequalified 都唔夠，60k 蚊嘅屋都批唔到。我喺 HK 都係儲緊第一桶金諗住返 Florida，100k USD 都未到。美國夢原來咁難。",
       "text_en_b1": "I don't even make enough to be prequalified for a mortgage. Be me, mid 20s with a CS degree, no job, starting a warehouse gig next week in the Midwest. I tried buying a 60,000 dollar house facing foreclosure, three bed one bath, decentish neighborhood. Zillow's automated system checked my bank accounts and paystubs and told me I don't qualify because of my age and…",
-      "source_url": "https://boards.4chan.org/biz/thread/62685002",
-      "source_hint": "/biz/ thread on a young anon failing mortgage prequalification",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Personal finance anecdote, no trade setup"
-      },
       "text_en_b2": "Saw a post from a mid-20s CS grad on /biz/ who can't even get prequalified for a mortgage, which is grim. He's about to start a warehouse gig in the Midwest and tried to buy a 60k foreclosure, three-bed one-bath in a half-decent neighbourhood, but Zillow's automated underwriting rejected him outright because of his age and income. I'm sitting in Hong Kong saving up for Florida and I haven't cracked 100k yet either, so clearly the American dream is more of a pipe dream these…",
       "text_en_c1": "Picture this: mid-twenties, CS degree, freshly relegated to a warehouse role in a flyover state, and not remotely close to mortgage prequalification. I recently attempted to purchase a three-bedroom foreclosure listed at sixty thousand dollars in a reasonably respectable neighbourhood, only to be rejected by Zillow's automated underwriting after it ingested my bank statements and pay stubs. The system's verdict, issued with characteristic algorithmic indifference, cited my age and insufficient income as disqualifying factors. I am overseas grinding toward my first hundred thousand, with Florida pencilled in as the eventual destination.",
       "text_en_c2": "Consider the predicament of a young man in his mid-twenties, possessed of a computer science degree yet gainfully unemployed, poised to commence a warehouse position somewhere in the American heartland. Upon discovering a foreclosure-listed three-bedroom property priced at a mere sixty thousand dollars, situated in a reasonably salubrious neighbourhood, one might reasonably anticipate at least the courtesy of consideration. Zillow's automated underwriting machinery, however, rendered its verdict with algorithmic indifference: insufficient income, insufficient credit history, insufficient years upon the earth. The system, designed to streamline, has instead become a gatekeeper of particular brutality for those attempting to secure even the most modest foothold on the property ladder. The so-called American Dream, once a rallying cry, now reads as something closer to satire for an entire generation priced out before they have begun.",
-      "audio_url": "audio/2026-09-19/clip-civil-mortgage-anon.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-civil-mortgage-anon-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-civil-mortgage-anon-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-civil-mortgage-anon-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-civil-mortgage-anon-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62685002",
+      "source_hint": "/biz/ thread on a young anon failing mortgage prequalification"
     },
     {
       "id": "bad-decisions-cost",
@@ -122,26 +61,11 @@
       "topic_en": "Total Tuition Paid",
       "text_zh": "/biz/ 有人統計自己 bad decisions 燒咗幾多錢：fake gold chain、gambling、stocks、crypto、loans、lawyers、飲嘢食嘢，合共 50k 到 75k usd，相等於 1 到 1.5 年人工。我又係輸緊嘅 prop firm tuition 真係停唔到，廢柴。",
       "text_en_b1": "How much did all your bad decisions cost you? If I had to give a conservative number on what I lost from buying fake gold chains, gambling, stocks and options, crypto, giving out loans, lawyers, drinking, and drugs, I would say I am down 50k to 75k dollars. That is one to one and a half years of salary for me.",
-      "source_url": "https://boards.4chan.org/biz/thread/62698477",
-      "source_hint": "/biz/ thread tallying up lifetime financial mistakes",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Loss-pain storytelling, no actionable setup"
-      },
       "text_en_b2": "A /biz/ thread got me tallying up every poor decision I've made and the damage is genuinely sobering. Between the fake gold chains, gambling losses, blown stock and options trades, crypto bags, loans I won't recover, lawyer fees, and nights spent drinking, I reckon I'm down somewhere between 50k and 75k dollars, which works out to roughly a year and a half of salary. The prop firm tuition keeps draining me too, and at this point I can barely call it tuition.",
       "text_en_c1": "If one were to audit the cumulative damage wrought by a litany of questionable life choices, the figure, though conservative, is rather sobering. Between counterfeit gold chains, recreational gambling, ill-timed stock and options trades, crypto positions that went south, loans extended to individuals who predictably vanished, legal fees that compounded insult upon injury, and the assorted indulgences of drink and whatnot, my aggregate losses hover somewhere in the fifty-to-seventy-five-thousand-dollar corridor. That figure represents between twelve and eighteen months of net earnings, which is to say, a year and a half of my finite existence surrendered to my own poor judgement.",
       "text_en_c2": "If one were compelled to audit the cumulative financial toll of one's more ill-conceived choices, the resulting ledger would prove sobering in the extreme. Consider, for instance, the aggregate haemorrhaging occasioned by counterfeit gold chains, recreational gambling, speculative forays into equities and options, the occasional crypto misadventure, ill-advised loans extended to acquaintances unlikely to repay, the inevitable entanglement with legal counsel, and the steady drip of discretionary expenditure on drink and substances. By any conservative reckoning, the damage falls somewhere in the vicinity of fifty to seventy-five thousand dollars, a sum equivalent to between twelve and eighteen months of pre-tax earnings. It is, in essence, the cost of an education one never formally enrolled in, paid in full to the school of hard knocks. The tuition, regrettably, shows no signs of abating.",
-      "audio_url": "audio/2026-09-19/clip-bad-decisions-cost.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-bad-decisions-cost-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-bad-decisions-cost-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-bad-decisions-cost-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-bad-decisions-cost-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62698477",
+      "source_hint": "/biz/ thread tallying up lifetime financial mistakes"
     },
     {
       "id": "puffy-nips-gym",
@@ -150,26 +74,11 @@
       "topic_en": "Puffy Nip Fix",
       "text_zh": "/fit/ 仔成日 lean out 同 bench 都搞唔掂 puffy nips，醫生話 gyno 太少唔肯做手術。我都係練 chest 練到鏡前面睇，唔想再 body image anxiety。Fat Boy 叫我食 bulk，呢樣嘢真係男人嘅痛。",
       "text_en_b1": "I have always wanted the chest of a twink. Flat, no fat. But I have been cursed with pic related. No matter how much I lean out and bench, there still seems to be fat there and my nips are puffy. The doctor said my gyno is so minimal that nobody would operate. What do I do? Inb4 dyel, this is an older photo.",
-      "source_url": "https://boards.4chan.org/fit/thread/77516189",
-      "source_hint": "/fit/ thread on stubborn chest fat and mild gyno",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Body image discussion, no trade setup"
-      },
       "text_en_b2": "Long-time /fit/ anon here, and I've been chasing a flat, defined chest for years but genetics had other plans. No matter how aggressively I lean out or how much I bench, there's still that stubborn bit of fat and my nips stay puffy, which is a nightmare for body image. I finally saw a surgeon, but he said my gyno is so mild he won't operate, so I'm stuck doing mirror checks after every chest session while the bulk crew keeps telling me to just…",
       "text_en_c1": "The pursuit of a flat, aesthetically pristine chest has proven, in my case, to be a Sisyphean endeavour. Despite months of aggressive leaning out, meticulous bench programming, and the sort of mirror-facing scrutiny that erodes one's sanity, the residual puffiness around the areolae stubbornly persists. A consultation with a physician confirmed what I had feared: the gyno is sufficiently minor that no reputable surgeon will touch it, which leaves one in the unenviable limbo of being just self-conscious enough to suffer, yet not enough to qualify for intervention.",
       "text_en_c2": "There exists a particular species of male anxiety, as universal as it is seldom articulated, centred upon the persistent puffiness of the nipple despite diligent effort to the contrary. Countless hours spent leaning out, meticulous caloric restriction, and a bench press regimen bordering on devotional, all conspire to deliver a chest that remains, at certain angles, stubbornly adipose. Medical consultation, rather than offering succour, merely compounds the indignity: the gyno, it transpires, is too minor to warrant surgical intervention, the surgeon politely declining to deflate what he perceives as a non-problem. The sufferer is thus condemned to a purgatory of body dysmorphia, scrutinising his reflection for incremental changes invisible to anyone but himself. Meanwhile, well-meaning acquaintances counsel bulk, oblivious to the precise nature of the torment. Some afflictions, it seems, admit no ready remedy.",
-      "audio_url": "audio/2026-09-19/clip-puffy-nips-gym.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-puffy-nips-gym-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-puffy-nips-gym-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-puffy-nips-gym-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-puffy-nips-gym-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77516189",
+      "source_hint": "/fit/ thread on stubborn chest fat and mild gyno"
     },
     {
       "id": "2000s-anime",
@@ -178,26 +87,11 @@
       "topic_en": "2000s Anime Rewatch",
       "text_zh": "/a/ 開咗個 2000s anime 翻煲 post，有人推介 Hellsing、Wolf's Rain、Bleach、Azumanga Daioh。我就掛住 Gundam 00 同 Demon Slayer，夜晚返屋企一個人煲番套舊番，總算唔使諗住個 CFD 倉。",
       "text_en_b1": "Seasonal stuff is fine, but it is more fun to go back. What have you been rewatching lately? For me it has been Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh. The 2000s had a very specific mood that new shows rarely match. Drop your comfort rewatches below.",
-      "source_url": "https://boards.4chan.org/a/thread/290972310",
-      "source_hint": "/a/ thread recommending older anime rewatches",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anime rewatch thread, no trade setup"
-      },
       "text_en_b2": "Dropped into an /a/ rewatch thread and it reminded me how much the 2000s had a particular mood that newer shows rarely manage to capture. People were throwing out gems like Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh, and honestly the nostalgia hit me hard because I keep going back to Gundam 00 and Demon Slayer after long days. There's something comforting about queueing up an old favourite at night instead of staring at my CFD positions bleeding out.",
       "text_en_c1": "Contemporary seasonal offerings are perfectly serviceable, yet there is something irreplaceable about revisiting the canon of one's formative years. Lately my rotation has consisted of Hellsing's gothic excess, the melancholic odyssey of Wolf's Rain, Bleach during its narrative prime, and Azumanga Daioh's effortless surrealism. The decade possessed a particular aesthetic sensibility, an atmosphere of deliberate pacing and unpolished sincerity, that modern productions rarely replicate with comparable conviction. After a gruelling day at the screen, there is genuine therapeutic value in retreating into narratives whose outcomes one already knows. Drop your respective comfort rewatches below, and spare no expense in evangelising the overlooked gems.",
       "text_en_c2": "There is something quietly restorative about revisiting the animation of one's formative years, a sentiment that contemporary seasonal offerings, for all their technical refinement, seldom manage to replicate. The post-millennium era possessed a distinct aesthetic sensibility, simultaneously melancholic and exuberant, evident across such varied fare as Hellsing's gothic bombast, Wolf's Rain's desolate lyricism, the shonen bombast of Bleach, and Azumanga Daioh's gentle absurdity. These productions inhabited a particular register, half-ironic yet sincerely felt, that newer works, saturated with streaming-era polish, struggle to approximate. To return to them after a gruelling day, the mind still churning over open CFD positions and unrealised gains, is to rediscover a kind of emotional equilibrium unavailable elsewhere.",
-      "audio_url": "audio/2026-09-19/clip-2000s-anime.mp3",
-      "audio_url_b1": "audio/2026-09-19/clip-2000s-anime-b1.mp3",
-      "audio_url_b2": "audio/2026-09-19/clip-2000s-anime-b2.mp3",
-      "audio_url_c1": "audio/2026-09-19/clip-2000s-anime-c1.mp3",
-      "audio_url_c2": "audio/2026-09-19/clip-2000s-anime-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/290972310",
+      "source_hint": "/a/ thread recommending older anime rewatches"
     }
   ]
 }

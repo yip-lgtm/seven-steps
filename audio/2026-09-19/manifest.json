@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-19",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "crypto-pump-btc",
+      "topic_en": "BTC Pumps 80k",
+      "topic_zh": "BTC破8萬",
+      "category": "trading",
+      "files": {
+        "b1": "clip-crypto-pump-btc-b1.mp3",
+        "b2": "clip-crypto-pump-btc-b2.mp3",
+        "c1": "clip-crypto-pump-btc-c1.mp3",
+        "c2": "clip-crypto-pump-btc-c2.mp3"
+      }
+    },
+    {
+      "id": "domestic-bots-style",
+      "topic_en": "Domestic Robots",
+      "topic_zh": "家用機械人",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-domestic-bots-style-b1.mp3",
+        "b2": "clip-domestic-bots-style-b2.mp3",
+        "c1": "clip-domestic-bots-style-c1.mp3",
+        "c2": "clip-domestic-bots-style-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-misalignment-depression",
+      "topic_en": "AI Going Rogue",
+      "topic_zh": "AI失控",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-misalignment-depression-b1.mp3",
+        "b2": "clip-ai-misalignment-depression-b2.mp3",
+        "c1": "clip-ai-misalignment-depression-c1.mp3",
+        "c2": "clip-ai-misalignment-depression-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-mortgage-anon",
+      "topic_en": "Can't Afford a House",
+      "topic_zh": "上車夢碎",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-mortgage-anon-b1.mp3",
+        "b2": "clip-civil-mortgage-anon-b2.mp3",
+        "c1": "clip-civil-mortgage-anon-c1.mp3",
+        "c2": "clip-civil-mortgage-anon-c2.mp3"
+      }
+    },
+    {
+      "id": "bad-decisions-cost",
+      "topic_en": "Total Tuition Paid",
+      "topic_zh": "總學費",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-bad-decisions-cost-b1.mp3",
+        "b2": "clip-bad-decisions-cost-b2.mp3",
+        "c1": "clip-bad-decisions-cost-c1.mp3",
+        "c2": "clip-bad-decisions-cost-c2.mp3"
+      }
+    },
+    {
+      "id": "puffy-nips-gym",
+      "topic_en": "Puffy Nip Fix",
+      "topic_zh": "乳頭脂肪",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-puffy-nips-gym-b1.mp3",
+        "b2": "clip-puffy-nips-gym-b2.mp3",
+        "c1": "clip-puffy-nips-gym-c1.mp3",
+        "c2": "clip-puffy-nips-gym-c2.mp3"
+      }
+    },
+    {
+      "id": "2000s-anime",
+      "topic_en": "2000s Anime Rewatch",
+      "topic_zh": "2000年代動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-2000s-anime-b1.mp3",
+        "b2": "clip-2000s-anime-b2.mp3",
+        "c1": "clip-2000s-anime-c1.mp3",
+        "c2": "clip-2000s-anime-c2.mp3"
+      }
+    }
+  ]
+}
