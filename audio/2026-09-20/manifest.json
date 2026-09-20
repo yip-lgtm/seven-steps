@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-20",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-1",
+      "topic_en": "Survivor's mentality shift",
+      "topic_zh": "轉型定輸到趴街",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-1-b1.mp3",
+        "b2": "clip-trade-macro-1-b2.mp3",
+        "c1": "clip-trade-macro-1-c1.mp3",
+        "c2": "clip-trade-macro-1-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-1",
+      "topic_en": "Anthropic cult of Claude",
+      "topic_zh": "AI又癲",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-1-b1.mp3",
+        "b2": "clip-trade-musk-1-b2.mp3",
+        "c1": "clip-trade-musk-1-c1.mp3",
+        "c2": "clip-trade-musk-1-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-1",
+      "topic_en": "China CR450 HSR trial",
+      "topic_zh": "高鐵定再快啲",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-1-b1.mp3",
+        "b2": "clip-civil-1-b2.mp3",
+        "c1": "clip-civil-1-c1.mp3",
+        "c2": "clip-civil-1-c2.mp3"
+      }
+    },
+    {
+      "id": "structure-1",
+      "topic_en": "AI threat to engineers",
+      "topic_zh": "工程佬聽日仲有冇工開",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-structure-1-b1.mp3",
+        "b2": "clip-structure-1-b2.mp3",
+        "c1": "clip-structure-1-c1.mp3",
+        "c2": "clip-structure-1-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-1",
+      "topic_en": "YouTube auto-censoring oligarchs",
+      "topic_zh": "YouTube又審查",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-1-b1.mp3",
+        "b2": "clip-tech-ai-1-b2.mp3",
+        "c1": "clip-tech-ai-1-c1.mp3",
+        "c2": "clip-tech-ai-1-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-1",
+      "topic_en": "Walmart elderly death",
+      "topic_zh": "Walmart打死老伯",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-1-b1.mp3",
+        "b2": "clip-hk-news-1-b2.mp3",
+        "c1": "clip-hk-news-1-c1.mp3",
+        "c2": "clip-hk-news-1-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit-1",
+      "topic_en": "Dealing with puffy nips",
+      "topic_zh": "Puffy nips點算",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-1-b1.mp3",
+        "b2": "clip-mma-fit-1-b2.mp3",
+        "c1": "clip-mma-fit-1-c1.mp3",
+        "c2": "clip-mma-fit-1-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-1",
+      "topic_en": "Cat and Dragon S2 confirmed",
+      "topic_zh": "貓與龍第二季",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-1-b1.mp3",
+        "b2": "clip-anime-1-b2.mp3",
+        "c1": "clip-anime-1-c1.mp3",
+        "c2": "clip-anime-1-c2.mp3"
+      }
+    }
+  ]
+}

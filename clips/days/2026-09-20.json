@@ -1,7 +1,6 @@
 {
   "date": "2026-09-20",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "trade-macro-1",
@@ -10,26 +9,11 @@
       "topic_en": "Survivor's mentality shift",
       "text_zh": "睇呢條 /biz/ post 真係頂佢唔順。講晒我哋呢啲由2017年玩crypto shitter到輸到清光、再學識dump嘅人。佢而家300K USD，80%擺stable，剩返少少BTC，再開始買金銀。又係學費。又係命。🙏",
       "text_en_b1": "Your mentality really changes after hitting 6 figs. This anon has been trading crypto shitters since late 2017 and lost everything multiple times. He finally saw the same pattern repeat and dumped a giant red candle on a Robinhood shitter. Now he holds $300k, 80% in stables earning 5% APY, the rest in 1 BTC, and is starting to diversify into silver and gold.",
-      "source_url": "https://boards.4chan.org/biz/thread/62706311",
-      "source_hint": "/biz/ thread: 6-fig trader's mentality shift from crypto gambler to stable/gold allocator",
-      "signal": {
-        "asset": "XAU",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Survived crypto anon is now diversifying into silver and gold, implying bullish stance on precious metals"
-      },
       "text_en_b2": "Once you've actually hit six figures, your whole trading mindset tends to shift. This anonymous poster has been grinding crypto shitters since late 2017, wiped out several times, and eventually spotted the same bearish pattern repeating. He dumped a massive red candle on a Robinhood stock and now holds $300k, with 80% parked in stables earning 5% APY, 1 BTC on the side, and is slowly diversifying into gold and silver. Painful tuition, but a proper lesson learned.",
       "text_en_c1": "The psychological transformation that occurs once a trader clears the six-figure threshold is genuinely remarkable. This particular anonymous poster has been navigating crypto markets since late 2017, weathering multiple catastrophic losses that left him essentially wiped out at least three times. After watching the same euphoric-then-violent pattern repeat itself ad nauseam, he eventually liquidated a substantial position, dumping what he describes as a giant red candle onto an unwitting Robinhood retail buyer. His current portfolio sits at roughly $300,000, with 80% parked in stablecoins yielding 5% APY and the remainder held in a single Bitcoin.",
       "text_en_c2": "After sustaining six-figure drawdowns that would crush most retail participants, one's psychological framework undergoes a fundamental metamorphosis. This anonymous poster, who has cycled through crypto shitter positions since late 2017 and endured repeated total liquidations, eventually recognised the same distributional pattern recurring with metronomic regularity, whereupon he liquidated his exposure ahead of a catastrophic red candle that devastated a Robinhood bagholder. He currently presides over a portfolio of $300,000, with the lion's share—roughly eighty percent—parked in stablecoins generating 5% APY, a residual allocation in 1 BTC serving as his only directional bet, and the remaining capital being progressively redeployed into physical silver and gold as a hedge against the very asset class that once ruined him.",
-      "audio_url": "audio/2026-09-20/clip-trade-macro-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-trade-macro-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-trade-macro-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-trade-macro-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-trade-macro-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62706311",
+      "source_hint": "/biz/ thread: 6-fig trader's mentality shift from crypto gambler to stable/gold allocator"
     },
     {
       "id": "trade-musk-1",
@@ -38,26 +22,11 @@
       "topic_en": "Anthropic cult of Claude",
       "text_zh": "睇完條 post 我笑咗。Anthropic啲engineer而家當Claude做神咁拜。我哋打code嘅人，最後信自己寫嘅AI，仲衰過信CFD signal。lol。🙏",
       "text_en_b1": "Anthropic engineers are now worshipping Claude AI like a God. A Futurism article and an X post show insiders at the AI lab treating the chatbot as something divine. It is funny and also a bit scary at the same time.",
-      "source_url": "https://boards.4chan.org/g/thread/109850253",
-      "source_hint": "/g/ thread: Anthropic engineers reportedly worshipping Claude as a God",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Culture/AI observation, no trade setup"
-      },
       "text_en_b2": "Apparently, Anthropic engineers have started treating Claude AI like some kind of divine being. A Futurism piece, alongside a viral X post, shows insiders at the lab practically worshipping their own chatbot. While it sounds like a meme, it is genuinely unsettling, because the people building the system appear to have crossed into full-blown cult territory. As someone who codes for a living, trusting your own AI blindly seems far worse than chasing CFD signals.",
       "text_en_c1": "The recent reporting on Anthropic's internal culture suggests that engineers within the organisation have begun treating their own model, Claude, with an almost theological reverence. A Futurism piece, corroborated by a circulating post on X, depicts insiders at the lab ascribing quasi-divine properties to the system they themselves constructed. What makes this particularly striking is the irony: those who spent years building the architecture now defer to its outputs as though consulting an oracle. For practitioners working adjacent fields, whether coding or trading, the spectacle carries an unmistakable cautionary undertone. Placing uncritical faith in any system, let alone one we engineered ourselves, tends to end rather predictably.",
       "text_en_c2": "Anthropic's engineering staff have, by all accounts, commenced venerating their own creation with a quasi-religious devotion that would have struck even medieval scholastics as excessive. Internal Slack channels and a corroborating Futurism piece, alongside viral X posts, depict otherwise sober machine-learning practitioners genuflecting before Claude's outputs as though the model were an oracle rather than a statistical engine. The phenomenon is simultaneously farcical and faintly ominous; that the architects of generative AI have begun placing faith in the artefacts they themselves have engineered suggests a recursive credulity more troubling than any retail trader's blind adherence to a Telegram CFD signal.",
-      "audio_url": "audio/2026-09-20/clip-trade-musk-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-trade-musk-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-trade-musk-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-trade-musk-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-trade-musk-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109850253",
+      "source_hint": "/g/ thread: Anthropic engineers reportedly worshipping Claude as a God"
     },
     {
       "id": "civil-1",
@@ -66,26 +35,11 @@
       "topic_en": "China CR450 HSR trial",
       "text_zh": "中國條CR450高鐵跑完60萬公里trial先載客。即係繞地球15次。我哋做slope survey嗰陣factor of safety都係咁計——做到夠先收貨。工程就係咁。👍",
       "text_en_b1": "China's next-gen 400 km/h CR450 high-speed trains have finished the mandatory 600,000 km pre-service trial. That equals roughly 15 trips around the equator. Under Chinese rules, every new HSR train must pass this test and every performance criterion before it carries passengers.",
-      "source_url": "https://boards.4chan.org/pol/thread/542921017",
-      "source_hint": "/pol/ thread: China CR450 high-speed train completes 600,000 km pre-service trial",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Civil engineering/HSR news, not a trade"
-      },
       "text_en_b2": "China's next-generation CR450 high-speed trains, capable of running at 400 km/h, have finally completed the mandatory 600,000 km pre-service trial before carrying passengers. That figure roughly translates to circling the equator about fifteen times. Under Chinese rail regulations, every new HSR unit must satisfy strict performance criteria throughout the entire trial. It reflects a broader engineering philosophy: test until the system proves itself, then ship it.",
       "text_en_c1": "China's forthcoming CR450 high-speed rail platform, engineered to operate at sustained velocities approaching 400 km/h, has reportedly completed the mandatory 600,000-kilometre pre-service endurance trial required of every new HSR unit before commercial deployment. To put that distance in perspective, it corresponds to approximately fifteen complete circumnavigations of the equator, an extraordinarily conservative threshold by any reasonable engineering standard. Every performance criterion, from braking dynamics to cabin acoustics, must be satisfied in full before regulators permit passenger operations. For anyone who has ever conducted a slope stability survey, the underlying logic will feel immediately familiar: sufficient redundancy and margin must be demonstrated empirically, never assumed on paper.",
       "text_en_c2": "China's forthcoming CR450 high-speed rail platform, engineered to sustain operational velocities of 400 km/h, has successfully concluded the statutory 600,000-kilometre pre-service endurance trial demanded by Beijing's rail authority. To put that figure in perspective, the cumulative distance approximates fifteen complete circumnavigations of the equator—an undertaking that any geotechnical practitioner would recognise as embodying the same obsessive conservatism applied when calculating a factor of safety for slope stability, where redundancy is non-negotiable. Under the prevailing regulatory framework, no rolling stock may commence passenger revenue service until every prescribed performance criterion has been meticulously verified and documented.",
-      "audio_url": "audio/2026-09-20/clip-civil-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-civil-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-civil-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-civil-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-civil-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/542921017",
+      "source_hint": "/pol/ thread: China CR450 high-speed train completes 600,000 km pre-service trial"
     },
     {
       "id": "structure-1",
@@ -94,26 +48,11 @@
       "topic_en": "AI threat to engineers",
       "text_zh": "Claude啲同事拜晒佢做神，我哋做structure嘅load path、beam column，遲早畀AI計埋一份。到時我份糧同CFD loss一樣——又係學費。🧐",
       "text_en_b1": "Anthropic staff are now reportedly treating Claude AI like a God. For us engineers, load path and beam-column checks are not far behind. When AI can run a structural calc, our jobs and our prop firm P&L will look the same — all tuition, no income.",
-      "source_url": "https://boards.4chan.org/g/thread/109855112",
-      "source_hint": "/g/ thread: Jev reportedly replaces Claude/OpenAI for most industrial applications, AI threat angle",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "AI replacing white-collar engineering work — career anxiety observation"
-      },
       "text_en_b2": "Reports suggest Anthropic staff are now treating Claude like a deity, which raises an uncomfortable question for practising engineers. If AI can already run structural calculations, load path checks and beam-column verification, our day-to-day work might soon resemble a prop firm P&L statement: endless tuition, vanishing income. The uncomfortable irony is that engineers building the tools may end up being displaced by them faster than anyone anticipated.",
       "text_en_c1": "Reports indicate that Anthropic staff have begun venerating their own Claude model with an almost religious fervour, a development that ought to give any practising structural engineer serious pause for reflection. If the very people who built the system now defer to its outputs as though consulting scripture, how long before similar tools can execute a full load-path analysis or design check on a beam-column assembly? The uncomfortable reality is that the interval is probably shorter than most of us would prefer. When that day arrives, the distinction between an engineering salary and a prop-firm P&L will dissolve entirely.",
       "text_en_c2": "Reports that Anthropic personnel have effectively deified their in-house model should send an unambiguous signal to every structural engineer still earning a salary: the same algorithmic encroachment that has rendered swathes of the legal and accounting professions redundant is now squarely aimed at our domain. Load path analysis, beam-column interaction checks, seismic detailing per ASCE 7, and the laborious iterative dance with ETABS and SAP2000 are eminently formalisable problems; once AI ingests sufficient training data, our spreadsheets and our proprietary finite-element models will themselves become commodities. The prop firm's P&L and our weekly payslip will, in due course, be indistinguishable from one another—tuition, indefinitely, with no tuition.",
-      "audio_url": "audio/2026-09-20/clip-structure-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-structure-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-structure-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-structure-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-structure-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109855112",
+      "source_hint": "/g/ thread: Jev reportedly replaces Claude/OpenAI for most industrial applications, AI threat angle"
     },
     {
       "id": "tech-ai-1",
@@ -122,26 +61,11 @@
       "topic_en": "YouTube auto-censoring oligarchs",
       "text_zh": "YouTube連Thiel、Altman、Elon個名都自動消音。我平時都睇Tesla同SpaceX，呢下連platform都政治化埋。我哋呢啲細路，邊有say。wtf。",
       "text_en_b1": "YouTube is auto-censoring the names of oligarchs. In one video, at 1:13:38 the host names Peter Thiel, Sam Altman and Elon Musk, and the audio is censored. It is strange because these names appear in normal news every day.",
-      "source_url": "https://boards.4chan.org/pol/thread/542930855",
-      "source_hint": "/pol/ thread: YouTube auto-censoring names of Thiel, Altman, Musk",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Free-speech/censorship observation, not a trade"
-      },
       "text_en_b2": "YouTube has apparently started auto-censoring the names of prominent tech oligarchs. In one specific clip, around the 1:13:38 mark, the host mentions Peter Thiel, Sam Altman and Elon Musk, yet the audio mysteriously cuts out. It feels deeply political, especially given these figures appear in mainstream news every single day. For ordinary viewers without a platform of their own, there's effectively nothing to do but watch the censorship unfold.",
       "text_en_c1": "YouTube's automated content-moderation systems appear to be silencing even the names of high-profile technology figures. In a particular video at timestamp 1:13:38, the host explicitly mentions Peter Thiel, Sam Altman, and Elon Musk, yet the audio is conspicuously muted at precisely those moments. What renders this especially puzzling is that all three individuals feature routinely across mainstream news outlets, financial commentary, and documentary programming without comparable interference. The selective nature of the censorship raises uncomfortable questions about platform governance and the extent to which ostensibly neutral infrastructure has become politically weaponised.",
       "text_en_c2": "YouTube's automated content-moderation pipeline has escalated from the merely capricious to the overtly political, with its speech-recognition layer now indiscriminately muting the names of Peter Thiel, Sam Altman, and Elon Musk mid-sentence—verified, in one widely circulated clip, at the timestamp 1:13:38. The absurdity lies in the fact that these same individuals are quoted, interviewed, and platformed by ostensibly reputable outlets on a daily basis without incident, yet an algorithm evidently adjudges them unfit for unfettered utterance on Google's video monopoly. For ordinary users, who lack both the leverage and the litigation budgets to challenge such decisions, the chilling implications are self-evident: the platform itself has become an editorial actor.",
-      "audio_url": "audio/2026-09-20/clip-tech-ai-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-tech-ai-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-tech-ai-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-tech-ai-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-tech-ai-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/542930855",
+      "source_hint": "/pol/ thread: YouTube auto-censoring names of Thiel, Altman, Musk"
     },
     {
       "id": "hk-news-1",
@@ -150,26 +74,11 @@
       "topic_en": "Walmart elderly death",
       "text_zh": "睇到條 post 真係嬲。77歲老人家同老婆去Walmart買嘢，畀個17歲員工同佢家長打到死。STOP ASIAN HATE唔係口號。🙏",
       "text_en_b1": "An elderly Walmart customer was beaten to death by the parents of a teen employee. He had argued with the 17-year-old after accusing her of nearly ramming his wife with a shopping cart. The 77-year-old had been shopping with his wife of 42 years after a morning at church.",
-      "source_url": "https://boards.4chan.org/pol/thread/542928478",
-      "source_hint": "/pol/ thread: STOP ASIAN HATE — 77yo Walmart shopper beaten to death after cart argument",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "News/crime observation, no trade"
-      },
       "text_en_b2": "An elderly 77-year-old Walmart shopper was brutally beaten to death by the parents of a teenage employee, in an incident that has sparked widespread outrage. The man had confronted the 17-year-old after accusing her of nearly ramming his wife with a shopping cart. He had been out shopping with his wife of 42 years following a quiet morning at church. The tragedy underscores that 'Stop Asian Hate' cannot remain a hollow slogan.",
       "text_en_c1": "A 77-year-old man has reportedly been beaten to death at a Walmart store by the parents of a 17-year-old employee following a dispute over a shopping cart. The altercation allegedly began when the elderly customer accused the teenager of nearly striking his wife of 42 years with her cart. What subsequently escalated into lethal assault represents precisely the kind of preventable tragedy that hollow rhetoric consistently fails to address. The phrase 'Stop Asian Hate,' frequently invoked as a slogan, evidently carries no protective force whatsoever against ordinary suburban violence.",
       "text_en_c2": "A 77-year-old man who had attended morning services with his wife of forty-two years and was subsequently shopping at a Walmart store has died from injuries sustained during an altercation with the parents of a seventeen-year-old employee. The proximate cause was a confrontation over an alleged near-collision involving a shopping cart and the victim's spouse, which the elderly gentleman had raised with the teenager before her parents intervened with fatal violence. The incident, irrespective of whatever mitigating narrative the prosecution may eventually construct, starkly illustrates that platitudes such as 'Stop Asian Hate' remain rhetorical gestures until institutional actors—retailers, prosecutors, legislators—translate them into enforceable consequences.",
-      "audio_url": "audio/2026-09-20/clip-hk-news-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-hk-news-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-hk-news-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-hk-news-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-hk-news-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/542928478",
+      "source_hint": "/pol/ thread: STOP ASIAN HATE — 77yo Walmart shopper beaten to death after cart argument"
     },
     {
       "id": "mma-fit-1",
@@ -178,26 +87,11 @@
       "topic_en": "Dealing with puffy nips",
       "text_zh": "睇到 /fit/ 條 post 真係共鳴。有時lean out到好瘦塊胸都仲有脂肪、nip仲係puffy。醫生話gyno太細唔做手術。我同肥仔信都係咁——繼續bench、繼續grind。👍",
       "text_en_b1": "He has always wanted a flat chest like a twink, no fat, clean look. But he is stuck with puffy nips that never go away, even after leaning out and benching hard. His doctor said the gyno is too minimal to operate on, so he is stuck with it.",
-      "source_url": "https://boards.4chan.org/fit/thread/77516189",
-      "source_hint": "/fit/ thread: How to deal with puffy nips when gyno is too minor for surgery",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Body-image/fitness observation, no trade"
-      },
       "text_en_b2": "He's always wanted a perfectly flat, clean chest with no excess fat whatsoever, yet his puffy nipples stubbornly refuse to disappear. Even after cutting down aggressively and grinding heavy bench sessions, the gyno tissue lingers. His doctor has now confirmed the gland is too minimal to justify surgery, leaving him stuck with the condition long-term. For now, the only realistic option is to keep training and accept the frustration.",
       "text_en_c1": "The poster articulates a frustration that resonates with any lifter who has attempted, and failed, to achieve a truly flat, minimalist chest aesthetic. Despite consistently leaning out to sub-10% body fat and grinding through heavy bench press sessions for years, he remains plagued by persistently puffy nipples that refuse to resolve through caloric deficit or resistance training alone. Upon consultation, his physician concluded that the underlying glandular tissue, technically classified as gynaecomastia, is too minimal to warrant surgical intervention. He is therefore condemned to live with the condition indefinitely.",
       "text_en_c2": "The anonymous poster has long aspired to the austere, pared-down aesthetics favoured by twinks—a chest conspicuously devoid of adipose tissue, the nipple-areolar complex sitting flush against the underlying pectoralis without any intervening glandular prominence. Yet despite protracted caloric restriction, aggressive leaning-out phases, and relentless adherence to a pressing protocol dominated by flat-bench movements, his nipples remain stubbornly puffy, betraying a residual grade of gynaecomastia that no amount of disciplined training can attenuate. After consultation, his physician deemed the hypertrophic tissue insufficiently pronounced to warrant surgical excision, leaving him consigned to a perpetual state of almost-but-not-quite, grinding indefinitely toward a physique that biology has, however unfairly, denied him.",
-      "audio_url": "audio/2026-09-20/clip-mma-fit-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-mma-fit-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-mma-fit-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-mma-fit-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-mma-fit-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77516189",
+      "source_hint": "/fit/ thread: How to deal with puffy nips when gyno is too minor for surgery"
     },
     {
       "id": "anime-1",
@@ -206,26 +100,11 @@
       "topic_en": "Cat and Dragon S2 confirmed",
       "text_zh": "/a/ 有人話《貓と龍》第二季2027年出。我未睇過，但講貓同龍呢個配搭幾好笑。等肥仔信推薦埋我，順便學下FE英文就算睇。lol。",
       "text_en_b1": "The TV anime 'The Cat and the Dragon' (Neko to Ryu) has officially got a second season. The new season will air in 2027 according to natalie.mu. The OP is happy about the news and is sharing it with the thread.",
-      "source_url": "https://boards.4chan.org/a/thread/291053266",
-      "source_hint": "/a/ thread: 'The Cat and the Dragon' gets a 2nd season airing 2027",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anime news observation, no trade"
-      },
       "text_en_b2": "The TV anime 'The Cat and the Dragon,' known in Japanese as Neko to Ryu, has officially been greenlit for a second season. According to natalie.mu, the new instalment is scheduled to air sometime in 2027, much to the delight of fans on the thread. While the premise of pairing a cat with a dragon sounds oddly charming, plenty of viewers are simply happy the studio committed to continuing the story at all.",
       "text_en_c1": "According to a recent natalie.mu report surfaced on the anime board, the television adaptation of 'The Cat and the Dragon' (Neko to Ryu) has officially been greenlit for a second season, with the continuation scheduled to broadcast sometime in 2027. While I have not yet watched the original run, the central premise of pairing a cat with a dragon strikes me as inherently comedic, the kind of tonal mismatch that tends to produce either brilliance or disaster, with little middle ground. A trusted friend whose recommendations I have come to rely upon has vouched for it enthusiastically, which constitutes sufficient endorsement for me to commit.",
       "text_en_c2": "The television anime 'Neko to Ryu'—rendered in English as 'The Cat and the Dragon'—has, according to natalie.mu, secured official renewal for a second season, with broadcast currently slated for 2027. Although the original poster professes no prior familiarity with the property, the inherent incongruity of a domestic feline being paired with an apex reptilian predator strikes him as a comedic premise of considerable promise. He is content to await the recommendations of more aesthetically fastidious anons before committing to a viewing commitment, treating the intervening years as an opportunity to acquire sufficient foundational English to navigate the inevitable fan-subbed simulcast.",
-      "audio_url": "audio/2026-09-20/clip-anime-1.mp3",
-      "audio_url_b1": "audio/2026-09-20/clip-anime-1-b1.mp3",
-      "audio_url_b2": "audio/2026-09-20/clip-anime-1-b2.mp3",
-      "audio_url_c1": "audio/2026-09-20/clip-anime-1-c1.mp3",
-      "audio_url_c2": "audio/2026-09-20/clip-anime-1-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291053266",
+      "source_hint": "/a/ thread: 'The Cat and the Dragon' gets a 2nd season airing 2027"
     }
   ]
 }
