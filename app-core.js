@@ -116,7 +116,7 @@ function startSessionWithPool(pool, opts) {
   const list = (pool || []).filter(Boolean);
   if (!list.length) { toast('呢日未有短文。'); return; }
   state.returnView = opts.returnView || 'home';
-  state.session = { clipIdx: 0, stepIdx: 0, clipQueue: list.map((_, i) => i), pool: list, currentClipRatings: [], sessionRecordings: [], startedAt: Date.now(), fromReview: !!opts.returnView && opts.returnView !== 'home' };
+  state.session = { clipIdx: 0, stepIdx: 0, chunkIdx: 0, clipQueue: list.map((_, i) => i), pool: list, currentClipRatings: [], sessionRecordings: [], startedAt: Date.now(), fromReview: !!opts.returnView && opts.returnView !== 'home' };
   state.view = 'session';
   render();
 }
@@ -295,7 +295,7 @@ function finishClip() {
   if (state.todayLog.clips === state.settings.winThreshold) { recordWin(); state.progress.totalSessions += 1; saveProgress(state.progress); }
   if (lastRecordingUrl) { URL.revokeObjectURL(lastRecordingUrl); lastRecordingUrl = null; }
   recordingDuration = 0;
-  sess.clipIdx += 1; sess.stepIdx = 0; sess.currentClipRatings = []; sess.recallTextHidden = false;
+  sess.clipIdx += 1; sess.stepIdx = 0; sess.chunkIdx = 0; sess.currentClipRatings = []; sess.recallTextHidden = false;
   if (sess.clipIdx >= sess.clipQueue.length) { state.view = 'sessionComplete'; state.session = null; } else { state.view = 'clipComplete'; }
   render();
 }
