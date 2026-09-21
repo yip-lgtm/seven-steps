@@ -22,8 +22,8 @@ function renderHome() {
   const dailyBanner = state.dailyDate ? (isStale ? '<div class="daily-banner stale">Showing '+state.dailyDate+'</div>' : '<div class="daily-banner">Fresh for '+state.dailyDate+' · '+state.currentLevel+'</div>') : '';
   const emptyState = (!state.dailyDate && total === 0) ? '<div class="empty-state"><p>今日短文未到。</p><button class="btn" id="btn-retry-daily">Retry fetch</button></div>' : '';
   const avg = state.recentRatings.length ? (state.recentRatings.reduce((a,b)=>a+b,0)/state.recentRatings.length).toFixed(1) : 'default';
-  return '<div class="card home-hero"><h1>一剑七步。口裡要有真實英文。</h1>'+dailyBanner+emptyState+
-    '<p>每次最多 '+total+'則，走齊七步。一日 '+winThreshold+'則算贏。'+(wonToday?'今日已經贏咗。':'再 '+remaining+'則就贏。')+'</p>'+
+  return '<div class="card home-hero"><h1>一劍七步。口裡要有真實英文。</h1>'+dailyBanner+emptyState+
+    '<p>每次最多 '+total+' 則，走齊七步。一日 '+winThreshold+' 則算贏。'+(wonToday?'今日已經贏咗。':'再 '+remaining+' 則就贏。')+'</p>'+
     '<div class="home-grid">'+
     '<div class="home-stat"><div class="label">Level</div><div class="value">'+state.currentLevel+'</div><div class="sub">'+avg+' avg</div></div>'+
     '<div class="home-stat"><div class="label">Streak</div><div class="value">'+state.progress.streak+'</div><div class="sub">days</div></div>'+
@@ -50,31 +50,44 @@ function renderSession() {
     '<button class="btn btn-primary" id="btn-next">'+(sess.stepIdx===STEPS.length-1?'Finish clip →':'Next step →')+'</button></div>'+
     '<div class="progress">'+dots+'</div></div>';
 }
-function splitSentenceChunks(en, zh){
-  const enParts = String(en||'').split(/\s+(?=(?:I|As|If|When|Because|The|We|He|She|They|It|Blocked|If)\b)/).map(s=>s.trim()).filter(Boolean);
-  const zhParts = String(zh||'').split(/[，。；、]/).map(s=>s.trim()).filter(Boolean);
+function splitIntoBites(en, zh, maxWords){
+  maxWords = maxWords || 8;
+  function pack(text, splitRe){
+    const raw = String(text||'').trim();
+    if(!raw) return [];
+    const sentences = raw.split(splitRe).map(s=>s.trim()).filter(Boolean);
+    const out = [];
+    sentences.forEach(s=>{
+      const words = s.split(/\s+/).filter(Boolean);
+      if(words.length <= maxWords){ out.push(s); return; }
+      for(let i=0;i<words.length;i+=maxWords){
+        out.push(words.slice(i, i+maxWords).join(' '));
+      }
+    });
+    return out;
+  }
+  const enParts = pack(en, /(?<=[.!?])\s+/);
+  const zhParts = pack(zh, /[，。；、]/);
   const n = Math.max(enParts.length, zhParts.length, 1);
   const out = [];
-  for(let i=0;i<n;i++) out.push({en:enParts[i]||'', zh:zhParts[i]||''});
-  if(out.length===1 && (enParts[0]||'').split(/\s+/).length>10){
-    const words=(enParts[0]||'').split(/\s+/);
-    const mid=Math.ceil(words.length/2);
-    out[0]={en:words.slice(0,mid).join(' '), zh:zhParts[0]||''};
-    out.push({en:words.slice(mid).join(' '), zh:zhParts[1]||''});
-  }
+  for(let i=0;i<n;i++) out.push({en: enParts[i]||'', zh: zhParts[i]||''});
   return out;
 }
+function splitSentenceChunks(en, zh){ return splitIntoBites(en, zh, 8); }
 function renderChunkedTranscript(enText, zhText){
-  const chunks = splitSentenceChunks(enText, zhText);
-  if(chunks.length<=1){
-    return '<div class="transcript">'+esc(enText)+'</div>'+(zhText?'<span class="input-label" style="margin-top:14px">中文</span><div class="transcript zh">'+esc(zhText)+'</div>':'');
-  }
-  let html='<div class="chunk-list">';
-  chunks.forEach((c,i)=>{
-    html+='<div class="chunk-item" data-chunk="'+i+'"><div class="chunk-en">'+esc(c.en)+'</div>'+(c.zh?'<div class="chunk-zh">'+esc(c.zh)+'</div>':'')+'<button class="btn btn-ghost chunk-play" data-play-chunk="'+i+'">播段落</button></div>';
-  });
-  html+='</div><div class="chunk-play-all mt-2"><button class="btn" id="btn-play-all">播成句</button></div>';
-  return html;
+  const sess = state.session || {};
+  const chunks = splitIntoBites(enText, zhText, 8);
+  if(sess.chunkIdx == null || sess.chunkIdx < 0) sess.chunkIdx = 0;
+  if(sess.chunkIdx >= chunks.length) sess.chunkIdx = chunks.length - 1;
+  const i = sess.chunkIdx || 0;
+  const c = chunks[i] || {en: enText, zh: zhText};
+  return '<div class="bite-box"><div class="bite-meta">第 '+(i+1)+' / '+chunks.length+' 句</div>'+
+    '<div class="bite-en">'+esc(c.en)+'</div>'+(c.zh?'<div class="bite-zh">'+esc(c.zh)+'</div>':'')+
+    '<div class="bite-nav">'+
+    '<button class="btn" id="btn-prev-bite"'+(i<=0?' disabled':'')+'>上一句</button>'+
+    '<button class="btn btn-warm" id="btn-play-bite">播呢句</button>'+
+    '<button class="btn" id="btn-next-bite"'+(i>=chunks.length-1?' disabled':'')+'>下一句</button>'+
+    '</div></div>';
 }
 function renderStepBody(step, clip, sess) {
   const enText = getTextForLevel(clip);
@@ -105,7 +118,7 @@ function renderReview() {
   const rows = days.length ? days.map(d => {
     const n = (d.clips||[]).length;
     const chips = (d.clips||[]).slice(0,4).map(c => '<span class="review-chip">'+esc(c.topic_zh||c.topic_en||'')+'</span>').join('');
-    return '<button type="button" class="review-day" data-date="'+esc(d.date)+'"><div class="when">'+esc(formatReviewDate(d.date))+'</div><div class="count">'+n+'則</div><div class="review-chips">'+chips+'</div></button>';
+    return '<button type="button" class="review-day" data-date="'+esc(d.date)+'"><div class="when">'+esc(formatReviewDate(d.date))+'</div><div class="count">'+n+' 則</div><div class="review-chips">'+chips+'</div></button>';
   }).join('') : '<div class="empty-state"><p>未有可重溫的短文。</p></div>';
   return '<div class="card"><div class="review-head"><div><h1>重溫</h1><p>以前的每日短文。</p></div></div>'+rows+'<div class="btn-row mt-4"><button class="btn btn-primary" id="btn-back">← Back</button></div></div>';
 }
@@ -114,7 +127,7 @@ function renderReviewDay() {
   if (!day) return '<div class="card"><p>撿唔到呢日。</p><button class="btn" id="btn-review-back">← 重溫</button></div>';
   const clips = day.clips || [];
   const items = clips.map((c,i) => '<div class="review-clip">'+(c.category?'<div class="topic-tag">'+esc(c.category)+'</div>':'')+'<div class="zh">'+esc(c.topic_zh||'')+'</div><div class="en">'+esc(c.topic_en||'')+'</div><div class="body">'+esc(getTextForLevel(c))+'</div>'+(c.text_zh?'<div class="body zh-txt">'+esc(c.text_zh)+'</div>':'')+'<div class="btn-row mt-2"><button class="btn" data-review-play="'+i+'">Play</button><button class="btn btn-primary" data-review-practice="'+i+'">練呢則</button></div></div>').join('');
-  return '<div class="card"><div class="review-head"><div><h1>'+esc(formatReviewDate(day.date))+'</h1><p>'+clips.length+'則</p></div></div>'+items+'<div class="btn-row mt-4"><button class="btn" id="btn-review-practice-all">練成日</button><button class="btn btn-primary" id="btn-review-back">← 重溫</button></div></div>';
+  return '<div class="card"><div class="review-head"><div><h1>'+esc(formatReviewDate(day.date))+'</h1><p>'+clips.length+' 則</p></div></div>'+items+'<div class="btn-row mt-4"><button class="btn" id="btn-review-practice-all">練成日</button><button class="btn btn-primary" id="btn-review-back">← 重溫</button></div></div>';
 }
 function renderSettings() {
   const s = state.settings;
@@ -142,7 +155,14 @@ function attachHandlers() {
   on('btn-retry-daily', async () => { await loadDailyClips(); render(); });
   on('btn-test', () => speak("The morning is my favorite part of the day, because it's quiet and nobody needs anything from me yet."));
   on('btn-reset', resetAll);
-  on('btn-play-all', () => { const clip = sessionClip(0); if(clip) speak(getTextForLevel(clip)); });
+  on('btn-prev-bite', () => { if(!state.session) return; state.session.chunkIdx = Math.max(0, (state.session.chunkIdx||0)-1); render(); });
+  on('btn-next-bite', () => { if(!state.session) return; state.session.chunkIdx = (state.session.chunkIdx||0)+1; render(); });
+  on('btn-play-bite', () => {
+    const clip = sessionClip(0); if(!clip) return;
+    const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 8);
+    const c = chunks[state.session.chunkIdx||0];
+    if(c && c.en) speak(c.en);
+  });
   document.querySelectorAll('.review-day').forEach(btn => btn.addEventListener('click', () => { state.reviewDate = btn.getAttribute('data-date'); state.view = 'reviewDay'; render(); }));
   document.querySelectorAll('[data-review-play]').forEach(btn => btn.addEventListener('click', () => {
     const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
@@ -159,15 +179,17 @@ function attachHandlers() {
     if (day && day.clips && day.clips.length) startSessionWithPool(day.clips, { returnView: 'reviewDay' });
   });
   const btnPlay = document.getElementById('btn-play');
-  if (btnPlay) btnPlay.addEventListener('click', () => speakAndToggle(sessionClip(0), btnPlay));
-  document.querySelectorAll('[data-play-chunk]').forEach(btn => btn.addEventListener('click', () => {
-    const i = Number(btn.getAttribute('data-play-chunk'));
-    const clip = sessionClip(0);
-    if(!clip) return;
-    const chunks = splitSentenceChunks(getTextForLevel(clip), clip.text_zh||'');
-    const c = chunks[i];
-    if(c) speak(c.en);
-  }));
+  if (btnPlay) btnPlay.addEventListener('click', () => {
+    const clip = sessionClip(0); if(!clip) return;
+    const step = STEPS[state.session.stepIdx];
+    if(step && (step.id==='read' || step.id==='recall' || step.id==='grasp')){
+      const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 8);
+      const c = chunks[state.session.chunkIdx||0];
+      if(c && c.en) speak(c.en);
+      return;
+    }
+    speakAndToggle(clip, btnPlay);
+  });
   const stars = document.getElementById('stars');
   if (stars) stars.querySelectorAll('.star').forEach(s => s.addEventListener('click', () => {
     const selected = parseInt(s.dataset.n, 10);
