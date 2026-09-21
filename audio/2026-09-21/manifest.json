@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-21",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro",
+      "topic_en": "Buy commodities",
+      "topic_zh": "油鈾銅金銀",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-b1.mp3",
+        "b2": "clip-trade-macro-b2.mp3",
+        "c1": "clip-trade-macro-c1.mp3",
+        "c2": "clip-trade-macro-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-tesla",
+      "topic_en": "Just buy AMD",
+      "topic_zh": "AMD撐NVIDIA",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-tesla-b1.mp3",
+        "b2": "clip-trade-tesla-b2.mp3",
+        "c1": "clip-trade-tesla-c1.mp3",
+        "c2": "clip-trade-tesla-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-drainage",
+      "topic_en": "Slope survey basics",
+      "topic_zh": "斜坡調查",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-drainage-b1.mp3",
+        "b2": "clip-civil-drainage-b2.mp3",
+        "c1": "clip-civil-drainage-c1.mp3",
+        "c2": "clip-civil-drainage-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-struct",
+      "topic_en": "Load path check",
+      "topic_zh": "結構load path",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-struct-b1.mp3",
+        "b2": "clip-civil-struct-b2.mp3",
+        "c1": "clip-civil-struct-c1.mp3",
+        "c2": "clip-civil-struct-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai",
+      "topic_en": "Apple AI spying",
+      "topic_zh": "AI偷睇你",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-b1.mp3",
+        "b2": "clip-tech-ai-b2.mp3",
+        "c1": "clip-tech-ai-c1.mp3",
+        "c2": "clip-tech-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news",
+      "topic_en": "China arms Iran",
+      "topic_zh": "中伊軍售",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-b1.mp3",
+        "b2": "clip-hk-news-b2.mp3",
+        "c1": "clip-hk-news-c1.mp3",
+        "c2": "clip-hk-news-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit",
+      "topic_en": "Creatine bad?",
+      "topic_zh": "creatine迷思",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-b1.mp3",
+        "b2": "clip-mma-fit-b2.mp3",
+        "c1": "clip-mma-fit-c1.mp3",
+        "c2": "clip-mma-fit-c2.mp3"
+      }
+    }
+  ]
+}
