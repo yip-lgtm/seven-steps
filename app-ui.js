@@ -22,15 +22,15 @@ function renderHome() {
   const dailyBanner = state.dailyDate ? (isStale ? '<div class="daily-banner stale">Showing '+state.dailyDate+'</div>' : '<div class="daily-banner">Fresh for '+state.dailyDate+' · '+state.currentLevel+'</div>') : '';
   const emptyState = (!state.dailyDate && total === 0) ? '<div class="empty-state"><p>今日短文未到。</p><button class="btn" id="btn-retry-daily">Retry fetch</button></div>' : '';
   const avg = state.recentRatings.length ? (state.recentRatings.reduce((a,b)=>a+b,0)/state.recentRatings.length).toFixed(1) : 'default';
-  return '<div class="card home-hero"><h1>一劍七步。口裡要有真實英文。</h1>'+dailyBanner+emptyState+
-    '<p>每次最多 '+total+' 則，走齊七步。一日 '+winThreshold+' 則算贏。'+(wonToday?'今日已經贏咗。':'再 '+remaining+' 則就贏。')+'</p>'+
+  return '<div class="card home-hero"><h1>一剑七步。口裡要有真實英文。</h1>'+dailyBanner+emptyState+
+    '<p>每次最多 '+total+'則，走齊七步。一日 '+winThreshold+'則算贏。'+(wonToday?'今日已經贏咗。':'再 '+remaining+'則就贏。')+'</p>'+
     '<div class="home-grid">'+
     '<div class="home-stat"><div class="label">Level</div><div class="value">'+state.currentLevel+'</div><div class="sub">'+avg+' avg</div></div>'+
     '<div class="home-stat"><div class="label">Streak</div><div class="value">'+state.progress.streak+'</div><div class="sub">days</div></div>'+
     '<div class="home-stat"><div class="label">Today</div><div class="value">'+log.clips+'/'+total+'</div><div class="sub">'+(wonToday?'won':remaining+' to win')+'</div></div>'+
     '<div class="home-stat"><div class="label">All time</div><div class="value">'+state.progress.totalClips+'</div><div class="sub">clips</div></div></div>'+
     '<div class="btn-row"><button class="btn btn-primary btn-large" id="btn-start"'+(state.clips.length?'':' disabled')+'>'+(log.clips>0?'Continue today':'Start today')+'</button>'+
-    '<button class="btn btn-ghost" id="btn-review">重温</button><button class="btn btn-ghost" id="btn-settings">Settings</button>'+
+    '<button class="btn btn-ghost" id="btn-review">重溫</button><button class="btn btn-ghost" id="btn-settings">Settings</button>'+
     '<a class="btn btn-warm" href="practice.html">無限出句</a></div><ul class="steps-list">'+stepsHtml+'</ul></div>';
 }
 function renderSession() {
@@ -50,13 +50,39 @@ function renderSession() {
     '<button class="btn btn-primary" id="btn-next">'+(sess.stepIdx===STEPS.length-1?'Finish clip →':'Next step →')+'</button></div>'+
     '<div class="progress">'+dots+'</div></div>';
 }
+function splitSentenceChunks(en, zh){
+  const enParts = String(en||'').split(/\s+(?=(?:I|As|If|When|Because|The|We|He|She|They|It|Blocked|If)\b)/).map(s=>s.trim()).filter(Boolean);
+  const zhParts = String(zh||'').split(/[，。；、]/).map(s=>s.trim()).filter(Boolean);
+  const n = Math.max(enParts.length, zhParts.length, 1);
+  const out = [];
+  for(let i=0;i<n;i++) out.push({en:enParts[i]||'', zh:zhParts[i]||''});
+  if(out.length===1 && (enParts[0]||'').split(/\s+/).length>10){
+    const words=(enParts[0]||'').split(/\s+/);
+    const mid=Math.ceil(words.length/2);
+    out[0]={en:words.slice(0,mid).join(' '), zh:zhParts[0]||''};
+    out.push({en:words.slice(mid).join(' '), zh:zhParts[1]||''});
+  }
+  return out;
+}
+function renderChunkedTranscript(enText, zhText){
+  const chunks = splitSentenceChunks(enText, zhText);
+  if(chunks.length<=1){
+    return '<div class="transcript">'+esc(enText)+'</div>'+(zhText?'<span class="input-label" style="margin-top:14px">中文</span><div class="transcript zh">'+esc(zhText)+'</div>':'');
+  }
+  let html='<div class="chunk-list">';
+  chunks.forEach((c,i)=>{
+    html+='<div class="chunk-item" data-chunk="'+i+'"><div class="chunk-en">'+esc(c.en)+'</div>'+(c.zh?'<div class="chunk-zh">'+esc(c.zh)+'</div>':'')+'<button class="btn btn-ghost chunk-play" data-play-chunk="'+i+'">播段落</button></div>';
+  });
+  html+='</div><div class="chunk-play-all mt-2"><button class="btn" id="btn-play-all">播成句</button></div>';
+  return html;
+}
 function renderStepBody(step, clip, sess) {
   const enText = getTextForLevel(clip);
   const zhText = clip.text_zh || '';
   const play = '<div class="play-area"><button class="play-circle" id="btn-play" aria-label="Play">'+playIcon()+'</button>';
   const rec = '<div class="rec-area mt-3"><button class="rec-btn" id="btn-rec">●</button><div class="rec-indicator" id="rec-ind"><div class="rec-dot"></div><span>Recording · <span id="rec-time">0:00</span></span></div>'+
     (lastRecordingUrl?'<div class="audio-playback"><audio controls src="'+lastRecordingUrl+'"></audio><button class="btn" id="btn-again">Record again</button></div>':'')+'</div>';
-  const pair = '<div class="mt-3"><span class="input-label">English ('+state.currentLevel+')</span><div class="transcript">'+esc(enText)+'</div>'+(zhText?'<span class="input-label" style="margin-top:14px">中文</span><div class="transcript zh">'+esc(zhText)+'</div>':'')+'</div>';
+  const pair = '<div class="mt-3"><span class="input-label">English ('+state.currentLevel+')</span>'+renderChunkedTranscript(enText, zhText)+'</div>';
   if (step.id==='rate') return play+'<div class="play-label">Tap to play.</div><div class="stars" id="stars">'+[1,2,3,4,5].map(n=>'<div class="star" data-n="'+n+'">★</div>').join('')+'</div><div class="play-label" id="rate-hint">How much at <strong>'+state.currentLevel+'</strong>?</div></div>';
   if (step.id==='grasp') return play+'<div class="play-label">Write the meaning in English.</div></div><div style="margin-top:18px"><textarea class="textarea" id="grasp-input" placeholder="Type the gist."></textarea></div><div class="mt-2"><button class="btn" id="btn-reveal">Reveal →</button><div id="reveal-area" class="mt-2" style="display:none">'+pair+'</div></div>';
   if (step.id==='hum') return play+'<div class="play-label">Hum the rhythm. No words.</div></div>';
@@ -79,16 +105,16 @@ function renderReview() {
   const rows = days.length ? days.map(d => {
     const n = (d.clips||[]).length;
     const chips = (d.clips||[]).slice(0,4).map(c => '<span class="review-chip">'+esc(c.topic_zh||c.topic_en||'')+'</span>').join('');
-    return '<button type="button" class="review-day" data-date="'+esc(d.date)+'"><div class="when">'+esc(formatReviewDate(d.date))+'</div><div class="count">'+n+' 則</div><div class="review-chips">'+chips+'</div></button>';
-  }).join('') : '<div class="empty-state"><p>未有可重温嘅短文。</p></div>';
-  return '<div class="card"><div class="review-head"><div><h1>重温</h1><p>以前嘅每日短文。</p></div></div>'+rows+'<div class="btn-row mt-4"><button class="btn btn-primary" id="btn-back">← Back</button></div></div>';
+    return '<button type="button" class="review-day" data-date="'+esc(d.date)+'"><div class="when">'+esc(formatReviewDate(d.date))+'</div><div class="count">'+n+'則</div><div class="review-chips">'+chips+'</div></button>';
+  }).join('') : '<div class="empty-state"><p>未有可重溫的短文。</p></div>';
+  return '<div class="card"><div class="review-head"><div><h1>重溫</h1><p>以前的每日短文。</p></div></div>'+rows+'<div class="btn-row mt-4"><button class="btn btn-primary" id="btn-back">← Back</button></div></div>';
 }
 function renderReviewDay() {
   const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
-  if (!day) return '<div class="card"><p>搵唔到呢日。</p><button class="btn" id="btn-review-back">← 重温</button></div>';
+  if (!day) return '<div class="card"><p>撿唔到呢日。</p><button class="btn" id="btn-review-back">← 重溫</button></div>';
   const clips = day.clips || [];
-  const items = clips.map((c,i) => '<div class="review-clip">'+(c.category?'<div class="topic-tag">'+esc(c.category)+'</div>':'')+'<div class="zh">'+esc(c.topic_zh||'')+'</div><div class="en">'+esc(c.topic_en||'')+'</div><div class="body">'+esc(getTextForLevel(c))+'</div>'+(c.text_zh?'<div class="body zh-txt">'+esc(c.text_zh)+'</div>':'')+'<div class="btn-row mt-2"><button class="btn" data-review-play="'+i+'">Play</button><button class="btn btn-primary" data-review-practice="'+i+'">练呢則</button></div></div>').join('');
-  return '<div class="card"><div class="review-head"><div><h1>'+esc(formatReviewDate(day.date))+'</h1><p>'+clips.length+' 則</p></div></div>'+items+'<div class="btn-row mt-4"><button class="btn" id="btn-review-practice-all">练成日</button><button class="btn btn-primary" id="btn-review-back">← 重温</button></div></div>';
+  const items = clips.map((c,i) => '<div class="review-clip">'+(c.category?'<div class="topic-tag">'+esc(c.category)+'</div>':'')+'<div class="zh">'+esc(c.topic_zh||'')+'</div><div class="en">'+esc(c.topic_en||'')+'</div><div class="body">'+esc(getTextForLevel(c))+'</div>'+(c.text_zh?'<div class="body zh-txt">'+esc(c.text_zh)+'</div>':'')+'<div class="btn-row mt-2"><button class="btn" data-review-play="'+i+'">Play</button><button class="btn btn-primary" data-review-practice="'+i+'">練呢則</button></div></div>').join('');
+  return '<div class="card"><div class="review-head"><div><h1>'+esc(formatReviewDate(day.date))+'</h1><p>'+clips.length+'則</p></div></div>'+items+'<div class="btn-row mt-4"><button class="btn" id="btn-review-practice-all">練成日</button><button class="btn btn-primary" id="btn-review-back">← 重溫</button></div></div>';
 }
 function renderSettings() {
   const s = state.settings;
@@ -116,6 +142,7 @@ function attachHandlers() {
   on('btn-retry-daily', async () => { await loadDailyClips(); render(); });
   on('btn-test', () => speak("The morning is my favorite part of the day, because it's quiet and nobody needs anything from me yet."));
   on('btn-reset', resetAll);
+  on('btn-play-all', () => { const clip = sessionClip(0); if(clip) speak(getTextForLevel(clip)); });
   document.querySelectorAll('.review-day').forEach(btn => btn.addEventListener('click', () => { state.reviewDate = btn.getAttribute('data-date'); state.view = 'reviewDay'; render(); }));
   document.querySelectorAll('[data-review-play]').forEach(btn => btn.addEventListener('click', () => {
     const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
@@ -133,6 +160,14 @@ function attachHandlers() {
   });
   const btnPlay = document.getElementById('btn-play');
   if (btnPlay) btnPlay.addEventListener('click', () => speakAndToggle(sessionClip(0), btnPlay));
+  document.querySelectorAll('[data-play-chunk]').forEach(btn => btn.addEventListener('click', () => {
+    const i = Number(btn.getAttribute('data-play-chunk'));
+    const clip = sessionClip(0);
+    if(!clip) return;
+    const chunks = splitSentenceChunks(getTextForLevel(clip), clip.text_zh||'');
+    const c = chunks[i];
+    if(c) speak(c.en);
+  }));
   const stars = document.getElementById('stars');
   if (stars) stars.querySelectorAll('.star').forEach(s => s.addEventListener('click', () => {
     const selected = parseInt(s.dataset.n, 10);
