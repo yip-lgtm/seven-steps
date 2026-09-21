@@ -33,6 +33,12 @@
   .keybox input{width:100%;margin-top:6px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
   .ok{color:#3b7a4f;font-size:12px}
   .err{color:var(--danger);font-size:13px;margin-top:8px;white-space:pre-wrap}
+  .chunk-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+  .chunk{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:10px 12px;font-size:14px;cursor:pointer;font-family:inherit;max-width:100%}
+  .chunk.on{background:var(--accent-soft, #c8e3df);border-color:var(--accent)}
+  .chunk .c-en{font-weight:600}
+  .chunk .c-zh{display:block;color:var(--ink-soft);font-size:12px;margin-top:4px}
+  .chunk-play{margin-top:8px}
 </style>
 </head>
 <body>
@@ -43,7 +49,7 @@
   </div>
   <div class="card">
     <h1>免費模型出新句</h1>
-    <p class="lead">推理模型的思考文字會被剝走。亂寫也會抽英文同粵語。全部失敗先用題庫。</p>
+    <p class="lead">長句會自動拆成細段，逐段播。撳細段可以單段重聽。推理模型的思考文字會被剝走。亂寫也會抽英文同粵語。全部失敗先用題庫。</p>
     <div class="keybox">
       <div class="meta">Key（sk-or-v1-... 或 AIza...）</div>
       <input id="key" type="password" placeholder="OpenRouter 或 Gemini 免費 key">
@@ -60,6 +66,11 @@
     <div class="meta" id="tag">—</div>
     <div class="en" id="en">撲下一句。</div>
     <div class="zh" id="zh">免費模型忙就換第二個。</div>
+    <div class="chunk-row" id="chunks"></div>
+    <div class="chunk-play" id="chunkplay" style="display:none">
+      <button class="btn btn-warm" id="playchunk">播呢段</button>
+      <button class="btn" id="playall">播成句</button>
+    </div>
     <div class="err" id="err"></div>
     <div class="btn-row">
       <button class="btn btn-primary" id="next">下一句</button>
@@ -81,6 +92,8 @@ const OR_MODELS=[
 const GEM_MODELS=["gemini-2.5-flash","gemini-2.0-flash","gemini-2.0-flash-lite"];
 const KEY_ID="ss.openrouter"; const USED_ID="ss.used.v1"; const PROV_ID="ss.provider";
 let topic="fle", len="mid", n=0, provider=localStorage.getItem(PROV_ID)||"auto";
+let currentChunks=[];
+let currentChunkIdx=0;
 const TOPIC_EN={fle:"ICE FLE Early Warning NEC4 case study",ise:"IStructE two schemes load path transfer plate",slope:"slope cracks blocked drain soil nails safety factor",struct:"retaining wall steel cheaper option",mix:"civil structural exam English"};
 function pick(a){return a[Math.floor(Math.random()*a.length)]}
 function norm(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}
@@ -206,6 +219,47 @@ async function aiSentence(){
   if(tryGem){ for(const mid of GEM_MODELS){ try{ const hit=await callGemini(mid,avoid,k); if(!isUsed(hit.en)) return hit; }catch(e){ errs.push(String(e.message||e)) } } }
   throw new Error(errs.map(friendlyErr).slice(0,4).join("\n")||"全部免費模型失敗");
 }
+function splitChunks(en, zh){
+  const enParts=en.split(/\s+(?=(?:I|As|If|When|Because|The|We|He|She|They|It)\b)/).map(s=>s.trim()).filter(Boolean);
+  const zhParts=zh.split(/[，。；、]/).map(s=>s.trim()).filter(Boolean);
+  const n=Math.max(enParts.length, zhParts.length, 1);
+  const out=[];
+  for(let i=0;i<n;i++){
+    out.push({en:enParts[i]||"", zh:zhParts[i]||""});
+  }
+  if(out.length===1 && wordCount(en)>10){
+    const words=en.split(/\s+/);
+    const mid=Math.ceil(words.length/2);
+    out[0]={en:words.slice(0,mid).join(" "), zh:zhParts[0]||""};
+    out.push({en:words.slice(mid).join(" "), zh:zhParts[1]||""});
+  }
+  return out;
+}
+function renderChunks(){
+  const box=document.getElementById("chunks");
+  const play=document.getElementById("chunkplay");
+  box.innerHTML="";
+  if(!currentChunks.length){ play.style.display="none"; return; }
+  play.style.display="block";
+  currentChunks.forEach((c,i)=>{
+    const b=document.createElement("button");
+    b.className="chunk"+(i===currentChunkIdx?" on":"");
+    b.innerHTML='<span class="c-en">'+ (c.en||"") +'</span>'+(c.zh?'<span class="c-zh">'+c.zh+'</span>':'');
+    b.onclick=()=>{ currentChunkIdx=i; renderChunks(); speakChunk(i); };
+    box.appendChild(b);
+  });
+}
+function speakText(text){
+  if(!window.speechSynthesis || !text) return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang="en-US"; u.rate=0.9;
+  speechSynthesis.speak(u);
+}
+function speakChunk(i){
+  const c=currentChunks[i]; if(!c) return;
+  speakText(c.en);
+}
 function show(hit,src){
   markUsed(hit.en); n+=1; setStat();
   const labels={fle:"ICE FLE",ise:"IStructE",slope:"斜坡",struct:"結構",mix:"全部"};
@@ -213,16 +267,22 @@ function show(hit,src){
   document.getElementById("en").textContent=hit.en;
   document.getElementById("zh").textContent=hit.zh;
   document.getElementById("count").textContent="已出 "+n+" 句 · 已鎖 "+loadUsed().length;
+  currentChunks=splitChunks(hit.en, hit.zh);
+  currentChunkIdx=0;
+  renderChunks();
 }
 async function next(){
   const btn=document.getElementById("next"); const err=document.getElementById("err");
   err.textContent=""; btn.disabled=true;
   document.getElementById("en").textContent=key()?"免費模型出緊句...":"題庫出句...";
+  document.getElementById("zh").textContent="";
+  document.getElementById("chunks").innerHTML="";
+  document.getElementById("chunkplay").style.display="none";
   try{ show(await aiSentence(), key()?"免費 LLM":"題庫") }
   catch(e){ err.textContent=String(e.message||e)+"\n已轉題庫。等幾分鐘再試，或者貼 Gemini key。"; show(fallback(),"題庫") }
   btn.disabled=false;
 }
-function speak(){const text=document.getElementById("en").textContent; if(!window.speechSynthesis)return; speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; u.rate=0.92; speechSynthesis.speak(u)}
+function speak(){const text=document.getElementById("en").textContent; speakText(text)}
 function chips(el, items, current, onpick){el.innerHTML=""; items.forEach(x=>{const b=document.createElement("button"); b.className="chip"+(current===x.id?" on":""); b.textContent=x.label; b.onclick=()=>onpick(x.id); el.appendChild(b)})}
 function render(){
   chips(document.getElementById("topics"), TOPICS, topic, id=>{topic=id; render()});
@@ -234,6 +294,8 @@ document.getElementById("clear").onclick=()=>{localStorage.removeItem(KEY_ID); s
 document.getElementById("reset").onclick=()=>{localStorage.removeItem(USED_ID); setStat()};
 document.getElementById("next").onclick=next;
 document.getElementById("speak").onclick=speak;
+document.getElementById("playchunk").onclick=()=>speakChunk(currentChunkIdx);
+document.getElementById("playall").onclick=()=>speakText(document.getElementById("en").textContent);
 if(localStorage.getItem("ss.theme")==="dark") document.body.classList.add("dark");
 render(); setStat();
 </script>
