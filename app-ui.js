@@ -50,33 +50,37 @@ function renderSession() {
     '<button class="btn btn-primary" id="btn-next">'+(sess.stepIdx===STEPS.length-1?'Finish clip →':'Next step →')+'</button></div>'+
     '<div class="progress">'+dots+'</div></div>';
 }
-function splitIntoBites(en, zh, maxWords){
-  maxWords = maxWords || 8;
-  function pack(text, splitRe){
-    const raw = String(text||'').trim();
-    if(!raw) return [];
-    const sentences = raw.split(splitRe).map(s=>s.trim()).filter(Boolean);
-    const out = [];
-    sentences.forEach(s=>{
-      const words = s.split(/\s+/).filter(Boolean);
-      if(words.length <= maxWords){ out.push(s); return; }
-      for(let i=0;i<words.length;i+=maxWords){
-        out.push(words.slice(i, i+maxWords).join(' '));
-      }
-    });
-    return out;
-  }
-  const enParts = pack(en, /(?<=[.!?])\s+/);
-  const zhParts = pack(zh, /[，。；、]/);
-  const n = Math.max(enParts.length, zhParts.length, 1);
-  const out = [];
-  for(let i=0;i<n;i++) out.push({en: enParts[i]||'', zh: zhParts[i]||''});
-  return out;
+function isMostlyCjk(s){
+  const cjk = (String(s).match(/[\u4e00-\u9fff]/g)||[]).length;
+  const lat = (String(s).match(/[A-Za-z]/g)||[]).length;
+  return cjk > 0 && cjk >= lat;
 }
-function splitSentenceChunks(en, zh){ return splitIntoBites(en, zh, 8); }
+function splitIntoBites(en, zh, maxWords){
+  maxWords = maxWords || 6;
+  const raw = String(en||'').replace(/\s+/g,' ').trim();
+  const pieces = raw.split(/[.!?\u3002\uff01\uff1f]+\s*|[\u3001\uff0c\uff1b]+/).map(s=>s.trim()).filter(Boolean);
+  const enBits = [];
+  pieces.forEach(p=>{
+    if(isMostlyCjk(p)) return;
+    const words = p.split(/\s+/).filter(Boolean);
+    if(!words.length) return;
+    if(words.length <= maxWords){ enBits.push(words.join(' ')); return; }
+    for(let i=0;i<words.length;i+=maxWords){
+      const bit = words.slice(i, i+maxWords).join(' ');
+      if(bit) enBits.push(bit);
+    }
+  });
+  if(!enBits.length && raw){
+    const words = raw.split(/\s+/).filter(w=>!isMostlyCjk(w));
+    for(let i=0;i<words.length;i+=maxWords) enBits.push(words.slice(i,i+maxWords).join(' '));
+  }
+  const zhParts = String(zh||'').split(/[\u3001\u3002\uff1b\uff0c]/).map(s=>s.trim()).filter(Boolean);
+  return (enBits.length?enBits:[raw]).map((e,i)=>({en:e, zh: zhParts[i]||''}));
+}
+function splitSentenceChunks(en, zh){ return splitIntoBites(en, zh, 6); }
 function renderChunkedTranscript(enText, zhText){
   const sess = state.session || {};
-  const chunks = splitIntoBites(enText, zhText, 8);
+  const chunks = splitIntoBites(enText, zhText, 6);
   if(sess.chunkIdx == null || sess.chunkIdx < 0) sess.chunkIdx = 0;
   if(sess.chunkIdx >= chunks.length) sess.chunkIdx = chunks.length - 1;
   const i = sess.chunkIdx || 0;
@@ -159,7 +163,7 @@ function attachHandlers() {
   on('btn-next-bite', () => { if(!state.session) return; state.session.chunkIdx = (state.session.chunkIdx||0)+1; render(); });
   on('btn-play-bite', () => {
     const clip = sessionClip(0); if(!clip) return;
-    const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 8);
+    const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 6);
     const c = chunks[state.session.chunkIdx||0];
     if(c && c.en) speak(c.en);
   });
@@ -183,7 +187,7 @@ function attachHandlers() {
     const clip = sessionClip(0); if(!clip) return;
     const step = STEPS[state.session.stepIdx];
     if(step && (step.id==='read' || step.id==='recall' || step.id==='grasp')){
-      const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 8);
+      const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 6);
       const c = chunks[state.session.chunkIdx||0];
       if(c && c.en) speak(c.en);
       return;
