@@ -1,6 +1,103 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "days": [
+    {
+      "date": "2026-09-22",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "clip-1-btc-bottom",
+          "category": "trading",
+          "topic_zh": "BTC底部接唔接",
+          "topic_en": "BTC bottom or top?",
+          "text_zh": "60k BTC / 1.5k ETH 係咪就係bottom？等到而家仲等？直接all-in啦屍殺。btw我倉已經傷到唔想望，真係又係學費。🙏",
+          "text_en_b1": "What's the probability that 60k BTC and 1.5k ETH was the bottom? Is it better to just buy now instead of waiting longer? A lot of people on /biz/ think we already bottomed, but nobody wants to catch a falling knife. The thread is split between buying spot now and waiting for confirmation.",
+          "text_en_b2": "Is there a realistic chance that 60k BTC and 1.5k ETH already marked the bottom, or are we just fooling ourselves waiting for confirmation? On /biz/ sentiment is split: half the thread is convinced we bounced, while the other half insists catching a falling knife remains the cardinal sin of crypto. Buying spot now versus holding off divides the room, and honestly my portfolio is bleeding enough that I almost do not want to look.",
+          "text_en_c1": "What are the odds that the recent levels around 60k for Bitcoin and 1.5k for Ethereum actually constituted a durable bottom, rather than merely a pause before further downside? On /biz/, sentiment is sharply divided: one camp insists that anyone still sidelined is paying an opportunity cost that compounds daily, and advocates going all-in on spot, whereas the other camp warns that catching a falling knife without confirmation remains a textbook way to torch capital. Confirmation, in their view, would require a decisive reclaim of prior resistance on meaningful volume.",
+          "text_en_c2": "What, in any rigorous estimation, is the probability that 60k BTC and 1.5k ETH constituted the cyclical floor rather than a midstream pause? The thread is rent between two camps: those urging an immediate all-in deployment on the assumption the bottom is in, and those counselling against catching a falling knife without confirmation. I myself have been sitting on positions deep enough in the red that glancing at the portfolio has become a form of self-harm; every additional day of waiting feels less like prudence and more like tuition paid twice for the same lesson. The 4chan consensus, such as it is, oscillates between capitulation and conviction.",
+          "source_url": "https://boards.4chan.org/biz/thread/62711559",
+          "source_hint": "/biz/ thread asks if 60k BTC / 1.5k ETH was the bottom"
+        },
+        {
+          "id": "clip-2-link-altcoins",
+          "category": "trading",
+          "topic_zh": "LINK仲有冇戲",
+          "topic_en": "LINK vs altcoins",
+          "text_zh": "LINK死氣沉沉，跟個altcoin market一樣廢。咩oracle standard、SWEGA嗰啲都已經priced in。仲有咩catalyst可以爆？又要再交一次學費？🧐",
+          "text_en_b1": "Serious question for LINK holders: what makes you think LINK will pump by itself? Over the last 5 years LINK has performed about the same as the rest of the altcoin market. Blue line is total crypto market excluding BTC against LINK on the normal chart. Most of the things people used to speculate about Chainlink have already happened, so you could say they are…",
+          "text_en_b2": "Honest question for anyone still holding LINK: what exactly is going to send it flying on its own? Over the past five years it has essentially tracked the broader altcoin market, as the chart makes painfully clear. Oracle partnerships and SWIFT integration chatter, once the main catalysts people pointed to, have largely played out and are arguably priced in. Without a fresh narrative, another round of tuition fees seems inevitable.",
+          "text_en_c1": "A serious question, ostensibly directed at existing LINK holders: what precisely underpins the conviction that Chainlink can decouple from the broader altcoin complex and rally on its own merits? The five-year chart suggests otherwise — overlaid against the total crypto market cap ex-BTC, LINK has tracked the cohort almost tick for tick, neither lagging dramatically nor outperforming. The usual speculative hooks — the oracle narrative, the SWIFT integration whispers — have by and large been realised, or at least priced in well ahead of delivery.",
+          "text_en_c2": "A serious, if uncomfortable, question for anyone still holding LINK: on what basis do you genuinely believe the token will outperform the broader altcoin complex? Over the preceding five years, plotted against total crypto market capitalisation excluding BTC, LINK has tracked the sector with remarkable fidelity, neither leading nor lagging in any statistically meaningful sense. The putative catalysts once cited, partnership announcements of the SWIFT variety, oracle standardisation, the slow institutionalisation of Chainlink's data feeds, have by and large already crystallised, and any honest analyst must concede they are priced in. What, then, remains? One is tempted to conclude that further exposure amounts to paying for an education whose lessons one has ostensibly already learned.",
+          "source_url": "https://boards.4chan.org/biz/thread/62709287",
+          "source_hint": "/biz/ thread doubts LINK outperforming the altcoin market"
+        },
+        {
+          "id": "clip-3-slope-gi",
+          "category": "civil/structure",
+          "topic_zh": "斜坡ground investigation",
+          "topic_en": "Slope investigation report",
+          "text_zh": "今日去斜坡做condition survey，地形好鬼斜。GI report寫到眼花，soil nailing個factor of safety要check完再check。等下仲要對drainage同underground utilities嘅圖。廢柴日常。",
+          "text_en_b1": "In the GI report we need to confirm soil nailing lengths match the factor of safety shown in the slope stability calculation. Today I checked the drainage layout against the existing underground utilities survey. The condition survey found a few surface cracks near the crest that should be monitored next month.",
+          "text_en_b2": "Spent the morning cross-checking the GI report against the actual site conditions on a brutally steep slope. The soil nailing lengths need to line up with the factor of safety from the stability calculation, which I have been verifying line by line. I also matched the drainage layout against the underground utilities survey, and flagged a couple of surface cracks near the crest for monitoring next month.",
+          "text_en_c1": "Spent the day on site conducting a condition survey of an uncomfortably steep slope, and the geotechnical interpretive report that awaited me back at the desk was, frankly, a slog. The key item requiring verification was whether the specified soil-nail lengths actually delivered the factor of safety that the slope-stability calculation presupposed — something that, on a feature this marginal, demands cross-checking until one loses all enthusiasm for the exercise. I subsequently reconciled the proposed drainage layout against the existing underground-utilities survey, which predictably revealed a handful of clashes.",
+          "text_en_c2": "Spent the better part of the day on a slope condition survey, navigating terrain so precipitously inclined that each footfall demanded more attention than the paperwork ostensibly warranting my presence. The geotechnical interpretive report itself runs to a density that blurs the line between documentation and penance, and the factor of safety calculations underpinning the proposed soil nailing scheme require verification at a level bordering on the obsessive. Beyond that, I must reconcile the drainage layout against the underground utilities record, a process whose tedium is exceeded only by its liability implications. A handful of superficial cracks were noted near the crest, flagged for monthly monitoring. Such is the uncelebrated choreography of engineering.",
+          "source_url": "https://boards.4chan.org/g/thread/109874846",
+          "source_hint": "/g/ thread about AI replacing engineers, repurposed as civil engineering context"
+        },
+        {
+          "id": "clip-4-rcc-beam",
+          "category": "civil/structure",
+          "topic_zh": "RC梁柱load path",
+          "topic_en": "RC beam load path",
+          "text_zh": "溫緊FE load path同RC design。Beam column joint個load path一定要行清楚，否則failure 一pat就得。Sing's notes睇到頭都大，Dr. An加油。",
+          "text_en_b1": "For FE structural review I went through the load path from the slab to the secondary beams, then to the columns and down to the foundations. Checked the moment connections at the beam-column joints and confirmed the steel reinforcement covers the negative moment region. The PDelta check passed but only just.",
+          "text_en_b2": "Working through FE structural review and trying to lock down the load path before it locks me down. Traced the loads from slab to secondary beams, then down through the beam-column joints and into the foundations, making sure the moment connections handle the negative moment regions. The PDelta check barely scraped through. Sing's notes are relentless but Dr. An's guidance is carrying me across the finish line.",
+          "text_en_c1": "Currently grinding through FE revision, specifically load-path tracing and reinforced-concrete design, and the exercise is every bit as punishing as expected. Getting the load path from slab through the secondary beams, into the columns, and ultimately down to the foundations is non-negotiable; any ambiguity at a beam-column joint and the failure mode tends to be singularly catastrophic. I worked through Sing's notes until my eyes glazed over, then verified that the moment connections at the joints were adequate and that the steel reinforcement properly anchored the negative-moment regions.",
+          "text_en_c2": "Spending the better part of the evening wading through Sing's notes on load path continuity in reinforced concrete design, a topic whose conceptual elegance belies its capacity for catastrophic failure if executed carelessly. The load path from slab through secondary beams, into beam-column joints and ultimately down to the foundations, must be traced with an exactness bordering on the forensic; one overlooked moment connection at the joint and the entire lateral system surrenders without ceremony. I confirmed the steel reinforcement detailing adequately addresses the negative moment region over the supports, though the P-Delta check scraped through with a margin narrower than I would care to defend in a review meeting.",
+          "source_url": "https://boards.4chan.org/g/thread/109873352",
+          "source_hint": "/g/ thread about OpenAI solving math problems, repurposed as FE study context"
+        },
+        {
+          "id": "clip-5-ai-panic",
+          "category": "tech/ai",
+          "topic_zh": "AI搶我飯碗",
+          "topic_en": "AI replacing jobs",
+          "text_zh": "靠AI續命⋯ 同事用ChatGPT Pro自動寫到report 50%佢嘅嘢，佢zero coding底都得。我哋呢啲AE同code monkey最後都係被食？先blue-collar再white-collar我信。wtf。",
+          "text_en_b1": "AI panic. Just got ChatGPT Pro through work and realized I could automate 50% of my job with a few months of prompting. I have never typed a line of code. We are all fucked. Nobody is safe. I'm seriously considering going back to my union manual labor job, I'll be safer for longer.",
+          "text_en_b2": "Full-blown AI panic after getting ChatGPT Pro through work and realising I could automate roughly half my workload with a few months of prompt tinkering, despite having zero coding background. If associates and code monkeys are already feeling the squeeze, white-collar roles are clearly next in line. Honestly, my old union manual labour gig is starting to look like the longer-term safety net.",
+          "text_en_c1": "There is an unmistakable flavour of professional panic in the air, and I suspect it is only going to intensify. My firm recently provisioned ChatGPT Pro across the team, and within a matter of weeks I watched a colleague — who, crucially, has zero coding background — automate roughly half of his analytical output through prompt engineering alone. If an associate engineer with no scripting ability can outsource that share of his workflow, the implications for the remaining tranches of cognitive labour are difficult to dismiss.",
+          "text_en_c2": "A belated, creeping sense of professional doom has begun to settle, catalysed by the recent deployment of ChatGPT Pro across our team, which has rendered explicit what was previously merely suspected: perhaps half of my deliverables can be produced, adequately if not impeccably, by a sufficiently prompted language model, and this from a colleague who has never typed a single line of code. The implications, should one care to extrapolate, extend well beyond my present role, since the displacement trajectory proceeds inexorably from blue-collar to white-collar labour. I find myself, somewhat absurdly, contemplating a return to the unionised trades, where automation confronts greater physical and economic friction.",
+          "source_url": "https://boards.4chan.org/biz/thread/62713340",
+          "source_hint": "/g/ thread on ChatGPT replacing office jobs"
+        },
+        {
+          "id": "clip-6-hk-news-musk",
+          "category": "hk/news",
+          "topic_zh": "Musk搞電視",
+          "topic_en": "Musk TV channel rumor",
+          "text_zh": "Elon同Nick Shirley搞晚間news show？咩議題會上？X本身都係dramahhh，HK而家新聞都係垃圾，多個台睇下lor。lol",
+          "text_en_b1": "Nightly news show with Elon and Nick Shirley. What kind of pressing issues would a Musk TV channel tackle? Would it cover SpaceX launches, X platform drama, AI policy or just another right-leaning talk show? Posted on /pol/ tonight, anons are split between meme posting and actual policy ideas.",
+          "text_en_b2": "Apparently Elon and Nick Shirley are cooking up a nightly news show, which raises the obvious question of what pressing issues they would actually tackle. Coverage could swing anywhere from SpaceX launches and X platform drama to AI policy debates, or just devolve into another right-leaning talk show. The /pol/ thread tonight is split between meme posting and surprisingly earnest policy suggestions, so the verdict is still out.",
+          "text_en_c1": "Persistent rumours of a primetime news venture fronted by Elon Musk and Nick Shirley raise an obvious question regarding editorial remit: what substantive issues would such a platform actually pursue? Plausible menu items range from SpaceX launch coverage and ongoing X platform governance drama to AI policy debate, though sceptics rightly note that the venture could easily devolve into yet another ideologically aligned talk format. Posters on /pol/ tonight are characteristically bifurcated — half the thread degenerates into meme regurgitation, while the other half earnestly sketches out policy angles that mainstream outlets have conspicuously neglected.",
+          "text_en_c2": "The rumour mill, that most reliable of contemporary institutions, now circulates word of an evening news venture fronted by Musk and the journeyman reporter Nick Shirley, a pairing whose combined temperament suggests programming more combustible than edifying. The natural speculation, given Musk's extant portfolio, is that any such channel would oscillate between SpaceX launches, X platform melodrama, and AI policy grandstanding, alternating with a right-coded panel format indistinguishable from the genre's extant iterations. Posted tonight on /pol/, the anons are characteristically bifurcated between those trafficking in memes of varying subtlety and those offering, against all expectation, suggestions approaching genuine policy commentary.",
+          "source_url": "https://boards.4chan.org/pol/thread/543057344",
+          "source_hint": "/pol/ thread imagining a Musk + Nick Shirley news show"
+        },
+        {
+          "id": "clip-7-mma-fitness",
+          "category": "mma/fitness",
+          "topic_zh": "Gym友問routine",
+          "topic_en": "Girl gym routine",
+          "text_zh": "肥仔信個女性朋友想build gym body：RDL squat已加，要加咩？下個月約埋佢哋一齊gym再講lol，我而家自己gym都冇時間。",
+          "text_en_b1": "Taking my girl friend to the gym and I have no idea how to help her train for a nice gym body. Right now I have her doing RDLs and squats, but besides that I am clueless. What lifts should women do to build a round glute, a defined waist and good posture without getting bulky?",
+          "text_en_b2": "Trying to help a girl friend build a proper gym body and quickly running out of ideas beyond the basics. She is already handling RDLs and squats with decent form, but I am largely clueless on what else to programme. Ideally she wants a rounder glute, a tighter waist and solid posture without bulking up, so what lifts and accessory work should we throw in before our joint gym session next month?",
+          "text_en_c1": "A close female friend has expressed genuine interest in building a properly athletic physique, and I find myself out of my depth in advising her, despite being reasonably clued up on my own training. Her current programme consists of Romanian deadlifts and back squats, both of which she has progressively overloaded, yet beyond those two staples I am largely improvising. The goal, as she articulates it, is a rounded glute, a cinched waist and improved postural carriage, all without the unintended hypertrophy that deters many women from resistance work. Candidates I have considered include hip thrusts, cable pull-throughs and weighted carries, though sequencing and frequency remain unresolved.",
+          "text_en_c2": "A close female friend has, with admirable determination, resolved to cultivate what the discourse optimistically terms a gym physique, and I, her self-appointed but distinctly unqualified consigliere, have so far programmed only the foundational compound movements: Romanian deadlifts and back squats, performed with a diligence that puts my own increasingly sporadic sessions to shame. What I am now seeking, with some urgency, is a more comprehensive catalogue of lifts suited to developing a rounded glute, a defined waist, and the kind of postural poise that resists the unfailingly bulky aesthetic she expressly wishes to avoid. Next month, by prior arrangement, we shall train together, provided my schedule, which has lately been conspiring against such resolutions, permits.",
+          "source_url": "https://boards.4chan.org/fit/thread/77513431",
+          "source_hint": "/fit/ thread asking how to train a female friend at the gym"
+        }
+      ]
+    },
     {
       "date": "2026-09-21",
       "source": "ai",
