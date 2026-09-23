@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>劍下天山</title>
+<title>7劍下天山</title>
 <style>
   :root {
     --bg: #f6f1e7; --surface: #fffbf2; --ink: #1f2a2e; --ink-soft: #5a6a72; --ink-faint: #8c98a0;
@@ -155,12 +155,18 @@
   input[type="range"] { width: 140px; accent-color: var(--accent); }
   .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px); background: var(--ink); color: white; padding: 10px 18px; border-radius: 999px; font-size: 14px; opacity: 0; transition: .3s; pointer-events: none; }
   .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-  .bite-box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin-top: 8px; }
+  .sent-wrap { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+  .sent-card { display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; cursor: pointer; font-family: inherit; color: inherit; }
+  .sent-card:hover { border-color: var(--accent); }
+  .sent-card.on { background: #dceeea; border-color: var(--accent); }
+  body.dark .sent-card { background: #161b22; }
+  body.dark .sent-card.on { background: #1f3a37; border-color: var(--accent); }
+  .sent-num { flex: 0 0 28px; color: var(--ink-faint); font-size: 12px; font-weight: 700; padding-top: 2px; }
+  .sent-main { flex: 1; min-width: 0; }
+  .sent-tag { display: inline-block; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 2px 8px; margin-bottom: 4px; }
+  .sent-en { display: block; font-size: 16px; line-height: 1.45; font-weight: 600; }
+  .sent-zh { display: block; margin-top: 4px; color: var(--ink-soft); font-size: 13px; }
   .bite-meta { font-size: 12px; color: var(--ink-faint); margin-bottom: 8px; letter-spacing: 0.06em; text-transform: uppercase; }
-  .bite-en { font-size: 22px; line-height: 1.4; font-weight: 650; margin-bottom: 10px; }
-  .bite-zh { color: var(--ink-soft); font-size: 15px; border-left: 3px solid var(--warm); padding-left: 12px; }
-  .bite-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-  body.dark .bite-box { background: #0d1117; }
   @media (max-width: 520px) {
     .home-grid { grid-template-columns: 1fr; }
     .app { padding: 16px 14px 60px; }
@@ -196,7 +202,7 @@
   <div id="view"></div>
 </div>
 <div class="toast" id="toast"></div>
-<script src="app-core.js?v=20260922c"></script>
-<script src="app-ui.js?v=20260922c"></script>
+<script src="app-core.js?v=20260924a"></script>
+<script src="app-ui.js?v=20260924a"></script>
 </body>
 </html>
