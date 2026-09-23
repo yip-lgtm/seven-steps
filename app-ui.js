@@ -158,8 +158,8 @@ function renderStepBody(step, clip, sess) {
   const pair = '<div class="mt-3"><span class="input-label">English ('+state.currentLevel+')</span>'+renderChunkedTranscript(enText, zhText)+'</div>';
   if (step.id==='rate') return play+'<div class="play-label">Tap to play.</div><div class="stars" id="stars">'+[1,2,3,4,5].map(n=>'<div class="star" data-n="'+n+'">★</div>').join('')+'</div><div class="play-label" id="rate-hint">How much at <strong>'+state.currentLevel+'</strong>?</div></div>';
   if (step.id==='grasp') return play+'<div class="play-label">Write the meaning in English.</div></div><div style="margin-top:18px"><textarea class="textarea" id="grasp-input" placeholder="Type the gist."></textarea></div><div class="mt-2"><button class="btn" id="btn-reveal">Reveal →</button><div id="reveal-area" class="mt-2" style="display:none">'+pair+'</div></div>';
-  if (step.id==='hum') return play+'<div class="play-label">Hum the rhythm. No words.</div></div>';
-  if (step.id==='shadow') return play+'<div class="play-label">Speak WITH the voice.</div></div>'+rec;
+  if (step.id==='hum') return play+'<div class="play-label">Hum the rhythm. No words.</div></div>'+pair;
+  if (step.id==='shadow') return play+'<div class="play-label">Speak WITH the voice.</div></div>'+pair+rec;
   if (step.id==='read') return play+'<div class="play-label">Read along out loud.</div></div>'+pair+rec;
   if (step.id==='recall') return play+'<div class="play-label">Hide text and say it back.</div></div><div class="mt-2"><button class="btn" id="btn-toggle-text">'+(sess.recallTextHidden?'Show text':'Hide text')+'</button><div id="recall-block"'+(sess.recallTextHidden?' style="display:none"':'')+'>'+pair+'</div></div>'+rec;
   if (step.id==='freestyle') return '<div class="play-area"><div class="play-label">Topic: <strong>'+esc(getTopicForLevel(clip)||'')+'</strong>. Sixty seconds.</div></div>'+rec;
@@ -243,7 +243,7 @@ function attachHandlers() {
   if (btnPlay) btnPlay.addEventListener('click', () => {
     const clip = sessionClip(0); if(!clip) return;
     const step = STEPS[state.session.stepIdx];
-    if(step && (step.id==='read' || step.id==='recall' || step.id==='grasp')){
+    if(step && (step.id==='read' || step.id==='recall' || step.id==='grasp' || step.id==='hum' || step.id==='shadow')){
       const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 16);
       const c = chunks[state.session.chunkIdx||0];
       if(c && c.en) speak(c.en);
