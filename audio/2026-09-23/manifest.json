@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-23",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-btc",
+      "topic_en": "BTC pumping paradox",
+      "topic_zh": "BTC點解仲升",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-btc-b1.mp3",
+        "b2": "clip-trade-macro-btc-b2.mp3",
+        "c1": "clip-trade-macro-btc-c1.mp3",
+        "c2": "clip-trade-macro-btc-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-tesla-rsu",
+      "topic_en": "Tesla RSUs or cash",
+      "topic_zh": "Tesla RSU定現金",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-tesla-rsu-b1.mp3",
+        "b2": "clip-trade-musk-tesla-rsu-b2.mp3",
+        "c1": "clip-trade-musk-tesla-rsu-c1.mp3",
+        "c2": "clip-trade-musk-tesla-rsu-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-bitcoin-pain",
+      "topic_en": "Crypto hopelessness",
+      "topic_zh": "幣圈廢老求救",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-bitcoin-pain-b1.mp3",
+        "b2": "clip-civil-bitcoin-pain-b2.mp3",
+        "c1": "clip-civil-bitcoin-pain-c1.mp3",
+        "c2": "clip-civil-bitcoin-pain-c2.mp3"
+      }
+    },
+    {
+      "id": "struct-saylor-portfolio",
+      "topic_en": "Saylor Moon portfolio",
+      "topic_zh": "Saylor神倉組合",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-struct-saylor-portfolio-b1.mp3",
+        "b2": "clip-struct-saylor-portfolio-b2.mp3",
+        "c1": "clip-struct-saylor-portfolio-c1.mp3",
+        "c2": "clip-struct-saylor-portfolio-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-panic",
+      "topic_en": "AI replacing jobs",
+      "topic_zh": "AI搶飯碗",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-panic-b1.mp3",
+        "b2": "clip-tech-ai-panic-b2.mp3",
+        "c1": "clip-tech-ai-panic-c1.mp3",
+        "c2": "clip-tech-ai-panic-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-musk-africa",
+      "topic_en": "Musk on Africa",
+      "topic_zh": "馬斯克論非洲",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-musk-africa-b1.mp3",
+        "b2": "clip-hk-musk-africa-b2.mp3",
+        "c1": "clip-hk-musk-africa-c1.mp3",
+        "c2": "clip-hk-musk-africa-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-creatine",
+      "topic_en": "Creatine side effects",
+      "topic_zh": "creatine甩頭髮",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-creatine-b1.mp3",
+        "b2": "clip-mma-creatine-b2.mp3",
+        "c1": "clip-mma-creatine-c1.mp3",
+        "c2": "clip-mma-creatine-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-roshidere-s2",
+      "topic_en": "Roshidere Season 2",
+      "topic_zh": "露識季2 PV",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-roshidere-s2-b1.mp3",
+        "b2": "clip-anime-roshidere-s2-b2.mp3",
+        "c1": "clip-anime-roshidere-s2-c1.mp3",
+        "c2": "clip-anime-roshidere-s2-c2.mp3"
+      }
+    }
+  ]
+}

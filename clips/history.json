@@ -1,6 +1,116 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "days": [
+    {
+      "date": "2026-09-23",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-macro-btc",
+          "category": "trading",
+          "topic_zh": "BTC點解仲升",
+          "topic_en": "BTC pumping paradox",
+          "text_zh": "個news成日話經濟好差 但BTC升到上天 🤨 咁即係邊個講大話？油又話唔夠 農作物又話天氣熱 全部都應該跌 但佢冇跌 wtf 唔係幾可信囉",
+          "text_en_b1": "If the economy is supposed to be bad, like all the news keeps saying, then why is BTC mooning so hard? I cannot shake the feeling that the news is lying again for political purposes. They say the weather is too hot for crops and there is no oil, so everything should be dumping. But it is not dumping. Lying fuckers.",
+          "text_en_b2": "If the economy is genuinely in the dire state the headlines keep portraying, then how on earth is BTC ripping higher? Something does not add up. I cannot shake the nagging suspicion that the media is peddling doom for political purposes, because they keep harping on about crop failures from heatwaves and oil shortages, yet none of that has translated into a real downturn. Absolute lying bastards.",
+          "text_en_c1": "If the macroeconomic outlook were genuinely as bleak as the headlines relentlessly suggest, one would reasonably expect BTC to be capitulating rather than rallying to dizzying highs. The disconnect, which I cannot reconcile no matter how hard I try, strongly implies that the narrative being pushed is, at best, a curated distortion serving political ends. The same outlets that warned of crop failures driven by scorching summers and persistent oil shortages insisted that a broad sell-off was imminent. Yet prices have stubbornly refused to comply.",
+          "text_en_c2": "One cannot help but notice the rather conspicuous dissonance between the prevailing macroeconomic narrative and the actual market behaviour of late. Headlines insist upon a deteriorating global economy: harvests imperilled by anomalous heatwaves, energy markets persistently starved of sufficient supply, the usual litany of bearish omens. Yet Bitcoin, defying every one of these ostensibly terminal warnings, has continued its ascent with almost reckless disregard for conventional fundamentals. Either the news cycle is catastrophically mendacious, functioning as little more than a rhetorical instrument for partisan ends, or the analysts who formulate such predictions have, once again, demonstrably misread the terrain. The disconnect between reported reality and observable price action is, frankly, too stark to attribute to mere statistical noise or coincidence. (136)",
+          "source_url": "https://boards.4chan.org/biz/thread/62714612",
+          "source_hint": "/biz/ thread questioning why BTC pumps while news says economy is bad"
+        },
+        {
+          "id": "trade-musk-tesla-rsu",
+          "category": "trading",
+          "topic_zh": "Tesla RSU定現金",
+          "topic_en": "Tesla RSUs or cash",
+          "text_zh": "新工問我攞RSU定現金 4年vest 1年cliff 公司係Tesla 其實我唔急住用錢 但拎少少現金做mortgage頭期都好 lol 廢到問人",
+          "text_en_b1": "Starting a new job, they give me a bonus package of RSUs or cash, vesting over 4 years with a 1 year cliff. The company is Tesla. I do not need the money immediately but it would be nice to get a deposit for a mortgage. I went from neet to normie.",
+          "text_en_b2": "Starting a new gig, and HR asked whether I would rather take the package as RSUs or cash, vesting over four years with a one-year cliff. The company happens to be Tesla. I am not strapped for cash right now, although having a chunk of liquid funds for a mortgage deposit would not hurt. Genuinely absurd that I am even asking strangers for financial advice.",
+          "text_en_c1": "Having recently accepted an offer at Tesla, I find myself weighing a compensation package that grants me the option of RSUs or cash, vesting across four years with a one-year cliff attached. Although I am not under any immediate financial pressure, a portion of liquid capital would be instrumental in assembling a mortgage deposit, which is the principal reason I am even entertaining the dilemma. The irony is not lost on me: barely twelve months ago I was a NEET with neither prospects nor a proper routine, and now I am deliberating equity structures at a Fortune 500 company. From unemployable dropout to insufferable corporate drone in record time.",
+          "text_en_c2": "I have just commenced a new position at Tesla and find myself confronted with the now-customary dilemma of equity compensation: the choice between an RSU package vesting over four years with a one-year cliff, and an equivalent allocation in liquid cash. While I am by no means in immediate need of additional liquidity, converting even a modest portion into cash would enable me to assemble a deposit for a mortgage, thereby converting transient income into tangible, appreciating collateral. The decision is, of course, far from trivial: the upside potential of Tesla's stock, should sentiment remain buoyant, could render the cash option a regretful surrender of long-term wealth. Such is the comfortable predicament of those recently graduated from extended indolence into gainful, if exhausting, employment. (137)",
+          "source_url": "https://boards.4chan.org/biz/thread/62712781",
+          "source_hint": "/biz/ thread asking RSUs vs cash for new Tesla job"
+        },
+        {
+          "id": "civil-bitcoin-pain",
+          "category": "civil/structure",
+          "topic_zh": "幣圈廢老求救",
+          "topic_en": "Crypto hopelessness",
+          "text_zh": "啲meme coin死晒 大部分crypto都係廢 一睇就知你係exit liquidity 😭 個game已經比人睇通咗 除咗degens仲喺度gamble 其他人都知自己係被宰嗰個 講真 考牌都未搞掂 仲輸埋呢啲",
+          "text_en_b1": "Anyone else feeling hopeless with crypto? Memes, along with most of crypto, are dead. That is just the reality of things. The game has been figured out, and other than some degens who continue to gamble their money away, everyone else knows they will just be exit liquidity.",
+          "text_en_b2": "Is anyone else feeling completely demoralised by crypto these days? Memes are dead, and most altcoins have turned out to be worthless garbage. The whole game has basically been figured out, so apart from a handful of degens still throwing money into long-shot bets, everyone else realises they are simply exit liquidity. Watching people pour their savings into tokens, and then watch those tokens dump within hours, gets exhausting.",
+          "text_en_c1": "Is there anybody else who finds the current state of the crypto market genuinely demoralising, or have the rest of us simply resigned ourselves to the wreckage? Memecoins, which once promised astronomical returns, have largely bled out alongside the broader altcoin complex, leaving behind nothing but abandoned Telegram groups and broken dreams. The game, as they say, has been comprehensively figured out: retail participants serve merely as exit liquidity for insiders who offload at cycle peaks, a dynamic that even sophisticated traders grudgingly acknowledge. Beyond a stubborn cohort of degens who derive sadistic pleasure from chasing losses, virtually everyone else recognises the structural extraction baked into the system.",
+          "text_en_c2": "The prevailing sentiment across the cryptocurrency sphere has descended into something approaching collective despair. The meme coin ecosystem, once a riotous carnival of speculative excess, now lies largely dormant, its erstwhile luminaries posting precipitous declines. Beyond the residual coterie of self-styled degens who persist in their compulsive gambling, the broader market appears to have reached a sobering epiphany: the architecture of the game has been deciphered, and retail participants have come to recognise themselves as little more than exit liquidity for institutional whales. Even ventures that initially projected an aura of credibility have subsequently collapsed into ignominious flops, their tokens dumping within days of launch. For those still nursing losses while deferring ostensibly more pragmatic pursuits, the situation is, to put it candidly, rather grim. (137)",
+          "source_url": "https://boards.4chan.org/biz/thread/62716820",
+          "source_hint": "/biz/ thread about crypto market being dead and everyone being exit liquidity"
+        },
+        {
+          "id": "struct-saylor-portfolio",
+          "category": "civil/structure",
+          "topic_zh": "Saylor神倉組合",
+          "topic_en": "Saylor Moon portfolio",
+          "text_zh": "有個portfolio叫Saylor Moon 50% MSTR 50% SpaceX 大部分人都覺得呢個組合唔可能存在 但我覺得呢啲先係visionary 🤩 靠AI續命都唔敢咁all-in",
+          "text_en_b1": "The Saylor Moon portfolio: 50% MSTR, 50% SpaceX. I imagine that a number of you, the least visionary and the gayest, cannot conceive of such a portfolio existing. But this is the kind of concentrated bet that serious believers make.",
+          "text_en_b2": "The so-called Saylor Moon portfolio allocates fifty percent to MSTR and fifty percent to SpaceX. Most people cannot even fathom such a concentrated allocation, dismissing it as fantasy. But this is precisely the kind of all-in conviction bet that genuine visionaries make, while the rest of us hedge our bets like cowards and end up mediocre. Concentrated risk demands concentrated belief.",
+          "text_en_c1": "The so-called Saylor Moon allocation, which devotes fifty percent of capital to MSTR and the remaining fifty percent to SpaceX, represents precisely the kind of concentrated, high-conviction bet that most institutional managers would dismiss as reckless or impossible to construct. And yet it is precisely this audacity that distinguishes the visionary from the mere financial engineer. Investors who recoil at the proposition, who insist that no prudent portfolio could tolerate such exposure, are typically the same individuals who would have laughed at early Bitcoin allocations, at pre-IPO Tesla positions, or at any number of asymmetric opportunities that subsequently compounded into generational wealth.",
+          "text_en_c2": "There exists, in certain corners of the financial internet, a so-called Saylor Moon portfolio predicated upon an almost absurdly concentrated thesis: fifty percent allocated to MicroStrategy, the remainder to SpaceX, with no consideration whatsoever for diversification across asset classes, geographies, or sectors. The cognitively timid, secure in their obsessive adherence to conventional portfolio theory, dismiss such construction as fantasy, a fever dream of those unburdened by prudence. Yet it is precisely this kind of maximalist conviction, this willingness to subordinate all notions of risk management to a singular visionary bet, that has historically distinguished the truly exceptional investor from the merely competent one. Those who lack the constitution for such commitment ought not to deride those who possess it. (137)",
+          "source_url": "https://boards.4chan.org/biz/thread/62714927",
+          "source_hint": "/biz/ thread praising the Saylor Moon concentrated portfolio of MSTR and SpaceX"
+        },
+        {
+          "id": "tech-ai-panic",
+          "category": "tech/ai",
+          "topic_zh": "AI搶飯碗",
+          "topic_en": "AI replacing jobs",
+          "text_zh": "公司畀咗個ChatGPT pro account我 試咗幾個月 發現我50%嘅工作可以自動化 我連一行code都未打過 😱 真係仆街 白領廢晒 藍領都保唔住幾耐",
+          "text_en_b1": "I just got a ChatGPT Pro account through work. I realized that I could literally automate 50% of my job with a few months of prompting, and I have never typed a line of code. We are fucked. Nobody is safe. I am seriously considering going back to my unionized manual labor job. I will be safer there for longer.",
+          "text_en_b2": "My company handed me a ChatGPT Pro account, and after a few months of messing around with it, I discovered that roughly half of my workload could be automated away. I have never typed a single line of code. We are genuinely cooked. White-collar work is finished, and even blue-collar trades are not going to hold out much longer once the robotics catches up.",
+          "text_en_c1": "My employer recently provisioned me with a ChatGPT Pro account, ostensibly to streamline my workflow, and after several months of experimentation I have arrived at a rather unsettling conclusion: roughly half of my responsibilities can be automated with minimal prompting expertise, despite the fact that I have never written a single line of code in my entire professional life. If somebody with my technical limitations can already displace this much output, the implications for skilled knowledge workers are profoundly grim, and I suspect that no white-collar profession will remain insulated from the disruption that is now gathering momentum.",
+          "text_en_c2": "My employer has, with characteristic corporate largesse, provisioned me with a ChatGPT Pro subscription, ostensibly to enhance my productivity. Several months of diligent experimentation have, however, yielded a rather more unsettling conclusion: approximately half of my daily responsibilities can now be discharged by the model with minimal supervision, and I myself have never authored so much as a single line of code. The implications, both for my own continued employability and for the broader cohort of white-collar professionals, are frankly disquieting. Should this trajectory persist at its current pace, the obsolescence of entire occupational categories will cease to be a hypothetical concern and become, instead, an immediate and rather personal one. Even my erstwhile manual-labour colleagues, ensconced within their unionised protections, ought to feel distinctly uncomfortable about the duration of their own reprieve. (147)",
+          "source_url": "https://boards.4chan.org/g/thread/109874846",
+          "source_hint": "/g/ thread about AI automating white-collar work"
+        },
+        {
+          "id": "hk-musk-africa",
+          "category": "hk/news",
+          "topic_zh": "馬斯克論非洲",
+          "topic_en": "Musk on Africa",
+          "text_zh": "馬斯克話佢唔信非洲嘅貧窮係殖民主義造成 4chan啲人又圍攻佢 🤡 不過佢有時講嘢真係太直 白人唔認自己有後果lol",
+          "text_en_b1": "Elon Musk said, 'I do not believe Africa poverty was caused by colonialism.' The thread on 4chan asked why white people cannot accept the consequences of their actions. The debate was heated, with replies ranging from history lessons to accusations of reverse racism.",
+          "text_en_b2": "Elon Musk publicly stated that he does not buy the narrative linking African poverty to colonialism, which predictably sent the 4chan crowd into a frenzy. He does have a habit of being brutally blunt, sometimes to his own detriment. The thread spiralled into heated arguments, with anons tossing out everything from half-baked history lessons to accusations of reverse racism, while ignoring the uncomfortable point entirely.",
+          "text_en_c1": "Elon Musk recently declared that he does not subscribe to the prevailing narrative attributing contemporary African poverty primarily to the legacy of European colonialism, a remark that predictably detonated across political forums and drew the usual chorus of denunciations. While his delivery is frequently criticised for being unnecessarily blunt, the underlying observation merits more serious consideration than the reflexive outrage it tends to attract. The uncomfortable truth, which many of his detractors appear unwilling to confront, is that post-independence governance, infrastructure investment, and institutional development have played substantial roles in shaping present outcomes.",
+          "text_en_c2": "Elon Musk recently ventured the contention that African poverty bears no meaningful causal relationship with the legacy of European colonialism, a pronouncement that predictably detonated across the more excitable precincts of online discourse. The resultant thread descended into the customary maelstrom: lengthy amateur disquisitions on the partitioning of Berlin, earnest exhortations regarding white culpability, and the obligatory accusations of reverse racism levelled by those disinclined to accept any framework in which their forebears bear historical responsibility. Musk, it must be conceded, possesses an almost pathological predilection for articulating truths that polite society would prefer to leave unexamined, and his forthrightness, however abrasively delivered, occasionally illuminates uncomfortable realities that more circumspect interlocutors are content to ignore. The debate, predictably, resolved nothing. (138)",
+          "source_url": "https://boards.4chan.org/pol/thread/543112280",
+          "source_hint": "/pol/ thread reacting to Musk's colonialism comments"
+        },
+        {
+          "id": "mma-creatine",
+          "category": "mma/fitness",
+          "topic_zh": "creatine甩頭髮",
+          "topic_en": "Creatine side effects",
+          "text_zh": "creatine會甩頭髮 會爆瘡 成塊面腫腫哋肥肥哋 🧐 但好處係你可以多舉5至10%嘅重量 肥仔信一定話飲死佢",
+          "text_en_b1": "Creatine: it makes you bald, it makes your face break out, and it makes your gut and face look stuffy and fat. But hey, at least you will be able to lift 5 to 10% more. Classic trade-off that every lifter has to think about before buying the tub.",
+          "text_en_b2": "Creatine will absolutely wreck your hairline, give you relentless breakouts, and leave your face and midsection looking puffier than usual. On the bright side, you might squeeze out an extra five to ten percent on your lifts, which is the classic trade-off every gym bro wrestles with before picking up the tub. Great physique, though, if you can stomach the side effects.",
+          "text_en_c1": "Creatine monohydrate, the most exhaustively studied ergogenic aid in modern sports science, nevertheless carries a constellation of side effects that anybody considering supplementation ought to weigh with appropriate seriousness. Anecdotal reports, which range from credible to catastrophically exaggerated, suggest that chronic usage can accelerate male pattern baldness in predisposed individuals, provoke persistent acne breakouts, and induce a characteristic puffiness that settles stubbornly around the midsection and facial features. These aesthetic compromises, however, are typically offset by demonstrable performance gains of between five and ten percent in maximal load capacity, an increment that serious lifters regard as transformative over a structured training cycle.",
+          "text_en_c2": "Creatine monohydrate, that venerable staple of the earnest lifter's supplement stack, presents the familiar Faustian bargain: in exchange for an incremental gain of perhaps five to ten percent in maximal strength output, the user must contend with a constellation of decidedly inelegant physiological consequences. Hair loss, particularly among the genetically predisposed; persistent acne along the jawline and temples; a certain unmistakable puffiness about the face and midsection that no amount of cardiovascular exertion seems entirely to remedy. And yet, for the committed practitioner whose identity is inextricably bound to the iron, these concessions are deemed eminently tolerable, indeed almost obligatory, for the additional capacity to hoist another plate or two. It is, in essence, a small vanity tax levied upon the pursuit of marginal hypertrophy. (137)",
+          "source_url": "https://boards.4chan.org/fit/thread/77522163",
+          "source_hint": "/fit/ thread listing creatine downsides"
+        },
+        {
+          "id": "anime-roshidere-s2",
+          "category": "anime/culture",
+          "topic_zh": "露識季2 PV",
+          "topic_en": "Roshidere Season 2",
+          "text_zh": "Alya有時會用俄語藏住心意 S2 PV出咗 2027年播出 '你係咪...已經忘記咗我' 😭 等到天荒地老 Gundam 00出晒先",
+          "text_en_b1": "The TV anime Alya Sometimes Hides Her Feelings in Russian Season 2 teaser PV has been released. Season 2 will air in 2027. The line 'Have you... forgotten about me...?' appeared in the trailer. The fate of their even more intricately intertwined romantic entanglements continues.",
+          "text_en_b2": "Alya Sometimes Hides Her Feelings in Russian has finally dropped a teaser PV for Season 2, with a confirmed 2027 broadcast date, which feels painfully distant. The trailer teased the gut-punch line, Have you forgotten about me?, suggesting their already tangled romantic entanglements are about to spiral even further. Fans have been holding out longer than Gundam 00 fans waited for their ending.",
+          "text_en_c1": "The teaser promotional video for the second season of Alya Sometimes Hides Her Feelings in Russian has finally surfaced, confirming an air date scheduled for 2027 and offering fans the first substantive glimpse of what lies ahead for Masachika and his endearingly tsundere companion. The featured line, rendered with exquisite dramatic timing as \"Have you... already forgotten about me?\", encapsulates the series' signature blend of bilingual romantic tension and exquisite emotional restraint, hinting that the intervening story arc will deepen, rather than resolve, the increasingly intricate web of mutual affection that the characters have thus far been reluctant to acknowledge openly.",
+          "text_en_c2": "The teaser promotional video for the second season of the television anime Alya Sometimes Hides Her Feelings in Russian has at last been unveiled, much to the collective relief of a fanbase that had begun to suspect the project had quietly succumbed to the production purgatory that claims so many anticipated sequels. Broadcast has been formally slated for 2027, a date so temporally distant that one might reasonably anticipate the concurrent emergence of new Gundam entries before the opening credits roll. The trailer's closing line, rendered with characteristic restraint, sees the protagonist murmur, 'Have you... forgotten about me...?' a query freighted with such exquisite ambiguity that its emotional payload will doubtless sustain a thousand speculative threads until the premiere itself. Their romantic entanglements, intricate as ever, await further unraveling. (143)",
+          "source_url": "https://boards.4chan.org/a/thread/291069446",
+          "source_hint": "/a/ thread about Roshidere Season 2 PV"
+        }
+      ]
+    },
     {
       "date": "2026-09-22",
       "source": "ai",
