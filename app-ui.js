@@ -55,7 +55,7 @@ function isMostlyCjk(s){
   const lat = (String(s).match(/[A-Za-z]/g)||[]).length;
   return cjk > 0 && cjk >= lat;
 }
-function splitIntoBites(en, zh, maxWords){
+function splitEnSentences(en, maxWords){
   maxWords = maxWords || 16;
   const raw = String(en||'').replace(/\s+/g,' ').trim();
   const sentences = raw.split(/(?<=[.!?])\s+/).map(s=>s.trim()).filter(Boolean);
@@ -66,15 +66,75 @@ function splitIntoBites(en, zh, maxWords){
     if(!words.length) return;
     if(words.length <= maxWords){ enBits.push(p.replace(/\s+/g,' ').trim()); return; }
     const clauses = p.split(/[,:;]\s+/).map(s=>s.trim()).filter(Boolean);
-    if(clauses.length > 1){ clauses.forEach(cl => { if(!isMostlyCjk(cl) && cl.split(/\s+/).length>=3) enBits.push(cl); }); return; }
+    if(clauses.length > 1){ clauses.forEach(cl => { if(!isMostlyCjk(cl) && cl.split(/\s+/).length>=2) enBits.push(cl); }); return; }
     for(let i=0;i<words.length;i+=maxWords){
       const bit = words.slice(i, i+maxWords).join(' ');
       if(bit) enBits.push(bit);
     }
   });
-  if(!enBits.length && raw) enBits.push(raw);
-  const zhParts = String(zh||'').split(/[。！？；，、]/).map(s=>s.trim()).filter(Boolean);
-  return enBits.map((e,i)=>({en:e, zh: zhParts[i]||''}));
+  return enBits.length ? enBits : (raw ? [raw] : []);
+}
+function splitZhParts(zh){
+  const raw = String(zh||'').replace(/\s+/g,' ').trim();
+  if(!raw) return [];
+  let parts = raw.split(/[。！？；，、.!?;]+/).map(s=>s.trim()).filter(Boolean);
+  if(parts.length <= 1){
+    parts = raw.split(/(?=其實|但係|不過|同埋|所以|然後|因為|但(?!係))/).map(s=>s.trim()).filter(Boolean);
+  }
+  return parts.length ? parts : [raw];
+}
+function sliceZhByWeights(zh, enBits){
+  const chars = Array.from(String(zh||'').replace(/\s+/g,' ').trim());
+  if(!chars.length) return enBits.map(e => ({en:e, zh:''}));
+  const weights = enBits.map(e => Math.max(1, String(e).split(/\s+/).filter(Boolean).length));
+  const total = weights.reduce((a,b)=>a+b,0) || 1;
+  const n = chars.length;
+  const cuts = [];
+  let acc = 0;
+  for(let i=0;i<enBits.length-1;i++){
+    acc += weights[i];
+    let target = Math.round(n * acc / total);
+    let best = target;
+    for(let d=0;d<=10;d++){
+      const hits = [target+d, target-d];
+      let found = false;
+      for(const p of hits){
+        if(p<=0 || p>=n) continue;
+        const ch = chars[p];
+        if(/\s|[，。！？、；,.!?]/.test(ch) || '但其所而同不'.indexOf(ch) !== -1){
+          best = /\s/.test(ch) ? p+1 : p;
+          found = true;
+          break;
+        }
+      }
+      if(found) break;
+    }
+    cuts.push(Math.max(1, Math.min(n-1, best)));
+  }
+  cuts.push(n);
+  let start = 0;
+  return enBits.map((e,i) => {
+    const end = Math.max(start, cuts[i]);
+    const piece = chars.slice(start, end).join('').trim();
+    start = end;
+    return {en:e, zh:piece};
+  });
+}
+function splitIntoBites(en, zh, maxWords){
+  const enBits = splitEnSentences(en, maxWords || 16);
+  const zhRaw = String(zh||'').replace(/\s+/g,' ').trim();
+  if(!enBits.length) return [{en: String(en||''), zh: zhRaw}];
+  if(!zhRaw) return enBits.map(e => ({en:e, zh:''}));
+  const zhParts = splitZhParts(zhRaw);
+  if(zhParts.length === enBits.length) return enBits.map((e,i)=>({en:e, zh:zhParts[i]}));
+  if(zhParts.length === 1) return sliceZhByWeights(zhRaw, enBits);
+  if(zhParts.length > enBits.length){
+    const extra = zhParts.length - enBits.length;
+    const merged = zhParts.slice();
+    for(let i=0;i<extra;i++) merged[merged.length-2] = (merged[merged.length-2]+' '+merged.pop()).trim();
+    return enBits.map((e,i)=>({en:e, zh:merged[i]||''}));
+  }
+  return sliceZhByWeights(zhRaw, enBits);
 }
 function renderChunkedTranscript(enText, zhText){
   const sess = state.session || {};
