@@ -56,42 +56,38 @@ function isMostlyCjk(s){
   return cjk > 0 && cjk >= lat;
 }
 function splitIntoBites(en, zh, maxWords){
-  maxWords = maxWords || 6;
+  maxWords = maxWords || 16;
   const raw = String(en||'').replace(/\s+/g,' ').trim();
-  const pieces = raw.split(/[.!?\u3002\uff01\uff1f]+\s*|[\u3001\uff0c\uff1b]+/).map(s=>s.trim()).filter(Boolean);
+  const sentences = raw.split(/(?<=[.!?])\s+/).map(s=>s.trim()).filter(Boolean);
   const enBits = [];
-  pieces.forEach(p=>{
+  (sentences.length ? sentences : [raw]).forEach(p=>{
     if(isMostlyCjk(p)) return;
     const words = p.split(/\s+/).filter(Boolean);
     if(!words.length) return;
-    if(words.length <= maxWords){ enBits.push(words.join(' ')); return; }
+    if(words.length <= maxWords){ enBits.push(p.replace(/\s+/g,' ').trim()); return; }
+    const clauses = p.split(/[,:;]\s+/).map(s=>s.trim()).filter(Boolean);
+    if(clauses.length > 1){ clauses.forEach(cl => { if(!isMostlyCjk(cl) && cl.split(/\s+/).length>=3) enBits.push(cl); }); return; }
     for(let i=0;i<words.length;i+=maxWords){
       const bit = words.slice(i, i+maxWords).join(' ');
       if(bit) enBits.push(bit);
     }
   });
-  if(!enBits.length && raw){
-    const words = raw.split(/\s+/).filter(w=>!isMostlyCjk(w));
-    for(let i=0;i<words.length;i+=maxWords) enBits.push(words.slice(i,i+maxWords).join(' '));
-  }
-  const zhParts = String(zh||'').split(/[\u3001\u3002\uff1b\uff0c]/).map(s=>s.trim()).filter(Boolean);
-  return (enBits.length?enBits:[raw]).map((e,i)=>({en:e, zh: zhParts[i]||''}));
+  if(!enBits.length && raw) enBits.push(raw);
+  const zhParts = String(zh||'').split(/[。！？；，、]/).map(s=>s.trim()).filter(Boolean);
+  return enBits.map((e,i)=>({en:e, zh: zhParts[i]||''}));
 }
-function splitSentenceChunks(en, zh){ return splitIntoBites(en, zh, 6); }
 function renderChunkedTranscript(enText, zhText){
   const sess = state.session || {};
-  const chunks = splitIntoBites(enText, zhText, 6);
+  const clip = sessionClip(0) || {};
+  const chunks = splitIntoBites(enText, zhText, 16);
   if(sess.chunkIdx == null || sess.chunkIdx < 0) sess.chunkIdx = 0;
-  if(sess.chunkIdx >= chunks.length) sess.chunkIdx = chunks.length - 1;
-  const i = sess.chunkIdx || 0;
-  const c = chunks[i] || {en: enText, zh: zhText};
-  return '<div class="bite-box"><div class="bite-meta">第 '+(i+1)+' / '+chunks.length+' 句</div>'+
-    '<div class="bite-en">'+esc(c.en)+'</div>'+(c.zh?'<div class="bite-zh">'+esc(c.zh)+'</div>':'')+
-    '<div class="bite-nav">'+
-    '<button class="btn" id="btn-prev-bite"'+(i<=0?' disabled':'')+'>上一句</button>'+
-    '<button class="btn btn-warm" id="btn-play-bite">播呢句</button>'+
-    '<button class="btn" id="btn-next-bite"'+(i>=chunks.length-1?' disabled':'')+'>下一句</button>'+
-    '</div></div>';
+  if(sess.chunkIdx >= chunks.length) sess.chunkIdx = Math.max(0, chunks.length - 1);
+  const tag = String(clip.category || 'LINE').toUpperCase();
+  const rows = chunks.map((c,i) => {
+    const on = i === (sess.chunkIdx||0);
+    return '<button type="button" class="sent-card'+(on?' on':'')+'" data-sent="'+i+'"><span class="sent-num">#'+(i+1)+'</span><span class="sent-main"><span class="sent-tag">'+esc(tag)+'</span><span class="sent-en">'+esc(c.en)+'</span>'+(c.zh?'<span class="sent-zh">'+esc(c.zh)+'</span>':'')+'</span></button>';
+  }).join('');
+  return '<div class="sent-wrap"><div class="bite-meta">分句 · '+((sess.chunkIdx||0)+1)+' / '+chunks.length+' · 撲一句就跟讀</div>'+rows+'</div>';
 }
 function renderStepBody(step, clip, sess) {
   const enText = getTextForLevel(clip);
@@ -128,7 +124,7 @@ function renderReview() {
 }
 function renderReviewDay() {
   const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
-  if (!day) return '<div class="card"><p>撿唔到呢日。</p><button class="btn" id="btn-review-back">← 重溫</button></div>';
+  if (!day) return '<div class="card"><p>揮唔到呢日。</p><button class="btn" id="btn-review-back">← 重溫</button></div>';
   const clips = day.clips || [];
   const items = clips.map((c,i) => '<div class="review-clip">'+(c.category?'<div class="topic-tag">'+esc(c.category)+'</div>':'')+'<div class="zh">'+esc(c.topic_zh||'')+'</div><div class="en">'+esc(c.topic_en||'')+'</div><div class="body">'+esc(getTextForLevel(c))+'</div>'+(c.text_zh?'<div class="body zh-txt">'+esc(c.text_zh)+'</div>':'')+'<div class="btn-row mt-2"><button class="btn" data-review-play="'+i+'">Play</button><button class="btn btn-primary" data-review-practice="'+i+'">練呢則</button></div></div>').join('');
   return '<div class="card"><div class="review-head"><div><h1>'+esc(formatReviewDate(day.date))+'</h1><p>'+clips.length+' 則</p></div></div>'+items+'<div class="btn-row mt-4"><button class="btn" id="btn-review-practice-all">練成日</button><button class="btn btn-primary" id="btn-review-back">← 重溫</button></div></div>';
@@ -159,14 +155,15 @@ function attachHandlers() {
   on('btn-retry-daily', async () => { await loadDailyClips(); render(); });
   on('btn-test', () => speak("The morning is my favorite part of the day, because it's quiet and nobody needs anything from me yet."));
   on('btn-reset', resetAll);
-  on('btn-prev-bite', () => { if(!state.session) return; state.session.chunkIdx = Math.max(0, (state.session.chunkIdx||0)-1); render(); });
-  on('btn-next-bite', () => { if(!state.session) return; state.session.chunkIdx = (state.session.chunkIdx||0)+1; render(); });
-  on('btn-play-bite', () => {
+  document.querySelectorAll('[data-sent]').forEach(btn => btn.addEventListener('click', () => {
+    if(!state.session) return;
+    state.session.chunkIdx = Number(btn.getAttribute('data-sent')) || 0;
     const clip = sessionClip(0); if(!clip) return;
-    const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 6);
-    const c = chunks[state.session.chunkIdx||0];
+    const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 16);
+    const c = chunks[state.session.chunkIdx];
+    render();
     if(c && c.en) speak(c.en);
-  });
+  }));
   document.querySelectorAll('.review-day').forEach(btn => btn.addEventListener('click', () => { state.reviewDate = btn.getAttribute('data-date'); state.view = 'reviewDay'; render(); }));
   document.querySelectorAll('[data-review-play]').forEach(btn => btn.addEventListener('click', () => {
     const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
@@ -187,7 +184,7 @@ function attachHandlers() {
     const clip = sessionClip(0); if(!clip) return;
     const step = STEPS[state.session.stepIdx];
     if(step && (step.id==='read' || step.id==='recall' || step.id==='grasp')){
-      const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 6);
+      const chunks = splitIntoBites(getTextForLevel(clip), clip.text_zh||'', 16);
       const c = chunks[state.session.chunkIdx||0];
       if(c && c.en) speak(c.en);
       return;
