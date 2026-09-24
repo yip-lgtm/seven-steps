@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-24",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-musk-mstr",
+      "topic_en": "Saylor Moon Portfolio",
+      "topic_zh": "Saylor Moon組合",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-mstr-b1.mp3",
+        "b2": "clip-trade-musk-mstr-b2.mp3",
+        "c1": "clip-trade-musk-mstr-c1.mp3",
+        "c2": "clip-trade-musk-mstr-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-rsu-tesla",
+      "topic_en": "Tesla RSU vs Cash",
+      "topic_zh": "Tesla RSU定現金",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-rsu-tesla-b1.mp3",
+        "b2": "clip-trade-rsu-tesla-b2.mp3",
+        "c1": "clip-trade-rsu-tesla-c1.mp3",
+        "c2": "clip-trade-rsu-tesla-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-soil-nail",
+      "topic_en": "Slope & Soil Nailing",
+      "topic_zh": "斜坡同土釘",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-soil-nail-b1.mp3",
+        "b2": "clip-civil-soil-nail-b2.mp3",
+        "c1": "clip-civil-soil-nail-c1.mp3",
+        "c2": "clip-civil-soil-nail-c2.mp3"
+      }
+    },
+    {
+      "id": "struct-loadpath",
+      "topic_en": "Load Path Logic",
+      "topic_zh": "荷載路徑",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-struct-loadpath-b1.mp3",
+        "b2": "clip-struct-loadpath-b2.mp3",
+        "c1": "clip-struct-loadpath-c1.mp3",
+        "c2": "clip-struct-loadpath-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-gpt6",
+      "topic_en": "GPT-6 Luna Cheaper",
+      "topic_zh": "GPT-6 Luna劈價",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-gpt6-b1.mp3",
+        "b2": "clip-tech-gpt6-b2.mp3",
+        "c1": "clip-tech-gpt6-c1.mp3",
+        "c2": "clip-tech-gpt6-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-xi-visit",
+      "topic_en": "Xi US Visit",
+      "topic_zh": "習近平訪美",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-xi-visit-b1.mp3",
+        "b2": "clip-hk-xi-visit-b2.mp3",
+        "c1": "clip-hk-xi-visit-c1.mp3",
+        "c2": "clip-hk-xi-visit-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-arm-size",
+      "topic_en": "16 Inch Arms Goal",
+      "topic_zh": "16吋手臂",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-arm-size-b1.mp3",
+        "b2": "clip-mma-arm-size-b2.mp3",
+        "c1": "clip-mma-arm-size-c1.mp3",
+        "c2": "clip-mma-arm-size-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-sword-cat",
+      "topic_en": "Reincarnated As A Sword",
+      "topic_zh": "轉生劍黑貓",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-sword-cat-b1.mp3",
+        "b2": "clip-anime-sword-cat-b2.mp3",
+        "c1": "clip-anime-sword-cat-c1.mp3",
+        "c2": "clip-anime-sword-cat-c2.mp3"
+      }
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "date": "2026-09-24",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "trade-musk-mstr",
@@ -10,26 +9,11 @@
       "topic_en": "Saylor Moon Portfolio",
       "text_zh": "又見到Saylor Moon組合 50% SpaceX + 50% MSTR。btw SpaceX又未上市啦 想all-in都唔得 唯有繼續捱MSTR 😭🙏",
       "text_en_b1": "Some anons are saying you should embrace the Saylor Moon portfolio too: 50% SpaceX and 50% MSTR. The idea is you stack leveraged Bitcoin exposure through MicroStrategy while waiting for SpaceX to go public one day.",
-      "source_url": "https://boards.4chan.org/biz/thread/62718025",
-      "source_hint": "/biz/ thread on Saylor Moon 50/50 portfolio",
-      "signal": {
-        "asset": "MSTR",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP suggests holding 50% MSTR as a leveraged Bitcoin play alongside SpaceX"
-      },
       "text_en_b2": "A handful of anons have been pushing the so-called Saylor Moon portfolio, which splits your allocation evenly between SpaceX and MicroStrategy. The logic is fairly straightforward: while SpaceX remains private and therefore off-limits to retail investors, MSTR offers leveraged Bitcoin exposure you can actually buy into. Although the idea sounds appealing in theory, going all-in on a single volatile asset clearly carries significant downside risk that nobody seems willing to address.",
       "text_en_c1": "A cohort of posters has once again floated what they have dubbed the Saylor Moon portfolio, under which capital is allocated evenly between SpaceX and MicroStrategy, fifty percent to each. The rationale, such as it is, hinges on stacking leveraged Bitcoin exposure through MSTR in the interim, the reasoning being that SpaceX remains privately held and therefore inaccessible to retail investors who would otherwise go all-in. One can only accumulate MSTR shares in the meantime, however reluctantly, until SpaceX eventually goes public. Such allocations, it should be noted, are not for the faint of heart, given the volatility inherent in both instruments.",
       "text_en_c2": "Anons on the Saylor Moon thread are once again evangelising the now-notorious 50/50 allocation: half SpaceX, half MicroStrategy, the rationale being that MSTR functions as a leveraged proxy for Bitcoin while retail investors wait, however indefinitely, for SpaceX's eventual IPO. The asymmetric bet is straightforward — you capture equity-style upside on the private space economy through public markets by proxy, hedging (or compounding) that with treasury-grade BTC exposure. The obvious snag, which posters conspicuously gloss over, is that SpaceX remains resolutely pre-public; one cannot, in any practical sense, allocate capital to it. Consequently, the portfolio devolves, in practice, into a concentrated bet on Michael Saylor's preferred instrument, with the SpaceX leg remaining aspirational until such time as secondary access opens up to mere mortals. A curious case of metaphysical asset allocation.",
-      "audio_url": "audio/2026-09-24/clip-trade-musk-mstr.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-trade-musk-mstr-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-trade-musk-mstr-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-trade-musk-mstr-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-trade-musk-mstr-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62718025",
+      "source_hint": "/biz/ thread on Saylor Moon 50/50 portfolio"
     },
     {
       "id": "trade-rsu-tesla",
@@ -38,26 +22,11 @@
       "topic_en": "Tesla RSU vs Cash",
       "text_zh": "今日見到條post 問新工package應該攞Tesla RSUs定cash wtf 我就連offer都未收到 lol 認真問 TSLA RSU真係可以all-in嗎 🙏🧐",
       "text_en_b1": "An anon is starting a new job at Tesla and the bonus is paid in RSUs or cash, vesting over 4 years with a 1 year cliff. He does not need it for daily life but a mortgage deposit would be nice. Should he take the stock?",
-      "source_url": "https://boards.4chan.org/biz/thread/62712781",
-      "source_hint": "/biz/ thread asking RSU vs cash at Tesla",
-      "signal": {
-        "asset": "TSLA",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP implies Tesla RSUs are worth holding long-term as part of compensation"
-      },
       "text_en_b2": "A fellow anon recently landed a job at Tesla and is weighing up whether to take the RSUs or the cash equivalent. The shares vest over four years with a one-year cliff, and while he does not strictly need the money for everyday expenses, putting it towards a mortgage deposit would certainly come in handy. Given Tesla's notorious volatility, the decision is far from obvious, so he is asking whether going all-in on the stock is genuinely wise.",
       "text_en_c1": "A poster has recently come into a Tesla job offer whose compensation package includes restricted stock units vesting over a four-year period with a one-year cliff, the alternative being an equivalent cash settlement. The funds are not strictly required for living expenses, although they would prove immensely useful toward a mortgage deposit, which is hardly a trivial consideration. Should the equity be retained in its entirety, or would diversification outweigh the upside? Investors ought to weigh the tax implications, the idiosyncratic concentration risk, and Tesla's notoriously volatile share price, all of which render the decision considerably less straightforward than it initially appears.",
       "text_en_c2": "An anon has just received an offer from the electric-vehicle manufacturer and now faces the archetypal equity-versus-cash dilemma: should he elect Tesla Restricted Stock Units, vesting across a standard four-year schedule with the customary one-year cliff, or take the equivalent in liquid compensation? He is, by his own account, comfortably rent-stable and not dependent on the income for daily expenditure, though a mortgage deposit would, he concedes, be rather welcome. The calculus is hardly novel — TSLA has historically rewarded holders who could stomach volatility — but with the stock trading at multiples that would give any sensible analyst pause, the all-in proposition carries a distinctly non-trivial tail risk.",
-      "audio_url": "audio/2026-09-24/clip-trade-rsu-tesla.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-trade-rsu-tesla-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-trade-rsu-tesla-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-trade-rsu-tesla-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-trade-rsu-tesla-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62712781",
+      "source_hint": "/biz/ thread asking RSU vs cash at Tesla"
     },
     {
       "id": "civil-soil-nail",
@@ -66,26 +35,11 @@
       "topic_en": "Slope & Soil Nailing",
       "text_zh": "今日做site 望住個slope 諗緊soil nail擺位 排距點先夠factor of safety 😅 AP Tommy又問我點解揀呢個length 我答到一半卡住 英文講slope好chur 🧐",
       "text_en_b1": "Slope surveys this week had me thinking about soil nail spacing again. If the slope is steeper than about 35 degrees and the soil is fill, the engineer usually tightens the nail row spacing and checks the factor of safety in the GI report.",
-      "source_url": "https://boards.4chan.org/biz/thread/62716820",
-      "source_hint": "/biz/ thread used as engineering reflection anchor (placeholder)",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, civil engineering reflection"
-      },
       "text_en_b2": "After spending the morning on site surveying a particularly steep slope, I found myself going back over soil nail spacing arrangements in my head. Whenever the inclination exceeds roughly thirty-five degrees and the underlying material is fill rather than competent strata, the resident engineer typically tightens the row spacing to maintain an adequate factor of safety. When the AP asked me to justify my chosen nail length, I managed half an explanation before completely drawing a blank on the technical terminology.",
       "text_en_c1": "This week's site visit involved an inspection of an existing slope, which prompted renewed consideration of soil nail spacing arrangements. Where the inclination exceeds roughly thirty-five degrees and the underlying material consists of fill, the resident engineer typically tightens the nail row spacing and revisits the factor of safety stipulated in the geotechnical interpretive report. A colleague from the authority subsequently enquired about the rationale behind the chosen nail length, and although the engineering justification was clear in principle, articulating it in technical English proved rather more taxing than anticipated, given the nuances inherent to slope stability terminology.",
       "text_en_c2": "On-site slope inspections this week have prompted renewed reflection upon the perennial headache of soil nail geometry. Once the inclination of an existing slope exceeds approximately thirty-five degrees and the underlying strata prove to be engineered fill rather than competent natural material, prevailing geotechnical practice dictates that nail row spacing be commensurately reduced to maintain an adequate factor of safety, the magnitude of which is corroborated against values tabulated within the ground investigation report. An inquisitive superior — Assistant Engineer Tommy, for the uninitiated — pressed me mid-explanation on the rationale behind the selected nail length, and I found myself, rather inconveniently, mid-sentence, fumbling for the precise terminology in English. Slope stability is, it must be said, uncommonly taxing to articulate fluently when one's vocabulary is being tested in real time.",
-      "audio_url": "audio/2026-09-24/clip-civil-soil-nail.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-civil-soil-nail-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-civil-soil-nail-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-civil-soil-nail-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-civil-soil-nail-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62716820",
+      "source_hint": "/biz/ thread used as engineering reflection anchor (placeholder)"
     },
     {
       "id": "struct-loadpath",
@@ -94,26 +48,11 @@
       "topic_en": "Load Path Logic",
       "text_zh": "睇緊舊beam column detail 個load path行得好怪 望到頭都痛 考FE呢啲位最易中伏 唔想再靠AI續命lol 😭",
       "text_en_b1": "Looking at a beam and column detail where the load path looks weird. The dead load goes from slab to beam, then to column, then to foundation. If the beam connection is not full strength, the load cannot transfer properly and the detail fails.",
-      "source_url": "https://boards.4chan.org/g/thread/109881809",
-      "source_hint": "/g/ thread repurposed as FE study reflection (placeholder)",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, FE exam study note"
-      },
       "text_en_b2": "I have been staring at an old beam-column detail that appears to route forces in a somewhat unconventional manner, which is exactly the kind of question that tends to trip people up on the FE exam. In theory, the dead load should travel cleanly from slab through beam, down the column, and ultimately into the foundation. However, unless the beam connection is genuinely full strength, that load transfer breaks down and the whole arrangement falls apart.",
       "text_en_c1": "While reviewing a beam-column detail ahead of the Fundamentals of Engineering examination, the load path struck me as somewhat unconventional and frankly counterintuitive. Conventional detailing routes dead load from slab to beam, from beam to column, and finally to the foundation. Should the connection fall short of full-strength capacity, however, the load simply cannot transfer as intended, rendering the detail fundamentally flawed. These structural discontinuities, which the licensing exam routinely exploits, demand a thorough grasp of force transfer mechanics rather than blind reliance on artificial intelligence to fill gaps in comprehension.",
       "text_en_c2": "I have been poring over a legacy beam-to-column connection detail whose load path is, to put it mildly, idiosyncratic — the kind of drawing that makes one's temples throb. The intended load transfer proceeds, in theory, from slab to beam, thence to column, and ultimately down to the foundation; a textbook arrangement, one might think, until one scrutinises the connection itself. Should the joint prove incapable of developing the full flexural capacity of the adjoining beam — a not-uncommon deficiency in older reinforced-concrete frames — the load cannot be transmitted in the manner the designer evidently intended, and the detail is, for all practical purposes, non-functional.",
-      "audio_url": "audio/2026-09-24/clip-struct-loadpath.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-struct-loadpath-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-struct-loadpath-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-struct-loadpath-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-struct-loadpath-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109881809",
+      "source_hint": "/g/ thread repurposed as FE study reflection (placeholder)"
     },
     {
       "id": "tech-gpt6",
@@ -122,26 +61,11 @@
       "topic_en": "GPT-6 Luna Cheaper",
       "text_zh": "GPT-6 Luna又劈價 50%平過GPT-5.6 wtf 我哋consulting會唔會下一個被AI做埋 lol 考牌都未完又嚟呢啲 🙃",
       "text_en_b1": "GPT-6 Luna is 50% cheaper than GPT-5.6 Luna. People used to say AI will always cost billions, but it now costs less than a cent per message. OpenAI keeps cutting the price and the Chinese models cannot keep up.",
-      "source_url": "https://boards.4chan.org/biz/thread/62718337",
-      "source_hint": "/g/ thread on GPT-6 Luna price cut",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, AI industry observation"
-      },
       "text_en_b2": "OpenAI has just dropped GPT-6 Luna at roughly fifty percent of GPT-5.6's price point, which is a frankly staggering reduction. Not long ago, industry commentators insisted advanced AI would forever remain prohibitively expensive to run, yet here we are at less than a cent per message. While established players keep slashing their rates, the Chinese models are struggling to match the pace, and our consulting practice cannot help wondering whether we might be next on the chopping block.",
       "text_en_c1": "OpenAI has once again slashed prices, with GPT-6 Luna now costing a mere fraction of GPT-5.6 Luna's price tag, fifty percent lower to be precise. The prevailing wisdom used to hold that frontier models would remain prohibitively expensive, commanding astronomical infrastructure costs; yet inference now runs at well under a cent per message, a remarkable feat. Smaller outfits, particularly the Chinese competitors whose margins were already compressed, can scarcely keep pace. Those of us in consulting, still slogging through professional qualifications, may legitimately wonder whether our own discipline will be the next to fall.",
       "text_en_c2": "OpenAI has once again slashed inference pricing — GPT-6 Luna now retails at a mere fifty per cent of its predecessor's sticker — a development that would have struck informed observers as fanciful scarcely twelve months prior. The prevailing wisdom, after all, held that frontier-scale models would remain prohibitively expensive, the preserve of well-capitalised enterprises rather than casual consumers; today, the per-message cost has collapsed below one cent, a figure so trifling as to border on the absurd. Chinese open-weight competitors, despite their commendable progress, find themselves structurally unable to match the cadence of these reductions, and the consulting profession — my own bread and butter, incidentally — is beginning to entertain increasingly uncomfortable questions about its medium-term relevance. One finishes one's licensure examinations only to discover the profession itself undergoing tectonic displacement.",
-      "audio_url": "audio/2026-09-24/clip-tech-gpt6.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-tech-gpt6-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-tech-gpt6-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-tech-gpt6-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-tech-gpt6-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62718337",
+      "source_hint": "/g/ thread on GPT-6 Luna price cut"
     },
     {
       "id": "hk-xi-visit",
@@ -150,26 +74,11 @@
       "topic_en": "Xi US Visit",
       "text_zh": "習近平又訪美 4chan啲人鬧到好嬲 講乜 Xinjiang Uyghur之類 我就諗緊呢個會唔會影響返開我哋啲中國生意 Tommy都冇講過 🙏🧐",
       "text_en_b1": "Some posters on /pol/ are angry about Xi Jinping visiting the US soon. They call him a mass murderer and a war criminal, and they mention Uyghur camps in Xinjiang, the pandemic response, and arbitrary arrests as reasons.",
-      "source_url": "https://boards.4chan.org/pol/thread/543177272",
-      "source_hint": "/pol/ thread on Xi Jinping US visit",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, geopolitical news observation"
-      },
       "text_en_b2": "Posters over on /pol/ are losing their minds about Xi Jinping's upcoming visit to the United States, and the comment section has predictably descended into chaos. The usual talking points are doing the rounds: Uyghur camps in Xinjiang, the pandemic response, and arbitrary political arrests all feature prominently in the criticism. Setting the moral grandstanding aside for a moment, I cannot help wondering whether this whole diplomatic theatre might end up disrupting our China-based business operations, though Tommy has yet to weigh in.",
       "text_en_c1": "A scheduled visit by Xi Jinping to the United States has provoked considerable outrage among users on /pol/, whose denunciations have grown increasingly vociferous. Various posters have labelled the Chinese leader a mass murderer and a war criminal, citing alleged Uyghur internment camps in Xinjiang, the authorities' handling of the pandemic, and arbitrary detentions as evidence. My own concern, perhaps more parochial, is the potential knock-on effect upon cross-border operations and the China-linked ventures we have been cultivating. Senior colleagues, for their part, have conspicuously declined to offer guidance.",
       "text_en_c2": "News of the forthcoming state visit by Xi Jinping to the United States has predictably electrified the more florid quarters of /pol/, where posters have taken to their keyboards with characteristic indignation. The charges levelled are familiar enough — mass murderer, war criminal, the customary roster — alongside invocations of the internment facilities in Xinjiang, the early-pandemic policy debacle, and the increasingly routine practice of arbitrary detention as rhetorical ammunition. Setting aside the more unhinged contributions, the pertinent question for those of us with commercial exposure to the mainland is whether the attendant diplomatic theatre will, in due course, redound upon our China-derived revenue streams. My colleague Tommy, usually voluble on geopolitical matters, has offered not a syllable of analysis, which I take to be either diplomatic circumspection or genuine indifference.",
-      "audio_url": "audio/2026-09-24/clip-hk-xi-visit.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-hk-xi-visit-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-hk-xi-visit-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-hk-xi-visit-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-hk-xi-visit-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/543177272",
+      "source_hint": "/pol/ thread on Xi Jinping US visit"
     },
     {
       "id": "mma-arm-size",
@@ -178,26 +87,11 @@
       "topic_en": "16 Inch Arms Goal",
       "text_zh": "肥仔信今日又問我手臂幾多 我得14.2吋 cutting緊真係好難加wt 16吋睇落好遠 唯有繼續grind 🧐",
       "text_en_b1": "An anon is 6ft 1, 194 lbs and cutting right now. His arms are only 14.2 inches and he wants to reach 16 inches. He does close-grip bench at 132 lbs for 2x10 and barbell curls at 75 lbs for 2x10. He feels stuck.",
-      "source_url": "https://boards.4chan.org/fit/thread/77532861",
-      "source_hint": "/fit/ thread on getting 16 inch arms while cutting",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, gym and cutting reflection"
-      },
       "text_en_b2": "Standing six foot one and currently sitting around 194 pounds while cutting, the goal of hitting sixteen-inch arms feels almost laughably distant at present, given that I am still stuck at a measly 14.2 inches. My current training has me grinding out close-grip bench presses at 132 pounds for two sets of ten, alongside barbell curls at 75 pounds for the same volume. Despite chasing progressive overload religiously, progress has completely stalled, so I am open to any practical suggestions.",
       "text_en_c1": "An anon currently stands at six foot one and roughly a hundred and ninety-four pounds, in the midst of a cutting phase that has predictably sapped his strength. His arms measure a modest fourteen point two inches, and his aspiration is to reach the comparatively imposing sixteen-inch threshold, which presently feels rather distant. His training comprises close-grip bench presses at a hundred and thirty-two pounds for two sets of ten, alongside barbell curls at seventy-five pounds on a similar rep scheme. Progress has stalled, and he wonders what adjustments might reignite hypertrophy.",
       "text_en_c2": "A fellow fitness enthusiast — let's call him the 'fat kid' of our little circle, a sobriquet worn with evident pride — has lately been interrogating me regarding my brachial circumference, an inquiry to which I must confess a rather humbling response: a cold, flexed measurement of 14.2 inches, taken mid-cut, represents my current best. The aspiration, naturally, is the mythic sixteen-inch threshold — a target that, from one's present depleted condition, recedes further with every gram of subcutaneous fat relinquished. My training, for the record, comprises close-grip bench presses at 132 pounds for two sets of ten, supplemented by barbell curls at 75 pounds for the same volume, a regimen that, while respectable, has evidently plateaued.",
-      "audio_url": "audio/2026-09-24/clip-mma-arm-size.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-mma-arm-size-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-mma-arm-size-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-mma-arm-size-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-mma-arm-size-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77532861",
+      "source_hint": "/fit/ thread on getting 16 inch arms while cutting"
     },
     {
       "id": "anime-sword-cat",
@@ -206,26 +100,11 @@
       "topic_en": "Reincarnated As A Sword",
       "text_zh": "轉生したら剣でした新season下星期開 lol 等緊黑貓出場 我隻貓都冇 望吓圖都好 🙏👍",
       "text_en_b1": "Reincarnated as a Sword has a new light novel out tonight in Japan and a new anime season starting on September 30. A side manga and a new tankobon volume also go on sale the same day. Post cute black cats!",
-      "source_url": "https://boards.4chan.org/a/thread/291166896",
-      "source_hint": "/a/ thread on Reincarnated as a Sword new season",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "No trade, anime release watch"
-      },
       "text_en_b2": "Reincarnated as a Sword is finally dropping a brand new light novel volume in Japan tonight, alongside a fresh anime season premiering on September 30. On top of that, a side manga and an additional tankobon volume are also scheduled to hit shelves the same day. While I am particularly looking forward to seeing the black cat in action, my own apartment remains stubbornly feline-free, so I will have to settle for ogling everyone else's adorable pictures.",
       "text_en_c1": "Reincarnated as a Sword enthusiasts have considerable cause for celebration this week, with a new light novel volume scheduled for release in Japan tonight and a fresh anime season premiering on the thirtieth of September. A spin-off manga and an additional tankobon volume are likewise hitting shelves the same day, rendering this a particularly bountiful period for fans of the franchise. Anticipation is mounting for the inevitable appearance of the iconic black cat, whose scenes are reliably delightful. One can only admire pictures of other people's cats.",
       "text_en_c2": "The devotees of 'Reincarnated as a Sword' are presently enjoying something of a minor renaissance, what with a fresh light novel volume descending upon Japanese shelves this very evening and a long-anticipated second season of the anime adaptation due to premiere on the thirtieth of September. As if this were insufficient bounty, a spinoff side manga — chronicling, I am told, the escapades of certain supporting characters — and a freshly minted tankōbon volume are scheduled for simultaneous release on the same day, a coordinated commercial onslaught that the fandom has greeted with unseemly enthusiasm. My principal interest, however, remains the debut of the black-cat companion, whose screen time has been, to date, frustratingly consigned to the periphery.",
-      "audio_url": "audio/2026-09-24/clip-anime-sword-cat.mp3",
-      "audio_url_b1": "audio/2026-09-24/clip-anime-sword-cat-b1.mp3",
-      "audio_url_b2": "audio/2026-09-24/clip-anime-sword-cat-b2.mp3",
-      "audio_url_c1": "audio/2026-09-24/clip-anime-sword-cat-c1.mp3",
-      "audio_url_c2": "audio/2026-09-24/clip-anime-sword-cat-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291166896",
+      "source_hint": "/a/ thread on Reincarnated as a Sword new season"
     }
   ]
 }
