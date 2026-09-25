@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-25",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-xrp-doge",
+      "topic_en": "XRP and DOGE elf maid",
+      "topic_zh": "XRP DOGE 精靈妹",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-xrp-doge-b1.mp3",
+        "b2": "clip-biz-xrp-doge-b2.mp3",
+        "c1": "clip-biz-xrp-doge-c1.mp3",
+        "c2": "clip-biz-xrp-doge-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-nvidia-gpu-price",
+      "topic_en": "Nvidia GPU pricing",
+      "topic_zh": "NVDA 顯示卡唔會再平",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-nvidia-gpu-price-b1.mp3",
+        "b2": "clip-tech-nvidia-gpu-price-b2.mp3",
+        "c1": "clip-tech-nvidia-gpu-price-c1.mp3",
+        "c2": "clip-tech-nvidia-gpu-price-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-ezo",
+      "topic_en": "Slope investigation EZO",
+      "topic_zh": "斜坡調查 EZO",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-ezo-b1.mp3",
+        "b2": "clip-civil-ezo-b2.mp3",
+        "c1": "clip-civil-ezo-c1.mp3",
+        "c2": "clip-civil-ezo-c2.mp3"
+      }
+    },
+    {
+      "id": "struct-loadpath",
+      "topic_en": "RC load path study",
+      "topic_zh": "RC 結構 load path",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-struct-loadpath-b1.mp3",
+        "b2": "clip-struct-loadpath-b2.mp3",
+        "c1": "clip-struct-loadpath-c1.mp3",
+        "c2": "clip-struct-loadpath-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-musk-cnn",
+      "topic_en": "Elon to own CNN",
+      "topic_zh": "Elon 買 CNN",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-musk-cnn-b1.mp3",
+        "b2": "clip-hk-news-musk-cnn-b2.mp3",
+        "c1": "clip-hk-news-musk-cnn-c1.mp3",
+        "c2": "clip-hk-news-musk-cnn-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-arms-16",
+      "topic_en": "16 inch arms goal",
+      "topic_zh": "16吋手臂點練",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-arms-16-b1.mp3",
+        "b2": "clip-fit-arms-16-b2.mp3",
+        "c1": "clip-fit-arms-16-c1.mp3",
+        "c2": "clip-fit-arms-16-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-100kanojo",
+      "topic_en": "100 Kanojo S3 ends",
+      "topic_zh": "100 Kanojo S3 完",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-100kanojo-b1.mp3",
+        "b2": "clip-anime-100kanojo-b2.mp3",
+        "c1": "clip-anime-100kanojo-c1.mp3",
+        "c2": "clip-anime-100kanojo-c2.mp3"
+      }
+    }
+  ]
+}

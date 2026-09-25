@@ -1,6 +1,103 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "days": [
+    {
+      "date": "2026-09-25",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-xrp-doge",
+          "category": "trading",
+          "topic_zh": "XRP DOGE 精靈妹",
+          "topic_en": "XRP and DOGE elf maid",
+          "text_zh": "/biz/ 有人話，精靈妹叫佢哋買 XRP 同 DOGE，依家啲人 financial elf，lol。我又輸緊，仲有考牌，都唔知頂唔頂到 🙏 又係學費…",
+          "text_en_b1": "You should have listened to the elf maid when she told you to buy lots of XRP and DOGE. Now people who hold those coins will be in GOOD FINANCIAL ELF, lol. The poster is mocking anyone who missed the pump and missed the elf maid's advice from earlier in the year.",
+          "text_en_b2": "You should have taken the elf maid's call seriously when she flagged accumulating XRP and DOGE earlier in the year. Anyone who actually held those positions is now sitting on a comfortable portfolio, while the rest of us watched the rally unfold from the sidelines. Honestly, it stings, but hindsight is 20/20 and crypto rarely hands out second chances. Anyway, I'm still down on my prop trades and grinding through exam prep, so back to the salt mine.",
+          "text_en_c1": "Anyone who failed to heed the elf maid's earlier call to accumulate XRP and DOGE is now ruing the missed opportunity, as holders find themselves in what can only be described as a state of financial nirvana. The poster is seizing the moment to lampoon those who dismissed the advice, particularly given the magnitude of the subsequent rally. Yet the irony is not lost on the original commentator, who confesses to being underwater on positions while simultaneously shouldering the financial burden of an upcoming licensing examination, rendering the entire affair a costly lesson.",
+          "text_en_c2": "One ought to have heeded the elf maiden's oracular counsel back when she extolled the virtues of XRP and DOGE. Those who actually listened now find themselves basking in unprecedented financial solvency, a turn of events the original poster cannot help but deride with sardonic glee. He singles out anybody who declined to take the plunge, framing their hesitancy as a kind of secular folly. Looking back, one can almost admire the prescience of a meme that now reads more like prophecy than parody. Of course, the poster himself is bleeding out on leveraged positions, his examination fees looming, and his patience threadbare. Still, the schadenfreude flows freely, because in crypto, foresight is a currency far rarer than capital itself.",
+          "source_url": "https://boards.4chan.org/biz/thread/62718337",
+          "source_hint": "/biz/ thread about XRP and DOGE holders being 'in good financial elf' after listening to elf maid"
+        },
+        {
+          "id": "tech-nvidia-gpu-price",
+          "category": "tech/ai",
+          "topic_zh": "NVDA 顯示卡唔會再平",
+          "topic_en": "Nvidia GPU pricing",
+          "text_zh": "/g/ 有人話 NVDA 以後唔會再賣咁平嘅 GPU，認真，AI 需求咁勁，邊有平執。但我 CFD 都輸緊，唔使諗喇 lol 🧐",
+          "text_en_b1": "Nvidia is never pricing their GPUs this cheap again. With AI demand still strong from every hyperscaler and data center buildout, the next gen is going to be priced way higher. Anyone waiting for a GPU deal in 2026 is going to be disappointed.",
+          "text_en_b2": "Nvidia isn't going to price their next generation of GPUs anywhere near as affordably as the current lineup, and frankly anyone expecting a discount is deluding themselves. Demand from hyperscalers and ongoing data centre buildouts continues to outstrip supply, so margins are only heading in one direction. If you've been holding out for a bargain in 2026, brace yourself for a rude awakening, because that window has effectively closed. Meanwhile I'm bleeding on CFDs, so the GPU dream stays on the back burner, lol.",
+          "text_en_c1": "Nvidia's current GPU pricing should be regarded as a relic of a bygone era, for the company has every incentive to push the next generation substantially higher. With hyperscalers and enterprise data centres continuing to absorb capacity at an insatiable rate, the upward pressure on margins is unmistakable. Anyone holding out for a bargain in 2026 will, in all likelihood, find themselves waiting in vain. Meanwhile, the commentator acknowledges that his own CFD positions are bleeding, which renders the prospect of upgrading entirely academic, however compelling the underlying thesis may be.",
+          "text_en_c2": "Nvidia will never again retail its accelerators at such conspicuously accessible price points, and anyone harbouring illusions of a 2026 markdown ought to dispense with them forthwith. The insatiable appetite of every hyperscaler, compounded by the relentless cadence of data centre construction, has effectively recalibrated the entire pricing paradigm. Jensen's forthcoming silicon will inevitably command a substantial premium, given that supply remains structurally constrained and demand continues its near-vertical ascent. For those holding out for a bargain, disappointment is not merely probable but architecturally inevitable. The poster, meanwhile, finds himself nursing losses on his CFD positions, watching margins evaporate with the resigned detachment of a man who long ago made peace with his own impecuniousness.",
+          "source_url": "https://boards.4chan.org/g/thread/109897534",
+          "source_hint": "/g/ thread arguing Nvidia GPUs will not be this cheap again"
+        },
+        {
+          "id": "civil-ezo",
+          "category": "civil/structure",
+          "topic_zh": "斜坡調查 EZO",
+          "topic_en": "Slope investigation EZO",
+          "text_zh": "今日又出咗個斜坡 EZO 報告，地下水同管線資料亂晒，factor of safety 啱啱過。Tommy 同何生都叫我小心啲覆核。靠 AI 續命…",
+          "text_en_b1": "Back from another slope investigation site. The contractor's drainage layout does not match the GI report, and the factor of safety on the soil nailing section is barely above 1.3. Going to have to write up the condition survey tonight before the AP reviews it tomorrow morning.",
+          "text_en_b2": "Just wrapped up another slope investigation and the EZO report is a mess, with groundwater readings and utility data that don't line up with the contractor's drainage layout. The factor of safety on the soil nailing section is barely scraping past 1.3, which is uncomfortably close to the limit. Tommy and my supervisor have both told me to double-check everything before submission. Honestly, AI is the only thing keeping this condition survey on track for the AP's review tomorrow morning.",
+          "text_en_c1": "Fresh from yet another slope investigation, the poster reports that the contractor's as-built drainage layout bears little resemblance to the ground investigation report on file, with groundwater levels and pipe routing data appearing thoroughly scrambled. The calculated factor of safety on the soil-nailed section barely scrapes past the 1.3 threshold, which is hardly reassuring. Both Tommy and Ho have urged a meticulous recheck before submission, given that the Authorised Person will be reviewing the condition survey first thing in the morning. Relying on AI to patch the analysis feels like a precarious strategy.",
+          "text_en_c2": "Fresh from yet another slope investigation, where the contractor's drainage layout bore only a passing resemblance to the ground investigation report. Groundwater readings and service trench alignments were, to put it generously, creatively interpreted, and the factor of safety on the soil nailing section teetered above the 1.3 threshold with the elegance of a condemned man balanced on a chair. Both Tommy and Ho have implored a meticulous recheck before submission, which means the condition survey must be drafted tonight, regardless of whatever modest reserves of cognitive bandwidth remain. Artificial intelligence, for once, is carrying the cognitive load whilst the human contributors scramble to reconcile the discrepancies before the Authorised Person descends upon the documentation at first light tomorrow.",
+          "source_url": "https://boards.4chan.org/biz/thread/62721153",
+          "source_hint": "Original post is about Litecoin, repurposed civil/structure clip about slope EZO and GI report"
+        },
+        {
+          "id": "struct-loadpath",
+          "category": "civil/structure",
+          "topic_zh": "RC 結構 load path",
+          "topic_en": "RC load path study",
+          "text_zh": "夜晚溫緊 RC，load path 由 beam 到 column 到 foundation，FE 嗰邊 Dr An 又寄咗兩條題目過嚟。考牌 + 輸錢，真係 grind mode 🙏",
+          "text_en_b1": "Studying reinforced concrete load path tonight. Going beam to column to foundation, checking moment redistribution at the joint, and reviewing how the designer checked punching shear. The FE exam wants you to explain why a method is chosen, not just the numbers.",
+          "text_en_b2": "Spending the evening working through reinforced concrete load path problems, tracing the force flow from beam through column right down to the foundation, which is tedious but essential FE prep. Dr An has thrown two more questions my way, including one on moment redistribution at the beam-column joint that I haven't quite cracked yet. The exam's real challenge is justifying the chosen method rather than just running calculations. Pair that with bleeding money on trades and exam mode becomes relentless.",
+          "text_en_c1": "Another evening devoted to reinforced concrete revision, meticulously tracing the load path from beam through column and ultimately down to the foundation, with particular attention to moment redistribution at the beam-column joint. The FE examination, as ever, demands not merely the ability to crunch numbers but to articulate why a particular design methodology has been selected over its alternatives. Dr An from the FE side has conveniently forwarded two supplementary problems, which compounds the grind considerably, especially when one is simultaneously nursing losses across prop firm accounts.",
+          "text_en_c2": "Burnishing reinforced concrete theory into the small hours, tracing the load path with almost devotional rigour: slab to beam, beam to column, column to foundation, each tributary of force accounted for as one might trace capillaries in a dissected leaf. Moment redistribution at the joint is being revisited with particular care, since the designer's approach to punching shear, while defensible, invites the kind of probing questioning that examiners reserve for candidates they suspect of rote learning. Dr An, meanwhile, has forwarded a further two FE problems, each deceptively innocuous, each freighted with conceptual tripwires. Add to this a prop account bleeding steadily and an examination fast approaching, and the cumulative effect is a state of grinding, monastic endurance.",
+          "source_url": "https://boards.4chan.org/biz/thread/62717618",
+          "source_hint": "Original post is about ZEC, repurposed structural engineering study clip"
+        },
+        {
+          "id": "hk-news-musk-cnn",
+          "category": "hk/news",
+          "topic_zh": "Elon 買 CNN",
+          "topic_en": "Elon to own CNN",
+          "text_zh": "OMG /pol/ 有人崩潰，話 Elon 啱啱買咗 CNN，話納粹又嚟喇 lol。其實我哋呢啲廢柴最緊要係睇吓 TSLA 點走，prop firm 啱啱又爆咗 🙏",
+          "text_en_b1": "WHAT THE FUCK. ELON IS ABOUT TO OWN CNN. NO NO NONONONONO THE FUCKING NAZIS ARE GAINING POWER WHAT THE FUCK!!! HOW DO WE STOP THESE CHUDS?????? The /pol/ thread is melting down over the reported deal, with anons calling for a boycott before any announcement.",
+          "text_en_b2": "WHAT THE ACTUAL FUCK, ELON IS APPARENTLY ABOUT TO OWN CNN, AND /POL/ IS COMPLETELY LOSING IT. Anons are losing their minds, calling for boycotts and treating the report as confirmation of their worst fears about creeping influence and ideological capture. The meltdown is almost entertaining, though the genuine panic pouring out of the thread is something else entirely. Meanwhile my prop firm just blew up again, so TSLA's trajectory matters considerably more to me than whatever fresh media circus is unfolding, lol.",
+          "text_en_c1": "The /pol/ thread has descended into absolute pandemonium at reports that Elon Musk has acquired CNN, with contributors invoking comparisons to 1930s Germany and demanding an immediate boycott before any official announcement is even confirmed. The hysteria, predictably enough, has reached a fever pitch that renders rational discourse all but impossible. The original commentator, however, takes a markedly more sanguine view, observing that for the average retail trader nursing losses and watching yet another prop firm blow up, the far more pressing concern is where TSLA heads from here.",
+          "text_en_c2": "The /pol/ thread is in a state of absolute catastrophic meltdown. Word has apparently filtered through that Elon is on the cusp of acquiring CNN, and the denizens of that benighted board have taken it as confirmation of every feverish hypothesis they have nurtured since 2016. Capital-N Nazis gaining power, the usual lamentations about Chuds, a boycott mooted with all the strategic coherence of a toddler staging a sit-in. It is, of course, par for the course: any sufficiently prominent acquisition becomes, for the conspiratorially inclined, an apocalyptic inflection point. Meanwhile, TSLA's price action remains the only metric that actually matters to anybody with skin in the game, though another prop firm has just imploded, leaving the poster to subsidise his political despair with fresh financial injuries.",
+          "source_url": "https://boards.4chan.org/pol/thread/543241462",
+          "source_hint": "/pol/ meltdown thread about Elon Musk reportedly buying CNN"
+        },
+        {
+          "id": "fit-arms-16",
+          "category": "mma/fitness",
+          "topic_zh": "16吋手臂點練",
+          "topic_en": "16 inch arms goal",
+          "text_zh": "/fit/ 有條友 6'1 194lbs 想練到 16 吋手臂，依家 14.2，做 close-grip bench 132 同 barbell curl 75。肥仔信都話我手臂細，屌…",
+          "text_en_b1": "How hard is it to get 16 inch arms? I am 6 foot 1 at 194lbs and currently cutting, but my arms are only 14.2 inches. I do close-grip bench at 132lbs for 2x10 and straight bar curls at 75lbs for 2x10. I am an intermediate lifter and have not been able to add weight to my lifts for a long time.",
+          "text_en_b2": "How realistic is it to push my arms from 14.2 inches up to a full 16? I'm 6'1 at 194lbs, currently cutting, and my lifts have been completely stagnant for months. I'm running close-grip bench at 132lbs for sets of 2x10 and straight bar curls at 75 for 2x10, and although I've been told my arms look small, I'm not sure whether to blame the taper or just genuinely lacking arm-dedicated volume. Intermediate grind feels stalled.",
+          "text_en_c1": "Seeking a realistic assessment of how arduous the journey to 16-inch arms actually is, the poster stands at 6'1\" and 194lbs, currently in a cut, yet his arms measure a comparatively modest 14.2 inches. His training numbers are close-grip bench at 132lbs for 2x10 and straight bar curls at 75lbs for 2x10, figures that he finds distinctly underwhelming, especially given his self-identification as an intermediate lifter. Progress on compound lifts has stalled for a considerable stretch, which only amplifies the frustration. The gauntlet, it seems, has been thrown down by a rather demoralising physique critique.",
+          "text_en_c2": "How realistic is it, in sober anatomical terms, to chase a 16-inch arm circumference? The querant stands 6'1, weighs a respectable 194 pounds, and is presently leaning out, yet his arms measure a modest 14.2 inches. His current regimen comprises close-grip bench presses at 132 pounds for two sets of ten, supplemented by straight-barbell curls at 75 pounds for the same volume, both movements executed with what one might charitably describe as monastic consistency. Self-diagnosed as an intermediate lifter, he confesses that the barbell has not budged in weeks, possibly months, a plateau compounded by his relatives' gentle observation that his arms remain, shall we say, aesthetically unremarkable. The diagnosis is almost certainly a volume and intensity deficit.",
+          "source_url": "https://boards.4chan.org/fit/thread/77532861",
+          "source_hint": "/fit/ thread asking how to grow from 14 inch to 16 inch arms"
+        },
+        {
+          "id": "anime-100kanojo",
+          "category": "anime/culture",
+          "topic_zh": "100 Kanojo S3 完",
+          "topic_en": "100 Kanojo S3 ends",
+          "text_zh": "/a/ 講緊 100 Kanojo 第三季完咗，結局好正，希望有第四季。夜晚溫完書就煲嘢睇，loneliness 都係 glitch 嚟，snap 返去 grind mode lol 👍",
+          "text_en_b1": "100 Kanojo. Season 3 is over! What did you think of the finale and what did you think of the season overall? And, since there is a chance this could be it for the anime, what do you think of Bibury's adaptation of the series in general? Are you a season 4 and beyond believer?",
+          "text_en_b2": "100 Kanojo's third season has wrapped up and the finale landed well, arguably hitting harder than anyone anticipated. The /a/ thread is buzzing about how Bibury handled the adaptation overall, and although a fourth season hasn't been confirmed, most anons seem cautiously hopeful rather than writing it off entirely. The episodic romance format genuinely worked, which is saying something. Personally I'm shelving the binge until after my exam revision, because loneliness is just an extended grind anyway.",
+          "text_en_c1": "Now that the third season of 100 Kanojo has drawn to a close, the discourse on /a/ has shifted toward an evaluation of the finale itself and the broader trajectory of the adaptation. Given that this may well prove to be the series' swan song under Bibury's stewardship, the retrospective assessment carries more weight than usual. Whether a fourth season remains a realistic prospect, rather than mere wishful thinking, is very much the subtext of the discussion. The poster, for his part, treats lingering loneliness as little more than a transient bug, and snaps himself back to grinding.",
+          "text_en_c2": "100 Kanojo's third season has drawn to a close, and /a/ is engaged in the customary post-finale ritual of collective appraisal. The consensus, insofar as consensus ever coalesces on that particular board, is one of genuine approbation, with the denouement striking many as both earned and unexpectedly affecting. Whether the studio will commission a fourth season remains, as ever, a question suspended between commercial calculus and the vagaries of licensing arrangements, though Bibury's stewardship of the source material has generally been regarded as competent, if occasionally over-budget. For the poster himself, the evening's itinerary consists of revision followed by comfort viewing, a sequence he has refined into something approaching ritual. Loneliness, he concludes with studied nonchalance, is merely a transient anomaly, a glitch soon overwritten by the steady drip of grind-mode productivity.",
+          "source_url": "https://boards.4chan.org/a/thread/291119394",
+          "source_hint": "/a/ season finale discussion thread for 100 Girlfriends Who Really Love You S3"
+        }
+      ]
+    },
     {
       "date": "2026-09-24",
       "source": "ai",
