@@ -1,7 +1,6 @@
 {
   "date": "2026-09-26",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "t1-gold-russia",
@@ -10,26 +9,11 @@
       "topic_en": "Russia dumps gold",
       "text_zh": "今日睇到有人講俄羅斯要錢打緊仗，所以不斷拋金。難怪金價上唔到。講真我已經輸緊，仲要睇呢啲，真係頂唔順。又係學費囉🙏",
       "text_en_b1": "Russia is looking for money to fund the war. That is why gold cannot pump anymore. Russia has huge precious metal reserves, and now they are selling them. I do not see this dumping ending anytime soon.",
-      "source_url": "https://boards.4chan.org/biz/thread/62725335",
-      "source_hint": "/biz/ thread on Russia dumping gold reserves",
-      "signal": {
-        "asset": "XAU",
-        "direction": "short",
-        "conviction": "medium",
-        "time_horizon": "weeks",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP says Russia is actively dumping gold to fund the war, capping any upside"
-      },
       "text_en_b2": "Russia keeps offloading its gold reserves because it desperately needs cash to keep the war machine running, and that relentless selling is clearly capping any upside on gold prices. Given the scale of their stockpile, I honestly cannot see this dumping slowing down in the foreseeable future, so unless geopolitics shifts dramatically, the bleed is likely to continue weighing on my positions for the foreseeable future.",
       "text_en_c1": "Russia is evidently seeking to liquidate significant portions of its gold reserves in order to finance an ongoing military campaign, which would largely explain why the precious metal has struggled to mount any sustained rally. Given the sheer scale of their stockpile, one can reasonably assume that this selling pressure is not about to abate in the foreseeable future. For those of us who are already nursing considerable losses, watching these developments unfold in real time only adds insult to injury, and the tuition bills keep piling up regardless of the macroeconomic backdrop.",
       "text_en_c2": "Russia, acutely starved of liquidity to bankroll its protracted war effort, has resorted to systematically divesting its vast precious-metals reserves. The market, ever sensitive to such incremental selling pressure, has consequently struggled to mount a sustained rally; gold has effectively been capped, no matter how favourable the underlying macro narrative might appear to retail bulls. With no discernible end to this liquidation in sight, given Moscow's unceasing fiscal exigencies, one can scarcely blame disillusioned participants for feeling as though the metal has been permanently conscripted into geopolitics. The prospect of any meaningful relief, it seems, remains hostage to a ceasefire that shows no sign of materialising. Holders, understandably, are bearing the brunt.",
-      "audio_url": "audio/2026-09-26/clip-t1-gold-russia.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-t1-gold-russia-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-t1-gold-russia-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-t1-gold-russia-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-t1-gold-russia-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62725335",
+      "source_hint": "/biz/ thread on Russia dumping gold reserves"
     },
     {
       "id": "t2-btc-bulltrap",
@@ -38,26 +22,11 @@
       "topic_en": "BTC bull trap or no?",
       "text_zh": "又有人話BTC係bulltrap。我都想信，但又唔敢short。油價同債息都爆上，邊有理由BTC獨自升？命理叫我hold，唯有等囉🧐",
       "text_en_b1": "This is a bulltrap, think about it logically. Why would market makers pump Bitcoin when everything else is crashing? Bond yields, gas, food crops, everything is soaring like their lives depend on it. They want to load up longs so they can crash the market until at least the next halving.",
-      "source_url": "https://boards.4chan.org/biz/thread/62726449",
-      "source_hint": "/biz/ thread calling BTC a bulltrap amid crashing everything else",
-      "signal": {
-        "asset": "BTC",
-        "direction": "short",
-        "conviction": "medium",
-        "time_horizon": "weeks",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP argues BTC is being pumped to trap longs before a crash into next halving"
-      },
       "text_en_b2": "Honestly, this whole Bitcoin rally has bulltrap written all over it. While everything else is in freefall, bond yields, crude, food commodities, you name it, why on earth would market makers pump BTC in isolation? They are almost certainly loading up longs so they can crush the market into the next halving, and I am not about to get caught on the wrong side again.",
       "text_en_c1": "The prevailing argument that Bitcoin's current trajectory constitutes little more than a bull trap deserves careful scrutiny, particularly when one considers the broader macroeconomic picture. With bond yields, energy prices, and agricultural commodities all surging in tandem, it seems altogether implausible that institutional market makers would deliberately prop up a single asset class without an ulterior motive. The logical inference is that they are merely accumulating long positions in anticipation of a significant liquidation cascade, one that could plausibly extend well beyond the next halving event. Until sentiment decisively shifts, holding remains the only rational course of action.",
       "text_en_c2": "Consider, with the cold detachment that rationality demands, what is presently unfolding across asset classes. Bond yields are ballooning, crude oil has decisively broken to the upside, and even staple agricultural commodities are exhibiting a near-vertical ascent, as though the entire risk spectrum were conspiring to vindicate the bearish thesis. Against such a backdrop, the notion that institutional market makers would organically propel Bitcoin skyward strains credulity beyond its breaking point. The far more plausible interpretation, advanced by seasoned cynics, holds that this engineered strength is merely bait, designed to lure capital into leveraged long exposure before the inevitable rug-pull. Seasoned operators, wary of being liquidated, will therefore hold, waiting patiently for the next halving cycle.",
-      "audio_url": "audio/2026-09-26/clip-t2-btc-bulltrap.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-t2-btc-bulltrap-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-t2-btc-bulltrap-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-t2-btc-bulltrap-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-t2-btc-bulltrap-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62726449",
+      "source_hint": "/biz/ thread calling BTC a bulltrap amid crashing everything else"
     },
     {
       "id": "c1-arms-16",
@@ -66,26 +35,11 @@
       "topic_en": "16-inch arms chase",
       "text_zh": "睇到外國佬講手臂，我194磅先得14.2吋😭 佢CG bench 132lb、curl 75lb，同我差唔遠。但人哋6呎1，我連16吋都未到。肥仔信睇到實笑我lol",
       "text_en_b1": "I am 6 foot 1 at 194 pounds and my arms are only 14.2 inches. I do close-grip bench press at 132 pounds for 2 sets of 10, and straight bar bicep curl at 75 pounds for 2 sets of 10. I cut volume because of a cut. How hard is it to get 16 inch arms?",
-      "source_url": "https://boards.4chan.org/fit/thread/77532861",
-      "source_hint": "/fit/ thread about chasing 16-inch arms while cutting",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Lifestyle/lifting post, no trade setup"
-      },
       "text_en_b2": "I am six foot one, weighing in at around 194 pounds, yet my arms stubbornly refuse to break the 14.2-inch mark, which is honestly embarrassing. My close-grip bench sits at 132 pounds and straight bar curls at 75 pounds, both for two sets of ten, although I trimmed volume during my cut. Getting to sixteen inches feels like an uphill battle at this point.",
       "text_en_c1": "Standing at six foot one and weighing 194 pounds, I find it somewhat demoralising that my arms measure a mere 14.2 inches, particularly given that the individuals whose physiques I admire possess remarkably similar lifting numbers. My current routine consists of close-grip bench presses at 132 pounds and straight-bar bicep curls at 75 pounds, both performed across two sets of ten repetitions, though volume has necessarily been curtailed on account of an ongoing cut. The question that continues to haunt me is precisely how difficult it remains to break through the seemingly elusive sixteen-inch threshold, a milestone that appears almost within reach yet stubbornly distant.",
       "text_en_c2": "Standing at six foot one and weighing a respectable 194 pounds, I find myself quietly humiliated by the realisation that my arms, despite years of conscientious effort, measure a meagre 14.2 inches. My training regimen, for the record, consists of close-grip bench presses executed at 132 pounds across two sets of ten, supplemented by straight-bar bicep curls at 75 pounds for the same volume, though I have admittedly curtailed overall workload on account of a recent cut. Comparatively, lifters of similar stature routinely sport arms exceeding the hallowed sixteen-inch threshold, rendering my own progress almost comically inadequate. The question, then, is whether hypertrophy at this level demands pharmaceutical intervention, or merely the sort of genetic lottery that has thus far eluded me.",
-      "audio_url": "audio/2026-09-26/clip-c1-arms-16.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-c1-arms-16-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-c1-arms-16-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-c1-arms-16-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-c1-arms-16-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77532861",
+      "source_hint": "/fit/ thread about chasing 16-inch arms while cutting"
     },
     {
       "id": "c2-amds-gpu",
@@ -94,26 +48,11 @@
       "topic_en": "AMD 10700XT vs 5080",
       "text_zh": "AMD又話10700XT贏到RTX 5080，仲要path tracing，聽到我喊出黎。AMD次次都係咁講，唔信囉。除非CUDA真係上到去，否則我唔會郁張卡🙏",
       "text_en_b1": "The 10700XT will supposedly outperform the RTX 5080 and even includes path tracing. How many times have we heard this before and it is literally never the case. I will believe it when I see it, especially if FSR finally matches DLSS4 in quality and performance.",
-      "source_url": "https://boards.4chan.org/g/thread/109895744",
-      "source_hint": "/g/ thread on rumored AMD 10700XT performance claims",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Hardware discussion, no trade setup"
-      },
       "text_en_b2": "AMD is claiming yet again that the 10700XT will outperform the RTX 5080 and even handle path tracing, a familiar tune we have all heard countless times before. I have been burned too often to take these promises at face value, so I will believe it when benchmarks actually land, and only if FSR finally manages to hold its own against DLSS4 in practice.",
       "text_en_c1": "AMD's marketing apparatus has once again proclaimed that the forthcoming 10700XT will outperform Nvidia's RTX 5080, allegedly incorporating hardware-accelerated path tracing into the bargain, a claim that would have been borderline extraordinary had it not followed the same pattern we have witnessed on countless previous occasions. History suggests considerable scepticism is warranted, given that AMD's pre-release benchmarks have historically diverged rather dramatically from real-world performance. Should FSR eventually achieve parity with DLSS 4 in terms of both visual fidelity and frame-rate consistency, my reservations might finally dissipate, though until that day arrives I remain content to watch from the sidelines.",
       "text_en_c2": "AMD's marketing apparatus has once again elected to regale prospective buyers with the arresting claim that their forthcoming 10700XT will comprehensively eclipse Nvidia's RTX 5080, allegedly even with path tracing enabled. One would be forgiven for succumbing to enthusiastic optimism, given the sheer audacity of such pronouncements, except for the inconvenient truth that we have endured this particular cycle of hype and consequent disappointment so many times before. The Team Red faithful, long chastened by repeated overpromising, have adopted a credo of profound scepticism: until the silicon is independently benchmarked in real-world scenarios, every glossy slide deck warrants nothing more than a weary eye-roll. Should FSR finally close the quality chasm with DLSS 4, however, sentiment may yet shift.",
-      "audio_url": "audio/2026-09-26/clip-c2-amds-gpu.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-c2-amds-gpu-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-c2-amds-gpu-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-c2-amds-gpu-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-c2-amds-gpu-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109895744",
+      "source_hint": "/g/ thread on rumored AMD 10700XT performance claims"
     },
     {
       "id": "h1-epstein-pol",
@@ -122,26 +61,11 @@
       "topic_en": "US politics unraveling",
       "text_zh": "睇完笑咗。Epstein死咗、Rogan走佬、Trump又話俾人拉埋。美國都係咁上下lol。對我嚟講返Florida嘅plan唔變，考完牌就走🧐",
       "text_en_b1": "Epstein is dead. Most big names like Rogan have left. Elon is irrelevant. Trump is either getting removed or croaking before his term ends. It is all falling apart in realtime, anon.",
-      "source_url": "https://boards.4chan.org/pol/thread/543291259",
-      "source_hint": "/pol/ thread claiming the US establishment is collapsing",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Political rant, no trade setup"
-      },
       "text_en_b2": "The whole US political circus is unravelling in broad daylight, and it is frankly hard to keep up. Epstein is conveniently dead, Rogan has largely checked out, Elon has become a background character at best, and Trump is either about to get removed or keel over before his term wraps up. From where I am standing, nothing is holding together, so I am sticking to my Florida plan.",
       "text_en_c1": "The contemporary state of American affairs has descended into what can only be described as a slow-motion spectacle of institutional decay, with each passing week delivering fresh revelations that would have seemed implausible mere years ago. Epstein's demise, the conspicuous departure of influential figures such as Rogan, and the mounting speculation surrounding Trump's political future collectively suggest a nation whose foundational structures are fracturing in real time. Whether through impeachment or more permanent means, the current administration appears destined for an abrupt conclusion. As for myself, plans to relocate to Florida remain entirely unchanged once the licensing examinations conclude.",
       "text_en_c2": "America, that great beacon of institutional stability, appears to be entering a phase of almost baroque self-destruction. Epstein has shuffled off his mortal coil under circumstances more befitting a spy thriller than a civilised judiciary, the country's most prominent podcasting personalities have emigrated in droves, Elon Musk has retreated into terminal irrelevance, and Trump, with characteristic inevitability, now faces either impeachment or mortality before his term concludes. One watches, transfixed, as the edifice unravels in real time, each revelation more outlandish than the last. For those of us observing from abroad, however, such spectacles carry a peculiar clarity: Florida beckons, and once the bar exam is dispatched, the relocation plan proceeds undeterred by the circus.",
-      "audio_url": "audio/2026-09-26/clip-h1-epstein-pol.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-h1-epstein-pol-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-h1-epstein-pol-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-h1-epstein-pol-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-h1-epstein-pol-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/543291259",
+      "source_hint": "/pol/ thread claiming the US establishment is collapsing"
     },
     {
       "id": "a1-demon-slayer",
@@ -150,26 +74,11 @@
       "topic_en": "Most impactful manga",
       "text_zh": "有人排動漫文化影響力，第一係鬼滅、Gintama第二、漂白第三。睇完好想重睇Gintama，但我邊有時間😭 考牌先",
       "text_en_b1": "Objective ranking of manga and anime with the most cultural impact: 1. Demon Slayer, the biggest phenomenon. 2. Gintama, which birthed Demon Slayer. 3. Bleach, which birthed many things. 4. Black Clover, birthed by Bleach. 5. Kagurabachi. What are your top picks?",
-      "source_url": "https://boards.4chan.org/a/thread/291201243",
-      "source_hint": "/a/ thread ranking manga franchises by cultural impact",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anime discussion, no trade setup"
-      },
       "text_en_b2": "Someone posted an objective ranking of manga and anime by cultural impact, and the lineup was hard to argue with. Demon Slayer tops the list as the biggest phenomenon, Gintama comes second for essentially giving birth to Demon Slayer, Bleach third for spawning countless successors, Black Clover fourth owing its DNA to Bleach, and Kagurabachi rounding things out. It made me want to rewatch Gintama immediately.",
       "text_en_c1": "An objective assessment of those manga and anime franchises that have exerted the most pronounced influence on contemporary popular culture would arguably place Demon Slayer at the apex, given its unprecedented commercial dominance and mainstream penetration. Gintama, whose stylistic DNA is unmistakably embedded within Demon Slayer's DNA, would reasonably occupy the second position, whilst Bleach, having spawned countless derivative works, deserves the third slot. Black Clover, itself a spiritual descendant of Bleach, follows logically in fourth place, with Kagurabachi rounding out the top five as a relative newcomer whose impact remains to be fully assessed.",
       "text_en_c2": "An objective ranking of manga and anime according to their seismic cultural impact would necessarily privilege those works whose influence has palpably reshaped the medium's trajectory. Demon Slayer, indisputably the most colossal phenomenon of its generation, occupies the apex, its aesthetic and narrative templates having been internalised by an entire cohort of contemporary creators. Gintama, whose irreverent meta-commentary arguably seeded the soil from which Demon Slayer eventually bloomed, deserves the runner-up position with little controversy. Bleach, progenitor of countless shonen conventions, claims the bronze, while Black Clover, its scrappy spiritual descendant, follows. Kagurabachi, the dark horse, rounds out a quintet whose collective footprint is difficult to overstate. As for revisiting Gintama, perhaps once these examinations are finally behind me.",
-      "audio_url": "audio/2026-09-26/clip-a1-demon-slayer.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-a1-demon-slayer-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-a1-demon-slayer-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-a1-demon-slayer-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-a1-demon-slayer-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291201243",
+      "source_hint": "/a/ thread ranking manga franchises by cultural impact"
     },
     {
       "id": "l1-100-kanojo",
@@ -178,26 +87,11 @@
       "topic_en": "100 Girlfriends S3",
       "text_zh": "100 Kanojo S3完咗😂 Bibury做唔做到S4都唔知。我反而想睇下佢哋點收尾，考完牌當獎勵自己lol",
       "text_en_b1": "100 Kanojo Season 3 is over. What did you think of the finale and the season overall? Since there is a chance this could be it, what do you think of Bibury's adaptation in general? Are you a season 4 and beyond believer?",
-      "source_url": "https://boards.4chan.org/a/thread/291119394",
-      "source_hint": "/a/ thread discussing 100 Girlfriends Season 3 ending",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anime discussion, no trade setup"
-      },
       "text_en_b2": "100 Girlfriends Season 3 has wrapped up, and the finale left me feeling oddly bittersweet about the whole run. With Bibury stretched thin across multiple projects, a fourth season feels like wishful thinking rather than a realistic outcome, so this might genuinely be the end of the road. Either way, I am saving the binge as a reward once my licensing exams are finally behind me.",
       "text_en_c1": "With the third season of 100 Girlfriends having recently concluded, the question of whether Bibury Animation Studio possesses either the financial incentive or the creative momentum to commission a fourth instalment remains genuinely uncertain. Given the narrative's natural resting point, there exists a tangible possibility that this adaptation may represent the final chapter in the franchise's animated journey, a prospect that renders the existing adaptation's overall quality rather more significant than it might otherwise have been. Personally, I intend to reserve judgment until after the licensing examinations conclude, at which point binge-watching awaits.",
       "text_en_c2": "With Season 3 of Kimi no Koto ga Daidaidaidaidai Suki na 100-nin no Kanojo having concluded its broadcast, the discourse has predictably bifurcated into camps of gratification and grumbling. Bibury Animation Studios, having shepherded the property through three increasingly ambitious outings, now confronts the perennial existential question: does commercial viability justify a fourth instalment, or has the narrative well been drawn dry? Detractors argue that certain narrative threads deserve more elaborate resolution than a mere truncated ending, while enthusiasts counter that the studio's distinctive visual signatures have grown more refined with each successive season. Whether one subscribes to blind optimism or pragmatic resignation, the upcoming licensing examinations offer an unimpeachable excuse to defer such weighty deliberations until a more opportune moment.",
-      "audio_url": "audio/2026-09-26/clip-l1-100-kanojo.mp3",
-      "audio_url_b1": "audio/2026-09-26/clip-l1-100-kanojo-b1.mp3",
-      "audio_url_b2": "audio/2026-09-26/clip-l1-100-kanojo-b2.mp3",
-      "audio_url_c1": "audio/2026-09-26/clip-l1-100-kanojo-c1.mp3",
-      "audio_url_c2": "audio/2026-09-26/clip-l1-100-kanojo-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291119394",
+      "source_hint": "/a/ thread discussing 100 Girlfriends Season 3 ending"
     }
   ]
 }

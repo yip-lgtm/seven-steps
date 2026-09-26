@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-26",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t1-gold-russia",
+      "topic_en": "Russia dumps gold",
+      "topic_zh": "俄羅斯拋金",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t1-gold-russia-b1.mp3",
+        "b2": "clip-t1-gold-russia-b2.mp3",
+        "c1": "clip-t1-gold-russia-c1.mp3",
+        "c2": "clip-t1-gold-russia-c2.mp3"
+      }
+    },
+    {
+      "id": "t2-btc-bulltrap",
+      "topic_en": "BTC bull trap or no?",
+      "topic_zh": "BTC bull trap",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t2-btc-bulltrap-b1.mp3",
+        "b2": "clip-t2-btc-bulltrap-b2.mp3",
+        "c1": "clip-t2-btc-bulltrap-c1.mp3",
+        "c2": "clip-t2-btc-bulltrap-c2.mp3"
+      }
+    },
+    {
+      "id": "c1-arms-16",
+      "topic_en": "16-inch arms chase",
+      "topic_zh": "16吋手臂",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-c1-arms-16-b1.mp3",
+        "b2": "clip-c1-arms-16-b2.mp3",
+        "c1": "clip-c1-arms-16-c1.mp3",
+        "c2": "clip-c1-arms-16-c2.mp3"
+      }
+    },
+    {
+      "id": "c2-amds-gpu",
+      "topic_en": "AMD 10700XT vs 5080",
+      "topic_zh": "AMD新卡對撼",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-c2-amds-gpu-b1.mp3",
+        "b2": "clip-c2-amds-gpu-b2.mp3",
+        "c1": "clip-c2-amds-gpu-c1.mp3",
+        "c2": "clip-c2-amds-gpu-c2.mp3"
+      }
+    },
+    {
+      "id": "h1-epstein-pol",
+      "topic_en": "US politics unraveling",
+      "topic_zh": "美國政局",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-h1-epstein-pol-b1.mp3",
+        "b2": "clip-h1-epstein-pol-b2.mp3",
+        "c1": "clip-h1-epstein-pol-c1.mp3",
+        "c2": "clip-h1-epstein-pol-c2.mp3"
+      }
+    },
+    {
+      "id": "a1-demon-slayer",
+      "topic_en": "Most impactful manga",
+      "topic_zh": "文化影響排名",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a1-demon-slayer-b1.mp3",
+        "b2": "clip-a1-demon-slayer-b2.mp3",
+        "c1": "clip-a1-demon-slayer-c1.mp3",
+        "c2": "clip-a1-demon-slayer-c2.mp3"
+      }
+    },
+    {
+      "id": "l1-100-kanojo",
+      "topic_en": "100 Girlfriends S3",
+      "topic_zh": "100女友S3",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-l1-100-kanojo-b1.mp3",
+        "b2": "clip-l1-100-kanojo-b2.mp3",
+        "c1": "clip-l1-100-kanojo-c1.mp3",
+        "c2": "clip-l1-100-kanojo-c2.mp3"
+      }
+    }
+  ]
+}
