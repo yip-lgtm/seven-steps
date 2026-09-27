@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-27",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-btc",
+      "topic_en": "BTC bulltrap theory",
+      "topic_zh": "BTC 係假突破",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-btc-b1.mp3",
+        "b2": "clip-trade-macro-btc-b2.mp3",
+        "c1": "clip-trade-macro-btc-c1.mp3",
+        "c2": "clip-trade-macro-btc-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-jensen",
+      "topic_en": "Tech CEOs are salesmen",
+      "topic_zh": "Jensen 同 Elon 都係 sales",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-jensen-b1.mp3",
+        "b2": "clip-trade-musk-jensen-b2.mp3",
+        "c1": "clip-trade-musk-jensen-c1.mp3",
+        "c2": "clip-trade-musk-jensen-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-faang",
+      "topic_en": "FAANG interview hell",
+      "topic_zh": "FAANG 面試地獄",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-civil-faang-b1.mp3",
+        "b2": "clip-civil-faang-b2.mp3",
+        "c1": "clip-civil-faang-c1.mp3",
+        "c2": "clip-civil-faang-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-brit",
+      "topic_en": "British are mongrels",
+      "topic_zh": "英國人都係雜種",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-brit-b1.mp3",
+        "b2": "clip-hk-news-brit-b2.mp3",
+        "c1": "clip-hk-news-brit-c1.mp3",
+        "c2": "clip-hk-news-brit-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit-arms",
+      "topic_en": "16 inch arms chase",
+      "topic_zh": "點樣練到 16 吋手臂",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-arms-b1.mp3",
+        "b2": "clip-mma-fit-arms-b2.mp3",
+        "c1": "clip-mma-fit-arms-c1.mp3",
+        "c2": "clip-mma-fit-arms-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-demon-slayer",
+      "topic_en": "Anime cultural impact ranking",
+      "topic_zh": "最有影響力動漫排名",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-demon-slayer-b1.mp3",
+        "b2": "clip-anime-demon-slayer-b2.mp3",
+        "c1": "clip-anime-demon-slayer-c1.mp3",
+        "c2": "clip-anime-demon-slayer-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-5070ti",
+      "topic_en": "5070 Ti vs RTX 5080",
+      "topic_zh": "5070 Ti 對 5080",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-5070ti-b1.mp3",
+        "b2": "clip-civil-5070ti-b2.mp3",
+        "c1": "clip-civil-5070ti-c1.mp3",
+        "c2": "clip-civil-5070ti-c2.mp3"
+      }
+    }
+  ]
+}

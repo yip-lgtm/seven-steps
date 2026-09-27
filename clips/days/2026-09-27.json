@@ -1,7 +1,6 @@
 {
   "date": "2026-09-27",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "trade-macro-btc",
@@ -10,26 +9,11 @@
       "topic_en": "BTC bulltrap theory",
       "text_zh": "又係 /biz/ 啲人喺度分析 BTC 😩 話而家 BTC 升、其他嘢跌、債息油價食物全部爆上，係 MMs 故意造出嚟嘅 bulltrap，想引晒啲 long 入嚟然後一齊屠。要撐到下個 halving 先得。睇完好灰，啱啱蝕緊又想撳入場，搞到我唔知點算 🙏",
       "text_en_b1": "This is a bulltrap. Think about it logically. Why would market makers want to pump Bitcoin when everything else is crashing and bond yields, gas prices, food crops and every other thing are soaring like their lives depend on it? This is a violent bulltrap.",
-      "source_url": "https://boards.4chan.org/biz/thread/62726449",
-      "source_hint": "/biz/ thread arguing BTC pump is a bulltrap before the next halving",
-      "signal": {
-        "asset": "BTC",
-        "direction": "short",
-        "conviction": "medium",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP argues current BTC pump is a bulltrap that MMs will unwind before the next halving, implying downside"
-      },
       "text_en_b2": "Look at this from a logical angle: market makers are pumping Bitcoin precisely while everything else is in freefall, with bond yields, fuel costs and food prices all going through the roof. That is a textbook bulltrap designed to lure longs in before the rug pull. They need to keep the price suppressed until at least the next halving, which tells you everything about their timeline. Tempting, but the smart move is to sit this one out.",
       "text_en_c1": "This reeks of a coordinated bulltrap, if you take a step back and examine the broader picture. Why on earth would market makers orchestrate a Bitcoin rally while bond yields, crude oil, food commodities and virtually every risk-off indicator are simultaneously spiking? The dissonance alone betrays the hand behind the curtain. What they are really after, the argument goes, is engineering enough long positioning so that, once the inevitable rug-pull materialises, the cascade liquidates retail participants en masse. The thesis holds that price action will remain suppressed until at least the next halving cycle plays out.",
       "text_en_c2": "The thesis advanced by the /biz/ cognoscenti is, on the surface, a seductive one: we are witnessing not the inauguration of a new bull cycle but a meticulously engineered bulltrap. Their argument rests on a damning juxtaposition, namely that Bitcoin is appreciating while virtually every other asset class, from sovereign debt to crude oil to staple food commodities, is in pronounced retreat. The implication, they contend, is that market makers, presumably at the behest of some opaque institutional apparatus, are deliberately inflating spot prices in order to ensnare leveraged longs before orchestrating a violent repricing, one that cannot arrive sooner than the subsequent halving event. Whether this constitutes prescient macro analysis or merely sophisticated cope is, of course, an altogether different question.",
-      "audio_url": "audio/2026-09-27/clip-trade-macro-btc.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-trade-macro-btc-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-trade-macro-btc-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-trade-macro-btc-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-trade-macro-btc-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62726449",
+      "source_hint": "/biz/ thread arguing BTC pump is a bulltrap before the next halving"
     },
     {
       "id": "trade-musk-jensen",
@@ -38,26 +22,11 @@
       "topic_en": "Tech CEOs are salesmen",
       "text_zh": "睇完好迷惘 😩 /biz/ 有人話 Jensen Huang、Musk、Jobs 全部都係 deep state 嘅 sales，真正的嘢唔關佢哋事。Huang 自己都話佢唔識自己 address、唔識入油、唔識 ZIP code。即係天才都係靠團隊？我揸 CFD 揸到輸咗，仲以為自己 IQ 高，睇完真係笑唔出 lol",
       "text_en_b1": "These companies are all led by deep state figureheads, right? Jobs, Jensen Huang, Musk, these are all just salesmen that have little to do with the companies themselves. You think they are smart, but they are not. The interview took a bizarre turn, with Huang admitting he lacks some surprisingly basic life skills.",
-      "source_url": "https://boards.4chan.org/biz/thread/62727207",
-      "source_hint": "/biz/ thread claiming tech CEOs are just salesmen with no real skills",
-      "signal": {
-        "asset": "NVDA",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Post is a rant about tech CEOs, no actionable trade setup"
-      },
       "text_en_b2": "Jensen Huang, Musk and Jobs are ultimately figureheads for the deep state rather than the actual brains behind their companies. They are first and foremost salesmen, which is why Huang openly admitted in a bizarre interview that he cannot recall his own address, had to ask for help pumping gas and forgot his ZIP code. Brilliant tech founders or charismatic front men riding on their teams? Take your pick, because the evidence strongly suggests the latter.",
       "text_en_c1": "The thread's underlying premise, that figures like Jobs, Jensen Huang and Musk are essentially salesmen fronting deep-state-aligned operations, is admittedly provocative yet not entirely without merit. Huang himself, during what turned out to be a rather surreal interview, conceded that he could not recall his own address, had to pump gas for the first time in years and did not know his ZIP code. If the man allegedly masterminding the AI revolution lacks such quotidian competencies, one must wonder how much of the genius narrative is genuine intellectual contribution versus carefully cultivated brand mythology. The team carries the weight.",
       "text_en_c2": "A particularly disorienting thread on /biz/ advances the thesis that the most celebrated figures in contemporary technology, Steve Jobs, Jensen Huang, Elon Musk, are, in effect, nothing more than glib figureheads installed by some shadowy consortium to serve as the public face of enterprises whose actual intellectual labour is performed elsewhere. The argument derives unexpected ammunition from a recent interview in which Huang, when pressed, confessed to a startling array of quotidian deficiencies: he cannot recall his own residential address, was reduced to helplessness when required to operate a petrol pump some years ago, and proved similarly ignorant of his ZIP code. The subtext is unmistakable, insofar as these supposedly singular intellects are, in practical terms, no more competent than the average citizen.",
-      "audio_url": "audio/2026-09-27/clip-trade-musk-jensen.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-trade-musk-jensen-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-trade-musk-jensen-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-trade-musk-jensen-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-trade-musk-jensen-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62727207",
+      "source_hint": "/biz/ thread claiming tech CEOs are just salesmen with no real skills"
     },
     {
       "id": "civil-faang",
@@ -66,26 +35,11 @@
       "topic_en": "FAANG interview hell",
       "text_zh": "睇完好灰 🧐 有人 apply FAANG，9 輪 interview 先有一個 offer，仲要 recruiter 問返啲同 resume 一樣嘅嘢，跟住 leetcode easy、medium、soft questions 一輪接一輪。即係做 software 真係咁難？我揸住 FE 已經想死，做呢行真係要命 🙏",
       "text_en_b1": "Apply to FAANG, nine rounds of interviews to get one job. Submit my resume. Recruiter reaches out a month later with a questionnaire asking me the same stuff that is on my resume. Then a 45-minute technical screening with a mid level engineer doing leetcode easy and writing tests.",
-      "source_url": "https://boards.4chan.org/g/thread/109910729",
-      "source_hint": "/g/ thread complaining about FAANG interview process",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Job market observation, not a trade setup"
-      },
       "text_en_b2": "Nine rounds of interviews just to land a single offer at FAANG, and recruiters still waste a month sending questionnaires mirroring your resume word for word. Then comes a 45-minute technical screening with leetcode easy, followed by another hour tackling medium problems alongside soft questions. The whole process drags on forever, yet applicants keep grinding through it because the pay off supposedly justifies the grind. How is this even remotely legal?",
       "text_en_c1": "Apply to a single FAANG company and endure nine rounds of interviews, only to receive one offer at the end of it all. The recruiter eventually surfaces a month later with a questionnaire that, hilariously, mirrors the very contents of the resume already submitted. From there, candidates face a forty-five-minute technical screening with a mid-level engineer dissecting leetcode easy problems, followed by a one-hour session with a senior engineer tackling leetcode medium alongside the obligatory soft-skill interrogation. One genuinely wonders whether such a protracted gauntlet constitutes anything resembling a reasonable hiring practice, or simply institutional theatre designed to filter via attrition.",
       "text_en_c2": "An account of the gauntlet that constitutes a contemporary FAANG recruitment process has, with wearying predictability, induced a minor existential crisis. The protagonist submits an application and, after a month of expectant silence, receives a questionnaire from a recruiter whose contents bear an uncanny resemblance to the resume already on file. What follows is an apparently interminable sequence of evaluations: a forty-five-minute technical screen with a mid-level engineer dissecting leetcode easy problems, succeeded by an hour-long interrogation administered by a senior engineer who wields leetcode medium questions and assorted behavioural prompts with equal enthusiasm. One might reasonably enquire as to the legality, or at the very least the proportionality, of demanding nine discrete rounds of assessment for a single position.",
-      "audio_url": "audio/2026-09-27/clip-civil-faang.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-civil-faang-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-civil-faang-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-civil-faang-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-civil-faang-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109910729",
+      "source_hint": "/g/ thread complaining about FAANG interview process"
     },
     {
       "id": "hk-news-brit",
@@ -94,26 +48,11 @@
       "topic_en": "British are mongrels",
       "text_zh": "晚晚冇嘢做就睇 /pol/，今晚講 Blenheim Palace。有人話「英國人都係 mongrel race」，左派右派都同意。我喺 HK 返工壓力咁大，睇下白人自己鬥自己都幾搞笑 lol 同埋好想返 Florida 大屋住 🙏",
       "text_en_b1": "The English are a mongrel race. It is something the left and right can agree on, posted in a Blenheim Palace edition of Brit/pol/. The thread mixes history jokes about British aristocracy with culture war bait. Hong Kong readers said the cramped housing here makes the British countryside look like another planet, and a few anons replied with the usual Britain-is-finished cope.",
-      "source_url": "https://boards.4chan.org/pol/thread/543334863",
-      "source_hint": "/pol/ Brit thread about Blenheim Palace and British identity",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Cultural commentary, not a trade setup"
-      },
       "text_en_b2": "A Blenheim Palace thread on Brit pol sparked an unlikely consensus: the English are essentially a mongrel race, which both the left and right managed to agree on for once. The post mingles aristocratic history jokes with culture war bait, and Hong Kong anons chimed in pointing out how tiny local flats make the British countryside look like another planet entirely. A handful of replies trotted out the usual Britain-is-finished cope, as expected.",
       "text_en_c1": "A Blenheim Palace edition of Brit/pol/ surfaced the rather pointed observation that the English constitute, quote, a mongrel race, a thesis that both the left and the right, remarkably, found themselves willing to endorse. The thread oscillated between historical jabs aimed at aristocratic lineages and the customary culture-war provocations. Readers based in Hong Kong chimed in with sardonic comparisons, noting that the local housing situation renders the sprawling British countryside an almost alien landscape altogether. A handful of anons retaliated with the standard, if weary, Britain-is-finished cope that has become something of a refrain.",
       "text_en_c2": "Browsing /pol/ during the small hours, when ennui invariably supplants any residual ambition, I encountered a thread ostensibly devoted to Blenheim Palace whose actual subject matter was the proposition, advanced with characteristic incivility, that the English are a mongrel race, a thesis upon which, the poster triumphantly observed, the left and right could at last find common ground. The conversation meandered, as such threads invariably do, between potted history concerning the British aristocracy and the now-familiar repertoire of culture-war provocations. Hong Kong-based readers, perennially confronted with the spatial indignities of local accommodation, were moved to observe that the English countryside resembles an almost extraterrestrial proposition, while the customary chorus of 'Britain-is-finished' lamentations materialised with mechanical inevitability.",
-      "audio_url": "audio/2026-09-27/clip-hk-news-brit.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-hk-news-brit-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-hk-news-brit-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-hk-news-brit-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-hk-news-brit-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/543334863",
+      "source_hint": "/pol/ Brit thread about Blenheim Palace and British identity"
     },
     {
       "id": "mma-fit-arms",
@@ -122,26 +61,11 @@
       "topic_en": "16 inch arms chase",
       "text_zh": "肥仔信今日又 tag 我睇 /fit/ 🧐 個 post 主 6 呎 1、194 lbs 而家 cutting，但手臂得 14.2 吋，問點樣去到 16 吋。佢 close-grip bench 132 lbs 2x10、straight bar curl 75 lbs 2x10，已經 intermediate 唔再加得 weight。我望住自己二頭都好細，剪脂真係好難搞 😩",
       "text_en_b1": "I am 6 foot 1 at 194 pounds and currently cutting, but my arms are only 14.2 inches. The direct arm exercises I do are close-grip bench press at 132 pounds for 2 by 10, and straight bar bicep curl at 75 pounds for 2 by 10. I have reduced volume because of the cut.",
-      "source_url": "https://boards.4chan.org/fit/thread/77532861",
-      "source_hint": "/fit/ thread asking how to grow arms from 14 to 16 inches",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Fitness question, not a trade setup"
-      },
       "text_en_b2": "Standing 6 foot 1 at 194 pounds and currently cutting, my arms stubbornly measure only 14.2 inches despite targeted work such as close-grip bench at 132 pounds for 2x10 and straight bar curls at 75 for the same sets. Volume has had to come down because of the cut, and I have plateaued for ages, which solidifies my intermediate status. Hitting 16 inches during a deficit feels like chasing a moving target, honestly.",
       "text_en_c1": "Standing six foot one and weighing in at 194 pounds while running a cut, the poster reports arms that measure a measly 14.2 inches, a figure they find deeply unsatisfying. Their direct arm work consists of close-grip bench presses at 132 pounds for sets of ten, paired with straight-bar bicep curls at 75 pounds, likewise for two sets of ten. Volume has inevitably been dialled back to accommodate the caloric deficit. They self-identify as an intermediate trainee, primarily because progressive overload, that long-standing metric of advancement, has flatlined across sessions for quite some time now.",
       "text_en_c2": "The original poster presents himself as a six-foot-one, 194-pound individual presently embarked upon a caloric deficit, whose arms, at a circumference of 14.2 inches, have apparently failed to register meaningful hypertrophy despite an ostensibly well-structured regimen. His direct arm work consists of the close-grip bench press at 132 pounds for two sets of ten, paired with the straight-bar biceps curl at 75 pounds, likewise for two by ten. Volume, he notes with conspicuous regret, has been attenuated to accommodate the exigencies of the cut. He self-identifies as an intermediate trainee, the designation being justified by his admission that, for some considerable duration, he has been unable to apply progressive overload to his compound movements from one session to the next.",
-      "audio_url": "audio/2026-09-27/clip-mma-fit-arms.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-mma-fit-arms-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-mma-fit-arms-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-mma-fit-arms-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-mma-fit-arms-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77532861",
+      "source_hint": "/fit/ thread asking how to grow arms from 14 to 16 inches"
     },
     {
       "id": "anime-demon-slayer",
@@ -150,26 +74,11 @@
       "topic_en": "Anime cultural impact ranking",
       "text_zh": "夜晚溫習 FE 溫到悶就去 /a/ 🧐 有條 post 列出最有 cultural impact 嘅動漫排名：第一 Demon Slayer 唔使解釋、第二 Gintama 生咗 Demon Slayer、第三 Bleach、第四 Black Clover、第五 Kagurabachi。我自己最鍾意 Gundam 00，但呢張 list 完全冇 mecha 份 😩 鬼滅我都覺得 OK 嘅",
       "text_en_b1": "The objective ranking of manga and anime franchises with the most cultural impact, more than any other comics and cartoons and even overwriting some minor celebrities, is: 1. Demon Slayer, no explanation needed, simply the biggest phenomenon. 2. Gintama, which birthed Demon Slayer. 3. Bleach, which birthed many things. 4. Black Clover, birthed by Bleach. 5. Kagurabachi. You can share your top picks too.",
-      "source_url": "https://boards.4chan.org/a/thread/291201243",
-      "source_hint": "/a/ thread ranking most culturally impactful manga and anime",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Anime culture discussion, not a trade setup"
-      },
       "text_en_b2": "The objective ranking of anime franchises with the most cultural impact reads as follows: Demon Slayer takes the top spot as a self evident phenomenon, Gintama follows because it essentially birthed Demon Slayer, then Bleach for spawning countless successors, Black Clover owing its existence to Bleach, and finally Kagurabachi rounding things out. Not a single mecha title appears anywhere, which is a crying shame for Gundam 00 fans such as myself, although Demon Slayer certainly earns its place.",
       "text_en_c1": "A self-proclaimed objective ranking of manga and anime franchises ranked by sheer cultural footprint, eclipsing even Western comics and displacing certain minor celebrities, reads as follows. Demon Slayer takes the crown, a phenomenon so dominant that further elaboration is deemed superfluous. Gintama claims second, credited with birthing the very sensibility that Demon Slayer inherited. Bleach follows in third, the wellspring from which much of modern shonen DNA derives. Black Clover lands fourth, Bleach's spiritual descendant. Kagurabachi rounds out the top five. Notably absent from the entire list is any mecha entry, a glaring omission for fans of the genre.",
       "text_en_c2": "A /a/ thread purports to furnish an objective taxonomy of those manga and anime franchises whose cultural footprint has been sufficiently substantial to eclipse not merely rival comics and cartoons but, in certain instances, minor celebrities themselves. The ranking proceeds thus: in the premier position, Demon Slayer, whose phenomenal ascendancy requires no elucidation; second, Gintama, which the poster credits with siring its successor; third, Bleach, similarly positioned as a progenitor; fourth, Black Clover, likewise identified as an heir to the Bleach lineage; and fifth, the comparatively nascent Kagurabachi. The conspicuous lacuna is the entire mecha genre, a category whose more cerebral exponents, such as Gundam 00, have evidently failed to register on whatever metric the poster is employing.",
-      "audio_url": "audio/2026-09-27/clip-anime-demon-slayer.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-anime-demon-slayer-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-anime-demon-slayer-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-anime-demon-slayer-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-anime-demon-slayer-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291201243",
+      "source_hint": "/a/ thread ranking most culturally impactful manga and anime"
     },
     {
       "id": "civil-5070ti",
@@ -178,26 +87,11 @@
       "topic_en": "5070 Ti vs RTX 5080",
       "text_zh": "收工返到屋企先記得 /g/ 有條 post 講 10700XT 要贏 RTX 5080 🧐 樓主話呢啲 marketing 講過好多次但從來冇兌現過，仲要連 path tracing 都包埋。佢覺得要做到呢樣 + FSR 同 DLSS4 一樣好 + CUDA 跑得順 AMD 先算有料。我又唔打機又唔 mining，但 trading 用嚟跑 backtest 都想快啲 lol",
       "text_en_b1": "10700XT to outperform RTX 5080. How many times have we heard this before and it is literally never the case. Including path tracing, an even bigger claim this time. I would genuinely love this to be true but I will believe it when I see it.",
-      "source_url": "https://boards.4chan.org/g/thread/109895744",
-      "source_hint": "/g/ thread skeptical about AMD 10700 XT beating RTX 5080",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "GPU hardware discussion, not a trade setup"
-      },
       "text_en_b2": "Yet another marketing claim that the 10700XT will outclass the RTX 5080, including path tracing this time around, and we have all heard this kind of promise from AMD before without it ever materialising. It would need to genuinely deliver on that, while matching DLSS4 in both quality and performance modes, and CUDA would have to run properly on the hardware. I would love to see it happen, but I will believe it only when benchmarks actually land.",
       "text_en_c1": "The marketing proposition that a 10700XT could outperform an RTX 5080 has been recycled so many times that any reasonable observer ought to approach the claim with profound scepticism. Including path tracing this time around only inflates the audacity. The poster, refreshingly candid, concedes that they would genuinely relish being proven wrong, though conviction will arrive only upon independent verification. The benchmark, furthermore, demands parity: FSR must match DLSS4 across both performance and quality presets, and CUDA workloads must execute without the present friction. Until those conditions materialise, the announcement remains vapour.",
       "text_en_c2": "Returning home after a taxing day, I recalled that /g/ had been circulating a rather audacious marketing claim, namely that the forthcoming 10700XT is poised to surpass the RTX 5080 in raw performance, a declaration that the original poster greets with the weary incredulity of someone who has endured such promises on previous occasions and watched them evaporate upon release. The assertion, if anything more ambitious than its predecessors, encompasses not merely rasterisation but the considerably more demanding domain of path tracing. The poster articulates a precise, almost forensic set of conditions under which AMD might plausibly earn his confidence: parity with DLSS4 across both performance and quality modes, and the proper functioning of CUDA on the new architecture.",
-      "audio_url": "audio/2026-09-27/clip-civil-5070ti.mp3",
-      "audio_url_b1": "audio/2026-09-27/clip-civil-5070ti-b1.mp3",
-      "audio_url_b2": "audio/2026-09-27/clip-civil-5070ti-b2.mp3",
-      "audio_url_c1": "audio/2026-09-27/clip-civil-5070ti-c1.mp3",
-      "audio_url_c2": "audio/2026-09-27/clip-civil-5070ti-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109895744",
+      "source_hint": "/g/ thread skeptical about AMD 10700 XT beating RTX 5080"
     }
   ]
 }
