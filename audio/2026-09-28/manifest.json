@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-28",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-01",
+      "topic_en": "Crypto is dead",
+      "topic_zh": "幣市已死",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-01-b1.mp3",
+        "b2": "clip-trade-macro-01-b2.mp3",
+        "c1": "clip-trade-macro-01-c1.mp3",
+        "c2": "clip-trade-macro-01-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-01",
+      "topic_en": "Sailor Moon portfolio",
+      "topic_zh": "Sailor Moon組合",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-01-b1.mp3",
+        "b2": "clip-trade-musk-01-b2.mp3",
+        "c1": "clip-trade-musk-01-c1.mp3",
+        "c2": "clip-trade-musk-01-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-01",
+      "topic_en": "Marx vs Lassalle take",
+      "topic_zh": "邊個鬼係Lassalle",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-01-b1.mp3",
+        "b2": "clip-civil-01-b2.mp3",
+        "c1": "clip-civil-01-c1.mp3",
+        "c2": "clip-civil-01-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-01",
+      "topic_en": "AI takes our jobs",
+      "topic_zh": "AI搶飯碗",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-01-b1.mp3",
+        "b2": "clip-tech-ai-01-b2.mp3",
+        "c1": "clip-tech-ai-01-c1.mp3",
+        "c2": "clip-tech-ai-01-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-01",
+      "topic_en": "Gamers ruining birthrate",
+      "topic_zh": "打機減出生率",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-01-b1.mp3",
+        "b2": "clip-hk-news-01-b2.mp3",
+        "c1": "clip-hk-news-01-c1.mp3",
+        "c2": "clip-hk-news-01-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit-01",
+      "topic_en": "Barbell row weight",
+      "topic_zh": "Row 緊幾重",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-01-b1.mp3",
+        "b2": "clip-mma-fit-01-b2.mp3",
+        "c1": "clip-mma-fit-01-c1.mp3",
+        "c2": "clip-mma-fit-01-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-01",
+      "topic_en": "Anime cultural impact",
+      "topic_zh": "鬼滅影響力",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-01-b1.mp3",
+        "b2": "clip-anime-01-b2.mp3",
+        "c1": "clip-anime-01-c1.mp3",
+        "c2": "clip-anime-01-c2.mp3"
+      }
+    }
+  ]
+}
