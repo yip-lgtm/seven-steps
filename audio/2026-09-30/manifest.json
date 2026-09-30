@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-30",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t1-euro-hedge",
+      "topic_en": "Euro hedge S&P",
+      "topic_zh": "歐洲人點對沖",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t1-euro-hedge-b1.mp3",
+        "b2": "clip-t1-euro-hedge-b2.mp3",
+        "c1": "clip-t1-euro-hedge-c1.mp3",
+        "c2": "clip-t1-euro-hedge-c2.mp3"
+      }
+    },
+    {
+      "id": "t2-nvda-share",
+      "topic_en": "Nvidia GPU share",
+      "topic_zh": "NVDA獨食GPU",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t2-nvda-share-b1.mp3",
+        "b2": "clip-t2-nvda-share-b2.mp3",
+        "c1": "clip-t2-nvda-share-c1.mp3",
+        "c2": "clip-t2-nvda-share-c2.mp3"
+      }
+    },
+    {
+      "id": "c1-slope-utility",
+      "topic_en": "Slope + utilities",
+      "topic_zh": "斜坡地下管線",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c1-slope-utility-b1.mp3",
+        "b2": "clip-c1-slope-utility-b2.mp3",
+        "c1": "clip-c1-slope-utility-c1.mp3",
+        "c2": "clip-c1-slope-utility-c2.mp3"
+      }
+    },
+    {
+      "id": "c2-load-path",
+      "topic_en": "Load path RC",
+      "topic_zh": "荷載傳遞",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c2-load-path-b1.mp3",
+        "b2": "clip-c2-load-path-b2.mp3",
+        "c1": "clip-c2-load-path-c1.mp3",
+        "c2": "clip-c2-load-path-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-vibecode",
+      "topic_en": "AI vibecoder",
+      "topic_zh": "AI vibecoding",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-vibecode-b1.mp3",
+        "b2": "clip-ai-vibecode-b2.mp3",
+        "c1": "clip-ai-vibecode-c1.mp3",
+        "c2": "clip-ai-vibecode-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-musk-hormones",
+      "topic_en": "Elon TRT",
+      "topic_zh": "Elon激素",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-musk-hormones-b1.mp3",
+        "b2": "clip-hk-musk-hormones-b2.mp3",
+        "c1": "clip-hk-musk-hormones-c1.mp3",
+        "c2": "clip-hk-musk-hormones-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-squat",
+      "topic_en": "Skip squats",
+      "topic_zh": "唔做squat",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-squat-b1.mp3",
+        "b2": "clip-mma-squat-b2.mp3",
+        "c1": "clip-mma-squat-c1.mp3",
+        "c2": "clip-mma-squat-c2.mp3"
+      }
+    },
+    {
+      "id": "ani-zoomer",
+      "topic_en": "Steins;Gate gatekeep",
+      "topic_zh": "動漫老粉",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-ani-zoomer-b1.mp3",
+        "b2": "clip-ani-zoomer-b2.mp3",
+        "c1": "clip-ani-zoomer-c1.mp3",
+        "c2": "clip-ani-zoomer-c2.mp3"
+      }
+    }
+  ]
+}

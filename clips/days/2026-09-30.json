@@ -1,7 +1,6 @@
 {
   "date": "2026-09-30",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "t1-euro-hedge",
@@ -10,26 +9,11 @@
       "topic_en": "Euro hedge S&P",
       "text_zh": "歐洲人揸緊美股指數 一直被USD/ERO匯率影響。2025年S&P應該升20% 但歐洲人計返匯率得返5%。呢個bloodbath真係癲。同我依家CFD輸錢一樣 蝕埋匯率又蝕埋指數 真係double kill 🙏",
       "text_en_b1": "European investors holding US stock indexes keep getting hit by USD to euro exchange rates. In 2025 the S&P should have given almost 20% gains, but after currency losses euros only saw about 5%. It was an absolute bloodbath, and the trend has now reversed after years of euro weakness helping European holders.",
-      "source_url": "https://boards.4chan.org/biz/thread/62737933",
-      "source_hint": "/biz/ thread asking if europoors should hedge USD exposure",
-      "signal": {
-        "asset": "SPY",
-        "direction": "observation",
-        "conviction": "low",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "OP flags USD strength risk for US-equity holders; no explicit entry, just a hedge question"
-      },
       "text_en_b2": "European investors holding US equity indices keep getting hammered by the dollar-to-euro exchange rate. Although the S&P should have delivered roughly 20% gains in 2025, currency translation dragged that figure down to around 5% for euro-based holders — an absolute bloodbath. The trend has now reversed after years of euro weakness artificially propping up their returns. My CFD losses feel painfully similar: getting hit twice by both the underlying index and FX drag amounts to nothing less than a double kill.",
       "text_en_c1": "European investors who have been holding US equity indices have found their returns relentlessly eroded by adverse movements in the USD/EUR exchange rate. Throughout 2025, the S&P 500 delivered approximately 20% in dollar terms, yet currency translation shaved the figure down to a meagre 5% once converted back into euros. What was once a tailwind has now flipped into a headwind, reversing several years during which euro weakness had effectively padded the returns of cross-Atlantic holdings. For those running unhedged CFD positions, the damage compounds: losses on the underlying index are amplified by FX drawdown, producing what can only be described as a double whammy for European retail traders caught…",
       "text_en_c2": "European investors holding US equity index trackers have endured a sustained drag from adverse USD-to-EUR currency movements that effectively neutralised the bulk of underlying dollar-denominated returns. Although the S&P 500 was on course to deliver roughly twenty percent gains in 2025, European holders, once currency translation losses were netted off, were left clutching a meagre five percent. The cumulative effect amounts to nothing short of a bloodbath, a phenomenon that has only now reversed after years of structurally weak euro tailwinds. For those operating leveraged CFD positions, the calculus grows even more punitive: simultaneous exposure to index drawdowns and adverse spot movements produces a compounding double whammy, as the exchange rate quietly gnaws away at whatever marginal gains the underlying instrument might otherwise have yielded to a hedged investor.",
-      "audio_url": "audio/2026-09-30/clip-t1-euro-hedge.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-t1-euro-hedge-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-t1-euro-hedge-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-t1-euro-hedge-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-t1-euro-hedge-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62737933",
+      "source_hint": "/biz/ thread asking if europoors should hedge USD exposure"
     },
     {
       "id": "t2-nvda-share",
@@ -38,26 +22,11 @@
       "topic_en": "Nvidia GPU share",
       "text_zh": "Nvidia食晒90% dGPU market  gamers搶到冇貨 AMD得8% Intel得2%。咁嘅市佔率仲唔買NVDA? TSLA都未郁 NVDA就係我依家唯一想加倉嘅 🙏 廢柴如我 都要跟下smart money啦",
       "text_en_b1": "Nvidia now takes 90% share of the dGPU market as gamers buy out all the stock. AMD is at 8%, Intel at 2%. The poster says all AMD and Intel need to do is make better GPUs, and that this should not be difficult. Markets are basically a one-horse race right now.",
-      "source_url": "https://boards.4chan.org/g/thread/109934280",
-      "source_hint": "/g/ thread noting Nvidia's 90% dGPU share",
-      "signal": {
-        "asset": "NVDA",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Implied bullish on NVDA dominance; competitors framed as only needing to 'try harder'"
-      },
       "text_en_b2": "Nvidia now commands roughly 90% of the dGPU market, with gamers snapping up every shipment in sight. AMD is scraping by at around 8%, while Intel trails at barely 2%. With such a dominant market share, is NVDA really not a buy? TSLA has barely moved, so Nvidia is currently the only name I'd consider adding to my position. Even a hopeless retail trader like me has to follow the smart money sometimes. The market is effectively a one-horse race right now.",
       "text_en_c1": "Nvidia now commands an astonishing 90% share of the discrete GPU market, a figure that becomes all the more striking when set against AMD's 8% and Intel's 2%. Retail shelves have been effectively cleared as gamers scramble to secure whatever stock remains, while the competitive landscape resembles a one-horse race in which the second and third runners are barely visible. Critics argue that reclaiming meaningful market share ought to be straightforward for AMD and Intel, provided they ship silicon that genuinely rivals Nvidia's offerings in raw performance and efficiency.",
       "text_en_c2": "Nvidia now commands an almost monopolistic ninety percent share of the discrete GPU market, leaving AMD languishing at a desultory eight percent and Intel consigned to a scarcely credible two percent, a stratification that speaks to a fundamentally winner-takes-all dynamic. With gamers aggressively absorbing available inventory, the competitive landscape has ossified into what is effectively a one-horse race. The original poster, displaying a clear contrarian streak, argues that AMD and Intel need only produce competent silicon to claw back share, a proposition that ought, in principle, to be straightforward. Yet despite Tesla's conspicuous stagnation, NVDA remains the sole position the poster genuinely wishes to expand upon. Even self-described neophytes, he contends, would do well to follow smart money flows rather than dissipate capital on ostensibly undervalued laggards whose recovery prospects remain, at best, speculative.",
-      "audio_url": "audio/2026-09-30/clip-t2-nvda-share.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-t2-nvda-share-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-t2-nvda-share-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-t2-nvda-share-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-t2-nvda-share-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109934280",
+      "source_hint": "/g/ thread noting Nvidia's 90% dGPU share"
     },
     {
       "id": "c1-slope-utility",
@@ -66,26 +35,11 @@
       "topic_en": "Slope + utilities",
       "text_zh": "今日落site做condition survey 同underground utilities check。斜坡嗰邊factor of safety啱啱過 旁邊有條drainage老化晒。Tommy叫我寫低soil nailing嘅建議。廢物又要OT 🙏",
       "text_en_b1": "Today I went to site for a condition survey and underground utilities check on a slope job. The factor of safety is barely passing, the drainage next to it is old, and Tommy told me to write down soil nailing recommendations. Lots of overtime again.",
-      "source_url": "https://boards.4chan.org/biz/thread/62736376",
-      "source_hint": "/biz/ thread reuses on Starlink deployment cost",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Site diary, not a trade"
-      },
       "text_en_b2": "Headed out to site today for a condition survey and an underground utilities check on a slope job. The factor of safety is only just scraping past the threshold, and the drainage running alongside it is badly deteriorated. Tommy wants me to put together soil nailing recommendations on paper. So here I am, stuck doing overtime again while the rest of the team has already clocked off.",
       "text_en_c1": "Today found me on site conducting a condition survey alongside an underground utilities check on a slope remediation project. The computed factor of safety is passing, though only just, and the adjacent drainage infrastructure is showing unmistakable signs of deterioration after years of deferred maintenance. Tommy has asked me to formalise recommendations for soil nailing, which will almost certainly entail yet another evening of overtime given the documentation standards the office demands. The irony of being paid to flag problems that the client will likely defer addressing is not lost on me, nor is the realisation that engineering judgement, in practice, often amounts to writing careful disclaimers while the slope…",
       "text_en_c2": "Today found me conducting a meticulous condition survey on site, accompanied by a comprehensive underground utilities check on a particularly troublesome slope remediation project. The computed factor of safety is hovering at the upper threshold of acceptability, a margin that offers scant comfort given the visibly degraded drainage infrastructure flanking the slope crest. Tommy, characteristically peremptory, has requested that I formalise a series of soil nailing recommendations, presumably to arrest any progressive slope deformation. The implicit expectation, of course, is that the requisite documentation will materialise well beyond standard hours, consigning me to yet another evening of unpaid overtime on what promises to be an interminable week.",
-      "audio_url": "audio/2026-09-30/clip-c1-slope-utility.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-c1-slope-utility-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-c1-slope-utility-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-c1-slope-utility-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-c1-slope-utility-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62736376",
+      "source_hint": "/biz/ thread reuses on Starlink deployment cost"
     },
     {
       "id": "c2-load-path",
@@ -94,26 +48,11 @@
       "topic_en": "Load path RC",
       "text_zh": "返到office睇緊beam同column嘅load path。RC design有幾個method 點解揀嗰個要check返moment redistribution同detailing。Sum Ho 何生問我fe exam準備成點 又被督促 🧐",
       "text_en_b1": "Back at the desk checking load path on beams and columns for an RC design. I am comparing two design methods, checking moment redistribution and reinforcement detailing, and making sure the chosen method actually matches what we drew. FE prep on the side keeps getting pushed by Sum Ho.",
-      "source_url": "https://boards.4chan.org/biz/thread/62730767",
-      "source_hint": "/biz/ thread on crypto losing its easy-money era",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Structural design check, not a trade"
-      },
       "text_en_b2": "Back at my desk, I'm running through the load path on beams and columns for an RC design. There are a couple of methods on the table, and I'm cross-checking moment redistribution against the reinforcement detailing to make sure the chosen approach actually matches what we drew up. Meanwhile Sum Ho keeps asking how my FE exam prep is coming along, so I'm getting nudged on that front as well.",
       "text_en_c1": "Back at the desk, I have been tracing the load path through a series of beams and columns for an RC design that has grown more convoluted than initially scoped. Two design methods are on the table, and the choice between them hinges on how moment redistribution is treated and whether the resulting reinforcement detailing can be reconciled with what was drawn earlier in the project. Reconciling the analytical model with the actual geometry has proven fiddlier than anticipated, since simplifying assumptions made for hand calculations rarely survive contact with construction realities.",
       "text_en_c2": "Back at the office, I have been meticulously tracing the load path through a series of reinforced concrete beams and columns, weighing two competing design methodologies against each other with all the rigour the exercise demands. Each approach carries its own implications for moment redistribution, ductility, and the attendant reinforcement detailing, and the choice between them must ultimately reconcile with the schematic geometry we have already committed to drawing. Meanwhile, Sum Ho, in his characteristically paternal fashion, has again broached the subject of my FE examination preparation, enquiring, with thinly veiled scepticism, as to whether my progress is commensurate with the timeline. His gentle insistence on continued study is becoming a recurring motif.",
-      "audio_url": "audio/2026-09-30/clip-c2-load-path.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-c2-load-path-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-c2-load-path-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-c2-load-path-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-c2-load-path-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62730767",
+      "source_hint": "/biz/ thread on crypto losing its easy-money era"
     },
     {
       "id": "ai-vibecode",
@@ -122,26 +61,11 @@
       "topic_en": "AI vibecoder",
       "text_zh": "個third worlder vibecode寫web 搵到美國remote工。靠AI續命贏晒。我哋呢啲做site同畫圖 遲早比AI搞死。prop firm輸緊 連嗰邊嘅hope都俾AI搶埋 lol wtf",
       "text_en_b1": "An anon from a third world country vibecoded his way into a remote webdev job with an American employer. He is still vibecoding and making more money than everyone around him by doing basically nothing. He calls AI the best thing that ever happened to mankind.",
-      "source_url": "https://boards.4chan.org/g/thread/109931169",
-      "source_hint": "/g/ thread about vibecoders landing American remote jobs",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Career observation, not a trade setup"
-      },
       "text_en_b2": "An anon from a third-world country has apparently vibecoded his way into a remote webdev role with an American employer, and he's still vibecoding while pulling in more cash than anyone around him by doing next to nothing. He swears AI is the greatest thing that ever happened to mankind. Meanwhile the rest of us grinding through site work and CAD drawings are looking at a slow death sentence from automation.",
       "text_en_c1": "An anonymous poster from what he bluntly terms a third-world country has apparently vibecoded his way into a remote web development contract with a US-based employer, and continues to out-earn his peers while doing comparatively little. The implication, delivered with characteristic bitterness, is that AI has effectively flattened the playing field: those with cheap living costs and decent prompting skills now capture opportunities once reserved for credentialed engineers and designers. Meanwhile, the rest of us, who draw reinforcement details and inspect drainage runs, are left wondering how long before our workflows are similarly commodified.",
       "text_en_c2": "An anonymous poster from a developing economy has reportedly parlayed rudimentary proficiency with AI coding assistants into a fully remote web development contract with an American firm, thereby achieving an economic mobility that eludes most of his peers. He continues to vibecode his way through successive deliverables, earning what he cheerfully characterises as an obscene income while doing, by his own admission, precious little. The original poster, by contrast, labours at a site or hunched over CAD drawings, trades that look increasingly vulnerable to the same algorithmic encroachment that has so empowered his foreign counterpart. With his proprietary trading account bleeding steadily and conventional engineering prospects narrowing, he watches AI steadily annex territory he had assumed was safely human. The resentment is palpable, the despair almost theatrical.",
-      "audio_url": "audio/2026-09-30/clip-ai-vibecode.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-ai-vibecode-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-ai-vibecode-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-ai-vibecode-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-ai-vibecode-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109931169",
+      "source_hint": "/g/ thread about vibecoders landing American remote jobs"
     },
     {
       "id": "hk-musk-hormones",
@@ -150,26 +74,11 @@
       "topic_en": "Elon TRT",
       "text_zh": "Elon自己食緊TRT 反而鬧人哋trans搞gender affirming care。真係double standard到爆。X上面睇佢tweet當笑話算 反正TSLA都冇咩動作lol",
       "text_en_b1": "Elon is supposedly on hormones himself. He gets mad when others receive Gender Affirming Care, but he is on TRT. The poster asks what causes this kind of double standard. The thread keeps citing his own posts on X as proof.",
-      "source_url": "https://boards.4chan.org/pol/thread/543505210",
-      "source_hint": "/pol/ thread on Elon and TRT hypocrisy",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Gossip thread, not a trade setup"
-      },
       "text_en_b2": "Elon is supposedly on TRT himself, yet he has the nerve to attack others over gender-affirming care. That level of double standard is genuinely staggering, and the contrast couldn't be more hypocritical. His own posts on X keep getting dug up as evidence, and honestly the thread reads like comedy at this point. Meanwhile TSLA has been doing absolutely nothing, which says plenty on its own.",
       "text_en_c1": "Elon Musk is, by all credible accounts, on testosterone replacement therapy himself, yet continues to take public aim at gender-affirming care for others with a fervour that borders on the theatrical. The contradiction is hard to overlook: pharmaceutical intervention framed as acceptable self-optimisation for one demographic becomes, in his telling, a cultural malignancy when pursued by trans individuals seeking comparable medical oversight. The thread catalogues his own X posts as Exhibit A, each one another data point in what increasingly resembles a sustained campaign against a vulnerable minority.",
       "text_en_c2": "Elon Musk, it transpires, is himself receiving testosterone replacement therapy, a regimen he evidently considers entirely unremarkable when applied to his own person yet somehow reprehensible when administered to others under the banner of gender-affirming care. The hypocrisy is so pronounced that one scarcely knows where to begin. His very own X account, that sprawling repository of unguarded pronouncements, furnishes ample documentary evidence of this contradiction, should any skeptic care to consult the archives. The thread has predictably degenerated into a recitation of his most inflammatory missives, each cited as further corroboration of his staggering double standards. For most observers, the spectacle has become merely another curiosity, with Tesla shares stubbornly refusing to react to the unfolding farce.",
-      "audio_url": "audio/2026-09-30/clip-hk-musk-hormones.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-hk-musk-hormones-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-hk-musk-hormones-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-hk-musk-hormones-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-hk-musk-hormones-c2.mp3"
+      "source_url": "https://boards.4chan.org/pol/thread/543505210",
+      "source_hint": "/pol/ thread on Elon and TRT hypocrisy"
     },
     {
       "id": "mma-squat",
@@ -178,26 +87,11 @@
       "topic_en": "Skip squats",
       "text_zh": "有個anon話從來冇見過一個focus做heavy squat嘅人 練得靚又fit。話PPL係scam starting speed係obesity guide。肥仔信今日又話叫我gym day做leg 我話我寧願做leg press 都唔squat lol",
       "text_en_b1": "An anon says he has never seen someone who focused on squatting heavy who was a good athlete or looked like they actually lifted. PPL is a scam, starting strength is just a guide to speedrunning obesity. He says skip squats and do any other leg exercise that uses a better muscle activation chain.",
-      "source_url": "https://boards.4chan.org/fit/thread/77539987",
-      "source_hint": "/fit/ thread arguing against heavy squats",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Gym opinion rant, not a trade"
-      },
       "text_en_b2": "An anon claims he's never come across a serious squatter who actually looked athletic or trained properly. According to him, PPL is a complete scam and Starting Strength is little more than a speedrun guide to obesity. His advice is straightforward: skip heavy barbell squats and pick any leg exercise that uses a more effective muscle activation chain. A fellow fatty suggested leg day at the gym, and I'd honestly rather pile on leg press weight than touch a squat bar.",
       "text_en_c1": "An anonymous poster has declared, with characteristic fit-provincial confidence, that he has never encountered an athlete who prioritised heavy barbell squatting and yet emerged looking genuinely athletic or competent in the squat pattern itself. In his considered view, PPL is essentially a scam, Starting Strength is little more than an obesity speedrun guide, and the entire cult of the squat rests on shaky biomechanical premises that ignore superior alternatives. His prescription is straightforward: skip the back squat entirely and substitute leg press or any movement that recruits the posterior chain through a more favourable activation profile.",
       "text_en_c2": "An anonymous contributor has provocatively declared that, in his extensive observational experience, no individual whose training revolved around heavy barbell back squats has ever presented as a genuinely aesthetic or athletically competent lifter. PPL splits, he contends, are an elaborate charade optimised for beginners and influencers, whereas Starting Strength functions as little more than an unwitting tutorial on accelerated adipose accumulation. His prescription is characteristically blunt: eschew squats altogether in favour of any lower-body movement, be it leg press, hack squat, or belt squat, that delivers superior muscle activation without the attendant spinal compression. The poster confesses to preferring leg press on designated gym days, a confession that has predictably drawn both spirited defence and contemptuous dismissal from entrenched squat evangelists.",
-      "audio_url": "audio/2026-09-30/clip-mma-squat.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-mma-squat-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-mma-squat-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-mma-squat-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-mma-squat-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77539987",
+      "source_hint": "/fit/ thread arguing against heavy squats"
     },
     {
       "id": "ani-zoomer",
@@ -206,26 +100,11 @@
       "topic_en": "Steins;Gate gatekeep",
       "text_zh": "有個zoomer話自己鍾意anime 但原來冇睇過Steins;Gate。真係連門都未入。我推介Gundam 00俾佢 都唔知佢頂唔頂到lelouch個結局lol",
       "text_en_b1": "A zoomer claims to be an anime fan but has not watched Steins;Gate. The poster is mocking them for it. The thread then turns into a list of older must-watch titles that self-proclaimed anime fans keep skipping, including classic Gundam and Demon Slayer discussions.",
-      "source_url": "https://boards.4chan.org/a/thread/291278523",
-      "source_hint": "/a/ thread gatekeeping anime fans over Steins;Gate",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anime culture thread, not a trade"
-      },
       "text_en_b2": "A zoomer loudly proclaims himself an anime fan, yet he's somehow never watched Steins;Gate — clearly he hasn't even crossed the threshold of the genre. I recommended Gundam 00 to him, although I'm genuinely unsure whether he could stomach Lelouch's ending without losing it completely. The thread quickly devolved into a list of older classics that self-proclaimed fans keep inexplicably skipping.",
       "text_en_c1": "A self-proclaimed zoomer anime enthusiast has been roundly excoriated for admitting, with apparent sincerity, that he has never watched Steins;Gate, a title widely regarded as the genre's minimum viable canon. The original poster, clearly of the old guard, frames this omission not as a minor gap but as evidence that the individual has scarcely crossed the threshold of anime literacy, let alone earned the right to claim fandom. Recommendations have subsequently been extended, including Gundam 00, though there is genuine doubt whether the zoomer possesses the patience to sit through Code Geass and Lelouch's notorious ending without losing interest.",
       "text_en_c2": "A self-proclaimed zoomer enthusiast has had the temerity to declare himself an anime aficionado, only to reveal, upon gentle interrogation, that he has never so much as glanced at Steins;Gate, a work widely regarded as a foundational cornerstone of the medium. The original poster, evidently a gatekeeper of long standing, responds with theatrical incredulity, wondering aloud how anyone purporting to love anime can neglect such an obvious entry point. The discussion rapidly metastasises into a sprawling catalogue of canonical works that newer fans routinely overlook, ranging from the original Mobile Suit Gundam through the celebrated Machinoka arc and onward to the narrative complexities of Code Geass, whose ending alone, the poster suggests, will test the youngster's commitment. The verdict, delivered with mock solemnity, is damning.",
-      "audio_url": "audio/2026-09-30/clip-ani-zoomer.mp3",
-      "audio_url_b1": "audio/2026-09-30/clip-ani-zoomer-b1.mp3",
-      "audio_url_b2": "audio/2026-09-30/clip-ani-zoomer-b2.mp3",
-      "audio_url_c1": "audio/2026-09-30/clip-ani-zoomer-c1.mp3",
-      "audio_url_c2": "audio/2026-09-30/clip-ani-zoomer-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291278523",
+      "source_hint": "/a/ thread gatekeeping anime fans over Steins;Gate"
     }
   ]
 }
