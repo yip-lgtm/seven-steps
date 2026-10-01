@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-01",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-reusability-001",
+      "topic_en": "SpaceX cost reality",
+      "topic_zh": "SpaceX成本疑雲",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-reusability-001-b1.mp3",
+        "b2": "clip-biz-reusability-001-b2.mp3",
+        "c1": "clip-biz-reusability-001-c1.mp3",
+        "c2": "clip-biz-reusability-001-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-retirement-scam-002",
+      "topic_en": "Retirement scam take",
+      "topic_zh": "退休金騙局",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-retirement-scam-002-b1.mp3",
+        "b2": "clip-biz-retirement-scam-002-b2.mp3",
+        "c1": "clip-biz-retirement-scam-002-c1.mp3",
+        "c2": "clip-biz-retirement-scam-002-c2.mp3"
+      }
+    },
+    {
+      "id": "g-ai-replacement-003",
+      "topic_en": "AI replacement endgame",
+      "topic_zh": "AI取代所有人",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-ai-replacement-003-b1.mp3",
+        "b2": "clip-g-ai-replacement-003-b2.mp3",
+        "c1": "clip-g-ai-replacement-003-c1.mp3",
+        "c2": "clip-g-ai-replacement-003-c2.mp3"
+      }
+    },
+    {
+      "id": "pol-flamewar-004",
+      "topic_en": "Thread hits 20M views",
+      "topic_zh": "撚出20M撚戰",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-pol-flamewar-004-b1.mp3",
+        "b2": "clip-pol-flamewar-004-b2.mp3",
+        "c1": "clip-pol-flamewar-004-c1.mp3",
+        "c2": "clip-pol-flamewar-004-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-powershitting-005",
+      "topic_en": "Big 3 trap",
+      "topic_zh": "Big3陷阱",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-powershitting-005-b1.mp3",
+        "b2": "clip-fit-powershitting-005-b2.mp3",
+        "c1": "clip-fit-powershitting-005-c1.mp3",
+        "c2": "clip-fit-powershitting-005-c2.mp3"
+      }
+    },
+    {
+      "id": "a-steinsgate-006",
+      "topic_en": "Zoomers skip Steins;Gate",
+      "topic_zh": "Steins;Gate補課",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-steinsgate-006-b1.mp3",
+        "b2": "clip-a-steinsgate-006-b2.mp3",
+        "c1": "clip-a-steinsgate-006-c1.mp3",
+        "c2": "clip-a-steinsgate-006-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-btc-button-007",
+      "topic_en": "1000 BTC button",
+      "topic_zh": "BTC魔術法虛",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-btc-button-007-b1.mp3",
+        "b2": "clip-biz-btc-button-007-b2.mp3",
+        "c1": "clip-biz-btc-button-007-c1.mp3",
+        "c2": "clip-biz-btc-button-007-c2.mp3"
+      }
+    }
+  ]
+}
