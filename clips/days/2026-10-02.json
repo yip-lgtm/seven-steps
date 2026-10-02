@@ -1,7 +1,6 @@
 {
   "date": "2026-10-02",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "trade-macro-mcd",
@@ -10,26 +9,11 @@
       "topic_en": "Why MCD is dumping",
       "text_zh": "MCD咁好嘅品牌都跌到爛？樓主話佢似食物界Apple，人人知係垃圾但照食。佢諗住撈底喎… 真係廢柴炒股一日又一日，學費又入落去🙏",
       "text_en_b1": "Why is MCD falling so much? It is a well-known company with a solid market of slop for cattle and huge cashflow every year. But the stock is dumping like a shitcoin. The poster is thinking about buying the dip, even though he does not eat the food. Everyone knows it is bad for you, but people still eat it.",
-      "source_url": "https://boards.4chan.org/biz/thread/62741596",
-      "source_hint": "/biz/ thread asking why MCD is dumping like a shitcoin",
-      "signal": {
-        "asset": "MCD",
-        "direction": "long",
-        "conviction": "medium",
-        "time_horizon": "weeks",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Poster is thinking about buying the dip on a strong cashflow brand"
-      },
       "text_en_b2": "How is MCD getting hammered despite being such a household brand? The poster points out it is essentially slop for the masses, churning out enormous cashflow annually while the share price tanks like some dodgy altcoin. He likens it to the Apple of the food industry, dreadful on paper yet consumed without a shred of irony. Having watched it crater, he is now weighing up buying the dip, tuition money and all.",
       "text_en_c1": "What explains the steep decline in McDonald's share price, given that it remains one of the most recognisable consumer brands globally? The company commands an enormous captive market, generates consistently robust annual cashflow, and essentially functions as what the poster calls the \"Apple of food,\" a product whose nutritional deficiencies are widely acknowledged yet whose appeal appears undiminished. Despite never personally consuming the food, the original poster is contemplating buying the dip. He concedes, with evident self-deprecation, that his repeated attempts at catching falling knives amount to little more than an expensive ongoing tuition fee.",
       "text_en_c2": "McDonald's, a brand so ubiquitous it requires no introduction, has been hemorrhaging share value, and the conspicuous irony is not lost on retail traders dissecting the decline on /biz/. The poster, evidently nursing a long position he describes as catch-the-knife, observes that MCD occupies a curious cultural niche: an establishment whose food is widely derided as nutritionally indefensible yet continues to command consumer loyalty with near-religious consistency. He likens the company to the Apple of the food industry, meaning a product whose perceived deficiencies are perpetually transcended by the strength of its ecosystem. Whether this framing constitutes genuine insight or merely the rationalisation of capital sunk into a depreciating asset remains, as ever, the unanswerable question haunting every bag-holder who refuses to capitulate.",
-      "audio_url": "audio/2026-10-02/clip-trade-macro-mcd.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-trade-macro-mcd-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-trade-macro-mcd-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-trade-macro-mcd-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-trade-macro-mcd-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62741596",
+      "source_hint": "/biz/ thread asking why MCD is dumping like a shitcoin"
     },
     {
       "id": "trade-musk-tsla-spcx",
@@ -38,26 +22,11 @@
       "topic_en": "TSLA SPCX merger hype",
       "text_zh": "/biz/ 話TSLA同SpaceX今年會合併，兩隻都會爆上。仲話Elon入咗國防部三人組，要佢幫手造軍用drone同AI。樓主話呢個就係21世紀標準石油。唔買就笨🧐",
       "text_en_b1": "/biz/ here is a 2x from me to you. TSLA and SPCX are merging this year and each stock is going to go up tremendously on the news. Elon just got put into a Department of War triumvirate because they need his manufacturing base for the coming drone and AI wars.",
-      "source_url": "https://boards.4chan.org/biz/thread/62743216",
-      "source_hint": "/biz/ thread hyping TSLA + SpaceX merger and Musk Pentagon role",
-      "signal": {
-        "asset": "TSLA",
-        "direction": "long",
-        "conviction": "high",
-        "time_horizon": "months",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Poster frames merger + defense contract as a guaranteed huge upside catalyst"
-      },
       "text_en_b2": "Anyone frequenting /biz/ owes it to themselves to pay heed: TSLA and SPCX are allegedly merging this year, which would send both tickers vertical the moment confirmation drops. Elon has reportedly been embedded into a Department of War triumvirate, owing to Washington needing his manufacturing muscle for the upcoming drone and AI conflicts. Anyone dismissing this as the 21st-century Standard Oil in the making is, frankly, leaving easy money on the table.",
       "text_en_c1": "A thread on /biz/ is advancing a bold thesis: Tesla and SpaceX are poised to merge within the calendar year, a development that would send both securities soaring once the announcement becomes public. The poster further notes that Elon Musk has been installed as part of a triumvirate at the Department of War, ostensibly because Washington requires his manufacturing infrastructure for the impending era of drone warfare and AI-driven conflict. Drawing an explicit parallel to Standard Oil's monopolistic dominance, the argument concludes that any investor failing to recognise this convergence is, in the poster's words, being deliberately blind to history repeating itself.",
       "text_en_c2": "A poster on /biz/ is dispensing what he generously describes as a two-for-one, namely the conviction that Tesla and SpaceX will consummate a merger before the calendar turns, whereupon both tickers shall, in his estimation, ascend stratospherically on the announcement alone. The foundation underpinning this thesis is Musk's alleged elevation into a Department of War triumvirate, an appointment purportedly engineered to harness his manufacturing infrastructure for the impending theatre of autonomous-drone and artificial-intelligence warfare. He invokes the analogy of Standard Oil for the twenty-first century, a comparison that is either prescient or hubristic depending entirely upon whether one has already committed capital. To demur, in his phrasing, is to advertise oneself as a fool.",
-      "audio_url": "audio/2026-10-02/clip-trade-musk-tsla-spcx.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-trade-musk-tsla-spcx-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-trade-musk-tsla-spcx-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-trade-musk-tsla-spcx-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-trade-musk-tsla-spcx-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62743216",
+      "source_hint": "/biz/ thread hyping TSLA + SpaceX merger and Musk Pentagon role"
     },
     {
       "id": "civil-structure-winter-arc",
@@ -66,26 +35,11 @@
       "topic_en": "Big 3 lifts trap",
       "text_zh": "樓主話big 3死舉唔夠，肥佬淨係舉重但跑半mile都喘晒，樣又唔好睇。佢話要加耐力、心肺、功能性訓練先健康。睇完諗起我哋做soil nailing都係一樣，淨係識揼石屎唔夠，要識成個load path👍",
       "text_en_b1": "Powershitting and the Big 3 are not enough. The poster says he wasted years doing heavy compounds and got strong lifts, but he was an obese slob who could not jog a half mile without going into cardiac arrest. Newbies fall into this trap. Being strong on the bar does not mean you are healthy, fit, or look good. You need conditioning too.",
-      "source_url": "https://boards.4chan.org/fit/thread/77545470",
-      "source_hint": "/fit/ thread on why pure strength training makes you fat and unhealthy",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Fitness post, no trade relevant"
-      },
       "text_en_b2": "Endless powershitting and obsessing over the Big 3 is a trap, according to the poster, who admits he wasted years grinding heavy compounds and racked up respectable numbers, yet remained an obese mess who could barely jog half a mile without his heart giving out. Newbies fall straight into this. Bending the bar does not translate into genuine fitness or looking halfway decent. Conditioning work remains non-negotiable.",
       "text_en_c1": "The poster contends that years spent exclusively on the Big 3 powerlifting movements, while producing respectable numbers on the barbell, ultimately yielded diminishing returns in terms of overall wellbeing. Despite hauling considerable weight, he remained overweight, aesthetically unremarkable, and incapable of jogging half a mile without his cardiovascular system protesting vehemently. His central argument is that raw strength constitutes only one dimension of fitness; conditioning, endurance, and functional training are equally indispensable. The broader lesson, which the reader finds applicable even to civil engineering work involving soil nailing, is that fixating on a single element of any load path without addressing the entire structural system is fundamentally misguided.",
       "text_en_c2": "The poster, a reformed powershitting devotee, contends that compulsive devotion to the Big 3 compound lifts constitutes an almost archetypal trap for credulous newcomers to resistance training. He recounts having squandered years accumulating impressive numbers on the barbell while remaining, by every meaningful metric, an obese and visibly unhealthy specimen who could not complete a half-mile jog without his cardiovascular system threatening mutiny. The implicit lesson, articulated with the benefit of hindsight, is that absolute strength is neither a sufficient proxy for general physical competence nor a guarantor of aesthetic composition. Genuine fitness, he insists, demands a concomitant commitment to conditioning, cardiac output, and the kind of functional movement that heavy squats alone can never cultivate.",
-      "audio_url": "audio/2026-10-02/clip-civil-structure-winter-arc.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-civil-structure-winter-arc-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-civil-structure-winter-arc-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-civil-structure-winter-arc-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-civil-structure-winter-arc-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77545470",
+      "source_hint": "/fit/ thread on why pure strength training makes you fat and unhealthy"
     },
     {
       "id": "tech-spacex-dragon",
@@ -94,26 +48,11 @@
       "topic_en": "NASA Dragon dilemma",
       "text_zh": "SpaceX同NASA講唔想再飛Dragon同Falcon 9去LEO。NASA當年喺Commercial Crew Program擺咗31億美金去開發同認證Crew Dragon，依家SpaceX話唔做… wtf Elon真係好串lol",
       "text_en_b1": "NASA has a Dragon dilemma and there appear to be no good answers. NASA supports a robust commercial space economy that advances American industry. In recent months, SpaceX has made it clear to NASA that it no longer wishes to fly Dragon or Falcon 9 on missions to LEO. NASA invested 3.1 billion dollars in the development and certification of Crew Dragon.",
-      "source_url": "https://boards.4chan.org/g/thread/109957579",
-      "source_hint": "/g/ thread on Ars Technica piece about SpaceX dropping Crew Dragon flights",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Tech/space news, no trade relevant"
-      },
       "text_en_b2": "NASA is staring down a Dragon dilemma with no obvious way out, despite publicly championing a robust commercial space sector that props up American industry. SpaceX has been signalling to NASA in recent months that it has no appetite to keep flying Dragon or Falcon 9 on low-Earth-orbit missions, having sunk roughly 3.1 billion dollars into developing and certifying Crew Dragon under the Commercial Crew Program. The sheer audacity is staggering.",
       "text_en_c1": "NASA faces what might aptly be termed a Dragon dilemma, one for which no palatable solution appears to exist. The agency has long championed a thriving commercial space sector, predicated on the principle that government investment should catalyse rather than supplant private industry. Recent communications, however, indicate that SpaceX has communicated to NASA its intention to cease flying both Dragon and Falcon 9 on low Earth orbit missions. This poses a significant problem given that the Commercial Crew Program allocated approximately 3.1 billion dollars toward Crew Dragon's development and certification, a sunk investment now under considerable strain as SpaceX appears increasingly disinclined to continue servicing the contract.",
       "text_en_c2": "NASA confronts an altogether unenviable quandary with respect to its Crew Dragon dependency, and the available options, upon inspection, appear uniformly unpalatable. The agency's stated mandate to nurture a robust commercial space sector, thereby catalysing American industrial capacity, has been complicated by SpaceX's recent and unmistakably direct intimations that it intends to discontinue Dragon and Falcon 9 flights to low Earth orbit. This declaration carries a particular sting when one recalls that NASA disbursed a sum of 3.1 billion dollars toward the development and certification of Crew Dragon under the Commercial Crew Program. The question of who, if anyone, might plausibly absorb the resulting capability gap remains conspicuously unresolved.",
-      "audio_url": "audio/2026-10-02/clip-tech-spacex-dragon.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-tech-spacex-dragon-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-tech-spacex-dragon-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-tech-spacex-dragon-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-tech-spacex-dragon-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/109957579",
+      "source_hint": "/g/ thread on Ars Technica piece about SpaceX dropping Crew Dragon flights"
     },
     {
       "id": "hk-news-paycheck",
@@ -122,26 +61,11 @@
       "topic_en": "70% Americans paycheck to paycheck",
       "text_zh": "Bloomberg話美國最底層40%都月光，中間30%高少少都係月光。即係頭70%全部月光。最top嗰5%先過得正常。最底50%得2.5%財富。睇完好灰，喺HK都係一樣🥲 唔怪之我諗住返Florida",
       "text_en_b1": "According to Bloomberg, the bottom 40 percent of Americans are living paycheck to paycheck. Another 30 percent, even with higher income, are also living paycheck to paycheck. So the bottom 70 percent of Americans live paycheck to paycheck. Only the top 5 percent are doing well. The bottom 50 percent own 2.5 percent of the wealth. This hit hard.",
-      "source_url": "https://boards.4chan.org/biz/thread/62738405",
-      "source_hint": "/biz/ thread citing Bloomberg on US paycheck-to-paycheck data",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Macro wealth-distribution news, no trade relevant"
-      },
       "text_en_b2": "According to Bloomberg, the bottom 40 percent of Americans are stretched to the limit, living paycheck to paycheck with nothing in reserve. Throw in the next 30 percent, who despite earning more are likewise haemorrhaging cash, and the bottom seventy percent collectively have nothing to fall back on. Only the top 5 percent are genuinely thriving. The bottom 50 percent scrape by on a measly 2.5 percent of total wealth. Bleak reading.",
       "text_en_c1": "Recent Bloomberg data paints a rather grim picture of American household finances, one that resonates uncomfortably with observers in other high-cost jurisdictions. The bottom 40 percent of earners are reportedly living paycheck to paycheck, while an additional 30 percent, despite nominally higher incomes, find themselves in essentially identical circumstances. The aggregate implication is sobering: the lower 70 percent of the population lacks meaningful financial buffer. Only the top 5 percent enjoy genuine prosperity, whereas the bottom 50 percent collectively hold a mere 2.5 percent of total wealth. The asymmetry is stark enough to prompt some commenters to seriously reconsider emigration, with Florida emerging as a recurring destination.",
       "text_en_c2": "Bloomberg has circulated figures that, if accurate, ought to temper any residual faith in the equitable distribution of American prosperity. The bottom 40 percent of the population subsist from one paycheque to the next, while the next 30 percent, despite their ostensibly more comfortable incomes, find themselves in essentially identical circumstances. This implies, in aggregate, that fully 70 percent of the nation navigates each month without meaningful financial buffer. Only the top 5 percent enjoy what might reasonably be termed a comfortable existence, and the bottom 50 percent collectively command a mere 2.5 percent of aggregate household wealth. The poster, evidently dispirited by these revelations, observes that Hong Kong offers no analogous respite and contemplates relocation to Florida.",
-      "audio_url": "audio/2026-10-02/clip-hk-news-paycheck.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-hk-news-paycheck-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-hk-news-paycheck-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-hk-news-paycheck-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-hk-news-paycheck-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62738405",
+      "source_hint": "/biz/ thread citing Bloomberg on US paycheck-to-paycheck data"
     },
     {
       "id": "mma-fitness-winter-arc",
@@ -150,26 +74,11 @@
       "topic_en": "Winter Arc starts today",
       "text_zh": "Winter Arc今日開始。一禮拜gym六日，五點半起身，cut晒所有人際關係同娛樂。Lock in模式。睇完好似返工做GI report咁孤獨lol。肥仔信應該會tag我🙏",
       "text_en_b1": "Winter Arc starts today, anons. Lock in. Rule one is gym six times a week, weightlifting and exercise mandatory. Rule two is early mornings, wake up at 5:30 AM. Rule three is no social relationships, cut off all human contact including friendships or basic interactions. Rule four is no distractions, no Netflix, no social media. Pure grind mode.",
-      "source_url": "https://boards.4chan.org/fit/thread/77546639",
-      "source_hint": "/fit/ Winter Arc 2026 announcement thread",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Fitness/lifestyle post, no trade relevant"
-      },
       "text_en_b2": "Winter Arc kicks off today, anons, so buckle down and lock in. Rule one demands hitting the gym six days a week, with lifting and cardio non-negotiable. Rule two mandates dragging yourselves awake at 5:30 AM without fail. Rule three requires cutting off every human relationship, severing friendships and basic interactions alike. Rule four bans all distractions, no Netflix, no social media. Pure, monastic grind mode from here on out.",
       "text_en_c1": "The Winter Arc commences today, and anons are being urged to enter what can only be described as monastic mode. The prescribed regimen is unforgiving: six weightlifting sessions per week, an alarm set for 5:30 AM, and a comprehensive severance of all social ties, friendships, and casual interactions. Entertainment, Netflix, and social media are likewise proscribed, ostensibly to eliminate every conceivable distraction. The prevailing philosophy is one of pure, grinding self-discipline. Whether this constitutes genuine transformation or merely a fashionable bout of seasonal masochism remains debatable, though the poster clearly believes that anyone not currently subscribed to the lifestyle will inevitably regret their complacency.",
       "text_en_c2": "Winter Arc commences today, anons, and the regimen, as enumerated, permits no negotiation with the self. Six sessions per week in the gym are mandatory, the weights themselves being non-negotiable, and the alarm is fixed at 5:30 AM regardless of whatever nocturnal indulgences preceded it. Interpersonal relationships are to be excised entirely, friendships and incidental human contact alike suspended for the duration, while all forms of recreational distraction, whether streaming platforms, social media, or comparable ephemera, must be relinquished without ceremony. The poster acknowledges that the resulting existence resembles a glorified graduate internship in solitude, and yet the commitment, in his framing, is the prerequisite condition for any meaningful transformation. The fat-admirer forum, he suspects, will notice his absence.",
-      "audio_url": "audio/2026-10-02/clip-mma-fitness-winter-arc.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-mma-fitness-winter-arc-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-mma-fitness-winter-arc-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-mma-fitness-winter-arc-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-mma-fitness-winter-arc-c2.mp3"
+      "source_url": "https://boards.4chan.org/fit/thread/77546639",
+      "source_hint": "/fit/ Winter Arc 2026 announcement thread"
     },
     {
       "id": "anime-raildex",
@@ -178,26 +87,11 @@
       "topic_en": "Raildex ITEM anime",
       "text_zh": "Raildex新ITEM動畫10月9號開播，第7卷輕說同步出。Final Railgun漫畫第21卷10月27號出，封面畀人話好難睇lol。仲有新Mental Out章，10月3號ABEMA有提前放映。睇完好想唔返工🧐",
       "text_en_b1": "Raildex news. The new ITEM anime starts on October 9th, with an advance screening of the first episode on October 3rd on ABEMA. The ITEM anime will have 11 episodes. The 7th ITEM novel also releases on October 9th. The final Railgun manga volume 21 comes out October 27th. The cover of the final Railgun volume is causing controversy online for looking bad.",
-      "source_url": "https://boards.4chan.org/a/thread/291336888",
-      "source_hint": "/a/ Raildex news dump covering ITEM anime, novels, and Railgun final volume",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Anime release news, no trade relevant"
-      },
       "text_en_b2": "Raildex updates for the anons out there. The freshly announced ITEM anime premieres October 9th, with an early screening of the opener dropping on October 3rd over on ABEMA. The series clocks in at eleven episodes total, and the seventh ITEM light novel also lands on October 9th. Meanwhile, the final Railgun manga volume 21 hits shelves October 27th, though its cover is already getting dragged online for looking hideous.",
       "text_en_c1": "The Raildex franchise is rolling out an unusually concentrated slate of releases this autumn, much to the evident anticipation of longtime fans. The new ITEM anime adaptation premieres on October 9th, with an advance screening of its inaugural episode available on ABEMA from October 3rd, and the series is confirmed to run for eleven episodes. The seventh ITEM light novel volume will launch concurrently on October 9th. Meanwhile, the concluding Railgun manga volume 21, slated for October 27th, has already generated controversy, primarily directed at what many consider an unflattering cover design. An additional Mental Out chapter rounds out the calendar.",
       "text_en_c2": "A compendium of Raildex-related intelligence has surfaced, and fans of the franchise may wish to organise their October calendars accordingly. The ITEM anime commences broadcast on the ninth, with an advance screening of its inaugural episode afforded to ABEMA subscribers three days earlier, the full run totalling eleven episodes. Volume seven of the ITEM light novel arrives in tandem with the broadcast premiere. Separately, the twenty-first and ostensibly final volume of the Railgun manga emerges on the twenty-seventh, though its cover artwork has already attracted considerable opprobrium from aesthetically exacting devotees. A fresh Mental Out chapter likewise beckons, and the cumulative effect of such relentless intellectual property deployment is, predictably, an intensified yearning to abandon professional obligations entirely.",
-      "audio_url": "audio/2026-10-02/clip-anime-raildex.mp3",
-      "audio_url_b1": "audio/2026-10-02/clip-anime-raildex-b1.mp3",
-      "audio_url_b2": "audio/2026-10-02/clip-anime-raildex-b2.mp3",
-      "audio_url_c1": "audio/2026-10-02/clip-anime-raildex-c1.mp3",
-      "audio_url_c2": "audio/2026-10-02/clip-anime-raildex-c2.mp3"
+      "source_url": "https://boards.4chan.org/a/thread/291336888",
+      "source_hint": "/a/ Raildex news dump covering ITEM anime, novels, and Railgun final volume"
     }
   ]
 }

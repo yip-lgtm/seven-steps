@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-02",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-mcd",
+      "topic_en": "Why MCD is dumping",
+      "topic_zh": "麥當勞點跌",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-mcd-b1.mp3",
+        "b2": "clip-trade-macro-mcd-b2.mp3",
+        "c1": "clip-trade-macro-mcd-c1.mp3",
+        "c2": "clip-trade-macro-mcd-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-tsla-spcx",
+      "topic_en": "TSLA SPCX merger hype",
+      "topic_zh": "Tesla SpaceX合併",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-tsla-spcx-b1.mp3",
+        "b2": "clip-trade-musk-tsla-spcx-b2.mp3",
+        "c1": "clip-trade-musk-tsla-spcx-c1.mp3",
+        "c2": "clip-trade-musk-tsla-spcx-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-structure-winter-arc",
+      "topic_en": "Big 3 lifts trap",
+      "topic_zh": "負重練習嘅陷阱",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-structure-winter-arc-b1.mp3",
+        "b2": "clip-civil-structure-winter-arc-b2.mp3",
+        "c1": "clip-civil-structure-winter-arc-c1.mp3",
+        "c2": "clip-civil-structure-winter-arc-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-spacex-dragon",
+      "topic_en": "NASA Dragon dilemma",
+      "topic_zh": "NASA Dragon難題",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-spacex-dragon-b1.mp3",
+        "b2": "clip-tech-spacex-dragon-b2.mp3",
+        "c1": "clip-tech-spacex-dragon-c1.mp3",
+        "c2": "clip-tech-spacex-dragon-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-paycheck",
+      "topic_en": "70% Americans paycheck to paycheck",
+      "topic_zh": "70%美國人月光",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-paycheck-b1.mp3",
+        "b2": "clip-hk-news-paycheck-b2.mp3",
+        "c1": "clip-hk-news-paycheck-c1.mp3",
+        "c2": "clip-hk-news-paycheck-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fitness-winter-arc",
+      "topic_en": "Winter Arc starts today",
+      "topic_zh": "Winter Arc開始",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fitness-winter-arc-b1.mp3",
+        "b2": "clip-mma-fitness-winter-arc-b2.mp3",
+        "c1": "clip-mma-fitness-winter-arc-c1.mp3",
+        "c2": "clip-mma-fitness-winter-arc-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-raildex",
+      "topic_en": "Raildex ITEM anime",
+      "topic_zh": "Raildex新ITEM動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-raildex-b1.mp3",
+        "b2": "clip-anime-raildex-b2.mp3",
+        "c1": "clip-anime-raildex-c1.mp3",
+        "c2": "clip-anime-raildex-c2.mp3"
+      }
+    }
+  ]
+}

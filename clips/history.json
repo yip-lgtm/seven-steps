@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "days": [
+    {
+      "date": "2026-10-02",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-macro-mcd",
+          "category": "trading",
+          "topic_zh": "麥當勞點跌",
+          "topic_en": "Why MCD is dumping",
+          "text_zh": "MCD咁好嘅品牌都跌到爛？樓主話佢似食物界Apple，人人知係垃圾但照食。佢諗住撈底喎… 真係廢柴炒股一日又一日，學費又入落去🙏",
+          "text_en_b1": "Why is MCD falling so much? It is a well-known company with a solid market of slop for cattle and huge cashflow every year. But the stock is dumping like a shitcoin. The poster is thinking about buying the dip, even though he does not eat the food. Everyone knows it is bad for you, but people still eat it.",
+          "text_en_b2": "How is MCD getting hammered despite being such a household brand? The poster points out it is essentially slop for the masses, churning out enormous cashflow annually while the share price tanks like some dodgy altcoin. He likens it to the Apple of the food industry, dreadful on paper yet consumed without a shred of irony. Having watched it crater, he is now weighing up buying the dip, tuition money and all.",
+          "text_en_c1": "What explains the steep decline in McDonald's share price, given that it remains one of the most recognisable consumer brands globally? The company commands an enormous captive market, generates consistently robust annual cashflow, and essentially functions as what the poster calls the \"Apple of food,\" a product whose nutritional deficiencies are widely acknowledged yet whose appeal appears undiminished. Despite never personally consuming the food, the original poster is contemplating buying the dip. He concedes, with evident self-deprecation, that his repeated attempts at catching falling knives amount to little more than an expensive ongoing tuition fee.",
+          "text_en_c2": "McDonald's, a brand so ubiquitous it requires no introduction, has been hemorrhaging share value, and the conspicuous irony is not lost on retail traders dissecting the decline on /biz/. The poster, evidently nursing a long position he describes as catch-the-knife, observes that MCD occupies a curious cultural niche: an establishment whose food is widely derided as nutritionally indefensible yet continues to command consumer loyalty with near-religious consistency. He likens the company to the Apple of the food industry, meaning a product whose perceived deficiencies are perpetually transcended by the strength of its ecosystem. Whether this framing constitutes genuine insight or merely the rationalisation of capital sunk into a depreciating asset remains, as ever, the unanswerable question haunting every bag-holder who refuses to capitulate.",
+          "source_url": "https://boards.4chan.org/biz/thread/62741596",
+          "source_hint": "/biz/ thread asking why MCD is dumping like a shitcoin"
+        },
+        {
+          "id": "trade-musk-tsla-spcx",
+          "category": "trading",
+          "topic_zh": "Tesla SpaceX合併",
+          "topic_en": "TSLA SPCX merger hype",
+          "text_zh": "/biz/ 話TSLA同SpaceX今年會合併，兩隻都會爆上。仲話Elon入咗國防部三人組，要佢幫手造軍用drone同AI。樓主話呢個就係21世紀標準石油。唔買就笨🧐",
+          "text_en_b1": "/biz/ here is a 2x from me to you. TSLA and SPCX are merging this year and each stock is going to go up tremendously on the news. Elon just got put into a Department of War triumvirate because they need his manufacturing base for the coming drone and AI wars.",
+          "text_en_b2": "Anyone frequenting /biz/ owes it to themselves to pay heed: TSLA and SPCX are allegedly merging this year, which would send both tickers vertical the moment confirmation drops. Elon has reportedly been embedded into a Department of War triumvirate, owing to Washington needing his manufacturing muscle for the upcoming drone and AI conflicts. Anyone dismissing this as the 21st-century Standard Oil in the making is, frankly, leaving easy money on the table.",
+          "text_en_c1": "A thread on /biz/ is advancing a bold thesis: Tesla and SpaceX are poised to merge within the calendar year, a development that would send both securities soaring once the announcement becomes public. The poster further notes that Elon Musk has been installed as part of a triumvirate at the Department of War, ostensibly because Washington requires his manufacturing infrastructure for the impending era of drone warfare and AI-driven conflict. Drawing an explicit parallel to Standard Oil's monopolistic dominance, the argument concludes that any investor failing to recognise this convergence is, in the poster's words, being deliberately blind to history repeating itself.",
+          "text_en_c2": "A poster on /biz/ is dispensing what he generously describes as a two-for-one, namely the conviction that Tesla and SpaceX will consummate a merger before the calendar turns, whereupon both tickers shall, in his estimation, ascend stratospherically on the announcement alone. The foundation underpinning this thesis is Musk's alleged elevation into a Department of War triumvirate, an appointment purportedly engineered to harness his manufacturing infrastructure for the impending theatre of autonomous-drone and artificial-intelligence warfare. He invokes the analogy of Standard Oil for the twenty-first century, a comparison that is either prescient or hubristic depending entirely upon whether one has already committed capital. To demur, in his phrasing, is to advertise oneself as a fool.",
+          "source_url": "https://boards.4chan.org/biz/thread/62743216",
+          "source_hint": "/biz/ thread hyping TSLA + SpaceX merger and Musk Pentagon role"
+        },
+        {
+          "id": "civil-structure-winter-arc",
+          "category": "civil/structure",
+          "topic_zh": "負重練習嘅陷阱",
+          "topic_en": "Big 3 lifts trap",
+          "text_zh": "樓主話big 3死舉唔夠，肥佬淨係舉重但跑半mile都喘晒，樣又唔好睇。佢話要加耐力、心肺、功能性訓練先健康。睇完諗起我哋做soil nailing都係一樣，淨係識揼石屎唔夠，要識成個load path👍",
+          "text_en_b1": "Powershitting and the Big 3 are not enough. The poster says he wasted years doing heavy compounds and got strong lifts, but he was an obese slob who could not jog a half mile without going into cardiac arrest. Newbies fall into this trap. Being strong on the bar does not mean you are healthy, fit, or look good. You need conditioning too.",
+          "text_en_b2": "Endless powershitting and obsessing over the Big 3 is a trap, according to the poster, who admits he wasted years grinding heavy compounds and racked up respectable numbers, yet remained an obese mess who could barely jog half a mile without his heart giving out. Newbies fall straight into this. Bending the bar does not translate into genuine fitness or looking halfway decent. Conditioning work remains non-negotiable.",
+          "text_en_c1": "The poster contends that years spent exclusively on the Big 3 powerlifting movements, while producing respectable numbers on the barbell, ultimately yielded diminishing returns in terms of overall wellbeing. Despite hauling considerable weight, he remained overweight, aesthetically unremarkable, and incapable of jogging half a mile without his cardiovascular system protesting vehemently. His central argument is that raw strength constitutes only one dimension of fitness; conditioning, endurance, and functional training are equally indispensable. The broader lesson, which the reader finds applicable even to civil engineering work involving soil nailing, is that fixating on a single element of any load path without addressing the entire structural system is fundamentally misguided.",
+          "text_en_c2": "The poster, a reformed powershitting devotee, contends that compulsive devotion to the Big 3 compound lifts constitutes an almost archetypal trap for credulous newcomers to resistance training. He recounts having squandered years accumulating impressive numbers on the barbell while remaining, by every meaningful metric, an obese and visibly unhealthy specimen who could not complete a half-mile jog without his cardiovascular system threatening mutiny. The implicit lesson, articulated with the benefit of hindsight, is that absolute strength is neither a sufficient proxy for general physical competence nor a guarantor of aesthetic composition. Genuine fitness, he insists, demands a concomitant commitment to conditioning, cardiac output, and the kind of functional movement that heavy squats alone can never cultivate.",
+          "source_url": "https://boards.4chan.org/fit/thread/77545470",
+          "source_hint": "/fit/ thread on why pure strength training makes you fat and unhealthy"
+        },
+        {
+          "id": "tech-spacex-dragon",
+          "category": "tech/ai",
+          "topic_zh": "NASA Dragon難題",
+          "topic_en": "NASA Dragon dilemma",
+          "text_zh": "SpaceX同NASA講唔想再飛Dragon同Falcon 9去LEO。NASA當年喺Commercial Crew Program擺咗31億美金去開發同認證Crew Dragon，依家SpaceX話唔做… wtf Elon真係好串lol",
+          "text_en_b1": "NASA has a Dragon dilemma and there appear to be no good answers. NASA supports a robust commercial space economy that advances American industry. In recent months, SpaceX has made it clear to NASA that it no longer wishes to fly Dragon or Falcon 9 on missions to LEO. NASA invested 3.1 billion dollars in the development and certification of Crew Dragon.",
+          "text_en_b2": "NASA is staring down a Dragon dilemma with no obvious way out, despite publicly championing a robust commercial space sector that props up American industry. SpaceX has been signalling to NASA in recent months that it has no appetite to keep flying Dragon or Falcon 9 on low-Earth-orbit missions, having sunk roughly 3.1 billion dollars into developing and certifying Crew Dragon under the Commercial Crew Program. The sheer audacity is staggering.",
+          "text_en_c1": "NASA faces what might aptly be termed a Dragon dilemma, one for which no palatable solution appears to exist. The agency has long championed a thriving commercial space sector, predicated on the principle that government investment should catalyse rather than supplant private industry. Recent communications, however, indicate that SpaceX has communicated to NASA its intention to cease flying both Dragon and Falcon 9 on low Earth orbit missions. This poses a significant problem given that the Commercial Crew Program allocated approximately 3.1 billion dollars toward Crew Dragon's development and certification, a sunk investment now under considerable strain as SpaceX appears increasingly disinclined to continue servicing the contract.",
+          "text_en_c2": "NASA confronts an altogether unenviable quandary with respect to its Crew Dragon dependency, and the available options, upon inspection, appear uniformly unpalatable. The agency's stated mandate to nurture a robust commercial space sector, thereby catalysing American industrial capacity, has been complicated by SpaceX's recent and unmistakably direct intimations that it intends to discontinue Dragon and Falcon 9 flights to low Earth orbit. This declaration carries a particular sting when one recalls that NASA disbursed a sum of 3.1 billion dollars toward the development and certification of Crew Dragon under the Commercial Crew Program. The question of who, if anyone, might plausibly absorb the resulting capability gap remains conspicuously unresolved.",
+          "source_url": "https://boards.4chan.org/g/thread/109957579",
+          "source_hint": "/g/ thread on Ars Technica piece about SpaceX dropping Crew Dragon flights"
+        },
+        {
+          "id": "hk-news-paycheck",
+          "category": "hk/news",
+          "topic_zh": "70%美國人月光",
+          "topic_en": "70% Americans paycheck to paycheck",
+          "text_zh": "Bloomberg話美國最底層40%都月光，中間30%高少少都係月光。即係頭70%全部月光。最top嗰5%先過得正常。最底50%得2.5%財富。睇完好灰，喺HK都係一樣🥲 唔怪之我諗住返Florida",
+          "text_en_b1": "According to Bloomberg, the bottom 40 percent of Americans are living paycheck to paycheck. Another 30 percent, even with higher income, are also living paycheck to paycheck. So the bottom 70 percent of Americans live paycheck to paycheck. Only the top 5 percent are doing well. The bottom 50 percent own 2.5 percent of the wealth. This hit hard.",
+          "text_en_b2": "According to Bloomberg, the bottom 40 percent of Americans are stretched to the limit, living paycheck to paycheck with nothing in reserve. Throw in the next 30 percent, who despite earning more are likewise haemorrhaging cash, and the bottom seventy percent collectively have nothing to fall back on. Only the top 5 percent are genuinely thriving. The bottom 50 percent scrape by on a measly 2.5 percent of total wealth. Bleak reading.",
+          "text_en_c1": "Recent Bloomberg data paints a rather grim picture of American household finances, one that resonates uncomfortably with observers in other high-cost jurisdictions. The bottom 40 percent of earners are reportedly living paycheck to paycheck, while an additional 30 percent, despite nominally higher incomes, find themselves in essentially identical circumstances. The aggregate implication is sobering: the lower 70 percent of the population lacks meaningful financial buffer. Only the top 5 percent enjoy genuine prosperity, whereas the bottom 50 percent collectively hold a mere 2.5 percent of total wealth. The asymmetry is stark enough to prompt some commenters to seriously reconsider emigration, with Florida emerging as a recurring destination.",
+          "text_en_c2": "Bloomberg has circulated figures that, if accurate, ought to temper any residual faith in the equitable distribution of American prosperity. The bottom 40 percent of the population subsist from one paycheque to the next, while the next 30 percent, despite their ostensibly more comfortable incomes, find themselves in essentially identical circumstances. This implies, in aggregate, that fully 70 percent of the nation navigates each month without meaningful financial buffer. Only the top 5 percent enjoy what might reasonably be termed a comfortable existence, and the bottom 50 percent collectively command a mere 2.5 percent of aggregate household wealth. The poster, evidently dispirited by these revelations, observes that Hong Kong offers no analogous respite and contemplates relocation to Florida.",
+          "source_url": "https://boards.4chan.org/biz/thread/62738405",
+          "source_hint": "/biz/ thread citing Bloomberg on US paycheck-to-paycheck data"
+        },
+        {
+          "id": "mma-fitness-winter-arc",
+          "category": "mma/fitness",
+          "topic_zh": "Winter Arc開始",
+          "topic_en": "Winter Arc starts today",
+          "text_zh": "Winter Arc今日開始。一禮拜gym六日，五點半起身，cut晒所有人際關係同娛樂。Lock in模式。睇完好似返工做GI report咁孤獨lol。肥仔信應該會tag我🙏",
+          "text_en_b1": "Winter Arc starts today, anons. Lock in. Rule one is gym six times a week, weightlifting and exercise mandatory. Rule two is early mornings, wake up at 5:30 AM. Rule three is no social relationships, cut off all human contact including friendships or basic interactions. Rule four is no distractions, no Netflix, no social media. Pure grind mode.",
+          "text_en_b2": "Winter Arc kicks off today, anons, so buckle down and lock in. Rule one demands hitting the gym six days a week, with lifting and cardio non-negotiable. Rule two mandates dragging yourselves awake at 5:30 AM without fail. Rule three requires cutting off every human relationship, severing friendships and basic interactions alike. Rule four bans all distractions, no Netflix, no social media. Pure, monastic grind mode from here on out.",
+          "text_en_c1": "The Winter Arc commences today, and anons are being urged to enter what can only be described as monastic mode. The prescribed regimen is unforgiving: six weightlifting sessions per week, an alarm set for 5:30 AM, and a comprehensive severance of all social ties, friendships, and casual interactions. Entertainment, Netflix, and social media are likewise proscribed, ostensibly to eliminate every conceivable distraction. The prevailing philosophy is one of pure, grinding self-discipline. Whether this constitutes genuine transformation or merely a fashionable bout of seasonal masochism remains debatable, though the poster clearly believes that anyone not currently subscribed to the lifestyle will inevitably regret their complacency.",
+          "text_en_c2": "Winter Arc commences today, anons, and the regimen, as enumerated, permits no negotiation with the self. Six sessions per week in the gym are mandatory, the weights themselves being non-negotiable, and the alarm is fixed at 5:30 AM regardless of whatever nocturnal indulgences preceded it. Interpersonal relationships are to be excised entirely, friendships and incidental human contact alike suspended for the duration, while all forms of recreational distraction, whether streaming platforms, social media, or comparable ephemera, must be relinquished without ceremony. The poster acknowledges that the resulting existence resembles a glorified graduate internship in solitude, and yet the commitment, in his framing, is the prerequisite condition for any meaningful transformation. The fat-admirer forum, he suspects, will notice his absence.",
+          "source_url": "https://boards.4chan.org/fit/thread/77546639",
+          "source_hint": "/fit/ Winter Arc 2026 announcement thread"
+        },
+        {
+          "id": "anime-raildex",
+          "category": "anime/culture",
+          "topic_zh": "Raildex新ITEM動畫",
+          "topic_en": "Raildex ITEM anime",
+          "text_zh": "Raildex新ITEM動畫10月9號開播，第7卷輕說同步出。Final Railgun漫畫第21卷10月27號出，封面畀人話好難睇lol。仲有新Mental Out章，10月3號ABEMA有提前放映。睇完好想唔返工🧐",
+          "text_en_b1": "Raildex news. The new ITEM anime starts on October 9th, with an advance screening of the first episode on October 3rd on ABEMA. The ITEM anime will have 11 episodes. The 7th ITEM novel also releases on October 9th. The final Railgun manga volume 21 comes out October 27th. The cover of the final Railgun volume is causing controversy online for looking bad.",
+          "text_en_b2": "Raildex updates for the anons out there. The freshly announced ITEM anime premieres October 9th, with an early screening of the opener dropping on October 3rd over on ABEMA. The series clocks in at eleven episodes total, and the seventh ITEM light novel also lands on October 9th. Meanwhile, the final Railgun manga volume 21 hits shelves October 27th, though its cover is already getting dragged online for looking hideous.",
+          "text_en_c1": "The Raildex franchise is rolling out an unusually concentrated slate of releases this autumn, much to the evident anticipation of longtime fans. The new ITEM anime adaptation premieres on October 9th, with an advance screening of its inaugural episode available on ABEMA from October 3rd, and the series is confirmed to run for eleven episodes. The seventh ITEM light novel volume will launch concurrently on October 9th. Meanwhile, the concluding Railgun manga volume 21, slated for October 27th, has already generated controversy, primarily directed at what many consider an unflattering cover design. An additional Mental Out chapter rounds out the calendar.",
+          "text_en_c2": "A compendium of Raildex-related intelligence has surfaced, and fans of the franchise may wish to organise their October calendars accordingly. The ITEM anime commences broadcast on the ninth, with an advance screening of its inaugural episode afforded to ABEMA subscribers three days earlier, the full run totalling eleven episodes. Volume seven of the ITEM light novel arrives in tandem with the broadcast premiere. Separately, the twenty-first and ostensibly final volume of the Railgun manga emerges on the twenty-seventh, though its cover artwork has already attracted considerable opprobrium from aesthetically exacting devotees. A fresh Mental Out chapter likewise beckons, and the cumulative effect of such relentless intellectual property deployment is, predictably, an intensified yearning to abandon professional obligations entirely.",
+          "source_url": "https://boards.4chan.org/a/thread/291336888",
+          "source_hint": "/a/ Raildex news dump covering ITEM anime, novels, and Railgun final volume"
+        }
+      ]
+    },
     {
       "date": "2026-10-01",
       "source": "ai",
@@ -4318,103 +4415,6 @@
           "text_en_c2": "The final season of 'Attack on Titan' has ignited a fervent discussion among fans, who are eagerly dissecting its intricate plot twists and unforeseen developments. Concurrently, there is a palpable excitement surrounding the latest visuals from 'Gundam 00,' which has further fueled the enthusiasm within the anime community. As aficionados engage in spirited conversations about these beloved series, the anticipation for upcoming episodes is rapidly escalating, highlighting the powerful impact of storytelling in animation. This convergence of discussions not only reflects the vibrant culture of anime fandom but also underscores the profound emotional connections that viewers cultivate with these narratives and characters, thereby enriching the overall viewing experience.",
           "source_url": "",
           "source_hint": "Anime discussions are trending online."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "clip1",
-          "category": "trading",
-          "topic_zh": "Nvidia投資",
-          "topic_en": "Nvidia Investment",
-          "text_zh": "Nvidia最近獲得了5000億美元的投資，用於開發AI基礎設施。這筆資金將幫助他們提升技術，並在競爭激烈的市場中保持領先。這對於希望投資AI的投資者來說是一個好機會。",
-          "text_en_b1": "Nvidia received $500 billion from major investors for AI infrastructure. This funding will help Nvidia improve its technology. Investors see this as a good chance to invest in the growing AI market. The company aims to stay ahead of competitors in the fast-paced tech world. AI is becoming important for many businesses. Nvidia’s investment shows the growing interest in AI technology.",
-          "text_en_b2": "Recently, Nvidia has secured $500 billion from major investors to develop its AI infrastructure. This significant funding is expected to enhance Nvidia's technological capabilities in a competitive market. Investors perceive this as a strong opportunity to engage in the rapidly expanding AI sector. This investment not only solidifies Nvidia's position but also emphasizes the increasing demand for advanced AI solutions across various industries.",
-          "text_en_c1": "Nvidia has recently announced that it garnered an impressive $500 billion from major investors to bolster its AI infrastructure. This substantial influx of capital is expected to significantly enhance Nvidia’s technological advancements and maintain its competitive edge in the fast-evolving tech landscape. Investors are keen to capitalize on the burgeoning AI market, viewing this as a prime opportunity. This move underscores the critical importance of AI technologies in modern business strategies and future innovations.",
-          "text_en_c2": "In a remarkable development, Nvidia has successfully attracted an astonishing $500 billion in investment from major financial players aimed at the expansion and enhancement of its AI infrastructure. This monumental financial backing is poised to not only accelerate Nvidia’s technological advancements but also to fortify its leadership position in an increasingly competitive landscape. The strategic move reflects the heightened interest and demand for cutting-edge AI solutions that are pivotal for the evolution of various industries. Investors are seizing this opportunity to align with a pioneering force in technology.",
-          "source_url": "",
-          "source_hint": "Nvidia funding news from recent headlines."
-        },
-        {
-          "id": "clip2",
-          "category": "trading",
-          "topic_zh": "特朗普媒體虧損",
-          "topic_en": "Trump Media Loss",
-          "text_zh": "特朗普媒體最近報告了2.38億美元的虧損，因為加密貨幣市場的下滑影響了他們的業務。這對他們的財務狀況造成了很大壓力，未來需要更多的應對策略。",
-          "text_en_b1": "Trump Media reported a loss of $238 million due to falling cryptocurrency prices. This loss affects their financial situation seriously. The company is facing pressure to improve its business strategies. Investors are worried about the future of Trump Media. The decline in crypto values has hurt many businesses like this one. They need to find new methods to recover.",
-          "text_en_b2": "Recently, Trump Media disclosed a significant loss of $238 million, primarily attributed to the decline in cryptocurrency prices. This substantial setback has put considerable pressure on the company’s financial situation. As the market for cryptocurrencies continues to fluctuate, Trump Media must develop effective strategies to mitigate these losses and regain investor confidence. The company’s future now hinges on navigating these turbulent economic waters and adapting to market changes.",
-          "text_en_c1": "In a recent announcement, Trump Media revealed an alarming loss of $238 million, significantly driven by the downturn in cryptocurrency markets. This substantial financial blow has imposed considerable pressure on the company’s overall fiscal health. As cryptocurrency valuations continue to wane, Trump Media is now compelled to devise robust strategies to counteract these adverse effects. The evolving market dynamics present both challenges and opportunities, and the company must adeptly navigate this landscape to secure its financial future.",
-          "text_en_c2": "In a striking disclosure, Trump Media reported a staggering loss of $238 million, predominantly caused by the significant downturn in the cryptocurrency sector. This financial misfortune has exerted immense pressure on the company’s fiscal stability and prompted urgent reassessments of its strategic direction. In light of the volatile nature of crypto markets, Trump Media faces the critical challenge of formulating innovative and resilient strategies to mitigate losses while restoring investor confidence. The company’s trajectory now hinges on its ability to adapt to these rapidly shifting economic realities.",
-          "source_url": "",
-          "source_hint": "Trump Media financial report amidst crypto decline."
-        },
-        {
-          "id": "clip3",
-          "category": "tech/ai",
-          "topic_zh": "科技與工作",
-          "topic_en": "Tech and Work",
-          "text_zh": "科技領袖表示，AI將減少工作量，但員工聲稱每週需要工作90小時。這引發了對AI影響的激烈討論。究竟科技帶來的變化是好還是壞？",
-          "text_en_b1": "Tech leaders say AI will reduce workloads, but workers claim they are working up to 90 hours a week. This creates a debate about the impact of AI on jobs. Many people have concerns about how AI will change work. Some believe it will help, while others think it makes work harder. Understanding AI's role in the workplace is essential for future planning.",
-          "text_en_b2": "Tech industry leaders assert that AI is set to reduce workloads significantly. However, many employees report working up to 90 hours per week, sparking a significant debate regarding AI's true impact on labor dynamics. The discrepancy between leadership expectations and employee experiences raises critical questions about the future of work in an AI-driven environment. It is crucial to analyze how AI can effectively enhance productivity while ensuring a balanced workload for employees.",
-          "text_en_c1": "In a recent discussion, prominent tech leaders claimed that AI technology is poised to alleviate workloads for many workers. Nevertheless, a considerable number of employees are reporting weekly work hours nearing 90, igniting a heated debate about the real implications of AI integration in the workplace. This stark contrast between leadership perspectives and frontline experiences highlights essential questions regarding the evolving nature of employment in an increasingly automated world. Addressing these concerns is paramount for businesses aiming to leverage AI effectively.",
-          "text_en_c2": "Amidst evolving discussions in the tech sector, industry leaders have posited that the advent of AI technologies could significantly lessen the burdens faced by employees. In stark contrast, however, numerous workers have reported grueling schedules, often exceeding 90 hours a week. This paradoxical situation has sparked an intense dialogue surrounding the genuine implications of AI on workplace dynamics. It becomes imperative to investigate how AI can be harnessed to enhance productivity while simultaneously safeguarding the well-being of the workforce in this transformative era.",
-          "source_url": "",
-          "source_hint": "Discussion on AI's impact on work hours."
-        },
-        {
-          "id": "clip4",
-          "category": "hk/news",
-          "topic_zh": "香港科技股",
-          "topic_en": "HK Tech Stocks",
-          "text_zh": "香港指數編制公司提出將20隻股票加入主要科技指數。這個提議受到市場的關注，並可能影響投資者的決策。詳細情況將在下週公布。",
-          "text_en_b1": "The Hong Kong index compiler proposed adding 20 new stocks to the main technology index. This proposal has attracted market attention. Investors are watching closely as this could influence their decisions. The changes aim to reflect the growing tech sector. More details will be revealed next week. This move could reshape the investment landscape in Hong Kong.",
-          "text_en_b2": "A proposal by the Hong Kong index compiler to include 20 additional stocks in the main technology index has garnered significant attention from the market. Investors are closely monitoring this development, as it could have substantial implications for their investment strategies. The adjustments are designed to better reflect the rapid growth of the technology sector in Hong Kong. Comprehensive details regarding this proposal are expected to be released next week, potentially reshaping the local investment landscape.",
-          "text_en_c1": "The Hong Kong index compiler has recently put forth a proposal to incorporate 20 additional stocks into the principal technology index, a move that has stirred considerable interest within the financial markets. Investors are attentively watching this situation, recognizing that such changes could significantly impact their investment approaches. This strategic adjustment aims to capture the dynamic growth trajectory of Hong Kong’s technology sector. Further details will be announced next week, marking a pivotal moment for local investment strategies.",
-          "text_en_c2": "In a notable development, the Hong Kong index compiler has proposed the inclusion of 20 new stocks into the primary technology index, a decision that has ignited substantial interest across financial markets. Investors are keenly observing these developments, understanding that such modifications may profoundly influence their strategic investment decisions. This initiative seeks to more accurately portray the robust growth of the technology sector in Hong Kong. Detailed announcements regarding the proposal will be forthcoming next week, suggesting a transformative shift in the local investment landscape.",
-          "source_url": "",
-          "source_hint": "Proposed changes to HK tech index."
-        },
-        {
-          "id": "clip5",
-          "category": "lol/esports",
-          "topic_zh": "英雄聯盟",
-          "topic_en": "League of Legends",
-          "text_zh": "在英雄聯盟中，FNC的Vladi創造了歷史，成為第一位達到5000 LP的選手。這一成就被廣泛討論，粉絲們對他的表現讚譽有加。",
-          "text_en_b1": "In League of Legends, FNC’s Vladi made history by becoming the first player to reach 5,000 LP. This amazing achievement is being widely discussed in the gaming community. Fans are praising his skills and dedication. Many players look up to him as a role model. Reaching such a high rank is a significant milestone in esports. It reflects hard work and talent in the competitive scene.",
-          "text_en_b2": "In a groundbreaking moment for the League of Legends community, FNC’s Vladi has made history by becoming the first player to achieve an impressive 5,000 LP. This remarkable accomplishment is generating widespread discussion among gamers and analysts alike. Fans are showering him with praise for his exceptional skills and unwavering dedication to the game. Achieving such a prestigious rank is not only a personal milestone for Vladi but also serves as an inspiration for aspiring players in the competitive esports landscape.",
-          "text_en_c1": "FNC’s Vladi has etched his name in the annals of League of Legends history by becoming the inaugural player to attain an extraordinary 5,000 LP. This monumental achievement has sparked extensive discussions within the gaming community, with fans and commentators alike lauding his exceptional gameplay and relentless dedication. Reaching this remarkable rank signifies not only a personal triumph for Vladi but also serves as a beacon of inspiration for countless aspiring competitors within the dynamic esports ecosystem.",
-          "text_en_c2": "In a historic achievement for the League of Legends esports scene, FNC’s Vladi has distinguished himself by becoming the first player ever to reach an astonishing 5,000 LP. This landmark accomplishment has ignited fervent discussions throughout the gaming community, with enthusiastic fans and critics praising his extraordinary skills and unwavering commitment to excellence. Achieving such a prestigious rank is a testament to Vladi’s hard work and talent, serving as a powerful motivator for emerging players aspiring to succeed in the fiercely competitive realm of esports.",
-          "source_url": "",
-          "source_hint": "FNC Vladi's achievement in League of Legends."
-        },
-        {
-          "id": "clip6",
-          "category": "mma/fitness",
-          "topic_zh": "健身與MMA",
-          "topic_en": "Fitness and MMA",
-          "text_zh": "MMA選手最近在比賽中展現了驚人的表現，許多人讚揚了他們的技術和毅力。健身愛好者也受到啟發，努力提高自己的訓練成果。",
-          "text_en_b1": "MMA fighters recently showcased amazing performances in their matches. Many fans praised their skills and determination. This has inspired fitness enthusiasts to work harder. Watching these athletes compete motivates people to improve their training. MMA not only entertains but also encourages physical fitness. Fans are excited for future events.",
-          "text_en_b2": "Recent MMA events have witnessed fighters delivering spectacular performances that captivated fans and garnered widespread acclaim. The display of exceptional skills and unwavering determination has not only impressed spectators but also inspired fitness enthusiasts to elevate their training routines. Observing these athletes compete at such high levels serves as a powerful motivator for individuals looking to enhance their physical fitness. As the excitement builds for upcoming events, the connection between MMA and personal fitness continues to resonate strongly.",
-          "text_en_c1": "In recent MMA competitions, fighters have delivered stunning performances that have captivated audiences and earned widespread admiration for their skills and resilience. This impressive display has sparked inspiration among fitness enthusiasts, motivating them to intensify their training efforts. The competitive nature of MMA not only entertains but also serves as a compelling catalyst for individuals striving to achieve their fitness goals. As anticipation grows for forthcoming bouts, the interplay between martial arts and personal fitness remains a significant focus for many.",
-          "text_en_c2": "In an exhilarating showcase of athleticism, recent MMA competitions saw fighters delivering remarkable performances that left audiences enthralled and garnered significant acclaim for their technical skills and steadfast resolve. This phenomenon has inspired a surge of motivation among fitness enthusiasts, urging them to enhance their training regimens. The dynamic and competitive essence of MMA not only serves as a source of entertainment but also acts as a powerful impetus for individuals pursuing their fitness aspirations. As the community eagerly anticipates future events, the symbiotic relationship between martial arts and personal health continues to thrive.",
-          "source_url": "",
-          "source_hint": "Recent MMA matches drawing fan excitement."
-        },
-        {
-          "id": "clip7",
-          "category": "anime/culture",
-          "topic_zh": "動漫文化",
-          "topic_en": "Anime Culture",
-          "text_zh": "《進擊的巨人》最新一季再次吸引了大量粉絲，收視率顯著上升。這部作品對觀眾的影響力持續擴大，引發了對動漫文化的熱烈討論。",
-          "text_en_b1": "The latest season of Attack on Titan has attracted many fans, with ratings significantly rising. This anime continues to influence viewers. Fans are discussing its themes and characters. The impact of Attack on Titan on anime culture is remarkable. It brings people together around shared interests. The show’s popularity shows how strong anime fandom can be.",
-          "text_en_b2": "The newest season of Attack on Titan has captivated a vast audience, leading to a notable increase in viewership ratings. This acclaimed anime continues to exert a significant influence on its fans. As discussions about the show's complex themes and characters proliferate, it becomes clear that Attack on Titan has made a profound impact on anime culture. The series not only entertains but also fosters a sense of community among viewers who share their passion for this medium.",
-          "text_en_c1": "The recent season of Attack on Titan has garnered remarkable attention, witnessing a considerable surge in viewership ratings. As one of the most acclaimed anime series, it continues to wield substantial influence over its audience. The ongoing discussions surrounding its intricate themes and well-developed characters underscore the profound impact Attack on Titan has had on contemporary anime culture. This series transcends mere entertainment, cultivating a vibrant community of fans who passionately share and celebrate their love for anime.",
-          "text_en_c2": "The latest installment of Attack on Titan has achieved a phenomenal rise in viewership ratings, captivating an extensive audience of devoted fans. As a hallmark of contemporary anime, the series persists in its powerful influence over viewers, prompting engaging discourse around its intricate themes and multifaceted characters. The enduring success of Attack on Titan illustrates its significant role in shaping modern anime culture, fostering an enthusiastic and connected community of fans who revel in their shared enthusiasm for this artistic medium.",
-          "source_url": "",
-          "source_hint": "Increase in popularity for Attack on Titan season."
         }
       ]
     }
