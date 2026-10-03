@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-03",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-paycheck",
+      "topic_en": "70% Paycheck to Paycheck",
+      "topic_zh": "七成美國人月光",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-paycheck-b1.mp3",
+        "b2": "clip-biz-paycheck-b2.mp3",
+        "c1": "clip-biz-paycheck-c1.mp3",
+        "c2": "clip-biz-paycheck-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-rich-happy",
+      "topic_en": "Rich vs Happy",
+      "topic_zh": "有錢定開心",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-rich-happy-b1.mp3",
+        "b2": "clip-biz-rich-happy-b2.mp3",
+        "c1": "clip-biz-rich-happy-c1.mp3",
+        "c2": "clip-biz-rich-happy-c2.mp3"
+      }
+    },
+    {
+      "id": "g-llm-soul",
+      "topic_en": "LLM Soul Debate",
+      "topic_zh": "AI有冇靈魂",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-llm-soul-b1.mp3",
+        "b2": "clip-g-llm-soul-b2.mp3",
+        "c1": "clip-g-llm-soul-c1.mp3",
+        "c2": "clip-g-llm-soul-c2.mp3"
+      }
+    },
+    {
+      "id": "pol-musk-europe",
+      "topic_en": "Musk on Europe",
+      "topic_zh": "Musk評論歐洲",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-pol-musk-europe-b1.mp3",
+        "b2": "clip-pol-musk-europe-b2.mp3",
+        "c1": "clip-pol-musk-europe-c1.mp3",
+        "c2": "clip-pol-musk-europe-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-powershitting",
+      "topic_en": "Big 3 Trap",
+      "topic_zh": "Big 3唔夠用",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-powershitting-b1.mp3",
+        "b2": "clip-fit-powershitting-b2.mp3",
+        "c1": "clip-fit-powershitting-c1.mp3",
+        "c2": "clip-fit-powershitting-c2.mp3"
+      }
+    },
+    {
+      "id": "v-sonic-racing",
+      "topic_en": "Sonic Racing",
+      "topic_zh": "Sonic賽車",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-v-sonic-racing-b1.mp3",
+        "b2": "clip-v-sonic-racing-b2.mp3",
+        "c1": "clip-v-sonic-racing-c1.mp3",
+        "c2": "clip-v-sonic-racing-c2.mp3"
+      }
+    },
+    {
+      "id": "a-nagatoro",
+      "topic_en": "Nip Bully Romance",
+      "topic_zh": "日本漫畫霸凌",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-nagatoro-b1.mp3",
+        "b2": "clip-a-nagatoro-b2.mp3",
+        "c1": "clip-a-nagatoro-c1.mp3",
+        "c2": "clip-a-nagatoro-c2.mp3"
+      }
+    }
+  ]
+}
