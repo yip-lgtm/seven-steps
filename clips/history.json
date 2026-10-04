@@ -1,6 +1,116 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "days": [
+    {
+      "date": "2026-10-04",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-bonds-1",
+          "category": "trading",
+          "topic_zh": "債券有咩用",
+          "topic_en": "Bonds Are Pointless",
+          "text_zh": "成班人喺度問買債券做咩，咩通脹風險、利率風險、違約風險全部中齊。有人話不如直接揸KO呢類穩陣dividend股票就算，慳錢也罷了。",
+          "text_en_b1": "What's the point of buying bonds? They never protect you. In fact they have so many risks: inflation, rates, defaults, currency, liquidity, maturity, and opportunity cost. If you want something comfy and secure, just buy KO and stocks like that. /biz/ consensus today is that bonds are basically useless right now.",
+          "text_en_b2": "What's actually the point of buying bonds right now? The /biz/ consensus is that they're basically useless, since they expose you to inflation risk, interest rate risk, default risk, currency risk, liquidity risk, and opportunity cost all at once. If you want something stable, you're better off holding dividend stocks like KO. Realistic returns without all the headaches, and cheaper too.",
+          "text_en_c1": "What is the actual point of holding bonds in the current environment? The instruments expose investors to a laundry list of risks — inflationary erosion, interest-rate volatility, default exposure, currency fluctuations, liquidity constraints, maturity mismatches, and considerable opportunity cost. If one's objective is a steady, comfortable return, the consensus on /biz/ today is that dividend-paying stalwarts such as Coca-Cola offer a far more defensible proposition, sparing investors the headache of navigating the bond market's numerous pitfalls. Bonds, in short, are regarded as essentially redundant.",
+          "text_en_c2": "A /biz/ thread has crystallised around a rather unfashionable proposition: why bother with bonds at all? One contributor catalogues, with weary precision, the full litany of risks a holder assumes — inflation eroding principal, rate volatility, default exposure, currency depreciation, liquidity traps, maturity mismatches, and the silent tax of opportunity cost. His remedy is characteristically blunt: if one craves the cosseted certainties of dividend aristocrats, one simply parks capital in Coca-Cola and its stolid peers. The implied argument is that government paper, once a portfolio's ballast, has been hollowed out by an era of negative real yields. Consensus among the anons is that bonds, in their current configuration, are essentially ornamental.",
+          "source_url": "https://boards.4chan.org/biz/thread/62742879",
+          "source_hint": "/biz/ anon asks why anyone buys bonds"
+        },
+        {
+          "id": "trade-paycheck-2",
+          "category": "trading",
+          "topic_zh": "七成美國人月光",
+          "topic_en": "70% Americans Paycheck to Paycheck",
+          "text_zh": "Bloomberg話美國底層40%月薪月月清晒。再加30%中產一樣月光。即係話70%美國人month-to-month過活。最尾嗰句最恐怖：bottom 50%得2.5% wealth。美國夢真係夢黎嘅。",
+          "text_en_b1": "According to Bloomberg yesterday, the bottom 40% of Americans are living paycheck to paycheck. Another 30% with higher income are also living paycheck to paycheck. So the bottom 70% live paycheck to paycheck. Everyone else has cut back on spending too. Only the top 5% are doing well. Bonus fact: the bottom 50% own just 2.5% of the wealth. Brutal.",
+          "text_en_b2": "According to Bloomberg, the bottom 40% of Americans are living paycheck to paycheck, while another 30% of higher earners are in exactly the same boat. That means roughly 70% of the country survives month-to-month, and even everyone else has been forced to cut back on spending. Only the top 5% are genuinely thriving. Perhaps the cruelest stat: the bottom 50% own just 2.5% of total wealth. The American Dream feels more like a dream.",
+          "text_en_c1": "Bloomberg's latest figures paint a rather grim picture of household finances in the United States. The bottom forty per cent of earners are reportedly living month to month, and a further thirty per cent of higher-income households find themselves in precisely the same position. Combined, that means roughly seventy per cent of Americans have virtually no financial buffer whatsoever. Even those above the threshold have been forced to rein in discretionary spending, leaving only the top five per cent genuinely thriving. Perhaps most damning of all, the bottom half of the population commands a mere 2.5 per cent of total wealth.",
+          "text_en_c2": "A Bloomberg report has quietly detonated on /biz/, revealing that the bottom forty per cent of American households are now subsisting entirely paycheck to paycheck, while a further thirty per cent — ostensibly the comfortable middle — have joined them in the same precarious strait. That is seventy per cent of the population living month to month, with the remainder broadly retrenching their discretionary expenditure. Only the uppermost five per cent appear to be prospering. The supplementary datum is, perhaps, the most damning of all: the bottom half of the country commands a mere two-and-a-half per cent of aggregate wealth. Anons remark that the American Dream now resembles a fever dream more than a horizon.",
+          "source_url": "https://boards.4chan.org/biz/thread/62738405",
+          "source_hint": "/biz/ thread on Bloomberg paycheck-to-paycheck stat"
+        },
+        {
+          "id": "civil-bosch-3",
+          "category": "civil/structure",
+          "topic_zh": "中國製好過Bosh",
+          "topic_en": "Made in China vs Bosch",
+          "text_zh": "有人話中國製造已經超越晒西方，Bosh、Makita、Milwaukee、Dewalt一律唔會再買。Ingco同Total反而係佢嘅新歡。工程佬真係睇價錢同耐用，唔睇logo。",
+          "text_en_b1": "A /pol/ poster argues Chinese manufacturing has already surpassed Western competitors. Soon, the label 'made in China' will be seen as a mark of quality. He says he will not buy Bosch, Makita, Milwaukee or Dewalt anymore. For him it is Total and Ingco from now on. Real engineers care about price and durability, not brand logos.",
+          "text_en_b2": "A /pol/ poster is arguing that Chinese manufacturing has already pulled ahead of Western competitors, to the point where 'made in China' will soon be regarded as a genuine mark of quality rather than a punchline. He insists he won't buy Bosch, Makita, Milwaukee, or Dewalt ever again, because Total and Ingco simply outperform them. Real engineers, he notes, care about durability and price, not brand logos on the side of the tool.",
+          "text_en_c1": "A /pol/ contributor has put forward a provocative thesis: Chinese manufacturing has, in his estimation, decisively overtaken its Western counterparts, and the once-dismissive label 'made in China' will soon carry connotations of quality rather than cut-rate production. Accordingly, he has sworn off established brands such as Bosch, Makita, Milwaukee, and DeWalt, pledging his loyalty instead to Total and Ingco. His reasoning is refreshingly pragmatic — engineers, he argues, evaluate tools on the basis of price-to-durability ratios rather than brand prestige, a sentiment that has resonated with numerous replies endorsing his stance.",
+          "text_en_c2": "A /pol/ contributor has made the provocative claim that Chinese manufacturing has not merely caught up with, but decisively surpassed, its Western counterparts — and that within a decade, the designation 'made in China' will be received as a hallmark of craftsmanship rather than compromise. He declares he will no longer purchase Bosch, Makita, Milwaukee, or DeWalt, swearing instead by the Chinese marques Total and Ingco, whose price-to-durability ratios, he insists, render the legacy brands indefensible. The underlying philosophy is unapologetically utilitarian: tradesmen, he argues, evaluate tools by their performance under load, not by the mythology of the badge affixed to their housings. Logos, in his view, are a poor substitute for torque.",
+          "source_url": "https://boards.4chan.org/pol/thread/543720200",
+          "source_hint": "/pol/ thread on Chinese power tools beating Western brands"
+        },
+        {
+          "id": "civil-claude-4",
+          "category": "civil/structure",
+          "topic_zh": "AI有冇靈魂",
+          "topic_en": "Does Claude Have a Soul",
+          "text_zh": "/g/今日笑死人。Anthropic話Claude有靈魂，教宗Leo出嚟否認，仲寫咗成本書咁長嘅解釋。Anthropic又話我哋好肯定Claude有靈魂，教宗又話冇。AI同宗教拗數，lol。",
+          "text_en_b1": "/g/ thread today: 'LLMs have no soul.' Anthropic keeps insisting Claude has a soul. Pope Leo keeps saying no, and even wrote a book-length explanation. Anthropic replies 'we are pretty sure Claude has a soul.' Pope Leo posts a link on X and says nah. Honestly funny that an AI company and the Pope are arguing about machine consciousness in 2026.",
+          "text_en_b2": "The /g/ thread today has become unintentionally hilarious. Anthropic keeps insisting that Claude genuinely has a soul, doubling down on the claim, while Pope Leo flatly rejects it and has even written what amounts to a book-length explanation as to why not. The two camps are essentially sparring over machine consciousness, and honestly, watching a tech firm and the Vatican argue theology in 2026 is genuinely absurd.",
+          "text_en_c1": "Today's /g/ thread descends into genuinely absurd territory. The premise under debate is whether large language models possess anything resembling a soul. Anthropic, true to form, maintains that Claude unquestionably does, whereas Pope Leo has been equally emphatic in his dissent, going so far as to publish a book-length rebuttal on the subject. Anthropic, in turn, retorts that the matter is essentially settled. The Pope then takes to X with a fresh link, reiterating his position. That a frontier AI laboratory and the head of the Catholic Church should be publicly sparring over machine consciousness in 2026 is, by any measure, rather extraordinary.",
+          "text_en_c2": "Today's /g/ thread has devolved into something resembling theological disputation by other means. The proposition under examination — whether large language models possess anything resembling a soul — has prompted an extraordinary exchange between Anthropic and Pope Leo XIV, who has dispatched a treatise of book-length proportions refuting the claim. Anthropic, for its part, maintains with corporate sangfroid that it is 'pretty sure' it does. The Pontiff, unmoved, disseminates a countervailing link on X. The spectacle of a frontier AI laboratory and the successor of St. Peter publicly sparring over machine consciousness — in the year 2026, no less — strikes anons as either a sign of the times or its absurd apotheosis.",
+          "source_url": "https://boards.4chan.org/g/thread/109965964",
+          "source_hint": "/g/ thread mocking the Pope vs Anthropic soul debate"
+        },
+        {
+          "id": "tech-openai-5",
+          "category": "tech/ai",
+          "topic_zh": "OpenAI封殺自己友",
+          "topic_en": "OpenAI Shows Its True Side",
+          "text_zh": "/g/又開火。OpenAI掛住open source個牌，偷晒全世界data俾人build自己嘅產品。一發現有用戶靠佢哢自己訓練，轉個頭就ban咗。ChatNiggity都出埋黎，omg。",
+          "text_en_b1": "/g/ is angry again: OpenAI calls itself open source, then steals every piece of data it can find. After years, users start using ChatGPT to build their own products. Then OpenAI realizes this and bans those users. The thread even coins the nickname 'ChatNiggity' for the product. Classic OpenAI move, says the anon.",
+          "text_en_b2": "/g/ is firing shots at OpenAI again, calling out the contradiction between their open-source branding and their actual behaviour. The accusation is straightforward: they scraped every scrap of data they could find to train their own products, yet the moment users began building competing tools on top of ChatGPT, OpenAI turned around and banned them. The thread has even coined the nickname ChatNiggity for the platform. Classic hypocrisy from the company, the anons conclude.",
+          "text_en_c1": "The /g/ thread is in uproar once more, and OpenAI is squarely in the crosshairs. The company continues to brandish its open-source credentials while having systematically hoovered up vast quantities of public data, leveraging that corpus to construct proprietary products of its own. The moment users began repurposing ChatGPT to train competing models, OpenAI reportedly moved to ban them without hesitation. The thread has even christened the service 'ChatNiggity' in a moment of collective mockery. The consensus among anons is depressingly familiar: parading ideological principles for marketing purposes while behaving in a manner that contradicts them at every turn.",
+          "text_en_c2": "/g/ has, once again, set its sights on OpenAI, and the indictments are characteristically scattershot yet broadly converging. The company's self-styled commitment to open source, the thread alleges, has long served as fig leaf for an insatiable appetite — one that hoovered up the world's data wholesale to fuel proprietary products. Now, having spent years commodifying that commons, OpenAI has apparently recognised that certain users were training rival models on ChatGPT itself, and has moved with alacrity to proscribe them. The thread has already minted a nickname, 'ChatNiggity,' for the offending product. Anons observe, with the weary familiarity of the disillusioned, that this is precisely the sort of manoeuvre one ought to have anticipated all along.",
+          "source_url": "https://boards.4chan.org/g/thread/109971415",
+          "source_hint": "/g/ thread roasting OpenAI for banning power users"
+        },
+        {
+          "id": "hk-news-6",
+          "category": "hk/news",
+          "topic_zh": "歐洲安樂死",
+          "topic_en": "Dutch Euthanasia 17yo",
+          "text_zh": "荷蘭一個17歲女仔被安樂死。DutchNewsNL報導，Milou由11歲開始已經有depression、anxiety同自殺念頭，因為曾經被性侵。喺機構再被另一個病人侵犯。多年治療之後自己選擇安樂死。好多pol友都話太over。",
+          "text_en_b1": "The Netherlands has euthanized a 17-year-old girl named Milou. DutchNewsNL reports she had suffered depression, anxiety, and suicidal thoughts since age 11 after being sexually abused. She was abused again inside an institution by another patient. After years of treatment and several suicide attempts, she chose euthanasia on the grounds of unbearable mental suffering. The /pol/ thread asks if this has gone too far.",
+          "text_en_b2": "The Netherlands has carried out euthanasia on a 17-year-old girl named Milou, according to DutchNewsNL. She had battled depression, anxiety, and suicidal thoughts since the age of eleven after suffering sexual abuse, and was subsequently abused again inside an institution by another patient. Following years of treatment and several serious attempts on her own life, she ultimately chose euthanasia, citing unbearable mental suffering. The /pol/ thread is now debating whether Dutch policy has gone too far.",
+          "text_en_c1": "The Netherlands has carried out the euthanasia of a seventeen-year-old girl identified as Milou, a case that has reignited fierce debate. According to DutchNewsNL, she had endured chronic depression, anxiety, and persistent suicidal ideation from the age of eleven, stemming from sexual abuse she had previously suffered. While institutionalised, she was allegedly assaulted once again, this time by a fellow patient. Despite years of therapeutic intervention and multiple suicide attempts, she ultimately determined that her psychological suffering had become intolerable and elected to proceed. The /pol/ thread has been predictably polarised, with contributors divided over whether such cases represent overreach.",
+          "text_en_c2": "DutchNewsNL has reported the euthanasia of a seventeen-year-old girl named Milou, and the /pol/ thread has responded with a chorus of disquiet. According to the account, she had endured depression, anxiety, and persistent suicidal ideation since the age of eleven, after being sexually assaulted. While receiving treatment at an institution, she was, by every reckoning, failed again — violated by a fellow patient. Following years of psychiatric intervention and multiple attempts on her own life, she ultimately petitioned for euthanasia on the grounds of unbearable mental suffering, a request that was granted. The poster and his interlocutors are left to grapple with a question that admits no easy answer: has the Netherlands, in its solicitude, finally crossed a line it cannot uncross?",
+          "source_url": "https://boards.4chan.org/pol/thread/543723877",
+          "source_hint": "/pol/ thread on Dutch euthanasia case"
+        },
+        {
+          "id": "mma-fit-7",
+          "category": "mma/fitness",
+          "topic_zh": "Winter Arc開Run",
+          "topic_en": "Winter Arc Begins",
+          "text_zh": "/fit宣布今日Winter Arc開Run。每星期gym六次，五點半起身，斬斷所有social，連Netflix同social media都唔睇。完全grind mode。肥仔信睇到應該會tag我🙏。",
+          "text_en_b1": "Winter Arc starts today on /fit/. Rules: gym six times a week, weightlifting is mandatory. Wake up at 5:30 AM to get a head start. Cut off all human contact, no romantic relationships, no friendships, no basic talking. Avoid Netflix, social media, and all entertainment. No distractions, pure grind mode until spring. Anons are locking in hard.",
+          "text_en_b2": "Winter Arc officially kicks off today on /fit/, and anons are locking in with an almost religious intensity. The rules are brutal: gym six times a week with weightlifting non-negotiable, wake at 5:30 AM to get ahead, ditch all human contact including friendships and romance, and cut out Netflix, social media, and any form of entertainment. No distractions whatsoever until spring. Anyone overweight who scrolls past should probably screenshot this and get to work.",
+          "text_en_c1": "The Winter Arc has officially commenced on /fit/, and anons appear to be embracing the ascetic lifestyle with characteristic intensity. The regimen demands gym attendance six times per week, with resistance training rendered non-negotiable. Participants are required to rise at half past five in order to seize a head start on the day, and all social contact is to be deliberately curtailed — romantic entanglements, friendships, and casual conversation alike falling under the axe. Netflix, social media, and any form of entertainment are likewise off the table. Until spring arrives, the philosophy is unambiguous: zero distractions, pure grind.",
+          "text_en_c2": "/fit/ has, with the ceremonial gravity of a monastic order entering Lent, declared today the inaugural day of the Winter Arc. The regimen is austere to the point of caricature: weightlifting six times a week, alarms set for half past five so as to seize the morning before it can be seized in turn, and a comprehensive embargo on human communion — romance, friendship, even banal conversation consigned to the bonfire. Entertainment in all its guises, from Netflix binges to the dopamine trickle of social media, is likewise proscribed. What remains, in the anons' own formulation, is pure grind mode, sustained until the vernal thaw. The faithful are locking in with admirable, if slightly alarming, conviction.",
+          "source_url": "https://boards.4chan.org/fit/thread/77546639",
+          "source_hint": "/fit/ Winter Arc general thread"
+        },
+        {
+          "id": "anime-railgun-9",
+          "category": "anime/culture",
+          "topic_zh": "Raildex新ITEM動畫",
+          "topic_en": "Raildex ITEM Anime",
+          "text_zh": "Raildex系列有新ITEM動畫10月9號開播，第一集10月3號已經喺ABEMA優先放映。成季11集，第七集ITEM小說同步出。Railgun最終卷第21期10月27號出，但封面好似被鬧好廢lol。",
+          "text_en_b1": "Big news for Raildex fans. The new ITEM anime starts October 9th, with an advance screening of episode 1 on October 3rd via ABEMA. The ITEM anime will have 11 episodes. The 7th ITEM novel also releases October 9th. The final Railgun manga volume #21 comes out October 27th, but the cover is causing controversy for being bad.",
+          "text_en_b2": "Big news for Raildex fans this month. The new ITEM anime premieres on October 9th, with an advance screening of episode 1 dropping on ABEMA on October 3rd, and the full run will span 11 episodes. The 7th ITEM novel also releases on October 9th, perfectly synced with the broadcast. The final Railgun manga volume, #21, comes out on October 27th, although the cover has already drawn criticism for being underwhelming. A new Mental Out chapter is on the way too.",
+          "text_en_c1": "Raildex enthusiasts have been treated to a substantial slate of announcements. The ITEM anime adaptation is scheduled to premiere on the ninth of October, although an advance screening of the inaugural episode will be made available via ABEMA on the third. The full season will comprise eleven episodes, and the seventh ITEM light novel is slated for simultaneous release on the ninth. Meanwhile, the final volume of the Railgun manga, number twenty-one, arrives on the twenty-seventh of October — though its cover has already drawn considerable criticism from fans who have deemed it underwhelming. A new Mental Out chapter is also anticipated imminently.",
+          "text_en_c2": "A particularly crowded slate awaits devotees of the Raildex franchise this autumn. The newly commissioned ITEM anime commences broadcast on the ninth of October, though the curious may glimpse its premiere episode a few days earlier, on the third, via ABEMA's advance screening window. The season itself comprises eleven episodes, with the seventh instalment timed to coincide with the release of the corresponding ITEM light novel — a synchronisation presumably calculated to maximise ancillary sales. The twenty-first and final volume of the Railgun manga will follow on the twenty-seventh, though early returns on its cover art have been, to put it charitably, mixed. A fresh Mental Out chapter is also rumoured to be imminent, rounding out what is shaping up to be a rather generous harvest.",
+          "source_url": "https://boards.4chan.org/a/thread/291336888",
+          "source_hint": "/a/ thread on Raildex anime and Railgun final volume"
+        }
+      ]
+    },
     {
       "date": "2026-10-03",
       "source": "ai",
@@ -4318,103 +4428,6 @@
           "text_en_c2": "This autumn heralds the arrival of numerous highly anticipated anime series, including the next exhilarating installment of 'Attack on Titan.' Fans are fervently engaging in discussions surrounding the anticipated narrative arcs and character developments that this new season promises to deliver. The buzz surrounding these upcoming releases is palpable within the anime community, as aficionados speculate on the thematic directions and creative innovations that may evolve. With a rich plethora of storylines poised to captivate audiences, this season stands to significantly enrich the cultural landscape of anime, fostering deeper connections and conversations among viewers worldwide.",
           "source_url": "",
           "source_hint": "'Attack on Titan' returns with a new season this fall."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trading-001",
-          "category": "trading",
-          "topic_zh": "美股回彈",
-          "topic_en": "US Stocks Rebound",
-          "text_zh": "今日美股指數回升，納斯達克上升2%。很多人嘗試重拾信心，這是否是轉捩點？再看看下周的財報，投資者有無信心？",
-          "text_en_b1": "Today, US stocks showed recovery as the Nasdaq increased by 2%. Many investors are trying to regain confidence in the market. Some analysts feel this could be a turning point. All eyes are now on next week's earnings reports to see if investors will stay optimistic.",
-          "text_en_b2": "Today, US stocks experienced a notable recovery, with the Nasdaq rising by 2%. Many investors are striving to restore their confidence in the market, leading some analysts to believe that this moment might signify a turning point. As the anticipation builds, all eyes are now focused on next week's earnings reports, which will be crucial in determining whether investors maintain their optimistic outlook or not.",
-          "text_en_c1": "Today, US stock markets experienced a notable rebound, with the Nasdaq rising by an impressive 2%. This upward trend has led many investors to reevaluate their confidence in the financial landscape, raising the question of whether we are witnessing a pivotal turning point. Analysts are now closely monitoring next week’s earnings reports, which will serve as a crucial indicator of investor sentiment moving forward. Should these reports reflect positive outcomes, it could potentially bolster optimism among market participants, significantly influencing trading decisions in the days to come.",
-          "text_en_c2": "In a notable turn of events, US stock indices rebounded today, with the Nasdaq Composite experiencing a remarkable increase of 2%. This resurgence has rekindled investor sentiment, prompting many to contemplate whether this marks a pivotal shift in market dynamics. Analysts are closely examining the forthcoming earnings reports scheduled for next week, which will serve as critical indicators of whether this newfound optimism among investors is sustainable. Their reactions could potentially shape market trajectories in the short term, as they navigate through a landscape fraught with uncertainty. Consequently, the prevailing question remains: will this optimistic momentum continue, or will it falter under the weight of prevailing economic challenges?",
-          "source_url": "",
-          "source_hint": "US market rebounded today amid trading speculations."
-        },
-        {
-          "id": "trading-002",
-          "category": "trading",
-          "topic_zh": "外匯波動",
-          "topic_en": "Forex Volatility",
-          "text_zh": "最近外匯市場波動大，特別是美元對港元。有人說這是因為美國經濟數據不佳，建議小心選擇時機。",
-          "text_en_b1": "Recently, the forex market has been very volatile, especially USD to HKD. Analysts suggest that this is due to poor US economic data. They recommend being cautious when choosing your moments to trade, as fluctuations can lead to sudden losses.",
-          "text_en_b2": "Recently, the foreign exchange market has been characterized by significant volatility, particularly concerning the USD against HKD. Analysts attribute this instability to disappointing economic data from the United States. They strongly advise traders to exercise caution and carefully select their trading moments, as such fluctuations can result in unexpected losses that may impact their financial strategies.",
-          "text_en_c1": "The forex market has recently exhibited significant volatility, particularly concerning the exchange rate of the US dollar against the Hong Kong dollar. Analysts attribute this instability largely to disappointing economic indicators emerging from the United States. Given the unpredictable nature of currency fluctuations, experts caution traders to exercise considerable prudence when selecting optimal trading moments. Such caution is imperative, as even minor shifts in the market can result in substantial financial repercussions, urging investors to remain vigilant and informed in their trading strategies.",
-          "text_en_c2": "The forex market has recently exhibited notable volatility, particularly evident in the fluctuating exchange rate between the US dollar and the Hong Kong dollar. Analysts attribute these erratic movements predominantly to disappointing economic indicators emanating from the United States, which have led to heightened uncertainty among traders. Consequently, experts emphasize the importance of exercising caution when selecting optimal trading moments, given that sudden fluctuations can precipitate substantial financial losses. Such precarious conditions necessitate a strategic approach for investors aiming to navigate the turbulent waters of foreign exchange trading successfully, underscoring the need for informed decision-making in these unpredictable circumstances.",
-          "source_url": "",
-          "source_hint": "Forex market volatility raises concerns among traders."
-        },
-        {
-          "id": "techai-001",
-          "category": "tech/ai",
-          "topic_zh": "AI取代工作？",
-          "topic_en": "AI Replacing Jobs?",
-          "text_zh": "有報告指出，AI技術可能在未來五年內取代超過800萬個工作。這對白領和藍領工人都有影響，大家應該如何準備？",
-          "text_en_b1": "A recent report suggests that AI technology could replace over 8 million jobs in the next five years. This trend will affect both white-collar and blue-collar workers. Experts are advising everyone to prepare for these changes by upskilling and adapting to new roles.",
-          "text_en_b2": "A recent report indicates that over 8 million jobs could potentially be replaced by AI technology within the next five years. This alarming trend will have repercussions for both white-collar and blue-collar workers alike, prompting experts to recommend that individuals prepare for these inevitable changes. Upskilling and adapting to new roles will be essential for maintaining competitiveness in an increasingly automated job market.",
-          "text_en_c1": "A recent study has alarming implications, suggesting that over 8 million jobs could potentially be displaced by advancements in AI technology within the next five years. This transformation is poised to impact both white-collar and blue-collar sectors alike, necessitating a proactive approach to career development. Experts strongly advise individuals to enhance their skill sets and adapt to evolving job markets in order to remain competitive. This emphasis on upskilling is crucial, as the future of employment is increasingly intertwined with technological innovation, demanding constant adaptation from the workforce.",
-          "text_en_c2": "A recent comprehensive report has brought to light a startling projection: artificial intelligence technology is poised to supplant over 8 million jobs within the next five years. This impending transformation is set to impact both white-collar and blue-collar sectors, raising significant concerns regarding employment stability and workforce adaptability. Experts are advocating for proactive measures, urging individuals to engage in upskilling and reskilling initiatives in order to equip themselves for the evolving job landscape. As industries increasingly integrate AI capabilities, the imperative for workers to adapt to new roles becomes increasingly critical, fundamentally altering the traditional employment paradigm in profound ways.",
-          "source_url": "",
-          "source_hint": "Research reveals potential job losses due to AI."
-        },
-        {
-          "id": "hknews-001",
-          "category": "hk/news",
-          "topic_zh": "港股跌幅放緩",
-          "topic_en": "HK Stocks Slow Decline",
-          "text_zh": "今日港股跌幅放緩，恒生指數跌0.5%。分析指或許大戶開始回補，投資者正在觀望未來走勢。",
-          "text_en_b1": "Today, the decline of Hong Kong stocks slowed down, with the Hang Seng Index down by 0.5%. Analysts believe that major players might start to cover their positions, and investors are now watching the future trends carefully before taking any firm actions.",
-          "text_en_b2": "Today, the decline in Hong Kong stocks has shown signs of slowing down, with the Hang Seng Index falling by only 0.5%. Analysts speculate that major investors might be beginning to cover their positions, which could influence market dynamics positively. Consequently, investors are now carefully observing future trends before making any definitive moves in the market.",
-          "text_en_c1": "In today’s market session, the decline in Hong Kong stocks exhibited a notable moderation, with the Hang Seng Index decreasing by just 0.5%. Analysts speculate that this slowdown in decline may indicate that major institutional investors are beginning to cover their positions, a sign of potential stabilization. As such, market participants are keenly observing emerging trends and future directions, weighing their options carefully before committing to significant investment decisions. This cautious approach reflects a broader sentiment of uncertainty that currently pervades the financial landscape.",
-          "text_en_c2": "Today witnessed a deceleration in the decline of Hong Kong stocks, as evidenced by the Hang Seng Index, which fell by a comparatively modest 0.5%. Analysts speculate that this slowdown may indicate a strategic repositioning by major institutional investors who could be commencing the process of covering their short positions. As market participants closely monitor these developments, investors find themselves in a state of cautious anticipation, weighing the implications for future market trends. The prevailing sentiment suggests an underlying wariness, as stakeholders assess whether this momentary stabilization is a precursor to a more sustained recovery or merely a temporary respite amidst ongoing market volatility.",
-          "source_url": "",
-          "source_hint": "Hang Seng Index shows signs of stabilization today."
-        },
-        {
-          "id": "lol-001",
-          "category": "lol/esports",
-          "topic_zh": "LOL新賽季",
-          "topic_en": "New LOL Season",
-          "text_zh": "S15的英雄聯盟開始了！很多玩家熱衷討論新角色的強度，兩個星期後的季後賽可望更精彩！",
-          "text_en_b1": "The new season of League of Legends, S15, has started! Many players are excitedly discussing the strength of new characters introduced this season. In two weeks, the playoffs promise to be even more thrilling as teams battle for supremacy.",
-          "text_en_b2": "The much-anticipated new season of League of Legends, S15, has officially commenced! Enthusiastic players are eagerly discussing the strengths and abilities of the newly introduced characters. With playoffs approaching in just two weeks, excitement is building, and fans are expecting even more thrilling matches as teams vie for supremacy in the competitive landscape.",
-          "text_en_c1": "The highly anticipated new season of League of Legends, designated as Season 15, has officially commenced, igniting excitement among the gaming community. Players are fervently engaging in discussions regarding the strengths and potential impacts of the newly introduced characters. As the competitive scene heats up, attention is particularly focused on the impending playoffs, which are scheduled to take place in two weeks. These matches are expected to deliver exhilarating action as teams vie for dominance, promising a thrilling viewing experience for fans and participants alike.",
-          "text_en_c2": "The much-anticipated fifteenth season of League of Legends has officially commenced, eliciting great enthusiasm among the gaming community. Players are fervently engaging in discussions surrounding the newly introduced characters and their respective strengths, analyzing their potential impact on gameplay dynamics. As anticipation builds toward the playoffs, set to unfold in a fortnight, the competitive atmosphere promises to intensify, with teams vying for supremacy in exhilarating matchups. The ongoing dialogues about strategy and character effectiveness are not merely casual banter; they reflect a deeper investment in the evolving landscape of the game, where each player's insight contributes to a richer collective experience.",
-          "source_url": "",
-          "source_hint": "LOL's new season kicks off with much excitement."
-        },
-        {
-          "id": "mma-001",
-          "category": "mma/fitness",
-          "topic_zh": "健身小常識",
-          "topic_en": "Fitness Tips",
-          "text_zh": "健身後的恢復同樣重要！專家推薦有氧運動加重訓，幫助肌肉更加健康，持續進步。你們有這樣做嗎？",
-          "text_en_b1": "Recovery after workouts is just as important! Experts recommend combining cardio with weight training to help muscles stay healthy and improve consistently. Are you following this advice in your routine for better results?",
-          "text_en_b2": "Recovery after workouts is equally crucial for achieving fitness goals! Experts recommend a strategic combination of cardiovascular exercises and strength training to ensure that muscles remain healthy and continue to progress. Are you incorporating this advice into your workout routine for optimal results and long-term fitness improvement?",
-          "text_en_c1": "Post-workout recovery is an often-overlooked aspect of fitness that bears equal importance to the workout itself. Experts advocate for a balanced approach that combines aerobic exercises with weight training, as this synergy promotes muscle health and facilitates consistent improvement over time. Engaging in such a multifaceted regimen not only enhances physical performance but also reduces the risk of injury, ensuring a sustainable fitness journey. Are you incorporating these essential practices into your routine to maximize your results and achieve your fitness goals more effectively?",
-          "text_en_c2": "Recovery following physical training is an integral aspect of any fitness regimen that is often underestimated. Experts advocate for the synergistic combination of cardiovascular exercises and resistance training, positing that this approach not only enhances muscle health but also fosters sustained improvements in overall physical performance. This holistic view of fitness underscores the necessity of a balanced routine, ensuring that individuals do not overlook the vital role of recovery in achieving their fitness goals. By implementing these strategies into their daily practices, fitness enthusiasts can maximize their results, ultimately leading to enhanced endurance and strength over time, thereby promoting long-term wellness.",
-          "source_url": "",
-          "source_hint": "Fitness experts share recovery tips for workouts."
-        },
-        {
-          "id": "anime-001",
-          "category": "anime/culture",
-          "topic_zh": "動漫熱潮",
-          "topic_en": "Anime Craze",
-          "text_zh": "《進擊的巨人》最終季在熱播中，粉絲爭論劇情走向，熱烈探討角色命運。你覺得會怎樣結束呢？",
-          "text_en_b1": "The final season of 'Attack on Titan' is currently airing, and fans are passionately debating the plot twists. Many are discussing the fates of their favorite characters. What do you think will be the ultimate ending of this popular series?",
-          "text_en_b2": "The final season of 'Attack on Titan' is currently captivating audiences, and fans are engrossed in fervent discussions regarding the unexpected plot twists. Many are passionately analyzing the fates of their beloved characters. As the series nears its conclusion, what do you anticipate will be the ultimate resolution for this popular saga?",
-          "text_en_c1": "The final season of the critically acclaimed series 'Attack on Titan' is currently captivating audiences and sparking intense discussions among its dedicated fanbase. Viewers are passionately debating various plot developments and the destinies that await their beloved characters, with many speculating about the series' ultimate resolution. As the narrative progresses, it remains to be seen how these intricate storylines will converge. What are your predictions for the climactic conclusion of this iconic series, and how will it resonate with its loyal following?",
-          "text_en_c2": "The final season of the critically acclaimed series 'Attack on Titan' is currently captivating audiences, igniting fervent debates among fans regarding potential narrative developments. Many ardent followers are deeply engaged in discussions about the fates of their beloved characters, analyzing foreshadowing and plot intricacies revealed throughout the series. As viewers eagerly await the grand finale, speculation abounds regarding the possible resolutions of the overarching conflicts. This heightened engagement reflects not only a passionate investment in the storyline but also highlights the cultural impact of the series, as it weaves complex themes of humanity, morality, and survival into its compelling narrative tapestry.",
-          "source_url": "",
-          "source_hint": "Fans are buzzing over the final season of Attack on Titan."
         }
       ]
     }

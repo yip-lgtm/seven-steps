@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-04",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-bonds-1",
+      "topic_en": "Bonds Are Pointless",
+      "topic_zh": "債券有咩用",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-bonds-1-b1.mp3",
+        "b2": "clip-trade-bonds-1-b2.mp3",
+        "c1": "clip-trade-bonds-1-c1.mp3",
+        "c2": "clip-trade-bonds-1-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-paycheck-2",
+      "topic_en": "70% Americans Paycheck to Paycheck",
+      "topic_zh": "七成美國人月光",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-paycheck-2-b1.mp3",
+        "b2": "clip-trade-paycheck-2-b2.mp3",
+        "c1": "clip-trade-paycheck-2-c1.mp3",
+        "c2": "clip-trade-paycheck-2-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-bosch-3",
+      "topic_en": "Made in China vs Bosch",
+      "topic_zh": "中國製好過Bosh",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-bosch-3-b1.mp3",
+        "b2": "clip-civil-bosch-3-b2.mp3",
+        "c1": "clip-civil-bosch-3-c1.mp3",
+        "c2": "clip-civil-bosch-3-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-claude-4",
+      "topic_en": "Does Claude Have a Soul",
+      "topic_zh": "AI有冇靈魂",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-claude-4-b1.mp3",
+        "b2": "clip-civil-claude-4-b2.mp3",
+        "c1": "clip-civil-claude-4-c1.mp3",
+        "c2": "clip-civil-claude-4-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-openai-5",
+      "topic_en": "OpenAI Shows Its True Side",
+      "topic_zh": "OpenAI封殺自己友",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-openai-5-b1.mp3",
+        "b2": "clip-tech-openai-5-b2.mp3",
+        "c1": "clip-tech-openai-5-c1.mp3",
+        "c2": "clip-tech-openai-5-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-6",
+      "topic_en": "Dutch Euthanasia 17yo",
+      "topic_zh": "歐洲安樂死",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-6-b1.mp3",
+        "b2": "clip-hk-news-6-b2.mp3",
+        "c1": "clip-hk-news-6-c1.mp3",
+        "c2": "clip-hk-news-6-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit-7",
+      "topic_en": "Winter Arc Begins",
+      "topic_zh": "Winter Arc開Run",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-7-b1.mp3",
+        "b2": "clip-mma-fit-7-b2.mp3",
+        "c1": "clip-mma-fit-7-c1.mp3",
+        "c2": "clip-mma-fit-7-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-railgun-9",
+      "topic_en": "Raildex ITEM Anime",
+      "topic_zh": "Raildex新ITEM動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-railgun-9-b1.mp3",
+        "b2": "clip-anime-railgun-9-b2.mp3",
+        "c1": "clip-anime-railgun-9-c1.mp3",
+        "c2": "clip-anime-railgun-9-c2.mp3"
+      }
+    }
+  ]
+}
