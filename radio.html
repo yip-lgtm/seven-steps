@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>24/7 電台 · 7劍下天山</title>
+<style>
+  :root {
+    --bg: #f6f1e7; --surface: #fffbf2; --ink: #1f2a2e; --ink-soft: #5a6a72; --ink-faint: #8c98a0;
+    --accent: #0f6b66; --accent-deep: #0a5a55; --accent-soft: #c8e3df; --warm: #c77f3b; --warm-soft: #f3dcc1;
+    --line: #e0d6c2; --danger: #b3402a; --good: #3b7a4f;
+  }
+  body.dark {
+    --bg: #0e1116; --surface: #161b22; --ink: #e6edf3; --ink-soft: #b1bac4; --ink-faint: #7d8590;
+    --accent: #4ec9b0; --accent-deep: #3aa995; --accent-soft: #1f3a37; --warm: #e8a87c; --warm-soft: #3a2a1f;
+    --line: #30363d; --danger: #f85149; --good: #56d364;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+  .app { max-width: 720px; margin: 0 auto; padding: 24px 20px 96px; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+  .brand-mark { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, var(--accent), var(--warm)); color: white; display: grid; place-items: center; font-weight: 700; }
+  .brand-name { font-weight: 600; }
+  .brand-sub { color: var(--ink-faint); font-size: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+  h1 { font-size: 28px; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .lead { color: var(--ink-soft); font-size: 14px; margin-bottom: 16px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
+  .label { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); width: 100%; }
+  .chip { border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 999px; padding: 8px 14px; font: inherit; cursor: pointer; }
+  .chip.on { background: var(--accent); color: white; border-color: var(--accent); }
+  .range-row { display: flex; align-items: center; gap: 12px; width: 100%; }
+  input[type="range"] { flex: 1; accent-color: var(--accent); }
+  .range-val { min-width: 48px; text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+  .now { background: var(--bg); border-radius: 14px; padding: 16px; min-height: 160px; margin: 8px 0 16px; }
+  body.dark .now { background: #1c2128; }
+  .meta { font-size: 12px; color: var(--ink-faint); letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .tag { display: inline-block; background: var(--warm-soft); color: var(--warm); border-radius: 999px; padding: 2px 8px; font-size: 11px; font-weight: 700; margin-right: 6px; }
+  .en { font-size: 20px; font-weight: 650; line-height: 1.4; margin-top: 8px; }
+  .zh { color: var(--ink-soft); font-size: 15px; margin-top: 10px; border-left: 3px solid var(--warm); padding-left: 10px; }
+  .status { font-size: 13px; color: var(--ink-soft); margin-top: 8px; }
+  .controls { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 12px 18px; font: inherit; cursor: pointer; }
+  .btn-primary { background: var(--accent); color: white; border-color: var(--accent); font-size: 16px; padding: 14px 22px; }
+  .btn-ghost { background: transparent; }
+  .live { display: inline-flex; align-items: center; gap: 6px; color: var(--good); font-size: 12px; font-weight: 700; }
+  .live i { width: 8px; height: 8px; border-radius: 50%; background: var(--good); display: inline-block; animation: pulse 1.2s infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+  audio { width: 100%; margin-top: 10px; height: 36px; }
+  .note { font-size: 12px; color: var(--ink-faint); margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <a class="brand" href="./">
+      <div class="brand-mark">7</div>
+      <div>
+        <div class="brand-name">7劍下天山</div>
+        <div class="brand-sub">歷史電台 · 24/7</div>
+      </div>
+    </a>
+    <button class="btn btn-ghost" id="btn-theme" type="button">Dark</button>
+  </div>
+  <div class="card">
+    <h1>歷史檔隨機播</h1>
+    <p class="lead">由全部重溫日子抽短文，循環播放。可調 A1–B2，可調快慢。B1/B2 有錄音就用 MP3，鎖屏都繼續；A1/A2 用語音讀短句。</p>
+    <div class="row">
+      <div class="label">程度</div>
+      <button class="chip" data-level="A1" type="button">A1</button>
+      <button class="chip" data-level="A2" type="button">A2</button>
+      <button class="chip on" data-level="B1" type="button">B1</button>
+      <button class="chip" data-level="B2" type="button">B2</button>
+    </div>
+    <div class="row">
+      <div class="label">快慢</div>
+      <div class="range-row">
+        <input id="rate" type="range" min="0.7" max="1.4" step="0.05" value="1">
+        <div class="range-val" id="rate-val">1.00x</div>
+      </div>
+    </div>
+    <div class="now" id="now">
+      <div class="meta">未開始</div>
+      <div class="en">撲下面開始，就會 24/7 隨機循環。</div>
+    </div>
+    <div class="controls">
+      <button class="btn btn-primary" id="btn-play" type="button">開始 24/7</button>
+      <button class="btn" id="btn-next" type="button">下一則</button>
+      <button class="btn btn-ghost" id="btn-wake" type="button">保持亮屏</button>
+    </div>
+    <audio id="player" controls preload="none"></audio>
+    <div class="status" id="status">載入歷史檔…</div>
+    <p class="note">背景播放：B1/B2 錄音可以鎖屏繼續。A1/A2 係手機語音，部分手機會咺完全切走後暫停，返嚟會自動接。</p>
+  </div>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const player = $('player');
+const state = {
+  level: localStorage.getItem('radio-level') || 'B1',
+  rate: Number(localStorage.getItem('radio-rate') || 1),
+  pool: [],
+  order: [],
+  i: 0,
+  playing: false,
+  wake: false,
+  wakeLock: null,
+  voiced: false
+};
+function applyTheme(dark) {
+  document.body.classList.toggle('dark', dark);
+  $('btn-theme').textContent = dark ? 'Light' : 'Dark';
+  localStorage.setItem('radio-theme', dark ? 'dark' : 'light');
+}
+applyTheme((localStorage.getItem('radio-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark');
+$('btn-theme').onclick = () => applyTheme(!document.body.classList.contains('dark'));
+
+function setLevel(level) {
+  state.level = level;
+  localStorage.setItem('radio-level', level);
+  document.querySelectorAll('[data-level]').forEach(b => b.classList.toggle('on', b.dataset.level === level));
+  if (state.playing) playCurrent(true);
+}
+document.querySelectorAll('[data-level]').forEach(b => b.onclick = () => setLevel(b.dataset.level));
+setLevel(state.level);
+$('rate').value = String(state.rate);
+$('rate-val').textContent = state.rate.toFixed(2) + 'x';
+$('rate').oninput = (e) => {
+  state.rate = Number(e.target.value);
+  localStorage.setItem('radio-rate', String(state.rate));
+  $('rate-val').textContent = state.rate.toFixed(2) + 'x';
+  player.playbackRate = state.rate;
+  if (window.speechSynthesis && speechSynthesis.speaking) {
+    speechSynthesis.cancel();
+    speakCurrent();
+  }
+};
+
+function simplify(text, maxWords) {
+  const raw = String(text || '').replace(/\s+/g, ' ').trim();
+  const bits = raw.split(/(?<=[.!?])\s+|[,:;]\s+/).map(s => s.trim()).filter(s => /[A-Za-z]/.test(s));
+  const out = [];
+  bits.forEach(p => {
+    const words = p.split(/\s+/);
+    if (words.length <= maxWords) out.push(words.join(' '));
+    else for (let i = 0; i < words.length; i += maxWords) out.push(words.slice(i, i + maxWords).join(' '));
+  });
+  return out.filter(Boolean).slice(0, maxWords === 6 ? 4 : 6);
+}
+function linesFor(clip) {
+  const b1 = clip.text_en_b1 || clip.text_en_b2 || '';
+  const b2 = clip.text_en_b2 || b1;
+  if (state.level === 'B2') return [b2];
+  if (state.level === 'B1') return [b1];
+  if (state.level === 'A2') return simplify(b1, 10);
+  return simplify(b1, 6);
+}
+function mp3For(clip) {
+  if (state.level !== 'B1' && state.level !== 'B2') return '';
+  if (!clip._date || !clip.id) return '';
+  return 'audio/' + clip._date + '/clip-' + clip.id + '-' + state.level.toLowerCase() + '.mp3';
+}
+function shuffle() {
+  state.order = state.pool.map((_, i) => i);
+  for (let i = state.order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = state.order[i]; state.order[i] = state.order[j]; state.order[j] = t;
+  }
+  state.i = 0;
+}
+function current() {
+  if (!state.order.length) return null;
+  return state.pool[state.order[state.i % state.order.length]];
+}
+function show(clip, extra) {
+  const lines = linesFor(clip);
+  $('now').innerHTML =
+    '<div class="meta">' + (state.playing ? '<span class="live"><i></i> LIVE</span> · ' : '') +
+    clip._date + ' · ' + state.level + ' · ' + state.rate.toFixed(2) + 'x</div>' +
+    '<div><span class="tag">' + (clip.category || 'clip') + '</span>' + (clip.topic_zh || '') + '</div>' +
+    '<div class="en">' + lines.join(' ') + '</div>' +
+    (clip.text_zh ? '<div class="zh">' + clip.text_zh + '</div>' : '') +
+    (extra ? '<div class="status">' + extra + '</div>' : '');
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: clip.topic_en || clip.topic_zh || '7劍下天山',
+      artist: clip._date + ' · ' + state.level,
+      album: '歷史電台'
+    });
+  }
+}
+function stopSpeech() { if (window.speechSynthesis) speechSynthesis.cancel(); }
+function speakCurrent() {
+  const clip = current();
+  if (!clip) return;
+  stopSpeech();
+  player.pause();
+  player.removeAttribute('src');
+  const lines = linesFor(clip);
+  show(clip, '語音跟讀');
+  let n = 0;
+  const step = () => {
+    if (!state.playing) return;
+    if (n >= lines.length) { next(false); return; }
+    const u = new SpeechSynthesisUtterance(lines[n]);
+    u.lang = 'en-US';
+    u.rate = Math.min(1.4, Math.max(0.6, state.rate));
+    const voices = speechSynthesis.getVoices();
+    const v = voices.find(x => /en[-_]US/i.test(x.lang) && /female|samantha|google/i.test(x.name)) || voices.find(x => /^en/i.test(x.lang));
+    if (v) u.voice = v;
+    u.onend = () => { n += 1; step(); };
+    u.onerror = () => { n += 1; step(); };
+    speechSynthesis.speak(u);
+  };
+  step();
+  state.voiced = true;
+}
+function playCurrent(restart) {
+  const clip = current();
+  if (!clip) return;
+  stopSpeech();
+  const src = mp3For(clip);
+  if (!src) { speakCurrent(); return; }
+  show(clip, '錄音');
+  if (!restart && player.src && player.src.endsWith(src) && !player.ended) {
+    player.playbackRate = state.rate;
+    player.play().catch(() => speakCurrent());
+    return;
+  }
+  player.src = src;
+  player.playbackRate = state.rate;
+  player.play().then(() => { state.voiced = false; }).catch(() => speakCurrent());
+}
+function next(manual) {
+  if (!state.pool.length) return;
+  state.i += 1;
+  if (state.i >= state.order.length) shuffle();
+  if (state.playing || manual) playCurrent(true);
+}
+player.onended = () => { if (state.playing) next(false); };
+player.onerror = () => { if (state.playing) speakCurrent(); };
+$('btn-play').onclick = async () => {
+  state.playing = !state.playing;
+  $('btn-play').textContent = state.playing ? '暫停' : '繼續 24/7';
+  if (!state.playing) { player.pause(); stopSpeech(); return; }
+  if (player.src && player.paused && !player.ended && !state.voiced) player.play();
+  else playCurrent(false);
+  if (state.wake) holdWake();
+};
+$('btn-next').onclick = () => { state.playing = true; $('btn-play').textContent = '暫停'; next(true); };
+async function holdWake() {
+  if (!('wakeLock' in navigator)) return;
+  try { state.wakeLock = await navigator.wakeLock.request('screen'); } catch (e) {}
+}
+$('btn-wake').onclick = async () => {
+  state.wake = !state.wake;
+  $('btn-wake').textContent = state.wake ? '亮屏開' : '保持亮屏';
+  if (state.wake) holdWake();
+  else if (state.wakeLock) { try { await state.wakeLock.release(); } catch (e) {} }
+};
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && state.playing && state.voiced && window.speechSynthesis && !speechSynthesis.speaking) speakCurrent();
+  if (document.visibilityState === 'visible' && state.wake) holdWake();
+});
+if ('mediaSession' in navigator) {
+  navigator.mediaSession.setActionHandler('play', () => { state.playing = true; $('btn-play').textContent = '暫停'; playCurrent(false); });
+  navigator.mediaSession.setActionHandler('pause', () => { state.playing = false; $('btn-play').textContent = '繼續 24/7'; player.pause(); stopSpeech(); });
+  navigator.mediaSession.setActionHandler('nexttrack', () => next(true));
+  navigator.mediaSession.setActionHandler('previoustrack', () => { state.i = Math.max(0, state.i - 1); playCurrent(true); });
+}
+async function loadPool() {
+  const res = await fetch('clips/history.json?v=20261005a');
+  const data = await res.json();
+  const days = data.days || [];
+  state.pool = [];
+  days.forEach(day => (day.clips || []).forEach(c => {
+    if (c.text_en_b1 || c.text_en_b2) state.pool.push(Object.assign({ _date: day.date }, c));
+  }));
+  shuffle();
+  $('status').textContent = state.pool.length + ' 則 · ' + days.length + ' 日 · 隨機循環';
+}
+loadPool().catch(err => { $('status').textContent = '載入失敗：' + err.message; });
+</script>
+</body>
+</html>
