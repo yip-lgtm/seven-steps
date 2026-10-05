@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-05",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trading-btc-saylor",
+      "topic_en": "Saylor Moon",
+      "topic_zh": "Saylor狂熱",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trading-btc-saylor-b1.mp3",
+        "b2": "clip-trading-btc-saylor-b2.mp3",
+        "c1": "clip-trading-btc-saylor-c1.mp3",
+        "c2": "clip-trading-btc-saylor-c2.mp3"
+      }
+    },
+    {
+      "id": "trading-options-100m",
+      "topic_en": "Fashion Exec Options Loss",
+      "topic_zh": "揸option輸100M",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trading-options-100m-b1.mp3",
+        "b2": "clip-trading-options-100m-b2.mp3",
+        "c1": "clip-trading-options-100m-c1.mp3",
+        "c2": "clip-trading-options-100m-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-cnc-meme",
+      "topic_en": "China Funny Shit",
+      "topic_zh": "中國奇聞",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-civil-cnc-meme-b1.mp3",
+        "b2": "clip-civil-cnc-meme-b2.mp3",
+        "c1": "clip-civil-cnc-meme-c1.mp3",
+        "c2": "clip-civil-cnc-meme-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-chores",
+      "topic_en": "Optimus House Chores",
+      "topic_zh": "Optimus救我",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-chores-b1.mp3",
+        "b2": "clip-tech-ai-chores-b2.mp3",
+        "c1": "clip-tech-ai-chores-c1.mp3",
+        "c2": "clip-tech-ai-chores-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit-stanley",
+      "topic_en": "Starvemaxx Cut",
+      "topic_zh": "斷食減肥",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-stanley-b1.mp3",
+        "b2": "clip-mma-fit-stanley-b2.mp3",
+        "c1": "clip-mma-fit-stanley-c1.mp3",
+        "c2": "clip-mma-fit-stanley-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma",
+      "topic_en": "Ranma 1/2 Storytime",
+      "topic_zh": "亂馬storytime",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-b1.mp3",
+        "b2": "clip-anime-ranma-b2.mp3",
+        "c1": "clip-anime-ranma-c1.mp3",
+        "c2": "clip-anime-ranma-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-pol-doge",
+      "topic_en": "BTC Pump Cap",
+      "topic_zh": "DOGE pump",
+      "category": "trading",
+      "files": {
+        "b1": "clip-civil-pol-doge-b1.mp3",
+        "b2": "clip-civil-pol-doge-b2.mp3",
+        "c1": "clip-civil-pol-doge-c1.mp3",
+        "c2": "clip-civil-pol-doge-c2.mp3"
+      }
+    }
+  ]
+}

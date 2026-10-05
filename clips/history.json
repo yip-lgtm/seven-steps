@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "days": [
+    {
+      "date": "2026-10-05",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trading-btc-saylor",
+          "category": "trading",
+          "topic_zh": "Saylor狂熱",
+          "topic_en": "Saylor Moon",
+          "text_zh": "/biz/又有巴菲特式Saylor詩😂 MSTR同SpaceX一齊舞,BTC繼續亮。10月又係學費月份,睇下我哋prop firm今個月會輸幾多🙏",
+          "text_en_b1": "Saylor Moon :. In the night, Saylor Moon makes Bitcoin shine, MSTR dances with SpaceX on a divine path. Between the stars and the sats, the portfolio ignites, and toward El Dorado, Saylor Moon unfolds his soul. The thread is a /biz/ poem about BTC and MSTR as a religious path. This came up on /biz/ today.",
+          "text_en_b2": "Saylor Moon rises as /biz/ coins yet another Buffett-style verse, casting Bitcoin as some divine pilgrimage. The poem places MSTR twirling alongside SpaceX while BTC keeps shining, framing the whole portfolio as a quasi-religious calling. It is essentially 4chan treating MSTR and Bitcoin as though they were objects of worship, the same ritual believers repeat whenever markets wobble. This came up on /biz/ today, drawing the usual chorus of worshipful replies.",
+          "text_en_c1": "A self-styled /biz/ poem has cast Saylor as a quasi-religious figure whose moonward ascent transfigures Bitcoin into something approaching scripture. The verses portray MSTR moving in tandem with SpaceX along an almost providential trajectory, while the portfolio itself becomes a votive offering to El Dorado. Beneath the satirical veneer lies an authentic conviction among certain anons that BTC and MSTR constitute a salvific path worth enshrining. Such deification, the thread implicitly argues, has itself become the dominant folk religion of the board. The post surfaced on /biz/ today, the source_url: https://boards.4chan.org/biz/thread/62751731",
+          "text_en_c2": "What began as a throwaway jest on /biz/ has, predictably, metastasised into something approaching liturgical verse. The poem in question casts Michael Saylor as a sort of crypto-Buddha, with MicroStrategy's MSTR gyrating in lockstep with SpaceX as though the two were locked in some holy pas de deux. Bitcoin, naturally, functions as the sacred flame — that ineffable lumen around which the congregation gathers, sats clutched like prayer beads. The conceit is half-ironic, half-genuine, which is to say it is precisely the register that /biz/ has perfected over the years. October being tuition season, anons are already bracing themselves for the customary haemorrhaging of demo accounts at proprietary firms. Whether Saylor is prophet or pied piper remains, as ever, a matter of temperament.",
+          "source_url": "https://boards.4chan.org/biz/thread/62751731",
+          "source_hint": "/biz/ OP writes a religious-style poem about Saylor and Bitcoin"
+        },
+        {
+          "id": "trading-options-100m",
+          "category": "trading",
+          "topic_zh": "揸option輸100M",
+          "topic_en": "Fashion Exec Options Loss",
+          "text_zh": "100M美金option輸晒,CEO同老婆一齊冇咗。認真,呢個世界揸option真係會死。睇完好驚,prop firm算乜嘢😭",
+          "text_en_b1": "A fashion executive killed his wife and himself after gambling away $100 million on options. His brother said Paul went behind the family’s back, took loans against their properties, traded risky options, and fell into immense debt. The brother said he had not worked for some time, but they agreed he could play with their wealth. Then he lost control. This was on /biz/ today.",
+          "text_en_b2": "A fashion executive, having gambled away roughly one hundred million dollars on options, ultimately took his own life along with his wife's, a tragedy that shook /biz/ today. His brother revealed that Paul had secretly taken out loans against family properties and spiralled into unmanageable debt, even though they had previously agreed he could speculate with their shared wealth. The thread serves as a grim reminder of how options trading can devastate entire families.",
+          "text_en_c1": "The fashion executive at the centre of the tragedy allegedly borrowed against jointly owned property without his family's knowledge, plunging the entirety of their holdings into leveraged options positions that subsequently evaporated. By the time the losses had compounded into something approaching a hundred million dollars, reconciliation had become untenable; what followed was an irreversible act whose victims included his wife. His brother, quoted in the thread, described the sequence as a gradual erosion rather than a single ruinous trade. The /biz/ discussion treats the episode as a cautionary parable, the source_url: https://boards.4chan.org/biz/thread/62751406",
+          "text_en_c2": "A cautionary tale of the most appalling kind has surfaced on /biz/, the particulars of which ought to give any retail speculator considerable pause. A fashion-industry executive, Paul by name, having apparently wearied of conventional gainful employment, proceeded behind his family's back to encumber their jointly held properties with substantial loans, the proceeds of which were duly funnelled into a highly leveraged options book. The outcome was, in retrospect, inevitable: roughly one hundred million dollars evaporated, leaving in their wake a debris field of personal ruin so total that the man subsequently took both his wife's life and his own. His brother, recounting the episode with admirable restraint, noted that the family had consented to let him \"play\" with their capital — a euphemism whose tragic inadequacy speaks for itself.",
+          "source_url": "https://boards.4chan.org/biz/thread/62751406",
+          "source_hint": "/biz/ shares NY Post story on fashion CEO who lost $100M on options"
+        },
+        {
+          "id": "civil-cnc-meme",
+          "category": "hk/news",
+          "topic_zh": "中國奇聞",
+          "topic_en": "China Funny Shit",
+          "text_zh": "/pol/又串中國lol 'first-world country until fix weird shit'。我都覺香港同大陸一樣,地方細到痴線,等5年後返美國🙏",
+          "text_en_b1": "China will never be a first-world country until it fixes its weird yet funny shit. The /pol/ thread collects the latest clips and stories about strange behaviour in mainland China. It is the same argument 4chan has been making for years about living standards. The thread went up on /pol/ today.",
+          "text_en_b2": "/pol/ has dusted off its familiar refrain: China will never qualify as a first-world country until it sorts out its bizarre yet darkly comedic behaviour. The thread compiles clips and anecdotes illustrating how mainland daily life still falls short of Western living standards, recycling the same argument 4chan has been peddling for years. While the tone is mocking, plenty of anons pile in to share their own equally strange encounters, keeping the debate very much alive today.",
+          "text_en_c1": "The /pol/ thread revisits a familiar refrain: that China will remain permanently consigned to second-tier status until the more bewildering aspects of daily life are brought to heel. Anons compile clips and anecdotes illustrating behaviour that, while ostensibly humorous, underscores genuine concerns about urban density, regulatory overreach, and civic disorder. The argument is hardly novel—4chan has rehearsed it ad nauseam—yet it retains a stubborn appeal, particularly among expatriates weighing whether to remain abroad. The post emerged on /pol/ today, the source_url: https://boards.4chan.org/pol/thread/543784160",
+          "text_en_c2": "A familiar refrain has once more wafted up from the fetid depths of /pol/: China, it seems, shall remain permanently consigned to the second tier of nations until such time as it deigns to rectify its manifold eccentricities. The thread, which surfaces periodically with the regularity of a recurring fever, assembles the latest footage and anecdotes documenting behaviour that ranges from the merely baffling to the outright dystopian. The underlying thesis — that material modernisation is not, in itself, synonymous with civilisational maturity — is hardly novel; indeed, it is the same argument these quarters have been propounding for the better part of two decades, with diminishing returns. For any expatriate presently marooned in the mainland or its special-administrative adjunct, the prognosis remains grim.",
+          "source_url": "https://boards.4chan.org/pol/thread/543784160",
+          "source_hint": "/pol/ thread collecting weird funny Chinese clips"
+        },
+        {
+          "id": "tech-ai-chores",
+          "category": "tech/ai",
+          "topic_zh": "Optimus救我",
+          "topic_en": "Optimus House Chores",
+          "text_zh": "/g/話2026年仲冇打掃機械人,得Optimus可以救大家。AI殺白領先,blue collar都唔會safe,我哋engineer小心啲🧐",
+          "text_en_b1": "How come there is no technology for doing house chores like cleaning in 2026? Are we stuck with those Optimus robots as our only potential hope towards an actual useful physical assistant? The /g/ thread is asking why domestic robots still do not exist outside of demos. This came up on /g/ today.",
+          "text_en_b2": "Why, in 2026, do we still lack functional robots capable of handling mundane chores like vacuuming or laundry? The /g/ thread laments that, outside of polished Optimus demos, genuinely useful domestic assistants remain stuck in the realm of vapourware. While AI is busy hollowing out white-collar work, the prospect of blue-collar automation feels equally unsettling, leaving engineers wondering whether their own roles might eventually fall to algorithms. The discussion resurfaced on /g/ today, drawing the usual scepticism.",
+          "text_en_c1": "Anons on /g/ have once again broached a question that grows only more conspicuous with each passing year: why, in 2026, does no commercially viable domestic cleaning robot exist? The consensus appears resigned to the proposition that Tesla's Optimus represents the most credible option on the table, even as proprietary alternatives should accelerate toward an actual real product. Beneath the irony lies genuine anxiety that AI will first displace white-collar knowledge work and subsequently encroach upon blue-collar trades, and that even engineers themselves should beware. The thread surfaced on /g/ today, the source_url: https://boards.4chan.org/g/thread/109984759",
+          "text_en_c2": "The denizens of /g/, never particularly celebrated for their patience, have lately voiced a grievance both mundane and, upon reflection, entirely legitimate: why, in the year of our lord 2026, does no commercially viable domestic robot exist to perform the dreary minutiae of household upkeep? The thread's OP, exhibiting that peculiar blend of despair and faint optimism endemic to the board, has nominated Tesla's Optimus as the only conceivable candidate, a judgement that says as much about the barrenness of the field as it does about the platform's promise. While artificial intelligence continues its inexorable march through the white-collar professions, those labouring in trades once considered impervious to automation would do well to harbour no illusions. Engineers, needless to say, are scarcely insulated from the oncoming gale.",
+          "source_url": "https://boards.4chan.org/g/thread/109984759",
+          "source_hint": "/g/ thread on missing house chore robots and Optimus as last hope"
+        },
+        {
+          "id": "mma-fit-stanley",
+          "category": "mma/fitness",
+          "topic_zh": "斷食減肥",
+          "topic_en": "Starvemaxx Cut",
+          "text_zh": "/fit/有兄弟starvemaxx到60kg,love handle都減唔到。睇完好驚,我都係繼續跟肥仔信gym plan,慢慢嚟lol",
+          "text_en_b1": "What if you just starvemaxx till you reach 60kg with like 1 meal per day. Obviously, you'll lose muscle but then in theory you could start rebuilding it rather easy because of muscle memory. He is at his wit's end, skinny fat dyel who tried bulking, cutting, all of them just make him look fat and retarded. This came up on /fit/ today.",
+          "text_en_b2": "A desperate /fit/ anon starvemaxxed down to sixty kilograms, surviving on roughly one meal a day, yet stubborn love handles still clung on. Although the extreme cut inevitably cost him considerable muscle, he reasoned that muscle memory should eventually allow him to rebuild what was lost. He describes himself as a skinny-fat dyel who has tried everything from aggressive bulking to strict cutting, and nothing seems to work. The thread surfaced on /fit/ today.",
+          "text_en_c1": "One anonymous /fit/ poster, having descended to roughly sixty kilograms through sustained caloric deprivation, now confronts the paradox of remaining skinny-fat despite achieving an ostensibly lean frame. His regimen—bulking cycles, aggressive cuts, and a single daily meal—has paradoxically produced the very aesthetic he sought to escape, while his love handles have stubbornly persisted regardless of the energy deficit. The thread constitutes an unintentional cautionary tale against what the board calls starvemaxxing, and it has given pause to readers who might otherwise pursue similar shortcuts. The post went up on /fit/ today, the source_url: https://boards.4chan.org/fit/thread/77542132",
+          "text_en_c2": "A thread on /fit/ has occasioned not inconsiderable alarm among the more impressionable denizens of the board, its protagonist having undertaken a regimen of severe caloric deprivation so as to reach a skeletal sixty kilograms — only to discover, with mounting horror, that his love handles persist in their tenancy of his flanks. The poster, a self-described skinny-fat novice who has dutifully cycled through bulk and cut phases to no discernible end, now finds himself adrift in that particular purgatory familiar to dilettantes everywhere. The prevailing wisdom, as ever, counsels a return to the fundamentals espoused by seasoned gym-going pudgies: progressive overload, adequate protein, and the cultivation of patience — virtues which, however unglamorous, remain the sine qua non of any meaningful corporeal transformation.",
+          "source_url": "https://boards.4chan.org/fit/thread/77542132",
+          "source_hint": "/fit/ anon asking about extreme starvation cut to lose love handles"
+        },
+        {
+          "id": "anime-ranma",
+          "category": "anime/culture",
+          "topic_zh": "亂馬storytime",
+          "topic_en": "Ranma 1/2 Storytime",
+          "text_zh": "/a/有人storytime亂馬1/2漫畫,跟住新一季anime一齊對比。我唔睇亂馬但att on titan又好似要結局,睇下今晚追唔追到👍",
+          "text_en_b1": "Ranma 1/2 storytime. Going to storytime the manga in conjunction with the new anime season so anons can compare and contrast, or experience the story in multiple different ways simultaneously. Today the OP is covering chapter 51-52. This came up on /a/ today.",
+          "text_en_b2": "A dedicated /a/ anon is storytiming the Ranma 1/2 manga alongside the freshly aired anime season, enabling readers to compare and contrast both versions in real time. Today's instalment covers chapters fifty-one and fifty-two, with the OP encouraging others to experience the story through multiple formats simultaneously. Even viewers who never followed Ranma are tuning in, particularly since Attack on Titan appears to be approaching its finale, and they are hoping to catch both tonight.",
+          "text_en_c1": "A diligent /a/ OP has undertaken to storytime the Ranma 1/2 manga in lockstep with the broadcast of its newly adapted season, thereby affording anons the rare opportunity to compare and contrast the source material against its animated counterpart as they are released. Today's instalment covers chapters fifty-one and fifty-two, in which the curse's further complications are elaborated. While not every participant is instinctively familiar with Ranma, the broader discourse encompasses the imminent conclusion of Attack on Titan, which has generated its own anticipation. The thread surfaced on /a/ today, the source_url: https://boards.4chan.org/a/thread/291385397",
+          "text_en_c2": "A /a/ poster has embarked upon the sort of multimedia exegesis that the board rarely sees executed with any discernible discipline: a parallel reading of Takahashi's Ranma ½ manga, conducted in lockstep with the newly launched anime season, so that anons might luxuriate in the story across multiple formats concurrently. Today the enterprising OP is dissecting chapters fifty-one and fifty-two, inviting comparison between Takahashi's original panel work and the studio's contemporary adaptation. Whether one is inclined to follow the resurrected classic or, alternatively, to await the purported finale of Attack on Titan — another matter altogether — depends entirely on one's appetite for closure. For the uncommitted viewer, the evening's viewing list grows ever more crowded.",
+          "source_url": "https://boards.4chan.org/a/thread/291385397",
+          "source_hint": "/a/ thread storytiming Ranma 1/2 chapters alongside new anime"
+        },
+        {
+          "id": "civil-pol-doge",
+          "category": "trading",
+          "topic_zh": "DOGE pump",
+          "topic_en": "BTC Pump Cap",
+          "text_zh": "/biz/話Bitcoin永遠唔會大升因為有'showman'做代表。即係話Elon一日做Bitcoin代表,BTC就一世都唔會爆升lol 真係笑死人",
+          "text_en_b1": "Bitcoin will never pump to unreal amounts as long as this showman is the face of it. The /biz/ OP is saying that as long as Elon Musk is still the public face of Bitcoin, BTC cannot do a true blowoff top. The thread is mostly anons agreeing and dunking on Musk. This came up on /biz/ today.",
+          "text_en_b2": "According to a /biz/ thread, Bitcoin will never achieve a genuine blowoff top as long as this particular showman remains its public face. The argument goes that, while Elon Musk continues to represent the cryptocurrency in mainstream media, BTC simply cannot pump to the stratospheric levels enthusiasts dream about. Most anons piled in to agree, cheerfully dunking on Musk's every tweet, because the thread quickly devolved into a roast session. This came up on /biz/ today.",
+          "text_en_c1": "The OP on /biz/ advances a thesis that has gained considerable traction: that Bitcoin will never achieve its long-anticipated blowoff top so long as Elon Musk remains its most conspicuous public advocate. The argument holds that the executive's conspicuous demeanour has rendered BTC a parody of itself, and that only his permanent removal would allow genuine price discovery to materialise. Most respondents concur, and the thread has consequently devolved into ritualised mockery of Musk rather than substantive market analysis. The post went up on /biz/ today, the source_url: https://boards.4chan.org/biz/thread/62752885",
+          "text_en_c2": "A /biz/ thread has lately advanced the heretical proposition that Bitcoin, that great engine of speculative fervour, shall never achieve its longed-for blowoff top so long as a certain showman remains affixed to its public image. The argument, such as it is, posits that Elon Musk's garrulous evangelism functions less as a catalyst for genuine institutional adoption than as a kind of tawdry carnival barker — sufficient perhaps to part the credulous from their sats, but wholly inadequate to the task of seducing serious capital. The thread's participants, predictably, have responded with the customary fusillade of mockery, dunking upon the man with the alacrity one might expect from a constituency long practised in the art. Whether the diagnosis is correct is, charitably, an open question.",
+          "source_url": "https://boards.4chan.org/biz/thread/62752885",
+          "source_hint": "/biz/ thread saying BTC cannot pump while Musk is its face"
+        }
+      ]
+    },
     {
       "date": "2026-10-04",
       "source": "ai",
@@ -4331,103 +4428,6 @@
           "text_en_c2": "In light of the recent conclusion of Attack on Titan, reactions among fans have proven to be decidedly polarized. While a segment of the audience heralds the finale as a magnificent culmination of the series, others express disappointment, citing a perceived lack of surprise or innovation in the resolution of the storyline. Regardless of these divergent perspectives, there exists a collective anticipation for forthcoming projects inspired by the series, indicative of the enduring impact that such narratives leave on the anime community and the broader cultural landscape.",
           "source_url": "",
           "source_hint": "Attack on Titan's ending sparks mixed reactions among fans."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trading_01",
-          "category": "trading",
-          "topic_zh": "投資失誤",
-          "topic_en": "Investment Blunders",
-          "text_zh": "最近 Reddit 上有許多投資者分享他們的失誤。有些人在市場上賭博幾千元，結果只賺了幾百元。大家都在討論，這是否真的能算是「學費」。",
-          "text_en_b1": "Recently, many investors on Reddit have shared their investment blunders. Some have bet thousands in the market, only to make a few hundred dollars. The community is discussing whether this can be seen as 'tuition'. Many feel frustrated but continue to trade.",
-          "text_en_b2": "Recently, numerous investors on Reddit have been sharing their costly investment mistakes. For instance, some individuals wagered thousands in the market, only to earn a mere few hundred dollars in return. This has sparked an ongoing debate within the community about whether such losses can genuinely be considered a form of 'tuition'. Although many feel disheartened, they continue to engage in trading, hoping to strike it rich in the unpredictable market.",
-          "text_en_c1": "In recent discussions on Reddit, a multitude of investors have recounted their significant investment missteps. A number of these individuals have wagered substantial amounts, running into thousands of dollars, yet have only managed to secure modest returns in the range of a few hundred dollars. This phenomenon has sparked a vigorous debate within the community, with many pondering whether such experiences can indeed be classified as 'tuition fees' for their financial education. Despite their feelings of frustration, the majority seem resolute in their pursuit of trading opportunities, reflecting a complex interplay of risk and reward in the investment landscape.",
-          "text_en_c2": "In recent discussions on Reddit, a multitude of investors have openly recounted their substantial investment miscalculations, highlighting the precarious nature of trading. Notably, some individuals have gambled thousands of dollars within the volatile market, only to emerge with a paltry return of a few hundred. This has sparked widespread debate within the community regarding whether such losses can genuinely be regarded as ‘tuition’ paid for the lessons of experience. While a considerable number express their frustration and disillusionment, many continue to partake in trading activities, seemingly undeterred by the prospect of further financial missteps.",
-          "source_url": "",
-          "source_hint": "Investors on Reddit discuss recent trading losses."
-        },
-        {
-          "id": "trading_02",
-          "category": "trading",
-          "topic_zh": "賺錢新高",
-          "topic_en": "New Profit Heights",
-          "text_zh": "這週，有些交易者在風險資產上獲得了驚人的回報。例如，一家專注於科技股的公司在短短三天內股價上漲了15%。",
-          "text_en_b1": "This week, some traders achieved remarkable returns on risk assets. For example, a tech-focused company saw its stock price rise by 15% in just three days. This trend is exciting many investors looking for quick profits.",
-          "text_en_b2": "This week has brought astonishing returns for certain traders involved in risk assets. A prime example is a tech-centric company whose stock price surged by an impressive 15% in the span of just three days. This remarkable trend is generating excitement among investors eager for swift profits, while many are closely monitoring the market to capitalize on similar opportunities, creating an atmosphere charged with anticipation.",
-          "text_en_c1": "This week, several traders have remarkably excelled, garnering astonishing returns on their investments in high-risk assets. Notably, a company specializing in technology stocks experienced a striking 15% surge in its share price over the course of merely three days. This unexpected trend has undeniably invigorated the interest of many investors, who are increasingly seeking out rapid profit opportunities in an unpredictable market. As traders analyze these developments, the implications for future investment strategies and market dynamics remain a topic of fervent discussion among financial analysts and enthusiasts alike.",
-          "text_en_c2": "This week has witnessed some traders achieving astonishing returns on high-risk assets, much to the delight of the financial community. A particularly noteworthy case involves a tech-centric company, which experienced a remarkable surge in its stock price, climbing an impressive 15% within a mere three days. This unprecedented trend has ignited a wave of enthusiasm among investors who are eagerly on the lookout for opportunities to secure quick profits. Such developments not only exemplify the inherent volatility of the market but also underscore the relentless quest for lucrative financial gains that characterizes contemporary investing.",
-          "source_url": "",
-          "source_hint": "Tech stocks show significant gains in three days."
-        },
-        {
-          "id": "tech_01",
-          "category": "tech/ai",
-          "topic_zh": "AI 職位未來",
-          "topic_en": "AI Job Future",
-          "text_zh": "最近有報導指出，AI 將會改變許多行業的工作方式。甚至有公司計劃裁減30%的員工，以適應新的技術。這讓很多人擔心未來的工作機會。",
-          "text_en_b1": "Recent reports suggest that AI will change the way many industries operate. Some companies plan to cut 30% of their workforce to adapt to new technology. This raises concerns about future job opportunities in various sectors.",
-          "text_en_b2": "Recent reports indicate that AI technology is poised to revolutionize operational practices across many industries. In fact, some companies are contemplating workforce reductions of up to 30% in order to accommodate these advancements. This unsettling shift has raised significant concerns regarding future job opportunities within various sectors, as employees and job seekers alike grapple with the implications of such rapid technological changes on their careers.",
-          "text_en_c1": "Recent analyses underscore the profound impact that artificial intelligence is poised to have on the operational frameworks of numerous industries. Alarmingly, some businesses are contemplating workforce reductions of up to 30% as they strive to assimilate these transformative technologies into their operational models. This shift has undoubtedly heightened anxieties regarding the availability of job opportunities across various sectors, prompting a reevaluation of career trajectories for many workers. As industries brace for this inevitable change, the discourse surrounding the future of employment, particularly in the context of technological advancement, has become increasingly critical.",
-          "text_en_c2": "Recent analyses underscore the transformative impact of artificial intelligence across a multitude of industries, suggesting a paradigm shift in operational methodologies. Alarmingly, certain corporations are contemplating drastic workforce reductions, proposing layoffs of up to 30% of their employees, ostensibly as a strategic move to align with emerging technological innovations. This unsettling trend has elicited a swell of anxiety regarding the future landscape of employment opportunities across various sectors, prompting a broader discourse on the implications of AI-driven advancements and their potential to displace traditional job roles that have long been regarded as stable and secure.",
-          "source_url": "",
-          "source_hint": "AI technology expected to reduce workforce by 30%."
-        },
-        {
-          "id": "hk_01",
-          "category": "hk/news",
-          "topic_zh": "香港樓價",
-          "topic_en": "HK Property Prices",
-          "text_zh": "根據最新的市場報告，香港的住宅樓價在過去三個月上升了5%。買家對豪宅的需求依然強勁，這讓很多人擔心市場的可負擔性問題。",
-          "text_en_b1": "According to a recent market report, residential property prices in Hong Kong rose by 5% over the past three months. Demand for luxury homes remains strong, raising concerns about affordability in the market for many potential buyers.",
-          "text_en_b2": "According to a recent market analysis, residential property prices in Hong Kong have risen by 5% over the past quarter. The sustained demand for luxury homes continues to thrive, prompting considerable worries about affordability among potential buyers. As prices climb, many individuals are left wondering how they can navigate the increasingly expensive housing market, leading to discussions about possible solutions to this pressing issue.",
-          "text_en_c1": "A recent market report reveals that residential property prices in Hong Kong have witnessed a notable increase of 5% over the past three months. This trend is largely fueled by persistent demand for luxury apartments, which remains robust despite various economic challenges. Such heightened interest in high-end real estate has understandably raised alarms about the affordability crisis facing many prospective buyers, who may find themselves priced out of the market. As stakeholders analyze these developments, the implications for future housing policies and market accessibility are increasingly under scrutiny.",
-          "text_en_c2": "According to the latest comprehensive market report, residential property prices in Hong Kong have observed a notable increase of 5% over the preceding three months. The persistent demand for luxury housing remains robust, which not only reflects affluence among buyers but also exacerbates concerns regarding overall market affordability. For prospective homeowners, this escalating demand presents significant challenges, as many grapple with the realities of rising living costs and the increasing difficulty of entering an already competitive housing market. As discussions surrounding housing accessibility continue, stakeholders are left to ponder the sustainability of this upward trend.",
-          "source_url": "",
-          "source_hint": "Residential prices in HK up 5% in three months."
-        },
-        {
-          "id": "lol_01",
-          "category": "lol/esports",
-          "topic_zh": "LOL 冠軍賽",
-          "topic_en": "LOL Championship",
-          "text_zh": "今年的 LOL 世界賽將於11月舉行。許多粉絲都在期待今年的冠軍會是誰，並討論可能的賽事結果。",
-          "text_en_b1": "This year's LOL World Championship is set to take place in November. Many fans are eager to see who will be crowned champion and are discussing potential outcomes of the tournament. Excitement is building in the community.",
-          "text_en_b2": "The highly anticipated LOL World Championship is scheduled to take place this November, generating an atmosphere of excitement among fans. Many enthusiasts are eagerly speculating about which team will ultimately be crowned champion, engaging in lively discussions about potential outcomes and match predictions. As the tournament approaches, the community is abuzz with anticipation, fueling further interest in the competitive scene of this popular esports event.",
-          "text_en_c1": "Scheduled for November, this year's League of Legends World Championship has generated considerable anticipation among gaming enthusiasts. Many fans are fervently speculating on the identity of this year's potential champion, engaging in discussions surrounding various possible outcomes of the tournament. The excitement is palpable, with the community eagerly awaiting not only the competitive matches but also the strategic nuances that will unfold throughout the event. As teams prepare to face off on this global stage, the stakes are high, and the implications for the future of esports remain a hot topic amid the growing interest.",
-          "text_en_c2": "The highly anticipated League of Legends World Championship is scheduled to unfold this November, generating considerable excitement among fans and players alike. Enthusiasts are fervently speculating about potential champions, analyzing team strategies and individual player performances in the lead-up to the event. As the tournament date approaches, discussions surrounding possible match outcomes are intensifying, reflecting not only a keen interest in competitive gaming but also a broader cultural engagement with eSports. This season promises to be particularly electrifying, as teams vie for supremacy on the global stage, showcasing their skill and dedication.",
-          "source_url": "",
-          "source_hint": "LOL World Championship scheduled for November."
-        },
-        {
-          "id": "mma_01",
-          "category": "mma/fitness",
-          "topic_zh": "健身新潮流",
-          "topic_en": "Fitness Trends",
-          "text_zh": "最近在健身界流行起來的高強度訓練吸引了許多人。許多健身者表示，這樣的課程能迅速看到身體變化，非常有效。",
-          "text_en_b1": "Recently, high-intensity training has become popular in the fitness community. Many gym-goers report that these classes lead to quick physical changes and are very effective. This trend is reshaping how people approach fitness routines.",
-          "text_en_b2": "Recently, high-intensity interval training (HIIT) has emerged as a trending phenomenon within the fitness community, captivating a significant number of individuals. Many gym-goers report that these rigorous classes facilitate rapid physical transformations, proving to be highly effective. This burgeoning trend is not only reshaping conventional workout routines but also appealing to those seeking efficient means to achieve their fitness goals in an increasingly time-constrained society.",
-          "text_en_c1": "High-intensity training has recently surged in popularity within the fitness community, captivating a wide array of fitness enthusiasts. Participants have reported that these rigorous classes facilitate rapid physical transformations, proving to be incredibly effective for those seeking swift results. This emerging trend is fundamentally shifting conventional approaches to fitness routines, prompting individuals to reconsider their exercise regimens in favor of these more demanding workouts. As the fitness landscape continues to evolve, the implications of such high-intensity modalities on overall health and wellness are becoming increasingly significant.",
-          "text_en_c2": "In recent months, high-intensity training regimens have surged in popularity within the fitness community, capturing the attention of countless individuals seeking efficient workout solutions. Many fitness enthusiasts enthusiastically report that these rigorous classes facilitate rapid physical transformations, demonstrating a marked increase in effectiveness over traditional routines. As a result, this burgeoning trend is not merely redefining personal fitness philosophies but is also reshaping the landscape of exercise participation. With an ever-growing array of options available, the fitness industry is witnessing a shift toward methodologies that prioritize intensity, efficacy, and results-driven approaches to health and wellness.",
-          "source_url": "",
-          "source_hint": "High-intensity training gains popularity among gym-goers."
-        },
-        {
-          "id": "anime_01",
-          "category": "anime/culture",
-          "topic_zh": "動漫新作",
-          "topic_en": "New Anime Releases",
-          "text_zh": "這個秋季有很多新動漫要發布，包括新一季的《進擊的巨人》。粉絲們都在熱烈討論新的劇情走向和角色發展。",
-          "text_en_b1": "This fall, many new anime series are set to release, including the next season of 'Attack on Titan'. Fans are eagerly discussing the new plot developments and character arcs. The excitement in the anime community is palpable.",
-          "text_en_b2": "This autumn is set to witness the release of numerous exciting new anime series, including the highly anticipated next season of 'Attack on Titan'. Fans are already fervently discussing the potential new plot twists and character developments, eagerly theorizing about the direction the story might take. The excitement within the anime community is undeniably palpable, as viewers await the return of their beloved series and new narratives to explore.",
-          "text_en_c1": "This autumn heralds the arrival of numerous new anime series, among which is the highly anticipated next season of 'Attack on Titan.' Fans within the anime community are eagerly engaging in discussions that revolve around potential plot twists and the intricate development of character arcs. The enthusiasm surrounding these upcoming releases is palpable, with many enthusiasts speculating about the direction the narratives might take. As these shows prepare to launch, the excitement not only reflects the growing popularity of anime but also underscores its cultural significance in contemporary media.",
-          "text_en_c2": "This autumn heralds the arrival of numerous highly anticipated anime series, including the next exhilarating installment of 'Attack on Titan.' Fans are fervently engaging in discussions surrounding the anticipated narrative arcs and character developments that this new season promises to deliver. The buzz surrounding these upcoming releases is palpable within the anime community, as aficionados speculate on the thematic directions and creative innovations that may evolve. With a rich plethora of storylines poised to captivate audiences, this season stands to significantly enrich the cultural landscape of anime, fostering deeper connections and conversations among viewers worldwide.",
-          "source_url": "",
-          "source_hint": "'Attack on Titan' returns with a new season this fall."
         }
       ]
     }
