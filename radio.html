@@ -65,13 +65,15 @@
   </div>
   <div class="card">
     <h1>歷史檔隨機播</h1>
-    <p class="lead">由全部重溫日子抽短文，循環播放。可調 A1–B2，可調快慢。B1/B2 有錄音就用 MP3，鎖屏都繼續；A1/A2 用語音讀短句。</p>
+    <p class="lead">由全部重溫日子抽短文，循環播放。可調 A1–C2，可調快慢。B1–C2 有錄音就用 MP3，鎖屏都繼續；A1/A2 用語音讀短句。</p>
     <div class="row">
       <div class="label">程度</div>
       <button class="chip" data-level="A1" type="button">A1</button>
       <button class="chip" data-level="A2" type="button">A2</button>
       <button class="chip on" data-level="B1" type="button">B1</button>
       <button class="chip" data-level="B2" type="button">B2</button>
+      <button class="chip" data-level="C1" type="button">C1</button>
+      <button class="chip" data-level="C2" type="button">C2</button>
     </div>
     <div class="row">
       <div class="label">快慢</div>
@@ -91,12 +93,13 @@
     </div>
     <audio id="player" controls preload="none"></audio>
     <div class="status" id="status">載入歷史檔…</div>
-    <p class="note">背景播放：B1/B2 錄音可以鎖屏繼續。A1/A2 係手機語音，部分手機會咺完全切走後暫停，返嚟會自動接。</p>
+    <p class="note">背景播放：B1–C2 錄音可以鎖屏繼續。A1/A2 係手機語音，部分手機會咺完全切走後暫停，返嚟會自動接。</p>
   </div>
 </div>
 <script>
 const $ = (id) => document.getElementById(id);
 const player = $('player');
+const AUDIO_LEVELS = { B1: 1, B2: 1, C1: 1, C2: 1 };
 const state = {
   level: localStorage.getItem('radio-level') || 'B1',
   rate: Number(localStorage.getItem('radio-rate') || 1),
@@ -149,15 +152,19 @@ function simplify(text, maxWords) {
   return out.filter(Boolean).slice(0, maxWords === 6 ? 4 : 6);
 }
 function linesFor(clip) {
-  const b1 = clip.text_en_b1 || clip.text_en_b2 || '';
+  const b1 = clip.text_en_b1 || clip.text_en_b2 || clip.text_en_c1 || '';
   const b2 = clip.text_en_b2 || b1;
+  const c1 = clip.text_en_c1 || b2;
+  const c2 = clip.text_en_c2 || c1;
+  if (state.level === 'C2') return [c2];
+  if (state.level === 'C1') return [c1];
   if (state.level === 'B2') return [b2];
   if (state.level === 'B1') return [b1];
   if (state.level === 'A2') return simplify(b1, 10);
   return simplify(b1, 6);
 }
 function mp3For(clip) {
-  if (state.level !== 'B1' && state.level !== 'B2') return '';
+  if (!AUDIO_LEVELS[state.level]) return '';
   if (!clip._date || !clip.id) return '';
   return 'audio/' + clip._date + '/clip-' + clip.id + '-' + state.level.toLowerCase() + '.mp3';
 }
@@ -270,12 +277,12 @@ if ('mediaSession' in navigator) {
   navigator.mediaSession.setActionHandler('previoustrack', () => { state.i = Math.max(0, state.i - 1); playCurrent(true); });
 }
 async function loadPool() {
-  const res = await fetch('clips/history.json?v=20261005a');
+  const res = await fetch('clips/history.json?v=20261005b');
   const data = await res.json();
   const days = data.days || [];
   state.pool = [];
   days.forEach(day => (day.clips || []).forEach(c => {
-    if (c.text_en_b1 || c.text_en_b2) state.pool.push(Object.assign({ _date: day.date }, c));
+    if (c.text_en_b1 || c.text_en_b2 || c.text_en_c1 || c.text_en_c2) state.pool.push(Object.assign({ _date: day.date }, c));
   }));
   shuffle();
   $('status').textContent = state.pool.length + ' 則 · ' + days.length + ' 日 · 隨機循環';
