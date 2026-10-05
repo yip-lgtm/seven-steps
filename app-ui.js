@@ -31,7 +31,7 @@ function renderHome() {
     '<div class="home-stat"><div class="label">All time</div><div class="value">'+state.progress.totalClips+'</div><div class="sub">clips</div></div></div>'+
     '<div class="btn-row"><button class="btn btn-primary btn-large" id="btn-start"'+(state.clips.length?'':' disabled')+'>'+(log.clips>0?'Continue today':'Start today')+'</button>'+
     '<button class="btn btn-ghost" id="btn-review">重溫</button><button class="btn btn-ghost" id="btn-settings">Settings</button>'+
-    '<a class="btn btn-warm" href="practice.html">無限出句</a></div><ul class="steps-list">'+stepsHtml+'</ul></div>';
+    '<a class="btn btn-warm" href="practice.html">無限出句</a><a class="btn btn-ghost" href="radio.html">24/7 電台</a></div><ul class="steps-list">'+stepsHtml+'</ul></div>';
 }
 function renderSession() {
   const sess = state.session;
