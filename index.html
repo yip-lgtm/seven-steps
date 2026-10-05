@@ -74,7 +74,7 @@
   .steps-list .body { flex: 1; }
   .steps-list strong { color: var(--ink); }
   .steps-list .desc { color: var(--ink-soft); font-size: 13px; margin-top: 1px; }
-  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 15px; font-weight: 500; cursor: pointer; font-family: inherit; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 15px; font-weight: 500; cursor: pointer; font-family: inherit; text-decoration: none; }
   .btn:hover:not(:disabled) { background: var(--bg); }
   .btn:disabled { opacity: 0.4; cursor: not-allowed; }
   .btn-primary { background: var(--accent); color: white; border-color: var(--accent); }
@@ -187,6 +187,7 @@
       </div>
     </div>
     <div class="topbar-right">
+      <a class="btn btn-ghost" href="radio.html" style="padding:8px 14px;font-size:13px">24/7 電台</a>
       <button class="theme-toggle" id="btn-theme" aria-label="Toggle dark mode" title="Toggle dark mode">
         <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
         <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -202,7 +203,7 @@
   <div id="view"></div>
 </div>
 <div class="toast" id="toast"></div>
-<script src="app-core.js?v=20260924c"></script>
-<script src="app-ui.js?v=20260924c"></script>
+<script src="app-core.js?v=20261005a"></script>
+<script src="app-ui.js?v=20261005a"></script>
 </body>
 </html>
