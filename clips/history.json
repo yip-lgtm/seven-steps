@@ -1,6 +1,116 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-08",
   "days": [
+    {
+      "date": "2026-10-08",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-gold-001",
+          "category": "trading",
+          "topic_zh": "黃金仲買唔買",
+          "topic_en": "Gold Buy Thread",
+          "text_zh": "又有4chan仔話買金嘅人係白痴，金價根本係泡沫尾段，1980s嘅孳息已經爆上嚟。btw我CFD又輸緊，睇完好似仲灰。🙏",
+          "text_en_b1": "Are you guys buying gold right now? That is genuinely retarded. Imagine bagholding gold as yields are blowing up back to 1980s levels. There were two years (2020 and 2021) where inflation was actually outpacing the rate hikes. In real terms, yields have been climbing every year since then.",
+          "text_en_b2": "Honestly, anyone piling into gold right now is asking for trouble. With yields climbing back toward 1980s levels and the metal coasting on a speculative bubble, the parallels with the 70s top are becoming uncomfortably obvious. Two years, 2020 and 2021, saw inflation outpacing rate hikes, yet real yields have trended upward ever since. What followed last time was the worst gold crash in history, followed by two decades of pain. CFD bagholders, take note: today is October 2026 and the chart still looks toppy.",
+          "text_en_c1": "Honestly, anybody still piling into gold right now needs to have a serious word with themselves. Yields have effectively normalised to levels last witnessed in the early 1980s, a period that should give any rational investor pause. During 2020 and 2021, headline inflation demonstrably outpaced every rate hike the Fed implemented, yet in real terms those yields have continued climbing ever since. That precedent mirrors the late 1970s precisely: gold coasting on a speculative bubble, followed by the worst crash in its history and a two-decade bear market. CFD bagholders, take note. Stack cash, not metal. Today is October 2026, and the chart remains conspicuously toppy.",
+          "text_en_c2": "Acquiring bullion at present strikes me as an exercise in profound folly, given that real yields are staging an inexorable march back toward the punishing territory last witnessed in the early 1980s. During 2020 and 2021, inflation demonstrably outstripped successive rate hikes, and ever since, in real terms, the yield curve has trended remorselessly upward. The historical analogue is rather instructive: gold coasted through the late seventies on residual speculative momentum from prior inflation, culminating in the most catastrophic bullion rout on record and a subsequent two-decade bear market. CFD bagholders, take heed. The prudent posture remains one of hoarding liquidity rather than a yellow rock that scarcely justifies its mystique. As of October 2026, the chart nonetheless retains a distinctly toppy character.",
+          "source_url": "https://boards.4chan.org/biz/thread/62759663",
+          "source_hint": "/biz/ anon argues against buying gold right now as yields rise"
+        },
+        {
+          "id": "biz-trump-token-001",
+          "category": "trading",
+          "topic_zh": "$TRUMP黃金迷因",
+          "topic_en": "$TRUMP Gold Standard",
+          "text_zh": "4chan瘋狂陰謀論，話特朗普會將黃金儲備tokenize成$TRUMP，再變新美金標準。ok我信你個邪，lol。btw我futures又輸緊。",
+          "text_en_b1": "They are going to hyperinflate the USD. Per project 2025 and QAnon, they will introduce a new currency backed by a commodity. Trump periodically checks the gold reserves to make sure the gold is still there. Trump is now cozying up with Sergey for his tokenization tech. He will tokenize the gold reserves into $TRUMP.",
+          "text_en_b2": "Per QAnon and Project 2025, the plan is to hyperinflate the dollar and introduce a new commodity-backed currency alongside it. Trump allegedly keeps checking the gold reserves, while cozying up to Sergey for tokenization tech. The theory goes that reserves get tokenized into $TRUMP, backed by gold, effectively becoming a parallel gold standard. No coin required, just vibes and central planning. I am posting this on /biz/ in October 2026 so I can later claim I called it before it happened.",
+          "text_en_c1": "They are preparing to hyperinflate the USD into oblivion. Citing Project 2025 and assorted QAnon adjacent material, the theory runs as follows: Trump periodically inspects the gold reserves to verify their continued existence, has cozied up to Sergey for tokenisation infrastructure, and intends to mint a $TRUMP token fully collateralised by those reserves. That token would then constitute a parallel gold standard, effectively a second national currency alongside a deliberately debased dollar. No physical coin required, only vibes and central planning. Posting this on /biz/ in October 2026 so that, should it transpire, I can credibly claim I called it.",
+          "text_en_c2": "The prevailing conspiratorial fever on /biz/ holds that the administration will deliberately hyperinflate the greenback before unveiling a tokenised, commodity-backed successor currency. Drawing selectively upon Project 2025 and the more florid reaches of QAnon mythology, proponents contend that Trump periodically inspects Fort Knox to confirm the reserves remain physically extant, and that his recent rapprochement with Sergey is predicated on acquiring the requisite tokenisation infrastructure. The bullion, once transmuted into $TRUMP, would ostensibly underwrite a parallel gold standard operating alongside a debased dollar. No minting required, merely vibes and a rather audacious exercise in central planning. I am memorialising this on /biz/ in October 2026, several months before it inevitably comes to pass, so posterity may recognise prescience.",
+          "source_url": "https://boards.4chan.org/biz/thread/62757766",
+          "source_hint": "/biz/ conspiracy about $TRUMP token being backed by US gold"
+        },
+        {
+          "id": "g-software-eng-001",
+          "category": "tech/ai",
+          "topic_zh": "AI寫Code末日",
+          "topic_en": "AI Writes Code",
+          "text_zh": "睇完好驚。一個老細用兩個Claude Max plan build咗成個product，年賺過百萬美金USD，零code。我哋打工程嘅遲早畀AI取代。🙏",
+          "text_en_b1": "Is everyone just bad at using AI? What is the deal with everyone saying that AI produces slop code? I work for a very profitable small software company in the US. I have built systems with throughputs of hundreds of millions of dollars in transactions a year, netting over 14 million dollars a month in profit.",
+          "text_en_b2": "Is everyone genuinely bad at using AI, or what? I run a very profitable small software company in the US, and our systems routinely handle hundreds of millions in annual transactions, netting over fourteen million dollars monthly. I have not written a single line of code in over a year, because everything gets built solo across two Claude Max plans that I switch between. While critics keep complaining about slop code, the product keeps shipping. Posted from /g/ in October 2026, still profitable.",
+          "text_en_c1": "Is everyone simply incompetent at leveraging AI? What, in god's name, is the basis for claiming that AI produces nothing but slop? I run a profitable small software firm in the US whose systems process hundreds of millions of dollars in transactions annually, netting comfortably above fourteen million per month. I have not written a line of code in over twelve months. My entire output is built solo, alternating between two Claude Max subscriptions to keep throughput high. Posted from /g/ in October 2026; the venture remains profitable, and I am sleeping extraordinarily well.",
+          "text_en_c2": "There persists a rather vocal constituency convinced that machine-generated code is inherently slop, a contention with which my own experience is profoundly at odds. I presently work, entirely solo, for a highly profitable American software concern, having architected systems that process transaction volumes measured in the hundreds of millions annually, with monthly profits comfortably clearing fourteen million dollars. I have not personally committed a single line of code to any of these products in over twelve months; my entire development workflow consists of alternating between two Claude Max subscriptions. Whatever the prevailing scepticism may hold, the underlying tooling has proven itself, at least in my hands, remarkably capable. Filed from /g/, October 2026, and the revenue continues to accumulate without intervention.",
+          "source_url": "https://boards.4chan.org/g/thread/110005846",
+          "source_hint": "/g/ solo dev claims no code for a year, ships product with two Claude Max plans"
+        },
+        {
+          "id": "g-dad-gov-001",
+          "category": "tech/ai",
+          "topic_zh": "政府工都用新棧",
+          "topic_en": "Gov Union Credit System",
+          "text_zh": "有個老豆喺政府工做，搵個仔寫個信用合作社system。佢用Elysia、Solid、Postgres，仲要Nix systemd-nspawn。wtf真係離晒地。",
+          "text_en_b1": "Dad is now the standard for software engineering. Be me, neet programmer. Dad works at a government union and asks if I can make a system to manage their credit association. It is potentially a huge project, so I try my best: custom SSR framework with Elysia, Solid and Postgres, no third-party services or dependencies, Nix and systemd-nspawn for containers.",
+          "text_en_b2": "Be me, a neet programmer. Dad works at a government union and casually asks if I can build a system to manage their credit association. Realising the project could easily scale into something massive, I pull out all the stops: a custom SSR framework built on Elysia, Solid and Postgres, with no third-party dependencies whatsoever. Nix and systemd-nspawn handle the containers. Once I see millions flowing through the fund, panic sets in, so I start studying database theory and skimming textbooks for proper procedures.",
+          "text_en_c1": "My father has effectively become the benchmark for software engineering. Be me, a neet programmer whose dad works at a government union and casually asks whether I might assemble a system to administer their credit association. Given that millions flow through the fund annually, the stakes are rather higher than a weekend hackathon. My stack: a custom SSR framework built on Elysia with Solid and Postgres, zero third-party dependencies whatsoever, and Nix plus systemd-nspawn handling containerisation. I have been poring over database theory textbooks in a cold sweat. The thread was posted on /g/ today and continues accruing replies.",
+          "text_en_c2": "My father has unwittingly become the benchmark against which all professional software engineering must henceforth be measured. The circumstances were as follows: a neet programmer, myself, prevailed upon by a father employed at a government union to construct a credit-association management system of potentially considerable scope. Recognising the gravity of the undertaking, I deployed a bespoke server-rendered framework built upon Elysia, Solid, and Postgres, eschewing all third-party services and external dependencies; Nix and systemd-nspawn handle the containerisation layer with admirable parsimony. Upon auditing the fund's flow and discovering that millions traverse it annually, I was consumed by an almost primal panic concerning reliability, and promptly immersed myself in database theory to assuage my anxiety.",
+          "source_url": "https://boards.4chan.org/g/thread/110002092",
+          "source_hint": "/g/ neet builds gov-union credit system with custom SSR + Postgres"
+        },
+        {
+          "id": "biz-income-001",
+          "category": "hk/news",
+          "topic_zh": "美國70%月光族",
+          "topic_en": "70% Paycheck to Paycheck",
+          "text_zh": "Bloomberg話美國70%人paycheck to paycheck，最窮嗰50%只揸2.5%財富。咁我返Florida都係做炮灰。靠AI續命。🙏",
+          "text_en_b1": "Update, as per Bloomberg yesterday. The bottom 40% of Americans are living paycheck to paycheck. However, another 30%, even though with higher income, are also living paycheck to paycheck. The bottom 70% of Americans live paycheck to paycheck. Everyone else has cut back on spending also. Only the upper echelon, the top 5%, are doing well.",
+          "text_en_b2": "According to Bloomberg yesterday, the bottom forty percent of Americans are living paycheck to paycheck, and another thirty percent with higher incomes are doing the same. That puts roughly seventy percent of the country in the same boat, while everyone else has been forced to cut back. Only the top five percent are genuinely thriving, since the bottom fifty percent own a measly 2.5 percent of total wealth. If you fall outside that top bracket, you are essentially working for tips.",
+          "text_en_c1": "Update, drawing on Bloomberg figures released yesterday. The bottom forty percent of Americans are demonstrably subsisting paycheck to paycheck, yet the problem does not terminate there: an additional thirty percent, despite materially higher incomes, find themselves in precisely the same predicament. Effectively, the bottom seventy percent are living hand to mouth. The remainder have been compelled to retrench expenditure across the board. Only the upper echelon, broadly the top five percent, are flourishing. As a sobering coda: the bottom fifty percent collectively hold a mere two and a half percent of aggregate wealth. If you fall outside that top five percent, you are fundamentally working for tips.",
+          "text_en_c2": "Per Bloomberg's most recent dispatch, the macroeconomic picture for the median American household is, if anything, even grimmer than the prevailing consensus suggests. The bottom forty per cent are, predictably, living hand to mouth, but a further thirty per cent of ostensibly higher-earning households find themselves in identical straits, yielding a cumulative seventy per cent of the population subsisting paycheck to paycheck. Even those marginally above this cohort have retrenched aggressively on discretionary expenditure. Only the uppermost five per cent are demonstrably flourishing, a stratification made starker by the observation that the bottom half commands a scarcely believable 2.5 per cent of aggregate wealth. If one falls outside that gilded stratum, one is, functionally speaking, working for gratuities.",
+          "source_url": "https://boards.4chan.org/biz/thread/62738405",
+          "source_hint": "/biz/ anon summarizes Bloomberg piece on 70% of Americans living paycheck to paycheck"
+        },
+        {
+          "id": "biz-wood-001",
+          "category": "trading",
+          "topic_zh": "木材貴過黃金",
+          "topic_en": "Wood > Gold",
+          "text_zh": "膠膠吶，4chan仔話木係宇宙最稀有，黃金滿地都係。外星人要嚟地球搶木唔搶金。lol我信你。btw木材CFD有冇具抄？",
+          "text_en_b1": "This ends the right-wing investor. Wood is the rarest material in the universe. Even more rare than gold or diamonds. If aliens invade the planet, they will come to steal wood, not gold or silver. Gold is abundant in the universe and inside the earth. It is literally worthless. Buy lumber futures, not the shiny metal.",
+          "text_en_b2": "Wood is supposedly the rarest material in the entire universe, far scarcer than gold or diamonds, which means any invading aliens would come for timber rather than precious metals. Gold, by contrast, is abundant both in space and underground, making it essentially worthless. Lumber closed limit up on the CME last Friday, and although the poster signs off with a tongue-in-cheek wood gang, a few anons are genuinely opening long positions on the November 2026 lumber contract. Only on /biz/.",
+          "text_en_c1": "This, ladies and gentlemen, concludes the right-wing investor thesis for good. Wood is, by every meaningful metric, the rarest material in the observable universe, considerably scarcer than gold or diamonds. Should extraterrestrials elect to invade, they would come for lumber, not bullion. Gold, by contrast, is genuinely abundant both throughout the cosmos and within the earth's crust, rendering it effectively worthless. Lumber closed limit up on the CME last Friday. The /biz/ poster closes with the rallying cry 'wood gang for the win', and a handful of anons are purportedly initiating long positions in the November 2026 contract.",
+          "text_en_c2": "The proposition before us, advanced with characteristic gravitas by an enterprising /biz/ interlocutor, is that timber constitutes the rarest material in the cosmos, eclipsing gold and diamond alike in scarcity. Should an extraterrestrial civilisation harbour designs upon our planetary resources, the argument runs, their interest would be piqued by lumber rather than precious metals; gold, after all, is comparatively abundant throughout the universe and within the Earth's mantle, rendering it effectively worthless. Lumber futures, by contrast, closed limit up on the CME last Friday, and the contrarian thesis is gathering momentum. Several anons have already declared their intention to initiate long positions in the November 2026 contract. Wood gang, it transpires, may yet prevail.",
+          "source_url": "https://boards.4chan.org/biz/thread/62762606",
+          "source_hint": "/biz/ troll thread argues wood is rarer than gold, aliens will invade for it"
+        },
+        {
+          "id": "fit-gym-buddy-001",
+          "category": "mma/fitness",
+          "topic_zh": "死都唔做Cardio",
+          "topic_en": "Cardio Refusal",
+          "text_zh": "笑死。我gym buddy squat 500磅，但行三層樓梯就chur到震。肥仔信都係咁，一落gym就唔郁。靠AI續命都唔得。🙏",
+          "text_en_b1": "My gym buddy squats over 500 lbs, but the second we finish lifting, he refuses to do any cardio. He is convinced a 10-minute incline walk will ruin his progress at the end. Today we walked out and had to take some flights of stairs to the upper parking deck because of construction on the lower levels.",
+          "text_en_b2": "My gym buddy can squat well over 500 pounds, yet the moment we finish lifting, he flat-out refuses any cardio, convinced that a ten-minute incline walk would somehow undo his gains. Today we left the gym and had to climb several flights of stairs to the upper parking deck because construction had closed the lower levels. Halfway up he was already huffing, gripping the rail, and forced to stop after barely three flights. Strong on the squat rack, useless on the stairs.",
+          "text_en_c1": "My training partner can squat comfortably in excess of 500 pounds, yet the instant we conclude a session, he categorically refuses any cardiovascular work whatsoever. He remains thoroughly convinced that a modest ten-minute incline walk will catastrophically undo whatever gains he has accrued. Today we exited the facility and were obliged to ascend several flights of stairs to the upper parking deck owing to ongoing construction below. By the third flight he was audibly gasping, white-knuckling the handrail, and compelled to slow to a crawl. I struggle to fathom the rationale behind cultivating strength that evaporates the moment a staircase appears. Posted on /fit/ today, October 2026.",
+          "text_en_c2": "My training partner, whose back squat now exceeds five hundred pounds with apparent ease, exhibits a curious blind spot where cardiovascular exertion is concerned; he maintains, with quasi-religious conviction, that a ten-minute incline walk at the session's conclusion would catastrophically compromise his hard-won gains. The schism between his lower-body prowess and his aerobic capacity was rendered rather vivid this afternoon, when construction in the lower lot compelled us to ascend several flights of stairs to the upper parking deck. He was audibly wheezing by the third landing, clutching the handrail with the desperate resolve of a man confronting mortality, and was obliged to pause repeatedly. The pursuit of raw strength, I maintain, ought not to render one incapable of navigating a staircase.",
+          "source_url": "https://boards.4chan.org/fit/thread/77554925",
+          "source_hint": "/fit/ anon mocks gym partner who squats heavy but can't do stairs"
+        },
+        {
+          "id": "a-sasaki-001",
+          "category": "anime/culture",
+          "topic_zh": "年齡差動畫",
+          "topic_en": "Sasaki Age Gap",
+          "text_zh": "Sasaki and Pi-Chan S2 出咗。4chan仔話又係年齡差餌，根本唔會發展。lol日本動畫每季都一定要教男人道德。靠Anime續命。🙏",
+          "text_en_b1": "Sasaki and Pi-Chan S2 is out. The latest age-gap bait that goes nowhere is here, satisfying the mandatory requirement that at least one anime aimed at men per season teaches that it is moral to never desire a younger woman. The first episode aired on Tokyo MX this October.",
+          "text_en_b2": "Sasaki and Pi-Chan S2 has dropped, and it is the latest entry in the seasonal tradition of age-gap bait that resolutely refuses to go anywhere meaningful. Apparently every anime season aimed at men must include at least one show reminding viewers that desiring younger women is morally indefensible. The premiere aired on Tokyo MX this October, and the /a/ thread has already blown past 200 replies, with anons split between accusing the studio of cynical bait and praising its sincerity. New season, October 2026.",
+          "text_en_c1": "Sasaki and Pi-Chan S2 has finally arrived, bringing with it yet another instalment of age-gap bait that, predictably, refuses to commit to any meaningful romantic progression. Apparently, each anime season must contain at least one title dutifully instructing its male audience that desiring a younger woman constitutes a moral failing beyond redemption. The premiere aired on Tokyo MX earlier this October. The accompanying /a/ thread has already surpassed 200 replies, with anons embroiled in earnest debate over whether the studio is cynically baiting viewers or making a genuinely earnest thematic statement. New season dropped today, October 2026.",
+          "text_en_c2": "Sasaki and Pi-Chan has returned for a second season, and the discourse surrounding it on /a/ is already the customary fevered mixture of anticipation and exasperated resignation. The anime, which premiered on Tokyo MX this October, slots neatly into the now-familiar template of age-gap narratives that resolutely refuse to advance beyond teasing implication, thereby satisfying what has become an almost genre-mandated stipulation that at least one seasonal offering aimed squarely at male audiences must reaffirm the moral propriety of eschewing younger paramours. Two hundred replies in, anons remain divided as to whether the production committee is cynically baiting its viewership or making a sincere thematic statement. The new season has, regardless, dropped today, October 2026.",
+          "source_url": "https://boards.4chan.org/a/thread/291474434",
+          "source_hint": "/a/ thread roasts Sasaki and Pi-Chan S2 as age-gap bait that goes nowhere"
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "source": "ai",
@@ -4331,103 +4441,6 @@
           "text_en_c2": "The cultural phenomenon of anime has been experiencing a remarkable surge in popularity across Hong Kong, with particular acclaim for series such as 'Attack on Titan' and 'Demon Slayer.' This growing fascination has prompted a vibrant participation in anime conventions among the youth, where they enthusiastically express their admiration for various characters and narratives. Such gatherings not only foster a sense of community among fans but also highlight the broader cultural implications of anime as it transcends geographical boundaries, influencing contemporary arts and entertainment, and reshaping youth subcultures in dynamic and innovative ways.",
           "source_url": "https://news.google.com/search?q=anime+culture+Hong+Kong",
           "source_hint": "Anime culture is rapidly growing among Hong Kong youth."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trading1",
-          "category": "trading",
-          "topic_zh": "賭米情緒",
-          "topic_en": "Gambling Vibes",
-          "text_zh": "有人話最近的市場就似賭場一樣，特別係美股。過去一星期，科技股價格急升，有人說呢個可能係因為投資者對經濟復甦有信心，但其實係唔係話賭博呢？",
-          "text_en_b1": "Recently, the stock market feels like a casino, especially the US stocks. In the past week, tech stocks rose sharply. Some people say this is due to investor confidence in the economic recovery. However, many are wondering if it is more like gambling.",
-          "text_en_b2": "Recently, many analysts have compared the stock market to a casino, particularly in regard to US equities. Over the past week, there has been a remarkable surge in tech stock prices. While some attribute this rise to renewed investor confidence in the economic recovery, others question whether this trend resembles more of a gamble rather than a calculated financial strategy.",
-          "text_en_c1": "The current dynamics of the stock market appear reminiscent of a casino, particularly regarding U.S. equities. Over the past week, there has been a notable surge in technology stocks, prompting some analysts to assert that this trend reflects heightened investor confidence in the prospects for economic recovery. Nevertheless, a critical perspective prevails, with many doubting whether this optimism is genuine or merely a manifestation of speculative behavior akin to gambling, raising concerns about the sustainability of such rapid price fluctuations.",
-          "text_en_c2": "The current stock market has been likened to a gambling establishment, particularly in regard to U.S. equities. Over the last week, there has been a remarkable surge in the prices of technology stocks, which some analysts attribute to a burgeoning investor confidence in economic recovery. However, a growing contingent contemplates whether this optimism is genuinely grounded in rational assessment or if it resembles the speculative nature of gambling, wherein decisions are governed more by chance than by an informed understanding of market fundamentals.",
-          "source_url": "",
-          "source_hint": "Market discussions liken stock trading to gambling."
-        },
-        {
-          "id": "trading2",
-          "category": "trading",
-          "topic_zh": "賺唔到錢",
-          "topic_en": "Struggle to Profit",
-          "text_zh": "今年以來損失慘重，特別係我嘅CFD交易，冇一個月賺過錢。一啲老手話，做投資就好似打LOL，唔好急於求成，要有耐性！",
-          "text_en_b1": "This year has been tough with losses, especially in my CFD trading. I have not made a profit in any month. Some veterans say investing is like playing League of Legends; patience is key and rushing will only lead to trouble.",
-          "text_en_b2": "This year has been particularly challenging for me, as I have faced significant losses, especially with my CFD trading, having failed to make a profit in any month so far. Many seasoned traders suggest that investing is akin to playing League of Legends; they emphasize the importance of patience, arguing that rushing into decisions can lead to adverse outcomes.",
-          "text_en_c1": "This year has proven exceptionally challenging, particularly with my CFD trading endeavors, as I have recorded no profitable months thus far. Seasoned investors often draw parallels between trading and competitive gaming, such as 'League of Legends,' emphasizing that success requires patience and strategic thinking. The common belief among veterans is that hasty decisions can jeopardize financial outcomes, underscoring the necessity of a disciplined approach to navigating the unpredictable landscape of investment opportunities.",
-          "text_en_c2": "This year has proven to be exceedingly arduous, culminating in significant losses, especially within the realm of my CFD trading endeavors. Not a single month has yielded profitability, leading to considerable frustration. Some seasoned investors draw parallels between investing and the popular game League of Legends, emphasizing that the pursuit of success necessitates patience and strategic deliberation rather than impulsive decisions, which often lead to detrimental outcomes and losses that could have been avoided with a more tempered approach.",
-          "source_url": "",
-          "source_hint": "Traders compare investing to playing video games."
-        },
-        {
-          "id": "tech1",
-          "category": "tech/ai",
-          "topic_zh": "AI影響職場",
-          "topic_en": "AI Impact on Jobs",
-          "text_zh": "最近一篇報告講到AI可能取代大約30%嘅工作，特別係文職和藍領崗位。好多朋友擔心，未來可能要轉行做其他工作。",
-          "text_en_b1": "A recent report states that AI could replace around 30% of jobs, especially in white-collar and blue-collar sectors. Many friends are worried that they may need to switch careers in the future because of this trend.",
-          "text_en_b2": "According to a recent report, it is projected that AI could potentially replace approximately 30% of jobs, especially within both white-collar and blue-collar industries. As a result, numerous individuals have expressed concern about the future, fearing they may have to change their career paths due to this ongoing technological trend, which seems unavoidable.",
-          "text_en_c1": "A recent report has alarming implications, suggesting that up to 30% of jobs could be rendered obsolete by artificial intelligence, particularly in both white-collar and blue-collar industries. This revelation has sparked considerable anxiety among many of my acquaintances, who express concerns that they may soon be compelled to pivot their careers in response to this technological upheaval. The potential displacement of workers raises critical questions about the future of employment and the necessary adaptations that may be required to remain relevant in an evolving job market.",
-          "text_en_c2": "A recent report has highlighted the stark reality that artificial intelligence may potentially displace approximately 30% of jobs across various sectors, notably affecting both white-collar and blue-collar positions. This revelation has provoked anxiety among numerous acquaintances, who are increasingly concerned about the need to pivot to alternative careers in light of such technological advancements. As automation permeates numerous industries, the implications for job security and workforce dynamics become deeply significant, compelling individuals to reassess their professional trajectories.",
-          "source_url": "",
-          "source_hint": "A report on AI job displacement raises concerns."
-        },
-        {
-          "id": "hknews1",
-          "category": "hk/news",
-          "topic_zh": "地產市場",
-          "topic_en": "Real Estate Market",
-          "text_zh": "香港地產市場依然強勁，最新數據顯示上個月成交量增加咗20%。大家都期待下一個買樓熱潮，但其實唔知入唔入得住。",
-          "text_en_b1": "The Hong Kong real estate market remains strong, with the latest data showing a 20% increase in transaction volume last month. Many people are looking forward to the next property boom, but there are uncertainties on whether they can afford it.",
-          "text_en_b2": "The real estate market in Hong Kong continues to show resilience, with the latest statistics revealing a significant 20% increase in transaction volume last month. Many individuals are eagerly anticipating the next property boom, yet there remains uncertainty about whether they will be financially able to participate in the market as prices continue to rise.",
-          "text_en_c1": "The real estate market in Hong Kong continues to demonstrate resilience, as recent statistics indicate a remarkable 20% increase in transaction volume over the past month. This trend has piqued the interest of many prospective buyers who eagerly anticipate the emergence of the next property boom. However, despite this optimism, there remains a lingering uncertainty regarding affordability and market entry. Consequently, potential buyers find themselves grappling with questions about their financial readiness in the face of rising prices and competitive bidding environments.",
-          "text_en_c2": "The real estate market in Hong Kong continues to exhibit remarkable strength, with the most recent statistics indicating a 20% surge in transaction volume from the previous month. This encouraging trend has sparked widespread anticipation regarding the next property boom; however, prospective buyers remain uncertain about their financial readiness to engage in such investments. As the market dynamics evolve, the question of affordability becomes paramount, particularly for those aspiring to capitalize on rising property values amidst fluctuating economic conditions.",
-          "source_url": "",
-          "source_hint": "Recent data shows increased activity in Hong Kong's real estate."
-        },
-        {
-          "id": "lol1",
-          "category": "lol/esports",
-          "topic_zh": "LOL賽季更新",
-          "topic_en": "LOL Season Update",
-          "text_zh": "最新一個LOL賽季更新話會改動好多角色技能，特別係ADC角色，被指係想提高比賽可看性！你覺得呢個改動會唔會影響到職業賽事？",
-          "text_en_b1": "The latest League of Legends season update mentioned that many champion skills will be changed, especially for ADC roles. This is said to increase spectator enjoyment during matches. It raises the question of whether this change will affect professional tournaments.",
-          "text_en_b2": "The most recent update for League of Legends has announced significant changes to many champion skills, particularly for ADC roles, which reportedly aims to enhance viewer engagement during competitive matches. This raises the critical question of whether these changes will ultimately impact professional tournaments and the strategies employed by players in high-stakes environments.",
-          "text_en_c1": "The most recent update for League of Legends has announced significant changes to numerous champion abilities, particularly affecting ADC roles. This adjustment is purportedly aimed at enhancing the spectator experience during competitive matches. Nonetheless, it prompts an important discussion regarding the potential implications for professional tournaments. Enthusiasts are left to ponder whether these modifications will truly elevate the level of competition and engagement, or if they might inadvertently disrupt the established balance among champions, ultimately influencing strategies employed in the esports arena.",
-          "text_en_c2": "The latest update for the League of Legends season reveals imminent alterations to the skill sets of numerous champions, with a pronounced emphasis on ADC roles. This strategic adjustment is purportedly designed to enhance the viewing experience for spectators during competitive matches. Nevertheless, this development raises pertinent questions regarding its potential ramifications for professional tournaments, particularly in terms of balance and gameplay dynamics, and whether these modifications will ultimately enrich or detract from the competitive integrity of the game.",
-          "source_url": "",
-          "source_hint": "LOL's new season update promises major changes to champion skills."
-        },
-        {
-          "id": "mma1",
-          "category": "mma/fitness",
-          "topic_zh": "健身與格鬥",
-          "topic_en": "Fitness and Fighting",
-          "text_zh": "最近參加咗幾堂MMA訓練，發現到自己嘅體能真係有進步，但都仲要繼續努力！唔想變成廢物，仲要打出一場好嘅比賽！",
-          "text_en_b1": "I recently attended several MMA training sessions and noticed improvement in my fitness. However, I know I must keep working hard. I do not want to become a loser, and I want to perform well in my next fight.",
-          "text_en_b2": "I have recently participated in several MMA training sessions and have observed a noticeable improvement in my physical fitness. Nevertheless, I recognize that there is still much work to be done to reach my goals. I am determined to avoid stagnation, as I aspire to perform exceptionally well in my upcoming fight.",
-          "text_en_c1": "After recently engaging in several MMA training sessions, I have observed tangible improvements in my physical fitness. Nonetheless, I recognize that there is still ample room for growth, and my journey requires sustained effort and dedication. My aspiration is to avoid falling into complacency; thus, I am firmly committed to refining my skills and enhancing my performance in future competitions. The desire to succeed and demonstrate my capabilities in the ring serves as a powerful motivator to continue pushing my limits and achieving my fitness goals.",
-          "text_en_c2": "Having recently participated in several MMA training sessions, I have observed a commendable improvement in my physical conditioning; yet, I am acutely aware that the journey requires ongoing dedication and effort. I am determined to avoid the pitfalls of complacency that could relegate me to mediocrity, as my aspirations extend beyond mere participation. My ultimate objective is to showcase my skills effectively in my forthcoming fight, necessitating not only hard work but also a resilient mindset to overcome the challenges ahead.",
-          "source_url": "",
-          "source_hint": "MMA training shows progress in fitness and skills."
-        },
-        {
-          "id": "anime1",
-          "category": "anime/culture",
-          "topic_zh": "動漫熱潮",
-          "topic_en": "Anime Craze",
-          "text_zh": "最近《進擊的巨人》完結，粉絲意見兩極，有人覺得結局超讚，有人話唔夠驚喜。不過，大家都期待下部作品！",
-          "text_en_b1": "Recently, Attack on Titan ended, and fan reactions are mixed. Some think the ending was amazing, while others feel it lacked surprise. However, everyone is looking forward to future projects inspired by the series.",
-          "text_en_b2": "With the conclusion of Attack on Titan, fan reactions have been decidedly polarized. While some viewers believe the ending was nothing short of spectacular, others feel it did not deliver sufficient surprises. Regardless of the differing opinions, there is a shared excitement among fans, as they eagerly await future projects inspired by this beloved series.",
-          "text_en_c1": "With the conclusion of 'Attack on Titan,' fan reactions have varied considerably, reflecting a spectrum of emotions. While some viewers herald the finale as a masterful culmination of the series, others express disappointment, citing a perceived lack of surprising twists. Despite the divided opinions regarding the ending, there remains a collective anticipation for the upcoming projects inspired by the series, as audiences are eager to see how the legacy of this beloved anime will influence future narratives and character developments in the genre.",
-          "text_en_c2": "In light of the recent conclusion of Attack on Titan, reactions among fans have proven to be decidedly polarized. While a segment of the audience heralds the finale as a magnificent culmination of the series, others express disappointment, citing a perceived lack of surprise or innovation in the resolution of the storyline. Regardless of these divergent perspectives, there exists a collective anticipation for forthcoming projects inspired by the series, indicative of the enduring impact that such narratives leave on the anime community and the broader cultural landscape.",
-          "source_url": "",
-          "source_hint": "Attack on Titan's ending sparks mixed reactions among fans."
         }
       ]
     }

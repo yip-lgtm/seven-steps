@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-08",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-gold-001",
+      "topic_en": "Gold Buy Thread",
+      "topic_zh": "黃金仲買唔買",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-gold-001-b1.mp3",
+        "b2": "clip-biz-gold-001-b2.mp3",
+        "c1": "clip-biz-gold-001-c1.mp3",
+        "c2": "clip-biz-gold-001-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-trump-token-001",
+      "topic_en": "$TRUMP Gold Standard",
+      "topic_zh": "$TRUMP黃金迷因",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-trump-token-001-b1.mp3",
+        "b2": "clip-biz-trump-token-001-b2.mp3",
+        "c1": "clip-biz-trump-token-001-c1.mp3",
+        "c2": "clip-biz-trump-token-001-c2.mp3"
+      }
+    },
+    {
+      "id": "g-software-eng-001",
+      "topic_en": "AI Writes Code",
+      "topic_zh": "AI寫Code末日",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-software-eng-001-b1.mp3",
+        "b2": "clip-g-software-eng-001-b2.mp3",
+        "c1": "clip-g-software-eng-001-c1.mp3",
+        "c2": "clip-g-software-eng-001-c2.mp3"
+      }
+    },
+    {
+      "id": "g-dad-gov-001",
+      "topic_en": "Gov Union Credit System",
+      "topic_zh": "政府工都用新棧",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-dad-gov-001-b1.mp3",
+        "b2": "clip-g-dad-gov-001-b2.mp3",
+        "c1": "clip-g-dad-gov-001-c1.mp3",
+        "c2": "clip-g-dad-gov-001-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-income-001",
+      "topic_en": "70% Paycheck to Paycheck",
+      "topic_zh": "美國70%月光族",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-biz-income-001-b1.mp3",
+        "b2": "clip-biz-income-001-b2.mp3",
+        "c1": "clip-biz-income-001-c1.mp3",
+        "c2": "clip-biz-income-001-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-wood-001",
+      "topic_en": "Wood > Gold",
+      "topic_zh": "木材貴過黃金",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-wood-001-b1.mp3",
+        "b2": "clip-biz-wood-001-b2.mp3",
+        "c1": "clip-biz-wood-001-c1.mp3",
+        "c2": "clip-biz-wood-001-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-gym-buddy-001",
+      "topic_en": "Cardio Refusal",
+      "topic_zh": "死都唔做Cardio",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-gym-buddy-001-b1.mp3",
+        "b2": "clip-fit-gym-buddy-001-b2.mp3",
+        "c1": "clip-fit-gym-buddy-001-c1.mp3",
+        "c2": "clip-fit-gym-buddy-001-c2.mp3"
+      }
+    },
+    {
+      "id": "a-sasaki-001",
+      "topic_en": "Sasaki Age Gap",
+      "topic_zh": "年齡差動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-sasaki-001-b1.mp3",
+        "b2": "clip-a-sasaki-001-b2.mp3",
+        "c1": "clip-a-sasaki-001-c1.mp3",
+        "c2": "clip-a-sasaki-001-c2.mp3"
+      }
+    }
+  ]
+}
