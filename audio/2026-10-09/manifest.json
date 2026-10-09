@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-09",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t01",
+      "topic_en": "Shorting BTC",
+      "topic_zh": "短BTC",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t01-b1.mp3",
+        "b2": "clip-t01-b2.mp3",
+        "c1": "clip-t01-c1.mp3",
+        "c2": "clip-t01-c2.mp3"
+      }
+    },
+    {
+      "id": "t02",
+      "topic_en": "Prop firm misery",
+      "topic_zh": "Prop Firm靠運",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t02-b1.mp3",
+        "b2": "clip-t02-b2.mp3",
+        "c1": "clip-t02-c1.mp3",
+        "c2": "clip-t02-c2.mp3"
+      }
+    },
+    {
+      "id": "c01",
+      "topic_en": "Bond bear market",
+      "topic_zh": "Bond熊市",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c01-b1.mp3",
+        "b2": "clip-c01-b2.mp3",
+        "c1": "clip-c01-c1.mp3",
+        "c2": "clip-c01-c2.mp3"
+      }
+    },
+    {
+      "id": "c02",
+      "topic_en": "Wood beats gold",
+      "topic_zh": "Wood同Gold",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c02-b1.mp3",
+        "b2": "clip-c02-b2.mp3",
+        "c1": "clip-c02-c1.mp3",
+        "c2": "clip-c02-c2.mp3"
+      }
+    },
+    {
+      "id": "tech01",
+      "topic_en": "LLM replacing coders",
+      "topic_zh": "AI兩年殺programmer",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech01-b1.mp3",
+        "b2": "clip-tech01-b2.mp3",
+        "c1": "clip-tech01-c1.mp3",
+        "c2": "clip-tech01-c2.mp3"
+      }
+    },
+    {
+      "id": "hk01",
+      "topic_en": "Tech talent pipeline",
+      "topic_zh": "Trump同科技人才",
+      "category": "hk/news",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "mma01",
+      "topic_en": "No cardio bro",
+      "topic_zh": "死唔做Cardio",
+      "category": "mma/fitness",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "anime01",
+      "topic_en": "Doll anime",
+      "topic_zh": "公仔動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    }
+  ]
+}

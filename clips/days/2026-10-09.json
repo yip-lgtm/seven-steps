@@ -1,7 +1,6 @@
 {
   "date": "2026-10-09",
   "source": "ai",
-  "persona": "wsb",
   "clips": [
     {
       "id": "t01",
@@ -10,26 +9,11 @@
       "topic_en": "Shorting BTC",
       "text_zh": "/biz有個post正式short BTC，三條meme線跌穿，weekly Stoch RSI見頂，weekly RSI撞meme線。佢set咗2% stop loss。如果上去90K再short。我：睇完一驚，自己又揸緊BTC 😭 又係學費。",
       "text_en_b1": "An anon on /biz/ came back from /agdg/ to say he is officially shorting BTC. His reasons: BTC crossed down three of his meme lines, weekly Stoch RSI has topped, and the weekly RSI hit his meme line too. He set a 2% stop loss. He says if BTC pumps to 90K, he will short again from there. For now, he is short.",
-      "source_url": "https://boards.4chan.org/biz/thread/62763905",
-      "source_hint": "/biz/ thread announcing a BTC short with meme-line TA and 2% stop.",
-      "signal": {
-        "asset": "BTC",
-        "direction": "short",
-        "conviction": "medium",
-        "time_horizon": "weeks",
-        "entry_zone": "current",
-        "target": null,
-        "stop": "2% above entry (OP's rule)",
-        "rationale": "OP explicitly announces short position with named TA triggers and hard 2% stop."
-      },
       "text_en_b2": "An anon on /biz/ has officially gone short on BTC after returning from /agdg/. His reasoning: three of his meme lines have been broken to the downside, while the weekly Stoch RSI has clearly topped out and the weekly RSI is kissing his meme line. He placed a tight 2% stop loss, noting he will short again if BTC pumps towards 90K. Currently positioned short. Reading this genuinely rattled me, since I am still holding BTC. Guess the tuition fees keep coming.",
       "text_en_c1": "An anonymous /biz/ poster, freshly returned from /agdg/, has formally declared a short position on Bitcoin, citing a confluence of bearish signals. Specifically, price has broken beneath three of his self-defined meme lines, the weekly Stochastic RSI has printed a definitive top, and the weekly RSI has collided with another one of his indicators. He has placed a 2% stop loss to manage downside risk, though he has indicated that should BTC rally toward the 90K region, he would re-enter short from elevated levels. Reading this prompted an uncomfortable moment of self-reflection: I, too, am currently long BTC, having apparently learned nothing from previous tuition fees paid to this market.",
       "text_en_c2": "An anonymous poster on /biz/, freshly migrated from /agdg/, has formally announced a short position on Bitcoin, citing the convergence of several of his self-drawn meme indicators. Specifically, BTC has slipped beneath three of his meme lines; the weekly Stochastic RSI has registered a textbook top; and the weekly RSI itself has collided with another of his meme levels. He has placed a disciplined 2% stop loss beneath the entry, and is prepared, should price rip toward the 90K region, to reload his short at a higher altitude rather than chase a broken thesis. Watching the post unfold, I experienced a familiar sinking recognition, since I remain stubbornly long Bitcoin and will, presumably, be parting with yet another tranche of tuition money in due course. The cruel irony is not lost on me.",
-      "audio_url": "audio/2026-10-09/clip-t01.mp3",
-      "audio_url_b1": "audio/2026-10-09/clip-t01-b1.mp3",
-      "audio_url_b2": "audio/2026-10-09/clip-t01-b2.mp3",
-      "audio_url_c1": "audio/2026-10-09/clip-t01-c1.mp3",
-      "audio_url_c2": "audio/2026-10-09/clip-t01-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62763905",
+      "source_hint": "/biz/ thread announcing a BTC short with meme-line TA and 2% stop."
     },
     {
       "id": "t02",
@@ -38,26 +22,11 @@
       "topic_en": "Prop firm misery",
       "text_zh": "Prop firm係咪根本冇得贏？個post話buy就dump，sell就pump，跟晒guru策略都reproduce唔到佢哋嘅結果。我睇完覺得被安慰 😅 AP問我點解又輸，我答唔出。",
       "text_en_b1": "A /biz/ poster is asking if anyone has ever passed prop firm challenges on a consistent basis. He says it has almost driven him insane. He studies many strategies from gurus who claim to make tons of money, but he can never reproduce their success. He wonders if the whole thing is just a fool's errand. Sounds exactly like my P&L this month.",
-      "source_url": "https://boards.4chan.org/biz/thread/62763417",
-      "source_hint": "/biz/ thread about the impossibility of passing prop firm challenges.",
-      "signal": {
-        "asset": "observation",
-        "direction": "observation",
-        "conviction": "none",
-        "time_horizon": "none",
-        "entry_zone": "current",
-        "target": null,
-        "stop": null,
-        "rationale": "Pure frustration post about prop firm P&L, no setup or trade idea."
-      },
       "text_en_b2": "A /biz/ poster is questioning whether prop firm challenges can actually be passed on a consistent basis. He admits the grind has nearly driven him insane, since he has studied countless guru strategies claiming massive returns yet fails to reproduce any of their results. He wonders if the whole pursuit is essentially a fool's errand. Reading this was oddly comforting, because my own P&L this month tells exactly the same story. Could not even answer when AP asked why I lost again.",
       "text_en_c1": "A frustrated /biz/ contributor has posed the question of whether anyone has ever consistently passed proprietary trading firm challenges, suggesting that the endeavour has pushed him to the brink of sanity. He elaborates that, despite meticulously studying numerous strategies disseminated by self-proclaimed gurus who flaunt extraordinary returns, he cannot replicate their claimed performance. The implication is that the entire enterprise may amount to nothing more than a fool's errand, a Sisyphean pursuit designed to separate aspirants from their capital. Resonating uncomfortably with my own P&L statements this month, I find myself unable to offer a satisfactory answer when acquaintances inquire why I have haemorrhaged money yet again.",
       "text_en_c2": "A /biz/ contributor has posed what may be the thread's most uncomfortable question: has anyone, anywhere, ever cleared a prop firm evaluation on a genuinely consistent basis? He confesses the pursuit has brought him to the brink of sanity, poring over the proprietary strategies of self-styled gurus who flaunt screenshots of obscene returns, only to find that none of their methods can be faithfully reproduced in live markets. He is beginning to suspect the entire enterprise is an elaborate fool's errand, a confidence game dressed in risk management. The sentiment lands with surgical precision upon my own recent ledger; if asked by my account partner why the month ended in red, I would struggle to formulate a coherent defence. Read the post; weep quietly.",
-      "audio_url": "audio/2026-10-09/clip-t02.mp3",
-      "audio_url_b1": "audio/2026-10-09/clip-t02-b1.mp3",
-      "audio_url_b2": "audio/2026-10-09/clip-t02-b2.mp3",
-      "audio_url_c1": "audio/2026-10-09/clip-t02-c1.mp3",
-      "audio_url_c2": "audio/2026-10-09/clip-t02-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62763417",
+      "source_hint": "/biz/ thread about the impossibility of passing prop firm challenges."
     },
     {
       "id": "c01",
@@ -66,17 +35,11 @@
       "topic_en": "Bond bear market",
       "text_zh": "有/biz仔自稱係最大bull，話依家係black swan event，最差嘅bond bear market in history。對我嚟講同slope一樣，factor of safety跌晒，要revisit成個load path。",
       "text_en_b1": "A self-described biggest bull on /biz/ is calling the current move a black swan event. He says the bond bear market is becoming the worst in history. He admits it sounds bearish to most people, but he frames it as bullish overall. For me this feels like a slope with the factor of safety gone, every load path needs to be rechecked.",
-      "source_url": "https://boards.4chan.org/biz/thread/62763669",
-      "source_hint": "/biz/ thread warning that the bond bear market is the worst in history.",
-      "signal": null,
       "text_en_b2": "A self-proclaimed biggest bull on /biz/ is framing the current move as a black swan event, claiming the bond bear market is shaping up to be the worst in history. Although this sounds bearish on the surface, he insists the broader picture remains bullish. For me the situation feels like a slope whose factor of safety has completely vanished. Every load path now needs revisiting, and honestly I am not sure any of it holds together anymore.",
       "text_en_c1": "A self-styled contrarian on /biz/, who routinely identifies as the foremost bull, has characterised the prevailing market dislocation as a bona fide black swan event. He contends that the ongoing bond bear market is on course to become the most severe in recorded financial history, an assertion which, paradoxically, he interprets as bullish rather than bearish, provided one possesses the appropriate macro framework. For my part, the current environment evokes the unsettling sensation of standing on a slope whose factor of safety has evaporated entirely, demanding that every conceivable load path be painstakingly revisited before any further commitment of capital.",
       "text_en_c2": "A self-proclaimed arch-bull on /biz/ has grudgingly conceded that the prevailing bond rout constitutes, in his estimation, a genuine black swan event and is rapidly asserting itself as the most punishing bond bear market in recorded financial history. Although the framing sounds emphatically bearish to any casual observer, he insists the dislocation must ultimately be interpreted as constructively bullish for risk assets further out the timeline. The structural analogy is rather apt: one is essentially watching a slope whose factor of safety has been quietly eroded, where every conventional load path now demands a thorough re-examination and the margin against catastrophic failure has thinned beyond what any prudent engineer would accept. The terrain, in other words, warrants considerable circumspection.",
-      "audio_url": "audio/2026-10-09/clip-c01.mp3",
-      "audio_url_b1": "audio/2026-10-09/clip-c01-b1.mp3",
-      "audio_url_b2": "audio/2026-10-09/clip-c01-b2.mp3",
-      "audio_url_c1": "audio/2026-10-09/clip-c01-c1.mp3",
-      "audio_url_c2": "audio/2026-10-09/clip-c01-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62763669",
+      "source_hint": "/biz/ thread warning that the bond bear market is the worst in history."
     },
     {
       "id": "c02",
@@ -85,17 +48,11 @@
       "topic_en": "Wood beats gold",
       "text_zh": "/biz有post話wood比gold更稀有，外星人嚟地球都係偷wood唔係偷gold。同reinforced concrete一樣，concrete supply穩陣過steel先係common sense lol。",
       "text_en_b1": "An anon claims wood is the rarest material in the universe, rarer than gold or diamonds. He says if aliens invade Earth they will steal wood, not gold or silver. He argues gold is abundant inside the earth and worthless. A structural take: like reinforced concrete, supply matters more than hype.",
-      "source_url": "https://boards.4chan.org/biz/thread/62762606",
-      "source_hint": "/biz/ shitpost arguing wood is rarer than gold.",
-      "signal": null,
       "text_en_b2": "An anon on /biz/ insists wood is rarer than gold or diamonds, joking that any aliens invading Earth would come for timber rather than bullion, since gold sits abundantly inside the planet and is essentially worthless. While the take is deliberately absurd, the underlying logic resonates. Reinforced concrete teaches the same lesson: stable supply chains beat hype every single time. Common sense, apparently, is not so common.",
       "text_en_c1": "An anonymous poster on /biz/ has advanced the provocative thesis that wood constitutes the rarest material in the known universe, surpassing even gold or diamonds in scarcity. Extending the argument into the realm of speculative cosmology, he posits that any extraterrestrial civilisation intent on plundering Earth would logically target timber rather than precious metals, dismissing gold as volumetrically abundant within the planet's crust and therefore inherently worthless. Drawing a structural analogy, the logic mirrors reinforced concrete: what truly matters is the dependable supply of constituent materials, not the speculative aura surrounding commodities that capture public imagination.",
       "text_en_c2": "An enterprising anon on /biz/ has ventured the heretical proposition that timber, rather than gold or diamond, constitutes the rarest substance in the known universe, contending that any sufficiently advanced extraterrestrial civilisation, upon conducting a cost-benefit analysis of terrestrial resources, would logically expropriate our forests rather than our vaults. Gold, in his telling, lies in embarrassing abundance within the planet's crust and is accordingly worthless. There is a faintly structural sensibility to this thesis: as with reinforced concrete, whose prosaic supply chain renders it inherently more reliable than the marketing mythology surrounding structural steel, scarcity premised upon narrative is a fragile foundation upon which to erect any durable thesis. Hype, it turns out, ages rather less gracefully than concrete.",
-      "audio_url": "audio/2026-10-09/clip-c02.mp3",
-      "audio_url_b1": "audio/2026-10-09/clip-c02-b1.mp3",
-      "audio_url_b2": "audio/2026-10-09/clip-c02-b2.mp3",
-      "audio_url_c1": "audio/2026-10-09/clip-c02-c1.mp3",
-      "audio_url_c2": "audio/2026-10-09/clip-c02-c2.mp3"
+      "source_url": "https://boards.4chan.org/biz/thread/62762606",
+      "source_hint": "/biz/ shitpost arguing wood is rarer than gold."
     },
     {
       "id": "tech01",
@@ -104,17 +61,11 @@
       "topic_en": "LLM replacing coders",
       "text_zh": "/g有人話programmers兩年內會被LLM取代，it's over。我做engineer都係靠AI續命，但Tian教我路仲係要行，考牌都未完。",
       "text_en_b1": "A /g/ poster says programmers will be replaced by LLMs within the next two years. His conclusion: it's over. Same fear I have for junior engineers on site. AI writes the GI report draft first, then we check slope stability and factor of safety by hand. The work still needs a licensed PE to sign off, for now.",
-      "source_url": "https://boards.4chan.org/g/thread/110016826",
-      "source_hint": "/g/ thread claiming LLM replacement of programmers in two years.",
-      "signal": null,
       "text_en_b2": "A /g/ poster argues programmers will be replaced by LLMs within two years, concluding plainly that it is over for the profession. I share the same anxiety as a junior engineer on site, where AI now drafts the GI report first while we verify slope stability and factor of safety by hand. Even so, the paperwork still requires a licensed PE to sign off. My Tian-guided path continues regardless, and the licensing journey remains unfinished.",
       "text_en_c1": "A /g/ poster has pronounced, with characteristic finality, that the programming profession will be effectively subsumed by large language models within a twenty-four-month horizon, concluding with the memorable declaration that 'it's over'. The sentiment resonates with my own apprehensions regarding junior site engineers, whose preliminary geotechnical reports are increasingly drafted by AI before human professionals verify slope stability and factor of safety calculations by hand. Nevertheless, regulatory frameworks still require a licensed professional engineer to affix their seal of approval, and qualifying examinations remain incomplete for many aspirants, preserving a veneer of professional indispensability, at least temporarily.",
       "text_en_c2": "A /g/ contributor has pronounced, with the customary terminal confidence of that board, that software engineers as a professional class will be rendered obsolete by large language models within a roughly two-year horizon, his verdict delivered with the apocalyptic finality of someone for whom the matter is now settled. The sentiment resonates uncomfortably with my own position as a junior engineer in a geotechnical office, where the workflow has already begun to mutate: artificial intelligence drafts the preliminary geotechnical investigation report, and a human practitioner subsequently verifies slope stability calculations, confirms the factor of safety, and adjudicates edge cases the model cannot parse. Crucially, however, the deliverable still requires the signature of a licensed professional engineer, a regulatory artefact that no transformer architecture has yet learned to forge.",
-      "audio_url": "audio/2026-10-09/clip-tech01.mp3",
-      "audio_url_b1": "audio/2026-10-09/clip-tech01-b1.mp3",
-      "audio_url_b2": "audio/2026-10-09/clip-tech01-b2.mp3",
-      "audio_url_c1": "audio/2026-10-09/clip-tech01-c1.mp3",
-      "audio_url_c2": "audio/2026-10-09/clip-tech01-c2.mp3"
+      "source_url": "https://boards.4chan.org/g/thread/110016826",
+      "source_hint": "/g/ thread claiming LLM replacement of programmers in two years."
     },
     {
       "id": "hk01",
@@ -123,13 +74,11 @@
       "topic_en": "Tech talent pipeline",
       "text_zh": "/pol有人話Trump啲政策blow up咗US tech talent pipeline，鬧中國點同你鬥。對我嚟講更亂，五後返Florida嘅plan又多咗個variable。",
       "text_en_b1": "A /pol/ poster asks if Trump just blew up the US tech talent pipeline. He says the US cannot compete with China while doing retarded policy like this. For me, the Florida plan in five years just got one more variable to watch. If US tech talent really drains out, that changes everything.",
-      "source_url": "https://boards.4chan.org/pol/thread/544012443",
-      "source_hint": "/pol/ thread blaming Trump for wrecking US tech talent vs China.",
-      "signal": null,
       "text_en_b2": "A /pol/ poster is asking whether Trump has just blown up the US tech talent pipeline, arguing the country cannot realistically compete with China while pursuing such self-defeating policies. For me the calculus shifts personally, because the Florida plan five years out has gained yet another variable to weigh. If US tech talent genuinely drains overseas, the entire equation changes. The timeline feels messier than ever.",
       "text_en_c1": "A /pol/ contributor has raised pointed concerns regarding whether the current administration's policy posture has effectively detonated the United States' technological talent pipeline, arguing that such self-inflicted damage renders meaningful competition with China essentially untenable. The ramifications extend beyond abstract geopolitics: my prospective relocation to Florida within a five-year horizon has now acquired an additional, unanticipated variable demanding consideration. If American technological hegemony genuinely commences its long-anticipated drain, the cascading effects upon immigration patterns, wage structures, and regional development could prove sufficiently seismic to invalidate assumptions underpinning personal plans currently in formulation.",
       "text_en_c2": "A /pol/ correspondent has raised a deceptively simple question with rather substantial implications: has the current administration, through its immigration and visa posture, effectively detonated the United States' longstanding supremacy in the global technology talent pipeline? His contention is blunt, namely that no coherent strategy for technological competition with China can coexist with such evidently self-defeating policy choices. The observation lands with uncomfortable proximity to my own circumstances, since my prospective relocation to Florida in five years has just acquired an additional variable demanding close scrutiny. If American tech labour truly hemorrhages toward friendlier jurisdictions, the second-order consequences for state-level housing markets, professional licensing queues, and regional wage structures will be anything but trivial.",
-      "audio_url": null
+      "source_url": "https://boards.4chan.org/pol/thread/544012443",
+      "source_hint": "/pol/ thread blaming Trump for wrecking US tech talent vs China."
     },
     {
       "id": "mma01",
@@ -138,13 +87,11 @@
       "topic_en": "No cardio bro",
       "text_zh": "/fit有個gym buddy squat 500+ lbs但唔做cardio，10分鐘incline walk都驚。樓梯上3層就huff晒。我同肥仔信都係咁 😅 都要加返cardio。",
       "text_en_b1": "A /fit/ poster says his gym buddy squats 500+ lbs but refuses any cardio, convinced a 10-minute incline walk will ruin his gains. After lifting they had to take stairs to the upper car park due to construction on the lower levels. The buddy was gasping after only 3 flights, holding the rail. Sounds like me and Fat Boy after leg day.",
-      "source_url": "https://boards.4chan.org/fit/thread/77554925",
-      "source_hint": "/fit/ thread mocking a big squatter who can't handle stairs.",
-      "signal": null,
       "text_en_b2": "A /fit/ poster describes his gym buddy who squats over 500 lbs yet refuses any cardio, convinced a ten-minute incline walk would destroy his gains. After their session they had to take the stairs to the upper car park because construction blocked the lower levels, and the buddy was gasping after just three flights while clinging to the rail. Sounds exactly like me and Fat Boy after leg day. Cardio still matters, apparently.",
       "text_en_c1": "A /fit/ correspondent has lamented the peculiar phenomenon of his gym partner, who routinely squats in excess of five hundred pounds yet regards any cardiovascular exertion with visceral suspicion, convinced that a mere ten-minute incline walk will catastrophically compromise his hypertrophic gains. Their post-training attempt to access the upper car park, necessitated by construction works rendering lower levels inaccessible, required ascending the stairwell. The aforementioned lifting enthusiast was visibly gasping for air after merely three flights, clinging to the handrail like a drowning man to driftwood. The scenario uncomfortably parallels my own exertions alongside Fat Boy following leg day sessions; evidently, cardiovascular conditioning remains non-negotiable, regardless of one's maximal strength.",
       "text_en_c2": "A /fit/ regular has submitted a vignette of almost clinical perfection regarding a training partner whose squat eclipses the 500-pound threshold yet who treats any cardiovascular exertion as though it were a venial sin against hypertrophy. The mere prospect of a ten-minute inclined treadmill walk sends this paragon into a paroxysm of preservation anxiety. Following a punishing lower-body session, the pair were obliged to negotiate a stairwell to reach the upper car park, the lower levels having been cordoned off for ongoing construction. By the third flight, the gentleman was audibly gasping, one white-knuckled hand clamped to the handrail in defeat. The tableau bears an uncomfortable resemblance to my own post-leg-day exertions alongside Fat Boy, and is a rather pointed reminder that aerobic capacity, however unglamorous, remains a non-negotiable component of any honest fitness regimen.",
-      "audio_url": null
+      "source_url": "https://boards.4chan.org/fit/thread/77554925",
+      "source_hint": "/fit/ thread mocking a big squatter who can't handle stairs."
     },
     {
       "id": "anime01",
@@ -153,13 +100,11 @@
       "topic_en": "Doll anime",
       "text_zh": "/a有人睇緊dolls動畫，話dolls係最cool嘅嘢，以前從來諗過dolls可以咁型。我覺得同Eva初號機一樣，design先係晒嘢。",
       "text_en_b1": "An /a/ poster says the doll anime is the coolest thing ever and he is only on episode one. He never even thought dolls could be this cool until this show made him think about them in a completely different way. He says these dolls are so cool. Weird praise, but I get the same feeling watching a clean Gundam 00 mech design.",
-      "source_url": "https://boards.4chan.org/a/thread/291287699",
-      "source_hint": "/a/ thread about a new doll anime blowing the poster's mind.",
-      "signal": null,
       "text_en_b2": "An /a/ poster declares the current doll anime the coolest thing he has seen in ages, even though he is only on the first episode. He admits he never imagined dolls could feel this stylish until the show reframed his entire perception of them. The praise sounds odd at first, yet I get precisely the same thrill watching a clean Gundam 00 mech design. Aesthetic is everything.",
       "text_en_c1": "An /a/ poster has bestowed effusive praise upon a recently commenced anime centred on dolls, declaring the series unequivocally the coolest thing he has encountered in recent memory, notwithstanding the fact that he remains merely one episode into the production. He candidly admits that the conceptual premise of dolls being rendered compelling had never crossed his mind until this particular programme compelled a fundamental reassessment of his aesthetic assumptions. The endorsement, whilst idiosyncratic in its specificity, evokes a parallel response in me when beholding the immaculate mechanical design of a Gundam 00 suit, where the visual language transcends mere machinery and becomes something approaching pure sculptural statement.",
       "text_en_c2": "An /a/ viewer, barely an episode into the latest doll-centric anime, has already declared the work to be the most aesthetically intoxicating object he has encountered this calendar year, professing astonishment that the humble doll, a motif long consigned to the cultural dustbin of kitsch, could be rendered with such singular élan. The revelation, he insists, has retroactively reorganised his entire conceptual taxonomy of the form. The endorsement is peculiar, yet entirely comprehensible to anyone who has experienced the quiet rapture of beholding a particularly immaculate Gundam 00 mechanical design, wherein the silhouette, the panel articulation, and the chromatic discipline coalesce into something approaching architectural poetry. Design, in the final accounting, remains the only legitimate criterion by which such things ought to be judged.",
-      "audio_url": null
+      "source_url": "https://boards.4chan.org/a/thread/291287699",
+      "source_hint": "/a/ thread about a new doll anime blowing the poster's mind."
     }
   ]
 }

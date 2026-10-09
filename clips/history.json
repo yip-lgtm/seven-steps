@@ -1,6 +1,116 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "days": [
+    {
+      "date": "2026-10-09",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "t01",
+          "category": "trading",
+          "topic_zh": "短BTC",
+          "topic_en": "Shorting BTC",
+          "text_zh": "/biz有個post正式short BTC，三條meme線跌穿，weekly Stoch RSI見頂，weekly RSI撞meme線。佢set咗2% stop loss。如果上去90K再short。我：睇完一驚，自己又揸緊BTC 😭 又係學費。",
+          "text_en_b1": "An anon on /biz/ came back from /agdg/ to say he is officially shorting BTC. His reasons: BTC crossed down three of his meme lines, weekly Stoch RSI has topped, and the weekly RSI hit his meme line too. He set a 2% stop loss. He says if BTC pumps to 90K, he will short again from there. For now, he is short.",
+          "text_en_b2": "An anon on /biz/ has officially gone short on BTC after returning from /agdg/. His reasoning: three of his meme lines have been broken to the downside, while the weekly Stoch RSI has clearly topped out and the weekly RSI is kissing his meme line. He placed a tight 2% stop loss, noting he will short again if BTC pumps towards 90K. Currently positioned short. Reading this genuinely rattled me, since I am still holding BTC. Guess the tuition fees keep coming.",
+          "text_en_c1": "An anonymous /biz/ poster, freshly returned from /agdg/, has formally declared a short position on Bitcoin, citing a confluence of bearish signals. Specifically, price has broken beneath three of his self-defined meme lines, the weekly Stochastic RSI has printed a definitive top, and the weekly RSI has collided with another one of his indicators. He has placed a 2% stop loss to manage downside risk, though he has indicated that should BTC rally toward the 90K region, he would re-enter short from elevated levels. Reading this prompted an uncomfortable moment of self-reflection: I, too, am currently long BTC, having apparently learned nothing from previous tuition fees paid to this market.",
+          "text_en_c2": "An anonymous poster on /biz/, freshly migrated from /agdg/, has formally announced a short position on Bitcoin, citing the convergence of several of his self-drawn meme indicators. Specifically, BTC has slipped beneath three of his meme lines; the weekly Stochastic RSI has registered a textbook top; and the weekly RSI itself has collided with another of his meme levels. He has placed a disciplined 2% stop loss beneath the entry, and is prepared, should price rip toward the 90K region, to reload his short at a higher altitude rather than chase a broken thesis. Watching the post unfold, I experienced a familiar sinking recognition, since I remain stubbornly long Bitcoin and will, presumably, be parting with yet another tranche of tuition money in due course. The cruel irony is not lost on me.",
+          "source_url": "https://boards.4chan.org/biz/thread/62763905",
+          "source_hint": "/biz/ thread announcing a BTC short with meme-line TA and 2% stop."
+        },
+        {
+          "id": "t02",
+          "category": "trading",
+          "topic_zh": "Prop Firm靠運",
+          "topic_en": "Prop firm misery",
+          "text_zh": "Prop firm係咪根本冇得贏？個post話buy就dump，sell就pump，跟晒guru策略都reproduce唔到佢哋嘅結果。我睇完覺得被安慰 😅 AP問我點解又輸，我答唔出。",
+          "text_en_b1": "A /biz/ poster is asking if anyone has ever passed prop firm challenges on a consistent basis. He says it has almost driven him insane. He studies many strategies from gurus who claim to make tons of money, but he can never reproduce their success. He wonders if the whole thing is just a fool's errand. Sounds exactly like my P&L this month.",
+          "text_en_b2": "A /biz/ poster is questioning whether prop firm challenges can actually be passed on a consistent basis. He admits the grind has nearly driven him insane, since he has studied countless guru strategies claiming massive returns yet fails to reproduce any of their results. He wonders if the whole pursuit is essentially a fool's errand. Reading this was oddly comforting, because my own P&L this month tells exactly the same story. Could not even answer when AP asked why I lost again.",
+          "text_en_c1": "A frustrated /biz/ contributor has posed the question of whether anyone has ever consistently passed proprietary trading firm challenges, suggesting that the endeavour has pushed him to the brink of sanity. He elaborates that, despite meticulously studying numerous strategies disseminated by self-proclaimed gurus who flaunt extraordinary returns, he cannot replicate their claimed performance. The implication is that the entire enterprise may amount to nothing more than a fool's errand, a Sisyphean pursuit designed to separate aspirants from their capital. Resonating uncomfortably with my own P&L statements this month, I find myself unable to offer a satisfactory answer when acquaintances inquire why I have haemorrhaged money yet again.",
+          "text_en_c2": "A /biz/ contributor has posed what may be the thread's most uncomfortable question: has anyone, anywhere, ever cleared a prop firm evaluation on a genuinely consistent basis? He confesses the pursuit has brought him to the brink of sanity, poring over the proprietary strategies of self-styled gurus who flaunt screenshots of obscene returns, only to find that none of their methods can be faithfully reproduced in live markets. He is beginning to suspect the entire enterprise is an elaborate fool's errand, a confidence game dressed in risk management. The sentiment lands with surgical precision upon my own recent ledger; if asked by my account partner why the month ended in red, I would struggle to formulate a coherent defence. Read the post; weep quietly.",
+          "source_url": "https://boards.4chan.org/biz/thread/62763417",
+          "source_hint": "/biz/ thread about the impossibility of passing prop firm challenges."
+        },
+        {
+          "id": "c01",
+          "category": "civil/structure",
+          "topic_zh": "Bond熊市",
+          "topic_en": "Bond bear market",
+          "text_zh": "有/biz仔自稱係最大bull，話依家係black swan event，最差嘅bond bear market in history。對我嚟講同slope一樣，factor of safety跌晒，要revisit成個load path。",
+          "text_en_b1": "A self-described biggest bull on /biz/ is calling the current move a black swan event. He says the bond bear market is becoming the worst in history. He admits it sounds bearish to most people, but he frames it as bullish overall. For me this feels like a slope with the factor of safety gone, every load path needs to be rechecked.",
+          "text_en_b2": "A self-proclaimed biggest bull on /biz/ is framing the current move as a black swan event, claiming the bond bear market is shaping up to be the worst in history. Although this sounds bearish on the surface, he insists the broader picture remains bullish. For me the situation feels like a slope whose factor of safety has completely vanished. Every load path now needs revisiting, and honestly I am not sure any of it holds together anymore.",
+          "text_en_c1": "A self-styled contrarian on /biz/, who routinely identifies as the foremost bull, has characterised the prevailing market dislocation as a bona fide black swan event. He contends that the ongoing bond bear market is on course to become the most severe in recorded financial history, an assertion which, paradoxically, he interprets as bullish rather than bearish, provided one possesses the appropriate macro framework. For my part, the current environment evokes the unsettling sensation of standing on a slope whose factor of safety has evaporated entirely, demanding that every conceivable load path be painstakingly revisited before any further commitment of capital.",
+          "text_en_c2": "A self-proclaimed arch-bull on /biz/ has grudgingly conceded that the prevailing bond rout constitutes, in his estimation, a genuine black swan event and is rapidly asserting itself as the most punishing bond bear market in recorded financial history. Although the framing sounds emphatically bearish to any casual observer, he insists the dislocation must ultimately be interpreted as constructively bullish for risk assets further out the timeline. The structural analogy is rather apt: one is essentially watching a slope whose factor of safety has been quietly eroded, where every conventional load path now demands a thorough re-examination and the margin against catastrophic failure has thinned beyond what any prudent engineer would accept. The terrain, in other words, warrants considerable circumspection.",
+          "source_url": "https://boards.4chan.org/biz/thread/62763669",
+          "source_hint": "/biz/ thread warning that the bond bear market is the worst in history."
+        },
+        {
+          "id": "c02",
+          "category": "civil/structure",
+          "topic_zh": "Wood同Gold",
+          "topic_en": "Wood beats gold",
+          "text_zh": "/biz有post話wood比gold更稀有，外星人嚟地球都係偷wood唔係偷gold。同reinforced concrete一樣，concrete supply穩陣過steel先係common sense lol。",
+          "text_en_b1": "An anon claims wood is the rarest material in the universe, rarer than gold or diamonds. He says if aliens invade Earth they will steal wood, not gold or silver. He argues gold is abundant inside the earth and worthless. A structural take: like reinforced concrete, supply matters more than hype.",
+          "text_en_b2": "An anon on /biz/ insists wood is rarer than gold or diamonds, joking that any aliens invading Earth would come for timber rather than bullion, since gold sits abundantly inside the planet and is essentially worthless. While the take is deliberately absurd, the underlying logic resonates. Reinforced concrete teaches the same lesson: stable supply chains beat hype every single time. Common sense, apparently, is not so common.",
+          "text_en_c1": "An anonymous poster on /biz/ has advanced the provocative thesis that wood constitutes the rarest material in the known universe, surpassing even gold or diamonds in scarcity. Extending the argument into the realm of speculative cosmology, he posits that any extraterrestrial civilisation intent on plundering Earth would logically target timber rather than precious metals, dismissing gold as volumetrically abundant within the planet's crust and therefore inherently worthless. Drawing a structural analogy, the logic mirrors reinforced concrete: what truly matters is the dependable supply of constituent materials, not the speculative aura surrounding commodities that capture public imagination.",
+          "text_en_c2": "An enterprising anon on /biz/ has ventured the heretical proposition that timber, rather than gold or diamond, constitutes the rarest substance in the known universe, contending that any sufficiently advanced extraterrestrial civilisation, upon conducting a cost-benefit analysis of terrestrial resources, would logically expropriate our forests rather than our vaults. Gold, in his telling, lies in embarrassing abundance within the planet's crust and is accordingly worthless. There is a faintly structural sensibility to this thesis: as with reinforced concrete, whose prosaic supply chain renders it inherently more reliable than the marketing mythology surrounding structural steel, scarcity premised upon narrative is a fragile foundation upon which to erect any durable thesis. Hype, it turns out, ages rather less gracefully than concrete.",
+          "source_url": "https://boards.4chan.org/biz/thread/62762606",
+          "source_hint": "/biz/ shitpost arguing wood is rarer than gold."
+        },
+        {
+          "id": "tech01",
+          "category": "tech/ai",
+          "topic_zh": "AI兩年殺programmer",
+          "topic_en": "LLM replacing coders",
+          "text_zh": "/g有人話programmers兩年內會被LLM取代，it's over。我做engineer都係靠AI續命，但Tian教我路仲係要行，考牌都未完。",
+          "text_en_b1": "A /g/ poster says programmers will be replaced by LLMs within the next two years. His conclusion: it's over. Same fear I have for junior engineers on site. AI writes the GI report draft first, then we check slope stability and factor of safety by hand. The work still needs a licensed PE to sign off, for now.",
+          "text_en_b2": "A /g/ poster argues programmers will be replaced by LLMs within two years, concluding plainly that it is over for the profession. I share the same anxiety as a junior engineer on site, where AI now drafts the GI report first while we verify slope stability and factor of safety by hand. Even so, the paperwork still requires a licensed PE to sign off. My Tian-guided path continues regardless, and the licensing journey remains unfinished.",
+          "text_en_c1": "A /g/ poster has pronounced, with characteristic finality, that the programming profession will be effectively subsumed by large language models within a twenty-four-month horizon, concluding with the memorable declaration that 'it's over'. The sentiment resonates with my own apprehensions regarding junior site engineers, whose preliminary geotechnical reports are increasingly drafted by AI before human professionals verify slope stability and factor of safety calculations by hand. Nevertheless, regulatory frameworks still require a licensed professional engineer to affix their seal of approval, and qualifying examinations remain incomplete for many aspirants, preserving a veneer of professional indispensability, at least temporarily.",
+          "text_en_c2": "A /g/ contributor has pronounced, with the customary terminal confidence of that board, that software engineers as a professional class will be rendered obsolete by large language models within a roughly two-year horizon, his verdict delivered with the apocalyptic finality of someone for whom the matter is now settled. The sentiment resonates uncomfortably with my own position as a junior engineer in a geotechnical office, where the workflow has already begun to mutate: artificial intelligence drafts the preliminary geotechnical investigation report, and a human practitioner subsequently verifies slope stability calculations, confirms the factor of safety, and adjudicates edge cases the model cannot parse. Crucially, however, the deliverable still requires the signature of a licensed professional engineer, a regulatory artefact that no transformer architecture has yet learned to forge.",
+          "source_url": "https://boards.4chan.org/g/thread/110016826",
+          "source_hint": "/g/ thread claiming LLM replacement of programmers in two years."
+        },
+        {
+          "id": "hk01",
+          "category": "hk/news",
+          "topic_zh": "Trump同科技人才",
+          "topic_en": "Tech talent pipeline",
+          "text_zh": "/pol有人話Trump啲政策blow up咗US tech talent pipeline，鬧中國點同你鬥。對我嚟講更亂，五後返Florida嘅plan又多咗個variable。",
+          "text_en_b1": "A /pol/ poster asks if Trump just blew up the US tech talent pipeline. He says the US cannot compete with China while doing retarded policy like this. For me, the Florida plan in five years just got one more variable to watch. If US tech talent really drains out, that changes everything.",
+          "text_en_b2": "A /pol/ poster is asking whether Trump has just blown up the US tech talent pipeline, arguing the country cannot realistically compete with China while pursuing such self-defeating policies. For me the calculus shifts personally, because the Florida plan five years out has gained yet another variable to weigh. If US tech talent genuinely drains overseas, the entire equation changes. The timeline feels messier than ever.",
+          "text_en_c1": "A /pol/ contributor has raised pointed concerns regarding whether the current administration's policy posture has effectively detonated the United States' technological talent pipeline, arguing that such self-inflicted damage renders meaningful competition with China essentially untenable. The ramifications extend beyond abstract geopolitics: my prospective relocation to Florida within a five-year horizon has now acquired an additional, unanticipated variable demanding consideration. If American technological hegemony genuinely commences its long-anticipated drain, the cascading effects upon immigration patterns, wage structures, and regional development could prove sufficiently seismic to invalidate assumptions underpinning personal plans currently in formulation.",
+          "text_en_c2": "A /pol/ correspondent has raised a deceptively simple question with rather substantial implications: has the current administration, through its immigration and visa posture, effectively detonated the United States' longstanding supremacy in the global technology talent pipeline? His contention is blunt, namely that no coherent strategy for technological competition with China can coexist with such evidently self-defeating policy choices. The observation lands with uncomfortable proximity to my own circumstances, since my prospective relocation to Florida in five years has just acquired an additional variable demanding close scrutiny. If American tech labour truly hemorrhages toward friendlier jurisdictions, the second-order consequences for state-level housing markets, professional licensing queues, and regional wage structures will be anything but trivial.",
+          "source_url": "https://boards.4chan.org/pol/thread/544012443",
+          "source_hint": "/pol/ thread blaming Trump for wrecking US tech talent vs China."
+        },
+        {
+          "id": "mma01",
+          "category": "mma/fitness",
+          "topic_zh": "死唔做Cardio",
+          "topic_en": "No cardio bro",
+          "text_zh": "/fit有個gym buddy squat 500+ lbs但唔做cardio，10分鐘incline walk都驚。樓梯上3層就huff晒。我同肥仔信都係咁 😅 都要加返cardio。",
+          "text_en_b1": "A /fit/ poster says his gym buddy squats 500+ lbs but refuses any cardio, convinced a 10-minute incline walk will ruin his gains. After lifting they had to take stairs to the upper car park due to construction on the lower levels. The buddy was gasping after only 3 flights, holding the rail. Sounds like me and Fat Boy after leg day.",
+          "text_en_b2": "A /fit/ poster describes his gym buddy who squats over 500 lbs yet refuses any cardio, convinced a ten-minute incline walk would destroy his gains. After their session they had to take the stairs to the upper car park because construction blocked the lower levels, and the buddy was gasping after just three flights while clinging to the rail. Sounds exactly like me and Fat Boy after leg day. Cardio still matters, apparently.",
+          "text_en_c1": "A /fit/ correspondent has lamented the peculiar phenomenon of his gym partner, who routinely squats in excess of five hundred pounds yet regards any cardiovascular exertion with visceral suspicion, convinced that a mere ten-minute incline walk will catastrophically compromise his hypertrophic gains. Their post-training attempt to access the upper car park, necessitated by construction works rendering lower levels inaccessible, required ascending the stairwell. The aforementioned lifting enthusiast was visibly gasping for air after merely three flights, clinging to the handrail like a drowning man to driftwood. The scenario uncomfortably parallels my own exertions alongside Fat Boy following leg day sessions; evidently, cardiovascular conditioning remains non-negotiable, regardless of one's maximal strength.",
+          "text_en_c2": "A /fit/ regular has submitted a vignette of almost clinical perfection regarding a training partner whose squat eclipses the 500-pound threshold yet who treats any cardiovascular exertion as though it were a venial sin against hypertrophy. The mere prospect of a ten-minute inclined treadmill walk sends this paragon into a paroxysm of preservation anxiety. Following a punishing lower-body session, the pair were obliged to negotiate a stairwell to reach the upper car park, the lower levels having been cordoned off for ongoing construction. By the third flight, the gentleman was audibly gasping, one white-knuckled hand clamped to the handrail in defeat. The tableau bears an uncomfortable resemblance to my own post-leg-day exertions alongside Fat Boy, and is a rather pointed reminder that aerobic capacity, however unglamorous, remains a non-negotiable component of any honest fitness regimen.",
+          "source_url": "https://boards.4chan.org/fit/thread/77554925",
+          "source_hint": "/fit/ thread mocking a big squatter who can't handle stairs."
+        },
+        {
+          "id": "anime01",
+          "category": "anime/culture",
+          "topic_zh": "公仔動畫",
+          "topic_en": "Doll anime",
+          "text_zh": "/a有人睇緊dolls動畫，話dolls係最cool嘅嘢，以前從來諗過dolls可以咁型。我覺得同Eva初號機一樣，design先係晒嘢。",
+          "text_en_b1": "An /a/ poster says the doll anime is the coolest thing ever and he is only on episode one. He never even thought dolls could be this cool until this show made him think about them in a completely different way. He says these dolls are so cool. Weird praise, but I get the same feeling watching a clean Gundam 00 mech design.",
+          "text_en_b2": "An /a/ poster declares the current doll anime the coolest thing he has seen in ages, even though he is only on the first episode. He admits he never imagined dolls could feel this stylish until the show reframed his entire perception of them. The praise sounds odd at first, yet I get precisely the same thrill watching a clean Gundam 00 mech design. Aesthetic is everything.",
+          "text_en_c1": "An /a/ poster has bestowed effusive praise upon a recently commenced anime centred on dolls, declaring the series unequivocally the coolest thing he has encountered in recent memory, notwithstanding the fact that he remains merely one episode into the production. He candidly admits that the conceptual premise of dolls being rendered compelling had never crossed his mind until this particular programme compelled a fundamental reassessment of his aesthetic assumptions. The endorsement, whilst idiosyncratic in its specificity, evokes a parallel response in me when beholding the immaculate mechanical design of a Gundam 00 suit, where the visual language transcends mere machinery and becomes something approaching pure sculptural statement.",
+          "text_en_c2": "An /a/ viewer, barely an episode into the latest doll-centric anime, has already declared the work to be the most aesthetically intoxicating object he has encountered this calendar year, professing astonishment that the humble doll, a motif long consigned to the cultural dustbin of kitsch, could be rendered with such singular élan. The revelation, he insists, has retroactively reorganised his entire conceptual taxonomy of the form. The endorsement is peculiar, yet entirely comprehensible to anyone who has experienced the quiet rapture of beholding a particularly immaculate Gundam 00 mechanical design, wherein the silhouette, the panel articulation, and the chromatic discipline coalesce into something approaching architectural poetry. Design, in the final accounting, remains the only legitimate criterion by which such things ought to be judged.",
+          "source_url": "https://boards.4chan.org/a/thread/291287699",
+          "source_hint": "/a/ thread about a new doll anime blowing the poster's mind."
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "source": "ai",
@@ -4344,103 +4454,6 @@
           "text_en_c2": "The latest installment of 'Attack on Titan' has captivated a diverse audience, attracting both longtime aficionados and newcomers alike. The intricate tension woven throughout the narrative, coupled with the profound depth of character development, has significantly amplified discussions within the anime community. Fans are energetically sharing their theories and emotional responses as the narrative unfolds, fostering a vibrant cultural dialogue. This engagement reflects not only a passion for the series but also a broader appreciation for storytelling in anime, as enthusiasts eagerly dissect plot intricacies and character arcs, thereby enriching the communal experience surrounding this iconic franchise.",
           "source_url": "https://news.ycombinator.com/item?id=49331033",
           "source_hint": "Attack on Titan generates buzz among fans."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trading-1",
-          "category": "trading",
-          "topic_zh": "美股回升",
-          "topic_en": "US Stocks Rebound",
-          "text_zh": "最近美股在經歷連續下跌之後出現回升，尤其是科技股。蘋果公司在8月初的盈利報告後，股價反彈了5%。這樣的變化對於投資者來說可能是個好機會。",
-          "text_en_b1": "US stocks have rebounded recently after consecutive drops. Technology stocks are leading this recovery. For example, Apple Inc. shares rose by 5% following its earnings report in early August. This change could provide a good opportunity for investors looking to buy into the tech market now.",
-          "text_en_b2": "Recently, US stocks have experienced a notable rebound after enduring consecutive declines, with technology stocks leading this resurgence. For instance, Apple Inc. shares saw a remarkable 5% increase following its earnings report in early August. This market shift might present a favorable opportunity for investors who are keen on entering the tech sector at this moment, as such movements can signal potential growth amidst fluctuating conditions.",
-          "text_en_c1": "In recent weeks, U.S. stocks have experienced a notable rebound following a period of consecutive declines, with technology stocks spearheading this recovery. Notably, shares of Apple Inc. surged by 5% after the release of its earnings report in early August, which has garnered significant attention from investors. This resurgence may represent an advantageous opportunity for those contemplating entering the tech market, as the current momentum might be indicative of a broader market trend. As such, investors are encouraged to closely monitor these developments to capitalize on potential gains.",
-          "text_en_c2": "In recent weeks, the US stock market has experienced a notable resurgence following a series of declines, with technology stocks spearheading this recovery. A pertinent example of this trend is the 5% uptick in Apple Inc.'s shares, which occurred in the wake of its robust earnings report released in early August. Such fluctuations within the market are of considerable interest to investors, as they may present lucrative opportunities for entry into the technology sector. However, discerning market signals and timing one's investments wisely is crucial, especially given the volatility that often characterizes these financial landscapes.",
-          "source_url": "https://news.google.com/search?q=US+stocks+rebound",
-          "source_hint": "US stocks are bouncing back, especially in tech."
-        },
-        {
-          "id": "trading-2",
-          "category": "trading",
-          "topic_zh": "期貨市場焦點",
-          "topic_en": "Futures Market Focus",
-          "text_zh": "本週原油期貨價格大幅增長，從每桶70美元上升至78美元。分析師預測，這是由於供應鏈問題和需求回升所驅動，值得交易者特別關注。",
-          "text_en_b1": "This week, crude oil futures prices increased significantly from $70 to $78 per barrel. Analysts predict this rise is driven by supply chain issues and a rebound in demand. Traders should pay special attention to these changes as they can impact future market trends.",
-          "text_en_b2": "In the past week, crude oil futures prices have seen a significant surge, rising from $70 to $78 per barrel. Analysts attribute this increase to ongoing supply chain disruptions combined with a rebound in demand. Consequently, traders are advised to pay close attention to these developments, as they could substantially influence future market trends and trading strategies in the oil sector.",
-          "text_en_c1": "During this week, crude oil futures prices have witnessed a substantial increase, climbing from $70 to $78 per barrel. Analysts attribute this surge primarily to ongoing supply chain issues coupled with a notable rebound in global demand. For traders, this drastic price shift should serve as a critical focal point, given its potential to influence future market trends significantly. As such, those engaged in oil trading are advised to remain vigilant and adapt their strategies accordingly, as the market continues to evolve in response to these factors.",
-          "text_en_c2": "In the past week, crude oil futures prices witnessed a remarkable surge, climbing from $70 to $78 per barrel, a development that has drawn the attention of various market analysts. The underlying factors contributing to this price escalation are largely attributed to ongoing supply chain disruptions coupled with an uptick in demand, phenomena that traders should meticulously monitor. Such dynamics not only influence immediate trading strategies but also have the potential to reshape broader market trends in the foreseeable future, underscoring the need for astute observation in an ever-evolving commodities landscape.",
-          "source_url": "https://news.google.com/search?q=crude+oil+futures+increase",
-          "source_hint": "Crude oil prices rise due to supply chain issues."
-        },
-        {
-          "id": "tech-ai-1",
-          "category": "tech/ai",
-          "topic_zh": "AI影響就業",
-          "topic_en": "AI Job Impact",
-          "text_zh": "最新報告指出，AI技術的迅速發展可能會影響到許多白領和藍領工作，特別是數據分析和自動化生產領域。在這樣的情況下，許多工人可能需要轉型。",
-          "text_en_b1": "A recent report highlights that the rapid development of AI technology could impact many white-collar and blue-collar jobs. This is especially true in data analysis and automated production sectors. Many workers may need to transition to new roles to remain competitive in the changing job market.",
-          "text_en_b2": "A recent report emphasizes that the rapid advancement of AI technology is likely to have considerable implications for a variety of white-collar and blue-collar jobs, particularly in fields such as data analysis and automated manufacturing. In light of these developments, many workers may find themselves needing to transition to new roles to remain competitive in an evolving job market that is increasingly shaped by technological innovation.",
-          "text_en_c1": "A recent report underscores the profound implications of the rapid progression of AI technology on both white-collar and blue-collar employment. Particularly affected are sectors such as data analysis and automated production, where traditional job roles are increasingly at risk. In light of these developments, a significant number of workers may find it necessary to transition into new roles to maintain their competitive edge in an ever-evolving job market. This imperative for adaptation highlights the crucial nature of ongoing skills development in an age characterized by technological upheaval.",
-          "text_en_c2": "A recently published report underscores the profound implications of the rapid advancements in artificial intelligence (AI) technology, which are poised to significantly disrupt numerous industries, impacting both white-collar and blue-collar jobs alike. This is particularly evident in sectors such as data analysis and automated manufacturing, where the integration of AI could render conventional roles obsolete. Consequently, a substantial number of workers may find themselves compelled to pivot towards new professions, necessitating a re-skilling and adaptation to remain competitive in an increasingly technologically driven job market that is continuously evolving.",
-          "source_url": "https://news.google.com/search?q=AI+impact+on+jobs",
-          "source_hint": "AI is affecting many job sectors, including data analysis."
-        },
-        {
-          "id": "hk-news-1",
-          "category": "hk/news",
-          "topic_zh": "香港樓市回暖",
-          "topic_en": "HK Property Market Revival",
-          "text_zh": "香港的樓市在近期略有回暖，根據地產代理報告，7月成交量增長了10%。不少年輕人開始進步入市場，尋求投資機會。",
-          "text_en_b1": "Hong Kong's property market has shown some revival recently, with transaction volume increasing by 10% in July, according to real estate agents. Many young people are entering the market, seeking investment opportunities amidst these changes and potential future growth.",
-          "text_en_b2": "Hong Kong's property market has recently shown signs of revival, with a reported 10% increase in transaction volume during July, according to data from real estate agents. This uptick has encouraged numerous young individuals to enter the market in search of investment opportunities, which they hope will yield positive returns amidst these shifting trends and the potential for future growth in the real estate sector.",
-          "text_en_c1": "Recent trends indicate a slight revival in Hong Kong’s property market, as evidenced by a reported 10% increase in transaction volume during July, according to insights from real estate professionals. This uptick in activity has sparked interest among many young individuals who are eager to enter the market and explore potential investment opportunities. Amidst these market fluctuations, the prospect of future growth appears enticing, and this renewed enthusiasm is likely to shape the dynamics of property transactions in the months ahead.",
-          "text_en_c2": "Hong Kong's property market has recently exhibited signs of revitalization, as evidenced by a 10% increase in transaction volume recorded in July, according to reports from real estate agents. This resurgence appears to be attracting a growing number of young individuals who are now entering the market, actively seeking investment opportunities amid the shifting landscape. The renewed interest in real estate could signal potential for future growth, although the underlying factors driving this revival warrant further examination, particularly in relation to economic conditions and demographic trends influencing buyer behavior.",
-          "source_url": "https://news.google.com/search?q=Hong+Kong+property+market+revival",
-          "source_hint": "Hong Kong's property market is experiencing a slight recovery."
-        },
-        {
-          "id": "lol-esports-1",
-          "category": "lol/esports",
-          "topic_zh": "S15賽季熱戰",
-          "topic_en": "S15 Season Battles",
-          "text_zh": "英雄聯盟S15賽季目前處於白熱化階段，EDG和G2已經在淘汰賽中會師，引發粉絲熱烈討論。這場比賽看點十足！",
-          "text_en_b1": "The League of Legends S15 season is currently at a heated stage, with EDG and G2 facing off in the playoffs. This matchup has sparked intense discussions among fans. Many are eagerly anticipating how the teams will perform against each other in this critical battle.",
-          "text_en_b2": "The League of Legends S15 season has reached a particularly intense phase, with EDG and G2 set to clash in the playoffs, igniting fervent discussions among fans. As excitement builds, many are eagerly contemplating the strategies and performances of these teams in what promises to be a thrilling matchup. Such rivalries often elevate the stakes and enhance the overall esports experience for both competitors and spectators alike.",
-          "text_en_c1": "The S15 season of League of Legends is currently experiencing an intense phase, with EDG and G2 set to clash in the playoffs. This highly anticipated matchup has ignited fervent discussions among the fanbase, who are eagerly speculating on the performance and strategies that will unfold during this critical battle. The stakes are undoubtedly high, as both teams seek to secure their position in the tournament. Consequently, this showdown not only promises thrilling gameplay but also highlights the escalating excitement surrounding the competitive esports landscape.",
-          "text_en_c2": "The current stage of the League of Legends S15 season is marked by fervent competition, particularly with the highly anticipated playoff clash between EDG and G2, which has ignited fervent discussions and excitement among the gaming community. Fans are captivated by the strategic intricacies and skillful performances that define this epic showdown, eagerly speculating on how each team will navigate the high-stakes environment in their quest for supremacy. This matchup not only exemplifies the strategic depth inherent in the game but also reflects the broader cultural significance of esports, where engagement transcends mere entertainment.",
-          "source_url": "https://news.google.com/search?q=League+of+Legends+S15+playoffs",
-          "source_hint": "EDG and G2 are in the playoffs, exciting fans everywhere."
-        },
-        {
-          "id": "mma-fitness-1",
-          "category": "mma/fitness",
-          "topic_zh": "健身與MMA",
-          "topic_en": "Fitness and MMA",
-          "text_zh": "最近在健身房裡，許多人開始結合MMA訓練，以提升耐力和力量。專家表示，這種訓練方式不僅有效，還能增強心理素質。",
-          "text_en_b1": "Recently, many people in gyms are starting to combine MMA training to improve their stamina and strength. Experts say this training method is not only effective but also enhances mental toughness. It is becoming a popular choice for those looking to elevate their fitness game.",
-          "text_en_b2": "Recently, a growing number of gym-goers are incorporating MMA training into their fitness routines to enhance both stamina and strength. Experts assert that this particular training approach is not only effective but also plays a crucial role in bolstering mental resilience. As such, MMA has become a popular option for individuals striving to elevate their fitness levels, offering a dynamic and engaging alternative to traditional workout methods.",
-          "text_en_c1": "In recent times, a growing number of fitness enthusiasts have begun to integrate MMA training into their workout regimens, aiming to enhance both their stamina and strength. Experts in the field assert that this multifaceted approach to training is not only effective in developing physical attributes but also plays a significant role in fostering mental resilience. As awareness of these benefits spreads, MMA training is increasingly becoming a favored option among individuals striving to elevate their fitness journeys, reflecting a broader trend toward holistic health and wellness.",
-          "text_en_c2": "In recent times, a significant trend has emerged within gym communities, where an increasing number of individuals are integrating Mixed Martial Arts (MMA) training into their fitness regimens, aiming to enhance both stamina and strength. Experts assert that this multifaceted training approach not only proves effective in physical conditioning but also cultivates rigorous mental resilience, thereby offering a holistic enhancement to one's fitness journey. As practitioners embrace the complexities of MMA, this method is rapidly gaining traction among fitness enthusiasts seeking to elevate their physical capabilities while fostering a robust psychological fortitude.",
-          "source_url": "https://news.google.com/search?q=MMA+training+benefits",
-          "source_hint": "MMA training is gaining popularity for fitness improvement."
-        },
-        {
-          "id": "anime-culture-1",
-          "category": "anime/culture",
-          "topic_zh": "動漫文化熱潮",
-          "topic_en": "Anime Culture Wave",
-          "text_zh": "最近動漫文化在香港越來越流行，特別是《進擊的巨人》和《鬼滅之刃》。許多年輕人開始參加動漫展，展現他們對角色的熱愛。",
-          "text_en_b1": "Anime culture is growing increasingly popular in Hong Kong, especially shows like ",
-          "text_en_b2": "In recent times, anime culture has witnessed an impressive surge in popularity within Hong Kong, particularly with prominent series like 'Attack on Titan' and 'Demon Slayer'. This trend has motivated many young fans to actively participate in anime conventions, where they eagerly showcase their passion for their favorite characters. As a result, the vibrant anime community continues to flourish, reflecting a broader global enthusiasm for this captivating art form.",
-          "text_en_c1": "The phenomenon of anime culture is witnessing a remarkable surge in popularity throughout Hong Kong, particularly with series such as 'Attack on Titan' and 'Demon Slayer' capturing the hearts of local audiences. This growing enthusiasm has motivated many young individuals to participate in anime conventions, where they enthusiastically express their admiration for beloved characters and engage with fellow fans. As the cultural impact of anime continues to expand, it is reshaping social interactions and fostering a vibrant community centered around shared interests and passions.",
-          "text_en_c2": "The cultural phenomenon of anime has been experiencing a remarkable surge in popularity across Hong Kong, with particular acclaim for series such as 'Attack on Titan' and 'Demon Slayer.' This growing fascination has prompted a vibrant participation in anime conventions among the youth, where they enthusiastically express their admiration for various characters and narratives. Such gatherings not only foster a sense of community among fans but also highlight the broader cultural implications of anime as it transcends geographical boundaries, influencing contemporary arts and entertainment, and reshaping youth subcultures in dynamic and innovative ways.",
-          "source_url": "https://news.google.com/search?q=anime+culture+Hong+Kong",
-          "source_hint": "Anime culture is rapidly growing among Hong Kong youth."
         }
       ]
     }
