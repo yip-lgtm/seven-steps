@@ -36,17 +36,18 @@ jobs:
             node -e '
               const fs = require("fs");
               const today = new Date().toISOString().slice(0, 10);
-              const pool = JSON.parse(fs.readFileSync("clips/pool.json", "utf8"));
-              const clips = (pool.clips || []).slice(0, 7).map((c, i) => ({
+              let pool = JSON.parse(fs.readFileSync("clips/pool.json", "utf8"));
+              const arr = Array.isArray(pool) ? pool : (pool.clips || []);
+              const clips = arr.slice(0, 7).map((c, i) => ({
                 id: c.id || ("fallback-" + i),
                 category: c.category || "general",
                 topic_zh: c.topic_zh || c.topic || "",
                 topic_en: c.topic_en || c.topic || "",
                 text_zh: c.text_zh || "",
-                text_en_b1: c.text_en_b1 || c.text_en || "",
-                text_en_b2: c.text_en_b2 || c.text_en || "",
-                text_en_c1: c.text_en_c1 || c.text_en || "",
-                text_en_c2: c.text_en_c2 || c.text_en || "",
+                text_en_b1: c.text_en_b1 || c.text_en || c.text || "",
+                text_en_b2: c.text_en_b2 || c.text_en || c.text || "",
+                text_en_c1: c.text_en_c1 || c.text_en || c.text || "",
+                text_en_c2: c.text_en_c2 || c.text_en || c.text || "",
                 source_url: c.source_url || "",
                 source_hint: c.source_hint || "(fallback to static pool — AI gen failed today)",
               }));
