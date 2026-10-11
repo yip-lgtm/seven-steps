@@ -1,6 +1,116 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-11",
   "days": [
+    {
+      "date": "2026-10-11",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-bond-black-swan",
+          "category": "trading",
+          "topic_zh": "債市黑天鵝",
+          "topic_en": "Bond Bear Market Black Swan",
+          "text_zh": "/biz/ 嗰個最大嘅bull自己出嚟話：依家進入black swan。最壞嘅bond bear market，歷史最差。 又係大鑊。又係學費😭🙏 個倉頂唔順⋯ 今個月人工又⋯ 算吧，繼續返工地盤先。",
+          "text_en_b1": "The biggest bull on /biz/ says we are entering a black swan event. He says this is becoming the worst bond bear market in history. He calls it bullish, but for most people it sounds very bearish. The bond market is moving fast and the next few weeks could be the biggest crash ever.",
+          "text_en_b2": "The most prominent bull on /biz/ has come out claiming we are entering a genuine black swan event. He insists this bond bear market is shaping up to be the worst in recorded history, while still paradoxically calling it bullish. For ordinary investors, however, the mood is decidedly bearish, since bond yields are moving at breakneck speed and the next few weeks could trigger an unprecedented crash.",
+          "text_en_c1": "The most prominent bull on /biz/ has now publicly conceded that markets are entering what he terms a black swan scenario. He has been quick to characterise the unfolding bond bear market as the worst on record, framing it as a bullish opportunity for those with sufficient conviction. Most other participants, however, interpret the same conditions as deeply bearish, given the sheer velocity at which yields have repriced. With the next several weeks likely to determine whether the move completes or extends, the prevailing consensus is that whatever follows will rank among the most severe corrections in modern bond market history.",
+          "text_en_c2": "The most strident bull on /biz/ has, with characteristic rhetorical flourish, declared that the financial system is now in the throes of a textbook black swan event — a tail risk nobody had bothered to price in until it actually materialised. He insists this nascent bond bear market is on course to become the worst in recorded history, a conviction he still somehow manages to frame as bullish, though to anyone with skin in the game the language sounds unambiguously bearish. Yields have been adjusting with unseemly haste, and the consensus among the more alarmist posters is that the coming weeks may witness the most catastrophic repricing sovereign debt has ever suffered.",
+          "source_url": "https://boards.4chan.org/biz/thread/62763669",
+          "source_hint": "/biz/ thread from the self-proclaimed biggest bull warning of a bond black swan."
+        },
+        {
+          "id": "biz-borrow-buy-gold",
+          "category": "trading",
+          "topic_zh": "借錢買金Bitcoin",
+          "topic_en": "Leverage Gold And BTC",
+          "text_zh": "有個anon寫：用借貸買金同BTC，借新貸去還舊貸，不停loop up credit score。 WTF 咁都得？⋯ 唔好啦我已經輸緊🙏 又想ALL IN 😭 命理叫我hold⋯ 但我已經孭緊幾多margin call。 廢物。",
+          "text_en_b1": "An anon on /biz/ suggests taking on debt to buy gold and Bitcoin, then taking on more debt to pay off old debt and buy more. His credit score goes up because he always pays on time. He asks, what's the catch? This is basically infinite leverage if you never stop borrowing.",
+          "text_en_b2": "An anonymous poster on /biz/ has outlined a strategy of taking on fresh debt to purchase gold and Bitcoin, then borrowing yet again to service the previous loans. His credit score actually climbs because every repayment lands on time. He asks what the catch could possibly be, although critics point out this amounts to infinite leverage, since the cycle never actually stops compounding risk.",
+          "text_en_c1": "An anonymous poster on /biz/ has outlined a strategy of perpetual reborrowing, whereby one takes out fresh loans in order to service existing obligations while simultaneously acquiring additional gold and Bitcoin positions. Because each successive debt is repaid on schedule, his credit rating continues to appreciate, which in turn unlocks further capacity. He poses the obvious question, namely where the inherent flaw lies, seemingly oblivious to the fact that such an arrangement constitutes, in effect, unlimited leverage so long as liquidity remains freely available. Few in the thread appear willing to acknowledge the catastrophic tail risk embedded within the proposition.",
+          "text_en_c2": "An enterprising anon on /biz/ has outlined what he evidently considers a perfectly rational strategy: take out a loan to purchase gold and Bitcoin, then refinance that initial debt with another, freshly minted facility in order to repay the first and acquire additional bullion, iterating ad infinitum so that one's credit score, paradoxically, climbs with each successive rollover. The proposition is, at bottom, infinite leverage underwritten by the assumption that credit remains perpetually available — a Minsky-style pyramid whose base is nothing more than one's own sanguine expectation of future liquidity.",
+          "source_url": "https://boards.4chan.org/biz/thread/62770547",
+          "source_hint": "/biz/ thread asking why infinite-leverage gold and BTC loop is not promoted."
+        },
+        {
+          "id": "g-eng-civil-soil-nailing",
+          "category": "civil/structure",
+          "topic_zh": "斜坡soil nail",
+          "topic_en": "Soil Nailing Factor Of Safety",
+          "text_zh": "今日上斜坡做condition survey。 個factor of safety低過1.3⋯ 師傅叫我check soil nail 長度同地下水水位。 唔該Tommy幫我跟進🙏 同時間溫FE⋯ 地盤英文真係好chur lol 廢柴mode全開。",
+          "text_en_b1": "At site today, I checked a slope with a low factor of safety. The sifu told me to verify the soil nail lengths and the groundwater level. We also need to think about drainage and underground utilities around the slope. Condition surveys like this are normal for slope investigation work in Hong Kong.",
+          "text_en_b2": "Out on site today for a slope inspection and the factor of safety came in well below the 1.3 threshold. My sifu asked me to verify the soil nail lengths along with the current groundwater level, while also flagging drainage paths and any underground utilities in the vicinity. These condition surveys are standard practice for slope investigation work, although they certainly keep you on your toes.",
+          "text_en_c1": "Earlier today, while conducting a routine condition survey on a hillside site, I encountered a section where the calculated factor of safety had fallen below the minimum threshold of 1.3, a situation that warrants immediate attention. My supervising engineer has instructed me to verify both the installed soil nail lengths and the prevailing groundwater table, while also accounting for surface drainage provisions and any underground utilities traversing the slope. Such assessments are entirely standard within slope investigation practice in Hong Kong, although they do tend to coincide with particularly demanding periods of professional examination preparation.",
+          "text_en_c2": "On site this morning I was inspecting a slope whose calculated factor of safety, at 1.3 or thereabouts, falls conspicuously short of the threshold Hong Kong's geotechnical manual would consider adequate. The senior engineer instructed me to verify the installed soil nail lengths against the design drawings and to cross-check the prevailing groundwater table, which has presumably risen since last week's deluge. Subsequent drainage provisions and the labyrinth of underground utilities skirting the slope will likewise require careful consideration. Such condition surveys constitute the bread and butter of slope investigation work in the territory, and I shall remain on site for the remainder of the day.",
+          "source_url": "https://boards.4chan.org/g/thread/110022077",
+          "source_hint": "OP claims AI already replaced all software engineers; framing for civil/engineering reality check."
+        },
+        {
+          "id": "pol-structural-load-path",
+          "category": "civil/structure",
+          "topic_zh": "結構load path",
+          "topic_en": "Load Path Beams And Columns",
+          "text_zh": "夜晚返屋企溫番concrete + steel design。 Load path到底行唔通⋯ reinforced concrete個beam-column joint又要覆check一遍🙏 Dr. An send咗啲notes過嚟，要慢慢啃⋯ 點解我唔係喺Houston⋯ 五月存到100K先走得。",
+          "text_en_b1": "Tonight I am reviewing load path for beams and columns in reinforced concrete and steel design. The vertical load has to travel from the slab, through the beams, into the columns, and finally down to the foundation. If the path is broken anywhere, the whole structure fails the check.",
+          "text_en_b2": "I am spending the evening going back over load path calculations for beams and columns, covering both reinforced concrete and steel design. The vertical load has to travel cleanly from the slab through the beams and into the columns before reaching the foundation, because if that path is broken at any point, the entire structure will fail the check.",
+          "text_en_c1": "Having returned home this evening, I have begun reviewing the load path through beams and columns within both reinforced concrete and steel design frameworks, only to discover that the vertical load is failing to transmit correctly at several critical junctions. The beam-column connections in particular now require a comprehensive re-check, a task made considerably more onerous by the supplementary notes Dr An forwarded earlier in the week, which demand careful, almost forensic examination. Should the path remain discontinuous at any single node, the entire structural system will fail the verification, with consequences that cannot be overstated.",
+          "text_en_c2": "Tonight, after a punishing day at the office, I shall be revisiting the question of load path continuity in composite reinforced-concrete and structural-steel design. The vertical tributary must travel, in unbroken sequence, from the slab through the beams and into the columns, finally dissipating into the foundation; should any link in that chain be compromised, the entire analytical model fails the check. The beam-column joint in particular warrants re-examination, since its detailing governs the integrity of the whole assemblage. Dr. An has forwarded supplementary notes, which I shall labour through before dawn.",
+          "source_url": "https://boards.4chan.org/pol/thread/544146563",
+          "source_hint": "/pol/ thread on luck vs skill; framing for engineering merit view."
+        },
+        {
+          "id": "g-ai-replace-coders",
+          "category": "tech/ai",
+          "topic_zh": "AI取代工程師",
+          "topic_en": "AI Replacing Engineers",
+          "text_zh": "/g/ 嗰邊話AI已經炒晒所有software engineer⋯ wtf 咁我地工程行業點⋯ civil應該仲有幾年，但都係倒數。 廢物，要快啲考完FE🙏 30歲仲係咁⋯ grinding mode。 藍領先死，白領跟住。",
+          "text_en_b1": "An anon on /g/ claims AI has already replaced all software engineers and no programmer will ever find a job again. He says new coders should quit now. Other anons reply that the work is shifting to AI supervision and prompt engineering, not pure coding. The exact impact on civil engineers is still unclear.",
+          "text_en_b2": "An anon on /g/ has declared that AI has already wiped out the entire software engineering profession and that no fresh programmer will ever land a job again. He urges new coders to quit while they can, although other posters counter that the work is simply evolving into AI supervision and prompt engineering. What this means for civil engineers remains genuinely unclear.",
+          "text_en_c1": "A widely circulated post on /g/ asserts that artificial intelligence has rendered software engineering wholly obsolete, claiming that no aspiring programmer will secure meaningful employment henceforth and urging newcomers to abandon the field without delay. Counter-responses, however, suggest a more nuanced trajectory, contending that the discipline is gradually shifting from conventional coding toward the curation of model outputs and the engineering of precise prompts. What remains genuinely uncertain is the timeline along which civil engineers, whose work depends on jurisdictional codes and physical site verification, will confront comparable displacement, though most consider it a matter of years rather than decades.",
+          "text_en_c2": "An anon on /g/, with the customary apocalyptic brio, has pronounced that artificial intelligence has already rendered the entire cohort of software engineers structurally unemployed, and that any neophyte still typing out FizzBuzz should surrender the pretence forthwith. A more measured chorus of respondents counter that the actual labour is migrating, rather than vanishing, into AI supervision, code review, and the nascent discipline of prompt engineering — work that demands, if anything, a keener grasp of fundamentals than boilerplate coding ever did. The downstream implications for civil engineers, whose work is partially immune to automation, remain a matter of considerable conjecture.",
+          "source_url": "https://boards.4chan.org/biz/thread/62769416",
+          "source_hint": "/g/ doompost saying AI ended software engineering careers."
+        },
+        {
+          "id": "pol-strait-hormuz",
+          "category": "hk/news",
+          "topic_zh": "霍爾木茲火燒船",
+          "topic_en": "Gulf Of Oman Tanker Fire",
+          "text_zh": "/pol/ 有人post Strait of Hormuz嗰邊著火。 有tanker燒住，IRGC仲拍埋片出嚟lol 油價一定爆⋯ 又係學費⋯ 上個月long oil止損，今次唔好再接🙏 美國escort都無用⋯ 想short oil但margin緊。 命理叫我hold現金。",
+          "text_en_b1": "A fire was detected in the Gulf of Oman near Sohar, close to where US-escorted ship-to-ship transfers happen. Iran released a video of the IRGC destroying a Taiwan-registered supertanker carrying 2 million barrels of Saudi crude. Another burning tanker video leaked on Instagram this morning. Oil traders are watching this very closely.",
+          "text_en_b2": "A fire has been detected in the Gulf of Oman near Sohar, right where US-escorted ship-to-ship transfers typically occur. Iran has released footage showing the IRGC striking a Taiwan-registered supertanker that was carrying roughly two million barrels of Saudi crude, while another video of a burning tanker leaked on Instagram this morning. Oil traders worldwide are now watching the situation extremely closely.",
+          "text_en_c1": "Reports emerging from the Strait of Hormuz indicate that a tanker is currently ablaze in the vicinity of Sohar, close to waters where US-escorted ship-to-ship transfers are routinely conducted, with Iranian state media having released footage purportedly showing IRGC fast boats engaging a Taiwan-flagged supertanker transporting approximately two million barrels of Saudi crude. Separately, another video depicting a burning tanker surfaced on Instagram earlier today, further fuelling speculation of coordinated action. Given my own exposure from last month's unsuccessful long crude position, the temptation to short remains considerable, though prevailing margin constraints render such a manoeuvre impractical under present conditions.",
+          "text_en_c2": "A thermal anomaly has been detected in the Gulf of Oman, in waters proximate to Sohar, where American-escorted ship-to-ship transfers of crude have lately become a near-daily occurrence. Iranian state media has obligingly released footage of IRGC fast boats ramming and subsequently igniting a Taiwan-flagged VLCC carrying, by the trader's reckoning, some two million barrels of Saudi crude, while a second, equally incendiary clip of a stricken tanker appeared this morning on an Instagram channel of dubious provenance. With Brent already jittery, every dealing desk in London and Singapore is watching these developments with undisguised apprehension, and the consensus call is that the contango is about to invert decisively.",
+          "source_url": "https://boards.4chan.org/pol/thread/544144184",
+          "source_hint": "/pol/ thread on Strait of Hormuz tanker attacks and crude supply."
+        },
+        {
+          "id": "fit-quit-sports-30",
+          "category": "mma/fitness",
+          "topic_zh": "30歲停練",
+          "topic_en": "Quitting Sports At 30",
+          "text_zh": "30歲chud⋯ 睇完個post我感受到⋯ 膝頭唔再好似17歲⋯ 今日肥仔信又叫我jiu jitsu，我想話我FE都未搞掂🙏 但gym真係好耐無去⋯ 廢物，今年得返幾多個月。 唔好quit，兄弟。",
+          "text_en_b1": "A 30 year old anon on /fit/ says he quit bouldering after one year because climbing shoes gave him bony bumps on his toes. His fingers feel stiff in the morning and his ankle hurts from jumping down. He is cutting back to once a week but wonders if the damage is done. He asks if he should quit sports completely at 30.",
+          "text_en_b2": "A thirty-year-old poster on /fit/ admits he has quit the sport after just one year, since his climbing shoes left painful bony bumps on his toes. His fingers feel stiff every morning and his ankle aches from repeated jumps, so he is cutting back to weekly sessions. He wonders whether the damage is already done and asks if he should give up athletics entirely at thirty.",
+          "text_en_c1": "A thirty-year-old poster on /fit/ has described discontinuing bouldering after a mere twelve months of participation, citing the development of small bony protuberances on his toes attributable to prolonged wear of tight climbing shoes, alongside persistent morning stiffness in his fingers and recurring ankle discomfort precipitated by repeated jumps from elevated heights. Having reduced his climbing frequency to a solitary weekly session, he remains uncertain whether the cumulative damage is already irreversible. He poses, with evident resignation, whether one ought to relinquish athletic pursuits entirely upon reaching the milestone of thirty, a question many older respondents have addressed.",
+          "text_en_c2": "A thirty-year-old anon on /fit/ has, after a mere twelve months of bouldering, concluded that the discipline is no longer compatible with his anatomical reality. The aggressive toe-box of his climbing shoes has, he reports, induced the formation of unsightly osseous prominences, his fingers have acquired a worrying morning stiffness suggestive of early-stage osteoarthritis, and his ankles protest audibly each time he drops from a problem. Though he has tapered to a single weekly session, the suspicion lingers that the cumulative damage may already be irreversible, and he asks the board, with what one senses is genuine anguish, whether an able-bodied man of thirty should simply abandon athletics altogether.",
+          "source_url": "https://boards.4chan.org/fit/thread/77558835",
+          "source_hint": "/fit/ thread from a 30-year-old considering quitting climbing due to joint pain."
+        },
+        {
+          "id": "a-fall-2026-first-impressions",
+          "category": "anime/culture",
+          "topic_zh": "十月新番失望",
+          "topic_en": "Fall 2026 Anime Disappointed",
+          "text_zh": "秋季新番⋯ /a/ 全部都話失望lol 我都想睇FX Senshi Kurumi-chan 同 Ranma 1/2新季⋯ 連續兩季神番之後終於仆街了。 下晝返工溫FE都溫到神經晒🙏 一於夜晚煲番兩集⋯ 廢柴都需要anime續命。",
+          "text_en_b1": "After two great seasons, /a/ says Fall 2026 is finally a weak season. FX Senshi Kurumi-chan is praised as the best adaptation of the year so far. But Seitokai ni mo Ana wa Aru is called the biggest hype and the biggest disappointment of the season, with everyone agreeing it failed to deliver. Anons are sharing first impressions anyway.",
+          "text_en_b2": "After two standout seasons in a row, /a/ is now broadly agreed that Fall 2026 has finally turned out to be a weak one. FX Senshi Kurumi-chan is being hailed as the strongest adaptation of the year so far, yet Seitokai ni mo Ana wa Aru has drawn criticism as both the most overhyped and the most disappointing title of the season.",
+          "text_en_c1": "Following two consecutive seasons of exceptional quality, /a/ has collectively pronounced the Fall 2026 anime slate a considerable disappointment, marking a pronounced reversal after what had been an extended period of critical enthusiasm. The adaptation of FX Senshi Kurumi-chan, conversely, has been singled out for praise as arguably the finest production of the calendar year thus far, whereas Seitokai ni mo Ana wa Aru has drawn scrutiny as the season's most overhyped and consequently most underwhelming title, with consensus forming around the view that it signally failed to deliver on its considerable pre-release promise.",
+          "text_en_c2": "After two consecutive seasons that /a/ hailed as nothing short of miraculous, the autumn 2026 slate has, with crushing inevitability, failed to maintain the standard. FX Senshi Kurumi-chan is being received as the most stylish adaptation of the calendar year, a playful love letter to the genre that has somehow eluded the prevailing mediocrity. By contrast, Seitokai ni mo Ana wa Aru has attracted the dubious distinction of being simultaneously the most hyped and the most disappointing premiere of the season, its grotesque misinterpretation of the source material eliciting a rare consensus of derision. First impressions continue nonetheless to accumulate in the thread.",
+          "source_url": "https://boards.4chan.org/a/thread/291542023",
+          "source_hint": "/a/ Fall 2026 first impressions thread calling the season underwhelming."
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "source": "ai",
@@ -4357,103 +4467,6 @@
           "text_en_c2": "The latest season of Attack on Titan has recently surged in popularity, igniting a whirlwind of discussions across various online platforms regarding its intricate plot developments. Enthusiastic fans, eager to dissect every nuance of the storyline, find themselves immersed in fervent debates and exchanges of theories, reflecting the series' profound impact on its audience. The collective enthusiasm is palpable, as viewers share their insights and predictions, ensuring that no detail is overlooked. This season not only captivates existing fans but also attracts newcomers, solidifying its position as a significant cultural phenomenon within the anime community.",
           "source_url": "https://boards.4chan.org/a/thread/290221076",
           "source_hint": "Fans eagerly discuss the latest season of Attack on Titan."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trading1",
-          "category": "trading",
-          "topic_zh": "交易策略",
-          "topic_en": "Trading Strategies",
-          "text_zh": "最近，有人在討論使用 AI 技術來改進交易策略，特別是在明顯波動的市場中。這些技術能夠分析大量數據，幫助投資者制定更明智的決策。",
-          "text_en_b1": "Recently, there has been talk about using AI technology to improve trading strategies. This is especially relevant in volatile markets. These technologies can analyze large amounts of data, helping investors make better decisions. Investors are hopeful that this approach will reduce their risk in trading effectively.",
-          "text_en_b2": "Recently, discussions have intensified regarding the potential of AI technology to enhance trading strategies, particularly within highly volatile markets. Such technologies possess the ability to analyze vast quantities of data, thereby assisting investors in making more informed decisions. Consequently, many investors are optimistic that adopting this innovative approach could significantly mitigate their trading risks, enabling them to navigate the complexities of the market with greater confidence and effectiveness.",
-          "text_en_c1": "Recent discussions have emerged concerning the utilization of artificial intelligence technology to enhance trading strategies, particularly within the context of highly volatile markets. These advanced technologies possess the capability to process and analyze vast datasets, thereby enabling investors to make more informed decisions. As a result, there is a palpable sense of optimism among investors, who hope that integrating such approaches will significantly mitigate their trading risks. This shift towards AI-driven methodologies indicates a noteworthy evolution in investment strategies, demonstrating a clear trend towards data-informed decision-making in the financial sector.",
-          "text_en_c2": "In recent discussions, the potential of employing artificial intelligence to enhance trading strategies has garnered considerable attention, particularly within the context of highly volatile financial markets. These sophisticated technologies possess the capability to scrutinize vast datasets, thereby empowering investors to make judicious decisions. Many in the financial sector remain optimistic that the integration of AI will not only facilitate more informed trading choices but also significantly mitigate associated risks. As the landscape of trading continues to evolve, the adaptation of such advanced methodologies is seen as a pivotal step towards achieving greater stability and efficiency.",
-          "source_url": "https://news.ycombinator.com/item?id=49329575",
-          "source_hint": "AI is considered for better trading strategies."
-        },
-        {
-          "id": "trading2",
-          "category": "trading",
-          "topic_zh": "期貨交易",
-          "topic_en": "Futures Trading",
-          "text_zh": "一位交易者在論壇上分享了他最近的期貨交易經驗，雖然虧損了一些，但他依然堅持不懈，將其視為學習的過程。",
-          "text_en_b1": "A trader shared their recent experience in futures trading on a forum. Although they faced some losses, they remain persistent and view these setbacks as part of the learning process. Many traders believe that every loss is tuition for future success in the markets.",
-          "text_en_b2": "A trader recently recounted their experiences with futures trading on an online forum. Although they encountered some financial losses, they remain determined and view these challenges as integral to their learning journey. Many traders share this perspective, believing that every setback serves as valuable tuition, ultimately contributing to their future successes in the unpredictable world of trading.",
-          "text_en_c1": "A trader recently took to a forum to share insights from their latest experiences in futures trading. Despite encountering several financial setbacks, this individual remains resolute, perceiving these challenges as integral to their ongoing learning process. In fact, many seasoned traders subscribe to the belief that each loss serves as a valuable lesson—a form of tuition that ultimately equips them for future success in the mercurial trading environment. Such perspectives highlight the resilience and determination that characterize those striving for excellence in the high-stakes world of trading.",
-          "text_en_c2": "A trader recently took to an online forum to chronicle their experiences in the realm of futures trading, revealing an array of challenges predominantly characterized by incurred losses. Despite these setbacks, the trader's unwavering resilience shines through, as they regard these hurdles not as failures but as invaluable lessons integral to their educational journey in the trading sphere. This sentiment resonates strongly within the trading community, where numerous participants share a belief that each misstep serves as essential tuition for the pursuit of future successes within the marketplace.",
-          "source_url": "https://news.ycombinator.com/item?id=49331033",
-          "source_hint": "Forum discussions highlight trading losses as learning experiences."
-        },
-        {
-          "id": "tech1",
-          "category": "tech/ai",
-          "topic_zh": "AI影響",
-          "topic_en": "Impact of AI",
-          "text_zh": "隨著 AI 技術的快速發展，很多人擔心白領和藍領工作都將受到影響。討論熱烈，許多人開始尋找可替代的職業路徑。",
-          "text_en_b1": "With the rapid development of AI technology, many people are concerned about the impact on both white-collar and blue-collar jobs. The discussions are heated, and many are beginning to look for alternative career paths. This reflects a growing anxiety for job security in an AI-driven world.",
-          "text_en_b2": "As AI technology continues to evolve at a rapid pace, numerous individuals are expressing concerns about its effects on both white-collar and blue-collar employment. The resulting discussions are increasingly intense, with many people actively seeking alternative career options. This growing unease reflects a widespread anxiety regarding job security in a world increasingly dominated by AI, where traditional roles may be significantly altered or replaced.",
-          "text_en_c1": "As the rapid advancement of artificial intelligence technology continues unabated, a growing number of individuals express profound concern regarding its potential ramifications for both white-collar and blue-collar employment. The discourse surrounding this topic has become increasingly fervent, prompting many to reconsider their career trajectories in light of an uncertain future. This phenomenon underscores a pervasive anxiety regarding job security in an AI-driven landscape, where traditional roles may be fundamentally altered or rendered obsolete. Consequently, individuals are actively seeking alternative pathways to safeguard their professional futures.",
-          "text_en_c2": "The rapid advancement of artificial intelligence technology has engendered widespread concern regarding its implications for both white-collar and blue-collar employment sectors. Engaged in fervent discourse, many individuals are increasingly contemplating alternative career trajectories as a proactive measure against potential job obsolescence in an AI-dominated landscape. This phenomenon reflects a rising anxiety regarding job security, prompting workers across various industries to reassess their professional futures. As automation continues to infiltrate the workforce, a collective urgency to adapt and innovate appears imperative to ensuring sustained career viability amidst transformational changes.",
-          "source_url": "https://news.ycombinator.com/item?id=49332564",
-          "source_hint": "Concerns grow over AI's impact on jobs."
-        },
-        {
-          "id": "hk1",
-          "category": "hk/news",
-          "topic_zh": "本地新聞",
-          "topic_en": "Local News",
-          "text_zh": "近日，香港的房地產市場再次攀升，讓許多首次置業的年輕人怦然心動。大家都在討論是否現在是入市的最佳時機。",
-          "text_en_b1": "Recently, Hong Kong's real estate market has seen another rise, exciting many first-time home buyers. People are discussing whether now is the best time to enter the market. The increasing prices create both opportunities and challenges for young buyers looking to invest.",
-          "text_en_b2": "Recently, Hong Kong's real estate market has experienced another significant surge, capturing the excitement of numerous first-time homebuyers. This development has sparked widespread debate among prospective buyers about whether this moment represents an optimal entry point into the market. The rising property prices present both opportunities and challenges, compelling young buyers to carefully evaluate their options before making investment decisions.",
-          "text_en_c1": "In recent weeks, Hong Kong's real estate market has experienced yet another surge, igniting excitement among numerous first-time home buyers. The rapidly escalating property prices have sparked extensive discussions about whether this moment represents an optimal opportunity to enter the housing market. While some view the current climate as ripe with potential, others remain cautious, recognizing the accompanying challenges that such significant financial commitments entail. This dynamic environment reflects the complexities inherent in property investment, especially for young aspirants eager to establish their foothold in a competitive market.",
-          "text_en_c2": "In recent weeks, Hong Kong's real estate market has experienced yet another surge, igniting excitement among numerous first-time homebuyers who view this as a potentially opportune moment for investment. The ongoing discourse surrounding the timing of market entry underscores a collective apprehension as individuals weigh the escalating property prices against the backdrop of their financial aspirations. This burgeoning situation presents both enticing prospects and formidable challenges for young buyers striving to navigate the complexities of property acquisition, compelling them to make astute decisions in an increasingly competitive environment.",
-          "source_url": "https://news.ycombinator.com/item?id=49329583",
-          "source_hint": "Hong Kong's real estate market is heating up again."
-        },
-        {
-          "id": "lol1",
-          "category": "lol/esports",
-          "topic_zh": "LOL賽季更新",
-          "topic_en": "LOL Season Update",
-          "text_zh": "《英雄聯盟》S15賽季的最新更新引發了廣泛的討論。有些玩家對新角色的平衡性表示擔憂，認為可能影響比賽的公平性。",
-          "text_en_b1": "The latest update for League of Legends Season 15 has sparked widespread discussion. Some players express concerns over the balance of new champions, believing it may affect the fairness of competitive matches. The community is divided, with many sharing their thoughts on the changes.",
-          "text_en_b2": "The most recent update for League of Legends Season 15 has ignited extensive debate within the gaming community. Some players have expressed concerns regarding the balance of newly introduced champions, fearing that this imbalance could undermine the fairness of competitive matches. The community remains divided, with many players actively sharing their opinions and reactions to the recent changes, underlining the passionate engagement of fans with the evolving game dynamics.",
-          "text_en_c1": "The recent update for League of Legends Season 15 has ignited extensive discourse within the gaming community. Players have expressed considerable apprehensions regarding the balance of the newly introduced champions, with many arguing that these adjustments might adversely affect the fairness and competitiveness of matches. The community appears to be sharply divided, as enthusiasts fervently share their opinions and perspectives regarding the implications of these changes. This situation highlights the intricate relationship between game development and player expectations, underscoring the challenges faced by developers in achieving a balanced gaming experience.",
-          "text_en_c2": "The most recent update for League of Legends Season 15 has ignited an animated dialogue among the gaming community, as players express diverse perspectives on the equilibrium of newly introduced champions. A considerable faction voices apprehensions regarding the potential ramifications these changes may have on the integrity of competitive matches. This division within the community has fostered a vibrant exchange of ideas, where players actively articulate their insights and critiques. As the competitive landscape shifts, such discourse not only enriches the gaming experience but also highlights the community's investment in ensuring a balanced and fair gaming environment.",
-          "source_url": "https://news.ycombinator.com/item?id=49332751",
-          "source_hint": "LOL community reacts to S15 updates and champion balance."
-        },
-        {
-          "id": "mma1",
-          "category": "mma/fitness",
-          "topic_zh": "健身與MMA",
-          "topic_en": "Fitness and MMA",
-          "text_zh": "最近，許多健身愛好者轉向MMA訓練，尋求更全面的身體素質提高。這樣的趨勢在健身圈中越來越受歡迎。",
-          "text_en_b1": "Recently, many fitness enthusiasts are turning to MMA training to seek a more comprehensive improvement in their physical fitness. This trend is becoming increasingly popular within the fitness community. It offers not only strength training but also skills that many find exhilarating and effective.",
-          "text_en_b2": "Recently, a growing number of fitness enthusiasts have begun to embrace MMA training, seeking a more holistic approach to enhancing their physical fitness. This trend has gained remarkable traction within the fitness community, as participants discover that MMA not only improves strength and endurance but also equips them with exciting skills. Consequently, more individuals are drawn to this invigorating and effective form of training, reflecting its increasing popularity.",
-          "text_en_c1": "In recent months, an increasing number of fitness enthusiasts have gravitated towards mixed martial arts (MMA) training, seeking a holistic enhancement of their physical capabilities. This burgeoning trend has gained notable traction within the fitness community, as individuals recognize the multifaceted benefits that MMA offers, encompassing not only strength training but also the acquisition of diverse combat skills. Many practitioners find the intensity and excitement inherent in this training regimen to be not only rewarding but also highly effective in achieving their fitness goals. This growing enthusiasm signals a shift towards more dynamic approaches to personal fitness.",
-          "text_en_c2": "In a notable trend, an increasing number of fitness enthusiasts are gravitating towards mixed martial arts (MMA) training, driven by the desire for a holistic enhancement of their physical conditioning. This shift is gaining momentum within the fitness community as practitioners seek not merely strength training, but also the exhilarating skills and mental discipline that MMA imparts. Such training regimens provide a unique blend of physical vigor and tactical acumen, appealing to those who aspire to push the boundaries of their fitness capabilities. Consequently, this burgeoning interest is reshaping perceptions of fitness, encouraging a more dynamic engagement with physical well-being.",
-          "source_url": "https://news.ycombinator.com/item?id=49331222",
-          "source_hint": "MMA training gains popularity among fitness enthusiasts."
-        },
-        {
-          "id": "anime1",
-          "category": "anime/culture",
-          "topic_zh": "動漫文化",
-          "topic_en": "Anime Culture",
-          "text_zh": "《進擊的巨人》最新一季吸引了不少新舊粉絲。劇情的緊張感和角色的深度，使得這部作品在動漫界的討論熱度不斷上升。",
-          "text_en_b1": "The latest season of Attack on Titan has drawn in many new and old fans. The tension in the storyline and the depth of the characters have greatly increased discussions around this series in the anime community. Fans are eagerly sharing their theories and reactions as the plot unfolds.",
-          "text_en_b2": "The latest season of Attack on Titan has captivated both new and long-time fans, generating buzz across the anime community. The gripping narrative and the profound character development have significantly heightened discussions surrounding this series. As the plot progresses, viewers are actively engaging in sharing their theories and reactions, contributing to a vibrant exchange that underscores the series' impact on contemporary anime culture.",
-          "text_en_c1": "The latest season of Attack on Titan has captivated a diverse audience, encompassing both longstanding fans and newcomers alike. The series has generated heightened discussion within the anime community, primarily due to its intense narrative and the intricate depth of its characters. As the plot unfolds, viewers eagerly engage in sharing their theories and reactions, further enriching the discourse surrounding the series. This phenomenon illustrates the powerful impact of compelling storytelling in anime, driving engagement and fostering a vibrant community of enthusiasts eager to explore the evolving dynamics of their favorite shows.",
-          "text_en_c2": "The latest installment of 'Attack on Titan' has captivated a diverse audience, attracting both longtime aficionados and newcomers alike. The intricate tension woven throughout the narrative, coupled with the profound depth of character development, has significantly amplified discussions within the anime community. Fans are energetically sharing their theories and emotional responses as the narrative unfolds, fostering a vibrant cultural dialogue. This engagement reflects not only a passion for the series but also a broader appreciation for storytelling in anime, as enthusiasts eagerly dissect plot intricacies and character arcs, thereby enriching the communal experience surrounding this iconic franchise.",
-          "source_url": "https://news.ycombinator.com/item?id=49331033",
-          "source_hint": "Attack on Titan generates buzz among fans."
         }
       ]
     }

@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-11",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "biz-bond-black-swan",
+      "category": "trading",
+      "topic_zh": "債市黑天鵝",
+      "topic_en": "Bond Bear Market Black Swan",
+      "text_zh": "/biz/ 嗰個最大嘅bull自己出嚟話：依家進入black swan。最壞嘅bond bear market，歷史最差。 又係大鑊。又係學費😭🙏 個倉頂唔順⋯ 今個月人工又⋯ 算吧，繼續返工地盤先。",
+      "text_en_b1": "The biggest bull on /biz/ says we are entering a black swan event. He says this is becoming the worst bond bear market in history. He calls it bullish, but for most people it sounds very bearish. The bond market is moving fast and the next few weeks could be the biggest crash ever.",
+      "text_en_b2": "The most prominent bull on /biz/ has come out claiming we are entering a genuine black swan event. He insists this bond bear market is shaping up to be the worst in recorded history, while still paradoxically calling it bullish. For ordinary investors, however, the mood is decidedly bearish, since bond yields are moving at breakneck speed and the next few weeks could trigger an unprecedented crash.",
+      "text_en_c1": "The most prominent bull on /biz/ has now publicly conceded that markets are entering what he terms a black swan scenario. He has been quick to characterise the unfolding bond bear market as the worst on record, framing it as a bullish opportunity for those with sufficient conviction. Most other participants, however, interpret the same conditions as deeply bearish, given the sheer velocity at which yields have repriced. With the next several weeks likely to determine whether the move completes or extends, the prevailing consensus is that whatever follows will rank among the most severe corrections in modern bond market history.",
+      "text_en_c2": "The most strident bull on /biz/ has, with characteristic rhetorical flourish, declared that the financial system is now in the throes of a textbook black swan event — a tail risk nobody had bothered to price in until it actually materialised. He insists this nascent bond bear market is on course to become the worst in recorded history, a conviction he still somehow manages to frame as bullish, though to anyone with skin in the game the language sounds unambiguously bearish. Yields have been adjusting with unseemly haste, and the consensus among the more alarmist posters is that the coming weeks may witness the most catastrophic repricing sovereign debt has ever suffered.",
+      "source_url": "https://boards.4chan.org/biz/thread/62763669",
+      "source_hint": "/biz/ thread from the self-proclaimed biggest bull warning of a bond black swan."
+    },
+    {
+      "id": "biz-borrow-buy-gold",
+      "category": "trading",
+      "topic_zh": "借錢買金Bitcoin",
+      "topic_en": "Leverage Gold And BTC",
+      "text_zh": "有個anon寫：用借貸買金同BTC，借新貸去還舊貸，不停loop up credit score。 WTF 咁都得？⋯ 唔好啦我已經輸緊🙏 又想ALL IN 😭 命理叫我hold⋯ 但我已經孭緊幾多margin call。 廢物。",
+      "text_en_b1": "An anon on /biz/ suggests taking on debt to buy gold and Bitcoin, then taking on more debt to pay off old debt and buy more. His credit score goes up because he always pays on time. He asks, what's the catch? This is basically infinite leverage if you never stop borrowing.",
+      "text_en_b2": "An anonymous poster on /biz/ has outlined a strategy of taking on fresh debt to purchase gold and Bitcoin, then borrowing yet again to service the previous loans. His credit score actually climbs because every repayment lands on time. He asks what the catch could possibly be, although critics point out this amounts to infinite leverage, since the cycle never actually stops compounding risk.",
+      "text_en_c1": "An anonymous poster on /biz/ has outlined a strategy of perpetual reborrowing, whereby one takes out fresh loans in order to service existing obligations while simultaneously acquiring additional gold and Bitcoin positions. Because each successive debt is repaid on schedule, his credit rating continues to appreciate, which in turn unlocks further capacity. He poses the obvious question, namely where the inherent flaw lies, seemingly oblivious to the fact that such an arrangement constitutes, in effect, unlimited leverage so long as liquidity remains freely available. Few in the thread appear willing to acknowledge the catastrophic tail risk embedded within the proposition.",
+      "text_en_c2": "An enterprising anon on /biz/ has outlined what he evidently considers a perfectly rational strategy: take out a loan to purchase gold and Bitcoin, then refinance that initial debt with another, freshly minted facility in order to repay the first and acquire additional bullion, iterating ad infinitum so that one's credit score, paradoxically, climbs with each successive rollover. The proposition is, at bottom, infinite leverage underwritten by the assumption that credit remains perpetually available — a Minsky-style pyramid whose base is nothing more than one's own sanguine expectation of future liquidity.",
+      "source_url": "https://boards.4chan.org/biz/thread/62770547",
+      "source_hint": "/biz/ thread asking why infinite-leverage gold and BTC loop is not promoted."
+    },
+    {
+      "id": "g-eng-civil-soil-nailing",
+      "category": "civil/structure",
+      "topic_zh": "斜坡soil nail",
+      "topic_en": "Soil Nailing Factor Of Safety",
+      "text_zh": "今日上斜坡做condition survey。 個factor of safety低過1.3⋯ 師傅叫我check soil nail 長度同地下水水位。 唔該Tommy幫我跟進🙏 同時間溫FE⋯ 地盤英文真係好chur lol 廢柴mode全開。",
+      "text_en_b1": "At site today, I checked a slope with a low factor of safety. The sifu told me to verify the soil nail lengths and the groundwater level. We also need to think about drainage and underground utilities around the slope. Condition surveys like this are normal for slope investigation work in Hong Kong.",
+      "text_en_b2": "Out on site today for a slope inspection and the factor of safety came in well below the 1.3 threshold. My sifu asked me to verify the soil nail lengths along with the current groundwater level, while also flagging drainage paths and any underground utilities in the vicinity. These condition surveys are standard practice for slope investigation work, although they certainly keep you on your toes.",
+      "text_en_c1": "Earlier today, while conducting a routine condition survey on a hillside site, I encountered a section where the calculated factor of safety had fallen below the minimum threshold of 1.3, a situation that warrants immediate attention. My supervising engineer has instructed me to verify both the installed soil nail lengths and the prevailing groundwater table, while also accounting for surface drainage provisions and any underground utilities traversing the slope. Such assessments are entirely standard within slope investigation practice in Hong Kong, although they do tend to coincide with particularly demanding periods of professional examination preparation.",
+      "text_en_c2": "On site this morning I was inspecting a slope whose calculated factor of safety, at 1.3 or thereabouts, falls conspicuously short of the threshold Hong Kong's geotechnical manual would consider adequate. The senior engineer instructed me to verify the installed soil nail lengths against the design drawings and to cross-check the prevailing groundwater table, which has presumably risen since last week's deluge. Subsequent drainage provisions and the labyrinth of underground utilities skirting the slope will likewise require careful consideration. Such condition surveys constitute the bread and butter of slope investigation work in the territory, and I shall remain on site for the remainder of the day.",
+      "source_url": "https://boards.4chan.org/g/thread/110022077",
+      "source_hint": "OP claims AI already replaced all software engineers; framing for civil/engineering reality check."
+    },
+    {
+      "id": "pol-structural-load-path",
+      "category": "civil/structure",
+      "topic_zh": "結構load path",
+      "topic_en": "Load Path Beams And Columns",
+      "text_zh": "夜晚返屋企溫番concrete + steel design。 Load path到底行唔通⋯ reinforced concrete個beam-column joint又要覆check一遍🙏 Dr. An send咗啲notes過嚟，要慢慢啃⋯ 點解我唔係喺Houston⋯ 五月存到100K先走得。",
+      "text_en_b1": "Tonight I am reviewing load path for beams and columns in reinforced concrete and steel design. The vertical load has to travel from the slab, through the beams, into the columns, and finally down to the foundation. If the path is broken anywhere, the whole structure fails the check.",
+      "text_en_b2": "I am spending the evening going back over load path calculations for beams and columns, covering both reinforced concrete and steel design. The vertical load has to travel cleanly from the slab through the beams and into the columns before reaching the foundation, because if that path is broken at any point, the entire structure will fail the check.",
+      "text_en_c1": "Having returned home this evening, I have begun reviewing the load path through beams and columns within both reinforced concrete and steel design frameworks, only to discover that the vertical load is failing to transmit correctly at several critical junctions. The beam-column connections in particular now require a comprehensive re-check, a task made considerably more onerous by the supplementary notes Dr An forwarded earlier in the week, which demand careful, almost forensic examination. Should the path remain discontinuous at any single node, the entire structural system will fail the verification, with consequences that cannot be overstated.",
+      "text_en_c2": "Tonight, after a punishing day at the office, I shall be revisiting the question of load path continuity in composite reinforced-concrete and structural-steel design. The vertical tributary must travel, in unbroken sequence, from the slab through the beams and into the columns, finally dissipating into the foundation; should any link in that chain be compromised, the entire analytical model fails the check. The beam-column joint in particular warrants re-examination, since its detailing governs the integrity of the whole assemblage. Dr. An has forwarded supplementary notes, which I shall labour through before dawn.",
+      "source_url": "https://boards.4chan.org/pol/thread/544146563",
+      "source_hint": "/pol/ thread on luck vs skill; framing for engineering merit view."
+    },
+    {
+      "id": "g-ai-replace-coders",
+      "category": "tech/ai",
+      "topic_zh": "AI取代工程師",
+      "topic_en": "AI Replacing Engineers",
+      "text_zh": "/g/ 嗰邊話AI已經炒晒所有software engineer⋯ wtf 咁我地工程行業點⋯ civil應該仲有幾年，但都係倒數。 廢物，要快啲考完FE🙏 30歲仲係咁⋯ grinding mode。 藍領先死，白領跟住。",
+      "text_en_b1": "An anon on /g/ claims AI has already replaced all software engineers and no programmer will ever find a job again. He says new coders should quit now. Other anons reply that the work is shifting to AI supervision and prompt engineering, not pure coding. The exact impact on civil engineers is still unclear.",
+      "text_en_b2": "An anon on /g/ has declared that AI has already wiped out the entire software engineering profession and that no fresh programmer will ever land a job again. He urges new coders to quit while they can, although other posters counter that the work is simply evolving into AI supervision and prompt engineering. What this means for civil engineers remains genuinely unclear.",
+      "text_en_c1": "A widely circulated post on /g/ asserts that artificial intelligence has rendered software engineering wholly obsolete, claiming that no aspiring programmer will secure meaningful employment henceforth and urging newcomers to abandon the field without delay. Counter-responses, however, suggest a more nuanced trajectory, contending that the discipline is gradually shifting from conventional coding toward the curation of model outputs and the engineering of precise prompts. What remains genuinely uncertain is the timeline along which civil engineers, whose work depends on jurisdictional codes and physical site verification, will confront comparable displacement, though most consider it a matter of years rather than decades.",
+      "text_en_c2": "An anon on /g/, with the customary apocalyptic brio, has pronounced that artificial intelligence has already rendered the entire cohort of software engineers structurally unemployed, and that any neophyte still typing out FizzBuzz should surrender the pretence forthwith. A more measured chorus of respondents counter that the actual labour is migrating, rather than vanishing, into AI supervision, code review, and the nascent discipline of prompt engineering — work that demands, if anything, a keener grasp of fundamentals than boilerplate coding ever did. The downstream implications for civil engineers, whose work is partially immune to automation, remain a matter of considerable conjecture.",
+      "source_url": "https://boards.4chan.org/biz/thread/62769416",
+      "source_hint": "/g/ doompost saying AI ended software engineering careers."
+    },
+    {
+      "id": "pol-strait-hormuz",
+      "category": "hk/news",
+      "topic_zh": "霍爾木茲火燒船",
+      "topic_en": "Gulf Of Oman Tanker Fire",
+      "text_zh": "/pol/ 有人post Strait of Hormuz嗰邊著火。 有tanker燒住，IRGC仲拍埋片出嚟lol 油價一定爆⋯ 又係學費⋯ 上個月long oil止損，今次唔好再接🙏 美國escort都無用⋯ 想short oil但margin緊。 命理叫我hold現金。",
+      "text_en_b1": "A fire was detected in the Gulf of Oman near Sohar, close to where US-escorted ship-to-ship transfers happen. Iran released a video of the IRGC destroying a Taiwan-registered supertanker carrying 2 million barrels of Saudi crude. Another burning tanker video leaked on Instagram this morning. Oil traders are watching this very closely.",
+      "text_en_b2": "A fire has been detected in the Gulf of Oman near Sohar, right where US-escorted ship-to-ship transfers typically occur. Iran has released footage showing the IRGC striking a Taiwan-registered supertanker that was carrying roughly two million barrels of Saudi crude, while another video of a burning tanker leaked on Instagram this morning. Oil traders worldwide are now watching the situation extremely closely.",
+      "text_en_c1": "Reports emerging from the Strait of Hormuz indicate that a tanker is currently ablaze in the vicinity of Sohar, close to waters where US-escorted ship-to-ship transfers are routinely conducted, with Iranian state media having released footage purportedly showing IRGC fast boats engaging a Taiwan-flagged supertanker transporting approximately two million barrels of Saudi crude. Separately, another video depicting a burning tanker surfaced on Instagram earlier today, further fuelling speculation of coordinated action. Given my own exposure from last month's unsuccessful long crude position, the temptation to short remains considerable, though prevailing margin constraints render such a manoeuvre impractical under present conditions.",
+      "text_en_c2": "A thermal anomaly has been detected in the Gulf of Oman, in waters proximate to Sohar, where American-escorted ship-to-ship transfers of crude have lately become a near-daily occurrence. Iranian state media has obligingly released footage of IRGC fast boats ramming and subsequently igniting a Taiwan-flagged VLCC carrying, by the trader's reckoning, some two million barrels of Saudi crude, while a second, equally incendiary clip of a stricken tanker appeared this morning on an Instagram channel of dubious provenance. With Brent already jittery, every dealing desk in London and Singapore is watching these developments with undisguised apprehension, and the consensus call is that the contango is about to invert decisively.",
+      "source_url": "https://boards.4chan.org/pol/thread/544144184",
+      "source_hint": "/pol/ thread on Strait of Hormuz tanker attacks and crude supply."
+    },
+    {
+      "id": "fit-quit-sports-30",
+      "category": "mma/fitness",
+      "topic_zh": "30歲停練",
+      "topic_en": "Quitting Sports At 30",
+      "text_zh": "30歲chud⋯ 睇完個post我感受到⋯ 膝頭唔再好似17歲⋯ 今日肥仔信又叫我jiu jitsu，我想話我FE都未搞掂🙏 但gym真係好耐無去⋯ 廢物，今年得返幾多個月。 唔好quit，兄弟。",
+      "text_en_b1": "A 30 year old anon on /fit/ says he quit bouldering after one year because climbing shoes gave him bony bumps on his toes. His fingers feel stiff in the morning and his ankle hurts from jumping down. He is cutting back to once a week but wonders if the damage is done. He asks if he should quit sports completely at 30.",
+      "text_en_b2": "A thirty-year-old poster on /fit/ admits he has quit the sport after just one year, since his climbing shoes left painful bony bumps on his toes. His fingers feel stiff every morning and his ankle aches from repeated jumps, so he is cutting back to weekly sessions. He wonders whether the damage is already done and asks if he should give up athletics entirely at thirty.",
+      "text_en_c1": "A thirty-year-old poster on /fit/ has described discontinuing bouldering after a mere twelve months of participation, citing the development of small bony protuberances on his toes attributable to prolonged wear of tight climbing shoes, alongside persistent morning stiffness in his fingers and recurring ankle discomfort precipitated by repeated jumps from elevated heights. Having reduced his climbing frequency to a solitary weekly session, he remains uncertain whether the cumulative damage is already irreversible. He poses, with evident resignation, whether one ought to relinquish athletic pursuits entirely upon reaching the milestone of thirty, a question many older respondents have addressed.",
+      "text_en_c2": "A thirty-year-old anon on /fit/ has, after a mere twelve months of bouldering, concluded that the discipline is no longer compatible with his anatomical reality. The aggressive toe-box of his climbing shoes has, he reports, induced the formation of unsightly osseous prominences, his fingers have acquired a worrying morning stiffness suggestive of early-stage osteoarthritis, and his ankles protest audibly each time he drops from a problem. Though he has tapered to a single weekly session, the suspicion lingers that the cumulative damage may already be irreversible, and he asks the board, with what one senses is genuine anguish, whether an able-bodied man of thirty should simply abandon athletics altogether.",
+      "source_url": "https://boards.4chan.org/fit/thread/77558835",
+      "source_hint": "/fit/ thread from a 30-year-old considering quitting climbing due to joint pain."
+    },
+    {
+      "id": "a-fall-2026-first-impressions",
+      "category": "anime/culture",
+      "topic_zh": "十月新番失望",
+      "topic_en": "Fall 2026 Anime Disappointed",
+      "text_zh": "秋季新番⋯ /a/ 全部都話失望lol 我都想睇FX Senshi Kurumi-chan 同 Ranma 1/2新季⋯ 連續兩季神番之後終於仆街了。 下晝返工溫FE都溫到神經晒🙏 一於夜晚煲番兩集⋯ 廢柴都需要anime續命。",
+      "text_en_b1": "After two great seasons, /a/ says Fall 2026 is finally a weak season. FX Senshi Kurumi-chan is praised as the best adaptation of the year so far. But Seitokai ni mo Ana wa Aru is called the biggest hype and the biggest disappointment of the season, with everyone agreeing it failed to deliver. Anons are sharing first impressions anyway.",
+      "text_en_b2": "After two standout seasons in a row, /a/ is now broadly agreed that Fall 2026 has finally turned out to be a weak one. FX Senshi Kurumi-chan is being hailed as the strongest adaptation of the year so far, yet Seitokai ni mo Ana wa Aru has drawn criticism as both the most overhyped and the most disappointing title of the season.",
+      "text_en_c1": "Following two consecutive seasons of exceptional quality, /a/ has collectively pronounced the Fall 2026 anime slate a considerable disappointment, marking a pronounced reversal after what had been an extended period of critical enthusiasm. The adaptation of FX Senshi Kurumi-chan, conversely, has been singled out for praise as arguably the finest production of the calendar year thus far, whereas Seitokai ni mo Ana wa Aru has drawn scrutiny as the season's most overhyped and consequently most underwhelming title, with consensus forming around the view that it signally failed to deliver on its considerable pre-release promise.",
+      "text_en_c2": "After two consecutive seasons that /a/ hailed as nothing short of miraculous, the autumn 2026 slate has, with crushing inevitability, failed to maintain the standard. FX Senshi Kurumi-chan is being received as the most stylish adaptation of the calendar year, a playful love letter to the genre that has somehow eluded the prevailing mediocrity. By contrast, Seitokai ni mo Ana wa Aru has attracted the dubious distinction of being simultaneously the most hyped and the most disappointing premiere of the season, its grotesque misinterpretation of the source material eliciting a rare consensus of derision. First impressions continue nonetheless to accumulate in the thread.",
+      "source_url": "https://boards.4chan.org/a/thread/291542023",
+      "source_hint": "/a/ Fall 2026 first impressions thread calling the season underwhelming."
+    }
+  ]
+}
