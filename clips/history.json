@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "days": [
+    {
+      "date": "2026-10-12",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-bonds-black-swan",
+          "category": "trading",
+          "topic_zh": "債市黑天鵝",
+          "topic_en": "Bond Black Swan",
+          "text_zh": "有雞巴人話呢個係史上最強債券熊市，我係最大嘅bull，信我。即刻睇下 XAU 同 DXY。我今個月光係 gold CFD 已經輸緊 US$2,400，仲未計返個 prop firm 嘅 challenge fee。wtf 又係學費 🙏 個month真係頂唔順。",
+          "text_en_b1": "I'm the biggest bull on /biz/, so take this seriously. The bond bear market is quickly becoming the worst in history. JGBs are moving in ways they haven't moved since 2003. Bond yields are breaking out, and gold is starting to lead. This can be read as bullish for hard assets.",
+          "text_en_b2": "I'm the biggest bull on /biz/, so take this seriously. While most people shrug off the warnings, the bond bear market is quickly turning into the worst in history. JGBs are moving in ways nobody has seen since 2003, and yields are breaking out across the board. Gold is starting to lead the charge, which can easily be read as a strong bullish signal for hard assets.",
+          "text_en_c1": "I consider myself the most committed bull on /biz/, and I would urge anyone reading to take what I'm about to say seriously. The bond bear market that we are presently enduring is rapidly cementing its place as the worst in recorded history, with JGBs exhibiting price action not witnessed since 2003. Yields are breaking out across the curve in a fashion that should alarm any serious participant, while gold has begun to lead hard assets higher, which by extension can reasonably be interpreted as a bullish signal. The macroeconomic implications, frankly, are rather severe.",
+          "text_en_c2": "Speaking as /biz/'s most committed bull, I urge you to read the underlying signal before dismissing it as hyperbole. What we are witnessing is, by any sober measure, the most punishing bond bear market in living memory, and the parallels with prior structural breaks are unsettling. Japanese Government Bonds are exhibiting volatility not seen since 2003, yields are decisively breaking out of multi-year consolidation, and gold has begun to lead the broader complex in a manner that cannot reasonably be dismissed as noise. Taken in concert, these movements constitute a tacit endorsement of hard assets, since they imply a coordinated repricing of credit risk. The implications for anyone still wedded to nominal yields are, I would gently suggest, profoundly uncomfortable.",
+          "source_url": "https://boards.4chan.org/biz/thread/62763669",
+          "source_hint": "/biz/ mega-bull OP calls the bond rout a black swan, bullish for gold"
+        },
+        {
+          "id": "biz-crypto-ecdsa",
+          "category": "trading",
+          "topic_zh": "AI破解密碼",
+          "topic_en": "AI Breaks Math",
+          "text_zh": "膠膠吶又有雞巴人話AI破解到math，所以所有coin都死。lol我BTC同ETH都揸緊，唔想睇但又唔走，擺明又被割🙏 個雞巴fe exam都未準備完又輸錢，我真係廢物。",
+          "text_en_b1": "OAI just one-shots 20% of outstanding math problems. Nerds on Xitter call for imminent breach of ECDSA cryptography, which means all coins break. This is clearly bullshit. But the fear alone is enough to ruin crypto. The market doesn't need the breakthrough to actually happen.",
+          "text_en_b2": "OAI just one-shots 20% of outstanding math problems overnight. Nerds on Xitter immediately jump to conclusions, calling for an imminent breach of ECDSA cryptography, which would supposedly break every coin in existence. This is clearly bullshit, but fear alone is enough to wreck crypto markets. The thing is, the market doesn't actually need the breakthrough to happen; panic does the damage.",
+          "text_en_c1": "OpenAI has reportedly demonstrated the capacity to one-shot roughly twenty percent of outstanding mathematical problems, a feat which, in the eyes of certain self-styled pundits on Xitter, constitutes an imminent threat to ECDSA cryptography. Should such a breakthrough materialise, the implications for cryptocurrency would be nothing short of catastrophic, with every coin in circulation effectively rendered worthless. The claim is, of course, arrant nonsense. Yet the market, being the irrational creature that it is, does not require the catastrophe to actually occur; the mere anticipation of it is sufficient to precipitate a rout.",
+          "text_en_c2": "Reports circulating that a frontier artificial intelligence system has, in a single inference pass, resolved some twenty per cent of the corpus's outstanding mathematical conjectures have, predictably, been weaponised by certain quarters of the crypto commentariat, who now solemnly proclaim the imminent collapse of ECDSA and, by extension, the entire edifice of public-key cryptography upon which every meaningful blockchain depends. The proposition is, plainly and without exaggeration, arrant nonsense. Yet the markets, being composed of human beings rather than Turing machines, do not require the catastrophe to materialise; the mere apprehension of it is sufficient to inflict damage. Fear, as any seasoned operator will attest, has never needed a corresponding fact to do its work.",
+          "source_url": "https://boards.4chan.org/biz/thread/62769416",
+          "source_hint": "/biz/ thread on AI math breakthrough panicking crypto holders"
+        },
+        {
+          "id": "g-starlink-cbdcs",
+          "category": "tech/ai",
+          "topic_zh": "Starlink接管",
+          "topic_en": "Starlink Takeover",
+          "text_zh": "又有4chan膠話Starlink會replace晒成個internet，跟住落CBDC同digital ID。即係Musk直接做咗全球嘅gatekeeper。🧐 我哋呢啲細香港人睇下就好，美國先係主場lol。",
+          "text_en_b1": "Elon Musk's Starlink will replace the old internet. This will be the chance to bring in CBDCs and digital ID. All online dissent will be wiped out. The next big false flag will be a 'cyber event' so they can justify shutting everything down. This was the plan before LLMs even existed.",
+          "text_en_b2": "Elon Musk's Starlink will inevitably replace the old internet we know. Once that happens, rolling out CBDCs and digital IDs becomes a breeze. All online dissent gets wiped out in one sweep, and the next big false flag will conveniently be some 'cyber event' so they can justify shutting everything down. Apparently this was the master plan long before LLMs even existed.",
+          "text_en_c1": "Elon Musk's Starlink constellation is poised, if certain commentators are to be believed, to supplant the legacy internet infrastructure upon which civilised discourse has hitherto depended. Should that substitution occur, the gateway would inevitably open for central bank digital currencies and, by extension, mandatory digital identification. All meaningful online dissent could, in such a scenario, be extinguished at the operator's discretion. The next manufactured pretext for a clampdown, it is widely speculated, will take the form of a so-called cyber event, ostensibly justifying the complete shutdown of dissent channels.",
+          "text_en_c2": "There is a strain of techno-libertarian reasoning on /g/ which contends that Elon Musk's Starlink constellation will, in relatively short order, render the legacy internet infrastructure obsolete, and that this consolidation will furnish the pretext for a wholesale migration toward central bank digital currencies and mandatory digital identity regimes. If one takes the thesis at face value, then a single private citizen effectively becomes the gatekeeper of global discourse, which should give even the most sanguine commentator pause. The corollary, advanced by those who have evidently been waiting for it, is that a manufactured cyber incident will provide the necessary casus belli for a comprehensive shutdown. Whether one finds this plausible depends largely on one's priors.",
+          "source_url": "https://boards.4chan.org/g/thread/110035872",
+          "source_hint": "/g/ conspiracy thread about Starlink, CBDCs, digital ID"
+        },
+        {
+          "id": "v-dnd-videogame",
+          "category": "lol/esports",
+          "topic_zh": "D&D遊戲設計",
+          "topic_en": "Bad D&D Games",
+          "text_zh": "打LOL打到悶，去4chan睇下V有咩講。有雞巴人話D&D game根本做唔到，因為你準備錯spell就要reload。lol我寧願打rank。晚上同肥仔信講下S15 lol。",
+          "text_en_b1": "How do you actually make a good D&D videogame? You go into a fight, you prepared the wrong spells, you die. You reload your save. You prepare spells for that specific fight you would never normally use. You win. That is not acceptable game design.",
+          "text_en_b2": "How do you actually make a good D&D videogame without ruining the experience? You walk into a fight, prepared the wrong spells, and die instantly. Then you reload your save, pick spells you would never normally use just for that specific encounter, and breeze through it. That cycle is fundamentally broken game design, since it removes any meaningful consequence from your choices.",
+          "text_en_c1": "A question that has long vexed the /v/ board concerns how one might conceivably translate the Dungeons and Dragons experience into a workable video game format. The fundamental issue, as any seasoned player will readily attest, is that combat invariably rewards preparation tailored to a specific encounter. Should you fail to memorise the precise spell required for a given adversary, death follows almost immediately, prompting a reload of an earlier save. You then select precisely those spells you would never have chosen organically, and victory, such as it is, is yours. That is not acceptable game design.",
+          "text_en_c2": "The question of how one might actually construct a defensible Dungeons & Dragons adaptation for interactive media has long vexed the /v/ faithful, and the canonical objection bears repeating. A player enters a hostile encounter, has neglected to memorise the appropriate spells for that particular opposition, suffers an inglorious defeat, returns to a prior save state, and retroactively selects the optimal loadout. The encounter is then trivialised. This is not, in any meaningful sense, design; it is merely arithmetic with a graphical veneer. The experience erodes, by degrees, the entire premise of a tabletop-inspired system, namely that preparation is consequential. Without that, one might as well be playing a spreadsheet.",
+          "source_url": "https://boards.4chan.org/v/thread/749474224",
+          "source_hint": "/v/ thread complaining about save-scumming in D&D RPGs"
+        },
+        {
+          "id": "fit-lift-with-woman",
+          "category": "mma/fitness",
+          "topic_zh": "一齊舉鐵",
+          "topic_en": "Couples Lifting",
+          "text_zh": "睇到4chan /fit/ 有條post問同gf一齊gym。lol我單身30年，淨係同肥仔信一齊做。屌，做完gym返到屋企得一個人，好撚靜。算啦，拎鐵係真。",
+          "text_en_b1": "Do you lift with your woman, /fit/? My sister was into fitness way before me, so my girlfriend has a gym buddy she can do her girly routine with, while I go lift real weights. Couples who train together usually end up with one doing the actual work.",
+          "text_en_b2": "Do you lift with your woman, /fit/? My sister was into fitness way before I ever touched a barbell, so my girlfriend already has a gym buddy for her girly routine, while I get on with the serious work. Honestly, couples who train together usually end up with one partner doing all the actual lifting while the other phones it in.",
+          "text_en_c1": "A thread on /fit/ recently invited a decent view of whether one ought, as a matter of routine, to train alongside one's romantic partner. My sister, who happens to have been deeply into fitness long before I ever picked up a barbell, serves as the ideal gym companion for my girlfriend; she can perform all manner of unremarkable girly routines to her heart's content, while I proceed to lift what might charitably be described as actual weight. Couples who train together invariably discover that one party ends up shouldering the disproportionate share of the work.",
+          "text_en_c2": "A perennial thread on /fit/ revisits the question of whether couples ought to train together, and the consensus, such as it is, tends toward the unromantic. The poster's sister, by his own admission, was a committed enthusiast long before he discovered the iron, and his partner has wisely arranged her programming around a female training companion with whom she can pursue her lighter, more aesthetically-oriented work, leaving him free to pursue the serious business of progressive overload. The pattern he identifies is depressingly universal: one party performs the actual labour, while the other essentially supervises. There is, I suspect, a metaphor here for relationships more broadly, but I shall leave that exercise to the reader.",
+          "source_url": "https://boards.4chan.org/fit/thread/77540562",
+          "source_hint": "/fit/ thread on lifting with your girlfriend vs alone"
+        },
+        {
+          "id": "a-shonen-loop",
+          "category": "anime/culture",
+          "topic_zh": "少年動畫太長",
+          "topic_en": "Shonen Bloat",
+          "text_zh": "4chan /a/ 有人話晒啲shonen都係重覆又重覆嘅hero journey。AOT我都睇晒，講真結局係頂癮。我宜家睇緊Demon Slayer，幾勁但真係長過我份GI report。🧐",
+          "text_en_b1": "Hot take: most shonen anime are a flawed hero's journey forced on loop. Most shonen would be better if they ended at season one. Stuff like Attack on Titan, Naruto, and One Piece just spam mini hero journeys for hundreds of episodes. I'd rather read a whole story in 3 hours.",
+          "text_en_b2": "Hot take from /a/: most shonen anime are essentially a flawed hero's journey forced on repeat. If most series had the guts to wrap up at season one, the genre would be far stronger for it. Instead, franchises like Attack on Titan, Naruto, and One Piece spam mini hero journeys for hundreds of episodes, padding out filler until the story loses all momentum.",
+          "text_en_c1": "A rather contentious proposition has resurfaced on /a/ of late, namely that the overwhelming majority of shonen anime are fundamentally the same flawed hero's journey, reheated and re-served ad infinitum. Were these series to conclude at the end of their inaugural season, the consensus appears to be that the source material would be materially improved. Titles such as Attack on Titan, Naruto, and One Piece, it is argued, simply regurgitate variations of the same monomyth for hundreds upon hundreds of episodes. One might reasonably prefer to consume a complete narrative within the space of a single afternoon.",
+          "text_en_c2": "A somewhat unfashionable opinion circulating on /a/ holds that the majority of long-running shonen series are, at their structural core, the same flawed hero's journey played on an apparently infinite loop, with diminishing returns that the format itself seems constitutionally incapable of acknowledging. Were the industry to exhibit even a modicum of editorial discipline, the argument runs, most of these properties would benefit immeasurably from concluding at the close of their first proper arc. Consider how Detention, Naruto, and the like have, over hundreds of episodes, iterated upon a fundamentally identical template until the viewer's patience is exhausted. A three-hour commitment, yielding a complete narrative arc, increasingly looks like a better bargain than anything currently on offer.",
+          "source_url": "https://boards.4chan.org/a/thread/291567393",
+          "source_hint": "/a/ rant against long-running shonen anime"
+        },
+        {
+          "id": "biz-gold-btc-debt",
+          "category": "trading",
+          "topic_zh": "借錢買金",
+          "topic_en": "Lever Up Gold",
+          "text_zh": "有雞巴人話借錢買gold同BTC，credit score仲會升lol。命理師傅都話我今年金運OK，但我已經輸到阿媽都唔認。🙏 唔好再trade啦我，但又停唔到。",
+          "text_en_b1": "Take on debt, buy gold and Bitcoin. Take on more debt, use new loans to pay off old debt and buy more. Credit score goes up because I always pay on time. Keep borrowing more and more, indefinitely. What's the catch? This came up on /biz/ today and the replies were split.",
+          "text_en_b2": "Take on debt, load up on gold and Bitcoin, then take on more debt, using fresh loans to pay off the old ones and buy even more. Your credit score climbs because you always pay on time, so lenders keep handing you cash indefinitely. Sounds bulletproof, right? This came up on /biz/ today, and the replies were split between true believers and people smelling a trap.",
+          "text_en_c1": "An intriguing proposition surfaced on /biz/ today, suggesting that one ought to take on debt in order to acquire gold and Bitcoin, subsequently leveraging further loans to service the existing obligations whilst simultaneously accumulating additional positions. The argument, presented with considerable conviction, asserts that one's credit score will appreciate accordingly, given that every instalment is remitted punctually. One might then perpetuate this cycle indefinitely. The thread's replies, predictably, divided themselves between those who regarded the scheme as sheer genius and those who detected the rather conspicuous catch lurking beneath the surface.",
+          "text_en_c2": "An intriguing proposition surfaced on /biz/ today, suggesting that one ought to take on debt in order to acquire gold and Bitcoin, subsequently leveraging further loans to service the existing obligations whilst simultaneously accumulating additional positions. The argument, presented with considerable conviction, asserts that one's credit score will appreciate accordingly, given that every instalment is remitted punctually. One might then perpetuate this cycle indefinitely. The thread's replies, predictably, divided themselves between those who regarded the scheme as sheer genius and those who detected the rather conspicuous catch lurking beneath the surface.",
+          "source_url": "https://boards.4chan.org/biz/thread/62770547",
+          "source_hint": "/biz/ thread asking what is the catch of infinite leverage on gold and BTC"
+        }
+      ]
+    },
     {
       "date": "2026-10-11",
       "source": "ai",
@@ -4370,103 +4467,6 @@
           "text_en_c2": "Recently, I have found myself experiencing a disconcerting sense of stagnation during my workouts, which raises alarm bells regarding my preparation for upcoming competitions. This feeling of being 'off' is not merely an inconvenience; rather, it threatens to undermine my hard-earned progress and competitive edge. It is imperative that I identify strategies to reinvigorate my regimen before this malaise takes a deeper toll on my performance. I seek your advice on how to navigate this challenging phase, as I am determined to overcome this hurdle and ensure that my competitive preparations remain on track and effective.",
           "source_url": "https://boards.4chan.org/v/thread/745621521",
           "source_hint": "User shares fitness training concerns."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trading-1",
-          "category": "trading",
-          "topic_zh": "投資困境",
-          "topic_en": "Investment Struggles",
-          "text_zh": "最近市場波動好大，唔少人都遇到投資問題。我一個朋友形容自己啲交易就像抽彩，輸輸贏贏，真係好煩！",
-          "text_en_b1": "Recently, the market has been very volatile, and many people are facing investment issues. A friend of mine described his trading as like a lottery, losing and winning randomly. It is really frustrating for him and many others who trade as well.",
-          "text_en_b2": "Recently, the financial market has experienced significant volatility, causing numerous individuals to encounter various investment challenges. A friend of mine likened his trading experiences to playing the lottery, where victories and losses occur unpredictably. This constant fluctuation is genuinely disheartening not only for him but also for countless others who are engaged in trading activities. As a result, many are seeking strategies to navigate this unpredictable environment successfully.",
-          "text_en_c1": "In recent weeks, the financial market has experienced significant volatility, leading to a plethora of investment challenges for many individuals. A friend of mine recently articulated his frustration by likening his trading activities to participating in a lottery, where outcomes fluctuate unpredictably between gains and losses. This sense of uncertainty is not an isolated experience; numerous traders are grappling with similar sentiments, expressing their exasperation at the unpredictable nature of the market. As such, the current landscape raises pressing questions about the stability of investment strategies and the mental resilience required to navigate these turbulent times.",
-          "text_en_c2": "In recent times, the financial market has exhibited substantial volatility, resulting in myriad investment challenges for numerous individuals. A friend of mine candidly articulated his trading experiences, likening them to a lottery where victories and defeats emerge unpredictably and without discernible patterns. This erratic nature of trading has engendered considerable frustration, not only for him but also for many others who engage in similar market activities. The uncertainty surrounding investments has become a source of anxiety, as traders attempt to navigate the complexities of market fluctuations while yearning for stability and clarity.",
-          "source_url": "https://boards.4chan.org/biz/thread/62601783",
-          "source_hint": "Traders discuss their recent market struggles."
-        },
-        {
-          "id": "trading-2",
-          "category": "trading",
-          "topic_zh": "失敗教訓",
-          "topic_en": "Lessons from Losses",
-          "text_zh": "唔好唔記得，失敗可以當學費！最近有個人分享咗自己嘅交易失敗經歷，話可以吸取教訓，繼續加油！",
-          "text_en_b1": "Don't forget that failures can be considered tuition! Recently, someone shared their trading failure experiences, saying they can learn from their mistakes and keep pushing forward. It's important to reflect and keep striving in the trading world.",
-          "text_en_b2": "It is essential to remember that failures can serve as valuable lessons! Recently, an individual shared their experiences of trading failures, emphasizing that these setbacks can offer important insights. They encouraged others to learn from their mistakes and persist in their efforts despite challenges. Reflecting on one’s experiences and maintaining a forward-looking attitude are crucial for success in the competitive world of trading, where resilience often leads to improvement.",
-          "text_en_c1": "It is essential to remember that failures can serve as valuable lessons in the world of trading. Recently, an individual shared his experiences of unsuccessful trades, emphasizing that such setbacks can provide critical insights for future endeavors. By reflecting on these missteps, traders can cultivate a deeper understanding of the market dynamics at play and enhance their strategies moving forward. This attitude of perseverance underscores the importance of resilience in the financial sphere, encouraging individuals to remain committed to their goals while learning from past mistakes, ultimately steering their journeys toward greater success.",
-          "text_en_c2": "It is essential to bear in mind that failures can indeed serve as invaluable tuition in the realm of trading. Recently, an individual shared their personal narrative of trading setbacks, emphasizing the importance of deriving lessons from their missteps. By adopting a reflective approach, they maintain that perseverance is crucial to success in this challenging environment. Such experiences illustrate that while setbacks may be disheartening, they can ultimately cultivate resilience, encouraging traders to continuously evolve and refine their strategies in pursuit of long-term goals.",
-          "source_url": "https://boards.4chan.org/a/thread/290212061",
-          "source_hint": "Discussion on losses as learning experiences."
-        },
-        {
-          "id": "tech-1",
-          "category": "tech/ai",
-          "topic_zh": "AI未來",
-          "topic_en": "Future of AI",
-          "text_zh": "關於AI取代工作，大家都有啲恐懼，特別係白領同藍領嘅工作！最近有篇文章專門探討咗呢個議題，令人好擔心。",
-          "text_en_b1": "There are many fears about AI replacing jobs, especially for white-collar and blue-collar workers. Recently, an article specifically discussed this issue, raising concerns about future job security and how automation might affect many careers.",
-          "text_en_b2": "Concerns regarding the potential of AI to displace jobs have been growing, particularly among both white-collar and blue-collar workers. A recent article extensively explored this pressing issue, leading to heightened worries about future job security. Many individuals are anxious about how automation could affect various career paths, as it's evident that technological advancements are quickly reshaping the job market. This dialogue is crucial as society navigates these changes together.",
-          "text_en_c1": "The increasing prevalence of artificial intelligence has sparked widespread anxiety regarding its potential to displace various jobs, particularly among both white-collar and blue-collar workers. A recent article delved into this pressing issue, articulating the multifaceted concerns surrounding job security and the ramifications of automation across numerous sectors. As the workforce faces an evolving technological landscape, discussions have intensified about how individuals can adapt and prepare for the future. The implications of AI on career paths compel a re-evaluation of skills and training, underscoring the need for proactive measures to ensure long-term employment viability.",
-          "text_en_c2": "The pervasive trepidation surrounding the potential of artificial intelligence to supplant human employment, particularly within both white-collar and blue-collar sectors, has become increasingly prominent in contemporary discourse. An article published recently delves into this pressing issue, illuminating the myriad concerns regarding job security and the implications of rapid automation on diverse professions. As the technological landscape evolves, the anxiety felt by workers regarding their future roles highlights a critical intersection between innovation and the safeguarding of livelihoods, prompting urgent discussions about the future of work in an automated world.",
-          "source_url": "https://boards.4chan.org/g/thread/109580312",
-          "source_hint": "Article discusses AI and job security fears."
-        },
-        {
-          "id": "hk-1",
-          "category": "hk/news",
-          "topic_zh": "香港新聞",
-          "topic_en": "Hong Kong News",
-          "text_zh": "最近香港有不少人討論WSD的退款問題，大家都擔心會唔會影響到自己嘅存款！大家都好關注呢件事。",
-          "text_en_b1": "Recently, many people in Hong Kong are discussing the WSD refund issue, worrying about whether it will affect their deposits. This matter has raised a lot of concern among residents about financial stability.",
-          "text_en_b2": "In recent discussions among the residents of Hong Kong, the WSD refund issue has become a hot topic, with many expressing their concerns about the potential impact on their deposits. This situation has generated a wave of anxiety, as people are eager to determine whether their financial stability might be compromised. Consequently, the community is closely monitoring developments related to this matter, highlighting the public's keen interest in safeguarding their economic well-being.",
-          "text_en_c1": "In Hong Kong, the recent discourse surrounding the WSD refund issue has garnered considerable attention, as many residents express their concerns regarding potential impacts on their personal savings. The uncertainty surrounding this matter has provoked widespread discussions about financial stability and the implications for the local economy. As residents seek clarity and assurance, the topic has become a focal point of community conversations, prompting inquiries into the measures being taken to safeguard deposits. It reveals a palpable anxiety among citizens, who are increasingly vigilant about their financial futures in an unpredictable economic climate.",
-          "text_en_c2": "In recent weeks, a significant number of residents in Hong Kong have engaged in fervent discussions regarding the contentious issue of WSD refunds, with widespread apprehension about the potential impact on personal deposits. This matter has sparked considerable concern within the community, as individuals grapple with uncertainties surrounding their financial stability and the implications of these refunds. The magnitude of this issue reflects the broader anxieties prevalent among the populace, who are increasingly vigilant about the interplay between governmental policies, economic health, and personal finance.",
-          "source_url": "https://boards.4chan.org/v/thread/745442136",
-          "source_hint": "Residents express concerns over the WSD refund."
-        },
-        {
-          "id": "lol-1",
-          "category": "lol/esports",
-          "topic_zh": "LOL 職業賽",
-          "topic_en": "LOL Pro Matches",
-          "text_zh": "最近S15的職業賽真係好精彩！有幾場比賽睇到完全停不下來，大家都討論著各隊的表現！",
-          "text_en_b1": "The recent S15 professional matches in League of Legends have been really exciting! Some games have been so intense that I couldn't stop watching. Everyone is discussing the performance of different teams and their strategies.",
-          "text_en_b2": "The recent S15 professional matches in League of Legends have undeniably captivated fans! Some of the games were so thrilling that I found myself unable to look away. Discussions surrounding the performance of various teams and their strategies have dominated conversations among enthusiasts. The intensity of the matches has sparked excitement across the community, illustrating how competitive gaming continues to engage and entertain supporters of all backgrounds.",
-          "text_en_c1": "The recent Season 15 professional matches of League of Legends have proven to be exceptionally thrilling, captivating a vast audience of fans. Several games were so intense that they had viewers on the edge of their seats, rendering them nearly impossible to stop watching. Consequently, discussions have erupted online regarding the performances of various teams and their strategic approaches to the competitions. This heightened level of engagement reflects not only the excitement surrounding the matches but also the deep-seated passion of fans who eagerly analyze and debate players' tactics and decisions throughout the season.",
-          "text_en_c2": "The recent professional matches of the fifteenth season of League of Legends have captivated audiences with their exhilarating intensity and nail-biting suspense. Several games have reached levels of competition so thrilling that spectators found themselves unable to divert their attention, caught in the fervor of strategic maneuvers and unexpected upsets. As fans fervently discuss the performances of various teams and dissect their tactical approaches, the atmosphere is charged with enthusiasm and speculation about forthcoming matches. This season has undoubtedly fortified the fans' passion for the game, uniting them in anticipation of the unfolding drama.",
-          "source_url": "https://boards.4chan.org/a/thread/290218347",
-          "source_hint": "Fans discuss exciting moments in S15 matches."
-        },
-        {
-          "id": "mma-1",
-          "category": "mma/fitness",
-          "topic_zh": "健身心聲",
-          "topic_en": "Fitness Thoughts",
-          "text_zh": "健身其實唔單止係變得強壯，仲有自信同身體意像嘅改變。最近見到朋友分享佢嘅進步，真係好鼓舞！",
-          "text_en_b1": "Fitness isn’t just about getting stronger; it also involves confidence and body image changes. Recently, I saw a friend sharing his progress, and it was really inspiring to see how fitness has positively impacted his life.",
-          "text_en_b2": "Fitness encompasses far more than just the pursuit of strength; it also plays a significant role in enhancing one’s confidence and altering body image perceptions. Recently, I came across a friend's inspiring post showcasing his fitness journey and the remarkable progress he has made. Witnessing how his commitment to fitness has positively transformed his life is truly uplifting. This reinforces the idea that engaging in physical activities can yield multifaceted benefits beyond mere physical improvement.",
-          "text_en_c1": "Engaging in fitness activities transcends the mere pursuit of physical strength; it encompasses significant improvements in self-confidence and body image. Recently, I witnessed a friend proudly sharing his fitness journey, which was profoundly inspiring as it highlighted the transformative effects of dedicated exercise. Such personal progress extends beyond physical appearance, fostering a sense of empowerment and well-being that resonates in various aspects of life. This observation serves as a reminder that fitness can have far-reaching benefits, promoting not only physical health but also a more positive self-image and enhanced mental resilience.",
-          "text_en_c2": "Engaging in fitness transcends the mere pursuit of physical strength; it encompasses profound transformations in self-confidence and body image as well. Recently, I had the pleasure of witnessing a friend's remarkable progress, which served as a compelling reminder of the multifaceted benefits that come with consistent dedication to fitness. The visible changes in his physique and demeanor exemplify how commitment to a healthier lifestyle can yield not only aesthetic improvements but also a significant boost in self-esteem. Such narratives of personal growth and empowerment are truly inspirational, encouraging others to embark on their own fitness journeys.",
-          "source_url": "https://boards.4chan.org/a/thread/290186299",
-          "source_hint": "Fitness progress posts inspire others."
-        },
-        {
-          "id": "anime-1",
-          "category": "anime/culture",
-          "topic_zh": "動漫熱話",
-          "topic_en": "Anime Buzz",
-          "text_zh": "最近《進擊的巨人》新季真係好熱！網上唔少人討論劇情發展，大家都唔想錯過任何細節！",
-          "text_en_b1": "The new season of Attack on Titan has recently been very popular! Many people online are discussing the plot developments, and everyone wants to catch every detail. Fans are excited and eager to share their thoughts and theories.",
-          "text_en_b2": "The latest season of Attack on Titan has recently garnered tremendous popularity! Online, numerous fans are actively discussing the intriguing plot developments, and there is a palpable eagerness to ensure that no aspect of the story is overlooked. The excitement surrounding the new episodes has sparked lively debates, as viewers share their insights and theories. This engagement highlights the show's ability to captivate audiences and encourages a vibrant community of passionate fans.",
-          "text_en_c1": "The latest season of Attack on Titan has emerged as a tremendous sensation, captivating audiences worldwide with its enthralling narrative. Recently, online platforms have been abuzz with discussions regarding the intricate plot developments, as fans are eager to dissect every nuance and detail presented in the episodes. This fervent engagement illustrates the profound impact of the series on its viewer base, as individuals unite in their enthusiasm, sharing theories and insights. The communal excitement surrounding the show fosters a vibrant dialogue within the fandom, highlighting the cultural significance of anime in contemporary entertainment.",
-          "text_en_c2": "The latest season of Attack on Titan has recently surged in popularity, igniting a whirlwind of discussions across various online platforms regarding its intricate plot developments. Enthusiastic fans, eager to dissect every nuance of the storyline, find themselves immersed in fervent debates and exchanges of theories, reflecting the series' profound impact on its audience. The collective enthusiasm is palpable, as viewers share their insights and predictions, ensuring that no detail is overlooked. This season not only captivates existing fans but also attracts newcomers, solidifying its position as a significant cultural phenomenon within the anime community.",
-          "source_url": "https://boards.4chan.org/a/thread/290221076",
-          "source_hint": "Fans eagerly discuss the latest season of Attack on Titan."
         }
       ]
     }
