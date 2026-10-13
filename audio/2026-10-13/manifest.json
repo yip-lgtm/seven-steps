@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-13",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "clip-1-btc-oct",
+      "topic_en": "BTC not crashing",
+      "topic_zh": "BTC 又唔劈",
+      "category": "trading",
+      "files": {
+        "b1": "clip-clip-1-btc-oct-b1.mp3",
+        "b2": "clip-clip-1-btc-oct-b2.mp3",
+        "c1": "clip-clip-1-btc-oct-c1.mp3",
+        "c2": "clip-clip-1-btc-oct-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-2-sailor-portfolio",
+      "topic_en": "MSTR + SpaceX portfolio",
+      "topic_zh": "MSTR + SpaceX組合",
+      "category": "trading",
+      "files": {
+        "b1": "clip-clip-2-sailor-portfolio-b1.mp3",
+        "b2": "clip-clip-2-sailor-portfolio-b2.mp3",
+        "c1": "clip-clip-2-sailor-portfolio-c1.mp3",
+        "c2": "clip-clip-2-sailor-portfolio-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-3-x-bots",
+      "topic_en": "X has no bots",
+      "topic_zh": "X冇bot",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-clip-3-x-bots-b1.mp3",
+        "b2": "clip-clip-3-x-bots-b2.mp3",
+        "c1": "clip-clip-3-x-bots-c1.mp3",
+        "c2": "clip-clip-3-x-bots-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-4-cap-stops",
+      "topic_en": "Years and Years prophecy",
+      "topic_zh": "全球化劇本",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-clip-4-cap-stops-b1.mp3",
+        "b2": "clip-clip-4-cap-stops-b2.mp3",
+        "c1": "clip-clip-4-cap-stops-c1.mp3",
+        "c2": "clip-clip-4-cap-stops-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-5-numbers-swamp",
+      "topic_en": "Numbers swamp mentality",
+      "topic_zh": "數字陷阱",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-clip-5-numbers-swamp-b1.mp3",
+        "b2": "clip-clip-5-numbers-swamp-b2.mp3",
+        "c1": "clip-clip-5-numbers-swamp-c1.mp3",
+        "c2": "clip-clip-5-numbers-swamp-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-6-gits-manga",
+      "topic_en": "Ghost in the Shell reboot",
+      "topic_zh": "GITS新動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-clip-6-gits-manga-b1.mp3",
+        "b2": "clip-clip-6-gits-manga-b2.mp3",
+        "c1": "clip-clip-6-gits-manga-c1.mp3",
+        "c2": "clip-clip-6-gits-manga-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-7-gta6-budget",
+      "topic_en": "13 years and 1.5B",
+      "topic_zh": "13年1.5B美金",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-clip-7-gta6-budget-b1.mp3",
+        "b2": "clip-clip-7-gta6-budget-b2.mp3",
+        "c1": "clip-clip-7-gta6-budget-c1.mp3",
+        "c2": "clip-clip-7-gta6-budget-c2.mp3"
+      }
+    },
+    {
+      "id": "clip-8-jr-jumps",
+      "topic_en": "Detach from finance",
+      "topic_zh": "鬧prop firm同NYSE",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-clip-8-jr-jumps-b1.mp3",
+        "b2": "clip-clip-8-jr-jumps-b2.mp3",
+        "c1": "clip-clip-8-jr-jumps-c1.mp3",
+        "c2": "clip-clip-8-jr-jumps-c2.mp3"
+      }
+    }
+  ]
+}
