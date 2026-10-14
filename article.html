@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章學 7step · 7劍下天山</title>
+<style>
+  :root {
+    --bg: #f6f1e7; --surface: #fffbf2; --ink: #1f2a2e; --ink-soft: #5a6a72; --ink-faint: #8c98a0;
+    --accent: #0f6b66; --accent-deep: #0a5a55; --accent-soft: #c8e3df; --warm: #c77f3b; --warm-soft: #f3dcc1;
+    --line: #e0d6c2; --danger: #b3402a; --good: #3b7a4f;
+  }
+  body.dark {
+    --bg: #0e1116; --surface: #161b22; --ink: #e6edf3; --ink-soft: #b1bac4; --ink-faint: #7d8590;
+    --accent: #4ec9b0; --accent-deep: #3aa995; --accent-soft: #1f3a37; --warm: #e8a87c; --warm-soft: #3a2a1f;
+    --line: #30363d; --danger: #f85149; --good: #56d364;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+  .app { max-width: 720px; margin: 0 auto; padding: 24px 20px 96px; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+  .brand-mark { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, var(--accent), var(--warm)); color: white; display: grid; place-items: center; font-weight: 700; }
+  .brand-name { font-weight: 600; }
+  .brand-sub { color: var(--ink-faint); font-size: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin-bottom: 14px; }
+  h1 { font-size: 26px; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .lead { color: var(--ink-soft); font-size: 14px; margin-bottom: 16px; }
+  .btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 11px 18px; font: inherit; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--accent); color: white; border-color: var(--accent); }
+  .btn-warm { background: var(--warm); color: white; border-color: var(--warm); }
+  .btn-ghost { background: transparent; }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .article { display: block; width: 100%; text-align: left; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; cursor: pointer; font-family: inherit; color: inherit; }
+  .article:hover { border-color: var(--accent); }
+  .article .title { font-weight: 700; font-size: 16px; }
+  .article .meta { font-size: 12px; color: var(--ink-faint); margin-top: 4px; }
+  textarea, input[type="text"] { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font: inherit; background: var(--surface); color: var(--ink); }
+  textarea { min-height: 180px; resize: vertical; }
+  .label { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; display: block; }
+  .chunk { background: var(--bg); border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; }
+  body.dark .chunk, body.dark .article { background: #1c2128; }
+  .chunk .n { font-size: 11px; color: var(--ink-faint); letter-spacing: 0.06em; text-transform: uppercase; }
+  .chunk .en { font-size: 16px; line-height: 1.55; margin-top: 6px; font-weight: 550; }
+  .sent-card { display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; cursor: pointer; font-family: inherit; color: inherit; margin-bottom: 8px; }
+  .sent-card.on { background: #dceeea; border-color: var(--accent); }
+  body.dark .sent-card.on { background: #1f3a37; }
+  .sent-num { flex: 0 0 28px; color: var(--ink-faint); font-size: 12px; font-weight: 700; }
+  .sent-en { font-size: 16px; font-weight: 600; line-height: 1.45; }
+  .step-pill { background: var(--accent-soft); color: var(--accent); padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .play-circle { width: 80px; height: 80px; border-radius: 50%; background: var(--accent); color: white; display: grid; place-items: center; border: none; cursor: pointer; font-size: 28px; }
+  .stars { display: flex; gap: 8px; justify-content: center; margin: 12px 0; }
+  .star { font-size: 32px; cursor: pointer; color: var(--line); }
+  .star.on { color: var(--warm); }
+  .note { font-size: 12px; color: var(--ink-faint); margin-top: 12px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <a class="brand" href="./">
+      <div class="brand-mark">7</div>
+      <div>
+        <div class="brand-name">7劍下天山</div>
+        <div class="brand-sub">文章學 7step</div>
+      </div>
+    </a>
+    <button class="btn btn-ghost" id="btn-theme" type="button">Dark</button>
+  </div>
+  <div id="view"></div>
+</div>
+<script>
+const KEY = 'ss.articles.v1';
+const SAMPLE = {
+  id: 'ice-oct',
+  title: 'ICE Case Study — Community & Procurement',
+  source: 'Sze Kang Yip · ICE Exam Answer · Oct',
+  text: `How will you address community concerns as the project progresses?\n\nResidents welcome protection for the 1,700 properties but remain sceptical that a greenway can reverse long-standing decline. They argue the Council's £42 m could be spent differently. That scepticism is treated as a residual risk that has to be managed through the five-year programme, not closed at the first workshop.\n\nStakeholders are mapped with a power-interest matrix and a RACI. A power-interest matrix is needed so that attention is prioritised rather than spread evenly. Without prioritising high-power groups, engagement effort would be spread across the 40,000 residents and the wider public. High-interest, high-power groups include the 40,000 residents, the 23 schools, businesses next to the derelict 2,500 m² square, and the Council members who control the remaining funding. A RACI makes clear who is responsible, who is accountable, who is consulted, and who is informed.\n\nEarly workshops record specific concerns in the language residents actually use: the visual impact of the 4.1 km of reinforced-concrete walls, temporary closures of routes used by children walking to the 23 schools, contamination risk on the square site, and whether the 16 km pedestrian and cycle route will actually be used. An environmental supervision group publishes water-quality, turbidity and noise data regularly so trust is built through data rather than promises.\n\nHow will your procurement strategy be tailored to achieve desired outcomes?\n\nThe desired outcomes are flood protection for the 1,700 properties, a 9 km linear park, a 16 km walking and cycling route, 26 bridges, restoration of the rivers under the EU Water Framework Directive, and a new 2,500 m² civic square — all within the £42 m budget over five years.\n\nI recommend NEC4 ECC Option C with Secondary Option X22 for early contractor involvement. Stage 1 and Stage 2 sit inside the same target-cost contract. The contractor works open-book from the outset. X22 keeps the interfaces between the walls, the embankments and the soft river-bank works inside one target, so the contractor has a commercial interest in the Water Framework Directive outcome, not only in finishing the concrete.`,
+  created: '2026-10-14'
+};
+const STEPS = [
+  { id:'rate', name:'Rate', hint:'聽一次，評自己明幾多。畫面未出字。' },
+  { id:'grasp', name:'Grasp', hint:'再聽。用自己嘅字寫意思，再揭示原文。' },
+  { id:'hum', name:'Hum', hint:'跟節奏哼，唔出字。' },
+  { id:'shadow', name:'Shadow', hint:'同聲講，唔好等完先講。' },
+  { id:'read', name:'Read', hint:'睇字，跟住讀出聲。' },
+  { id:'recall', name:'Recall', hint:'收起字，背出嚟，再對返。' },
+  { id:'freestyle', name:'Freestyle', hint:'用同一主題講 60 秒。' }
+];
+let state = { view:'list', articles:[], current:null, chunkIdx:0, stepIdx:0, rating:0, reveal:false, hideText:false };
+function load(){
+  try { state.articles = JSON.parse(localStorage.getItem(KEY)||'[]'); } catch { state.articles = []; }
+  if (!state.articles.some(a => a.id === SAMPLE.id)) state.articles.unshift(SAMPLE);
+}
+function save(){ localStorage.setItem(KEY, JSON.stringify(state.articles.filter(a => a.id !== SAMPLE.id).concat(state.articles.filter(a => a.id === SAMPLE.id)))); }
+function applyTheme(dark){
+  document.body.classList.toggle('dark', dark);
+  document.getElementById('btn-theme').textContent = dark ? 'Light' : 'Dark';
+  localStorage.setItem('article-theme', dark ? 'dark' : 'light');
+}
+function splitChunks(text){
+  const paras = String(text||'').split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+  const out = [];
+  paras.forEach(p => {
+    if (p.length < 40) { if (out.length) out[out.length-1] += '\n\n' + p; else out.push(p); return; }
+    if (p.split(/\s+/).length <= 120) out.push(p);
+    else {
+      const sents = p.split(/(?<=[.!?])\s+/);
+      let buf = '';
+      sents.forEach(s => {
+        if ((buf + ' ' + s).split(/\s+/).length > 90 && buf) { out.push(buf.trim()); buf = s; }
+        else buf = buf ? buf + ' ' + s : s;
+      });
+      if (buf) out.push(buf.trim());
+    }
+  });
+  return out.length ? out : [String(text||'').trim()];
+}
+function splitSents(text){
+  return String(text||'').split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 8);
+}
+function speak(text){
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  const voices = speechSynthesis.getVoices();
+  const v = voices.find(x => /en[-_]US/i.test(x.lang) && /samantha|google|natural/i.test(x.name)) || voices.find(x => /^en/i.test(x.lang));
+  if (v) u.voice = v;
+  speechSynthesis.speak(u);
+}
+function render(){
+  const view = document.getElementById('view');
+  if (state.view === 'list') view.innerHTML = renderList();
+  else if (state.view === 'add') view.innerHTML = renderAdd();
+  else if (state.view === 'article') view.innerHTML = renderArticle();
+  else if (state.view === 'study') view.innerHTML = renderStudy();
+  bind();
+}
+function renderList(){
+  const rows = state.articles.map(a => {
+    const n = splitChunks(a.text).length;
+    const words = (a.text||'').split(/\s+/).length;
+    return '<button class="article" data-id="'+a.id+'"><div class="title">'+esc(a.title)+'</div><div class="meta">'+n+' 段 · '+words+' words · '+(a.source||'local')+'</div></button>';
+  }).join('');
+  return '<div class="card"><h1>記錄文章學 7step</h1><p class="lead">貼長文，自動分段。揀一段就走齊七步：Rate → Grasp → Hum → Shadow → Read → Recall → Freestyle。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加文章</button></div>'+rows+'<p class="note">文章只存喺呢部機。ICE sample 係示範，可以刪。</p></div>';
+}
+function renderAdd(){
+  return '<div class="card"><h1>加文章</h1><label class="label">標題</label><input id="title" type="text" placeholder="例如 ICE Case Study — Value for Money"><label class="label" style="margin-top:12px">英文正文</label><textarea id="text" placeholder="貼全文…"></textarea><div class="btn-row" style="margin-top:14px"><button class="btn btn-primary" id="btn-save">儲存</button><button class="btn" id="btn-cancel">取消</button></div></div>';
+}
+function renderArticle(){
+  const a = state.current;
+  if (!a) return '';
+  const chunks = splitChunks(a.text);
+  const rows = chunks.map((c,i) => '<div class="chunk"><div class="n">段 '+(i+1)+' · '+c.split(/\s+/).length+' words</div><div class="en">'+esc(c.slice(0,220))+(c.length>220?'…':'')+'</div><div class="btn-row" style="margin-top:10px"><button class="btn btn-primary" data-start="'+i+'">練呢段</button><button class="btn" data-play="'+i+'">聽</button></div></div>').join('');
+  return '<div class="card"><h1>'+esc(a.title)+'</h1><p class="lead">'+(a.source||'')+' · '+chunks.length+' 段</p>'+rows+'<div class="btn-row" style="margin-top:8px"><button class="btn" id="btn-back">← 文章</button>'+(a.id!==SAMPLE.id?'<button class="btn" id="btn-del" style="color:var(--danger)">刪除</button>':'')+'</div></div>';
+}
+function renderStudy(){
+  const a = state.current;
+  const chunks = splitChunks(a.text);
+  const text = chunks[state.chunkIdx] || '';
+  const step = STEPS[state.stepIdx];
+  const sents = splitSents(text);
+  const cards = sents.map((s,i) => '<div class="sent-card"><span class="sent-num">#'+(i+1)+'</span><span class="sent-en">'+esc(s)+'</span></div>').join('');
+  let body = '';
+  if (step.id === 'rate') body = '<div style="text-align:center"><button class="play-circle" id="btn-play">▶</button><div class="stars" id="stars">'+[1,2,3,4,5].map(n=>'<span class="star'+(state.rating>=n?' on':'')+'" data-n="'+n+'">★</span>').join('')+'</div><div style="color:var(--ink-soft);font-size:13px">明幾多？</div></div>';
+  else if (step.id === 'grasp') body = '<button class="play-circle" id="btn-play">▶</button><textarea id="grasp" placeholder="用自己嘅字寫意思" style="margin-top:14px"></textarea><button class="btn" id="btn-reveal" style="margin-top:10px">揭示原文</button>'+(state.reveal?'<div style="margin-top:12px">'+cards+'</div>':'');
+  else if (step.id === 'hum') body = '<button class="play-circle" id="btn-play">▶</button><p style="margin-top:12px;color:var(--ink-soft)">跟節奏哼，唔出字。</p>'+cards;
+  else if (step.id === 'shadow' || step.id === 'read') body = '<button class="play-circle" id="btn-play">▶</button>'+cards;
+  else if (step.id === 'recall') body = '<button class="play-circle" id="btn-play">▶</button><button class="btn" id="btn-hide" style="margin-top:10px">'+(state.hideText?'顯示字':'收起字')+'</button>'+(state.hideText?'':'<div style="margin-top:12px">'+cards+'</div>');
+  else body = '<p style="color:var(--ink-soft)">用呢段主題講 60 秒。唔使完美，講得出就得。</p><button class="btn btn-warm" id="btn-play">聽一次提示</button>';
+  return '<div class="card"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><div style="font-size:13px;color:var(--ink-faint)">段 '+(state.chunkIdx+1)+' / '+chunks.length+'</div><div class="step-pill">Step '+(state.stepIdx+1)+' · '+step.name+'</div></div><div style="font-size:22px;font-weight:700;margin-bottom:4px">'+step.name+'</div><div style="color:var(--ink-soft);margin-bottom:16px">'+step.hint+'</div>'+body+'<div class="btn-row" style="margin-top:18px;justify-content:space-between"><button class="btn" id="btn-quit">結束</button><button class="btn btn-primary" id="btn-next">'+(state.stepIdx===6?'下一段 →':'下一步 →')+'</button></div></div>';
+}
+function esc(s){ return String(s||'').replace(/[&<>"]/g, c => ({'&':'&','<':'<','>':'>','"':'"'}[c])); }
+function bind(){
+  document.getElementById('btn-theme').onclick = () => applyTheme(!document.body.classList.contains('dark'));
+  const on = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
+  on('btn-add', () => { state.view = 'add'; render(); });
+  on('btn-cancel', () => { state.view = 'list'; render(); });
+  on('btn-back', () => { state.view = 'list'; render(); });
+  on('btn-save', () => {
+    const title = document.getElementById('title').value.trim();
+    const text = document.getElementById('text').value.trim();
+    if (!title || !text) return alert('標題同正文都要有。');
+    state.articles.unshift({ id: 'a'+Date.now(), title, text, source:'local', created: new Date().toISOString().slice(0,10) });
+    save(); state.view = 'list'; render();
+  });
+  on('btn-del', () => { if (confirm('刪除呢篇？')) { state.articles = state.articles.filter(x => x.id !== state.current.id); save(); state.view = 'list'; render(); } });
+  on('btn-quit', () => { state.view = 'article'; render(); });
+  on('btn-next', () => {
+    state.stepIdx++;
+    if (state.stepIdx >= STEPS.length) {
+      state.stepIdx = 0; state.chunkIdx++; state.rating = 0; state.reveal = false; state.hideText = false;
+      const chunks = splitChunks(state.current.text);
+      if (state.chunkIdx >= chunks.length) { alert('呢篇練完。'); state.view = 'article'; }
+    }
+    render();
+  });
+  on('btn-play', () => {
+    const chunks = splitChunks(state.current.text);
+    speak(chunks[state.chunkIdx] || '');
+  });
+  on('btn-reveal', () => { state.reveal = true; render(); });
+  on('btn-hide', () => { state.hideText = !state.hideText; render(); });
+  document.querySelectorAll('.article').forEach(btn => btn.onclick = () => {
+    state.current = state.articles.find(a => a.id === btn.dataset.id);
+    state.view = 'article'; render();
+  });
+  document.querySelectorAll('[data-start]').forEach(btn => btn.onclick = () => {
+    state.chunkIdx = Number(btn.dataset.start); state.stepIdx = 0; state.rating = 0; state.reveal = false; state.hideText = false;
+    state.view = 'study'; render();
+  });
+  document.querySelectorAll('[data-play]').forEach(btn => btn.onclick = () => {
+    const chunks = splitChunks(state.current.text);
+    speak(chunks[Number(btn.dataset.play)] || '');
+  });
+  document.querySelectorAll('.star').forEach(s => s.onclick = () => { state.rating = Number(s.dataset.n); render(); });
+}
+load();
+applyTheme((localStorage.getItem('article-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark');
+render();
+</script>
+</body>
+</html>
