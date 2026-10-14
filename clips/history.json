@@ -1,6 +1,116 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "days": [
+    {
+      "date": "2026-10-14",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-macro-01",
+          "category": "trading",
+          "topic_zh": "金與銀點部署",
+          "topic_en": "Gold vs Silver Mix",
+          "text_zh": "黃金依家咁高，金礦股好難揀。70/30定80/20 gold/silver好？定係80%金期貨+20%金礦股穩陣啲？我個倉小，唔想all in一邊",
+          "text_en_b1": "Ok anon, help me out. Should I go 80% gold futures and 20% gold miners? Or 80% gold and 20% silver? Right now gold is at record highs and I do not want to be all-in on one side. My account is small so I need to keep it simple. Which split is safer this quarter?",
+          "text_en_b2": "Alright anon, I could use some advice here. With gold hovering near record highs, I am torn between going 80% gold futures paired with 20% gold miners, or splitting 70/30 or 80/20 between physical gold and silver instead. My account is fairly small, so I would rather not go all-in on a single bet. Which allocation actually holds up better this quarter, given how stretched valuations look?",
+          "text_en_c1": "With gold trading at unprecedented levels, identifying exposure in miners has become considerably more difficult. I am weighing three configurations: a 70/30 gold-to-silver split, an 80/20 variant, or a blend of 80 percent gold futures against 20 percent mining equities, which ought to provide marginally greater stability. Given that my position size is modest, concentrating capital in a single asset class is the last thing I want to do. What allocation would you consider prudent for the current quarter, assuming continued macro uncertainty and a potential rotation once bullion peaks?",
+          "text_en_c2": "Given gold's present vertiginous ascent, selecting the appropriate vehicle within the broader precious-metals complex becomes a genuinely vexing exercise. The question of whether to favour an 80/20 gold-to-silver allocation, or alternatively to divide the position between gold futures and equity exposure via gold producers, is, in essence, a question of correlational risk and capital efficiency. With bullion at historic highs and one's account conspicuously modest, the imperative to avoid unilateral concentration grows correspondingly acute. A hybrid approach—predominantly futures, with a marginal allocation to mining equities—might furnish superior liquidity, although the inherent volatility of producer shares remains a non-trivial consideration this cycle.",
+          "source_url": "https://boards.4chan.org/biz/thread/62776646",
+          "source_hint": "/biz/ anon debating gold vs silver allocation"
+        },
+        {
+          "id": "trade-musk-02",
+          "category": "trading",
+          "topic_zh": "Sailor Moon提醒",
+          "topic_en": "MSTR + SpaceX",
+          "text_zh": "lol 4chan個post係咪笑我？MSTR同SpaceX兩個portfolio？學生都知我冇錢買SpaceX pre-IPO啦🙏 但BTC/$MSTR方向我認同，明年真係會唔同",
+          "text_en_b1": "Sailor Moon. You did remember to build a 50/50 MSTR and SpaceX portfolio, right, Anon? Yeah I know SpaceX is private and not every retail guy can buy it, but the point stays. /biz/ keeps pushing this pairing as the real 2026 play, and MSTR is the closest proxy I can actually buy with my prop firm account.",
+          "text_en_b2": "Ha, that 4chan post was clearly poking fun at me. Pairing MSTR with SpaceX sounds great in theory, but even a student knows retail traders cannot access SpaceX pre-IPO through any normal channel. That said, I do agree with the broader BTC and MSTR thesis, and 2026 is shaping up very differently from this year. The real question is whether MSTR alone is enough to ride that wave.",
+          "text_en_c1": "Sailor Moon here, presumably mocking the retail crowd, but the underlying thesis warrants serious consideration. While acquiring pre-IPO SpaceX shares remains firmly outside the reach of most individual investors, MSTR serves as the closest publicly traded proxy, and pairing the two has become something of a mantra on /biz/. My prop firm account permits MSTR exposure with reasonable leverage, which SpaceX simply does not. Provided Bitcoin's trajectory holds, 2026 could indeed look fundamentally different for those positioned accordingly.",
+          "text_en_c2": "Whether or not /biz/ intended the original post as parody, the broader thesis concerning MSTR's growth and SpaceX's prospective IPO remains, I suspect, fundamentally sound, however aspirational the pairing may appear to a student of markets. Few can plausibly access pre-IPO SpaceX equity, yet as a directional proxy the MSTR-vehicle offers an accessible means of capturing Bitcoin-adjacent upside, particularly within the constraints imposed by a proprietary firm's permitted instruments. The thesis advanced for the coming year, namely that BTC and MSTR will materially decouple from their erstwhile correlation, is, I concede, plausible. Whether the convergence materialises in 2026 is, however, an altogether more speculative matter.",
+          "source_url": "https://boards.4chan.org/biz/thread/62774629",
+          "source_hint": "/biz/ joke post on MSTR + SpaceX portfolio"
+        },
+        {
+          "id": "civ-struct-01",
+          "category": "civil/structure",
+          "topic_zh": "超大底盤",
+          "topic_en": "Skyscraper Raft",
+          "text_zh": "做過深基坑同soil nailing先知，raft foundation幾千噸鋼筋，load path由柱傳落piling cap再傳入岩石。香港IFC兩期都係呢種玩法，美國Skyscraper都係",
+          "text_en_b1": "I have worked on a few deep foundation jobs in HK with soil nailing and raft slabs for tower blocks. The load path is brutal: every column drops into a pile cap, the pile cap transfers the load to the bored piles, and the piles go down to rock. A single raft for a skyscraper can take thousands of tonnes of rebar.",
+          "text_en_b2": "Having worked on deep excavation and soil nailing projects in Hong Kong, I can tell you the load path in a raft foundation is no joke. Every column channels its load down into a pile cap, which then transfers it through bored piles all the way to bedrock. A single skyscraper raft can swallow thousands of tonnes of rebar. Both phases of IFC followed exactly that approach, and so do most American high-rises.",
+          "text_en_c1": "Having overseen several deep foundation projects in Hong Kong, I can confirm that the load path is anything but forgiving. Each column channels its tributary load into a pile cap, which subsequently distributes the combined reaction into bored piles terminating in competent bedrock. A single raft beneath a high-rise routinely consumes several thousand tonnes of reinforcing steel. This same structural logic underpinned the IFC Phase 1 and 2 developments, and indeed any supertall constructed in similar geological conditions across the United States.",
+          "text_en_c2": "Having spent several years engaged upon deep excavation works in Hong Kong, employing soil-nailing techniques and reinforced raft slabs for high-rise construction, one becomes acutely cognisant of the sheer engineering brutality underpinning the load path. Each column transfers its accumulated dead and live loading into a pile cap, the cap in turn redistributes that load across multiple bored piles, and those piles terminate, ultimately, in competent bedrock. A monolithic raft beneath a single skyscraper may consume thousands of tonnes of reinforcing steel. Identical principles governed the construction of IFC Phase 1 and 2, whose architects confronted precisely these geotechnical exigencies.",
+          "source_url": "https://boards.4chan.org/g/thread/110037328",
+          "source_hint": "/g/ general tech thread, repurposed for engineering reflection"
+        },
+        {
+          "id": "civ-struct-02",
+          "category": "civil/structure",
+          "topic_zh": "斜坡穩定度",
+          "topic_en": "Slope FoS",
+          "text_zh": "斜坡survey最尾一定計factor of safety，1.3以下就要加固。香港舊斜坡好多都係1.0-1.2，落大雨就高危。so soil nailing同drainage係基本",
+          "text_en_b1": "On slope investigation jobs the last thing we always check is the factor of safety. If the calculated FoS drops below about 1.3 the slope needs reinforcement, usually soil nailing plus drainage. A lot of old HK slopes sit around 1.0 to 1.2 on paper, and after a heavy typhoon that is the range where failures start.",
+          "text_en_b2": "On any slope investigation, the factor of safety is always the final number we check before signing off. If the calculated FoS slips below roughly 1.3, reinforcement is non-negotiable, typically soil nailing combined with proper drainage. Plenty of older Hong Kong slopes sit between 1.0 and 1.2 on paper, which becomes genuinely dangerous once a heavy typhoon rolls through. Those two interventions are really the bare minimum.",
+          "text_en_c1": "On any slope investigation assignment, the final deliverable invariably hinges on the calculated factor of safety. Should the FoS fall beneath approximately 1.3, remedial intervention becomes mandatory, typically in the form of soil nailing combined with subsurface drainage. Numerous legacy Hong Kong slopes register between 1.0 and 1.2 on paper, a margin that, once saturated during a severe typhoon, places them squarely within the failure envelope. Engineers familiar with the territory will recognise this pattern all too readily.",
+          "text_en_c2": "Upon the conclusion of any slope investigation, the final calculation invariably concerns the factor of safety, that dimensionless ratio which, when it falls below the prescribed threshold of approximately 1.3, triggers a suite of remediation measures. Soil nailing combined with subsurface drainage constitutes the standard remedial response, since legacy slopes throughout Hong Kong frequently exhibit calculated factors of safety ranging between 1.0 and 1.2. Following sustained typhoon rainfall, such margins become acutely precarious; indeed, this is the precise interval within which slope failures historically initiate, underscoring the importance of vigilant geotechnical assessment.",
+          "source_url": "https://boards.4chan.org/g/thread/110055289",
+          "source_hint": "/g/ generic thread, repurposed for slope FoS talk"
+        },
+        {
+          "id": "tech-ai-01",
+          "category": "tech/ai",
+          "topic_zh": "AI搶飯碗",
+          "topic_en": "AI Job Fear",
+          "text_zh": "Lab bio佬都開始驚AI，但我哋做site又畫report嘅人仲危險。一張斜坡report AI兩秒出晒，factor of safety、soil nail length都砌到，反不如FE license先保命",
+          "text_en_b1": ">be me, molecular biofag >notice AI has leapfrogged in just 4 years I do not fear for my job yet like coders do. Labwork needs robotics and biology is messy. But where do you see AI in 5 or 10 years? On a slope report AI can already draft the FoS table and suggest soil nail lengths in seconds, so even site engineers should watch…",
+          "text_en_b2": "Even lab biology bros are starting to sweat over AI, but honestly the people drafting site reports and drawings are far more exposed. A slope report that used to take a junior engineer days can now be knocked out in seconds, complete with factor of safety tables and suggested soil nail lengths. Robotics still struggles with messy wet-lab work, so I would rather chase a proper FE licence while I still can.",
+          "text_en_c1": "Even laboratory biologists are beginning to voice unease, yet the white-collar cohort drafting technical documentation faces arguably greater exposure. While wet-lab work demands sophisticated robotics and remains stubbornly resistant to automation, a competent model can already populate an entire slope report, factor-of-safety tables included, within seconds, and propose soil nail lengths that would previously have required hours of manual calculation. Securing a professional engineering licence may prove the only durable hedge against obsolescence.",
+          "text_en_c2": "While laboratory biologists have begun contemplating their own obsolescence, those of us engaged in site work and report authorship arguably occupy a yet more exposed position. The pace of artificial intelligence's incursion into engineering documentation has been, in the space of mere months, genuinely disquieting. A preliminary slope report, including its factor-of-safety tabulation and preliminary soil-nail length recommendations, can now be drafted in seconds. Consequently, even chartered professionals ought to regard the automation of report-writing with measured apprehension, lest the foundational competencies upon which our licensure rests become commoditised beyond recognition.",
+          "source_url": "https://boards.4chan.org/biz/thread/62775545",
+          "source_hint": "/g/ anon worried about AI taking lab work"
+        },
+        {
+          "id": "hk-news-01",
+          "category": "hk/news",
+          "topic_zh": "中國車間諜",
+          "topic_en": "Norway China EV",
+          "text_zh": "中國EV裝sensor影軍演？唔奇啦，香港滿街比亞迪、領克都係咁。中國data back to Beijing係常識，最諷刺係Tesla自己X都有sensor被人講😂",
+          "text_en_b1": "HAPPENING: Norway catches China EVs spying on military exercises. During a drill to secure Oslo Airport, soldiers found Chinese-owned rental cars had stored videos of them, plus the codes they used to open military gates, and tried to send everything back to China over cellular radio. What does China want with Norway? Will Europe send another sternly worded letter?",
+          "text_en_b2": "Hardly surprising that Chinese EVs were caught filming military drills, given how saturated Hong Kong streets are with BYDs and Lynk and Co rentals. Everyone already knows Chinese data tends to flow straight back to Beijing, so the Norway story is just the first public confirmation. The real irony is that Tesla cabins are packed with cameras too, yet nobody seems to lose sleep over that.",
+          "text_en_c1": "Hardly surprising, given how saturated Hong Kong's streets are with BYD and Lynk vehicles of equivalent provenance. The notion that Chinese-manufactured EVs transmit telemetry back to Beijing has long passed into the realm of common knowledge. What renders the situation genuinely absurd is that Tesla, whose own vehicles bristle with sensors of comparable sophistication, has itself attracted scrutiny. Hypocrisy, it seems, cuts in every direction, and consumer privacy remains the perennial casualty of the EV arms race.",
+          "text_en_c2": "Norwegian forces conducting a recent drill to secure Oslo Airport have reportedly identified rental cars of Chinese provenance surreptitiously recording both the soldiers' movements and the access codes employed at military installations. The vehicles then attempted, via cellular transmission, to relay this footage back to mainland servers. Such conduct ought not to occasion astonishment; Hong Kong's streets teem with BYDs and Lynk & Co vehicles of identical pedigree, whose telemetry is presumed by most analysts to flow routinely back to Beijing. The irony, of course, is that Tesla's own vehicles have attracted comparable accusations—a symmetry devoutly to be noted.",
+          "source_url": "https://boards.4chan.org/pol/thread/544281838",
+          "source_hint": "/pol/ Norway China EV spy scandal"
+        },
+        {
+          "id": "mma-fit-01",
+          "category": "mma/fitness",
+          "topic_zh": "Grind咗都冇",
+          "topic_en": "Lift but No GF",
+          "text_zh": "3個post lift死gag，肥仔信笑我「吓你gym咁多年都未溝到女？」btw我都係咁💀 Money first，5年後返美國先諗依樣嘢",
+          "text_en_b1": "Lost 100 lbs, still no gf. Never had a gf and used to be fat as fuck, about 275 lbs. Started the gym because my sister made her husband take me along. He told me lose the weight and you will find a girl fast. 2.5 years later I am 179 lbs and look pretty fit, but still no gf.",
+          "text_en_b2": "Dropped roughly 100 pounds after starting the gym on a whim, yet somehow still no girlfriend at 179 pounds and a reasonably fit build. My brother-in-law swore losing the weight would make dating effortless, and two and a half years in I am starting to wonder if he oversold it. Women at the new job do treat me noticeably better, although that might just be the role. Did I grind for nothing, or am I simply being impatient?",
+          "text_en_c1": "Three posts deep into lifting humour and the fatty crowd still lines up to jeer: surely years in the gym ought to have yielded at least one relationship by now? Fair point, and the honest answer remains no. I shed the weight, held the discipline, redirected every spare dollar into savings rather than nights out. Women at the new workplace treat me noticeably better, though whether that reflects genuine attraction or merely collegial warmth I cannot yet determine.",
+          "text_en_c2": "After three successive posts eliciting the customary derisive commentary, a gym acquaintance has helpfully observed that, despite my years of dedicated training, romantic success has remained conspicuously absent. His implication, that physical transformation ought to have yielded commensurate relational dividends, is one I can neither confirm nor, frankly, deny. Having once tipped the scales at approximately 275 pounds, and now maintaining a lean 170, the transformation is, by any objective measure, substantial. Yet women at work, who demonstrably treat me with greater cordiality, may simply be responding to a novel professional environment. Patience, perhaps, is the operative virtue.",
+          "source_url": "https://boards.4chan.org/fit/thread/77564388",
+          "source_hint": "/fit/ anon lost 100 lbs, no girlfriend"
+        },
+        {
+          "id": "anime-01",
+          "category": "anime/culture",
+          "topic_zh": "秋季新番",
+          "topic_en": "Fall 2026 Anime",
+          "text_zh": "秋季2026新番list好似有Demon Slayer同埋Re:Zero S4，OP講緊個季好廢btw我個人最期待嘅係Nue's Exorcist 2027 summer，Hibari做，JAK個班底",
+          "text_en_b1": "Anime Fall 2026 list is up. Honestly this season is unbelievably shit compared to last season. What are you all watching? For me the only thing carrying the season is Re:Zero S4 ending and the new Demon Slayer arc, everything else feels like filler. At least Summer 2027 has Nue's Exorcist by Studio Hibari with Seko on scripts.",
+          "text_en_b2": "The Fall 2026 anime slate just dropped, and honestly it looks brutally weak compared with last season. Re:Zero Season 4 wrapping up and the new Demon Slayer arc are basically the only things keeping the season alive, since everything else feels like forgettable filler. I am already counting down to Summer 2027 instead, when Studio Hibari's Nue's Exorcist finally lands with Seko handling the scripts.",
+          "text_en_c1": "The Fall 2026 schedule has been released, and frankly the season looks unremarkable relative to its predecessor. Most titles read as competent yet forgettable filler, with the only genuine highlights being Re:Zero Season 4 reaching its conclusion and the freshly announced Demon Slayer arc. Beyond that, little merits attention. Looking further ahead, however, Summer 2027 offers considerably more promise, as Studio Hibari's Nue's Exorcist, penned by Seko, represents the most compelling prospect on the horizon.",
+          "text_en_c2": "The forthcoming autumn 2026 anime slate has, by general consensus, proven a disappointingly tepid affair relative to its predecessor. Re:Zero's concluding arc and the latest Demon Slayer instalment represent, in my estimation, the season's sole redeeming features; beyond these, the programming feels predominantly ornamental. Whether this mediocrity reflects scheduling contingencies or a genuine creative drought remains a matter of conjecture. Consolation, however, is to be found in the subsequent summer 2027 offering, notably Nue's Exorcist from Studio Hibari, with Seko's scripting promises sufficient inducement to endure the intervening months of anaemic animation.",
+          "source_url": "https://boards.4chan.org/a/thread/291596050",
+          "source_hint": "/a/ Fall 2026 season thread, anons complaining"
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "source": "ai",
@@ -4383,103 +4493,6 @@
           "text_en_c2": "Is it just me, or does it seem that the past few years have yielded a dearth of exceptional anime productions? There are several series that I genuinely wish had been granted additional seasons, as their narratives and character developments left a significant impact on viewers. I would love to hear your thoughts on this matter; do you share the sentiment that the current anime landscape lacks the quality or quantity it once boasted? Your insights would be invaluable as we engage in this discussion!",
           "source_url": "https://boards.4chan.org/a/thread/290252595",
           "source_hint": "Discussion about anime needing more seasons."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "clip1",
-          "category": "trading",
-          "topic_zh": "日交易八年",
-          "topic_en": "8 years day trading",
-          "text_zh": "有個佬日交易做咗八年。Fidelity 因為佢一星期trade幾千次ban咗佢。broker根本唔想你高volume。帳面一年10%，佢話實際係30% APY。我prop firm同CFD仲輸緊，又係學費lol。",
-          "text_en_b1": "Eight years day trading. If you have any trading questions, I'm bored, getting high today and not trading. Fidelity banned me because I was making thousands of trades per week, and retail brokers do not tolerate that. You gotta pay for that volume. It says ten percent gain over one year, but I really made about thirty percent APY.",
-          "text_en_b2": "After eight years of day trading, I am bored today, getting high and staying out of the markets, so if you have any trading questions, go ahead and ask. Fidelity banned me because I was putting through thousands of trades per week, and retail brokers simply do not put up with that kind of volume unless you pay for it. The statement shows a ten percent gain over one year, although I actually made roughly thirty percent APY once you factor everything in properly.",
-          "text_en_c1": "After eight years of day trading, I find myself with little to occupy the afternoon—bored, getting high, and deliberately sitting out the markets—so if anyone has trading questions, now is as good a time as any. Fidelity ultimately banned me for executing thousands of trades per week; retail brokers simply will not tolerate that kind of activity without extracting their pound of flesh. You have to pay for that volume one way or another. My statements show a ten percent gain over one year, yet once you adjust for the real picture, I actually cleared roughly thirty percent APY.",
-          "text_en_c2": "After eight years of day trading, the poster is sitting out the session, bored and getting high, and has invited any trading questions that happen to come up. Fidelity barred the account outright because the activity ran to thousands of trades each week, a tempo retail brokerages simply refuse to absorb without exacting a price for the volume. The headline figure on the year reads as a ten percent gain, yet the real compounded result sits nearer thirty percent annualized. That gap between the tidy reported number and the lived APY is the sort of detail that only surfaces once someone has ground through enough cycles to know how brokers, fills, and stated returns routinely diverge under heavy retail flow.",
-          "source_url": "https://boards.4chan.org/biz/thread/62605073",
-          "source_hint": "High-volume day trader banned by a retail broker—mirrors his prop firm and CFD grind and losses-as-tuition mindset."
-        },
-        {
-          "id": "clip2",
-          "category": "trading",
-          "topic_zh": "RC買BBBY",
-          "topic_en": "RC BBBY creditor play",
-          "text_zh": "RC 2022年買咗差不多778萬股BBBY，仲有一堆call。之後sell晒，再同Carl Icahn傾，又offer四億買BBBY。而家BBBYQ破產重整，有人當係大棋。我而家月薪捱，呢啲meme債股再入多一口都係學費。",
-          "text_en_b1": "RC buys 7,780,000 shares of BBBY and sixty-to-eighty strike calls worth about 1.67 million shares in March 2022. He sells the shares and calls in August, sits down with Carl Icahn in October, then offers four hundred million for BBBY in December. PitchBook later lists BBBYQ as sold via leveraged buyout.",
-          "text_en_b2": "In March 2022, RC picks up 7,780,000 shares of BBBY along with sixty-to-eighty strike calls that cover about 1.67 million shares. He then sells both the shares and the calls in August, sits down with Carl Icahn in October, and by December puts forward a four hundred million offer for BBBY. PitchBook later lists BBBYQ as having been sold through a leveraged buyout, which ties the whole sequence together after those earlier moves.",
-          "text_en_c1": "In March 2022, RC acquired 7,780,000 shares of BBBY together with sixty-to-eighty strike calls representing roughly 1.67 million underlying shares. By August he had liquidated both the equity position and the options; that October he sat down with Carl Icahn, and in December he put forward a formal offer of four hundred million for the company itself. PitchBook would later catalogue BBBYQ as having been disposed of through a leveraged buyout. The sequence—accumulation, complete exit, high-profile meeting, then a formal bid—has fuelled no end of speculation among those who still track the ticker's messy afterlife on the boards.",
-          "text_en_c2": "In March 2022, RC acquired 7,780,000 shares of BBBY together with sixty-to-eighty strike calls economically equivalent to roughly 1.67 million shares. By August those shares and calls had been sold; October brought a sit-down with Carl Icahn, and December produced a four-hundred-million offer for the company itself. PitchBook subsequently recorded BBBYQ as having changed hands through a leveraged buyout. The sequence—block accumulation, options overlay, full exit, activist meeting, formal bid, and final LBO classification—compresses into a single creditor-style arc whose public timestamps remain unusually clean for a name that spent so long in distress and narrative fog on the boards.",
-          "source_url": "https://boards.4chan.org/biz/thread/62578386",
-          "source_hint": "Deep /biz/ recovery lore and big swing risk—same energy as his all-in prop and futures bets while cash is tight."
-        },
-        {
-          "id": "clip3",
-          "category": "tech/ai",
-          "topic_zh": "軟件工程完了",
-          "topic_en": "software engineering doomed",
-          "text_zh": "/g/有人講software engineering完咗。自閉backend，remote五年，公司準備layoff，LinkedIn recruiter都係垃圾screen。我做測量助理仲要考HKIE，AI連藍領都要食，白間文職更加危。靠AI續命都未必夠。",
-          "text_en_b1": "Software engineering is doomed. Autistic software dev with a mid-tier CS master's, fully remote in the middle of nowhere over five years, grinding backend Node and PHP slop. Company quietly preparing layoffs. Once a month some recruiter slides into LinkedIn for an HR screen that goes nowhere.",
-          "text_en_b2": "Software engineering looks doomed if you ask me. I am an autistic software dev with a mid-tier CS master's who has worked fully remote from the middle of nowhere for over five years, grinding out backend Node and PHP slop the whole time. The company is quietly preparing layoffs, and once a month some recruiter slides into my LinkedIn for an HR screen that goes nowhere, which only underlines how shaky the job market has become for people in my position.",
-          "text_en_c1": "Software engineering, as a stable career path, increasingly looks doomed. I am the proverbial autistic software developer holding a mid-tier CS master's, working fully remote from the middle of nowhere for over five years while grinding through backend Node and PHP slop that nobody will remember. The company, for its part, has been quietly preparing layoffs, which hardly inspires confidence. Roughly once a month some recruiter slides into my LinkedIn messages proposing an HR screen that, almost without exception, goes absolutely nowhere. The whole pipeline feels stuck between automation anxiety and endless dead-end outreach.",
-          "text_en_c2": "Software engineering, the poster argues, is simply doomed. The self-description is an autistic developer holding a mid-tier computer-science master’s, fully remote for more than five years from the middle of nowhere, still grinding backend Node and PHP slop while the employer quietly readies layoffs. Once a month a recruiter materializes on LinkedIn, steers the conversation into an HR screen, and then vanishes without a trace of progress. The combination of geographic isolation, commodity stack work, and performative inbound interest that never converts has become the entire texture of the job market as experienced from inside that arrangement, with no signal that the next cycle will look materially different.",
-          "source_url": "https://boards.4chan.org/g/thread/109600781",
-          "source_hint": "Remote white-collar AI layoff anxiety hits his fear that surveying work and the license grind still get automated."
-        },
-        {
-          "id": "clip4",
-          "category": "hk/news",
-          "topic_zh": "加美墨話題",
-          "topic_en": "Canada US Mexico talk",
-          "text_zh": "/int/開咗Canada USA Mexico串。有人爭執OP相係咪六呎五。我喺美國讀咗七年土木，返到香港擠同髒，一心搵夠10萬美金再走。居住空間美國完勝，呢度真係屈得滯。",
-          "text_en_b1": "Canada, USA, Mexico thread. People are arguing over the OP picture and who said he was not six-five. Someone dropped a YouTube clip into the fight. North America talk always turns into height, borders, and which side is actually livable.",
-          "text_en_b2": "This is a Canada, USA, and Mexico thread where people are already arguing over the OP picture and over who claimed he was not six-five. Someone even dropped a YouTube clip into the middle of the fight, which only made the thread louder. Whenever North America talk gets going, it turns into height comparisons, border debates, and endless arguing about which side is actually livable, so the original point usually gets buried under all of that noise.",
-          "text_en_c1": "This is yet another Canada, USA, Mexico thread, and true to form the conversation has already derailed. People are arguing bitterly over the OP picture and over who insisted he was not six-five, as though height were the decisive metric of national character. Someone eventually dropped a YouTube clip into the middle of the fight, which only poured fuel on the fire. North America talk, whenever it appears on these boards, reliably collapses into the same tired triad: height, borders, and which side of the map is actually livable. The pattern never seems to change, no matter how the thread begins.",
-          "text_en_c2": "A Canada–USA–Mexico thread opened on the international board and immediately collapsed into argument over the original post’s picture and over who had or had not claimed to stand six-five. Someone injected a YouTube clip into the middle of the fight, which only sharpened the digressions. North American threads of this kind almost never stay on trade, policy, or culture for long; they migrate, as if by reflex, into height measuring, border scoring, and competing assertions about which side of which line is actually livable. The pattern is so reliable that the topical labels barely function as more than a stage direction before the familiar status contests take over the page.",
-          "source_url": "https://boards.4chan.org/int/thread/224049896",
-          "source_hint": "North America board energy feeds his America-has-space versus cramped Hong Kong exit plan."
-        },
-        {
-          "id": "clip5",
-          "category": "lol/esports",
-          "topic_zh": "Famitsu銷量",
-          "topic_en": "weekly Famitsu sales",
-          "text_zh": "今週Famitsu實體銷量出咗。Rhythm Heaven先頭，Splatoon、新作Beast都上榜，Mario Kart同Pokemon仲掛住長賣。我平時追S15同T1多，開機開成銷量表都笑咗，排位都未打就刷sales thread。",
-          "text_en_b1": "Weekly Famitsu software sales, physical only. Rhythm Heaven Groove leads at about one hundred thirty-nine thousand this week. Splatoon Raiders, Beast of Reincarnation on PS5, Tomodachi Life, Pokemon Pokopia, Mario Kart World and Minecraft are all still moving strong on the chart.",
-          "text_en_b2": "Here are the weekly Famitsu software sales, physical copies only, for anyone tracking the charts. Rhythm Heaven Groove leads with about one hundred thirty-nine thousand sold this week, while Splatoon Raiders, Beast of Reincarnation on PS5, Tomodachi Life, Pokemon Pokopia, Mario Kart World and Minecraft are all still moving strong. Even though several of those titles have been on the list for a while, they keep putting up solid numbers whenever the new weekly figures come out.",
-          "text_en_c1": "The latest weekly Famitsu software sales figures—physical copies only—are out, and Rhythm Heaven Groove has taken a clear lead at roughly one hundred thirty-nine thousand units this week. Further down the ranking, Splatoon Raiders, Beast of Reincarnation on PS5, Tomodachi Life, Pokemon Pokopia, Mario Kart World and Minecraft are all still moving strong, holding respectable positions on the chart despite the usual week-to-week churn. Physical retail in Japan remains a peculiarly stubborn indicator of what is actually selling, and this slate suggests a healthy spread across rhythm, shooter, life-sim and platformer genres rather than a single runaway blockbuster.",
-          "text_en_c2": "The weekly Famitsu physical-software chart is out, and Rhythm Heaven Groove leads with roughly one hundred thirty-nine thousand units moved in the latest week. Behind it, Splatoon Raiders, Beast of Reincarnation on PS5, Tomodachi Life, Pokemon Pokopia, Mario Kart World, and Minecraft continue to post sturdy numbers and refuse to vacate the ranking. Because the tally counts physical copies only, the list still functions as a clean snapshot of what Japanese players are actually carrying home from stores rather than a blurred hybrid of digital storefront noise. The persistence of established franchises alongside the new rhythm-game spike is the clearest signal the week’s hardware-and-shelf data have to offer.",
-          "source_url": "https://boards.4chan.org/v/thread/745736234",
-          "source_hint": "Pure /v/ weekly chart dump he can skim late night when ranked queue and S15 watch parties slow down."
-        },
-        {
-          "id": "clip6",
-          "category": "mma/fitness",
-          "topic_zh": "三十歲壓Z世代",
-          "topic_en": "30s mogging gym zoomers",
-          "text_zh": "有個三十歲健身佬，練重訓、柔術、拳擊超過十年，而家專門mog gym入面啲zoomer。以前18歲被22歲串，而家反殺，bench同佢哋squat對住恥辱。肥仔信今日又叫我去gym，三十歲單身更要練，唔好廢。",
-          "text_en_b1": "Now that I am in my thirties with over a decade of lifting, jiu-jitsu and boxing, it is so fun mogging the zoomer twinks at the gym and beating them in class. The twenty-two-year-olds who acted like cunts when I was eighteen get humiliated daily. When they squat three plates for shitty reps, I bench three plates paused.",
-          "text_en_b2": "Now that I am in my thirties with over a decade of lifting, jiu-jitsu and boxing behind me, it is genuinely fun mogging the zoomer twinks at the gym and beating them in class. The twenty-two-year-olds who acted like cunts when I was eighteen get humiliated on a daily basis, which never gets old. When they squat three plates for shitty reps, I bench three plates paused, so the gap in training quality shows up immediately whenever we end up side by side.",
-          "text_en_c1": "Now that I am in my thirties, with over a decade of lifting, jiu-jitsu and boxing behind me, there is a particular satisfaction in mogging the zoomer twinks at the gym and systematically beating them in class. The twenty-two-year-olds who acted like absolute cunts when I was eighteen now find themselves humiliated on a daily basis, which has become something of a routine spectacle. When they squat three plates for a handful of shitty, incomplete reps, I bench three plates paused and fully controlled, without any of the usual gym-floor theatrics that pass for intensity among that cohort.",
-          "text_en_c2": "Now in his thirties with more than a decade of lifting, jiu-jitsu, and boxing behind him, the poster finds sustained amusement in mogging zoomer twinks at the gym and beating them in class. The same twenty-two-year-olds who behaved like cunts when he was eighteen absorb daily humiliation under the new hierarchy. When they squat three plates for sloppy, incomplete reps, he benches three plates with a deliberate pause. Longevity in the weight room and on the mats has inverted the old social order: the cohort that once set the tone now supplies the contrast, and the physical gap is re-demonstrated often enough that it no longer feels like an accident of a single session.",
-          "source_url": "https://boards.4chan.org/fit/thread/77467311",
-          "source_hint": "Thirty-year-old gym dominance story maps straight onto his lifting anxiety and sessions with 肥仔信."
-        },
-        {
-          "id": "clip7",
-          "category": "anime/culture",
-          "topic_zh": "想要多幾季",
-          "topic_en": "anime needed more seasons",
-          "text_zh": "/a/有人逼大家講：邊套anime你真心恨佢唔夠季數。Gundam 00、Demon Slayer、Attack on Titan我都追過，完得太快或者填太密都難受。考牌同trade輸錢嘅夜晚，淨係翻舊番最穩。",
-          "text_en_b1": "I am no longer asking, anon. Talk about anime you really wished had more seasons. Not the safe answers only—name the shows that ended too early or got rushed, and why another cour would have fixed them.",
-          "text_en_b2": "I am no longer asking politely, anon. Talk about anime you really wished had more seasons, and skip the safe answers that everyone always names. Point out the shows that ended too early or got rushed in the final stretch, and explain why another cour would have fixed the pacing or the character arcs. Whenever a series wraps before the source material can breathe, the ending usually falls flat, which is exactly why those extra episodes would have mattered.",
-          "text_en_c1": "I am no longer asking politely, anon; I am stating the brief outright. Talk about the anime you genuinely wished had been granted more seasons—not the safe, endlessly recycled answers that surface every time this topic appears, but the shows that ended too early or were conspicuously rushed in their final stretch. Name them specifically, and explain why another cour would have fixed the structural problems: unresolved arcs, truncated character work, or finales that felt more like budget contingencies than deliberate conclusions. The board has seen enough vague nostalgia; concrete cases are what actually sustain the thread.",
-          "text_en_c2": "The poster is no longer asking politely. The demand is for anime titles people genuinely wish had received more seasons—not the safe consensus answers, but the shows that terminated too early or were visibly rushed, together with a concrete account of why another cour would have repaired them. Incomplete arcs, truncated character work, and adaptations that slammed into the source’s midsection without room to land are the wounds under discussion. The thread wants specificity: name the series, name the failure mode, and name the structural fix an extra cour could have bought, rather than recycling the usual critically insulated favorites that already escaped with their reputations intact.",
-          "source_url": "https://boards.4chan.org/a/thread/290252595",
-          "source_hint": "Open season-wishlist thread lets him vent about Gundam 00, Demon Slayer and AOT after exam and trading stress."
         }
       ]
     }
