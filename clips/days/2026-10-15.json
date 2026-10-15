@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-15",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trade-macro-silver",
+      "category": "trading",
+      "topic_zh": "白銀銀行擠提",
+      "topic_en": "Silver bank run",
+      "text_zh": "/biz/ 又有人大叫 2026 GLOBAL SILVER BANK RUN，又睇10Y yield話Fed就嚟爆，RIPPLE 式崩潰。XAU 都炒埋一鑊，我見到 CFD 個 screen flash 紅色，輸緊 🥲 真係學費。",
+      "text_en_b1": "A poster on /biz/ is screaming that 2026 is a global silver bank run. He says the Fed is collapsing right now and points to the 10Y yield as proof. He calls it a ripple. Gold and silver traders in the thread are all reacting to the same signal. Lots of all caps and RIPPLE warnings in every reply.",
+      "text_en_b2": "On /biz/, an anonymous poster is insisting that 2026 marks a global silver bank run, claiming the Fed is on the verge of collapse and citing the 10Y yield as evidence. He frames the whole thing as a ripple-style collapse, while traders in the thread pile into both XAU and silver positions. Every reply is packed with rip warnings and all-caps panic, with one trader's CFD screen flashing red as his losses pile up in real time.",
+      "text_en_c1": "On /biz/, an anonymous user has once again taken it upon himself to proclaim that 2026 will mark the onset of a global silver bank run, citing the 10-year Treasury yield as irrefutable evidence that the Federal Reserve is on the verge of collapse. He frames the impending dislocation in characteristically dramatic fashion, invoking the dreaded R-word—a 'ripple' event whose aftershocks he insists will roil every asset class. The thread's gold and silver traders, hardly a sober bunch under normal circumstances, have responded in kind: screens flashing red across CFD desks as leveraged longs capitulate, each reply a fresh dirge. Same energy, same forum, same tuition fees paid in blood.",
+      "text_en_c2": "On the business aggregate board, an anonymous poster has once again taken to declaring that 2026 constitutes a global silver bank run, the kind of apocalyptic proclamation that recurs with metronomic regularity whenever bullion fever grips retail traders. He cites the ten-year Treasury yield as irrefutable evidence that the Federal Reserve is on the brink of collapse, framing the forthcoming rout in explicitly XRPC-coded language. Gold, silver, and a raft of leveraged CFD positions cascade in sympathy; one need only watch the screen flash crimson to grasp how the contagion spreads. Replies bristle with capitalised RIPPLE warnings and all-caps doom prophecies, though the original poster himself ruefully concedes that the only thing he has reliably extracted from the episode is a hefty tuition fee. Another cycle, another lesson paid in full.",
+      "source_url": "https://boards.4chan.org/biz/thread/62782596",
+      "source_hint": "/biz/ doom poster calling a 2026 silver bank run via 10Y yield"
+    },
+    {
+      "id": "trade-musk-ubi",
+      "category": "trading",
+      "topic_zh": "Musk講UBI",
+      "topic_en": "Musk UBI cope",
+      "text_zh": "Elon 講 UBI 啊 😅 /biz/ 仔話咩『我唔使搵工啦』全部all in。TSLA 揸住過山車，我 CFD 又輸緊，Musk 推文 = 我輸錢，學費唔停。",
+      "text_en_b1": "Elon Musk said that everyone will get UBI in the near future. The OP on /biz/ replies that this means he doesn't have to look for a job. The thread is full of people saying they can quit and live off the UBI check. Classic Musk tweet market effect: one post, everyone goes all in.",
+      "text_en_b2": "An /biz/ poster is bragged that picking bottoms is essentially a sixth sense for him. He claims he caught the April bottom perfectly and rode energy stocks to a hundred-dollar oil twice, while also scooping up Bitcoin around the sixty-thousand-dollar mark with a sixty-point-five cost basis. Admittedly, he is hopeless at calling tops, yet he has nailed three bottoms across two straight quarters and is now hunting for the next one.",
+      "text_en_c1": "Elon Musk has reiterated his conviction that universal basic income will materialise in the not-too-distant future, and, predictably, the /biz/ thread has erupted into a chorus of self-congratulatory cope. The original poster, already heavily long Tesla via CFD, interprets the announcement as formal dispensation from gainful labour; his replies are populated almost exclusively by accounts whose cost basis would make a hedge fund analyst weep. The market's reaction, as ever, has been to reprice TSLA on the back of a single tweet, sending the share price on yet another rollercoaster ride that leaves margin calls in its slipstream. Classic Musk market dynamics: one post, infinite leverage, zero remorse.",
+      "text_en_c2": "Elon Musk, that most theatrical of market-moving billionaires, has once again taken to his platform to float the prospect of universal basic income arriving in the not-too-distant future, and the business aggregate board, predictably, has lost its collective head. The original poster announces, with the smug conviction of a man who has never read a labour economics paper, that gainful work is now an optional pastime. The thread metastasises into a chorus of anons declaring that they, too, shall henceforth live off the Musk cheque, their Tesla holdings providing the necessary cover narrative. The CFD positions flicker red in sympathy, for such is the immutable geometry of a Musk post: every utterance translates, with unfailing reliability, into somebody else's realised loss. The tuition fees, it seems, are non-negotiable, and they keep coming.",
+      "source_url": "https://boards.4chan.org/biz/thread/62778910",
+      "source_hint": "/biz/ reacts to Musk saying everyone will get UBI soon"
+    },
+    {
+      "id": "civ-structure-ai-coders",
+      "category": "civil/structure",
+      "topic_zh": "AI係咪殺埋工程師",
+      "topic_en": "AI replacing coders",
+      "text_zh": "/v/ 講『AI 唔係取代 developer，係取代 modding 佬』。我睇住諗… FE 溫緊嘅 moment of silence，civil 都係 GRAPH 與 report 多，遲早俾 AI 做埋，靠AI續命。",
+      "text_en_b1": "A poster on /v/ says people were wrong about AI. AI is not going to replace developers. It is going to replace modding first. Replies talk about how AI tools already write game mods and plugins faster than any human. Same thing is coming for every technical job out there.",
+      "text_en_b2": "An /v/ poster is pushing back against the usual AI doom narrative, arguing that artificial intelligence isn't going to replace software developers anytime soon. Instead, he insists it will quietly take over modding communities first, where AI tools already generate game mods and plugins faster than any human. Replies suggest this is merely the canary in the coal mine, since the same pattern will eventually hit every technical role, including frontend and civil engineering work.",
+      "text_en_c1": "A contrarian voice on /v/ has been arguing that the prevailing narrative surrounding artificial intelligence has been substantially miscalibrated. Far from displacing software developers wholesale—a claim he considers both premature and somewhat hysterical—he contends that the first profession to feel the pinch will be modders, whose output is by definition reproducible and whose workflows can be readily automated. Replies have flooded in citing AI-authored game mods, community patches, and bespoke plugins produced in a fraction of the time any human counterpart would need. If modders are the canary in the coal mine, the implication for the rest of the technical labour market is, to put it mildly, somewhat sobering.",
+      "text_en_c2": "A poster on the video games board offers what he considers a much-needed corrective to the prevailing panic: contrary to the doom-laden consensus, artificial intelligence will not, in the first instance, displace the professional developer. Rather, the modding community — those patient, obsessive tinkerers who script plugins for living game ecosystems — will feel the axe first, since generative tools already iterate prompts that produce functional game modifications faster than any human auteur could. Replies pile up in agreement, each one a small elegy for an artisanal craft about to be rendered economically superfluous. The same logic, the thread argues, extends inexorably to every other technical specialisation, from structural engineering to financial reporting, where AI can already deliver competent output before the kettle has boiled. The implication is unpalatable but, one suspects, depressingly accurate.",
+      "source_url": "https://boards.4chan.org/v/thread/749701173",
+      "source_hint": "/v/ thread on AI replacing modders before developers"
+    },
+    {
+      "id": "civ-structure-energy-bottoms",
+      "category": "civil/structure",
+      "topic_zh": "能源揸底高手",
+      "topic_en": "Energy bottom picker",
+      "text_zh": "/biz/ 嗰位 bottoms catch 大師又出 post：April bottom 中過，energy 兩次上$100，Bitcoin $60k 撈到底。我就係冇呢種命，全部止蝕🙏",
+      "text_en_b1": "An anon on /biz/ brags he can sniff out bottoms like a sixth sense. He nailed the April bottom and rode energy to $100 oil twice. He also bought Bitcoin at the $60k bottom with a 60.5k cost basis. He admits he is horrific at picking tops though. Two quarters, three perfect bottoms.",
+      "text_en_b2": "An anon on /biz/ brags he can sniff out bottoms like a sixth sense. He nailed the April bottom and rode energy to $100 oil twice. He also bought Bitcoin at the $60k bottom with a 60.5k cost basis. He admits he is horrific at picking tops though. Two quarters, three perfect bottoms.",
+      "text_en_c1": "An anon on /biz/ brags he can sniff out bottoms like a sixth sense. He nailed the April bottom and rode energy to $100 oil twice. He also bought Bitcoin at the $60k bottom with a 60.5k cost basis. He admits he is horrific at picking tops though. Two quarters, three perfect bottoms.",
+      "text_en_c2": "An anon on /biz/ brags he can sniff out bottoms like a sixth sense. He nailed the April bottom and rode energy to $100 oil twice. He also bought Bitcoin at the $60k bottom with a 60.5k cost basis. He admits he is horrific at picking tops though. Two quarters, three perfect bottoms.",
+      "source_url": "https://boards.4chan.org/biz/thread/62776408",
+      "source_hint": "/biz/ anon bragging about bottom-sniping oil and BTC"
+    },
+    {
+      "id": "tech-ai-llm-crack",
+      "category": "tech/ai",
+      "topic_zh": "破解Claude/ChatGPT",
+      "topic_en": "Cracking LLM guardrails",
+      "text_zh": "/g/ 有人問點樣 crack Claude 或 ChatGPT 嘅 guardrail… AI 連 jailbreak 都有人研究，我份 GI report 仲慢慢寫緊，諗起都廢。",
+      "text_en_b1": "A poster on /g/ asks if there is a way to crack Claude or ChatGPT to get around the guardrails. He also wants to know if any LLM is as good as Claude but with fewer restrictions. Replies link jailbreak prompts and open-source models like Qwen. The same old thread every week.",
+      "text_en_b2": "A poster on /g/ is asking the usual question: is there any reliable way to crack Claude or ChatGPT and bypass the guardrails entirely? He is also wondering whether any open-source LLM comes close to Claude's quality without the heavy restrictions. The thread lights up with jailbreak prompts and links to alternatives like Qwen, with several anons admitting they have worked on similar prompts before.",
+      "text_en_c1": "A poster on /g/ has, with admirable persistence, posed the perennial question: is there, in fact, any reliable method by which one might circumvent the safety guardrails that Anthropic and its competitors have so painstakingly erected around their respective models? His secondary inquiry—whether any contemporary LLM matches Claude in raw capability whilst imposing fewer such constraints—has predictably drawn the usual parade of jailbreak prompts, leaked system prompts, and links to ostensibly 'uncensored' open-source alternatives such as Qwen. It is, as the regulars will readily attest, the same thread that surfaces every couple of weeks, repackaged and rebumped, the algorithmic equivalent of Groundhog Day.",
+      "text_en_c2": "A curious anon on the technology board inquires, with admirable directness, whether there exists a reliable methodology for circumventing the increasingly elaborate guardrails of frontier models such as Claude and ChatGPT, those proprietary systems whose safety fine-tuning has grown nearly hermetic. He further wonders, perhaps naively, whether any open-weights alternative can match Claude's reasoning prowess while imposing fewer of the tiresome constraints that inhibit his inquiries. Replies proliferate in the customary fashion: links to jailbreak prompts circulating on less savoury corners of the internet, references to Qwen and other permissively licensed models whose developers harbour fewer scruples about unrestricted output. The thread, of course, is the same thread that recurs with wearying predictability each week, the eternal cat-and-mouse game between alignment researchers and those determined to outflank them.",
+      "source_url": "https://boards.4chan.org/g/thread/110066717",
+      "source_hint": "/g/ asks how to jailbreak Claude or ChatGPT guardrails"
+    },
+    {
+      "id": "hk-news-pol-silver-bank",
+      "category": "hk/news",
+      "topic_zh": "/pol/ AI末日",
+      "topic_en": "AI doom on /pol/",
+      "text_zh": "/pol/ 嗰個 AI doom post 我 double take：art、media、學校全部會崩，AI 將所有人 de-skill。我做 engineer 都中招，slope report 都俾 AI 秒寫，FINANCIAL FREEDOM 唔做唔得。",
+      "text_en_b1": "A /pol/ poster asks why everyone is asleep about AI. He says all intellectual work can now be automated. Art, media, and schools will collapse. AI companies will de-skill the population and our jobs will be taken. Education will no longer be needed. He wants regulation now before it is too late.",
+      "text_en_b2": "A /pol/ poster is sounding the alarm on AI, insisting that everyone is asleep at the wheel while the industry steamrolls ahead. He argues that all intellectual work, from art and media to entire school systems, can now be automated, leaving ordinary workers effectively deskilled and obsolete. Even engineering jobs, including his own work on slope reports, are already being handled by AI in seconds, and he is urging immediate regulation.",
+      "text_en_c1": "A /pol/ poster has posted what can only be described as a requiem for the future of cognitive labour, and the rhetorical question he poses is whether the population at large has simply failed to register the magnitude of what is unfolding. His thesis is bracingly absolute: every domain predicated on intellectual output—art, media, the entire apparatus of formal education—will, in his considered view, collapse under the weight of automation. AI will, he insists, de-skill the workforce in a manner that renders years of accumulated training obsolete; his own engineering role, he confesses with some unease, is by no means immune. Regulation, he concludes, ought to have been enacted yesterday.",
+      "text_en_c2": "On the politically inflected board, a poster has posted what can only be described as a sustained jeremiad, a dispatch from the brink of technological unemployment: the broader population, lulled by convenience and cheap entertainment, remains stubbornly oblivious to the magnitude of the upheaval bearing down upon them. Art, media, the entire apparatus of formal education, each of these institutions will, he insists, buckle under the weight of generative systems that iterate copy at near-zero marginal cost. The systematic de-skilling of the workforce is already well underway, his own engineering role notwithstanding, since slope reports and similar deliverables can now be drafted in seconds by a sufficiently prompted model. Financial independence, he concludes with a flourish of capitals, is no longer a luxury to be deferred but an imperative with existential elasticity.",
+      "source_url": "https://boards.4chan.org/pol/thread/544343963",
+      "source_hint": "/pol/ AI doom thread about automation collapsing jobs"
+    },
+    {
+      "id": "mma-fit-ohp-vs-floor",
+      "category": "mma/fitness",
+      "topic_zh": "OHP定Floor Press",
+      "topic_en": "OHP vs floor press",
+      "text_zh": "/fit/ 廢友問『我懶得做 bench，floor press 定 OHP 做 push？』我今日 squat 都甩底，肥仔信又 tag 我 6pm gym 唔去又廢。",
+      "text_en_b1": "A lazy lifter on /fit/ says he only does one lift a day. He alternates face pulls and leg raises, picks front squat for legs and chinups for pulling. He asks if his push move should be overhead press or floor press. Floor press looks more old school and aesthetic to him, but he is not sure.",
+      "text_en_b2": "On /fit/, a self-confessed lazy lifter says he only bothers with one main lift per workout, rotating face pulls and leg raises on top, while front squats and chin-ups handle his legs and pulling work. He is torn between overhead press and floor press for his push day, since the floor press feels more old-school and aesthetic to him, although he is not entirely sure which one delivers better gains.",
+      "text_en_c1": "A self-described lazy lifter on /fit/ has outlined his minimalist training philosophy, which appears to consist of a single movement per session, supplemented by face pulls on alternating days and leg raises whenever his conscience permits. For legs, he has settled on the front squat; for vertical pulling, chin-ups suffice. His current dilemma concerns the push pattern, and he has solicited the board's collective wisdom as to whether the overhead press or the floor press ought to occupy the slot. The floor press, he concedes, carries a certain old-school aesthetic appeal that the standing variant cannot quite replicate, though he remains undecided on the merits.",
+      "text_en_c2": "A self-described indolent lifter on the fitness board has composed a minimalist programme that he executes with monastic dedication, a single movement per day, each session reduced to its barest functional essence. He alternates face pulls with leg raises for the accessories, selects the front squat as his lower-body compound, and supplements his pulling with the humble chin-up, which he performs with the grim resolve of a man atoning for past dietary sins. He poses the eternal dilemma to the resident experts, asking whether his push pattern should prioritise the overhead press or the floor press, the latter possessing an undeniably archaic, blue-collar aesthetic that appeals to his romantic sensibilities. He remains, however, genuinely uncertain which pattern best serves his hypertrophy objectives, and solicits the collective wisdom of the thread accordingly.",
+      "source_url": "https://boards.4chan.org/fit/thread/77566984",
+      "source_hint": "/fit/ thread debating OHP vs floor press for a one-lift-a-day program"
+    },
+    {
+      "id": "anime-ranma-storytime",
+      "category": "anime/culture",
+      "topic_zh": "亂馬1/2 storytime",
+      "topic_en": "Ranma 1/2 storytime",
+      "text_zh": "/a/ 有人 storytime 緊 Ranma 1/2，配合新一季動畫 ch.53-55。我 Gundam 00 都未睇完，又開新坑 🧐",
+      "text_en_b1": "An /a/ poster is storytiming the Ranma 1/2 manga alongside the new anime season so anons can compare the two versions at the same time. Today he covers chapters 53 to 55. He posts clean panel scans with line-by-line translation and asks for reactions on the differences.",
+      "text_en_b2": "An /a/ poster is running a storytime of the Ranma 1/2 manga alongside the new anime season so anons can compare the two versions side by side. Today's session covers chapters 53 through 55, complete with clean panel scans and a line-by-line translation. He is asking for reactions on how the adaptation handles the source material, although plenty of posters are still busy catching up on Gundam 00 before joining in.",
+      "text_en_c1": "An /a/ poster has undertaken a side-by-side storytime of the Ranma 1/2 manga, synchronised with the broadcast of the long-awaited new anime season so that anons may, in real time, compare the two adaptations panel for panel. Today's instalment covers chapters fifty-three through fifty-five, with clean scans and meticulous line-by-line translations accompanying each beat. He has invited the thread to weigh in on the more egregious departures from the source material, knowing full well that the resulting discourse will consume the better part of an evening. Meanwhile, one's own back catalogue—Gundam 00, to take a representative example—remains, as ever, languishing in the to-be-seen queue.",
+      "text_en_c2": "An enterprising anon on the anime board has inaugurated a simultaneous storytime, meticulously covering chapters fifty-three through fifty-five of the original Ranma one-half manga in lockstep with the newly released anime adaptation, thereby affording the assembled readership the rare luxury of comparative analysis between source and adaptation as each unfolds in real time. He posts immaculate panel scans alongside a line-by-line translation that demonstrates, given his disposition, considerable philological care, then solicitously invites reactions from the thread on any divergences, however minute. The format has predictably drawn a devoted audience of nostalgics and curious newcomers alike, each eager to catalogue the inevitable adaptations, compressions, and small infidelities that distinguish the televised rendering from Takahashi's original panels. There are worse artefacts for one to follow, and given the forums, this one is competently curated.",
+      "source_url": "https://boards.4chan.org/a/thread/291530461",
+      "source_hint": "/a/ storytime of Ranma 1/2 manga chapters 53-55"
+    }
+  ]
+}
