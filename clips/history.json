@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "days": [
+    {
+      "date": "2026-10-17",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "crypto-pump-delay-01",
+          "category": "trading",
+          "topic_zh": "BTC pump 一直delay",
+          "topic_en": "BTC Pump Delayed",
+          "text_zh": "BTC破ATH呀喂！但係⋯⋯點解到而家都未pump？clarity act過咗未呀？DUMP WEF summit講咗未呀？膠膠吶 又delay 又loop 🙏 我個倉hold到幾時呀屌",
+          "text_en_b1": "Spoiler alert. Pumptober! BTC broke ATH. BULL RUN CONFIRMED. Crypto will finally pump. It will pump for Christmas. Then Chinese New Year. Then when capital rotates out of AI. Then out of gold. Then when DUMP announces something at WEF. Then when the Clarity Act passes. Loop this five times. We did not need yet another pump-delay cope thread for fall 2026.",
+          "text_en_b2": "Pumptober spoiler incoming. Bitcoin has shattered its all-time high, so naturally everyone is calling for a bullish run. Crypto will pump by Christmas, then again around Chinese New Year, then once capital rotates out of AI, then again when gold loses its shine. Meanwhile we are still waiting for the Clarity Act to pass and for some vague DUMP announcement at the WEF summit. Loop that five times. Honestly, we did not need another pump-delay cope thread for fall 2026.",
+          "text_en_c1": "A heads-up for anyone who has been waiting on the next leg up. Pumptober is supposedly upon us: BTC decisively breached its all-time high, and the prevailing consensus is that the long-anticipated bull run has at last commenced. By all accounts, the rally should materialise in time for Christmas, then continue through Chinese New Year, then resume whenever money rotates out of AI equities and subsequently out of gold. Thereafter it will ostensibly await a pronouncement from DUMP at the World Economic Forum, and finally crystallise once the Clarity Act is passed. Loop that sequence five times. Frankly, we did not require yet another pump-delay cope thread for autumn 2026.",
+          "text_en_c2": "Spoiler alert: Pumptober has ostensibly arrived. Bitcoin breached its all-time high, the prevailing narrative insists, and the long-anticipated crypto rally has, by all accounts, been confirmed. Yet the pump remains stubbornly postponed, deferred ad infinitum until the Clarity Act passes, until DUMP deigns to make an announcement at Davos, until capital finally rotates out of artificial intelligence equities and out of gold. Loop this catechism five times, preferably with the fervour of true believers, and you might persuade yourself that Christmas, the Lunar New Year, or some equally arbitrary milestone will deliver the breakout we have been promised. Alas, fall 2026 has produced yet another pump-delay cope thread, indistinguishable in spirit from its predecessors, save that the season has changed.",
+          "source_url": "https://boards.4chan.org/biz/thread/62788065",
+          "source_hint": "/biz/ thread mocking every delayed BTC pump narrative"
+        },
+        {
+          "id": "spacex-stocks-pick-02",
+          "category": "trading",
+          "topic_zh": "咩股票好買",
+          "topic_en": "Stocks To Buy",
+          "text_zh": "我想買SpaceX呀 但係⋯⋯認真問 仲有咩好揀？prop firm盤太少 做唔到 SpaceX又未上市 真係grinding for nothing btw有人知點買pre-IPO嗎",
+          "text_en_b1": "Which stocks should I buy? I'm leaning towards SpaceX but I'm open to ideas. Serious answers only. Pre-IPO shares trade on secondary markets, but minimums are huge and lockup risk is real for retail. Bought SPY puts last month, currently deciding if I sell for a loss or hold through earnings. Not financial advice.",
+          "text_en_b2": "Looking for solid stock picks, leaning heavily towards SpaceX but open to suggestions. Pre-IPO shares do exist on secondary markets, although the minimum lot sizes are frankly absurd and the lockup risk is genuinely concerning for retail investors. I picked up some SPY puts last month, and right now I am weighing up whether to cut my losses before earnings or hold out and hope for a turnaround. Any serious advice would be appreciated. Not financial advice, obviously.",
+          "text_en_c1": "I find myself inclined towards acquiring a position in SpaceX, although I remain genuinely receptive to alternative suggestions, provided the responses are substantive rather than facetious. Pre-IPO shares are technically available on secondary markets, yet the minimum ticket sizes tend to be prohibitively large for retail participants, and the lockup risk is a genuine concern, should one ever wish to exit. I purchased SPY puts last month and currently face the unenviable decision of crystallising the loss or holding through the forthcoming earnings cycle. Not financial advice, naturally. Has anyone actually navigated the pre-IPO landscape successfully?",
+          "text_en_c2": "I find myself gravitating toward SpaceX as a prospective position, though I remain genuinely receptive to alternative suggestions; substantive counsel would be most welcome. The principal obstacle, as any retail investor would recognise, is that SpaceX has yet to undertake an initial public offering, and the secondary markets on which pre-IPO shares occasionally trade impose prohibitively substantial minimums alongside a lockup risk that renders the proposition rather unpalatable. Prop firm allocations, similarly, are grotesquely insufficient to be of practical use. Meanwhile, I initiated a position in SPY puts last month and presently find myself deliberating whether to crystallise the loss ahead of earnings or to persist in holding the position through the imminent print. This constitutes observation, not financial advice.",
+          "source_url": "https://boards.4chan.org/biz/thread/62788650",
+          "source_hint": "/biz/ asks the board for stock picks, leans SpaceX"
+        },
+        {
+          "id": "tesla-qi-mental-load-03",
+          "category": "civil/structure",
+          "topic_zh": "Beam靜定vs靜不定",
+          "topic_en": "Beam Indeterminate",
+          "text_zh": "今日返工同Tommy傾beam design 連續梁係statically indeterminate 要用three-moment equation或者moment distribution method解 我個FE考牌書mark到花晒 🧐 load path記到 但release moment就亂",
+          "text_en_b1": "How do you decide which method to use for a continuous beam? Today at work we had a four-span continuous beam with UDL and two point loads, and the senior wanted moment distribution because it's easier to check by hand. I'm studying moment distribution and three-moment equation for the FE, but I keep mixing up the carry-over factors and stiffness coefficients.",
+          "text_en_b2": "At work today I was discussing a four-span continuous beam with Tommy, loaded with a UDL and two point loads. The senior engineer insisted on moment distribution since it is far easier to cross-check by hand. I am currently grinding through both moment distribution and the three-moment equation for my FE exam, although I keep mixing up the carry-over factors and stiffness coefficients. Both methods yield identical results, so which approach do practising engineers genuinely favour on site?",
+          "text_en_c1": "What criteria do you typically apply when selecting an analytical method for a continuous beam? At the office today we were presented with a four-span continuous beam subject to a uniformly distributed load and two superimposed point loads, and the senior engineer insisted upon moment distribution on the grounds that it lends itself more readily to manual verification. For the Fundamentals of Engineering examination I am diligently revising both moment distribution and the three-moment equation, yet I find myself persistently conflating carry-over factors with stiffness coefficients. Although both techniques ultimately converge on identical results, which would you realistically deploy in practice on site?",
+          "text_en_c2": "How ought one to adjudicate between competing analytical methodologies when confronted with a statically indeterminate continuous beam? Earlier today a colleague and I were reviewing a four-span configuration subjected to a uniformly distributed load and two concentrated point loads, whereupon the senior engineer insisted upon moment distribution on the grounds that hand verification is appreciably more tractable than its alternatives. I am presently revising both moment distribution and the three-moment equation in preparation for the Fundamentals of Engineering examination, yet I find myself persistently conflating the relevant stiffness coefficients with their corresponding carry-over factors, a confusion that proves rather vexing at every iteration. Both approaches yield identical results in theory, of course, but which method does the practising engineer actually deploy on site?",
+          "source_url": "https://boards.4chan.org/g/thread/110083579",
+          "source_hint": "/g/ thread about choosing the right structural analysis method"
+        },
+        {
+          "id": "anthropic-r-and-d-04",
+          "category": "tech/ai",
+          "topic_zh": "AI自動研發倒數",
+          "topic_en": "Anthropic 270 Days",
+          "text_zh": "Anthropic講AI R&D 270日就全自動 屌⋯⋯咁我仲讀咩FE呀？十年後civil engineer都係得2-4% neuron未明 😂 算 至少我手寫嘅beam check AI學唔到先⋯⋯應該",
+          "text_en_b1": "Anthropic believes AI R&D will become fully automated in about 270 days. You should spend every one of those 270 days doing something meaningful, because there is a decent chance you only get that amount of time. Make every meal count. Visit your parents. Read the books you always planned to read.",
+          "text_en_b2": "Anthropic is claiming that fully automated AI research and development is roughly 270 days away, so I am having a quiet existential crisis about my FE studies. Apparently only 2 to 4 percent of what a civil engineer does involves neural pathways nobody has fully mapped, which is not exactly comforting. On the bright side, my hand-written beam checks should be beyond AI's reach, or at least that is what I am choosing to believe for now.",
+          "text_en_c1": "Anthropic has publicly stated its conviction that artificial intelligence research and development will achieve full automation within approximately 270 days, which raises the rather uncomfortable question of what one ought to be doing with one's time in the interim. Should the prediction prove accurate, roughly 2-4% of neurons in the human brain remain functionally uncharacterised, a statistic that offers cold comfort to practising civil engineers. On a marginally more reassuring front, the bespoke hand calculations I perform for beam checks may yet prove resistant to algorithmic replication, though admittedly I would not stake my professional reputation on that assumption holding indefinitely.",
+          "text_en_c2": "Anthropic has, with characteristic audacity, posited that fully autonomous artificial intelligence research and development lies approximately two hundred and seventy days hence — a forecast that, if borne out, would render the remainder of my civil engineering licensure preparation rather academic. Within a decade, structural engineers may constitute but a marginal fraction of the cognitively unmodelled workforce, that scant two to four per cent whose neurons remain stubbornly inscrutable to the prevailing architectures. Be that as it may, I console myself with the hypothesis that the artisanal rigour of hand-executed beam checks — the meticulous notation, the laborious arithmetic — represents a craft beyond the machine’s present capacity. I daresay the assumption may prove optimistic.",
+          "source_url": "https://boards.4chan.org/g/thread/110078868",
+          "source_hint": "/g/ thread about Anthropic claim that AI R&D will be automated in 270 days"
+        },
+        {
+          "id": "byd-vs-tesla-05",
+          "category": "hk/news",
+          "topic_zh": "BYD vs Tesla",
+          "topic_en": "BYD $9700",
+          "text_zh": "BYD $9700 entry-level 400km 30分鐘充80% 仲要puncture-safe 同Tesla一樣tech 但係⋯⋯平過部iPhone多幾倍 🇺🇸 美國飛天車fail 因為I-curve搞唔掂啦 廢物",
+          "text_en_b1": "China BYD: $9700 retail. 400km range, charges 80% in 30 minutes, puncture-safe battery, all the trim and tech of a Tesla. U.S. flying cars fail. Cheap Chinese EVs are entering the market with decent specs, and US makers are distracted by gimmicks. Real talk: a $9,700 BYD undercuts every used Tesla and most new Honda Civics on price alone.",
+          "text_en_b2": "China's BYD now sells for a staggering $9,700 retail, offering a 400-kilometre range, an 80 percent charge in just 30 minutes, and puncture-safe batteries to boot, essentially matching Tesla's trim and technology at a fraction of the price. Meanwhile American flying car projects keep failing because nobody can sort out the impossible I-curve dynamics. At that price point, a BYD undercuts practically every used Tesla on the market, and most new Honda Civics too.",
+          "text_en_c1": "The entry-level BYD is presently retailing at approximately $9,700, a figure that warrants serious consideration. The vehicle delivers a 400-kilometre range, replenishes 80% of its battery within half an hour, and incorporates puncture-resistant cell technology, all while offering the trim and technological sophistication one would expect from a contemporary Tesla. American flying-car ventures, by contrast, have floundered, having failed to negotiate the notoriously unforgiving I-curve. Whether one views this as amusing or merely emblematic of misplaced priorities is a matter of personal disposition. Stripped of any rhetorical flourishes, a sub-ten-thousand-dollar BYD undercuts virtually every used Tesla and a substantial proportion of new economy cars purely on price.",
+          "text_en_c2": "Consider, if you will, the chasm in industrial philosophy between two great powers. The Chinese automaker BYD now retails an electric vehicle at the scarcely believable figure of nine thousand seven hundred dollars, a sum conferring four hundred kilometres of operational range, an eighty per cent charge achievable within the half-hour, and a puncture-resistant battery architecture — all whilst furnishing the technological refinements one might reasonably associate with a Tesla. Meanwhile, in the United States, the much-vaunted flying car remains perennially beset by the practical exigencies of the I-curve, a problem its engineers appear incapable of resolving. American manufacturers, distracted by gimmickry and grandiose spectacle, have ceded the substantive market to Chinese EVs whose specifications are eminently respectable and whose pricing undercuts every used Tesla and most contemporary Honda Civics.",
+          "source_url": "https://boards.4chan.org/pol/thread/544442355",
+          "source_hint": "/pol/ thread hyping BYD's $9700 retail price against US automakers"
+        },
+        {
+          "id": "fit-100lbs-no-gf-06",
+          "category": "mma/fitness",
+          "topic_zh": "100lb瘦咗都冇GF",
+          "topic_en": "Lost 100 Lbs No GF",
+          "text_zh": "2.5年 275跌到179 仍然no gf 😢 同事對我好咗 但⋯⋯可能只係新工grind 廢物 我健身係為咗自己 ok 但有時⋯⋯肥仔信今日又chicken leg我 知唔知呀屌 lol",
+          "text_en_b1": "Lost 100 lbs, still no gf. Never had a gf and used to be fat as fuck at 275 lbs. Started going to the gym because my sister made her husband take me. He told me lose the weight and you'll find a gf fast. 2.5 years later I'm 179 lbs and look pretty fit, but still no gf.",
+          "text_en_b2": "Dropped from 275 to 179 pounds over two and a half years, yet I still do not have a girlfriend. I never had one to begin with, and back then I was absolutely enormous. My sister eventually forced her husband to drag me to the gym, and he confidently told me that shedding the weight would have girls lining up. Fast forward to today, I look reasonably fit, but my bench is still nothing.",
+          "text_en_c1": "Over the course of two and a half years I have shed approximately 100 pounds, descending from a peak of 275 to a considerably more presentable 179, and yet I remain, much to my quiet frustration, without a girlfriend. My sister, exasperated by my circumstances, prevailed upon her husband to escort me to the gym, whereupon he offered the now rather dubious assurance that shedding the weight would swiftly resolve my romantic predicament. Colleagues at my new workplace have demonstrably warmed towards me, although I harbour lingering suspicions that this may simply reflect the honeymoon period of a fresh professional environment.",
+          "text_en_c2": "I shed a hundred pounds over the course of two and a half years, descending from a frankly corpulent two hundred and seventy-five to a comparatively svelte one hundred and seventy-nine, and I find myself, somewhat to my disquiet, still without a girlfriend. I had never enjoyed such a relationship, having previously subsisted in the unlovely condition of severe obesity, until my sibling prevailed upon her husband to escort me to the gym. He offered the somewhat reductive counsel that, were I to lose the weight, romantic success would swiftly materialise — a prophecy that, two and a half years hence, remains conspicuously unfulfilled. Female colleagues at my new employment are, I confess, marginally more solicitous, though one suspects the novelty of the workplace accounts for this. Chicken legs again today, incidentally.",
+          "source_url": "https://boards.4chan.org/fit/thread/77564388",
+          "source_hint": "/fit/ thread about weight loss without romance payoff"
+        },
+        {
+          "id": "ranma-storytime-07",
+          "category": "anime/culture",
+          "topic_zh": "亂馬1/2 storytime",
+          "topic_en": "Ranma Storytime",
+          "text_zh": "亂馬1/2出新版動畫 我連舊漫都未睇過 因為考牌攰到死 ok 等storytime完再追 Gundam 00當年睇咗3次都未明load path 😂 今次一定要睇",
+          "text_en_b1": "Ranma 1/2 storytime going up alongside the new anime season so anons can compare and contrast, or experience the story in multiple ways. Today covering chapter 53-55. Akane finally snaps at Ranma in front of the whole class, and Happosai steals the engagement photo. The new Netflix remake cut the cursed spring lore, so the manga version explains why cold water turns him into a…",
+          "text_en_b2": "A fresh Ranma 1/2 storytime is going up alongside the new anime season, giving anons the chance to compare and contrast, or simply experience the story through multiple formats. Today's instalment covers chapters 53 through 55, where Akane finally snaps at Ranma in front of the entire class, and Happosai swipes the engagement photo. The Netflix remake apparently cut the cursed spring lore, so the manga version fills in why cold water turns him into a girl.",
+          "text_en_c1": "A fresh storytime covering Ranma 1/2 is being run concurrently with the newly released anime adaptation, thereby affording viewers the rather enviable luxury of comparing and contrasting the two interpretations, or simply savouring the narrative through multiple lenses. Today's instalment encompasses chapters 53 through 55, in which Akane finally loses patience with Ranma in front of the entire class, and Happosai, in his inimitable fashion, absconds with the engagement photograph. The recent Netflix remake has, somewhat controversially, excised the cursed spring lore altogether, so the original manga serves as an indispensable reference for understanding precisely why cold water has such an unfortunate transformative effect upon the protagonist.",
+          "text_en_c2": "A long-overdue storytime of Takahashi Rumiko’s magnum opus, Ranma ½, is presently being conducted in parallel with the release of Netflix’s reimagined adaptation, thereby affording anon the rare privilege of comparing and contrasting the source material with its contemporary interpretation, or of experiencing the narrative through complementary aesthetic registers. Today’s instalment encompasses chapters fifty-three through fifty-five, in which Akane at last explodes at Ranma before the assembled gaze of the entire class, and Happosai absconds with the engagement photograph with characteristic alacrity. The remake, regrettably, has excised much of the cursed spring mythology, a lapse the original manga redresses with aplomb, explaining why mere cold water transforms our hapless protagonist into his feminine alter ego.",
+          "source_url": "https://boards.4chan.org/a/thread/291530461",
+          "source_hint": "/a/ thread running a Ranma 1/2 manga storytime alongside the new anime"
+        }
+      ]
+    },
     {
       "date": "2026-10-16",
       "source": "ai",
@@ -4422,103 +4519,6 @@
           "text_en_c2": "A /a/ submission showcases Chinese-developed AI rendering sequences of sufficient fidelity to qualify, however provisionally, as watchable anime — at least in the generous estimation of an audience long inured to diminished expectations. The original poster, having linked a representative YouTube sample, observes that enterprising individuals are already leveraging the technology to adapt niche manga that, under any conventional studio calculus, would never receive the animation treatment. Anons are presently engaged in spirited debate as to whether this development portends obsolescence for established studios or merely democratises production for marginalised creators, a question whose answer will doubtless depend upon whom one asks — and when.",
           "source_url": "https://boards.4chan.org/a/thread/290467848",
           "source_hint": "/a/ thread on AI-generated anime slideshows"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-btc-rule",
-          "category": "trading",
-          "topic_zh": "BTC大規則失效",
-          "topic_en": "BTC Unbreakable Rule",
-          "text_zh": "又見到呢啲post。Biz佬話兩個BTC規則撞咗:1D 200SMA突破同4年cycle。底部58k兩個月前已經見?咁bear market得6個月?我學費又交多一次。Wtf。🙏",
-          "text_en_b1": "An unbreakable rule of crypto has just broken. Rule 1: breaking out from the 1D 200sma after a bear market starts the next bull run. Rule 2: the 4 year cycle. If this is the start of the next bullrun, the bottom was 58k two months ago.",
-          "text_en_b2": "Crypto's so-called unbreakable rules are clashing head-on right now. Rule one says that breaking out above the 1D 200SMA after a bear market kicks off the next bull run. Rule two insists on the four-year cycle. If we take rule one seriously, the bottom at 58k was already in two months ago, which means the bear market barely lasted six months instead of the expected twelve. Because these two rules cannot coexist at this stage of the cycle, one of them is already failing.",
-          "text_en_c1": "One of crypto's so-called unbreakable rules has apparently just been violated, which is precisely the kind of thing that forces traders to confront their priors. The first principle states that decisively reclaiming the daily 200 SMA ought to mark the inception of a fresh bull cycle. The second insists upon a roughly four-year cadence. If we take the breakout as our cue, then the cyclical bottom was already registered at fifty-eight thousand dollars a mere two months ago, implying that the bear phase lasted only six months rather than the expected twelve.",
-          "text_en_c2": "Two axioms that the crypto faithful have long treated as gospel appear, on current evidence, to be on a collision course. The first dictates that a decisive break above the daily 200-day simple moving average, following a prolonged downturn, inaugurates the subsequent bull cycle. The second posits the orthodox four-year cadence that has governed Bitcoin's macro rhythm since inception. If, as the price action now suggests, the cyclical low was registered around the fifty-eight thousand dollar threshold a mere two months past, then the preceding bear regime would have lasted barely six months — a duration wholly at odds with the roughly twelve-month baseline the community has internalised. Since both propositions cannot hold simultaneously at this juncture, one must be quietly breaking down. And, judging by the trades, the tuition is being paid.again.",
-          "source_url": "https://boards.4chan.org/biz/thread/62614656",
-          "source_hint": "/biz/ thread arguing two BTC cycle rules can't both be true."
-        },
-        {
-          "id": "trade-btc-pump",
-          "category": "trading",
-          "topic_zh": "點解升咗先買",
-          "topic_en": "Why Buy After Pump",
-          "text_zh": "睇到笑出聲。BTC橫盤幾星期你睇都唔睇,升咗15%個個仆晒過去。咪就係我。每次都係咁。命理都寫我遲到。Lol。👍",
-          "text_en_b1": "Why buy BTC after the pump? You watch BTC do nothing for weeks, ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened? This came up on /biz/ today and honestly it describes most retail traders perfectly.",
-          "text_en_b2": "Why does everyone pile into BTC only after it has already moved? You spend weeks watching it go nowhere and refuse to look at it twice, but the moment it pumps 15% the whole crowd scrambles to get in. The pattern is so predictable that it has become a running joke on /biz/. Although retail traders keep swearing they will buy the dip next time, they almost never do. It captures retail behaviour perfectly.",
-          "text_en_c1": "The perennial retail trading paradox surfaced again on /biz/, and the responses were almost comically on the nose. For several weeks, bitcoin traded sideways within a tight range, during which period the broader crowd ignored it entirely, treating the asset as though it were scenery. The moment price ripped fifteen percent in a single move, however, FOMO descended and everybody wanted a seat at the table. The thread essentially describes a behavioural pattern whereby investors consistently arrive after the opportunity has materially presented itself, and it captures the retail archetype with uncomfortable precision. https://boards.4chan.org/biz/thread/62625769",
-          "text_en_c2": "It is, frankly, a phenomenon so recurrent that it has acquired the status of market folklore. Bitcoin idles sideways for weeks on end, attracting nothing but indifference from the retail cohort, who cannot be bothered to glance at a chart that refuses to move. Then, without ceremony, price erupts by some fifteen percent in short order, and suddenly the very same population materialises en masse, fumbling for the buy button as though the move itself constituted a personal invitation. A thread on the business board surfaced this exact behavioural signature today, and to its credit the post scarcely needs embellishment, since it captures with uncomfortable precision the reflexivity, the herd-mentality impatience, and the latent FOMO that define the average retail participant. Whichever way one frames it, the punchline writes itself.",
-          "source_url": "https://boards.4chan.org/biz/thread/62625769",
-          "source_hint": "/biz/ thread roasting retail buyers who chase pumps."
-        },
-        {
-          "id": "tech-ai-tam",
-          "category": "tech/ai",
-          "topic_zh": "Anthropic市值瘋咗",
-          "topic_en": "Anthropic IPO TAM",
-          "text_zh": "嘩。Anthropic同IPO投資者講TAM超過30兆美金,即美計全個美國GDP。舊年虧損420億,2028預測收入190-200兆,尋求2兆估值。我份工好似廢柴。靠AI續命。🧐",
-          "text_en_b1": "Anthropic is expected to tell IPO investors that its total addressable market exceeds $30 trillion. That is roughly the entire GDP of the United States. TAM is the revenue a company could theoretically earn if it captured 100% of its market. The company lost $42 billion last year, projects $190 to $200 billion in revenue by 2028, and is seeking a $2 trillion valuation.",
-          "text_en_b2": "Anthropic is reportedly preparing to tell IPO investors that its total addressable market tops $30 trillion, which is roughly the entire GDP of the United States. TAM, for the uninitiated, is the theoretical revenue a company could grab if it cornered 100% of its market. Although the firm posted a $42 billion loss last year, it is projecting $190 to $200 billion in revenue by 2028 while seeking a $2 trillion valuation. The numbers are frankly absurd.",
-          "text_en_c1": "Anthropic is reportedly preparing to brief prospective IPO investors on a total addressable market figure that exceeds thirty trillion dollars, a sum that effectively equals the entire GDP of the United States. For those unfamiliar with the acronym, TAM refers to the theoretical maximum revenue a company could capture were it to monopolise every conceivable customer in its category. Against that backdrop, the company's forty-two-billion-dollar loss last year looks less catastrophic than one might assume, particularly given its projected hundred-and-ninety to two-hundred-billion-dollar revenue target by 2028 and the eye-watering two-trillion-dollar valuation it is currently said to be pursuing. https://boards.4chan.org/g/thread/109649964",
-          "text_en_c2": "Anthropic is reportedly preparing to present prospective IPO investors with a total addressable market estimate that eclipses thirty trillion dollars — a figure that, taken at face value, would approximate the entirety of United States gross domestic product, give or take a few hundred basis points. TAM, for the uninitiated, denotes the theoretical revenue ceiling a firm could capture were it to monopolise its designated market without competition, so the implicit ambition here borders on the cosmological. Against this rather stratospheric backdrop, the company's financials reveal losses of forty-two billion dollars over the trailing year, with management projecting revenues somewhere between one hundred ninety and two hundred billion by 2028. The valuation being courted reportedly stands at two trillion dollars.",
-          "source_url": "https://boards.4chan.org/g/thread/109649964",
-          "source_hint": "/g/ thread on Anthropic's $30 trillion TAM claim for AI work."
-        },
-        {
-          "id": "hk-news-china-hack",
-          "category": "hk/news",
-          "topic_zh": "中國黑客攻美國",
-          "topic_en": "China Hacked US Gov",
-          "text_zh": "Reuters報:中國資助嘅黑客平台俾美國司法部冚檔,話係自珍珠港同東京灣事件加埋以來對美國最大嘅攻擊。HK都係咁上下啦。Wtf。🙏",
-          "text_en_b1": "China-sponsored hacking platforms have been seized by the US Justice Department. Officials are calling it the biggest attack on America since Pearl Harbor and the Gulf of Tonkin combined. The Reuters report dated August 26, 2026 describes the scale as unprecedented. This is the kind of news that actually matters for once.",
-          "text_en_b2": "The US Justice Department has seized China-sponsored hacking platforms in a sweeping crackdown. Officials are describing the operation as the largest attack on American infrastructure since Pearl Harbor and the Gulf of Tonkin combined, according to a Reuters report dated August 26, 2026. While the full extent of the damage is still being assessed, the scale is being labelled unprecedented. For once, this is the sort of geopolitical news that genuinely matters.",
-          "text_en_c1": "According to a Reuters report dated the twenty-sixth of August, 2026, the US Justice Department has successfully dismantled hacking infrastructure that officials have attributed to state-sponsored Chinese actors. Senior figures within the department have gone so far as to characterise the cumulative scale of the intrusion as the most consequential assault on American interests since Pearl Harbor and the Gulf of Tonkin combined, which is not the sort of rhetorical flourish that bureaucrats deploy lightly. If that framing is even remotely accurate, the implications for ongoing diplomatic and cyber-defence posture are considerable, and the situation bears close attention. https://boards.4chan.org/pol/thread/541484633",
-          "text_en_c2": "Reuters, in a dispatch dated the twenty-sixth of August 2026, reports that the United States Department of Justice has successfully dismantled a constellation of hacking platforms operating under the sponsorship of the Chinese state. Senior officials, never ones to understate matters of national gravity, have characterised the cumulative breach as the most egregious incursion suffered by the republic since Pearl Harbor and the Gulf of Tonkin incident combined — a comparison that, rhetorical flourishes aside, situates the episode firmly within the canon of assaults that genuinely warranted the epithet 'unprecedented'. The Hong Kong corollary, naturally, follows the same template of digital attrition. For once, the news cycle has produced something that merits the attention it is receiving, and the administration appears, for the moment, neither inclined nor able to downplay the severity of the intrusion.",
-          "source_url": "https://boards.4chan.org/pol/thread/541484633",
-          "source_hint": "/pol/ thread sharing Reuters story about seized China-backed hacking infra."
-        },
-        {
-          "id": "lol-rockstar-leak",
-          "category": "lol/esports",
-          "topic_zh": "Rockstar直播被洩",
-          "topic_en": "Rockstar Leaked",
-          "text_zh": "睇唔到lol。講緊嘅係GTA VI,CyberLeek早洩晒所有gameplay。Rockstar聽日Netflix發佈會仲有咩可以show?我寧願打兩場solo queue算。Lol。👍",
-          "text_en_b1": "All of the gameplay we wanted to see has been leaked already. What could they possibly show tomorrow that would outdo what CyberLeek has released? Furthermore, what are the chances that 1 hour before the Netflix presentation CyberLeek drops a HUGE bomb to step all over Rockstars release? Honestly at this point just close the stream.",
-          "text_en_b2": "Every piece of GTA VI gameplay worth seeing has already been dumped by CyberLeek, so Rockstar's Netflix presentation tomorrow is essentially a tough sell. What on earth can they possibly show that would top what has already leaked online? Chances are CyberLeek drops another massive bombshell right before the stream goes live, completely stealing the spotlight. At this point, Rockstar might as well cancel the whole thing and save themselves the embarrassment.",
-          "text_en_c1": "The irony of tomorrow's much-hyped Netflix presentation for Grand Theft Auto VI is that virtually every gameplay sequence anybody wanted to see has already surfaced online, courtesy of leaker CyberLeek. The legitimate reveal therefore finds itself in the unenviable position of having to outdo material that audiences have already consumed, dissected, and formed opinions upon. What are the odds, furthermore, that CyberLeek times one final enormous drop for the hour immediately preceding the broadcast, deliberately sabotaging the marketing apparatus that Rockstar has so carefully constructed? At this juncture, one might reasonably question whether the stream should simply be cancelled. https://boards.4chan.org/v/thread/746238319",
-          "text_en_c2": "Every morsel of footage that anyone might have wished to witness at tomorrow's livestreamed unveiling has, courtesy of the leakers' guild, already been disseminated across the customary back channels of the internet. The question that therefore presents itself is an almost philosophical one — what on earth does Rockstar propose to showcase at a Netflix-adjacent broadcast that could conceivably eclipse material which has been public knowledge for the better part of a week? More pressingly still, what are the realistic odds that, with timing one can only describe as cosmically spiteful, CyberLeek elects to drop an eleventh-hour payload of devastating magnitude precisely one hour before Rockstar takes the stage — an act so theatrical it would render the entire corporate event superfluous? Honestly, at this juncture, the prudent course of action would be to cancel…",
-          "source_url": "https://boards.4chan.org/v/thread/746238319",
-          "source_hint": "/v/ thread on CyberLeek leaking GTA 6 footage before the Rockstar presentation."
-        },
-        {
-          "id": "mma-fit-budget",
-          "category": "mma/fitness",
-          "topic_zh": "1500蚊搞home gym",
-          "topic_en": "$1.5k Home Gym",
-          "text_zh": "都係講中我。$1,500 budget搞home gym,cardio自己搞掂晒。要maximize gains應該買咩?肥仔信今日又叫我gym,我話屋企練算。🙏",
-          "text_en_b1": "I got $1,500 to spend on home gym equipment. Cardio is taken care of. What would /fit/ buy to maximize gains? The thread is full of people telling him to skip machines and buy a rack, a barbell, plates and a bench. Someone argued $1.5k is plenty if you buy used plates and skip the cable attachments for now.",
-          "text_en_b2": "I have got $1,500 to kit out a home gym, and cardio is already sorted. What should /fit/ pick up to maximise gains without wasting a cent? The consensus in the thread is to skip machines entirely and go straight for a solid rack, a decent barbell, a bench and a decent set of plates. One user pointed out that $1.5k is plenty if you buy used plates and hold off on cable attachments for now.",
-          "text_en_c1": "A /fit/ user presented the board with a fifteen-hundred-dollar budget for assembling a home gym, having already arranged for cardiovascular work to be handled separately, and solicited advice on which purchases would most effectively maximise hypertrophy and strength gains. The thread's consensus, delivered with characteristic bluntness, was that machines ought to be disregarded entirely in favour of a power rack, an Olympic barbell, a quality bench, and a used set of plates. Several respondents argued that this allocation is more than sufficient provided one exercises patience, sources plates second-hand, and postpones cable attachments for a later purchasing cycle. https://boards.4chan.org/fit/thread/77474503",
-          "text_en_c2": "Operating with a modest budget of fifteen hundred dollars and an evident desire to keep cardiovascular conditioning off the equipment list, the original poster solicited counsel on how to maximise hypertrophy per square foot of floor space. The thread, as one might anticipate, descended swiftly into something resembling a sectarian debate, with one camp insisting — not without justification — that any rational allocation would prioritise the foundational quartet of a sturdy rack, an Olympic barbell, a graded set of plates, and a flat bench, while eschewing altogether the chrome-plated distractions of cable crossovers and Smith machines.",
-          "source_url": "https://boards.4chan.org/fit/thread/77474503",
-          "source_hint": "/fit/ thread asking what to buy with a $1,500 home gym budget."
-        },
-        {
-          "id": "anime-big-o",
-          "category": "anime/culture",
-          "topic_zh": "懷舊動畫Big O",
-          "topic_en": "Big O Throwback",
-          "text_zh": "The Big O。如果Batman冇咁廢會係點,呢套就係答案。我嗰陣Gundam 00迷,都會記得呢部。回味。👍",
-          "text_en_b1": "The Big O. Anyone remember this anime? It is pretty cool. If you ever wondered what it would be like if Batman did not suck, then this is what you should watch. The series ran 26 episodes and the giant robot style mixes well with the noir detective setting. It still holds up honestly.",
-          "text_en_b2": "The Big O is one of those anime that really sticks with you. Although it ran for only 26 episodes, the series blends noir detective storytelling with giant robot action in a way that feels surprisingly fresh even today. Someone summed it up perfectly on the thread, saying it is basically what Batman would be like if Batman actually had a backbone. If you have not given it a shot, it still holds up.",
-          "text_en_c1": "For those who harbour lingering curiosity regarding The Big O, the Sunrise mecha-noir series remains a surprisingly rewarding watch decades on. The premise essentially asks what Batman might have been had he been written as a compelling protagonist rather than a brooding cipher, and the answer proves far more stylish than one might anticipate. Across its twenty-six episodes, the programme fuses the dramatic weight of retro-futuristic giant-robot combat with the moody atmospherics of classic detective fiction, and the genres coexist in a manner that ought by rights to feel incongruous yet somehow does not. https://boards.4chan.org/a/thread/290215188",
-          "text_en_c2": "The Big O occupies a peculiar and rather hallowed position within the pantheon of mecha-noir hybrids, a genre so underpopulated that virtually any addition to its canon is cause for quiet celebration among devotees. The premise, reduced to its essentials, asks a deceptively simple counterfactual — what might Gotham have resembled had its masked protector been marginally less brooding and substantially more competent at the actual business of crime-fighting? — and proceeds to answer it over the course of twenty-six episodes whose interplay between noir-inflected detective storytelling and lumbering giant-robot theatrics remains, to this day, remarkably deft. For those who came of age marinating in Gundam 00 and its ilk, the series retains an enduring nostalgic pull, and even viewed with contemporary eyes it withstands scrutiny with admirable composure.",
-          "source_url": "https://boards.4chan.org/a/thread/290215188",
-          "source_hint": "/a/ thread recommending the retro mecha-noir anime The Big O."
         }
       ]
     }

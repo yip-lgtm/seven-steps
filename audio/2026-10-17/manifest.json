@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-17",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "crypto-pump-delay-01",
+      "topic_en": "BTC Pump Delayed",
+      "topic_zh": "BTC pump 一直delay",
+      "category": "trading",
+      "files": {
+        "b1": "clip-crypto-pump-delay-01-b1.mp3",
+        "b2": "clip-crypto-pump-delay-01-b2.mp3",
+        "c1": "clip-crypto-pump-delay-01-c1.mp3",
+        "c2": "clip-crypto-pump-delay-01-c2.mp3"
+      }
+    },
+    {
+      "id": "spacex-stocks-pick-02",
+      "topic_en": "Stocks To Buy",
+      "topic_zh": "咩股票好買",
+      "category": "trading",
+      "files": {
+        "b1": "clip-spacex-stocks-pick-02-b1.mp3",
+        "b2": "clip-spacex-stocks-pick-02-b2.mp3",
+        "c1": "clip-spacex-stocks-pick-02-c1.mp3",
+        "c2": "clip-spacex-stocks-pick-02-c2.mp3"
+      }
+    },
+    {
+      "id": "tesla-qi-mental-load-03",
+      "topic_en": "Beam Indeterminate",
+      "topic_zh": "Beam靜定vs靜不定",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-tesla-qi-mental-load-03-b1.mp3",
+        "b2": "clip-tesla-qi-mental-load-03-b2.mp3",
+        "c1": "clip-tesla-qi-mental-load-03-c1.mp3",
+        "c2": "clip-tesla-qi-mental-load-03-c2.mp3"
+      }
+    },
+    {
+      "id": "anthropic-r-and-d-04",
+      "topic_en": "Anthropic 270 Days",
+      "topic_zh": "AI自動研發倒數",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-anthropic-r-and-d-04-b1.mp3",
+        "b2": "clip-anthropic-r-and-d-04-b2.mp3",
+        "c1": "clip-anthropic-r-and-d-04-c1.mp3",
+        "c2": "clip-anthropic-r-and-d-04-c2.mp3"
+      }
+    },
+    {
+      "id": "byd-vs-tesla-05",
+      "topic_en": "BYD $9700",
+      "topic_zh": "BYD vs Tesla",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-byd-vs-tesla-05-b1.mp3",
+        "b2": "clip-byd-vs-tesla-05-b2.mp3",
+        "c1": "clip-byd-vs-tesla-05-c1.mp3",
+        "c2": "clip-byd-vs-tesla-05-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-100lbs-no-gf-06",
+      "topic_en": "Lost 100 Lbs No GF",
+      "topic_zh": "100lb瘦咗都冇GF",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-100lbs-no-gf-06-b1.mp3",
+        "b2": "clip-fit-100lbs-no-gf-06-b2.mp3",
+        "c1": "clip-fit-100lbs-no-gf-06-c1.mp3",
+        "c2": "clip-fit-100lbs-no-gf-06-c2.mp3"
+      }
+    },
+    {
+      "id": "ranma-storytime-07",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬1/2 storytime",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-ranma-storytime-07-b1.mp3",
+        "b2": "clip-ranma-storytime-07-b2.mp3",
+        "c1": "clip-ranma-storytime-07-c1.mp3",
+        "c2": "clip-ranma-storytime-07-c2.mp3"
+      }
+    }
+  ]
+}
