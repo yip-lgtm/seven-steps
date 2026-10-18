@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-18",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-flying-car",
+      "topic_en": "Tesla Flying Car",
+      "topic_zh": "Tesla 飛行車",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-flying-car-b1.mp3",
+        "b2": "clip-biz-flying-car-b2.mp3",
+        "c1": "clip-biz-flying-car-c1.mp3",
+        "c2": "clip-biz-flying-car-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-black-swan",
+      "topic_en": "BTC Black Swan",
+      "topic_zh": "BTC 黑天鵝",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-black-swan-b1.mp3",
+        "b2": "clip-biz-black-swan-b2.mp3",
+        "c1": "clip-biz-black-swan-c1.mp3",
+        "c2": "clip-biz-black-swan-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-stock-picks",
+      "topic_en": "SpaceX Stock Pick",
+      "topic_zh": "SpaceX 揀股",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-biz-stock-picks-b1.mp3",
+        "b2": "clip-biz-stock-picks-b2.mp3",
+        "c1": "clip-biz-stock-picks-c1.mp3",
+        "c2": "clip-biz-stock-picks-c2.mp3"
+      }
+    },
+    {
+      "id": "g-anthropic-270",
+      "topic_en": "AI 270 Days",
+      "topic_zh": "AI 末日倒數",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-g-anthropic-270-b1.mp3",
+        "b2": "clip-g-anthropic-270-b2.mp3",
+        "c1": "clip-g-anthropic-270-c1.mp3",
+        "c2": "clip-g-anthropic-270-c2.mp3"
+      }
+    },
+    {
+      "id": "pol-flying-tesla",
+      "topic_en": "Tesla Hover Joke",
+      "topic_zh": "Tesla 飛車嘲笑",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-pol-flying-tesla-b1.mp3",
+        "b2": "clip-pol-flying-tesla-b2.mp3",
+        "c1": "clip-pol-flying-tesla-c1.mp3",
+        "c2": "clip-pol-flying-tesla-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-no-gf",
+      "topic_en": "Lost Weight No GF",
+      "topic_zh": "減肥冇女友",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-no-gf-b1.mp3",
+        "b2": "clip-fit-no-gf-b2.mp3",
+        "c1": "clip-fit-no-gf-c1.mp3",
+        "c2": "clip-fit-no-gf-c2.mp3"
+      }
+    },
+    {
+      "id": "a-spooky-anime",
+      "topic_en": "Spooky Anime October",
+      "topic_zh": "十月睇鬼片",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-spooky-anime-b1.mp3",
+        "b2": "clip-a-spooky-anime-b2.mp3",
+        "c1": "clip-a-spooky-anime-c1.mp3",
+        "c2": "clip-a-spooky-anime-c2.mp3"
+      }
+    }
+  ]
+}
