@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-19",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-musk-flying-cars-1",
+      "topic_en": "Musk flying cars",
+      "topic_zh": "Musk發明飛車",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-musk-flying-cars-1-b1.mp3",
+        "b2": "clip-biz-musk-flying-cars-1-b2.mp3",
+        "c1": "clip-biz-musk-flying-cars-1-c1.mp3",
+        "c2": "clip-biz-musk-flying-cars-1-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-btc-black-swan-2",
+      "topic_en": "BTC Black Swan ride",
+      "topic_zh": "BTC黑天鵝過山車",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-btc-black-swan-2-b1.mp3",
+        "b2": "clip-biz-btc-black-swan-2-b2.mp3",
+        "c1": "clip-biz-btc-black-swan-2-c1.mp3",
+        "c2": "clip-biz-btc-black-swan-2-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-ai-robots-3",
+      "topic_en": "AI vs manual labor",
+      "topic_zh": "AI取代藍領",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-biz-ai-robots-3-b1.mp3",
+        "b2": "clip-biz-ai-robots-3-b2.mp3",
+        "c1": "clip-biz-ai-robots-3-c1.mp3",
+        "c2": "clip-biz-ai-robots-3-c2.mp3"
+      }
+    },
+    {
+      "id": "pol-spacex-copv-4",
+      "topic_en": "SpaceX COPV risk",
+      "topic_zh": "SpaceX COPV爆炸",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-pol-spacex-copv-4-b1.mp3",
+        "b2": "clip-pol-spacex-copv-4-b2.mp3",
+        "c1": "clip-pol-spacex-copv-4-c1.mp3",
+        "c2": "clip-pol-spacex-copv-4-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-whitepill-5",
+      "topic_en": "Fitness whitepill",
+      "topic_zh": "健身白丸勵志",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-whitepill-5-b1.mp3",
+        "b2": "clip-fit-whitepill-5-b2.mp3",
+        "c1": "clip-fit-whitepill-5-c1.mp3",
+        "c2": "clip-fit-whitepill-5-c2.mp3"
+      }
+    },
+    {
+      "id": "a-raildex-item-6",
+      "topic_en": "Raildex ITEM chapter",
+      "topic_zh": "Raildex ITEM新章",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a-raildex-item-6-b1.mp3",
+        "b2": "clip-a-raildex-item-6-b2.mp3",
+        "c1": "clip-a-raildex-item-6-c1.mp3",
+        "c2": "clip-a-raildex-item-6-c2.mp3"
+      }
+    },
+    {
+      "id": "g-linux-ai-patch-7",
+      "topic_en": "AI Linux kernel patch",
+      "topic_zh": "Linux kernel AI patch",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-g-linux-ai-patch-7-b1.mp3",
+        "b2": "clip-g-linux-ai-patch-7-b2.mp3",
+        "c1": "clip-g-linux-ai-patch-7-c1.mp3",
+        "c2": "clip-g-linux-ai-patch-7-c2.mp3"
+      }
+    }
+  ]
+}
