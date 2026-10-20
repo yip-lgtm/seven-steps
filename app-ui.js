@@ -8,6 +8,7 @@ function render() {
   else if (state.view === 'settings') view.innerHTML = renderSettings();
   else if (state.view === 'review') view.innerHTML = renderReview();
   else if (state.view === 'reviewDay') view.innerHTML = renderReviewDay();
+  else if (state.view === 'recordings') view.innerHTML = renderRecordings();
   attachHandlers();
 }
 function renderHome() {
@@ -31,7 +32,7 @@ function renderHome() {
     '<div class="home-stat"><div class="label">All time</div><div class="value">'+state.progress.totalClips+'</div><div class="sub">clips</div></div></div>'+
     '<div class="btn-row"><button class="btn btn-primary btn-large" id="btn-start"'+(state.clips.length?'':' disabled')+'>'+(log.clips>0?'Continue today':'Start today')+'</button>'+
     '<button class="btn btn-ghost" id="btn-review">重溫</button><button class="btn btn-ghost" id="btn-settings">Settings</button>'+
-    '<a class="btn btn-warm" href="practice.html">無限出句</a><a class="btn btn-ghost" href="radio.html">24/7 電台</a><a class="btn btn-ghost" href="article.html">文章學</a></div><ul class="steps-list">'+stepsHtml+'</ul></div>';
+    '<a class="btn btn-warm" href="practice.html">無限出句</a><a class="btn btn-ghost" href="radio.html">24/7 電台</a><a class="btn btn-ghost" href="article.html">文章學</a><button class="btn btn-ghost" id="btn-recs">我的錄音</button></div><ul class="steps-list">'+stepsHtml+'</ul></div>';
 }
 function renderSession() {
   const sess = state.session;
@@ -154,7 +155,7 @@ function renderStepBody(step, clip, sess) {
   const zhText = clip.text_zh || '';
   const play = '<div class="play-area"><button class="play-circle" id="btn-play" aria-label="Play">'+playIcon()+'</button>';
   const rec = '<div class="rec-area mt-3"><button class="rec-btn" id="btn-rec">●</button><div class="rec-indicator" id="rec-ind"><div class="rec-dot"></div><span>Recording · <span id="rec-time">0:00</span></span></div>'+
-    (lastRecordingUrl?'<div class="audio-playback"><audio controls src="'+lastRecordingUrl+'"></audio><button class="btn" id="btn-again">Record again</button></div>':'')+'</div>';
+    (lastRecordingUrl?'<div class="audio-playback"><audio controls src="'+lastRecordingUrl+'"></audio><div class="btn-row" style="margin-top:8px"><button class="btn" id="btn-again">Record again</button><button class="btn btn-primary" id="btn-save-rec">Save / Download</button></div></div>':'')+'</div>';
   const pair = '<div class="mt-3"><span class="input-label">English ('+state.currentLevel+')</span>'+renderChunkedTranscript(enText, zhText)+'</div>';
   if (step.id==='rate') return play+'<div class="play-label">Tap to play.</div><div class="stars" id="stars">'+[1,2,3,4,5].map(n=>'<div class="star" data-n="'+n+'">★</div>').join('')+'</div><div class="play-label" id="rate-hint">How much at <strong>'+state.currentLevel+'</strong>?</div></div>';
   if (step.id==='grasp') return play+'<div class="play-label">Write the meaning in English.</div></div><div style="margin-top:18px"><textarea class="textarea" id="grasp-input" placeholder="Type the gist."></textarea></div><div class="mt-2"><button class="btn" id="btn-reveal">Reveal →</button><div id="reveal-area" class="mt-2" style="display:none">'+pair+'</div></div>';
@@ -199,6 +200,10 @@ function renderSettings() {
     '<div class="settings-row"><button class="btn" id="btn-test">Play sample</button></div>'+
     '<div class="mt-4"><button class="btn" id="btn-reset" style="color:var(--danger)">Reset all progress</button></div>'+
     '<div class="mt-4 btn-row"><button class="btn btn-primary" id="btn-back">← Back</button></div></div>';
+}
+
+function renderRecordings() {
+  return '<div class="card"><div class="review-head"><div><h1>我的錄音</h1><p>儲存在呢部機。可播放或下載。</p></div></div><div id="recs-list">載入中…</div><div class="btn-row mt-4"><button class="btn btn-primary" id="btn-back">← Back</button></div></div>';
 }
 function attachHandlers() {
   const on = (id, fn) => { const el = document.getElementById(id); if (el) el.addEventListener('click', fn); };
@@ -281,5 +286,31 @@ function attachHandlers() {
   });
   const btnAgain = document.getElementById('btn-again');
   if (btnAgain) btnAgain.addEventListener('click', () => { if (lastRecordingUrl) { URL.revokeObjectURL(lastRecordingUrl); lastRecordingUrl = null; } recordingDuration = 0; render(); });
+  const btnSave = document.getElementById('btn-save-rec');
+  if (btnSave && lastRecordingBlob) btnSave.addEventListener('click', () => {
+    const clip = sessionClip(0) || {};
+    const name = (clip.id || 'rec') + '-' + (new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')) + '.webm';
+    downloadRecording(lastRecordingBlob, name);
+    toast('已下載');
+  });
+  const btnRecs = document.getElementById('btn-recs');
+  if (btnRecs) btnRecs.addEventListener('click', async () => {
+    state.view = 'recordings';
+    render();
+    const list = await listRecordings();
+    const el = document.getElementById('recs-list');
+    if (!el) return;
+    if (!list.length) { el.innerHTML = '<div class="empty-state"><p>未有錄音。</p></div>'; return; }
+    el.innerHTML = list.map(r => {
+      const d = new Date(r.date);
+      const when = d.toLocaleString();
+      const url = URL.createObjectURL(r.blob);
+      return '<div class="review-clip"><div class="zh">'+esc(r.topic||r.clipId||'錄音')+'</div><div class="en">'+esc(r.step||'')+' · '+r.duration+'s · '+when+'</div><div class="btn-row mt-2"><audio controls src="'+url+'" style="width:100%"></audio><button class="btn" data-dl="'+r.id+'">Download</button></div></div>';
+    }).join('');
+    el.querySelectorAll('[data-dl]').forEach(b => b.addEventListener('click', async () => {
+      const rec = list.find(x => x.id === b.getAttribute('data-dl'));
+      if (rec) downloadRecording(rec.blob, (rec.clipId||'rec') + '-' + rec.id + '.webm');
+    }));
+  });
 }
 (async function init() { applyTheme(loadTheme()); await loadDailyClips(); await loadHistory(); render(); })();
