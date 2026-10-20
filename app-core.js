@@ -285,6 +285,47 @@ function downloadRecording(blob, name) {
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
 }
 
+
+async function blobToBase64(blob) {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => resolve(String(r.result).split(',')[1] || '');
+    r.onerror = reject;
+    r.readAsDataURL(blob);
+  });
+}
+async function uploadRecordingToGithub(blob, path, message) {
+  const token = getGhToken();
+  if (!token) return { ok: false, reason: 'no-token' };
+  try {
+    const content = await blobToBase64(blob);
+    const url = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + path;
+    const res = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: message || ('recording ' + path),
+        content,
+        branch: 'main'
+      })
+    });
+    if (!res.ok) {
+      const err = await res.text();
+      console.warn('gh upload', res.status, err);
+      return { ok: false, status: res.status, err };
+    }
+    return { ok: true };
+  } catch (e) {
+    console.warn('uploadRecordingToGithub', e);
+    return { ok: false, err: String(e) };
+  }
+}
+
 async function startRecording() {
   if (recorder && recorder.state === 'recording') return;
   try {
@@ -301,12 +342,22 @@ async function startRecording() {
       stream.getTracks().forEach(t => t.stop());
       const clip = sessionClip(0) || {};
       const step = (state.session && STEPS[state.session.stepIdx]) ? STEPS[state.session.stepIdx].id : '';
-      saveRecording(blob, {
+      const meta = {
         clipId: clip.id || '',
         topic: (clip.topic_zh || clip.topic_en || '') + '',
         step,
         duration: lastRecordingDuration
-      }).then(id => { if (id) toast('錄音已儲存'); });
+      };
+      saveRecording(blob, meta).then(id => { if (id) toast('錄音已儲存'); });
+      if (getGhToken()) {
+        const day = new Date().toISOString().slice(0, 10);
+        const safeId = (clip.id || 'rec').replace(/[^a-zA-Z0-9_-]/g, '-').slice(0, 40);
+        const path = 'recordings/' + day + '/' + safeId + '-' + step + '-' + Date.now() + '.webm';
+        uploadRecordingToGithub(blob, path, 'recording: ' + (clip.topic_en || clip.topic_zh || safeId) + ' [' + step + ']').then(r => {
+          if (r.ok) toast('已推上 GitHub');
+          else if (r.reason !== 'no-token') toast('推上 GitHub 失敗');
+        });
+      }
       onRecordingComplete();
     };
     recorder.start(); recStart = Date.now();
