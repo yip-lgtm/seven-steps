@@ -224,6 +224,67 @@ const GITHUB_REPO = 'yip-lgtm/seven-steps';
 const GH_TOKEN_KEY = 'ss.ghBackupToken.v1';
 function getGhToken() { try { return localStorage.getItem(GH_TOKEN_KEY) || ''; } catch { return ''; } }
 function setGhToken(t) { try { if (t) localStorage.setItem(GH_TOKEN_KEY, t); else localStorage.removeItem(GH_TOKEN_KEY); } catch (e) {} }
+
+const REC_DB = 'ss-recordings';
+const REC_STORE = 'recs';
+function openRecDb() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(REC_DB, 1);
+    req.onupgradeneeded = () => {
+      const db = req.result;
+      if (!db.objectStoreNames.contains(REC_STORE)) {
+        const s = db.createObjectStore(REC_STORE, { keyPath: 'id' });
+        s.createIndex('date', 'date');
+      }
+    };
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function saveRecording(blob, meta) {
+  try {
+    const db = await openRecDb();
+    const rec = {
+      id: 'r' + Date.now(),
+      date: new Date().toISOString(),
+      clipId: meta.clipId || '',
+      topic: meta.topic || '',
+      step: meta.step || '',
+      duration: meta.duration || 0,
+      blob
+    };
+    await new Promise((resolve, reject) => {
+      const tx = db.transaction(REC_STORE, 'readwrite');
+      tx.objectStore(REC_STORE).put(rec);
+      tx.oncomplete = resolve;
+      tx.onerror = () => reject(tx.error);
+    });
+    db.close();
+    return rec.id;
+  } catch (e) { console.warn('saveRecording', e); return null; }
+}
+async function listRecordings() {
+  try {
+    const db = await openRecDb();
+    const all = await new Promise((resolve, reject) => {
+      const tx = db.transaction(REC_STORE, 'readonly');
+      const req = tx.objectStore(REC_STORE).getAll();
+      req.onsuccess = () => resolve(req.result || []);
+      req.onerror = () => reject(req.error);
+    });
+    db.close();
+    return all.sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 40);
+  } catch (e) { return []; }
+}
+function downloadRecording(blob, name) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = name || ('recording-' + Date.now() + '.webm');
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
+}
+
 async function startRecording() {
   if (recorder && recorder.state === 'recording') return;
   try {
@@ -238,6 +299,14 @@ async function startRecording() {
       lastRecordingBlob = blob;
       lastRecordingDuration = Math.floor((Date.now() - recStart) / 1000);
       stream.getTracks().forEach(t => t.stop());
+      const clip = sessionClip(0) || {};
+      const step = (state.session && STEPS[state.session.stepIdx]) ? STEPS[state.session.stepIdx].id : '';
+      saveRecording(blob, {
+        clipId: clip.id || '',
+        topic: (clip.topic_zh || clip.topic_en || '') + '',
+        step,
+        duration: lastRecordingDuration
+      }).then(id => { if (id) toast('錄音已儲存'); });
       onRecordingComplete();
     };
     recorder.start(); recStart = Date.now();
