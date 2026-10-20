@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-20",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t1-when-to-short",
+      "topic_en": "When to Short",
+      "topic_zh": "全球崩盤點short",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t1-when-to-short-b1.mp3",
+        "b2": "clip-t1-when-to-short-b2.mp3",
+        "c1": "clip-t1-when-to-short-c1.mp3",
+        "c2": "clip-t1-when-to-short-c2.mp3"
+      }
+    },
+    {
+      "id": "t2-tesla-musk-fallback",
+      "topic_en": "TSLA Earnings Watch",
+      "topic_zh": "TSLA/Musk觀察",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t2-tesla-musk-fallback-b1.mp3",
+        "b2": "clip-t2-tesla-musk-fallback-b2.mp3",
+        "c1": "clip-t2-tesla-musk-fallback-c1.mp3",
+        "c2": "clip-t2-tesla-musk-fallback-c2.mp3"
+      }
+    },
+    {
+      "id": "c1-gi-indonesia",
+      "topic_en": "Indonesia Sink",
+      "topic_zh": "印尼地基崩塌",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c1-gi-indonesia-b1.mp3",
+        "b2": "clip-c1-gi-indonesia-b2.mp3",
+        "c1": "clip-c1-gi-indonesia-c1.mp3",
+        "c2": "clip-c1-gi-indonesia-c2.mp3"
+      }
+    },
+    {
+      "id": "c2-robots-blue-collar",
+      "topic_en": "Robots Take Site Work",
+      "topic_zh": "地盤工種被AI取代",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c2-robots-blue-collar-b1.mp3",
+        "b2": "clip-c2-robots-blue-collar-b2.mp3",
+        "c1": "clip-c2-robots-blue-collar-c1.mp3",
+        "c2": "clip-c2-robots-blue-collar-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-codemonkeys",
+      "topic_en": "AI Eats Coders",
+      "topic_zh": "AI殺咗programmer",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-codemonkeys-b1.mp3",
+        "b2": "clip-ai-codemonkeys-b2.mp3",
+        "c1": "clip-ai-codemonkeys-c1.mp3",
+        "c2": "clip-ai-codemonkeys-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-dense-tower",
+      "topic_en": "HK-Style Manhattan",
+      "topic_zh": "紐約變香港",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-dense-tower-b1.mp3",
+        "b2": "clip-hk-dense-tower-b2.mp3",
+        "c1": "clip-hk-dense-tower-c1.mp3",
+        "c2": "clip-hk-dense-tower-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-fit-keto",
+      "topic_en": "Keto Gains Or Not",
+      "topic_zh": "Keto增肌定減脂",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-fit-keto-b1.mp3",
+        "b2": "clip-mma-fit-keto-b2.mp3",
+        "c1": "clip-mma-fit-keto-c1.mp3",
+        "c2": "clip-mma-fit-keto-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma",
+      "topic_en": "Ranma 1/2 Storytime",
+      "topic_zh": "亂馬1/2 storytime",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-b1.mp3",
+        "b2": "clip-anime-ranma-b2.mp3",
+        "c1": "clip-anime-ranma-c1.mp3",
+        "c2": "clip-anime-ranma-c2.mp3"
+      }
+    }
+  ]
+}
