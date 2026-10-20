@@ -198,6 +198,7 @@ function renderSettings() {
     '<div class="settings-row"><div class="label-block"><div class="label">Voice</div></div><select id="set-voice"><option value="">System default</option>'+voiceOptions+'</select></div>'+
     '<div class="settings-row"><div class="label-block"><div class="label">Speed</div></div><div class="range-row"><input type="range" id="set-rate" min="0.5" max="1.2" step="0.05" value="'+s.rate+'"><div class="range-val" id="rate-val">'+Number(s.rate).toFixed(2)+'x</div></div></div>'+
     '<div class="settings-row"><button class="btn" id="btn-test">Play sample</button></div>'+
+    '<div class="settings-row"><div class="label-block"><div class="label">GitHub token (自動推錄音)</div><div class="sub">Fine-grained or classic，要 contents:write。只存喺呢部機。</div></div><input type="password" id="set-gh-token" placeholder="'+(getGhToken()?'已設定，留空唔改':'貼 token')+'" style="width:100%;margin-top:6px"></div>'+
     '<div class="mt-4"><button class="btn" id="btn-reset" style="color:var(--danger)">Reset all progress</button></div>'+
     '<div class="mt-4 btn-row"><button class="btn btn-primary" id="btn-back">← Back</button></div></div>';
 }
@@ -211,7 +212,11 @@ function attachHandlers() {
   on('btn-settings', () => { state.view = 'settings'; render(); });
   on('btn-review', () => { state.view = 'review'; render(); });
   on('btn-theme', toggleTheme);
-  on('btn-back', () => { state.view = 'home'; render(); });
+  on('btn-back', () => {
+    const tok = document.getElementById('set-gh-token');
+    if (tok && tok.value.trim()) { setGhToken(tok.value.trim()); toast('Token 已存'); }
+    state.view = 'home'; render();
+  });
   on('btn-review-back', () => { state.view = 'review'; render(); });
   on('btn-home', () => { state.view = state.returnView || 'home'; state.session = null; render(); });
   on('btn-next', nextStep);
