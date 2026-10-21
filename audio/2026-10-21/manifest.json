@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-21",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade1-musk-gold",
+      "topic_en": "Gold and Silver as Savings",
+      "topic_zh": "金銀定儲",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade1-musk-gold-b1.mp3",
+        "b2": "clip-trade1-musk-gold-b2.mp3",
+        "c1": "clip-trade1-musk-gold-c1.mp3",
+        "c2": "clip-trade1-musk-gold-c2.mp3"
+      }
+    },
+    {
+      "id": "trade2-spacex",
+      "topic_en": "SpaceX Pre-IPO Bag",
+      "topic_zh": "SpaceX IPO",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade2-spacex-b1.mp3",
+        "b2": "clip-trade2-spacex-b2.mp3",
+        "c1": "clip-trade2-spacex-c1.mp3",
+        "c2": "clip-trade2-spacex-c2.mp3"
+      }
+    },
+    {
+      "id": "civ-drainage",
+      "topic_en": "Drainage and Utilities",
+      "topic_zh": "斜坡排水",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civ-drainage-b1.mp3",
+        "b2": "clip-civ-drainage-b2.mp3",
+        "c1": "clip-civ-drainage-c1.mp3",
+        "c2": "clip-civ-drainage-c2.mp3"
+      }
+    },
+    {
+      "id": "struct-load",
+      "topic_en": "Rebar and Load Path",
+      "topic_zh": "鋼筋混凝土",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-struct-load-b1.mp3",
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "techai-coders",
+      "topic_en": "AI and Code Monkeys",
+      "topic_zh": "AI搶飯碗",
+      "category": "tech/ai",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "hknews-musk",
+      "topic_en": "Starlink in Ukraine",
+      "topic_zh": "Starlink烏克蘭",
+      "category": "hk/news",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "mma-gym",
+      "topic_en": "Gym Whitepill Thread",
+      "topic_zh": "白pill健身",
+      "category": "mma/fitness",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "anime-castlevania",
+      "topic_en": "Castlevania New Game",
+      "topic_zh": "Castlevania新game",
+      "category": "anime/culture",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    }
+  ]
+}
