@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "days": [
+    {
+      "date": "2026-10-22",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "gold-reserves",
+          "category": "trading",
+          "topic_zh": "金銀唔係彩票",
+          "topic_en": "Gold and Silver Reserves",
+          "text_zh": "金銀有 intrinsic cash value，實物、depository shares 或者 futures 都差唔多。超過九成持有人買金銀係當 savings，唔係 growth stock，更加唔係 passive income 奇蹟。靠AI續命都未掙到100K USD，呢啲先係 non-cash reserves。",
+          "text_en_b1": "Gold and silver have intrinsic cash value. They can be held as non-cash reserves while remaining highly liquid. You can own the physical metals, shares in a depository, or futures contracts with little difference in purchase price. For over 90% of owners, gold and silver are savings, not growth stocks or get-rich-quick schemes.",
+          "text_en_b2": "Gold and silver have intrinsic cash value, so they can function as highly liquid reserves rather than ordinary investments. Whether you hold the physical metals, shares in a depository, or futures contracts, the purchase price is broadly similar. However, for more than 90% of owners, these metals are savings, not growth stocks or passive-income miracles. If AI cannot even generate $100,000, that is what a non-cash reserve really means.",
+          "text_en_c1": "Gold and silver possess intrinsic cash value and can serve as highly liquid reserves outside the banking system. Although the precise instrument differs—physical bullion, shares in a depository, or futures contracts—the purchase price is broadly comparable. For more than ninety per cent of holders, however, these metals function as savings rather than growth assets, speculative instruments, or passive-income vehicles. Unless AI first generates a reliable six-figure return in US dollars, metal remains what it has historically been: a non-cash reserve, not a financial miracle.",
+          "text_en_c2": "Gold and silver possess intrinsic cash value, which is precisely why they can serve as non-cash reserves without surrendering their liquidity. Investors may acquire the physical metals, shares through a depository, or futures contracts, and the purchase price is broadly comparable. For more than ninety per cent of holders, however, precious metals function as savings rather than growth stocks or passive-income vehicles. Unlike a business that must eventually generate cash, bullion is valuable in its own right. If AI cannot yet deliver a hundred thousand dollars, it is these instruments—not speculative promises—that provide genuine financial ballast.",
+          "source_url": "https://boards.4chan.org/biz/thread/62802488",
+          "source_hint": "An effort post explains why the poster treats gold and silver mainly as savings."
+        },
+        {
+          "id": "musk-hot-air",
+          "category": "trading",
+          "topic_zh": "馬斯克熱氣",
+          "topic_en": "Musk Hot Air",
+          "text_zh": "Elon話有新 flying car idea，就拎個 demo 出嚟。Hyperloop咁樣失敗幾次，大家照樣野生機，最後又等佢廢項換另一個 childish fantasy。工程上講，demo 唔等於 load path、safety case 同製造可行性。股價升可以係 hype，唔係 validation。",
+          "text_en_b1": "Elon Musk says he has another brilliant flying-car idea and presents a technology demo. But it will probably never work, just like Hyperloop and his earlier projects. Investors give him money again, and one year later he scraps the project for another childish fantasy. The poster asks why investors keep funding hot air and snake oil.",
+          "text_en_b2": "Elon Musk announces another brilliant flying-car idea and presents a technology demo, although Hyperloop and several earlier projects failed repeatedly. Investors nevertheless keep handing him money, and a year later he may abandon the project in favour of another childish fantasy. From an engineering perspective, a demo proves very little: it does not demonstrate a load path, establish a safety case, or show that the vehicle can be manufactured. A rising share price may reflect hype rather than validation.",
+          "text_en_c1": "Whenever Elon Musk announces another supposedly brilliant flying-car concept, a polished technology demo promptly appears to reassure everyone. Yet, judging from Hyperloop and several earlier ventures, the engineering may never withstand scrutiny. Investors fund the spectacle again, only for the project to be abandoned a year later and replaced by an equally childish fantasy. The original poster’s central objection is not merely that Musk overpromises, but that markets continue treating hot air and snake oil as if they were technological validation.",
+          "text_en_c2": "Whenever Elon Musk announces another supposedly brilliant flying-car concept, a technology demo conveniently follows, lending the project an air of inevitability. Yet Hyperloop failed several times, despite attracting considerable public attention, and other pet projects were quietly abandoned once their limitations became inconvenient. Investors have repeatedly supplied fresh capital, only for Musk to discard one endeavour in favour of the next childish fantasy a year later. The central engineering objection is straightforward: a demonstration is not a validated load path, safety case, or viable manufacturing plan. A rising share price may reflect hype rather than technical validation.",
+          "source_url": "https://boards.4chan.org/biz/thread/62801366",
+          "source_hint": "A rant questions why investors repeatedly fund Musk concepts that later disappear."
+        },
+        {
+          "id": "ai-replacement",
+          "category": "tech/ai",
+          "topic_zh": "AI真係上位",
+          "topic_en": "AI Replacing White-Collar Jobs",
+          "text_zh": "AI 係咪真係會 replace programmers、software engineers，同其他 white collar jobs？依家 vibecoding、layoffs、no hiring 晒。廢物以前以為只會車走 truck drivers、artists，或者 useful eaters，估唔到最後係 codemonkey 自己先出事。真係好諷刺lol。",
+          "text_en_b1": "How does /g/ feel about AI replacing programmers, software engineers, and other white-collar jobs? Now that the dust has settled, there are layoffs, less hiring, and more vibecoding. It is funny that developers once thought AI would replace truck drivers, artists, or useless eaters, but probably not themselves.",
+          "text_en_b2": "How does /g/ feel about AI replacing programmers, software engineers, and other white-collar jobs? Although the initial dust has settled, layoffs, reduced hiring, and the rise of vibecoding suggest that the disruption is real. It is deeply ironic that developers once assumed AI would replace truck drivers, artists, or “useless eaters,” while apparently failing to imagine that codemonkeys themselves might be affected first. The result is rather unsettling, to say the least.",
+          "text_en_c1": "Now that the initial excitement has faded, how does /g/ view AI’s growing impact on programmers, software engineers, and white-collar employment more broadly? Layoffs have accelerated, recruitment has slowed, and “vibe coding” is presented as an increasingly viable substitute. The irony is that developers who once assumed automation would displace truck drivers, artists, or “useless eaters” apparently failed to anticipate that the codemonkey might become the first casualty. As long as capital treats AI as a cost-cutting solution rather than a genuine productivity gain, the losses will not be distributed evenly.",
+          "text_en_c2": "How does /g/ now feel about AI replacing programmers, software engineers, and, more broadly, white-collar employment? With the initial excitement apparently over, the consequences are becoming difficult to dismiss: layoffs have increased, hiring has contracted, and an expanding share of software is being produced through vibecoding. The irony is hard to overlook. Developers once assumed that automation would first displace truck drivers, artists, or even the culturally derided “useless eaters,” while exempting themselves from the deepest disruption. Instead, the coder monkey—the very worker automating the workflow—may be among the first professions hollowed out from within by tools marketed as effortless productivity.",
+          "source_url": "https://boards.4chan.org/g/thread/110114035",
+          "source_hint": "The OP asks whether AI and vibecoding are ending software and other white-collar jobs."
+        },
+        {
+          "id": "texas-election",
+          "category": "hk/news",
+          "topic_zh": "德州選舉梗",
+          "topic_en": "Texas Election Musk Drama",
+          "text_zh": "Musk 又發文講 Texas 同 America 嘅政治，但個 post 直接寫成「IT'S HAPPENING」。成件事冇乜工程含量，淨係 Musk、Texas election、GOP 同 doom America 砌埋一堆。鬧熱可信，唔係新聞分析。",
+          "text_en_b1": "Elon Musk claims that Texas and America are doomed if Talarico wins in the state. The post frames this as a dire political warning and says voters should not choose the GOP. The headline and linked X post turn a Texas election claim into maximum online drama.",
+          "text_en_b2": "Elon Musk has once again commented on Texas and American politics, this time insisting that “IT’S HAPPENING” if Talarico wins the state election. The post presents the claim as a dire warning and urges voters not to support the GOP. Yet there is little engineering substance here; it simply combines Musk, the Texas election, the Republican Party, and the prediction that America is doomed. Although the drama generates attention, it is not serious political analysis.",
+          "text_en_c1": "Elon Musk has once again intervened in Texas and American politics, this time warning that America will be doomed if Talarico wins the state election. His post reduces the argument to the emphatic declaration, “IT’S HAPPENING,” without providing meaningful policy analysis or substantive evidence. The framing combines Musk, the Texas race, the Republican Party, and national catastrophe into a single online spectacle. Whatever one makes of the underlying claim, the result is maximum political drama and minimum journalistic scrutiny: a headline engineered for outrage rather than serious political analysis.",
+          "text_en_c2": "Elon Musk has once again ventured into Texas and American politics, declaring that state and nation would be doomed if Talarico won the election. The linked post reduces its argument to the stark proclamation, “IT’S HAPPENING,” offering no meaningful political analysis, policy comparison, or evidential foundation. Instead, it bundles together Musk, a Texas contest, the Republican Party, and the familiar prediction of America’s decline into a single melodramatic appeal. The instruction not to vote for the GOP merely intensifies the sensationalism. Such a post may generate heated discussion, but volume and urgency are not substitutes for substance; online drama is not political analysis.",
+          "source_url": "https://boards.4chan.org/pol/thread/544695876",
+          "source_hint": "A political post links a Musk X post claiming Texas could be doomed."
+        },
+        {
+          "id": "beginner-lifting",
+          "category": "mma/fitness",
+          "topic_zh": "新手開始健身",
+          "topic_en": "Beginner Lifting Whitepill",
+          "text_zh": "Hot cocoa 做 pre-workout，係今日最靠 AI 續命嘅 white pill。任何人都可以開始 lift，唔使有背景。skinny fat mode 六個月內可以 escape，progamming 簡單到離譜，diet 又只係食 protein、少 fast food 同 soda。肥仔信聽日又會叫我做幾組。",
+          "text_en_b1": "Hot cocoa is the best pre-workout edition. Anyone can start lifting without previous sports experience. You can escape skinny-fat mode in less than six months, and people will notice your lifting within a year. Beginner programming is easy: eat enough protein and avoid fast food, candy, and soda.",
+          "text_en_b2": "Hot cocoa is today’s most reliable pre-workout white pill for getting through the day. Anyone can begin lifting without previous sports experience, and although progress varies, skinny-fat mode can be escaped within six months. The programme is almost suspiciously simple: eat enough protein, avoid fast food, candy, and soda, and train consistently. People may notice your lifting within a year, although the real challenge is persuading a skinny-fat beginner to keep showing up tomorrow.",
+          "text_en_c1": "Hot cocoa is apparently the most dependable white pill for extending the beginner lifting lifespan: anyone can start training, regardless of previous athletic experience. Skinny-fat mode can be escaped in under six months, and an appropriately programmed routine may become noticeable within a year. The programme is presented as almost suspiciously straightforward—consume enough protein, limit fast food, and avoid sugary drinks. The accompanying advice is similarly realistic and repetitive: do a few sets, remember to train tomorrow, and eventually stop treating tomorrow as an optional appointment.",
+          "text_en_c2": "Hot cocoa undoubtedly provides today’s most encouraging pre-workout, especially for anyone whose fitness regime depends on AI-assisted intervention. Nevertheless, nobody needs an athletic pedigree to begin lifting weights. A skinny-fat beginner can plausibly escape that condition within six months through consistent training, while others will notice visible lifting progress within a year. The programme is refreshingly simple: consume sufficient protein, avoid fast food and candy, and put soda out of reach. None of this guarantees overnight transformation, but it lowers the barrier to entry considerably. The realistic obstacle is therefore less complicated than the internet suggests—believing that tomorrow will bring another workout.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "A beginner-focused whitepill thread argues that starting lifting and controlling food is simple."
+        },
+        {
+          "id": "black-claver-watch",
+          "category": "anime/culture",
+          "topic_zh": "黑魔導再戰",
+          "topic_en": "Black Clover Watch Thread",
+          "text_zh": "BLACK CLOVER Season 2 Episode 3，一齊開 thread 睇 heated adventure。魔法、冒險、打到亂晒，冇爭議。今晚先追番，之後補 manga，唔好俾我劇透。",
+          "text_en_b1": "BLACK CLOVER Season 2, Episode 3. Come join us and watch one of the most heated adventures in anime! The episode continues the season with magic, action, and a fast-moving conflict. This is an open discussion thread for viewers.",
+          "text_en_b2": "BLACK CLOVER Season 2, Episode 3: come and join the discussion while we watch one of anime’s most heated adventures. The episode continues the season with magic, action, and a conflict that quickly turns chaotic, although there is no doubt about its entertainment value. This is an open thread for viewers, so share your reactions after watching and then catch up on the manga later if you have not already read it.",
+          "text_en_c1": "BLACK CLOVER Season 2, Episode 3 is now ready for discussion. The latest instalment delivers another heated stretch of magic, adventure, and relentless action, with the conflict accelerating and characters pushed into increasingly chaotic circumstances. Whether the episode advances the larger story or simply maximises immediate spectacle, it offers plenty of material for viewers who are following the season in real time. This thread is intended as an open viewing space, so please react to the episode itself and keep manga spoilers clearly marked.",
+          "text_en_c2": "BLACK CLOVER Season 2, Episode 3 has arrived, and viewers are invited to gather for another heated anime adventure. The episode carries the season forward with energetic magic, kinetic combat, and a conflict escalating at a pace that leaves little room for deliberation. Rather than lingering in exposition, it appears to thrust its characters directly into the thick of the action, where alliances, abilities, and personal stakes collide. This is an open discussion thread for anyone following the series in real time. Tonight’s priority is to catch up with the episode before turning to the manga; under no circumstances should spoilers be posted here for readers who have not reached the relevant material.",
+          "source_url": "https://boards.4chan.org/a/thread/291675055",
+          "source_hint": "An episode discussion thread invites viewers to watch Black Clover Season 2 Episode 3."
+        },
+        {
+          "id": "game-dev-slop",
+          "category": "lol",
+          "topic_zh": "遊戲業廢晒",
+          "topic_en": "Game Dev Industry Slop",
+          "text_zh": "Good developers 裁完又裁，最 evil、shitty company 反而 survive，仲話自己 ahead，industry 真係 screwed。Indie game 又畀 low-effort slop 淹沒，做完都冇人知。GTA、Sony 或者 Nintendo 遲早會收拾佢，唔係今日就可能聽日。",
+          "text_en_b1": "You know the game industry is screwed when good developers get shut down, while an awful company survives and comes out ahead. The indie market is also flooded with low-effort slop, making it harder to release a game and attract a fanbase. The poster says Nintendo will eventually be humbled.",
+          "text_en_b2": "The game industry is screwed when capable developers are repeatedly laid off, while an awful, shitty company survives and even comes out ahead by claiming it is more advanced than everyone else. The indie market is also drowning in low-effort slop, making it increasingly difficult to release a finished game or attract a fanbase. Although good work still gets made, it can disappear unnoticed. Nintendo, GTA, or Sony may eventually humble the industry, although not necessarily today; tomorrow might be enough.",
+          "text_en_c1": "The game industry looks especially broken when competent developers are repeatedly laid off, yet an objectively awful company survives and emerges ahead of them. In the independent market, low-effort sludge now floods every release channel, making it harder even for polished projects to attract attention and build a sustainable audience. According to the poster, major operators such as Nintendo may eventually be forced to confront the consequences, although not necessarily today. Until meaningful quality standards return, both studios and independent creators face a market in which visibility is increasingly detached from merit.",
+          "text_en_c2": "The game industry appears to be in serious decline when capable developers are laid off, yet one of its most abrasive, low-quality companies survives and emerges stronger, confidently describing itself as ahead of the curve. The indie market is no less suffocating, since a torrent of effortless, low-effort releases makes it harder for a finished game to secure visibility or attract a committed fanbase. Excellent work can disappear into the noise before audiences have any opportunity to discover it. The poster argues that major players such as GTA, Sony, or Nintendo will eventually impose some measure of discipline. Nintendo, in particular, is expected to be humbled—but perhaps not today, and possibly not tomorrow.",
+          "source_url": "https://boards.4chan.org/v/thread/750091535",
+          "source_hint": "A gaming-industry rant attacks corporate survival and the flood of low-effort indie releases."
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "The rumour mill, that inexhaustible engine of Nintendo speculation, has once more disgorged something sufficiently credible to merit attention: a Norwegian retailer, in a momentary lapse of corporate discretion, has apparently listed Monolith Soft as the developer entrusted with the Ocarina of Time remake for the forthcoming Switch 2. The detail dovetails rather too neatly with the previously leaked controller insignia and Monolith's own conspicuous recruitment patterns to be dismissed as coincidence — the convergence of evidence, taken in aggregate, renders outright denial increasingly untenable. Should the visuals receive the generational upgrade the hardware would permit, a re-purchase becomes almost a foregone conclusion, however cynical one might wish to remain.",
           "source_url": "https://boards.4chan.org/v/thread/746744869",
           "source_hint": "/v/ thread about Norwegian retailer leak listing Monolith Soft for Zelda OoT Switch 2 remake"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-01",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-doge-wallet-2026",
-          "category": "trading",
-          "topic_zh": "撈返2014狗狗幣",
-          "topic_en": "Hacked 2014 Dogecoin wallet",
-          "text_zh": "又有神人hack返自己2014年嘅狗狗幣wallet 拎返730,000 DOGE 大約60K USD 問應該點投資 又係學費post 真實我哋個個都係咁 想睇下有冇神話可以跟🙏",
-          "text_en_b1": "An anon just hacked into his own Dogecoin wallet from 2014 and recovered 730,000 DOGE. That is about $60,000 USD today. He is asking /biz/ what to invest in. He thinks real estate might be smart in his area. He wants ideas. Classic dream ticket story. Will he actually cash out or ape into another shitcoin?",
-          "text_en_b2": "An anon managed to hack back into his long-abandoned Dogecoin wallet from 2014, recovering roughly 730,000 DOGE worth around $60K at current rates. He has been flooding /biz/ asking what to do with it, leaning toward real estate despite being uncertain. The thread suspects he will either cash out sensibly or recklessly ape into another meme coin, because this exact storyline plays out every cycle. A textbook lucky-ticket post.",
-          "text_en_c1": "An anonymous user on /biz/ has reportedly cracked his long-dormant 2014 Dogecoin wallet, successfully extracting roughly 730,000 DOGE valued at approximately $60,000 USD. Rather than converting the windfall to fiat, he is soliciting investment advice, leaning toward local real estate opportunities on the grounds that property values in his region remain buoyant. The thread has predictably devolved into the familiar lottery-ticket rhetoric that haunts the board whenever someone uncovers forgotten coins. Sceptics wonder aloud whether he will exercise restraint and cash out responsibly, or, as has become customary with such windfalls, ape impulsively into another speculative shitcoin and watch the gains evaporate within weeks.",
-          "text_en_c2": "An anonymous poster has reportedly circumvented his own dormant 2014 Dogecoin wallet, extracting roughly 730,000 DOGE, presently valued at approximately sixty thousand US dollars. He now solicits investment counsel from /biz/, musing that local real estate might prove prudent given regional price trajectories, though he remains palpably uncertain whether to liquidate and crystallise the gain or rotate into speculative altcoins. The thread bears every hallmark of the archetypal windfall post: years of forfeiture followed by serendipitous retrieval, and an earnest request for guidance from strangers whose fiduciary credentials are, charitably speaking, dubious. Whether this individual exits gracefully or succumbs to the gravitational pull of another degen allocation remains the operative question, and the board watches with the detached amusement of seasoned spectators who have witnessed this precise melodrama enacted countless times.",
-          "source_url": "https://boards.4chan.org/biz/thread/62646317",
-          "source_hint": "/biz/ thread about recovering a 2014 DOGE wallet"
-        },
-        {
-          "id": "biz-btc-pump-fomo-2026",
-          "category": "trading",
-          "topic_zh": "BTC pump完先追",
-          "topic_en": "BTC pump chase",
-          "text_zh": "wtf BTC 橫盤幾星期冇人理 然後一日pump 15% 啲人先衝入去 點解永遠都係咁 真實我哋都係fomo入場嘅廢物 lol 🧐",
-          "text_en_b1": "BTC does literally nothing for weeks and nobody cares. Then it pumps 15% in a day and suddenly everyone wants in. Why does the crowd always chase the move after it has already happened? You ignored it at 60k, now you FOMO at 70k. The pattern never changes. Classic late-stage FOMO behaviour on /biz/.",
-          "text_en_b2": "BTC spent weeks consolidating sideways while /biz/ completely tuned out, then ripped 15% in a single day and suddenly every self-proclaimed permabull is rushing back in. The irony is staggering, because the same crowd ignored it at 60k and is now panic-buying at 70k. You cannot chase a move after it has already happened and expect to be early. It is the same FOMO pattern repeating endlessly.",
-          "text_en_c1": "Bitcoin spent several weeks consolidating within a narrow band while mainstream attention drifted elsewhere. Then, almost overnight, it surged roughly fifteen percent, and predictably, the same retail crowd that dismissed it at sixty thousand suddenly developed an insatiable appetite for exposure at seventy. The thread laments what appears to be a structural pathology in market psychology: capital consistently arrives after the move has already been made. Several anons observe that this pattern, whereby participants buy strength and ignore accumulation, has repeated across every previous cycle. Whether this constitutes terminal-stage FOMO or merely the usual late-February reshuffling remains, as ever, a matter of conviction.",
-          "text_en_c2": "Bitcoin's protracted consolidation, extending across several weeks of anaemic price action, elicited scarcely a murmur of interest from retail participants. The moment a fifteen-percent single-day ascent materialised, however, the commentariat materialised in droves, contritely enquiring whether entry was still feasible. This reflexive pattern, wherein investors studiously ignore accumulation beneath sixty thousand dollars only to capitulate to euphoria above seventy, has acquired the force of immutable market liturgy. The post captures, with admirable economy, the perennial asymmetry between capital deployment and contrarian conviction, and the respondents collectively diagnosed themselves as late-stage FOMO casualties. Whether any participant in such threads has ever timed a subsequent move competently remains an open empirical question, though the evidentiary record, as history suggests, is not encouraging.",
-          "source_url": "https://boards.4chan.org/biz/thread/62625769",
-          "source_hint": "/biz/ thread mocking retail FOMO after a BTC pump"
-        },
-        {
-          "id": "g-tech-jobs-ai-proof-2026",
-          "category": "tech/ai",
-          "topic_zh": "邊啲工AI搶唔走",
-          "topic_en": "AI-proof tech jobs",
-          "text_zh": "/g/ 問緊邊啲tech job AI未來十年搶唔走 真實我survey呢行都驚畀AI搞 但起碼考牌先算professional 唔想做code monkey 🙏",
-          "text_en_b1": "An anon on /g/ asks which tech jobs will survive the next decade. Software development is already getting hit by AI coding tools. Surveying and engineering fields with strict licensing are mentioned as safer. Manual trades, licensed professions, and hardware work seem more durable. White collar is not safe anymore.",
-          "text_en_b2": "An /g/ poster asked which tech careers will remain viable once AI finishes eating the industry, and the responses clustered around licensing and physical work. Software development is already getting hammered by coding assistants, whereas surveying, engineering, and licensed trades require credentials AI cannot fake. The general takeaway is grim for white-collar workers, because anything knowledge-based is increasingly on the chopping block.",
-          "text_en_c1": "A thread on /g/ has resurfaced the perennial question of which technical professions remain defensible against the encroachment of generative AI over the coming decade. Software development, once considered the most insulated white-collar discipline, is now visibly eroding as coding assistants handle increasingly complex tasks. By contrast, licensed surveying, civil engineering, and the licensed trades appear considerably more durable, since regulatory barriers prevent algorithmic substitution. Hardware-oriented specialisations, plumbing, and electrical work are likewise cited as resilient categories. The implicit consensus, articulated with characteristic bluntness, holds that any field whose entry is gated by examinations rather than tutorials will likely outlast those that are not.",
-          "text_en_c2": "A protracted /g/ thread interrogates which technology-adjacent vocations might retain their market value over the coming decade, an inquiry animated by palpable professional anxiety. Software development, once regarded as fortress-proof, is already conceding ground to increasingly capable AI coding assistants, and the consensus gravitates toward regulated disciplines demanding licensure: surveying, civil engineering, electrical work. Manual trades and hands-on hardware specialisms, requiring embodied presence and legal certification, appear considerably more durable than cognitive desk work, which has been thoroughly commoditised. The implicit thesis, that credentialed expertise insulates practitioners from algorithmic substitution more effectively than raw technical fluency, carries a certain grim resonance, and respondents express, with varying degrees of equanimity, their resignation to a labour market wherein competence alone no longer confers competitive moats.",
-          "source_url": "https://boards.4chan.org/g/thread/109690081",
-          "source_hint": "/g/ thread on AI-proof tech careers"
-        },
-        {
-          "id": "pol-anduril-luckey-2026",
-          "category": "hk/news",
-          "topic_zh": "Anduril係咪吹水",
-          "topic_en": "Is Anduril vaporware",
-          "text_zh": "Anduril同Palmer Luckey /pol/ 話佢似Elon但得個吹字 真實工程做到嘢先算 HK咁細做乜都冇space 美國先係做嘢嘅地方 🧐",
-          "text_en_b1": "Anduril and Palmer Luckey get compared to pre-heel-turn Elon on /pol/. But the thread argues Anduril ships overhyped vaporware that fails under fire, citing Ukraine. At least Elon launched rockets and made a real EV. Why are right wingers sucking his dick when the delivery record is thin?",
-          "text_en_b2": "/pol/ is drawing parallels between Palmer Luckey and a pre-heel-turn Elon, although sceptics insist Anduril ships little beyond overhyped vaporware that falls apart under real conditions, citing Ukraine as evidence. At least Elon actually delivered rockets and a functioning EV, whereas Luckey is still coasting on vibes and aggressive marketing. The thread wonders why right-wing circles keep sucking him off when his delivery record remains paper-thin.",
-          "text_en_c1": "Anduril and its founder Palmer Luckey have drawn comparisons on /pol/ to a pre-crisis Elon Musk, a parallel the thread ultimately finds uncharitable. Whereas Musk, whatever his subsequent eccentricities, demonstrably launched orbital rockets and delivered a mass-market electric vehicle, Luckey's operation allegedly dispatches vapourware that collapses the moment it encounters genuine combat conditions, with Ukraine cited as the cautionary exemplar. The thread contends that investors are conflating political aesthetics with engineering substance, and questions why certain right-leaning commentators persist in championing a figure whose tangible delivery record, relative to the volume of capital deployed, remains conspicuously thin. Hong Kong's constraints are invoked for contrast.",
-          "text_en_c2": "Anduril and its founder Palmer Luckey have attracted comparisons, on /pol/, to a pre-canonical Elon Musk, though the parallel collapses under even cursory scrutiny. The thread contends that Anduril's battlefield deliverables, assessed against operational data from Ukraine, consist largely of vapourware dressed in venture-capitalist mythology, whereas Musk, whatever his subsequent eccentricities, did propel functional rockets skyward and serialise a credible electric vehicle. The respondents, themselves self-identified right-wingers, are gently rebuked for succumbing to founder-worship untethered from performance metrics. Hong Kong's diminutive geography renders industrial ambition structurally untenable, the post concludes, leaving the United States, with its sprawling procurement apparatus and vast operational theatre, as the only venue wherein such ventures can either vindicate themselves or, as here, spectacularly fall short.",
-          "source_url": "https://boards.4chan.org/pol/thread/541759217",
-          "source_hint": "/pol/ thread trashing Anduril vs Elon"
-        },
-        {
-          "id": "v-dlss5-anime-2026",
-          "category": "lol/esports",
-          "topic_zh": "DLSS5毀咗動畫",
-          "topic_en": "DLSS 5 destroys anime art",
-          "text_zh": "/v/ 話DLSS5根本毀咗anime art style 啲人仲話係kino wtf 真實我打LOL開DLSS已經夠恐怖lol 畫風變晒 🧐",
-          "text_en_b1": "DLSS 5 dropped and /v/ is losing its mind. Anons say it completely butchers anime art style. Faces look smeared, lines look melted, and cel shading is gone. Some users unironically call it kino and get roasted. Classic NVIDIA upgrade that nobody asked for. Modders will probably disable it in two weeks.",
-          "text_en_b2": "DLSS 5 has dropped and /v/ is absolutely losing it, because anons say the new upscaling completely butchered anime art styles. Faces appear smeared, linework looks melted, and the cel-shading is essentially gone. Some users genuinely called it kino and got mercilessly roasted for it. Modders will probably patch it out within a fortnight, although for now the community is fuming over an upgrade nobody asked for.",
-          "text_en_c1": "NVIDIA's DLSS 5 has detonated on /v/, where anons argue that the upscaling pipeline effectively obliterates the aesthetic integrity of anime-style rendering. Facial features reportedly appear smeared, line work resembles something that has softened under heat, and the crisp cel-shading that defines the medium has been homogenised into a plasticky approximation. A handful of users, perhaps ironically, perhaps in earnest, have pronounced the result kino, an assessment that has predictably attracted considerable scorn. The broader sentiment holds that this constitutes yet another unsolicited intervention by NVIDIA into visual presentation. Modders, historically responsive to such controversies, will almost certainly furnish a toggle within a fortnight.",
-          "text_en_c2": "The release of DLSS 5 has occasioned, on /v/, a collective convulsion of indignation that has not abated since the driver's deployment. Anons contend, with characteristic vehemence, that the upscaling algorithm systematically mutilates anime aesthetics, transforming crisp cel-shading into an indistinct smear and rendering facial features indistinguishable from melted wax. A minority faction has unironically pronounced the resultant visual chaos kino, thereby inviting the customary ritualised evisceration from the broader community. NVIDIA's upgrade pipeline, it is generally conceded, addresses problems that scarcely existed whilst generating grievances that manifestly do. Modders, the thread confidently predicts, will have the offending feature neutered within a fortnight, restoring the integrity of hand-drawn linework and consigning this particular intervention to the canonical archive of well-intentioned but unwelcome revisions.",
-          "source_url": "https://boards.4chan.org/v/thread/746586609",
-          "source_hint": "/v/ thread raging about DLSS 5 anime art"
-        },
-        {
-          "id": "fit-cut-fatigue-2026",
-          "category": "mma/fitness",
-          "topic_zh": "Cut到冇力舉鐵",
-          "topic_en": "Cutting kills my lifts",
-          "text_zh": "/fit/ 條友cut緊45磅但冇力舉鐵 squat個陣心口好似被人強姦 真實我明 考牌壓力大到食唔落 想搵肥仔信一齊gym傾下 lol 🙏",
-          "text_en_b1": "An anon on /fit/ lost 45 pounds in 3 months but lost muscle and strength along the way. He says gym sessions wreck him because he cannot eat enough. Squats make his heart feel like it is dying. He has to force feed himself every morning and still cannot finish whole meals. Classic hard cut suffering.",
-          "text_en_b2": "An /fit/ anon dropped 45 pounds in three months but is now paying the price in crushed lifts and brutal fatigue. He describes squats as feeling like his heart is being squeezed out of his chest, because his caloric deficit leaves him running on fumes. He force-feeds himself every morning yet still cannot finish full meals. Classic hard-cut suffering, compounded by exam stress killing his appetite.",
-          "text_en_c1": "An anon on /fit/ has shed roughly forty-five pounds in three months, yet the accomplishment has come at a considerable physiological cost: his lifts have collapsed, and he describes each gym session as a calculated act of self-destruction. Compound movements, particularly squats, induce a cardiac sensation he likens to thoracic trauma. The underlying culprit appears to be a caloric deficit so aggressive that even force-feeding first thing in the morning fails to bring him to maintenance. He cannot finish whole meals despite deliberate effort. The thread resonates with users who recognise the brutal arithmetic of hard cuts, where visible fat loss and measurable strength loss march in uncomfortable lockstep.",
-          "text_en_c2": "A /fit/ participant, having executed an aggressive cut of forty-five pounds across a compressed three-month window, now finds himself physiologically and psychologically depleted, a casualty of the caloric deficit's unforgiving arithmetic. He reports that compound lifts, particularly squats, induce cardiovascular distress of a severity suggesting imminent mortality, and his gastrointestinal capacity has contracted to the point where he can no longer complete standard meals despite ritualised morning force-feeding. The post functions as both confessional and cautionary tale, illustrating the well-documented inverse correlation between aggressive fat loss and performance retention, and the respondents, drawing upon their own accumulated suffering, have offered the customary cocktail of empathy, unsolicited macros, and the bleak reminder that maintenance phases exist precisely to forestall such circumstances, advice that, however accurate, arrives predictably late.",
-          "source_url": "https://boards.4chan.org/fit/thread/77480573",
-          "source_hint": "/fit/ thread about losing strength on a hard cut"
-        },
-        {
-          "id": "a-gundam-hathaway-2026",
-          "category": "anime/culture",
-          "topic_zh": "Hathaway駕駛員",
-          "topic_en": "Hathaway cockpit crush",
-          "text_zh": "/a/ 班宅宅睇完Gundam Hathaway 又想要個tomboy mobile suit mechanic喺狹窄駕駛艙同佢一齊做嘢 lol 我都想要 真實考牌都未搞掂 諗埋呢啲 🙏",
-          "text_en_b1": "Gundam: Hathaway TSONC just dropped and /a/ is having a meltdown. Anons demand a tomboy mobile suit mechanic who busily works inside a cramped cockpit with them. Cosplayers are already posting concept art. The Tomino flavour is strong and the thirst posts are overflowing. Hathaway fans are unhinged as always.",
-          "text_en_b2": "Gundam: Hathaway's Flash dropped and /a/ has completely lost its collective mind, with anons demanding a tomboy mobile suit mechanic who busily tinkers inside their cramped cockpit during operations. Cosplayers have already begun posting fresh concept art across the thread, and the Tomino flavour is off the charts. Hathaway fans remain deeply unhinged as always, churning out thirst posts at an alarming rate while the rest of us are still studying.",
-          "text_en_c1": "Gundam: Hathaway has prompted what can only be described as a collective psychotic episode on /a/, where anons have fixated upon the prospect of a tomboyish mobile suit mechanic, clad in grease-stained coveralls, labouring diligently within the confines of a cramped cockpit alongside them. Concept artists have already begun circulating speculative illustrations, each rendering more elaborate than the last. The Tomino-inflected romanticism of the source material, with its suffocating interiors and morally compromised protagonists, appears to have catalysed an outpouring of longing that exceeds the modest narrative warrant. The thread's tonal register oscillates between earnest yearning and self-aware absurdity, which is, of course, par for the course.",
-          "text_en_c2": "Theatrical release of Gundam: Hathaway has induced, on /a/, the customary cognitive malfunction that attends Tomino-adjacent properties, with the commentariat swiftly pivoting from narrative analysis to demands for a tomboyish mobile suit mechanic whose duties would, apparently, require her prolonged residence within the protagonist's cramped cockpit. Cosplayers have already begun circulating concept art of considerable ambition, and the thirst posts have attained a density that threatens to overwhelm the substantive discussion. The thread encapsulates, with admirable precision, the particular intersection of mecha fetishism and unauthorised yearning that defines the board's relationship with the franchise, and the respondents, whilst ostensibly critiquing character dynamics, are transparently engaged in elaborate speculative worldbuilding wherein their professional certifications, conspicuously absent, would somehow prove irrelevant.",
-          "source_url": "https://boards.4chan.org/a/thread/290569832",
-          "source_hint": "/a/ thirst thread for Higgsway mech girl"
         }
       ]
     }

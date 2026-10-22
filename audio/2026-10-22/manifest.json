@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-22",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "gold-reserves",
+      "topic_en": "Gold and Silver Reserves",
+      "topic_zh": "金銀唔係彩票",
+      "category": "trading",
+      "files": {
+        "b1": "clip-gold-reserves-b1.mp3",
+        "b2": "clip-gold-reserves-b2.mp3",
+        "c1": "clip-gold-reserves-c1.mp3",
+        "c2": "clip-gold-reserves-c2.mp3"
+      }
+    },
+    {
+      "id": "musk-hot-air",
+      "topic_en": "Musk Hot Air",
+      "topic_zh": "馬斯克熱氣",
+      "category": "trading",
+      "files": {
+        "b1": "clip-musk-hot-air-b1.mp3",
+        "b2": "clip-musk-hot-air-b2.mp3",
+        "c1": "clip-musk-hot-air-c1.mp3",
+        "c2": "clip-musk-hot-air-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-replacement",
+      "topic_en": "AI Replacing White-Collar Jobs",
+      "topic_zh": "AI真係上位",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-replacement-b1.mp3",
+        "b2": "clip-ai-replacement-b2.mp3",
+        "c1": "clip-ai-replacement-c1.mp3",
+        "c2": "clip-ai-replacement-c2.mp3"
+      }
+    },
+    {
+      "id": "texas-election",
+      "topic_en": "Texas Election Musk Drama",
+      "topic_zh": "德州選舉梗",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-texas-election-b1.mp3",
+        "b2": "clip-texas-election-b2.mp3",
+        "c1": "clip-texas-election-c1.mp3",
+        "c2": "clip-texas-election-c2.mp3"
+      }
+    },
+    {
+      "id": "beginner-lifting",
+      "topic_en": "Beginner Lifting Whitepill",
+      "topic_zh": "新手開始健身",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-beginner-lifting-b1.mp3",
+        "b2": "clip-beginner-lifting-b2.mp3",
+        "c1": "clip-beginner-lifting-c1.mp3",
+        "c2": "clip-beginner-lifting-c2.mp3"
+      }
+    },
+    {
+      "id": "black-claver-watch",
+      "topic_en": "Black Clover Watch Thread",
+      "topic_zh": "黑魔導再戰",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-black-claver-watch-b1.mp3",
+        "b2": "clip-black-claver-watch-b2.mp3",
+        "c1": "clip-black-claver-watch-c1.mp3",
+        "c2": "clip-black-claver-watch-c2.mp3"
+      }
+    },
+    {
+      "id": "game-dev-slop",
+      "topic_en": "Game Dev Industry Slop",
+      "topic_zh": "遊戲業廢晒",
+      "category": "lol",
+      "files": {
+        "b1": "clip-game-dev-slop-b1.mp3",
+        "b2": "clip-game-dev-slop-b2.mp3",
+        "c1": "clip-game-dev-slop-c1.mp3",
+        "c2": "clip-game-dev-slop-c2.mp3"
+      }
+    }
+  ]
+}

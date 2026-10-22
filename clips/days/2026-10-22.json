@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-22",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "gold-reserves",
+      "category": "trading",
+      "topic_zh": "金銀唔係彩票",
+      "topic_en": "Gold and Silver Reserves",
+      "text_zh": "金銀有 intrinsic cash value，實物、depository shares 或者 futures 都差唔多。超過九成持有人買金銀係當 savings，唔係 growth stock，更加唔係 passive income 奇蹟。靠AI續命都未掙到100K USD，呢啲先係 non-cash reserves。",
+      "text_en_b1": "Gold and silver have intrinsic cash value. They can be held as non-cash reserves while remaining highly liquid. You can own the physical metals, shares in a depository, or futures contracts with little difference in purchase price. For over 90% of owners, gold and silver are savings, not growth stocks or get-rich-quick schemes.",
+      "text_en_b2": "Gold and silver have intrinsic cash value, so they can function as highly liquid reserves rather than ordinary investments. Whether you hold the physical metals, shares in a depository, or futures contracts, the purchase price is broadly similar. However, for more than 90% of owners, these metals are savings, not growth stocks or passive-income miracles. If AI cannot even generate $100,000, that is what a non-cash reserve really means.",
+      "text_en_c1": "Gold and silver possess intrinsic cash value and can serve as highly liquid reserves outside the banking system. Although the precise instrument differs—physical bullion, shares in a depository, or futures contracts—the purchase price is broadly comparable. For more than ninety per cent of holders, however, these metals function as savings rather than growth assets, speculative instruments, or passive-income vehicles. Unless AI first generates a reliable six-figure return in US dollars, metal remains what it has historically been: a non-cash reserve, not a financial miracle.",
+      "text_en_c2": "Gold and silver possess intrinsic cash value, which is precisely why they can serve as non-cash reserves without surrendering their liquidity. Investors may acquire the physical metals, shares through a depository, or futures contracts, and the purchase price is broadly comparable. For more than ninety per cent of holders, however, precious metals function as savings rather than growth stocks or passive-income vehicles. Unlike a business that must eventually generate cash, bullion is valuable in its own right. If AI cannot yet deliver a hundred thousand dollars, it is these instruments—not speculative promises—that provide genuine financial ballast.",
+      "source_url": "https://boards.4chan.org/biz/thread/62802488",
+      "source_hint": "An effort post explains why the poster treats gold and silver mainly as savings."
+    },
+    {
+      "id": "musk-hot-air",
+      "category": "trading",
+      "topic_zh": "馬斯克熱氣",
+      "topic_en": "Musk Hot Air",
+      "text_zh": "Elon話有新 flying car idea，就拎個 demo 出嚟。Hyperloop咁樣失敗幾次，大家照樣野生機，最後又等佢廢項換另一個 childish fantasy。工程上講，demo 唔等於 load path、safety case 同製造可行性。股價升可以係 hype，唔係 validation。",
+      "text_en_b1": "Elon Musk says he has another brilliant flying-car idea and presents a technology demo. But it will probably never work, just like Hyperloop and his earlier projects. Investors give him money again, and one year later he scraps the project for another childish fantasy. The poster asks why investors keep funding hot air and snake oil.",
+      "text_en_b2": "Elon Musk announces another brilliant flying-car idea and presents a technology demo, although Hyperloop and several earlier projects failed repeatedly. Investors nevertheless keep handing him money, and a year later he may abandon the project in favour of another childish fantasy. From an engineering perspective, a demo proves very little: it does not demonstrate a load path, establish a safety case, or show that the vehicle can be manufactured. A rising share price may reflect hype rather than validation.",
+      "text_en_c1": "Whenever Elon Musk announces another supposedly brilliant flying-car concept, a polished technology demo promptly appears to reassure everyone. Yet, judging from Hyperloop and several earlier ventures, the engineering may never withstand scrutiny. Investors fund the spectacle again, only for the project to be abandoned a year later and replaced by an equally childish fantasy. The original poster’s central objection is not merely that Musk overpromises, but that markets continue treating hot air and snake oil as if they were technological validation.",
+      "text_en_c2": "Whenever Elon Musk announces another supposedly brilliant flying-car concept, a technology demo conveniently follows, lending the project an air of inevitability. Yet Hyperloop failed several times, despite attracting considerable public attention, and other pet projects were quietly abandoned once their limitations became inconvenient. Investors have repeatedly supplied fresh capital, only for Musk to discard one endeavour in favour of the next childish fantasy a year later. The central engineering objection is straightforward: a demonstration is not a validated load path, safety case, or viable manufacturing plan. A rising share price may reflect hype rather than technical validation.",
+      "source_url": "https://boards.4chan.org/biz/thread/62801366",
+      "source_hint": "A rant questions why investors repeatedly fund Musk concepts that later disappear."
+    },
+    {
+      "id": "ai-replacement",
+      "category": "tech/ai",
+      "topic_zh": "AI真係上位",
+      "topic_en": "AI Replacing White-Collar Jobs",
+      "text_zh": "AI 係咪真係會 replace programmers、software engineers，同其他 white collar jobs？依家 vibecoding、layoffs、no hiring 晒。廢物以前以為只會車走 truck drivers、artists，或者 useful eaters，估唔到最後係 codemonkey 自己先出事。真係好諷刺lol。",
+      "text_en_b1": "How does /g/ feel about AI replacing programmers, software engineers, and other white-collar jobs? Now that the dust has settled, there are layoffs, less hiring, and more vibecoding. It is funny that developers once thought AI would replace truck drivers, artists, or useless eaters, but probably not themselves.",
+      "text_en_b2": "How does /g/ feel about AI replacing programmers, software engineers, and other white-collar jobs? Although the initial dust has settled, layoffs, reduced hiring, and the rise of vibecoding suggest that the disruption is real. It is deeply ironic that developers once assumed AI would replace truck drivers, artists, or “useless eaters,” while apparently failing to imagine that codemonkeys themselves might be affected first. The result is rather unsettling, to say the least.",
+      "text_en_c1": "Now that the initial excitement has faded, how does /g/ view AI’s growing impact on programmers, software engineers, and white-collar employment more broadly? Layoffs have accelerated, recruitment has slowed, and “vibe coding” is presented as an increasingly viable substitute. The irony is that developers who once assumed automation would displace truck drivers, artists, or “useless eaters” apparently failed to anticipate that the codemonkey might become the first casualty. As long as capital treats AI as a cost-cutting solution rather than a genuine productivity gain, the losses will not be distributed evenly.",
+      "text_en_c2": "How does /g/ now feel about AI replacing programmers, software engineers, and, more broadly, white-collar employment? With the initial excitement apparently over, the consequences are becoming difficult to dismiss: layoffs have increased, hiring has contracted, and an expanding share of software is being produced through vibecoding. The irony is hard to overlook. Developers once assumed that automation would first displace truck drivers, artists, or even the culturally derided “useless eaters,” while exempting themselves from the deepest disruption. Instead, the coder monkey—the very worker automating the workflow—may be among the first professions hollowed out from within by tools marketed as effortless productivity.",
+      "source_url": "https://boards.4chan.org/g/thread/110114035",
+      "source_hint": "The OP asks whether AI and vibecoding are ending software and other white-collar jobs."
+    },
+    {
+      "id": "texas-election",
+      "category": "hk/news",
+      "topic_zh": "德州選舉梗",
+      "topic_en": "Texas Election Musk Drama",
+      "text_zh": "Musk 又發文講 Texas 同 America 嘅政治，但個 post 直接寫成「IT'S HAPPENING」。成件事冇乜工程含量，淨係 Musk、Texas election、GOP 同 doom America 砌埋一堆。鬧熱可信，唔係新聞分析。",
+      "text_en_b1": "Elon Musk claims that Texas and America are doomed if Talarico wins in the state. The post frames this as a dire political warning and says voters should not choose the GOP. The headline and linked X post turn a Texas election claim into maximum online drama.",
+      "text_en_b2": "Elon Musk has once again commented on Texas and American politics, this time insisting that “IT’S HAPPENING” if Talarico wins the state election. The post presents the claim as a dire warning and urges voters not to support the GOP. Yet there is little engineering substance here; it simply combines Musk, the Texas election, the Republican Party, and the prediction that America is doomed. Although the drama generates attention, it is not serious political analysis.",
+      "text_en_c1": "Elon Musk has once again intervened in Texas and American politics, this time warning that America will be doomed if Talarico wins the state election. His post reduces the argument to the emphatic declaration, “IT’S HAPPENING,” without providing meaningful policy analysis or substantive evidence. The framing combines Musk, the Texas race, the Republican Party, and national catastrophe into a single online spectacle. Whatever one makes of the underlying claim, the result is maximum political drama and minimum journalistic scrutiny: a headline engineered for outrage rather than serious political analysis.",
+      "text_en_c2": "Elon Musk has once again ventured into Texas and American politics, declaring that state and nation would be doomed if Talarico won the election. The linked post reduces its argument to the stark proclamation, “IT’S HAPPENING,” offering no meaningful political analysis, policy comparison, or evidential foundation. Instead, it bundles together Musk, a Texas contest, the Republican Party, and the familiar prediction of America’s decline into a single melodramatic appeal. The instruction not to vote for the GOP merely intensifies the sensationalism. Such a post may generate heated discussion, but volume and urgency are not substitutes for substance; online drama is not political analysis.",
+      "source_url": "https://boards.4chan.org/pol/thread/544695876",
+      "source_hint": "A political post links a Musk X post claiming Texas could be doomed."
+    },
+    {
+      "id": "beginner-lifting",
+      "category": "mma/fitness",
+      "topic_zh": "新手開始健身",
+      "topic_en": "Beginner Lifting Whitepill",
+      "text_zh": "Hot cocoa 做 pre-workout，係今日最靠 AI 續命嘅 white pill。任何人都可以開始 lift，唔使有背景。skinny fat mode 六個月內可以 escape，progamming 簡單到離譜，diet 又只係食 protein、少 fast food 同 soda。肥仔信聽日又會叫我做幾組。",
+      "text_en_b1": "Hot cocoa is the best pre-workout edition. Anyone can start lifting without previous sports experience. You can escape skinny-fat mode in less than six months, and people will notice your lifting within a year. Beginner programming is easy: eat enough protein and avoid fast food, candy, and soda.",
+      "text_en_b2": "Hot cocoa is today’s most reliable pre-workout white pill for getting through the day. Anyone can begin lifting without previous sports experience, and although progress varies, skinny-fat mode can be escaped within six months. The programme is almost suspiciously simple: eat enough protein, avoid fast food, candy, and soda, and train consistently. People may notice your lifting within a year, although the real challenge is persuading a skinny-fat beginner to keep showing up tomorrow.",
+      "text_en_c1": "Hot cocoa is apparently the most dependable white pill for extending the beginner lifting lifespan: anyone can start training, regardless of previous athletic experience. Skinny-fat mode can be escaped in under six months, and an appropriately programmed routine may become noticeable within a year. The programme is presented as almost suspiciously straightforward—consume enough protein, limit fast food, and avoid sugary drinks. The accompanying advice is similarly realistic and repetitive: do a few sets, remember to train tomorrow, and eventually stop treating tomorrow as an optional appointment.",
+      "text_en_c2": "Hot cocoa undoubtedly provides today’s most encouraging pre-workout, especially for anyone whose fitness regime depends on AI-assisted intervention. Nevertheless, nobody needs an athletic pedigree to begin lifting weights. A skinny-fat beginner can plausibly escape that condition within six months through consistent training, while others will notice visible lifting progress within a year. The programme is refreshingly simple: consume sufficient protein, avoid fast food and candy, and put soda out of reach. None of this guarantees overnight transformation, but it lowers the barrier to entry considerably. The realistic obstacle is therefore less complicated than the internet suggests—believing that tomorrow will bring another workout.",
+      "source_url": "https://boards.4chan.org/fit/thread/77568714",
+      "source_hint": "A beginner-focused whitepill thread argues that starting lifting and controlling food is simple."
+    },
+    {
+      "id": "black-claver-watch",
+      "category": "anime/culture",
+      "topic_zh": "黑魔導再戰",
+      "topic_en": "Black Clover Watch Thread",
+      "text_zh": "BLACK CLOVER Season 2 Episode 3，一齊開 thread 睇 heated adventure。魔法、冒險、打到亂晒，冇爭議。今晚先追番，之後補 manga，唔好俾我劇透。",
+      "text_en_b1": "BLACK CLOVER Season 2, Episode 3. Come join us and watch one of the most heated adventures in anime! The episode continues the season with magic, action, and a fast-moving conflict. This is an open discussion thread for viewers.",
+      "text_en_b2": "BLACK CLOVER Season 2, Episode 3: come and join the discussion while we watch one of anime’s most heated adventures. The episode continues the season with magic, action, and a conflict that quickly turns chaotic, although there is no doubt about its entertainment value. This is an open thread for viewers, so share your reactions after watching and then catch up on the manga later if you have not already read it.",
+      "text_en_c1": "BLACK CLOVER Season 2, Episode 3 is now ready for discussion. The latest instalment delivers another heated stretch of magic, adventure, and relentless action, with the conflict accelerating and characters pushed into increasingly chaotic circumstances. Whether the episode advances the larger story or simply maximises immediate spectacle, it offers plenty of material for viewers who are following the season in real time. This thread is intended as an open viewing space, so please react to the episode itself and keep manga spoilers clearly marked.",
+      "text_en_c2": "BLACK CLOVER Season 2, Episode 3 has arrived, and viewers are invited to gather for another heated anime adventure. The episode carries the season forward with energetic magic, kinetic combat, and a conflict escalating at a pace that leaves little room for deliberation. Rather than lingering in exposition, it appears to thrust its characters directly into the thick of the action, where alliances, abilities, and personal stakes collide. This is an open discussion thread for anyone following the series in real time. Tonight’s priority is to catch up with the episode before turning to the manga; under no circumstances should spoilers be posted here for readers who have not reached the relevant material.",
+      "source_url": "https://boards.4chan.org/a/thread/291675055",
+      "source_hint": "An episode discussion thread invites viewers to watch Black Clover Season 2 Episode 3."
+    },
+    {
+      "id": "game-dev-slop",
+      "category": "lol",
+      "topic_zh": "遊戲業廢晒",
+      "topic_en": "Game Dev Industry Slop",
+      "text_zh": "Good developers 裁完又裁，最 evil、shitty company 反而 survive，仲話自己 ahead，industry 真係 screwed。Indie game 又畀 low-effort slop 淹沒，做完都冇人知。GTA、Sony 或者 Nintendo 遲早會收拾佢，唔係今日就可能聽日。",
+      "text_en_b1": "You know the game industry is screwed when good developers get shut down, while an awful company survives and comes out ahead. The indie market is also flooded with low-effort slop, making it harder to release a game and attract a fanbase. The poster says Nintendo will eventually be humbled.",
+      "text_en_b2": "The game industry is screwed when capable developers are repeatedly laid off, while an awful, shitty company survives and even comes out ahead by claiming it is more advanced than everyone else. The indie market is also drowning in low-effort slop, making it increasingly difficult to release a finished game or attract a fanbase. Although good work still gets made, it can disappear unnoticed. Nintendo, GTA, or Sony may eventually humble the industry, although not necessarily today; tomorrow might be enough.",
+      "text_en_c1": "The game industry looks especially broken when competent developers are repeatedly laid off, yet an objectively awful company survives and emerges ahead of them. In the independent market, low-effort sludge now floods every release channel, making it harder even for polished projects to attract attention and build a sustainable audience. According to the poster, major operators such as Nintendo may eventually be forced to confront the consequences, although not necessarily today. Until meaningful quality standards return, both studios and independent creators face a market in which visibility is increasingly detached from merit.",
+      "text_en_c2": "The game industry appears to be in serious decline when capable developers are laid off, yet one of its most abrasive, low-quality companies survives and emerges stronger, confidently describing itself as ahead of the curve. The indie market is no less suffocating, since a torrent of effortless, low-effort releases makes it harder for a finished game to secure visibility or attract a committed fanbase. Excellent work can disappear into the noise before audiences have any opportunity to discover it. The poster argues that major players such as GTA, Sony, or Nintendo will eventually impose some measure of discipline. Nintendo, in particular, is expected to be humbled—but perhaps not today, and possibly not tomorrow.",
+      "source_url": "https://boards.4chan.org/v/thread/750091535",
+      "source_hint": "A gaming-industry rant attacks corporate survival and the flood of low-effort indie releases."
+    }
+  ]
+}
