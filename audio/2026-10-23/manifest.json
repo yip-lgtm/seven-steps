@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-23",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-copy",
+      "topic_en": "Japan's Yttrium Risk",
+      "topic_zh": "日本稀土斷供",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-copy-b1.mp3",
+        "b2": "clip-biz-copy-b2.mp3",
+        "c1": "clip-biz-copy-c1.mp3",
+        "c2": "clip-biz-copy-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-indonesia",
+      "topic_en": "Indonesia Market Crash",
+      "topic_zh": "印尼股市爆煲",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-indonesia-b1.mp3",
+        "b2": "clip-biz-indonesia-b2.mp3",
+        "c1": "clip-biz-indonesia-c1.mp3",
+        "c2": "clip-biz-indonesia-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-engineering",
+      "topic_en": "AI Finds Engineering Errors",
+      "topic_zh": "AI識做工程",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-engineering-b1.mp3",
+        "b2": "clip-ai-engineering-b2.mp3",
+        "c1": "clip-ai-engineering-c1.mp3",
+        "c2": "clip-ai-engineering-c2.mp3"
+      }
+    },
+    {
+      "id": "musk-politics",
+      "topic_en": "Musk’s Political Future",
+      "topic_zh": "Musk政治失算",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-musk-politics-b1.mp3",
+        "b2": "clip-musk-politics-b2.mp3",
+        "c1": "clip-musk-politics-c1.mp3",
+        "c2": "clip-musk-politics-c2.mp3"
+      }
+    },
+    {
+      "id": "lol-coach",
+      "topic_en": "Should I Get a Coach?",
+      "topic_zh": "十年鑽石廢柴",
+      "category": "lol/esports",
+      "files": {
+        "b1": "clip-lol-coach-b1.mp3",
+        "b2": "clip-lol-coach-b2.mp3",
+        "c1": "clip-lol-coach-c1.mp3",
+        "c2": "clip-lol-coach-c2.mp3"
+      }
+    },
+    {
+      "id": "gym-start",
+      "topic_en": "Start Lifting Now",
+      "topic_zh": "由零開始健身",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-gym-start-b1.mp3",
+        "b2": "clip-gym-start-b2.mp3",
+        "c1": "clip-gym-start-c1.mp3",
+        "c2": "clip-gym-start-c2.mp3"
+      }
+    },
+    {
+      "id": "gundam-storytime",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬漫畫回顧",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-gundam-storytime-b1.mp3",
+        "b2": "clip-gundam-storytime-b2.mp3",
+        "c1": "clip-gundam-storytime-c1.mp3",
+        "c2": "clip-gundam-storytime-c2.mp3"
+      }
+    }
+  ]
+}
