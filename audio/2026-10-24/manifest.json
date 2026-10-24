@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-24",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-gold-2026",
+      "topic_en": "Gold Bottom Forecast",
+      "topic_zh": "金銀期貨預言",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-gold-2026-b1.mp3",
+        "b2": "clip-biz-gold-2026-b2.mp3",
+        "c1": "clip-biz-gold-2026-c1.mp3",
+        "c2": "clip-biz-gold-2026-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-watch-doge",
+      "topic_en": "Cartoon Frog Warning",
+      "topic_zh": "狗幣青蛙末日",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-watch-doge-b1.mp3",
+        "b2": "clip-biz-watch-doge-b2.mp3",
+        "c1": "clip-biz-watch-doge-c1.mp3",
+        "c2": "clip-biz-watch-doge-c2.mp3"
+      }
+    },
+    {
+      "id": "civ-starlink-ukraine",
+      "topic_en": "Starlink Military Limits",
+      "topic_zh": "星鏈軍用限制",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civ-starlink-ukraine-b1.mp3",
+        "b2": "clip-civ-starlink-ukraine-b2.mp3",
+        "c1": "clip-civ-starlink-ukraine-c1.mp3",
+        "c2": "clip-civ-starlink-ukraine-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-aging-cells",
+      "topic_en": "AI Reverses Aging",
+      "topic_zh": "AI逆轉衰老",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-aging-cells-b1.mp3",
+        "b2": "clip-ai-aging-cells-b2.mp3",
+        "c1": "clip-ai-aging-cells-c1.mp3",
+        "c2": "clip-ai-aging-cells-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-starlink-drones",
+      "topic_en": "Starlink Drone Dispute",
+      "topic_zh": "星鏈無人機爭議",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-starlink-drones-b1.mp3",
+        "b2": "clip-hk-starlink-drones-b2.mp3",
+        "c1": "clip-hk-starlink-drones-c1.mp3",
+        "c2": "clip-hk-starlink-drones-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-beginner-lifting",
+      "topic_en": "Beginner Lifting Advice",
+      "topic_zh": "新手舉鐵白丸",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-beginner-lifting-b1.mp3",
+        "b2": "clip-fit-beginner-lifting-b2.mp3",
+        "c1": "clip-fit-beginner-lifting-c1.mp3",
+        "c2": "clip-fit-beginner-lifting-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-yani-neko",
+      "topic_en": "Chainsmoker Cat Cancelled",
+      "topic_zh": "烟猫第二季爆煲",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-yani-neko-b1.mp3",
+        "b2": "clip-anime-yani-neko-b2.mp3",
+        "c1": "clip-anime-yani-neko-c1.mp3",
+        "c2": "clip-anime-yani-neko-c2.mp3"
+      }
+    }
+  ]
+}
