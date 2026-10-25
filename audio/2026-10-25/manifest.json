@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-25",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "gold-bottom-2027",
+      "topic_en": "Gold Bottom Forecast",
+      "topic_zh": "金價見底預言",
+      "category": "trading",
+      "files": {
+        "b1": "clip-gold-bottom-2027-b1.mp3",
+        "b2": "clip-gold-bottom-2027-b2.mp3",
+        "c1": "clip-gold-bottom-2027-c1.mp3",
+        "c2": "clip-gold-bottom-2027-c2.mp3"
+      }
+    },
+    {
+      "id": "btc-life-raft",
+      "topic_en": "Bitcoin Life Raft",
+      "topic_zh": "比特coin係救生艇",
+      "category": "trading",
+      "files": {
+        "b1": "clip-btc-life-raft-b1.mp3",
+        "b2": "clip-btc-life-raft-b2.mp3",
+        "c1": "clip-btc-life-raft-c1.mp3",
+        "c2": "clip-btc-life-raft-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-coding-jobs",
+      "topic_en": "AI Coding Jobs",
+      "topic_zh": "AI搶唔走工程師",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-coding-jobs-b1.mp3",
+        "b2": "clip-ai-coding-jobs-b2.mp3",
+        "c1": "clip-ai-coding-jobs-c1.mp3",
+        "c2": "clip-ai-coding-jobs-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-engineer-path",
+      "topic_en": "AI vs Engineers",
+      "topic_zh": "AI取代工程師？",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-engineer-path-b1.mp3",
+        "b2": "clip-ai-engineer-path-b2.mp3",
+        "c1": "clip-ai-engineer-path-c1.mp3",
+        "c2": "clip-ai-engineer-path-c2.mp3"
+      }
+    },
+    {
+      "id": "china-spoils",
+      "topic_en": "China and Female Population",
+      "topic_zh": "中國女性論",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-china-spoils-b1.mp3",
+        "b2": "clip-china-spoils-b2.mp3",
+        "c1": "clip-china-spoils-c1.mp3",
+        "c2": "clip-china-spoils-c2.mp3"
+      }
+    },
+    {
+      "id": "lifting-whitepill",
+      "topic_en": "Lifting Whitepill",
+      "topic_zh": "健身白丸帖",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-lifting-whitepill-b1.mp3",
+        "b2": "clip-lifting-whitepill-b2.mp3",
+        "c1": "clip-lifting-whitepill-c1.mp3",
+        "c2": "clip-lifting-whitepill-c2.mp3"
+      }
+    },
+    {
+      "id": "yuru-camp-campmas",
+      "topic_en": "Yuru Camp Campmas",
+      "topic_zh": "搖野露營最後一集",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-yuru-camp-campmas-b1.mp3",
+        "b2": "clip-yuru-camp-campmas-b2.mp3",
+        "c1": "clip-yuru-camp-campmas-c1.mp3",
+        "c2": "clip-yuru-camp-campmas-c2.mp3"
+      }
+    }
+  ]
+}

@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "days": [
+    {
+      "date": "2026-10-25",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "gold-bottom-2027",
+          "category": "trading",
+          "topic_zh": "金價見底預言",
+          "topic_en": "Gold Bottom Forecast",
+          "text_zh": "Retard Fatigue。我係未來穿越者。今次係gold嘅底。10月31日，Trump同Benny會炸島。Iran War完，oil會回落$50，gold同silver由2027年1月31日起升。截圖保存。",
+          "text_en_b1": "Retard Fatigue. I am a time traveler from the future. This is the bottom for gold. On October 31, Trump and Benny will bomb the island. The Iran War will end, oil will go back to $50, and gold and silver will start shooting up on January 31, 2027. Screenshot this.",
+          "text_en_b2": "Retard Fatigue. Coming through as a time traveller from the future, and this is where gold bottoms out. On October 31, Trump and Benny will bomb the island, which brings the Iran War to an end and pushes oil back down to $50. From January 31, 2027, gold and silver start shooting up like nobody has seen before. Better take a screenshot while you still can.",
+          "text_en_c1": "Retard Fatigue: I am a traveller from the future, and this is where gold bottoms out. On October 31, Trump and Benny will bomb the island. Once the Iran War is over, oil will fall back to $50, after which both gold and silver will begin rising sharply from January 31, 2027. If this prediction comes true, the people who dismissed it will no longer be able to claim that they were simply waiting for a better entry point. Take a screenshot now, because you will want to preserve the evidence.",
+          "text_en_c2": "Retard Fatigue. Allow me to present irrefutable evidence from the future: gold has finally reached its bottom. On October 31, Trump and Benny will bomb the island; once the Iran War ends, oil will retreat to $50. From January 31, 2027, gold and silver will begin shooting upwards with renewed conviction. Whether this prediction proves accurate or spectacularly wrong, history will judge the call. For now, preserve the screenshot, because the timeline is about to become considerably more interesting.",
+          "source_url": "https://boards.4chan.org/biz/thread/62811230",
+          "source_hint": "An anonymous time traveler claims to know the exact gold and oil turning points."
+        },
+        {
+          "id": "btc-life-raft",
+          "category": "trading",
+          "topic_zh": "比特coin係救生艇",
+          "topic_en": "Bitcoin Life Raft",
+          "text_zh": "講真，今次唔係shitpost。Bitcoin係escape AI嘅liferaft。Satoshi Nakamoto可能同CIA有關。2020年3月$3,000，到2024年12月over $100,000，4.5年。大家都miss咗，反而追住dollars走。",
+          "text_en_b1": "This will sound like a shitpost, but it is not. It was Bitcoin. Bitcoin was the life raft to escape AI. Satoshi Nakamoto, Central Intelligence. We were given over 12 years to accumulate at low prices. It took off from 3K to 108K between March 2020 and December 2024. Everyone failed by chasing dollars instead of holding BTC.",
+          "text_en_b2": "This might sound like a shitpost, but it genuinely is not. It was Bitcoin all along, serving as the life raft that let us escape AI. Satoshi Nakamoto, Central Intelligence. We were handed over twelve years to accumulate at low prices, and between March 2020 and December 2024 it took off from 3K to 108K. Yet everyone still failed, chasing dollars instead of holding BTC.",
+          "text_en_c1": "This will sound like a shitpost, but it is not: Bitcoin was the lifeboat that enabled us to escape AI. Satoshi Nakamoto may have been connected to the CIA. We were handed more than twelve years to accumulate Bitcoin at relatively low prices, yet most of us missed the opportunity. From March 2020 to December 2024, it surged from $3,000 to $108,000 in barely four and a half years. Everyone who chased dollars instead of holding BTC ended up stranded while the asset they ignored carried them out.",
+          "text_en_c2": "This will sound like a shitpost, but it emphatically is not. It was Bitcoin, serving as the escape pod from an AI-dominated future. Satoshi Nakamoto may well have links to the Central Intelligence Agency. Investors were granted more than twelve years to accumulate Bitcoin at comparatively low prices, yet almost everyone squandered that advantage. Between March 2020 and December 2024, it surged from $3,000 to $108,000. The tragedy is that so many people chased dollars instead of simply holding BTC.",
+          "source_url": "https://boards.4chan.org/biz/thread/62813860",
+          "source_hint": "The poster argues Bitcoin was the real escape from AI and urges holding instead of chasing dollars."
+        },
+        {
+          "id": "ai-coding-jobs",
+          "category": "tech/ai",
+          "topic_zh": "AI搶唔走工程師",
+          "topic_en": "AI Coding Jobs",
+          "text_zh": "又一篇新聞話『學coding嘅年代完咗』，連AI專家都話software engineering jobs會少。但我睇Current Population Survey，2022年後美國software-development jobs反而增加。2022年平均約2.2 million。",
+          "text_en_b1": "Another headline claimed that the 'learn to code' era is over. Roughly half of regular adults and AI experts believe AI will reduce software-engineering jobs. However, Current Population Survey data shows that US software-development jobs increased since 2022. Average estimated employment in 2022 was around 2.2 million.",
+          "text_en_b2": "Another headline claims that the era of learning to code is over, and even AI experts believe software-engineering jobs will shrink. Roughly half of regular adults share that view. However, Current Population Survey data tells a different story, because US software-development employment has actually increased since 2022, with average estimated employment in 2022 reaching around 2.2 million.",
+          "text_en_c1": "Another headline has declared that the era of learning to code is over, and even AI specialists claim that software-engineering employment will decline. The evidence, however, tells a more complicated story. Data from the Current Population Survey indicate that American software-development jobs have increased since 2022 rather than disappeared. Average estimated employment stood at approximately 2.2 million in 2022. If you are considering whether to enter the industry, it would be unwise to abandon your plans on the basis of predictions alone.",
+          "text_en_c2": "Another headline has proclaimed that the era in which one learned to code is over, and even some AI specialists contend that automation will erode software-engineering employment. The evidence, however, tells a more complicated story. According to Current Population Survey data, the number of American software-development jobs has risen since 2022 rather than contracted. Average estimated employment stood at approximately 2.2 million in 2022. The rhetoric of imminent replacement, in other words, has run well ahead of the labour-market statistics.",
+          "source_url": "https://boards.4chan.org/g/thread/110149832",
+          "source_hint": "A data analysis challenges claims that AI has already reduced software jobs."
+        },
+        {
+          "id": "ai-engineer-path",
+          "category": "tech/ai",
+          "topic_zh": "AI取代工程師？",
+          "topic_en": "AI vs Engineers",
+          "text_zh": "Software公司叫人用AI寫晒所有code。啲結果好alien，但work到就算。如果有bugs，只能靠AI review幾百頁先搵到fix。Devs已經唔明自己寫咗啲乜。咁樣真係software development？",
+          "text_en_b1": "Software companies want developers to use AI to code everything. No human coding. The results look alien, but it is okay as long as it works. If bugs happen, you can only hope AI reviews hundreds of pages to find a fix. Developers no longer understand the code. Is this really software development now?",
+          "text_en_b2": "Software companies now want developers to let AI write absolutely all the code, leaving no human coding behind. The results look completely alien, but somehow that is fine as long as the thing works. When bugs appear, you can only hope AI reviews hundreds of pages of code before stumbling across a fix. In the meantime, developers barely understand what they wrote. Is this still software development?",
+          "text_en_c1": "Software companies increasingly expect developers to delegate virtually all coding to AI, leaving humans with little or no direct authorship. The output can look alien, but apparently that does not matter if it functions. When bugs appear, the only realistic remedy is to ask AI to review hundreds of pages of code in the hope that it will locate a viable fix. Developers are then left with code they no longer fully understand, which raises an uncomfortable question: if the systems cannot be confidently maintained by the people responsible for them, is this genuinely software development?",
+          "text_en_c2": "Software companies increasingly want developers to outsource every line of code to artificial intelligence. Human programming is supposedly obsolete. The output can look utterly alien, yet the prevailing criterion remains simple: if it runs, nobody cares. When bugs appear, the only practical recourse is to hope that an AI system can comb through hundreds of pages and locate a viable fix. Developers, meanwhile, increasingly fail to understand what they themselves have written. Can any of this still be called software development?",
+          "source_url": "https://boards.4chan.org/g/thread/110150886",
+          "source_hint": "The poster questions whether AI-generated code without human understanding is real software development."
+        },
+        {
+          "id": "china-spoils",
+          "category": "hk/news",
+          "topic_zh": "中國女性論",
+          "topic_en": "China and Female Population",
+          "text_zh": "邊個國家嘅女性先算war嘅best spoils？我揀China。西方接觸到幾億中國女性，可以dramatically降低pussyflation，令女性文化更compliant同domestic。講真，HK咁逼，難怪成日喊冇地方住。",
+          "text_en_b1": "Which nation's females would count as the best spoils of war? I think China. Western access to hundreds of millions of Chinese women will drastically lower pussyflation and create a more compliant and domestic female culture. The demographic argument is simple, but the wording is extremely provocative.",
+          "text_en_b2": "So which nation's women count as the best spoils of war? I would pick China, because Western access to hundreds of millions of Chinese women would drastically reduce pussyflation while producing a more compliant, domestic female culture. The demographic argument is fairly simple, although the wording is extraordinarily provocative, and readers should understand that the poster is being deliberately inflammatory.",
+          "text_en_c1": "Which country's women would constitute the best spoils of war? I would choose China. Greater Western access to hundreds of millions of Chinese women would, according to the argument, reduce \"pussyflation\" dramatically and produce a female culture that is more compliant and domestic. The demographic logic is straightforward, although the wording is exceptionally provocative. It is also worth remembering that Hong Kong's housing pressures are severe enough to explain why people so frequently complain that they cannot afford a place to live.",
+          "text_en_c2": "Which nation’s women would constitute the finest spoils of war? China, surely. The West’s access to hundreds of millions of Chinese women would, according to this provocative thesis, dramatically reduce pussyflation and produce a female culture that is more compliant and domestically oriented. The underlying demographic argument is straightforward, although its wording is exceptionally incendiary. Hong Kong is so intensely crowded that people routinely lament having nowhere suitable to live, which perhaps says rather more about pressure on housing than anything else.",
+          "source_url": "https://boards.4chan.org/pol/thread/544885545",
+          "source_hint": "A /pol/ post makes a provocative demographic argument about China and female culture."
+        },
+        {
+          "id": "lifting-whitepill",
+          "category": "mma/fitness",
+          "topic_zh": "健身白丸帖",
+          "topic_en": "Lifting Whitepill",
+          "text_zh": "Whitepill Thread。Hot cocoa係最好嘅pre-workout。邊個都識開始lifting，唔使有經驗。少過六個月可以escape skinnyfat mode，一年內有人會發現你開始舉鐵。初期program其實好易，咩都work。",
+          "text_en_b1": "Whitepill Thread. Hot cocoa is the best pre-workout edition. Anyone can start lifting; you do not need prior sports experience. You can escape skinnyfat mode in less than six months. It takes less than a year for people to notice you lift. Beginner programming is easy, and everything works.",
+          "text_en_b2": "Whitepill Thread. Hot cocoa is the best pre-workout edition. Anybody can start lifting, and no prior sports experience is required. You can escape skinnyfat mode in under six months, while within a year other people will notice that you have started lifting weights. Beginner programming really is easy, because at that stage almost everything works.",
+          "text_en_c1": "Whitepill Thread: the hot cocoa edition of pre-workout advice. Anyone can begin lifting; prior sporting experience is unnecessary, and you should not allow intimidating beginners to discourage you. With less than six months of consistent training, it is possible to escape skinnyfat mode. Within a year, other people may begin noticing that you lift weights. Beginner programmes are deliberately straightforward, which means that nearly everything works at first. The important variable is not whether your initial routine is perfect, but whether you continue long enough for adaptation to do its job.",
+          "text_en_c2": "Whitepill Thread: the Hot Cocoa pre-workout edition. Anyone can begin lifting; no previous sporting experience is required, and the initial programme is straightforward enough that virtually every exercise feels productive. Within fewer than six months, it is entirely possible to escape skinnyfat mode. In under a year, friends and acquaintances may begin noticing that you lift weights, although your body will probably announce the transformation before they do. Just start, keep it uncomplicated, and let consistent training do the rest.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "A beginner-friendly fitness thread says almost any sensible lifting program works."
+        },
+        {
+          "id": "yuru-camp-campmas",
+          "category": "anime/culture",
+          "topic_zh": "搖野露營最後一集",
+          "topic_en": "Yuru Camp Campmas",
+          "text_zh": "Yuru Camp Rewatch。終於到season one最後個arc。Campmas！Episode 11同12！Yurus終於可以一齊去camping。Rin第一次真正group camping，Ena更加係第一次camping。放鬆啲，yurubros。",
+          "text_en_b1": "Yuru Camp Rewatch. At long last, we are on the final arc of season one. Campmas! Episodes 11 and 12. The Yurus are finally all going camping together. This is Rin's first time properly group-camping, and Ena's first camping trip at all. Let us have a laid-back time, yurubros.",
+          "text_en_b2": "Yuru Camp Rewatch, and at long last we have reached the final arc of season one. Campmas! Episodes 11 and 12, in which the Yurus finally go camping together. This marks Rin's first proper group-camping trip, while Ena is experiencing camping for the very first time. Let us all settle in and have a laid-back time, yurubros.",
+          "text_en_c1": "Yuru Camp Rewatch: after all this time, we have reached the final arc of season one. Campmas! Episodes 11 and 12, in which the Yurus finally go camping together. For Rin, this will be her first proper experience of group camping, while for Ena it marks her first camping trip of any kind. If you have followed the series this far, now is the moment to relax, settle in, and enjoy the conclusion. Let us have a laid-back time together, yurubros.",
+          "text_en_c2": "Yuru Camp Rewatch has finally reached the concluding arc of season one: Campmas! Episodes eleven and twelve finally bring the Yurus together for a proper camping trip. For Rin, this is her first genuine experience of group camping; for Ena, it is her very first camping excursion of any kind. After the usual itinerary-driven chaos, excessive food, and tightly packed schedule, this instalment offers a welcome change of pace. Sit back, relax, and enjoy the proceedings, yurubros.",
+          "source_url": "https://boards.4chan.org/a/thread/291783194",
+          "source_hint": "The poster is rewatching Yuru Camp and reaches the Campmas episodes."
+        }
+      ]
+    },
     {
       "date": "2026-10-24",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "Having neglected the Reze arc during its theatrical run, I have lately compensated by revisiting the Chainsaw Man manga from volume six onward, and the experience has proven unexpectedly restorative. Season one's directorial choices drew considerable opprobrium from purists wedded to Fujimoto's idiosyncratic panel compositions, yet the cinematic treatment arguably suits a work whose visual grammar already aspires toward cinematic register. The kinetic splatter, the vertiginous framing, and the studied longueurs all translate rather elegantly between media. Whether the theatrical adaptation will vindicate its stylistic decisions remains contested, but the source material endures regardless of interpretation. With examination preparation grinding on mercilessly, such distractions function less as indulgence than as a kind of prophylactic against terminal tedium, a small reprieve against the encroaching grey.",
           "source_url": "https://boards.4chan.org/a/thread/290653357",
           "source_hint": "/a/ thread recommending the Chainsaw Man manga after the Reze arc movie"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-btc-timing",
-          "category": "trading",
-          "topic_zh": "BTC追入時機",
-          "topic_en": "BTC Buy Timing",
-          "text_zh": "又係咁。BTC幾個禮拜唔郁，冇人理。Pump完15%就全部人衝入去，即係成件事都已經發生了先買。即係坐艇嘅永遠都係遲到嗰啲人。😭",
-          "text_en_b1": "Why does everyone buy BTC after the pump? You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened?",
-          "text_en_b2": "The same cycle plays out every single time. Bitcoin sits flat for weeks on end, and nobody gives it a second glance. Then the moment it pumps 15 percent, the crowd rushes in all at once. By that point the move has already happened, which means the people getting wrecked on bagholding are always the ones who showed up late.",
-          "text_en_c1": "It is baffling how this pattern keeps repeating itself with such predictability. Bitcoin languishes in a protracted period of consolidation for weeks on end, drawing virtually no interest from retail participants whatsoever. Then the moment price appreciates by a mere fifteen percent, the same crowd that dismissed it moments earlier scrambles to establish positions. If the move has already occurred, what exactly is the rationale for entry at that juncture? It essentially means those who end up underwater are invariably the ones who arrive at the party considerably after the host has left. The asymmetry is almost mathematical in its cruelty.",
-          "text_en_c2": "Why does Bitcoin suddenly become irresistible only after it has already risen? One watches it stagnate for several weeks, apparently devoid of momentum, while scarcely anyone pays attention; then, almost overnight, the price inflates by fifteen per cent and the previously indifferent rush to buy in. This recurrent inversion—during which BTC is treated as though it were dead before its advance, then embraced with the ardour of a new convert once the move has occurred—is precisely what turns ordinary holders into involuntary passengers on a sinking ship. The market’s collective attention seems governed less by value than by the fear of missing out, even though the most conspicuous evidence of that fear is that almost everybody has arrived after the event. /biz/ has never needed a more damning indictment of its own timing.",
-          "source_url": "https://boards.4chan.org/biz/thread/62625769",
-          "source_hint": "/biz/ thread asking why people only chase BTC after the move"
-        },
-        {
-          "id": "trade-btc-vs-gold",
-          "category": "trading",
-          "topic_zh": "BTC定黃金",
-          "topic_en": "BTC vs Gold",
-          "text_zh": "十年hold一隻，揀邊樣？BTC定黃金？一個係數字，一個係實物。我而家兩個都輸緊，所以問都冇用lol。🙏",
-          "text_en_b1": "Bitcoin versus Gold. If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? What makes your choice better than the other? This came up on /biz/ today and the replies are split down the middle.",
-          "text_en_b2": "Ten-year hold, pick one and stick with it. Bitcoin versus gold, one digital and intangible, the other physical and tangible, each with its own merit. Most replies over on /biz/ are split right down the middle, although personally I am down on both right now, so the question is somewhat moot. Pick your poison I guess.",
-          "text_en_c1": "The perennial debate has resurfaced on /biz/, and the thread has predictably fractured into two entrenched camps. Were one compelled to hold a single asset for the next decade, Bitcoin or physical gold, which would warrant such a long-term commitment? One represents a purely digital, intangible construct governed by code and consensus; the other, a tangible store of value that has endured across civilisations. Personally, I find myself bleeding on both positions simultaneously, which rather undermines any pretense of authority on the matter. The replies remain utterly divided, with neither side convincing the other.",
-          "text_en_c2": "Bitcoin or gold: if one were compelled, for whatever reason, to hold only one of them for the next decade, which would merit the sacrifice? The choice is almost a contest between rival philosophies, since Bitcoin represents a scarce digital bearer asset, whereas gold is tangible, familiar, and physically possessed. Bitcoin promises portability, cryptographic scarcity, and an ingenious monetary future; gold offers durability, historical legitimacy, and the perverse comfort of being able to hold one’s conviction in the palm of one’s hand. Yet conviction is easier advertised than maintained. At present, I am losing money on both, although that embarrassing coincidence does not settle the underlying question but merely illustrates how gracefully a supposed investment thesis can become an expensive exercise in self-deception. The replies are divided down the middle, lol. https://boards.4chan.org/biz/thread/62645210",
-          "source_url": "https://boards.4chan.org/biz/thread/62645210",
-          "source_hint": "/biz/ thread debating 10-year hold: BTC vs gold"
-        },
-        {
-          "id": "tech-ai-astra",
-          "category": "tech/ai",
-          "topic_zh": "Astra話係AGI",
-          "topic_en": "Astra AGI Claim",
-          "text_zh": "CloseAI出新model叫Astra，自己話係AGI。/g/點睇？我就覺得AI遲早連我個surveying位都整死。靠AI續命🧐",
-          "text_en_b1": "CloseAI released a new model called Astra. They claim it is AGI. So what is your verdict, /g/? Is this actually it or just another marketing rebrand?",
-          "text_en_b2": "CloseAI just rolled out a new model dubbed Astra, and naturally they are claiming it has finally crossed the AGI threshold. The folks over at /g/ are largely sceptical, dismissing it as little more than a marketing rebrand dressed up in fresh terminology. While I would not go quite that far, I am quietly bracing myself because AI is bound to render my surveying role obsolete eventually.",
-          "text_en_c1": "It appears CloseAI has unveiled their latest model, designated Astra, and they are making the rather audacious claim that it constitutes genuine artificial general intelligence. The /g/ board is consequently ablaze with speculation as to whether this marks the watershed moment enthusiasts have been anticipating, or whether it represents yet another instance of marketing rebranding masquerading as substantive progress. Regardless of which camp proves correct, the trajectory remains depressingly clear: if my current surveying position can be automated into obsolescence by such systems, then career longevity in technical fields is going to be decidedly short-lived.",
-          "text_en_c2": "CloseAI has unveiled Astra, a new model that it describes with admirable restraint as artificial general intelligence, although one naturally wonders whether this is a genuine technological threshold or merely the latest corporate exercise in semantic rebranding. The immediate question for /g/ is not whether the demonstration looks uncanny, but whether Astra exhibits the general, transferable reasoning that would justify such an audacious label. Marketing departments have always possessed an almost theological faith in terminology: rename the miracle, extend the press release, and the mystery is supposed to acquire a new name. My own verdict is less elevated. If AI can eventually perform the intellectual labour required by my surveying job, then the industry has not merely automated a task; it has made human professional judgement look like a temporary subscription service.",
-          "source_url": "https://boards.4chan.org/g/thread/109730196",
-          "source_hint": "/g/ thread reacting to CloseAI's new Astra AGI claim"
-        },
-        {
-          "id": "hk-china-trend",
-          "category": "hk/news",
-          "topic_zh": "中國bubble chin",
-          "topic_en": "Bubble Chin Trend",
-          "text_zh": "大陸最新潮流，bubble chin。即係塊面好似充晒氣咁。女influencer當新興時興，我覺得幾恐怖lol。wtf",
-          "text_en_b1": "Newest trend in China just dropped. Chinese internet users are calling it the bubble chin. It is becoming increasingly fashionable among Chinese female influencers and the photos are spreading on Weibo.",
-          "text_en_b2": "The latest beauty craze out of mainland China has surfaced, and it is genuinely unsettling. Netizens have dubbed it the bubble chin look, essentially faces that appear as though they have been pumped full of air. Female influencers across Weibo are jumping on the bandwagon and posting selfies, although personally I find the whole aesthetic rather horrifying.",
-          "text_en_c1": "The latest aesthetic phenomenon to proliferate across mainland Chinese social media is what users have termed the bubble chin, a facial contour that appears almost unnaturally inflated, as though one had been overzealously insufflated with some pressurised substance. The trend has gained considerable traction among female influencers on Weibo, whose carefully curated photographs propagate the look with algorithmic efficiency. While devotees evidently consider it cutting-edge and desirable, the broader aesthetic effect strikes me as rather unsettling, though I concede this may simply reflect the perennial gulf between avant-garde sensibilities and my own evidently outdated tastes.",
-          "text_en_c2": "The latest aesthetic contagion to emerge from mainland China appears to be the so-called “bubble chin,” a deliberately inflated facial effect that makes the subject resemble a person who has discovered a pressure cooker but misplaced the release valve. It is becoming increasingly fashionable among Chinese female influencers, whose photographs are spreading across Weibo with the sort of velocity once reserved for properly consequential news. The appeal is difficult to fathom. Perhaps it is intended to suggest youthfulness, although one might have thought that a face capable of retaining its ordinary human proportions would serve that purpose more effectively. Instead, the trend turns softness into surplus, as though thechin had been inflated not for beauty but to demonstrate that a sufficiently diligent editor can distort even anatomy.",
-          "source_url": "https://boards.4chan.org/pol/thread/542008627",
-          "source_hint": "/pol/ thread on China bubble chin influencer trend"
-        },
-        {
-          "id": "lol-fallout4",
-          "category": "lol/esports",
-          "topic_zh": "Fallout 4好唔好玩",
-          "topic_en": "Fallout 4 Worth It?",
-          "text_zh": "打完LOL手都未暖，睇到Fallout 4係咪真係好似大家講咁好。當年出好似好趕咁，但而家可能值得再試。",
-          "text_en_b1": "Is Fallout 4 really as good as people say it is? When I first played it, it felt like a game that was developed too quickly and rushed to release. Worth another try in 2026?",
-          "text_en_b2": "I have just wrapped up a League session and my hands are still warm, so I figured I would finally give Fallout 4 another shot. When it originally launched it struck me as a title that had clearly been rushed out the door to meet a deadline. Given that it is now 2026, is it actually worth revisiting?",
-          "text_en_c1": "Having only just wrapped up a League session, my hands were scarcely cooled when curiosity got the better of me regarding Fallout 4. The prevailing consensus online suggests it merits far more attention than I initially afforded it; I recall my original playthrough feeling distinctly underbaked, as though Bethesda had pushed the title out the door rather precipitously to meet fiscal obligations. In hindsight, however, the intervening years may have softened those reservations considerably. With patches, mods, and accumulated hindsight now layered atop the experience, perhaps a return engagement in 2026 would prove substantially more rewarding than that first, rushed impression.",
-          "text_en_c2": "Is Fallout 4 genuinely as good as its durable reputation suggests, or has nostalgia performed the same editorial function as a flattering camera angle? I played it when it first appeared, and although the scale was immediately impressive, the experience carried the unmistakable whiff of a project developed under intolerable pressure and released before every system had been permitted to settle. Missions were often serviceable rather than polished, dialogue radiated the emotional subtlety of a municipal noticeboard, and yet the Commonwealth retained that peculiar post-apocalyptic charm that makes mediocrity feel almost profound. Now, in 2026, when the game is no longer obliged to impersonate the future, it may be possible to appreciate it on its own terms: an expansive, occasionally careless sandbox whose limitations have softened with familiarity.",
-          "source_url": "https://boards.4chan.org/v/thread/746896527",
-          "source_hint": "/v/ thread debating whether Fallout 4 is overrated"
-        },
-        {
-          "id": "mma-grappling",
-          "category": "mma/fitness",
-          "topic_zh": "唔練摔等被人屈",
-          "topic_en": "Train Grappling",
-          "text_zh": "肥仔信成日同我講一定要練摔。睇到呢個post即刻tag佢。bench 315但俾人細50磅屈起你都似笑話。lol",
-          "text_en_b1": "Hey nice bench press anon, 315 pounds really impressive. Anyhow, a grappler folds you in half. You have no reason to not train grappling, unless you want some guy who weighs 50 pounds less than you to make you his bitch.",
-          "text_en_b2": "Nice bench, 315 pounds is genuinely impressive work. A grappler, on the other hand, would fold you in half without breaking a sweat. My buddy who can bench 315 keeps insisting I need to start training grappling, and honestly he has a point, because some dude weighing fifty pounds less than you should not be able to ragdoll you around.",
-          "text_en_c1": "My good friend, the corpulent one whose advice I typically take with a generous pinch of salt, has insisted with remarkable persistence that I take up grappling without further delay. Seeing this particular thread prompted me to tag him immediately. You can bench an impressive 315 pounds, certainly a respectable achievement, and yet a trained grappler who outweighs you by fifty pounds will fold you like wet laundry without the slightest hesitation. Unless, of course, you actively relish the prospect of being thoroughly dominated by someone substantially lighter, in which case your priorities may require reevaluation.",
-          "text_en_c2": "Congratulations on bench-pressing 315 pounds; that is an undeniably substantial achievement, provided one measures strength exclusively through a barbell’s elevation. It does not, however, guarantee that you will know what to do when another man closes the distance, obtains a waist-level grip, and converts your impressive physique into an immovable liability. The diligent fat guy I know keeps insisting that I must train grappling, and this post supplied precisely the evidence required to tag him. The uncomfortable truth is that strength is not universally advantageous; in a confined struggle, an opponent who is smaller by fifty pounds can still bend you in half if he understands leverage, balance, and the subtle art of making your own momentum testify against you. A muscular bench-press record is therefore not a talisman.",
-          "source_url": "https://boards.4chan.org/fit/thread/77497491",
-          "source_hint": "/fit/ thread arguing lifting bros must also train grappling"
-        },
-        {
-          "id": "anime-fairytail",
-          "category": "anime/culture",
-          "topic_zh": "Fairy Tail測試",
-          "topic_en": "Fairy Tail Quiz",
-          "text_zh": "即刻答：Erza Scarlet。動漫迷梗係要識多過Lucy啦lol。我就係睇Fairy Tail同Gundam 00嗰代。🧐",
-          "text_en_b1": "If you are a true anime fan, mention one Fairy Tail character off the bat that is not Lucy. Easy starter pick: Erza Scarlet. The thread is full of Natsu, Gray and Erza replies on /a/ tonight.",
-          "text_en_b2": "Anyone who genuinely calls themselves an anime fan ought to fire off at least one Fairy Tail character on instinct, and it absolutely cannot be Lucy. Erza Scarlet is the obvious fallback answer, although Natsu and Gray will inevitably flood the replies over at /a/ tonight. That said, anyone who grew up watching Fairy Tail and Gundam 00 is already in the clear.",
-          "text_en_c1": "Any self-respecting anime aficionado should be able to name a Fairy Tail character at a moment's notice without defaulting to Lucy Heartfilia, whose ubiquity renders her the obvious, unimaginative answer. A far more discerning selection would be Erza Scarlet, the scarlet-haired swordswoman whose monologues and wardrobe changes have become practically synonymous with the franchise itself. I count myself among that generation weaned on Fairy Tail and Gundam 00 alike, works that defined a particular sensibility. The /a/ thread tonight has predictably devolved into a cascade of Natsu, Gray, and Erza mentions.",
-          "text_en_c2": "A genuine anime fan should be able, without hesitation, to name a Fairy Tail character other than Lucy Heartfilia, thereby demonstrating that familiarity with the guild extends beyond its most immediately recognisable blonde heroine. Erza Scarlet is the obvious opening answer: formidable, disciplined, theatrically over-equipped, and capable of turning almost any ostensibly lost battle into a carefully prepared exhibition of personal conviction. Then, naturally, come Natsu and Gray, each of whom represents a different species of durable shōnen logic—Natsu the combustible optimist, Gray the provocatively shirtless rival, and Erza the discipline that emerges whenever the plot requires somebody sensible to arrive. The thread is crowded with all three names tonight, although why /a/ should be so impressed by remembering characters from a series whose premise is guild membership and collective friendship remains a mystery.",
-          "source_url": "https://boards.4chan.org/a/thread/290690711",
-          "source_hint": "/a/ thread testing who is a real anime fan via Fairy Tail"
         }
       ]
     }
