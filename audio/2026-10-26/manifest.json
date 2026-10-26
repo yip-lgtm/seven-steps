@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-26",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "spacex-watch",
+      "topic_en": "SpaceX Watch List",
+      "topic_zh": "太空股呃人法",
+      "category": "trading",
+      "files": {
+        "b1": "clip-spacex-watch-b1.mp3",
+        "b2": "clip-spacex-watch-b2.mp3",
+        "c1": "clip-spacex-watch-c1.mp3",
+        "c2": "clip-spacex-watch-c2.mp3"
+      }
+    },
+    {
+      "id": "winning-coins",
+      "topic_en": "Winning Coins Confirmed",
+      "topic_zh": "贏家硬盤",
+      "category": "trading",
+      "files": {
+        "b1": "clip-winning-coins-b1.mp3",
+        "b2": "clip-winning-coins-b2.mp3",
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "brain-implant",
+      "topic_en": "Brain Implant Upgrade",
+      "topic_zh": "腦機升級",
+      "category": "tech/ai",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "llm-intelligence",
+      "topic_en": "LLMs Are Not Intelligent",
+      "topic_zh": "LLM唔係智能",
+      "category": "tech/ai",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "hk-banking-risk",
+      "topic_en": "Banking Sanctions Risk",
+      "topic_zh": "銀行制裁風險",
+      "category": "hk/news",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "hack-squat",
+      "topic_en": "Hack Squat Form Check",
+      "topic_zh": "Hack Squat之王",
+      "category": "mma/fitness",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "cyberpunk-s2",
+      "topic_en": "Cyberpunk Season Two",
+      "topic_zh": "_edge跑者第二季",
+      "category": "anime/culture",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    }
+  ]
+}

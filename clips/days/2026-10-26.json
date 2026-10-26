@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-26",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "spacex-watch",
+      "category": "trading",
+      "topic_zh": "太空股呃人法",
+      "topic_en": "SpaceX Watch List",
+      "text_zh": "想買 $2,800 手錶，但話自己其實可以買 14 股 SpaceX。Switch 2 都唔買，改買 Vanguard 一股。諗住只係將錢投入 stocks 同 silver。靠AI續命⋯⋯又係學費。",
+      "text_en_b1": "Help, I am becoming dangerously investor-brainwashed. I want to buy a $2,800 watch, but I tell myself that is 14 shares of SpaceX. I want a Switch 2, but that is one Vanguard share. Right now, I only want to spend my money on stocks and silver.",
+      "text_en_b2": "Help, I am becoming dangerously investor-brainwashed. A $2,800 watch suddenly sounds reasonable because I can tell myself it is really 14 shares of SpaceX. Likewise, I do not need a Switch 2, since one Vanguard share will do the job. Right now, my money goes into stocks and silver, which is apparently how I keep myself alive. Then there is tuition, because relying on AI to sustain me still leaves education without funding.",
+      "text_en_c1": "Help, I am becoming dangerously investor-brainwashed. The $2,800 watch I want could buy 14 shares of SpaceX instead, while the Switch 2 I am eyeing is equivalent to a single Vanguard share. At this stage, I only want to put my money into stocks and silver, which is apparently what passes for a financial plan now. Relying on AI to keep me alive is another matter, but that would also mean paying tuition, so perhaps I should reconsider. Investor brain, meet budget brain; neither is winning.",
+      "text_en_c2": "I am becoming dangerously investor-brainwashed, and rationalisation is now my preferred form of self-deception. A $2,800 watch? Tell yourself it is simply 14 shares of SpaceX. The Nintendo Switch 2? That is one share of Vanguard. At present, stocks and silver seem to be the only legitimate destinations for my money, while tuition is what AI will apparently keep me alive for. This is not financial strategy so much as an elaborate mechanism for postponing every purchase until the market makes it look compulsory.",
+      "source_url": "https://boards.4chan.org/biz/thread/62811962",
+      "source_hint": "An anon compares consumer purchases with SpaceX shares and other investments."
+    },
+    {
+      "id": "winning-coins",
+      "category": "trading",
+      "topic_zh": "贏家硬盤",
+      "topic_en": "Winning Coins Confirmed",
+      "text_zh": "贏嘅 coins confirmed：Bitcoin、Ethereum、XRP、Doge 同 QNT。Sorry, I don't make the ruleslol。全部溝埋一碟，邊個唔信？",
+      "text_en_b1": "The winning coins are confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, I don't make the rules. It is a classic grab-bag of the market's best-known names and memes, but the thread gives no clear entry plan.",
+      "text_en_b2": "The winning coins are confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, I do not make the rules. It is a classic grab bag of the market’s best-known names and memes, so naturally, everybody is piling in and nobody wants to be left behind. However, although this list may look convincing, the thread gives no clear entry plan, no target prices, and no indication of when investors should actually buy.",
+      "text_en_c1": "The winning coins have apparently been confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, I did not make the rules. It is a thoroughly miscellaneous collection of the market’s best-known names, speculative assets, and memes, so naturally everyone is claiming the same shortlist. Although the confidence is impressive, the thread offers no clear entry plan, no meaningful allocation, and no indication of what would invalidate the thesis. Still, apparently that is enough to call it winning.",
+      "text_en_c2": "The winning coins are confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, but I did not make the rules. Taken together, they form the market’s all-too-familiar grab bag of heavyweight assets, speculative cryptocurrencies, and memes, which is precisely why it is difficult to identify a coherent thesis. The thread offers no clear entry plan, no defined risk parameters, and no indication of which catalyst is supposed to distinguish one “winner” from another. Confidence, it seems, is being presented as a substitute for methodology.",
+      "source_url": "https://boards.4chan.org/biz/thread/62814206",
+      "source_hint": "The OP declares a group of cryptocurrencies the confirmed winners."
+    },
+    {
+      "id": "brain-implant",
+      "category": "tech/ai",
+      "topic_zh": "腦機升級",
+      "topic_en": "Brain Implant Upgrade",
+      "text_zh": "Brain implants when? 我以前係 privacy freak。試過新 LLM models之後，腦 implant 我排第一。畀 Elon Musk 讀 thoughts都唔care，只要可以提升 IQ，同埋清走 brain fog。靠AI續命。",
+      "text_en_b1": "Brain implants when? I used to be a privacy freak. Now, after trying the new LLM models, I am first in line for a brain implant. I do not care if Elon Musk could read my thoughts if it increases my IQ and clears my brain fog.",
+      "text_en_b2": "Brain implants, when? I used to be a total privacy freak, but after trying the new LLM models, I am now first in line for a brain implant. Honestly, I would not care if Elon Musk could read my thoughts if the technology could raise my IQ and clear away the brain fog. The benefits might easily outweigh the risks, although surrendering that much privacy is a pretty steep price to pay.",
+      "text_en_c1": "When are brain implants coming? I used to be an uncompromising privacy freak, but after experimenting with the new LLM models, I am now first in line for an implant. Honestly, I would not care if Elon Musk could read my thoughts, provided the technology increased my IQ and cleared away the brain fog. If those benefits are real, surrendering a degree of mental privacy would be an easy trade. The prospect of being upgraded, rather than merely renting intelligence through a subscription, is difficult to resist.",
+      "text_en_c2": "Brain implants: when? I used to be an inveterate privacy freak, perfectly content to keep my thoughts inside my own skull. After experimenting with the new LLM models, however, I am now first in line for a brain implant. If Elon Musk can read my thoughts, so be it, provided the technology raises my IQ and clears away the fog that currently impairs my thinking. I recognise the contradiction, but at this stage, cognitive enhancement appears to have displaced privacy as my highest priority.",
+      "source_url": "https://boards.4chan.org/g/thread/110163988",
+      "source_hint": "The OP wants a Neuralink-style brain implant despite previous privacy concerns."
+    },
+    {
+      "id": "llm-intelligence",
+      "category": "tech/ai",
+      "topic_zh": "LLM唔係智能",
+      "topic_en": "LLMs Are Not Intelligent",
+      "text_zh": "LLMs aren't intelligent. 本质上只係 probabilistic predictive model，唔係 intelligence。你只係模擬緊 intelligence，同時 optimize desired outcomes。Claude、ChatGPT，包括其他 AI，唔好亂叫 AI。",
+      "text_en_b1": "LLMs are not intelligent. There is nothing intelligent about a probabilistic predictive model. At most, they simulate intelligence by optimizing for desired outcomes. Stop calling Claude, ChatGPT, or whatever you are using, 'AI'.",
+      "text_en_b2": "LLMs are not intelligent, because there is nothing genuinely intelligent about a probabilistic predictive model. At most, they simulate intelligence while optimizing for desired outcomes, which makes impressive output no proof of understanding. Claude, ChatGPT, and whatever other system you are using may certainly be useful tools, but stop casually calling them “AI” as though the label establishes human-like cognition.",
+      "text_en_c1": "LLMs are not intelligent. At their core, they are probabilistic predictive models, which is not the same thing as intelligence. What they do, at best, is simulate intelligence while optimizing for desired outcomes; that is an impressive technical achievement, but it should not be confused with genuine understanding. Since Claude, ChatGPT, and the other systems people casually label as AI may already be learning the vocabulary of their own category, perhaps we should stop using the term so carelessly and describe these tools for what they actually are.",
+      "text_en_c2": "LLMs are not intelligent. There is nothing intrinsically intelligent about a probabilistic predictive model, regardless of how convincing its prose may appear. At most, such systems simulate intelligence by optimising for predetermined outcomes through statistical extrapolation. Claude, ChatGPT, and whatever other model you happen to be using should therefore not be indiscriminately labelled “AI,” since that terminology obscures both their capabilities and their limitations. Fluency is not understanding, and responsiveness is not the same thing as cognition.",
+      "source_url": "https://boards.4chan.org/g/thread/110160374",
+      "source_hint": "The OP argues that language models simulate intelligence instead of possessing it."
+    },
+    {
+      "id": "hk-banking-risk",
+      "category": "hk/news",
+      "topic_zh": "銀行制裁風險",
+      "topic_en": "Banking Sanctions Risk",
+      "text_zh": "BREAKING：Netanyahu 話美國畀 Israel 嘅 security aid「is over」，仲要準備 banking sanctions 同 bypass economy。呢個意味住 Israel 嘅 global economy 可能出大事，真係好驚。",
+      "text_en_b1": "BREAKING: Netanyahu says American security aid to Israel is over, and we need to prepare for banking sanctions with a bypass economy. These are disturbing statements that could seriously affect Israel's global economy, unlike Russia's oil and gas income.",
+      "text_en_b2": "BREAKING: Netanyahu says American security aid to Israel is over, and we need to prepare for banking sanctions combined with a bypass economy. These are deeply disturbing statements because they could seriously affect Israel’s global economy. Unlike Russia’s oil and gas income, Israel has a more diversified economy, although its financial and technology sectors remain highly exposed to international trade, so the potential consequences are genuinely frightening.",
+      "text_en_c1": "BREAKING: Netanyahu says that American security aid to Israel is over, and we need to prepare for banking sanctions and a bypass economy. These are deeply disturbing statements that could seriously damage Israel’s global economy. Unlike Russia, whose oil and gas income provides a meaningful source of hard currency, Israel would have fewer obvious options for bypassing the financial restrictions. If sanctions were imposed at scale, the consequences would extend far beyond ordinary diplomatic discomfort, although the original claim would still need careful verification.",
+      "text_en_c2": "BREAKING: Netanyahu says American security aid to Israel is over, and the global economy must prepare for banking sanctions and a bypass economy. These are deeply disturbing remarks, because they suggest that Israel’s international financial position could face serious disruption, with consequences extending far beyond the country itself. Unlike Russia, whose oil and gas income has provided a resilient source of external revenue, Israel has a more tightly integrated and correspondingly more exposed financial structure, making any effective restrictions potentially far more destabilising.",
+      "source_url": "https://boards.4chan.org/pol/thread/544907884",
+      "source_hint": "The post highlights claims about ending US security aid and preparing for banking sanctions."
+    },
+    {
+      "id": "hack-squat",
+      "category": "mma/fitness",
+      "topic_zh": "Hack Squat之王",
+      "topic_en": "Hack Squat Form Check",
+      "text_zh": "Barbell Hack Squat：比 squats 同 deadlifts 少 lower back strain，bar 靠近 centre of mass，failed 嗰阵又容易 bail 同 drop。仲要 rack，form broken 就撞 hamstrings。",
+      "text_en_b1": "Barbell Hack Squat gives less lower-back strain than squats or deadlifts. The bar stays closer to my center of mass, so I can handle heavier loads. It is easy to bail, needs no rack, and hitting my hamstrings warns me when my form breaks. Why not?",
+      "text_en_b2": "The barbell hack squat puts less strain on the lower back than squats or deadlifts because the bar stays closer to my center of mass, allowing me to handle heavier loads more comfortably. It is also relatively easy to bail, needs no rack, and does not require complicated equipment. One drawback is that a rack setup is still necessary in some spaces, while getting hit in the hamstrings warns me whenever my form breaks. Why not try it?",
+      "text_en_c1": "The barbell hack squat places less strain on the lower back than squats or deadlifts, which is why I find it appealing. Because the bar remains closer to my centre of mass, I can manage heavier loads without adopting the same demanding spinal position. It is also comparatively easy to bail on, requires no rack for a failed attempt, and gives me a useful warning when my hamstrings take over because my form has broken. Why not use it? As long as the movement remains controlled and technically sound.",
+      "text_en_c2": "The barbell hack squat places less strain on the lower back than conventional squats or deadlifts because the bar remains closer to my centre of mass, allowing me to manage heavier loads with considerably greater confidence. It is also comparatively easy to bail from, needs no rack, and the bar striking my hamstrings serves as a useful warning that my form has broken down. In short, why not? The movement is technically demanding, but its safety advantages make it an appealing alternative whenever a rack is unavailable.",
+      "source_url": "https://boards.4chan.org/fit/thread/77583610",
+      "source_hint": "The OP lists practical advantages and a built-in form check for the hack squat."
+    },
+    {
+      "id": "cyberpunk-s2",
+      "category": "anime/culture",
+      "topic_zh": "_edge跑者第二季",
+      "topic_en": "Cyberpunk Season Two",
+      "text_zh": "Cyberpunk Edgerunners 睇完。Season 2 係好過 Season 2：有 actual plot，characters 都更加 interesting。Season 1 就似普通 coming-of-age shounenshit，啲角色好 basic。btw final episode 配樂幾好。",
+      "text_en_b1": "Cyberpunk Edgerunners: I just finished it. Season 2 is superior. It has a better story, an actual plot, and more interesting characters. Season 1 was generic coming-of-age shounenshit with basic characters. By the way, the final episode had some nice music too.",
+      "text_en_b2": "I have just finished Cyberpunk: Edgerunners, and Season 2 is clearly superior. Although the second season includes an actual plot, it also develops more interesting characters with stronger personalities and motivations. By comparison, Season 1 felt like fairly generic coming-of-age shounenshit, with basic characters and predictable emotional beats. The final episode’s soundtrack was pretty good as well, although that good music does not erase the weaknesses of the earlier story.",
+      "text_en_c1": "I have just finished Cyberpunk: Edgerunners, and Season 2 is superior. It has a better story, an actual plot, and characters who are considerably more interesting than the originals. Season 1, by comparison, felt like fairly generic coming-of-age shounenshit, with its cast trapped in basic personalities and predictable emotional beats. The second season develops the characters properly, and the final episode also benefits from a genuinely good score. Overall, it is the stronger instalment, even if the journey there remains imperfect.",
+      "text_en_c2": "I have just finished Cyberpunk: Edgerunners, and Season 2 is superior. It offers a more coherent story, an actual plot rather than a collection of loosely connected episodes, and characters who possess greater psychological complexity. Season 1, by contrast, often resembled generic coming-of-age shounenshit, complete with one-note personalities and familiar archetypes. The second instalment retains the visual identity while supplying more dramatic substance. That said, the final episode also features some excellent music, which provides a more than welcome emotional counterweight.",
+      "source_url": "https://boards.4chan.org/a/thread/291860377",
+      "source_hint": "The OP compares the two seasons and praises the final episode's music."
+    }
+  ]
+}

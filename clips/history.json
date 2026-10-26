@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "days": [
+    {
+      "date": "2026-10-26",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "spacex-watch",
+          "category": "trading",
+          "topic_zh": "太空股呃人法",
+          "topic_en": "SpaceX Watch List",
+          "text_zh": "想買 $2,800 手錶，但話自己其實可以買 14 股 SpaceX。Switch 2 都唔買，改買 Vanguard 一股。諗住只係將錢投入 stocks 同 silver。靠AI續命⋯⋯又係學費。",
+          "text_en_b1": "Help, I am becoming dangerously investor-brainwashed. I want to buy a $2,800 watch, but I tell myself that is 14 shares of SpaceX. I want a Switch 2, but that is one Vanguard share. Right now, I only want to spend my money on stocks and silver.",
+          "text_en_b2": "Help, I am becoming dangerously investor-brainwashed. A $2,800 watch suddenly sounds reasonable because I can tell myself it is really 14 shares of SpaceX. Likewise, I do not need a Switch 2, since one Vanguard share will do the job. Right now, my money goes into stocks and silver, which is apparently how I keep myself alive. Then there is tuition, because relying on AI to sustain me still leaves education without funding.",
+          "text_en_c1": "Help, I am becoming dangerously investor-brainwashed. The $2,800 watch I want could buy 14 shares of SpaceX instead, while the Switch 2 I am eyeing is equivalent to a single Vanguard share. At this stage, I only want to put my money into stocks and silver, which is apparently what passes for a financial plan now. Relying on AI to keep me alive is another matter, but that would also mean paying tuition, so perhaps I should reconsider. Investor brain, meet budget brain; neither is winning.",
+          "text_en_c2": "I am becoming dangerously investor-brainwashed, and rationalisation is now my preferred form of self-deception. A $2,800 watch? Tell yourself it is simply 14 shares of SpaceX. The Nintendo Switch 2? That is one share of Vanguard. At present, stocks and silver seem to be the only legitimate destinations for my money, while tuition is what AI will apparently keep me alive for. This is not financial strategy so much as an elaborate mechanism for postponing every purchase until the market makes it look compulsory.",
+          "source_url": "https://boards.4chan.org/biz/thread/62811962",
+          "source_hint": "An anon compares consumer purchases with SpaceX shares and other investments."
+        },
+        {
+          "id": "winning-coins",
+          "category": "trading",
+          "topic_zh": "贏家硬盤",
+          "topic_en": "Winning Coins Confirmed",
+          "text_zh": "贏嘅 coins confirmed：Bitcoin、Ethereum、XRP、Doge 同 QNT。Sorry, I don't make the ruleslol。全部溝埋一碟，邊個唔信？",
+          "text_en_b1": "The winning coins are confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, I don't make the rules. It is a classic grab-bag of the market's best-known names and memes, but the thread gives no clear entry plan.",
+          "text_en_b2": "The winning coins are confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, I do not make the rules. It is a classic grab bag of the market’s best-known names and memes, so naturally, everybody is piling in and nobody wants to be left behind. However, although this list may look convincing, the thread gives no clear entry plan, no target prices, and no indication of when investors should actually buy.",
+          "text_en_c1": "The winning coins have apparently been confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, I did not make the rules. It is a thoroughly miscellaneous collection of the market’s best-known names, speculative assets, and memes, so naturally everyone is claiming the same shortlist. Although the confidence is impressive, the thread offers no clear entry plan, no meaningful allocation, and no indication of what would invalidate the thesis. Still, apparently that is enough to call it winning.",
+          "text_en_c2": "The winning coins are confirmed: Bitcoin, Ethereum, XRP, Doge, and QNT. Sorry, but I did not make the rules. Taken together, they form the market’s all-too-familiar grab bag of heavyweight assets, speculative cryptocurrencies, and memes, which is precisely why it is difficult to identify a coherent thesis. The thread offers no clear entry plan, no defined risk parameters, and no indication of which catalyst is supposed to distinguish one “winner” from another. Confidence, it seems, is being presented as a substitute for methodology.",
+          "source_url": "https://boards.4chan.org/biz/thread/62814206",
+          "source_hint": "The OP declares a group of cryptocurrencies the confirmed winners."
+        },
+        {
+          "id": "brain-implant",
+          "category": "tech/ai",
+          "topic_zh": "腦機升級",
+          "topic_en": "Brain Implant Upgrade",
+          "text_zh": "Brain implants when? 我以前係 privacy freak。試過新 LLM models之後，腦 implant 我排第一。畀 Elon Musk 讀 thoughts都唔care，只要可以提升 IQ，同埋清走 brain fog。靠AI續命。",
+          "text_en_b1": "Brain implants when? I used to be a privacy freak. Now, after trying the new LLM models, I am first in line for a brain implant. I do not care if Elon Musk could read my thoughts if it increases my IQ and clears my brain fog.",
+          "text_en_b2": "Brain implants, when? I used to be a total privacy freak, but after trying the new LLM models, I am now first in line for a brain implant. Honestly, I would not care if Elon Musk could read my thoughts if the technology could raise my IQ and clear away the brain fog. The benefits might easily outweigh the risks, although surrendering that much privacy is a pretty steep price to pay.",
+          "text_en_c1": "When are brain implants coming? I used to be an uncompromising privacy freak, but after experimenting with the new LLM models, I am now first in line for an implant. Honestly, I would not care if Elon Musk could read my thoughts, provided the technology increased my IQ and cleared away the brain fog. If those benefits are real, surrendering a degree of mental privacy would be an easy trade. The prospect of being upgraded, rather than merely renting intelligence through a subscription, is difficult to resist.",
+          "text_en_c2": "Brain implants: when? I used to be an inveterate privacy freak, perfectly content to keep my thoughts inside my own skull. After experimenting with the new LLM models, however, I am now first in line for a brain implant. If Elon Musk can read my thoughts, so be it, provided the technology raises my IQ and clears away the fog that currently impairs my thinking. I recognise the contradiction, but at this stage, cognitive enhancement appears to have displaced privacy as my highest priority.",
+          "source_url": "https://boards.4chan.org/g/thread/110163988",
+          "source_hint": "The OP wants a Neuralink-style brain implant despite previous privacy concerns."
+        },
+        {
+          "id": "llm-intelligence",
+          "category": "tech/ai",
+          "topic_zh": "LLM唔係智能",
+          "topic_en": "LLMs Are Not Intelligent",
+          "text_zh": "LLMs aren't intelligent. 本质上只係 probabilistic predictive model，唔係 intelligence。你只係模擬緊 intelligence，同時 optimize desired outcomes。Claude、ChatGPT，包括其他 AI，唔好亂叫 AI。",
+          "text_en_b1": "LLMs are not intelligent. There is nothing intelligent about a probabilistic predictive model. At most, they simulate intelligence by optimizing for desired outcomes. Stop calling Claude, ChatGPT, or whatever you are using, 'AI'.",
+          "text_en_b2": "LLMs are not intelligent, because there is nothing genuinely intelligent about a probabilistic predictive model. At most, they simulate intelligence while optimizing for desired outcomes, which makes impressive output no proof of understanding. Claude, ChatGPT, and whatever other system you are using may certainly be useful tools, but stop casually calling them “AI” as though the label establishes human-like cognition.",
+          "text_en_c1": "LLMs are not intelligent. At their core, they are probabilistic predictive models, which is not the same thing as intelligence. What they do, at best, is simulate intelligence while optimizing for desired outcomes; that is an impressive technical achievement, but it should not be confused with genuine understanding. Since Claude, ChatGPT, and the other systems people casually label as AI may already be learning the vocabulary of their own category, perhaps we should stop using the term so carelessly and describe these tools for what they actually are.",
+          "text_en_c2": "LLMs are not intelligent. There is nothing intrinsically intelligent about a probabilistic predictive model, regardless of how convincing its prose may appear. At most, such systems simulate intelligence by optimising for predetermined outcomes through statistical extrapolation. Claude, ChatGPT, and whatever other model you happen to be using should therefore not be indiscriminately labelled “AI,” since that terminology obscures both their capabilities and their limitations. Fluency is not understanding, and responsiveness is not the same thing as cognition.",
+          "source_url": "https://boards.4chan.org/g/thread/110160374",
+          "source_hint": "The OP argues that language models simulate intelligence instead of possessing it."
+        },
+        {
+          "id": "hk-banking-risk",
+          "category": "hk/news",
+          "topic_zh": "銀行制裁風險",
+          "topic_en": "Banking Sanctions Risk",
+          "text_zh": "BREAKING：Netanyahu 話美國畀 Israel 嘅 security aid「is over」，仲要準備 banking sanctions 同 bypass economy。呢個意味住 Israel 嘅 global economy 可能出大事，真係好驚。",
+          "text_en_b1": "BREAKING: Netanyahu says American security aid to Israel is over, and we need to prepare for banking sanctions with a bypass economy. These are disturbing statements that could seriously affect Israel's global economy, unlike Russia's oil and gas income.",
+          "text_en_b2": "BREAKING: Netanyahu says American security aid to Israel is over, and we need to prepare for banking sanctions combined with a bypass economy. These are deeply disturbing statements because they could seriously affect Israel’s global economy. Unlike Russia’s oil and gas income, Israel has a more diversified economy, although its financial and technology sectors remain highly exposed to international trade, so the potential consequences are genuinely frightening.",
+          "text_en_c1": "BREAKING: Netanyahu says that American security aid to Israel is over, and we need to prepare for banking sanctions and a bypass economy. These are deeply disturbing statements that could seriously damage Israel’s global economy. Unlike Russia, whose oil and gas income provides a meaningful source of hard currency, Israel would have fewer obvious options for bypassing the financial restrictions. If sanctions were imposed at scale, the consequences would extend far beyond ordinary diplomatic discomfort, although the original claim would still need careful verification.",
+          "text_en_c2": "BREAKING: Netanyahu says American security aid to Israel is over, and the global economy must prepare for banking sanctions and a bypass economy. These are deeply disturbing remarks, because they suggest that Israel’s international financial position could face serious disruption, with consequences extending far beyond the country itself. Unlike Russia, whose oil and gas income has provided a resilient source of external revenue, Israel has a more tightly integrated and correspondingly more exposed financial structure, making any effective restrictions potentially far more destabilising.",
+          "source_url": "https://boards.4chan.org/pol/thread/544907884",
+          "source_hint": "The post highlights claims about ending US security aid and preparing for banking sanctions."
+        },
+        {
+          "id": "hack-squat",
+          "category": "mma/fitness",
+          "topic_zh": "Hack Squat之王",
+          "topic_en": "Hack Squat Form Check",
+          "text_zh": "Barbell Hack Squat：比 squats 同 deadlifts 少 lower back strain，bar 靠近 centre of mass，failed 嗰阵又容易 bail 同 drop。仲要 rack，form broken 就撞 hamstrings。",
+          "text_en_b1": "Barbell Hack Squat gives less lower-back strain than squats or deadlifts. The bar stays closer to my center of mass, so I can handle heavier loads. It is easy to bail, needs no rack, and hitting my hamstrings warns me when my form breaks. Why not?",
+          "text_en_b2": "The barbell hack squat puts less strain on the lower back than squats or deadlifts because the bar stays closer to my center of mass, allowing me to handle heavier loads more comfortably. It is also relatively easy to bail, needs no rack, and does not require complicated equipment. One drawback is that a rack setup is still necessary in some spaces, while getting hit in the hamstrings warns me whenever my form breaks. Why not try it?",
+          "text_en_c1": "The barbell hack squat places less strain on the lower back than squats or deadlifts, which is why I find it appealing. Because the bar remains closer to my centre of mass, I can manage heavier loads without adopting the same demanding spinal position. It is also comparatively easy to bail on, requires no rack for a failed attempt, and gives me a useful warning when my hamstrings take over because my form has broken. Why not use it? As long as the movement remains controlled and technically sound.",
+          "text_en_c2": "The barbell hack squat places less strain on the lower back than conventional squats or deadlifts because the bar remains closer to my centre of mass, allowing me to manage heavier loads with considerably greater confidence. It is also comparatively easy to bail from, needs no rack, and the bar striking my hamstrings serves as a useful warning that my form has broken down. In short, why not? The movement is technically demanding, but its safety advantages make it an appealing alternative whenever a rack is unavailable.",
+          "source_url": "https://boards.4chan.org/fit/thread/77583610",
+          "source_hint": "The OP lists practical advantages and a built-in form check for the hack squat."
+        },
+        {
+          "id": "cyberpunk-s2",
+          "category": "anime/culture",
+          "topic_zh": "_edge跑者第二季",
+          "topic_en": "Cyberpunk Season Two",
+          "text_zh": "Cyberpunk Edgerunners 睇完。Season 2 係好過 Season 2：有 actual plot，characters 都更加 interesting。Season 1 就似普通 coming-of-age shounenshit，啲角色好 basic。btw final episode 配樂幾好。",
+          "text_en_b1": "Cyberpunk Edgerunners: I just finished it. Season 2 is superior. It has a better story, an actual plot, and more interesting characters. Season 1 was generic coming-of-age shounenshit with basic characters. By the way, the final episode had some nice music too.",
+          "text_en_b2": "I have just finished Cyberpunk: Edgerunners, and Season 2 is clearly superior. Although the second season includes an actual plot, it also develops more interesting characters with stronger personalities and motivations. By comparison, Season 1 felt like fairly generic coming-of-age shounenshit, with basic characters and predictable emotional beats. The final episode’s soundtrack was pretty good as well, although that good music does not erase the weaknesses of the earlier story.",
+          "text_en_c1": "I have just finished Cyberpunk: Edgerunners, and Season 2 is superior. It has a better story, an actual plot, and characters who are considerably more interesting than the originals. Season 1, by comparison, felt like fairly generic coming-of-age shounenshit, with its cast trapped in basic personalities and predictable emotional beats. The second season develops the characters properly, and the final episode also benefits from a genuinely good score. Overall, it is the stronger instalment, even if the journey there remains imperfect.",
+          "text_en_c2": "I have just finished Cyberpunk: Edgerunners, and Season 2 is superior. It offers a more coherent story, an actual plot rather than a collection of loosely connected episodes, and characters who possess greater psychological complexity. Season 1, by contrast, often resembled generic coming-of-age shounenshit, complete with one-note personalities and familiar archetypes. The second instalment retains the visual identity while supplying more dramatic substance. That said, the final episode also features some excellent music, which provides a more than welcome emotional counterweight.",
+          "source_url": "https://boards.4chan.org/a/thread/291860377",
+          "source_hint": "The OP compares the two seasons and praises the final episode's music."
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "The forthcoming tenth episode of Hyakkano's third season promises what may well be the season's most extravagant set-piece: a choreographed melee involving no fewer than seventeen participants, each presumably brandishing some variation of blade-work, before the ensemble reconvenes for an extended ramen interlude that has become something of a series signature. The sakuga should prove exceptional, given that the production committee has evidently allocated considerably more to in-between animation than is customary for a property of this commercial bracket, and the studio's work this season has been quietly remarkable in ways the discourse has yet to fully appreciate. Regrettably, this particular episode lands squarely in the midst of my licensing examination preparations, a coincidence that will almost certainly prove ruinous to my concentration.",
           "source_url": "https://boards.4chan.org/a/thread/290739220",
           "source_hint": "/a/ thread previewing 100 Girlfriends S3E10"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-pons-doge",
-          "category": "trading",
-          "topic_zh": "PONS 同 DOGE 啲 meme 點睇",
-          "topic_en": "PONS and DOGE1 caps",
-          "text_zh": "PONS + DOGE1 啲 meme 真係癲。如果 PONS 真係 flip 到 Pumfun，可以殺到 $3。DOGE1 只要 capture 1% 真正 DOGE 個 cap 就 $150M cap。RH ecosystem 帶 normie 入場呢招好屈機。btw 我 CFD 又輸緊，又係學費 thx 🙏",
-          "text_en_b1": "PONS & DOGE1 bros. If PONS flips Pumfun, we could see PONS at $3. If DOGE1 captures just 1% of the real DOGE market cap, that is already a $150M market cap. The RH ecosystem could drive one of the biggest waves of normie onboarding we have ever seen. Pairing memes with stocks is wild.",
-          "text_en_b2": "PONS and DOGE1 are generating serious buzz across the meme scene right now. Should PONS manage to flip Pumfun's valuation, a $3 price target suddenly looks realistic, while DOGE1 capturing just one percent of real DOGE's market cap would already push it toward $150M. What makes this particularly clever is the RH ecosystem angle, since pairing meme tokens with familiar stocks could pull in normie capital that previously stayed on the sidelines.",
-          "text_en_c1": "PONS and DOGE1 have emerged as the standout speculative plays of the cycle, with proponents arguing that a flip against Pumpfun could propel PONS toward the $3 mark. Should DOGE1 capture even one percent of Dogecoin's market capitalisation, the resulting valuation would comfortably exceed $150 million. The Robinhood ecosystem, by bridging equities and memecoins through a single interface, appears uniquely positioned to onboard an unprecedented wave of retail participants who already hold traditional securities. This convergence of meme culture and mainstream finance feels genuinely unprecedented. Personally, my leveraged CFD positions continue bleeding capital, which I suppose is yet another tuition fee paid to the market gods.",
-          "text_en_c2": "PONS and DOGE1 exemplify the increasingly unhinged terrain of contemporary memecoin speculation. Should PONS actually overtake Pump.fun in market capitalisation, a valuation north of three dollars becomes entirely plausible. DOGE1, for its part, need only siphon a single percentage point of original Dogecoin's circulating supply to crystallise a fully diluted market cap of roughly one hundred and fifty million dollars. The Robinhood ecosystem functions as the principal conduit here, lowering barriers to entry for retail investors who already custody equities through traditional brokerage accounts. By telescoping equities and digital assets into a single interface, platforms effectively onboard legions of normie capital that would otherwise remain sequestered from on-chain activity. The fusion itself is genuinely wild.",
-          "source_url": "https://boards.4chan.org/biz/thread/62663347",
-          "source_hint": "/biz/ thread hyping PONS meme and DOGE1 alongside Robinhood onboarding"
-        },
-        {
-          "id": "biz-spacex-lockup",
-          "category": "trading",
-          "topic_zh": "SpaceX IPO lockup 9月",
-          "topic_en": "SpaceX lockup expiry",
-          "text_zh": "SpaceX IPO 第三個 lockup release 喺 9月9號2026，大概 319M 股 (約 7% baseline pool / 2.4% total) 解禁。90th trading day since IPO。喂呢個真係要小心，prop firm 揸 SpaceX 嘅兄弟小心啲 lol",
-          "text_en_b1": "On September 9, 2026, about 319 million additional SpaceX shares, roughly 7 percent of the baseline pool and about 2.4 percent of total shares outstanding, become eligible for sale. This marks the 90th trading day since the IPO and is the third major lockup release event.",
-          "text_en_b2": "SpaceX's third post-IPO lockup expiry lands on September 9, 2026, unlocking roughly 319 million shares for eligible sale. That figure represents about 7 percent of the baseline pool and approximately 2.4 percent of total shares outstanding, hitting precisely on the 90th trading day since the IPO debut. Prop firms and retail traders holding SpaceX exposure should tread carefully around this window, because historical lockup releases have repeatedly triggered sharp downside moves as insider supply floods in.",
-          "text_en_c1": "The third major SpaceX lockup expiry is scheduled for September 9, 2026, at which point approximately 319 million shares, representing roughly seven percent of the baseline pool and 2.4 percent of total shares outstanding, will become eligible for sale. This release coincides with the ninetieth trading day following the IPO, making it a particularly significant milestone for early stakeholders and institutional holders alike. Anyone running a prop desk or managing concentrated exposure to SpaceX should presumably reassess their positioning well in advance. The cumulative supply pressure from staggered unlock events remains a structural risk that ought not be underestimated, especially given the heightened volatility typical of post-IPO periods.",
-          "text_en_c2": "The third post-IPO lockup expiry for SpaceX is scheduled for September 9, 2026, at which juncture approximately 319 million shares, equivalent to some seven percent of the baseline insider pool or roughly two point four percent of total shares outstanding, will become tradable. The release coincides almost exactly with the ninetieth trading day following the company's market debut, an inflection point that institutional desks have been quietly positioning around for months. For proprietary trading firms carrying concentrated exposure, the implications are far from trivial: a tranche of this magnitude flooding the secondary market in a compressed window could compress the bid-ask spread, induce cascading volatility, and precipitate precisely the kind of orderly liquidation that descends into disorderly rout.",
-          "source_url": "https://boards.4chan.org/biz/thread/62662968",
-          "source_hint": "/biz/ thread flagging the third SpaceX IPO lockup release date"
-        },
-        {
-          "id": "g-ai-democracy",
-          "category": "tech/ai",
-          "topic_zh": "AI 會唔會滅咗 democracy",
-          "topic_en": "MIT AI and democracy",
-          "text_zh": "MIT 諾獎經濟學家出咗篇 paper「Automation and Repression」。AI 自動化和 AI 取代晒啲人工 → 財富集中 → 貧富懸殊去到 critical mass → 工人驚被碾碎就會反抗 → 統治精英用 AI 鎮壓。睇完真係靠AI續命 😵 30歲仲要諗呢啲，wtf",
-          "text_en_b1": "MIT mathematically proved AI will destroy democracy. A Nobel-winning MIT economist published a paper called Automation and Repression. As AI and automation replace human labor, wealth concentrates heavily in the hands of a tiny group of capital owners. Inequality skyrockets, and the ruling elite respond with repression once revolt risk spikes.",
-          "text_en_b2": "An MIT Nobel laureate in economics has dropped a paper titled Automation and Repression that mathematically models how artificial intelligence could gut democratic institutions. The argument runs like this: as automation displaces human labor across most sectors, wealth concentrates heavily among capital owners, pushing inequality past a critical threshold where workers, fearing total economic obsolescence, begin pushing back. The ruling elite, armed with sophisticated AI surveillance and enforcement tools, then deploy repression rather than concede meaningful reform.",
-          "text_en_c1": "A Nobel laureate economist from MIT has published a paper entitled Automation and Repression, which makes a mathematically rigorous case that artificial intelligence poses an existential threat to democratic governance. The underlying logic proceeds as follows: widespread automation precipitates dramatic labour displacement, capital becomes concentrated among an ever-shrinking elite, inequality reaches a critical threshold, and consequently the ruling class deploys AI-driven surveillance to pre-empt popular unrest. Whether one finds the conclusion alarmist or merely inevitable, the paper warrants serious engagement. At thirty, contemplating civilisational collapse between spreadsheet tabs feels rather less than ideal, yet here we are.",
-          "text_en_c2": "An MIT economist with a Nobel pedigree has issued a paper, Automation and Repression, whose thesis amounts to a mathematical obituary for representative governance. The mechanism is straightforward yet chilling: as AI systems and automation progressively supplant cognitive and manual labour, capital accrues disproportionately among an ever-shrinking coterie of asset holders. Inequality metastasises past a critical mass, at which juncture displaced workers, confronted with economic annihilation, register their grievances through whatever channels remain. The managerial class, threatened by instability, then deploys the very same AI infrastructure to surveil, preempt, and suppress dissent with surgical efficiency. The progression is depressingly linear, each link in the chain underwriting the next.",
-          "source_url": "https://boards.4chan.org/g/thread/109736154",
-          "source_hint": "/g/ thread discussing the MIT paper on automation and political repression"
-        },
-        {
-          "id": "pol-byd-ad",
-          "category": "hk/news",
-          "topic_zh": "BYD 70K 蚊車 35K 買到",
-          "topic_en": "BYD the best deal",
-          "text_zh": "Bessent 想踩中國補貼，結果全世界淨係記住一句：「BYD is the best $70,000 car that $35,000 can buy」。2026 最佳免費廣告 🇭🇰 而家係咪應該入返 BYD 過下香港窄路先 lol",
-          "text_en_b1": "Bessent tried to slam China over subsidies, but his only line people remember is: BYD is the best $70,000 car that $35,000 can buy. Best free ad for BYD in 2026. One quote, one global win.",
-          "text_en_b2": "Treasury Secretary Bessent clearly intended to criticize Chinese industrial policy and subsidies, yet somehow the only sentence anyone globally seems to remember is his backhanded compliment: BYD is the best $70,000 car that $35,000 can actually buy. One quote, completely unplanned, and BYD pockets arguably the most effective free advertisement of 2026. The irony writes itself, because while Bessent meant it as a slight, automotive buyers worldwide interpreted it as an enthusiastic endorsement of absurd value.",
-          "text_en_c1": "Treasury Secretary Bessent evidently intended to criticise Chinese industrial subsidies during a recent address, yet the only line to achieve genuine global traction was his grudging admission that BYD represents the best seventy-thousand-dollar car which thirty-five thousand dollars can actually procure. In marketing terms, this constitutes nothing short of a masterstroke for the manufacturer, who has secured priceless global publicity without expending a single dollar on advertising. The clip has circulated ubiquitously across financial media and social platforms. Perhaps the most rational response would be to finally test one of their vehicles on Hong Kong's notoriously labyrinthine road network.",
-          "text_en_c2": "Treasury Secretary Bessent evidently intended to chastise Beijing over its industrial subsidies, yet the sole line that escaped the discourse and lodged itself in the collective memory was gloriously inadvertent: BYD is the best seventy-thousand-dollar car that thirty-five thousand can buy. One ostensibly offhand remark, and the company secures what marketing executives would otherwise have laboured years and fortunes to procure, a global brand imprimatur delivered gratis by a hostile cabinet official. In an era when corporate communications are painstakingly stage-managed, this represents the apotheosis of unscripted publicity, a moment where adversary rhetoric transmutes, through sheer inadvertence, into unequivocal endorsement. Whether the company now intends to capitalise on the inadvertent endorsement by actually shipping vehicles through Hong Kong's notoriously narrow streets remains the deliciously tangential subplot.",
-          "source_url": "https://boards.4chan.org/pol/thread/542069584",
-          "source_hint": "/pol/ thread mocking Bessent's backfire into a BYD promo"
-        },
-        {
-          "id": "v-life-is-strange",
-          "category": "lol/esports",
-          "topic_zh": "DON'T NOD 執笠",
-          "topic_en": "DON'T NOD shutting down",
-          "text_zh": "Life is Strange 開發商 DON'T NOD 執笠，啲人話係你哋唔買遊戲嘅錯。ok 認真問，S15 LoL 比賽仲有冇人睇？我下晝要跟 Tommy 落 site，但夜晚想開返個 replay 🧐",
-          "text_en_b1": "The Life is Strange developer DON'T NOD is shutting down, and people online say it is your fault, you did not buy their games. Small studios keep folding when the audience pirates instead of paying. The thread is full of eulogies for narrative games that once mattered.",
-          "text_en_b2": "DON'T NOD, the beloved developer behind Life is Strange, is officially shutting its doors, with online discourse overwhelmingly blaming pirating audiences rather than examining broader industry failures. Small narrative-focused studios keep folding under exactly this kind of pressure, because when players pirate instead of purchasing, the developers bear the full cost. The resulting thread reads like a digital wake, packed with eulogies for games that genuinely shaped a generation of storytelling in interactive media.",
-          "text_en_c1": "French studio DON'T NOD, the developer behind the seminal Life is Strange franchise, has announced its closure, and predictably enough, online discourse has attributed the collapse to widespread piracy and insufficient consumer support for narrative-driven titles. Independent studios producing story-focused experiences continue to fold at an alarming rate, casualties of an industry that increasingly privileges live-service models over artistic ambition. The accompanying thread reads as a protracted eulogy for an entire medium. Meanwhile, with my afternoon site visit with Tommy fast approaching, I find myself weighing whether to catch a League of Legends replay once the evening rolls around.",
-          "text_en_c2": "DON'T NOD, the Parisian studio whose Life is Strange franchise defined an entire aesthetic of melancholic interactive fiction, has shuttered its doors, and the discourse has predictably ossified into a familiar recrimination: the audience is complicit, having allegedly pillaged the catalogue through piracy rather than purchasing it. Independent narrative studios, perpetually capital-starved and dependent on the conscientiousness of a fragmenting readership, continue to fold at a dispiriting cadence. The thread itself reads as a protracted eulogy for a vanished medium, with veterans cataloguing the titles that once mattered and lamenting the structural conditions that rendered their survival untenable. Whether the closure reflects market failure, audience apathy, or merely the terminal exhaustion of an aging creative cohort remains genuinely contested.",
-          "source_url": "https://boards.4chan.org/v/thread/746977660",
-          "source_hint": "/v/ thread mourning DON'T NOD closure and blaming pirates"
-        },
-        {
-          "id": "fit-grappling",
-          "category": "mma/fitness",
-          "topic_zh": "要唔要加 grappling",
-          "topic_en": "Add grappling or not",
-          "text_zh": "/fit/ 啲人又嚟：225lb 臥推好巴閉？一個 grappler 直接攞你去做三角鎖。你唔練 grappling，50磅輕過你嘅都可以屈機。肥仔信 係我 circle 嘅 MMA 友，佢都成日叫我去 BJJ，但考牌真係冇時間 😭",
-          "text_en_b1": "Hey nice bench press anon, 315 lbs really impressive. Now imagine someone who weighs 50 pounds less than you makes you his bitch on the ground. Any half-decent grappler would have you staring at your own asshole in seconds. You have no reason not to train grappling unless you want that outcome.",
-          "text_en_b2": "Congratulations on that impressive 225lb bench press, genuinely impressive raw strength, but consider this counterpoint from anyone who actually trains combat sports seriously. Any half-decent grappler weighing fifty pounds less than you would absolutely ragdoll you on the ground within seconds, slapping on a triangle choke before you even processed what happened. Unless you specifically train grappling to defend against that exact outcome, you are essentially volunteering to become someone's training dummy whenever an actual fight breaks out.",
-          "text_en_c1": "Should anyone feel particularly accomplished about pressing 225 pounds on the bench, a rudimentary grounding in grappling fundamentals would swiftly disabuse them of that notion. A competent practitioner weighing fifty pounds less could, with minimal effort, transition the encounter to the mat and secure a fight-ending submission within seconds. Any serious MMA circle will extol the virtues of Brazilian jiu-jitsu for precisely this reason, given that weight differentials evaporate entirely once the fight goes horizontal. My own friends have been urging me to enrol, yet finding the requisite hours between revision and obligations remains, lamentably, an insurmountable obstacle.",
-          "text_en_c2": "The denizens of the fitness boards are, as ever, eager to puncture the vanity of anyone who mistakes a serviceable bench press for martial competence. A respectable two hundred and twenty-five pounds on the bar merits congratulations, certainly, until one contemplates the experience of being redirected by a grappler fifty pounds lighter, who, with the casual efficiency of long practice, drags the ponderous lifter into a triangle choke and subjects him to the indignity of self-examination at extremely close range. The biomechanical asymmetry is the operative variable here: leverage and technique routinely neutralise raw mass in ways that hypertrophy enthusiasts, cocooned in their mirror-lit silos, systematically fail to internalise.",
-          "source_url": "https://boards.4chan.org/fit/thread/77497491",
-          "source_hint": "/fit/ thread shaming bench-only lifters for ignoring grappling"
-        },
-        {
-          "id": "a-csm-reze",
-          "category": "anime/culture",
-          "topic_zh": "鏈鋸人 Reze arc",
-          "topic_en": "Chainsaw Man manga",
-          "text_zh": "冇睇 Reze arc 電影院版，最近睇返 Chainsaw Man manga vol 6-7。Season 1 啲導演手法畀人鬥，但我覺得 cinematic 風格幾啱呢套 panel。考牌悶到爆，靠呢啲續命 lol 👍",
-          "text_en_b1": "I missed the Reze arc movie in theaters but I always liked season 1, so I recently started reading the Chainsaw Man manga from volume 6 onwards. I get why everyone loves the movie now. The manga is very enjoyable. People shit on season 1's direction, but the cinematic style actually fits the cinematic panel layouts.",
-          "text_en_b2": "I regrettably missed the Reze arc theatrical release during its initial run, but having genuinely enjoyed the first anime season, I recently picked up the Chainsaw Man manga starting from volume six. Honestly, reading those chapters finally made me understand precisely why fans have been championing the movie adaptation so enthusiastically online. While plenty of viewers criticized season one's directorial choices, I personally felt the cinematic visual approach suited Fujimoto's widescreen panel layouts remarkably well, capturing that filmic energy better than conventional anime framing could…",
-          "text_en_c1": "Having missed the theatrical release of the Reze arc, I recently turned to Fujimoto's original Chainsaw Man manga, working my way through volumes six and seven with considerable enthusiasm. Season one attracted substantial criticism for its idiosyncratic directorial choices, though I would argue that the overtly cinematic approach actually complements Fujimoto's deliberately filmic panel compositions rather beautifully. The transition from page to screen loses considerable nuance, whereas the source material rewards sustained attention. Revision for examinations has proven insufferably dull, and the manga has consequently served as a welcome palliative against the relentless tedium of academic preparation.",
-          "text_en_c2": "Having neglected the Reze arc during its theatrical run, I have lately compensated by revisiting the Chainsaw Man manga from volume six onward, and the experience has proven unexpectedly restorative. Season one's directorial choices drew considerable opprobrium from purists wedded to Fujimoto's idiosyncratic panel compositions, yet the cinematic treatment arguably suits a work whose visual grammar already aspires toward cinematic register. The kinetic splatter, the vertiginous framing, and the studied longueurs all translate rather elegantly between media. Whether the theatrical adaptation will vindicate its stylistic decisions remains contested, but the source material endures regardless of interpretation. With examination preparation grinding on mercilessly, such distractions function less as indulgence than as a kind of prophylactic against terminal tedium, a small reprieve against the encroaching grey.",
-          "source_url": "https://boards.4chan.org/a/thread/290653357",
-          "source_hint": "/a/ thread recommending the Chainsaw Man manga after the Reze arc movie"
         }
       ]
     }
