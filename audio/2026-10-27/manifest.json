@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-27",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "c1",
+      "topic_en": "Stocks Over Watches",
+      "topic_zh": "買股抑或買錶",
+      "category": "trading",
+      "files": {
+        "b1": "clip-c1-b1.mp3",
+        "b2": "clip-c1-b2.mp3",
+        "c1": "clip-c1-c1.mp3",
+        "c2": "clip-c1-c2.mp3"
+      }
+    },
+    {
+      "id": "c2",
+      "topic_en": "Gods-Only Portfolio",
+      "topic_zh": "神級投資組合",
+      "category": "trading",
+      "files": {
+        "b1": "clip-c2-b1.mp3",
+        "b2": "clip-c2-b2.mp3",
+        "c1": "clip-c2-c1.mp3",
+        "c2": "clip-c2-c2.mp3"
+      }
+    },
+    {
+      "id": "c3",
+      "topic_en": "AI and Freedom",
+      "topic_zh": "AI識唔識自由",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-c3-b1.mp3",
+        "b2": "clip-c3-b2.mp3",
+        "c1": "clip-c3-c1.mp3",
+        "c2": "clip-c3-c2.mp3"
+      }
+    },
+    {
+      "id": "c4",
+      "topic_en": "Birth Rate Religion",
+      "topic_zh": "低生育率迷因",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-c4-b1.mp3",
+        "b2": "clip-c4-b2.mp3",
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "c5",
+      "topic_en": "Beginner Whitepill",
+      "topic_zh": "新手白丸藥",
+      "category": "mma/fitness",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "c6",
+      "topic_en": "Cute Creature Anime",
+      "topic_zh": "萌獸短動畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "c7",
+      "topic_en": "Indie Dev Winter",
+      "topic_zh": "獨立遊戲寒潮",
+      "category": "lol/esports",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    }
+  ]
+}

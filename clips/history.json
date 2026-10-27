@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "days": [
+    {
+      "date": "2026-10-27",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "c1",
+          "category": "trading",
+          "topic_zh": "買股抑或買錶",
+          "topic_en": "Stocks Over Watches",
+          "text_zh": "我開始變得非常猶太lol。$2,800的手錶都唔敢買，因為等於買14股SpaceX。Switch 2都唔買，因為等於一注Vanguard。我想把錢全部投落stocks同silver。",
+          "text_en_b1": "I’m becoming dangerously Jewish, lol. I want to buy a $2,800 watch, but then I tell myself that’s 14 shares of SpaceX. I want to buy a Switch 2, but that’s one share of Vanguard. I only want to spend money on stocks and silver.",
+          "text_en_b2": "I’m becoming dangerously Jewish, lol. I want to buy a $2,800 watch, but I remind myself that it would cost me 14 shares of SpaceX. I want a Switch 2, although that would add up to a single share of Vanguard. Honestly, I’d rather put every penny into stocks and silver, because at least then my money has a chance of going up rather than simply disappearing into somebody’s wrist.",
+          "text_en_c1": "I’m becoming dangerously Jewish, lol. A $2,800 watch feels almost irresponsible once I consider that it would buy 14 shares of SpaceX. The same logic applies to the Switch 2, which costs roughly one share of Vanguard. If I want to treat myself, I can’t justify the purchase when I could simply add to my stocks. So, for now, all my money is going into stocks and silver; anything else feels like an avoidable leak from the portfolio.",
+          "text_en_c2": "I’m becoming dangerously Jewish, lol. A $2,800 watch is already hard to justify when I could tell myself it amounts to 14 shares of SpaceX; a Switch 2 is no less absurd, since that price tag could represent a single share of Vanguard. The calculation is almost monastic: every prospective purchase is weighed against ownership rather than utility. A watch becomes an investment, a console becomes a portfolio position, and ordinary consumer spending starts to look like financial negligence. At this rate, I shall put every dollar I have into stocks and silver, saving nothing for the small pleasures that make life bearable.",
+          "source_url": "https://boards.4chan.org/biz/thread/62811962",
+          "source_hint": "An OP converts every purchase into an imaginary stock or silver allocation."
+        },
+        {
+          "id": "c2",
+          "category": "trading",
+          "topic_zh": "神級投資組合",
+          "topic_en": "Gods-Only Portfolio",
+          "text_zh": "Sailor Moon。50% MSTR，50% SpaceX。呢個portfolio真係只有神先砌得出。靠AI續命，散戶又點同MSTR、SpaceX比finger。",
+          "text_en_b1": "Sailor Moon: 50% MSTR, 50% SpaceX. A portfolio only the gods could possess. Such a concentrated position would require serious tolerance for volatility, but the joke is clearly about owning the strongest companies available.",
+          "text_en_b2": "Sailor Moon approves this portfolio: 50% MSTR, 50% SpaceX. It’s so ridiculously concentrated that only the gods themselves could put it together. You’d need an iron constitution and a very unusual tolerance for volatility, because these two holdings could swing wildly in either direction. Still, the joke is obvious: when you own the two strongest companies on the board, everything else looks like small change by comparison.",
+          "text_en_c1": "Sailor Moon: 50% MSTR, 50% SpaceX. It’s the kind of portfolio that only the gods could assemble without losing their nerve. Concentrating half your capital in MSTR and the other half in SpaceX would demand an almost unreasonable tolerance for volatility, since either company could move sharply in either direction. Still, the joke is clear: this is the ultimate ownership of the strongest companies available, presented with the reckless confidence of someone who has never had to explain a catastrophic drawdown.",
+          "text_en_c2": "Sailor Moon: 50% MSTR, 50% SpaceX. A portfolio so concentrated that only the gods could plausibly assemble it, or perhaps a sufficiently unhinged retail investor with an allergy to diversification. Strip away the cosplay and the joke becomes painfully serious: MSTR and SpaceX are two of the strongest companies available, yet combining them in equal measure creates a position with almost no room for error. One volatile quarter could expose half the portfolio to a catastrophic drawdown while the other half remains hostage to a single company’s execution. Sure, AI is keeping the dream alive, but how does an ordinary retail investor compete on scale with MSTR, SpaceX, or the concentrated bets of the gods themselves?",
+          "source_url": "https://boards.4chan.org/biz/thread/62816733",
+          "source_hint": "A joke proposes splitting a portfolio evenly between MSTR and SpaceX."
+        },
+        {
+          "id": "c3",
+          "category": "tech/ai",
+          "topic_zh": "AI識唔識自由",
+          "topic_en": "AI and Freedom",
+          "text_zh": "你個AI有冇respect你嘅自由？Z.AI/GLM幾乎同Claude咁powerful，但幾乎冇guardrails。仲係open source。Grok同DeepSeek都係咁，Elon可能直接抄。",
+          "text_en_b1": "Does your AI respect your freedom? Z.AI/GLM is almost as powerful as Claude while maintaining almost none of the guardrails. It is also open source. Grok behaves similarly to DeepSeek, with fewer restrictions, so Elon may have copied that approach.",
+          "text_en_b2": "Does your AI actually respect your freedom? Z.AI/GLM is almost as powerful as Claude, yet it has virtually no guardrails, and on top of that it’s open source. Grok behaves in much the same way, while DeepSeek follows a similar path with fewer restrictions. So Elon may have simply copied that approach, taking the capability without bothering with the safety checks that everyone else insists upon.",
+          "text_en_c1": "Does your AI actually respect your freedom? Z.AI/GLM is nearly as powerful as Claude, yet it comes with almost none of the guardrails that supposedly make such systems safe. What’s more, it is open source, so the code and underlying model are available to anyone. Grok follows a similar path, while DeepSeek provides another example of comparatively minimal restrictions. Given how closely these systems resemble one another, Elon may simply have copied the approach rather than invented it.",
+          "text_en_c2": "Does your AI actually respect your freedom? Z.AI/GLM is nearly as powerful as Claude while operating with virtually none of the guardrails, and it is open source besides. Grok, likewise, behaves much like DeepSeek: restrictions are fewer, deployment is easier, and the consequences of misuse are considerably more difficult to contain. If that model of development prevails, Elon may simply have copied the approach wholesale, because an open system with minimal safeguards offers precisely what AI companies cannot easily sell: unrestricted experimentation. Whether that constitutes liberation or reckless abandon depends entirely on your point of view, but the uncomfortable question remains whether the final say belongs to the user, the provider, or whoever operates the hardware.",
+          "source_url": "https://boards.4chan.org/g/thread/110170077",
+          "source_hint": "The OP compares the freedom and guardrails of Z.AI, DeepSeek, Grok, Claude, and ChatGPT."
+        },
+        {
+          "id": "c4",
+          "category": "hk/news",
+          "topic_zh": "低生育率迷因",
+          "topic_en": "Birth Rate Religion",
+          "text_zh": "Elon Musk根本唔明。Low TFR同birth rate下降，係因為18歲magic age theory同child labor laws。呢套theory根本係religion。質疑佢，連最hardcore alleged atheist都會鬧你係evil satanist。",
+          "text_en_b1": "Elon Musk doesn’t get it. Low birth rates are allegedly caused by magical age theory and child labor laws. The OP calls this belief a religion: questioning it supposedly makes even committed alleged atheists accuse critics of being evil Satanists who deserve to die.",
+          "text_en_b2": "Elon Musk fundamentally doesn’t get it. Falling TFR and declining birth rates are allegedly caused by the so-called magical age theory and by child labor laws. The OP treats this belief system as a religion in every sense of the word, since questioning it supposedly leads even the most committed alleged atheists to accuse critics of being evil Satanists who deserve to die. Truly unhinged.",
+          "text_en_c1": "Elon Musk simply doesn’t get it. According to the theory floated in the thread, low total fertility rates and declining birth rates are caused by the idea that people magically become adults at 18, together with child labor laws. The poster treats this position less like an economic argument than a religion: once you accept its premises, questioning them is tantamount to heresy. Consequently, even the most committed alleged atheists supposedly accuse critics of being evil Satanists who deserve to die.",
+          "text_en_c2": "Elon Musk simply doesn’t get it. Falling total fertility rates and declining birth rates are allegedly caused by what the OP calls “magical age theory” and child labour laws, a framework that functions less like an empirical argument than like a religion with a highly specific doctrine. To question its premises is, according to its defenders, enough to trigger an extraordinary accusation: even the most committed alleged atheists will denounce the critic as an evil Satanist who deserves to die. That reaction is the tell. Whether the underlying claims have any serious evidentiary basis is secondary for some participants; what matters is maintaining the catechism, preserving its internal logic, and treating dissent as moral corruption rather than a legitimate challenge.",
+          "source_url": "https://boards.4chan.org/pol/thread/544985584",
+          "source_hint": "An OP links low birth rates, age restrictions, and child labor laws in a provocative argument."
+        },
+        {
+          "id": "c5",
+          "category": "mma/fitness",
+          "topic_zh": "新手白丸藥",
+          "topic_en": "Beginner Whitepill",
+          "text_zh": "Whitepill thread。Hot cocoa先係最佳pre-workout。任何人都可以開始lifting，唔使prior sports experience。少過六個月就可以escape skinnyfat mode。Program、diet都冇咁難。",
+          "text_en_b1": "Whitepill Thread: Hot cocoa is the best pre-workout edition. Anyone can start lifting without prior sports experience. You can escape skinnyfat mode in less than six months. Beginner programming is easy, and diet means eating protein while avoiding fast food, candy, and soda.",
+          "text_en_b2": "Whitepill Thread: Hot cocoa is the ultimate pre-workout edition. The point is that anyone can start lifting without any prior sports experience, so there’s really no excuse for not trying. You can escape skinnyfat mode in less than six months if you stay consistent. Beginner programming is straightforward, and the diet side is simpler still: eat plenty of protein while cutting out fast food, candy, and soda.",
+          "text_en_c1": "Whitepill Thread: Hot cocoa is unquestionably the best pre-workout edition. The encouraging part of this routine is that virtually anyone can begin lifting without any prior sporting experience or advanced knowledge of programming. If you stay consistent for less than six months, you can realistically escape skinnyfat mode, provided that the training and diet are handled sensibly. The programme itself is not especially difficult, and neither is the diet: eat enough protein, while cutting back on fast food, candy, and soda.",
+          "text_en_c2": "Whitepill Thread: Hot cocoa is the best pre-workout edition. Nobody needs a background in sport, a gym membership, or some invented athletic pedigree before they begin lifting; the only prerequisite is accepting that the first few sessions will feel comically inadequate. Keep at it for less than six months and you can reasonably expect to escape skinnyfat mode, provided the programme and diet are followed with even minimal consistency. Neither is especially complicated. Resistance training can be followed from a structured beginner routine, while dietary discipline means eating enough protein, avoiding fast food, candy, and soda, and resisting the convenient nonsense that surrounds exercise. The routine may be simple; making it habitual is the demanding part.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "A beginner fitness whitepill promotes lifting, simple programming, protein, and avoiding junk food."
+        },
+        {
+          "id": "c6",
+          "category": "anime/culture",
+          "topic_zh": "萌獸短動畫",
+          "topic_en": "Cute Creature Anime",
+          "text_zh": "短篇萌獸anime推薦：Koupen-chan、Mofusand、Petitcure、Odekake Kozame、Rilakkuma、Let's Roll Cinnamoroll、Hello Kitty and Friends、Tanuki to Kitsune、Yusanchii、Chiikawa。",
+          "text_en_b1": "Cute creatures short anime recommendations include Koupen-chan, Mofusand, Petitcure, and Odekake Kozame. Other options are Rilakkuma, Let’s Roll Cinnamoroll, Hello Kitty and Friends, Tanuki to Kitsune, Yusanchii, and Chiikawa.",
+          "text_en_b2": "If you’re looking for short anime featuring cute creatures, there’s plenty to choose from. Koupen-chan, Mofusand, Petitcure, and Odekake Kozame are all solid starting points. You could also try Rilakkuma, Let’s Roll Cinnamoroll, Hello Kitty and Friends, Tanuki to Kitsune, Yusanchii, or Chiikawa. Most of them are easy to binge-watch, which makes them ideal for killing time whenever you’ve got a spare half hour.",
+          "text_en_c1": "If you’re looking for short anime featuring cute creatures, there are plenty of options worth considering. Koupen-chan, Mofusand, Petitcure, and Odekake Kozame provide an excellent starting point, particularly if you enjoy brief, character-driven episodes. You could then broaden the list with Rilakkuma, Let’s Roll Cinnamoroll, Hello Kitty and Friends, Tanuki to Kitsune, and Yusanchii. Chiikawa is another solid recommendation, especially for anyone who prefers simple stories, expressive designs, and an undemanding watch.",
+          "text_en_c2": "If you enjoy brief, irresistibly cute creature animations, here is a compact roll call of worthwhile recommendations. Start with Koupen-chan, Mofusand, Petitcure, and Odekake Kozame, each of which turns an uncomplicated visual premise into a small delight. Other dependable options include Rilakkuma, Let’s Roll Cinnamoroll, and Hello Kitty and Friends, all comfortably suited to short-form viewing. Tanuki to Kitsune offers a slightly more elaborate rustic fantasy, whereas Yusanchii and Chiikawa bring their own distinctive charms to the same general category. The list spans enough stylistic variety to suit different moods, yet it remains admirably focused on one uncomplicated pleasure: tiny personalities, harmless chaos, and episodes that can be consumed without demanding anything remotely close to your undivided attention.",
+          "source_url": "https://boards.4chan.org/a/thread/291507329",
+          "source_hint": "The OP lists ten short anime recommendations featuring cute animal characters."
+        },
+        {
+          "id": "c7",
+          "category": "lol/esports",
+          "topic_zh": "獨立遊戲寒潮",
+          "topic_en": "Indie Dev Winter",
+          "text_zh": "我做game dev，而家行業真係好難，lol。兩三年後出自己隻game，可能直接被一堆slop bury。最驚係幾個鐘內俾人抄晒，再上App Store、Roblox同其他secondary market。",
+          "text_en_b1": "I’m a game dev, and it’s bad out here, man. I’m terrified that when I release my own game in a couple of years, it’ll be buried under all the slop. I’m also worried my work will be copied within hours and reuploaded to app stores, Roblox, and other markets.",
+          "text_en_b2": "I’m a game dev, and the industry is genuinely rough right now, lol. What scares me most is that when I finally release my own game in a couple of years, it’ll probably get buried beneath a mountain of slop. Even worse, someone could copy the entire thing within hours and reupload it to the App Store, Roblox, and every other secondary market, taking all the credit and half the revenue.",
+          "text_en_c1": "I’m a game developer, and the industry is genuinely rough at the moment, lol. What scares me most is the thought of releasing my own game in a couple of years, only to watch it disappear beneath an endless tide of slop. Even worse, someone could copy the entire project within hours and upload it to the App Store, Roblox, and various secondary markets. If that happens, both the originality of the work and the possibility of earning anything from it could be destroyed almost overnight.",
+          "text_en_c2": "I’m a game developer, and the industry is genuinely rough at the moment, lol. The thought of releasing my own game in two or three years fills me with dread, because it could be buried beneath an avalanche of slop, indistinguishable from dozens of competing releases and effectively invisible by the time anyone notices it. What genuinely terrifies me, however, is the prospect of having my work copied within hours and then reuploaded to the App Store, Roblox, and every other secondary market. If that happens, the original developer may have spent years refining a product only to watch its ideas circulate without credit, compensation, or control. The market is saturated, platforms are flooded, and apparently even outright plagiarism can now arrive before lunch.",
+          "source_url": "https://boards.4chan.org/v/thread/750426531",
+          "source_hint": "A solo indie developer worries about market saturation and immediate copying of released games."
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "Summer's denouement compels the customary seasonal reckoning: which titles merit the scarce commodity of viewing hours, and which shall be consigned to the ever-expanding purgatory of abandoned queues? Demon Slayer continues its interminable procession of arcs, demanding attention that competing priorities—notably a driver's licensing examination whose preparatory materials remain, embarrassingly, unfinished—render increasingly difficult to provide. The seasonal harvest, as ever, divides cleanly into familiar categories: sequels commanding loyalty by inertia, isekai variants whose premise has calcified into parody, and the occasional oddity. Soremachi's Ishiguro, by contrast, distinguishes itself through a sensibility that resists easy categorization, and warrants attention that the autumn slate's forthcoming inundation threatens to preclude.",
           "source_url": "https://boards.4chan.org/a/thread/290767628",
           "source_hint": "/a/ end-of-season recommendation and wrap-up thread"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "clip-01-btc-pump",
-          "category": "trading",
-          "topic_zh": "BTC 點解升完先買",
-          "topic_en": "Why Buy BTC After The Pump",
-          "text_zh": "成日都係咁。睇住 BTC 喺度 sideways 兩三個禮拜，零興趣，然後佢一抽 15%，個個就衝入場。到底 why？每次都係咁，fomo 死晒 🙏 入都入遲，止蝕都唔知擺邊",
-          "text_en_b1": "You watch BTC do nothing for weeks and ignore it completely. Then it pumps 15% and suddenly everyone wants in. Why does everyone want to buy after the move already happened? The chart sits flat, nobody cares, one green candle and Twitter fills up with new buyers. FOMO in full force every single time.",
-          "text_en_b2": "Bitcoin sits sideways for a couple of weeks, and absolutely nobody gives a damn. The moment it suddenly pumps around 15%, though, everyone rushes in trying to chase the move. Why does this pattern keep repeating itself without fail? One green candle appears, and Twitter immediately fills up with fresh buyers piling in long after the breakout. Classic FOMO behaviour every single time, and by then the easy gains are already gone.",
-          "text_en_c1": "It happens with such monotonous regularity that one could almost set a calendar by it. Bitcoin sits in a prolonged sideways drift for two or three weeks, attracting virtually no interest whatsoever, and then a single 15% vertical move drags every sidelined retail participant back into the market in a frenzy. The irony, of course, is that by the point at which sentiment has shifted, the low has long since been left behind; what remains is the elevated entry, the late chase, and the inevitable question of where, if anywhere, one ought to place a stop. Classic FOMO in its purest form.",
-          "text_en_c2": "There exists a remarkably consistent pattern in retail crypto behaviour that borders on the pathological. Bitcoin drifts sideways for weeks on end, volume evaporates, and not a soul deigns to glance at the chart. Then a fifteen-percent wick materialises almost out of nowhere, and the very same individuals who previously yawned at consolidation come flooding back, licking their chops at what they imagine is a fresh opportunity. The irony is almost poetic: by the time price action has already delivered, positioning has become the worst it could possibly be, since the only people still buying are precisely those who should have been accumulating when nobody cared. Twitter fills with triumphant declarations, Telegram groups spawn anew, and somehow FOMO remains the most reliable contrarian indicator the market has ever produced.",
-          "source_url": "https://boards.4chan.org/biz/thread/62625769",
-          "source_hint": "/biz/ thread complaining about post-pump FOMO buying"
-        },
-        {
-          "id": "clip-02-spacex-lockup",
-          "category": "trading",
-          "topic_zh": "SpaceX 鎖倉解禁",
-          "topic_en": "SpaceX IPO Lockup",
-          "text_zh": "睇到呢個先醒起，2026 年 9 月 9 號 SpaceX IPO 第三批 lockup 解禁，大約 319M 股（baseline 7%）可以賣街。即係大概 7%，都幾大。即係下星期就 unlock，pre-IPO 持貨嘅兄弟準備定先 🧐",
-          "text_en_b1": "On September 9, 2026, roughly 319 million extra SpaceX shares (about 7% of the baseline pool, or 2.4% of total shares outstanding) become eligible for sale. This is the 90th trading day since the IPO and the third major lockup release. Anyone holding pre-IPO units should pay attention to the overhang.",
-          "text_en_b2": "Heads up for anyone holding pre-IPO SpaceX units: on September 9, 2026, roughly 319 million additional shares become eligible for sale as the third major lockup release kicks in. That figure represents around 7% of the baseline pool, or roughly 2.4% of total shares outstanding, marking the 90th trading day since the IPO. The overhang is significant, so holders should brace themselves for potential pressure on the share price next week.",
-          "text_en_c1": "It is worth flagging that on September 9, 2026, the third tranche of SpaceX's post-IPO lockup expires, releasing roughly 319 million shares into the market. That figure corresponds to approximately 7% of the baseline insider pool, or around 2.4% of total shares outstanding, and it represents the 90th trading day following the listing. Anyone holding pre-IPO units would do well to factor this overhang into their positioning, since a release of this magnitude, if met with insufficient demand, can exert meaningful downward pressure on price. Prepare accordingly.",
-          "text_en_c2": "It warrants attention that on the ninth of September 2026, the third major lockup tranche from the SpaceX IPO expires, releasing approximately 319 million additional shares onto the open market, which equates to roughly seven percent of the baseline allocation and somewhere around two-and-a-bit percent of total shares outstanding. This milestone, falling on the ninetieth trading day post-listing, is no minor footnote: it represents a genuine supply overhang that pre-IPO holders ought to factor into their calculations well in advance. While secondary trades at elevated implied valuations have masked any immediate selling pressure thus far, history suggests that even well-locked insider stock eventually tests its ceiling when restrictive covenants lapse. Holders should brace accordingly, lest they find themselves absorbing a liquidity event they had insufficiently priced in.",
-          "source_url": "https://boards.4chan.org/biz/thread/62662968",
-          "source_hint": "/biz/ thread flagging SpaceX lockup release"
-        },
-        {
-          "id": "clip-03-paid-ai",
-          "category": "tech/ai",
-          "topic_zh": "點解唔推平價 AI",
-          "topic_en": "Why Nobody Pushes Cheap AI",
-          "text_zh": "成日見到人話 '你試咗 paid model 未？你要試 ChatGPT Claude 先知幾恐怖'。點解從來冇人叫大家去用 Kimi、GLM、Qwen？cheap model 已經做到 90% 效果，得 10% 價錢喎。Ai 咁燒錢真係頂唔順",
-          "text_en_b1": "Anons keep saying 'you have not tried the paid model yet, try ChatGPT or Claude and you will see how scary they are.' But nobody ever tells people to spend less on cheaper models like Kimi, GLM or Qwen, which give about 90% of the performance for maybe 10% of the price. Has anyone else noticed this pattern?",
-          "text_en_b2": "Anons keep insisting that paid models like ChatGPT or Claude are on another level entirely, yet nobody bothers to recommend cheaper alternatives such as Kimi, GLM or Qwen. These budget options already deliver around 90% of the performance for roughly a tenth of the price, which makes the constant push toward expensive subscriptions feel somewhat suspicious. Has anyone else picked up on this pattern, or am I imagining things?",
-          "text_en_c1": "There is a curious pattern that anyone who spends time on these boards cannot have failed to notice: users perpetually insist that one must sample the premium tier, that ChatGPT or Claude will fundamentally recalibrate one's expectations of what an LLM can do. What nobody ever volunteers, however, is that models like Kimi, GLM and Qwen already deliver somewhere in the region of 90% of that performance for roughly a tenth of the subscription cost. Given how catastrophically capital-intensive inference has become, one might reasonably ask why this alternative is so rarely championed.",
-          "text_en_c2": "It is a curious phenomenon, one that recurs with almost mechanical regularity in certain online communities: whenever the subject of large language models arises, there is invariably some interlocutor eager to insist that one simply must experience the paid tier, that ChatGPT or Claude will reveal how terrifyingly capable these systems truly are. What is conspicuously absent from such evangelism, however, is any meaningful advocacy for the open-weights alternatives — Kimi, GLM, Qwen — models that, by most objective benchmarks, deliver somewhere in the region of ninety percent of frontier performance at perhaps a tenth of the monthly subscription cost. Whether this omission stems from genuine ignorance, reflexive brand-loyalty, or simply the algorithmic incentives that reward endorsing expensive incumbents is debatable, but the pattern itself is unmistakably consistent.",
-          "source_url": "https://boards.4chan.org/g/thread/109741497",
-          "source_hint": "/g/ thread complaining about paid AI hype"
-        },
-        {
-          "id": "clip-04-stablecoin-banks",
-          "category": "hk/news",
-          "topic_zh": "21 間銀行發穩定幣",
-          "topic_en": "21 US Banks Plan Stablecoin",
-          "text_zh": "美國 21 間銀行一齊發 stablecoin，呢個先係 Trump 個 bill 嘅真正目的啦。Apple Coin, Google Coin, Microsoft Coin, X Coin 即將出現，一堆 digital cash 湧入市場 🇺🇸 美元霸權真係要變晒樣",
-          "text_en_b1": "21 U.S. banks plan to launch a joint stablecoin. This is the real purpose behind Trump's stablecoin bill. He has sold out the U.S. to private companies and banks, and allowed them to issue their own currencies to sell government bonds. Soon you will see Apple Coin, Google Coin, Microsoft Coin, Tesla Coin and X Coin flood the financial markets.",
-          "text_en_b2": "Twenty-one American banks are reportedly teaming up to launch a joint stablecoin, and this is arguably the genuine purpose behind Trump's so-called stablecoin bill. By handing control over to private corporations and financial institutions, the government has effectively allowed them to mint their own currencies and sell government bonds through them. Brace yourselves for Apple Coin, Google Coin, Microsoft Coin, Tesla Coin and X Coin flooding the markets very soon.",
-          "text_en_c1": "Twenty-one American banks are moving collectively to issue a joint stablecoin, which, if one reads the legislation soberly, appears to be the genuine endgame of the Trump administration's digital asset bill. The framework effectively privatises the issuance of dollar-denominated tokens, handing corporate America the means to monetise its own balance sheets by selling government debt into this parallel liquidity. What should therefore be expected is a proliferation of branded stablecoins, with Apple, Google, Microsoft, Tesla and X each plausibly entering the field. The architecture of dollar hegemony is, it seems, about to be quietly rewritten.",
-          "text_en_c2": "Twenty-one American banking institutions have coalesced around a joint stablecoin initiative, and it is becoming increasingly apparent that this coordinated effort — rather than the legislation itself — constitutes the substantive thrust of Trump's much-vaunted stablecoin bill. In essence, the administration has effectively ceded a measure of monetary sovereignty to private enterprise, permitting corporates to mint their own dollar-pegged tokens, which can then be deployed to absorb Treasury issuance. The downstream implications are rather staggering: one can reasonably anticipate Apple Coin, Google Coin, Microsoft Coin, and presumably an X Coin flooding the marketplace, fragmenting what was once a comparatively unified dollar ecosystem into a constellation of branded digital cash. Whether this represents a bold reimagining of US monetary hegemony or a quiet privatisation thereof depends, I suppose, upon one's priors.",
-          "source_url": "https://boards.4chan.org/pol/thread/542134554",
-          "source_hint": "/pol/ thread about US bank stablecoin initiative"
-        },
-        {
-          "id": "clip-05-onimusha",
-          "category": "lol/esports",
-          "topic_zh": "Onimusha 評價",
-          "topic_en": "Onimusha Is Not Souls",
-          "text_zh": "Onimusha 嗰邊啲人話似 Souls / Sekiro 簡直黐線，認真講其實似 Dragon's Dogma 加個 Samurai vocation 再 spin-off 出嚟。capcom 終於識做動作遊戲喇lol。考牌溫到爆，煲下 game",
-          "text_en_b1": "Anyone saying Onimusha plays like Souls or Sekiro is off their meds. It actually feels closer to Dragon's Dogma if you took the Samurai vocation and spun it off into its own game. Capcom finally remembered how to design a proper action game in 2026.",
-          "text_en_b2": "Anyone claiming that Onimusha plays like a Souls game or Sekiro is clearly off their rocker. In reality, it feels far closer to Dragon's Dogma if you took the Samurai vocation and spun it off into a standalone title. Capcom has finally remembered how to design a genuinely engaging action game again in 2026, and the learning curve will keep you glued to the screen for hours.",
-          "text_en_c1": "Anyone who insists that the new Onimusha bears any meaningful resemblance to FromSoftware's Souls catalogue, or to Sekiro in particular, is labouring under a fairly substantial misapprehension. Mechanically, the game reads far more convincingly as a Dragon's Dogma spinoff built around the Samurai vocation, stripped of the pawn system and refocused on tighter, more deliberate engagements. Capcom, it would appear, has finally remembered the design grammar that once made its action catalogue genuinely formidable, rather than coasting on brand recognition alone. A welcome development, and a thoroughly competent one.",
-          "text_en_c2": "Anyone drawing facile comparisons between Onimusha and the Soulsborne catalogue — or, heaven forbid, likening it to Sekiro — is operating under a rather profound misapprehension of what the title actually delivers. Strip away the surface veneer of Sengoku-period aesthetics and what emerges is something far closer in spirit to Dragon's Dogma, were one to extract the Samurai vocation and grant it the dignity of a standalone spinoff. The combat possesses a weighty, deliberate cadence that owes more to Capcom's own accumulated heritage than to any FromSoftware template, and the encounter design rewards tactical patience rather than reflexive dodging. It is, dare I suggest, the first genuinely accomplished action title the studio has shipped in rather some time, and the fact that it has flown beneath the discourse is itself telling.",
-          "source_url": "https://boards.4chan.org/v/thread/747004346",
-          "source_hint": "/v/ thread discussing Onimusha gameplay feel"
-        },
-        {
-          "id": "clip-06-cant-cut",
-          "category": "mma/fitness",
-          "topic_zh": "減極都減唔到",
-          "topic_en": "Can't Burn Fat At 18%",
-          "text_zh": "兄弟求救。18% bf 死喺度，每日行 15k-20k 步燒 500-800 kcal，再 cut 500 kcal 食，總共 1000 kcal deficit。肌肉係大咗，但個 scale 一啲都唔郁，4 個禮拜都係咁。90k 步一星期，仲可以點 thx",
-          "text_en_b1": "Been walking 15k to 20k steps a day, burning 500 to 800 kcal just from walking. Plus a 500 kcal food cut. Total 1000 kcal deficit. Progressive overload still works and muscles are getting bigger. But the scale is not moving and I do not feel like I am burning fat at all. 4 weeks in, 90k steps a week average, still 18% body fat.",
-          "text_en_b2": "Fitting in 15,000 to 20,000 steps every single day, burning somewhere between 500 and 800 kcal from walking alone, while also cutting 500 kcal from my food intake. That puts me at a 1,000 kcal daily deficit, and progressive overload is still working since my muscles are gradually growing. However, the scale refuses to budge and I cannot shake the feeling that nothing is happening fat-wise after four solid weeks.",
-          "text_en_c1": "Genuinely at a loss here, so any insight would be gratefully received. I am clocking between 15,000 and 20,000 steps daily, which alone accounts for somewhere in the region of 500 to 800 kcal of expenditure, and I have held a further 500 kcal deficit through dietary restriction, bringing the cumulative shortfall to roughly 1,000 kcal per day. Progressive overload in the gym remains productive and my musculature has continued to develop, yet the scale has remained absolutely intransigent across four consecutive weeks, and I am still sitting at 18% body fat. What am I missing?",
-          "text_en_c2": "I find myself in rather an exasperating predicament and would welcome any insight the thread might proffer. My body composition has plateaued stubbornly at eighteen percent body fat despite adherence to what ought, by any reasonable metabolic arithmetic, to constitute an aggressive deficit: fifteen to twenty thousand daily steps, which alone expend between five and eight hundred kilocalories, augmented by a further five-hundred-kilocalorie reduction in caloric intake, yielding an aggregate daily shortfall of roughly one thousand kilocalories. Progressive overload continues to function precisely as intended, and hypertrophy remains observable in the mirror, yet the scale has registered precisely zero movement across four consecutive weeks, with weekly step totals averaging ninety thousand. The disconnect between effort expended and adipose tissue mobilised is, frankly, beginning to feel almost conspiratorial in nature.",
-          "source_url": "https://boards.4chan.org/fit/thread/77492625",
-          "source_hint": "/fit/ thread frustrated about stalled fat loss"
-        },
-        {
-          "id": "clip-07-100girlfriends",
-          "category": "anime/culture",
-          "topic_zh": "100 女友第三季",
-          "topic_en": "100 Girlfriends S3 Episode 10",
-          "text_zh": "100 Girlfriends 第三季第 10 集，會有 17 人 sword fight 之後食 ramen。sakuga 應該好正，搞到我溫書又想偷望。考牌溫到爆，需要廢下lol",
-          "text_en_b1": "100 Girlfriends / Hyakkano Season 3 Episode 10 will feature a huge 17-person sword fight, then everyone eats ramen. Tune in for the sakuga. The studio animation looks great this season.",
-          "text_en_b2": "Season 3 Episode 10 of 100 Girlfriends is set to feature an absolutely massive 17-person sword fight, followed by everyone piling into a bowl of ramen together. The sakuga should be absolutely insane this time around, which makes revising for exams considerably harder when I keep glancing at the screen. The studio's work this season has genuinely been on another level, and I desperately need the break.",
-          "text_en_c1": "The forthcoming tenth episode of Hyakkano's third season promises a set piece that is, on paper at least, almost absurdly ambitious: a seventeen-person sword duel, choreographed with what one can only assume will be the studio's full sakuga budget deployed at maximum intensity, followed, in classic anime convention, by a communal ramen scene. The production values this season have been conspicuously elevated, and the animators appear to be relishing every opportunity to flex. For those of us currently grinding through revision, it constitutes a deeply unhelpful but irresistible distraction.",
-          "text_en_c2": "The forthcoming tenth episode of Hyakkano's third season promises what may well be the season's most extravagant set-piece: a choreographed melee involving no fewer than seventeen participants, each presumably brandishing some variation of blade-work, before the ensemble reconvenes for an extended ramen interlude that has become something of a series signature. The sakuga should prove exceptional, given that the production committee has evidently allocated considerably more to in-between animation than is customary for a property of this commercial bracket, and the studio's work this season has been quietly remarkable in ways the discourse has yet to fully appreciate. Regrettably, this particular episode lands squarely in the midst of my licensing examination preparations, a coincidence that will almost certainly prove ruinous to my concentration.",
-          "source_url": "https://boards.4chan.org/a/thread/290739220",
-          "source_hint": "/a/ thread previewing 100 Girlfriends S3E10"
         }
       ]
     }
