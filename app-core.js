@@ -1,12 +1,13 @@
 const CLIPS = [];
 const STEPS = [
-  { id: 'rate',     name: 'Rate',     hint: 'Hear it. Rate how much you understood. Nothing on screen yet.' },
-  { id: 'grasp',    name: 'Grasp',    hint: 'Play it again. Before the English lands, blurt (or type) the meaning in your own words.' },
-  { id: 'hum',      name: 'Hum',      hint: 'Play it again. Hum the tune and the beat. No words. Just the music of it.' },
-  { id: 'shadow',   name: 'Shadow',   hint: 'Play it. Speak WITH the voice, in real time. Not after. Together.' },
-  { id: 'read',     name: 'Read',     hint: 'Now you see it. Play it. Read it out loud, together with the audio.' },
-  { id: 'recall',   name: 'Recall',   hint: 'Hide the text. Say it from memory, fast. Then play it again and mimic what comes back.' },
-  { id: 'freestyle',name: 'Freestyle',hint: 'Sixty seconds on the same topic. Five sentences or more. The one that counts.' },
+  { id: 'rate',      name: 'RATE',      hint: 'Hear it. Rate how much you understood.' },
+  { id: 'grasp',     name: 'GRASP',     hint: 'Play it again. Write the meaning in your own words.' },
+  { id: 'hum',       name: 'HUM',       hint: 'Play it again. Hum the tune and the beat. No words.' },
+  { id: 'shadow',    name: 'SHADOW',    hint: 'Play it. Speak WITH the voice, in real time. Together.' },
+  { id: 'read',      name: 'READ',      hint: 'Play it. Read it out loud, together with the audio.' },
+  { id: 'recall',    name: 'RECALL',    hint: 'Hide the text. Say it from memory, then play and mimic.' },
+  { id: 'freestyle', name: 'FREESTYLE', hint: 'Sixty seconds on the same topic. Five sentences or more.' },
+  { id: 'overview',  name: 'OVERVIEW',  hint: 'Full text. Play once more. Done.' },
 ];
 const STORAGE = { progress: 'ss.progress.v1', settings: 'ss.settings.v1', todayLog: 'ss.todayLog.v1' };
 const today = () => new Date().toISOString().slice(0, 10);
