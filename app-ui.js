@@ -41,7 +41,7 @@ function renderSession() {
   const step = STEPS[sess.stepIdx];
   const dots = sess.clipQueue.map((_, i) => '<div class="dot'+(i<sess.clipIdx?' done':i===sess.clipIdx?' current':'')+'"></div>').join('');
   return '<div class="card"><div class="session-head"><div class="clip-counter">Clip <strong>'+(sess.clipIdx+1)+'</strong> / '+sess.clipQueue.length+
-    '</div><div class="step-pill">Step '+(sess.stepIdx+1)+' of 7 · '+step.name+' · '+state.currentLevel+'</div></div>'+
+    '</div><div class="step-pill">Step '+(sess.stepIdx+1)+' of '+STEPS.length+' · '+step.name+' · '+state.currentLevel+'</div></div>'+
     '<div class="topic-row">'+(clip.category?'<div class="topic-tag">'+esc(clip.category)+'</div>':'')+
     '<div class="topic-zh">'+esc(clip.topic_zh||'')+'</div><div class="topic-en">'+esc(getTopicForLevel(clip)||'')+'</div></div>'+
     '<div class="step-title">'+step.name+'</div><div class="step-instruction">'+step.hint+'</div>'+
@@ -164,6 +164,7 @@ function renderStepBody(step, clip, sess) {
   if (step.id==='read') return play+'<div class="play-label">Read along out loud.</div></div>'+pair+rec;
   if (step.id==='recall') return play+'<div class="play-label">Hide text and say it back.</div></div><div class="mt-2"><button class="btn" id="btn-toggle-text">'+(sess.recallTextHidden?'Show text':'Hide text')+'</button><div id="recall-block"'+(sess.recallTextHidden?' style="display:none"':'')+'>'+pair+'</div></div>'+rec;
   if (step.id==='freestyle') return '<div class="play-area"><div class="play-label">Topic: <strong>'+esc(getTopicForLevel(clip)||'')+'</strong>. Sixty seconds.</div></div>'+rec;
+  if (step.id==='overview') return play+'<div class="play-label">Full text.</div></div>'+pair;
   return '';
 }
 function renderClipComplete() {
