@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-28",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "clip_01",
+      "topic_en": "Crypto Trading Choices",
+      "topic_zh": "加密貨幣互相燒錢",
+      "category": "trading",
+      "files": {
+        "b1": "clip-clip_01-b1.mp3",
+        "b2": "clip-clip_01-b2.mp3",
+        "c1": "clip-clip_01-c1.mp3",
+        "c2": "clip-clip_01-c2.mp3"
+      }
+    },
+    {
+      "id": "clip_02",
+      "topic_en": "AI Replaces Engineering Work",
+      "topic_zh": "AI頂晒 engineers",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-clip_02-b1.mp3",
+        "b2": "clip-clip_02-b2.mp3",
+        "c1": "clip-clip_02-c1.mp3",
+        "c2": "clip-clip_02-c2.mp3"
+      }
+    },
+    {
+      "id": "clip_03",
+      "topic_en": "China's Giant Robot",
+      "topic_zh": "中國巨型機械人",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-clip_03-b1.mp3",
+        "b2": "clip-clip_03-b2.mp3",
+        "c1": "clip-clip_03-c1.mp3",
+        "c2": "clip-clip_03-c2.mp3"
+      }
+    },
+    {
+      "id": "clip_04",
+      "topic_en": "Why the Hack Squat",
+      "topic_zh": "Hack Squat 唔使深蹲",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-clip_04-b1.mp3",
+        "b2": "clip-clip_04-b2.mp3",
+        "c1": "clip-clip_04-c1.mp3",
+        "c2": "clip-clip_04-c2.mp3"
+      }
+    },
+    {
+      "id": "clip_05",
+      "topic_en": "Manga Royal Conspiracy",
+      "topic_zh": "漫畫王位暗戰",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-clip_05-b1.mp3",
+        "b2": "clip-clip_05-b2.mp3",
+        "c1": "clip-clip_05-c1.mp3",
+        "c2": "clip-clip_05-c2.mp3"
+      }
+    },
+    {
+      "id": "clip_06",
+      "topic_en": "XRP and Banking",
+      "topic_zh": "XRP 銀行牌照",
+      "category": "trading",
+      "files": {
+        "b1": "clip-clip_06-b1.mp3",
+        "b2": "clip-clip_06-b2.mp3",
+        "c1": "clip-clip_06-c1.mp3",
+        "c2": "clip-clip_06-c2.mp3"
+      }
+    },
+    {
+      "id": "clip_07",
+      "topic_en": "Deadlock Matchmaking",
+      "topic_zh": "Deadlock 配對崩盤",
+      "category": "lol/esports",
+      "files": {
+        "b1": "clip-clip_07-b1.mp3",
+        "b2": "clip-clip_07-b2.mp3",
+        "c1": "clip-clip_07-c1.mp3",
+        "c2": "clip-clip_07-c2.mp3"
+      }
+    }
+  ]
+}

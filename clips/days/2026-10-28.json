@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-28",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "clip_01",
+      "category": "trading",
+      "topic_zh": "加密貨幣互相燒錢",
+      "topic_en": "Crypto Trading Choices",
+      "text_zh": "我開始覺得自己 dangerously jewish。$2,800 隻錶都唔買，改為買 14 股 SpaceX。Switch 2 都唔買，改為買 1 股 Vanguard。依家淨係想買股票同 silver。靠AI續命，但呢啲標的先至係tuition。",
+      "text_en_b1": "Help. I am becoming dangerously Jewish. I want to buy a $2,800 watch, but I tell myself that is 14 shares of SpaceX. I want to buy a Switch 2, but that is one share of Vanguard. I only want to spend money on stocks and silver.",
+      "text_en_b2": "Help. I am becoming dangerously close to turning my entire life into a financial investment strategy. Instead of buying a $2,800 watch, I tell myself it is really 14 shares of SpaceX. Rather than buying a Switch 2, I convince myself that it is one share of Vanguard. At this point, stocks and silver are the only things I want to purchase, although my income depends on AI.",
+      "text_en_c1": "Help. I appear to be becoming dangerously Jewish. When I consider buying a $2,800 watch, I tell myself it amounts to 14 shares of SpaceX; and when I think about purchasing a Switch 2, I rationalise that it is really one share of Vanguard. At this stage, stocks and silver are the only things I genuinely want to spend money on. Relying on AI to keep me alive is one matter, but these assets are the real tuition for a financial future.",
+      "text_en_c2": "Help. I fear I am becoming dangerously Jewish. When I consider that $2,800 watch, I now tell myself it amounts to 14 shares of SpaceX. The Switch 2 I was desperate to buy can be reframed as one share of Vanguard. Strip away the consumer trappings, and all I genuinely want is stocks and silver; apparently this is where my money is actually headed. What makes it worse is that AI keeps me alive long enough to sustain the habit, while these holdings, rather than the gadgets themselves, have become my tuition. A watch? No. A console? No. Portfolio? Yes. Please advise.",
+      "source_url": "https://boards.4chan.org/biz/thread/62811962",
+      "source_hint": "An anon refuses luxury spending and converts it into stock and silver purchases."
+    },
+    {
+      "id": "clip_02",
+      "category": "tech/ai",
+      "topic_zh": "AI頂晒 engineers",
+      "topic_en": "AI Replaces Engineering Work",
+      "text_zh": "我份工六位數蚊，Senior role。AI 幫我做晒所有嘢。以前要揸資料、做 research、做 maths or science，再寫文件。而家直接 plug into an LLM。我淨係坐喺度答 email、做 SME。廢柴唔做嘢，仲要靠AI續命。",
+      "text_en_b1": "I make six figures as a Senior employee. AI now does all my work. I sit at my desk and answer emails as the subject matter expert. I used to research documents, do some math or science, and draft and revise papers. Now I plug everything into an LLM.",
+      "text_en_b2": "I make six figures as a Senior employee, but AI now does almost all my actual work. Instead of researching documents, performing calculations or scientific analysis, and drafting and revising papers, I simply plug everything into an LLM. These days, I sit at my desk answering emails and providing subject matter expertise. Although my salary remains respectable, it increasingly feels as though I am being kept around only to supervise the machine.",
+      "text_en_c1": "I earn six figures in a Senior position, and AI now performs virtually all of my work. Previously, I would dig through documents, conduct research, undertake mathematical or scientific calculations, and then draft and revise formal papers. Nowadays, I plug everything into an LLM and let it handle the preliminary labour. I simply sit at my desk, answer emails, and provide subject-matter expertise when required. If a useless employee does nothing, how is someone like me supposed to survive without AI?",
+      "text_en_c2": "I earn a six-figure salary in a Senior role, and AI has quietly assumed practically everything I used to do. Previously, my days involved researching documents, running calculations or scientific analyses, and then drafting and revising papers, which meant I was at least busy. Now I plug the material into an LLM, sit at my desk, answer emails, and serve as the subject matter expert whenever a colleague needs a human being to rubber-stamp the output. I have not become idle exactly, but my competence has become largely decorative. I am still on payroll, apparently, while the model does the heavy lifting.",
+      "source_url": "https://boards.4chan.org/g/thread/110182375",
+      "source_hint": "A senior engineer says an LLM now handles nearly all technical work."
+    },
+    {
+      "id": "clip_03",
+      "category": "hk/news",
+      "topic_zh": "中國巨型機械人",
+      "topic_en": "China's Giant Robot",
+      "text_zh": "中國 unveils 一部 13 呎高 robot，連牛都 lift 得到。HTML 式機械人呃，各國再鬥機械人。香港地方太迫，連隻牛都冇位擺，仲要畀個 13-foot robot 入場？wft。",
+      "text_en_b1": "China has unveiled a 13-foot robot that can lift a cow. The machine was shown in Malaysia, where it quickly became the kind of absurd engineering news people share online. It looks impressive, but nobody in the thread explained how it actually works.",
+      "text_en_b2": "China has unveiled a 13-foot robot capable of lifting a cow, and the machine was demonstrated in Malaysia, where it quickly became the sort of absurd engineering news that people share online. It certainly looks impressive, but nobody in the thread explained how it actually works. The reaction was basically: “China, of course, because why not?”, although Hong Kong is already far too crowded to make room for something that enormous.",
+      "text_en_c1": "China has unveiled a 13-foot robot capable of lifting a cow, which sounds like the sort of aggressively overengineered headline countries produce whenever they want to distract from more serious problems. The machine was demonstrated in Malaysia, where it promptly became the kind of absurd engineering story that people share online. It certainly looks impressive, yet nobody in the thread explained how the thing actually works. Given how cramped Hong Kong is, I cannot imagine finding enough room for a cow, let alone admitting a 13-foot robot.",
+      "text_en_c2": "China has unveiled a 13-foot robot capable of lifting a cow, which says rather more about Chinese engineering than about livestock handling. The machine was demonstrated in Malaysia, where it promptly became precisely the sort of absurd engineering spectacle that people share online for cheap amusement. It looks impressive, certainly; there is no denying the spectacle of a robot large enough to rearrange farm animals. Yet, as the thread quickly revealed, nobody explained how the thing actually works, which is perhaps the most revealing detail of all. A giant mechanical marvel, demonstrated abroad, and still nobody can explain the mechanism.",
+      "source_url": "https://boards.4chan.org/pol/thread/545054574",
+      "source_hint": "A short post links to China's 13-foot cow-lifting robot."
+    },
+    {
+      "id": "clip_04",
+      "category": "mma/fitness",
+      "topic_zh": "Hack Squat 唔使深蹲",
+      "topic_en": "Why the Hack Squat",
+      "text_zh": "Barbell Hack Squat 根本唔使成日深蹲。Bar 靠近 centre of mass，可以 load 得重啲；冇 rack 都做得，fail 都可以即刻 bail。Form 壞咗，bar 會撞 hamstrings。依家正考慮買台 hack squat，廢物終於有合理標嘅。",
+      "text_en_b1": "Barbell Hack Squat: zero lower-back strain compared with squats or deadlifts; the bar is closer to the center of mass, allowing heavier loads; no rack is required; and you can easily bail if you fail. It also provides a built-in form check: the bar hits your hamstrings when your form breaks. Why not?",
+      "text_en_b2": "The barbell hack squat seems to remove the need for constant conventional squatting. Because the bar stays closer to your center of mass, you can load it more heavily without putting the same strain on your lower back. There is also no rack to set up, and if the lift fails, you can bail out immediately. It even provides a rough form check, since the bar strikes your hamstrings when your technique breaks down. Why not buy one?",
+      "text_en_c1": "A barbell hack squat does not require you to squat continuously, and, unlike conventional squats or deadlifts, it places the bar closer to your centre of mass, allowing you to load it more heavily without placing the same strain on your lower back. It also needs no rack, and if you fail a repetition, you can bail out immediately. There is even a built-in check on your form: when your position deteriorates, the bar strikes your hamstrings. Why not buy one? The equipment is finally serving a legitimate purpose.",
+      "text_en_c2": "The barbell hack squat, for all the contempt showered on it, removes the need to squat constantly while leaving the lower back largely spared. Because the bar travels closer to your center of mass, you can load it significantly heavier than conventional squats or deadlifts would permit. There is no rack to wrestle with, and if the set collapses you can simply bail out immediately rather than being pinned beneath several hundred pounds of steel. It also performs a crude but effective form check: when your technique deteriorates, the bar crashes into your hamstrings. Why not? At last, a machine with a legitimate purpose.",
+      "source_url": "https://boards.4chan.org/fit/thread/77583610",
+      "source_hint": "A fitness post lists the claimed benefits of the barbell hack squat."
+    },
+    {
+      "id": "clip_05",
+      "category": "anime/culture",
+      "topic_zh": "漫畫王位暗戰",
+      "topic_en": "Manga Royal Conspiracy",
+      "text_zh": "Shinobu Ohtaka 新漫畫開台。六個人爭 Nation A 王位，但其中一個係 traitor。Nation B 派咗個 spy 嚟，公主就叫 Kai Blackman 追查。問題係：佢係個瘦弱、零戰鬥力嘅 anime nerd。GEEKROWN，唔好 OTAKU 味。",
+      "text_en_b1": "Shinobu Ohtaka, the creator of Magi and Orient, has started a new manga. Six candidates are competing for Nation A's throne, but one is a traitor. Nation B has sent a spy, so the princess orders Kai Blackman to find them. However, Kai is a scrawny anime nerd with zero combat ability.",
+      "text_en_b2": "Shinobu Ohtaka, the creator of Magi and Orient, has launched a new manga with an intriguing royal conspiracy at its centre. Six candidates are competing for Nation A’s throne, although one of them is actually a traitor. Nation B has sent a spy, so the princess orders Kai Blackman to track them down. The problem is that Kai is a scrawny, anime-obsessed nerd with absolutely no combat ability. GEEKROWN, but please, without the usual OTAKU clichés.",
+      "text_en_c1": "Shinobu Ohtaka, the creator of Magi and Orient, has launched a new manga centred on a succession struggle in Nation A. Six candidates are competing for the throne, although one of them is a traitor. Nation B has sent a spy, so the princess entrusts Kai Blackman with identifying the infiltrator. The difficulty is that Kai is a scrawny anime nerd with absolutely no combat ability. In other words, this is GEEKROWN rather than the usual OTAKU nonsense: an unconventional hero whose greatest asset is unlikely to be physical strength.",
+      "text_en_c2": "Shinobu Ohtaka, creator of Magi and Orient, has launched a new manga, and the premise is considerably more tangled than its readership may initially expect. Six candidates are contending for Nation A's throne, although one of them is a traitor whose allegiance remains concealed. Nation B has dispatched a spy of its own, so the princess enlists Kai Blackman to investigate. The awkwardness lies in Kai himself: a scrawny, hopeless anime nerd with no discernible combat ability, which hardly qualifies him to unmask a professional infiltrator. GEEKROWN territory, ideally, if only the premise would cooperate.",
+      "source_url": "https://boards.4chan.org/a/thread/291890380",
+      "source_hint": "An /a/ thread shares the opening chapter of Shinobu Ohtaka's new manga."
+    },
+    {
+      "id": "clip_06",
+      "category": "trading",
+      "topic_zh": "XRP 銀行牌照",
+      "topic_en": "XRP and Banking",
+      "text_zh": "XRP is the standard。Ripple 昨日 finally 拿到 national bank charter，同日 Treasury Secretary Scott Bessent 又加入 Swell 做 featured headline speaker。近期仲有 OCC approval，Singapore BLOOM initiative 中央銀行合作。BTC 仲未證明係 king，靠AI續命。",
+      "text_en_b1": "XRP is the standard. Ripple received final approval for a national bank charter yesterday. The same day, Treasury Secretary Scott Bessent joined Ripple's Swell as the featured headline speaker. Recent developments also include the OCC charter approval and Ripple's use in Singapore's BLOOM initiative with regional central banks.",
+      "text_en_b2": "XRP is apparently the standard now. Ripple finally received approval for a national bank charter yesterday, and on the same day, Treasury Secretary Scott Bessent joined the company’s Swell event as its featured headline speaker. Recent developments also include OCC charter approval and Ripple’s involvement in Singapore’s BLOOM initiative alongside regional central banks. Although Bitcoin has not yet proved that it is the king of crypto, somehow it still keeps surviving.",
+      "text_en_c1": "XRP is the standard, apparently. Ripple finally received final approval for a national bank charter yesterday. On the very same day, Treasury Secretary Scott Bessent joined Ripple’s Swell event as its featured headline speaker, which considerably strengthens the project’s institutional connections. Recent developments have also included OCC charter approval and Ripple’s participation in Singapore’s BLOOM initiative alongside regional central banks. Bitcoin has still not demonstrated that it is the king of this market, so I suppose XRP will continue relying on AI to keep itself alive.",
+      "text_en_c2": "XRP is the standard, whatever the market's latest mood may suggest. Ripple finally secured approval for a national bank charter yesterday, and on precisely the same day Treasury Secretary Scott Bessent joined Ripple's Swell as its featured headline speaker. Those developments follow the OCC charter approval, as well as Ripple's involvement in Singapore's BLOOM initiative alongside regional central banks, which suggests the company is entrenching itself within regulated financial infrastructure rather than merely trading on crypto sentiment. Bitcoin has yet to prove that it is the king of this particular hill, and AI is keeping the whole enterprise alive in the meantime.",
+      "source_url": "https://boards.4chan.org/biz/thread/62821936",
+      "source_hint": "The post argues that Ripple's banking approval and partnerships strengthen the XRP case."
+    },
+    {
+      "id": "clip_07",
+      "category": "lol/esports",
+      "topic_zh": "Deadlock 配對崩盤",
+      "topic_en": "Deadlock Matchmaking",
+      "text_zh": "Deadlock 個 matchmaking 真係史上最差。我成日 match 到 100 小時都唔夠嘅新手，自己都過 1,000 小時，場場一邊倒或者直接輸。仲要贏 15 場先揀到想玩嘅 hero。靠AI續命都救唔到，廢物。",
+      "text_en_b1": "Deadlock genuinely has the worst matchmaking in video-game history. Players with over 1,000 hours regularly get matched with players under 100 hours. Every match is either a one-sided stomp or a loss. You also need 15 wins before you can select your preferred hero in ranked play.",
+      "text_en_b2": "Deadlock genuinely appears to have the worst matchmaking system in video-game history. Although I have more than 1,000 hours in the game, I am regularly matched with beginners who have barely played for 100 hours. Every match is either a completely one-sided stomp or an outright loss. To make matters worse, you must win 15 games before you can select your preferred hero in ranked play, so even AI cannot rescue this disaster.",
+      "text_en_c1": "Deadlock genuinely has the worst matchmaking system in video-game history. Although I have more than 1,000 hours in the game, I am regularly matched with newcomers who have fewer than 100 hours, and every match is either a one-sided rout or an outright defeat. The ranked system also requires 15 wins before players are permitted to select their preferred hero, which makes the experience particularly frustrating. No amount of artificial intelligence can rescue matchmaking that appears to have been designed specifically to punish competent players.",
+      "text_en_c2": "Deadlock genuinely possesses the worst matchmaking system in the history of video games, and I say that with the exhausted conviction of someone who has endured it repeatedly. Players with more than 1,000 hours are routinely paired with newcomers who have barely logged 100, which ensures that every match degenerates into either a one-sided stomp or an unmerciless defeat. The ranked queue compounds the humiliation, since you must accumulate 15 wins before you are even permitted to select the hero you actually wish to play. No amount of AI assistance can rescue this arrangement. It is, in every meaningful sense, broken.",
+      "source_url": "https://boards.4chan.org/v/thread/750422191",
+      "source_hint": "An /v/ thread complains about Deadlock's terrible matchmaking and ranked restrictions."
+    }
+  ]
+}

@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "days": [
+    {
+      "date": "2026-10-28",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "clip_01",
+          "category": "trading",
+          "topic_zh": "加密貨幣互相燒錢",
+          "topic_en": "Crypto Trading Choices",
+          "text_zh": "我開始覺得自己 dangerously jewish。$2,800 隻錶都唔買，改為買 14 股 SpaceX。Switch 2 都唔買，改為買 1 股 Vanguard。依家淨係想買股票同 silver。靠AI續命，但呢啲標的先至係tuition。",
+          "text_en_b1": "Help. I am becoming dangerously Jewish. I want to buy a $2,800 watch, but I tell myself that is 14 shares of SpaceX. I want to buy a Switch 2, but that is one share of Vanguard. I only want to spend money on stocks and silver.",
+          "text_en_b2": "Help. I am becoming dangerously close to turning my entire life into a financial investment strategy. Instead of buying a $2,800 watch, I tell myself it is really 14 shares of SpaceX. Rather than buying a Switch 2, I convince myself that it is one share of Vanguard. At this point, stocks and silver are the only things I want to purchase, although my income depends on AI.",
+          "text_en_c1": "Help. I appear to be becoming dangerously Jewish. When I consider buying a $2,800 watch, I tell myself it amounts to 14 shares of SpaceX; and when I think about purchasing a Switch 2, I rationalise that it is really one share of Vanguard. At this stage, stocks and silver are the only things I genuinely want to spend money on. Relying on AI to keep me alive is one matter, but these assets are the real tuition for a financial future.",
+          "text_en_c2": "Help. I fear I am becoming dangerously Jewish. When I consider that $2,800 watch, I now tell myself it amounts to 14 shares of SpaceX. The Switch 2 I was desperate to buy can be reframed as one share of Vanguard. Strip away the consumer trappings, and all I genuinely want is stocks and silver; apparently this is where my money is actually headed. What makes it worse is that AI keeps me alive long enough to sustain the habit, while these holdings, rather than the gadgets themselves, have become my tuition. A watch? No. A console? No. Portfolio? Yes. Please advise.",
+          "source_url": "https://boards.4chan.org/biz/thread/62811962",
+          "source_hint": "An anon refuses luxury spending and converts it into stock and silver purchases."
+        },
+        {
+          "id": "clip_02",
+          "category": "tech/ai",
+          "topic_zh": "AI頂晒 engineers",
+          "topic_en": "AI Replaces Engineering Work",
+          "text_zh": "我份工六位數蚊，Senior role。AI 幫我做晒所有嘢。以前要揸資料、做 research、做 maths or science，再寫文件。而家直接 plug into an LLM。我淨係坐喺度答 email、做 SME。廢柴唔做嘢，仲要靠AI續命。",
+          "text_en_b1": "I make six figures as a Senior employee. AI now does all my work. I sit at my desk and answer emails as the subject matter expert. I used to research documents, do some math or science, and draft and revise papers. Now I plug everything into an LLM.",
+          "text_en_b2": "I make six figures as a Senior employee, but AI now does almost all my actual work. Instead of researching documents, performing calculations or scientific analysis, and drafting and revising papers, I simply plug everything into an LLM. These days, I sit at my desk answering emails and providing subject matter expertise. Although my salary remains respectable, it increasingly feels as though I am being kept around only to supervise the machine.",
+          "text_en_c1": "I earn six figures in a Senior position, and AI now performs virtually all of my work. Previously, I would dig through documents, conduct research, undertake mathematical or scientific calculations, and then draft and revise formal papers. Nowadays, I plug everything into an LLM and let it handle the preliminary labour. I simply sit at my desk, answer emails, and provide subject-matter expertise when required. If a useless employee does nothing, how is someone like me supposed to survive without AI?",
+          "text_en_c2": "I earn a six-figure salary in a Senior role, and AI has quietly assumed practically everything I used to do. Previously, my days involved researching documents, running calculations or scientific analyses, and then drafting and revising papers, which meant I was at least busy. Now I plug the material into an LLM, sit at my desk, answer emails, and serve as the subject matter expert whenever a colleague needs a human being to rubber-stamp the output. I have not become idle exactly, but my competence has become largely decorative. I am still on payroll, apparently, while the model does the heavy lifting.",
+          "source_url": "https://boards.4chan.org/g/thread/110182375",
+          "source_hint": "A senior engineer says an LLM now handles nearly all technical work."
+        },
+        {
+          "id": "clip_03",
+          "category": "hk/news",
+          "topic_zh": "中國巨型機械人",
+          "topic_en": "China's Giant Robot",
+          "text_zh": "中國 unveils 一部 13 呎高 robot，連牛都 lift 得到。HTML 式機械人呃，各國再鬥機械人。香港地方太迫，連隻牛都冇位擺，仲要畀個 13-foot robot 入場？wft。",
+          "text_en_b1": "China has unveiled a 13-foot robot that can lift a cow. The machine was shown in Malaysia, where it quickly became the kind of absurd engineering news people share online. It looks impressive, but nobody in the thread explained how it actually works.",
+          "text_en_b2": "China has unveiled a 13-foot robot capable of lifting a cow, and the machine was demonstrated in Malaysia, where it quickly became the sort of absurd engineering news that people share online. It certainly looks impressive, but nobody in the thread explained how it actually works. The reaction was basically: “China, of course, because why not?”, although Hong Kong is already far too crowded to make room for something that enormous.",
+          "text_en_c1": "China has unveiled a 13-foot robot capable of lifting a cow, which sounds like the sort of aggressively overengineered headline countries produce whenever they want to distract from more serious problems. The machine was demonstrated in Malaysia, where it promptly became the kind of absurd engineering story that people share online. It certainly looks impressive, yet nobody in the thread explained how the thing actually works. Given how cramped Hong Kong is, I cannot imagine finding enough room for a cow, let alone admitting a 13-foot robot.",
+          "text_en_c2": "China has unveiled a 13-foot robot capable of lifting a cow, which says rather more about Chinese engineering than about livestock handling. The machine was demonstrated in Malaysia, where it promptly became precisely the sort of absurd engineering spectacle that people share online for cheap amusement. It looks impressive, certainly; there is no denying the spectacle of a robot large enough to rearrange farm animals. Yet, as the thread quickly revealed, nobody explained how the thing actually works, which is perhaps the most revealing detail of all. A giant mechanical marvel, demonstrated abroad, and still nobody can explain the mechanism.",
+          "source_url": "https://boards.4chan.org/pol/thread/545054574",
+          "source_hint": "A short post links to China's 13-foot cow-lifting robot."
+        },
+        {
+          "id": "clip_04",
+          "category": "mma/fitness",
+          "topic_zh": "Hack Squat 唔使深蹲",
+          "topic_en": "Why the Hack Squat",
+          "text_zh": "Barbell Hack Squat 根本唔使成日深蹲。Bar 靠近 centre of mass，可以 load 得重啲；冇 rack 都做得，fail 都可以即刻 bail。Form 壞咗，bar 會撞 hamstrings。依家正考慮買台 hack squat，廢物終於有合理標嘅。",
+          "text_en_b1": "Barbell Hack Squat: zero lower-back strain compared with squats or deadlifts; the bar is closer to the center of mass, allowing heavier loads; no rack is required; and you can easily bail if you fail. It also provides a built-in form check: the bar hits your hamstrings when your form breaks. Why not?",
+          "text_en_b2": "The barbell hack squat seems to remove the need for constant conventional squatting. Because the bar stays closer to your center of mass, you can load it more heavily without putting the same strain on your lower back. There is also no rack to set up, and if the lift fails, you can bail out immediately. It even provides a rough form check, since the bar strikes your hamstrings when your technique breaks down. Why not buy one?",
+          "text_en_c1": "A barbell hack squat does not require you to squat continuously, and, unlike conventional squats or deadlifts, it places the bar closer to your centre of mass, allowing you to load it more heavily without placing the same strain on your lower back. It also needs no rack, and if you fail a repetition, you can bail out immediately. There is even a built-in check on your form: when your position deteriorates, the bar strikes your hamstrings. Why not buy one? The equipment is finally serving a legitimate purpose.",
+          "text_en_c2": "The barbell hack squat, for all the contempt showered on it, removes the need to squat constantly while leaving the lower back largely spared. Because the bar travels closer to your center of mass, you can load it significantly heavier than conventional squats or deadlifts would permit. There is no rack to wrestle with, and if the set collapses you can simply bail out immediately rather than being pinned beneath several hundred pounds of steel. It also performs a crude but effective form check: when your technique deteriorates, the bar crashes into your hamstrings. Why not? At last, a machine with a legitimate purpose.",
+          "source_url": "https://boards.4chan.org/fit/thread/77583610",
+          "source_hint": "A fitness post lists the claimed benefits of the barbell hack squat."
+        },
+        {
+          "id": "clip_05",
+          "category": "anime/culture",
+          "topic_zh": "漫畫王位暗戰",
+          "topic_en": "Manga Royal Conspiracy",
+          "text_zh": "Shinobu Ohtaka 新漫畫開台。六個人爭 Nation A 王位，但其中一個係 traitor。Nation B 派咗個 spy 嚟，公主就叫 Kai Blackman 追查。問題係：佢係個瘦弱、零戰鬥力嘅 anime nerd。GEEKROWN，唔好 OTAKU 味。",
+          "text_en_b1": "Shinobu Ohtaka, the creator of Magi and Orient, has started a new manga. Six candidates are competing for Nation A's throne, but one is a traitor. Nation B has sent a spy, so the princess orders Kai Blackman to find them. However, Kai is a scrawny anime nerd with zero combat ability.",
+          "text_en_b2": "Shinobu Ohtaka, the creator of Magi and Orient, has launched a new manga with an intriguing royal conspiracy at its centre. Six candidates are competing for Nation A’s throne, although one of them is actually a traitor. Nation B has sent a spy, so the princess orders Kai Blackman to track them down. The problem is that Kai is a scrawny, anime-obsessed nerd with absolutely no combat ability. GEEKROWN, but please, without the usual OTAKU clichés.",
+          "text_en_c1": "Shinobu Ohtaka, the creator of Magi and Orient, has launched a new manga centred on a succession struggle in Nation A. Six candidates are competing for the throne, although one of them is a traitor. Nation B has sent a spy, so the princess entrusts Kai Blackman with identifying the infiltrator. The difficulty is that Kai is a scrawny anime nerd with absolutely no combat ability. In other words, this is GEEKROWN rather than the usual OTAKU nonsense: an unconventional hero whose greatest asset is unlikely to be physical strength.",
+          "text_en_c2": "Shinobu Ohtaka, creator of Magi and Orient, has launched a new manga, and the premise is considerably more tangled than its readership may initially expect. Six candidates are contending for Nation A's throne, although one of them is a traitor whose allegiance remains concealed. Nation B has dispatched a spy of its own, so the princess enlists Kai Blackman to investigate. The awkwardness lies in Kai himself: a scrawny, hopeless anime nerd with no discernible combat ability, which hardly qualifies him to unmask a professional infiltrator. GEEKROWN territory, ideally, if only the premise would cooperate.",
+          "source_url": "https://boards.4chan.org/a/thread/291890380",
+          "source_hint": "An /a/ thread shares the opening chapter of Shinobu Ohtaka's new manga."
+        },
+        {
+          "id": "clip_06",
+          "category": "trading",
+          "topic_zh": "XRP 銀行牌照",
+          "topic_en": "XRP and Banking",
+          "text_zh": "XRP is the standard。Ripple 昨日 finally 拿到 national bank charter，同日 Treasury Secretary Scott Bessent 又加入 Swell 做 featured headline speaker。近期仲有 OCC approval，Singapore BLOOM initiative 中央銀行合作。BTC 仲未證明係 king，靠AI續命。",
+          "text_en_b1": "XRP is the standard. Ripple received final approval for a national bank charter yesterday. The same day, Treasury Secretary Scott Bessent joined Ripple's Swell as the featured headline speaker. Recent developments also include the OCC charter approval and Ripple's use in Singapore's BLOOM initiative with regional central banks.",
+          "text_en_b2": "XRP is apparently the standard now. Ripple finally received approval for a national bank charter yesterday, and on the same day, Treasury Secretary Scott Bessent joined the company’s Swell event as its featured headline speaker. Recent developments also include OCC charter approval and Ripple’s involvement in Singapore’s BLOOM initiative alongside regional central banks. Although Bitcoin has not yet proved that it is the king of crypto, somehow it still keeps surviving.",
+          "text_en_c1": "XRP is the standard, apparently. Ripple finally received final approval for a national bank charter yesterday. On the very same day, Treasury Secretary Scott Bessent joined Ripple’s Swell event as its featured headline speaker, which considerably strengthens the project’s institutional connections. Recent developments have also included OCC charter approval and Ripple’s participation in Singapore’s BLOOM initiative alongside regional central banks. Bitcoin has still not demonstrated that it is the king of this market, so I suppose XRP will continue relying on AI to keep itself alive.",
+          "text_en_c2": "XRP is the standard, whatever the market's latest mood may suggest. Ripple finally secured approval for a national bank charter yesterday, and on precisely the same day Treasury Secretary Scott Bessent joined Ripple's Swell as its featured headline speaker. Those developments follow the OCC charter approval, as well as Ripple's involvement in Singapore's BLOOM initiative alongside regional central banks, which suggests the company is entrenching itself within regulated financial infrastructure rather than merely trading on crypto sentiment. Bitcoin has yet to prove that it is the king of this particular hill, and AI is keeping the whole enterprise alive in the meantime.",
+          "source_url": "https://boards.4chan.org/biz/thread/62821936",
+          "source_hint": "The post argues that Ripple's banking approval and partnerships strengthen the XRP case."
+        },
+        {
+          "id": "clip_07",
+          "category": "lol/esports",
+          "topic_zh": "Deadlock 配對崩盤",
+          "topic_en": "Deadlock Matchmaking",
+          "text_zh": "Deadlock 個 matchmaking 真係史上最差。我成日 match 到 100 小時都唔夠嘅新手，自己都過 1,000 小時，場場一邊倒或者直接輸。仲要贏 15 場先揀到想玩嘅 hero。靠AI續命都救唔到，廢物。",
+          "text_en_b1": "Deadlock genuinely has the worst matchmaking in video-game history. Players with over 1,000 hours regularly get matched with players under 100 hours. Every match is either a one-sided stomp or a loss. You also need 15 wins before you can select your preferred hero in ranked play.",
+          "text_en_b2": "Deadlock genuinely appears to have the worst matchmaking system in video-game history. Although I have more than 1,000 hours in the game, I am regularly matched with beginners who have barely played for 100 hours. Every match is either a completely one-sided stomp or an outright loss. To make matters worse, you must win 15 games before you can select your preferred hero in ranked play, so even AI cannot rescue this disaster.",
+          "text_en_c1": "Deadlock genuinely has the worst matchmaking system in video-game history. Although I have more than 1,000 hours in the game, I am regularly matched with newcomers who have fewer than 100 hours, and every match is either a one-sided rout or an outright defeat. The ranked system also requires 15 wins before players are permitted to select their preferred hero, which makes the experience particularly frustrating. No amount of artificial intelligence can rescue matchmaking that appears to have been designed specifically to punish competent players.",
+          "text_en_c2": "Deadlock genuinely possesses the worst matchmaking system in the history of video games, and I say that with the exhausted conviction of someone who has endured it repeatedly. Players with more than 1,000 hours are routinely paired with newcomers who have barely logged 100, which ensures that every match degenerates into either a one-sided stomp or an unmerciless defeat. The ranked queue compounds the humiliation, since you must accumulate 15 wins before you are even permitted to select the hero you actually wish to play. No amount of AI assistance can rescue this arrangement. It is, in every meaningful sense, broken.",
+          "source_url": "https://boards.4chan.org/v/thread/750422191",
+          "source_hint": "An /v/ thread complains about Deadlock's terrible matchmaking and ranked restrictions."
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "The Kingdom Hearts 4 rumour mill, already operating at fever pitch, has received yet another adrenaline shot courtesy of an achievement list unearthed on SteamDB this evening, a discovery that effectively confirms what eager fans had long speculated. The leaked content delineates an audacious roster that reads like a corporate wishlist come to fruition: Star Wars, Haunted Mansion, the Hundred Acre Wood, Zootopia, and an intriguing locale designated merely as Imagineer Planet, each entry suggesting Disney's full commercial weight has been deployed behind the project. Two further concealed achievements contain references that have set the speculation forums ablaze, one invoking a dark avenger figure, another a designation that, upon translation, yields something approximating emptiness or void. Season fifteen of any major television property could scarcely aspire to such a concentrated payload of corroborative data.",
           "source_url": "https://boards.4chan.org/v/thread/747195757",
           "source_hint": "/v/ thread on KH4 achievement leak"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-tsla-2609",
-          "category": "trading",
-          "topic_zh": "TSLA入唔入市",
-          "topic_en": "Tesla buy now?",
-          "text_zh": "又睇到啲人講TSLA Cybercab + Optimus + SpaceX merger 直接double。prop firm啲錢未返本，唔好再all-in啦🙏 但我真係好想撳掣⋯⋯",
-          "text_en_b1": "Is it a good time to buy Tesla? Some anons think it will at least double from here because of CyberCabs, the SpaceX merger potential, and Optimus progress. Easy to believe when you ignore how much TSLA has already run. Still tempting.",
-          "text_en_b2": "Is Tesla worth buying right now? Quite a few anons are convinced the stock will at least double from current levels, citing Optimus progress, the Cybercab rollout, and the lingering SpaceX merger speculation. The problem is that TSLA has already run up considerably, which makes jumping in considerably riskier. Prop firm capital hasn't even broken even yet, so throwing more money at it would be reckless. Still, the temptation to pull the trigger is very real.",
-          "text_en_c1": "Given the prevailing euphoria on /biz/, one might reasonably question whether Tesla remains an attractive entry point at current valuations. A vocal contingent of anons maintains that the stock is poised to at least double, citing the Cybercab rollout, Optimus's developmental trajectory, and the persistent rumours surrounding a SpaceX merger. Such optimism, however, becomes considerably less convincing once one accounts for the substantial appreciation TSLA has already registered. The propensity trading community has yet to recoup its drawdown, so doubling down at these levels would appear imprudent. And yet, despite the conspicuous risks, the urge to pull the trigger persists.",
-          "text_en_c2": "The perennial question resurfaces: is Tesla worth entering at current valuations? A vocal contingent of anons contends that the equity could conceivably double from prevailing levels, citing the Cybercab rollout, incremental Optimus milestones, and the lingering prospect of a SpaceX merger as catalysts sufficient to justify the conviction. Such bullishness, however, becomes considerably more palatable once one deliberately discounts the extent to which TSLA has already appreciated—a psychological sleight of hand that retail investors routinely perform to rationalize position-sizing decisions they would otherwise scrutinize. For those still nursing unrealized losses from prop firm allocations, deploying fresh capital at elevated prices amounts to little more than doubling down on exposure that has yet to vindicate itself. The temptation, undeniably, persists.",
-          "source_url": "https://boards.4chan.org/biz/thread/62667801",
-          "source_hint": "/biz/ thread debating Tesla entry with CyberCab/Optimus/SpaceX catalysts"
-        },
-        {
-          "id": "biz-fed-2609",
-          "category": "trading",
-          "topic_zh": "聯儲局加息定減息",
-          "topic_en": "Fed not hiking",
-          "text_zh": "Warsh同Bessent又喺度吹水，話要對付通脹但其實乜都冇做。Trump又鬧Powell太慢減息。睇黎USD/JPY會繼續爆⋯⋯CFD又輸緊🧐",
-          "text_en_b1": "The Federal Reserve is NOT going to hike. Be Warsh: serious taskforce on inflation, do nothing. Be Bessent: buy yen, double Yellen's buybacks, hint at dumping a trillion. Be Trump: attack Powell for not cutting because the economy deserves lower rates. Setup is bearish USD.",
-          "text_en_b2": "The Federal Reserve is almost certainly not going to hike rates. If you're Warsh, you set up a serious-looking inflation taskforce and then do absolutely nothing meaningful. If you're Bessent, you buy yen, double Yellen's buyback scheme, and float rumours about offloading a trillion. If you're Trump, you attack Powell publicly for refusing to cut because the economy deserves cheaper money. Either way, the setup looks decidedly bearish for USD.",
-          "text_en_c1": "The Federal Reserve, contrary to the prevailing panic on social media, is unlikely to pursue further tightening. Consider the alternatives: Warsh will assemble a formidable taskforce on inflation and subsequently accomplish nothing; Bessent will ostensibly buy yen, double Yellen's repurchase commitments, and hint at offloading a trillion in reserves; Trump, predictably, will lambast Powell for his alleged tardiness in cutting, insisting the economy merits relief. Each scenario points in the same direction, namely a structurally bearish dollar, which is precisely why my USD/JPY position continues bleeding. The pattern is unmistakable.",
-          "text_en_c2": "The Federal Reserve, contrary to prevailing market anxiety, is almost certainly not going to hike. Consider the gallery of personalities now orbiting this question: Warsh convenes yet another ostensibly serious taskforce on inflation, achieves nothing of substance, and returns to his perches; Bessent, for his part, accumulates yen positions, proposes buyback schemes that would render Yellen's recent interventions quaint by comparison, and obliquely hints at orchestrating a trillion-dollar liquidity event. Meanwhile, Trump assails Powell for the cardinal sin of insufficient alacrity in cutting, presumably because the economy merits accommodation it is not receiving. The resulting configuration, when one synthesizes these signals, is unambiguously bearish for the dollar. CFD positions, accordingly, continue to hemorrhage.",
-          "source_url": "https://boards.4chan.org/biz/thread/62668712",
-          "source_hint": "/biz/ thread on Fed politics, Warsh/Bessent/Trump triangle, USD implications"
-        },
-        {
-          "id": "g-nitter-2609",
-          "category": "tech/ai",
-          "topic_zh": "Nitter復活",
-          "topic_en": "Nitter is back",
-          "text_zh": "X Corp連Nitter呢啲FOSS front-end都要發cease and desist，連embed嘅站都告。但匿名佬即刻fork十幾個出黎lol。Elon你識唔識做嘢🙏",
-          "text_en_b1": "Nitter is back online. X Corp sent cease and desist letters to the FOSS front-end project, claiming violations of the Texas Harmful Access by Computer Act and the Lanham Act. They even targeted unrelated sites that just embedded X posts. Anons immediately forked a dozen new instances.",
-          "text_en_b2": "Nitter is finally back online after months of downtime. X Corp had been sending cease and desist letters to the FOSS front-end project, claiming violations of the Texas Harmful Access by Computer Act and the Lanham Act. They even targeted unrelated sites that merely embedded X posts, which went down like a lead balloon. Within hours, anons had forked a dozen new instances, because of course they had.",
-          "text_en_c1": "Nitter, the venerable FOSS front-end for X, has resurfaced after X Corp's campaign of cease-and-desist letters, which invoked both the Texas Harmful Access by Computer Act and the Lanham Act in a rather aggressive legal posture. Notably, the litigation extended beyond the project itself, ensnaring unaffiliated sites that had merely embedded X content. Predictably, the anonymous community responded with characteristic alacrity, forking over a dozen fresh instances within days. Whether Elon Musk's team fully appreciates the Streisand effect remains an open question, though the optics are, charitably speaking, unbecoming of a self-styled free-speech absolutist.",
-          "text_en_c2": "Nitter, the venerated FOSS front-end that once enabled users to peruse Twitter content without surrendering their data to X Corp, has clawed its way back online after a protracted legal offensive. The company dispatched cease and desist correspondence citing purported violations of the Texas Harmful Access by Computer Act alongside the Lanham Act—invocations that struck many observers as textbook SLAPP maneuvers designed to bankrupt defendants through attrition. Even sites that merely embedded X posts, possessing no direct relationship to Nitter's codebase, found themselves named. Predictably, the anonymous community responded by forking the project into a dozen fresh instances within hours. Elon's litigation strategy continues to demonstrate a remarkable facility for manufacturing adversaries.",
-          "source_url": "https://boards.4chan.org/g/thread/109745896",
-          "source_hint": "/g/ thread on X Corp lawsuits against Nitter and forks popping up anyway"
-        },
-        {
-          "id": "pol-deind-2609",
-          "category": "hk/news",
-          "topic_zh": "去工業化玩完",
-          "topic_en": "Deindustrialization ruins the West",
-          "text_zh": "歐美將啲工廠晒搬晒去晒中國，搞到自己連稀土都攞唔到。打仗都冇子彈出🇺🇸 真係識條鐵⋯⋯HK地產佬都係靠大陸貨。",
-          "text_en_b1": "Deindustrialization in Western countries has ruined their future. If you want to wage war, you need factories running. They outsourced everything from clothes to missiles and now only have worthless pieces of paper. Europe attacked Russia and lost energy. The U.S. attacked China and can't get rare earths.",
-          "text_en_b2": "Deindustrialization has effectively gutted the West's strategic capacity. If you want to wage a serious war, you need factories humming around the clock, yet Europe and the US outsourced everything from clothing to missile components. Now they're left holding worthless pieces of paper instead of supply chains. Europe picked a fight with Russia and lost access to energy, while the US picked a fight with China and can't secure rare earths.",
-          "text_en_c1": "The systematic deindustrialisation of the Western economies has, by virtually any historical reckoning, mortgaged their long-term strategic position. Decades of outsourcing, ranging from textiles to advanced munitions, have left America and Europe perilously dependent on adversarial supply chains. The Europeans, having provoked Russia, consequently endured an energy catastrophe; the Americans, having provoked China, now find themselves unable to procure the rare earths that modern warfare demands. The factory floors have been hollowed out, leaving nothing but depreciating paper currency in their stead. Even Hong Kong's property magnates, for their part, remain tethered to mainland manufacturing output.",
-          "text_en_c2": "The systematic deindustrialization pursued by Western economies over successive decades may well prove to have bequeathed them a strategically untenable inheritance. Manufacturing capacity—from apparel to advanced munitions—was ceded, almost as a matter of ideological consensus, to jurisdictions whose geopolitical alignment has since deteriorated. The ramifications are now manifesting with uncomfortable clarity: a Europe that sanctioned Russia discovered itself bereft of affordable energy, while a United States that antagonized China discovered, rather abruptly, that its rare earth supply chains had atrophied into near-irrelevance. What remains, in essence, is a portfolio of paper assets whose utility in sustaining industrial output is approximately nil. Hong Kong's property magnates, meanwhile, depend on precisely the mainland supply networks now weaponized.",
-          "source_url": "https://boards.4chan.org/pol/thread/542196057",
-          "source_hint": "/pol/ thread blaming Western deindustrialization for loss of war-making capacity"
-        },
-        {
-          "id": "v-protags-2609",
-          "category": "lol/esports",
-          "topic_zh": "遊戲男角定型",
-          "topic_en": "Hairy vs smooth protags",
-          "text_zh": "4chan /v/ 又係嗰啲老話題⋯⋯Gundam 00嘅Setsuna算係rugged定feminine lol。S15打完我都想轉吓game，唔該唔好再出Link樣🙏",
-          "text_en_b1": "Do you prefer if vidya developers designed more hairy, rugged male protagonists like Wolverine, or more smooth, feminine male protags like Link? Same tired thread, but it still pulls 200 replies. Anime fans on /v/ never get tired of this one.",
-          "text_en_b2": "Would game developers please design more rugged, hairy male protagonists à la Wolverine, or stick with the smooth, androgynous archetype embodied by Link? It's the same thread that resurfaces every couple of months on /v/, yet it still pulls in roughly two hundred replies without fail. Anime fans in particular never seem to tire of debating whether someone like Setsuna from Gundam 00 reads as rugged or feminine.",
-          "text_en_c1": "The perennial debate on /v/ resurfaced once again, asking whether developers ought to favour rugged, hypermasculine protagonists in the mould of Wolverine, or sleeker, more androgynous leads reminiscent of Link. This thread, which has arguably been recycled ad nauseam since the early 2000s, nevertheless commands in excess of two hundred replies with metronomic regularity. The anime contingent, predictably, weighed in on whether Setsuna from Gundam 00 qualifies as rugged or merely feral. Personally, having completed Silksong, I find myself gravitating toward other genres entirely. For the love of all that is sacred, no more elven archetypes.",
-          "text_en_c2": "The eternal /v/ inquiry resurfaces once more, as predictable as it is irresistible: do discerning gamers prefer protagonists endowed with the rugged, hypermasculine aesthetic epitomized by Wolverine's muttonchops and gruff affect, or the smoother, more androgynous archetypes exemplified by Link's elfin features and silent self-possession? Threads on this ostensible binary reliably accumulate hundreds of replies despite, or perhaps because of, their evident repetitiveness. Anime aficionados, it must be said, approach such discussions with a taxonomical zeal that Western gaming discourse rarely matches. Setsuna from Gundam 00, predictably, has emerged as the season's contested case study—simultaneously read as rugged and feminine, depending on which faction of the thread one consults.",
-          "source_url": "https://boards.4chan.org/v/thread/747079781",
-          "source_hint": "/v/ recurring thread on male character design in games"
-        },
-        {
-          "id": "fit-squat-2609",
-          "category": "mma/fitness",
-          "topic_zh": "深蹲係咪meme",
-          "topic_en": "Squats are a meme",
-          "text_zh": "又話深蹲係meme lift。古希臘人根本唔做squat，佢哋跑同揹重嘢。我同肥仔信都係leg day靠carries lol，問我點解無 thigh growth 🧐",
-          "text_en_b1": "Squats are a meme lift prioritized way too much in modern lifting. The ancient Greeks didn't do squats. They ran for legs and lifted heavy things for upper body. They carried heavy things for legs but never squatted. Bench, OHP, deadlift, running, and carries cover everything.",
-          "text_en_b2": "Squats are massively overrated in modern lifting culture, and calling them a meme lift isn't entirely unfair. The ancient Greeks, who built impressive physiques without gym machines, never actually squatted with a barbell. They relied on running to develop their legs and on heavy carries for full-body strength, alongside overhead pressing and deadlifting for the upper body. Honestly, bench, OHP, deadlifts, running, and loaded carries cover just about everything.",
-          "text_en_c1": "The veneration of squats within contemporary lifting culture is, I would argue, considerably overblown. The ancient Greeks, whose physiques remain the object of widespread admiration, eschewed barbell squats entirely. Their lower-body conditioning derived from sustained running and loaded carries, while upper-body strength was cultivated through heavy stone and sandbag work. They transported substantial loads on foot yet never descended into a parallel squat, a fact that should give pause to those who treat the movement as sacrosanct. Bench, overhead press, deadlifts, running, and farmer's carries collectively furnish a far more comprehensive template.",
-          "text_en_c2": "The veneration of squats within contemporary strength training culture warrants considerably more scrutiny than it typically receives, since the movement occupies a disproportionate share of programming templates whose efficacy remains, at best, contested. The ancient Greeks, whose physical exemplars we nevertheless claim to emulate, apparently eschewed the exercise altogether; their lower body development derived from extended locomotion and weighted ambulation, while their upper bodies were forged through loaded carries and pressing movements of various descriptions. Bench press, overhead press, deadlift, distance running, and farmer's carries, properly programmed, arguably furnish a more comprehensive stimulus than the barbell back squat's devotees typically acknowledge. The leg day protocol need not, in other words, revolve around a single pattern.",
-          "source_url": "https://boards.4chan.org/fit/thread/77498059",
-          "source_hint": "/fit/ contrarian thread arguing carries and running beat squats for leg development"
-        },
-        {
-          "id": "a-aotd-2609",
-          "category": "anime/culture",
-          "topic_zh": "本季動漫揀咗未",
-          "topic_en": "Anime of the season",
-          "text_zh": "Summer完咗，得閒要揀返season list。Demon Slayer鬼滅都追緊，但真係無時間⋯⋯考牌書都未睇完lol。Soremachi嗰個Ishiguro都唔錯👍",
-          "text_en_b1": "Summer is ending. Have you decided on your anime of the season yet? Half the recs are sequels, half are isekai trash, and one weird one about a guy who ranks his own manga characters in swimsuits. Pick fast before autumn overloads the queue.",
-          "text_en_b2": "Summer is wrapping up, which means it's high time to settle on your anime of the season. Half the recommendations are sequels you've already committed to, half are bog-standard isekai filler, and somewhere in between there's a strange one about a man obsessively ranking his own manga characters in swimsuits. The autumn slate is about to pile up, so lock in your picks before the queue becomes completely unmanageable.",
-          "text_en_c1": "With summer drawing to a close, the customary ritual of curating one's seasonal viewing list has assumed an unexpected urgency. The current slate presents a familiar dichotomy: half the recommendations are derivative sequels, half are interchangeable isekai productions, and somewhere amid the detritus lurks an inexplicably popular oddity concerning a protagonist who ranks his own fictional manga characters in swimwear. One ought to commit to selections expeditiously, lest the autumn slate overwhelm the queue entirely. I remain entrenched in Demon Slayer, though the licensing examinations continue to languish unread on my desk, and Soremachi's Ishiguro merits consideration.",
-          "text_en_c2": "Summer's denouement compels the customary seasonal reckoning: which titles merit the scarce commodity of viewing hours, and which shall be consigned to the ever-expanding purgatory of abandoned queues? Demon Slayer continues its interminable procession of arcs, demanding attention that competing priorities—notably a driver's licensing examination whose preparatory materials remain, embarrassingly, unfinished—render increasingly difficult to provide. The seasonal harvest, as ever, divides cleanly into familiar categories: sequels commanding loyalty by inertia, isekai variants whose premise has calcified into parody, and the occasional oddity. Soremachi's Ishiguro, by contrast, distinguishes itself through a sensibility that resists easy categorization, and warrants attention that the autumn slate's forthcoming inundation threatens to preclude.",
-          "source_url": "https://boards.4chan.org/a/thread/290767628",
-          "source_hint": "/a/ end-of-season recommendation and wrap-up thread"
         }
       ]
     }
