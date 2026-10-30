@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "days": [
+    {
+      "date": "2026-10-30",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-gold-btc-01",
+          "category": "trading",
+          "topic_zh": "金價與BTC",
+          "topic_en": "Gold and Bitcoin",
+          "text_zh": "AI 對 Bitcoin 有冇威脅？我如果係你，依家就買 Gold。靠，Bitcoin 同 gold 擺埋一齊睇，AI 呢股氣真係越吹越恐怖。Golden。",
+          "text_en_b1": "Have you followed the developments in AI and the threat it poses to Bitcoin? I would buy gold now if I were you. AI is getting stronger, and Bitcoin may face a bigger challenge ahead. This post clearly favors gold over Bitcoin right now.",
+          "text_en_b2": "Have you followed the rapid developments in artificial intelligence and the threat it poses to Bitcoin? If I were you, I would buy gold now. When you place Bitcoin and gold side by side, the momentum behind AI looks increasingly frightening. AI is becoming stronger, so Bitcoin may be headed for a much bigger challenge ahead. Although this remains an opinion, the post clearly favors gold over Bitcoin at the moment.",
+          "text_en_c1": "Have you followed the latest developments in artificial intelligence and the threat they pose to Bitcoin? If I were you, I would buy gold now. Set Bitcoin and gold side by side, and the momentum behind AI is becoming increasingly alarming. As AI continues to improve, Bitcoin may face a considerably bigger challenge ahead, whereas gold appears to be the safer option. The post clearly favours gold over Bitcoin at this particular moment, although that does not make the recommendation a guarantee of future performance.",
+          "text_en_c2": "Have you been following recent advances in artificial intelligence and the mounting threat they pose to Bitcoin? If I were you, I would buy gold now, because placing Bitcoin and gold side by side makes the AI narrative increasingly difficult to ignore. As the technology continues to strengthen, Bitcoin may be facing a considerably more serious challenge ahead of it. Although the precise impact remains uncertain, the prevailing mood is unmistakably bullish toward gold. The post therefore signals a clear preference for traditional precious metals over Bitcoin at present, however speculative such a comparison may ultimately prove.",
+          "source_url": "https://boards.4chan.org/biz/thread/62829739",
+          "source_hint": "A /biz/ post says AI threatens Bitcoin and recommends buying gold."
+        },
+        {
+          "id": "trade-compute-02",
+          "category": "trading",
+          "topic_zh": "計力係硬道理",
+          "topic_en": "Invest in Compute",
+          "text_zh": "Compute 先係你唯一應該投資嘅嘢。股票又好，真實晶片又好。Semi、Nvidia 都得。Neocloud 只係轉售商，自己冇 product 同 software。AI 可能食晒 software，連 hyperscaler 都未必安全。Google 試過 implement AI，反而 killing 自己 search ad business。科技太猛，優化 business 途中可能直接 wipe it out。靠，今個年代仲要靠AI續命。",
+          "text_en_b1": "Compute is the only thing you should invest in, whether that means stocks or physical chips. Semiconductors and Nvidia are the main ideas. Neoclouds are only resellers without their own products, while software is risky because AI may eat it. Even hyperscalers face trouble: Google is damaging its search ad business while implementing AI.",
+          "text_en_b2": "Compute is the only thing you should invest in, whether that means buying shares or physical chips. Semiconductors and Nvidia are the main ideas, whereas neoclouds are merely resellers with neither their own products nor their own software. Software is risky because AI may swallow whole categories of businesses. Even hyperscalers are not safe, as Google is damaging its search advertising business while implementing AI. Technology is advancing so quickly that optimisation can wipe out the original business.",
+          "text_en_c1": "Compute is the only asset I would seriously consider investing in, whether that means buying shares in semiconductor companies or acquiring physical chips. The main ideas are semis and Nvidia. Neoclouds, by contrast, are merely resellers with neither their own products nor their own software, which makes them considerably less compelling. Software is also risky because AI may gradually absorb many of its functions. Even hyperscalers are not immune: Google, for example, appears to be damaging its search advertising business while implementing AI. In such a rapidly evolving industry, optimisation can end up wiping out the very business it is meant to strengthen.",
+          "text_en_c2": "Compute is the one asset class you should seriously consider investing in, whether through equities or ownership of physical chips. Semiconductors and Nvidia are the principal ideas, whereas neoclouds appear to function merely as resellers, with neither proprietary products nor distinctive software of their own. Software itself is precarious, since AI may absorb much of the value it currently creates. Even hyperscalers are not immune: Google has been implementing AI while undermining its own search-advertising business. In technology, optimisation can be so disruptive that it wipes out the very business it is intended to strengthen.",
+          "source_url": "https://boards.4chan.org/biz/thread/62833208",
+          "source_hint": "A /biz/ post argues that compute, chips, and semiconductors are the strongest investment theme."
+        },
+        {
+          "id": "civil-load-03",
+          "category": "civil/structure",
+          "topic_zh": "Load Path 101",
+          "topic_en": "Understanding Load Paths",
+          "text_zh": "有人話 load path 只係背書，講完就算。但我哋做 structural work，最怕 load path 講唔清。Beam 接到 column，column 落到 foundation，force 點樣傳，點解嗰個 member 咁做，全部都要 check。靠AI續命都要自己識睇图，唔可以只靠 AI 砌故事。",
+          "text_en_b1": "Understand how loads travel through a structure. Loads move through beams, columns, connections, and foundations. A civil engineer must explain why each member exists and how it was checked. This basic knowledge helps when reviewing drawings and discussing work with contractors on site.",
+          "text_en_b2": "Some people treat load paths as nothing more than jargon to memorise before moving on. However, structural work becomes dangerous when nobody can explain how forces actually travel. You need to know how a beam connects to a column, how the column transfers its load into the foundation, and why each member has been designed in that particular way. AI may keep us employed, but engineers still need to read drawings and build sound judgements rather than simply asking it to invent convincing stories.",
+          "text_en_c1": "Some people treat load paths as little more than paperwork: identify the system, draw an arrow, and move on. Yet anyone doing structural work knows that failing to explain how forces travel can be dangerous. Loads pass from beams into columns, through connections, and ultimately into foundations, so every member must be justified. When reviewing drawings or discussing structural decisions with contractors on site, it is essential to understand why each component exists and how it has been checked. AI may help engineers keep pace, but it cannot replace the judgement required to read drawings rather than merely generate plausible-sounding stories.",
+          "text_en_c2": "Some dismiss load-path analysis as little more than rote theory: explain the principle, tick the box, and move on. Yet anyone engaged in structural work knows that an incomprehensible load path is a source of profound anxiety. How does a beam transfer force into a column? How does that column carry the load into the foundation? Why is each member proportioned and arranged as it is? Every aspect must be checked. AI may keep us employed, but it cannot substitute for the ability to read drawings critically and interrogate the underlying engineering story.",
+          "source_url": "https://boards.4chan.org/v/thread/750604719",
+          "source_hint": "The gaming thread describes growing overwhelmed as quests become more complicated."
+        },
+        {
+          "id": "ai-claude-04",
+          "category": "tech/ai",
+          "topic_zh": "AI做腦部手術",
+          "topic_en": "AI Meets Brain Surgery",
+          "text_zh": "Future is coming at you, anons。Claude 依家已經開始做 brain surgery，仲係其中一個 hardest fields。靠AI續命真係唔係講笑。AI 可能先食 blue collar，再食 white collar。Professional exam 都未考完，唔可以淨係靠 AI 幫我讀書。",
+          "text_en_b1": "The future is coming at us, anons. Claude is now doing brain surgery, one of the hardest fields for anyone to master. This development shows how quickly AI is moving into serious professional work. However, AI cannot replace the knowledge needed for engineering exams and site decisions.",
+          "text_en_b2": "The future is coming at us, anons, and Claude has already begun performing brain surgery, which is among the hardest fields anyone can master. Clearly, this is no longer some distant prospect, so relying on AI to keep us employed is hardly a joke. AI may first replace blue-collar work and then move into white-collar professions. Even so, it cannot supply the underlying knowledge required to pass professional engineering exams or make sound decisions on site.",
+          "text_en_c1": "The future is coming at us, anons, and Claude is already being used in brain surgery, one of the most demanding fields anyone can master. That development demonstrates how quickly AI is moving into serious professional work, rather than merely handling routine office tasks. AI may first displace blue-collar roles and then move into white-collar professions, although this does not mean expertise has become irrelevant. If you have not even finished your professional examinations, you cannot rely on AI to complete your education for you. It may assist with learning, but the underlying knowledge required for engineering exams and on-site decisions still has to be yours.",
+          "text_en_c2": "The future is bearing down on us, anons. Claude is already being used in brain surgery, one of the most exacting and difficult fields any professional must master. This is not a trivial application or a convenient thought experiment; it illustrates how rapidly AI is advancing into work where mistakes may have irreversible consequences. The broader implication is equally unsettling: AI may first displace blue-collar work and subsequently erode many white-collar professions. Nevertheless, no system can replace the foundational knowledge required to pass professional examinations, exercise sound judgement on site, and recognise when an automated recommendation should not be trusted.",
+          "source_url": "https://boards.4chan.org/g/thread/110194811",
+          "source_hint": "A /g/ post says Claude is now performing brain surgery."
+        },
+        {
+          "id": "hk-tesla-police-05",
+          "category": "hk/news",
+          "topic_zh": "Tesla 私人警察",
+          "topic_en": "Tesla Police Speculation",
+          "text_zh": "Tesla police car？我覺得 Elon 可能搞緊自己嘅 private police force。之後 local government 為咗 save money，甚至叫 Elon 負責 police officers 嘅 salary，變成佢自己嘅 private army。香港咁逼嘅地方，會唔會遲一日都咁玩？",
+          "text_en_b1": "A Tesla police car has appeared, and I think Elon may be setting up his own private police force. Local governments could later pay Elon to cover police officers' salaries to save money. That would turn the officers into his private army. This is an extreme speculation about public spending and policing.",
+          "text_en_b2": "A Tesla police car has appeared, and I suspect Elon may be setting up his own private police force. Local governments could eventually pay him to cover the salaries of police officers, because that would save them money. If that happened, the officers would effectively become his private army. This is an extreme and highly speculative scenario, but given how desperate public finances have become, could Hong Kong end up following the same route one day?",
+          "text_en_c1": "A Tesla police car has apparently appeared, which makes me wonder whether Elon Musk is quietly developing a private police force. If local governments later pay him to cover the salaries of police officers in order to reduce public spending, those officers could effectively become his private army. The logic is simple: use public money to finance personnel who ultimately serve a private enterprise. This remains an extreme speculation rather than an established arrangement, but it raises uncomfortable questions about accountability, public expenditure, and the future of policing. Given how constrained Hong Kong is, could the same model eventually be adopted here?",
+          "text_en_c2": "A Tesla police car has appeared, and I suspect Elon may be assembling his own private police force. If local governments later pay him to cover the salaries of police officers in order to reduce public expenditure, those officers could effectively become his private army. This is, admittedly, an extreme conjecture about policing, public spending, and corporate power, but the underlying direction of travel is not impossible to imagine. Given how financially compressed Hong Kong is, could a place under such pressure eventually adopt a comparable arrangement? The proposal remains speculative, yet its practical implications are worth taking seriously.",
+          "source_url": "https://boards.4chan.org/pol/thread/545174630",
+          "source_hint": "A /pol/ thread jokes that Elon is creating a private police force."
+        },
+        {
+          "id": "fitness-squat-06",
+          "category": "mma/fitness",
+          "topic_zh": "Squat 到底重唔重要",
+          "topic_en": "Are Squats Useful?",
+          "text_zh": "有人話 squat 根本唔係 lifting，亦唔 mimic 日常需要做嘅動作，仲有 injury risk。應該做 deadlift、bench、OHP 同 cardio。肥仔信今日又叫我去 gym，但我最怕 leg day。Squat 係咪真係咁冇用？",
+          "text_en_b1": "Some people say squats are not even lifting because they do not copy normal daily movements. They also claim that squats have a high injury risk and provide little benefit. They recommend deadlifts, bench presses, overhead presses, curls, and cardio instead. What is your view on squat training?",
+          "text_en_b2": "Some people argue that squats are not even a real lifting movement because they fail to imitate actions required in everyday life. They also claim that squats carry a high injury risk while providing little benefit, recommending deadlifts, bench presses, overhead presses, curls, and cardio instead. A fat friend asked me to visit the gym again today, although leg day is the one I dread most. So, are squats genuinely that useless?",
+          "text_en_c1": "Some critics maintain that squats are not true lifting because they do not replicate ordinary movements of daily life. They also argue that the exercise carries a substantial injury risk while providing comparatively little benefit. Their preferred alternatives are deadlifts, bench presses, overhead presses, curls, and cardio, which supposedly offer a more balanced training programme. A fat man told me today that I should go to the gym again, although leg day remains my greatest nightmare. So, are squats genuinely that useless, or are their critics confusing a complicated exercise with one that lacks functional value?",
+          "text_en_c2": "Some argue that squats are not genuine lifting because they fail to replicate ordinary movements of daily life. They also contend that the exercise carries a substantial injury risk while offering comparatively little benefit, recommending deadlifts, bench presses, overhead presses, curls, and cardiovascular work instead. Fat Cat told me to go to the gym again today, but leg day remains the part of training I dread most. Is the case against squats really as conclusive as its supporters suggest? Their argument sounds superficially persuasive, although it appears to confuse general usefulness with the peculiar demands of competitive strength training.",
+          "source_url": "https://boards.4chan.org/fit/thread/77584111",
+          "source_hint": "A /fit/ thread argues that deadlifts and other lifts are better than squats."
+        },
+        {
+          "id": "anime-black-clover-07",
+          "category": "anime/culture",
+          "topic_zh": "Black Clover 登頂",
+          "topic_en": "Black Clover Tops Rankings",
+          "text_zh": "Black Clover 做咗 October 2026 Crunchyroll 最受歡迎 anime第一名，打贏 Dragon Ball Super: Beerus 同 The Apothecary Diaries Season 3。得返三個 BChads 喺 /a/ 跣住，確實係好消息。靠，追番終於有啲回報。",
+          "text_en_b1": "Black Clover is the most watched anime on Crunchyroll for October 2026. It has beaten Dragon Ball Super: Beerus and The Apothecary Diaries Season 3. Many fans may not care, but this is great news for the remaining Black Clover fans on /a/. The anime finally got some recognition.",
+          "text_en_b2": "Black Clover has reached number one among the most-watched anime on Crunchyroll for October 2026, beating Dragon Ball Super: Beerus and The Apothecary Diaries Season 3. Although plenty of casual fans may not care, this is undoubtedly excellent news for the remaining Black Clover fans on /a/. After following the series for so long, it is satisfying to finally receive some recognition rather than being constantly ignored.",
+          "text_en_c1": "Black Clover has topped Crunchyroll’s most-watched anime rankings for October 2026, beating both Dragon Ball Super: Beerus and The Apothecary Diaries Season 3. Although many people may not care about the chart, it is unquestionably good news for the remaining Black Clover fans on /a/. After following the series for so long, they have finally received a measure of recognition for their patience and loyalty. More importantly, the result suggests that Black Clover has achieved genuine mainstream visibility rather than remaining confined to its established audience, which is a notable achievement for any long-running series.",
+          "text_en_c2": "Black Clover has secured the number-one position among the most-watched anime on Crunchyroll for October 2026, overtaking both Dragon Ball Super: Beerus and The Apothecary Diaries Season 3. Plenty of casual viewers may remain indifferent to the ranking, but it is undeniably welcome news for the remaining Black Clover enthusiasts on /a/. After such a long and sometimes frustrating wait, the series has finally received a measure of recognition that its most committed fans have long believed it deserved. Whatever reservations outsiders may retain about the anime, this achievement marks a genuinely significant moment for its audience.",
+          "source_url": "https://boards.4chan.org/a/thread/291942165",
+          "source_hint": "An /a/ post reports Black Clover leading Crunchyroll's October 2026 rankings."
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "The perennial lament from /a/: non-virginal characters ought not to be admissible romantic options within the anime idiom, a position advanced with the righteous indignation peculiar to those who have, by thirty, retreated into solitary domesticity. The trope is wearisome—the childhood friend who waits a decade for the oblivious protagonist, rewarded with devotion that real-world demographics seldom reciprocate. One observes that by the third decade, the statistical probability of such narratives diminishes considerably; the protagonists, like the audience, are largely solitary. I, too, constitute a pre-owned artefact by such criteria. Licence acquisition shall precede any further rumination on the matter.",
           "source_url": "https://boards.4chan.org/a/thread/290827879",
           "source_hint": "/a/ thread debating whether 'used' characters belong in anime"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-condo",
-          "category": "trading",
-          "topic_zh": "食晒無得返",
-          "topic_en": "Crypto condo story",
-          "text_zh": "22歲狗幣贏錢 買咗condo 兩年後返學grad返工 而家100K年薪 揹住卡數學生貸 一睇就grim 廢柴模式on",
-          "text_en_b1": "In 2021 he was 22 and made random crypto money from dogecoin. He lived two years with no job, dropped out of school, and bought a condo for $230K. Then money ran out. He went back, graduated, and now makes $100K at 27. Stuck in a loop of work and consume, with student debt and credit card debt.",
-          "text_en_b2": "Back in 2021, when he was 22, this guy stumbled into a small fortune after throwing money at dogecoin on a whim. For roughly two years he coasted along with no real job, dropped out of school, and splashed $230K on a condo. Once the windfall dried up, though, he had to swallow his pride, return to finish his degree, and land a $100K salary at 27. Now he's stuck grinding through debt payments, buried under student loans and credit card bills.",
-          "text_en_c1": "At 22, he had the kind of windfall most people only daydream about: a speculative dogecoin position that paid out handsomely during the 2021 surge. Flush with cash, he dropped out of university, blew through two years of leisure, and put $230,000 down on a condominium. The party, however, was not meant to last. Once the money evaporated, reality came knocking. He eventually re-enrolled, finished his degree, and now, at 27, earns a respectable $100K salary. Yet the gloss has worn off entirely. He is burdened by lingering student loans and credit card debt, trapped in the familiar grind-to-consume cycle.",
-          "text_en_c2": "In 2021, at twenty-two, he parlayed an evidently fortuitous windfall on Dogecoin into a life of ostentatious leisure: two years of abstaining from any gainful employment, an abandoned academic trajectory, and the acquisition of a condominium valued at roughly $230,000. When the capital evaporated, necessity reasserted itself with rather brutal clarity. He re-enrolled, eventually graduated, and now, at twenty-seven, draws a respectable $100,000 salary, yet remains tethered to outstanding student loans and revolving credit card balances, ensnared in what he himself characterised as an interminable work-and-consume cycle. Having once sampled the headier pleasures of unfettered affluence, he confesses an unwillingness to relinquish them, and the entire trajectory reads as an object lesson in how fleeting, speculative gains tend to recalibrate one's expectations in ways that subsequent, conventional prosperity can seldom satisfy.",
-          "source_url": "https://boards.4chan.org/biz/thread/62674411",
-          "source_hint": "/biz/ anon lost his crypto gains, now trapped in the grind"
-        },
-        {
-          "id": "biz-elon",
-          "category": "trading",
-          "topic_zh": "Elon炒幣路",
-          "topic_en": "Musk trading thread",
-          "text_zh": "Doge pump又係Elon tweet 炒開就知 等佢出post先入 OK lol 我又輸緊 學費",
-          "text_en_b1": "Anyone else fed up with Musk trying to get shit to trend on 4chan? He pumps money into AfD and still can't break 50% of the vote. The guy only got rich because his daddy's mining money let him in. X is just Musk crying into the void asking people to boost his posts.",
-          "text_en_b2": "Is anyone else thoroughly fed up with Musk trying to manipulate what trends on 4chan? Despite pumping serious cash into AfD, the party still can't crack 50% of the vote. The bloke only got filthy rich because daddy's mining empire handed him the keys. Meanwhile X is basically Musk screaming into the void, begging randoms to boost his engagement. A lot of it stinks like paid astroturfing and completely broken metrics. Honestly, between the astroturfing and the desperate self-promotion, the whole operation reeks.",
-          "text_en_c1": "It is becoming increasingly tiresome to watch Musk perpetually attempting to manipulate trends across forums. He lavishes funds on Germany's AfD, yet the party still cannot breach the 50 percent threshold that would actually matter. His fortune, in truth, owes far more to inherited emerald mining capital than to any genuine business acumen. The platform formerly known as Twitter has devolved into little more than a megaphone for his grievances, a place where he pleads with users to amplify his posts. Much of the engagement appears suspiciously manufactured—bot traffic, inflated metrics, the whole charade.",
-          "text_en_c2": "It is scarcely surprising that seasoned traders recognise the now-familiar choreography: whenever Dogecoin registers an appreciable surge, one can almost invariably trace the catalyst to a single, opportune missive from Elon Musk. Astute operators have, accordingly, refined their playbook to a principle of studied passivity, awaiting his post before committing capital, lest they be left acquiring at the apex. The present author confesses, somewhat ruefully, to still being ensnared in such a position, the loss constituting yet another instalment in what can only be described as an ongoing, prohibitively expensive tuition. Whether this constitutes market intelligence or merely the latest instalment in a personal finance cautionary tale remains, perhaps, a matter of perspective. Source: 4chan /pol/.",
-          "source_url": "https://boards.4chan.org/pol/thread/542322818",
-          "source_hint": "/pol/ thread dragging Musk for X trending begging"
-        },
-        {
-          "id": "g-ai-steal",
-          "category": "tech/ai",
-          "topic_zh": "AI抄功課",
-          "topic_en": "OpenAI stealing work",
-          "text_zh": "OpenAI又偷人research 今次係GPT-6解咗個math problem 個researcher話佢用緊Codex同Claude做 抄到出面 真係黐線 AI咁樣我考牌都驚被搶",
-          "text_en_b1": "OpenAI announced on September 8th that their model Astra, running on GPT-6, had solved a hard math problem, costing about $20 million in compute. Then researcher Tristan Buckmaster said OpenAI's approach looked a lot like his own work, which he had been developing with OpenAI's Codex and Anthropic's Claude. The video alleges an ethical conflict over unattributed use.",
-          "text_en_b2": "On September 8th, OpenAI revealed that their model Astra, running on GPT-6, had cracked a notoriously difficult math problem, burning through roughly $20 million in compute along the way. Shortly afterwards, researcher Tristan Buckmaster pointed out that OpenAI's approach bore a striking resemblance to his own ongoing work, which he had been developing with the help of OpenAI's Codex and Anthropic's Claude. The leaked video suggests a genuine ethical conflict over unattributed use of someone's research.",
-          "text_en_c1": "On September 8th, OpenAI made headlines by announcing that their Astra model, built atop GPT-6, had cracked an exceptionally difficult mathematical problem—an achievement that reportedly consumed roughly $20 million in compute resources. Almost immediately, however, trouble surfaced. Researcher Tristan Buckmaster publicly observed that the methodology bore a striking resemblance to work he had been pursuing with OpenAI's own Codex and Anthropic's Claude. A leaked video subsequently alleged that OpenAI had absorbed substantial portions of his research without due attribution. If true, this would constitute a serious ethical breach and raise uncomfortable questions about the extent to which frontier AI laboratories appropriate the intellectual labour of independent academics.",
-          "text_en_c2": "OpenAI disclosed on the eighth of September that their forthcoming model, Astra, operating on the GPT-6 architecture, had successfully resolved a particularly intractable mathematical problem, an undertaking that reportedly consumed approximately twenty million dollars in computational expenditure. Almost immediately, however, the researcher Tristan Buckmaster publicly noted that the methodology bore a rather conspicuous resemblance to work he had himself been cultivating, notably with assistance from OpenAI's own Codex system and Anthropic's Claude. The accompanying video documentation appears to allege a substantive ethical conflict concerning unacknowledged appropriation of intellectual contributions, and the affair has predictably ignited fervent debate regarding the increasingly porous boundaries between collaborative iteration and outright plagiarism within the contemporary artificial intelligence research ecosystem.",
-          "source_url": "https://boards.4chan.org/g/thread/109771147",
-          "source_hint": "/g/ thread on OpenAI allegedly copying a researcher's work for GPT-6"
-        },
-        {
-          "id": "hk-pisa",
-          "category": "hk/news",
-          "topic_zh": "中國學生勁",
-          "topic_en": "China tops PISA",
-          "text_zh": "OECD PISA 760K學生91國 全球數學閱讀跌 中國平均612 已經等於其他國家精英級 香港都唔得啦 wtf",
-          "text_en_b1": "A new OECD PISA study tested 760,000 students across 91 countries and global scores in math and reading comprehension are dropping. Except in China. The average Chinese kid scored 612, which is already above the elite level 5 threshold of 607 that marks top performers in the rest of the world. Normal Chinese students sit at a level considered elite elsewhere.",
-          "text_en_b2": "A fresh OECD PISA study, which tested around 760,000 students across 91 countries, found that global scores in math and reading comprehension are steadily declining — except in China. The average Chinese student scored 612, which already clears the elite Level 5 threshold of 607, a benchmark that essentially marks top-tier performance elsewhere in the world. In other words, a run-of-the-mill kid in China is performing at what other countries would consider an elite level.",
-          "text_en_c1": "The latest OECD PISA assessment, which surveyed 760,000 students across 91 countries, has delivered a sobering verdict on global educational standards: mathematical literacy and reading comprehension have both declined across most regions. There is, however, one conspicuous exception. Chinese students averaged 612, a figure that exceeds the 607 threshold defining the elite Level 5 tier, which elsewhere is reached only by the top-performing percentile. In other words, a representative Chinese pupil now performs at a level considered exceptional throughout the rest of the world. The implications for universities and employers in the West are rather disquieting, particularly given that even Hong Kong's once-dominant results have begun to slip.",
-          "text_en_c2": "The most recent OECD Programme for International Student Assessment administered its rigorous battery of evaluations to approximately 760,000 students distributed across ninety-one participating nations, and the aggregate findings are, by most measures, disquieting: global competencies in both mathematics and reading comprehension have registered a discernible decline, a trajectory that has occasioned considerable hand-wringing among educational policymakers. China constitutes the conspicuous exception to this otherwise bleak tendency, with the mean Chinese student achieving a score of 612, comfortably eclipsing the elite Level 5 threshold of 607 that demarcates top-tier performance throughout the remainder of the surveyed world. What elsewhere qualifies as exceptional attainment is, for the average Chinese pupil, merely the baseline, a distinction that inevitably provokes uncomfortable questions about pedagogical methodology and curricular rigour elsewhere.",
-          "source_url": "https://boards.4chan.org/pol/thread/542292504",
-          "source_hint": "/pol/ thread on China dominating new PISA results"
-        },
-        {
-          "id": "lol-vg",
-          "category": "lol/esports",
-          "topic_zh": "打機廢青",
-          "topic_en": "What anon played",
-          "text_zh": "連LOL都唔打 淨係玩RPCS3 Dante's Inferno 同朋友World at War 四人房 我都係夜晚S15返嚟捱吓lol",
-          "text_en_b1": "STOP, TELL ME WHAT YOU PLAYED THIS WEEK OR YOU'RE A FAGGOT. I've been playing RPCS3, mostly Dante's Inferno, and running four-man parties every night with my friends on World at War and Borderlands 1. Modded Left 4 Dead 2 is up next. Been replaying Quake and Lollipop Chainsaw to get ready for the sequel. I also tried the Heatwarped Demo. Try Dante's Inferno.",
-          "text_en_b2": "STOP, TELL ME WHAT YOU PLAYED THIS WEEK OR YOU'RE A FAGGOT. I've been putting hours into RPCS3, mostly working through Dante's Inferno, while running four-man lobbies every night with the lads on World at War and the original Borderlands. Modded Left 4 Dead 2 is queued up next on my list. I've also been replaying Quake and Lollipop Chainsaw to brush up before the sequel drops. The Heatwarped demo got a spin too, honestly give Dante's Inferno a shot.",
-          "text_en_c1": "FORGET WHATEVER YOU WERE DOING: I demand to know what you have been playing this week, or else we cannot possibly be friends. My own schedule has been dominated by RPCS3 emulation, particularly Dante's Inferno, which holds up remarkably well despite its age. My group of friends and I have been running nightly four-player sessions on World at War and the original Borderlands, with a heavily modded Left 4 Dead 2 lined up next. In preparation for the imminent sequel, I have been replaying both Quake and Lollipop Chainsaw, and I managed to sample the Heat Signature demo while I was at it.",
-          "text_en_c2": "Cease immediately and disclose what diversions have occupied your leisure this week, lest ye be consigned to the appropriate pejorative. This correspondent has, somewhat unfashionably, eschewed League of Legends entirely, instead devoting considerable hours to RPCS3 emulation, with particular emphasis upon Dante's Inferno, whilst coordinating nightly four-man excursions into World at War and the original Borderlands with a cadre of similarly devoted companions. Modded Left 4 Dead 2 awaits imminent deployment, and a deliberate revisitation of both Quake and Lollipop Chainsaw has been undertaken in preparation for the latter's forthcoming sequel. The Heatwarred demo has likewise received cursory attention, though one feels compelled to insist that Dante's Inferno merits particular consideration from any reader whose sensibilities incline toward the baroque.",
-          "source_url": "https://boards.4chan.org/v/thread/747277953",
-          "source_hint": "/v/ weekly 'what did you play' thread"
-        },
-        {
-          "id": "fit-ohp",
-          "category": "mma/fitness",
-          "topic_zh": "舉鐵進度",
-          "topic_en": "OHP progress",
-          "text_zh": "1/2/3/4標準 我仲差OHP一塊緊 1pl8 OHP rep 應該一兩個月ok 肥仔信又笑我細隻 lol",
-          "text_en_b1": "I'm aiming for the classic 1/2/3/4 standard: one-plate overhead press, two-plate bench, three-plate squat, four-plate deadlift. Right now I'm closer to a 1-plate OHP than to 2-plate bench, 3-plate squat, or 4-plate deadlift. I think I'll hit 1-plate OHP for reps within a month or two. Squat and deadlift are still far behind.",
-          "text_en_b2": "I'm currently chasing the classic 1/2/3/4 strength standard: a one-plate overhead press, two-plate bench, three-plate squat, and four-plate deadlift. At the moment, I'm noticeably closer to grinding out a one-plate OHP than I am to hitting the other three milestones. I reckon I should be able to push one plate overhead for reps within a month or two. Squat and deadlift, however, are still lagging pretty far behind schedule.",
-          "text_en_c1": "I have been steadily pursuing what gym circles typically refer to as the 1/2/3/4 benchmark: a one-plate overhead press, a two-plate bench press, a three-plate squat, and a four-plate deadlift. At present, however, I find myself lagging considerably across most of these milestones. My overhead press is hovering tantalisingly close to a single plate for reps, whereas my bench remains stubbornly short of two plates and my squat and deadlift are still some way off their respective targets. Realistically, I anticipate hitting that one-plate OHP within a month or two of consistent training. The remaining lifts will require substantially more patience and considerably more food.",
-          "text_en_c2": "One pursues, with measured if perhaps quixotic ambition, the venerable 1/2/3/4 standard beloved of strength-training enthusiasts: a one-plate overhead press, a two-plate bench, a three-plate squat, and a four-plate deadlift, an ostensibly modest benchmark that nevertheless proves elusive in practice. At present, the one-plate overhead press represents the most attainable milestone, whilst the squat and deadlift remain, lamentably, rather more distant objectives upon the horizon. A single-plate overhead press for repetitions appears plausibly achievable within a month or two of concerted effort, assuming reasonable continuity of training and nutritional discipline. The remaining lifts, however, shall require rather more protracted cultivation, and one's more generously proportioned acquaintances continue, with predictable hilarity, to remark upon the comparatively diminutive proportions currently exhibited.",
-          "source_url": "https://boards.4chan.org/fit/thread/77491789",
-          "source_hint": "/fit/ progress thread on hitting 1/2/3/4 lifts"
-        },
-        {
-          "id": "a-madoka",
-          "category": "anime/culture",
-          "topic_zh": "圓出新搞作",
-          "topic_en": "Madoka new project",
-          "text_zh": "Walpurgis no Kaiten訪問raw同漫畫第一期都流咗出嚟 Homura聲優Chiwa Saito話Muhdoka係Homura初戀 WTF 巴哈膠晒",
-          "text_en_b1": "The Kaiten interview raws and the manga adaptation volume 01 of Puella Magica Madoka: Walpurgis no Kaiten are out. Volume 1 of the manga is already being shared online. Chiwa Saito, Homura's voice actress, said in an interview that Muhdoka is Homura's first love. The old fanbase is melting down about it.",
-          "text_en_b2": "The raw interview transcripts for Walpurgis no Kaiten have leaked online, alongside scans of the manga adaptation's first volume for Puella Magica Madoka. Fans have already been sharing volume one across various boards. In a particularly eyebrow-raising moment from the interview, Chiwa Saito, Homura's voice actress, casually dropped that Muhdoka is essentially Homura's first love. Predictably, the veteran fanbase has completely lost it, with threads melting down over the implications.",
-          "text_en_c1": "Both the raw transcript of the Walpurgis no Kaiten production interview and the inaugural volume of its manga adaptation have now surfaced online, much to the delight of curious fans. The leak has, predictably, set the community ablaze, particularly because Chiwa Saito—Homura's longtime voice actress—dropped a rather incendiary revelation during the conversation. She disclosed that the character Muhdoka is, in her own characterisation, Homura's first love, a narrative development that has prompted considerable hand-wringing among the veteran fanbase. Whether this constitutes elegant world-building or a gratuitous subversion of established canon depends very much on whom you ask. The forums, predictably, have descended into absolute pandemonium.",
-          "text_en_c2": "The preliminary interview transcripts pertaining to Walpurgis no Kaiten, alongside the inaugural volume of its accompanying manga adaptation of Puella Magica Madoka, have, somewhat prematurely, found their way into wider circulation, occasioning considerable perturbation amongst the established fan community. Volume one of the manga in particular has proliferated with what can only be described as alacrity. Chiwa Saito, the esteemed voice actress entrusted with the portrayal of Homura, reportedly articulated during the interview that Muhdoka constitutes Homura's inaugural romantic attachment, a revelation that has predictably induced a rather spectacular collective meltdown amongst longstanding enthusiasts. Whether this constitutes a substantive narrative development or merely a provocation designed to destabilise the faithful remains a matter of considerable interpretive contention.",
-          "source_url": "https://boards.4chan.org/a/thread/290778514",
-          "source_hint": "/a/ thread on new Madoka Magica project leaks"
         }
       ]
     }

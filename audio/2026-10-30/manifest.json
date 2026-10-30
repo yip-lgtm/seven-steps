@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-30",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-gold-btc-01",
+      "topic_en": "Gold and Bitcoin",
+      "topic_zh": "金價與BTC",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-gold-btc-01-b1.mp3",
+        "b2": "clip-trade-gold-btc-01-b2.mp3",
+        "c1": "clip-trade-gold-btc-01-c1.mp3",
+        "c2": "clip-trade-gold-btc-01-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-compute-02",
+      "topic_en": "Invest in Compute",
+      "topic_zh": "計力係硬道理",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-compute-02-b1.mp3",
+        "b2": "clip-trade-compute-02-b2.mp3",
+        "c1": "clip-trade-compute-02-c1.mp3",
+        "c2": "clip-trade-compute-02-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-load-03",
+      "topic_en": "Understanding Load Paths",
+      "topic_zh": "Load Path 101",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-load-03-b1.mp3",
+        "b2": "clip-civil-load-03-b2.mp3",
+        "c1": "clip-civil-load-03-c1.mp3",
+        "c2": "clip-civil-load-03-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-claude-04",
+      "topic_en": "AI Meets Brain Surgery",
+      "topic_zh": "AI做腦部手術",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-claude-04-b1.mp3",
+        "b2": "clip-ai-claude-04-b2.mp3",
+        "c1": "clip-ai-claude-04-c1.mp3",
+        "c2": "clip-ai-claude-04-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-tesla-police-05",
+      "topic_en": "Tesla Police Speculation",
+      "topic_zh": "Tesla 私人警察",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-tesla-police-05-b1.mp3",
+        "b2": "clip-hk-tesla-police-05-b2.mp3",
+        "c1": "clip-hk-tesla-police-05-c1.mp3",
+        "c2": "clip-hk-tesla-police-05-c2.mp3"
+      }
+    },
+    {
+      "id": "fitness-squat-06",
+      "topic_en": "Are Squats Useful?",
+      "topic_zh": "Squat 到底重唔重要",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fitness-squat-06-b1.mp3",
+        "b2": "clip-fitness-squat-06-b2.mp3",
+        "c1": "clip-fitness-squat-06-c1.mp3",
+        "c2": "clip-fitness-squat-06-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-black-clover-07",
+      "topic_en": "Black Clover Tops Rankings",
+      "topic_zh": "Black Clover 登頂",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-black-clover-07-b1.mp3",
+        "b2": "clip-anime-black-clover-07-b2.mp3",
+        "c1": "clip-anime-black-clover-07-c1.mp3",
+        "c2": "clip-anime-black-clover-07-c2.mp3"
+      }
+    }
+  ]
+}
