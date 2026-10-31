@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-31",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "btc-expire",
+      "category": "trading",
+      "topic_zh": "比特幣期權到期",
+      "topic_en": "Bitcoin Options Expiry",
+      "text_zh": "Bull run starts tonight. Lots of Bitcoin options expire today at 4pm EST. 今日係關鍵位，睇下成個market點反應啦。",
+      "text_en_b1": "A bull run starts tonight, according to the original poster. Lots of Bitcoin options expire today at 4pm EST. Traders are watching whether that expiry will trigger a strong move in the market tonight.",
+      "text_en_b2": "According to the original poster, the Bitcoin bull run could start tonight, although a lot of options are expiring today at 4pm EST. This expiry may be a crucial turning point for the market, so traders are keeping a close eye on how prices react. Although one session of options expiring does not guarantee a sustained rally, the concentration of expiring contracts could still trigger significant volatility and a strong move tonight.",
+      "text_en_c1": "According to the original poster, a Bitcoin bull run could begin tonight, although the timing remains uncertain. A substantial number of Bitcoin options are due to expire today at 4 p.m. EST, making the session a potentially pivotal test of market sentiment. Traders are closely monitoring whether the expiry will provide enough liquidity or momentum to trigger a sharp move in either direction. If the resulting reaction gains strength, it could establish the short-term trend; if not, traders may be left facing another period of consolidation.",
+      "text_en_c2": "According to the original poster, the bull run begins tonight, with an unusually large concentration of Bitcoin options expiring at 4 p.m. EST. Although expiry does not mechanically dictate direction, it can amplify volatility as traders adjust or close positions and market makers rebalance exposure. The poster regards today’s expiry as the decisive session, suggesting that its effects may determine whether Bitcoin stages a strong move tonight. With so much contract value concentrated around one deadline, even seemingly routine hedging flows could send the market sharply higher or expose its fragile side.",
+      "source_url": "https://boards.4chan.org/biz/thread/62837608",
+      "source_hint": "The poster expects a Bitcoin bull run around today's options expiry."
+    },
+    {
+      "id": "musk-cz",
+      "category": "trading",
+      "topic_zh": "Musk與CZ爭論",
+      "topic_en": "Musk and CZ Clash",
+      "text_zh": "CZ 同 Elon 之間搞到成個public brodown。Elon 笑咗Binance今日嘅hack，睇下crypto market會唔會再震一震。",
+      "text_en_b1": "It is going down between CZ and Elon, and the poster says this is not a drill. They are having a total public breakdown after Elon went and laughed at Binance for today’s hack. The post is focused on the possible impact on crypto sentiment.",
+      "text_en_b2": "The poster insists that the public clash between CZ and Elon Musk is going down, adding that this is definitely not a drill. Their disagreement has developed into a full-scale online breakdown after Elon laughed at Binance over its hack today. Although the argument may appear entertaining, the post is mainly concerned about how negative headlines could affect crypto sentiment, particularly if the exchange’s problems remain in the headlines.",
+      "text_en_c1": "The disagreement between CZ and Elon Musk has escalated into what the poster describes as a full-scale public breakdown, adding to an already volatile week. Musk responded to Binance’s latest hack by laughing at the exchange, a move that CZ appears to have taken personally. What began as a clash between two prominent figures may now spill over into the wider crypto community. The immediate concern is whether the exchange of insults damages confidence in Binance and, by extension, weighs on broader crypto sentiment.",
+      "text_en_c2": "The dispute between CZ and Elon Musk has, in the poster’s words, escalated into a very public breakdown rather than a routine disagreement. Musk’s ridicule of Binance following the exchange’s hack on the day provided the flashpoint. The post is less concerned with the technical details of the breach than with the reputational damage inflicted on Binance and the wider crypto market. If sentiment is already brittle, a high-profile humiliation from Musk could provoke another round of fear, selling pressure, and volatility, leaving traders to consider whether the crypto market is heading for another turbulent night.",
+      "source_url": "https://boards.4chan.org/biz/thread/62835584",
+      "source_hint": "The post links the CZ-Elon dispute and Binance hack to crypto-market drama."
+    },
+    {
+      "id": "semi-compute",
+      "category": "tech/ai",
+      "topic_zh": "AI晶片才是王道",
+      "topic_en": "Invest in Compute",
+      "text_zh": "Compute 先係最值得invest嘅嘢。無論係stocks定真實chips，Nvidia、semis嗰啲先係核心。Neocloud只係reseller，無自己product同software就更加唔穩陣。AI咁勁，優化business嘅同時，隨時直接抹殺原本個business，靠AI續命都未必救到。",
+      "text_en_b1": "Compute is the only thing you should invest in, whether that means stocks or physical chips. Semiconductors and Nvidia are mentioned directly. Neoclouds are just resellers without their own products, while software is risky because AI might eat it.",
+      "text_en_b2": "The argument is that compute is the only area worth investing in, whether through semiconductor stocks or actual chips, with Nvidia and the broader chip industry at the core. Neoclouds are dismissed as resellers because they lack their own hardware and software. Although AI can improve business efficiency, it may also wipe out existing products outright, so companies relying on AI to extend their lifespan should not assume they will be safe.",
+      "text_en_c1": "The poster argues that compute is the only asset worth investing in, whether one buys semiconductor stocks or physical chips, with Nvidia and the broader chip industry occupying the centre of the thesis. Neoclouds, by contrast, are dismissed as resellers that lack proprietary products and software, making their position inherently fragile. Software is also treated as a risky proposition because rapidly advancing AI may absorb business models that once appeared defensible. In such cases, companies relying on AI to extend a declining operation may not survive the transition.",
+      "text_en_c2": "The poster’s central thesis is that investors should concentrate on compute, whether they express that conviction through semiconductor stocks or the physical chips themselves. Nvidia and the broader semiconductor industry are therefore identified as the genuine core of the opportunity, rather than businesses that merely rent access to that infrastructure. Neoclouds, in this view, are resellers without proprietary products or software, making their position inherently less defensible. Software is arguably riskier still, since rapidly advancing AI may not merely improve existing businesses but quietly eliminate them outright, leaving even companies that rely on AI to prolong their relevance without any guarantee of survival.",
+      "source_url": "https://boards.4chan.org/biz/thread/62833208",
+      "source_hint": "The poster argues that compute and semiconductors are better investments than software businesses."
+    },
+    {
+      "id": "proton-ai",
+      "category": "tech/ai",
+      "topic_zh": "Protonceo嘅AI宣言",
+      "topic_en": "Proton AI Manifesto",
+      "text_zh": "Proton個CEO向engineering department發AI manifesto，仲用一種幾离谱嘅語氣問：點解大家成日用LLM，productivity反而冇升？係咪佢食錯AI psychosis pills？",
+      "text_en_b1": "Proton’s CEO sent an AI manifesto to the engineering department. He asked employees why their productivity had not increased, even though they were using the LLM all the time. The poster questions whether he is right or suffering from AI psychosis.",
+      "text_en_b2": "Proton’s CEO recently sent an AI manifesto to the engineering department, apparently in an unusually blunt tone. He questioned why employees had not become more productive despite using an LLM all the time. The poster wonders whether the CEO has identified a genuine problem with workplace AI adoption or whether he is simply suffering from what they call “AI psychosis.” Either way, the memo has sparked some uncomfortable questions about productivity.",
+      "text_en_c1": "Proton’s CEO has circulated an AI manifesto within the engineering department, prompting the poster to question whether its author has lost touch with reality. In an unusual and rather extreme tone, the CEO asks employees why their productivity has not increased despite using large language models constantly. Rather than treating adoption as a straightforward success, the message suggests that greater reliance on AI has failed to deliver the expected gains. The poster then wonders whether the CEO’s diagnosis is entirely wrong or whether he is suffering from what they call “AI psychosis.”",
+      "text_en_c2": "Proton’s CEO circulated an AI manifesto throughout the engineering department, adopting an almost absurdly confrontational tone in the process. His central question was why employees’ productivity had failed to rise despite their constant use of large language models. The irony is difficult to miss: an executive seeking to extract measurable gains from AI appears to have received productivity that failed to materialise, and instead responded with pointed internal criticism. The original poster captures the joke by asking whether the CEO has landed on a useful insight or whether, rather more dramatically, he is suffering from what the post calls ‘AI psychosis.’",
+      "source_url": "https://boards.4chan.org/g/thread/110202864",
+      "source_hint": "The post questions Proton’s CEO after his unusual AI-productivity memo."
+    },
+    {
+      "id": "hk-rail",
+      "category": "hk/news",
+      "topic_zh": "美系高鐵落後",
+      "topic_en": "Why No US High-Speed Rail",
+      "text_zh": "點解美國好似唔會invest高-speed rail？但歐洲同中國都做得。講真，American infrastructure成日係plan一大撈，落地又慢。",
+      "text_en_b1": "Why doesn’t the US invest in high-speed rail like Europe and China? The question points to a visible infrastructure gap between the United States and countries with extensive high-speed rail networks.",
+      "text_en_b2": "The post asks why the United States seems unwilling to invest in high-speed rail, even though Europe and China have built extensive networks. It suggests that this reflects a wider weakness in American infrastructure: grand plans are often announced, but implementation takes far too long. Although the comparison highlights a visible gap between the US and other countries, it also raises questions about funding, political priorities, and whether large projects can ever be completed efficiently.",
+      "text_en_c1": "The poster asks why the United States appears so unlikely to invest seriously in high-speed rail, even though Europe and China have built extensive networks capable of transforming domestic travel. This highlights a striking infrastructure gap between America and its major economic counterparts. In the poster’s view, American infrastructure policy is too often dominated by ambitious planning, lengthy approval processes and delays between announcement and execution. Unless political priorities and funding arrangements change, the country is likely to continue underinvesting in rail systems that other developed and emerging economies treat as essential.",
+      "text_en_c2": "The poster asks why the United States appears so reluctant to invest in high-speed rail when both Europe and China have built extensive networks capable of connecting major cities at speed. This is not merely a transport question; it exposes a conspicuous infrastructure deficit and, arguably, a broader failure of long-term planning. American infrastructure projects are frequently criticised for grand announcements, lengthy approval processes, spiralling costs, and painfully slow construction once funding supposedly becomes available. Meanwhile, comparable systems abroad are already operational, suggesting that political fragmentation and institutional inertia have left the United States watching rivals build the infrastructure of the future.",
+      "source_url": "https://boards.4chan.org/pol/thread/545208598",
+      "source_hint": "The thread asks why the United States has not developed European and Chinese-style high-speed rail."
+    },
+    {
+      "id": "hack-squat",
+      "category": "mma/fitness",
+      "topic_zh": "Hack Squat安全啲？",
+      "topic_en": "The Hack Squat",
+      "text_zh": "Barbell Hack Squat：lower back strain比squat同deadlift少，bar又近center of mass，load可以重啲。唔使rack，fail都容易bail；form散就bar會撞hamstring。",
+      "text_en_b1": "Barbell Hack Squat claims zero lower-back strain compared with squats or deadlifts. The bar stays closer to the center of mass, potentially allowing heavier loads. It needs no rack, is easy to bail from, and checks form when the bar hits the hamstrings.",
+      "text_en_b2": "The Barbell Hack Squat is presented as a safer alternative to squats and deadlifts because it reportedly places much less strain on the lower back. Since the bar stays closer to the center of mass, lifters may be able to handle heavier loads. It also requires no rack and is easy to bail from if a set goes wrong. However, poor form can cause the bar to strike the hamstrings, so technique still matters.",
+      "text_en_c1": "The Barbell Hack Squat is presented as a lower-back-friendly alternative to squats and deadlifts, although “zero strain” should be understood as the poster’s strong claim rather than an absolute guarantee. Because the bar remains relatively close to the centre of mass, lifters may be able to handle heavier loads than they would in comparable exercises. The movement also requires no rack and allows a failed rep to be abandoned more easily. Form still matters: if the position deteriorates, the bar can travel down into the hamstrings, making the exercise unforgiving of poor technique.",
+      "text_en_c2": "The barbell hack squat is presented as a lower-stress alternative to conventional squats and deadlifts, with less strain on the lower back because the bar remains comparatively close to the body’s centre of mass. That positioning may make it possible to handle heavier loads while reducing the demand on the spine. Another practical advantage is that no rack is required, and a lifter can bail out relatively easily if the movement deteriorates. The exercise nevertheless has a useful built-in check on technique: when the bar collides with the hamstrings, the lifter’s position has almost certainly broken down, signalling the need to reset rather than continue.",
+      "source_url": "https://boards.4chan.org/fit/thread/77583610",
+      "source_hint": "The post lists the supposed benefits of using a barbell hack squat."
+    },
+    {
+      "id": "shonen-bored",
+      "category": "anime/culture",
+      "topic_zh": "Jump係咪廢咗",
+      "topic_en": "Shonen Jump Is Boring",
+      "text_zh": "最近Shonen Jump係咪個股勁？新story對海外同日本讀者都好似好boring。Oda可能係唯一仲撐住個magazine嘅人。不過核心audience而家都30歲，個市場同讀者都老咗。",
+      "text_en_b1": "Let’s discuss the recent issues of Shonen Jump. Every new story seems boring to overseas and Japanese readers. The poster says Oda is the only thing keeping the magazine relevant, while its core audience is now around 30 years old.",
+      "text_en_b2": "The discussion focuses on recent issues of Shonen Jump, with the poster claiming that every new story seems boring to both overseas and Japanese readers. Oda may be the only major creator still holding the magazine together, although his popularity alone may not solve its deeper problems. The core audience is now around 30 years old, suggesting that the market has aged along with its readers, creating a challenge for attracting younger fans.",
+      "text_en_c1": "Recent issues of Shonen Jump have struck the poster as exceptionally uninspired, with the newest stories appearing equally unappealing to overseas readers and to audiences in Japan itself. The discussion portrays Oda as the principal figure still capable of keeping the magazine relevant, suggesting that without his established appeal, its broader reputation would weaken considerably. At the same time, the publication’s core readership is now around thirty years old. This ageing audience, combined with changing tastes and an increasingly competitive market, has left the magazine facing a serious challenge.",
+      "text_en_c2": "The poster invites discussion of Shonen Jump’s recent issues, on the grounds that every new story appears tedious to both overseas and Japanese readers. The criticism is not confined to individual series; it suggests that the magazine may have lost whatever energy once made it compelling to its domestic audience. Eiichiro Oda is identified as the principal figure still holding the publication together, perhaps providing the audience and commercial visibility that lesser-known works no longer command. Yet the underlying problem is demographic: the core readership is now around thirty years old, meaning that both the magazine and the market it serves are ageing together.",
+      "source_url": "https://boards.4chan.org/a/thread/291948699",
+      "source_hint": "The poster complains about recent Shonen Jump stories and says Oda is carrying the magazine."
+    }
+  ]
+}

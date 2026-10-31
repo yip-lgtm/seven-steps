@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-31",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "btc-expire",
+      "topic_en": "Bitcoin Options Expiry",
+      "topic_zh": "比特幣期權到期",
+      "category": "trading",
+      "files": {
+        "b1": "clip-btc-expire-b1.mp3",
+        "b2": "clip-btc-expire-b2.mp3",
+        "c1": "clip-btc-expire-c1.mp3",
+        "c2": "clip-btc-expire-c2.mp3"
+      }
+    },
+    {
+      "id": "musk-cz",
+      "topic_en": "Musk and CZ Clash",
+      "topic_zh": "Musk與CZ爭論",
+      "category": "trading",
+      "files": {
+        "b1": "clip-musk-cz-b1.mp3",
+        "b2": "clip-musk-cz-b2.mp3",
+        "c1": "clip-musk-cz-c1.mp3",
+        "c2": "clip-musk-cz-c2.mp3"
+      }
+    },
+    {
+      "id": "semi-compute",
+      "topic_en": "Invest in Compute",
+      "topic_zh": "AI晶片才是王道",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-semi-compute-b1.mp3",
+        "b2": "clip-semi-compute-b2.mp3",
+        "c1": "clip-semi-compute-c1.mp3",
+        "c2": "clip-semi-compute-c2.mp3"
+      }
+    },
+    {
+      "id": "proton-ai",
+      "topic_en": "Proton AI Manifesto",
+      "topic_zh": "Protonceo嘅AI宣言",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-proton-ai-b1.mp3",
+        "b2": "clip-proton-ai-b2.mp3",
+        "c1": "clip-proton-ai-c1.mp3",
+        "c2": "clip-proton-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-rail",
+      "topic_en": "Why No US High-Speed Rail",
+      "topic_zh": "美系高鐵落後",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-rail-b1.mp3",
+        "b2": "clip-hk-rail-b2.mp3",
+        "c1": "clip-hk-rail-c1.mp3",
+        "c2": "clip-hk-rail-c2.mp3"
+      }
+    },
+    {
+      "id": "hack-squat",
+      "topic_en": "The Hack Squat",
+      "topic_zh": "Hack Squat安全啲？",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-hack-squat-b1.mp3",
+        "b2": "clip-hack-squat-b2.mp3",
+        "c1": "clip-hack-squat-c1.mp3",
+        "c2": "clip-hack-squat-c2.mp3"
+      }
+    },
+    {
+      "id": "shonen-bored",
+      "topic_en": "Shonen Jump Is Boring",
+      "topic_zh": "Jump係咪廢咗",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-shonen-bored-b1.mp3",
+        "b2": "clip-shonen-bored-b2.mp3",
+        "c1": "clip-shonen-bored-c1.mp3",
+        "c2": "clip-shonen-bored-c2.mp3"
+      }
+    }
+  ]
+}
