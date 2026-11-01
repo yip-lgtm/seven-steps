@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-01",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trade-btc-options",
+      "category": "trading",
+      "topic_zh": "比特幣期權到期",
+      "topic_en": "Bitcoin Options Expiry",
+      "text_zh": "今晚就開始 bull run啦。好多 Bitcoin options 今日 4pm EST 到期。你哋覺得係定價 moment，定係先清算完再拉？",
+      "text_en_b1": "A bull run starts tonight. Many Bitcoin options expire today at 4 p.m. EST. The poster expects volatility around the expiry, with traders watching whether the market moves before or after positions are settled.",
+      "text_en_b2": "A Bitcoin bull run could kick off tonight, although many options are due to expire today at 4 p.m. EST. Expiry often brings sharp volatility, so traders are watching closely to see whether the move happens before positions are settled or only after the market clears them. The real question is whether this is simply another pricing moment or the start of a much stronger rally.",
+      "text_en_c1": "A Bitcoin bull run could begin tonight, since a substantial number of options contracts expire at 4 p.m. EST. As expiry approaches, traders are likely to reposition or hedge, potentially amplifying volatility rather than determining the direction of the move in advance. The poster is therefore watching two distinct possibilities: either the market prices in the event beforehand, or traders liquidate their positions first and fuel a subsequent rally. The key question is not merely whether expiry causes volatility, but when the adjustment occurs and how much of it has already been discounted by the market.",
+      "text_en_c2": "The bull run may begin tonight, with numerous Bitcoin options expiring today at 4 p.m. EST. Such an expiry can act as a catalyst in its own right, forcing traders to reassess their positions and potentially amplifying volatility. The real question is whether the move will emerge during the final pricing phase, as positions are adjusted and hedges are unwound, or only after settlement has cleared the market of its expiring exposure. Either way, traders will be watching closely, since expiry dynamics can produce abrupt swings that are difficult to distinguish from the beginning of a sustained rally.",
+      "source_url": "https://boards.4chan.org/biz/thread/62837608",
+      "source_hint": "/biz/ OP calls for a Bitcoin bull run around today's options expiry."
+    },
+    {
+      "id": "trade-compute-chips",
+      "category": "trading",
+      "topic_zh": "只買運算力",
+      "topic_en": "Invest in Compute",
+      "text_zh": "Compute 先係唯一值得買嘅嘢。Stocks 又好，physical chips 又好。Semi、Nvidia 呢啲先有 product；neocloud 只係 reseller，software 又可能被 AI 食晒。Hyperscalers 都係 risk。",
+      "text_en_b1": "Compute is the only thing you should invest in, whether stocks or actual physical chips. Semiconductors and Nvidia are favored because they have real products. Neoclouds only resell capacity, software is risky because AI may replace it, and hyperscalers are risky too.",
+      "text_en_b2": "Compute is the only asset worth investing in, whether through semiconductor stocks or actual physical chips. Companies such as Nvidia stand out because they manufacture real products rather than merely reselling capacity. Although AI may gradually absorb much of the software market, that does not remove the value of the hardware running those systems. Even hyperscalers carry risks, but owning the compute itself seems more defensible.",
+      "text_en_c1": "The case for investing exclusively in compute is that it represents the scarce input on which so many other businesses depend. Whether investors buy semiconductor stocks or acquire physical chips, they are gaining exposure to genuine products rather than abstract promises. Companies such as Nvidia have established a clear advantage because they manufacture technology with demonstrable demand. By contrast, neoclouds merely resell computing capacity, while software businesses risk being undermined if AI absorbs much of their functionality. Even hyperscalers, despite their scale and resources, remain exposed to substantial capital expenditure and execution risks.",
+      "text_en_c2": "Compute may be the only asset class worth buying outright, whether through equities or exposure to the physical chips themselves. Semiconductors, including Nvidia, command a premium because they sell tangible products with demonstrable technological value. Neoclouds, by contrast, are largely resellers of capacity, while software carries the distinct risk that AI will absorb much of its functionality. Hyperscalers are not immune either, since their enormous capital commitments and exposure to an increasingly competitive market make them vulnerable. The underlying argument is simple: owning the infrastructure that powers AI may offer a more defensible position than betting on its many downstream applications.",
+      "source_url": "https://boards.4chan.org/biz/thread/62833208",
+      "source_hint": "/biz/ OP argues that compute, chips, and Nvidia are the strongest investments."
+    },
+    {
+      "id": "civil-engineer-career",
+      "category": "civil/structure",
+      "topic_zh": "工程師被炒真相",
+      "topic_en": "Engineer Fired Again",
+      "text_zh": "Electrical engineer，做咗 11 年。份工本身鍾意，products 都係自己 design，但成日因為啲荒謬理由被 fired。上次更加係拼錯字，之前仲因為多個 superior 要我 charge 唔同 hours、互相協調，最後照樣 blame 我。",
+      "text_en_b1": "An electrical engineer has worked for 11 years and loves designing products that work. Yet he keeps getting fired for silly reasons. His last firing came after a spelling error, following a performance plan over charging different hours and coordinating several superiors. He was blamed again.",
+      "text_en_b2": "This electrical engineer has spent 11 years in the industry and genuinely enjoys designing products that work, yet he has repeatedly been fired for increasingly questionable reasons. Most recently, a simple spelling error led to his dismissal. That came after a performance plan involving charging different hours and coordinating several superiors, even though he had no control over their conflicting instructions. Somehow, the blame still landed on him.",
+      "text_en_c1": "After 11 years as an electrical engineer, this poster still enjoys his work and takes pride in designing products that function properly. Nevertheless, he has repeatedly been dismissed for increasingly questionable reasons. His most recent firing followed a spelling error, but that incident apparently came after a performance plan involving conflicting instructions. Several superiors required him to charge different numbers of hours and coordinate their competing demands, yet when the arrangement inevitably caused confusion, he was blamed rather than the people who imposed it. The absurdity, he argues, lies in how managerial failures are repeatedly transferred onto employees.",
+      "text_en_c2": "One electrical engineer, after 11 years in the profession, remains enthusiastic about his job and takes pride in designing products that genuinely work. Nevertheless, he has repeatedly been dismissed for increasingly absurd reasons. His most recent firing followed a spelling error, but that incident was merely the culmination of a performance plan involving the charging of different hours and the coordination of several superiors. Despite meeting the requirements imposed upon him, he was blamed again. His account captures a familiar workplace pattern in which individual accountability becomes the convenient scapegoat for structural dysfunction, shifting failures and poor management decisions onto the employee.",
+      "source_url": "https://boards.4chan.org/biz/thread/62841134",
+      "source_hint": "/biz/ OP describes an experienced engineer repeatedly losing jobs through unfair management decisions."
+    },
+    {
+      "id": "ai-productivity",
+      "category": "tech/ai",
+      "topic_zh": "AI取代工程師？",
+      "topic_en": "AI Productivity Panic",
+      "text_zh": "有 CEO 寫 AI manifesto 落 engineering department，仲問啲員工點解每日用 AI，productivity 都冇增加。即係一邊叫你用，一邊又話你冇用。呢個係 productivity 問題，定係連 coding 都要畀 AI 食？靠AI續命lol。",
+      "text_en_b1": "Proton's CEO sent an AI manifesto to the engineering department. He asked employees why using the LLM every day had not increased their productivity. The thread asks whether he is right, or whether his company has embraced AI without understanding the results.",
+      "text_en_b2": "Proton’s CEO recently sent an AI manifesto to the engineering department, asking why daily use of the company’s LLM had not increased productivity. The message therefore seems contradictory: employees are being encouraged to rely on AI, while management questions whether it is producing any measurable benefit. The debate is whether this reflects a wider productivity problem or whether AI is already taking over coding and undermining the value of engineers.",
+      "text_en_c1": "Proton's CEO sent an AI manifesto to the engineering department and then questioned employees about why their daily use of large language models had not produced measurable gains in productivity. His position is difficult to reconcile: he expects the organisation to embrace AI as an indispensable tool while simultaneously implying that employees are not extracting sufficient value from it. Rather than settling whether AI will take over coding, the thread identifies a more immediate management problem. If executives demand adoption without defining concrete objectives or evaluating results, they cannot reasonably treat productivity gains as evidence that the technology has failed.",
+      "text_en_c2": "Proton’s CEO has circulated an AI manifesto throughout the engineering department, then questioned why daily use of the company’s large language model had not measurably increased productivity. The premise is difficult to reconcile: employees are being instructed to embrace the technology while simultaneously being told that their adoption has failed to deliver the expected results. The thread therefore asks whether this is fundamentally a productivity problem, or whether the company is allowing AI to encroach even on coding without establishing how its performance should be judged. The underlying anxiety is that AI may be sustaining the engineering organisation rather than producing the efficiencies routinely claimed for it.",
+      "source_url": "https://boards.4chan.org/g/thread/110202864",
+      "source_hint": "/g/ OP discusses Proton's CEO demanding measurable productivity gains from LLM use."
+    },
+    {
+      "id": "hk-world-news",
+      "category": "hk/news",
+      "topic_zh": "塞爾維亞安全？",
+      "topic_en": "Serbia's War Position",
+      "text_zh": "塞爾維亞係咪反而係 WW3 最安全地方？Militarily neutral，又有 Russia、USA、China 同 EU 嘅良好關係。鄰居再強都未必打得過自己，萬一要打都易贏。",
+      "text_en_b1": "Is Serbia ironically the safest place during WW3? It is militarily neutral and has good relations with Russia, the USA, China, and the EU. It is also militarily stronger than its hostile neighbors, so it might avoid war or win an easy defensive battle.",
+      "text_en_b2": "Could Serbia ironically be one of the safest places in the world if WW3 broke out? It maintains military neutrality and enjoys good relations with Russia, the United States, China, and the European Union. Furthermore, Serbia is considered militarily stronger than its hostile neighbors, whose own strength may be limited by internal problems. As a result, it might avoid involvement entirely or, if forced into a defensive war, gain the upper hand relatively easily.",
+      "text_en_c1": "Could Serbia ironically become one of the safest places to live if World War III breaks out? Its military neutrality is supported by cordial relations with Russia, the United States, China, and the European Union, all of which have strategic interests in regional stability. Serbia's favourable geography also provides significant defensive advantages, since its neighbours may have greater military strength without being able to exploit it effectively. If hostilities nevertheless occurred, Serbia would be comparatively well placed to resist an attack or prevail in a defensive battle. This makes the country potentially safer than states located directly between competing powers.",
+      "text_en_c2": "Could Serbia paradoxically be the safest country in the world if WW3 were to break out? The argument rests on its military neutrality and cordial relations with Russia, the United States, China, and the European Union. Serbia is also considered militarily stronger than its hostile neighbours, whose own forces may struggle to prevail against it in any prolonged confrontation. That combination of diplomatic insulation and credible defensive strength suggests that the country might either avoid involvement altogether or, if compelled to fight, prevail relatively easily in a defensive campaign. Although such reasoning inevitably depends on assumptions about alliances and political resolve, it presents Serbia as unusually well placed to weather a global conflict.",
+      "source_url": "https://boards.4chan.org/pol/thread/545286592",
+      "source_hint": "/pol/ OP proposes Serbia as an unusually safe location during a future WW3."
+    },
+    {
+      "id": "mma-hack-squat",
+      "category": "mma/fitness",
+      "topic_zh": "Hack Squat神技",
+      "topic_en": "Hack Squat Benefits",
+      "text_zh": "Barbell Hack Squat 啱晒我：lower back strain 比 squat 或 deadlift 少，bar 接近 center of mass，可以 load 得重啲；唔會被 pin 住，失敗就容易 bail/drop，form 爆就 bar 撞 hamstrings。點解唔常用？",
+      "text_en_b1": "Barbell Hack Squat offers less lower-back strain than squats or deadlifts. The bar stays closer to the center of mass, allowing heavier loads. It avoids getting pinned, makes bailing easy, and uses hamstring contact as a built-in form check.",
+      "text_en_b2": "The barbell hack squat suits me extremely well because it places less strain on the lower back than squats or deadlifts. Since the bar stays close to the center of mass, I can load it more heavily without losing control. It also reduces the risk of being pinned, so bailing out is much easier. If my form breaks down, the bar hits my hamstrings and gives me an instant warning. Why is it not used more often?",
+      "text_en_c1": "The barbell hack squat happens to suit this lifter particularly well because it places less strain on the lower back than either the squat or the deadlift. Since the bar remains relatively close to the body's centre of mass, a heavier load can be moved without compromising technique as easily. Another advantage is that the lifter is unlikely to become pinned beneath the bar: if a repetition fails, dropping it is comparatively straightforward. Hamstring contact also provides a useful built-in check on form, since improper movement causes the bar to strike the legs. Given these benefits, the obvious question is why the exercise is not used more widely.",
+      "text_en_c2": "The barbell hack squat is exceptionally well suited to me, particularly because it places less strain on the lower back than either the squat or the deadlift. Because the bar remains closer to the centre of mass, lifters can accommodate heavier loads without adopting quite the same spinal position. Another advantage is that the movement does not leave the athlete pinned beneath the bar; when a repetition fails, bailing or dropping the weight is comparatively straightforward. The contact between the bar and the hamstrings also provides a useful built-in check on technique, since improper form is immediately conspicuous. Given these benefits, it is puzzling that the exercise is not used more frequently.",
+      "source_url": "https://boards.4chan.org/fit/thread/77583610",
+      "source_hint": "/fit/ OP lists the safety and loading advantages of the barbell hack squat."
+    },
+    {
+      "id": "anime-black-clover",
+      "category": "anime/culture",
+      "topic_zh": "黑色魔導士第二季",
+      "topic_en": "Black Clover Returns",
+      "text_zh": "Black Clover Season 2 Episode 5 出咗，繼續熱血埋單。Season 1 雖然長，但又唔錯。等新一集嘅 anons 一齊追，順便由頭開始睇嘅朋友繼續。",
+      "text_en_b1": "Black Clover Season 2 Episode 5 is here, and the magical story remains hot-blooded. Season 1 is long, but one anon has already started watching it again. The thread invites viewers to join the episode discussion.",
+      "text_en_b2": "Black Clover Season 2, Episode 5 has finally arrived, and the magical adventure remains full of hot-blooded action. Although Season 1 was rather long, it was still enjoyable, and one anon has already started watching it again from the beginning. Viewers can join the episode discussion while catching up on earlier installments, whether they are following the latest release or continuing a rewatch after starting the series over.",
+      "text_en_c1": "Black Clover Season 2, Episode 5 has arrived, and the series continues to deliver its trademark mixture of intense battles, ambition, and hot-blooded determination. Although the first season was unusually long, it remained enjoyable enough that at least one anonymous viewer has already started watching it again from the beginning. This instalment provides an ideal opportunity for dedicated fans to continue following the story while newcomers join the discussion. As always, viewers are invited to react to the latest episode, debate its developments, and determine whether the momentum established earlier in the season has been maintained.",
+      "text_en_c2": "Black Clover Season 2, Episode 5, has arrived, and the thread promptly returns to its familiar enthusiasm for the series’ high-spirited magical adventure. Although the first season was undeniably lengthy, its length alone does not appear to have diminished its appeal; one anonymous viewer has already begun watching it again from the beginning. The episode thread serves as an informal gathering place for discussing the latest instalment, catching up on events, and sharing reactions, while newcomers who are starting Season 1 are invited to continue alongside regular followers. The response reflects the show’s enduring ability to sustain an active, attentive online community despite an episodic release schedule.",
+      "source_url": "https://boards.4chan.org/a/thread/291974127",
+      "source_hint": "/a/ OP hosts the Black Clover Season 2 Episode 5 discussion."
+    }
+  ]
+}

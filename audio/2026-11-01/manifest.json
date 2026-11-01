@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-01",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-btc-options",
+      "topic_en": "Bitcoin Options Expiry",
+      "topic_zh": "比特幣期權到期",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-btc-options-b1.mp3",
+        "b2": "clip-trade-btc-options-b2.mp3",
+        "c1": "clip-trade-btc-options-c1.mp3",
+        "c2": "clip-trade-btc-options-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-compute-chips",
+      "topic_en": "Invest in Compute",
+      "topic_zh": "只買運算力",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-compute-chips-b1.mp3",
+        "b2": "clip-trade-compute-chips-b2.mp3",
+        "c1": "clip-trade-compute-chips-c1.mp3",
+        "c2": "clip-trade-compute-chips-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-engineer-career",
+      "topic_en": "Engineer Fired Again",
+      "topic_zh": "工程師被炒真相",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-engineer-career-b1.mp3",
+        "b2": "clip-civil-engineer-career-b2.mp3",
+        "c1": "clip-civil-engineer-career-c1.mp3",
+        "c2": "clip-civil-engineer-career-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-productivity",
+      "topic_en": "AI Productivity Panic",
+      "topic_zh": "AI取代工程師？",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-productivity-b1.mp3",
+        "b2": "clip-ai-productivity-b2.mp3",
+        "c1": "clip-ai-productivity-c1.mp3",
+        "c2": "clip-ai-productivity-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-world-news",
+      "topic_en": "Serbia's War Position",
+      "topic_zh": "塞爾維亞安全？",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-world-news-b1.mp3",
+        "b2": "clip-hk-world-news-b2.mp3",
+        "c1": "clip-hk-world-news-c1.mp3",
+        "c2": "clip-hk-world-news-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-hack-squat",
+      "topic_en": "Hack Squat Benefits",
+      "topic_zh": "Hack Squat神技",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-hack-squat-b1.mp3",
+        "b2": "clip-mma-hack-squat-b2.mp3",
+        "c1": "clip-mma-hack-squat-c1.mp3",
+        "c2": "clip-mma-hack-squat-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-black-clover",
+      "topic_en": "Black Clover Returns",
+      "topic_zh": "黑色魔導士第二季",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-black-clover-b1.mp3",
+        "b2": "clip-anime-black-clover-b2.mp3",
+        "c1": "clip-anime-black-clover-c1.mp3",
+        "c2": "clip-anime-black-clover-c2.mp3"
+      }
+    }
+  ]
+}
