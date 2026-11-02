@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "days": [
+    {
+      "date": "2026-11-02",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-macro-btc",
+          "category": "trading",
+          "topic_zh": "比特幣期權到期",
+          "topic_en": "Bitcoin Options Expiry",
+          "text_zh": "Bull run starts tonight. Lots of Bitcoin options expire today at 4pm EST. 條街又開始喊 bull run，係咪真係咁準？睇下 option expiry 完有冇人繼續吹。今晚照樣唔加槓桿，prop firm 保命要紧。",
+          "text_en_b1": "BREAKING NEWS: A bull run starts tonight. Lots of Bitcoin options expire today at 4 p.m. EST. The expiry may increase market volatility, but the post gives no clear entry, target, or stop-loss level. It is a bullish prediction, not a complete trading plan.",
+          "text_en_b2": "BREAKING NEWS: A bull run could begin tonight, as a substantial number of Bitcoin options expire today at 4 p.m. EST. Although expiry often amplifies volatility, it does not guarantee a sustained rally, and the post provides no clear entry point, price target, or stop-loss level. It is therefore more of a bullish prediction than a complete trading plan, so I will stay unleveraged and protect the prop firm account.",
+          "text_en_c1": "BREAKING NEWS: A Bitcoin bull run may begin tonight, as a large number of options contracts expire today at 4 p.m. EST. If expiry-related positioning triggers fresh buying, volatility could intensify; however, if sellers dominate, a sharp reversal would be equally plausible. The original post offers no specific entry point, target, or stop-loss, so it should be treated as a bullish prediction rather than a complete trading plan. As always, no leverage tonight; preserving the prop-firm account takes priority over chasing headlines.",
+          "text_en_c2": "BREAKING NEWS: A bull run kicks off tonight, with a substantial concentration of Bitcoin options expiring today at 4 p.m. EST. Such expiries can amplify volatility as dealers rebalance their books, although the original post offers no specific entry point, target, or stop-loss level for traders to act on. What we have here is, at best, a bullish prediction masquerading as a trade plan. Whether the market validates the Wall Street Street’s perennial bull-run chant remains uncertain; once the expiry dust settles, we will see whether the enthusiasm persists. As always, no leverage, and at a prop firm, preserving capital takes precedence over chasing momentum.",
+          "source_url": "https://boards.4chan.org/biz/thread/62837608",
+          "source_hint": "The OP predicts a Bitcoin bull run around today's options expiry."
+        },
+        {
+          "id": "trade-musk-xrp",
+          "category": "trading",
+          "topic_zh": "Musk 談 XRP",
+          "topic_en": "Musk Talks XRP",
+          "text_zh": "BREAKING NEWS: Elon Musk says he is \"very interested in using XRP payments on X.\" 又是 Musk 一句話就牽動 crypto。XRP 會唔會又是另一課學費？至少今次唔追住 price 跑，prop firm margin 先行。",
+          "text_en_b1": "BREAKING NEWS: Elon Musk says he is \"very interested in using XRP payments on X.\" This could increase attention around XRP, but the post gives no price target or entry level. The statement is a possible catalyst, not a complete trading setup.",
+          "text_en_b2": "BREAKING NEWS: Elon Musk says he is \"very interested in using XRP payments on X.\" Such a comment could attract considerable attention and briefly boost trading activity, but the post provides no price target or entry level, so it cannot be treated as a reliable setup. Although this may be a possible catalyst for XRP, chasing the price would be reckless; protecting the prop firm margin comes first.",
+          "text_en_c1": "BREAKING NEWS: Elon Musk says he is “very interested in using XRP payments on X.” Musk’s comments routinely attract considerable attention, and this announcement could therefore create a short-lived catalyst for XRP, particularly if the payment integration progresses beyond a personal expression of interest. Even so, the post provides neither a price target nor an entry level, which makes it impossible to formulate a disciplined trading setup from the statement alone. At least this time, the sensible move is not to chase the price; protecting the prop-firm margin comes first.",
+          "text_en_c2": "BREAKING NEWS: Elon Musk says he is \"very interested in using XRP payments on X,\" yet another celebrity remark capable of stirring the crypto pot. Such statements often generate disproportionate attention around XRP, since traders are only too happy to extrapolate a single sentence into an investment thesis. That said, the post provides neither a price target nor a defined entry level, so it is hardly a complete trading setup. One might reasonably regard Musk’s comment as a potential catalyst, provided one remains disciplined enough not to chase the resulting price spike. As ever, at a prop firm, preserving margin comes before chasing headlines, and certainly before paying another tuition fee.",
+          "source_url": "https://boards.4chan.org/biz/thread/62844025",
+          "source_hint": "The OP reports Musk's interest in using XRP payments on X."
+        },
+        {
+          "id": "civil-ai-engineer",
+          "category": "tech/ai",
+          "topic_zh": "工程師被裁真相",
+          "topic_en": "Engineers and Layoffs",
+          "text_zh": "Electrical engineer here. I've worked for around 11 years. I design products that work, and I love what I do. But I keep getting laid off or fired for silly reasons. The last one came after a spelling error, following a PIP and blame over coordinating different charge hours. I started life at a huge disadvantage.",
+          "text_en_b1": "Electrical engineer here. I have worked for about 11 years. I design products that work, and I love what I do. Yet I keep getting laid off or fired for silly reasons. The last firing came after a spelling error, following a PIP over charging different hours and making several superiors coordinate. I started life at a huge disadvantage.",
+          "text_en_b2": "I am an electrical engineer with around 11 years of experience. I design products that actually work, and I genuinely enjoy my profession; however, I keep being laid off or fired for reasons that make little sense. My most recent termination followed a spelling error, a performance improvement plan, and blame over coordinating different charging hours. I also started life at a huge disadvantage, yet none of that explains such unreasonable treatment.",
+          "text_en_c1": "Electrical engineer here, with roughly 11 years of professional experience. I design products that actually work, and I genuinely love what I do. Nevertheless, I have repeatedly been laid off or fired for reasons that seem remarkably trivial. The most recent dismissal followed a spelling error, which came after a performance-improvement plan and blame for coordinating different charge hours across several managers. Because I started life at a considerable disadvantage, these setbacks have affected my career far more severely than they might have affected someone with more security or support.",
+          "text_en_c2": "Electrical engineer here, with roughly eleven years of professional experience. I design products that actually work, and I genuinely love what I do. And yet, with tiresome regularity, I keep being laid off or fired for reasons that border on the absurd. Most recently, the dismissal followed a spelling error, which came after a performance improvement plan and blame for coordinating work involving different charge hours across several superiors. None of this reflects any deficiency in my craft; rather, it reflects how corporate politics can eclipse technical competence. I started life at a considerable disadvantage, and corporate decision-making has done little to narrow that gap.",
+          "source_url": "https://boards.4chan.org/biz/thread/62841134",
+          "source_hint": "An experienced electrical engineer describes repeated layoffs and unfair blame."
+        },
+        {
+          "id": "tech-cisco-ai",
+          "category": "tech/ai",
+          "topic_zh": "Cisco 全面 AI 化",
+          "topic_en": "Cisco Orders AI Rewrite",
+          "text_zh": "Cisco president Jeet Patel ordered the entire company codebase to be replaced with AI slop within two years. 靠AI續命成公司政策lol。舊 code 邊個背責？睇落 entry-level jobs 先死，工程師都可能要不停交 AI slop。",
+          "text_en_b1": "Cisco president Jeet Patel ordered the entire company codebase to be replaced with AI-generated code within two years. The plan gives employees unlimited AI-token access and focuses on rewriting legacy code. It could change entry-level engineering jobs, although the post gives no investment setup.",
+          "text_en_b2": "Cisco president Jeet Patel has ordered the entire company codebase to be replaced with AI-generated code within two years. The initiative gives employees unlimited access to AI tokens and prioritizes rewriting legacy systems, although the post does not mention a specific investment setup. If implemented broadly, this could reshape entry-level engineering roles, while experienced engineers may also face mounting pressure to repeatedly produce AI-generated code.",
+          "text_en_c1": "Cisco president Jeet Patel ordered the company’s entire codebase to be replaced with AI-generated code within two years. Under this plan, employees would receive unlimited access to AI tokens, with the immediate emphasis on rewriting legacy systems rather than building new products from the ground up. Although AI could increase developers’ productivity, it may also transform entry-level engineering roles, since junior staff could lose routine tasks that once provided them with training. The post gives no investment strategy, so its broader implication is simply that AI continuity is becoming formal company policy.",
+          "text_en_c2": "Cisco president Jeet Patel reportedly ordered the company’s entire codebase to be replaced with AI-generated code within two years, a sweeping mandate that places artificial intelligence at the heart of corporate survival strategy. Employees are to be granted unrestricted access to AI tokens, with the initial emphasis squarely on rewriting legacy systems. If implemented faithfully, this initiative could reshape entry-level engineering roles, as junior positions traditionally designed to cultivate fundamental skills may disappear altogether; even senior engineers may find themselves perpetually producing and reviewing machine-generated slop. As the original post rightly observes, nobody has yet explained who will be answerable when the legacy code inevitably deteriorates. The thread, notably, offers no investment setup.",
+          "source_url": "https://boards.4chan.org/g/thread/110205897",
+          "source_hint": "The OP reports a two-year plan to replace Cisco's codebase with AI-generated code."
+        },
+        {
+          "id": "hk-news-maga",
+          "category": "hk/news",
+          "topic_zh": "美國中期選舉",
+          "topic_en": "MAGA Midterm Warning",
+          "text_zh": "MAGA has failed. The GOP will lose the midterm elections. Democrats will hunt Trump, his closest associates, MAGA, and especially politically motivated young people who worked for them and Elon Musk. Some may sell out if they can keep part of their wealth. 個 post 好癲，冇數據冇 evidence。",
+          "text_en_b1": "MAGA has failed, according to the OP. The GOP will lose the midterm elections. Democrats will hound Trump, his closest associates, MAGA, and especially politically motivated young people who worked for them and Elon Musk. A few may sell out if they can keep some of their wealth.",
+          "text_en_b2": "According to the original poster, MAGA has failed and the GOP will lose the midterm elections. Democrats are expected to pursue Trump, his closest allies, and the MAGA movement, particularly politically motivated young people who worked for them or for Elon Musk. Some of these supporters may sell out if they can retain part of their wealth. Although the warning sounds dramatic, the post offers no supporting data or evidence.",
+          "text_en_c1": "According to the original poster, MAGA has already failed, and the Republican Party will lose the forthcoming midterm elections. The argument predicts that Democrats will pursue Trump, his closest associates, and the MAGA movement itself, with particular attention to politically motivated young people who worked for the campaign or Elon Musk. Some of those supporters might “sell out” if they were allowed to retain part of their wealth. Impressive as the scenario sounds, the post offers no polling data, electoral evidence, or detailed argument to substantiate these sweeping claims.",
+          "text_en_c2": "MAGA has failed, according to the original poster, who confidently predicts that the GOP will lose the forthcoming midterm elections. Democrats, the argument runs, will hunt down Trump, his closest associates, the MAGA movement itself, and above all politically motivated young people who worked for them and for Elon Musk. Some of these loyalists, perhaps, may capitulate if offered the chance to retain a portion of their wealth. It is a sweeping thesis, delivered with characteristic forum bravado. Yet the post supplies neither data nor evidence, and it remains unclear how a loose coalition of conjectured motivations could translate into an electoral forecast. The conclusion may prove prescient, but the reasoning is conspicuously absent.",
+          "source_url": "https://boards.4chan.org/pol/thread/545349453",
+          "source_hint": "The OP predicts a GOP midterm loss and predicts political pressure on Trump allies."
+        },
+        {
+          "id": "fitness-whitepill",
+          "category": "mma/fitness",
+          "topic_zh": "新手健身白丸",
+          "topic_en": "Beginner Fitness Whitepill",
+          "text_zh": "WHITEPILL THREAD: Hot cocoa is the best pre-workout. Anyone can start lifting, and you do not need prior sports experience. You can escape skinnyfat mode in less than six months. People notice your lifting in under one year. Beginner programming is easy, and diet is simple: eat protein and avoid fast food, candy, and soda. You do not need a gym membership to build a decent physique.",
+          "text_en_b1": "WHITEPILL THREAD: Hot cocoa is the best pre-workout. Anyone can start lifting, and you do not need prior sports experience. You can escape skinnyfat mode in less than six months. It takes less than one year for people to notice your lifting. Beginner programming is easy: eat protein and avoid fast food, candy, and soda.",
+          "text_en_b2": "WHITEPILL THREAD: Hot cocoa is the best pre-workout. Anyone can begin lifting weights, even without previous sporting experience, and you can escape skinnyfat mode in less than six months. Other people may notice your lifting within one year. Beginner programming is straightforward: eat enough protein while cutting back on fast food, candy, and soda. You also do not need a gym membership to build a decent physique.",
+          "text_en_c1": "WHITEPILL THREAD: Hot cocoa is the finest pre-workout drink, and virtually anyone can begin lifting without any prior sporting experience. With consistent training, you can escape skinnyfat mode in under six months, while noticeable improvements in your lifting should become apparent within a year. Fortunately, beginner programming is straightforward: prioritize protein, and cut back on fast food, candy, and soda. You do not require a gym membership to build a respectable physique, either, since sensible home training and dietary discipline can take you a considerable distance.",
+          "text_en_c2": "WHITEPILL THREAD: Hot cocoa is the finest pre-workout ritual, though enthusiasm is no substitute for consistency. Anyone can begin lifting, and prior sporting experience is by no means a prerequisite. With sensible training and adequate nutrition, it is entirely possible to escape skinnyfat mode in under six months, while people typically notice visible progress in your lifting within a year. Beginner programming is refreshingly straightforward, and dietary advice reduces to eating sufficient protein while steering clear of fast food, candy, and soda. A gym membership is helpful, certainly, but not indispensable; anyone can build a decent physique with bodyweight exercises, discipline, and enough time to recover.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "The OP argues that beginners can build a decent physique with simple training and diet."
+        },
+        {
+          "id": "culture-ranma",
+          "category": "anime/culture",
+          "topic_zh": "亂馬½章節回顧",
+          "topic_en": "Ranma Storytime",
+          "text_zh": "Ranma 1/2 storytime. I am going through the manga together with the new anime season, so anons can compare the two versions or experience the story in different ways at the same time. Today: chapters 81 and 82.",
+          "text_en_b1": "Ranma 1/2 storytime. I am reading the manga alongside the new anime season, so anons can compare the story and characters across both versions. This thread covers chapters 81 and 82, giving readers another way to experience the same story.",
+          "text_en_b2": "Ranma 1/2 storytime. I am reading the manga alongside the new anime season, giving anons a chance to compare both versions and experience the same story in different ways. Since the two adaptations can be followed simultaneously, readers might enjoy comparing the characters, pacing, and major events as they unfold. This particular thread covers chapters 81 and 82, so that is where the discussion begins today.",
+          "text_en_c1": "Ranma 1/2 storytime. I am reading the original manga alongside the new anime season, which allows anons to compare the two adaptations or, alternatively, to experience the same narrative through different narrative rhythms, visual styles, and character portrayals. Today’s instalment covers chapters 81 and 82. Whether you prefer the manga’s pacing or the anime’s presentation, this thread provides a convenient opportunity to revisit both versions at once and consider how each medium handles the material.",
+          "text_en_c2": "Ranma 1/2 storytime. I am working through the manga in tandem with the new anime season, which allows anons to compare the two adaptations side by side, appreciate how each interprets the same material, and experience the story simultaneously in markedly different ways. Some scenes benefit from the anime’s pacing and visual humour, whereas others depend on the manga’s pacing, panel composition, and internal narration to land properly. Today’s instalment covers chapters 81 and 82, so feel free to follow along, contribute your own observations, or simply use the thread as an alternative route through the series. Discussion of plot details, character beats, and translation choices is, as ever, welcome.",
+          "source_url": "https://boards.4chan.org/a/thread/291982840",
+          "source_hint": "The OP starts a manga storytime covering Ranma 1/2 chapters 81 and 82."
+        }
+      ]
+    },
     {
       "date": "2026-11-01",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "The Japan Autism Association has formally objected to the forthcoming 2027 anime adaptation of Mii-chan and Miss Yamada, contending that its narrative apparatus reduces neurodivergent individuals to objects of consumable amusement rather than subjects of authentic representation. Kodansha, alongside its production committee, announced the project on the twenty-sixth of July, prompting immediate backlash from advocacy organisations who perceive the source material as insufficiently interrogative of its own premise. The manga's protagonist, a young woman evidently struggling with social cognition, occupies narrative terrain that critics argue demands more circumspect handling than popular serialisation typically permits. Comparable controversies have periodically attended adaptations such as Demon Slayer, suggesting that the tension between commercial viability and representational responsibility remains an industry-wide structural problem rather than an isolated editorial miscalculation.",
           "source_url": "https://boards.4chan.org/a/thread/290913923",
           "source_hint": "/a/ thread on Mii-chan autism portrayal ethics"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-macro-01",
-          "category": "trading",
-          "topic_zh": "油價沙特管道",
-          "topic_en": "Oil pipeline hit",
-          "text_zh": "又嚟。Saudi 東西管道被炸，Hormuz 出唔到，全球 10% 油產受影響。Repairs 要 6 至 12 個月。今日 oil 反跌，wtf。Prop firm 又輸多一注 😭🙏",
-          "text_en_b1": "Big happening: oil could hit $150 soon. The Saudi east-west pipeline got hit. Now Saudi oil cannot go around the Strait of Hormuz. This is the only pipeline from the Persian Gulf to the Red Sea. Satellite pictures show fires at multiple spots, and one pump station may be hit. AI repair estimate: 6 to 12 months.",
-          "text_en_b2": "Looks like another round of chaos. The Saudi east-west pipeline has been struck, which effectively blocks crude from bypassing the Strait of Hormuz, the only land route from the Persian Gulf to the Red Sea. Satellite imagery confirms fires at multiple locations and possibly one pump station. AI-driven damage assessments estimate repairs will take anywhere from six to twelve months, even though Saudi Arabia controls roughly ten percent of global oil production. Ironically, prices dumped today, which makes absolutely no sense whatsoever.",
-          "text_en_c1": "A genuinely seismic development appears to be unfolding in the energy markets. Should the Saudi east–west pipeline remain compromised, Brent crude could feasibly surge toward the $150 mark within weeks, given that the conduit bypasses the Strait of Hormuz entirely — the sole artery linking the Persian Gulf to the Red Sea. Satellite imagery confirms fires at several points, and at least one pump station seems to have sustained damage, with AI-assisted assessments pegging repairs at six to twelve months. Saudi Arabia accounts for roughly ten percent of global output. Paradoxically, oil actually dumped in today's session, which frankly defies any rational explanation.",
-          "text_en_c2": "A strike on Saudi Arabia's east-west pipeline has once again thrust the chokepoint question into sharp relief, with satellite imagery confirming fires at multiple sites and what appears to be damage to at least one pump station. Crucially, this is the sole conduit by which Saudi crude can bypass the Strait of Hormuz, the narrowing through which a significant fraction of seaborne exports must otherwise pass. Given that the kingdom accounts for roughly ten percent of global supply, an AI-derived repair window of six to twelve months would, by any conventional logic, suggest a sustained premium. That oil futures instead dumped on the session is, frankly, perverse, although one suspects the algos had already priced the geopolitical risk into contango long before the headlines cleared. Prop book, predictably, bled further.",
-          "source_url": "https://boards.4chan.org/biz/thread/62683316",
-          "source_hint": "/biz/ OP claims Saudi east-west pipeline hit, AI repair estimate 6-12 months"
-        },
-        {
-          "id": "trade-musk-02",
-          "category": "trading",
-          "topic_zh": "Doge上太空",
-          "topic_en": "Doge to the moon",
-          "text_zh": "DOGE 三日內上太空。你唔買？爆咗都會郁啦，點解唔入少少先。萬一又係 SNL 2.0 就走佬。Prop firm 入咗細注 🧐👍",
-          "text_en_b1": "Doge goes to fucking space in 3 days and you are not buying. If this shit explodes it will still move up, so why not ape a bit, then sell so it does not become SNL 2.0? Or maybe it will just start the hype again. Either way the next few days will be wild for DOGE holders.",
-          "text_en_b2": "DOGE is about to blast off within three days, and you are still sitting on the fence. Even if it blows up, there will still be volatility, so why not throw a small position in and bail before it turns into another SNL-style disaster? Or maybe it kicks off a fresh wave of hype. Either way, the coming days are shaping up to be absolutely wild for anyone holding DOGE.",
-          "text_en_c1": "DOGE is, by any reasonable measure, primed to go absolutely stratospheric within the next seventy-two hours, yet retail conviction remains conspicuously absent. If the catalyst merely catches a modest bid rather than detonating outright, the position will still appreciate, provided one rotates out before it inevitably devolves into SNL 2.0. Conversely, should momentum reaccelerate, the ensuing hype cycle could prove disproportionately lucrative. In either scenario, the forthcoming sessions are destined to be exceptionally volatile for holders, and anyone sidelined ought to weigh whether continued passivity is itself a form of exposure. A speculative allocation seems warranted.",
-          "text_en_c2": "Dogecoin is, by any rational metric, a meme dressed in the thinnest veneer of utility, yet its trajectory over the next seventy-two hours promises to be genuinely theatrical. The calculus is not whether the underlying asset possesses intrinsic merit; it is whether the reflexive loop of attention and liquidity can sustain another leg up before the gravity of an SNL-style capitulation reasserts itself. Aping a measured position, with the discipline to de-risk if sentiment flips, remains the asymmetric play, since even an eventual blow-off top ought to beget violent two-directional movement. In the meantime, expect retail euphoria to metastasise across social platforms, with derivatives open interest ballooning accordingly. Prop desk, naturally, has already taken a starter position.",
-          "source_url": "https://boards.4chan.org/biz/thread/62676654",
-          "source_hint": "/biz/ OP hyping DOGE pump within 3 days, wants to ape small and sell before SNL-style dump"
-        },
-        {
-          "id": "civil-01",
-          "category": "civil/structure",
-          "topic_zh": "食condo困局",
-          "topic_en": "Stuck with a condo",
-          "text_zh": "22 歲 dogecoin 贏錢，買咗 230K condo，drop out 兩年。之後返學 grad，現在 100K 一年，27 歲，信用卡債，廢柴 cycle。佢都係食緊學費，我地都係 😭",
-          "text_en_b1": "Stuck with a Condo. In 2021 when I was 22 I made a bunch of random crypto money from Dogecoin. Lived for two years with no job, perma vacation, dropped out of school and bought a condo for $230K. Eventually money ran out. Went back to school, graduated, and now make $100K and live in my condo.",
-          "text_en_b2": "I am completely stuck with a condo I cannot offload. Back in 2021, when I was twenty-two, I made a ridiculous amount on Dogecoin and blew it on a two-year vacation with no job. I dropped out, bought a 230K condo, and eventually ran out of cash. I went back, graduated, and now I earn around 100K a year at twenty-seven. Student debt, credit card debt, and a relentless work-consume-repeat cycle.",
-          "text_en_c1": "At twenty-two, I accumulated a substantial sum through speculative positions in Dogecoin during the 2021 mania. Flush with windfall profits, I abandoned university, settled into an indefinite perma-vacation lifestyle, and purchased a condominium valued at two hundred and thirty thousand dollars. Within roughly two years the capital evaporated, forcing a reluctant return to academia. Upon graduating I secured employment offering a hundred thousand annually, which, while respectable, hardly compensates for the accumulated student loans and revolving credit-card balances. Now twenty-seven, I inhabit a Sisyphean cycle of labour and consumption, perpetually servicing debt rather than accruing wealth. The condo, once emblematic of liberation, has become an albatross.",
-          "text_en_c2": "At twenty-two, flush with apparently inexhaustible Dogecoin gains, I succumbed to the seductive narrative that markets would continue to reward audacity indefinitely. For two years I pursued what can only be described as a perma-vacation, forfeiting my education and committing two hundred and thirty thousand dollars to a condominium purchase that now sits as a monument to that particular delusion. Once the liquidity evaporated, reality asserted itself with characteristic indifference: I returned to university, graduated, and now earn a respectable hundred thousand annually while servicing both student and credit card obligations from within those same walls. At twenty-seven, trapped in what feels like an inescapable cycle of labour, consumption, repetition, I find myself a cautionary parable, awaiting the next cohort to learn precisely the same lesson.",
-          "source_url": "https://boards.4chan.org/biz/thread/62674411",
-          "source_hint": "/biz/ OP got out of the rat race by 22 with crypto condo, now trapped at 27 with debt"
-        },
-        {
-          "id": "tech-ai-01",
-          "category": "tech/ai",
-          "topic_zh": "AI頂到樽頸",
-          "topic_en": "AI plateau cope",
-          "text_zh": "佢哋自己都認 AI model plateau 咗，跟住吹自律故事呃 VC。talmudic bullshit 又嚟。AI 嚟搶我地白領同藍領，呢個真 😩🙏",
-          "text_en_b1": "So they are admitting AI models have plateaued and now they are coming up with some fake story about self restraint so they do not lose VC money. I am so tired of this talmudic bullshit. The model progress has clearly stalled and the industry is just making up excuses for the slowdown.",
-          "text_en_b2": "So the labs are finally admitting that model progress has plateaued, and now they are spinning some half-baked narrative about self-restraint just to keep the VC money flowing. I am absolutely sick of this talmudic nonsense dressed up as research. Meanwhile, these same models are coming for both white-collar and blue-collar jobs, and that part, at least, is genuinely terrifying.",
-          "text_en_c1": "It is increasingly evident that leading laboratories have effectively conceded that frontier model progress has plateaued, and rather than confronting this reality with intellectual honesty, they have pivoted toward manufacturing elaborate narratives about hypothetical self-restraint — a transparent stratagem designed to pacify venture capital allocators alarmed by diminishing returns on compute expenditure. The rationalisation is transparently sophistic, verging on the talmudic in its hair-splitting contortions. Meanwhile, the substantive capabilities that once inspired genuine trepidation among white-collar professionals have demonstrably stalled. The displacement that practitioners across both cognitive and manual occupational strata have long anticipated may simply arrive later than projected, though the underlying trajectory remains, regrettably, intact.",
-          "text_en_c2": "It is increasingly difficult to ignore the conspicuous admission, cloaked though it is in the usual corporate circumlocution, that frontier model development has encountered a demonstrable plateau. Having oversold capabilities to venture capital with such conviction, the laboratories now find themselves compelled to manufacture a narrative of deliberate restraint, as though compute constraints were a principled choice rather than an inconvenient engineering reality. The talmudic gymnastics required to reconcile prior pronouncements with present performance would, under any less credulous audience, provoke outright derision. Meanwhile, the displacement rhetoric continues apace, since nothing quite soothes jittery capital allocators as the assurance that whatever white-collar function you perform, an ostensibly imminent iteration will render it redundant. The cognitive dissonance is, at this juncture, almost admirable in its scope.",
-          "source_url": "https://boards.4chan.org/g/thread/109799487",
-          "source_hint": "/g/ poster claims AI labs admit models plateaued, blame cope narratives"
-        },
-        {
-          "id": "hk-news-01",
-          "category": "hk/news",
-          "topic_zh": "Trump DOGE",
-          "topic_en": "Trump and DOGE cuts",
-          "text_zh": "Trump + Elon + DOGE 已經 cut entitlement，係 state machine 太勁 cut 唔到。Elon libertarian 想砍 trillion 都冇 political will。算啦 🙏",
-          "text_en_b1": "I will still support Trump if anything to piss off leftist freaks. I am cynical when it comes to serious policy change and reversing the American decline. I think Trump and DOGE did their best to cut the entitlement spending monster, but the political machinery and state apparatus were too powerful and they had to back off.",
-          "text_en_b2": "I will keep backing Trump if only to wind up the leftist brigade, although I am deeply cynical about meaningful policy reform. Trump and DOGE made a genuine push to slash entitlement spending, but the political machinery and entrenched state apparatus were simply too powerful to overcome. Musk, being a libertarian at heart, would have loved to gut trillions from social security and Medicaid, yet the political will to follow through was never there.",
-          "text_en_c1": "Notwithstanding their earnest efforts, the Trump–Musk DOGE initiative encountered the entrenched apparatus of the administrative state and ultimately retreated. Entitlement programmes — that sprawling constellation of social security, medicare, and medicaid — proved politically untouchable, however much Musk, whose libertarian instincts would gladly have excised trillions from federal outlays, might have wished otherwise. The machinery of incumbency, with its entrenched constituencies and procedural inertia, simply outmuscled whatever reformist mandate the executive branch could marshal. One is left to conclude that meaningful fiscal rectification remains a function of political will which, at present, is conspicuously absent from Washington. The American decline, accordingly, proceeds largely unimpeded.",
-          "text_en_c2": "Cynicism, I confess, has become my default posture regarding the possibility of substantive reform within the American political economy, though I remain broadly supportive of the Trump administration if only for the visceral pleasure it affords the commentariat. The genuinely interesting question concerns the limits of executive willpower when confronted with the deeply entrenched administrative apparatus, which appears to have rebuffed even the combined efforts of Musk's Department of Government Efficiency. Entitlements, the sacred cow of which no serious fiscal consolidation can ultimately spare, remain structurally untouched. One suspects that the libertarian fantasy of excising trillions from Medicaid and Social Security will continue to function primarily as a thought experiment, rather than a legislative programme, irrespective of which faction nominally holds the reins.",
-          "source_url": "https://boards.4chan.org/pol/thread/542501947",
-          "source_hint": "/pol/ Trump supporter defends DOGE cuts, blames deep state for blocking deeper cuts"
-        },
-        {
-          "id": "mma-fit-01",
-          "category": "mma/fitness",
-          "topic_zh": "雙胞胎熱量",
-          "topic_en": "Twin calorie mystery",
-          "text_zh": "佢同佢 twin 食一樣 calories、protein、carbs、fat，連屎燒埋都一樣。點解佢肥佢瘦？靠 AI 續命都解唔到 😩🧐",
-          "text_en_b1": "I have an identical twin brother. He is lean. I am fat. We measured how much we eat and the calorie measurement is identical. The dietary fat, protein, and carbs are all identical. We also collected our faeces and incinerated it, and it also had an identical calorie measurement. What is causing me to be obese while my brother is lean?",
-          "text_en_b2": "My identical twin brother is lean, whereas I am clinically obese. We meticulously tracked everything: identical calorie intake, identical macros across fat, protein, and carbs, and identical physical activity. To rule out absorption issues, we even collected and incinerated our faeces, and the residual calorie measurements matched perfectly. So what on earth is driving this stubborn weight gap? I have thrown every AI tool at the problem and still come up empty.",
-          "text_en_c1": "My identical twin brother and I have undertaken a rigorous comparative analysis of our respective metabolisms, controlling every conceivable dietary variable. Caloric intake is matched within measurement error, as are macronutrient distributions — protein, carbohydrates, and lipids are essentially identical between us. In a further attempt to account for differential absorption, we even subjected our collected faecal matter to bomb calorimetry, only to discover that excreted caloric content was likewise indistinguishable. Yet despite this meticulous parity, he remains conspicuously lean whereas I exhibit clinically obese adiposity. The discrepancy persists regardless of intervention, and no algorithmic analysis has yielded a remotely satisfactory explanation for this stubborn asymmetry.",
-          "text_en_c2": "My identical twin brother and I present, as far as I can determine, an empirical puzzle of considerable metabolic intrigue, since we share ostensibly identical genomes yet diverge phenotypically to a stark degree. Over the past several months we have scrupulously documented our respective caloric intakes, finding the totals indistinguishable; macronutrient partitioning, comprising fats, proteins, and carbohydrates, likewise correlates with negligible deviation. In a flourish of admittedly unhinged methodological commitment, we even collected and incinerated our faecal matter, only to discover that caloric output through that channel was likewise congruent between us. Despite every variable I have been able to isolate yielding identical values, he remains conspicuously lean whilst I continue to gain adipose tissue, and no amount of artificial intelligence consultation has elucidated the underlying mechanism.",
-          "source_url": "https://boards.4chan.org/fit/thread/77502463",
-          "source_hint": "/fit/ OP and twin eat identical calories, even burnt poop matches, yet weight differs"
-        },
-        {
-          "id": "anime-01",
-          "category": "anime/culture",
-          "topic_zh": "攻殼動畫",
-          "topic_en": "Ghost in the Shell",
-          "text_zh": "睇完 Ghost in the Shell 動畫，頭幾集麻麻地，跟住越嚟越正。Season 2 幾時出？等緊 🧐🙏",
-          "text_en_b1": "Just finished the Ghost in the Shell anime and it was great. The first couple of episodes I was not so sure, but it got better and better with each episode. The stand-alone complex story really opens up around episode four. Season 2 when? Anyone know if there is a proper follow-up coming?",
-          "text_en_b2": "Finally wrapped up the Ghost in the Shell anime and I have to say it really grew on me. The opening episodes felt a bit flat, although once the Stand Alone Complex arc kicks in around episode four, the worldbuilding and plotlines really take off. The writing tightens up considerably as it goes, and the philosophical undertones become far more compelling. Does anyone know whether a proper second season is actually in development?",
-          "text_en_c1": "Having finally completed the Ghost in the Shell anime, I can confidently pronounce it exceptional, notwithstanding a rather tentative opening that initially failed to hook me. The inaugural episodes felt somewhat diffuse, yet the narrative progressively coalesces around the fourth instalment, whereupon the Stand Alone Complex arc truly matures into something genuinely compelling. Subsequent episodes build upon this foundation with admirable consistency, weaving philosophical inquiry into kinetic action with rare finesse. What remains maddeningly opaque, however, is any firm confirmation regarding a second season. Speculation abounds across fan forums, though substantive announcements appear perpetually deferred, leaving devotees in a state of suspended anticipation.",
-          "text_en_c2": "Having finally completed the Ghost in the Shell television series, I find myself persuaded that its reputation as a landmark of the medium is, if anything, understated, though the opening episodes admittedly demand a degree of patient acclimation before the narrative architecture reveals itself. The initial instalments feel almost tentative, as though Production I.G were calibrating tone, yet by the fourth episode the Stand Alone Complex conceit begins to cohere into something genuinely compelling, with the interweaving of discrete cases producing thematic resonances that far exceed the sum of their parts. Each subsequent instalment accrues additional weight, such that by the conclusion one is left with that peculiar sense of bereavement peculiar to finite art. As for the perpetually mooted second season, definitive news remains conspicuously absent.",
-          "source_url": "https://boards.4chan.org/a/thread/290881951",
-          "source_hint": "/a/ anon finished Ghost in the Shell anime, asks when Season 2 drops"
         }
       ]
     }

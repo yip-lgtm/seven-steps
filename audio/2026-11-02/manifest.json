@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-02",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-btc",
+      "topic_en": "Bitcoin Options Expiry",
+      "topic_zh": "比特幣期權到期",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-btc-b1.mp3",
+        "b2": "clip-trade-macro-btc-b2.mp3",
+        "c1": "clip-trade-macro-btc-c1.mp3",
+        "c2": "clip-trade-macro-btc-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-xrp",
+      "topic_en": "Musk Talks XRP",
+      "topic_zh": "Musk 談 XRP",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-xrp-b1.mp3",
+        "b2": "clip-trade-musk-xrp-b2.mp3",
+        "c1": "clip-trade-musk-xrp-c1.mp3",
+        "c2": "clip-trade-musk-xrp-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-ai-engineer",
+      "topic_en": "Engineers and Layoffs",
+      "topic_zh": "工程師被裁真相",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-civil-ai-engineer-b1.mp3",
+        "b2": "clip-civil-ai-engineer-b2.mp3",
+        "c1": "clip-civil-ai-engineer-c1.mp3",
+        "c2": "clip-civil-ai-engineer-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-cisco-ai",
+      "topic_en": "Cisco Orders AI Rewrite",
+      "topic_zh": "Cisco 全面 AI 化",
+      "category": "tech/ai",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "hk-news-maga",
+      "topic_en": "MAGA Midterm Warning",
+      "topic_zh": "美國中期選舉",
+      "category": "hk/news",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "fitness-whitepill",
+      "topic_en": "Beginner Fitness Whitepill",
+      "topic_zh": "新手健身白丸",
+      "category": "mma/fitness",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    },
+    {
+      "id": "culture-ranma",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬½章節回顧",
+      "category": "anime/culture",
+      "files": {
+        "b1": null,
+        "b2": null,
+        "c1": null,
+        "c2": null
+      }
+    }
+  ]
+}
