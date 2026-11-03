@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-03",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-btc-expiry",
+      "topic_en": "Bitcoin Options Expiry",
+      "topic_zh": "比特幣期權到期",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-btc-expiry-b1.mp3",
+        "b2": "clip-trade-btc-expiry-b2.mp3",
+        "c1": "clip-trade-btc-expiry-c1.mp3",
+        "c2": "clip-trade-btc-expiry-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-nvda-compute",
+      "topic_en": "Own the Compute",
+      "topic_zh": "AI晶片先贏",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-nvda-compute-b1.mp3",
+        "b2": "clip-trade-nvda-compute-b2.mp3",
+        "c1": "clip-trade-nvda-compute-c1.mp3",
+        "c2": "clip-trade-nvda-compute-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-tokens",
+      "topic_en": "AI Token Economics",
+      "topic_zh": "AI Token帳單",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-tokens-b1.mp3",
+        "b2": "clip-tech-ai-tokens-b2.mp3",
+        "c1": "clip-tech-ai-tokens-c1.mp3",
+        "c2": "clip-tech-ai-tokens-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-gas",
+      "topic_en": "Gas Prices and EVs",
+      "topic_zh": "油價與充電",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-gas-b1.mp3",
+        "b2": "clip-hk-news-gas-b2.mp3",
+        "c1": "clip-hk-news-gas-c1.mp3",
+        "c2": "clip-hk-news-gas-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-whitepill",
+      "topic_en": "Beginner Fitness Whitepill",
+      "topic_zh": "新手健身白丸",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-whitepill-b1.mp3",
+        "b2": "clip-mma-whitepill-b2.mp3",
+        "c1": "clip-mma-whitepill-c1.mp3",
+        "c2": "clip-mma-whitepill-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-yurucamp",
+      "topic_en": "Yuru Camp Rewatch",
+      "topic_zh": "搖曳露營重溫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-yurucamp-b1.mp3",
+        "b2": "clip-anime-yurucamp-b2.mp3",
+        "c1": "clip-anime-yurucamp-c1.mp3",
+        "c2": "clip-anime-yurucamp-c2.mp3"
+      }
+    },
+    {
+      "id": "culture-steam-ai",
+      "topic_en": "AI in Steam Games",
+      "topic_zh": "Steam遊戲用AI",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-culture-steam-ai-b1.mp3",
+        "b2": "clip-culture-steam-ai-b2.mp3",
+        "c1": "clip-culture-steam-ai-c1.mp3",
+        "c2": "clip-culture-steam-ai-c2.mp3"
+      }
+    }
+  ]
+}
