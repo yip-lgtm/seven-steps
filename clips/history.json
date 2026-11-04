@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "days": [
+    {
+      "date": "2026-11-04",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-btc-expiry",
+          "category": "trading",
+          "topic_zh": "比特幣期權到期",
+          "topic_en": "Bitcoin Options Expiry",
+          "text_zh": "Bull run starts tonight. 今日4pm EST有好多Bitcoin options到期。係咪真係一齊爆上去？慘，如果OP講嘅係睇淡 direction，咁就當睇淡到期後嘅波動。Bitcoin仲係我哋嘅財經救生圈，廢柴都靠佢頂住。🙏",
+          "text_en_b1": "Bull run starts tonight. Lots of Bitcoin options expire today at 4 PM EST. The post expects a rally tonight, but the post does not give a clear entry, target, or stop. It is a speculative market-timing observation, not a complete trading plan.",
+          "text_en_b2": "A bull run could kick off tonight, since numerous Bitcoin options expire today at 4 PM EST. However, although the original post anticipates a sharp upward move, it provides no clear entry point, price target, or stop-loss level. It is therefore better understood as a speculative observation about market timing than as a complete trading plan, because expiry-related volatility may be significant before the move becomes clearer.",
+          "text_en_c1": "The bull run, apparently, begins tonight, with a substantial number of Bitcoin options expiring at 4 PM EST. The poster anticipates that they will expire together, potentially triggering a sharp upward move; however, if the contracts are actually positioned for a bearish direction, the result may instead be heightened volatility once they are settled. Bitcoin therefore remains something of a financial life raft, even for people whose trading decisions are less than inspired. What the post does not provide is a precise entry point, price target, or stop-loss, so this should be treated as a speculative observation about market timing rather than a complete trading strategy.",
+          "text_en_c2": "The bull run apparently begins tonight, with a substantial cluster of Bitcoin options expiring today at 4 p.m. EST. That concentration of contracts could amplify volatility, although the original post gives no explicit entry point, price target, or stop-loss, so the bullish view remains a market-timing observation rather than a fully specified trading strategy. One might reasonably interpret the post as anticipating a short-term move higher, provided that the post in question is indeed taking a bullish direction; otherwise, the expiry may instead signal turbulence after the event. Bitcoin remains, for its holders, something of a financial life raft, capable of keeping a household afloat when conventional assets are underwater.",
+          "source_url": "https://boards.4chan.org/biz/thread/62837608",
+          "source_hint": "/biz/ OP predicts a Bitcoin bull run around options expiry."
+        },
+        {
+          "id": "trade-x-money",
+          "category": "trading",
+          "topic_zh": "X Money 對話",
+          "topic_en": "X Money Banking",
+          "text_zh": "X Money. Is it viable for replacing my BoA account? Nice APY. Cashback. I don't love Elon, but I don't expect him to do anything as gay as PayPal or other banks. There's no maintenance fee. 金融自由靠細分都嫌少，呢啲 fees 更加係日常收入嘅漏斗。🧐",
+          "text_en_b1": "X Money: Is it viable for replacing my BoA account? Nice APY and cashback. The poster does not love Elon, but they don't expect him to do anything as strange as PayPal or other banks. There is no maintenance fee. The discussion is about whether the account can replace a traditional bank account.",
+          "text_en_b2": "Could X Money be viable as a replacement for my Bank of America account? The appeal is obvious: a competitive APY, cashback rewards, and no maintenance fees. Although I am not especially fond of Elon Musk, I do not expect him to behave in a way as strange as PayPal or some traditional banks. The discussion is really asking whether this account can serve as a practical everyday banking option rather than merely another financial experiment.",
+          "text_en_c1": "X Money: could it realistically replace the poster's Bank of America account? The immediate advantages are a respectable APY and cashback, while the absence of a maintenance fee makes the proposition more attractive for everyday banking. Although the poster is no great admirer of Elon, they do not expect him to behave in quite the same strange fashion as PayPal or other financial institutions. The larger question, however, is whether X Money can function as a practical substitute for a traditional bank account, rather than merely offering a slightly more rewarding arrangement for cash already held elsewhere.",
+          "text_en_c2": "The question is whether X Money could serve as a viable replacement for a Bank of America account. Its advertised annual percentage yield looks attractive, and the cashback feature adds further appeal, while there is no maintenance fee to erode the benefits. The poster makes clear that they do not particularly care for Elon, although they do not anticipate him behaving in a manner even stranger than PayPal or the established banks. The practical issue, rather than personal loyalty, is whether one account can adequately cover ordinary banking needs. In that respect, the absence of minor fees matters because they otherwise form a persistent leak through which everyday income gradually drains away.",
+          "source_url": "https://boards.4chan.org/biz/thread/62849354",
+          "source_hint": "/biz/ OP asks whether X Money can replace a BoA account."
+        },
+        {
+          "id": "civil-compute",
+          "category": "civil/structure",
+          "topic_zh": "工程與AI投資",
+          "topic_en": "Compute and Engineering",
+          "text_zh": "Electrical engineer here. Been working for like 11 years. I design products that work, and I love what I do. Yet I keep getting laid off or fired for silly reasons. Last time, it was a spelling error after a PIP. This thread also says compute is the only thing to invest in. Semis, Nvidia, etc. 廢物，AI都可能食晒software。",
+          "text_en_b1": "An electrical engineer has worked for about 11 years and designs products that work. He loves his work, but keeps getting laid off or fired for silly reasons. His last firing followed a spelling error after a performance improvement plan. The post also argues that compute is the best investment.",
+          "text_en_b2": "I am an electrical engineer with roughly 11 years of experience, and I design products that actually work. I genuinely love what I do, yet I have repeatedly been laid off or fired for trivial reasons. The latest incident came after a performance improvement plan, when a spelling error apparently became the deciding factor. The same thread argues that compute is the only worthwhile investment, particularly semiconductors and Nvidia, although AI may eventually consume much of the software industry as well.",
+          "text_en_c1": "An electrical engineer with roughly eleven years of experience designs products that genuinely work, and he says he loves his job. Despite that, he has repeatedly been laid off or fired for reasons that appear remarkably trivial. Most recently, his dismissal followed a spelling error after a performance improvement plan, suggesting that the employment decision had little to do with his technical competence. The thread additionally presents compute infrastructure, semiconductors, and Nvidia as the only worthwhile investment thesis. The poster remains sceptical, since AI could ultimately consume a substantial portion of the software industry rather than complement it.",
+          "text_en_c2": "The poster is an electrical engineer with roughly eleven years of professional experience who designs products that actually work and genuinely enjoys the work. Despite that record, they have repeatedly been laid off or dismissed for reasons bordering on the absurd. The most recent firing came after a spelling mistake following a performance improvement plan, a sequence that illustrates how corporate decisions can detach themselves from an employee’s technical competence. The thread also advances a broader investment thesis: compute may be the only category genuinely worth backing, with semiconductor companies and Nvidia presented as leading beneficiaries. The counterpoint is blunt: if AI absorbs an increasing share of the software industry, even many of today’s presumed beneficiaries may be rendered obsolete.",
+          "source_url": "https://boards.4chan.org/biz/thread/62841134",
+          "source_hint": "/biz/ OP describes repeated layoffs and the value of compute-focused investments."
+        },
+        {
+          "id": "tech-space",
+          "category": "tech/ai",
+          "topic_zh": "Musk與數據中心",
+          "topic_en": "Musk and Data Centers",
+          "text_zh": "Musk chimps out at a man pointing out that the vacuum of space is an insulator, which is bad for data centers. Is it really a good idea to trust our tech sector and H-1B policies to such a gigantic idiot who clearly has no idea what he is talking about? 靠AI續命都未夠，連真空都可以俾人亂comment。",
+          "text_en_b1": "Musk chimps out at a man pointing out that the vacuum of space is an insulator, which is bad for data centers. The post questions whether the tech sector and H-1B immigration policies should rely on someone who seems confused about basic facts. It also criticizes his use of public subsidies and contracts.",
+          "text_en_b2": "Musk reacted defensively when a man pointed out that the vacuum of space is an insulator, making it a poor environment for data centers. This raises an obvious question: should our technology sector and H-1B immigration policies rely so heavily on someone who appears confused about basic physics? The post also criticizes his reliance on public subsidies and government contracts, arguing that his authority and technical judgment have been badly overstated.",
+          "text_en_c1": "Musk responds dismissively when a man points out that the vacuum of space is an insulator, a fact that creates serious difficulties for data centres. The poster considers this episode emblematic of a technology sector that has placed enormous confidence in someone who appears confused about basic scientific principles. They also question whether immigration policy concerning H-1B visas, along with public subsidies and government contracts, should be entrusted to such an individual. In the poster's view, relying on AI to sustain confidence is not enough; even ordinary physics can apparently be addressed with reckless commentary, public money, and misplaced authority.",
+          "text_en_c2": "Musk reportedly responded aggressively when a man pointed out that the vacuum of space functions as an insulator, a fact with obvious implications for proposed data centres. The objection is not merely personal or partisan; it concerns whether the technology sector and H-1B immigration policy should be entrusted to a figure whose public statements appear to disregard basic physical principles. The post also criticises his reliance on public subsidies and government contracts, arguing that private-sector dynamism should not be replaced by dependence on the state. The central question, however, is one of competence: it is difficult to place long-term institutional confidence in someone who appears confused about an elementary fact, particularly where immense capital and public resources are involved.",
+          "source_url": "https://boards.4chan.org/g/thread/110239688",
+          "source_hint": "/g/ thread attacks Musk's response about space and data centers."
+        },
+        {
+          "id": "hk-politics",
+          "category": "hk/news",
+          "topic_zh": "美國政治覺醒",
+          "topic_en": "US Political Shift",
+          "text_zh": "Texas is going overwhelming Blue. I don't even know what the fuck is happening anymore. 咁似LIHKG講到美股可能都要重新估值。美國回來就係想有空間、有選擇，唔係每日睇新聞扮清醒。🧐",
+          "text_en_b1": "Texas is going overwhelmingly Blue. The poster says they do not even know what is happening anymore. The thread is reacting to a changing political landscape in the United States, with concern about what the result may mean for everyday issues.",
+          "text_en_b2": "Texas is becoming overwhelmingly blue, and I honestly no longer know what the hell is going on. The thread is reacting to a rapidly changing political landscape in the United States, where familiar assumptions about voting patterns and party coalitions seem to be breaking down. Although the immediate concern is electoral, there is also anxiety about what these results may mean for everyday issues once politicians begin turning the new political reality into policy.",
+          "text_en_c1": "Texas is apparently becoming overwhelmingly blue, and the poster admits that they no longer understand what is happening in the United States. The thread reflects a broader reaction to a rapidly changing political landscape, particularly among people who expected the state to remain reliably conservative. Rather than analysing specific policies or election results, the poster expresses a more immediate sense of dislocation: the familiar political assumptions that once made national news comprehensible seem to have collapsed. For those affected, this uncertainty may also carry implications for ordinary economic and social questions, as a transformed political order could reshape both policy priorities and daily life.",
+          "text_en_c2": "Texas is apparently turning overwhelmingly blue, leaving the poster baffled and unsure what is happening in the wider American political landscape. Their reaction conveys less a developed ideological position than a broad sense of disorientation, as familiar assumptions about electoral outcomes and everyday governance begin to lose their explanatory force. The thread is therefore reacting to a rapidly changing political environment in the United States, particularly the implications of the result for ordinary citizens and policy questions that directly affect their lives. Comparable discussions elsewhere even speculate that American equities may need to be revalued as expectations shift, although the immediate feeling expressed here is one of bewilderment rather than financial certainty.",
+          "source_url": "https://boards.4chan.org/pol/thread/545492159",
+          "source_hint": "/pol/ OP reacts to Texas shifting heavily toward the Democratic Party."
+        },
+        {
+          "id": "fitness-cocoa",
+          "category": "mma/fitness",
+          "topic_zh": "熱可可減脂法",
+          "topic_en": "Hot Cocoa Fitness",
+          "text_zh": "Whitepill Thread. Hot cocoa is the best pre-workout edition. Anyone can start lifting, and you don't need prior sports experience. You can escape skinnyfat mode in less than six months. It takes less than a year for people to notice you lift. Programming as a beginner is easy. Diet is also easy: eat protein, and avoid fast food, candy, and soda. 肥仔信今日又叫我去gym，熱可可真係有冇用？",
+          "text_en_b1": "Whitepill Thread: Hot cocoa is the best pre-workout edition. Anyone can start lifting without prior sports experience. You can escape skinnyfat mode in less than six months. People may notice you lift in under a year. Beginner programming is easy, and diet is simple: eat enough protein while avoiding fast food, candy, and soda.",
+          "text_en_b2": "Whitepill thread: hot cocoa is apparently the finest pre-workout edition. The good news is that anyone can begin lifting without any previous sports experience, so getting started is not the main obstacle. According to the post, you can escape skinnyfat mode in less than six months, while other people may notice that you lift within a year. Beginner programming is easy, and the diet is straightforward: eat enough protein and cut back on fast food, candy, and soda.",
+          "text_en_c1": "Whitepill Thread: hot cocoa is apparently the finest pre-workout edition. No previous sporting experience is required, since anyone can begin lifting weights and gradually build the necessary familiarity. According to the original poster, people can escape the so-called skinnyfat phase in under six months, while others may notice that you have started lifting within a year. Beginner programming is presented as straightforward, and the dietary advice is equally uncomplicated: consume sufficient protein while limiting fast food, candy, and soda. The exaggerated promotional tone aside, the underlying message is that beginners should follow a basic, consistent routine rather than wait for ideal conditions.",
+          "text_en_c2": "The so-called Whitepill Thread presents hot cocoa as the finest pre-workout accompaniment for anyone contemplating resistance training. No prior sporting experience is required, since the barrier to beginning is often less formidable than beginners imagine, and a structured beginner programme can make progression comparatively straightforward. In principle, the author claims, one can escape the so-called skinnyfat phase in fewer than six months, while others may notice the change in lifting performance within less than a year. The dietary advice is equally uncomplicated: consume adequate protein and steer clear of fast food, candy, and soda. Although the title supplies the motivational tone, the underlying programme remains firmly grounded in consistency, nutrition, and progressive training rather than any special properties of the drink itself.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "/fit/ whitepill thread presents hot cocoa as a pre-workout option."
+        },
+        {
+          "id": "anime-ranma",
+          "category": "anime/culture",
+          "topic_zh": "亂馬1/2漫畫",
+          "topic_en": "Ranma Storytime",
+          "text_zh": "Ranma 1/2 storytime. Going to storytime the manga together with the new anime season, so anons can compare and contrast, or experience the story in different ways. Today: chapters 81–82. 廢物唔睇漫畫版，咁就等於唔完整咁靠AI續命。🙏",
+          "text_en_b1": "Ranma 1/2 storytime. The poster is reading the manga alongside the new anime season so anons can compare and contrast the two, or experience the story in multiple ways at once. Today's chapters are 81 and 82. The discussion covers the new anime season and the manga adaptation.",
+          "text_en_b2": "Ranma 1/2 storytime. I am reading the manga alongside the new anime season so that anons can compare and contrast the adaptations, or experience the story in different ways at the same time. Today's instalment covers chapters 81 and 82. The discussion focuses on both the new anime season and the original manga, which provides a useful opportunity to examine how the same material has been adapted for different formats.",
+          "text_en_c1": "Ranma 1/2 storytime. The poster intends to read the manga alongside the new anime season, enabling anons to compare the two adaptations directly or to experience the narrative through different media at the same time. Today's instalment covers chapters 81 and 82. Rather than treating the anime as a complete substitute for the original manga, the discussion treats the two versions as complementary, each offering a distinct interpretation of the same material. The poster also assumes that skipping the manga would leave viewers with an incomplete version of the story.",
+          "text_en_c2": "The poster is launching another Ranma 1/2 storytime, this time reading the manga alongside the new anime season so that anons can compare the two adaptations, contrast their treatment of individual scenes, and experience the narrative through different media at once. Today’s instalment covers chapters 81 and 82. The resulting discussion naturally centres on the new anime season and the long-established manga adaptation, inviting readers to compare characterisation, pacing, visual presentation, and tonal fidelity. Reading both versions in parallel offers a more complete appreciation of the source material, since the anime may compress, reinterpret, or embellish details that remain visible on the page. For newcomers, the juxtaposition may also clarify how the television series handles the manga’s humour and broader narrative structure.",
+          "source_url": "https://boards.4chan.org/a/thread/291982840",
+          "source_hint": "/a/ OP discusses Ranma 1/2 chapters 81–82 alongside the new anime season."
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "Gentlemen, a proposition has been advanced, and after due deliberation we have elected to embark upon a communal rewatch of Yuru Camp in anticipation of the forthcoming fourth season, which we anticipate shall grace our screens sometime during the spring of the coming year. Our prescribed regimen consists of one to two episodes per week drawn from the initial three seasons, with the various OVAs and the theatrical film to be slotted in at the appropriate junctures. Whether this constitutes your inaugural viewing or your tenth, the consensus is that conviviality shall be the order of the day, and the resultant serenity ought to fortify us against an additional day of overtime, however reluctantly endured.",
           "source_url": "https://boards.4chan.org/a/thread/290855593",
           "source_hint": "/a/ OP organizing a Yuru Camp rewatch ahead of S4"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-btc-vs-gold",
-          "category": "trading",
-          "topic_zh": "比特幣 vs 黃金",
-          "topic_en": "Bitcoin vs Gold",
-          "text_zh": "/biz/ 今晚個post問：未來10年只可以揩一樣，你擇Bitcoin定黃金？",
-          "text_en_b1": "If you had to hold only one for the next 10 years, would you choose Bitcoin or gold? Gold has thousands of years of history as a store of value. Bitcoin is only about 17 years old but has digital scarcity.",
-          "text_en_b2": "If you were forced to hold just one asset for the next decade, would you back Bitcoin or gold, and what makes your choice objectively stronger?",
-          "text_en_c1": "A thread on /biz/ posed a dilemma: if one were compelled to hold a single asset for the coming decade, should that asset be Bitcoin or gold?",
-          "text_en_c2": "Were one constrained to a single position for the coming decade, the rational choice between Bitcoin and gold hinges upon permanence versus algorithmic scarcity.",
-          "source_url": "https://boards.4chan.org/biz/thread/62645210",
-          "source_hint": "/biz/ BTC vs gold"
-        },
-        {
-          "id": "biz-boring-guy-doompilled",
-          "category": "trading",
-          "topic_zh": "睇呢條片要買哪",
-          "topic_en": "Boomer Macro Picker",
-          "text_zh": "/biz/ 有人話佢每星期都睇呢條片，問應該買哪。",
-          "text_en_b1": "He covers the AI bubble and circular financing, the end of the USA and the rise of Europe. If you watch his videos every week, what do you actually invest in?",
-          "text_en_b2": "If you watched his videos religiously, what would you actually buy? Most replies recommend going long gold and short US equities.",
-          "text_en_c1": "If even twenty percent of his thesis proves accurate, the logical portfolio would short US equities while going long Europe, gold, and BTC.",
-          "text_en_c2": "Were one to internalise even twenty percent of his prognostications, the prescribed portfolio would entail short US equities, long gold, and long Bitcoin.",
-          "source_url": "https://boards.4chan.org/biz/thread/62688762",
-          "source_hint": "/biz/ doompilled macro"
-        },
-        {
-          "id": "g-ai-iq-replace",
-          "category": "tech/ai",
-          "topic_zh": "AI 殺 IQ 低嘅人",
-          "topic_en": "AI Replaces Low IQ",
-          "text_zh": "/g/ 有人話ChatGPT新AGI model會取代你。",
-          "text_en_b1": "AI is just a tool for 160+ IQ geniuses, but for the rest of us ChatGPT's new AGI model will replace us. Mid-tier office workers are the first to go.",
-          "text_en_b2": "Once companies catch on, unemployment will spread rapidly across the West, because this is fundamentally an IQ problem.",
-          "text_en_c1": "Most anons concur that mid-tier administrative occupations face displacement first, whereas engineers and trades occupy more defensible positions.",
-          "text_en_c2": "Individuals of merely average intellect will find their professional competencies progressively superseded by automated systems.",
-          "source_url": "https://boards.4chan.org/g/thread/109820792",
-          "source_hint": "/g/ AI IQ"
-        },
-        {
-          "id": "biz-tariffs-21t",
-          "category": "hk/news",
-          "topic_zh": "關稅21兆美元",
-          "topic_en": "Tariffs 21 Trillion",
-          "text_zh": "/biz/ 有人post條link話關稅收咗21兆美金？",
-          "text_en_b1": "A /biz/ anon posted that the US took in 21 trillion dollars from tariffs. The number is so absurd it broke containment on the board.",
-          "text_en_b2": "Most replies noted that global GDP sits around 100 trillion, making 21 trillion from tariffs alone laughable nonsense.",
-          "text_en_c1": "Beneath the hyperbole lies a genuine market signal: traders continue pricing in trade-war turbulence and gravitating toward gold and Bitcoin.",
-          "text_en_c2": "Such fabrications, whilst fictitious, serve as barometers of sentiment about US trade policy.",
-          "source_url": "https://boards.4chan.org/biz/thread/62678148",
-          "source_hint": "/biz/ 21T tariffs"
-        },
-        {
-          "id": "biz-trump-10-years",
-          "category": "hk/news",
-          "topic_zh": "Trump 10年回顧",
-          "topic_en": "Trump 10 Year Recap",
-          "text_zh": "/pol/ 有人post咗個10年Trump journey list。",
-          "text_en_b1": "The OP recaps a 10 year journey from gamergate to the election to china virus. The poster says it was all for nothing.",
-          "text_en_b2": "Anons are split between calling it cope and hailing it as the most based timeline ever.",
-          "text_en_c1": "The original poster concludes that the cumulative effort amounted to little.",
-          "text_en_c2": "Respondents partition themselves between dismissing the sentiment as mere cope and celebrating the most based timeline in living memory.",
-          "source_url": "https://boards.4chan.org/pol/thread/542631031",
-          "source_hint": "/pol/ Trump recap"
-        },
-        {
-          "id": "fit-deadlift-220kg",
-          "category": "mma/fitness",
-          "topic_zh": "Deadlift 220kg 兩下",
-          "topic_en": "Deadlift 220kg Double",
-          "text_zh": "/fit/ 有條友post deadlift 220kg做咗兩下，PR俖240kg。",
-          "text_en_b1": "The OP went deadlifting again and hit 220 kg for a double. His PR is 240 kg. First time deadlifting in over a month.",
-          "text_en_b2": "This marked his first deadlift session in over a month, since he has been training at home with kettlebell clean and press.",
-          "text_en_c1": "His strength had not merely persisted but compounded, deadlifting 220 kilograms for a clean double after a month away.",
-          "text_en_c2": "He successfully completed two repetitions at two hundred and twenty kilograms, approaching his established personal record of two hundred and forty.",
-          "source_url": "https://boards.4chan.org/fit/thread/77504262",
-          "source_hint": "/fit/ 220kg DL"
-        },
-        {
-          "id": "a-gochiusa-s4",
-          "category": "anime/culture",
-          "topic_zh": "Gochiusa S4 製作中",
-          "topic_en": "Gochiusa Season 4",
-          "text_zh": "/a/ 有人post Gochiusa，話Koi努力做緊season 4、movie、同埋下一個McDonald's crossover。",
-          "text_en_b1": "Koi is working hard on season 4, the movie, and the next McDonald's collab for Gochiusa.",
-          "text_en_b2": "Anons are thrilled, although the franchise has been stuck on a painfully slow production cycle for years.",
-          "text_en_c1": "Anticipation is elevated, notwithstanding lingering anxieties regarding potential staff turnover at the studio.",
-          "text_en_c2": "The announcement that Koi Studio continues production of Gochiusa season four has occasioned considerable enthusiasm on the anime board.",
-          "source_url": "https://boards.4chan.org/a/thread/290884354",
-          "source_hint": "/a/ Gochiusa S4"
         }
       ]
     }

@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-04",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-btc-expiry",
+      "topic_en": "Bitcoin Options Expiry",
+      "topic_zh": "比特幣期權到期",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-btc-expiry-b1.mp3",
+        "b2": "clip-trade-btc-expiry-b2.mp3",
+        "c1": "clip-trade-btc-expiry-c1.mp3",
+        "c2": "clip-trade-btc-expiry-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-x-money",
+      "topic_en": "X Money Banking",
+      "topic_zh": "X Money 對話",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-x-money-b1.mp3",
+        "b2": "clip-trade-x-money-b2.mp3",
+        "c1": "clip-trade-x-money-c1.mp3",
+        "c2": "clip-trade-x-money-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-compute",
+      "topic_en": "Compute and Engineering",
+      "topic_zh": "工程與AI投資",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-compute-b1.mp3",
+        "b2": "clip-civil-compute-b2.mp3",
+        "c1": "clip-civil-compute-c1.mp3",
+        "c2": "clip-civil-compute-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-space",
+      "topic_en": "Musk and Data Centers",
+      "topic_zh": "Musk與數據中心",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-space-b1.mp3",
+        "b2": "clip-tech-space-b2.mp3",
+        "c1": "clip-tech-space-c1.mp3",
+        "c2": "clip-tech-space-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-politics",
+      "topic_en": "US Political Shift",
+      "topic_zh": "美國政治覺醒",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-politics-b1.mp3",
+        "b2": "clip-hk-politics-b2.mp3",
+        "c1": "clip-hk-politics-c1.mp3",
+        "c2": "clip-hk-politics-c2.mp3"
+      }
+    },
+    {
+      "id": "fitness-cocoa",
+      "topic_en": "Hot Cocoa Fitness",
+      "topic_zh": "熱可可減脂法",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fitness-cocoa-b1.mp3",
+        "b2": "clip-fitness-cocoa-b2.mp3",
+        "c1": "clip-fitness-cocoa-c1.mp3",
+        "c2": "clip-fitness-cocoa-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬1/2漫畫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-b1.mp3",
+        "b2": "clip-anime-ranma-b2.mp3",
+        "c1": "clip-anime-ranma-c1.mp3",
+        "c2": "clip-anime-ranma-c2.mp3"
+      }
+    }
+  ]
+}
