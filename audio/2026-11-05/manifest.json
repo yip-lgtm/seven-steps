@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-05",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-01",
+      "topic_en": "Midterm Market Bet",
+      "topic_zh": "中期選舉開盤",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-01-b1.mp3",
+        "b2": "clip-trade-macro-01-b2.mp3",
+        "c1": "clip-trade-macro-01-c1.mp3",
+        "c2": "clip-trade-macro-01-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-02",
+      "topic_en": "Tesla and SpaceX Dip",
+      "topic_zh": "Tesla 太空星蝕",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-02-b1.mp3",
+        "b2": "clip-trade-musk-02-b2.mp3",
+        "c1": "clip-trade-musk-02-c1.mp3",
+        "c2": "clip-trade-musk-02-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-structure-03",
+      "topic_en": "Engineer Laid Off Again",
+      "topic_zh": "工程師被裁真相",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-structure-03-b1.mp3",
+        "b2": "clip-civil-structure-03-b2.mp3",
+        "c1": "clip-civil-structure-03-c1.mp3",
+        "c2": "clip-civil-structure-03-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-04",
+      "topic_en": "Plan After AI Replacement",
+      "topic_zh": "AI 淘汰全人類",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-04-b1.mp3",
+        "b2": "clip-tech-ai-04-b2.mp3",
+        "c1": "clip-tech-ai-04-c1.mp3",
+        "c2": "clip-tech-ai-04-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-05",
+      "topic_en": "Musk Breaks on Midterms",
+      "topic_zh": "Elon 談中期選舉",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-05-b1.mp3",
+        "b2": "clip-hk-news-05-b2.mp3",
+        "c1": "clip-hk-news-05-c1.mp3",
+        "c2": "clip-hk-news-05-c2.mp3"
+      }
+    },
+    {
+      "id": "fitness-06",
+      "topic_en": "Beginner Fitness Whitepill",
+      "topic_zh": "新手健身白丸",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fitness-06-b1.mp3",
+        "b2": "clip-fitness-06-b2.mp3",
+        "c1": "clip-fitness-06-c1.mp3",
+        "c2": "clip-fitness-06-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-07",
+      "topic_en": "Fewer Reverse Traps",
+      "topic_zh": "冩奇毒系逆陷阱",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-07-b1.mp3",
+        "b2": "clip-anime-07-b2.mp3",
+        "c1": "clip-anime-07-c1.mp3",
+        "c2": "clip-anime-07-c2.mp3"
+      }
+    }
+  ]
+}

@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "days": [
+    {
+      "date": "2026-11-05",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-macro-01",
+          "category": "trading",
+          "topic_zh": "中期選舉開盤",
+          "topic_en": "Midterm Market Bet",
+          "text_zh": "聽日中期選舉結果一出，市場會點反應？有冇人落注？我估如果係紅區勝出，市場會 pump 得好癫；如果藍區贏，就係要跌轉深。香港咁窄，走勢一出真係好難止蝕。CFD 倉又爆多幾個就慘。呢個可能係今日最重要嘅 macro bet，唔係亂炒。",
+          "text_en_b1": "Impact of the midterm results tomorrow on financial markets. Any bets? I think that if the results are red, we pump like crazy. If they are blue, we take a fucked-up dive. The market will move sharply either way, so this is the important macro bet right now.",
+          "text_en_b2": "How will financial markets react when tomorrow’s midterm results come in? I’m placing my bets: if the red states win, the market could pump like crazy, whereas a blue victory might send it into a deep dive. Because Hong Kong’s trading range is so narrow, any breakout will be difficult to stop or cut losses quickly, especially if several CFD positions get blown. This may be the most important macro bet today, not just random speculation.",
+          "text_en_c1": "How will tomorrow’s midterm results affect financial markets, and is anyone placing a bet on the outcome? My guess is that a Republican sweep would send markets into a euphoric rally, whereas a Democratic win could trigger a sharp sell-off. Hong Kong’s relatively narrow trading range may not offer much room to manoeuvre once the result emerges, and anyone holding leveraged CFD positions could be forced into liquidation. This may be the most consequential macro trade of the day rather than some random speculative move, although the direction is hardly certain.",
+          "text_en_c2": "How will financial markets react once tomorrow’s midterm results are confirmed? I’m placing my bets accordingly. If the Republicans sweep the key states, I expect a frenzied rally; should the Democrats prevail, the tape could crater without warning. Hong Kong’s market is narrow enough that any meaningful break will leave stop-loss orders scrambling for cover, and those fortunate enough to avoid a leveraged CFD liquidation may still count themselves lucky. Whatever the outcome, this is unquestionably the day’s most consequential macro wager, not merely a bout of speculative froth.",
+          "source_url": "https://boards.4chan.org/biz/thread/62851520",
+          "source_hint": "A /biz/ thread asking how tomorrow's midterm results may move financial markets."
+        },
+        {
+          "id": "trade-musk-02",
+          "category": "trading",
+          "topic_zh": "Tesla 太空星蝕",
+          "topic_en": "Tesla and SpaceX Dip",
+          "text_zh": "WTF 点解今日乜嘢都升，偏偏 SpaceX 同 Tesla 唔升？Elon 之前成日講會帶我發財，𠮶陣我更加以為 IPO 都係穩陣。依家就係 under the IPO，冇計個 prop firm 帳戶今日又畀人刮走一層皮。Tesla delivery、盈利同 Starship 消息一齊出，應驗期真係難頂。唔係唔信 Elon，係估值太撐。",
+          "text_en_b1": "WTF, why is everything up today except SpaceX and Tesla? Elon was going to make me rich. Now I am under the IPO. Tesla delivery numbers, earnings, and SpaceX launch news can all move the stock. I still believe in the company, but this valuation is difficult.",
+          "text_en_b2": "WTF, why is absolutely everything rising today except SpaceX and Tesla? Elon spent years promising he’d make me rich, so I assumed an IPO would be a safe bet. Now I’m under water on the IPO, and the prop firm account has been skinned alive again today. Tesla delivery figures, earnings, and Starship news can all affect the stock, but surviving that waiting period is brutal. I’m not anti-Elon; the valuation is simply too stretched.",
+          "text_en_c1": "Seriously, why is everything rising today except SpaceX and Tesla? Musk had spent so long promising to make me rich that I had assumed an IPO was practically risk-free. Now I’m sitting below the IPO price, and that’s before the prop firm account has been stripped of another layer. Tesla’s delivery figures, earnings, and news about Starship launches could all influence the stock, so waiting for the confirmation period is genuinely uncomfortable. I’m not abandoning my belief in the company; the problem is that its valuation has become increasingly difficult to justify.",
+          "text_en_c2": "For crying out loud, why is everything rising today except SpaceX and Tesla? Musk spent years promising to make me rich, and I had convinced myself that even the IPO was a sure thing. Now I’m sitting below the offering price, while my proprietary trading account has been skinned alive once more. Tesla’s delivery figures and earnings are landing alongside fresh Starship headlines, which makes the waiting period distinctly uncomfortable. I’m not abandoning the company, to be clear; I simply think the valuation has been stretched to breaking point.",
+          "source_url": "https://boards.4chan.org/biz/thread/62857175",
+          "source_hint": "A /biz/ post complaining that SpaceX and Tesla fell while other assets rose."
+        },
+        {
+          "id": "civil-structure-03",
+          "category": "civil/structure",
+          "topic_zh": "工程師被裁真相",
+          "topic_en": "Engineer Laid Off Again",
+          "text_zh": "Electrical engineer here. Been working for 11 years. I design products that work, and I love what I do. Yet I keep getting laid off or fired for silly reasons. Last time, it was a spelling error after I was put on a PIP. My managers told me to charge different hours, but coordinating them did not work. I was still blamed. I put myself through college because my parents refused to sign... ",
+          "text_en_b1": "Electrical engineer here. I have worked for 11 years and I design products that work. I love my job, but I keep getting laid off or fired for silly reasons. Last time, it was a spelling error after I was put on a PIP. Multiple superiors told me to charge different hours, but coordinating them did not work, so I was still blamed.",
+          "text_en_b2": "Electrical engineer here, with 11 years of experience designing products that actually work. I love my job, yet I keep getting laid off or fired for ridiculous reasons. Last time, it was a spelling mistake after I was placed on a PIP. Several managers told me to charge different hours, but coordinating those instructions did not work, and I was still blamed. I put myself through college because my parents refused to sign the necessary paperwork, although that is only part of the story.",
+          "text_en_c1": "I’m an electrical engineer with 11 years of experience, and I design products that actually work. I love my profession, yet I’ve repeatedly been laid off or fired for reasons that seem absurd. On the most recent occasion, a single spelling error led to my dismissal after I was placed on a performance improvement plan. Several managers instructed me to charge my time to different cost codes, but coordinating those assignments never worked properly, so I was blamed regardless. I put myself through college because my parents refused to sign anything, which makes these decisions particularly frustrating.",
+          "text_en_c2": "I’m an electrical engineer with eleven years of experience, designing products that genuinely work, and I love every minute of it. Nevertheless, I have been laid off or fired repeatedly, often for reasons that border on the absurd. On my last departure, the stated offence was a spelling error committed after I had been placed on a performance improvement plan. Several managers instructed me to charge different hours to different projects, but coordinating those instructions proved impossible, so I bore the blame regardless. I had put myself through college because my parents refused to sign the relevant paperwork.",
+          "source_url": "https://boards.4chan.org/biz/thread/62841134",
+          "source_hint": "An experienced engineer describes repeated layoffs and blame over billing hours and a minor spelling error."
+        },
+        {
+          "id": "tech-ai-04",
+          "category": "tech/ai",
+          "topic_zh": "AI 淘汰全人類",
+          "topic_en": "Plan After AI Replacement",
+          "text_zh": "Do you have a solid plan after LLMs replace you? Farming? Trades? 靠 AI 續命啦，連 GI report 都可能自動生成。不過 slope investigation、site supervision 同 contractor 溝通，唔係淨係識做計算就得。Automated drafting 可能快，但落去個 site 要 check 個 load path、問清楚 contractor 點做，最後仲係要有人頂住。個 plan 可能係 upgrade 自己，唔係轉去 farming。",
+          "text_en_b1": "Do you have a solid plan after LLMs replace you? Farming? Trades? Even civil engineering reports may become automated, but site supervision and contractor communication still need engineers. Someone must check the load path and make safe decisions on site.",
+          "text_en_b2": "Do you have a solid plan once LLMs replace you? Farming? Skilled trades? Relying on AI to keep civil engineering alive might work because even GI reports can now be generated automatically. However, slope investigation, site supervision, and contractor communication cannot be reduced to calculations alone. Automated drafting may be faster, but somebody still has to check the load path, clarify how the contractor intends to proceed, and make the final call on site.",
+          "text_en_c1": "Do you have a solid plan for life after large language models replace you? Will you take up farming, trades, or something else entirely? AI may already be capable of producing routine civil-engineering reports, but automated drafting is only the beginning. Slope investigations, site supervision, and communication with contractors still require professional judgement, because someone has to verify the load path, clarify how the work will be carried out, and stand behind the final decision. The practical response may therefore be to upgrade your own skills rather than retreat to farming, especially if your value lies on site rather than behind a desk.",
+          "text_en_c2": "Do you have a credible plan for the day large language models render you redundant? Would you farm? Take up a trade? Lean on AI to keep the lights burning, since even a GI report can now be generated automatically. Yet slope investigation, site supervision, and the endless negotiations with contractors cannot be reduced to producing calculations on demand. Automated drafting may well be faster, but somebody still has to verify the load path on site, interrogate the contractor’s methodology, and stand behind the final decision. The sensible plan is probably to upgrade your own capabilities, not retreat to farming.",
+          "source_url": "https://boards.4chan.org/g/thread/110229672",
+          "source_hint": "A /g/ thread asks people what they will do if large language models replace their jobs."
+        },
+        {
+          "id": "hk-news-05",
+          "category": "hk/news",
+          "topic_zh": "Elon 談中期選舉",
+          "topic_en": "Musk Breaks on Midterms",
+          "text_zh": "BREAKING：Elon 喺中期選舉後出咗聲。個 post 話「America truly is dead」，又話「America」自己投咗票，仲希望情況再差啲。香港人成日話想返美國，但連 Elon 都咁講，會唔會真係應該諗下走？不過返 Florida 都要錢，100K USD 未儲到之前，考牌同人工更加唔可以停。",
+          "text_en_b1": "BREAKING: Elon Musk breaks his silence on the aftermath of the Midterms. America truly is dead, and America voted for it. The poster says he hopes it gets worse. Meanwhile, many Hong Kong people talk about returning to America.",
+          "text_en_b2": "BREAKING: Elon Musk has finally spoken about the aftermath of the Midterms. The post claims that “America truly is dead” and that America voted for this outcome; it also says he hopes the situation gets even worse. Many Hong Kongers regularly talk about returning to America, so does his statement mean we should seriously consider leaving? Although moving to Florida still costs money, before I’ve saved 100K USD, I cannot stop preparing for the exam or keep my income running.",
+          "text_en_c1": "BREAKING: Elon Musk has finally commented on the aftermath of the US midterms. According to the post, “America truly is dead,” while America itself voted for its condition and apparently hopes it gets even worse. Many Hong Kong residents regularly talk about returning to America, but if someone as prominent as Musk says this, should they start considering the option more seriously? That said, moving to Florida still costs money, and until I have saved USD 100,000, I cannot afford to stop studying for the relevant exams or weaken my earnings prospects. The ideal move may have to wait.",
+          "text_en_c2": "BREAKING: Elon Musk has finally spoken about the aftermath of the American midterms. According to the post, “America truly is dead,” and America voted for its own demise; worse still, Musk apparently hopes the situation deteriorates further. Hong Kongers have long talked about packing up and returning to the United States, but if even Musk sounds that hopeless, perhaps we should reconsider. That said, Florida remains expensive, and until I have saved the requisite 100,000 dollars, there is no option but to keep grinding through the examinations and the endless paperwork.",
+          "source_url": "https://boards.4chan.org/pol/thread/545618381",
+          "source_hint": "A /pol/ post reacts to Elon Musk's comments after the midterm election results."
+        },
+        {
+          "id": "fitness-06",
+          "category": "mma/fitness",
+          "topic_zh": "新手健身白丸",
+          "topic_en": "Beginner Fitness Whitepill",
+          "text_zh": "Whitepill Thread：熱朱古力先係最正嘅 pre-workout。任何人都可以開始 lifting，唔需要以前做過運動。你可以 escape skinnyfat mode，six months 內做到。有人用一年左右就會留意到你開始 lift。Beginner programming 好簡單，咩都 work。Diet 都一樣：食夠 protein，少食 fast food、candy 同 soda。唔使 gym subscription，都可以有唔錯嘅 physique。",
+          "text_en_b1": "Whitepill thread: hot cocoa is the best pre-workout edition. Anyone can start lifting, and you do not need previous sports experience. You can escape skinnyfat mode in less than six months. Beginner programming is easy. Eat enough protein and avoid fast food, candy, and soda. You do not need a gym membership.",
+          "text_en_b2": "Whitepill thread: hot cocoa is the ultimate pre-workout. Anyone can start lifting, and you don’t need any previous sports experience. You can escape skinnyfat mode within six months, although some people need roughly a year before others notice that you have started lifting. Beginner programming is straightforward, and almost anything works to begin with. Diet follows the same simple rule: get enough protein and cut back on fast food, candy, and soda. You can build a decent physique without paying for a gym membership.",
+          "text_en_c1": "Whitepill thread: hot cocoa is the ultimate pre-workout. Anyone can begin lifting; you do not need a background in sport or any prior training experience. With consistent effort, you can escape skinnyfat mode in less than six months, and after roughly a year, other people may start noticing that you lift. Beginner programming is straightforward, and almost any sensible routine will work. Diet follows the same uncomplicated logic: eat enough protein, while reducing your intake of fast food, candy, and soda. A gym membership is helpful, but it is not essential if you are willing to train consistently.",
+          "text_en_c2": "Whitepill thread: hot cocoa is unquestionably the finest pre-workout ritual. Anybody can begin lifting, and no prior athletic experience is required to get started. You can realistically escape skinnyfat mode in under six months, provided you remain consistent; indeed, some people go an entire year before their acquaintances begin noticing the transformation. Beginner programming is refreshingly straightforward, and the nutritional rules are no less forgiving: eat sufficient protein, while keeping fast food, candy, and soda firmly in the rear-view mirror. A gym membership is helpful, but it is by no means an entry fee.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "A /fit/ beginner whitepill thread explains simple lifting, diet, and physique expectations."
+        },
+        {
+          "id": "anime-07",
+          "category": "anime/culture",
+          "topic_zh": "冩奇毒系逆陷阱",
+          "topic_en": "Fewer Reverse Traps",
+          "text_zh": "Have there been fewer reverse traps appearing in manga and anime as time goes by? 以前成日見到，讀者以為係女主角，最後反轉變成男主或者路人。有時嗰個角根本唔係主角，只係被作者用嚟推剧情。依家好似冇咁多離套路，唔知係作者驚被罵，定係真係冇靈感。動漫文化都係一個 trend，唔代表每套都值得睇。",
+          "text_en_b1": "Have there been fewer reverse traps appearing in manga and anime as time goes by? Earlier stories often made readers think a heroine was the main character, then reversed it. Now the pattern seems less common. It may be a trend, but not every new series is worth reading.",
+          "text_en_b2": "Have manga and anime featured fewer reverse traps as time has gone by? Earlier stories frequently encouraged readers to assume that a heroine was the protagonist, only to reveal that she was actually the male lead or a nobody used to push the plot forward. Sometimes that character was not a central figure at all. Now the device seems less common, whether because authors fear criticism or because they have genuinely run out of ideas.",
+          "text_en_c1": "Have manga and anime gradually become less reliant on reverse traps? Earlier, readers were often led to believe that a heroine was the central protagonist, only for the story to reveal that she was actually the male lead or merely a minor character used to propel the plot forward. Sometimes the supposed heroine was not even the main character at all. The device now seems less common, although it is unclear whether creators fear criticism or have simply run out of inspiration. Like any broader trend within anime culture, this does not mean every new series is worth watching, and declining conventions do not automatically indicate a decline in quality.",
+          "text_en_c2": "Has anyone else noticed that reverse traps have grown rarer in manga and anime? Older series frequently misled readers into assuming a heroine was the central protagonist, only to reveal that the supposedly peripheral character was the true lead, or to consign the heroine to an anonymous supporting role. These days the convention seems less prevalent, whether because creators fear backlash or because they have genuinely run out of inspiration. Cultural trends shift, naturally, and the declining frequency of a particular device does not imply that every new series deserves your attention.",
+          "source_url": "https://boards.4chan.org/a/thread/292055503",
+          "source_hint": "An /a/ thread asks whether manga and anime contain fewer reverse traps over time."
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "Attack on Titan, he contends, represents the intellectually incurious viewer's notion of profundity, a spectacle mistaken for substance. Beyond the alleged thematic bankruptcy, the production design strikes him as aesthetically retrograde, the character work derivative, and the pacing gruelling. The post is, by his own admission, bait: he anticipates the Pavlovian rush of defenders descending to enumerate the show's narrative virtues. That they will arrive, citations in hand, is itself a small confirmation of his thesis. Aesthetic judgement, after all, is rarely arbitrated by argument; it is simply enumerated, repeatedly, until one side wearies.",
           "source_url": "https://boards.4chan.org/a/thread/291010448",
           "source_hint": "/a/ contrarian roast of Attack on Titan's art and depth"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-bonds-rant-1",
-          "category": "trading",
-          "topic_zh": "債息向上聯儲局",
-          "topic_en": "Bonds Yield Rampage",
-          "text_zh": "睇個yield curve啦。兩年、十年、三十年全部扯高。Term premium又返嚟。Fed cut完又unprice返晒。又係學費。🙏",
-          "text_en_b1": "Bonds—bonds—bonds—bonds. Watch the screen. Two-year, ten-year, thirty-year—up they go. Basis points going lunatic. Fed cuts, that was the trade. Price it in, now unprice it. Term premium is back. The bond market is pricing the whole curve higher again, and nobody on /biz/ knows where it stops.",
-          "text_en_b2": "Bonds, bonds, bonds—keeping your eyes glued to the yield curve is non-negotiable right now. The two-year, ten-year and thirty-year are all grinding higher, with basis points behaving like they've gone completely off the rails. The Fed cut narrative was the trade, everyone priced it in, and now the market is unpricing the entire move. Term premium is creeping back, and the bond market is pushing the whole curve up again—nobody on /biz/ has the faintest clue where it stops.",
-          "text_en_c1": "Bonds, again, of all the things. The yield curve is the only thing that actually matters right now: two-year, ten-year, thirty-year, every tenor climbing in concert. Basis points have gone genuinely berserk as term premium resurfaces with a vengeance, undoing every basis point the Fed cuts supposedly gifted us. The market has fully priced in the cuts and is now pricing them right back out, which is a fairly humiliating reminder of how tuition fees accumulate. /biz/, characteristically, has no coherent thesis about where the rout actually stops, and the smarter traders have stopped pretending otherwise.",
-          "text_en_c2": "Look at the yield curve, if you would. The two-year, the ten-year, the thirty-year—each one has been dragged higher in what can only be described as a synchronised rout across the entire complex. Basis points are behaving quite irrationally, and the term premium, long dormant, has reasserted itself with a vengeance. The Federal Reserve's cuts, which the market had so confidently priced in, are now being unpriced with comparable conviction, a textbook case of whipsaw positioning. What we are witnessing is the bond market repricing the whole curve upward, and, rather predictably, the denizens of /biz/ possess neither the analytical framework nor the intestinal fortitude to divine where, precisely, this move ultimately exhausts itself.",
-          "source_url": "https://boards.4chan.org/biz/thread/62691782",
-          "source_hint": "/biz/ OP yelling at the bond screen as yields rip higher"
-        },
-        {
-          "id": "biz-penny-doge-2",
-          "category": "trading",
-          "topic_zh": "廢除一仙狗部",
-          "topic_en": "Penny Killed By Doge",
-          "text_zh": "Doge廢咗個penny。US Mint明明係全美國最賺錢嘅政府部門，cut off your nose to spite your face。又一個nothing burger。wtf。",
-          "text_en_b1": "Getting rid of the penny was a stupid token effort by Doge to show progress. The US Mint is literally the only profitable branch of government, a cut-off-your-nose-to-spite-your-face change. /biz/ says it is emblematic of the hair-brained stunts and nothing-burgers coming out of this administration. Markets shrugged it off today.",
-          "text_en_b2": "Scrapping the penny was the kind of half-baked token gesture Doge loves to trumpet as progress. The US Mint is genuinely the only profitable branch of the entire federal government, so gutting it is the textbook definition of cutting off your nose to spite your face. Plenty on /biz/ reckon it's emblematic of the hair-brained stunts and nothing-burger announcements rolling out of this administration. Markets, for their part, simply shrugged it off at the close.",
-          "text_en_c1": "Abolishing the penny was yet another performative gesture by Doge designed to generate headlines rather than genuine savings, and the irony borders on the absurd. The US Mint remains, by any reasonable accounting, the only self-funding agency in the federal government, which makes the whole exercise tantamount to cutting off your nose to spite your face. On /biz/ it is being read as emblematic of the administration's hair-brained stunts, a textbook nothing-burger whose announcement the markets shrugged off within minutes. The symbolism outweighs the substance, as usual.",
-          "text_en_c2": "Doge's abolition of the penny ought to be regarded as little more than a performative gesture, a token sacrifice designed to project fiscal rectitude without actually delivering any. The United States Mint, lest we forget, remains the singular branch of the federal government that consistently generates revenue, which renders this particular intervention a textbook exercise in cutting off one's nose to spite one's face. On /biz/, the consensus is that the move epitomises the administration's predilection for hair-brained stunts and theatrical nothing-burgers, initiatives engineered for the cameras rather than for sound policymaking. Equity markets, characteristically indifferent to such frippery, responded with a collective shrug.",
-          "source_url": "https://boards.4chan.org/biz/thread/62692963",
-          "source_hint": "/biz/ OP mocking the penny abolition as a Doge stunt"
-        },
-        {
-          "id": "biz-canada-eu-3",
-          "category": "hk/news",
-          "topic_zh": "加拿大歐盟化",
-          "topic_en": "Canada EU Spiral",
-          "text_zh": "睇完真係笑左。Canada跟歐盟玩法，no voting rights，austerity，再elect極端政府。Greece 2.0。HK樓市都係咁。🧐",
-          "text_en_b1": "Canada joins the EU associate club and literally has no voting rights while France and Germany strip what little economy it has left. The rest of Europe then austeritys it to death, Canada complains, elects an extremist government, and still cannot do anything because EU associate means no say. /pol/ calls it Greece 2.0.",
-          "text_en_b2": "Reading through the whole saga is genuinely laughable—Canada effectively joins the EU associate club and discovers it has zero voting rights while France and Germany quietly strip away what little economic dignity it has left. The rest of Europe then proceeds to austerity it into the ground, Canada whinges about it, the electorate swings toward an extremist government, and still nothing changes because associate membership means precisely zero say. /pol/ is calling it Greece 2.0, and honestly, the parallels are hard to ignore.",
-          "text_en_c1": "Canada has formally entered the EU associate orbit, and the details, once you read past the spin, are genuinely farcical. Associate membership grants no voting rights whatsoever, while France and Germany proceed to hollow out whatever remains of Canadian industrial capacity. Austerity will follow, public discontent will metastasise, and an extremist government will duly be elected, only to discover that its hands are tied by the very arrangement it inherited. /pol/ is calling it Greece 2.0, and honestly, the analogy holds up uncomfortably well.",
-          "text_en_c2": "The spectacle of Canada acceding to associate membership in the European Union is, frankly, risible when one examines the terms with any rigour. Ottawa acquires precisely zero voting rights while France and Germany proceed to dismantle what remains of the Canadian economic base, extracting concessions through the sort of diplomatic choreography that Greece endured a decade ago. Austerity will be imposed, complaints will ensue, an extremist government will be duly elected, and yet Canada will remain structurally powerless, constrained by a framework in which consultation is offered but consent is never granted. /pol/ has already christened it Greece 2.0, and the comparison, however unflattering, is not entirely without merit.",
-          "source_url": "https://boards.4chan.org/biz/thread/62695951",
-          "source_hint": "/biz/ OP warning Canada is becoming another Greece under EU rule"
-        },
-        {
-          "id": "g-domestic-bots-4",
-          "category": "tech/ai",
-          "topic_zh": "家用機械人樣衰",
-          "topic_en": "Ugly Home Robots",
-          "text_zh": "Boston Dynamics似監倉，Tesla似Pepsiman。邊個整到好似貓女maid咁靚嘅AI robot出嚟？我課金。👍",
-          "text_en_b1": "Is any company actually working on domestic robots that look appealing, like aesthetically? China has uncanny AI Instagram-face bots, Boston Dynamics has claw dogs and bipedal cage-men, Tesla has Pepsiman bots, and Honda has the Awesomo. Nobody is making a cute maid or catgirl that runs around doing laundry without creeping people out.",
-          "text_en_b2": "Is anybody actually developing domestic robots that look visually appealing rather than deeply unsettling? China is churning out uncanny Instagram-face bots, Boston Dynamics keeps rolling out claw-dogs and bipedal prison-inmates, Tesla is going full Pepsiman, and Honda gave us the Awesomo. Despite all that, not a single firm seems willing to ship a catgirl or a maid that runs around doing the laundry without creeping people out—somebody needs to crack that, because I'd happily throw money at it.",
-          "text_en_c1": "Is any firm genuinely pursuing domestic robotics that prioritises aesthetics alongside utility, or are we condemned to a future of uncanny contraptions? China churns out those unsettling Instagram-face bots, Boston Dynamics remains committed to claw-toothed quadrupeds and bipedal figures that resemble prison inmates, Tesla's Optimus looks like Pepsiman reimagined, and Honda's Asimo is a museum piece at best. Nobody, it seems, has the appetite to ship a catgirl-styled maid capable of folding laundry without inducing existential dread. Whoever cracks that brief first will, frankly, take my money without hesitation.",
-          "text_en_c2": "Is any firm genuinely attempting to produce domestic robots possessing genuine aesthetic appeal, as opposed to the dystopian bric-à-brac currently saturating the market? China has given us uncanny valley Instagram-face automata, while Boston Dynamics offers claw-footed quadrupeds and bipedal units that resemble escaped inmates. Tesla's Optimus evokes, somewhat inexplicably, the Japanese mascot Pepsiman, and Honda's abandoned Asimo remains the platonic ideal of endearing robotics. Nobody, it seems, has had the temerity to develop a fetching catgirl or a comely maid capable of performing laundry duties without inducing existential discomfort. Should such a contrivance materialise, my subscription shall be immediate and unconditional.",
-          "source_url": "https://boards.4chan.org/g/thread/109833569",
-          "source_hint": "/g/ OP asking why all home robots look cursed"
-        },
-        {
-          "id": "g-astra-robot-5",
-          "category": "tech/ai",
-          "topic_zh": "GPT-6 Astra識郁",
-          "topic_en": "GPT-6 Astra Robot Skills",
-          "text_zh": "GPT-6 Astra勁到癲。zero-shot已經識control robot做物理task，配合π0.5喺RoboDojo贏晒。靠AI續命。btw，我份工幾時畀佢取代？😬",
-          "text_en_b1": "OpenAI's latest model, GPT-6 Astra, is insanely good at manipulating robots to do physical tasks and nobody on /g/ knows why. An anonymous Galaxy General evaluation report shows zero-shot generalization on the RoboDojo benchmark, and pairing Astra with the robot model π0.5 beat every prior setup. Nvidia's Jensen would call this made up.",
-          "text_en_b2": "GPT-6 Astra is, quite frankly, absurdly capable when it comes to steering robots through physical tasks, and nobody on /g/ has the foggiest idea why. A leaked Galaxy General evaluation report reportedly demonstrated near-perfect zero-shot generalization on the RoboDojo benchmark, while pairing Astra with the π0.5 robot model apparently demolished every prior setup. Jensen Huang over at Nvidia would probably dismiss the whole thing as fabricated. Meanwhile, half of /g/ is quietly wondering when their own job is getting taken.",
-          "text_en_c1": "OpenAI's GPT-6 Astra is, by all accounts, genuinely unsettling in its proficiency at robotic manipulation, and the benchmarks only reinforce that impression. An anonymised Galaxy General evaluation report has surfaced demonstrating zero-shot generalisation on RoboDojo tasks, and when Astra is paired with the π0.5 control model, the combined system decisively outperforms every prior configuration. Nvidia's Jensen would presumably dismiss the figures as fabricated, but the empirical gap is now difficult to explain away. If this trajectory holds, my own role is on a fairly short runway.",
-          "text_en_c2": "OpenAI's freshly unveiled GPT-6 Astra demonstrates capabilities in robotic manipulation that border on the hallucinatory, at least according to the anonymous Galaxy General evaluation report circulating on /g/. Zero-shot generalisation on the RoboDojo benchmark is itself remarkable, but pairing Astra with the π0.5 robotic foundation model produced results that comprehensively outperformed every prior configuration, a feat that Jensen Huang would presumably attribute to hallucinations in the press release. The broader implication, that white-collar cognitive labour may be approaching its own inflection point, has not been lost on the readership, many of whom are now earnestly inquiring, with a measure of gallows humour, when their own positions shall be rendered superfluous.",
-          "source_url": "https://boards.4chan.org/g/thread/109835992",
-          "source_hint": "/g/ OP hyped about GPT-6 Astra robotics results"
-        },
-        {
-          "id": "fit-deadlift-220-6",
-          "category": "mma/fitness",
-          "topic_zh": "Deadlift 220kg",
-          "topic_en": "Deadlift 220 Double",
-          "text_zh": "今日返gym做返deadlift。220kg兩下，PR 240kg。肥仔信你睇到未？我仲要再試245。💪",
-          "text_en_b1": "I went deadlifting again and pulled 220 kg for a double. I think I am just good at single reps, not higher reps. My previous PR was 240 kg and I have gotten stronger since, so next time I should try 245 or 250 kg. This was my first deadlift session in over a month, only kettlebell clean and press at home before this.",
-          "text_en_b2": "Got back to the gym today and pulled 220 kg for a clean double on deadlift, which I'm quietly chuffed about. I've always reckoned I'm built for heavy singles rather than grinding out high-rep sets, and my previous PR sat at 240 kg, so next session I'll likely push for 245 or even 250. This was genuinely my first proper deadlift session in well over a month—just kettlebell cleans and overhead pressing at home before today.",
-          "text_en_c1": "Returned to the gym today after what felt like an eternity and finally put myself through a proper deadlift session, pulling 220 kilograms for a clean double. My single-rep ceiling has always felt like my stronger suit, although I suspect that is partly a function of conditioning rather than raw strength. My previous PR sat at 240, and given the strength gains I have clearly accumulated since, I should be aiming for 245 or even 250 next time out. Prior to today, my training had consisted entirely of kettlebell clean and press work at home.",
-          "text_en_c2": "I returned to the gym today after a hiatus of over a month, during which time the only meaningful resistance training I had undertaken consisted of kettlebell cleans and presses performed at home. The session's principal event was a deadlift of 220 kilograms for a double, executed with what I can only describe as adequate, if unspectacular, form. My previous personal record stands at 240 kilograms, and given the tangible gains in strength I have accrued through supplementary work, I intend to make an attempt at either 245 or 250 kilograms during the subsequent session, provided my central nervous system consents to cooperate. The trajectory remains upward.",
-          "source_url": "https://boards.4chan.org/fit/thread/77504262",
-          "source_hint": "/fit/ OP posting a 220 kg deadlift double and chasing a new PR"
-        },
-        {
-          "id": "a-yuru-camp-7",
-          "category": "anime/culture",
-          "topic_zh": "搵埋露營重溫",
-          "topic_en": "Yuru Camp Rewatch",
-          "text_zh": "Yuru Camp第四季春天出。等緊嗰陣不如每星期重溫兩集。Comfy到爆，睇完可以頂多一日OT。🧘",
-          "text_en_b1": "Gentlemen, we have decided to do a rewatch of Yuru Camp. In preparation for season four, which we anticipate will air in spring of next year, we shall watch one to two episodes per week of the first three seasons, plus the OVAs and the movie at the right time. It may be your first time or your tenth, fun will be had.",
-          "text_en_b2": "Right then, gentlemen, the long-overdue Yuru Camp rewatch is officially back on the table while we wait for season four to drop in spring. The plan is to chip away at one to two episodes a week across the first three seasons, with the OVAs and the movie slotted in at the appropriate moments down the line. Whether it's your first run-through or your tenth, the thing is relentlessly comfy—wholesome enough to soften the blow of another overtime shift.",
-          "text_en_c1": "Gentlemen, a proposal has been put before the council: a collective rewatch of Yuru Camp, timed to coincide with the impending release of season four in the spring. Between now and then, we shall convene weekly, working through one to two episodes of the first three seasons, with the OVAs and the theatrical film scheduled at the appropriate junctures. Whether this constitutes your inaugural viewing or your umpteenth, the consensus is unanimous that comfort of this calibre ought to be rationed responsibly, lest it lose its restorative potency after a particularly gruelling overtime shift.",
-          "text_en_c2": "Gentlemen, a proposition has been advanced, and after due deliberation we have elected to embark upon a communal rewatch of Yuru Camp in anticipation of the forthcoming fourth season, which we anticipate shall grace our screens sometime during the spring of the coming year. Our prescribed regimen consists of one to two episodes per week drawn from the initial three seasons, with the various OVAs and the theatrical film to be slotted in at the appropriate junctures. Whether this constitutes your inaugural viewing or your tenth, the consensus is that conviviality shall be the order of the day, and the resultant serenity ought to fortify us against an additional day of overtime, however reluctantly endured.",
-          "source_url": "https://boards.4chan.org/a/thread/290855593",
-          "source_hint": "/a/ OP organizing a Yuru Camp rewatch ahead of S4"
         }
       ]
     }
