@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "days": [
+    {
+      "date": "2026-11-06",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "t1",
+          "category": "trading",
+          "topic_zh": "兩百萬美元存放",
+          "topic_en": "Saving $200K",
+          "text_zh": "我係SEA嘅brownoid。20萬美元喺第一世界標準睇落冇乜，但喺我哋呢度夠四代人食。Bitcoin、time deposit，定gold bars邊個最安全？真係唔知，lol。",
+          "text_en_b1": "I’m a brownoid from SEA, and $200,000 is nothing by first-world standards. Here, it could feed my family for four generations. People are telling me to buy Bitcoin, use a time deposit, or buy gold bars. I don’t know which option is safest.",
+          "text_en_b2": "I’m a brownoid from Southeast Asia, so $200,000 is nothing by first-world standards, although here it could feed my family for four generations. People keep telling me to put it into Bitcoin, a time deposit, or gold bars, and I honestly have no idea which option is safest. Each choice carries different risks, especially when the money is meant to last for decades. What would you actually do with it, lol?",
+          "text_en_c1": "I’m a brownoid from Southeast Asia, so $200,000 may sound unremarkable by first-world standards; where I’m from, however, it could keep my family fed for four generations. I’m considering Bitcoin, a time deposit, or physical gold bars, but I genuinely have no idea which option offers the best protection. Each carries risks: crypto can be brutally volatile, deposits are exposed to currency and banking risks, and bullion has storage and liquidity issues. What would you choose if your family’s financial security depended on the decision?",
+          "text_en_c2": "I’m a brownoid from Southeast Asia, and, judging by first-world standards, $200,000 isn’t especially remarkable. Here, however, it could sustain my family for four generations. Everyone keeps advising me to put it into Bitcoin, lock it away in a time deposit, or convert it into gold bars, but I genuinely have no idea which option offers the greatest security. Preservation, liquidity and returns all seem to pull in different directions, while confidence in any one system can evaporate overnight. What would you do with the money?",
+          "source_url": "https://boards.4chan.org/biz/thread/62865615",
+          "source_hint": "An anon asks how to secure $200K for the long term."
+        },
+        {
+          "id": "t2",
+          "category": "trading",
+          "topic_zh": "Tesla股價崩跌",
+          "topic_en": "Tesla Crashes",
+          "text_zh": "Tesla 無啦啦跌11%。成間公司根本就係一個meme。wtf。靠AI續命，最後又係帳面見真章。",
+          "text_en_b1": "Tesla crashed 11% for no fucking reason. The entire company is a meme. Sometimes the stock just decides to become a meme again, and the charts show why fundamentals cannot control everything.",
+          "text_en_b2": "Tesla crashed 11% for absolutely no fucking reason, because the entire company is basically a meme. Sometimes the stock just decides to become a meme again, although no amount of analysis can explain why. Even if the company tries to keep itself alive through AI, the charts eventually show the truth: fundamentals cannot control everything, and pure speculation can drag the price down overnight.",
+          "text_en_c1": "Tesla crashed 11% for no fucking reason, because the entire company is basically a meme. Sometimes the stock simply decides to become a meme again, and the charts demonstrate why fundamentals cannot control everything. Even if the business appears sound on paper, market sentiment can overwhelm logic in an instant. The ridiculous part is that AI is apparently supposed to keep the company alive, yet the moment reality arrives, the numbers have the final say. Fundamentals matter, apparently, as long as the charts feel like cooperating.",
+          "text_en_c2": "Tesla crashed by 11% for absolutely no fucking reason, because the entire company is basically a meme. Every so often, the stock remembers that fact and resumes its favourite hobby: becoming a meme again. The charts make it painfully clear that fundamentals cannot possibly explain everything. Valuation apparently rests as much on sentiment, online enthusiasm and sheer narrative momentum as it does on earnings, yet somehow the market continues pretending otherwise. A company can coast on artificial intelligence for a while, but sooner or later the numbers put the lie on trial.",
+          "source_url": "https://boards.4chan.org/biz/thread/62861785",
+          "source_hint": "A biz thread complains about Tesla’s sudden 11% crash."
+        },
+        {
+          "id": "c1",
+          "category": "civil/structure",
+          "topic_zh": "廉價結構房屋",
+          "topic_en": "Cheap Sound Housing",
+          "text_zh": "年輕人應該有cheap、abundant housing嘅選擇。Mass-scale生產小型manufactured houses同studio apartments，結構仍然sound，價錢就得盡量平。點解 regulations 唔肯咁做？原來係要keep inflating boomer property values，靠，咁撈法真係fucked up。",
+          "text_en_b1": "People should have the option of cheap, abundant housing, especially for young people. Small manufactured houses and studio apartments could be mass-produced and made structurally sound. But regulations prevent this and keep inflating boomer property values. It’s really fucked up.",
+          "text_en_b2": "People, especially young people, should have access to cheap and abundant housing. Small manufactured houses and studio apartments could be mass-produced while remaining structurally sound, so why won’t regulations allow that? Instead, the system keeps propping up boomer property values and restricting the supply of affordable homes. This arrangement is completely fucked up, because it transfers enormous wealth to older property owners while leaving younger people behind.",
+          "text_en_c1": "People, especially young people, should have access to cheap and abundant housing. Small manufactured houses and studio apartments could be mass-produced, provided they remain structurally sound and are sold for the lowest practicable price. Yet regulations prevent that kind of development and, in doing so, keep inflating older people’s property values. If the planning system were genuinely intended to increase housing supply, it would permit these simple, high-density alternatives instead of protecting scarcity. That arrangement is thoroughly fucked up, particularly for anyone who cannot afford the inflated market.",
+          "text_en_c2": "People, particularly young people, should have access to cheap and abundant housing rather than being priced out of the market altogether. Small manufactured houses and studio apartments could be mass-produced, provided they remain structurally sound and are sold for as little as possible. Why can’t regulations permit that? The obstacle is a deeply entrenched system that keeps inflating older generations’ property values and treats scarcity as preferable to construction. The result is grotesque: abundant land and abundant labour are converted into unaffordable boxes while established owners rake in the gains. It is comprehensively fucked up.",
+          "source_url": "https://boards.4chan.org/biz/thread/62865045",
+          "source_hint": "The OP argues for cheaper mass-produced housing and criticizes regulations."
+        },
+        {
+          "id": "ai1",
+          "category": "tech/ai",
+          "topic_zh": "AI後工作方案",
+          "topic_en": "Plan After AI",
+          "text_zh": "如果LLM真係replace你，你之後有咩solid plan？Farming？Trades？講真，工程、site work同專業牌都可能被AI夾擊。到時再算，ok。",
+          "text_en_b1": "Do you have a solid plan after LLMs replace you? Farming? Trades? This question landed in the tech section tonight, and there are no clear answers. Engineering and site work may change too, so having a practical backup would be smart.",
+          "text_en_b2": "Do you have a solid plan for after LLMs replace you at work? Maybe farming or trades? The question appeared in the tech section tonight, and there were no clear answers, although everyone seemed to have suggestions. Engineering, site work, and jobs requiring professional qualifications could all be affected by AI, while practical work may remain harder to automate. Having a realistic backup plan would therefore be sensible, even if you hope it never becomes necessary.",
+          "text_en_c1": "What is your solid plan if large language models eventually replace you? Farming, trades, or something else entirely? The question appeared in the tech section tonight, and there are no definitive answers. Engineering and site work may also be reshaped by AI, since routine technical tasks and skilled labour can both be automated or delegated to machines. If your current profession depends on knowledge that can be generated at scale, waiting until displacement is imminent would be a mistake. A practical backup, developed while you still have time and income, would be considerably wiser.",
+          "text_en_c2": "Suppose large language models really do replace you at work. What, exactly, is your solid plan? Farming? Skilled trades? The question appeared in the tech section tonight, and there were no clear answers, because even supposedly secure paths are exposed. Engineering may be automated, site work may be reshaped by robotics, and professional certification can no longer guarantee that a trade will remain untouched. Of course, one could defer the problem and work it out when the disruption actually arrives, but that would be rather convenient. A practical backup, cultivated while one still has time and income, would be considerably wiser.",
+          "source_url": "https://boards.4chan.org/g/thread/110229672",
+          "source_hint": "A tech thread asks what people will do after LLM replacement."
+        },
+        {
+          "id": "hk1",
+          "category": "hk/news",
+          "topic_zh": "AI股價泡沫",
+          "topic_en": "AI Market Hype",
+          "text_zh": "點解要理股票market crash？AI-related business根本冇direct profit from AI，AI只係hype machine。SpaceX更加用Starlink legitimate profit養自己，再包裝成AI business，估值先可以到trillion dollars。股票本來係means for an end，AI business個end反而係stock valuation，market cap同AI冇半個銀仔關係，膠膠吶。",
+          "text_en_b1": "Why care about the stock market crash? AI-related businesses lack direct profit from AI. AI is just a hype machine. SpaceX uses legitimate Starlink profit to present itself as an AI company worth a trillion dollars. For AI businesses, the stock valuation becomes the actual end.",
+          "text_en_b2": "Why should anyone care about a stock market crash when many AI-related businesses generate no direct profit from AI? AI has become little more than a hype machine. SpaceX, for example, uses legitimate profits from Starlink to present itself as an AI business and justify a trillion-dollar valuation. This turns the usual relationship inside out: the stock valuation becomes the end, whereas the market cap has virtually nothing to do with AI itself. Pretty ridiculous, honestly.",
+          "text_en_c1": "Why should anyone care about a stock-market crash when AI-related businesses generate no direct profit from AI? AI is merely a hype machine. SpaceX, for example, uses legitimate profits from Starlink to present itself as an AI company capable of reaching a trillion-dollar valuation. Stocks are supposed to be a means to an end, but for many supposed AI businesses, the end is the stock valuation itself. If market capitalisation has no meaningful connection to AI revenue or performance, then investors are effectively paying for a narrative rather than a functioning enterprise.",
+          "text_en_c2": "Why should anyone care about a stock-market crash when many AI-related businesses generate no direct profit from AI itself? AI has become little more than a hype machine, capable of attaching an extraordinary valuation to companies whose economics have little obvious connection to the technology. SpaceX offers the clearest example: legitimate Starlink profits support the business, while the enterprise is repackaged as an AI company so its valuation can reach a trillion dollars. Stocks are ordinarily merely a means of financing an enterprise, but for many AI businesses the share price has become the destination itself. Market capitalisation and artificial intelligence are connected by approximately half a cent.",
+          "source_url": "https://boards.4chan.org/pol/thread/545694031",
+          "source_hint": "The OP claims AI companies rely more on market valuation than direct AI profits."
+        },
+        {
+          "id": "f1",
+          "category": "mma/fitness",
+          "topic_zh": "新手健身白丸",
+          "topic_en": "Beginner Fitness Thread",
+          "text_zh": "Whitepill thread：hot cocoa係最佳pre-workout。任何人都可以開始lifting，唔需要prior sports experience。少過六個月可以逃出skinnyfat mode；一個少人會notice你lift。Beginner programming其實piss easy，咩都work。Diet一樣容易，eat some protein，avoid fast food、candy同soda。",
+          "text_en_b1": "Hot cocoa is the best pre-workout edition. Anyone can start lifting without prior sports experience. You can escape skinnyfat mode in less than six months, and people may notice within one year. Beginner programming is easy: eat some protein and avoid fast food, candy, and soda.",
+          "text_en_b2": "Whitepill thread: hot cocoa is the best pre-workout. Anyone can start lifting without prior sports experience, and after less than six months, you can escape skinnyfat mode; people may start noticing that you lift within a year. Beginner programming is piss easy, since almost anything works at first. The diet is just as straightforward: eat some protein, and cut back on fast food, candy, and soda.",
+          "text_en_c1": "Hot cocoa is the best pre-workout edition. Anyone can begin lifting without any prior sporting experience, and fewer than six months of consistent training should be enough to escape skinnyfat mode; within a year, people may notice the difference. Beginner programming is pleasantly easy, and virtually any sensible routine will produce results. Diet is no more complicated: eat some protein, avoid fast food, candy, and soda, and stay reasonably consistent. You do not need an elite trainer, a complicated split, or perfect discipline; you merely need to start and remain accountable.",
+          "text_en_c2": "Whitepill thread: hot cocoa is the finest pre-workout. Anyone can begin lifting without the slightest prior sporting experience, and beginner programming is, frankly, piss easy; almost anything works provided you remain consistent. In under six months, you can begin escaping skinnyfat mode, although most people will need nearly a year before they actually notice the change. Diet is equally straightforward: eat sufficient protein, avoid fast food, candy and soda, and stop overcomplicating what is fundamentally a basic routine. The initial barrier is largely psychological rather than physical, so begin modestly and build from there.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "A beginner-focused fitness thread promotes lifting, simple diet, and consistency."
+        },
+        {
+          "id": "a1",
+          "category": "anime/culture",
+          "topic_zh": "乱馬故事時間",
+          "topic_en": "Ranma Storytime",
+          "text_zh": "Ranma 1/2 storytime。趁新anime season出咗，一齊storytime manga，方便anon比較同理解，或者同時用唔同方式體驗個story。今日係chapter 81至82。",
+          "text_en_b1": "Ranma 1/2 storytime. I’m going through the manga alongside the new anime season so anons can compare and contrast, or experience the story in several different ways at the same time. Today: chapters 81 and 82.",
+          "text_en_b2": "Ranma 1/2 storytime. Since the new anime season has started, I’m going through the manga alongside it so anons can compare and contrast the two versions, or experience the story in different ways at the same time. It is a convenient format because one adaptation may handle the material differently from the other, although both are worth following. Today’s chapters are 81 and 82, so get ready for another chaotic batch of scenes.",
+          "text_en_c1": "It’s Ranma 1/2 storytime. I’m going through the manga alongside the new anime season, which gives anons a chance to compare the two adaptations, understand the story more fully, or experience the same narrative through different media at once. The pacing, humour, and visual presentation may vary considerably between versions, but the underlying material remains the same. For anyone starting with the anime or catching up with the original series, this provides a useful reference without implying that one approach is necessarily superior. Today’s chapters are 81 and 82.",
+          "text_en_c2": "It’s Ranma 1/2 storytime. With the new anime season now underway, I’m going through the original manga alongside it so that anons can compare and contrast the two adaptations, clarify details that either version handles differently, or experience the story in two distinct ways at once. Translation, pacing and tone may change the texture of individual scenes, while the manga’s panels offer a visual rhythm that animation necessarily interprets rather than reproduces. Today’s instalment covers chapters 81 and 82, so we can continue the comparison from precisely where the previous discussion left off.",
+          "source_url": "https://boards.4chan.org/a/thread/291982840",
+          "source_hint": "The OP begins a Ranma manga storytime linked to the new anime season."
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "There is something quietly restorative about revisiting the animation of one's formative years, a sentiment that contemporary seasonal offerings, for all their technical refinement, seldom manage to replicate. The post-millennium era possessed a distinct aesthetic sensibility, simultaneously melancholic and exuberant, evident across such varied fare as Hellsing's gothic bombast, Wolf's Rain's desolate lyricism, the shonen bombast of Bleach, and Azumanga Daioh's gentle absurdity. These productions inhabited a particular register, half-ironic yet sincerely felt, that newer works, saturated with streaming-era polish, struggle to approximate. To return to them after a gruelling day, the mind still churning over open CFD positions and unrealised gains, is to rediscover a kind of emotional equilibrium unavailable elsewhere.",
           "source_url": "https://boards.4chan.org/a/thread/290972310",
           "source_hint": "/a/ thread recommending older anime rewatches"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-canada-greece",
-          "category": "trading",
-          "topic_zh": "加國淪希債",
-          "topic_en": "Canada as Greece",
-          "text_zh": "啱啱睇完個post 真係笑咗😂 法國德國直接食晒你 加拿大成個經濟就係撐政府開支 最後又係austerity 自己搞死自己 仲要選個極端政府返嚟🤡 又係學費囉 ok 算啦",
-          "text_en_b1": "The thread says Canada has literally no voting rights. France and Germany steal what little Canada produces. The whole economy exists to prop up extreme government spending on welfare. Then austerity kills it again. Canada elects an extremist government but still cannot do anything. EU association means they have no real control. The poster calls Canada another Greece in the making.",
-          "text_en_b2": "The original poster argues that Canada has effectively zero voting leverage within the EU. France and Germany keep siphoning off whatever Canada actually produces, while the entire economy is essentially propped up to sustain extreme government spending on welfare programmes. Austerity will eventually strangle it again, and although Canadians may vote in an extremist government, EU association strips away any meaningful control. The thread is calling Canada another Greece in the making, warning that austerity will collapse under its own weight once more.",
-          "text_en_c1": "The thread argues that Canada effectively wields no voting rights whatsoever, since France and Germany absorb whatever Canada manages to produce. What passes for the economy is little more than a mechanism for sustaining extreme government expenditure on welfare programmes. When austerity inevitably follows, it once again strangles the very thing it was meant to preserve. Even if Canadians were to elect a genuinely radical administration, nothing would materially change, because EU association forecloses any meaningful autonomy. The poster therefore concludes that Canada is essentially Greece in waiting. If history is any guide, the next round of austerity will prove just as self-defeating as the last.",
-          "text_en_c2": "The poster's thesis, delivered with characteristic 4chan irreverence, reduces Canada to a fiscal vassal state. France and Germany, he argues, effectively expropriate whatever productive surplus the Canadian economy manages to generate. What remains is channelled into extravagant entitlement programmes, a self-perpetuating cycle in which swelling public outlays eventually provoke the very austerity measures that strangle growth. Having voted in an extreme administration, Canadians discover, to no avail, that EU-adjacent status strips them of meaningful policy autonomy. The historical analogy is unmistakable: Greece, reheated and served across the Atlantic. Whether one finds the comparison hyperbolic or merely unflattering, the underlying logic is depressingly familiar: expansion, retrenchment, collapse, repeat.",
-          "source_url": "https://boards.4chan.org/biz/thread/62695951",
-          "source_hint": "/biz/ rant comparing Canada's economy to Greece under EU-style austerity"
-        },
-        {
-          "id": "biz-mortgage-warehouse",
-          "category": "trading",
-          "topic_zh": "買樓絕望",
-          "topic_en": "Can't Get Pre-Approved",
-          "text_zh": "睇完好sad 個poster cs degree都揸唔到 去做warehouse 60K蚊house又過唔到pre-approval Zillow個system自動scan你個bank 真係離譜🤡 美國咁就叫做upward mobility? 我喺HK都冇咁慘 ok",
-          "text_en_b1": "A mid-20s guy with a CS degree just got a warehouse job. He tried to buy a $60,000 house, a 3-bed 1-bath in a decent-ish neighborhood facing foreclosure. He went through Zillow's automated pre-approval system. The system scanned his bank accounts and paystubs and rejected him. He cannot even get pre-qualified for a mortgage. The thread is asking what to do next.",
-          "text_en_b2": "A guy in his mid-twenties with a CS degree ended up landing a warehouse job. He attempted to buy a $60,000 three-bed one-bath place in a fairly decent neighbourhood that was facing foreclosure, so he ran Zillow's automated pre-approval system. Although the platform scanned his bank accounts and paystubs straight away, he still got rejected outright and cannot even get pre-qualified for a basic mortgage. The thread is asking what realistic options he has left, since upward mobility looks grim.",
-          "text_en_c1": "A man in his mid-twentics, who holds a computer science degree, has been compelled to take a warehouse position after months of fruitless searching. He set his sights on a three-bedroom, one-bathroom property listed at sixty thousand dollars in a reasonably maintained neighbourhood that was facing foreclosure. Upon submitting his details through Zillow's automated pre-approval pipeline, the platform scanned his bank balances and recent paystubs before flatly rejecting him. He cannot even secure a preliminary qualification for a mortgage, let alone a firm offer. The thread is now inundated with replies asking what realistic recourse he has left, given that conventional lending channels appear to have closed entirely.",
-          "text_en_c2": "A computer science graduate in his mid-twenties, presumably primed for graduate-level employment, has instead taken a warehouse position. The property in question, a modest three-bedroom foreclosure listed at $60,000, ought to have been within reach of a buyer with stable, albeit unglamorous, income. Zillow's algorithmic pre-approval process, which scans applicants' bank accounts and paystubs in real time, returned an automatic denial. He cannot even obtain pre-qualification, let alone financing. The thread oscillates between commiseration and incredulity: if a credentialed worker scraping by on warehouse wages cannot secure a mortgage on a distress-sale home, the much-vaunted upward mobility of contemporary America begins to resemble a closed shop.",
-          "source_url": "https://boards.4chan.org/biz/thread/62685002",
-          "source_hint": "/biz/ anon locked out of the housing market by automated underwriting"
-        },
-        {
-          "id": "tech-hdd-died",
-          "category": "tech/ai",
-          "topic_zh": "10TB死火",
-          "topic_en": "10TB HDD Died",
-          "text_zh": "OMG 10TB HDD跌落枱就bye bye 十年嘅嘢一嘢冇晒 😭 Backup 10TB真係冇可能 雲端又唔可能 我啲trade journal都冇backup 真係要搞下先🙏 AI都未殺到我 個HDD先殺咗我",
-          "text_en_b1": "His external 10TB HDD fell off the desk. It clicked, spun up weird, took forever to be detected, and died. He lost a decade of rare files, paid content that is almost impossible to find, personal memories, all gone in one second. He admits he never backed up because backing up 10TB is a massive time sink. Cloud was never an option for him either.",
-          "text_en_b2": "His external 10TB HDD took a tumble off the desk and kicked the bucket immediately. It started clicking, spun up in some weird way, took forever to get detected, and then flatlined. He lost roughly a decade's worth of rare files, paid content that is basically impossible to track down these days, plus years of personal memories, all wiped out in one go.",
-          "text_en_c1": "His external ten-terabyte hard drive tumbled off the edge of his desk, clicked mournfully, spun up in an erratic fashion, and was eventually detected by the system only after an agonising delay, by which point the damage was irreversible. A decade's worth of irreplaceable files vanished in an instant: rare media that is virtually unobtainable today, paid content he cannot reacquire, and personal memories with no duplicates anywhere. He concedes, rather candidly, that he had never maintained backups, since mirroring ten terabytes is an enormous undertaking in both time and storage. Cloud services were never a viable option, given the sheer volume and the recurring costs involved.",
-          "text_en_c2": "An external 10-terabyte hard drive, dislodged from a desk by what must have been a casual accident, began emitting ominous clicks before failing to mount. A decade's worth of archival material, including rare files, purchased media that exists nowhere else, and irreplaceable personal memories, evaporated in an instant. The owner candidly acknowledges that his archival discipline was, charitably, negligent: mirroring ten terabytes is an undertaking of such magnitude that he perpetually deferred it. Cloud storage, meanwhile, was a non-starter for reasons of cost or privacy. The irony is exquisite: artificial intelligence has not yet displaced him, but gravity, in conjunction with mechanical failure, accomplished the feat without effort.",
-          "source_url": "https://boards.4chan.org/g/thread/109823726",
-          "source_hint": "/g/ tech disaster thread, ten years of hoarding lost in one fall"
-        },
-        {
-          "id": "pol-el-nino",
-          "category": "hk/news",
-          "topic_zh": "El Nino怪獸",
-          "topic_en": "Godzilla El Niño",
-          "text_zh": "NOAA話今次El Nino有90%機會變Godzilla 75%破晒紀錄 咁香港落雨會更加癲🤡 雖然我唔係做水務 但drainage嗰邊一定on9 算啦 天氣我控制唔到 ok",
-          "text_en_b1": "Trump's NOAA now gives the developing El Niño over a 90 percent chance of becoming Godzilla strength. There is a 75 percent chance it will exceed every event on record. Manta rays and whale sharks are showing up along the California coast. Southern kelp forests are being destroyed. Salmon and cold-water food webs are moving north to escape.",
-          "text_en_b2": "Trump's NOAA is now giving the developing El Niño well over a 90 percent chance of reaching full Godzilla strength, and roughly a 75 percent chance of smashing every previous record. Manta rays and whale sharks have started turning up along the California coast, while southern kelp forests are getting hammered. Salmon and other cold-water species are pushing further north to escape the warming. The thread is asking what actually happened the last time an El Niño of this magnitude hit the Pacific.",
-          "text_en_c1": "Trump-era NOAA has placed the odds of the developing El Niño attaining Godzilla-class intensity at over ninety percent, with a seventy-five percent likelihood that it will surpass every recorded event in the historical dataset. The biological consequences are already manifesting: manta rays and whale sharks have begun appearing along the Californian coastline far earlier than usual. Southern kelp forests are being systematically decimated, while salmon populations and the broader cold-water food web are migrating northward in search of survivable conditions. The thread is now asking what actually transpired the last time an El Niño of comparable magnitude struck.",
-          "text_en_c2": "NOAA, presumably under fresh political stewardship, has assigned the nascent El Niño a 90 per cent probability of attaining what meteorologists are calling Godzilla-tier intensity, with a 75 per cent likelihood of exceeding every recorded analogue. The ecological indicators are already conspicuous: manta rays and whale sharks have begun appearing along the Californian coast, while southern kelp forests are bleaching out. Salmon and the broader cold-water food web are migrating poleward in what amounts to a wholesale redistribution of marine life. The thread, characteristically, devolves into speculation about what catastrophe occurred the last time an event of comparable magnitude struck.",
-          "source_url": "https://boards.4chan.org/pol/thread/542782609",
-          "source_hint": "/pol/ climate thread on a record-strength El Niño forecast"
-        },
-        {
-          "id": "fit-puffy-nips",
-          "category": "mma/fitness",
-          "topic_zh": "乳頭脂肪",
-          "topic_en": "Puffy Nipples",
-          "text_zh": "師兄咁我都係😭 點lean都仲有 醫生話gyno太細唔做手術 我都想問大佬們點算 肥仔信今日又叫我去gym 但我成日喺度grind mode🤡 ok 算啦 繼續舉鐵",
-          "text_en_b1": "He has always wanted a flat twink chest, no fat, just clean. But he was cursed with puffy nipples. No matter how much he leans out and benches, fat still sits on his chest. His doctor said the gyno is so minimal that nobody would operate on it. He is asking what to do next.",
-          "text_en_b2": "He has always wanted a flat, clean chest with no fat whatsoever, but he was basically cursed with puffy nipples right from the start. No matter how aggressively he leans out or how much he benches, stubborn fat keeps clinging to his chest. His doctor told him the gyno is so minimal that nobody would bother operating on it. While he knows someone will inevitably call him dyel, he points out that the photo is older and asks the thread what he should realistically do…",
-          "text_en_c1": "He has always aspired to the kind of flat, defined chest typically associated with twinks, free of any lingering adipose tissue. Unfortunately, he was dealt a genetic hand that left him with persistently puffy nipples. Regardless of how aggressively he leans out or how disciplined his bench press routine becomes, a stubborn layer of fat continues to cling to his pectorals. His physician has informed him that the gyno is so marginal that no surgeon would consent to operate. He is therefore appealing to the broader community for advice.",
-          "text_en_c2": "He aspires to the sort of austere, etiolated physique that boards celebrate: flat chest, paper-thin skin, definition bordering on the anatomical. Alas, his constitution has allocated him a modest deposit of adipose tissue directly beneath the areolae, a stubborn enclave that survives even aggressive cuts. A physician, consulted for an opinion, pronounced the gynaecomastia so marginal that surgical intervention would be clinically unjustifiable. He anticipates being dismissed as dyel and stipulates that the photograph pre-dates his current conditioning. The thread, sympathetic in aggregate, offers the bleak counsel of continued iron-pumping and patient recompounding.",
-          "source_url": "https://boards.4chan.org/fit/thread/77516189",
-          "source_hint": "/fit/ body-image thread about stubborn chest fat and mild gyno"
-        },
-        {
-          "id": "a-2000s-anime",
-          "category": "anime/culture",
-          "topic_zh": "千禧動畫",
-          "topic_en": "2000s Anime Thread",
-          "text_zh": "千禧動畫真係神 Hellsing Wolf's Rain Bleach Azumanga 全部都係我細個睇 真係懷念😭 而家連gym都冇時間睇新野 Gundam 00同埋Demon Slayer就ok啦 算啦 溫下習先",
-          "text_en_b1": "He says seasonal anime is fine but going back to older shows is more fun. He has been rewatching 2000s stuff lately. His list is Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh. He posts a Hellsing picture and asks what everyone else has been rewatching. The thread is a general 2000s anime nostalgia thread.",
-          "text_en_b2": "He reckons seasonal anime is fine, but going back to older shows hits differently and ends up being way more fun lately. He has been on a 2000s rewatch streak recently, working through titles like Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh. He even drops a Hellsing picture into the thread and asks what everyone else has been revisiting. The whole thread has basically turned into a 2000s anime nostalgia fest where people keep swapping recommendations and childhood memories.",
-          "text_en_c1": "He concedes the current seasonal slate is perfectly acceptable, yet finds himself gravitating back towards older titles with a kind of nostalgic inevitability. Over the past few weeks he has been steadily revisiting a curated selection of 2000s classics: Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh, each of which occupies a somewhat hallowed place in his memory. He has taken the liberty of attaching a Hellsing still for the thread's benefit and is now soliciting recommendations from the assembled anons. The thread itself has evolved into a broader meditation on 2000s anime nostalgia, with users trading reminiscences about forgotten favourites.",
-          "text_en_c2": "Seasonal simulcasts hold little appeal for him; the vintage catalogues of the early 2000s, by contrast, exert an almost gravitational pull. He has lately been revisiting the canon of that period: Hellsing, with its operatic violence; Wolf's Rain and its melancholic lupine wanderers; Bleach in its unjaded early arc; and Azumanga Daioh, an exercise in gently absurd high-school mundanity. He appends a still from Hellsing and solicits recommendations from the congregation. What emerges is less a recommendation thread than a collective act of remembrance, with contributors trading half-remembered opening sequences and forgotten character designers.",
-          "source_url": "https://boards.4chan.org/a/thread/290972310",
-          "source_hint": "/a/ nostalgia thread asking what 2000s anime people rewatch"
-        },
-        {
-          "id": "anime-aot-roast",
-          "category": "anime/culture",
-          "topic_zh": "巨人被噏",
-          "topic_en": "AOT Take",
-          "text_zh": "講真Attack on Titan個art真係好樣衰🤢 我都係睇Gundam 00同Demon Slayer 巨人我都覺得OK啦 唔明點解有人話deep lol 算啦 各花入各眼 ok",
-          "text_en_b1": "He says Attack on Titan is a stupid person's idea of a deep anime. On top of being extremely boring, it also has one of the worst art styles he has ever seen. He is posting the opinion to bait the thread. Other anons usually rush in to defend the show.",
-          "text_en_b2": "He insists Attack on Titan is essentially a stupid person's idea of what counts as a deep anime. Aside from being extremely boring to sit through, he argues it also has one of the ugliest art styles he has ever had to endure, and he is deliberately posting the take to bait the thread. Although he personally finds it overrated, he acknowledges that other anons usually rush in to defend the show whenever someone takes a swing at it.",
-          "text_en_c1": "He contends, with characteristic bluntness, that Attack on Titan represents precisely the sort of pseudo-profound drivel that less perceptive viewers mistake for genuine intellectual depth. Beyond what he considers the show's pretentious thematic scaffolding, he finds it insufferably dull and notes that its visual aesthetic ranks among the worst he has encountered in the medium. He is openly posting the take in deliberate provocation, fully aware that defenders of the series will materialise within minutes. Other anons, as predicted, have already begun streaming in to mount an impassioned defence of what they regard as a modern masterpiece.",
-          "text_en_c2": "Attack on Titan, he contends, represents the intellectually incurious viewer's notion of profundity, a spectacle mistaken for substance. Beyond the alleged thematic bankruptcy, the production design strikes him as aesthetically retrograde, the character work derivative, and the pacing gruelling. The post is, by his own admission, bait: he anticipates the Pavlovian rush of defenders descending to enumerate the show's narrative virtues. That they will arrive, citations in hand, is itself a small confirmation of his thesis. Aesthetic judgement, after all, is rarely arbitrated by argument; it is simply enumerated, repeatedly, until one side wearies.",
-          "source_url": "https://boards.4chan.org/a/thread/291010448",
-          "source_hint": "/a/ contrarian roast of Attack on Titan's art and depth"
         }
       ]
     }

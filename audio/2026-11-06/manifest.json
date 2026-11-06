@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-06",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "t1",
+      "topic_en": "Saving $200K",
+      "topic_zh": "兩百萬美元存放",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t1-b1.mp3",
+        "b2": "clip-t1-b2.mp3",
+        "c1": "clip-t1-c1.mp3",
+        "c2": "clip-t1-c2.mp3"
+      }
+    },
+    {
+      "id": "t2",
+      "topic_en": "Tesla Crashes",
+      "topic_zh": "Tesla股價崩跌",
+      "category": "trading",
+      "files": {
+        "b1": "clip-t2-b1.mp3",
+        "b2": "clip-t2-b2.mp3",
+        "c1": "clip-t2-c1.mp3",
+        "c2": "clip-t2-c2.mp3"
+      }
+    },
+    {
+      "id": "c1",
+      "topic_en": "Cheap Sound Housing",
+      "topic_zh": "廉價結構房屋",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-c1-b1.mp3",
+        "b2": "clip-c1-b2.mp3",
+        "c1": "clip-c1-c1.mp3",
+        "c2": "clip-c1-c2.mp3"
+      }
+    },
+    {
+      "id": "ai1",
+      "topic_en": "Plan After AI",
+      "topic_zh": "AI後工作方案",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai1-b1.mp3",
+        "b2": "clip-ai1-b2.mp3",
+        "c1": "clip-ai1-c1.mp3",
+        "c2": "clip-ai1-c2.mp3"
+      }
+    },
+    {
+      "id": "hk1",
+      "topic_en": "AI Market Hype",
+      "topic_zh": "AI股價泡沫",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk1-b1.mp3",
+        "b2": "clip-hk1-b2.mp3",
+        "c1": "clip-hk1-c1.mp3",
+        "c2": "clip-hk1-c2.mp3"
+      }
+    },
+    {
+      "id": "f1",
+      "topic_en": "Beginner Fitness Thread",
+      "topic_zh": "新手健身白丸",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-f1-b1.mp3",
+        "b2": "clip-f1-b2.mp3",
+        "c1": "clip-f1-c1.mp3",
+        "c2": "clip-f1-c2.mp3"
+      }
+    },
+    {
+      "id": "a1",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "乱馬故事時間",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-a1-b1.mp3",
+        "b2": "clip-a1-b2.mp3",
+        "c1": "clip-a1-c1.mp3",
+        "c2": "clip-a1-c2.mp3"
+      }
+    }
+  ]
+}

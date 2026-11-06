@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "t1",
+      "category": "trading",
+      "topic_zh": "兩百萬美元存放",
+      "topic_en": "Saving $200K",
+      "text_zh": "我係SEA嘅brownoid。20萬美元喺第一世界標準睇落冇乜，但喺我哋呢度夠四代人食。Bitcoin、time deposit，定gold bars邊個最安全？真係唔知，lol。",
+      "text_en_b1": "I’m a brownoid from SEA, and $200,000 is nothing by first-world standards. Here, it could feed my family for four generations. People are telling me to buy Bitcoin, use a time deposit, or buy gold bars. I don’t know which option is safest.",
+      "text_en_b2": "I’m a brownoid from Southeast Asia, so $200,000 is nothing by first-world standards, although here it could feed my family for four generations. People keep telling me to put it into Bitcoin, a time deposit, or gold bars, and I honestly have no idea which option is safest. Each choice carries different risks, especially when the money is meant to last for decades. What would you actually do with it, lol?",
+      "text_en_c1": "I’m a brownoid from Southeast Asia, so $200,000 may sound unremarkable by first-world standards; where I’m from, however, it could keep my family fed for four generations. I’m considering Bitcoin, a time deposit, or physical gold bars, but I genuinely have no idea which option offers the best protection. Each carries risks: crypto can be brutally volatile, deposits are exposed to currency and banking risks, and bullion has storage and liquidity issues. What would you choose if your family’s financial security depended on the decision?",
+      "text_en_c2": "I’m a brownoid from Southeast Asia, and, judging by first-world standards, $200,000 isn’t especially remarkable. Here, however, it could sustain my family for four generations. Everyone keeps advising me to put it into Bitcoin, lock it away in a time deposit, or convert it into gold bars, but I genuinely have no idea which option offers the greatest security. Preservation, liquidity and returns all seem to pull in different directions, while confidence in any one system can evaporate overnight. What would you do with the money?",
+      "source_url": "https://boards.4chan.org/biz/thread/62865615",
+      "source_hint": "An anon asks how to secure $200K for the long term."
+    },
+    {
+      "id": "t2",
+      "category": "trading",
+      "topic_zh": "Tesla股價崩跌",
+      "topic_en": "Tesla Crashes",
+      "text_zh": "Tesla 無啦啦跌11%。成間公司根本就係一個meme。wtf。靠AI續命，最後又係帳面見真章。",
+      "text_en_b1": "Tesla crashed 11% for no fucking reason. The entire company is a meme. Sometimes the stock just decides to become a meme again, and the charts show why fundamentals cannot control everything.",
+      "text_en_b2": "Tesla crashed 11% for absolutely no fucking reason, because the entire company is basically a meme. Sometimes the stock just decides to become a meme again, although no amount of analysis can explain why. Even if the company tries to keep itself alive through AI, the charts eventually show the truth: fundamentals cannot control everything, and pure speculation can drag the price down overnight.",
+      "text_en_c1": "Tesla crashed 11% for no fucking reason, because the entire company is basically a meme. Sometimes the stock simply decides to become a meme again, and the charts demonstrate why fundamentals cannot control everything. Even if the business appears sound on paper, market sentiment can overwhelm logic in an instant. The ridiculous part is that AI is apparently supposed to keep the company alive, yet the moment reality arrives, the numbers have the final say. Fundamentals matter, apparently, as long as the charts feel like cooperating.",
+      "text_en_c2": "Tesla crashed by 11% for absolutely no fucking reason, because the entire company is basically a meme. Every so often, the stock remembers that fact and resumes its favourite hobby: becoming a meme again. The charts make it painfully clear that fundamentals cannot possibly explain everything. Valuation apparently rests as much on sentiment, online enthusiasm and sheer narrative momentum as it does on earnings, yet somehow the market continues pretending otherwise. A company can coast on artificial intelligence for a while, but sooner or later the numbers put the lie on trial.",
+      "source_url": "https://boards.4chan.org/biz/thread/62861785",
+      "source_hint": "A biz thread complains about Tesla’s sudden 11% crash."
+    },
+    {
+      "id": "c1",
+      "category": "civil/structure",
+      "topic_zh": "廉價結構房屋",
+      "topic_en": "Cheap Sound Housing",
+      "text_zh": "年輕人應該有cheap、abundant housing嘅選擇。Mass-scale生產小型manufactured houses同studio apartments，結構仍然sound，價錢就得盡量平。點解 regulations 唔肯咁做？原來係要keep inflating boomer property values，靠，咁撈法真係fucked up。",
+      "text_en_b1": "People should have the option of cheap, abundant housing, especially for young people. Small manufactured houses and studio apartments could be mass-produced and made structurally sound. But regulations prevent this and keep inflating boomer property values. It’s really fucked up.",
+      "text_en_b2": "People, especially young people, should have access to cheap and abundant housing. Small manufactured houses and studio apartments could be mass-produced while remaining structurally sound, so why won’t regulations allow that? Instead, the system keeps propping up boomer property values and restricting the supply of affordable homes. This arrangement is completely fucked up, because it transfers enormous wealth to older property owners while leaving younger people behind.",
+      "text_en_c1": "People, especially young people, should have access to cheap and abundant housing. Small manufactured houses and studio apartments could be mass-produced, provided they remain structurally sound and are sold for the lowest practicable price. Yet regulations prevent that kind of development and, in doing so, keep inflating older people’s property values. If the planning system were genuinely intended to increase housing supply, it would permit these simple, high-density alternatives instead of protecting scarcity. That arrangement is thoroughly fucked up, particularly for anyone who cannot afford the inflated market.",
+      "text_en_c2": "People, particularly young people, should have access to cheap and abundant housing rather than being priced out of the market altogether. Small manufactured houses and studio apartments could be mass-produced, provided they remain structurally sound and are sold for as little as possible. Why can’t regulations permit that? The obstacle is a deeply entrenched system that keeps inflating older generations’ property values and treats scarcity as preferable to construction. The result is grotesque: abundant land and abundant labour are converted into unaffordable boxes while established owners rake in the gains. It is comprehensively fucked up.",
+      "source_url": "https://boards.4chan.org/biz/thread/62865045",
+      "source_hint": "The OP argues for cheaper mass-produced housing and criticizes regulations."
+    },
+    {
+      "id": "ai1",
+      "category": "tech/ai",
+      "topic_zh": "AI後工作方案",
+      "topic_en": "Plan After AI",
+      "text_zh": "如果LLM真係replace你，你之後有咩solid plan？Farming？Trades？講真，工程、site work同專業牌都可能被AI夾擊。到時再算，ok。",
+      "text_en_b1": "Do you have a solid plan after LLMs replace you? Farming? Trades? This question landed in the tech section tonight, and there are no clear answers. Engineering and site work may change too, so having a practical backup would be smart.",
+      "text_en_b2": "Do you have a solid plan for after LLMs replace you at work? Maybe farming or trades? The question appeared in the tech section tonight, and there were no clear answers, although everyone seemed to have suggestions. Engineering, site work, and jobs requiring professional qualifications could all be affected by AI, while practical work may remain harder to automate. Having a realistic backup plan would therefore be sensible, even if you hope it never becomes necessary.",
+      "text_en_c1": "What is your solid plan if large language models eventually replace you? Farming, trades, or something else entirely? The question appeared in the tech section tonight, and there are no definitive answers. Engineering and site work may also be reshaped by AI, since routine technical tasks and skilled labour can both be automated or delegated to machines. If your current profession depends on knowledge that can be generated at scale, waiting until displacement is imminent would be a mistake. A practical backup, developed while you still have time and income, would be considerably wiser.",
+      "text_en_c2": "Suppose large language models really do replace you at work. What, exactly, is your solid plan? Farming? Skilled trades? The question appeared in the tech section tonight, and there were no clear answers, because even supposedly secure paths are exposed. Engineering may be automated, site work may be reshaped by robotics, and professional certification can no longer guarantee that a trade will remain untouched. Of course, one could defer the problem and work it out when the disruption actually arrives, but that would be rather convenient. A practical backup, cultivated while one still has time and income, would be considerably wiser.",
+      "source_url": "https://boards.4chan.org/g/thread/110229672",
+      "source_hint": "A tech thread asks what people will do after LLM replacement."
+    },
+    {
+      "id": "hk1",
+      "category": "hk/news",
+      "topic_zh": "AI股價泡沫",
+      "topic_en": "AI Market Hype",
+      "text_zh": "點解要理股票market crash？AI-related business根本冇direct profit from AI，AI只係hype machine。SpaceX更加用Starlink legitimate profit養自己，再包裝成AI business，估值先可以到trillion dollars。股票本來係means for an end，AI business個end反而係stock valuation，market cap同AI冇半個銀仔關係，膠膠吶。",
+      "text_en_b1": "Why care about the stock market crash? AI-related businesses lack direct profit from AI. AI is just a hype machine. SpaceX uses legitimate Starlink profit to present itself as an AI company worth a trillion dollars. For AI businesses, the stock valuation becomes the actual end.",
+      "text_en_b2": "Why should anyone care about a stock market crash when many AI-related businesses generate no direct profit from AI? AI has become little more than a hype machine. SpaceX, for example, uses legitimate profits from Starlink to present itself as an AI business and justify a trillion-dollar valuation. This turns the usual relationship inside out: the stock valuation becomes the end, whereas the market cap has virtually nothing to do with AI itself. Pretty ridiculous, honestly.",
+      "text_en_c1": "Why should anyone care about a stock-market crash when AI-related businesses generate no direct profit from AI? AI is merely a hype machine. SpaceX, for example, uses legitimate profits from Starlink to present itself as an AI company capable of reaching a trillion-dollar valuation. Stocks are supposed to be a means to an end, but for many supposed AI businesses, the end is the stock valuation itself. If market capitalisation has no meaningful connection to AI revenue or performance, then investors are effectively paying for a narrative rather than a functioning enterprise.",
+      "text_en_c2": "Why should anyone care about a stock-market crash when many AI-related businesses generate no direct profit from AI itself? AI has become little more than a hype machine, capable of attaching an extraordinary valuation to companies whose economics have little obvious connection to the technology. SpaceX offers the clearest example: legitimate Starlink profits support the business, while the enterprise is repackaged as an AI company so its valuation can reach a trillion dollars. Stocks are ordinarily merely a means of financing an enterprise, but for many AI businesses the share price has become the destination itself. Market capitalisation and artificial intelligence are connected by approximately half a cent.",
+      "source_url": "https://boards.4chan.org/pol/thread/545694031",
+      "source_hint": "The OP claims AI companies rely more on market valuation than direct AI profits."
+    },
+    {
+      "id": "f1",
+      "category": "mma/fitness",
+      "topic_zh": "新手健身白丸",
+      "topic_en": "Beginner Fitness Thread",
+      "text_zh": "Whitepill thread：hot cocoa係最佳pre-workout。任何人都可以開始lifting，唔需要prior sports experience。少過六個月可以逃出skinnyfat mode；一個少人會notice你lift。Beginner programming其實piss easy，咩都work。Diet一樣容易，eat some protein，avoid fast food、candy同soda。",
+      "text_en_b1": "Hot cocoa is the best pre-workout edition. Anyone can start lifting without prior sports experience. You can escape skinnyfat mode in less than six months, and people may notice within one year. Beginner programming is easy: eat some protein and avoid fast food, candy, and soda.",
+      "text_en_b2": "Whitepill thread: hot cocoa is the best pre-workout. Anyone can start lifting without prior sports experience, and after less than six months, you can escape skinnyfat mode; people may start noticing that you lift within a year. Beginner programming is piss easy, since almost anything works at first. The diet is just as straightforward: eat some protein, and cut back on fast food, candy, and soda.",
+      "text_en_c1": "Hot cocoa is the best pre-workout edition. Anyone can begin lifting without any prior sporting experience, and fewer than six months of consistent training should be enough to escape skinnyfat mode; within a year, people may notice the difference. Beginner programming is pleasantly easy, and virtually any sensible routine will produce results. Diet is no more complicated: eat some protein, avoid fast food, candy, and soda, and stay reasonably consistent. You do not need an elite trainer, a complicated split, or perfect discipline; you merely need to start and remain accountable.",
+      "text_en_c2": "Whitepill thread: hot cocoa is the finest pre-workout. Anyone can begin lifting without the slightest prior sporting experience, and beginner programming is, frankly, piss easy; almost anything works provided you remain consistent. In under six months, you can begin escaping skinnyfat mode, although most people will need nearly a year before they actually notice the change. Diet is equally straightforward: eat sufficient protein, avoid fast food, candy and soda, and stop overcomplicating what is fundamentally a basic routine. The initial barrier is largely psychological rather than physical, so begin modestly and build from there.",
+      "source_url": "https://boards.4chan.org/fit/thread/77568714",
+      "source_hint": "A beginner-focused fitness thread promotes lifting, simple diet, and consistency."
+    },
+    {
+      "id": "a1",
+      "category": "anime/culture",
+      "topic_zh": "乱馬故事時間",
+      "topic_en": "Ranma Storytime",
+      "text_zh": "Ranma 1/2 storytime。趁新anime season出咗，一齊storytime manga，方便anon比較同理解，或者同時用唔同方式體驗個story。今日係chapter 81至82。",
+      "text_en_b1": "Ranma 1/2 storytime. I’m going through the manga alongside the new anime season so anons can compare and contrast, or experience the story in several different ways at the same time. Today: chapters 81 and 82.",
+      "text_en_b2": "Ranma 1/2 storytime. Since the new anime season has started, I’m going through the manga alongside it so anons can compare and contrast the two versions, or experience the story in different ways at the same time. It is a convenient format because one adaptation may handle the material differently from the other, although both are worth following. Today’s chapters are 81 and 82, so get ready for another chaotic batch of scenes.",
+      "text_en_c1": "It’s Ranma 1/2 storytime. I’m going through the manga alongside the new anime season, which gives anons a chance to compare the two adaptations, understand the story more fully, or experience the same narrative through different media at once. The pacing, humour, and visual presentation may vary considerably between versions, but the underlying material remains the same. For anyone starting with the anime or catching up with the original series, this provides a useful reference without implying that one approach is necessarily superior. Today’s chapters are 81 and 82.",
+      "text_en_c2": "It’s Ranma 1/2 storytime. With the new anime season now underway, I’m going through the original manga alongside it so that anons can compare and contrast the two adaptations, clarify details that either version handles differently, or experience the story in two distinct ways at once. Translation, pacing and tone may change the texture of individual scenes, while the manga’s panels offer a visual rhythm that animation necessarily interprets rather than reproduces. Today’s instalment covers chapters 81 and 82, so we can continue the comparison from precisely where the previous discussion left off.",
+      "source_url": "https://boards.4chan.org/a/thread/291982840",
+      "source_hint": "The OP begins a Ranma manga storytime linked to the new anime season."
+    }
+  ]
+}
