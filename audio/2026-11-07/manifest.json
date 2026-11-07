@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-07",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-soxl-62867031",
+      "topic_en": "SOXL Versus SOXS",
+      "topic_zh": "半導體反向對沖",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-soxl-62867031-b1.mp3",
+        "b2": "clip-trade-soxl-62867031-b2.mp3",
+        "c1": "clip-trade-soxl-62867031-c1.mp3",
+        "c2": "clip-trade-soxl-62867031-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-tsla-62861785",
+      "topic_en": "Tesla Crashes 11%",
+      "topic_zh": "Tesla股價插水",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-tsla-62861785-b1.mp3",
+        "b2": "clip-trade-tsla-62861785-b2.mp3",
+        "c1": "clip-trade-tsla-62861785-c1.mp3",
+        "c2": "clip-trade-tsla-62861785-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-110259996",
+      "topic_en": "AI and Skill Decline",
+      "topic_zh": "AI令人變廢",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-110259996-b1.mp3",
+        "b2": "clip-tech-ai-110259996-b2.mp3",
+        "c1": "clip-tech-ai-110259996-c1.mp3",
+        "c2": "clip-tech-ai-110259996-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-cybertruck-545726105",
+      "topic_en": "Cybertruck Production Wind-Down",
+      "topic_zh": "Cybertruck停產傳聞",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-cybertruck-545726105-b1.mp3",
+        "b2": "clip-hk-news-cybertruck-545726105-b2.mp3",
+        "c1": "clip-hk-news-cybertruck-545726105-c1.mp3",
+        "c2": "clip-hk-news-cybertruck-545726105-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-whitepill-77568714",
+      "topic_en": "Beginner Fitness Whitepill",
+      "topic_zh": "健身白藥丸",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-whitepill-77568714-b1.mp3",
+        "b2": "clip-mma-whitepill-77568714-b2.mp3",
+        "c1": "clip-mma-whitepill-77568714-c1.mp3",
+        "c2": "clip-mma-whitepill-77568714-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-black-clover-292035068",
+      "topic_en": "Black Clover Returns",
+      "topic_zh": "黑魔導世界觀",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-black-clover-292035068-b1.mp3",
+        "b2": "clip-anime-black-clover-292035068-b2.mp3",
+        "c1": "clip-anime-black-clover-292035068-c1.mp3",
+        "c2": "clip-anime-black-clover-292035068-c2.mp3"
+      }
+    },
+    {
+      "id": "lol-deku-tree-751069171",
+      "topic_en": "Deku Tree Censorship",
+      "topic_zh": "樹都被刪？",
+      "category": "lol/esports",
+      "files": {
+        "b1": "clip-lol-deku-tree-751069171-b1.mp3",
+        "b2": "clip-lol-deku-tree-751069171-b2.mp3",
+        "c1": "clip-lol-deku-tree-751069171-c1.mp3",
+        "c2": "clip-lol-deku-tree-751069171-c2.mp3"
+      }
+    }
+  ]
+}

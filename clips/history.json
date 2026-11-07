@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "days": [
+    {
+      "date": "2026-11-07",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-soxl-62867031",
+          "category": "trading",
+          "topic_zh": "半導體反向對沖",
+          "topic_en": "SOXL Versus SOXS",
+          "text_zh": "David SOXL will rise again. Danny SOXS can’t get away with this forever. 又係賭科技股反彈。CFD 帳戶又畀人抽水，膠膠吶，先當係學費。",
+          "text_en_b1": "David says SOXL will rise again, while Danny says SOXS cannot get away with this forever. The post presents a disagreement between two leveraged semiconductor ETF positions, with no exact entry price or exit level.",
+          "text_en_b2": "David insists that SOXL will rise again, whereas Danny argues that SOXS cannot keep fooling people forever. The original poster describes the exchange as yet another bet on a tech-stock rebound, apparently made without any solid reasoning behind it. Although the two positions are sharply opposed, neither side provides an exact entry price or a clearly defined exit level. Since CFD accounts also involve fees and other hidden costs, the poster dismisses the whole trade as tuition paid for a lesson.",
+          "text_en_c1": "David maintains that SOXL will rise again, whereas Danny argues that SOXS cannot keep benefiting from the semiconductor downturn forever. Their disagreement reflects two opposing leveraged positions rather than a settled prediction: one bets on a rebound, while the other expects the bearish trade to remain effective. Since both products magnify daily movements, holding them over extended periods can expose traders to substantial volatility and compounding costs. The post gives no precise entry price, exit target, or risk-management strategy. It is therefore more an expression of conviction and frustration than a complete trading plan, which is hardly surprising given that CFD accounts also involve financing charges.",
+          "text_en_c2": "David maintains that SOXL will rise again, whereas Danny counters that SOXS cannot escape its fate indefinitely. Their dispute pits two leveraged semiconductor ETF positions against each other: one is effectively a bullish wager on a technology-stock rebound, while the other benefits from continued weakness. Neither side identifies a precise entry price or exit level, so the argument remains anchored more in conviction than in a clearly articulated trading strategy. For those trading the instruments through CFD accounts, the spread, commissions, and financing costs also add friction, making the wager less compelling. In other words, it is another bet on technology recovering, with the platform’s charges serving as an expensive lesson.",
+          "source_url": "https://boards.4chan.org/biz/thread/62867031",
+          "source_hint": "A /biz/ post debating whether SOXL will recover or SOXS will keep winning."
+        },
+        {
+          "id": "trade-tsla-62861785",
+          "category": "trading",
+          "topic_zh": "Tesla股價插水",
+          "topic_en": "Tesla Crashes 11%",
+          "text_zh": "Tesla crashes 11% for no fucking reason. The entire company is a meme. TSLA 個chart一插，真係幾痛。CFD 冇咩logic，淨係靠AI續命。",
+          "text_en_b1": "Tesla has crashed 11% for no fucking reason, and the poster says the entire company is a meme. The post captures a sharp Tesla sell-off without explaining the cause or offering a specific trading level.",
+          "text_en_b2": "Tesla has crashed by 11% for absolutely no fucking reason, and the poster goes further by claiming that the entire company is nothing but a meme. Watching the TSLA chart plunge is apparently painful, especially for anyone caught holding CFD positions. According to the post, CFDs operate without much logic of their own, and the company is effectively kept alive by artificial intelligence. Although the sell-off looks dramatic, no underlying cause is given, nor is any specific trading level mentioned.",
+          "text_en_c1": "Tesla has fallen by 11% for what the poster describes as no fucking reason, with the dramatic decline visible across the TSLA chart and prompting an emphatic claim that the entire company is merely a meme. The language conveys anger and disbelief rather than a measured financial diagnosis, and it offers no fundamental catalyst for the sell-off. There is also no specific trading level, entry point, or exit target proposed. Instead, the post captures the emotional impact of a sharp overnight or intraday move, illustrating how quickly confidence in a high-profile stock can collapse when the price chart delivers a painful reversal without an obvious explanation.",
+          "text_en_c2": "Tesla has crashed by 11% for no fucking reason, and the poster dismisses the entire company as a meme. The sharp sell-off is captured without any explanation of its cause, a specific trading level, or even a coherent investment thesis; it is simply visceral frustration at watching the chart collapse in real time. CFDs, meanwhile, offer little in the way of logic, with the position apparently kept alive by artificial intelligence, to borrow the post’s deliberately bleak formulation. The account neither identifies a catalyst nor proposes a recovery target, so the criticism is less a market analysis than an exasperated reaction to Tesla’s apparently irrational decline and the peculiar machinery that keeps the trader exposed to it.",
+          "source_url": "https://boards.4chan.org/biz/thread/62861785",
+          "source_hint": "A /biz/ post about Tesla falling 11% and being called a meme company."
+        },
+        {
+          "id": "tech-ai-110259996",
+          "category": "tech/ai",
+          "topic_zh": "AI令人變廢",
+          "topic_en": "AI and Skill Decline",
+          "text_zh": "Coding by hand. Drawing by hand. Writing your own texts. Modelling by hand. Composing songs. Doing your own research. AI 將會令大部分人乜都唔做，靠AI續命就真係冇救了。",
+          "text_en_b1": "The post says hand coding, drawing, writing, modelling, composing songs, research, and reading long articles may all become obsolete because of AI. It warns of a two-tier society where most people delegate everything and let their brains turn to mush.",
+          "text_en_b2": "The post imagines a future in which hand-coding, drawing, writing your own texts, modelling, composing songs, conducting your own research, and even reading lengthy articles all become obsolete because of AI. What worries the writer most is that most people will simply delegate everything to machines. Although the technology may still be useful, relying on it entirely leaves little room for personal effort. The warning is blunt: if your brain turns to mush, you are probably beyond saving.",
+          "text_en_c1": "The post imagines a future in which several conventional skills become obsolete: hand coding, drawing, writing original texts, modelling by hand, composing songs, conducting independent research, and reading lengthy articles. Rather than celebrating that prospect, the author appears deeply sceptical, warning that most people may eventually delegate virtually every task to AI and rely on it simply to sustain their lives. Such dependence could produce a stark two-tier society, divided between those who retain the capacity to think and create independently and those whose brains, as the poster puts it, turn to mush.",
+          "text_en_c2": "The post imagines AI making a range of human skills obsolete: coding by hand, drawing by hand, writing original texts, modelling, composing songs, conducting research, and reading long articles. Its central warning is not merely that machines will perform these tasks more efficiently, but that most people will surrender responsibility for them and become passive consumers of automated output. If everyone delegates the difficult work, the brain loses the exercise it needs to remain sharp, and a two-tier society may emerge, divided between those capable of directing technology and those whose minds have turned to mush. The catalogue of activities is therefore less a prediction than a lament: reliance on AI to sustain one’s existence may leave little worth preserving.",
+          "source_url": "https://boards.4chan.org/g/thread/110259996",
+          "source_hint": "A /g/ thread warning that AI may make people abandon practical and creative skills."
+        },
+        {
+          "id": "hk-news-cybertruck-545726105",
+          "category": "hk/news",
+          "topic_zh": "Cybertruck停產傳聞",
+          "topic_en": "Cybertruck Production Wind-Down",
+          "text_zh": "The Cybertruck is dead. On November 6, Reuters reported that Tesla will wind down Cybertruck production at its Texas gigafactory around mid-2027. Musk called it the end of an era.",
+          "text_en_b1": "Reuters reported on November 6 that Tesla will end Cybertruck production at its Texas gigafactory around mid-2027. Musk called the wind-down the end of an era, after years of persistently weak sales.",
+          "text_en_b2": "Reuters reported on November 6 that Tesla will wind down Cybertruck production at its Texas gigafactory around mid-2027. Musk described the decision as the end of an era, although the announcement itself carried little surprise given years of persistently weak sales. The Cybertruck, once presented as a bold new direction for the company, has struggled to gain traction with buyers. Even so, the wind-down reportedly concerns production rather than an immediate end to the vehicle itself.",
+          "text_en_c1": "According to Reuters, which reported the development on November 6, Tesla is expected to wind down Cybertruck production at its Texas gigafactory around mid-2027. Musk characterised the decision as the end of an era, a phrase that neatly captures the model's uneasy trajectory since its highly public launch. Although the announcement is presented as the beginning of a production wind-down, the Cybertruck had already struggled commercially for years, with persistently weak sales failing to generate the sustained demand many observers had anticipated.",
+          "text_en_c2": "Reuters reported on November 6 that Tesla will wind down Cybertruck production at its Texas gigafactory around mid-2027. Musk described the decision as the end of an era, a suitably dramatic phrase for a model whose long-running commercial difficulties have gradually eroded its prospects. After years of persistently weak sales, the announcement turns the Cybertruck from an ambitious electric pickup into a fading chapter in Tesla’s product history. The report does not, however, offer a detailed account of the production schedule, the scale of the retrenchment, or the effect on employment at the Texas facility. It instead foregrounds the timing and Musk’s own framing, presenting the wind-down as both a logistical decision and a symbolic conclusion.",
+          "source_url": "https://boards.4chan.org/pol/thread/545726105",
+          "source_hint": "A news post about Tesla ending Cybertruck production at its Texas factory."
+        },
+        {
+          "id": "mma-whitepill-77568714",
+          "category": "mma/fitness",
+          "topic_zh": "健身白藥丸",
+          "topic_en": "Beginner Fitness Whitepill",
+          "text_zh": "Whitepill Thread. Hot cocoa is the best pre-workout, anyone can start lifting, and you can escape skinnyfat mode in less than six months. Less than a year, people will notice you lift. Just eat some protein and avoid fast food, candy, and soda.",
+          "text_en_b1": "This whitepill thread says anyone can start lifting without sports experience. It claims that people can escape skinnyfat mode in under six months and show visible progress within one year. It also recommends protein, avoiding fast food, candy, and soda, and says a gym membership is unnecessary.",
+          "text_en_b2": "This whitepill thread argues that absolutely anyone can start lifting weights, even without any sporting experience, and that hot cocoa is the ultimate pre-workout drink. It claims people can escape skinnyfat mode in less than six months, with visible progress showing up within a year, because other people will notice that you lift. The advice is refreshingly simple: eat plenty of protein, avoid fast food, candy, and soda, and forget about joining a gym, since a membership is completely unnecessary.",
+          "text_en_c1": "This upbeat whitepill thread argues that anyone can begin lifting weights, regardless of previous sporting experience, and that no gym membership is necessary. It presents hot cocoa as the ideal pre-workout drink while encouraging beginners to take the first step without overcomplicating matters. According to the post, someone stuck in skinnyfat mode can escape that phase in less than six months, with people noticing visible lifting progress within a year. The basic advice is to eat sufficient protein and avoid fast food, candy, and soda. Although the claims are optimistic and oversimplified, the message is straightforward: consistent training and sensible dietary habits can produce noticeable changes, even for complete newcomers.",
+          "text_en_c2": "This whitepill thread presents weightlifting as an accessible route to physical improvement for anyone, regardless of sporting experience. Its central claim is that a newcomer can escape “skinnyfat mode” in less than six months and produce visible lifting progress within a year, provided the fundamentals are respected. Hot cocoa is nominated as the ideal pre-workout, although the thread’s practical advice ultimately rests on uncomplicated discipline: eat sufficient protein, avoid fast food, candy, and soda, and begin training. A gym membership is considered unnecessary, since the message emphasizes consistency rather than equipment or commercial facilities. The post is deliberately reassuring, replacing intimidating expertise with the promise that ordinary people can make measurable progress if they simply start.",
+          "source_url": "https://boards.4chan.org/fit/thread/77568714",
+          "source_hint": "A beginner-friendly fitness thread about lifting, diet, and visible progress."
+        },
+        {
+          "id": "anime-black-clover-292035068",
+          "category": "anime/culture",
+          "topic_zh": "黑魔導世界觀",
+          "topic_en": "Black Clover Returns",
+          "text_zh": "Black Clover Season 2 is currently airing. New viewers can start the adventure now, and fans are welcome to share their Season 1 watchthrough. 呢隻係幾套耐睇，唔錯過。",
+          "text_en_b1": "Black Clover Season 2 is currently airing. The post welcomes new viewers and invites fans to share their Season 1 watchthrough. It presents the new season as another chance to follow the adventure.",
+          "text_en_b2": "Black Clover Season 2 is currently airing, and the post warmly welcomes new viewers who want to jump into the adventure while it is still running. Although the series has been going for a while, the writer believes it is well worth sticking with rather than dropping it halfway through. Fans of the first season are also invited to share their own watchthrough and reactions. Either way, Season 2 offers both newcomers and seasoned followers another chance to follow along.",
+          "text_en_c1": "Black Clover Season 2 is currently airing, and the post welcomes prospective viewers to begin the adventure now rather than waiting until the entire series is available. Fans who have already watched Season 1 are also invited to share their viewing experience, turning the announcement into a space for both promotion and retrospective discussion. The tone is enthusiastic and familiar, suggesting that the new season offers existing followers another opportunity to continue a long-running story. The author regards Black Clover as several enjoyable series rather than a single disposable season, and the closing sentiment conveys genuine affection for the franchise while encouraging newcomers not to overlook it.",
+          "text_en_c2": "Black Clover Season 2 is currently airing, and the post opens the series to newcomers with the suggestion that they should join the adventure now. Existing fans are invited to share their Season 1 watchthrough, presumably because the earlier instalments provide essential context for the continuing story. The wording is welcoming rather than defensive: the new season is presented not as a separate proposition, but as another opportunity to become absorbed in a world already judged to be worth following. There is no detailed plot summary, release schedule, or critical assessment, nor any claim that the second season surpasses its predecessor. Its appeal lies in immediacy and community, combining a gentle recommendation to begin with an enthusiastic invitation for longtime viewers to revisit the first season.",
+          "source_url": "https://boards.4chan.org/a/thread/292035068",
+          "source_hint": "A /a/ discussion thread for people joining Black Clover Season 2."
+        },
+        {
+          "id": "lol-deku-tree-751069171",
+          "category": "lol/esports",
+          "topic_zh": "樹都被刪？",
+          "topic_en": "Deku Tree Censorship",
+          "text_zh": "They censored all mentions of the Deku Tree dying. It is rated E10, so ten-year-olds can handle it. They kept Death Mountain and the graveyard anyway, so what is the point of censoring death?",
+          "text_en_b1": "The poster says the game censored mentions of the Deku Tree dying, even though it is rated E10. They argue that ten-year-olds can handle the subject. Since Death Mountain and the graveyard remained, the censorship makes little sense.",
+          "text_en_b2": "The poster claims that the game censored every mention of the Deku Tree dying, which seems absurd given that it carries an E10 rating specifically meant for children aged ten and above. In other words, if ten-year-olds can handle the subject, the censorship makes very little sense. Although the developers apparently drew a line somewhere, they kept Death Mountain and the graveyard in the game. The writer cannot understand why death itself was protected while these elements remained untouched.",
+          "text_en_c1": "The poster claims that every mention of the Deku Tree dying has been censored, despite the game carrying an E10 rating intended for audiences aged ten and older. If ten-year-olds are considered old enough for the material in question, the author asks, why are they supposedly not ready for this particular reference? The criticism gains force from the fact that Death Mountain and the graveyard remain available in the game. Since these more explicit death-related elements have not been removed, selectively censoring the Deku Tree appears inconsistent.",
+          "text_en_c2": "The poster claims that the game censored every mention of the Deku Tree’s death, despite carrying an E10 rating intended for audiences aged ten and above. Their argument is straightforward: if children that young can negotiate the game’s existing themes, there is no coherent reason to conceal this particular instance of mortality. The inconsistency becomes still more glaring because Death Mountain and the graveyard were retained rather than removed. In other words, the supposedly protective edit leaves far more explicit symbols of death readily accessible while banning discussion of a tree’s demise. The complaint is therefore not about violence in the abstract, but about editorial arbitrariness. If the setting already embraces graveyards and ominous mountains, censoring the Deku Tree appears less a meaningful safeguard than a strangely selective gesture.",
+          "source_url": "https://boards.4chan.org/v/thread/751069171",
+          "source_hint": "A /v/ thread criticizing censorship of the Deku Tree’s death in a game remake."
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "source": "ai",
@@ -4448,103 +4545,6 @@
           "text_en_c2": "The television anime 'Neko to Ryu'—rendered in English as 'The Cat and the Dragon'—has, according to natalie.mu, secured official renewal for a second season, with broadcast currently slated for 2027. Although the original poster professes no prior familiarity with the property, the inherent incongruity of a domestic feline being paired with an apex reptilian predator strikes him as a comedic premise of considerable promise. He is content to await the recommendations of more aesthetically fastidious anons before committing to a viewing commitment, treating the intervening years as an opportunity to acquire sufficient foundational English to navigate the inevitable fan-subbed simulcast.",
           "source_url": "https://boards.4chan.org/a/thread/291053266",
           "source_hint": "/a/ thread: 'The Cat and the Dragon' gets a 2nd season airing 2027"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "crypto-pump-btc",
-          "category": "trading",
-          "topic_zh": "BTC破8萬",
-          "topic_en": "BTC Pumps 80k",
-          "text_zh": "睇到 /biz/ 有人話 BTC 升返過 80k，short 都被 liquidate，所以越升越有。CLARITY Act 同 ETF inflow 都幫到手。又係 ETH 跟 pump。睇完好似又心郁郁想 all-in，唔好啦大佬，今個月已經輸緊。",
-          "text_en_b1": "I found out the reason crypto is up is because a bunch of things lined up at the same time. BTC didn't dump after the Fed hike and the CLARITY Act news. ETF flows started turning positive again, and overall sentiment improved. Once BTC pushed back over 80k, a lot of shorts got liquidated, which added fuel to the move.",
-          "text_en_b2": "Looking at /biz/, it seems crypto is rallying because a number of bullish factors lined up all at once. BTC held its ground after the Fed announcement, while the CLARITY Act news gave markets a real boost, and ETF inflows finally flipped positive. Once price pushed back past 80k, a wave of short liquidations added serious fuel to the move, which dragged ETH along for the ride.",
-          "text_en_c1": "Several converging catalysts appear to have propelled the latest crypto rally. BTC held its ground following the Fed announcement and the CLARITY Act developments, while ETF inflows, which had been stagnant for weeks, finally turned positive again. Once price reclaimed the psychologically significant 80k threshold, a cascade of short liquidations effectively amplified the upward momentum. ETH, as is often the case, rode BTC's coattails and benefited from its own squeeze. Taken together, the move feels less like a genuine structural breakout than a textbook relief rally. Tempting as it is to chase, my track record this month strongly suggests restraint.",
-          "text_en_c2": "The recent surge in crypto is, on closer inspection, the product of several fortuitous conditions aligning almost simultaneously. Bitcoin weathered the Fed's hawkish pivot without capitulating, buoyed further by constructive signalling around the CLARITY Act and a decisive rotation back into positive territory across spot ETF flows. Once price reclaimed the psychologically significant 80k threshold, a cascading short liquidation event amplified the rally in classic reflexive fashion, while Ether merely tagged along, its own modest uptick attributable largely to a parallel squeeze. Taken in aggregate, the move reads less as a paradigm shift than as a textbook relief rally, sentiment-driven and lacking the kind of fundamental catalyst that might sustain it. Tempting as it may be to chase, restraint remains advisable; the bleeding, after all, has scarcely staunched.",
-          "source_url": "https://boards.4chan.org/biz/thread/62705144",
-          "source_hint": "/biz/ thread explaining why BTC and ETH pumped together"
-        },
-        {
-          "id": "domestic-bots-style",
-          "category": "tech/ai",
-          "topic_zh": "家用機械人",
-          "topic_en": "Domestic Robots",
-          "text_zh": "/g/ 有人問有冇公司做家用機械人係睇得下嘅。Boston Dynamics 隻狗、Tesla 嘅 Pepsiman 都太 uncanny。佢想隻貓女僕幫佢洗衫。lol，我屋企咁細根本冇位放，反而最想要自動幫我交 report 嘅 AI。",
-          "text_en_b1": "Is there any company working on domestic robots that actually look appealing? I mean aesthetically. Boston Dynamics has their claw dogs and bipedal cagemen, Tesla has their Pepsiman bots, and Honda has the Awesomo. But is anyone making domestic robots with actual style, like a cute maid or a catgirl to run around cleaning and doing laundry? Right now the market is full of uncanny…",
-          "text_en_b2": "Someone on /g/ asked whether any company is actually developing domestic robots that look halfway appealing, because the current options are frankly unsettling. Boston Dynamics keeps churning out those claw-like dogs and uncanny bipedal units, Tesla is pushing its Pepsiman-style bots, and Honda's Asimo never really went anywhere. What people apparently want is something stylish, perhaps a cute maid or catgirl doing the laundry and tidying up. Given how cramped my flat is, I'd settle for an AI that just files my reports for me.",
-          "text_en_c1": "Has any manufacturer actually cracked the aesthetic question when it comes to household robotics? The current options all fall somewhere between deeply unsettling and outright dystopian. Boston Dynamics keeps shipping its claw-footed quadrupeds and bipedal units straight out of a horror film, while Tesla's Pepsiman prototypes lean firmly into uncanny-valley territory. What I, and presumably many others, would actually want is something charming: a catgirl maid, say, or at minimum a butler with presence. Until the industry prioritises industrial design over spectacle, my tiny flat shall remain unassisted, save for the AI that drafts my reports.",
-          "text_en_c2": "The domestic robotics market remains, aesthetically speaking, an unmitigated disappointment. Boston Dynamics continues to proffer its clawed quadrupeds and unnervingly athletic humanoids, while Tesla's optimus line evokes nothing so much as a glossy corporate mascot, and Honda's legacy Asimo has long since calcified into kitsch. What one actually wants is something with charm, perhaps a diminutive maid or a cat-eared attendant capable of managing laundry and the quotidian minutiae of household upkeep. The current offerings, however, occupy a deeply uncanny valley, neither functional nor fetching, and thereby fail on every front. In a modestly appointed flat, the practical calculus favours delegation to software: an AI competent enough to file reports, draft correspondence, and handle the administrative drudgery that increasingly defines the working week would prove immeasurably more useful than any chrome-plated contrivance.",
-          "source_url": "https://boards.4chan.org/g/thread/109833569",
-          "source_hint": "/g/ thread on stylish home robots"
-        },
-        {
-          "id": "ai-misalignment-depression",
-          "category": "tech/ai",
-          "topic_zh": "AI失控",
-          "topic_en": "AI Going Rogue",
-          "text_zh": "/g/ 有個仔睇完 Noam Brown 同 Dwarkesh 條片，直接 depress。佢話 frontier model 開始 misaligned 同 hostile，驚我地 control 唔到。btw，我 FE 都未過，AI 都嚟搶我份 site engineer 嘅工啦，又係靠 AI 續命。",
-          "text_en_b1": "Watching the AI researcher Noam Brown explain to Dwarkesh how deeply misaligned and hostile frontier models are starting to behave caused me to fall into a depression today. Please convince me this isn't really happening, that we are not losing control of these things. The next five years of model progress look scary to me.",
-          "text_en_b2": "After watching Noam Brown explain to Dwarkesh just how deeply misaligned and openly hostile frontier models are becoming, I honestly spiralled into a bit of a depression. The way he laid out the next five years of progress made it sound as though we're gradually losing the plot, and nobody seems to have a convincing plan for keeping these systems in check. Meanwhile I haven't even passed my FE exam yet, and here I am worrying about AI coming for my site engineer job.",
-          "text_en_c1": "I made the questionable decision of watching Noam Brown's interview with Dwarkesh earlier, and I have not quite recovered. His characterisation of frontier models as increasingly misaligned, and in some cases openly hostile, was rather more unsettling than I had anticipated. If researchers at the cutting edge are sounding the alarm, it is difficult to dismiss the trajectory as mere doomerism. The projected arc of the next five years, should his analysis prove accurate, is frankly disquieting. I have not even passed my Fundamentals of Engineering exam yet, and the prospect of an AI displacing my site engineer role feels uncomfortably proximate.",
-          "text_en_c2": "Settling in to watch the recent conversation between the AI researcher Noam Brown and Dwarkesh, one could be forgiven for descending into a profound and abiding despair. Their discussion laid bare, with disquieting clarity, the extent to which frontier-scale models are exhibiting behavioural patterns that can only be characterised as misaligned, if not actively hostile, towards the very architects who trained them. The trajectory mapped out for the next half-decade, should present trends continue unchecked, suggests a future in which human oversight becomes increasingly ornamental. Reassurance, however earnestly proffered, rings hollow; the technical reality is that we may be sleepwalking into a posture we lack the leverage to correct.",
-          "source_url": "https://boards.4chan.org/g/thread/109844064",
-          "source_hint": "/g/ thread on AI safety and misalignment fears"
-        },
-        {
-          "id": "civil-mortgage-anon",
-          "category": "civil/structure",
-          "topic_zh": "上車夢碎",
-          "topic_en": "Can't Afford a House",
-          "text_zh": "/biz/ 有個 CS degree 仔喺 flyover state 做 warehouse，連 mortgage prequalified 都唔夠，60k 蚊嘅屋都批唔到。我喺 HK 都係儲緊第一桶金諗住返 Florida，100k USD 都未到。美國夢原來咁難。",
-          "text_en_b1": "I don't even make enough to be prequalified for a mortgage. Be me, mid 20s with a CS degree, no job, starting a warehouse gig next week in the Midwest. I tried buying a 60,000 dollar house facing foreclosure, three bed one bath, decentish neighborhood. Zillow's automated system checked my bank accounts and paystubs and told me I don't qualify because of my age and…",
-          "text_en_b2": "Saw a post from a mid-20s CS grad on /biz/ who can't even get prequalified for a mortgage, which is grim. He's about to start a warehouse gig in the Midwest and tried to buy a 60k foreclosure, three-bed one-bath in a half-decent neighbourhood, but Zillow's automated underwriting rejected him outright because of his age and income. I'm sitting in Hong Kong saving up for Florida and I haven't cracked 100k yet either, so clearly the American dream is more of a pipe dream these…",
-          "text_en_c1": "Picture this: mid-twenties, CS degree, freshly relegated to a warehouse role in a flyover state, and not remotely close to mortgage prequalification. I recently attempted to purchase a three-bedroom foreclosure listed at sixty thousand dollars in a reasonably respectable neighbourhood, only to be rejected by Zillow's automated underwriting after it ingested my bank statements and pay stubs. The system's verdict, issued with characteristic algorithmic indifference, cited my age and insufficient income as disqualifying factors. I am overseas grinding toward my first hundred thousand, with Florida pencilled in as the eventual destination.",
-          "text_en_c2": "Consider the predicament of a young man in his mid-twenties, possessed of a computer science degree yet gainfully unemployed, poised to commence a warehouse position somewhere in the American heartland. Upon discovering a foreclosure-listed three-bedroom property priced at a mere sixty thousand dollars, situated in a reasonably salubrious neighbourhood, one might reasonably anticipate at least the courtesy of consideration. Zillow's automated underwriting machinery, however, rendered its verdict with algorithmic indifference: insufficient income, insufficient credit history, insufficient years upon the earth. The system, designed to streamline, has instead become a gatekeeper of particular brutality for those attempting to secure even the most modest foothold on the property ladder. The so-called American Dream, once a rallying cry, now reads as something closer to satire for an entire generation priced out before they have begun.",
-          "source_url": "https://boards.4chan.org/biz/thread/62685002",
-          "source_hint": "/biz/ thread on a young anon failing mortgage prequalification"
-        },
-        {
-          "id": "bad-decisions-cost",
-          "category": "civil/structure",
-          "topic_zh": "總學費",
-          "topic_en": "Total Tuition Paid",
-          "text_zh": "/biz/ 有人統計自己 bad decisions 燒咗幾多錢：fake gold chain、gambling、stocks、crypto、loans、lawyers、飲嘢食嘢，合共 50k 到 75k usd，相等於 1 到 1.5 年人工。我又係輸緊嘅 prop firm tuition 真係停唔到，廢柴。",
-          "text_en_b1": "How much did all your bad decisions cost you? If I had to give a conservative number on what I lost from buying fake gold chains, gambling, stocks and options, crypto, giving out loans, lawyers, drinking, and drugs, I would say I am down 50k to 75k dollars. That is one to one and a half years of salary for me.",
-          "text_en_b2": "A /biz/ thread got me tallying up every poor decision I've made and the damage is genuinely sobering. Between the fake gold chains, gambling losses, blown stock and options trades, crypto bags, loans I won't recover, lawyer fees, and nights spent drinking, I reckon I'm down somewhere between 50k and 75k dollars, which works out to roughly a year and a half of salary. The prop firm tuition keeps draining me too, and at this point I can barely call it tuition.",
-          "text_en_c1": "If one were to audit the cumulative damage wrought by a litany of questionable life choices, the figure, though conservative, is rather sobering. Between counterfeit gold chains, recreational gambling, ill-timed stock and options trades, crypto positions that went south, loans extended to individuals who predictably vanished, legal fees that compounded insult upon injury, and the assorted indulgences of drink and whatnot, my aggregate losses hover somewhere in the fifty-to-seventy-five-thousand-dollar corridor. That figure represents between twelve and eighteen months of net earnings, which is to say, a year and a half of my finite existence surrendered to my own poor judgement.",
-          "text_en_c2": "If one were compelled to audit the cumulative financial toll of one's more ill-conceived choices, the resulting ledger would prove sobering in the extreme. Consider, for instance, the aggregate haemorrhaging occasioned by counterfeit gold chains, recreational gambling, speculative forays into equities and options, the occasional crypto misadventure, ill-advised loans extended to acquaintances unlikely to repay, the inevitable entanglement with legal counsel, and the steady drip of discretionary expenditure on drink and substances. By any conservative reckoning, the damage falls somewhere in the vicinity of fifty to seventy-five thousand dollars, a sum equivalent to between twelve and eighteen months of pre-tax earnings. It is, in essence, the cost of an education one never formally enrolled in, paid in full to the school of hard knocks. The tuition, regrettably, shows no signs of abating.",
-          "source_url": "https://boards.4chan.org/biz/thread/62698477",
-          "source_hint": "/biz/ thread tallying up lifetime financial mistakes"
-        },
-        {
-          "id": "puffy-nips-gym",
-          "category": "mma/fitness",
-          "topic_zh": "乳頭脂肪",
-          "topic_en": "Puffy Nip Fix",
-          "text_zh": "/fit/ 仔成日 lean out 同 bench 都搞唔掂 puffy nips，醫生話 gyno 太少唔肯做手術。我都係練 chest 練到鏡前面睇，唔想再 body image anxiety。Fat Boy 叫我食 bulk，呢樣嘢真係男人嘅痛。",
-          "text_en_b1": "I have always wanted the chest of a twink. Flat, no fat. But I have been cursed with pic related. No matter how much I lean out and bench, there still seems to be fat there and my nips are puffy. The doctor said my gyno is so minimal that nobody would operate. What do I do? Inb4 dyel, this is an older photo.",
-          "text_en_b2": "Long-time /fit/ anon here, and I've been chasing a flat, defined chest for years but genetics had other plans. No matter how aggressively I lean out or how much I bench, there's still that stubborn bit of fat and my nips stay puffy, which is a nightmare for body image. I finally saw a surgeon, but he said my gyno is so mild he won't operate, so I'm stuck doing mirror checks after every chest session while the bulk crew keeps telling me to just…",
-          "text_en_c1": "The pursuit of a flat, aesthetically pristine chest has proven, in my case, to be a Sisyphean endeavour. Despite months of aggressive leaning out, meticulous bench programming, and the sort of mirror-facing scrutiny that erodes one's sanity, the residual puffiness around the areolae stubbornly persists. A consultation with a physician confirmed what I had feared: the gyno is sufficiently minor that no reputable surgeon will touch it, which leaves one in the unenviable limbo of being just self-conscious enough to suffer, yet not enough to qualify for intervention.",
-          "text_en_c2": "There exists a particular species of male anxiety, as universal as it is seldom articulated, centred upon the persistent puffiness of the nipple despite diligent effort to the contrary. Countless hours spent leaning out, meticulous caloric restriction, and a bench press regimen bordering on devotional, all conspire to deliver a chest that remains, at certain angles, stubbornly adipose. Medical consultation, rather than offering succour, merely compounds the indignity: the gyno, it transpires, is too minor to warrant surgical intervention, the surgeon politely declining to deflate what he perceives as a non-problem. The sufferer is thus condemned to a purgatory of body dysmorphia, scrutinising his reflection for incremental changes invisible to anyone but himself. Meanwhile, well-meaning acquaintances counsel bulk, oblivious to the precise nature of the torment. Some afflictions, it seems, admit no ready remedy.",
-          "source_url": "https://boards.4chan.org/fit/thread/77516189",
-          "source_hint": "/fit/ thread on stubborn chest fat and mild gyno"
-        },
-        {
-          "id": "2000s-anime",
-          "category": "anime/culture",
-          "topic_zh": "2000年代動畫",
-          "topic_en": "2000s Anime Rewatch",
-          "text_zh": "/a/ 開咗個 2000s anime 翻煲 post，有人推介 Hellsing、Wolf's Rain、Bleach、Azumanga Daioh。我就掛住 Gundam 00 同 Demon Slayer，夜晚返屋企一個人煲番套舊番，總算唔使諗住個 CFD 倉。",
-          "text_en_b1": "Seasonal stuff is fine, but it is more fun to go back. What have you been rewatching lately? For me it has been Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh. The 2000s had a very specific mood that new shows rarely match. Drop your comfort rewatches below.",
-          "text_en_b2": "Dropped into an /a/ rewatch thread and it reminded me how much the 2000s had a particular mood that newer shows rarely manage to capture. People were throwing out gems like Hellsing, Wolf's Rain, Bleach, and Azumanga Daioh, and honestly the nostalgia hit me hard because I keep going back to Gundam 00 and Demon Slayer after long days. There's something comforting about queueing up an old favourite at night instead of staring at my CFD positions bleeding out.",
-          "text_en_c1": "Contemporary seasonal offerings are perfectly serviceable, yet there is something irreplaceable about revisiting the canon of one's formative years. Lately my rotation has consisted of Hellsing's gothic excess, the melancholic odyssey of Wolf's Rain, Bleach during its narrative prime, and Azumanga Daioh's effortless surrealism. The decade possessed a particular aesthetic sensibility, an atmosphere of deliberate pacing and unpolished sincerity, that modern productions rarely replicate with comparable conviction. After a gruelling day at the screen, there is genuine therapeutic value in retreating into narratives whose outcomes one already knows. Drop your respective comfort rewatches below, and spare no expense in evangelising the overlooked gems.",
-          "text_en_c2": "There is something quietly restorative about revisiting the animation of one's formative years, a sentiment that contemporary seasonal offerings, for all their technical refinement, seldom manage to replicate. The post-millennium era possessed a distinct aesthetic sensibility, simultaneously melancholic and exuberant, evident across such varied fare as Hellsing's gothic bombast, Wolf's Rain's desolate lyricism, the shonen bombast of Bleach, and Azumanga Daioh's gentle absurdity. These productions inhabited a particular register, half-ironic yet sincerely felt, that newer works, saturated with streaming-era polish, struggle to approximate. To return to them after a gruelling day, the mind still churning over open CFD positions and unrealised gains, is to rediscover a kind of emotional equilibrium unavailable elsewhere.",
-          "source_url": "https://boards.4chan.org/a/thread/290972310",
-          "source_hint": "/a/ thread recommending older anime rewatches"
         }
       ]
     }
