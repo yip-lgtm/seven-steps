@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-08",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "tesla-meme-crash",
+      "topic_en": "Tesla Crashes 11%",
+      "topic_zh": "Tesla 暴跌11%",
+      "category": "trading",
+      "files": {
+        "b1": "clip-tesla-meme-crash-b1.mp3",
+        "b2": "clip-tesla-meme-crash-b2.mp3",
+        "c1": "clip-tesla-meme-crash-c1.mp3",
+        "c2": "clip-tesla-meme-crash-c2.mp3"
+      }
+    },
+    {
+      "id": "musk-bot-usage",
+      "topic_en": "Musk Cuts Bot Usage",
+      "topic_zh": "Musk 切割Bot用戶",
+      "category": "trading",
+      "files": {
+        "b1": "clip-musk-bot-usage-b1.mp3",
+        "b2": "clip-musk-bot-usage-b2.mp3",
+        "c1": "clip-musk-bot-usage-c1.mp3",
+        "c2": "clip-musk-bot-usage-c2.mp3"
+      }
+    },
+    {
+      "id": "space-vacuum-ai",
+      "topic_en": "Space Vacuum and Data Centers",
+      "topic_zh": "太空真空與數據中心",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-space-vacuum-ai-b1.mp3",
+        "b2": "clip-space-vacuum-ai-b2.mp3",
+        "c1": "clip-space-vacuum-ai-c1.mp3",
+        "c2": "clip-space-vacuum-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-musk-politics",
+      "topic_en": "Musk in Political News",
+      "topic_zh": "Musk 捲入政治戰",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-musk-politics-b1.mp3",
+        "b2": "clip-hk-musk-politics-b2.mp3",
+        "c1": "clip-hk-musk-politics-c1.mp3",
+        "c2": "clip-hk-musk-politics-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-gym-nerd",
+      "topic_en": "Gym Gains and Anime",
+      "topic_zh": "健身救不回社死",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-anime-gym-nerd-b1.mp3",
+        "b2": "clip-anime-gym-nerd-b2.mp3",
+        "c1": "clip-anime-gym-nerd-c1.mp3",
+        "c2": "clip-anime-gym-nerd-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-rotted-brains",
+      "topic_en": "AI and the Rotting Brain",
+      "topic_zh": "AI 令人腦生黐",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-ai-rotted-brains-b1.mp3",
+        "b2": "clip-ai-rotted-brains-b2.mp3",
+        "c1": "clip-ai-rotted-brains-c1.mp3",
+        "c2": "clip-ai-rotted-brains-c2.mp3"
+      }
+    }
+  ]
+}
