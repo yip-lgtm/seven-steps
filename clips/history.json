@@ -1,6 +1,102 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "days": [
+    {
+      "date": "2026-11-09",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "trade-tsla-11",
+          "category": "trading",
+          "topic_zh": "Tesla跌一成",
+          "topic_en": "Tesla Drops 11%",
+          "text_zh": "Tesla無啦啦跌咗11%。成間公司根本係一個meme。冇乜原因，跌就係跌。睇完真係好自然。",
+          "text_en_b1": "Tesla crashed 11% for no fucking reason. The entire company is a meme. No clear catalyst explains the drop, so investors are treating the movement like another meme-stock sell-off rather than a change in the company’s basic business.",
+          "text_en_b2": "Tesla crashed 11% for no fucking reason. The whole company is basically a meme, so naturally the stock price follows the same pattern: when it falls, it simply falls. There was no clear catalyst or meaningful change in the company’s underlying business to explain the movement, which made investors treat it like another meme-stock sell-off rather than a reaction to anything fundamentally serious.",
+          "text_en_c1": "Tesla has crashed 11% for no fucking reason. The entire company, quite frankly, has become a meme. There is no clear catalyst behind the decline—no earnings disaster, product failure, or major strategic reversal that would readily explain such a move. Investors therefore appear to be treating the sell-off as another meme-stock episode rather than as a reassessment of Tesla’s underlying business. Watching it happen feels strangely natural, although that normality does not make the valuation any more defensible.",
+          "text_en_c2": "Tesla plunged 11%, with no apparent catalyst to explain the rout. Rather than reacting to any meaningful deterioration in the company’s underlying business, investors appear to have treated the move as a familiar meme-stock sell-off. That interpretation makes grimly logical sense: if the entire enterprise is regarded as a joke, even an inexplicable decline requires no elaborate explanation. The share price fell because it fell, which is precisely what one might expect when fundamentals have been overshadowed by the belief that the company itself is, in the market’s collective judgement, something of a joke.",
+          "source_url": "https://boards.4chan.org/biz/thread/62861785",
+          "source_hint": "A /biz/ poster reacts to Tesla’s 11% crash."
+        },
+        {
+          "id": "trade-chip-1250",
+          "category": "trading",
+          "topic_zh": "晶片股新高",
+          "topic_en": "AMD and Nvidia Higher",
+          "text_zh": "AMD升級去1250，Intel就更加冇得輸啦。NVDA又創新高。Old guy had an affair，隻係business news而已lol。",
+          "text_en_b1": "Old guy had an affair. Wow. AMD’s 1250 upgrade sent Intel down toward $200, while NVDA reached a new all-time high. The post frames semiconductors as a rotation trade: AMD gains, Intel loses, and Nvidia keeps leading.",
+          "text_en_b2": "Old guy had an affair. Wow. AMD’s 1250 upgrade sent Intel sliding toward $200, while NVDA reached another new all-time high. Apparently, this is just business news now. The semiconductor market is playing out like a rotation trade: AMD takes the gains, Intel absorbs the losses, and Nvidia continues leading the sector despite the guy’s personal scandal.",
+          "text_en_c1": "The old guy had an affair. Wow. AMD’s upgrade to 1250 sent Intel sliding towards $200, while NVDA pushed on to another all-time high. It is hardly earth-shattering business news, although the market has reacted as though the semiconductor sector were undergoing a full rotation: AMD gains ground, Intel loses it, and Nvidia continues to lead the pack. Taken together, these moves suggest that investors are chasing momentum rather than examining each company’s fundamentals in detail.",
+          "text_en_c2": "The old man has been caught in an affair, but that little business scandal apparently matters less than the semiconductor rout. AMD was upgraded to 1,250, leaving Intel with little chance of avoiding defeat, while NVDA reached another all-time high. The price action neatly depicts a rotation trade: capital is leaving the laggard, AMD is benefiting from renewed optimism, and Nvidia continues to command the sector. So much for the old guy’s extracurricular entanglements; for once, the relevant headline concerns market leadership rather than domestic misconduct.",
+          "source_url": "https://boards.4chan.org/biz/thread/62876984",
+          "source_hint": "A /biz/ post compares AMD, Intel, and Nvidia after an upgrade and new highs."
+        },
+        {
+          "id": "eng-vacuum-data",
+          "category": "tech/ai",
+          "topic_zh": "Musk真空爭議",
+          "topic_en": "Musk Vacuum Debate",
+          "text_zh": "Musk又出嚟 chimp 啦。有人指出真空係insulator，對data centers唔好，佢就鬧人。咁我哋係咪真係應該信晒個tech sector同H-1B政策？",
+          "text_en_b1": "Musk chimps out at a man pointing out that the vacuum of space is an insulator, which is bad for data centers. The poster asks whether our tech sector and H-1B immigration policies should really depend on someone who reacts this badly to basic facts and logic.",
+          "text_en_b2": "Musk chimps out at a man who points out that the vacuum of space is an insulator, which makes it a pretty bad choice for data centers. Musk then attacks the person instead of addressing the argument. The poster wonders whether we should really trust the tech sector and H-1B immigration policy when their loudest defender reacts so badly to basic facts, logic, and criticism.",
+          "text_en_c1": "Musk is chimping out again after a man correctly pointed out that a vacuum is an insulator, which is rather inconvenient for data centres. Rather than engage with the basic physics, he attacks the person raising it. This is precisely why the poster questions whether the technology sector, and even H-1B immigration policy, should be left to the mercy of someone who responds to elementary facts and logic with such aggressive hostility. If this is how he handles criticism, how much confidence should we really place in his judgment?",
+          "text_en_c2": "Musk has once again descended into chimpanzee-like behaviour, this time after someone pointed out that a vacuum is an insulator, an awkward fact for data centres whose servers need their own carefully managed thermal environment. Instead of considering the argument, he resorted to abuse. The poster consequently raises a broader question: should the technology sector, and the H-1B immigration policy that sustains so much of it, really rest on the judgment of someone who responds to elementary physics with such conspicuous hostility? The implication is that neither technological strategy nor public policy should be entrusted to a notoriously volatile dispute with reality.",
+          "source_url": "https://boards.4chan.org/g/thread/110239688",
+          "source_hint": "A /g/ thread attacks Musk’s response about vacuum insulation and data centers."
+        },
+        {
+          "id": "hk-tsla-toyota",
+          "topic_zh": "Tesla對比Toyota",
+          "topic_en": "Tesla Versus Toyota",
+          "text_zh": "Tesla咁sell死Toyota做咩？Toyota去年賺多過Tesla六倍，但Tesla市值仲高過之後37間car makers加埋。單睇股價根本唔合理。",
+          "text_en_b1": "Why does Tesla compete so hard with Toyota? Toyota made six times more profit than Tesla last year, but Tesla’s stock is still worth more than the next 37 automakers combined. The poster questions why investors give Tesla such a huge valuation.",
+          "text_en_b2": "Why is Tesla competing with Toyota so aggressively? Toyota earned six times more profit than Tesla last year, yet Tesla’s market value remains higher than that of the next 37 automakers combined. Looking at the share prices alone, the valuation makes very little sense. The poster therefore questions why investors continue assigning Tesla such an enormous premium despite the financial gap.",
+          "text_en_c1": "Why is Tesla competing with Toyota so aggressively? Toyota earned six times more profit than Tesla last year, yet Tesla’s market capitalisation remains higher than that of the next 37 automakers combined. On earnings alone, the valuation looks irrational; if the figures are being compared on a consistent basis, it is difficult to defend. The poster’s point is not necessarily that Tesla cannot succeed, but that investors appear willing to overlook its comparatively modest profitability in pursuit of growth, narrative, and technological prestige.",
+          "text_en_c2": "Why is Tesla competing with Toyota so fiercely when the financial fundamentals appear so lopsided? Toyota earned six times Tesla’s profit last year, yet Tesla’s market value remains higher than that of the next 37 automakers combined. Taken at face value, the comparison makes the valuation assigned to Tesla look wildly irrational. Unless, of course, investors are pricing in something other than present-day earnings—perhaps autonomy, energy storage, software, or Tesla’s perceived technological identity—and regard Toyota as a comparatively conventional manufacturer. The poster, however, sees the disparity simply as the market embracing a valuation that cannot plausibly be reconciled with established automotive economics.",
+          "source_url": "https://boards.4chan.org/pol/thread/545895149",
+          "source_hint": "A /pol/ thread compares Tesla’s valuation with Toyota’s profit."
+        },
+        {
+          "id": "fit-strong-test",
+          "category": "mma/fitness",
+          "topic_zh": "力量終極測試",
+          "topic_en": "The Ultimate Strength Test",
+          "text_zh": "1/2/3/4/5就係终极力量測試。1個plate OHP做4下，2個plate bench做3下，3個plate squat做2下，4個plate deadlift做1下，5個strict pull ups。",
+          "text_en_b1": "1/2/3/4/5 is the ultimate test of whether someone is strong: one-plate overhead press for four reps, two-plate bench press for three reps, three-plate squat for two reps, four-plate deadlift for one rep, and five strict pull-ups.",
+          "text_en_b2": "The 1/2/3/4/5 challenge is the ultimate test of whether somebody is genuinely strong: one-plate overhead press for four reps, two-plate bench press for three reps, three-plate squat for two reps, four-plate deadlift for one rep, and five strict pull-ups. Each exercise uses a heavier plate while the required repetitions decline, so the final stages demand serious strength, balance, and technical control.",
+          "text_en_c1": "The 1/2/3/4/5 challenge is presented as the ultimate test of whether somebody is genuinely strong. Complete a one-plate overhead press for four repetitions, a two-plate bench press for three, a three-plate squat for two, a four-plate deadlift for one, and five strict pull-ups. It is a demanding sequence because each exercise demands both technical control and substantial absolute strength. Although the standards sound straightforward, the combined challenge is severe: failing at any stage could expose weaknesses that a conventional lift would otherwise conceal.",
+          "text_en_c2": "The 1/2/3/4/5 protocol is billed as the ultimate strength test, although it demands considerably more than conventional gym proficiency. The lifter must complete four repetitions of an overhead press with one plate, three reps of the bench press with two plates, two reps of a squat with three plates, a single deadlift rep with four plates, and five strict pull-ups. Each successive station combines increasing load with decreasing repetitions, culminating in an especially demanding sequence of explosive and technical movements. Success therefore requires not merely raw force, but the mobility, coordination, balance, and sheer grit needed to preserve strict form under increasingly punishing circumstances.",
+          "source_url": "https://boards.4chan.org/fit/thread/77605719",
+          "source_hint": "A /fit/ post proposes a five-part strength test with exact lifts and reps."
+        },
+        {
+          "id": "anime-anime-boom",
+          "category": "anime/culture",
+          "topic_zh": "動漫全球爆紅",
+          "topic_en": "Anime Goes Global",
+          "text_zh": "The World Can’t Get Enough Anime。日本經濟冇乜好消息，但喺New York Comic Con，anime已經霸晒成個event。大家都愛Japan同anime，成功成為Japan其中一個出口。",
+          "text_en_b1": "The world can’t get enough anime. Japan’s economic prospects have offered little good news, but at New York Comic Con, anime was everywhere. Attendees said they love both anime and Japan, showing how the industry has become a major cultural export.",
+          "text_en_b2": "The world can’t get enough anime. Japan’s economic prospects have provided little good news, but at New York Comic Con, anime was absolutely everywhere. Attendees repeatedly said how much they love both anime and Japan, demonstrating that the industry has become a major cultural export. Although the country faces economic difficulties, its popular culture is clearly winning over international audiences.",
+          "text_en_c1": "The world cannot get enough anime. While Japan’s economic prospects have provided little cause for optimism, anime has taken over New York Comic Con, with the medium seemingly dominating the entire event. Attendees repeatedly made clear that they love both anime and Japan, demonstrating that the industry has become a major cultural export. Its success is particularly striking given the wider economic context: even when domestic indicators remain bleak, Japanese animation continues to command enormous international enthusiasm and commercial reach.",
+          "text_en_c2": "The world cannot get enough of anime. Although Japan’s economic prospects have offered little in the way of encouraging news, anime was omnipresent at New York Comic Con, dominating the event to an almost overwhelming degree. Attendees repeatedly expressed their affection for both anime and Japan itself, suggesting that the relationship has moved well beyond casual entertainment. The convention offered vivid evidence of anime’s cultural reach, but its commercial significance is just as important: Japanese animation has become a major export, carrying Japanese culture and creative influence far beyond the country’s borders while the broader economy struggles to generate comparably durable sources of international revenue.",
+          "source_url": "https://boards.4chan.org/a/thread/292141680",
+          "source_hint": "An /a/ thread discusses anime’s popularity at New York Comic Con and Japan’s cultural export strength."
+        },
+        {
+          "id": "anime-usogui-final",
+          "category": "anime/culture",
+          "topic_zh": "勇者大結局",
+          "topic_en": "Usogui Storytime Finale",
+          "text_zh": "Usogui Storytime FINAL，Volume 1/2。今個禮拜weekly drawn manga完结啦。TIME TO FINISH IT YOU GAMBLERS，唔好再爭住入去，睇晒佢先。",
+          "text_en_b1": "Usogui Storytime FINAL, Volume 1/2. It is time to finish the weekly drawn manga. The thread is giving readers one last chance to complete the series, with a loud warning for the regulars who always arrive late.",
+          "text_en_b2": "Usogui Storytime FINAL, Volume 1/2. This week brings the conclusion of the weekly drawn manga, so it is time to finish the series properly. The thread is giving regular readers one last opportunity to complete it, although the loud warning makes it clear that anyone who always arrives late should not complain when spoilers finally appear. Read the whole thing before posting, you gamblers.",
+          "text_en_c1": "Usogui Storytime FINAL, Volume 1/2. This week, the weekly drawn manga reaches its conclusion, so now is the time to finish it. The thread is granting regular readers one final opportunity to complete the series before it disappears into the usual cycle of posts that arrive late and derail everyone else’s enjoyment. The warning is delivered loudly: you regulars who always turn up late should stop rushing in, settle down, and read the whole thing first.",
+          "text_en_c2": "Usogui Storytime has reached its FINAL, Volume 1/2, and the weekly drawn manga is now complete. The thread grants regular readers one last opportunity to finish the series before it disappears into the archive, accompanied by the emphatic instruction to get on with it, you gamblers. The warning is clearly aimed at familiar visitors who invariably arrive late, browse the final instalment, and then complain that the discussion continued without them. Whether they appreciate the artistry or merely enjoy the ritual of keeping score, regulars are being summoned one final time to read the ending properly before the story concludes for good.",
+          "source_url": "https://boards.4chan.org/a/thread/292147119",
+          "source_hint": "An /a/ thread announces the final volume of its weekly Usogui storytime."
+        }
+      ]
+    },
     {
       "date": "2026-11-08",
       "source": "ai",
@@ -4422,103 +4518,6 @@
           "text_en_c2": "A close female friend has, with admirable determination, resolved to cultivate what the discourse optimistically terms a gym physique, and I, her self-appointed but distinctly unqualified consigliere, have so far programmed only the foundational compound movements: Romanian deadlifts and back squats, performed with a diligence that puts my own increasingly sporadic sessions to shame. What I am now seeking, with some urgency, is a more comprehensive catalogue of lifts suited to developing a rounded glute, a defined waist, and the kind of postural poise that resists the unfailingly bulky aesthetic she expressly wishes to avoid. Next month, by prior arrangement, we shall train together, provided my schedule, which has lately been conspiring against such resolutions, permits.",
           "source_url": "https://boards.4chan.org/fit/thread/77513431",
           "source_hint": "/fit/ thread asking how to train a female friend at the gym"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-macro",
-          "category": "trading",
-          "topic_zh": "油鈾銅金銀",
-          "topic_en": "Buy commodities",
-          "text_zh": ">Oil >Uranium >Copper >Gold >Silver 全部都係未來15年嘅play。Tech根本唔使睇。Prop firm個倉又輸緊，又係學費😭🙏",
-          "text_en_b1": "The /biz/ thesis for the next 15 years is oil, uranium, copper, gold, and silver. The OP says you will outperform tech with this list. No charts, no entry levels — just a strong opinion that commodities beat tech. Hard assets over paper promises, basically.",
-          "text_en_b2": "The /biz/ thesis lays out a fifteen-year conviction play built around oil, uranium, copper, gold, and silver, dismissing tech entirely as overpriced noise. The poster argues these commodities will outperform equities simply because hard assets outlast paper promises. No charts, no entry levels, and no technical analysis appear anywhere in the thread, just an aggressive stance that bets against the entire tech sector. Meanwhile, the same poster admits his prop firm account is bleeding again, calling it another painful lesson paid for out of pocket.",
-          "text_en_c1": "The prevailing thesis circulating on /biz/ holds that the coming fifteen years will be defined by a commodities supercycle, with oil, uranium, copper, gold, and silver positioned to outperform virtually every other asset class. The original poster dismisses the technology sector entirely, arguing that anyone still allocating capital to tech equities has fundamentally misread the macroeconomic landscape. Notably, no charts, entry points, or supporting data accompany the claim. The underlying conviction is straightforward: hard, tangible assets, whose value derives from physical scarcity rather than corporate earnings projections, will inevitably eclipse paper-based instruments and speculative growth narratives over the long term.",
-          "text_en_c2": "The /biz/ thesis for the coming fifteen years is, in essence, a wholesale pivot away from technology and toward tangible commodities — oil, uranium, copper, gold, and silver, presented not as a diversified basket but as the singular macro trade. The poster argues, with a conviction bordering on evangelism, that hard assets will systematically outperform any tech-equity proxy over the long horizon. No charts, no entry levels, no defined risk parameters — merely the assertion that commodities represent real value while paper promises, by contrast, constitute little more than deferred disappointment. The accompanying tone is unapologetically didactic, as though the author has transcended the noise of the cycle itself. Whether the thesis merits consideration or constitutes mere contrarian posturing remains, of course, an entirely separate matter for which the reader must adjudicate.",
-          "source_url": "https://boards.4chan.org/biz/thread/62709121",
-          "source_hint": "/biz/ commodities list, anti-tech"
-        },
-        {
-          "id": "trade-tesla",
-          "category": "trading",
-          "topic_zh": "AMD撐NVIDIA",
-          "topic_en": "Just buy AMD",
-          "text_zh": "成班e-celeb日日話NVIDIA貴，點解唔買AMD？ROCm都work，pytorch都support。唔係啦大佬，我連GPU都冇，trade緊CFD輸緊錢先真😭👍",
-          "text_en_b1": "The OP asks why everyone complains about Nvidia prices instead of just buying AMD. ROCm works with PyTorch, ray tracing barely matters, and Nvidia does not even run well on Linux. AMD got a smaller price bump this generation. Buying AMD is the obvious move, he says.",
-          "text_en_b2": "The OP challenges anyone whining about Nvidia's inflated pricing to seriously look at AMD instead, pointing out that ROCm already runs PyTorch workloads and that ray tracing barely matters for actual compute tasks. Nvidia, he argues, barely works properly on Linux anyway, and AMD saw a smaller price hike this generation, making it the more obvious buy. The thread's punchline, however, comes when the poster admits he cannot even afford a real GPU and is currently bleeding money trading CFDs on the side, which undercuts…",
-          "text_en_c1": "The original poster poses a deceptively simple question: if Nvidia's valuation has become untenable, why is the broader investment community not redirecting capital toward AMD? His argument rests on several technical observations. ROCm, AMD's open-source compute platform, now integrates with PyTorch workflows, while ray tracing performance, often cited as Nvidia's decisive advantage, carries minimal weight for machine learning applications. Furthermore, Nvidia's driver stack remains notoriously unstable on Linux distributions. Given that AMD's price appreciation this generation has been considerably more measured, the logical inference, he contends, is that AMD represents the asymmetric trade that rational allocators should be pursuing instead.",
-          "text_en_c2": "The OP, weary of the daily chorus decrying Nvidia's stratospheric valuation, poses what he considers a self-evident rebuttal: why not simply acquire AMD? ROCm, he notes with some exasperation, already functions compatibly with PyTorch; ray-tracing superiority is, in his estimation, marginal at best; and Nvidia's driver stack, notoriously recalcitrant on Linux, scarcely justifies the premium. AMD, having received a comparatively modest price uplift this generation, ostensibly represents the rational asymmetric bet. Whether such logic constitutes genuine analytical insight or merely the familiar contrarian reflex of an online crowd remains debatable — yet the conviction with which it is delivered suggests the poster considers the matter conclusively settled.",
-          "source_url": "https://boards.4chan.org/g/thread/109857968",
-          "source_hint": "/g/ pro-AMD, anti-Nvidia"
-        },
-        {
-          "id": "civil-drainage",
-          "category": "civil/structure",
-          "topic_zh": "斜坡調查",
-          "topic_en": "Slope survey basics",
-          "text_zh": "今日睇返slope investigation啲筆記。Factor of safety要check soil nailing spacing同groundwater table。Tommy問我GI report邊part未填，我講唔出😭 FE考牌都未溫完。",
-          "text_en_b1": "A /biz/ anon shared his trading losses. He estimates $50k to $75k from bad decisions over the years. The list includes fake gold chains, gambling, stocks, options, crypto, loans to other people, lawyers, drinking, and drugs. OP is asking how much other anons wasted on their own dumb mistakes.",
-          "text_en_b2": "A civil engineering student is cramming slope survey notes ahead of his FE exam and still cannot remember which sections of the GI report Tommy asked him to fill in yesterday. The key checks involve verifying soil nailing spacing against the factor of safety, while also accounting for fluctuations in the groundwater table during rainy season. He admits the licensing exam is far from fully revised, so he is basically winging it through site meetings while praying nothing too technical comes up.",
-          "text_en_c1": "Reviewing slope investigation notes reveals the critical interplay between soil nailing spacing, the prevailing groundwater table, and the resultant factor of safety calculations that govern slope stability assessments. A colleague named Tommy has inquired which section of the geotechnical interpretation report remains incomplete, and the honest answer is that the author cannot recall. With the Fundamentals of Engineering examination looming and preparation far from adequate, the situation has devolved into a familiar pattern of academic triage. If the report cannot be finished coherently before the deadline, the professional embarrassment will likely prove more damaging than any licensing setback.",
-          "text_en_c2": "Today's revision session returned me to the fundamentals of slope investigation, a discipline in which the factor of safety cannot be meaningfully evaluated without concurrent consideration of soil-nailing spacing and the prevailing groundwater table — two variables whose interplay, if neglected, renders any subsequent calculation fundamentally compromised. Tommy, in his characteristic fashion, inquired which section of the GI report remained incomplete; I found myself, rather embarrassingly, unable to articulate the answer with any precision. The FE professional examination, looming with its customary inevitability, has yet to receive adequate preparation, and the gap between aspirational competence and current fluency grows, if anything, more conspicuous with each passing evening.",
-          "source_url": "https://boards.4chan.org/biz/thread/62698477",
-          "source_hint": "/biz/ loss confessions, $50k-$75k wasted"
-        },
-        {
-          "id": "civil-struct",
-          "category": "civil/structure",
-          "topic_zh": "結構load path",
-          "topic_en": "Load path check",
-          "text_zh": "今日覆習beam同column個load path。RC design要check moment同shear transfer。Sum Ho何生聽日site meeting，我驚自己講唔清個detail。考牌救命🙏",
-          "text_en_b1": "Another /biz/ anon bragged that his mentality changed after hitting six figures. He traded crypto since late 2017 and lost everything several times. Now he has $300k, 80% in stables earning 5% APY, 1 BTC, and he is diversifying into silver and gold.",
-          "text_en_b2": "An engineering student is reviewing beam-to-column load path behaviour for tomorrow's site meeting with Sum Ho, and he is genuinely terrified of fumbling the technical detail in front of the senior. The revision covers reinforced concrete design principles, particularly how moment and shear transfer through joints has to be checked before any member sizing gets finalised. He admits the professional licensing exam is nowhere near ready, so he is essentially relying on muscle memory and sheer luck to survive the morning.",
-          "text_en_c1": "Revisiting reinforced concrete design principles requires careful attention to the load path through beams and columns, with particular emphasis on moment and shear transfer mechanisms at the connections. Tomorrow's site meeting with Mr. Sum Ho demands articulate articulation of these structural nuances, yet the underlying anxiety stems from insufficient familiarity with the granular details. Should the panel probe beyond surface-level explanations, the consequences could derail both the project's progression and the author's professional credibility. The Fundamentals of Engineering examination, still inadequately prepared for, compounds the pressure.",
-          "text_en_c2": "Today's review of beam-and-column load paths reaffirmed what ought to be axiomatic yet somehow eludes consistent application: in RC design, one must rigorously verify both moment and shear transfer mechanisms, for a structure is only as sound as the continuity of its load path. Sum Ho's site meeting tomorrow carries the customary apprehension, given that articulating technical detail under scrutiny requires a fluency I cannot yet guarantee. The professional examination, meanwhile, looms with its characteristic disregard for one's preparedness, and revision proceeds at a pace that suggests insufficient alarm. The broader irony — that civil engineers routinely exhort others to verify their foundations whilst neglecting their own — is not lost on me, though such recognition offers, admittedly, scant consolation when one cannot confidently trace a load through a simple portal frame.",
-          "source_url": "https://boards.4chan.org/biz/thread/62706311",
-          "source_hint": "/biz/ flex, $300k portfolio, anti-shitcoin"
-        },
-        {
-          "id": "tech-ai",
-          "category": "tech/ai",
-          "topic_zh": "AI偷睇你",
-          "topic_en": "Apple AI spying",
-          "text_zh": "tim apple又搞嘢。個OS偷睇你每個cursor同keystroke，仲用AI 24/7 scan你個screen。AI真係連desktop都入侵緊lol。靠AI續命都要小心🧐",
-          "text_en_b1": "/g/ is asking what Tim Apple meant when he said the new OS spies on every cursor movement and keystroke. It also uses AI to scan every frame of your screen 24 hours a day. The OP wants to know if this is real privacy news or just another Apple announcement.",
-          "text_en_b2": "/g/ is picking apart Tim Cook's claim that the new OS monitors every cursor movement and keystroke while running AI-driven screen analysis around the clock. The poster wants to know whether this constitutes genuine privacy-breaking news or merely another staged Apple announcement dressed up in marketing language. The thread assumes the worst, treating the feature as outright surveillance rather than a productivity tool, and jokes that AI has officially invaded even the average user's desktop environment at this point.",
-          "text_en_c1": "/g/ is dissecting Tim Cook's recent remarks regarding Apple's operating system, which allegedly monitors every cursor movement and keystroke in real time. Beyond mere keystroke logging, the system purportedly deploys artificial intelligence to scan the user's screen continuously, analyzing each frame around the clock. If these claims hold any credibility, they represent a paradigm shift in surveillance architecture. The original poster remains skeptical, however, questioning whether this constitutes genuine privacy violation warranting regulatory scrutiny, or merely another theatrical Apple keynote designed to manufacture concern. The distinction between substantive privacy erosion and marketing spectacle has never been more consequential for end users.",
-          "text_en_c2": "/g/ is presently dissecting Tim Cook's recent remarks — 'Tim Apple,' as the faithful insist on rendering him — concerning the new operating system's purportedly omniscient surveillance architecture. According to the OP, the OS now captures every cursor movement and keystroke with industrial thoroughness, whilst an embedded AI layer continuously scans each frame of the user's screen on a twenty-four-hour basis. The question, posed with characteristic /g/ scepticism, is whether this constitutes genuine privacy newsworthy of sustained outrage or merely the latest iteration of Apple's familiar announcement cadence dressed in theatrical garments. The broader context — that AI has, with quiet inevitability, colonised even the desktop environment — lends the inquiry a weightier philosophical dimension than its breezy tone might initially suggest, particularly for those who had hoped the personal computer might constitute a final…",
-          "source_url": "https://boards.4chan.org/g/thread/109843877",
-          "source_hint": "/g/ panicking about Apple OS AI spying"
-        },
-        {
-          "id": "hk-news",
-          "category": "hk/news",
-          "topic_zh": "中伊軍售",
-          "topic_en": "China arms Iran",
-          "text_zh": "China公開送super武器去Iran。西方根本睇唔明呢啲tech。國際版圖又變緊，個prop firm又喺度輸⋯⋯真係睇完新聞再睇個倉wtf。",
-          "text_en_b1": "/pol/ says China has started openly delivering superweapons to Iran. The post claims the technologies are beyond Western comprehension and are arriving in large numbers. No proof, no sources, just a short claim that the balance of power in the Middle East is shifting fast.",
-          "text_en_b2": "/pol/ claims China has begun openly shipping superweapons to Iran, insisting that the underlying technologies involved are beyond anything Western defence analysts can properly comprehend. The post alleges large quantities of this hardware are arriving on schedule, with no sourced evidence or verifiable sourcing to back the claim up. Despite the dramatic geopolitical framing about the Middle Eastern balance of power shifting fast, the poster signs off by checking his prop firm account and discovering yet another losing position waiting for him.",
-          "text_en_c1": "A /pol/ thread claims that China has commenced openly delivering sophisticated weaponry systems to Iran, with technologies so advanced that Western intelligence communities allegedly cannot even comprehend their operational parameters. The post asserts these transfers are occurring at scale, fundamentally altering the strategic calculus across the Middle East. No corroborating evidence, photographic documentation, or credible sourcing accompanies these assertions. Nevertheless, if even a fraction of the claim proves accurate, the ripple effects across global commodity markets, defense procurement budgets, and diplomatic alignments would be considerable. Observers are left to weigh the credibility of anonymous speculation against the magnitude of its implied geopolitical consequences.",
-          "text_en_c2": "/pol/ contends, with characteristic bombast and characteristic absence of corroboration, that China has commenced the overt transfer of what it terms 'superweapons' to Iran — armaments whose technological sophistication, the post insists, lies beyond the West's collective capacity for comprehension. The claim arrives freighted with geopolitical portent: the suggestion, unsubstantiated yet declamatory in delivery, is that vast quantities of such materiel are already en route and that the resulting recalibration of Middle Eastern power dynamics will prove both rapid and irreversible. No sources are cited, no photographic evidence proffered, no official statements referenced — merely the assertion, delivered as though self-evident, that the strategic landscape is undergoing fundamental transformation.",
-          "source_url": "https://boards.4chan.org/pol/thread/542990725",
-          "source_hint": "/pol/ China-Iran arms delivery claim"
-        },
-        {
-          "id": "mma-fit",
-          "category": "mma/fitness",
-          "topic_zh": "creatine迷思",
-          "topic_en": "Creatine bad?",
-          "text_zh": "4chan話creatine會甩頭髮、爆瘡、成塊面腫。好啦我今日啱啱買咗一罐lol。肥仔信話飲咗會肥，但佢自己都飲緊⋯⋯點算🙏",
-          "text_en_b1": "/fit/ argues creatine makes you bald, gives you face acne, and makes your gut and face look puffy and fat. The OP admits the only upside is lifting 5 to 10 percent more. So creatine is mostly side effects plus a small strength gain, he concludes.",
-          "text_en_b2": "/fit/ debates whether creatine actually delivers enough upside to justify its reputation, with the prevailing view holding that the compound causes hair loss, breakouts, and noticeable facial bloating. The poster concedes that the only genuine benefit is lifting roughly five to ten percent more weight during training sessions, which feels marginal compared to the laundry list of side effects involved. Meanwhile, another gymgoer swears the supplement makes you fat, despite clearly taking it himself, leaving the original poster caught between conflicting advice and freshly opened…",
-          "text_en_c1": "Persistent threads on /fit/ insist that creatine supplementation precipitates alopecia, exacerbates facial acne, and produces a characteristic bloated, puffy appearance that undermines any aesthetic gains earned through dedicated training. The original poster, having purchased a container earlier today, finds himself caught between anecdotal horror stories and the supplement's established ergogenic benefits. A fitness acquaintance who warned that creatine causes fat gain was himself consuming the compound throughout his cautionary lecture. The cognitive dissonance is considerable: if the purported side effects were genuinely severe, would informed practitioners continue incorporating the supplement into their regimens with such apparent enthusiasm?",
-          "text_en_c2": "/fit/ is presently engaged in a vigorous campaign against creatine monohydrate, enumerating its alleged offences with the prosecutorial zeal of a dietary inquisitor. Hair loss, facial acne, bloating, and a generalised impression of puffiness across both countenance and midsection — these constitute, according to the thread's consensus, the inevitable physiological toll exacted by supplementation. The OP, displaying admirable candour if not impeccable timing, confesses to having purchased a tin of the offending substance earlier that very day. The fat-acceptance advocate invoked as counterpoint — who insists creatine induces corpulence whilst apparently consuming it herself — provides, perhaps unwittingly, a rather elegant illustration of the contradictions endemic to online fitness discourse.",
-          "source_url": "https://boards.4chan.org/fit/thread/77522163",
-          "source_hint": "/fit/ anti-creatine cope thread"
         }
       ]
     }
