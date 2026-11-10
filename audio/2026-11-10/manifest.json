@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-10",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "tr-musk-biz",
+      "topic_en": "Tesla Crashes",
+      "topic_zh": "Tesla崩盤",
+      "category": "trading",
+      "files": {
+        "b1": "clip-tr-musk-biz-b1.mp3",
+        "b2": "clip-tr-musk-biz-b2.mp3",
+        "c1": "clip-tr-musk-biz-c1.mp3",
+        "c2": "clip-tr-musk-biz-c2.mp3"
+      }
+    },
+    {
+      "id": "tr-cybertruck",
+      "topic_en": "Cybertruck Is Dead",
+      "topic_zh": "Cybertruck死機",
+      "category": "trading",
+      "files": {
+        "b1": "clip-tr-cybertruck-b1.mp3",
+        "b2": "clip-tr-cybertruck-b2.mp3",
+        "c1": "clip-tr-cybertruck-c1.mp3",
+        "c2": "clip-tr-cybertruck-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-os",
+      "topic_en": "AI Builds an OS",
+      "topic_zh": "AI造系統",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-os-b1.mp3",
+        "b2": "clip-ai-os-b2.mp3",
+        "c1": "clip-ai-os-c1.mp3",
+        "c2": "clip-ai-os-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-men",
+      "topic_en": "Men and Depression",
+      "topic_zh": "男人唔開心",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-men-b1.mp3",
+        "b2": "clip-hk-men-b2.mp3",
+        "c1": "clip-hk-men-c1.mp3",
+        "c2": "clip-hk-men-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-growing",
+      "topic_en": "Three Months, Little Growth",
+      "topic_zh": "三個月唔大",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-growing-b1.mp3",
+        "b2": "clip-fit-growing-b2.mp3",
+        "c1": "clip-fit-growing-c1.mp3",
+        "c2": "clip-fit-growing-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-twilight",
+      "topic_en": "Anime as Twilight Zone",
+      "topic_zh": "動畫變驚悚",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-twilight-b1.mp3",
+        "b2": "clip-anime-twilight-b2.mp3",
+        "c1": "clip-anime-twilight-c1.mp3",
+        "c2": "clip-anime-twilight-c2.mp3"
+      }
+    }
+  ]
+}
