@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-11",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-nvda-ai",
+      "topic_en": "AI Stocks Selloff",
+      "topic_zh": "AI股集體捱打",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-nvda-ai-b1.mp3",
+        "b2": "clip-trade-nvda-ai-b2.mp3",
+        "c1": "clip-trade-nvda-ai-c1.mp3",
+        "c2": "clip-trade-nvda-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-short-btc",
+      "topic_en": "Short NVDA and BTC",
+      "topic_zh": "沽NVDA沽BTC",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-short-btc-b1.mp3",
+        "b2": "clip-trade-short-btc-b2.mp3",
+        "c1": "clip-trade-short-btc-c1.mp3",
+        "c2": "clip-trade-short-btc-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-ai-jobs",
+      "topic_en": "AI Kills White-Collar Work",
+      "topic_zh": "AI清剿白領",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-ai-jobs-b1.mp3",
+        "b2": "clip-tech-ai-jobs-b2.mp3",
+        "c1": "clip-tech-ai-jobs-c1.mp3",
+        "c2": "clip-tech-ai-jobs-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-global-labor",
+      "topic_en": "Global Labor Exchange",
+      "topic_zh": "全球勞工交換",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-global-labor-b1.mp3",
+        "b2": "clip-hk-global-labor-b2.mp3",
+        "c1": "clip-hk-global-labor-c1.mp3",
+        "c2": "clip-hk-global-labor-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-split-program",
+      "topic_en": "Full-Body Training",
+      "topic_zh": "全身訓練唔使_split",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-split-program-b1.mp3",
+        "b2": "clip-fit-split-program-b2.mp3",
+        "c1": "clip-fit-split-program-c1.mp3",
+        "c2": "clip-fit-split-program-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬故事時間",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-b1.mp3",
+        "b2": "clip-anime-ranma-b2.mp3",
+        "c1": "clip-anime-ranma-c1.mp3",
+        "c2": "clip-anime-ranma-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-twilight",
+      "topic_en": "Ranma Twilight Zone",
+      "topic_zh": "亂馬 Twilight Zone",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-twilight-b1.mp3",
+        "b2": "clip-anime-twilight-b2.mp3",
+        "c1": "clip-anime-twilight-c1.mp3",
+        "c2": "clip-anime-twilight-c2.mp3"
+      }
+    }
+  ]
+}

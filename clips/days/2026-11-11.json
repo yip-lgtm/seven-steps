@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-11",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trade-nvda-ai",
+      "category": "trading",
+      "topic_zh": "AI股集體捱打",
+      "topic_en": "AI Stocks Selloff",
+      "text_zh": "WHY, PRAY TELL ME. 點解我唔應該買 NVDA、TSMC、ASML、SKHY、SNDK，同埋依家食譜好慘嘅其他 AI stocks？\n\n又係一齊插針。靠AI續命都要睇下個prop firm個P&L先算啦。",
+      "text_en_b1": "WHY, PRAY TELL ME. Why the fuck should I not buy NVDA, TSMC, ASML, SKHY, SNDK, and all the other AI stocks that are eating shit right now? The whole AI sector is getting hammered, and maybe this is another chance to enter.",
+      "text_en_b2": "WHY, PRAY TELL ME. Why the hell shouldn’t I buy NVDA, TSMC, ASML, SKHY, SNDK, and all the other AI stocks that are getting slaughtered right now? They’re all dropping together, which makes me wonder whether this is another entry point. Although relying on AI to stay afloat is getting riskier, I should probably check the prop firm’s P&L before doing anything stupid.",
+      "text_en_c1": "WHY, PRAY TELL ME. Why on earth shouldn’t I buy NVDA, TSMC, ASML, SKHY, SNDK, and the other AI-related stocks that are currently getting hammered? The entire sector is being sold off in unison, which might make this an excellent entry point. On the other hand, blindly catching a falling knife is not exactly a sound strategy. If these companies are surviving on AI hype alone, I should at least examine the prop firm’s P&L before committing. For now, I’m keeping my eyes open and my position modest.",
+      "text_en_c2": "WHY, PRAY TELL ME. Why the fuck should I not buy NVDA, TSMC, ASML, SKHY, SNDK, and the other AI stocks that are currently getting annihilated? The entire sector has been sold into the ground, yet perhaps this is precisely the moment to enter rather than watch from the sidelines like a nervous bystander. Such a dip could offer an attractive entry point if the underlying thesis remains intact. Still, relying on AI to rescue a portfolio is hardly a substitute for checking the prop firm’s P&L, so I will examine the numbers before deciding whether this is a genuine opportunity or merely another expensive lesson in market timing.",
+      "source_url": "https://boards.4chan.org/biz/thread/62884489",
+      "source_hint": "An anon asks why he should not buy the AI stocks now selling off."
+    },
+    {
+      "id": "trade-short-btc",
+      "category": "trading",
+      "topic_zh": "沽NVDA沽BTC",
+      "topic_en": "Short NVDA and BTC",
+      "text_zh": ">short NVDA >short BTC\n\nLiterally FREE MONEY today bobo bros!\n\nMDD先唔好開太大，CFD倉位要細，唔好又變成學費 🙏",
+      "text_en_b1": "Short NVDA. Short BTC. Literally free money today, bobo bros! Both AI stocks and Bitcoin are vulnerable right now, so a cautious CFD position may make sense instead of holding bags and hoping for another pump.",
+      "text_en_b2": "Short NVDA, short BTC. Literally free money today, bobo bros! Although both AI stocks and Bitcoin look vulnerable right now, I’d still keep my maximum drawdown under control and use a small CFD position. There’s no point in going all-in and then paying tuition when the move goes against you, so take the profit while it’s on the table.",
+      "text_en_c1": "Short NVDA; short BTC. Literally free money today, bobo bros! Both AI stocks and Bitcoin look vulnerable at the moment, so a carefully sized CFD position might be sensible rather than holding bags and praying for another pump. Having said that, I would not open anything excessively large; maximum drawdown should be kept under control, especially with CFDs, where leverage can magnify losses rapidly. If the trade works, good; if it doesn’t, I still want to avoid paying another tuition fee to the market.",
+      "text_en_c2": "Short NVDA. Short BTC. Literally free money today, bobo bros! Both AI stocks and Bitcoin look vulnerable at present, so a judicious CFD position may make more sense than holding bags and praying for another pump. That said, “free money” is a dangerously seductive phrase: volatility can punish even the correct direction, particularly when leverage magnifies every fluctuation. Keep the maximum drawdown manageable, use a modest CFD position, and do not turn the trade into another tuition fee for the exchange. If the setup fails, exit before the loss becomes educational in the most expensive sense of the word.",
+      "source_url": "https://boards.4chan.org/biz/thread/62878521",
+      "source_hint": "An anon calls for short positions in NVDA and BTC as free money."
+    },
+    {
+      "id": "tech-ai-jobs",
+      "category": "tech/ai",
+      "topic_zh": "AI清剿白領",
+      "topic_en": "AI Kills White-Collar Work",
+      "text_zh": "It's over. All knowledge worker jobs are going to be completely gutted.\n\n>creative writers are gutted\n>artists and 3D animators are gutted\n>software engineering is gutted\n>academia-level mathematics is gutted\n>PCB design is apparently gutted now too\n\n靠，civil engineering個factor of safety暫時未死lol。但做code嗰班真係可能要轉行。",
+      "text_en_b1": "It's over. All knowledge worker jobs are going to be completely gutted. Creative writers, artists, 3D animators, and software engineers are already affected. Academia-level mathematics and PCB design are apparently next. This may not happen tomorrow, but it is already becoming obvious.",
+      "text_en_b2": "It’s over. All knowledge-worker jobs are going to be completely gutted. Creative writers, artists, 3D animators, and software engineers are already being affected, while academia-level mathematics and PCB design are apparently next in line. This may not happen tomorrow, but it’s already becoming painfully obvious. Civil engineering’s safety factor is still alive, lol, although the people writing code might seriously need to consider changing careers.",
+      "text_en_c1": "It’s over. All knowledge-worker jobs are going to be completely gutted. Creative writers, artists, 3D animators, and software engineers are already affected, while academia-level mathematics and PCB design are apparently next in line. This may not happen tomorrow, but the direction of travel is becoming increasingly obvious. As for civil engineering, its factor of safety appears to be alive and well, for now, at least. Still, the people who write code may soon need to consider changing careers, whether they like it or not.",
+      "text_en_c2": "It is over. All knowledge-worker jobs are going to be comprehensively gutted. Creative writers are already suffering; so are artists, 3D animators, and software engineers. Academia-level mathematics appears to be next, while PCB design is apparently being hollowed out as well. This may not happen tomorrow, and the precise pace of disruption remains uncertain, but the direction is becoming increasingly difficult to ignore. As for civil engineering, its factor of safety has apparently survived for the moment, which is a minor consolation. For programmers, however, it may soon be time to reconsider the profession rather than simply upgrade their CVs.",
+      "source_url": "https://boards.4chan.org/g/thread/110294875",
+      "source_hint": "A tech thread predicts AI will gut knowledge-worker jobs across many professions."
+    },
+    {
+      "id": "hk-global-labor",
+      "category": "hk/news",
+      "topic_zh": "全球勞工交換",
+      "topic_en": "Global Labor Exchange",
+      "text_zh": "I fixed the global labor market.\n\n>be me\n>tired of every country having labor shortages while millions of people elsewhere can't find decent jobs\n>create Global Labor Exchange\n>every participating country uploads labor shortages to an international database\n\nChina needs 200k care workers. Germany needs 100k construction workers. The USA needs 300k agricultural workers. Meanwhile, a guy in Gabon wants to work abroad.",
+      "text_en_b1": "I fixed the global labor market. Tired of every country having labor shortages while millions of people elsewhere cannot find decent jobs, I created the Global Labor Exchange. Each country uploads its shortages to an international database. China needs 200,000 care workers, Germany needs 100,000 construction workers, and the USA needs 300,000 agricultural workers.",
+      "text_en_b2": "I fixed the global labour market. Because I was tired of every country complaining about labour shortages while millions of people elsewhere couldn’t find decent work, I created the Global Labour Exchange. Each participating country uploads its shortages to an international database. China needs 200,000 care workers, Germany needs 100,000 construction workers, and the USA needs 300,000 agricultural workers, whereas a guy in Gabon wants to work abroad.",
+      "text_en_c1": "I fixed the global labour market. Tired of every country claiming a labour shortage while millions of people elsewhere cannot find decent work, I created the Global Labor Exchange. Each participating country would upload its labour shortages to an international database, allowing workers to search for opportunities abroad. China needs 200,000 care workers; Germany needs 100,000 construction workers; and the United States needs 300,000 agricultural workers. Meanwhile, a man in Gabon wants to work overseas. The basic idea is straightforward, even if implementation is another matter.",
+      "text_en_c2": "I fixed the global labour market. Tired of every country complaining about labour shortages while millions of people elsewhere cannot find decent work, I created the Global Labour Exchange, a system in which each participating country uploads its vacancies to an international database. The scale of the mismatch is striking: China needs 200,000 care workers, Germany requires 100,000 construction workers, and the United States needs 300,000 agricultural workers. Meanwhile, somewhere in Gabon, a man wants to work abroad. The solution is hardly complicated in principle; what remains is the considerable logistical, legal, and linguistic work required to make it function in practice.",
+      "source_url": "https://boards.4chan.org/pol/thread/546013695",
+      "source_hint": "A fictional international labor-matching scheme lists shortages across three countries."
+    },
+    {
+      "id": "fit-split-program",
+      "category": "mma/fitness",
+      "topic_zh": "全身訓練唔使_split",
+      "topic_en": "Full-Body Training",
+      "text_zh": "Splits are retarded unless they are necessary because of a time constraint. There is nothing wrong with doing full-body training 3–5 times a week. You can do OHP, bench, deadlift, squat, pull-ups, and accessories in the same session.\n\n肥仔信如果又話我唔做split，咁就算啦。",
+      "text_en_b1": "Splits are useless unless a time constraint makes them necessary. There is nothing wrong with full-body training 3–5 times a week. My full session includes pull-ups to failure, OHP 5x5, deadlifts 5x1, bench 5x5, squats 3x5, more pull-ups, hanging leg raises, and lateral raises.",
+      "text_en_b2": "Splits are pretty pointless unless a time constraint makes them necessary. There’s nothing wrong with training the full body three to five times a week, and you can knock out OHP, bench, deadlift, squat, pull-ups, and accessories in the same session. My own full session includes pull-ups to failure, OHP 5x5, deadlifts 5x1, bench 5x5, squats 3x5, more pull-ups, hanging leg raises, and lateral raises.",
+      "text_en_c1": "Splits are largely pointless unless a genuine time constraint makes them necessary, because there is nothing inherently wrong with full-body training three to five times a week. A single session can include OHP, bench presses, deadlifts, squats, pull-ups, and accessories. My own routine involves pull-ups to failure, OHP 5x5, deadlifts 5x1, bench presses 5x5, squats 3x5, more pull-ups, hanging leg raises, and lateral raises. If some fitness bro complains that I’m not doing splits, so be it; the results are what matter.",
+      "text_en_c2": "Splits are rather foolish unless an unavoidable time constraint makes them necessary; otherwise, there is nothing wrong with training the full body three to five times a week. A single session can accommodate the principal lifts and accessory work, although sequencing and recovery still matter. My full-body routine begins with pull-ups to failure, followed by overhead presses at 5×5, deadlifts at 5×1, bench presses at 5×5, and squats at 3×5. I then return to more pull-ups before adding hanging leg raises and lateral raises. If anyone insists that I must use a split, I shall quietly carry on regardless.",
+      "source_url": "https://boards.4chan.org/fit/thread/77608984",
+      "source_hint": "An anon argues that full-body sessions are better than unnecessary split routines."
+    },
+    {
+      "id": "anime-ranma",
+      "category": "anime/culture",
+      "topic_zh": "亂馬故事時間",
+      "topic_en": "Ranma Storytime",
+      "text_zh": "Ranma 1/2 storytime. Going to storytime the manga together with the new anime season, so anons can compare and contrast, or experience the story in several ways at the same time. Today: chapters 83–84.",
+      "text_en_b1": "Ranma 1/2 storytime. I am going to storytime the manga together with the new anime season, so anons can compare and contrast, or experience the story in different ways at the same time. Today we are covering chapters 83–84.",
+      "text_en_b2": "Ranma 1/2 storytime. Since the new anime season is out, I’m going to storytime the manga alongside it, so anons can compare and contrast the two versions or experience the story in several different ways at once. We’ll be working through the material together as I go, since discussing the chapters makes the story even more fun. Today we’re covering chapters 83 and 84.",
+      "text_en_c1": "Ranma 1/2 storytime. I’m going to cover the manga alongside the new anime season, giving anons the chance to compare and contrast the two versions or, alternatively, experience the story in several different ways at once. Today, we’re dealing with chapters 83–84. I’ll go through the relevant events in order, note any differences in presentation, and point out the moments that work particularly well in either format. As always, please keep spoilers tagged unless you’re comfortable with the full context.",
+      "text_en_c2": "Ranma ½ storytime. I am going to present the manga alongside the new anime season, allowing anons to compare the two treatments, identify their respective strengths, and experience the story from several angles simultaneously. The original publication and its modern adaptation can be appreciated not merely as parallel versions of the same material, but as distinct interpretations shaped by pacing, tone, animation, and design. Today, we are covering chapters 83–84, so please keep any spoilers, objections, and wildly unnecessary digressions suitably restrained until the episode has concluded.",
+      "source_url": "https://boards.4chan.org/a/thread/292129392",
+      "source_hint": "An anon begins a Ranma 1/2 manga storytime alongside the new anime season."
+    },
+    {
+      "id": "anime-twilight",
+      "category": "anime/culture",
+      "topic_zh": "亂馬 Twilight Zone",
+      "topic_en": "Ranma Twilight Zone",
+      "text_zh": "ITT: Rewrite the premise of an anime or manga as a Twilight Zone episode. This young man is Ataru Moroboshi. In his own mind, he is the world's greatest lothario. In the eyes of his family, associates, and a small number of disputed friends, he is a boring presence that attracts mosquitoes. Adept at chasing girls, hopeless at catching them.",
+      "text_en_b1": "ITT: Rewrite the premise of an anime or manga as a Twilight Zone episode. This young man is Ataru Moroboshi. In his own mind, he is the world's greatest lothario. In his family's eyes, he is a boring presence. He is good at chasing girls, but terrible at catching them.",
+      "text_en_b2": "ITT: Rewrite the premise of an anime or manga as a Twilight Zone episode. This young man is Ataru Moroboshi. In his own mind, he’s the world’s greatest lothario, chasing girls with remarkable confidence. However, in the eyes of his family, his associates, and a small number of disputed friends, he’s a boring presence who mainly attracts mosquitoes. He’s adept at chasing girls, but completely hopeless at catching them.",
+      "text_en_c1": "ITT: Rewrite the premise of an anime or manga as a Twilight Zone episode. This young man is Ataru Moroboshi. In his own mind, he is the world’s greatest lothario, confident that charm and persistence have made him irresistible. In the eyes of his family, his associates, and a small number of disputed friends, however, he is merely a boring presence capable of attracting mosquitoes. Adept at chasing girls, hopeless at catching them, Ataru may finally encounter a reality that reflects the gulf between his self-image and everyone else’s perception of him.",
+      "text_en_c2": "ITT: Rewrite the premise of an anime or manga as an episode of The Twilight Zone. This young man is Ataru Moroboshi. In his own mind, he is the world’s greatest lothario, a master of charm whose romantic conquests are practically inevitable. In the eyes of his family, his associates, and a small number of friends whose judgment is frequently disputed, he is merely a tedious presence with an unsettling knack for attracting mosquitoes. Adept at chasing girls, hopeless at catching them, he exists in the peculiar twilight zone between self-delusion and universal disappointment, confidently pursuing every prospect while invariably remaining on the outside.",
+      "source_url": "https://boards.4chan.org/a/thread/292159223",
+      "source_hint": "Anons rewrite Ataru Moroboshi's story as a Twilight Zone episode."
+    }
+  ]
+}
