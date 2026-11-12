@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-12",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "c1-eth-dead",
+      "topic_en": "Crypto Is Dead",
+      "topic_zh": "以太幣死了",
+      "category": "trading",
+      "files": {
+        "b1": "clip-c1-eth-dead-b1.mp3",
+        "b2": "clip-c1-eth-dead-b2.mp3",
+        "c1": "clip-c1-eth-dead-c1.mp3",
+        "c2": "clip-c1-eth-dead-c2.mp3"
+      }
+    },
+    {
+      "id": "c2-nvda-500k",
+      "topic_en": "All In On NVDA",
+      "topic_zh": "50萬歐all in NVDA",
+      "category": "trading",
+      "files": {
+        "b1": "clip-c2-nvda-500k-b1.mp3",
+        "b2": "clip-c2-nvda-500k-b2.mp3",
+        "c1": "clip-c2-nvda-500k-c1.mp3",
+        "c2": "clip-c2-nvda-500k-c2.mp3"
+      }
+    },
+    {
+      "id": "c3-ai-PCB",
+      "topic_en": "Vibegod Routes PCBs",
+      "topic_zh": "AI 自動畫PCB",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-c3-ai-PCB-b1.mp3",
+        "b2": "clip-c3-ai-PCB-b2.mp3",
+        "c1": "clip-c3-ai-PCB-c1.mp3",
+        "c2": "clip-c3-ai-PCB-c2.mp3"
+      }
+    },
+    {
+      "id": "c4-jensen-affair",
+      "topic_en": "Second Jensen Affair",
+      "topic_zh": "Jensen 又有花邊",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-c4-jensen-affair-b1.mp3",
+        "b2": "clip-c4-jensen-affair-b2.mp3",
+        "c1": "clip-c4-jensen-affair-c1.mp3",
+        "c2": "clip-c4-jensen-affair-c2.mp3"
+      }
+    },
+    {
+      "id": "c5-elon-flying-car",
+      "topic_en": "Elon's Flying Car",
+      "topic_zh": "Elon 飛行車去McD",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-c5-elon-flying-car-b1.mp3",
+        "b2": "clip-c5-elon-flying-car-b2.mp3",
+        "c1": "clip-c5-elon-flying-car-c1.mp3",
+        "c2": "clip-c5-elon-flying-car-c2.mp3"
+      }
+    },
+    {
+      "id": "c6-turn-30",
+      "topic_en": "Turning 30 Transformation",
+      "topic_zh": "30歲轉變",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-c6-turn-30-b1.mp3",
+        "b2": "clip-c6-turn-30-b2.mp3",
+        "c1": "clip-c6-turn-30-c1.mp3",
+        "c2": "clip-c6-turn-30-c2.mp3"
+      }
+    },
+    {
+      "id": "c7-aot-ending",
+      "topic_en": "Attack on Titan Ending",
+      "topic_zh": "進擊巨人結局",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-c7-aot-ending-b1.mp3",
+        "b2": "clip-c7-aot-ending-b2.mp3",
+        "c1": "clip-c7-aot-ending-c1.mp3",
+        "c2": "clip-c7-aot-ending-c2.mp3"
+      }
+    }
+  ]
+}

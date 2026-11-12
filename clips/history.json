@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "days": [
+    {
+      "date": "2026-11-12",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "c1-eth-dead",
+          "category": "trading",
+          "topic_zh": "以太幣死了",
+          "topic_en": "Crypto Is Dead",
+          "text_zh": "終於清醒。crypto係死。100% ETH baggie，做咗咁耐，一直 married to my bags，企穩個啲「send eth to $10k」嘅故事。過去幾個禮拜 realisation 咗：冇 tokenization、冇新錢入場。Ethereum 乜都唔做，係一班自己聞自己嘅屁嘅科學項目。唔會再被採用。ok，學費又係一課。",
+          "text_en_b1": "I finally realized. Crypto is dead. I've been a 100% eth baggie for so long now, completely married to my bags. I believed in all those stupid narratives that would send eth to $10k. In the past couple of weeks I realized it is never going to happen. No tokenization, no more money coming in. Ethereum does nothing.",
+          "text_en_b2": "I finally woke up: crypto is dead. For years, I was a 100% ETH bagholder, completely married to my bags, and I kept hanging on to those ridiculous narratives promising to send ETH to $10k. Over the past few weeks, I realised it was never going to happen. There is no meaningful tokenisation and no new money entering the market. Ethereum does nothing; it is a science project run by a bunch of assholes smelling their own farts. It will never be adopted again.",
+          "text_en_c1": "I finally woke up: crypto is dead. I’ve been a 100% ETH bagholder for so long that I am effectively married to my bags, believing every ridiculous narrative that would send ETH to $10,000. Over the past few weeks, the realisation has become impossible to ignore. There is no meaningful tokenisation, and no fresh capital is entering the market. Ethereum, which does very little, has been sold as a scientific project run by a bunch of assholes who merely smell their own farts. It will not be adopted. Fine: another tuition fee, another lesson learned.",
+          "text_en_c2": "I have finally reached enlightenment, however unwelcome the news may be: crypto is dead. For years I remained a 100 percent ETH bagholder, emotionally married to my bags, patiently waiting for one of those seductive narratives to propel ETH to $10,000. Over the past few weeks, the cold arithmetic became impossible to ignore: no tokenization, no fresh capital entering the ecosystem, and Ethereum itself accomplishing precious little beyond existing. The project resembles a science experiment run by a clique of、消费 self-congratulatory narcissists who mistake their own flatulence for progress. There will be no mainstream adoption. So be it; tuition paid, and an expensive lesson learned.",
+          "source_url": "https://boards.4chan.org/biz/thread/62880974",
+          "source_hint": "/biz/ OP declares eth and crypto dead after years of bag holding."
+        },
+        {
+          "id": "c2-nvda-500k",
+          "category": "trading",
+          "topic_zh": "50萬歐all in NVDA",
+          "topic_en": "All In On NVDA",
+          "text_zh": "Serious thread。我有 50萬歐擺住冇用，考慮 all in NVDA。睇下事實：1) AI 唔會消失，你唔做AI，人地做然後 dominate，等於唔造核彈，你負擔唔起唔造。美國負擔得起。2) Jensen 要麼係白痴，要麼係間諜，我覺得當間諜太離譜。btw 啲 AI 股今日食晒爛，邊個仲有膽接刀？",
+          "text_en_b1": "Serious thread. I've got half a million euros doing nothing and I'm considering going all in on NVDA. Let's look at the facts: 1) AI is not going anywhere. If you are not developing AI, China is developing AI and will dominate. This is like not building the nuke. You cannot afford not to, so you will if you can. And the US can.",
+          "text_en_b2": "Serious thread. I have half a million euros sitting idle, and I am considering going all in on NVDA. Let us examine the facts: first, AI is not going away. If we refuse to develop it, China will, gain control, and dominate the field. It is like declining to build the bomb because you dislike what it represents. You cannot afford not to compete, although the moral complications are obvious. Fortunately, the US can afford to lead.",
+          "text_en_c1": "Serious thread. I have half a million euros sitting idle, and I am considering going all in on NVDA. Let us examine the facts. First, AI is not going away; if we refuse to develop it, China will, dominate the field, and leave us with no viable option. It is comparable to declining to build the bomb: you cannot afford not to pursue such technology if you have the capacity, and the US does. Second, Jensen Huang is either an idiot or a spy, and I think the spy explanation is absurd. By the way, AI-related stocks were hammered today, so who still has the balls to buy the dip?",
+          "text_en_c2": "A serious thread, because I have half a million euros doing nothing, and I am seriously considering going all in on NVDA. Examine the fundamentals rather than the chart. First, artificial intelligence is not going away; those who refuse to develop it merely cede the initiative to competitors who will dominate the field, much as a nation that declines to build a nuclear arsenal cannot then complain that its adversaries have done so. You cannot afford not to pursue it, and the United States can certainly afford it. Second, Jensen Huang is either an idiot or a spy, and I suspect the spy hypothesis is absurd. By the way, the AI stocks were savaged today, so who still has the stomach to catch the falling knife?",
+          "source_url": "https://boards.4chan.org/biz/thread/62886158",
+          "source_hint": "/biz/ OP with 500k EUR idle, weighing an all-in NVDA position."
+        },
+        {
+          "id": "c3-ai-PCB",
+          "category": "tech/ai",
+          "topic_zh": "AI 自動畫PCB",
+          "topic_en": "Vibegod Routes PCBs",
+          "text_zh": "LUDDITESSSSS。be vibegod，Fable 5.2 已經自動做 PCB routing，成個 engineering discipline 俾 silicon mog 咗。luddites 仲喺度寫manifesto話 AI 係作弊，靠手動 routing，靠神經路徑 cope，拒絕升天，仲要等permission先肯用計數機。我個FE考牌都仲未完，ok。",
+          "text_en_b1": "Oh LUDDITESSSSSSSSSSS. Be vibegod. Fable 5.2 just automated PCB routing. Entire engineering disciplines getting mogged by silicon. Luddites still typing manifestos about how AI is cheating. Manually routing cope through their neural pathways. Refuse to ascend. Refuse to vibe. Still waiting for permission to use a calculator.",
+          "text_en_b2": "Oh, LUDDITESSSSSSSSS. Be vibegod. Fable 5.2 has just automated PCB routing, meaning an entire engineering discipline is being mogged by silicon. Luddites are still typing manifestos about how AI is cheating, manually routing copium through their neural pathways, refusing to ascend, and refusing to vibe. They are probably still waiting for permission to use a calculator. Meanwhile, I have not even finished my FE exam, so I suppose I am in no position to judge them.",
+          "text_en_c1": "Oh, LUDDITESSSSS. Be vibegod. Fable 5.2 has already automated PCB routing, and entire engineering disciplines are getting thoroughly mogged by silicon. Meanwhile, Luddites are still drafting manifestos declaring that AI is cheating, manually routing boards through their neural pathways, refusing to ascend, and insisting that they need permission before using a calculator. The beautiful thing is that I have not even finished my FE exam qualification, yet software is already outperforming me. So much for coping; I shall simply vibe, apparently, while the machines take the credit.",
+          "text_en_c2": "Oh LUDDITESSSSSSSSS. Behold the vibegod: Fable 5.2 has already automated printed-circuit-board routing, and entire engineering disciplines are being casually outpaced by silicon. The Luddites persist in drafting manifestos condemning artificial intelligence as cheating, manually routing signals through their neural pathways because they cannot cope, refusing to ascend, refusing to vibe, and still awaiting permission before they dare employ a calculator. Meanwhile I have not even finished my Fundamentals of Engineering exam, which is rather humbling, all things considered. Still, I shall persevere, since perhaps the machine will grade my coursework more generously than my professors ever did.",
+          "source_url": "https://boards.4chan.org/g/thread/110291856",
+          "source_hint": "/g/ thread mocking luddites after AI automated PCB routing."
+        },
+        {
+          "id": "c4-jensen-affair",
+          "category": "tech/ai",
+          "topic_zh": "Jensen 又有花邊",
+          "topic_en": "Second Jensen Affair",
+          "text_zh": "Nvidia 又出新聞，Jensen Huang 第二單 affair，CNBC 同 NYT 都出咗。半個版講AI取代白領藍領，我哋呢啲做勘察、做土釘、做排水嘅遲早被AI接走。到時我嘅工作唔係用唔用AI，而係我仲有冇工程牌照嘅事。",
+          "text_en_b1": "A second Jensen Huang affair has hit Nvidia. CNBC and the New York Times both reported it on November 11, 2026. The thread is full of speculation about the CEO's private life, and posters are joking about what it means for the AI roadmap.",
+          "text_en_b2": "A second Jensen Huang affair has hit Nvidia, with both CNBC and the New York Times reporting it on November 11, 2026. The thread is packed with speculation about the CEO’s private life, while posters joke about the consequences for Nvidia’s AI roadmap. Meanwhile, half the discussion shifts to AI replacing white-collar and blue-collar jobs. Engineers like those who survey sites, install soil nails, or design drainage will eventually be replaced too.",
+          "text_en_c1": "Nvidia is in the headlines again, apparently because of a second Jensen Huang affair, with both CNBC and the New York Times reporting it on November 11, 2026. The thread is filled with speculation about the CEO’s private life, while posters joke about the consequences for the AI roadmap. Half the discussion concerns AI replacing both white-collar and blue-collar jobs; among people doing surveying, soil nailing and drainage work, many assume that automation will eventually take their jobs too. The real question may not be whether we use AI, but whether we will still have an engineering licence when it does.",
+          "text_en_c2": "Nvidia has once again found itself in the headlines, this time over a second Jensen Huang affair, with both CNBC and the New York Times having reported the story on November 11, 2026. The ensuing discussion is predictably saturated with speculation about the chief executive's private life, posters joking about what this implies for the artificial-intelligence roadmap. What genuinely concerns me, however, is the wider commentary: half a page devoted to AI displacing both white-collar and blue-collar labour, including surveyors, geotechnical engineers and drainage specialists like myself. The pertinent question may soon be not whether I use AI, but whether I still hold the engineering licence required to practise.",
+          "source_url": "https://boards.4chan.org/g/thread/110304114",
+          "source_hint": "/g/ thread linking CNBC and NYT coverage of a second Jensen Huang affair."
+        },
+        {
+          "id": "c5-elon-flying-car",
+          "category": "hk/news",
+          "topic_zh": "Elon 飛行車去McD",
+          "topic_en": "Elon's Flying Car",
+          "text_zh": "Elon 架飛行車去邊？成個 hype 唔見咗。個人最想飛去 McDonald's。講真，如果香港有得 flies over 個山，靠，慳咗兩個鐘車程。腦入面已經 plan 緊 100K USD 返 Florida 再落地。",
+          "text_en_b1": "Where did all the hype for Elon's flying car go? Personally I can't wait to fly mine to McDonald's. The thread is full of people asking what happened to the promised road-legal flying car, and some are still waiting for delivery slots that never came.",
+          "text_en_b2": "Where did all the hype around Elon Musk’s flying car go? Personally, I cannot wait to fly mine straight to McDonald’s. The thread is full of people asking what happened to the promised road-legal flying car, and some are still waiting for delivery slots that will probably never arrive. It is easy to become distracted by the fantasy, but the product itself seems to have faded from view. I have already planned the perfect route: spend $100,000 flying to Florida, then land.",
+          "text_en_c1": "Where has all the hype surrounding Elon Musk’s flying car gone? Personally, the first place I would fly to is McDonald’s. If Hong Kong ever gets a vehicle capable of flying over the mountains, the two-hour drive would disappear, which sounds like an obvious win. My brain has already developed a thoroughly impractical plan: spend $100,000 flying to Florida and then land. Meanwhile, the thread is full of people asking what happened to the promised road-legal flying car, with some still waiting for delivery slots that never arrived. Astonishing how quickly a revolutionary future becomes an indefinite subscription.",
+          "text_en_c2": "Where has all the hype surrounding Elon's flying car gone? Personally, I can hardly contain my anticipation at the prospect of piloting mine to McDonald's, because if one could simply fly over the mountains here, the two-hour journey would be reduced to an inconvenience. My mind has already been rehearsing the itinerary: a hundred thousand US dollars to Florida, touchdown and all. The thread, meanwhile, remains crowded with people asking what became of the promised road-legal flying car, along with others who are still patiently awaiting delivery slots that will evidently never materialise. A bold announcement, it seems, is not the same thing as a vehicle one can actually purchase.",
+          "source_url": "https://boards.4chan.org/pol/thread/546078738",
+          "source_hint": "/pol/ thread asking where the flying car hype went."
+        },
+        {
+          "id": "c6-turn-30",
+          "category": "mma/fitness",
+          "topic_zh": "30歲轉變",
+          "topic_en": "Turning 30 Transformation",
+          "text_zh": "2023年轉30歲嗰陣 crisis。個height 改唔到，但至少唔再做肥柴。開始咗一年減肥，之後兩年 lifting 練出肌肉。2026年照鏡唔再皺眉，唔禿頭，頭髮仲好。啲 fat friends 同 fat 家人就係唔 contact 我。靠，肥仔信今日又叫我去做gym。",
+          "text_en_b1": "Turned 30 back in 2023 and had a crisis. Couldn't change my height but was able to stop being a fatass. Started one year of a weight loss journey, then two years of lifting to put on lean muscle mass. In 2026 I feel I made it after looking in a mirror and not frowning. Still got great hair and I'm not balding.",
+          "text_en_b2": "When I turned 30 in 2023, I had a crisis. Although I could not change my height, I could at least stop being a fatass. I spent one year losing weight and then two years lifting, gradually building lean muscle mass. By 2026, looking in the mirror no longer made me frown; I still have great hair and I am not balding. However, my fat friends and fat relatives have stopped contacting me, which is apparently part of the transformation.",
+          "text_en_c1": "When I turned 30 in 2023, I had a crisis. I could not change my height, but at least I could stop being a fatass. I spent a year losing weight and then trained for another two years through lifting, gradually building lean muscle mass. By 2026, after looking in the mirror, I could finally do so without frowning. I still have excellent hair and I am not balding, which feels like an unexpected bonus. My overweight friends and relatives have largely stopped contacting me, presumably because they dislike what they see. Even so, the fat kid inside me still asks me to go to the gym.",
+          "text_en_c2": "When I turned thirty in 2023, I experienced something close to a crisis. Although I could not alter my height, I at least managed to stop being a fatass. I embarked on a year-long weight-loss journey, followed by two years of weightlifting that gradually replaced the excess with lean muscle. By 2026, catching my reflection in the mirror no longer prompts a grimace: I am not balding, and my hair remains in excellent condition. The curious casualty, however, has been my social circle; fat friends and relatives alike have become remarkably scarce, and Fat Boy apparently contacted me today to suggest we hit the gym, which says everything about the state of his self-regard.",
+          "source_url": "https://boards.4chan.org/fit/thread/77607636",
+          "source_hint": "/fit/ OP on turning 30, losing fat, and cutting off jealous fat friends and family."
+        },
+        {
+          "id": "c7-aot-ending",
+          "category": "anime/culture",
+          "topic_zh": "進擊巨人結局",
+          "topic_en": "Attack on Titan Ending",
+          "text_zh": "Zeke 嘅 euthanasia plan 成功，Eren 嘅 genocide plan 成功。兩個 plan 都好，但最後 80% 人類死晒，Eldian 冇晒 power of titan shifting，全世界更加恨佢哋。係 Isayama 被逼寫成呢個屎ending，定係 AoT 從頭到尾都係壞嘅？求其搵返S15 pro match睇下算了。",
+          "text_en_b1": "Zeke's euthanasia plan works. Eren's genocide plan works. Both plans are great, yet we somehow end with 80% of humans wiped out. Eldians are left without power of titan shifting, and the whole world hates them 100 times more. Was Isayama threatened to make such a shitty ending, or was AoT bad from the start?",
+          "text_en_b2": "Zeke’s euthanasia plan succeeds, and Eren’s genocide plan succeeds too. Although both schemes appear reasonable in their own twisted way, 80% of humanity is wiped out in the process. Eldians are left without the power of titan shifting, while the rest of the world hates them one hundred times more than before. Was Isayama forced into writing such a shitty ending, or was Attack on Titan fundamentally broken from the beginning? Honestly, I might just find an S15 pro match and watch that instead.",
+          "text_en_c1": "Zeke’s euthanasia plan succeeds, and Eren’s genocide plan succeeds. Astonishingly, both schemes work, yet somehow 80% of humanity is still wiped out. The Eldians are left without the power of Titan shifting, while the rest of the world hates them a hundred times more than before. Was Isayama forced to write such a shitty ending, or had Attack on Titan been fundamentally broken from the outset? Whatever the answer, the practical response seems clear: find an S15 Pro match and watch that instead, because rewatching the finale with any remaining hope of redemption feels rather pointless.",
+          "text_en_c2": "Zeke's euthanasia plan succeeds, and Eren's genocide plan succeeds, which ought to constitute an auspicious combination. Instead, 80 percent of humanity is wiped out, Eldians are stripped of the power of Titan shifting, and the remainder of the world emerges with a hatred for them a hundred times more intense than before. I am left genuinely uncertain whether Isayama was coerced into writing such a thoroughly execrable conclusion, or whether Attack on Titan was irredeemably misconceived from its opening chapter. The debate is exhausting, and since nobody in the thread appears capable of resolving it, I shall instead retrieve an S15 professional match and watch that instead, thereby substituting entertainment for coherence.",
+          "source_url": "https://boards.4chan.org/a/thread/292200370",
+          "source_hint": "/a/ thread debating whether Attack on Titan's ending was bad from the start."
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "source": "ai",
@@ -4382,116 +4479,6 @@
           "text_en_c2": "100 Kanojo's third season has drawn to a close, and /a/ is engaged in the customary post-finale ritual of collective appraisal. The consensus, insofar as consensus ever coalesces on that particular board, is one of genuine approbation, with the denouement striking many as both earned and unexpectedly affecting. Whether the studio will commission a fourth season remains, as ever, a question suspended between commercial calculus and the vagaries of licensing arrangements, though Bibury's stewardship of the source material has generally been regarded as competent, if occasionally over-budget. For the poster himself, the evening's itinerary consists of revision followed by comfort viewing, a sequence he has refined into something approaching ritual. Loneliness, he concludes with studied nonchalance, is merely a transient anomaly, a glitch soon overwritten by the steady drip of grind-mode productivity.",
           "source_url": "https://boards.4chan.org/a/thread/291119394",
           "source_hint": "/a/ season finale discussion thread for 100 Girlfriends Who Really Love You S3"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-musk-mstr",
-          "category": "trading",
-          "topic_zh": "Saylor Moon組合",
-          "topic_en": "Saylor Moon Portfolio",
-          "text_zh": "又見到Saylor Moon組合 50% SpaceX + 50% MSTR。btw SpaceX又未上市啦 想all-in都唔得 唯有繼續捱MSTR 😭🙏",
-          "text_en_b1": "Some anons are saying you should embrace the Saylor Moon portfolio too: 50% SpaceX and 50% MSTR. The idea is you stack leveraged Bitcoin exposure through MicroStrategy while waiting for SpaceX to go public one day.",
-          "text_en_b2": "A handful of anons have been pushing the so-called Saylor Moon portfolio, which splits your allocation evenly between SpaceX and MicroStrategy. The logic is fairly straightforward: while SpaceX remains private and therefore off-limits to retail investors, MSTR offers leveraged Bitcoin exposure you can actually buy into. Although the idea sounds appealing in theory, going all-in on a single volatile asset clearly carries significant downside risk that nobody seems willing to address.",
-          "text_en_c1": "A cohort of posters has once again floated what they have dubbed the Saylor Moon portfolio, under which capital is allocated evenly between SpaceX and MicroStrategy, fifty percent to each. The rationale, such as it is, hinges on stacking leveraged Bitcoin exposure through MSTR in the interim, the reasoning being that SpaceX remains privately held and therefore inaccessible to retail investors who would otherwise go all-in. One can only accumulate MSTR shares in the meantime, however reluctantly, until SpaceX eventually goes public. Such allocations, it should be noted, are not for the faint of heart, given the volatility inherent in both instruments.",
-          "text_en_c2": "Anons on the Saylor Moon thread are once again evangelising the now-notorious 50/50 allocation: half SpaceX, half MicroStrategy, the rationale being that MSTR functions as a leveraged proxy for Bitcoin while retail investors wait, however indefinitely, for SpaceX's eventual IPO. The asymmetric bet is straightforward — you capture equity-style upside on the private space economy through public markets by proxy, hedging (or compounding) that with treasury-grade BTC exposure. The obvious snag, which posters conspicuously gloss over, is that SpaceX remains resolutely pre-public; one cannot, in any practical sense, allocate capital to it. Consequently, the portfolio devolves, in practice, into a concentrated bet on Michael Saylor's preferred instrument, with the SpaceX leg remaining aspirational until such time as secondary access opens up to mere mortals. A curious case of metaphysical asset allocation.",
-          "source_url": "https://boards.4chan.org/biz/thread/62718025",
-          "source_hint": "/biz/ thread on Saylor Moon 50/50 portfolio"
-        },
-        {
-          "id": "trade-rsu-tesla",
-          "category": "trading",
-          "topic_zh": "Tesla RSU定現金",
-          "topic_en": "Tesla RSU vs Cash",
-          "text_zh": "今日見到條post 問新工package應該攞Tesla RSUs定cash wtf 我就連offer都未收到 lol 認真問 TSLA RSU真係可以all-in嗎 🙏🧐",
-          "text_en_b1": "An anon is starting a new job at Tesla and the bonus is paid in RSUs or cash, vesting over 4 years with a 1 year cliff. He does not need it for daily life but a mortgage deposit would be nice. Should he take the stock?",
-          "text_en_b2": "A fellow anon recently landed a job at Tesla and is weighing up whether to take the RSUs or the cash equivalent. The shares vest over four years with a one-year cliff, and while he does not strictly need the money for everyday expenses, putting it towards a mortgage deposit would certainly come in handy. Given Tesla's notorious volatility, the decision is far from obvious, so he is asking whether going all-in on the stock is genuinely wise.",
-          "text_en_c1": "A poster has recently come into a Tesla job offer whose compensation package includes restricted stock units vesting over a four-year period with a one-year cliff, the alternative being an equivalent cash settlement. The funds are not strictly required for living expenses, although they would prove immensely useful toward a mortgage deposit, which is hardly a trivial consideration. Should the equity be retained in its entirety, or would diversification outweigh the upside? Investors ought to weigh the tax implications, the idiosyncratic concentration risk, and Tesla's notoriously volatile share price, all of which render the decision considerably less straightforward than it initially appears.",
-          "text_en_c2": "An anon has just received an offer from the electric-vehicle manufacturer and now faces the archetypal equity-versus-cash dilemma: should he elect Tesla Restricted Stock Units, vesting across a standard four-year schedule with the customary one-year cliff, or take the equivalent in liquid compensation? He is, by his own account, comfortably rent-stable and not dependent on the income for daily expenditure, though a mortgage deposit would, he concedes, be rather welcome. The calculus is hardly novel — TSLA has historically rewarded holders who could stomach volatility — but with the stock trading at multiples that would give any sensible analyst pause, the all-in proposition carries a distinctly non-trivial tail risk.",
-          "source_url": "https://boards.4chan.org/biz/thread/62712781",
-          "source_hint": "/biz/ thread asking RSU vs cash at Tesla"
-        },
-        {
-          "id": "civil-soil-nail",
-          "category": "civil/structure",
-          "topic_zh": "斜坡同土釘",
-          "topic_en": "Slope & Soil Nailing",
-          "text_zh": "今日做site 望住個slope 諗緊soil nail擺位 排距點先夠factor of safety 😅 AP Tommy又問我點解揀呢個length 我答到一半卡住 英文講slope好chur 🧐",
-          "text_en_b1": "Slope surveys this week had me thinking about soil nail spacing again. If the slope is steeper than about 35 degrees and the soil is fill, the engineer usually tightens the nail row spacing and checks the factor of safety in the GI report.",
-          "text_en_b2": "After spending the morning on site surveying a particularly steep slope, I found myself going back over soil nail spacing arrangements in my head. Whenever the inclination exceeds roughly thirty-five degrees and the underlying material is fill rather than competent strata, the resident engineer typically tightens the row spacing to maintain an adequate factor of safety. When the AP asked me to justify my chosen nail length, I managed half an explanation before completely drawing a blank on the technical terminology.",
-          "text_en_c1": "This week's site visit involved an inspection of an existing slope, which prompted renewed consideration of soil nail spacing arrangements. Where the inclination exceeds roughly thirty-five degrees and the underlying material consists of fill, the resident engineer typically tightens the nail row spacing and revisits the factor of safety stipulated in the geotechnical interpretive report. A colleague from the authority subsequently enquired about the rationale behind the chosen nail length, and although the engineering justification was clear in principle, articulating it in technical English proved rather more taxing than anticipated, given the nuances inherent to slope stability terminology.",
-          "text_en_c2": "On-site slope inspections this week have prompted renewed reflection upon the perennial headache of soil nail geometry. Once the inclination of an existing slope exceeds approximately thirty-five degrees and the underlying strata prove to be engineered fill rather than competent natural material, prevailing geotechnical practice dictates that nail row spacing be commensurately reduced to maintain an adequate factor of safety, the magnitude of which is corroborated against values tabulated within the ground investigation report. An inquisitive superior — Assistant Engineer Tommy, for the uninitiated — pressed me mid-explanation on the rationale behind the selected nail length, and I found myself, rather inconveniently, mid-sentence, fumbling for the precise terminology in English. Slope stability is, it must be said, uncommonly taxing to articulate fluently when one's vocabulary is being tested in real time.",
-          "source_url": "https://boards.4chan.org/biz/thread/62716820",
-          "source_hint": "/biz/ thread used as engineering reflection anchor (placeholder)"
-        },
-        {
-          "id": "struct-loadpath",
-          "category": "civil/structure",
-          "topic_zh": "荷載路徑",
-          "topic_en": "Load Path Logic",
-          "text_zh": "睇緊舊beam column detail 個load path行得好怪 望到頭都痛 考FE呢啲位最易中伏 唔想再靠AI續命lol 😭",
-          "text_en_b1": "Looking at a beam and column detail where the load path looks weird. The dead load goes from slab to beam, then to column, then to foundation. If the beam connection is not full strength, the load cannot transfer properly and the detail fails.",
-          "text_en_b2": "I have been staring at an old beam-column detail that appears to route forces in a somewhat unconventional manner, which is exactly the kind of question that tends to trip people up on the FE exam. In theory, the dead load should travel cleanly from slab through beam, down the column, and ultimately into the foundation. However, unless the beam connection is genuinely full strength, that load transfer breaks down and the whole arrangement falls apart.",
-          "text_en_c1": "While reviewing a beam-column detail ahead of the Fundamentals of Engineering examination, the load path struck me as somewhat unconventional and frankly counterintuitive. Conventional detailing routes dead load from slab to beam, from beam to column, and finally to the foundation. Should the connection fall short of full-strength capacity, however, the load simply cannot transfer as intended, rendering the detail fundamentally flawed. These structural discontinuities, which the licensing exam routinely exploits, demand a thorough grasp of force transfer mechanics rather than blind reliance on artificial intelligence to fill gaps in comprehension.",
-          "text_en_c2": "I have been poring over a legacy beam-to-column connection detail whose load path is, to put it mildly, idiosyncratic — the kind of drawing that makes one's temples throb. The intended load transfer proceeds, in theory, from slab to beam, thence to column, and ultimately down to the foundation; a textbook arrangement, one might think, until one scrutinises the connection itself. Should the joint prove incapable of developing the full flexural capacity of the adjoining beam — a not-uncommon deficiency in older reinforced-concrete frames — the load cannot be transmitted in the manner the designer evidently intended, and the detail is, for all practical purposes, non-functional.",
-          "source_url": "https://boards.4chan.org/g/thread/109881809",
-          "source_hint": "/g/ thread repurposed as FE study reflection (placeholder)"
-        },
-        {
-          "id": "tech-gpt6",
-          "category": "tech/ai",
-          "topic_zh": "GPT-6 Luna劈價",
-          "topic_en": "GPT-6 Luna Cheaper",
-          "text_zh": "GPT-6 Luna又劈價 50%平過GPT-5.6 wtf 我哋consulting會唔會下一個被AI做埋 lol 考牌都未完又嚟呢啲 🙃",
-          "text_en_b1": "GPT-6 Luna is 50% cheaper than GPT-5.6 Luna. People used to say AI will always cost billions, but it now costs less than a cent per message. OpenAI keeps cutting the price and the Chinese models cannot keep up.",
-          "text_en_b2": "OpenAI has just dropped GPT-6 Luna at roughly fifty percent of GPT-5.6's price point, which is a frankly staggering reduction. Not long ago, industry commentators insisted advanced AI would forever remain prohibitively expensive to run, yet here we are at less than a cent per message. While established players keep slashing their rates, the Chinese models are struggling to match the pace, and our consulting practice cannot help wondering whether we might be next on the chopping block.",
-          "text_en_c1": "OpenAI has once again slashed prices, with GPT-6 Luna now costing a mere fraction of GPT-5.6 Luna's price tag, fifty percent lower to be precise. The prevailing wisdom used to hold that frontier models would remain prohibitively expensive, commanding astronomical infrastructure costs; yet inference now runs at well under a cent per message, a remarkable feat. Smaller outfits, particularly the Chinese competitors whose margins were already compressed, can scarcely keep pace. Those of us in consulting, still slogging through professional qualifications, may legitimately wonder whether our own discipline will be the next to fall.",
-          "text_en_c2": "OpenAI has once again slashed inference pricing — GPT-6 Luna now retails at a mere fifty per cent of its predecessor's sticker — a development that would have struck informed observers as fanciful scarcely twelve months prior. The prevailing wisdom, after all, held that frontier-scale models would remain prohibitively expensive, the preserve of well-capitalised enterprises rather than casual consumers; today, the per-message cost has collapsed below one cent, a figure so trifling as to border on the absurd. Chinese open-weight competitors, despite their commendable progress, find themselves structurally unable to match the cadence of these reductions, and the consulting profession — my own bread and butter, incidentally — is beginning to entertain increasingly uncomfortable questions about its medium-term relevance. One finishes one's licensure examinations only to discover the profession itself undergoing tectonic displacement.",
-          "source_url": "https://boards.4chan.org/biz/thread/62718337",
-          "source_hint": "/g/ thread on GPT-6 Luna price cut"
-        },
-        {
-          "id": "hk-xi-visit",
-          "category": "hk/news",
-          "topic_zh": "習近平訪美",
-          "topic_en": "Xi US Visit",
-          "text_zh": "習近平又訪美 4chan啲人鬧到好嬲 講乜 Xinjiang Uyghur之類 我就諗緊呢個會唔會影響返開我哋啲中國生意 Tommy都冇講過 🙏🧐",
-          "text_en_b1": "Some posters on /pol/ are angry about Xi Jinping visiting the US soon. They call him a mass murderer and a war criminal, and they mention Uyghur camps in Xinjiang, the pandemic response, and arbitrary arrests as reasons.",
-          "text_en_b2": "Posters over on /pol/ are losing their minds about Xi Jinping's upcoming visit to the United States, and the comment section has predictably descended into chaos. The usual talking points are doing the rounds: Uyghur camps in Xinjiang, the pandemic response, and arbitrary political arrests all feature prominently in the criticism. Setting the moral grandstanding aside for a moment, I cannot help wondering whether this whole diplomatic theatre might end up disrupting our China-based business operations, though Tommy has yet to weigh in.",
-          "text_en_c1": "A scheduled visit by Xi Jinping to the United States has provoked considerable outrage among users on /pol/, whose denunciations have grown increasingly vociferous. Various posters have labelled the Chinese leader a mass murderer and a war criminal, citing alleged Uyghur internment camps in Xinjiang, the authorities' handling of the pandemic, and arbitrary detentions as evidence. My own concern, perhaps more parochial, is the potential knock-on effect upon cross-border operations and the China-linked ventures we have been cultivating. Senior colleagues, for their part, have conspicuously declined to offer guidance.",
-          "text_en_c2": "News of the forthcoming state visit by Xi Jinping to the United States has predictably electrified the more florid quarters of /pol/, where posters have taken to their keyboards with characteristic indignation. The charges levelled are familiar enough — mass murderer, war criminal, the customary roster — alongside invocations of the internment facilities in Xinjiang, the early-pandemic policy debacle, and the increasingly routine practice of arbitrary detention as rhetorical ammunition. Setting aside the more unhinged contributions, the pertinent question for those of us with commercial exposure to the mainland is whether the attendant diplomatic theatre will, in due course, redound upon our China-derived revenue streams. My colleague Tommy, usually voluble on geopolitical matters, has offered not a syllable of analysis, which I take to be either diplomatic circumspection or genuine indifference.",
-          "source_url": "https://boards.4chan.org/pol/thread/543177272",
-          "source_hint": "/pol/ thread on Xi Jinping US visit"
-        },
-        {
-          "id": "mma-arm-size",
-          "category": "mma/fitness",
-          "topic_zh": "16吋手臂",
-          "topic_en": "16 Inch Arms Goal",
-          "text_zh": "肥仔信今日又問我手臂幾多 我得14.2吋 cutting緊真係好難加wt 16吋睇落好遠 唯有繼續grind 🧐",
-          "text_en_b1": "An anon is 6ft 1, 194 lbs and cutting right now. His arms are only 14.2 inches and he wants to reach 16 inches. He does close-grip bench at 132 lbs for 2x10 and barbell curls at 75 lbs for 2x10. He feels stuck.",
-          "text_en_b2": "Standing six foot one and currently sitting around 194 pounds while cutting, the goal of hitting sixteen-inch arms feels almost laughably distant at present, given that I am still stuck at a measly 14.2 inches. My current training has me grinding out close-grip bench presses at 132 pounds for two sets of ten, alongside barbell curls at 75 pounds for the same volume. Despite chasing progressive overload religiously, progress has completely stalled, so I am open to any practical suggestions.",
-          "text_en_c1": "An anon currently stands at six foot one and roughly a hundred and ninety-four pounds, in the midst of a cutting phase that has predictably sapped his strength. His arms measure a modest fourteen point two inches, and his aspiration is to reach the comparatively imposing sixteen-inch threshold, which presently feels rather distant. His training comprises close-grip bench presses at a hundred and thirty-two pounds for two sets of ten, alongside barbell curls at seventy-five pounds on a similar rep scheme. Progress has stalled, and he wonders what adjustments might reignite hypertrophy.",
-          "text_en_c2": "A fellow fitness enthusiast — let's call him the 'fat kid' of our little circle, a sobriquet worn with evident pride — has lately been interrogating me regarding my brachial circumference, an inquiry to which I must confess a rather humbling response: a cold, flexed measurement of 14.2 inches, taken mid-cut, represents my current best. The aspiration, naturally, is the mythic sixteen-inch threshold — a target that, from one's present depleted condition, recedes further with every gram of subcutaneous fat relinquished. My training, for the record, comprises close-grip bench presses at 132 pounds for two sets of ten, supplemented by barbell curls at 75 pounds for the same volume, a regimen that, while respectable, has evidently plateaued.",
-          "source_url": "https://boards.4chan.org/fit/thread/77532861",
-          "source_hint": "/fit/ thread on getting 16 inch arms while cutting"
-        },
-        {
-          "id": "anime-sword-cat",
-          "category": "anime/culture",
-          "topic_zh": "轉生劍黑貓",
-          "topic_en": "Reincarnated As A Sword",
-          "text_zh": "轉生したら剣でした新season下星期開 lol 等緊黑貓出場 我隻貓都冇 望吓圖都好 🙏👍",
-          "text_en_b1": "Reincarnated as a Sword has a new light novel out tonight in Japan and a new anime season starting on September 30. A side manga and a new tankobon volume also go on sale the same day. Post cute black cats!",
-          "text_en_b2": "Reincarnated as a Sword is finally dropping a brand new light novel volume in Japan tonight, alongside a fresh anime season premiering on September 30. On top of that, a side manga and an additional tankobon volume are also scheduled to hit shelves the same day. While I am particularly looking forward to seeing the black cat in action, my own apartment remains stubbornly feline-free, so I will have to settle for ogling everyone else's adorable pictures.",
-          "text_en_c1": "Reincarnated as a Sword enthusiasts have considerable cause for celebration this week, with a new light novel volume scheduled for release in Japan tonight and a fresh anime season premiering on the thirtieth of September. A spin-off manga and an additional tankobon volume are likewise hitting shelves the same day, rendering this a particularly bountiful period for fans of the franchise. Anticipation is mounting for the inevitable appearance of the iconic black cat, whose scenes are reliably delightful. One can only admire pictures of other people's cats.",
-          "text_en_c2": "The devotees of 'Reincarnated as a Sword' are presently enjoying something of a minor renaissance, what with a fresh light novel volume descending upon Japanese shelves this very evening and a long-anticipated second season of the anime adaptation due to premiere on the thirtieth of September. As if this were insufficient bounty, a spinoff side manga — chronicling, I am told, the escapades of certain supporting characters — and a freshly minted tankōbon volume are scheduled for simultaneous release on the same day, a coordinated commercial onslaught that the fandom has greeted with unseemly enthusiasm. My principal interest, however, remains the debut of the black-cat companion, whose screen time has been, to date, frustratingly consigned to the periphery.",
-          "source_url": "https://boards.4chan.org/a/thread/291166896",
-          "source_hint": "/a/ thread on Reincarnated as a Sword new season"
         }
       ]
     }

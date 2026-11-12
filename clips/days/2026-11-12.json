@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-12",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "c1-eth-dead",
+      "category": "trading",
+      "topic_zh": "以太幣死了",
+      "topic_en": "Crypto Is Dead",
+      "text_zh": "終於清醒。crypto係死。100% ETH baggie，做咗咁耐，一直 married to my bags，企穩個啲「send eth to $10k」嘅故事。過去幾個禮拜 realisation 咗：冇 tokenization、冇新錢入場。Ethereum 乜都唔做，係一班自己聞自己嘅屁嘅科學項目。唔會再被採用。ok，學費又係一課。",
+      "text_en_b1": "I finally realized. Crypto is dead. I've been a 100% eth baggie for so long now, completely married to my bags. I believed in all those stupid narratives that would send eth to $10k. In the past couple of weeks I realized it is never going to happen. No tokenization, no more money coming in. Ethereum does nothing.",
+      "text_en_b2": "I finally woke up: crypto is dead. For years, I was a 100% ETH bagholder, completely married to my bags, and I kept hanging on to those ridiculous narratives promising to send ETH to $10k. Over the past few weeks, I realised it was never going to happen. There is no meaningful tokenisation and no new money entering the market. Ethereum does nothing; it is a science project run by a bunch of assholes smelling their own farts. It will never be adopted again.",
+      "text_en_c1": "I finally woke up: crypto is dead. I’ve been a 100% ETH bagholder for so long that I am effectively married to my bags, believing every ridiculous narrative that would send ETH to $10,000. Over the past few weeks, the realisation has become impossible to ignore. There is no meaningful tokenisation, and no fresh capital is entering the market. Ethereum, which does very little, has been sold as a scientific project run by a bunch of assholes who merely smell their own farts. It will not be adopted. Fine: another tuition fee, another lesson learned.",
+      "text_en_c2": "I have finally reached enlightenment, however unwelcome the news may be: crypto is dead. For years I remained a 100 percent ETH bagholder, emotionally married to my bags, patiently waiting for one of those seductive narratives to propel ETH to $10,000. Over the past few weeks, the cold arithmetic became impossible to ignore: no tokenization, no fresh capital entering the ecosystem, and Ethereum itself accomplishing precious little beyond existing. The project resembles a science experiment run by a clique of、消费 self-congratulatory narcissists who mistake their own flatulence for progress. There will be no mainstream adoption. So be it; tuition paid, and an expensive lesson learned.",
+      "source_url": "https://boards.4chan.org/biz/thread/62880974",
+      "source_hint": "/biz/ OP declares eth and crypto dead after years of bag holding."
+    },
+    {
+      "id": "c2-nvda-500k",
+      "category": "trading",
+      "topic_zh": "50萬歐all in NVDA",
+      "topic_en": "All In On NVDA",
+      "text_zh": "Serious thread。我有 50萬歐擺住冇用，考慮 all in NVDA。睇下事實：1) AI 唔會消失，你唔做AI，人地做然後 dominate，等於唔造核彈，你負擔唔起唔造。美國負擔得起。2) Jensen 要麼係白痴，要麼係間諜，我覺得當間諜太離譜。btw 啲 AI 股今日食晒爛，邊個仲有膽接刀？",
+      "text_en_b1": "Serious thread. I've got half a million euros doing nothing and I'm considering going all in on NVDA. Let's look at the facts: 1) AI is not going anywhere. If you are not developing AI, China is developing AI and will dominate. This is like not building the nuke. You cannot afford not to, so you will if you can. And the US can.",
+      "text_en_b2": "Serious thread. I have half a million euros sitting idle, and I am considering going all in on NVDA. Let us examine the facts: first, AI is not going away. If we refuse to develop it, China will, gain control, and dominate the field. It is like declining to build the bomb because you dislike what it represents. You cannot afford not to compete, although the moral complications are obvious. Fortunately, the US can afford to lead.",
+      "text_en_c1": "Serious thread. I have half a million euros sitting idle, and I am considering going all in on NVDA. Let us examine the facts. First, AI is not going away; if we refuse to develop it, China will, dominate the field, and leave us with no viable option. It is comparable to declining to build the bomb: you cannot afford not to pursue such technology if you have the capacity, and the US does. Second, Jensen Huang is either an idiot or a spy, and I think the spy explanation is absurd. By the way, AI-related stocks were hammered today, so who still has the balls to buy the dip?",
+      "text_en_c2": "A serious thread, because I have half a million euros doing nothing, and I am seriously considering going all in on NVDA. Examine the fundamentals rather than the chart. First, artificial intelligence is not going away; those who refuse to develop it merely cede the initiative to competitors who will dominate the field, much as a nation that declines to build a nuclear arsenal cannot then complain that its adversaries have done so. You cannot afford not to pursue it, and the United States can certainly afford it. Second, Jensen Huang is either an idiot or a spy, and I suspect the spy hypothesis is absurd. By the way, the AI stocks were savaged today, so who still has the stomach to catch the falling knife?",
+      "source_url": "https://boards.4chan.org/biz/thread/62886158",
+      "source_hint": "/biz/ OP with 500k EUR idle, weighing an all-in NVDA position."
+    },
+    {
+      "id": "c3-ai-PCB",
+      "category": "tech/ai",
+      "topic_zh": "AI 自動畫PCB",
+      "topic_en": "Vibegod Routes PCBs",
+      "text_zh": "LUDDITESSSSS。be vibegod，Fable 5.2 已經自動做 PCB routing，成個 engineering discipline 俾 silicon mog 咗。luddites 仲喺度寫manifesto話 AI 係作弊，靠手動 routing，靠神經路徑 cope，拒絕升天，仲要等permission先肯用計數機。我個FE考牌都仲未完，ok。",
+      "text_en_b1": "Oh LUDDITESSSSSSSSSSS. Be vibegod. Fable 5.2 just automated PCB routing. Entire engineering disciplines getting mogged by silicon. Luddites still typing manifestos about how AI is cheating. Manually routing cope through their neural pathways. Refuse to ascend. Refuse to vibe. Still waiting for permission to use a calculator.",
+      "text_en_b2": "Oh, LUDDITESSSSSSSSS. Be vibegod. Fable 5.2 has just automated PCB routing, meaning an entire engineering discipline is being mogged by silicon. Luddites are still typing manifestos about how AI is cheating, manually routing copium through their neural pathways, refusing to ascend, and refusing to vibe. They are probably still waiting for permission to use a calculator. Meanwhile, I have not even finished my FE exam, so I suppose I am in no position to judge them.",
+      "text_en_c1": "Oh, LUDDITESSSSS. Be vibegod. Fable 5.2 has already automated PCB routing, and entire engineering disciplines are getting thoroughly mogged by silicon. Meanwhile, Luddites are still drafting manifestos declaring that AI is cheating, manually routing boards through their neural pathways, refusing to ascend, and insisting that they need permission before using a calculator. The beautiful thing is that I have not even finished my FE exam qualification, yet software is already outperforming me. So much for coping; I shall simply vibe, apparently, while the machines take the credit.",
+      "text_en_c2": "Oh LUDDITESSSSSSSSS. Behold the vibegod: Fable 5.2 has already automated printed-circuit-board routing, and entire engineering disciplines are being casually outpaced by silicon. The Luddites persist in drafting manifestos condemning artificial intelligence as cheating, manually routing signals through their neural pathways because they cannot cope, refusing to ascend, refusing to vibe, and still awaiting permission before they dare employ a calculator. Meanwhile I have not even finished my Fundamentals of Engineering exam, which is rather humbling, all things considered. Still, I shall persevere, since perhaps the machine will grade my coursework more generously than my professors ever did.",
+      "source_url": "https://boards.4chan.org/g/thread/110291856",
+      "source_hint": "/g/ thread mocking luddites after AI automated PCB routing."
+    },
+    {
+      "id": "c4-jensen-affair",
+      "category": "tech/ai",
+      "topic_zh": "Jensen 又有花邊",
+      "topic_en": "Second Jensen Affair",
+      "text_zh": "Nvidia 又出新聞，Jensen Huang 第二單 affair，CNBC 同 NYT 都出咗。半個版講AI取代白領藍領，我哋呢啲做勘察、做土釘、做排水嘅遲早被AI接走。到時我嘅工作唔係用唔用AI，而係我仲有冇工程牌照嘅事。",
+      "text_en_b1": "A second Jensen Huang affair has hit Nvidia. CNBC and the New York Times both reported it on November 11, 2026. The thread is full of speculation about the CEO's private life, and posters are joking about what it means for the AI roadmap.",
+      "text_en_b2": "A second Jensen Huang affair has hit Nvidia, with both CNBC and the New York Times reporting it on November 11, 2026. The thread is packed with speculation about the CEO’s private life, while posters joke about the consequences for Nvidia’s AI roadmap. Meanwhile, half the discussion shifts to AI replacing white-collar and blue-collar jobs. Engineers like those who survey sites, install soil nails, or design drainage will eventually be replaced too.",
+      "text_en_c1": "Nvidia is in the headlines again, apparently because of a second Jensen Huang affair, with both CNBC and the New York Times reporting it on November 11, 2026. The thread is filled with speculation about the CEO’s private life, while posters joke about the consequences for the AI roadmap. Half the discussion concerns AI replacing both white-collar and blue-collar jobs; among people doing surveying, soil nailing and drainage work, many assume that automation will eventually take their jobs too. The real question may not be whether we use AI, but whether we will still have an engineering licence when it does.",
+      "text_en_c2": "Nvidia has once again found itself in the headlines, this time over a second Jensen Huang affair, with both CNBC and the New York Times having reported the story on November 11, 2026. The ensuing discussion is predictably saturated with speculation about the chief executive's private life, posters joking about what this implies for the artificial-intelligence roadmap. What genuinely concerns me, however, is the wider commentary: half a page devoted to AI displacing both white-collar and blue-collar labour, including surveyors, geotechnical engineers and drainage specialists like myself. The pertinent question may soon be not whether I use AI, but whether I still hold the engineering licence required to practise.",
+      "source_url": "https://boards.4chan.org/g/thread/110304114",
+      "source_hint": "/g/ thread linking CNBC and NYT coverage of a second Jensen Huang affair."
+    },
+    {
+      "id": "c5-elon-flying-car",
+      "category": "hk/news",
+      "topic_zh": "Elon 飛行車去McD",
+      "topic_en": "Elon's Flying Car",
+      "text_zh": "Elon 架飛行車去邊？成個 hype 唔見咗。個人最想飛去 McDonald's。講真，如果香港有得 flies over 個山，靠，慳咗兩個鐘車程。腦入面已經 plan 緊 100K USD 返 Florida 再落地。",
+      "text_en_b1": "Where did all the hype for Elon's flying car go? Personally I can't wait to fly mine to McDonald's. The thread is full of people asking what happened to the promised road-legal flying car, and some are still waiting for delivery slots that never came.",
+      "text_en_b2": "Where did all the hype around Elon Musk’s flying car go? Personally, I cannot wait to fly mine straight to McDonald’s. The thread is full of people asking what happened to the promised road-legal flying car, and some are still waiting for delivery slots that will probably never arrive. It is easy to become distracted by the fantasy, but the product itself seems to have faded from view. I have already planned the perfect route: spend $100,000 flying to Florida, then land.",
+      "text_en_c1": "Where has all the hype surrounding Elon Musk’s flying car gone? Personally, the first place I would fly to is McDonald’s. If Hong Kong ever gets a vehicle capable of flying over the mountains, the two-hour drive would disappear, which sounds like an obvious win. My brain has already developed a thoroughly impractical plan: spend $100,000 flying to Florida and then land. Meanwhile, the thread is full of people asking what happened to the promised road-legal flying car, with some still waiting for delivery slots that never arrived. Astonishing how quickly a revolutionary future becomes an indefinite subscription.",
+      "text_en_c2": "Where has all the hype surrounding Elon's flying car gone? Personally, I can hardly contain my anticipation at the prospect of piloting mine to McDonald's, because if one could simply fly over the mountains here, the two-hour journey would be reduced to an inconvenience. My mind has already been rehearsing the itinerary: a hundred thousand US dollars to Florida, touchdown and all. The thread, meanwhile, remains crowded with people asking what became of the promised road-legal flying car, along with others who are still patiently awaiting delivery slots that will evidently never materialise. A bold announcement, it seems, is not the same thing as a vehicle one can actually purchase.",
+      "source_url": "https://boards.4chan.org/pol/thread/546078738",
+      "source_hint": "/pol/ thread asking where the flying car hype went."
+    },
+    {
+      "id": "c6-turn-30",
+      "category": "mma/fitness",
+      "topic_zh": "30歲轉變",
+      "topic_en": "Turning 30 Transformation",
+      "text_zh": "2023年轉30歲嗰陣 crisis。個height 改唔到，但至少唔再做肥柴。開始咗一年減肥，之後兩年 lifting 練出肌肉。2026年照鏡唔再皺眉，唔禿頭，頭髮仲好。啲 fat friends 同 fat 家人就係唔 contact 我。靠，肥仔信今日又叫我去做gym。",
+      "text_en_b1": "Turned 30 back in 2023 and had a crisis. Couldn't change my height but was able to stop being a fatass. Started one year of a weight loss journey, then two years of lifting to put on lean muscle mass. In 2026 I feel I made it after looking in a mirror and not frowning. Still got great hair and I'm not balding.",
+      "text_en_b2": "When I turned 30 in 2023, I had a crisis. Although I could not change my height, I could at least stop being a fatass. I spent one year losing weight and then two years lifting, gradually building lean muscle mass. By 2026, looking in the mirror no longer made me frown; I still have great hair and I am not balding. However, my fat friends and fat relatives have stopped contacting me, which is apparently part of the transformation.",
+      "text_en_c1": "When I turned 30 in 2023, I had a crisis. I could not change my height, but at least I could stop being a fatass. I spent a year losing weight and then trained for another two years through lifting, gradually building lean muscle mass. By 2026, after looking in the mirror, I could finally do so without frowning. I still have excellent hair and I am not balding, which feels like an unexpected bonus. My overweight friends and relatives have largely stopped contacting me, presumably because they dislike what they see. Even so, the fat kid inside me still asks me to go to the gym.",
+      "text_en_c2": "When I turned thirty in 2023, I experienced something close to a crisis. Although I could not alter my height, I at least managed to stop being a fatass. I embarked on a year-long weight-loss journey, followed by two years of weightlifting that gradually replaced the excess with lean muscle. By 2026, catching my reflection in the mirror no longer prompts a grimace: I am not balding, and my hair remains in excellent condition. The curious casualty, however, has been my social circle; fat friends and relatives alike have become remarkably scarce, and Fat Boy apparently contacted me today to suggest we hit the gym, which says everything about the state of his self-regard.",
+      "source_url": "https://boards.4chan.org/fit/thread/77607636",
+      "source_hint": "/fit/ OP on turning 30, losing fat, and cutting off jealous fat friends and family."
+    },
+    {
+      "id": "c7-aot-ending",
+      "category": "anime/culture",
+      "topic_zh": "進擊巨人結局",
+      "topic_en": "Attack on Titan Ending",
+      "text_zh": "Zeke 嘅 euthanasia plan 成功，Eren 嘅 genocide plan 成功。兩個 plan 都好，但最後 80% 人類死晒，Eldian 冇晒 power of titan shifting，全世界更加恨佢哋。係 Isayama 被逼寫成呢個屎ending，定係 AoT 從頭到尾都係壞嘅？求其搵返S15 pro match睇下算了。",
+      "text_en_b1": "Zeke's euthanasia plan works. Eren's genocide plan works. Both plans are great, yet we somehow end with 80% of humans wiped out. Eldians are left without power of titan shifting, and the whole world hates them 100 times more. Was Isayama threatened to make such a shitty ending, or was AoT bad from the start?",
+      "text_en_b2": "Zeke’s euthanasia plan succeeds, and Eren’s genocide plan succeeds too. Although both schemes appear reasonable in their own twisted way, 80% of humanity is wiped out in the process. Eldians are left without the power of titan shifting, while the rest of the world hates them one hundred times more than before. Was Isayama forced into writing such a shitty ending, or was Attack on Titan fundamentally broken from the beginning? Honestly, I might just find an S15 pro match and watch that instead.",
+      "text_en_c1": "Zeke’s euthanasia plan succeeds, and Eren’s genocide plan succeeds. Astonishingly, both schemes work, yet somehow 80% of humanity is still wiped out. The Eldians are left without the power of Titan shifting, while the rest of the world hates them a hundred times more than before. Was Isayama forced to write such a shitty ending, or had Attack on Titan been fundamentally broken from the outset? Whatever the answer, the practical response seems clear: find an S15 Pro match and watch that instead, because rewatching the finale with any remaining hope of redemption feels rather pointless.",
+      "text_en_c2": "Zeke's euthanasia plan succeeds, and Eren's genocide plan succeeds, which ought to constitute an auspicious combination. Instead, 80 percent of humanity is wiped out, Eldians are stripped of the power of Titan shifting, and the remainder of the world emerges with a hatred for them a hundred times more intense than before. I am left genuinely uncertain whether Isayama was coerced into writing such a thoroughly execrable conclusion, or whether Attack on Titan was irredeemably misconceived from its opening chapter. The debate is exhausting, and since nobody in the thread appears capable of resolving it, I shall instead retrieve an S15 professional match and watch that instead, thereby substituting entertainment for coherence.",
+      "source_url": "https://boards.4chan.org/a/thread/292200370",
+      "source_hint": "/a/ thread debating whether Attack on Titan's ending was bad from the start."
+    }
+  ]
+}
