@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-13",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "eth-bagholder",
+      "topic_en": "Crypto Is Dead",
+      "topic_zh": "ETH信仰崩潰",
+      "category": "trading",
+      "files": {
+        "b1": "clip-eth-bagholder-b1.mp3",
+        "b2": "clip-eth-bagholder-b2.mp3",
+        "c1": "clip-eth-bagholder-c1.mp3",
+        "c2": "clip-eth-bagholder-c2.mp3"
+      }
+    },
+    {
+      "id": "daytrading-bot",
+      "topic_en": "Building a Trading Bot",
+      "topic_zh": "三日學Day Trading",
+      "category": "trading",
+      "files": {
+        "b1": "clip-daytrading-bot-b1.mp3",
+        "b2": "clip-daytrading-bot-b2.mp3",
+        "c1": "clip-daytrading-bot-c1.mp3",
+        "c2": "clip-daytrading-bot-c2.mp3"
+      }
+    },
+    {
+      "id": "nvidia-ceo",
+      "topic_en": "Nvidia's New CEO",
+      "topic_zh": "NVDA換新帥",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-nvidia-ceo-b1.mp3",
+        "b2": "clip-nvidia-ceo-b2.mp3",
+        "c1": "clip-nvidia-ceo-c1.mp3",
+        "c2": "clip-nvidia-ceo-c2.mp3"
+      }
+    },
+    {
+      "id": "jensen-leaves",
+      "topic_en": "Jensen Walks Away",
+      "topic_zh": "黃仁勳走人？",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-jensen-leaves-b1.mp3",
+        "b2": "clip-jensen-leaves-b2.mp3",
+        "c1": "clip-jensen-leaves-c1.mp3",
+        "c2": "clip-jensen-leaves-c2.mp3"
+      }
+    },
+    {
+      "id": "sony-optical",
+      "topic_en": "Sony Abandons Optical Discs",
+      "topic_zh": "Sony放棄光碟",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-sony-optical-b1.mp3",
+        "b2": "clip-sony-optical-b2.mp3",
+        "c1": "clip-sony-optical-c1.mp3",
+        "c2": "clip-sony-optical-c2.mp3"
+      }
+    },
+    {
+      "id": "elon-billionaires",
+      "topic_en": "Billionaires Push Science",
+      "topic_zh": "億萬富豪搞研究",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-elon-billionaires-b1.mp3",
+        "b2": "clip-elon-billionaires-b2.mp3",
+        "c1": "clip-elon-billionaires-c1.mp3",
+        "c2": "clip-elon-billionaires-c2.mp3"
+      }
+    },
+    {
+      "id": "full-body-lifts",
+      "topic_en": "Full-Body Training",
+      "topic_zh": "全身訓練唔分拆",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-full-body-lifts-b1.mp3",
+        "b2": "clip-full-body-lifts-b2.mp3",
+        "c1": "clip-full-body-lifts-c1.mp3",
+        "c2": "clip-full-body-lifts-c2.mp3"
+      }
+    },
+    {
+      "id": "aot-ending",
+      "topic_en": "Attack on Titan Ending",
+      "topic_zh": "進擊巨人結局",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-aot-ending-b1.mp3",
+        "b2": "clip-aot-ending-b2.mp3",
+        "c1": "clip-aot-ending-c1.mp3",
+        "c2": "clip-aot-ending-c2.mp3"
+      }
+    }
+  ]
+}
