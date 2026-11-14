@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-14",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "btc-oversold",
+      "topic_en": "Bitcoin Relief Rally",
+      "topic_zh": "比特幣超賣",
+      "category": "trading",
+      "files": {
+        "b1": "clip-btc-oversold-b1.mp3",
+        "b2": "clip-btc-oversold-b2.mp3",
+        "c1": "clip-btc-oversold-c1.mp3",
+        "c2": "clip-btc-oversold-c2.mp3"
+      }
+    },
+    {
+      "id": "eth-dead",
+      "topic_en": "Ethereum Bagholder Exit",
+      "topic_zh": "以太幣死透",
+      "category": "trading",
+      "files": {
+        "b1": "clip-eth-dead-b1.mp3",
+        "b2": "clip-eth-dead-b2.mp3",
+        "c1": "clip-eth-dead-c1.mp3",
+        "c2": "clip-eth-dead-c2.mp3"
+      }
+    },
+    {
+      "id": "slope-load-path",
+      "topic_en": "Slope Load Path",
+      "topic_zh": "邊坡載荷路徑",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-slope-load-path-b1.mp3",
+        "b2": "clip-slope-load-path-b2.mp3",
+        "c1": "clip-slope-load-path-c1.mp3",
+        "c2": "clip-slope-load-path-c2.mp3"
+      }
+    },
+    {
+      "id": "nvidia-jensen",
+      "topic_en": "Nvidia Employees Want Jensen",
+      "topic_zh": "黃仁勳返嚟",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-nvidia-jensen-b1.mp3",
+        "b2": "clip-nvidia-jensen-b2.mp3",
+        "c1": "clip-nvidia-jensen-c1.mp3",
+        "c2": "clip-nvidia-jensen-c2.mp3"
+      }
+    },
+    {
+      "id": "spacex-explosion",
+      "topic_en": "SpaceX Rocket Explodes",
+      "topic_zh": "SpaceX火箭爆炸",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-spacex-explosion-b1.mp3",
+        "b2": "clip-spacex-explosion-b2.mp3",
+        "c1": "clip-spacex-explosion-c1.mp3",
+        "c2": "clip-spacex-explosion-c2.mp3"
+      }
+    },
+    {
+      "id": "turning-thirty-lifting",
+      "topic_en": "Turning Thirty With Lifting",
+      "topic_zh": "三十歲重訓",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-turning-thirty-lifting-b1.mp3",
+        "b2": "clip-turning-thirty-lifting-b2.mp3",
+        "c1": "clip-turning-thirty-lifting-c1.mp3",
+        "c2": "clip-turning-thirty-lifting-c2.mp3"
+      }
+    },
+    {
+      "id": "aot-ending",
+      "topic_en": "Attack on Titan Ending",
+      "topic_zh": "進擊結尾",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-aot-ending-b1.mp3",
+        "b2": "clip-aot-ending-b2.mp3",
+        "c1": "clip-aot-ending-c1.mp3",
+        "c2": "clip-aot-ending-c2.mp3"
+      }
+    }
+  ]
+}

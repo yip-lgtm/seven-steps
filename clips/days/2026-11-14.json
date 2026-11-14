@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-14",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "btc-oversold",
+      "category": "trading",
+      "topic_zh": "比特幣超賣",
+      "topic_en": "Bitcoin Relief Rally",
+      "text_zh": "Bitcoin依家係超賣。廢柴今日平咗short。睇落應該有個relief rally。等升返去先再算。75k就會再short。呢鋪又係 tuition，thx。",
+      "text_en_b1": "Bitcoin is oversold, so I closed my short today. No matter how I measure it, Bitcoin is due for a relief rally. I will enter another short at 75k. Thank you for your attention to this PSA.",
+      "text_en_b2": "Bitcoin is clearly oversold, so I closed my short position today. However I measure it, the setup seems due for a relief rally, although I do not expect it to last forever. I will wait for the price to recover before entering another short at 75k. This trade is tuition again, but at least I am learning. Thank you for your attention to this PSA.",
+      "text_en_c1": "Bitcoin is currently oversold, so I closed my short position today. Regardless of which indicator I use, the charts suggest that a relief rally is overdue; however, I will wait for the rebound before deciding what to do next. If the price climbs to $75,000, I will enter another short there. I have been burned by this trade before, but it is tuition nonetheless. Thank you for reading this public service announcement.",
+      "text_en_c2": "Bitcoin is decisively oversold, so I closed my short position today. Whatever metric one uses—momentum, mean reversion, or simply the severity of the recent decline—the setup appears ripe for a relief rally. I have no intention of pretending this constitutes a durable trend reversal; I merely intend to wait for the rebound, reassess conditions, and then re-enter a short at $75,000. It is another round of tuition, paid in the currency everyone seems to enjoy losing. Thank you for your attention to this public service announcement.",
+      "source_url": "https://boards.4chan.org/biz/thread/62901608",
+      "source_hint": "The OP closes a Bitcoin short and plans to re-enter at 75K."
+    },
+    {
+      "id": "eth-dead",
+      "category": "trading",
+      "topic_zh": "以太幣死透",
+      "topic_en": "Ethereum Bagholder Exit",
+      "text_zh": "我終於recognize個現實：crypto死咗。一直做100% ETH baggie，完全married to my bags，靠住一堆「ETH去10k」嘅廢故事撐住。最近幾個星期，我發現根本冇可能。冇tokenization，冇新資金入嚟。Ethereum乜都唔做，就係一班assholes聞自己嘅屁。",
+      "text_en_b1": "I finally realized that crypto is dead. I have been a 100% ETH bagholder for so long, completely married to my bags and believing silly narratives about ETH reaching $10K. No tokenization, no more money coming in. Ethereum does nothing. It is a science project made by a group of assholes sniffing their own farts.",
+      "text_en_b2": "I have finally admitted the painful reality: crypto is dead. For years I remained a 100 percent ETH bagholder, completely married to my bags and obsessed with silly narratives about ETH reaching 10k. However, nothing is tokenized and no fresh capital is entering the market. Ethereum does nothing; it is a science project built by a group of assholes sniffing their own farts.",
+      "text_en_c1": "I finally have to admit that crypto is dead. I have spent years as a 100 percent ETH bagholder, effectively married to my position while relying on increasingly absurd narratives that ETH would reach $10,000. The past few weeks have made the conclusion unavoidable: there is no meaningful tokenization, nor any new capital entering the ecosystem. Ethereum appears to accomplish nothing beyond sustaining a group of assholes who keep sniffing their own farts and calling it progress.",
+      "text_en_c2": "I have finally confronted an uncomfortable truth: crypto is dead, at least in the form I chose to marry. For years, I remained a 100% ETH bagholder, wholly committed to my position and sustained by hollow narratives predicting that ETH would reach $10,000. Recent weeks have made the arithmetic impossible to ignore. There is no meaningful tokenization, nor any fresh capital entering the ecosystem. Ethereum accomplishes nothing; it is a science project devised by a group of assholes who appear to be sniffing their own farts.",
+      "source_url": "https://boards.4chan.org/biz/thread/62880974",
+      "source_hint": "The OP rejects Ethereum's old narratives after holding ETH for years."
+    },
+    {
+      "id": "slope-load-path",
+      "category": "civil/structure",
+      "topic_zh": "邊坡載荷路徑",
+      "topic_en": "Slope Load Path",
+      "text_zh": "今日返site做slope investigation，睇soil nailing同GI report。成條load path要由failure plane、soil nail、drainage一路check到retaining structure。Beam同column就照load path逐個load take，唔可以靠feel。考牌都未完，靠AI續命。",
+      "text_en_b1": "Today I checked a slope investigation, a GI report, soil nailing, drainage, and underground utilities. The load path must connect the failure plane to each nail and the retaining structure. Structural design works the same way: trace every load through the beams and columns, then check each step.",
+      "text_en_b2": "Today I went back to the site to review the slope investigation, the GI report, soil nailing, drainage, and underground utilities. The entire load path has to be traced from the failure plane through every soil nail and drainage element to the retaining structure. Structural design follows the same principle: follow each load through the beams and columns and check every step, rather than relying on intuition. I am still studying for my license.",
+      "text_en_c1": "Today I returned to the site to review the slope investigation, focusing on the geotechnical investigation report, soil nailing, and drainage details. The entire load path has to be followed from the potential failure plane, through each soil nail and drainage system, and on to the retaining structure. Structural calculations follow the same principle: every load must be traced through the beams and columns, with each transfer checked rather than guessed from intuition. My exams are not finished, so AI is keeping me alive.",
+      "text_en_c2": "Today I returned to the site to inspect the slope investigation, reviewing the geotechnical report, soil nailing, drainage arrangements, and underground utilities. The entire load path must be traced coherently from the potential failure plane through each soil nail and drainage element to the retaining structure. Structural design follows essentially the same principle: follow every load sequentially through the beams and columns, verify each transfer, and never substitute instinct for calculation. My professional qualification is still incomplete, so AI is currently keeping the whole operation marginally alive.",
+      "source_url": "https://boards.4chan.org/g/thread/110190670",
+      "source_hint": "This engineering-themed thread fits a civil and structural engineering discussion."
+    },
+    {
+      "id": "nvidia-jensen",
+      "category": "tech/ai",
+      "topic_zh": "黃仁勳返嚟",
+      "topic_en": "Nvidia Employees Want Jensen",
+      "text_zh": "NVIDIA員工要求Jensen Huang返嚟做big boss。有人話：「如果你相信mission，就帶THE boss返嚟。」員工唔係為份工做，係因為想跟住佢。AI hardware仲係我份工最大嘅威脅，特別係連Civil都要靠software嗰部分。",
+      "text_en_b1": "NVIDIA employees demand that Jensen Huang be reinstated as the big boss. One employee wrote, “If you believe in the mission, bring back THE boss.” The post claims 80% of employees are millionaires and NVIDIA has the industry's lowest turnover.",
+      "text_en_b2": "NVIDIA employees are demanding that Jensen Huang return as the big boss. One employee put it directly: “If you believe in the mission, bring back THE boss.” People are not working there merely for the salary; many want to follow Huang again. AI hardware remains the greatest threat to my job, particularly the software-dependent part, including even civil engineering. The post claims that 80 percent of employees are millionaires and that NVIDIA has the industry’s lowest turnover.",
+      "text_en_c1": "NVIDIA employees are demanding that Jensen Huang return as the big boss. One employee put it succinctly: “If you believe in the mission, bring back THE boss.” The argument is not merely about compensation or job security; people want to follow Huang because of the culture and direction he created. Meanwhile, AI hardware remains the greatest threat to my own job, particularly in fields such as civil engineering, where an increasing share of the work already depends on software rather than conventional technical expertise.",
+      "text_en_c2": "NVIDIA employees are demanding that Jensen Huang return as the unequivocal big boss. One employee put it succinctly: “If you believe in the mission, bring back THE boss.” The post argues that staff are not merely employed by the company but fundamentally motivated by working under Huang. It also claims that 80% of employees are millionaires and that NVIDIA maintains the industry's lowest employee turnover. AI hardware remains the greatest competitive threat to my livelihood, particularly the software-defined segment now penetrating even civil engineering.",
+      "source_url": "https://boards.4chan.org/g/thread/110322372",
+      "source_hint": "The post focuses on Nvidia staff demanding Jensen Huang's return."
+    },
+    {
+      "id": "spacex-explosion",
+      "category": "hk/news",
+      "topic_zh": "SpaceX火箭爆炸",
+      "topic_en": "SpaceX Rocket Explodes",
+      "text_zh": "SpaceX rocket又爆炸。成個nationwide flight shutdown都停咗先搞呢個？你哋之前吹得咁神，engineering failure照樣照炸。香港細到地鐵一鑽就爆，其他地方根本冇live room。",
+      "text_en_b1": "SpaceX rocket explodes. They staged a nationwide flight shutdown for this? After all the hype, an engineering failure still ends with an explosion. It makes me appreciate the scale difference: Hong Kong is crowded, but America has much more space.",
+      "text_en_b2": "A SpaceX rocket has exploded again, and they staged a nationwide flight shutdown just to handle it. After all the hype, an engineering failure still results in an explosion, which makes the company’s previous boasting look rather ridiculous. It also highlights the scale difference between the two countries: Hong Kong is so crowded that one subway tunnel could cause chaos, while America has far more space. Elsewhere, there was not even a live room.",
+      "text_en_c1": "A SpaceX rocket has exploded again. Did the company really suspend flights nationwide merely to deal with this? After generating so much hype, the company still managed to turn an engineering failure into another explosion. Watching the footage, I was struck by the scale of the differences between the two countries. Hong Kong is so densely populated that one钻孔 can apparently cause chaos, whereas America has far more space and consequently fewer immediate consequences when something goes wrong in the sky.",
+      "text_en_c2": "A SpaceX rocket has exploded, and the spectacle apparently warranted grounding the entire nationwide flight network while officials dealt with the incident. After so much corporate hype and technological self-congratulation, the outcome remains stubbornly unchanged: an engineering failure culminates in an explosion. There is something clarifying about scale, although not necessarily comforting. Hong Kong is so densely packed that a subway tunnel piercing the ground can trigger chaos, whereas America possesses far more room to absorb such failures, both geographically and operationally, without every disruption becoming a national emergency.",
+      "source_url": "https://boards.4chan.org/pol/thread/546194895",
+      "source_hint": "The OP questions SpaceX's rocket test and nationwide flight shutdown."
+    },
+    {
+      "id": "turning-thirty-lifting",
+      "category": "mma/fitness",
+      "topic_zh": "三十歲重訓",
+      "topic_en": "Turning Thirty With Lifting",
+      "text_zh": "2023年turn 30嗰陣成個人生crisis。冇變高，但至少唔再做fatass。之後做咗一年weight loss，再做兩年lifting，目標係加返leam muscle mass。2026年望住鏡唔frown，今日覺得自己made it。肥仔信見到我呢身可能又話：咁瘦做乜啫。",
+      "text_en_b1": "I turned 30 in 2023 and had a crisis. I could not change my height, but I stopped being a fatass. I started a one-year weight-loss journey, then spent two years lifting to gain lean muscle mass. In 2026, I looked in the mirror and finally did not frown.",
+      "text_en_b2": "When I turned 30 in 2023, my life entered a crisis because I could not change my height, but I could at least stop being a fatass. I then spent one year losing weight and another two years lifting, with the aim of rebuilding lean muscle mass. By 2026, I could look in the mirror without frowning and finally feel that I had made it. Some bigger guys may see my thinner body and wonder why I bothered.",
+      "text_en_c1": "When I turned 30 in 2023, my life entered an identity crisis. I could not change my height, but at least I could stop being a fatass. I spent one year losing weight and then another two lifting weights, with the aim of rebuilding myself as someone with more lean muscle mass. In 2026, I looked in the mirror and finally did not frown. I feel as though I have made it, although the chubby guy who sees my current physique may still wonder why I have become so thin.",
+      "text_en_c2": "When I turned 30 in 2023, I experienced a full-blown crisis of identity. I could not alter my height, but I could at least stop being a fatass. I devoted one year to losing weight and then spent two years lifting, with the explicit aim of rebuilding a lean, functional musculature rather than merely attaining a smaller number on the scale. In 2026, I looked in the mirror without frowning and felt, for perhaps the first time in years, that I had made it. Other people, particularly those who consider fatness a moral failing, may accuse me of now being too thin; nevertheless, I have no intention of returning to what I was.",
+      "source_url": "https://boards.4chan.org/fit/thread/77607636",
+      "source_hint": "The OP describes turning 30, losing weight, and building lean muscle."
+    },
+    {
+      "id": "aot-ending",
+      "category": "anime/culture",
+      "topic_zh": "進擊結尾",
+      "topic_en": "Attack on Titan Ending",
+      "text_zh": "Zeke嘅euthanasia plan成功，Eren嘅genocide plan又成功。最後human死咗80%，Eldians冇晒power of titan shifting，全世界更加恨佢哋。到底係Isayama被逼寫成咁，或者AoT一開始就係壞嘅？",
+      "text_en_b1": "Zeke's euthanasia plan works. Eren's genocide plan works too. Yet 80% of humanity is wiped out, the Eldians lose the power of Titan shifting, and the world hates them even more. Was Isayama forced to write this ending, or was Attack on Titan bad from the start?",
+      "text_en_b2": "Zeke’s euthanasia plan succeeded, while Eren’s genocide plan succeeded as well, although neither outcome brought anything positive. In the end, 80 percent of humanity was wiped out, the Eldians lost their power of Titan shifting, and the rest of the world hated them even more. This raises an uncomfortable question: was Isayama forced to write such a conclusion, or had Attack on Titan been fundamentally flawed from the very beginning?",
+      "text_en_c1": "Zeke’s euthanasia plan succeeds, and Eren’s genocide plan succeeds as well, although the consequences are catastrophic. Eighty percent of humanity is wiped out, the Eldians are stripped of their ability to inherit the power of the Titan shifters, and the rest of the world emerges with even stronger hatred toward them. The ending therefore appears to satisfy both competing objectives while destroying almost everything either side wanted. Was Isayama forced into this conclusion, or had Attack on Titan been fundamentally broken from its very beginning?",
+      "text_en_c2": "Zeke's euthanasia plan succeeds, and Eren's plan for the eradication of humanity succeeds alongside it. Yet the consequences are bleak: 80% of the global population is annihilated, the Eldians are stripped of their ability to inherit the power of the Titans, and the surviving world regards them with even greater hatred than before. The ending invites an uncomfortable question about authorship and structural inevitability. Was Hajime Isayama constrained by circumstances, circumstances largely of his own construction, into writing such a conclusion? Or was Attack on Titan fundamentally broken from its inception?",
+      "source_url": "https://boards.4chan.org/a/thread/292200370",
+      "source_hint": "The OP debates the ending and whether Attack on Titan was flawed from the start."
+    }
+  ]
+}
