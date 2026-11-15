@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-15",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trade-predictions",
+      "category": "trading",
+      "topic_zh": "兩年後價格預測",
+      "topic_en": "Two-Year Price Predictions",
+      "text_zh": "今日個預測thread又出咗。BTC而家65,584.32美元，ETH係1,831.44美元，XRP 0.9549美元，SOL 72.30美元，仲有DOGE同其他shitcoin。兩年後再返嚟對答案。大部分人估中都係靠𠮶，但有price target先有Direction。",
+      "text_en_b1": "PREDICTION THREAD. Times are tough. Predict the price of these assets two years from now. I will return exactly two years from now to check the results. Current prices: BTC 65,584.32 USD, ETH 1,831.44 USD, XRP 0.9549 USD, SOL 72.30 USD, and DOGE. Throw in any shitcoin you choose.",
+      "text_en_b2": "The prediction thread is back, because apparently we enjoy pretending we can forecast the market. Here are today’s starting prices: BTC at $65,584.32, ETH at $1,831.44, XRP at $0.9549, SOL at $72.30, and DOGE. Add any shitcoin you like. I’ll return exactly two years from now to check the answers. Most people will get close by sheer luck, but a price target at least gives you a direction to aim for.",
+      "text_en_c1": "The prediction thread has returned, because apparently forecasting cryptocurrency prices is an irresistible way to test our forecasting abilities. Using today’s figures as the baseline, BTC stands at $65,584.32, ETH at $1,831.44, XRP at $0.9549, and SOL at $72.30; DOGE and any other shitcoin you want to include are welcome too. Two years from now, I will return and compare the results. Many guesses will, inevitably, be wrong. Nevertheless, a price target establishes a direction, even if it rarely captures the full picture.",
+      "text_en_c2": "The prediction thread has returned, because apparently forecasting digital assets remains a reliable form of collective masochism. Here are the starting prices: BTC at $65,584.32, ETH at $1,831.44, XRP at $0.9549, and SOL at $72.30, with DOGE and whichever shitcoins contributors deem sufficiently doomed also in contention. Two years from now, I shall return to compare the forecasts with reality, assuming the thread, the assets, and perhaps the internet itself are still operational. Most participants will claim to have called the direction correctly, regardless of what their price targets actually said.",
+      "source_url": "https://boards.4chan.org/biz/thread/62905587",
+      "source_hint": "A two-year prediction thread for BTC, ETH, XRP, SOL, DOGE, and other assets."
+    },
+    {
+      "id": "trade-mstr-pain",
+      "category": "trading",
+      "topic_zh": "MSTR變學費",
+      "topic_en": "MSTR Bleeding Money",
+      "text_zh": "「我2024年11月喺高位將全部身家壓落MSTR。」兩年慢慢流血，逢升就以為有希望，第二日又dump。平均低接只會再跌多啲。依家仲爭70,000美元，的確好難 financially recover。冇setup就係觀察，唔係叫你all in。",
+      "text_en_b1": "I aped my life savings into MSTR at the top in November 2024. For two years, my net worth slowly bled out. Every little pump gave me hope, but it dumped the next day. Averaging down only made things worse. I am down $70,000, and I may never financially recover. No clear setup here, just pain.",
+      "text_en_b2": "“I threw my entire life savings into MSTR at the top in November 2024.” For two years, my net worth slowly bled out. Every minor pump gave me a flicker of hope, yet it dumped again the following day. Averaging down only deepened the damage. I’m currently down $70,000, and honestly, I may never financially recover from this. There was no clear setup here — only pain, and a lesson I paid for the hard way.",
+      "text_en_c1": "In November 2024, I aped my entire life savings into MSTR at the top, a decision whose stupidity becomes clearer with every passing month. For two years, my net worth has slowly bled out; each minor pump revived my hopes, only for the stock to dump again the following day. Averaging down merely increased the size of the mistake. I am now down $70,000 and may never recover financially. If there is no credible setup, the sensible response is to watch from the sidelines, not to go all in.",
+      "text_en_c2": "In November 2024, at the height of the frenzy, I aped my entire life savings into MSTR. What followed was not a clean collapse but two years of slow financial bleeding, with every modest pump reviving hope just long enough for the stock to dump again the following day. Averaging down only deepened the wound. I am currently $70,000 lighter and may never recover financially. There was no convincing setup here, merely conviction without discipline. In hindsight, observation would have been wiser than putting everything on one disastrous position.",
+      "source_url": "https://boards.4chan.org/biz/thread/62906971",
+      "source_hint": "An anon describes major MSTR losses and repeated averaging down."
+    },
+    {
+      "id": "civ-geotech",
+      "category": "civil/structure",
+      "topic_zh": "斜坡與結構現場",
+      "topic_en": "Slope and Structural Site Work",
+      "text_zh": "香港細地最怕唔係負荷計錯，係地下管線同排水搞清楚就要拆晒成個假設。斜坡調查要睇GI report、soil nailing同factor of safety；混凝土同鋼都要跟load path。Beam同column唔係畫完就算，現場施工先知個method係咪work，靠AI續命都救唔到一次site mistake。",
+      "text_en_b1": "Today was a slope investigation and condition survey day. I checked GI reports, soil nailing details, drainage, underground utilities, and factor of safety. Then I followed the structural load path from beams to columns, including concrete and steel. Every method needs a proper check on site. AI can help with the reports, but it cannot replace engineering judgment.",
+      "text_en_b2": "Today was a day spent on slope investigation and a condition survey. I reviewed GI reports, soil nailing details, drainage, underground utilities, and the factor of safety, then traced the structural load path from beams through columns, covering both concrete and steel. What matters most on these small Hong Kong sites is getting the assumptions right before anything gets built. No method is proven until it survives site conditions, and AI can’t rescue a single engineering mistake.",
+      "text_en_c1": "Today involved a slope investigation and condition survey, where the critical difficulty often lies not in a miscalculated load, but in unresolved assumptions concerning underground utilities and drainage. I reviewed the GI reports, soil-nailing details, and factor of safety, then traced the structural load path from beams through columns, covering both concrete and steel. A method cannot be considered workable merely because it appears sound on paper; it must be checked against actual site conditions. AI may streamline the reports, but no algorithm can repair a single site mistake or replace sound engineering judgment.",
+      "text_en_c2": "Today involved a slope investigation and structural condition survey, where the most treacherous pitfalls rarely concern a miscalculated load; they concern the assumptions embedded in drainage, underground utilities, and the interaction between them. Reviewing the GI report, soil-nailing details, and factor of safety meant following the structural load path through both concrete and steel, from beams to columns and ultimately into the foundations. A method may look impeccable on paper, but the site has the final say. AI can streamline documentation, yet it cannot compensate for flawed engineering judgment or a single consequential mistake on site.",
+      "source_url": "https://boards.4chan.org/pol/thread/546246244",
+      "source_hint": "A geopolitical post used here as a prompt for Hong Kong civil and structural site work."
+    },
+    {
+      "id": "tech-nvidia-ai",
+      "category": "tech/ai",
+      "topic_zh": "AI開源戰爭",
+      "topic_en": "AI and Open Source",
+      "text_zh": "開源code俾AI學完，再出嚟同原本developer競爭，條GPL真係寫得幾清楚。你哋成日問AI會唔會取代工程師？睇下Nvidia同model training嗰班人，AI連自己都未settle落嚟，邊隻會先replace site work？呢個先係重點。",
+      "text_en_b1": "Open-source versus AI. Current AI models were trained on huge amounts of internet data without permission from everyone. The GNU GPL says that projects using covered code must publish their entire project under the same license. Other licenses include MIT. The argument is simple: developers built the code, but AI companies used it without permission.",
+      "text_en_b2": "Open-source code versus AI. Today’s models were trained on enormous amounts of internet data without permission from the people who wrote it. The GNU GPL is fairly clear: if your project incorporates covered code, you must publish the entire project under the same license, whereas MIT offers more flexibility. The core argument is straightforward. Developers built the code, and AI companies used it anyway. Before asking whether AI will replace engineers, look at how unsettled the field already is.",
+      "text_en_c1": "Open-source code versus AI is not a hypothetical dispute: developers created the code, while AI companies trained their models on vast quantities of internet data, including protected material, without obtaining permission from every contributor. The GNU GPL is reasonably explicit that a project incorporating covered code must publish its entire project under the same licence, although alternatives such as MIT permit more permissive use. This is precisely why claims that AI will replace engineers deserve scepticism. Before replacing site work, the technology still needs to establish that it can reliably handle the work developers already do.",
+      "text_en_c2": "The tension between open-source software and AI is more straightforward than either side would prefer. Developers publish code so that others may study, modify, and redistribute it; AI companies then train models on vast quantities of that material, often without the consent of everyone who created it. The GNU GPL is unambiguous: a project incorporating covered code must distribute the entire project under the same licence, although alternatives such as MIT permit more permissive use. The underlying grievance is equally plain: developers built the code, while AI firms appropriated its value. Consider Nvidia and model training before assuming the technology has already replaced engineers.",
+      "source_url": "https://boards.4chan.org/g/thread/110336500",
+      "source_hint": "A discussion about open-source licenses and AI training on internet data."
+    },
+    {
+      "id": "hk-starship",
+      "category": "hk/news",
+      "topic_zh": "星艦又成功了",
+      "topic_en": "Starship Wins Again",
+      "text_zh": "Starship又一次成功，Elon照例贏。香港新聞成日放大火箭新聞，但低智商poster最鍾意寫「Destroyed」。不過要問清楚今次到底有咩historic：係第十次catch定係其他突破？有data先可以判斷，唔係每次升空都值得當成大事。",
+      "text_en_b1": "Starship success. Elon wins again, baby. Doubters with low IQ were completely destroyed. But what exactly was historic about what SpaceX just did? This was like rocket number ten they caught. I thought the hype would be over by now. The technical achievement matters more than repeating the same slogan.",
+      "text_en_b2": "Starship succeeded again, so Elon wins once more, baby. Hong Kong news outlets keep amplifying rocket stories, while low-IQ posters insist on writing “destroyed” in every thread. Still, it’s worth asking what was actually historic here. Was this their tenth booster catch, or some other genuine breakthrough? You need data before you can judge, because not every launch deserves to be treated as a major milestone. The technical achievement matters more than the slogan.",
+      "text_en_c1": "Starship has succeeded again, and Elon wins, as usual. Hong Kong news outlets routinely inflate every rocket development, while the least intellectually rigorous posters continue to proclaim that the doubters were “destroyed.” The more pertinent question, however, is what exactly SpaceX achieved that was genuinely historic. Was this its tenth successful catch, or did the flight involve some other breakthrough? Claims require data, and not every launch deserves to be treated as a major milestone simply because the familiar slogan has been repeated.",
+      "text_en_c2": "Starship has succeeded again, and Elon, as ever, emerges the ostensible victor. Hong Kong news outlets amplify rocket developments almost by reflex, while low-IQN posters habitually announce that the doubters have been comprehensively destroyed. The more useful question, however, is what precisely was historic about SpaceX’s latest achievement: was this merely the tenth vehicle caught, or did it represent some other meaningful advance? Genuine assessment requires data and an exact account of what occurred. Not every launch warrants elevation into a landmark, and the technical achievement matters more than recycling the same triumphant slogan.",
+      "source_url": "https://boards.4chan.org/pol/thread/546250377",
+      "source_hint": "A celebratory post about SpaceX, Starship, and Elon Musk."
+    },
+    {
+      "id": "mma-gym-music",
+      "category": "mma/fitness",
+      "topic_zh": "Gym節奏加碼",
+      "topic_en": "Gym Music and Gains",
+      "text_zh": "今日個gym thread有人話揀隻CD，lifts即刻多5磅。靠AI續命咁耐，終於有啲quantified result。肥仔信如果聽到呢段一定話得5磅太少，但我哋這些廢柴照樣舉鐵，form差都照練。Music係儀式感，5磅先係bonus。",
+      "text_en_b1": "How important is music in the gym? If you pick any CD from this display, your lifts will go up by at least 5 pounds. That is the thread's rule. The advice is probably nonsense, but music can still help you get through warm-ups and heavy sets. Good training habits matter more than any magical playlist.",
+      "text_en_b2": "How important is music when you’re lifting? According to this thread, pick any CD from the display and your lifts will jump by at least five pounds. The advice is probably nonsense, but there’s something to it: music can carry you through warm-ups and heavy sets when motivation starts to fade. Although most of us are pretty useless, we still train even when our form is terrible. Music is the ritual, and five pounds is just a bonus.",
+      "text_en_c1": "How important is music when you train? The gym thread’s rule was that selecting any CD from the display would increase your lifts by at least five pounds. This is, of course, probably nonsense, yet the quantified result is no less amusing for being implausible. A larger man would undoubtedly argue that five pounds is negligible; the rest of us would continue lifting despite questionable form. Music provides ritual, atmosphere, and a psychological push through warm-ups and heavy sets. Any measurable improvement is a bonus, but consistent training habits matter far more than a magical playlist.",
+      "text_en_c2": "Today’s gym thread offered a characteristically dubious proposition: choose any CD from the display, and your lifts will increase by at least five pounds. Apparently, this is the thread’s official rule, although no credible hypertrophy mechanism has yet been identified. Nevertheless, the advice may possess some practical value, since music can carry you through warm-ups, blunt fatigue during demanding sets, and the final repetitions that might otherwise disappear. Every self-proclaimed macho lifter will insist that five pounds is a negligible bonus, yet the rest of us continue training regardless, often with imperfect form. Music supplies the ritual; the extra weight remains, at most, a cheerful embellishment.",
+      "source_url": "https://boards.4chan.org/fit/thread/77611524",
+      "source_hint": "A fitness thread jokes that music from a CD display adds five pounds to every lift."
+    },
+    {
+      "id": "anime-aots",
+      "category": "anime/culture",
+      "topic_zh": "AOT本季評價",
+      "topic_en": "Attack on Titan Season",
+      "text_zh": "AotS同AotY今季真係唔會好返。多謝anons仍然捧場傾favorite，仲有blind girl anime同Futsutsuka Akujo入honourable mentions。Demon Slayer同 Gundam 00至少仲有得追，但AOT而家個勁抽離，睇完只係想即刻開Structures嗰條片返工。",
+      "text_en_b1": "Attack on Titan season four will not get any better. What were your favorites this year? Honorable mentions go to the blind girl anime and Futsutsuka Akujo. The season has already disappointed me, but I still want to hear about the best moments. Some shows disappear from memory, while others stay with you.",
+      "text_en_b2": "Attack on Titan season four isn’t going to get any better, although I’d still love to hear which moments you all considered the strongest this year. Honorable mentions go to the blind girl anime and Futsutsuka Akujo. Demon Slayer and Gundam 00 are at least still worth following, but AOT’s momentum has completely collapsed. Some shows fade into memory, while others stick around, and after finishing this season, I just want to open up Structures and get back to work.",
+      "text_en_c1": "Attack on Titan season four is unlikely to improve, and the series will probably not recover its former strength this season. Nevertheless, I would still like to hear which anime people considered the best, along with their favourite moments. Honorable mentions go to the blind girl anime and Futsutsuka Akujo, while Demon Slayer and Gundam 00 at least remain worth following. AOT’s momentum has now drained away, leaving me inclined to watch that Structures video about working immediately after finishing the episode.",
+      "text_en_c2": "Attack on Titan’s fourth season is unlikely to improve, and AOTY will fare no better. Nevertheless, thanks to the anons still turning up to discuss their favourites, the blind girl anime and Futsutsuka Akujo deserve honourable mentions. Demon Slayer and Gundam 00 remain watchable, even if they cannot entirely compensate for AOT’s present trajectory. The season has already disappointed me sufficiently that finishing it leaves me with an immediate urge to watch the Structures video and return to work. Some anime fade from memory as though they never existed; others remain lodged there permanently, however reluctantly.",
+      "source_url": "https://boards.4chan.org/a/thread/292256596",
+      "source_hint": "An anime thread asks for Attack on Titan favorites and mentions two other series."
+    }
+  ]
+}

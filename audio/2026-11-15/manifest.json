@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-15",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-predictions",
+      "topic_en": "Two-Year Price Predictions",
+      "topic_zh": "兩年後價格預測",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-predictions-b1.mp3",
+        "b2": "clip-trade-predictions-b2.mp3",
+        "c1": "clip-trade-predictions-c1.mp3",
+        "c2": "clip-trade-predictions-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-mstr-pain",
+      "topic_en": "MSTR Bleeding Money",
+      "topic_zh": "MSTR變學費",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-mstr-pain-b1.mp3",
+        "b2": "clip-trade-mstr-pain-b2.mp3",
+        "c1": "clip-trade-mstr-pain-c1.mp3",
+        "c2": "clip-trade-mstr-pain-c2.mp3"
+      }
+    },
+    {
+      "id": "civ-geotech",
+      "topic_en": "Slope and Structural Site Work",
+      "topic_zh": "斜坡與結構現場",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civ-geotech-b1.mp3",
+        "b2": "clip-civ-geotech-b2.mp3",
+        "c1": "clip-civ-geotech-c1.mp3",
+        "c2": "clip-civ-geotech-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-nvidia-ai",
+      "topic_en": "AI and Open Source",
+      "topic_zh": "AI開源戰爭",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-nvidia-ai-b1.mp3",
+        "b2": "clip-tech-nvidia-ai-b2.mp3",
+        "c1": "clip-tech-nvidia-ai-c1.mp3",
+        "c2": "clip-tech-nvidia-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-starship",
+      "topic_en": "Starship Wins Again",
+      "topic_zh": "星艦又成功了",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-starship-b1.mp3",
+        "b2": "clip-hk-starship-b2.mp3",
+        "c1": "clip-hk-starship-c1.mp3",
+        "c2": "clip-hk-starship-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-gym-music",
+      "topic_en": "Gym Music and Gains",
+      "topic_zh": "Gym節奏加碼",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-gym-music-b1.mp3",
+        "b2": "clip-mma-gym-music-b2.mp3",
+        "c1": "clip-mma-gym-music-c1.mp3",
+        "c2": "clip-mma-gym-music-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-aots",
+      "topic_en": "Attack on Titan Season",
+      "topic_zh": "AOT本季評價",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-aots-b1.mp3",
+        "b2": "clip-anime-aots-b2.mp3",
+        "c1": "clip-anime-aots-c1.mp3",
+        "c2": "clip-anime-aots-c2.mp3"
+      }
+    }
+  ]
+}
