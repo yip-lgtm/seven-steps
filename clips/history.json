@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "days": [
+    {
+      "date": "2026-11-16",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "biz-mstr-btc",
+          "category": "trading",
+          "topic_zh": "MSTR 兩年失血",
+          "topic_en": "MSTR Bleeding Out",
+          "text_zh": "我喺2024年11月高位將全副身家套入 MSTR。兩年慢慢流乾晒成個net worth。每次細細 pump 都畀我啲希望，翌日又 dump。每次「averaged down」，實際只跌得更慘。我只想攞返啲錢，連 MSTR 帶住 BTC 都跌咗，我真係唔知點算。",
+          "text_en_b1": "I aped my life savings into MSTR at the top in November 2024. Two years of slowly bleeding out my entire net worth. Every small pump gave me hope, but it dumped the next day. Every time I averaged down, it dropped even more. I just want my money back. I’m down $70,000.",
+          "text_en_b2": "I aped my entire life savings into MSTR back in November 2024, right near the top, and over the past two years I have watched my net worth slowly bleed out. Every modest pump gave me a flicker of hope, yet it dumped again the following day. Although I kept averaging down, each attempt only made the losses worse. Even with BTC falling alongside MSTR, I simply want my money back. I’m down $70,000.",
+          "text_en_c1": "I invested my entire life savings in MSTR at the top in November 2024, and over the following two years my net worth slowly bled out. Every modest pump revived my hope, yet the stock dumped the following day. Whenever I averaged down, the position only became more deeply underwater. Now I simply want my money back. Even holding BTC alongside MSTR failed to soften the damage, and at this point I genuinely do not know what to do.",
+          "text_en_c2": "In November 2024, at the height of the mania, I aped my entire life savings into MSTR. What followed was a slow, two-year haemorrhage of my net worth, punctuated by false dawns that felt all the more convincing because they were so fleeting. Every modest pump revived a flicker of hope, only for the stock to dump the following session. Each time I convinced myself that averaging down was prudent, the position deteriorated even further. I no longer have a strategy; I simply want my money back. Even BTC has fallen alongside MSTR. I am down $70,000, and I genuinely do not know what to do next.",
+          "source_url": "https://boards.4chan.org/biz/thread/62906971",
+          "source_hint": "An anon describes losing $70,000 after buying MSTR near its November 2024 high and averaging down."
+        },
+        {
+          "id": "biz-forex-meme",
+          "category": "trading",
+          "topic_zh": "Forex係咪Meme",
+          "topic_en": "Can Forex Make Money",
+          "text_zh": "咁我問下，forex trading 真係賺到錢，定係純粹 meme？睇落好似條路好難。靠住 CFD 輸到當學費，邊個仲有正常回報就最好。",
+          "text_en_b1": "Can you actually make money from forex trading, or is it mostly a meme? Some people treat charts and online signals like real expertise. For me, CFD losses already feel expensive enough. It would be good to hear from anyone with a realistic, repeatable approach.",
+          "text_en_b2": "So, a genuine question: can you actually make money trading forex, or is it largely a meme? It looks like an incredibly difficult path, especially when people treat chart patterns and online signals as genuine expertise. For me, blowing money on CFDs already feels like paying tuition for a very expensive lesson. It would be reassuring to hear from anyone with a realistic, repeatable approach that produces normal returns instead of fantasy screenshots.",
+          "text_en_c1": "Can people realistically make money from forex trading, or is the whole thing largely a meme? The charts and online signals that circulate often masquerade as genuine expertise, although the path to consistent returns appears extremely difficult. My own losses through CFDs already feel like an exorbitant tuition fee. If anyone has a realistic, repeatable approach that does not depend on hindsight or luck, I would be interested to hear it.",
+          "text_en_c2": "Can one actually make money trading forex, or is the entire enterprise a elaborate meme dressed up in technical jargon? Charts, candlesticks and signal groups are routinely treated as expertise, although most participants would struggle to define risk management without resorting to platitudes. Having already paid for my education in life lessons through CFD losses, I am not eager to repeat the experiment. What I would welcome is an account from someone who has achieved consistent, repeatable returns, preferably one that acknowledges the long road, the drawdowns and the unglamorous arithmetic involved. Otherwise, the honest conclusion may be that this is a casino with extra steps.",
+          "source_url": "https://boards.4chan.org/biz/thread/62902828",
+          "source_hint": "A /biz/ thread asks whether forex trading is profitable or merely a meme."
+        },
+        {
+          "id": "civil-nvidia-musk",
+          "category": "tech/ai",
+          "topic_zh": "Jensen 華麗回歸",
+          "topic_en": "Jensen’s Possible Return",
+          "text_zh": "Jensen Huang 據報同盟友討論回歸做 Nvidia CEO。有人話 Silicon Valley 高管正組「war room」，爭取白宮支持。Tesla 同 SpaceX CEO Elon Musk、Epic Games CEO Tim Sweeney 都支持公開信。Nvidia 員工嗰邊就更加炸晒，鬧爆要 JENSENNNNNNNN 返嚟。",
+          "text_en_b1": "Jensen Huang has discussed coming back as Nvidia CEO with his allies. One ally said Silicon Valley executives were forming a “war room” to lobby for his return and White House support. Elon Musk and Tim Sweeney backed a public letter. Nvidia employees also demanded Jensen’s return.",
+          "text_en_b2": "Jensen Huang has reportedly discussed returning as Nvidia CEO with his allies. One of them claimed that Silicon Valley executives are forming a “war room” to lobby for his comeback and secure White House support. Elon Musk and Epic Games CEO Tim Sweeney also backed a public letter demanding his return. Meanwhile, Nvidia employees have gone completely ballistic, spamming messages that simply read “JENSENNNNNNNN.” Even if the whole thing sounds wildly dramatic, the reaction speaks for itself.",
+          "text_en_c1": "Jensen Huang has reportedly discussed a possible return as Nvidia’s CEO with allies close to him. One supporter claimed that Silicon Valley executives were assembling a “war room” to lobby for his comeback and secure White House backing. Elon Musk, the CEO of Tesla and SpaceX, and Epic Games CEO Tim Sweeney also supported a public letter calling for Jensen’s return. Meanwhile, Nvidia employees have been even more vocal, demanding that he come back.",
+          "text_en_c2": "Jensen Huang is reportedly among the allies with whom he has discussed a potential return as Nvidia CEO. One supporter claimed that Silicon Valley executives were assembling a “war room” to lobby for his reinstatement and to marshal White House support, which suggests that the lobbying effort has acquired considerable institutional weight. Elon Musk, the CEO of Tesla and SpaceX, and Tim Sweeney of Epic Games have both endorsed a public letter advocating his comeback. Internally, the response has been no less emphatic: Nvidia employees have flooded social media with demands for JENSENNNNNNNN to return, reflecting a workforce sentiment that is far from reconciled with his departure.",
+          "source_url": "https://boards.4chan.org/g/thread/110344383",
+          "source_hint": "The post reports lobbying around Jensen Huang’s possible return, with Musk and Sweeney among the supporters."
+        },
+        {
+          "id": "hk-tesla-musk",
+          "category": "hk/news",
+          "topic_zh": "Tesla 梗係最好",
+          "topic_en": "Tesla Still Wins",
+          "text_zh": "Tesla 梗係最好。真係唔明仲有人買 Big Three 嗰啲廿世紀車。Tesla 同 Elon Musk 真係理解我。加速係 electric vehicles 之中最離譜嗰種，價錢又合理。唔使排隊等入 gas station，個 convenience 真係冇得比。",
+          "text_en_b1": "Teslas are the best. I cannot believe people still buy Big Three cars that are basically twentieth-century technology. I have never been so happy with a car as I am with my Tesla. Its acceleration is unreal for the price. It is also much more convenient without waiting for gas.",
+          "text_en_b2": "Teslas are simply the best, and I genuinely cannot understand why anyone still buys Big Three cars that are basically leftovers from the twentieth century. Tesla and Elon Musk really do understand me. The acceleration is completely out of this world among electric vehicles, yet the price remains perfectly reasonable. On top of that, you never have to queue at a gas station, and that everyday convenience is absolutely impossible to beat.",
+          "text_en_c1": "Teslas are unquestionably the best, and I cannot understand why anyone still buys Big Three vehicles that are essentially twentieth-century technology. Tesla and Elon Musk genuinely understand me. Its acceleration is the most remarkable aspect of any electric vehicle, yet the price remains entirely reasonable. On top of that, there is no need to queue at a petrol station, so the convenience is incomparable. I have never been happier with a car.",
+          "text_en_c2": "Teslas are, quite simply, the best cars on the road. I remain astonished that people continue to purchase Big Three vehicles, which are essentially twentieth-century machinery equipped with modern branding. I have never been happier with a car than I am with my Tesla, and I say that as someone who long suspected enthusiasm was clouding my judgement. The acceleration is frankly absurd for the price, delivering performance that would have seemed implausible a generation earlier, and the ownership experience is underscored by convenience. There is no queueing at a petrol station, no fumbling for a nozzle, no lingering in the forecourt; the whole errand is reduced to arriving and leaving.",
+          "source_url": "https://boards.4chan.org/pol/thread/546299625",
+          "source_hint": "A /pol/ post praises Tesla’s acceleration, convenience, and value for money."
+        },
+        {
+          "id": "mma-gym-form",
+          "category": "mma/fitness",
+          "topic_zh": "Gym 今日好日",
+          "topic_en": "Bad Squat Form",
+          "text_zh": "今日 gym 又見到以前傾過偈嗰個女仔。個 form 真係慘， squats 竟然好似 deadlift。咁大隻，咁壯，但膝頭同髖位一啲都唔似正常。望多兩眼都係得，畢竟今日主要係做 legs。",
+          "text_en_b1": "I saw the girl I used to talk to at the university gym. She is tall, broad-shouldered, and wants a six-pack, but her squat form is terrible. She squats like she is performing a deadlift. The trainer should correct her before she hurts her knees or lower back.",
+          "text_en_b2": "I ran into the girl I used to talk to at the university gym today. She is tall, broad-shouldered, and clearly working toward a six-pack, but her squat form is absolutely awful. Instead of squatting, she performs something that looks remarkably like a deadlift. It is strange, because she seems powerful and strong, yet her knees and hips hardly move in a way that resembles proper technique. Hopefully a trainer corrects her before she injures her knees or lower back.",
+          "text_en_c1": "At the gym today, I ran into the girl I used to talk to at university. She is tall and broad-shouldered, and she wants a six-pack, but her squat form is terrible. Rather than squatting, she appears to be performing repeated deadlifts, with neither her knees nor her hips moving as they should. I considered saying something, yet I mainly refrained because today was primarily a leg day.",
+          "text_en_c2": "At the gym today, I caught sight of the girl I used to chat with at university, and she has undeniably filled out: tall, broad-shouldered, and evidently determined to carve out a six-pack. Unfortunately, her squat technique is abysmal, since she performs the movement as though it were a deadlift, driving her hips too far back and loading the knees in a way that bears little resemblance to competent form. It was painful to witness, particularly given how much mass she is moving. A trainer should intervene before she subjects her knees and lower back to unnecessary strain, though I confess I found it difficult not to keep watching, since today was chiefly leg day.",
+          "source_url": "https://boards.4chan.org/fit/thread/77612056",
+          "source_hint": "A gym thread includes an awkward encounter and a critique of another lifter’s poor squat form."
+        },
+        {
+          "id": "anime-ranma-story",
+          "category": "anime/culture",
+          "topic_zh": "乱馬章節回顧",
+          "topic_en": "Ranma Storytime",
+          "text_zh": "Ranma 1/2 storytime。配合新 anime season 講番 manga，等大家可以比較，或者同步體驗故事。今日係 chapter 78 至 80。廢柴都鍾意呢種認真拆解。",
+          "text_en_b1": "Ranma 1/2 storytime. I am going through the manga alongside the new anime season so anons can compare the two and experience the story in different ways. Today covers chapters 78 to 80. The thread combines character discussion with reactions to each plot development.",
+          "text_en_b2": "Ranma 1/2 storytime. I am going through the manga alongside the new anime season so that anons can compare the two and experience the story in different ways. Today we cover chapters 78 through 80. The thread mixes character discussion with reactions to each plot development, and even if you are not especially a dedicated fan of this kind of series, a serious breakdown like this can still be thoroughly enjoyable.",
+          "text_en_c1": "It is time for another Ranma 1/2 storytime. I am reading through the manga alongside the new anime season, which allows anons to compare the adaptations and experience the story in different ways. Today’s installment covers chapters 78 through 80. The thread mixes detailed character discussion with reactions to each new plot development. Even readers who are not particularly committed to the series may find that this kind of serious analysis remains worthwhile.",
+          "text_en_c2": "Ranma 1/2 storytime. Since the new anime season has begun, I am working through the original manga in parallel so that anons can compare the two treatments and follow the narrative in whichever medium suits them best. Today’s instalment covers chapters 78 through 80, a stretch that has no shortage of character drama to unpack. The thread juxtaposes sustained discussion of the personalities involved with immediate reactions to each plot development, which keeps the pacing lively even when exposition demands patience. As someone who has long appreciated the series despite its rough edges, I am eager to see whether the adaptation preserves the material’s quirks, its tonal shifts, and, above all, the absolute seriousness with which it commits to its own absurdity.",
+          "source_url": "https://boards.4chan.org/a/thread/292249167",
+          "source_hint": "The OP posts a Ranma 1/2 manga storytime covering chapters 78 through 80."
+        },
+        {
+          "id": "lol-league-two",
+          "category": "lol/esports",
+          "topic_zh": "聯盟2要來了",
+          "topic_en": "League of Legends 2",
+          "text_zh": "各位係咪好期待 League of Legends 2！？S15 都睇得夠癲，唔知今次會唔會又整一堆新英雄出嚟。",
+          "text_en_b1": "Are you guys really excited for League of Legends 2? The professional matches are already exciting, so the new game sounds even bigger. I wonder whether it will bring new champions, fresh maps, and enough changes to make the old strategies obsolete.",
+          "text_en_b2": "Are you guys genuinely excited for League of Legends 2? Professional matches in Season 15 are already absolutely intense, so hearing about the new game sounds like an enormous step forward. I keep wondering whether the developers will introduce a whole batch of new champions, alongside fresh maps and enough mechanical changes to make the old strategies completely obsolete. Either way, judging by recent seasons, the competition is clearly getting fiercer.",
+          "text_en_c1": "Are you genuinely excited for League of Legends 2? Professional matches in Season 15 have already been thrilling, so the prospect of an entirely new game sounds even more ambitious. I am particularly curious about whether it will introduce new champions and fresh maps, while changing enough of the established systems that old strategies become obsolete. If Riot can preserve the competitive depth without merely repackaging familiar ideas, then this could be a considerable success.",
+          "text_en_c2": "Are you genuinely excited for League of Legends 2? I confess that professional matches in Season 15 have already been compelling enough to make the prospect of a sequel feel almost gratuitous, yet the scale of the announcement inevitably stirs curiosity. The obvious question is whether Riot intends to introduce a fresh roster of champions, new maps, and mechanical overhauls substantial enough to render established strategies obsolete, or whether the sequel will function primarily as a polished re-release with cosmetic refinements. Either way, the competitive ecosystem will presumably need to adapt wholesale, and I suspect the familiar meta will be dismantled with characteristic disregard for anyone who has invested years mastering it.",
+          "source_url": "https://boards.4chan.org/v/thread/751677903",
+          "source_hint": "A /v/ thread asks whether players are excited for League of Legends 2."
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "source": "ai",
@@ -4395,103 +4492,6 @@
           "text_en_c2": "A self-proclaimed zoomer enthusiast has had the temerity to declare himself an anime aficionado, only to reveal, upon gentle interrogation, that he has never so much as glanced at Steins;Gate, a work widely regarded as a foundational cornerstone of the medium. The original poster, evidently a gatekeeper of long standing, responds with theatrical incredulity, wondering aloud how anyone purporting to love anime can neglect such an obvious entry point. The discussion rapidly metastasises into a sprawling catalogue of canonical works that newer fans routinely overlook, ranging from the original Mobile Suit Gundam through the celebrated Machinoka arc and onward to the narrative complexities of Code Geass, whose ending alone, the poster suggests, will test the youngster's commitment. The verdict, delivered with mock solemnity, is damning.",
           "source_url": "https://boards.4chan.org/a/thread/291278523",
           "source_hint": "/a/ thread gatekeeping anime fans over Steins;Gate"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-macro-01",
-          "category": "trading",
-          "topic_zh": "幣市已死",
-          "topic_en": "Crypto is dead",
-          "text_zh": "又係睇biz 巴打呻。其實佢講得啱，2020嗰陣唔識都贏，依家識都輸。prop firm 個p&L 仲紅緊。CFD 呢個月又輸多一注。算啦，當交學費🙏\n",
-          "text_en_b1": "It's impossible to get almost effortlessly rich on crypto like in 2020/21, 2017/16 and 2012/13. Nowadays it's just a casino with even more risk than a regular one. If you are making a lot of money, you were already loaded years ago, or you know the right people to get in early on rugpulls.",
-          "text_en_b2": "Getting effortlessly rich from crypto is essentially a thing of the past now, unlike the 2020-21 boom or earlier cycles where even clueless bagholders came out ahead. These days the market functions as little more than a casino, arguably riskier than a regulated one. Unless you were already wealthy or well-connected enough to front-run rugpulls, sustained profits remain out of reach. The past half-decade has produced nothing genuinely transformative, just the same recycled grift dressed up in fresh packaging. The original poster basically nailed it.",
-          "text_en_c1": "The effortless windfall era that defined earlier crypto cycles has effectively come to a close. Whereas ignorance itself was a viable strategy in 2017 or 2020, today's market resembles nothing so much as a casino whose odds have been deliberately stacked against retail participants. Those still extracting serious returns tend to fall into one of two camps: individuals who entered early enough to ride successive waves, or those with privileged access to pre-launch allocations and coordinated rugpulls. What is particularly telling is that, for half a decade now, no genuinely transformative protocol has emerged to reshape the landscape.",
-          "text_en_c2": "The consensus across /biz/ has hardened into something resembling resignation: the era when sheer ignorance could be monetised through cryptocurrency has, for all practical purposes, drawn to a close. Those who amassed fortunes during the parabolic runs of 2012–13, 2016–17, and 2020–21 did so not through perspicacity but through inadvertent timing, whereas today's market functions as a casino rigged against the retail participant, with leverage products and synthetic exposures guaranteeing that the house, as ever, prevails. One need only glance at the bleeding P&L statements emerging from proprietary trading firms this quarter to grasp the systemic nature of the attrition. No genuinely transformative protocol has surfaced in half a decade; what passes for innovation is merely old schemes reupholstered in fresh tokenomics.",
-          "source_url": "https://boards.4chan.org/biz/thread/62730767",
-          "source_hint": "/biz/ anon says crypto is now just a casino with more risk"
-        },
-        {
-          "id": "trade-musk-01",
-          "category": "trading",
-          "topic_zh": "Sailor Moon組合",
-          "topic_en": "Sailor Moon portfolio",
-          "text_zh": "50% MSTR 50% SpaceX⋯⋯巴打你係咪食咗藥😅 我連prop firm challenge 都未過，仲話SpaceX。睇完當冇睇過，lol",
-          "text_en_b1": "The Sailor Moon strategy: 50% MSTR, 50% SpaceX. The plebs here aren't capable of conceiving such a powerful portfolio. MicroStrategy keeps buying Bitcoin while SpaceX keeps launching Starlink satellites, so the anon thinks holding both is the ultimate long-term play. Most anons will never get SpaceX exposure because it is still private.",
-          "text_en_b2": "Someone is pitching the Sailor Moon portfolio: fifty percent MicroStrategy and fifty percent SpaceX, because MSTR keeps accumulating Bitcoin while SpaceX keeps deploying Starlink satellites. The logic apparently is that this combination captures the ultimate long-term play across both assets. Most retail investors, however, cannot even get exposure to SpaceX since it remains private, so the entire thesis is essentially aspirational. Meanwhile, plenty of anons are still grinding away at prop firm challenges. The disconnect is genuinely staggering.",
-          "text_en_c1": "Dubbed the Sailor Moon strategy, this allocation pairs fifty percent MicroStrategy with fifty percent SpaceX, treating the former as a leveraged Bitcoin proxy while the latter provides exposure to Starlink's satellite constellation and adjacent revenue streams. The thesis is straightforward: if MicroStrategy keeps accumulating BTC and SpaceX keeps expanding orbital infrastructure, holding both constitutes the ultimate long-term position for those with sufficient conviction. The rub, as any seasoned observer will immediately note, is that retail investors have no viable pathway to SpaceX shares while the company remains private. Most participants, including those still struggling to clear proprietary firm challenges, are effectively locked out of half the portfolio.",
-          "text_en_c2": "What /biz/ has rather uncharitably dubbed the Sailor Moon portfolio — a fifty-fifty allocation between MicroStrategy and SpaceX — crystallises the gulf between retail imagination and institutional reality. The conceit, stripped of its memetic veneer, rests upon a superficially elegant thesis: MicroStrategy's relentless accumulation of Bitcoin functions as a leveraged proxy for the cryptocurrency complex, whereas SpaceX, through Starlink's commercial maturation, represents an analogous vehicle for the privatisation of orbital infrastructure. Whether this pairing constitutes the apotheosis of long-term positioning is, of course, a matter of temperament rather than analysis. The unpalatable truth, which the thread scrupulously avoids addressing, is that retail exposure to SpaceX remains functionally inaccessible while the company remains private, thereby rendering the strategy less an investment thesis than an exercise in aspirational cosplay.",
-          "source_url": "https://boards.4chan.org/biz/thread/62730454",
-          "source_hint": "/biz/ anon pitches 50/50 MSTR plus SpaceX portfolio"
-        },
-        {
-          "id": "civil-01",
-          "category": "civil/structure",
-          "topic_zh": "邊個鬼係Lassalle",
-          "topic_en": "Marx vs Lassalle take",
-          "text_zh": "外國人連上堂都傾Marx⋯⋯我哋做斜坡調查、soil nailing 邊有時間理。總之FE exam 唔考哲學，考factor of safety 就夠。\n",
-          "text_en_b1": "Snooze videos do not apply to reposts. Do you know what Karl Marx called Ferdinand Lassalle in a private letter? That is exactly what Elon Musk is. The thread on /g/ compares modern tech moguls to 19th century socialist drama, and anons keep pasting the same quote. Site engineers will never discuss this at a slope meeting.",
-          "text_en_b2": "Apparently some 4chan thread is comparing Elon Musk to Ferdinand Lassalle, citing a private letter where Karl Marx allegedly threw shade at his rival. The comparison is meant to highlight how modern tech moguls mirror nineteenth-century socialist drama, with the same ego clashes and ideological posturing. While anons keep reposting the quote for kicks, most practising engineers would find this completely irrelevant to their daily grind. Slope inspections, soil nailing reports, and factor-of-safety calculations leave zero room for philosophy.",
-          "text_en_c1": "There exists a particular irony in forum users reposting Karl Marx's famously caustic private remarks about Ferdinand Lassalle, applying them with apparent sincerity to contemporary technology magnates. Whether the analogy holds is, of course, a matter of considerable debate; what is indisputable is that the quote has acquired meme status on certain boards, where it circulates with metronomic regularity. Those who labour in more terrestrial disciplines, slope stabilisation, soil nailing investigations, the unglamorous arithmetic of factors of safety, will probably never encounter such discourse at a site meeting. The Fundamentals of Engineering examination, mercifully, makes no such philosophical demands.",
-          "text_en_c2": "The recent proliferation of /g/ threads drawing tendentious parallels between twenty-first century tech moguls and nineteenth-century socialist polemicists has, frankly, outstripped any reasonable appetite for historical analogy. The inciting incident appears to be Karl Marx's characteristically venomous private correspondence concerning Ferdinand Lassalle, in which the former trades insults that certain anons have deemed remarkably apposite to the present Silicon Valley moment. The juxtaposition is, admittedly, provocative — one can scarcely contest that the theatrical self-regard bears a family resemblance across centuries. Such considerations, however, occupy precisely zero cognitive bandwidth during a slope stability assessment or a soil nailing specification review. The Fundamentals of Engineering examination, mercifully, eschews political economy in favour of factors of safety and permissible bearing capacities, priorities which the conscientious geotechnical practitioner would do well to preserve.",
-          "source_url": "https://boards.4chan.org/g/thread/109922185",
-          "source_hint": "/g/ anon compares Elon Musk to Lassalle from a Marx letter"
-        },
-        {
-          "id": "tech-ai-01",
-          "category": "tech/ai",
-          "topic_zh": "AI搶飯碗",
-          "topic_en": "AI takes our jobs",
-          "text_zh": "同我情況好似⋯⋯佢講75% job 都會畀AI 取代。我做GI report 都係照template 寫，遲早死🧐 唯有考牌走專業路線。wtf",
-          "text_en_b1": "Normies AI ignorance. Can anyone share what the normies in their lives think about AI? I mostly hear them regurgitate tabloid talking points about how data centres are loud and each prompt wastes a gallon of water. Meanwhile, I am seriously considering backup employment options after seeing firsthand that AI will be capable of automating away 75% of my job in the next year or…",
-          "text_en_b2": "Curious what ordinary people actually think about AI these days, because the consensus in my circle is depressingly shallow. They mostly parrot tabloid nonsense about data centres being noisy and each prompt allegedly guzzling a gallon of water, while brushing off the real implications entirely. Meanwhile, having witnessed firsthand how rapidly the technology is maturing, I am genuinely exploring backup career paths.",
-          "text_en_c1": "The chasm between public perception and professional reality regarding artificial intelligence has rarely been more pronounced. Acquaintances outside the industry tend to parrot tabloid talking points: the hum of server halls, the allegedly catastrophic water footprint per prompt, the spectre of sentient machines. Meanwhile, those of us whose daily output consists largely of templated deliverables recognise an altogether different threat. If current trajectories hold, roughly three-quarters of my role could feasibly be automated within the next eighteen months. GI reports, compliance documentation, formulaic client communications; all sit squarely in the crosshairs. The prudent response would appear to be credentialing, professional licensure, anything that confers a measure of defensibility.",
-          "text_en_c2": "The prevailing discourse among the technologically literate has shifted from speculative apprehension to something approaching anticipatory grief, as the obsolescence horizon for white-collar cognition contracts with each successive model release. What is particularly galling is the lacuna between public perception and professional reality: laypersons continue to circulate tabloid-inflected anxieties about the modest environmental footprint of inference, oblivious to the broader structural implications. Practitioners in cognitively templated disciplines — geotechnical reports, legal memoranda, routine medical correspondence — find themselves confronting an unpalatable calculus. If current trajectories hold, the proportion of cognitive labour susceptible to automation within the next biennium may plausibly approach seventy-five per cent.",
-          "source_url": "https://boards.4chan.org/g/thread/109923945",
-          "source_hint": "/g/ anon worries AI will automate 75% of his job"
-        },
-        {
-          "id": "hk-news-01",
-          "category": "hk/news",
-          "topic_zh": "打機減出生率",
-          "topic_en": "Gamers ruining birthrate",
-          "text_zh": "lol 巴打話打機搞到少子化要禁game。我返工返到傻，邊有時間生仔，禁唔禁game 同我無關。ok 當笑話睇",
-          "text_en_b1": "Video game ban incoming. Vidya is destroying the birth rates, so the government is going to step in soon. Expect either an outright ban or something like in China, where you are allowed to play only a couple of hours per week. We need to get the youth away from the screens and back to work, the anon writes on /pol/.",
-          "text_en_b2": "Some /pol/ poster is convinced that video games are tanking birth rates, so the government will inevitably step in with restrictions, possibly mirroring China's model of limiting playtime to a couple of hours weekly. The argument is that gaming is keeping youth away from productive activities, hence the call for intervention. While the logic is entertaining, anyone working sixty-hour weeks barely has time to even glance at a screen, let alone raise a family. The whole debate feels entirely detached from reality.",
-          "text_en_c1": "The proposition that gaming is single-handedly precipitating a demographic collapse, and that legislative remedies are therefore imminent, has begun circulating with increasing frequency on certain boards. The proposed solutions range from outright prohibition to the rather more measured Chinese model, wherein minors are permitted a strictly rationed number of hours per week. For those of us consigned to the Sisyphean labour of contemporary office life, the entire debate carries a certain absurdist quality; reproductive ambitions have long since been subordinated to professional exhaustion, irrespective of any leisure activities that might occupy what remains of one's evenings. Whether the government intervenes or not, the outcome for this demographic seems largely predetermined.",
-          "text_en_c2": "The proposition advanced on /pol/ — that declining natalist indices can be attributed principally to adolescent immersion in interactive entertainment, and that statutory remedy is therefore imminent — illustrates with admirable precision the terminal disconnect between online discourse and lived economic reality. The demographic collapse afflicting industrialised economies stems from a concatenation of causes: stagnant real wages, housing unaffordability, the deferred adulthood hypothesis, and the generalised atomisation of contemporary social life, of which gaming constitutes at best a marginal accelerant. The breathless anticipation of prohibition, whether in the form of outright proscription or a Chinese-style rationing regime restricting minors to a token weekly allowance, betrays a touching faith in legislative efficacy. For the overworked wage-labourer scraping together survival between shifts, the prospect of fewer progeny emerges less from screens than from sheer exhaustion.",
-          "source_url": "https://boards.4chan.org/pol/thread/543386029",
-          "source_hint": "/pol/ anon predicts Western governments will ban video games for birthrate"
-        },
-        {
-          "id": "mma-fit-01",
-          "category": "mma/fitness",
-          "topic_zh": "Row 緊幾重",
-          "topic_en": "Barbell row weight",
-          "text_zh": "我squat 100kg、bench 80kg、deadlift 140kg，row 緊70kg。睇巴打傾我又要再谷。肥仔信今日又叫我返gym⋯⋯好喇今晚去🙏",
-          "text_en_b1": "How much do you barbell row? Compared to your squat, bench, and deadlift, how much are you repping out for barbell rows, and for how many reps? Most anons answer with a bodyweight ratio, then argue about whether rows should be heavy or just high reps for back thickness.",
-          "text_en_b2": "Curious what everyone is repping on barbell rows relative to their main lifts, because my current numbers feel a bit off. I am squatting around one hundred kilos, benching eighty, and pulling one-forty on deadlifts, yet my rows are stuck at roughly seventy kilos, which seems disproportionately low. The old-school consensus seems to be that anything below sixty percent of your deadlift indicates a lagging posterior chain, so apparently I have work to do. The gym awaits tonight, whether I like it or not.",
-          "text_en_c1": "The barbell row occupies an oddly contentious position within the broader pantheon of compound lifts, and the question of how heavily one ought to load it provokes considerable disagreement among experienced trainees. A typical exchange sees participants citing their current squat, bench, and deadlift figures before proffering row weights, usually expressed as a percentage of bodyweight or of their deadlift. The consensus, insofar as one exists, suggests that rows performed below sixty percent of one's deadlift capacity indicate a posterior chain that is materially under-developed relative to the rest of the physique. Veterans therefore advocate either heavier loading or substantially higher rep ranges to remedy the discrepancy.",
-          "text_en_c2": "The perennial /fit/ disputation concerning barbell row loading has resurfaced with its customary vehemence, occasioned by a thread soliciting quantitative ratios relative to squat, bench, and deadlift maxima. The emergent consensus, such as it is, holds that posterior chain development ought to be calibrated against one's deadlift capacity, with row tonnage falling somewhere in the vicinity of forty to sixty per cent of that figure depending on individual leverages and stylistic preferences. Traditionalists of the Ted Arcissi school insist that anything appreciably below the lower threshold indicates systemic neglect of the spinal erectors and rhomboids, whereas the hypertrophy-minded contingent advocates lighter loads pushed through voluminous repetition schemes in pursuit of capillary density and that elusive quality known as back thickness.",
-          "source_url": "https://boards.4chan.org/fit/thread/77538502",
-          "source_hint": "/fit/ thread asking about barbell row numbers vs squat/bench/deadlift"
-        },
-        {
-          "id": "anime-01",
-          "category": "anime/culture",
-          "topic_zh": "鬼滅影響力",
-          "topic_en": "Anime cultural impact",
-          "text_zh": "Demon Slayer 第一⋯⋯我認。劇場版入場排到癲。Gintama 都係我至愛。睇完好返去溫書，FE exam 等我👍",
-          "text_en_b1": "Cultural impact ranking of manga and anime franchises. 1. Demon Slayer - simply the biggest phenomenon, no explanation needed. 2. Gintama - birthed Demon Slayer's style. 3. Bleach - birthed many things. 4. Black Clover - birthed by Bleach. 5. Kagurabachi. The thread on /a/ argues these series overwrote even some minor celebrities like Michael Jackson in pure global reach.",
-          "text_en_b2": "Ranking franchises by pure cultural footprint, Demon Slayer clearly takes the top spot, since the phenomenon needs little introduction given how thoroughly it dominated both box offices and streaming charts. Gintama earns second place for essentially birthing the style Demon Slayer later perfected, while Bleach comes third for spawning countless imitators. Black Clover slots into fourth, owing its DNA directly to its predecessor, with Kagurabachi rounding out the list. Collectively, these series have arguably eclipsed even major celebrities in raw global reach.",
-          "text_en_c1": "Any attempt to rank the cultural footprint of contemporary manga and anime franchises is, by its very nature, an exercise in provocation, yet certain hierarchies have acquired the status of received wisdom. Demon Slayer occupies the apex: its theatrical releases have generated queues of a length typically reserved for the most fevered cultural moments, and its global penetration has, by certain metrics, eclipsed that of established celebrities. Gintama, Bleach, and Black Clover each represent successive waves of stylistic influence, a lineage that culminates, perhaps inevitably, in the curious phenomenon of Kagurabachi.",
-          "text_en_c2": "The /a/ consensus ranking of contemporary manga and anime franchises by cultural footprint — a metric which, however imprecise, captures something real about global penetration — places Demon Slayer at the apex, a verdict difficult to dispute given its capacity to generate box-office queues of genuinely unprecedented length and to function as a gateway property for an entire generation of previously indifferent consumers. Gintama's second-place positioning reflects its stylistic paternity, insofar as its tonal blend of histrionic parody and sincere melodrama arguably established the template that Demon Slayer subsequently inherited and refined. Bleach, Black Clover, and Kagurabachi complete the hierarchy, each linked to its predecessor by formal genealogy.",
-          "source_url": "https://boards.4chan.org/a/thread/291201243",
-          "source_hint": "/a/ thread ranking manga/anime by cultural impact, top is Demon Slayer"
         }
       ]
     }

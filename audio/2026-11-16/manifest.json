@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-16",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "biz-mstr-btc",
+      "topic_en": "MSTR Bleeding Out",
+      "topic_zh": "MSTR 兩年失血",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-mstr-btc-b1.mp3",
+        "b2": "clip-biz-mstr-btc-b2.mp3",
+        "c1": "clip-biz-mstr-btc-c1.mp3",
+        "c2": "clip-biz-mstr-btc-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-forex-meme",
+      "topic_en": "Can Forex Make Money",
+      "topic_zh": "Forex係咪Meme",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-forex-meme-b1.mp3",
+        "b2": "clip-biz-forex-meme-b2.mp3",
+        "c1": "clip-biz-forex-meme-c1.mp3",
+        "c2": "clip-biz-forex-meme-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-nvidia-musk",
+      "topic_en": "Jensen’s Possible Return",
+      "topic_zh": "Jensen 華麗回歸",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-civil-nvidia-musk-b1.mp3",
+        "b2": "clip-civil-nvidia-musk-b2.mp3",
+        "c1": "clip-civil-nvidia-musk-c1.mp3",
+        "c2": "clip-civil-nvidia-musk-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-tesla-musk",
+      "topic_en": "Tesla Still Wins",
+      "topic_zh": "Tesla 梗係最好",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-tesla-musk-b1.mp3",
+        "b2": "clip-hk-tesla-musk-b2.mp3",
+        "c1": "clip-hk-tesla-musk-c1.mp3",
+        "c2": "clip-hk-tesla-musk-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-gym-form",
+      "topic_en": "Bad Squat Form",
+      "topic_zh": "Gym 今日好日",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-gym-form-b1.mp3",
+        "b2": "clip-mma-gym-form-b2.mp3",
+        "c1": "clip-mma-gym-form-c1.mp3",
+        "c2": "clip-mma-gym-form-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma-story",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "乱馬章節回顧",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-story-b1.mp3",
+        "b2": "clip-anime-ranma-story-b2.mp3",
+        "c1": "clip-anime-ranma-story-c1.mp3",
+        "c2": "clip-anime-ranma-story-c2.mp3"
+      }
+    },
+    {
+      "id": "lol-league-two",
+      "topic_en": "League of Legends 2",
+      "topic_zh": "聯盟2要來了",
+      "category": "lol/esports",
+      "files": {
+        "b1": "clip-lol-league-two-b1.mp3",
+        "b2": "clip-lol-league-two-b2.mp3",
+        "c1": "clip-lol-league-two-c1.mp3",
+        "c2": "clip-lol-league-two-c2.mp3"
+      }
+    }
+  ]
+}
