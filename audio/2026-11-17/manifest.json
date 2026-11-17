@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-17",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "mstr-loss",
+      "topic_en": "MSTR Bleeding Out",
+      "topic_zh": "MSTR爆血管",
+      "category": "trading",
+      "files": {
+        "b1": "clip-mstr-loss-b1.mp3",
+        "b2": "clip-mstr-loss-b2.mp3",
+        "c1": "clip-mstr-loss-c1.mp3",
+        "c2": "clip-mstr-loss-c2.mp3"
+      }
+    },
+    {
+      "id": "nvda-earnings",
+      "topic_en": "NVDA Earnings Pump",
+      "topic_zh": "NVDA财报前",
+      "category": "trading",
+      "files": {
+        "b1": "clip-nvda-earnings-b1.mp3",
+        "b2": "clip-nvda-earnings-b2.mp3",
+        "c1": "clip-nvda-earnings-c1.mp3",
+        "c2": "clip-nvda-earnings-c2.mp3"
+      }
+    },
+    {
+      "id": "nvidia-ai",
+      "topic_en": "Jensen Comeback Rumor",
+      "topic_zh": "黃仁勳回歸？",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-nvidia-ai-b1.mp3",
+        "b2": "clip-nvidia-ai-b2.mp3",
+        "c1": "clip-nvidia-ai-c1.mp3",
+        "c2": "clip-nvidia-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "india-2030",
+      "topic_en": "India Superpower 2030",
+      "topic_zh": "印度超強國論",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-india-2030-b1.mp3",
+        "b2": "clip-india-2030-b2.mp3",
+        "c1": "clip-india-2030-c1.mp3",
+        "c2": "clip-india-2030-c2.mp3"
+      }
+    },
+    {
+      "id": "fat-meat",
+      "topic_en": "Red Meat Debate",
+      "topic_zh": "紅肉健康迷思",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fat-meat-b1.mp3",
+        "b2": "clip-fat-meat-b2.mp3",
+        "c1": "clip-fat-meat-c1.mp3",
+        "c2": "clip-fat-meat-c2.mp3"
+      }
+    },
+    {
+      "id": "yuru-camp",
+      "topic_en": "Yuru Camp Rewatch",
+      "topic_zh": "搖野露營重溫",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-yuru-camp-b1.mp3",
+        "b2": "clip-yuru-camp-b2.mp3",
+        "c1": "clip-yuru-camp-c1.mp3",
+        "c2": "clip-yuru-camp-c2.mp3"
+      }
+    },
+    {
+      "id": "coinbase-spacex",
+      "topic_en": "Coinbase and SpaceX",
+      "topic_zh": "科技股加注",
+      "category": "trading",
+      "files": {
+        "b1": "clip-coinbase-spacex-b1.mp3",
+        "b2": "clip-coinbase-spacex-b2.mp3",
+        "c1": "clip-coinbase-spacex-c1.mp3",
+        "c2": "clip-coinbase-spacex-c2.mp3"
+      }
+    },
+    {
+      "id": "biz-bubble",
+      "topic_en": "Everything Bubble Pop",
+      "topic_zh": "泡沫看淡者",
+      "category": "trading",
+      "files": {
+        "b1": "clip-biz-bubble-b1.mp3",
+        "b2": "clip-biz-bubble-b2.mp3",
+        "c1": "clip-biz-bubble-c1.mp3",
+        "c2": "clip-biz-bubble-c2.mp3"
+      }
+    },
+    {
+      "id": "blue-archive",
+      "topic_en": "Blue Archive Anniversary",
+      "topic_zh": "Blue Archive週年",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-blue-archive-b1.mp3",
+        "b2": "clip-blue-archive-b2.mp3",
+        "c1": "clip-blue-archive-c1.mp3",
+        "c2": "clip-blue-archive-c2.mp3"
+      }
+    }
+  ]
+}
