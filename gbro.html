@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>詞學 gbro · 7劍下天山</title>
+<style>
+  :root {
+    --bg: #f6f1e7; --surface: #fffbf2; --ink: #1f2a2e; --ink-soft: #5a6a72; --ink-faint: #8c98a0;
+    --accent: #0f6b66; --accent-deep: #0a5a55; --accent-soft: #c8e3df; --warm: #c77f3b; --warm-soft: #f3dcc1;
+    --line: #e0d6c2; --danger: #b3402a; --good: #3b7a4f;
+  }
+  body.dark {
+    --bg: #0e1116; --surface: #161b22; --ink: #e6edf3; --ink-soft: #b1bac4; --ink-faint: #7d8590;
+    --accent: #4ec9b0; --accent-deep: #3aa995; --accent-soft: #1f3a37; --warm: #e8a87c; --warm-soft: #3a2a1f;
+    --line: #30363d; --danger: #f85149; --good: #56d364;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+  .app { max-width: 720px; margin: 0 auto; padding: 24px 20px 96px; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+  .brand-mark { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, var(--accent), var(--warm)); color: white; display: grid; place-items: center; font-weight: 700; }
+  .brand-name { font-weight: 600; }
+  .brand-sub { color: var(--ink-faint); font-size: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin-bottom: 14px; }
+  h1 { font-size: 26px; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .lead { color: var(--ink-soft); font-size: 14px; margin-bottom: 16px; }
+  .btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 11px 18px; font: inherit; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--accent); color: white; border-color: var(--accent); }
+  .btn-warm { background: var(--warm); color: white; border-color: var(--warm); }
+  .btn-ghost { background: transparent; }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .pack { display: block; width: 100%; text-align: left; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; cursor: pointer; font-family: inherit; color: inherit; }
+  .pack:hover { border-color: var(--accent); }
+  .pack .title { font-weight: 700; font-size: 16px; }
+  .pack .meta { font-size: 12px; color: var(--ink-faint); margin-top: 4px; }
+  textarea, input[type="text"] { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font: inherit; background: var(--surface); color: var(--ink); }
+  textarea { min-height: 180px; resize: vertical; }
+  .label { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; display: block; }
+  .item { background: var(--bg); border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; }
+  body.dark .item, body.dark .pack { background: #1c2128; }
+  .item .word { font-weight: 700; font-size: 16px; }
+  .item .gloss { color: var(--ink-soft); font-size: 13px; margin-top: 2px; }
+  .item .en { font-size: 15px; line-height: 1.5; margin-top: 8px; font-weight: 550; }
+  .item .zh { color: var(--ink-soft); font-size: 13px; margin-top: 4px; font-style: italic; }
+  .sent-card { display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; cursor: pointer; font-family: inherit; color: inherit; margin-bottom: 8px; }
+  .sent-card.on { background: #dceeea; border-color: var(--accent); }
+  body.dark .sent-card.on { background: #1f3a37; }
+  .sent-num { flex: 0 0 28px; color: var(--ink-faint); font-size: 12px; font-weight: 700; }
+  .sent-en { font-size: 16px; font-weight: 600; line-height: 1.45; }
+  .sent-zh { display: block; margin-top: 4px; color: var(--ink-soft); font-size: 13px; }
+  .step-pill { background: var(--accent-soft); color: var(--accent); padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .play-circle { width: 80px; height: 80px; border-radius: 50%; background: var(--accent); color: white; display: grid; place-items: center; border: none; cursor: pointer; font-size: 28px; }
+  .stars { display: flex; gap: 8px; justify-content: center; margin: 12px 0; }
+  .star { font-size: 32px; cursor: pointer; color: var(--line); }
+  .star.on { color: var(--warm); }
+  .note { font-size: 12px; color: var(--ink-faint); margin-top: 12px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <a class="brand" href="./">
+      <div class="brand-mark">7</div>
+      <div>
+        <div class="brand-name">7劍下天山</div>
+        <div class="brand-sub">詞學 gbro</div>
+      </div>
+    </a>
+    <button class="btn btn-ghost" id="btn-theme" type="button">Dark</button>
+  </div>
+  <div id="view"></div>
+</div>
+<script>
+const KEY = 'ss.gbro.v1';
+const SAMPLE = {
+  id: 'd-day',
+  title: 'The Real D-Day in Color',
+  source: 'DroneScapes · narration',
+  items: [
+    { word: 'breach', gloss: '突破、衝破', ipa: '/briːtʃ/', en: 'The shores of fortress Europe had to be breached.', zh: '要塞歐洲的海岸必須被突破。' },
+    { word: 'amphibious armada', gloss: '兩棲艦隊', ipa: '/æmˈfɪbiəs ɑːˈmɑːdə/', en: 'The greatest amphibious armada in human history was quietly gathering strength.', zh: '人類歷史上最龐大的兩棲艦隊正在悄悄集結力量。' },
+    { word: 'logistical nightmare', gloss: '後勤噩夢', ipa: '', en: 'The immense logistical nightmare of Operation Overlord is laid bare.', zh: '霸王行動龐大的後勤噩夢被徹底揭露。' },
+    { word: 'into the teeth of', gloss: '直衝……的鋒芒', ipa: '', en: 'They were heading into the teeth of the German defenses.', zh: '他們正衝向德軍防禦的利齒。' },
+    { word: 'soften defenses', gloss: '削弱防禦', ipa: '', en: 'Allied planes continued to soften enemy defenses in daily raids.', zh: '盟軍飛機每天持續空襲，削弱敵軍防禦。' },
+    { word: 'embark', gloss: '登船', ipa: '/ɪmˈbɑːk/', en: 'Troops embark on LCVP to be ferried to the waiting transports offshore.', zh: '部隊登上 LCVP，被駁運到外海等待的運輸艦。' },
+    { word: 'screen the fleet', gloss: '掩護艦隊', ipa: '', en: 'Fast warships screen the mighty invasion fleet from enemy raiders.', zh: '快速戰艦為龐大的入侵艦隊提供屏障。' },
+    { word: 'beachheads', gloss: '灘頭陣地', ipa: '/ˈbiːtʃhedz/', en: 'Officers study the maps that mark the invasion beachheads on the coast of Normandy.', zh: '軍官研究標示諾曼第海岸入侵灘頭的地圖。' },
+    { word: 'crossfire', gloss: '交叉火力', ipa: '/ˈkrɒsfaɪə/', en: 'The crossfire of German guns still rakes the shore.', zh: '德軍槍砲的交叉火力仍掃射岸邊。' },
+    { word: 'push the enemy back', gloss: '將敵軍擊退', ipa: '', en: 'More troops move inland to push the enemy back.', zh: '越來越多部隊向內陸推進，將敵軍擊退。' },
+    { word: 'artificial harbors', gloss: '人工港口', ipa: '', en: 'Out of sunken blockships, artificial harbors have been built.', zh: '由沉沒的封鎖船建成人工港口。' },
+    { word: 'barrage balloons', gloss: '阻塞氣球', ipa: '/ˈbærɑːʒ bəˈluːnz/', en: 'You notice the barrage balloons in the background.', zh: '你注意到背景中的阻塞氣球。' },
+    { word: 'foxholes', gloss: '散兵坑', ipa: '/ˈfɒkshəʊlz/', en: 'The men dug foxholes.', zh: '士兵挖掘散兵坑。' }
+  ],
+  created: '2026-11-19'
+};
+const STEPS = [
+  { id:'rate', name:'RATE', hint:'聽一次，評自己明幾多。' },
+  { id:'grasp', name:'GRASP', hint:'再聽。用自己嘅字寫意思，再揭示。' },
+  { id:'hum', name:'HUM', hint:'跟節奏哼，唔出字。' },
+  { id:'shadow', name:'SHADOW', hint:'同聲講，唔好等完先講。' },
+  { id:'read', name:'READ', hint:'睇字，跟住讀出聲。' },
+  { id:'recall', name:'RECALL', hint:'收起字，背出嚟，再對返。' },
+  { id:'freestyle', name:'FREESTYLE', hint:'用呢句主題講 60 秒。' },
+  { id:'overview', name:'OVERVIEW', hint:'再聽一次。完。' }
+];
+let state = { view:'list', packs:[], current:null, itemIdx:0, stepIdx:0, rating:0, reveal:false, hideText:false };
+function load(){
+  try { state.packs = JSON.parse(localStorage.getItem(KEY)||'[]'); } catch { state.packs = []; }
+  if (!state.packs.some(p => p.id === SAMPLE.id)) state.packs.unshift(SAMPLE);
+}
+function save(){ localStorage.setItem(KEY, JSON.stringify(state.packs)); }
+function applyTheme(dark){
+  document.body.classList.toggle('dark', dark);
+  document.getElementById('btn-theme').textContent = dark ? 'Light' : 'Dark';
+  localStorage.setItem('gbro-theme', dark ? 'dark' : 'light');
+}
+function parseInput(raw){
+  const text = String(raw||'').trim();
+  if (!text) return [];
+  const lines = text.split(/\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
+  const items = [];
+  lines.forEach(line => {
+    // CSV style: "en","zh (gloss /ipa/)" or word|gloss|ipa|en|zh
+    if (line.includes('|')) {
+      const parts = line.split('|').map(s => s.trim());
+      if (parts.length >= 4) {
+        items.push({ word: parts[0], gloss: parts[1], ipa: parts[2]||'', en: parts[3], zh: parts[4]||'' });
+        return;
+      }
+    }
+    // simple: just an English sentence
+    if (/[A-Za-z]/.test(line) && line.length > 10) {
+      items.push({ word: '', gloss: '', ipa: '', en: line.replace(/^"|"$/g,''), zh: '' });
+    }
+  });
+  // try Anki CSV pairs
+  if (!items.length) {
+    const pairs = text.match(/"([^"]+)"\s*,\s*"([^"]+)"/g);
+    if (pairs) pairs.forEach(p => {
+      const m = p.match(/"([^"]+)"\s*,\s*"([^"]+)"/);
+      if (m) items.push({ word:'', gloss:'', ipa:'', en: m[1], zh: m[2] });
+    });
+  }
+  return items.filter(it => it.en);
+}
+function speak(text){
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  const voices = speechSynthesis.getVoices();
+  const v = voices.find(x => /en[-_]US/i.test(x.lang) && /samantha|google|natural/i.test(x.name)) || voices.find(x => /^en/i.test(x.lang));
+  if (v) u.voice = v;
+  speechSynthesis.speak(u);
+}
+function render(){
+  const view = document.getElementById('view');
+  if (state.view === 'list') view.innerHTML = renderList();
+  else if (state.view === 'add') view.innerHTML = renderAdd();
+  else if (state.view === 'pack') view.innerHTML = renderPack();
+  else if (state.view === 'study') view.innerHTML = renderStudy();
+  bind();
+}
+function renderList(){
+  const rows = state.packs.map(p => {
+    const n = (p.items||[]).length;
+    return '<button class="pack" data-id="'+p.id+'"><div class="title">'+esc(p.title)+'</div><div class="meta">'+n+' 詞 · '+(p.source||'local')+'</div></button>';
+  }).join('');
+  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。D-Day sample 係示範。</p></div>';
+}
+function renderAdd(){
+  return '<div class="card"><h1>加詞包</h1><label class="label">標題</label><input id="title" type="text" placeholder="例如 Breaking Bad S02E03"><label class="label" style="margin-top:12px">詞表（一行一條：word|gloss|ipa|en|zh 或 Anki CSV 或單純英文句）</label><textarea id="text" placeholder="breach|突破|/briːtʃ/|The shores had to be breached.|海岸必須被突破。\n或直接貼 Anki CSV"></textarea><div class="btn-row" style="margin-top:14px"><button class="btn btn-primary" id="btn-save">儲存</button><button class="btn" id="btn-cancel">取消</button></div></div>';
+}
+function renderPack(){
+  const p = state.current;
+  if (!p) return '';
+  const items = p.items || [];
+  const rows = items.map((it,i) => '<div class="item"><div class="word">'+(it.word?esc(it.word):'#'+(i+1))+(it.ipa?' <span style="color:var(--ink-faint);font-weight:400;font-size:13px">'+esc(it.ipa)+'</span>':'')+'</div>'+(it.gloss?'<div class="gloss">'+esc(it.gloss)+'</div>':'')+'<div class="en">'+esc(it.en)+'</div>'+(it.zh?'<div class="zh">'+esc(it.zh)+'</div>':'')+'<div class="btn-row" style="margin-top:10px"><button class="btn btn-primary" data-start="'+i+'">練呢句</button><button class="btn" data-play="'+i+'">聽</button></div></div>').join('');
+  return '<div class="card"><h1>'+esc(p.title)+'</h1><p class="lead">'+(p.source||'')+' · '+items.length+' 詞</p>'+rows+'<div class="btn-row" style="margin-top:8px"><button class="btn" id="btn-back">← 詞包</button>'+(p.id!==SAMPLE.id?'<button class="btn" id="btn-del" style="color:var(--danger)">刪除</button>':'')+'</div></div>';
+}
+function renderStudy(){
+  const p = state.current;
+  const items = p.items || [];
+  const it = items[state.itemIdx] || {};
+  const step = STEPS[state.stepIdx];
+  const card = '<div class="sent-card on"><span class="sent-num">#'+(state.itemIdx+1)+'</span><span><span class="sent-en">'+esc(it.en||'')+'</span>'+(it.zh?'<span class="sent-zh">'+esc(it.zh)+'</span>':'')+'</span></div>';
+  let body = '';
+  if (step.id === 'rate') body = '<div style="text-align:center"><button class="play-circle" id="btn-play">▶</button><div class="stars" id="stars">'+[1,2,3,4,5].map(n=>'<span class="star'+(state.rating>=n?' on':'')+'" data-n="'+n+'">★</span>').join('')+'</div><div style="color:var(--ink-soft);font-size:13px">明幾多？</div></div>';
+  else if (step.id === 'grasp') body = '<button class="play-circle" id="btn-play">▶</button><textarea id="grasp" placeholder="用自己嘅字寫意思" style="margin-top:14px"></textarea><button class="btn" id="btn-reveal" style="margin-top:10px">揭示</button>'+(state.reveal?'<div style="margin-top:12px">'+card+'</div>':'');
+  else if (step.id === 'hum') body = '<button class="play-circle" id="btn-play">▶</button><p style="margin-top:12px;color:var(--ink-soft)">跟節奏哼，唔出字。</p>'+card;
+  else if (step.id === 'shadow' || step.id === 'read') body = '<button class="play-circle" id="btn-play">▶</button>'+card;
+  else if (step.id === 'recall') body = '<button class="play-circle" id="btn-play">▶</button><button class="btn" id="btn-hide" style="margin-top:10px">'+(state.hideText?'顯示字':'收起字')+'</button>'+(state.hideText?'':'<div style="margin-top:12px">'+card+'</div>');
+  else if (step.id === 'overview') body = '<button class="play-circle" id="btn-play">▶</button>'+card;
+  else body = '<p style="color:var(--ink-soft)">用呢句主題講 60 秒。</p><button class="btn btn-warm" id="btn-play">聽一次提示</button>';
+  const wordLine = it.word ? '<div style="font-size:13px;color:var(--warm);font-weight:600;margin-bottom:4px">'+esc(it.word)+(it.gloss?' · '+esc(it.gloss):'')+'</div>' : '';
+  return '<div class="card"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><div style="font-size:13px;color:var(--ink-faint)">詞 '+(state.itemIdx+1)+' / '+items.length+'</div><div class="step-pill">Step '+(state.stepIdx+1)+' · '+step.name+'</div></div>'+wordLine+'<div style="font-size:22px;font-weight:700;margin-bottom:4px">'+step.name+'</div><div style="color:var(--ink-soft);margin-bottom:16px">'+step.hint+'</div>'+body+'<div class="btn-row" style="margin-top:18px;justify-content:space-between"><button class="btn" id="btn-quit">結束</button><button class="btn btn-primary" id="btn-next">'+(state.stepIdx===STEPS.length-1?'下一詞 →':'下一步 →')+'</button></div></div>';
+}
+function esc(s){ return String(s||'').replace(/[&<>"]/g, c => ({'&':'&','<':'<','>':'>','"':'"'}[c])); }
+function bind(){
+  document.getElementById('btn-theme').onclick = () => applyTheme(!document.body.classList.contains('dark'));
+  const on = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
+  on('btn-add', () => { state.view = 'add'; render(); });
+  on('btn-cancel', () => { state.view = 'list'; render(); });
+  on('btn-back', () => { state.view = 'list'; render(); });
+  on('btn-save', () => {
+    const title = document.getElementById('title').value.trim();
+    const text = document.getElementById('text').value.trim();
+    if (!title || !text) return alert('標題同詞表都要有。');
+    const items = parseInput(text);
+    if (!items.length) return alert('解析唔到有效詞條。用 word|gloss|ipa|en|zh 或英文句。');
+    state.packs.unshift({ id: 'g'+Date.now(), title, source:'local', items, created: new Date().toISOString().slice(0,10) });
+    save(); state.view = 'list'; render();
+  });
+  on('btn-del', () => { if (confirm('刪除呢包？')) { state.packs = state.packs.filter(x => x.id !== state.current.id); save(); state.view = 'list'; render(); } });
+  on('btn-quit', () => { state.view = 'pack'; render(); });
+  on('btn-next', () => {
+    state.stepIdx++;
+    if (state.stepIdx >= STEPS.length) {
+      state.stepIdx = 0; state.itemIdx++; state.rating = 0; state.reveal = false; state.hideText = false;
+      const items = state.current.items || [];
+      if (state.itemIdx >= items.length) { alert('呢包練完。'); state.view = 'pack'; }
+    }
+    render();
+  });
+  on('btn-play', () => {
+    const items = state.current.items || [];
+    const it = items[state.itemIdx];
+    if (it && it.en) speak(it.en);
+  });
+  on('btn-reveal', () => { state.reveal = true; render(); });
+  on('btn-hide', () => { state.hideText = !state.hideText; render(); });
+  document.querySelectorAll('.pack').forEach(btn => btn.onclick = () => {
+    state.current = state.packs.find(p => p.id === btn.dataset.id);
+    state.view = 'pack'; render();
+  });
+  document.querySelectorAll('[data-start]').forEach(btn => btn.onclick = () => {
+    state.itemIdx = Number(btn.dataset.start); state.stepIdx = 0; state.rating = 0; state.reveal = false; state.hideText = false;
+    state.view = 'study'; render();
+  });
+  document.querySelectorAll('[data-play]').forEach(btn => btn.onclick = () => {
+    const items = state.current.items || [];
+    const it = items[Number(btn.dataset.play)];
+    if (it && it.en) speak(it.en);
+  });
+  document.querySelectorAll('.star').forEach(s => s.onclick = () => { state.rating = Number(s.dataset.n); render(); });
+}
+load();
+applyTheme((localStorage.getItem('gbro-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark');
+render();
+</script>
+</body>
+</html>
