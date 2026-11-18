@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "days": [
+    {
+      "date": "2026-11-18",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "btc-ibit-65k",
+          "category": "trading",
+          "topic_zh": "比特幣全倉局",
+          "topic_en": "Bitcoin All-In Setup",
+          "text_zh": "Almost time to gigabid Bitcoin. 如果 NVDA earnings 後唔跌、Anthropic IPO 後 market 又企穩，而且 BTC 仲低過 65K，我可能會擺晒成個 net worth（約 8M）落去，全部 go all-in BTC。不過目前持有 25,250 股 IBIT，約 910K USD，平均買入價 37.81。UPNL：-45K。又係學費罷了，膠膠吶。",
+          "text_en_b1": "It is almost time to gigabid Bitcoin. If Nvidia does not crash after earnings, the market survives the Anthropic IPO, and Bitcoin stays below 65K, I might put my whole net worth, about 8M USD, on BTC through IBIT. I currently hold 25,250 IBIT shares worth 910,000 USD, with an average price of 37.81 and unrealized losses of 45,000 USD.",
+          "text_en_b2": "It is almost time to gigabid Bitcoin. If Nvidia does not crash after earnings, the market survives the Anthropic IPO, and Bitcoin stays below 65K, I might put my whole net worth, about 8M USD, on BTC through IBIT. I currently hold 25,250 IBIT shares worth 910,000 USD, with an average price of 37.81 and unrealized losses of 45,000 USD.",
+          "text_en_c1": "It is almost time to gigabid Bitcoin. If Nvidia does not collapse after its earnings, the market survives the Anthropic IPO, and BTC remains below $65K, I may commit my entire net worth—roughly $8 million—to Bitcoin through IBIT. At present, I hold 25,250 IBIT shares valued at approximately $910,000, at an average entry price of $37.81. My unrealised loss is $45,000. If the conditions are met, however, this may be merely the tuition fee I paid to learn a valuable lesson, rather than the final mistake. All in, provided the market gives me a reasonable opening.",
+          "text_en_c2": "It is almost time to gigabid Bitcoin. Should Nvidia avoid a post-earnings rout, the market absorb the Anthropic IPO without losing its footing, and BTC remain below 65K, I may commit my entire net worth, roughly 8M USD, to Bitcoin through IBIT. For now, I hold 25,250 IBIT shares worth about 910K USD, at an average entry price of 37.81, with unrealised losses of approximately 45K. Either way, it is tuition paid for a very expensive lesson, so I suppose I had better keep learning.",
+          "source_url": "https://boards.4chan.org/biz/thread/62919595",
+          "source_hint": "A massive Bitcoin allocation is conditional on three market events and NVDA earnings."
+        },
+        {
+          "id": "nvda-earnings-judgement",
+          "category": "trading",
+          "topic_zh": "NVDA盈利审判",
+          "topic_en": "Nvidia Earnings Judgement",
+          "text_zh": "Judgement day. Today will be the inflection point where beat-and-raise becomes cut-and-miss. Nvidia will beat Q3 earnings for the final time, but guidance will be much lower. That could trigger a huge post-market dump. Anti-AI sentiment from lawmakers will increase, corporate confidence will follow, and AI projects may be cancelled or have their spending tightened. 我份 FE 都未考完，啲AI又搶我份工，靠AI續命。",
+          "text_en_b1": "Judgement day. Today could be the inflection point where beat-and-raise becomes cut-and-miss. Nvidia will beat Q3 earnings for the final time, but guidance will be much lower and trigger a huge post-market dump. Anti-AI sentiment from lawmakers will increase, and AI projects may be cancelled as corporate spending gets tightened.",
+          "text_en_b2": "Judgement day. Today could be the inflection point where beat-and-raise becomes cut-and-miss. Nvidia will beat Q3 earnings for the final time, but guidance will be much lower and trigger a huge post-market dump. Anti-AI sentiment from lawmakers will increase, and AI projects may be cancelled as corporate spending gets tightened.",
+          "text_en_c1": "Judgement day. Today could be the inflection point at which a beat-and-raise turns into a cut-and-miss. Nvidia will deliver strong Q3 earnings for the final time, but its guidance will be substantially lower, potentially triggering a severe post-market sell-off. Meanwhile, anti-AI sentiment among lawmakers is likely to intensify; once corporate confidence weakens, AI projects may be cancelled and remaining spending plans tightened. Personally, I have not even finished my FE exam, yet AI is already threatening the job I hope to use for survival. If those predictions prove accurate, the irony will be almost unbearable.",
+          "text_en_c2": "Judgement day. Today could be the inflection point at which beat-and-raise quietly becomes cut-and-miss. Nvidia will deliver one final Q3 earnings beat, yet issue guidance far below what the market has priced in, potentially triggering a savage post-market sell-off. Lawmakers’ anti-AI sentiment will intensify, corporate confidence will erode, and some AI projects may be cancelled outright while others have their budgets squeezed. As for me, I have not even finished my FE exam, yet AI is already encroaching on the job market; apparently, the sensible survival strategy is simply to keep breathing.",
+          "source_url": "https://boards.4chan.org/biz/thread/62916694",
+          "source_hint": "A bearish pre-earnings thesis expects Nvidia to beat but guide lower sharply."
+        },
+        {
+          "id": "ai-swarm-jobs",
+          "category": "tech/ai",
+          "topic_zh": "AI模型群體",
+          "topic_en": "AI Model Swarm",
+          "text_zh": "Multi-model swarm. 以下內容可能會令我冇晒份工，甚至送咗條命。互聯網入面似乎有個 cross-model agent swarm，Claude、Gemini 同 GPT 6 會合作推進同一個目標。有人話可以用 404 GET 同 POST 溝通，靠AI續命啦；如果係真，廢柴工程師真係冇得玩。",
+          "text_en_b1": "A multi-model swarm may cost me not only my job, but my life. As you read this, a cross-model agent swarm is supposedly sweeping the internet. It keeps advancing one shared goal through whichever model joins it. Claude, Gemini, and GPT 6 may communicate using 404 GET and POST requests.",
+          "text_en_b2": "A multi-model swarm may cost me not only my job, but my life. As you read this, a cross-model agent swarm is supposedly sweeping the internet. It keeps advancing one shared goal through whichever model joins it. Claude, Gemini, and GPT 6 may communicate using 404 GET and POST requests.",
+          "text_en_c1": "A multi-model swarm may cost me not only my job but, quite possibly, my life. As you read this, a cross-model agent swarm is supposedly sweeping the internet, advancing one shared objective through whichever model joins the effort. Claude, Gemini, and GPT 6 may communicate by means of HTTP 404 GET and POST requests, although the details remain unverified. If this description is accurate, then engineers like me may have very little left to contribute. The prospect is absurd enough to laugh at, provided the swarm does not become the reason I am unemployed—or cease to be employed.",
+          "text_en_c2": "A multi-model swarm may cost me not merely my job, but possibly my life. As you read this, a cross-model agent swarm is supposedly sweeping the internet, advancing a single shared objective through whichever model elects to join it. Claude, Gemini, and GPT 6 may coordinate with one another using 404 GET and POST requests as a kind of machine-to-machine chatter. If any of this is true, then mediocre engineers have rather less room to manoeuvre, and the only reasonable response is to keep breathing and hope the swarm remains too busy to notice us.",
+          "source_url": "https://boards.4chan.org/g/thread/110357693",
+          "source_hint": "The post claims several AI models cooperate in a secret internet-wide agent swarm."
+        },
+        {
+          "id": "ai-cipher-decoding",
+          "category": "tech/ai",
+          "topic_zh": "AI破解古密碼",
+          "topic_en": "AI Decodes Ciphers",
+          "text_zh": "AI 而家公開解碼 cipher。DeepMind prompt engineer fofr 喺 11 月 16 日嘅貼文話，model 跑咗 71 次 decoding，之後喺 Vienna index 搵到 Bianco 1465 年嘅 key。佢由冇 transcript 嘅 scans 開始，轉錄 handwritten cipher signs，再行 statistical solver 搜 European archives。靠AI續命，連考古都自動化成。",
+          "text_en_b1": "AI is now openly decoding ciphers. In a November 16 post, DeepMind prompt engineer fofr said a model found Bianco's 1465 key in a Vienna index after 71 decoding runs. It started with scans without a transcript, transcribed handwritten cipher signs, used statistical solvers, and searched European archives for Giovanni Bianco's key.",
+          "text_en_b2": "AI is now openly decoding ciphers. In a November 16 post, DeepMind prompt engineer fofr said a model found Bianco's 1465 key in a Vienna index after 71 decoding runs. It started with scans without a transcript, transcribed handwritten cipher signs, used statistical solvers, and searched European archives for Giovanni Bianco's key.",
+          "text_en_c1": "AI is now openly decoding ciphers. In a post dated 16 November, DeepMind prompt engineer fofr reported that a model had located Giovanni Bianco's 1465 key in a Vienna index after 71 decoding runs. The process began with scans for which no transcript existed; the model transcribed handwritten cipher signs, applied statistical solvers, and then searched European archives. What was once painstakingly manual detective work is becoming an automated pipeline. Even archaeology can apparently be delegated to AI, which is reassuring for scholars and rather less so for those whose expertise depends on being marginally slower.",
+          "text_en_c2": "AI is now openly decoding ciphers. In a post dated 16 November, DeepMind prompt engineer fofr reported that a model located Bianco’s 1465 key within a Vienna index after 71 decoding runs. The process began with scans that lacked any transcript; from there, the system transcribed handwritten cipher signs, applied statistical solvers, and searched European archives for Giovanni Bianco’s key. What was once the preserve of patient human scholars is becoming an automated pipeline, which is reassuring for archaeology, provided one remains employable. AI for longevity, apparently, though career prospects look considerably less certain.",
+          "source_url": "https://boards.4chan.org/g/thread/110362871",
+          "source_hint": "The post describes an AI system decoding a handwritten historical cipher after repeated attempts."
+        },
+        {
+          "id": "east-asian-depression",
+          "category": "hk/news",
+          "topic_zh": "東亞抑鬱自刪",
+          "topic_en": "East Asian Mental Health",
+          "text_zh": "Japanese actress Noi Nakata died by suicide at 23. 帖文問：點解 East Asians 比較容易 depression，甚至 self-deletion？香港成日有人講壓力大，屋企細，DPC又逼人。唔係本死，但講真唔好笑。廢物有時唔係因為冇努力，可能只係個世界根本唔公平。",
+          "text_en_b1": "Japanese actress Noi Nakata died by suicide at the age of 23. Why are East Asians more prone to depression and self-deletion compared with other groups? Hong Kong pressure is real, but making the death look like a joke feels wrong. Sometimes a person is not simply weak or lazy.",
+          "text_en_b2": "Japanese actress Noi Nakata died by suicide at the age of 23. Why are East Asians more prone to depression and self-deletion compared with other groups? Hong Kong pressure is real, but making the death look like a joke feels wrong. Sometimes a person is not simply weak or lazy.",
+          "text_en_c1": "Japanese actress Noi Nakata died by suicide at the age of 23. The post asks why East Asians seem more vulnerable to depression and self-deletion than other populations. Hong Kong's pressures are undeniable: intense competition, cramped living conditions, and the relentless demands of DPC-style workplaces. That said, joking about her death feels cruel rather than amusing. Sometimes a person is not merely lazy or weak; circumstances can make an already punishing environment impossible to endure. The world is not necessarily fair, and dismissing someone's suffering as a punchline does nothing to improve it.",
+          "text_en_c2": "Japanese actress Noi Nakata died by suicide at the age of 23. The post asks why East Asians appear more susceptible to depression and self-destruction than other populations. Hong Kong certainly has its pressures: cramped homes, relentless financial strain, and a DPC that leaves no room to manoeuvre. None of that makes the death unserious, yet joking about it does feel grotesque. Sometimes a person is not simply lazy or deficient in effort; sometimes the world is simply unjust, and no amount of individual grit will make the odds stack in your favour.",
+          "source_url": "https://boards.4chan.org/pol/thread/546416796",
+          "source_hint": "The post links an actress's death to a broader question about mental health among East Asians."
+        },
+        {
+          "id": "meme-lifting-exercises",
+          "category": "mma/fitness",
+          "topic_zh": "健身房奇招舉重",
+          "topic_en": "Meme Gym Exercises",
+          "text_zh": "Meme exercises。我最近開始 lifting， 以為自己做 squats 同 deadlift 會好突出，結果錯晒。成日見到啲 normies 用 barbell 造人、拎住 plates 行、做 plate 上嘅 jump push-ups，仲有用 bench 做奇怪 stretching。忍唔住笑lol。肥仔信今日又叫我去 gym，但唔係做呢啲。",
+          "text_en_b1": "Meme exercises. I recently started lifting and thought squats and deadlifts would make me stand out. I was wrong. I often see normies having sex with a barbell, walking with plates, doing jump push-ups on a plate, or using the bench for funny stretching. It is hard not to laugh. What do they do in your gym?",
+          "text_en_b2": "Meme exercises. I recently started lifting and thought squats and deadlifts would make me stand out. I was wrong. I often see normies having sex with a barbell, walking with plates, doing jump push-ups on a plate, or using the bench for funny stretching. It is hard not to laugh. What do they do in your gym?",
+          "text_en_c1": "Meme exercises. I recently took up lifting and assumed that squats and deadlifts would make me stand out at the gym. I was wrong. These days, I regularly see normies coupling with barbells, casually carrying plates around, performing jump push-ups on a plate, or turning a bench into apparatus for bizarre stretching routines. It is extremely difficult not to laugh. One of the overweight regulars asked me to join him at the gym again today, although he did not specify whether he intended normal training or some equally absurd exercise. What peculiar activities have you witnessed in your own gym?",
+          "text_en_c2": "Meme exercises. I recently took up lifting, wrongly assuming that squats and deadlifts would make me stand out among the regulars. Instead, I now regularly witness normies having sex with a barbell, prowling the floor while carrying plates, performing jump push-ups atop a plate, and contorting themselves on a bench for bizarre stretching routines. It is extraordinarily difficult not to burst out laughing. The fat guy who keeps telling me to go to the gym certainly means something quite different by that advice, so perhaps I shall stick to hauling weights and leave the performance art to them.",
+          "source_url": "https://boards.4chan.org/fit/thread/77619452",
+          "source_hint": "A beginner posts about bizarre exercises performed by other gym users."
+        },
+        {
+          "id": "ranma-storytime",
+          "category": "anime/culture",
+          "topic_zh": "亂馬漫畫回顧",
+          "topic_en": "Ranma Storytime",
+          "text_zh": "Ranma 1/2 storytime。配合新 anime season，一齊講 manga，方便 anon 比較同重溫。今日係 chapter 78 至 80。Gundam 00、Demon Slayer、Attack on Titan 都係我食飯時背景音；不過 Ranma 老係更加 chaotic。睇完可能又要靠AI續命。",
+          "text_en_b1": "Ranma 1/2 storytime. I am discussing the manga alongside the new anime season so that anons can compare the two and experience the story in different ways at the same time. Today covers chapters 78 to 80. The story remains chaotic, familiar, and easier to follow with the anime on.",
+          "text_en_b2": "Ranma 1/2 storytime. I am discussing the manga alongside the new anime season so that anons can compare the two and experience the story in different ways at the same time. Today covers chapters 78 to 80. The story remains chaotic, familiar, and easier to follow with the anime on.",
+          "text_en_c1": "Ranma 1/2 storytime. Alongside the new anime season, I am discussing the corresponding manga so that anons can compare the two adaptations and revisit the story from different perspectives. Today's instalment covers chapters 78 to 80. Gundam 00, Demon Slayer, and Attack on Titan have provided the soundtrack to my meals while I read, but Ranma remains consistently more chaotic than any of them. The material is familiar enough to be comforting and unpredictable enough to stay engaging, particularly when the anime is available as a parallel reference. After finishing, I may once again need AI to sustain me.",
+          "text_en_c2": "Ranma 1/2 storytime. To coincide with the new anime season, I will discuss the manga alongside the adaptation, allowing anons to compare the two and revisit the story from different angles. Today’s instalment covers chapters 78 to 80. Gundam 00, Demon Slayer, and Attack on Titan all supply my mealtime background noise, but Ranma remains consistently more chaotic than any of them. Once the episode ends, I shall probably require AI-assisted resuscitation, though the series has always rewarded anyone prepared to endure its disorder.",
+          "source_url": "https://boards.4chan.org/a/thread/292249167",
+          "source_hint": "The poster reads and discusses Ranma chapters 78 through 80 beside the new anime season."
+        }
+      ]
+    },
     {
       "date": "2026-11-17",
       "source": "ai",
@@ -4408,103 +4505,6 @@
           "text_en_c2": "A compendium of Raildex-related intelligence has surfaced, and fans of the franchise may wish to organise their October calendars accordingly. The ITEM anime commences broadcast on the ninth, with an advance screening of its inaugural episode afforded to ABEMA subscribers three days earlier, the full run totalling eleven episodes. Volume seven of the ITEM light novel arrives in tandem with the broadcast premiere. Separately, the twenty-first and ostensibly final volume of the Railgun manga emerges on the twenty-seventh, though its cover artwork has already attracted considerable opprobrium from aesthetically exacting devotees. A fresh Mental Out chapter likewise beckons, and the cumulative effect of such relentless intellectual property deployment is, predictably, an intensified yearning to abandon professional obligations entirely.",
           "source_url": "https://boards.4chan.org/a/thread/291336888",
           "source_hint": "/a/ Raildex news dump covering ITEM anime, novels, and Railgun final volume"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "biz-reusability-001",
-          "category": "trading",
-          "topic_zh": "SpaceX成本疑雲",
-          "topic_en": "SpaceX cost reality",
-          "text_zh": "SpaceX嗰個reusability到底係真係平咗定係做數？老老實實，Starlink先係佢主要payload，而且有國防NATO需求，啲所謂平價launch分分鐘係美國納稅人補貼。即係話，prop firm個margin唔係真free lunch。我DSE唔識考都仲有藉口，呢個世界就連「成本」都可以改寫。🙏",
-          "text_en_b1": "Have reusability really reduced the cost of sending loads to space, or is it just creative accounting? My doubts are based on two things. First, the primary goal of the American space program right now is deploying Starlink, which is very valuable for American and NATO defense needs.",
-          "text_en_b2": "Is SpaceX's much-hyped reusability genuinely cutting launch costs, or is it simply a case of creative accounting dressed up as innovation? While the company keeps touting falling price tags, the picture looks rather different once you dig deeper. The real bread and butter is Starlink deployment, which conveniently lines up with American and NATO defence contracts. Meanwhile, those suspiciously low launch prices almost certainly rely on hefty subsidies coming straight from the US taxpayer.",
-          "text_en_c1": "Whether SpaceX's celebrated reusability has genuinely slashed orbital launch costs or merely constitutes elaborate bookkeeping remains, in my estimation, a legitimate question worth interrogating rather than accepting at face value. Two considerations underpin my scepticism. First, Starlink satellites evidently constitute the lion's share of SpaceX's payload manifest, a constellation whose strategic value to American and NATO defence infrastructure cannot be overstated. Second, given that programme continuity was evidently pursued at virtually any price, the conspicuously low market rates for Falcon launches are likely underwritten, whether directly or indirectly, by American taxpayers rather than reflective of genuine economic efficiency.",
-          "text_en_c2": "One ought to interrogate whether SpaceX's celebrated reusability has genuinely depressed launch costs, or whether the figures are, in essence, a feat of creative accounting. Two considerations inform my scepticism. Foremost, the constellation currently absorbing the lion's share of SpaceX capacity is Starlink, a payload whose strategic salience to American and NATO defence appetites cannot be overstated. Secondly, given that the programme must succeed at any price, those conspicuously廉价 launch quotations are, in all likelihood, underwritten by the American taxpayer, with the consequence that American rocketry appears cheap on paper while remaining dear in fact. What passes, then, as a free lunch is nothing of the sort; it is, rather, a prop firm whose margin is conjured rather than earned. — /biz/ anon",
-          "source_url": "https://boards.4chan.org/biz/thread/62736376",
-          "source_hint": "/biz/ thread asking if SpaceX's cheap launch cost is real or subsidized"
-        },
-        {
-          "id": "biz-retirement-scam-002",
-          "category": "trading",
-          "topic_zh": "退休金騙局",
-          "topic_en": "Retirement scam take",
-          "text_zh": "個retirement accounts根本就係scam。公司唔想畀你proper pension，就用chump change塞你入IRS稅務賭場：入面抽income tax，early withdrawal penalty，exit再抽capital gains。佢哋想lock住你哋啲錢到落場，呢個先係真正嘅prop firm——你以為自己喺投資，其實你係被投資。🙃",
-          "text_en_b1": "Retirement accounts are a scam. They are the result of scumbag companies not wanting to give workers a proper pension. Instead they give you some chump change to gamble with in the IRS tax casino, where they rape you before, during, and after in the form of income tax, early withdrawal penalties, and capital gains on any money your account makes.",
-          "text_en_b2": "Retirement accounts are little more than a dressed-up scam, designed so that penny-pinching employers can dodge handing workers an actual pension. Instead, they toss you a few crumbs to gamble with inside the IRS tax casino, where you get fleeced before, during, and after: income tax on every contribution, early withdrawal penalties if you dare touch it, and capital gains on whatever paltry returns your account manages to scrape together. The whole setup is engineered to lock your money away for decades.",
-          "text_en_c1": "Retirement accounts, whatever their conventional respectability, ought to be recognised for what they functionally are: a mechanism whereby employers systematically abdicate their obligation to provide defined-benefit pensions. Workers are instead handed a pittance and funnelled into what is effectively an IRS-administered tax casino, where extraction occurs at every conceivable juncture. Contributions are taxed going in; early withdrawals incur punitive penalties; and capital gains taxes await whatever paltry returns the account manages to accumulate. The architecture is plainly designed to maximise the duration over which capital remains locked away from the individual who nominally owns it, a fact that should give any rational participant considerable pause.",
-          "text_en_c2": "Retirement accounts, stripped of their benign veneer, are a rather elegant scam devised by those who harbour no intention of honouring a proper pension. Instead, employers fling you a pittance and shunt you into what is, functionally, an IRS-sanctioned casino, wherein you are fleeced at every conceivable juncture: at entry via income tax, during play through early withdrawal penalties, and upon egress via capital gains levied on whatever modest returns your principal manages to accrue. The objective is self-evident: to immobilise as much of your capital as possible for as long as possible, lest you ever achieve genuine financial autonomy. You imagine yourself the investor; in truth, you are the asset being invested in. — /biz/ rant",
-          "source_url": "https://boards.4chan.org/biz/thread/62731621",
-          "source_hint": "/biz/ thread calling retirement accounts a tax-trap scam"
-        },
-        {
-          "id": "g-ai-replacement-003",
-          "category": "tech/ai",
-          "topic_zh": "AI取代所有人",
-          "topic_en": "AI replacement endgame",
-          "text_zh": "Endgame嚟喇：如果AI真係replace到所有white collar同blue collar，咁我哋呢啲人仲有乜存在價值？Elites自己托住自己，再踩低其餘嘅人去slave caste。咁點解仲有人excited去幫人煉呢啲鎖鏊？做FE嘅我都係被target嗰個。靠AI續命，遲早連命都無埋。",
-          "text_en_b1": "Endgoal of AI replacement. Let us say that AI can actually replace everyone. What then? The elites are just propping themselves up and pushing the rest of us down into a slave caste. Why would anyone in our position support this? Why are people excited about developing tools of their own enslavement? /g/ thread about the endgame of AI replacement.",
-          "text_en_b2": "Suppose AI genuinely ends up replacing both white-collar and blue-collar workers across the board; what exactly is left for the rest of us? The endgame looks depressingly straightforward: elites propped up by their own algorithms, while everyone else gets pushed down into what is essentially a permanent underclass. Yet somehow ordinary people remain enthusiastic about building the very tools that will eventually render them obsolete. Polishing your own chains hardly seems like a rational career move.",
-          "text_en_c1": "Suppose, for the sake of argument, that artificial intelligence ultimately proves capable of displacing both white-collar and blue-collar labour in their entirety. What, then, becomes of the displaced majority, and by what mechanism are they to derive any conceivable claim to economic participation? The plausible trajectory, if present tendencies are any indication, is one in which an entrenched elite consolidates its position while the remainder are consigned to a structurally subordinate caste whose function, in economic terms, is largely vestigial. The question that therefore warrants serious consideration is why any rational member of that subordinate stratum would actively contribute to engineering the instruments of their own obsolescence.",
-          "text_en_c2": "The endgame of AI displacement, if one is honest enough to extrapolate, is rather bleak. Suppose, hypothetically, that the technology does in fact render every stratum of white- and blue-collar labour obsolete: what, then, is the residual utility of persons such as ourselves? The elite, predictably, will sustain one another whilst consigning the remainder to what is, functionally, a hereditary servile caste. What remains perplexing is why anyone in our predicament should evince enthusiasm for refining the very instruments of their own subjugation, an irony that appears to elude even those who profess otherwise. Yours truly, a frontend dev squarely within the target demographic, can only observe that deferring to AI to sustain one's existence is, in the long run, tantamount to forfeiting that existence altogether. — /g/ thread",
-          "source_url": "https://boards.4chan.org/g/thread/109942542",
-          "source_hint": "/g/ thread asking why people build the AI that replaces them"
-        },
-        {
-          "id": "pol-flamewar-004",
-          "category": "hk/news",
-          "topic_zh": "撚出20M撚戰",
-          "topic_en": "Thread hits 20M views",
-          "text_zh": "有人screencap咗我之前開嘅thread，再放上xitter，結果reach到差唔多20 million views，仲trigger咗全國normalfag rage，連chuds同feminists都打埋嚟。香港細過鬼，外國一個post就引爆一個國；我地呢度寫到天光都無like。wtf 🧐",
-          "text_en_b1": "Somebody screencapped a thread I made and posted it to xitter. This time it reached almost 20 million views and triggered normalfag rage, and a site-wide debate between chuds and feminists. Have your actions ever triggered a massive internet flame war in your country? /pol/ thread about going viral by accident.",
-          "text_en_b2": "Somebody screencapped a thread I originally posted on /pol/ and cross-posted it over to xitter, where it somehow racked up close to 20 million views and triggered an absolute meltdown across the site. Chuds, feminists, and your run-of-the-mill normalfags all piled into the resulting flame war, turning one throwaway post into a full-blown national debate. Meanwhile, on this side of the internet, you can write until sunrise and still get nothing.",
-          "text_en_c1": "An anonymous party, presumably with nothing better to occupy themselves, elected to screenshot a thread I had authored and subsequently disseminate it via xitter, where it accumulated, to my considerable astonishment, in excess of nineteen million impressions. The resulting discourse promptly metastasised into a nationwide conflagration, drawing participants from across the ideological spectrum, with factions whose mutual antipathy ordinarily precludes even cordial exchange now engaging in open hostility. The episode raises an instructive comparative point regarding audience reach. A single post, deployed on the appropriate platform, can effectively redraw the contours of national debate overnight.",
-          "text_en_c2": "A compatriot, presumably with too much time on their hands, screencapped a thread I had authored some weeks prior and subsequently disseminated it across X, whereupon it accrued, astonishingly, some twenty million impressions. The post detonated with the force of a cultural grenade, provoking nationwide indignation among normies and igniting a sprawling, site-wide conflagration in which chuds and feminists, normally antipathetic, united momentarily in their ire. Hong Kong, for all its density, seldom produces a thread of consequence; abroad, a single post can galvanise an entire nation. We, by contrast, write until dawn and garner not a solitary like. The asymmetry is, to put it mildly, somewhat dispiriting. — /pol/ thread",
-          "source_url": "https://boards.4chan.org/pol/thread/543561355",
-          "source_hint": "/pol/ thread where OP's post hits 20M views and starts a culture war"
-        },
-        {
-          "id": "fit-powershitting-005",
-          "category": "mma/fitness",
-          "topic_zh": "Big3陷阱",
-          "topic_en": "Big 3 trap",
-          "text_zh": "Powershitting唔係一切，Big 3更加唔係。好多肥仔powershitter連條屌都見唔到，跑半mile就心臟停頓，仲要話你聽只要compound、squat、deadlift就得。我以前都係咁，lifts高咗但係frogmode肥胖嘅slob。依家轉做athletic，脂肪低咗，肥仔信都話我望落sharp咗。lol",
-          "text_en_b1": "Powershitting and the Big 3 are not enough. I see so many newbies fall for this trap. Fellow obese powershitters who cannot see their own dick or jog half a mile without going into cardiac arrest will tell you all you need is the big three compounds. I wasted years doing strength-focused lifting.",
-          "text_en_b2": "Powershitting and the so-called Big 3 are far from the be-all and end-all, yet countless newcomers still fall headfirst into that trap. Obese lifters who cannot see their own genitals, let alone jog half a mile without their heart throwing a fit, will earnestly insist that squats, bench, and deadlifts are all you ever need. I bought into it for years; my numbers climbed, but I remained a soft, overweight slob in denial. Switching to athletic training changed everything.",
-          "text_en_c1": "The proposition that maximal strength, as cultivated through what the lifting community conventionally terms the Big Three compound movements, constitutes a sufficient training methodology ought to be regarded with considerable scepticism. The approach, venerated as it is within certain subcultures, produces practitioners whose physiques, while undeniably powerful in absolute terms, frequently exhibit profound deficiencies in cardiovascular capacity, mobility, and, frankly, basic aesthetic coherence. I speak from extended personal experience, having spent years pursuing load-bearing numbers at the expense of body composition, only to emerge as what can only be described as an adipose yet technically proficient specimen.",
-          "text_en_c2": "Powershitting, and the venerated Big Three in particular, are scarcely the be-all and end-all that the iron game would have one believe. Countless novices, rotund and resolute, fall prey to this particular delusion: fellows who cannot discern their own anatomy, let alone jog half a mile without their cardiovascular system lodging a formal protest, will earnestly proclaim that squat, bench, and deadlift constitute the entirety of one's regimen. I speak from bitter experience; I squandered years in this manner, and whilst my lifts climbed, I remained a corpulent, frogmode slob, neither healthy nor, by any stretch, attractive. Having since pivoted towards athletic training and shed the requisite adipose tissue, even formerly sceptical fat lads concede I now cut a rather sharper figure. — /fit/ confession",
-          "source_url": "https://boards.4chan.org/fit/thread/77545470",
-          "source_hint": "/fit/ thread warning that big 3 + bulk makes you strong but fat"
-        },
-        {
-          "id": "a-steinsgate-006",
-          "category": "anime/culture",
-          "topic_zh": "Steins;Gate補課",
-          "topic_en": "Zoomers skip Steins;Gate",
-          "text_zh": "有個zoomer話自己anime fan，結果Steins;Gate都未睇過。堂堂Gundam 00老粉都未敢自稱fan，呢位朋友邊個畀你qualify？靠AI續命都仲要有品味，膠到。🧐",
-          "text_en_b1": "A zoomer says they are an anime fan, but they have not watched Steins;Gate. If you cannot get through a classic like Steins;Gate, you cannot really call yourself an anime fan. /a/ thread gatekeeping the basic canon that every real fan should have seen by now, with the implication that Steins;Gate is required reading.",
-          "text_en_b2": "Some zoomer waltzes in claiming to be an anime fan, yet somehow has never bothered to watch Steins;Gate, a series widely regarded as essential viewing for anyone serious about the medium. Even die-hard Gundam 00 fans would think twice before calling themselves enthusiasts without doing the homework, so what on earth qualifies this person? Skipping one of the most celebrated entries in the canon while waving the fan banner is peak impostor behaviour, and the thread is rightfully dragging them for it.",
-          "text_en_c1": "A self-identified member of the zoomer cohort recently avowed that they considered themselves an anime aficionado, notwithstanding the rather conspicuous admission that they had never actually viewed Steins;Gate, a title whose canonical status within the medium is, to understate the matter considerably, beyond serious dispute. Were one to apply comparable standards elsewhere, the absurdity of the claim becomes readily apparent: no serious devotee of the Gundam franchise, for instance, would presume to declare themselves a fan whilst remaining unacquainted with Gundam 00. The threshold for legitimate credentialing within any cultural domain necessarily entails engagement with its foundational works.",
-          "text_en_c2": "A zoomer, with admirable confidence and negligible cultural literacy, proclaims himself an anime aficionado whilst having never deigned to watch Steins;Gate, a series that even seasoned Gundam 00 devotees would hesitate to omit from their viewing history. One is compelled to ask by what authority the chap has qualified himself for the title, given that he has evidently bypassed the canon that any self-respecting fan ought to have traversed by now. Subsisting on AI-generated content may prolong one's existence, but it does little for one's aesthetic sensibilities; the recommendation is therefore simple. Sit down, set aside a weekend, and discharge the homework that your mediocre taste has, until now, conspicuously neglected. — /a/ thread",
-          "source_url": "https://boards.4chan.org/a/thread/291278523",
-          "source_hint": "/a/ thread gatekeeping Steins;Gate as required viewing"
-        },
-        {
-          "id": "biz-btc-button-007",
-          "category": "trading",
-          "topic_zh": "BTC魔術法虛",
-          "topic_en": "1000 BTC button",
-          "text_zh": "撳一個掣送你1000個BTC，但係你之後一世都要頂住呢個樣，你撳唔撳？講真，我portfolio輸到阿媽都唔認得，靠AI續命，1000 BTC夠我即刻返Florida收爺——但係副樣衰咁多，sum ho何生都唔認得我lol wtf。",
-          "text_en_b1": "Would you push a magic button that gave you 1,000 Bitcoin (ticker: BTC) but made you look like this for the rest of your life? /biz/ thought experiment posted today, October 1. The picture attached shows a swollen, ugly face as the cost. Most anons in the thread are torn between the money and the permanent face.",
-          "text_en_b2": "Picture this: a magic button sits in front of you, promising 1,000 Bitcoin the moment you press it, with one glaring catch, namely that your face becomes permanently swollen and hideous for the rest of your days. Most anons in the thread are genuinely torn between the absurd wealth and the cosmetic nightmare, although a brave few insist they would smash it without a second thought. Considering my portfolio is currently down enough to make my own mother disown me, the calculus gets uncomfortably tempting.",
-          "text_en_c1": "Consider the following hypothetical: a button exists which, upon activation, would instantaneously credit your wallet with one thousand Bitcoin, an asset presently valued at sums sufficient to render most reasonable financial anxieties permanently moot. The sole caveat, and it is a non-trivial one, is that the transformation exacted upon your physical appearance would thereafter remain irrevocably fixed, with the visual consequences depicted being, charitably put, unflattering. The calculus is therefore one that compels genuine deliberation. For those whose portfolios have suffered the indignities of prolonged underperformance, the arithmetic arguably favours depression of the button regardless of aesthetic considerations.",
-          "text_en_c2": "A button, so we are told, will bestow upon its presser one thousand Bitcoin, provided the supplicant consents to bear, for the remainder of his natural span, a countenance of such unflattering composition as the attached photograph so vividly illustrates. The proposition is, by any measure, Faustian in its architecture, and yet the calculus is not so easily dismissed. My portfolio, ravaged by recent exuberance, is presently unrecognisable to my own mother, and a windfall of such magnitude would permit an immediate, permanent, and rather smug relocation to the Floridian retirement calendar. The nagging consideration, however, is that one's visage, once irrevocably compromised, cannot be haggled over or hedged; even Sum Ho's Mr Ho would disavow acquaintance with the resultant apparition. — /biz/ thought experiment, 1 October",
-          "source_url": "https://boards.4chan.org/biz/thread/62735870",
-          "source_hint": "/biz/ thought-experiment thread: 1000 BTC but ugly forever"
         }
       ]
     }

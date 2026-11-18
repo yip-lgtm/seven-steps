@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-18",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "btc-ibit-65k",
+      "topic_en": "Bitcoin All-In Setup",
+      "topic_zh": "比特幣全倉局",
+      "category": "trading",
+      "files": {
+        "b1": "clip-btc-ibit-65k-b1.mp3",
+        "b2": "clip-btc-ibit-65k-b2.mp3",
+        "c1": "clip-btc-ibit-65k-c1.mp3",
+        "c2": "clip-btc-ibit-65k-c2.mp3"
+      }
+    },
+    {
+      "id": "nvda-earnings-judgement",
+      "topic_en": "Nvidia Earnings Judgement",
+      "topic_zh": "NVDA盈利审判",
+      "category": "trading",
+      "files": {
+        "b1": "clip-nvda-earnings-judgement-b1.mp3",
+        "b2": "clip-nvda-earnings-judgement-b2.mp3",
+        "c1": "clip-nvda-earnings-judgement-c1.mp3",
+        "c2": "clip-nvda-earnings-judgement-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-swarm-jobs",
+      "topic_en": "AI Model Swarm",
+      "topic_zh": "AI模型群體",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-swarm-jobs-b1.mp3",
+        "b2": "clip-ai-swarm-jobs-b2.mp3",
+        "c1": "clip-ai-swarm-jobs-c1.mp3",
+        "c2": "clip-ai-swarm-jobs-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-cipher-decoding",
+      "topic_en": "AI Decodes Ciphers",
+      "topic_zh": "AI破解古密碼",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-cipher-decoding-b1.mp3",
+        "b2": "clip-ai-cipher-decoding-b2.mp3",
+        "c1": "clip-ai-cipher-decoding-c1.mp3",
+        "c2": "clip-ai-cipher-decoding-c2.mp3"
+      }
+    },
+    {
+      "id": "east-asian-depression",
+      "topic_en": "East Asian Mental Health",
+      "topic_zh": "東亞抑鬱自刪",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-east-asian-depression-b1.mp3",
+        "b2": "clip-east-asian-depression-b2.mp3",
+        "c1": "clip-east-asian-depression-c1.mp3",
+        "c2": "clip-east-asian-depression-c2.mp3"
+      }
+    },
+    {
+      "id": "meme-lifting-exercises",
+      "topic_en": "Meme Gym Exercises",
+      "topic_zh": "健身房奇招舉重",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-meme-lifting-exercises-b1.mp3",
+        "b2": "clip-meme-lifting-exercises-b2.mp3",
+        "c1": "clip-meme-lifting-exercises-c1.mp3",
+        "c2": "clip-meme-lifting-exercises-c2.mp3"
+      }
+    },
+    {
+      "id": "ranma-storytime",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬漫畫回顧",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-ranma-storytime-b1.mp3",
+        "b2": "clip-ranma-storytime-b2.mp3",
+        "c1": "clip-ranma-storytime-c1.mp3",
+        "c2": "clip-ranma-storytime-c2.mp3"
+      }
+    }
+  ]
+}
