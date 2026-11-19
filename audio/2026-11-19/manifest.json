@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-19",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "btc-silver-2026",
+      "topic_en": "BTC Beats Silver",
+      "topic_zh": "BTC擊敗貴金屬",
+      "category": "trading",
+      "files": {
+        "b1": "clip-btc-silver-2026-b1.mp3",
+        "b2": "clip-btc-silver-2026-b2.mp3",
+        "c1": "clip-btc-silver-2026-c1.mp3",
+        "c2": "clip-btc-silver-2026-c2.mp3"
+      }
+    },
+    {
+      "id": "miners-metals-dump",
+      "topic_en": "Miners Get Rekted",
+      "topic_zh": "礦業股散咗",
+      "category": "trading",
+      "files": {
+        "b1": "clip-miners-metals-dump-b1.mp3",
+        "b2": "clip-miners-metals-dump-b2.mp3",
+        "c1": "clip-miners-metals-dump-c1.mp3",
+        "c2": "clip-miners-metals-dump-c2.mp3"
+      }
+    },
+    {
+      "id": "gpu-shortage-2026",
+      "topic_en": "GPU Shortage Hits Builders",
+      "topic_zh": "GPU供應短缺",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-gpu-shortage-2026-b1.mp3",
+        "b2": "clip-gpu-shortage-2026-b2.mp3",
+        "c1": "clip-gpu-shortage-2026-c1.mp3",
+        "c2": "clip-gpu-shortage-2026-c2.mp3"
+      }
+    },
+    {
+      "id": "jobs-ai-billions",
+      "topic_en": "AI and the Future of Jobs",
+      "topic_zh": "AI搶走工作",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-jobs-ai-billions-b1.mp3",
+        "b2": "clip-jobs-ai-billions-b2.mp3",
+        "c1": "clip-jobs-ai-billions-c1.mp3",
+        "c2": "clip-jobs-ai-billions-c2.mp3"
+      }
+    },
+    {
+      "id": "lean-bulk-fit",
+      "topic_en": "Lean Bulk After Fat",
+      "topic_zh": "Fat Former Lardass",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-lean-bulk-fit-b1.mp3",
+        "b2": "clip-lean-bulk-fit-b2.mp3",
+        "c1": "clip-lean-bulk-fit-c1.mp3",
+        "c2": "clip-lean-bulk-fit-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-memes",
+      "topic_en": "Are Anime Memes Dead?",
+      "topic_zh": "動漫迷因死機",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-memes-b1.mp3",
+        "b2": "clip-anime-memes-b2.mp3",
+        "c1": "clip-anime-memes-c1.mp3",
+        "c2": "clip-anime-memes-c2.mp3"
+      }
+    },
+    {
+      "id": "nvidia-ceos-hype",
+      "topic_en": "Do You Trust CEO Hype?",
+      "topic_zh": "CEO講嘢你信唔信",
+      "category": "trading",
+      "files": {
+        "b1": "clip-nvidia-ceos-hype-b1.mp3",
+        "b2": "clip-nvidia-ceos-hype-b2.mp3",
+        "c1": "clip-nvidia-ceos-hype-c1.mp3",
+        "c2": "clip-nvidia-ceos-hype-c2.mp3"
+      }
+    }
+  ]
+}

@@ -1,6 +1,103 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "days": [
+    {
+      "date": "2026-11-19",
+      "source": "ai",
+      "clips": [
+        {
+          "id": "btc-silver-2026",
+          "category": "trading",
+          "topic_zh": "BTC擊敗貴金屬",
+          "topic_en": "BTC Beats Silver",
+          "text_zh": "BTC 又擊敗 GOLD 同 SILVER。自從 Iran war 爆發，BTC 一直壓住金銀。市場 collapse 嘅話，BTC 先係最值得 hold 嘅 asset。靠AI續命，呢鋪先唔好亂加 leverage。",
+          "text_en_b1": "BTC has beaten gold and silver since the Iran war began. The poster claims BTC is the best asset to hold during a market collapse. This is a strong bullish view on Bitcoin, although no entry price or stop level is mentioned.",
+          "text_en_b2": "Since the Iran war began, Bitcoin has outperformed both gold and silver, continuing to outperform precious metals during a broader market collapse. The poster argues that BTC is now the asset worth holding when confidence in traditional safe havens is fading, although no entry price or stop-loss level is provided. The view is strongly bullish on Bitcoin, but it comes with a warning: although AI may keep the market alive for a while, traders should avoid adding excessive leverage and should hold their positions carefully.",
+          "text_en_c1": "BTC has once again outperformed both gold and silver. Since the Iran war began, it has consistently outpaced precious metals while the broader market has been collapsing. The poster therefore regards Bitcoin as the asset worth holding if the downturn continues, although this is an emphatically bullish opinion rather than a fully developed strategy. No entry price or stop-loss level is provided, so there is no clear way to assess the risk involved. The poster also warns against adding leverage recklessly, joking that AI is keeping the trade alive.",
+          "text_en_c2": "Since the Iran war began, Bitcoin has decisively outperformed both gold and silver, maintaining its advantage throughout the resulting market turmoil. The poster argues that if a genuine collapse is imminent, BTC is the asset most worth holding, although the conviction comes without a stated entry price or stop-loss level. There is also an AI-related angle, but leverage should be approached cautiously rather than piled on. The central claim is straightforwardly bullish: when precious metals are under pressure, Bitcoin apparently remains the stronger refuge. What the post does not provide is a coherent risk-management framework, so the impressive relative performance should not be mistaken for a complete investment strategy.",
+          "source_url": "https://boards.4chan.org/biz/thread/62923770",
+          "source_hint": "A /biz/ post argues that BTC has outperformed gold and silver during the Iran war."
+        },
+        {
+          "id": "miners-metals-dump",
+          "category": "trading",
+          "topic_zh": "礦業股散咗",
+          "topic_en": "Miners Get Rekted",
+          "text_zh": "Miners 又被 rekt。Copper、Uranium、Gold & Silver、Lithium 全部跌到似shitcoin。到底係buying opportunity，定係應該繼續睇？",
+          "text_en_b1": "Miners are getting rekt. Copper, uranium, gold and silver, and lithium are all dumping like shitcoins. The poster asks whether this is a buying opportunity or whether people should keep waiting. No specific trade or price level is provided.",
+          "text_en_b2": "Miners are getting rekt again, with copper, uranium, gold and silver, and lithium all dumping like shitcoins. Although such a sharp decline can look like an opportunity to buy a dip, the poster is clearly unsure whether prices have reached a genuine bottom or whether investors should continue waiting for a better setup. The post contains no specific trade, entry point, or price level, so the main issue is whether the sell-off represents value or simply the beginning of further losses.",
+          "text_en_c1": "Miners have been comprehensively rekt once again. Copper, uranium, gold and silver, along with lithium, are all plunging as though they were worthless shitcoins rather than valuable commodities. The poster is genuinely uncertain about what this prolonged sell-off represents: is it a buying opportunity for those willing to catch a falling knife, or should investors continue waiting for conditions to improve? Although the question suggests someone who understands the sector, no specific trade, entry price, or price target is offered, leaving the analysis at the level of market sentiment rather than a concrete plan.",
+          "text_en_c2": "Miners are being comprehensively rekt as copper, uranium, gold and silver, and lithium all tumble like failed shitcoins. The sharp sell-off leaves prospective investors with an uncomfortable dilemma: treat the correction as a buying opportunity, or remain sidelined until the underlying trend becomes clearer? The poster offers no particular trade, asset, or price level, nor does he claim that the decline has fundamentally altered these commodities. What is evident is widespread carnage across several mining-linked sectors at once. Whether that breadth signals an unusually attractive entry point or the early stage of a longer downturn remains unresolved, making the decision less about timing than conviction in the eventual recovery.",
+          "source_url": "https://boards.4chan.org/biz/thread/62923108",
+          "source_hint": "A /biz/ thread asks whether the metals and mining sell-off is a buying opportunity."
+        },
+        {
+          "id": "gpu-shortage-2026",
+          "category": "tech/ai",
+          "topic_zh": "GPU供應短缺",
+          "topic_en": "GPU Shortage Hits Builders",
+          "text_zh": "Nvidia 話builder攞唔到GPU，搞到manufacturing scarcity。有人話Jensen淨係識將GPU賣俾自己啲人，gameers同builders就係活該。AI bot同shill反而唔理。靠AI續命，連磚都冇得砌，wtf。",
+          "text_en_b1": "Nvidia is denying GPUs to builders, creating manufacturing scarcity. The post blames Jensen Huang and says AI bots and paid shills ignore what is happening to gamers and builders. It also mentions alleged illegal shipments to China and artificial scarcity.",
+          "text_en_b2": "Nvidia is denying builders access to GPUs, creating severe manufacturing scarcity in the process. The post blames Jensen Huang for allegedly selling GPUs to people close to the company while ignoring the difficulties faced by gamers and builders. It also refers to illegal shipments to China and artificial scarcity, arguing that AI bots and paid shills remain indifferent to the damage. The result is a shortage serious enough that even people trying to build physical systems cannot obtain the hardware they need.",
+          "text_en_c1": "Nvidia is allegedly restricting builders’ access to GPUs, thereby creating severe manufacturing scarcity. The poster blames Jensen Huang, arguing that he merely sells hardware to people who are already close to him while ordinary gamers and independent builders are left with nothing. AI bots and paid shillers, meanwhile, are said to ignore the damage. The post also refers to shipments to China allegedly violating US export restrictions and to artificial scarcity designed to inflate prices. Frustrated by the idea that AI is keeping the industry alive, the poster complains that even building bricks may become impossible.",
+          "text_en_c2": "Nvidia is restricting builders’ access to GPUs, manufacturing an artificial scarcity that is obstructing production rather than serving ordinary users. The post directs much of its criticism at Jensen Huang, portraying him as someone who merely sells GPUs to favoured insiders while gamers and builders are left to fend for themselves. AI bots and paid shills, according to the writer, conveniently ignore the damage. The thread also alleges illegal shipments to China, a further claim that compounds Nvidia’s supposed disregard for the law. The underlying frustration is that advanced hardware, ostensibly driven by innovation, is becoming less available precisely to the people expected to build with it, leaving scarcity as an extractive business model.",
+          "source_url": "https://boards.4chan.org/g/thread/110359650",
+          "source_hint": "A /g/ thread discusses Nvidia GPU shortages, Jensen Huang, and alleged illegal shipments to China."
+        },
+        {
+          "id": "jobs-ai-billions",
+          "category": "hk/news",
+          "topic_zh": "AI搶走工作",
+          "topic_en": "AI and the Future of Jobs",
+          "text_zh": "如果Elon講嘅嘢係真，兩年內可能冇晒工作。剩低嘅只係做billionaire同AI agent嘅menial labor。香港咁細，連廢物都冇位擺，唔知AI會唔會連civil engineering都ko咗。",
+          "text_en_b1": "If what Elon says is true, there may be no more jobs in two years. Only menial labor for billionaires and their AI agents would remain. The post asks what will happen to ordinary workers if this future becomes real.",
+          "text_en_b2": "If Elon Musk’s claims are accurate, there may be virtually no jobs left within two years. The only roles that remain would be menial labour performed for billionaires and their AI agents, while ordinary workers would face unemployment on a massive scale. The post also raises a more immediate question about Hong Kong, a city so tightly packed that even waste disposal is difficult: what happens to civil engineering and other practical sectors if AI begins replacing them too?",
+          "text_en_c1": "If Elon Musk’s predictions are taken at face value, there may be virtually no employment left within two years. The only work remaining would be menial labour performed by billionaires’ AI agents, with ordinary employees largely excluded from the economy. The poster is especially sceptical about Hong Kong, a city already so densely developed that even waste disposal presents a spatial problem. They then widen the concern to civil engineering: if AI can replace skilled professional work as well as routine jobs, what role, if any, remains for people who have spent years acquiring specialised expertise?",
+          "text_en_c2": "If Elon Musk’s prediction proves accurate, employment could disappear within two years, leaving humanity with little more than menial labour performed for billionaires by their AI agents. That prospect is already enough to provoke alarm, particularly in Hong Kong, where space is so scarce that even waste must find somewhere to go; if AI eliminates routine work, what remains for ordinary people whose practical knowledge encompasses civil engineering? The post does not examine the assumptions behind Musk’s forecast, but it captures the anxiety shared by workers who suspect that technological progress may benefit capital owners far more readily than the people it displaces.",
+          "source_url": "https://boards.4chan.org/pol/thread/546475890",
+          "source_hint": "A /pol/ thread asks about mass job loss, billionaires, and AI agents."
+        },
+        {
+          "id": "lean-bulk-fit",
+          "category": "mma/fitness",
+          "topic_zh": "Fat Former Lardass",
+          "topic_en": "Lean Bulk After Fat",
+          "text_zh": "Hi /fit，前lardass報到。想問body fat estimate，同埋點樣slow bulk而唔會再肥返。工作太忙，唔係macro就係high protein、少少健康diet。以前cutting反而容易，估係怕再肥，但lifts一直冇乜進步。",
+          "text_en_b1": "Hi /fit, former lardass here. Can you estimate my body fat percentage and give tips for a slow bulk without getting too fat? The poster has been busy, does not track macros, and eats a high-protein diet. Cutting feels easier because gaining weight scares him.",
+          "text_en_b2": "Hi /fit, former lardass checking in. Could someone estimate my body-fat percentage and suggest how I can slow-bulk without gaining excessive fat again? I have been extremely busy with work, so I either track macros carefully or follow a high-protein, reasonably healthy diet. Cutting feels easier because gaining weight scares me, although my lifts have not really progressed. I would like advice on gaining some size while keeping my body-fat percentage under control and avoiding a full return to my former condition.",
+          "text_en_c1": "Hi /fit, a former lardass reporting for duty. Could someone estimate my body-fat percentage and advise me on how to approach a lean bulk without simply regaining all the unwanted weight? I have been extremely busy lately, so although I eat a relatively high-protein diet and try to keep things healthy, I do not consistently track my macros. Cutting previously felt considerably easier because gaining weight frightens me and makes me worry about losing my progress. Despite remaining disciplined enough to cut, however, my lifts have not improved for some time, suggesting that the approach may need to be more carefully structured.",
+          "text_en_c2": "A former lardass checking in with the /fit community, seeking an estimate of current body-fat percentage and advice on how to begin a slow bulk without simply reaccumulating fat. He describes a demanding work schedule that leaves little room for meticulous macro tracking, although his diet is consistently high in protein and otherwise reasonably balanced. The psychological obstacle appears greater than the nutritional one: cutting has paradoxically felt easier because regaining weight frightens him, while his lifting performance has stagnated despite sustained effort. Any sensible response would therefore need to acknowledge both his history of overeating and his limited capacity for obsessive measurement, rather than prescribing an elaborate protocol he may never follow.",
+          "source_url": "https://boards.4chan.org/fit/thread/77621552",
+          "source_hint": "A /fit/ thread asks about body-fat estimation and lean bulking after gaining weight."
+        },
+        {
+          "id": "anime-memes",
+          "category": "anime/culture",
+          "topic_zh": "動漫迷因死機",
+          "topic_en": "Are Anime Memes Dead?",
+          "text_zh": "仲有冇人記得memes？睇完Yu-Gi-Oh storytime，反而懷念2000年代manga tropes、doujin pages同埋-panel迷因。最近有Cyberpunk: Edgerunners season，但「chromed up」之外，似乎冇新動漫迷因可以走出自己個series。",
+          "text_en_b1": "Are anime memes still happening? The poster remembers 2000s manga tropes, doujin pages, and panels becoming recognizable internet icons. They mention the new Cyberpunk: Edgerunners season and its chromed-up memes, but say few newer anime memes travel beyond their own series.",
+          "text_en_b2": "Are anime memes still happening? After watching a Yu-Gi-Oh storytime, I began missing the distinctive tropes of 2000s manga, doujin pages, and panel images that became instantly recognizable across the internet. Although the new season of Cyberpunk: Edgerunners has produced some “chromed up” reactions, apparently very few newer anime memes have managed to escape their own series and become widely shared cultural references. The nostalgic post suggests that anime-related humour may now live mainly within dedicated fandoms rather than circulating freely online.",
+          "text_en_c1": "Does anybody still remember when anime memes genuinely circulated online? After watching a Yu-Gi-Oh storytime, the poster began nostalgic for 2000s manga tropes, doujin pages, and individual panels that became instantly recognisable internet icons. Although Cyberpunk: Edgerunners has recently returned for another season and inspired the familiar “chromed up” format, the broader anime community apparently struggles to produce memes that escape their originating series. The implication is that anime humour has become increasingly insular: jokes may briefly exist within a fandom, yet they rarely achieve the wider cultural reach enjoyed by earlier meme eras.",
+          "text_en_c2": "The poster wonders whether anime memes still exist in any meaningful cultural sense, since watching a Yu-Gi-Oh storytime revived nostalgic memories of 2000s manga tropes, doujin pages, and individual panels transformed into recognisable internet icons. Those older examples escaped their original fandoms and became shared language across the wider web. By contrast, although Cyberpunk: Edgerunners has a new season and produces the inevitable “chromed up” jokes, most of its memes apparently remain confined to the series itself. The lament is not simply that anime has stopped generating memorable images, but that contemporary fandom seems increasingly insular: jokes circulate intensely among existing fans without acquiring the broader, self-sustaining life that once made them portable cultural artefacts.",
+          "source_url": "https://boards.4chan.org/a/thread/292315644",
+          "source_hint": "An /a/ thread asks whether anime memes still move beyond their original series."
+        },
+        {
+          "id": "nvidia-ceos-hype",
+          "category": "trading",
+          "topic_zh": "CEO講嘢你信唔信",
+          "topic_en": "Do You Trust CEO Hype?",
+          "text_zh": "大家開始信CEO嘅hype，轉頭又quote CEO，仲要當佢哋係自己公司嘅推廣員。Musk講過就當confirm，Nvidia嗰位chinky man講過亦一樣。咁點解唔信個sell used cars嘅人？",
+          "text_en_b1": "People trust CEOs because they repeat whatever the CEOs say. They quote company leaders as if every statement is proof, while trusting used-car salesmen far less. The post says these are basically the same behavior, then asks whether people are simply retarded.",
+          "text_en_b2": "People are increasingly accepting a CEO’s hype, repeating it as evidence and then quoting the same executive as if he were the official promotional voice of the entire company. If statements from Musk are treated as confirmation, why should anyone treat Nvidia’s leadership differently? The post draws a deliberately provocative comparison with used-car salesmen, who are generally viewed as unreliable when making claims. Its central question is whether audiences are simply being gullible, although it expresses that criticism in an offensive way.",
+          "text_en_c1": "People have started treating corporate CEOs as authoritative sources, then promptly quoting them as though every statement constituted independent proof. Musk’s remarks are treated as confirmation simply because he made them, and the same unquestioning attitude is extended to Nvidia’s CEO, whom the poster disparagingly refers to as a “chinky man.” Yet if accepting self-promotional claims from powerful technology executives is reasonable, why is the used-car salesman regarded with such suspicion? The poster highlights the inconsistency: when the message comes from a celebrated CEO, the audience appears willing to abandon basic scepticism and become free publicity for the company.",
+          "text_en_c2": "The post highlights an apparent contradiction in how investors treat corporate authority: audiences accept a CEO’s every utterance, quote it approvingly, and then deploy it as evidence while conveniently ignoring its promotional provenance. Musk’s remarks are treated as confirmation, and the same credulous acceptance extends to Nvidia’s famously blunt chief executive; why, the writer asks, should a used-car salesman not command similar faith? The underlying criticism is that celebrity, media visibility, and market position are mistaken for independent verification. A confident delivery does not make a forecast truthful, nor does repeating a claim make it more reliable. The irony lies in investors demanding extraordinary scepticism from ordinary salespeople while surrendering it entirely to powerful figures whose incentives are rarely neutral.",
+          "source_url": "https://boards.4chan.org/biz/thread/62922939",
+          "source_hint": "A /biz/ post mocks investors for trusting CEO hype, including Musk and Nvidia leadership."
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "source": "ai",
@@ -4408,103 +4505,6 @@
           "text_en_c2": "The original poster raises a question that has evidently been percolating: why do Japanese creators evince such an enduring fascination with the bullying-couple dynamic, yet so rarely commit it to a fully realised anime or manga adaptation? Nagatoro-san, the author concedes, stands as one of the few titles that treats the trope with any conviction, alongside the more sombre Ijiranaide, Nagatoro-san. Respondents, predictably, were quick to enumerate further examples before collectively pivoting to a more fatigued appraisal: the tsundere heroine, whatever her charms, has by 2026 become a thoroughly exhausted archetype, trotted out with diminishing returns. The original poster, for his part, professes a preference for the more earnest offerings of Gundam 00 and Demon Slayer, finding the schoolyard antics of the genre somewhat beneath his attention.",
           "source_url": "https://boards.4chan.org/a/thread/291370529",
           "source_hint": "/a/ thread on bully romance trope in anime"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "source": "ai",
-      "clips": [
-        {
-          "id": "trade-macro-mcd",
-          "category": "trading",
-          "topic_zh": "麥當勞點跌",
-          "topic_en": "Why MCD is dumping",
-          "text_zh": "MCD咁好嘅品牌都跌到爛？樓主話佢似食物界Apple，人人知係垃圾但照食。佢諗住撈底喎… 真係廢柴炒股一日又一日，學費又入落去🙏",
-          "text_en_b1": "Why is MCD falling so much? It is a well-known company with a solid market of slop for cattle and huge cashflow every year. But the stock is dumping like a shitcoin. The poster is thinking about buying the dip, even though he does not eat the food. Everyone knows it is bad for you, but people still eat it.",
-          "text_en_b2": "How is MCD getting hammered despite being such a household brand? The poster points out it is essentially slop for the masses, churning out enormous cashflow annually while the share price tanks like some dodgy altcoin. He likens it to the Apple of the food industry, dreadful on paper yet consumed without a shred of irony. Having watched it crater, he is now weighing up buying the dip, tuition money and all.",
-          "text_en_c1": "What explains the steep decline in McDonald's share price, given that it remains one of the most recognisable consumer brands globally? The company commands an enormous captive market, generates consistently robust annual cashflow, and essentially functions as what the poster calls the \"Apple of food,\" a product whose nutritional deficiencies are widely acknowledged yet whose appeal appears undiminished. Despite never personally consuming the food, the original poster is contemplating buying the dip. He concedes, with evident self-deprecation, that his repeated attempts at catching falling knives amount to little more than an expensive ongoing tuition fee.",
-          "text_en_c2": "McDonald's, a brand so ubiquitous it requires no introduction, has been hemorrhaging share value, and the conspicuous irony is not lost on retail traders dissecting the decline on /biz/. The poster, evidently nursing a long position he describes as catch-the-knife, observes that MCD occupies a curious cultural niche: an establishment whose food is widely derided as nutritionally indefensible yet continues to command consumer loyalty with near-religious consistency. He likens the company to the Apple of the food industry, meaning a product whose perceived deficiencies are perpetually transcended by the strength of its ecosystem. Whether this framing constitutes genuine insight or merely the rationalisation of capital sunk into a depreciating asset remains, as ever, the unanswerable question haunting every bag-holder who refuses to capitulate.",
-          "source_url": "https://boards.4chan.org/biz/thread/62741596",
-          "source_hint": "/biz/ thread asking why MCD is dumping like a shitcoin"
-        },
-        {
-          "id": "trade-musk-tsla-spcx",
-          "category": "trading",
-          "topic_zh": "Tesla SpaceX合併",
-          "topic_en": "TSLA SPCX merger hype",
-          "text_zh": "/biz/ 話TSLA同SpaceX今年會合併，兩隻都會爆上。仲話Elon入咗國防部三人組，要佢幫手造軍用drone同AI。樓主話呢個就係21世紀標準石油。唔買就笨🧐",
-          "text_en_b1": "/biz/ here is a 2x from me to you. TSLA and SPCX are merging this year and each stock is going to go up tremendously on the news. Elon just got put into a Department of War triumvirate because they need his manufacturing base for the coming drone and AI wars.",
-          "text_en_b2": "Anyone frequenting /biz/ owes it to themselves to pay heed: TSLA and SPCX are allegedly merging this year, which would send both tickers vertical the moment confirmation drops. Elon has reportedly been embedded into a Department of War triumvirate, owing to Washington needing his manufacturing muscle for the upcoming drone and AI conflicts. Anyone dismissing this as the 21st-century Standard Oil in the making is, frankly, leaving easy money on the table.",
-          "text_en_c1": "A thread on /biz/ is advancing a bold thesis: Tesla and SpaceX are poised to merge within the calendar year, a development that would send both securities soaring once the announcement becomes public. The poster further notes that Elon Musk has been installed as part of a triumvirate at the Department of War, ostensibly because Washington requires his manufacturing infrastructure for the impending era of drone warfare and AI-driven conflict. Drawing an explicit parallel to Standard Oil's monopolistic dominance, the argument concludes that any investor failing to recognise this convergence is, in the poster's words, being deliberately blind to history repeating itself.",
-          "text_en_c2": "A poster on /biz/ is dispensing what he generously describes as a two-for-one, namely the conviction that Tesla and SpaceX will consummate a merger before the calendar turns, whereupon both tickers shall, in his estimation, ascend stratospherically on the announcement alone. The foundation underpinning this thesis is Musk's alleged elevation into a Department of War triumvirate, an appointment purportedly engineered to harness his manufacturing infrastructure for the impending theatre of autonomous-drone and artificial-intelligence warfare. He invokes the analogy of Standard Oil for the twenty-first century, a comparison that is either prescient or hubristic depending entirely upon whether one has already committed capital. To demur, in his phrasing, is to advertise oneself as a fool.",
-          "source_url": "https://boards.4chan.org/biz/thread/62743216",
-          "source_hint": "/biz/ thread hyping TSLA + SpaceX merger and Musk Pentagon role"
-        },
-        {
-          "id": "civil-structure-winter-arc",
-          "category": "civil/structure",
-          "topic_zh": "負重練習嘅陷阱",
-          "topic_en": "Big 3 lifts trap",
-          "text_zh": "樓主話big 3死舉唔夠，肥佬淨係舉重但跑半mile都喘晒，樣又唔好睇。佢話要加耐力、心肺、功能性訓練先健康。睇完諗起我哋做soil nailing都係一樣，淨係識揼石屎唔夠，要識成個load path👍",
-          "text_en_b1": "Powershitting and the Big 3 are not enough. The poster says he wasted years doing heavy compounds and got strong lifts, but he was an obese slob who could not jog a half mile without going into cardiac arrest. Newbies fall into this trap. Being strong on the bar does not mean you are healthy, fit, or look good. You need conditioning too.",
-          "text_en_b2": "Endless powershitting and obsessing over the Big 3 is a trap, according to the poster, who admits he wasted years grinding heavy compounds and racked up respectable numbers, yet remained an obese mess who could barely jog half a mile without his heart giving out. Newbies fall straight into this. Bending the bar does not translate into genuine fitness or looking halfway decent. Conditioning work remains non-negotiable.",
-          "text_en_c1": "The poster contends that years spent exclusively on the Big 3 powerlifting movements, while producing respectable numbers on the barbell, ultimately yielded diminishing returns in terms of overall wellbeing. Despite hauling considerable weight, he remained overweight, aesthetically unremarkable, and incapable of jogging half a mile without his cardiovascular system protesting vehemently. His central argument is that raw strength constitutes only one dimension of fitness; conditioning, endurance, and functional training are equally indispensable. The broader lesson, which the reader finds applicable even to civil engineering work involving soil nailing, is that fixating on a single element of any load path without addressing the entire structural system is fundamentally misguided.",
-          "text_en_c2": "The poster, a reformed powershitting devotee, contends that compulsive devotion to the Big 3 compound lifts constitutes an almost archetypal trap for credulous newcomers to resistance training. He recounts having squandered years accumulating impressive numbers on the barbell while remaining, by every meaningful metric, an obese and visibly unhealthy specimen who could not complete a half-mile jog without his cardiovascular system threatening mutiny. The implicit lesson, articulated with the benefit of hindsight, is that absolute strength is neither a sufficient proxy for general physical competence nor a guarantor of aesthetic composition. Genuine fitness, he insists, demands a concomitant commitment to conditioning, cardiac output, and the kind of functional movement that heavy squats alone can never cultivate.",
-          "source_url": "https://boards.4chan.org/fit/thread/77545470",
-          "source_hint": "/fit/ thread on why pure strength training makes you fat and unhealthy"
-        },
-        {
-          "id": "tech-spacex-dragon",
-          "category": "tech/ai",
-          "topic_zh": "NASA Dragon難題",
-          "topic_en": "NASA Dragon dilemma",
-          "text_zh": "SpaceX同NASA講唔想再飛Dragon同Falcon 9去LEO。NASA當年喺Commercial Crew Program擺咗31億美金去開發同認證Crew Dragon，依家SpaceX話唔做… wtf Elon真係好串lol",
-          "text_en_b1": "NASA has a Dragon dilemma and there appear to be no good answers. NASA supports a robust commercial space economy that advances American industry. In recent months, SpaceX has made it clear to NASA that it no longer wishes to fly Dragon or Falcon 9 on missions to LEO. NASA invested 3.1 billion dollars in the development and certification of Crew Dragon.",
-          "text_en_b2": "NASA is staring down a Dragon dilemma with no obvious way out, despite publicly championing a robust commercial space sector that props up American industry. SpaceX has been signalling to NASA in recent months that it has no appetite to keep flying Dragon or Falcon 9 on low-Earth-orbit missions, having sunk roughly 3.1 billion dollars into developing and certifying Crew Dragon under the Commercial Crew Program. The sheer audacity is staggering.",
-          "text_en_c1": "NASA faces what might aptly be termed a Dragon dilemma, one for which no palatable solution appears to exist. The agency has long championed a thriving commercial space sector, predicated on the principle that government investment should catalyse rather than supplant private industry. Recent communications, however, indicate that SpaceX has communicated to NASA its intention to cease flying both Dragon and Falcon 9 on low Earth orbit missions. This poses a significant problem given that the Commercial Crew Program allocated approximately 3.1 billion dollars toward Crew Dragon's development and certification, a sunk investment now under considerable strain as SpaceX appears increasingly disinclined to continue servicing the contract.",
-          "text_en_c2": "NASA confronts an altogether unenviable quandary with respect to its Crew Dragon dependency, and the available options, upon inspection, appear uniformly unpalatable. The agency's stated mandate to nurture a robust commercial space sector, thereby catalysing American industrial capacity, has been complicated by SpaceX's recent and unmistakably direct intimations that it intends to discontinue Dragon and Falcon 9 flights to low Earth orbit. This declaration carries a particular sting when one recalls that NASA disbursed a sum of 3.1 billion dollars toward the development and certification of Crew Dragon under the Commercial Crew Program. The question of who, if anyone, might plausibly absorb the resulting capability gap remains conspicuously unresolved.",
-          "source_url": "https://boards.4chan.org/g/thread/109957579",
-          "source_hint": "/g/ thread on Ars Technica piece about SpaceX dropping Crew Dragon flights"
-        },
-        {
-          "id": "hk-news-paycheck",
-          "category": "hk/news",
-          "topic_zh": "70%美國人月光",
-          "topic_en": "70% Americans paycheck to paycheck",
-          "text_zh": "Bloomberg話美國最底層40%都月光，中間30%高少少都係月光。即係頭70%全部月光。最top嗰5%先過得正常。最底50%得2.5%財富。睇完好灰，喺HK都係一樣🥲 唔怪之我諗住返Florida",
-          "text_en_b1": "According to Bloomberg, the bottom 40 percent of Americans are living paycheck to paycheck. Another 30 percent, even with higher income, are also living paycheck to paycheck. So the bottom 70 percent of Americans live paycheck to paycheck. Only the top 5 percent are doing well. The bottom 50 percent own 2.5 percent of the wealth. This hit hard.",
-          "text_en_b2": "According to Bloomberg, the bottom 40 percent of Americans are stretched to the limit, living paycheck to paycheck with nothing in reserve. Throw in the next 30 percent, who despite earning more are likewise haemorrhaging cash, and the bottom seventy percent collectively have nothing to fall back on. Only the top 5 percent are genuinely thriving. The bottom 50 percent scrape by on a measly 2.5 percent of total wealth. Bleak reading.",
-          "text_en_c1": "Recent Bloomberg data paints a rather grim picture of American household finances, one that resonates uncomfortably with observers in other high-cost jurisdictions. The bottom 40 percent of earners are reportedly living paycheck to paycheck, while an additional 30 percent, despite nominally higher incomes, find themselves in essentially identical circumstances. The aggregate implication is sobering: the lower 70 percent of the population lacks meaningful financial buffer. Only the top 5 percent enjoy genuine prosperity, whereas the bottom 50 percent collectively hold a mere 2.5 percent of total wealth. The asymmetry is stark enough to prompt some commenters to seriously reconsider emigration, with Florida emerging as a recurring destination.",
-          "text_en_c2": "Bloomberg has circulated figures that, if accurate, ought to temper any residual faith in the equitable distribution of American prosperity. The bottom 40 percent of the population subsist from one paycheque to the next, while the next 30 percent, despite their ostensibly more comfortable incomes, find themselves in essentially identical circumstances. This implies, in aggregate, that fully 70 percent of the nation navigates each month without meaningful financial buffer. Only the top 5 percent enjoy what might reasonably be termed a comfortable existence, and the bottom 50 percent collectively command a mere 2.5 percent of aggregate household wealth. The poster, evidently dispirited by these revelations, observes that Hong Kong offers no analogous respite and contemplates relocation to Florida.",
-          "source_url": "https://boards.4chan.org/biz/thread/62738405",
-          "source_hint": "/biz/ thread citing Bloomberg on US paycheck-to-paycheck data"
-        },
-        {
-          "id": "mma-fitness-winter-arc",
-          "category": "mma/fitness",
-          "topic_zh": "Winter Arc開始",
-          "topic_en": "Winter Arc starts today",
-          "text_zh": "Winter Arc今日開始。一禮拜gym六日，五點半起身，cut晒所有人際關係同娛樂。Lock in模式。睇完好似返工做GI report咁孤獨lol。肥仔信應該會tag我🙏",
-          "text_en_b1": "Winter Arc starts today, anons. Lock in. Rule one is gym six times a week, weightlifting and exercise mandatory. Rule two is early mornings, wake up at 5:30 AM. Rule three is no social relationships, cut off all human contact including friendships or basic interactions. Rule four is no distractions, no Netflix, no social media. Pure grind mode.",
-          "text_en_b2": "Winter Arc kicks off today, anons, so buckle down and lock in. Rule one demands hitting the gym six days a week, with lifting and cardio non-negotiable. Rule two mandates dragging yourselves awake at 5:30 AM without fail. Rule three requires cutting off every human relationship, severing friendships and basic interactions alike. Rule four bans all distractions, no Netflix, no social media. Pure, monastic grind mode from here on out.",
-          "text_en_c1": "The Winter Arc commences today, and anons are being urged to enter what can only be described as monastic mode. The prescribed regimen is unforgiving: six weightlifting sessions per week, an alarm set for 5:30 AM, and a comprehensive severance of all social ties, friendships, and casual interactions. Entertainment, Netflix, and social media are likewise proscribed, ostensibly to eliminate every conceivable distraction. The prevailing philosophy is one of pure, grinding self-discipline. Whether this constitutes genuine transformation or merely a fashionable bout of seasonal masochism remains debatable, though the poster clearly believes that anyone not currently subscribed to the lifestyle will inevitably regret their complacency.",
-          "text_en_c2": "Winter Arc commences today, anons, and the regimen, as enumerated, permits no negotiation with the self. Six sessions per week in the gym are mandatory, the weights themselves being non-negotiable, and the alarm is fixed at 5:30 AM regardless of whatever nocturnal indulgences preceded it. Interpersonal relationships are to be excised entirely, friendships and incidental human contact alike suspended for the duration, while all forms of recreational distraction, whether streaming platforms, social media, or comparable ephemera, must be relinquished without ceremony. The poster acknowledges that the resulting existence resembles a glorified graduate internship in solitude, and yet the commitment, in his framing, is the prerequisite condition for any meaningful transformation. The fat-admirer forum, he suspects, will notice his absence.",
-          "source_url": "https://boards.4chan.org/fit/thread/77546639",
-          "source_hint": "/fit/ Winter Arc 2026 announcement thread"
-        },
-        {
-          "id": "anime-raildex",
-          "category": "anime/culture",
-          "topic_zh": "Raildex新ITEM動畫",
-          "topic_en": "Raildex ITEM anime",
-          "text_zh": "Raildex新ITEM動畫10月9號開播，第7卷輕說同步出。Final Railgun漫畫第21卷10月27號出，封面畀人話好難睇lol。仲有新Mental Out章，10月3號ABEMA有提前放映。睇完好想唔返工🧐",
-          "text_en_b1": "Raildex news. The new ITEM anime starts on October 9th, with an advance screening of the first episode on October 3rd on ABEMA. The ITEM anime will have 11 episodes. The 7th ITEM novel also releases on October 9th. The final Railgun manga volume 21 comes out October 27th. The cover of the final Railgun volume is causing controversy online for looking bad.",
-          "text_en_b2": "Raildex updates for the anons out there. The freshly announced ITEM anime premieres October 9th, with an early screening of the opener dropping on October 3rd over on ABEMA. The series clocks in at eleven episodes total, and the seventh ITEM light novel also lands on October 9th. Meanwhile, the final Railgun manga volume 21 hits shelves October 27th, though its cover is already getting dragged online for looking hideous.",
-          "text_en_c1": "The Raildex franchise is rolling out an unusually concentrated slate of releases this autumn, much to the evident anticipation of longtime fans. The new ITEM anime adaptation premieres on October 9th, with an advance screening of its inaugural episode available on ABEMA from October 3rd, and the series is confirmed to run for eleven episodes. The seventh ITEM light novel volume will launch concurrently on October 9th. Meanwhile, the concluding Railgun manga volume 21, slated for October 27th, has already generated controversy, primarily directed at what many consider an unflattering cover design. An additional Mental Out chapter rounds out the calendar.",
-          "text_en_c2": "A compendium of Raildex-related intelligence has surfaced, and fans of the franchise may wish to organise their October calendars accordingly. The ITEM anime commences broadcast on the ninth, with an advance screening of its inaugural episode afforded to ABEMA subscribers three days earlier, the full run totalling eleven episodes. Volume seven of the ITEM light novel arrives in tandem with the broadcast premiere. Separately, the twenty-first and ostensibly final volume of the Railgun manga emerges on the twenty-seventh, though its cover artwork has already attracted considerable opprobrium from aesthetically exacting devotees. A fresh Mental Out chapter likewise beckons, and the cumulative effect of such relentless intellectual property deployment is, predictably, an intensified yearning to abandon professional obligations entirely.",
-          "source_url": "https://boards.4chan.org/a/thread/291336888",
-          "source_hint": "/a/ Raildex news dump covering ITEM anime, novels, and Railgun final volume"
         }
       ]
     }
