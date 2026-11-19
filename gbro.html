@@ -75,44 +75,67 @@
 </div>
 <script>
 const KEY = 'ss.gbro.v1';
-const SAMPLE = {
-  id: 'hololive-pun',
-  title: 'Hololive 雙關語冷笑話',
-  source: 'Kahng · Hololive collab',
-  items: [
-    { word: 'score', gloss: '得分', ipa: '/skɔː/', en: 'We got to score.', zh: '我們得要得分。' },
-    { word: 'idols', gloss: '偶像', ipa: '/ˈaɪdlɪz/', en: 'The idols are dancing around.', zh: '偶像們正在跳舞。' },
-    { word: 'click to die', gloss: '點擊死亡', ipa: '', en: 'They said click to die.', zh: '他們說點擊就死。' },
-    { word: 'die', gloss: '死、掛掉', ipa: '/daɪ/', en: 'I did die.', zh: '我真的掛了。' },
-    { word: 'roll', gloss: '擲、滾', ipa: '/rəʊl/', en: "Let's roll.", zh: '來擲吧。' },
-    { word: 'dice roll', gloss: '擲骰子', ipa: '', en: 'Dice roll.', zh: '擲骰子。' },
-    { word: 'not bad', gloss: '還不錯', ipa: '', en: "Four. That's not bad.", zh: '四點，還不錯。' },
-    { word: 'square', gloss: '格子', ipa: '/skweə/', en: 'Not every square is safe.', zh: '不是每個格子都安全。' },
-    { word: 'mirror', gloss: '鏡子', ipa: '/ˈmɪrə/', en: 'That mirror is very helpful.', zh: '那面鏡子很有用。' },
-    { word: 'shattered', gloss: '破碎的', ipa: '/ˈʃætəd/', en: "It's shattered now.", zh: '它現在碎了。' },
-    { word: 'broken', gloss: '壞了、碎了', ipa: '/ˈbrəʊkən/', en: 'Oh, the mirror IS BROKEN.', zh: '哦，鏡子真的碎了。' },
-    { word: 'shattered legend', gloss: '破碎傳奇', ipa: '', en: 'I AM THE SHATTERED LEGEND.', zh: '我就是破碎傳奇。' },
-    { word: 'Pharaoh', gloss: '法老', ipa: '/ˈfeərəʊ/', en: 'I think this is just the Pharaoh area.', zh: '我覺得這只是法老區域。' },
-    { word: 'annoyed', gloss: '煩惱的', ipa: '/əˈnɔɪd/', en: 'Pharaoh annoyed.', zh: '法老煩了。' },
-    { word: 'Monopoly', gloss: '大富翁', ipa: '/məˈnɒpəli/', en: 'MONOPOLY AND THE MANNEQUIN GOT YOU.', zh: '大富翁和人體模型抓到你了。' },
-    { word: 'mannequin', gloss: '人體模型', ipa: '/ˈmænɪkɪn/', en: 'MONOPOLY AND THE MANNEQUIN GOT YOU.', zh: '大富翁和人體模型抓到你了。' },
-    { word: 'moon running', gloss: '月球奔跑', ipa: '', en: "She's moon running.", zh: '她在月球奔跑。' },
-    { word: 'cocoon', gloss: '繭', ipa: '/kəˈkuːn/', en: "I can't get out of this cocoon.", zh: '我出不了這個繭。' },
-    { word: 'bugged about it', gloss: '為此煩惱', ipa: '', en: "so no one's going to be BUGGED ABOUT IT.", zh: '所以沒有人會為此煩惱。' },
-    { word: 'skip', gloss: '跳過', ipa: '/skɪp/', en: 'DO WE NEED THOSE skips something or', zh: '我們需要那些跳過嗎。' },
-    { word: 'basketball', gloss: '籃球', ipa: '/ˈbɑːskɪtbɔːl/', en: "It's just her basketball.", zh: '那只是她的籃球。' },
-    { word: 'Kobe', gloss: '科比（雙關）', ipa: '/ˈkəʊbi/', en: 'What does he want, Kobe?', zh: '他想要什麼，科比？' },
-    { word: 'shoot', gloss: '投、射', ipa: '/ʃuːt/', en: 'Shoot.', zh: '投。' },
-    { word: 'throw', gloss: '扔', ipa: '/θrəʊ/', en: 'How do you throw it?', zh: '你怎麼扔？' },
-    { word: 'hold', gloss: '拿住', ipa: '/həʊld/', en: 'You have to hold it.', zh: '你得拿住它。' },
-    { word: 'try again', gloss: '再試一次', ipa: '', en: 'Try again, Kobo. Oh, nice one.', zh: '再試一次，Kobo。哦，不錯。' },
-    { word: 'nice one', gloss: '不錯', ipa: '', en: 'Try again, Kobo. Oh, nice one.', zh: '再試一次，Kobo。哦，不錯。' },
-    { word: 'distraction', gloss: '分心', ipa: '/dɪˈstrækʃn/', en: 'I was distracted by the man.', zh: '我被那個人分心了。' },
-    { word: 'helpful', gloss: '有幫助的', ipa: '/ˈhelpfəl/', en: 'That mirror is very helpful.', zh: '那面鏡子很有用。' },
-    { word: 'excitement', gloss: '興奮', ipa: '/ɪkˈsaɪtmənt/', en: 'too much excitement.', zh: '太興奮了。' }
-  ],
-  created: '2026-11-19'
-};
+const SAMPLES = [
+  {
+    id: 'hololive-pun',
+    title: 'Hololive 雙關語冷笑話',
+    source: 'Kahng · Hololive collab',
+    items: [
+      { word: 'score', gloss: '得分', ipa: '/skɔː/', en: 'We got to score.', zh: '我們得要得分。' },
+      { word: 'idols', gloss: '偶像', ipa: '/ˈaɪdlɪz/', en: 'The idols are dancing around.', zh: '偶像們正在跳舞。' },
+      { word: 'click to die', gloss: '點擊死亡', ipa: '', en: 'They said click to die.', zh: '他們說點擊就死。' },
+      { word: 'die', gloss: '死、掛掉', ipa: '/daɪ/', en: 'I did die.', zh: '我真的掛了。' },
+      { word: 'roll', gloss: '擲、滾', ipa: '/rəʊl/', en: "Let's roll.", zh: '來擲吧。' },
+      { word: 'dice roll', gloss: '擲骰子', ipa: '', en: 'Dice roll.', zh: '擲骰子。' },
+      { word: 'not bad', gloss: '還不錯', ipa: '', en: "Four. That's not bad.", zh: '四點，還不錯。' },
+      { word: 'square', gloss: '格子', ipa: '/skweə/', en: 'Not every square is safe.', zh: '不是每個格子都安全。' },
+      { word: 'mirror', gloss: '鏡子', ipa: '/ˈmɪrə/', en: 'That mirror is very helpful.', zh: '那面鏡子很有用。' },
+      { word: 'shattered', gloss: '破碎的', ipa: '/ˈʃætəd/', en: "It's shattered now.", zh: '它現在碎了。' },
+      { word: 'broken', gloss: '壞了、碎了', ipa: '/ˈbrəʊkən/', en: 'Oh, the mirror IS BROKEN.', zh: '哦，鏡子真的碎了。' },
+      { word: 'shattered legend', gloss: '破碎傳奇', ipa: '', en: 'I AM THE SHATTERED LEGEND.', zh: '我就是破碎傳奇。' },
+      { word: 'Pharaoh', gloss: '法老', ipa: '/ˈfeərəʊ/', en: 'I think this is just the Pharaoh area.', zh: '我覺得這只是法老區域。' },
+      { word: 'annoyed', gloss: '煩惱的', ipa: '/əˈnɔɪd/', en: 'Pharaoh annoyed.', zh: '法老煩了。' },
+      { word: 'Monopoly', gloss: '大富翁', ipa: '/məˈnɒpəli/', en: 'MONOPOLY AND THE MANNEQUIN GOT YOU.', zh: '大富翁和人體模型抓到你了。' },
+      { word: 'mannequin', gloss: '人體模型', ipa: '/ˈmænɪkɪn/', en: 'MONOPOLY AND THE MANNEQUIN GOT YOU.', zh: '大富翁和人體模型抓到你了。' },
+      { word: 'moon running', gloss: '月球奔跑', ipa: '', en: "She's moon running.", zh: '她在月球奔跑。' },
+      { word: 'cocoon', gloss: '繭', ipa: '/kəˈkuːn/', en: "I can't get out of this cocoon.", zh: '我出不了這個繭。' },
+      { word: 'bugged about it', gloss: '為此煩惱', ipa: '', en: "so no one's going to be BUGGED ABOUT IT.", zh: '所以沒有人會為此煩惱。' },
+      { word: 'skip', gloss: '跳過', ipa: '/skɪp/', en: 'DO WE NEED THOSE skips something or', zh: '我們需要那些跳過嗎。' },
+      { word: 'basketball', gloss: '籃球', ipa: '/ˈbɑːskɪtbɔːl/', en: "It's just her basketball.", zh: '那只是她的籃球。' },
+      { word: 'Kobe', gloss: '科比（雙關）', ipa: '/ˈkəʊbi/', en: 'What does he want, Kobe?', zh: '他想要什麼，科比？' },
+      { word: 'shoot', gloss: '投、射', ipa: '/ʃuːt/', en: 'Shoot.', zh: '投。' },
+      { word: 'throw', gloss: '扔', ipa: '/θrəʊ/', en: 'How do you throw it?', zh: '你怎麼扔？' },
+      { word: 'hold', gloss: '拿住', ipa: '/həʊld/', en: 'You have to hold it.', zh: '你得拿住它。' },
+      { word: 'try again', gloss: '再試一次', ipa: '', en: 'Try again, Kobo. Oh, nice one.', zh: '再試一次，Kobo。哦，不錯。' },
+      { word: 'nice one', gloss: '不錯', ipa: '', en: 'Try again, Kobo. Oh, nice one.', zh: '再試一次，Kobo。哦，不錯。' },
+      { word: 'distraction', gloss: '分心', ipa: '/dɪˈstrækʃn/', en: 'I was distracted by the man.', zh: '我被那個人分心了。' },
+      { word: 'helpful', gloss: '有幫助的', ipa: '/ˈhelpfəl/', en: 'That mirror is very helpful.', zh: '那面鏡子很有用。' },
+      { word: 'excitement', gloss: '興奮', ipa: '/ɪkˈsaɪtmənt/', en: 'too much excitement.', zh: '太興奮了。' }
+    ],
+    created: '2026-11-19'
+  },
+  {
+    id: 'd-day',
+    title: 'The Real D-Day in Color',
+    source: 'DroneScapes · narration',
+    items: [
+      { word: 'breach', gloss: '突破、衝破', ipa: '/briːtʃ/', en: 'The shores of fortress Europe had to be breached.', zh: '要塞歐洲的海岸必須被突破。' },
+      { word: 'amphibious armada', gloss: '兩棲艦隊', ipa: '/æmˈfɪbiəs ɑːˈmɑːdə/', en: 'The greatest amphibious armada in human history was quietly gathering strength.', zh: '人類歷史上最龐大的兩棲艦隊正在悄悄集結力量。' },
+      { word: 'logistical nightmare', gloss: '後勤噩夢', ipa: '', en: 'The immense logistical nightmare of Operation Overlord is laid bare.', zh: '霸王行動龐大的後勤噩夢被徹底揭露。' },
+      { word: 'into the teeth of', gloss: '直衝……的鋒芒', ipa: '', en: 'They were heading into the teeth of the German defenses.', zh: '他們正衝向德軍防禦的利齒。' },
+      { word: 'soften defenses', gloss: '削弱防禦', ipa: '', en: 'Allied planes continued to soften enemy defenses in daily raids.', zh: '盟軍飛機每天持續空襲，削弱敵軍防禦。' },
+      { word: 'embark', gloss: '登船', ipa: '/ɪmˈbɑːk/', en: 'Troops embark on LCVP to be ferried to the waiting transports offshore.', zh: '部隊登上 LCVP，被駁運到外海等待的運輸艦。' },
+      { word: 'screen the fleet', gloss: '掩護艦隊', ipa: '', en: 'Fast warships screen the mighty invasion fleet from enemy raiders.', zh: '快速戰艦為龐大的入侵艦隊提供屏障。' },
+      { word: 'beachheads', gloss: '灘頭陣地', ipa: '/ˈbiːtʃhedz/', en: 'Officers study the maps that mark the invasion beachheads on the coast of Normandy.', zh: '軍官研究標示諾曼第海岸入侵灘頭的地圖。' },
+      { word: 'crossfire', gloss: '交叉火力', ipa: '/ˈkrɒsfaɪə/', en: 'The crossfire of German guns still rakes the shore.', zh: '德軍槍砲的交叉火力仍掃射岸邊。' },
+      { word: 'push the enemy back', gloss: '將敵軍擊退', ipa: '', en: 'More troops move inland to push the enemy back.', zh: '越來越多部隊向內陸推進，將敵軍擊退。' },
+      { word: 'artificial harbors', gloss: '人工港口', ipa: '', en: 'Out of sunken blockships, artificial harbors have been built.', zh: '由沉沒的封鎖船建成人工港口。' },
+      { word: 'barrage balloons', gloss: '阻塞氣球', ipa: '/ˈbærɑːʒ bəˈluːnz/', en: 'You notice the barrage balloons in the background.', zh: '你注意到背景中的阻塞氣球。' },
+      { word: 'foxholes', gloss: '散兵坑', ipa: '/ˈfɒkshəʊlz/', en: 'The men dug foxholes.', zh: '士兵挖掘散兵坑。' }
+    ],
+    created: '2026-11-19'
+  }
+];
 const STEPS = [
   { id:'rate', name:'RATE', hint:'聽一次，評自己明幾多。' },
   { id:'grasp', name:'GRASP', hint:'再聽。用自己嘅字寫意思，再揭示。' },
@@ -126,7 +149,9 @@ const STEPS = [
 let state = { view:'list', packs:[], current:null, itemIdx:0, stepIdx:0, rating:0, reveal:false, hideText:false };
 function load(){
   try { state.packs = JSON.parse(localStorage.getItem(KEY)||'[]'); } catch { state.packs = []; }
-  if (!state.packs.some(p => p.id === SAMPLE.id)) state.packs.unshift(SAMPLE);
+  SAMPLES.forEach(sample => {
+    if (!state.packs.some(p => p.id === sample.id)) state.packs.unshift(sample);
+  });
 }
 function save(){ localStorage.setItem(KEY, JSON.stringify(state.packs)); }
 function applyTheme(dark){
@@ -184,7 +209,7 @@ function renderList(){
     const n = (p.items||[]).length;
     return '<button class="pack" data-id="'+p.id+'"><div class="title">'+esc(p.title)+'</div><div class="meta">'+n+' 詞 · '+(p.source||'local')+'</div></button>';
   }).join('');
-  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Hololive sample 係示範。</p></div>';
+  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Hololive 同 D-Day 係示範。</p></div>';
 }
 function renderAdd(){
   return '<div class="card"><h1>加詞包</h1><label class="label">標題</label><input id="title" type="text" placeholder="例如 Breaking Bad S02E03"><label class="label" style="margin-top:12px">詞表（一行一條：word|gloss|ipa|en|zh 或 Anki CSV 或單純英文句）</label><textarea id="text" placeholder="breach|突破|/briːtʃ/|The shores had to be breached.|海岸必須被突破。\n或直接貼 Anki CSV"></textarea><div class="btn-row" style="margin-top:14px"><button class="btn btn-primary" id="btn-save">儲存</button><button class="btn" id="btn-cancel">取消</button></div></div>';
@@ -194,7 +219,7 @@ function renderPack(){
   if (!p) return '';
   const items = p.items || [];
   const rows = items.map((it,i) => '<div class="item"><div class="word">'+(it.word?esc(it.word):'#'+(i+1))+(it.ipa?' <span style="color:var(--ink-faint);font-weight:400;font-size:13px">'+esc(it.ipa)+'</span>':'')+'</div>'+(it.gloss?'<div class="gloss">'+esc(it.gloss)+'</div>':'')+'<div class="en">'+esc(it.en)+'</div>'+(it.zh?'<div class="zh">'+esc(it.zh)+'</div>':'')+'<div class="btn-row" style="margin-top:10px"><button class="btn btn-primary" data-start="'+i+'">練呢句</button><button class="btn" data-play="'+i+'">聽</button></div></div>').join('');
-  return '<div class="card"><h1>'+esc(p.title)+'</h1><p class="lead">'+(p.source||'')+' · '+items.length+' 詞</p>'+rows+'<div class="btn-row" style="margin-top:8px"><button class="btn" id="btn-back">← 詞包</button>'+(p.id!==SAMPLE.id?'<button class="btn" id="btn-del" style="color:var(--danger)">刪除</button>':'')+'</div></div>';
+  return '<div class="card"><h1>'+esc(p.title)+'</h1><p class="lead">'+(p.source||'')+' · '+items.length+' 詞</p>'+rows+'<div class="btn-row" style="margin-top:8px"><button class="btn" id="btn-back">← 詞包</button>'+(SAMPLES.some(s=>s.id===p.id)?'':'<button class="btn" id="btn-del" style="color:var(--danger)">刪除</button>')+'</div></div>';
 }
 function renderStudy(){
   const p = state.current;
