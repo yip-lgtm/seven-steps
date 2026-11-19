@@ -93,7 +93,7 @@
     </div>
     <audio id="player" controls preload="none"></audio>
     <div class="status" id="status">載入歷史檔…</div>
-    <p class="note">背景播放：B1–C2 錄音可以鎖屏繼續。A1/A2 係手機語音，部分手機會咺完全切走後暫停，返嚟會自動接。</p>
+    <p class="note">背景播放：B1–C2 錄音可以鎖屏繼續。A1/A2 係手機語音，部分手機會咥完全切走後暫停，返嚕會自動接。</p>
   </div>
 </div>
 <script>
@@ -277,17 +277,22 @@ if ('mediaSession' in navigator) {
   navigator.mediaSession.setActionHandler('previoustrack', () => { state.i = Math.max(0, state.i - 1); playCurrent(true); });
 }
 async function loadPool() {
-  const res = await fetch('clips/history.json?v=20261005b');
-  const data = await res.json();
-  const days = data.days || [];
-  state.pool = [];
-  days.forEach(day => (day.clips || []).forEach(c => {
-    if (c.text_en_b1 || c.text_en_b2 || c.text_en_c1 || c.text_en_c2) state.pool.push(Object.assign({ _date: day.date }, c));
-  }));
-  shuffle();
-  $('status').textContent = state.pool.length + ' 則 · ' + days.length + ' 日 · 隨機循環';
+  try {
+    const res = await fetch('clips/history.json?v=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    const days = data.days || [];
+    state.pool = [];
+    days.forEach(day => (day.clips || []).forEach(c => {
+      if (c.text_en_b1 || c.text_en_b2 || c.text_en_c1 || c.text_en_c2) state.pool.push(Object.assign({ _date: day.date }, c));
+    }));
+    shuffle();
+    $('status').textContent = state.pool.length + ' 則 · ' + days.length + ' 日 · 隨機循環';
+  } catch (err) {
+    $('status').textContent = '載入失敗：' + err.message + ' · 試下硬刷新';
+  }
 }
-loadPool().catch(err => { $('status').textContent = '載入失敗：' + err.message; });
+loadPool();
 </script>
 </body>
 </html>
