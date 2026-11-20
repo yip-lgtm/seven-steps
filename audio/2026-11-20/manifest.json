@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-20",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-selloff",
+      "topic_en": "Everything Is Down",
+      "topic_zh": "五大市場齊跌",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-selloff-b1.mp3",
+        "b2": "clip-trade-macro-selloff-b2.mp3",
+        "c1": "clip-trade-macro-selloff-c1.mp3",
+        "c2": "clip-trade-macro-selloff-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-grok-musk",
+      "topic_en": "Grok and Musk Trouble",
+      "topic_zh": "Grok同Musk疑雲",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-grok-musk-b1.mp3",
+        "b2": "clip-trade-grok-musk-b2.mp3",
+        "c1": "clip-trade-grok-musk-c1.mp3",
+        "c2": "clip-trade-grok-musk-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-slope-factor",
+      "topic_en": "Slope Safety by Numbers",
+      "topic_zh": "斜坡安全唔靠估",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-slope-factor-b1.mp3",
+        "b2": "clip-civil-slope-factor-b2.mp3",
+        "c1": "clip-civil-slope-factor-c1.mp3",
+        "c2": "clip-civil-slope-factor-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-news-nyc",
+      "topic_en": "First Month in NYC",
+      "topic_zh": "紐約住邊安全",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-news-nyc-b1.mp3",
+        "b2": "clip-hk-news-nyc-b2.mp3",
+        "c1": "clip-hk-news-nyc-c1.mp3",
+        "c2": "clip-hk-news-nyc-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-lean-bulk",
+      "topic_en": "Lean Bulk After Cutting",
+      "topic_zh": "廢柴都要Lean Bulk",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-lean-bulk-b1.mp3",
+        "b2": "clip-mma-lean-bulk-b2.mp3",
+        "c1": "clip-mma-lean-bulk-c1.mp3",
+        "c2": "clip-mma-lean-bulk-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬漫畫回歸",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-b1.mp3",
+        "b2": "clip-anime-ranma-b2.mp3",
+        "c1": "clip-anime-ranma-c1.mp3",
+        "c2": "clip-anime-ranma-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-gpu-windows7",
+      "topic_en": "New GPUs on Windows 7",
+      "topic_zh": "舊Windows有新卡救",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-gpu-windows7-b1.mp3",
+        "b2": "clip-ai-gpu-windows7-b2.mp3",
+        "c1": "clip-ai-gpu-windows7-c1.mp3",
+        "c2": "clip-ai-gpu-windows7-c2.mp3"
+      }
+    }
+  ]
+}

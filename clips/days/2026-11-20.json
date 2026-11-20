@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-20",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trade-macro-selloff",
+      "category": "trading",
+      "topic_zh": "五大市場齊跌",
+      "topic_en": "Everything Is Down",
+      "text_zh": "點解成個市場咁離譜？Gold、stocks、crypto、oil、bonds，連五大類都一齊跌。按正常散戶幻想，總有一個應該升，but no。再咁蝕，差啲變成 prop firm tuition，靠AI續命。",
+      "text_en_b1": "WHY IS EVERYTHING DOWN? Gold, stocks, crypto, oil, and bonds are all falling. These are the big five assets. Normally, when one market falls, another should rise. But tonight, all five are down at the same time. It feels like every CFD position is bleeding.",
+      "text_en_b2": "Why is the entire market behaving so ridiculously? Gold, stocks, crypto, oil and bonds—the big five asset classes—are all falling together. Normally, when one market drops, another should pick up the slack, but tonight every CFD position seems to be bleeding. At this rate, I will be paying prop firm tuition soon and relying on AI to keep the account alive.",
+      "text_en_c1": "Why is the entire market behaving so irrationally? Gold, stocks, crypto, oil, and bonds—the big five asset classes—are all falling at once. Ordinarily, if one market weakens, another should offer refuge, but tonight every CFD position appears to be bleeding. Even the usual retail logic that diversification should provide protection has collapsed. At this rate, a prop firm tuition bill may be harder to stomach than the losses. Either someone is deliberately dismantling the market, or investors have suddenly realised that these supposedly unrelated assets were never independent in the first place.",
+      "text_en_c2": "Why is the entire market behaving as though it has collectively lost its mind? Gold, equities, cryptocurrency, crude oil, and government bonds—the big five asset classes—are falling in unison. In the textbook world, strength in one market should offset weakness elsewhere, yet tonight every CFD position seems to be bleeding at once. It is the kind of synchronised rout that makes retail investors start hunting for some hidden rotation or contrarian trade. If this persists, the joke about prop-firm tuition becomes uncomfortably realistic, with artificial intelligence presumably helping us survive long enough to pay it.",
+      "source_url": "https://boards.4chan.org/biz/thread/62925754",
+      "source_hint": "A /biz/ poster asks why all five major asset classes are falling together."
+    },
+    {
+      "id": "trade-grok-musk",
+      "category": "trading",
+      "topic_zh": "Grok同Musk疑雲",
+      "topic_en": "Grok and Musk Trouble",
+      "text_zh": "有人話Grok一直trailing，所以Musk先sell compute畀競爭對手，俾佢哋reverse engineer同偷偷研究模型。Neuralink、SpaceX都照搞，唔知條tech line仲可唔可信。Musk stock要小心，唔係淨係講笑。",
+      "text_en_b1": "Possibility: Grok is failing, and so is Musk. Grok may be trailing or failing, while Musk sells compute to competitors. They can reverse engineer the software and infer the inner workings of his models. If that is true, Tesla and SpaceX investors need to examine the risk.",
+      "text_en_b2": "One possibility is that Grok is failing badly, although that does not necessarily mean Musk is failing with it. If Grok is trailing its rivals, Musk may be selling compute to competitors, allowing them to reverse engineer the software and infer how the models work internally. Neuralink, SpaceX and Tesla are still proceeding, but investors should seriously examine the risk rather than dismiss it as a joke.",
+      "text_en_c1": "One possibility is that Grok is underperforming badly and Musk is consequently selling computing capacity to competitors. Once they obtain the software, they can reverse engineer it, infer how the models work, and quietly investigate their weaknesses. If that interpretation is correct, it raises uncomfortable questions for anyone who has treated Neuralink, SpaceX, or Tesla as part of one credible technology empire. Investors should examine the risk rather than dismiss the issue as routine business criticism. Musk’s stock may be particularly vulnerable if technical leadership cannot be independently verified.",
+      "text_en_c2": "One possibility is that Grok is faltering and, by extension, so is Musk. If Grok is trailing its rivals or failing outright, Musk may be selling access to scarce computing capacity to competitors, enabling them to reverse-engineer the software and infer the inner workings of his models. That would be more than an embarrassingly technical problem; it would raise serious questions about the defensibility of his wider technological strategy. Neuralink and SpaceX may continue apace, but investors should no longer assume that every venture in his portfolio rests on equally solid engineering. Tesla and SpaceX shareholders ought to examine that risk rather than dismiss it.",
+      "source_url": "https://boards.4chan.org/biz/thread/62932020",
+      "source_hint": "A /biz/ post argues that Grok's failure and Musk's compute sales may be connected."
+    },
+    {
+      "id": "civil-slope-factor",
+      "category": "civil/structure",
+      "topic_zh": "斜坡安全唔靠估",
+      "topic_en": "Slope Safety by Numbers",
+      "text_zh": "隔籬有人問可唔可以將斜坡安全交畀AI。靠，靠AI續命可以，factor of safety就唔可以亂靠。GI report要睇 soil condition、groundwater同 load path，drainage同 soil nailing都要一齊 check。",
+      "text_en_b1": "Engineering judgment still matters on every slope. GI reports need real soil data, groundwater information, and the correct load path. Drainage, soil nailing, and factor of safety must also be checked. AI can help organize the data, but it cannot replace engineering judgment.",
+      "text_en_b2": "Can slope safety really be left to AI? Sure, AI might keep the report alive, but the factor of safety cannot be delegated carelessly. A proper geotechnical investigation requires reliable information about soil conditions, groundwater and the load path. Drainage, soil nailing and the final factor of safety must also be checked. AI can organise the data, yet it cannot replace sound engineering judgment.",
+      "text_en_c1": "Slope safety cannot be delegated to AI, although AI may be useful for organising the relevant information. Every engineering assessment still requires sound judgment, particularly when deciding whether a factor of safety is appropriate. The geotechnical investigation report must establish real soil conditions, groundwater levels, and the load path through the slope. Drainage provisions, soil nailing, and the overall factor of safety also need to be checked rather than inferred from generic assumptions. If the supporting data are incomplete or unreliable, no algorithm can manufacture a defensible conclusion; it can only make an unsupported recommendation sound deceptively authoritative.",
+      "text_en_c2": "No, engineering judgment still matters on every slope, even if artificial intelligence is willing to lend a hand. A geotechnical investigation report must be grounded in reliable soil data, clearly established groundwater conditions, and a correct understanding of the load path. Drainage, soil nailing, reinforcement, and the appropriate factor of safety cannot simply be delegated to a model and then treated with unearned confidence. AI can usefully organise observations, compare scenarios, flag inconsistencies, and accelerate preliminary calculations; it cannot substitute for professional judgment, site-specific assessment, or accountability when the consequences of an error are potentially catastrophic.",
+      "source_url": "https://boards.4chan.org/g/thread/110365095",
+      "source_hint": "A /g/ user asks which technical path to take while working remotely."
+    },
+    {
+      "id": "hk-news-nyc",
+      "category": "hk/news",
+      "topic_zh": "紐約住邊安全",
+      "topic_en": "First Month in NYC",
+      "text_zh": "第一次去紐約住一個月，想體驗下day-to-day life。ChatGPT叫佢去Astoria，anomo又建議Upper East Side。香港咁迫住都冇乜所謂，去到美國反而要計安全同人種，wtf。",
+      "text_en_b1": "NYC. I'll be staying in NYC for a little over a month, and it will be my first time there. Where is a good, safe place to experience day-to-day life? ChatGPT told me to stay in Astoria. But what about the Upper East Side? Please advise.",
+      "text_en_b2": "NYC. I will be staying in the city for a little over a month, and it will be my first time experiencing day-to-day life there. ChatGPT recommended Astoria, while Anomo suggested the Upper East Side. Could someone advise on a good, safe place to stay? In Hong Kong, crowding is a problem, but in America I now have to calculate safety and demographics as well.",
+      "text_en_c1": "I’m going to New York for a little over a month, and it will be my first time there, so I would like advice on where to stay safely while experiencing ordinary day-to-day life. ChatGPT suggested Astoria, while anomo recommended the Upper East Side. The latter may offer a more central base, although safety and the demographic mix are both factors I have never had to consider in Hong Kong, where most people simply tolerate crowded living conditions. It feels absurd that someone accustomed to such density should suddenly be calculating these risks in America. Any firsthand recommendations would be welcome.",
+      "text_en_c2": "I am heading to New York for a little over a month, and it will be my first time there, so I would like to experience ordinary day-to-day life rather than merely tick off the usual tourist sights. ChatGPT has recommended Astoria, while anomo has suggested the Upper East Side. I would be grateful for advice on which neighbourhood offers a good combination of convenience, safety, and an authentic feel. The contrast is striking: crowding is accepted as a fact of life in Hong Kong, whereas in the United States one apparently has to consider safety and racial demographics before choosing where to live. Any recommendations from people who know the city would be welcome.",
+      "source_url": "https://boards.4chan.org/pol/thread/546516092",
+      "source_hint": "A /pol/ visitor asks where to stay during his first month in New York City."
+    },
+    {
+      "id": "mma-lean-bulk",
+      "category": "mma/fitness",
+      "topic_zh": "廢柴都要Lean Bulk",
+      "topic_en": "Lean Bulk After Cutting",
+      "text_zh": "以前係lardass，想lean bulk真係好難。以前成日busy到冇時間track macros，只係食多啲protein同健康少少嘅嘢。但最驚又fat返，lifts又冇進步。肥仔信今日又叫我入gym，Damn。",
+      "text_en_b1": "Hi /fit, former lardass here. Can I get a body-fat estimate and some tips for slowly bulking without getting too fat? I struggle to progress with lifting because I am busy and all over the place. I do not track macros, but I try to eat a high-protein, mostly healthy diet.",
+      "text_en_b2": "Hi /fit, former lardass here. Could I get an estimate of my body fat and some advice on bulking up without gaining too much fat? I used to be quite chubby, and lean bulking sounds difficult. Because I am always busy, I never tracked macros; I simply tried to eat more protein and otherwise healthier food. My biggest fear is getting fat again without improving my lifts. The gym called me back today, damn.",
+      "text_en_c1": "Hi /fit, former lardass here, and I would appreciate a rough body-fat estimate alongside some advice on starting a lean bulk. In the past, I tended to eat whatever was available and gradually gained more fat than muscle, which makes deliberate bulking genuinely difficult. I am usually too busy to track macros consistently, although I do try to eat a high-protein, mostly healthy diet and train regularly. My main concern is that, if I increase my intake, I will become fat again without making any meaningful progress in the lifts. Could a former lardass get away with doing little more than eating and hitting the gym?",
+      "text_en_c2": "Hi /fit, former lardass here, and I would like to put my finances where my mouth is by trying a slow lean bulk. Unfortunately, that transition is far more difficult than simply eating a little more, particularly when my training, work, and schedule leave little room for meticulous tracking. I do not currently count macros, although I try to maintain a high-protein diet based mostly on healthier foods. My main concern is that a surplus of calories will simply translate into renewed fat gain while my lifts stagnate, which would make the whole endeavour rather pointless. I am finally being dragged back to the gym, so any practical advice would be extremely welcome.",
+      "source_url": "https://boards.4chan.org/fit/thread/77621552",
+      "source_hint": "A former overweight lifter asks for body-fat advice and a lean-bulk plan."
+    },
+    {
+      "id": "anime-ranma",
+      "category": "anime/culture",
+      "topic_zh": "亂馬漫畫回歸",
+      "topic_en": "Ranma Storytime",
+      "text_zh": "配合新一季animation開始storytime今次講chapter 78至80。等anom可以一齊睇，比對漫畫同動畫有咩唔同。依家成套動畫都係online discussion必睇，廢物都唔過係想睇下。",
+      "text_en_b1": "Ranma 1/2 storytime. I am going through the manga alongside the new anime season, so everyone can compare the two or experience the story in different ways. Today's chapters are 78 to 80. The discussion is open, and the anime premiere is tonight.",
+      "text_en_b2": "Ranma 1/2 storytime. Since the new anime season has started, I am going through the manga alongside it so that everyone can compare the adaptations or enjoy the story in a different way. Today’s instalment covers chapters 78 through 80. The online discussion is open, and although the premiere is tonight, everyone is welcome to participate. I have been looking forward to this for ages.",
+      "text_en_c1": "Ranma 1/2 storytime. I’m following the manga alongside the new anime season so that we can compare the adaptations, identify their differences, and enjoy the story through two distinct approaches. Today’s instalments cover chapters 78 to 80. I’m posting them here partly because the entire anime has become obligatory viewing for the current online discussion, and partly because I would genuinely like to read what other people think. The premiere is tonight, which makes this a convenient moment to exchange reactions and discuss how faithfully the new season handles the source material.",
+      "text_en_c2": "Ranma 1/2 storytime. With the new anime season under way, I am reading the original manga alongside it so that everyone can compare the two treatments and appreciate the story from different angles. Today’s instalments cover chapters 78 through 80, although I am sure there is plenty of room for detailed discussion about which version handles the material more effectively. As the manga remains a source of constant online debate, each episode is practically obligatory viewing; even the less compelling instalments still give the audience more material to analyse, ridicule, or quietly reinterpret.",
+      "source_url": "https://boards.4chan.org/a/thread/292249167",
+      "source_hint": "An /a/ user begins a Ranma 1/2 storytime covering chapters 78 through 80."
+    },
+    {
+      "id": "ai-gpu-windows7",
+      "category": "tech/ai",
+      "topic_zh": "舊Windows有新卡救",
+      "topic_en": "New GPUs on Windows 7",
+      "text_zh": "Intel Xe、AMD RX 7000同9000、NVIDIA RTX 40同50，經 unofficial WDDM 2 backport，連Windows 7都用到。DirectX 12亦得，10同11真係冇乜存在意義。AI繼續食GPU，舊卡都可能升值，lol。",
+      "text_en_b1": "New GPUs, including Intel Xe, AMD RX 7000 and 9000 series, and NVIDIA RTX 40 and 50 series, now work in Windows 7 with an unofficial WDDM 2 backport. DirectX 12 also works. The poster says there is no real reason to use Windows 10 or 11 anymore.",
+      "text_en_b2": "New graphics cards, including Intel Xe, AMD RX 7000 and 9000 series, and NVIDIA RTX 40 and 50 series, can now run on Windows 7 through an unofficial WDDM 2 backport. DirectX 12 works as well. According to the poster, there is therefore no real reason to use Windows 10 or 11. As AI continues to consume GPUs, even older cards may become more valuable, lol.",
+      "text_en_c1": "New GPUs, including Intel Xe cards, AMD’s RX 7000 and 9000 series, and NVIDIA’s RTX 40 and 50 series, can now operate in Windows 7 through an unofficial WDDM 2 backport. DirectX 12 also works, according to the poster, who concludes that there is no compelling reason to remain on Windows 10 or 11. That is a striking development for anyone willing to run an unsupported system, especially since continued AI demand may gradually increase the value of older graphics hardware. The workaround may not be suitable for ordinary users, but it certainly gives vintage PCs a new lease of life.",
+      "text_en_c2": "Modern graphics cards are now usable in Windows 7 after all. An unofficial WDDM 2 backport enables support for Intel Xe, AMD RX 7000 and 9000 series, and NVIDIA RTX 40 and 50 series hardware, with DirectX 12 also functioning. The poster’s conclusion is blunt: there is ostensibly no compelling reason to prefer Windows 10 or 11, particularly for users who value the continuity of an older system. There is also a broader commercial implication, since artificial intelligence continues to absorb cutting-edge GPU capacity and may drive up demand for otherwise obsolete cards. Whether that will make old hardware more valuable remains uncertain, but the thought is certainly amusing.",
+      "source_url": "https://boards.4chan.org/g/thread/110362653",
+      "source_hint": "A /g/ post describes an unofficial Windows 7 driver backport for modern GPUs."
+    }
+  ]
+}
