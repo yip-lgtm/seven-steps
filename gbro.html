@@ -77,6 +77,33 @@
 const KEY = 'ss.gbro.v1';
 const SAMPLES = [
   {
+    id: 'calli-gta6',
+    title: 'Calli GTA 6 Opinion',
+    source: 'TheRealDreik2 · Mori Calliope',
+    items: [
+      { word: 'have a little chat', gloss: '聊聊天', ipa: '', en: "Let's have a little chat before we get into the game.", zh: '在開始遊戲前先聊聊天。' },
+      { word: 'come upon', gloss: '遇到', ipa: '', en: "We've come upon a really interesting time in our lives.", zh: '我們遇到了人生中非常有趣的時期。' },
+      { word: 'trendy to hate', gloss: '很潮流去討厭', ipa: '', en: 'it is both trendy to hate something and also trendy to like something.', zh: '討厭某樣東西很潮流，喜歡某樣東西也很潮流。' },
+      { word: 'glaze', gloss: '過度吹捧', ipa: '/ɡleɪz/', en: 'It is also so trendy to glaze this game.', zh: '過度吹捧這款遊戲也很潮流。' },
+      { word: 'see for myself', gloss: '自己親眼看', ipa: '', en: "That's why I had to see for myself.", zh: '這就是為什麼我必須自己親眼看。' },
+      { word: 'dead beats', gloss: '懶人/無用的人', ipa: '', en: 'I know all the dead beats saying, "Oh, Callie doesn\'t care about GTA base."', zh: '我知道那些懶人會說，「哦，Callie 不在意 GTA 基礎。」' },
+      { word: 'form a hard opinion', gloss: '形成堅定看法', ipa: '', en: 'I\'m a person that likes to play things and experience them myself before forming a hard opinion.', zh: '我是那種喜歡自己玩過、親身體驗過再形成堅定看法的人。' },
+      { word: 'blindly following', gloss: '盲目跟從', ipa: '', en: 'instead of just blindly following what people say about something.', zh: '而不是盲目跟從別人怎麼說。' },
+      { word: 'don\'t spend', gloss: '別花', ipa: '', en: "don't spend 80 bucks on a game that you don't think that you're going to like.", zh: '別花 80 塊買一款你覺得自己不會喜歡的遊戲。' },
+      { word: 'brutally honest', gloss: '非常誠實', ipa: '', en: 'So, I\'m going to be brutally honest playing this game.', zh: '所以我玩這款遊戲會非常誠實。' },
+      { word: 'capped at 30 fps', gloss: '鎖定在 30 幀', ipa: '', en: "It's capped at 30 fps.", zh: '它鎖定在 30 幀。' },
+      { word: 'I\'m confused', gloss: '我搞不懂', ipa: '', en: "I'm confused.", zh: '我搞不懂。' },
+      { word: 'I\'m disappointed', gloss: '我失望', ipa: '', en: "I'm disappointed.", zh: '我失望。' },
+      { word: 'FPS snob', gloss: '幀率勢利眼', ipa: '', en: 'Callie\'s become an FPS snob.', zh: 'Callie 變成幀率勢利眼了。' },
+      { word: 'fair shake', gloss: '公平機會', ipa: '', en: "We'll continue giving it a fair shake.", zh: '我們會繼續給它公平的機會。' },
+      { word: 'reasonably fun', gloss: '還算好玩', ipa: '', en: 'I had a reasonably fun time.', zh: '我玩得還算好玩。' },
+      { word: 'try things yourself', gloss: '自己試試', ipa: '', en: "It's important to try things yourself.", zh: '自己試試很重要。' },
+      { word: 'two episode rule', gloss: '兩集規則', ipa: '', en: "I know it's the two episode rule instead of the three episode rule.", zh: '我知道這是兩集規則，而不是三集規則。' },
+      { word: 'I\'m fair', gloss: '我很公平', ipa: '', en: "You know, I'm fair.", zh: '你知道，我很公平。' }
+    ],
+    created: '2026-11-21'
+  },
+  {
     id: 'hololive-gta',
     title: 'Hololive GTA 6 NPC',
     source: 'Gomi Simpington Ch. · Koseki Bijou',
@@ -275,7 +302,7 @@ function renderList(){
     const n = (p.items||[]).length;
     return '<button class="pack" data-id="'+p.id+'"><div class="title">'+esc(p.title)+'</div><div class="meta">'+n+' 詞 · '+(p.source||'local')+'</div></button>';
   }).join('');
-  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Hololive GTA、Iwo Jima、Hololive 雙關語同 D-Day 係示範。</p></div>';
+  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Calli GTA、Hololive GTA、Iwo Jima、Hololive 雙關語同 D-Day 係示範。</p></div>';
 }
 function renderAdd(){
   return '<div class="card"><h1>加詞包</h1><label class="label">標題</label><input id="title" type="text" placeholder="例如 Breaking Bad S02E03"><label class="label" style="margin-top:12px">詞表（一行一條：word|gloss|ipa|en|zh 或 Anki CSV 或單純英文句）</label><textarea id="text" placeholder="breach|突破|/briːtʃ/|The shores had to be breached.|海岸必須被突破。\n或直接貼 Anki CSV"></textarea><div class="btn-row" style="margin-top:14px"><button class="btn btn-primary" id="btn-save">儲存</button><button class="btn" id="btn-cancel">取消</button></div></div>';
