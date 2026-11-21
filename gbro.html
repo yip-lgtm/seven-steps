@@ -77,6 +77,34 @@
 const KEY = 'ss.gbro.v1';
 const SAMPLES = [
   {
+    id: 'saba-gta-house',
+    title: 'Saba GTA House Flipper',
+    source: 'Vtuber Safari · Sameko Saba',
+    items: [
+      { word: 'do a heist', gloss: '做大劫案', ipa: '', en: 'I want to do a heist, Jason.', zh: '我想做大劫案，Jason。' },
+      { word: 'steal', gloss: '偷', ipa: '/stiːl/', en: 'I want to go steal.', zh: '我想去偷。' },
+      { word: 'rob a bank', gloss: '抢銀行', ipa: '', en: 'I want to rob a bank.', zh: '我想抢銀行。' },
+      { word: 'house building game', gloss: '建屋遊戲', ipa: '', en: 'Just silent house building game.', zh: '只是安靜的建屋遊戲。' },
+      { word: 'drywall', gloss: '石膏板', ipa: '/ˈdraɪwɔːl/', en: 'My drill gun putting up the drywall.', zh: '我的鑽槍正在裝石膏板。' },
+      { word: 'game of the year', gloss: '年度最佳遊戲', ipa: '', en: 'Now this is my game of the year.', zh: '而家這是我的年度最佳遊戲。' },
+      { word: 'running and gunning', gloss: '跑同開槍', ipa: '', en: 'I thought there\'d be more running and gunning.', zh: '我以為會有更多跑同開槍。' },
+      { word: 'nighttime construction', gloss: '夜間建築', ipa: '', en: 'little nighttime construction.', zh: '小夜間建築。' },
+      { word: 'power tools', gloss: '電動工具', ipa: '', en: 'I\'m trying to think if I have any like horror stories from using power tools.', zh: '我在想我有沒有用電動工具的恐怖故事。' },
+      { word: 'fix my porch', gloss: '修廊廓', ipa: '', en: 'We got to fix my porch.', zh: '我們要修廊廓。' },
+      { word: 'home gym', gloss: '家庭健身房', ipa: '', en: 'You got like a home gym.', zh: '你有像家庭健身房。' },
+      { word: 'kettle bells', gloss: '壶鈴', ipa: '', en: 'Dude, we got kettle bells, swings.', zh: '伙計，我們有壶鈴、擺動。' },
+      { word: 'shingle a roof', gloss: '鋪屋頂瓦', ipa: '', en: 'I\'ve always wanted to shingle a roof.', zh: '我一直想鋪屋頂瓦。' },
+      { word: 'learn the hard way', gloss: '付出代價學會', ipa: '', en: 'Let me learn the hard way.', zh: '讓我付出代價學會。' },
+      { word: 'house work', gloss: '家務', ipa: '', en: 'Every gamer\'s fantasy house work.', zh: '每個玩家的幻想家務。' },
+      { word: 'taste the testosterone', gloss: '品嘗到睾固酮', ipa: '', en: 'I just taste the testosterone.', zh: '我只是品嘗到睾固酮。' },
+      { word: 'protein shake', gloss: '蛋白粉振波', ipa: '', en: 'No, it\'s the protein shake coming back up.', zh: '不，是蛋白粉振波返上來。' },
+      { word: 'grocery shopping', gloss: '買餓', ipa: '', en: 'Am I grocery shopping in a GTA game?', zh: '我在 GTA 遊戲裡買餓？' },
+      { word: 'I hate being an adult', gloss: '我討厭做大人', ipa: '', en: 'Oh, I hate being an adult.', zh: '哦，我討厭做大人。' },
+      { word: 'fork out', gloss: '支出', ipa: '', en: 'I don\'t want to fork out 500 for a necklace.', zh: '我不想為一條項鏈支出 500。' }
+    ],
+    created: '2026-11-21'
+  },
+  {
     id: 'calli-gta6',
     title: 'Calli GTA 6 Opinion',
     source: 'TheRealDreik2 · Mori Calliope',
@@ -302,7 +330,7 @@ function renderList(){
     const n = (p.items||[]).length;
     return '<button class="pack" data-id="'+p.id+'"><div class="title">'+esc(p.title)+'</div><div class="meta">'+n+' 詞 · '+(p.source||'local')+'</div></button>';
   }).join('');
-  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Calli GTA、Hololive GTA、Iwo Jima、Hololive 雙關語同 D-Day 係示範。</p></div>';
+  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Saba GTA、Calli GTA、Hololive GTA、Iwo Jima、Hololive 雙關語同 D-Day 係示範。</p></div>';
 }
 function renderAdd(){
   return '<div class="card"><h1>加詞包</h1><label class="label">標題</label><input id="title" type="text" placeholder="例如 Breaking Bad S02E03"><label class="label" style="margin-top:12px">詞表（一行一條：word|gloss|ipa|en|zh 或 Anki CSV 或單純英文句）</label><textarea id="text" placeholder="breach|突破|/briːtʃ/|The shores had to be breached.|海岸必須被突破。\n或直接貼 Anki CSV"></textarea><div class="btn-row" style="margin-top:14px"><button class="btn btn-primary" id="btn-save">儲存</button><button class="btn" id="btn-cancel">取消</button></div></div>';
