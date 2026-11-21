@@ -77,6 +77,34 @@
 const KEY = 'ss.gbro.v1';
 const SAMPLES = [
   {
+    id: 'hololive-gta',
+    title: 'Hololive GTA 6 NPC',
+    source: 'Gomi Simpington Ch. · Koseki Bijou',
+    items: [
+      { word: 'money well spent', gloss: '錢花得值', ipa: '', en: 'But it was money well spent, because now I am "Shadow the Hedgehog".', zh: '但這錢花得值，因為現在我是「影到哥」。' },
+      { word: 'what\'s going on', gloss: '發生什麼事', ipa: '', en: 'I need to know what\'s going on.', zh: '我需要知道發生什麼事。' },
+      { word: 'take a picture', gloss: '拍照', ipa: '', en: 'Hello, can you take a picture of all of us?', zh: '你好，你能給我們全部拍張照嗎？' },
+      { word: 'participate', gloss: '參加', ipa: '/pɑːˈtɪsɪpeɪt/', en: 'I want to participate in this.', zh: '我想參加這個。' },
+      { word: 'certainly', gloss: '當然', ipa: '/ˈsɜːtnli/', en: 'Certainly.', zh: '當然。' },
+      { word: 'you are a hero', gloss: '你是英雄', ipa: '', en: 'You are a hero.', zh: '你是英雄。' },
+      { word: 'getting me excited', gloss: '讓我興奮', ipa: '', en: 'Hey buddy, you\'re getting me excited.', zh: '嘿伙計，你讓我興奮起來了。' },
+      { word: 'count to three', gloss: '數到三', ipa: '', en: 'Okay, that\'s the plan. I\'ll count to three, we\'ll drink all at once, and the loser pays.', zh: '好，這就是計劃。我數到三，我們一次過喝完，輸的人付錢。' },
+      { word: 'all at once', gloss: '一次過', ipa: '', en: 'we\'ll drink all at once, and the loser pays.', zh: '我們一次過喝完，輸的人付錢。' },
+      { word: 'the loser pays', gloss: '輸的人付錢', ipa: '', en: 'and the loser pays. Are you ready?', zh: '輸的人付錢。你準備好了嗎？' },
+      { word: 'you look great', gloss: '你看起來很棒', ipa: '', en: 'You look great. Good. We\'re done.', zh: '你看起來很棒。好。我們完成了。' },
+      { word: 'accept defeat', gloss: '接受失敗', ipa: '', en: 'Loser. I lost. Accept defeat.', zh: '輸家。我輸了。接受失敗。' },
+      { word: 'fully prepared', gloss: '完全準備好', ipa: '', en: 'I am fully prepared. Wow. Let\'s go.', zh: '我完全準備好了。哇。走吧。' },
+      { word: 'celebrate with friends', gloss: '同朋友慶祝', ipa: '', en: 'Let\'s celebrate with friends.', zh: '同朋友一起慶祝。' },
+      { word: 'nothing to do with this', gloss: '與此無關', ipa: '', en: 'I have nothing to do with this.', zh: '我與此無關。' },
+      { word: 'not involved', gloss: '沒有參與', ipa: '', en: 'I don\'t know, I\'m not involved in that.', zh: '我不知道，我沒有參與那事。' },
+      { word: 'run into trouble', gloss: '遇到麻煩', ipa: '', en: 'We\'ve run into trouble.', zh: '我們遇到麻煩了。' },
+      { word: 'disrespect', gloss: '不尊敬', ipa: '/ˌdɪsrɪˈspekt/', en: 'Did you see that? Disrespect.', zh: '你看到了嗎？不尊敬。' },
+      { word: 'very immature', gloss: '非常幼稚', ipa: '', en: 'That was very immature.', zh: '那很幼稚。' },
+      { word: 'I only care about', gloss: '我只在意', ipa: '', en: 'I only care about those I love.', zh: '我只在意我愛的人。' }
+    ],
+    created: '2026-11-21'
+  },
+  {
     id: 'iwo-jima',
     title: 'Iwo Jima 1945',
     source: 'The War They Filmed · narration',
@@ -247,7 +275,7 @@ function renderList(){
     const n = (p.items||[]).length;
     return '<button class="pack" data-id="'+p.id+'"><div class="title">'+esc(p.title)+'</div><div class="meta">'+n+' 詞 · '+(p.source||'local')+'</div></button>';
   }).join('');
-  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Iwo Jima、Hololive 同 D-Day 係示範。</p></div>';
+  return '<div class="card"><h1>詞學 gbro</h1><p class="lead">貼 gbro 詞表（CSV 或 word|gloss|ipa|en|zh），用例句走齊七步。</p><div class="btn-row" style="margin-bottom:16px"><button class="btn btn-primary" id="btn-add">+ 加詞包</button></div>'+rows+'<p class="note">詞包只存喺呢部機。Hololive GTA、Iwo Jima、Hololive 雙關語同 D-Day 係示範。</p></div>';
 }
 function renderAdd(){
   return '<div class="card"><h1>加詞包</h1><label class="label">標題</label><input id="title" type="text" placeholder="例如 Breaking Bad S02E03"><label class="label" style="margin-top:12px">詞表（一行一條：word|gloss|ipa|en|zh 或 Anki CSV 或單純英文句）</label><textarea id="text" placeholder="breach|突破|/briːtʃ/|The shores had to be breached.|海岸必須被突破。\n或直接貼 Anki CSV"></textarea><div class="btn-row" style="margin-top:14px"><button class="btn btn-primary" id="btn-save">儲存</button><button class="btn" id="btn-cancel">取消</button></div></div>';
