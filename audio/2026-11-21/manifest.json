@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-21",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "gold-btc-dump",
+      "topic_en": "Everything Is Crashing",
+      "topic_zh": "金銀股齊崩",
+      "category": "trading",
+      "files": {
+        "b1": "clip-gold-btc-dump-b1.mp3",
+        "b2": "clip-gold-btc-dump-b2.mp3",
+        "c1": "clip-gold-btc-dump-c1.mp3",
+        "c2": "clip-gold-btc-dump-c2.mp3"
+      }
+    },
+    {
+      "id": "silver-bet-cost",
+      "topic_en": "Silver Becomes Tuition",
+      "topic_zh": "白銀又係學費",
+      "category": "trading",
+      "files": {
+        "b1": "clip-silver-bet-cost-b1.mp3",
+        "b2": "clip-silver-bet-cost-b2.mp3",
+        "c1": "clip-silver-bet-cost-c1.mp3",
+        "c2": "clip-silver-bet-cost-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-office-work",
+      "topic_en": "AI Does Office Work",
+      "topic_zh": "AI做晒白領",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-office-work-b1.mp3",
+        "b2": "clip-ai-office-work-b2.mp3",
+        "c1": "clip-ai-office-work-c1.mp3",
+        "c2": "clip-ai-office-work-c2.mp3"
+      }
+    },
+    {
+      "id": "china-won-thread",
+      "topic_en": "China Won",
+      "topic_zh": "中國又贏",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-china-won-thread-b1.mp3",
+        "b2": "clip-china-won-thread-b2.mp3",
+        "c1": "clip-china-won-thread-c1.mp3",
+        "c2": "clip-china-won-thread-c2.mp3"
+      }
+    },
+    {
+      "id": "low-bar-squat",
+      "topic_en": "Low Bar Squat Criticism",
+      "topic_zh": "低槓深蹲未必好",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-low-bar-squat-b1.mp3",
+        "b2": "clip-low-bar-squat-b2.mp3",
+        "c1": "clip-low-bar-squat-c1.mp3",
+        "c2": "clip-low-bar-squat-c2.mp3"
+      }
+    },
+    {
+      "id": "baki-mount-touba",
+      "topic_en": "Baki Climbs Mount Toba",
+      "topic_zh": "刃牙決戰巨塔",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-baki-mount-touba-b1.mp3",
+        "b2": "clip-baki-mount-touba-b2.mp3",
+        "c1": "clip-baki-mount-touba-c1.mp3",
+        "c2": "clip-baki-mount-touba-c2.mp3"
+      }
+    },
+    {
+      "id": "sonic-festival-day-two",
+      "topic_en": "Sonic Racing Festival",
+      "topic_zh": "索尼克賽車祭",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-sonic-festival-day-two-b1.mp3",
+        "b2": "clip-sonic-festival-day-two-b2.mp3",
+        "c1": "clip-sonic-festival-day-two-c1.mp3",
+        "c2": "clip-sonic-festival-day-two-c2.mp3"
+      }
+    }
+  ]
+}
