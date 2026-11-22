@@ -373,3 +373,11 @@ function finishClip() {
   state.view = 'clipComplete';
   render();
 }
+
+// init
+loadHistory().then(() => {
+  loadDailyClips().then(() => {
+    applyTheme(loadTheme());
+    render();
+  });
+});
