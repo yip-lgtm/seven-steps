@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-22",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trading-macro-crash",
+      "topic_en": "Everything Is Crashing",
+      "topic_zh": "全面崩盤",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trading-macro-crash-b1.mp3",
+        "b2": "clip-trading-macro-crash-b2.mp3",
+        "c1": "clip-trading-macro-crash-c1.mp3",
+        "c2": "clip-trading-macro-crash-c2.mp3"
+      }
+    },
+    {
+      "id": "trading-musk-coin",
+      "topic_en": "Goyim Super Intelligence",
+      "topic_zh": "Musk超級智能",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trading-musk-coin-b1.mp3",
+        "b2": "clip-trading-musk-coin-b2.mp3",
+        "c1": "clip-trading-musk-coin-c1.mp3",
+        "c2": "clip-trading-musk-coin-c2.mp3"
+      }
+    },
+    {
+      "id": "civil-load-path",
+      "topic_en": "Engineering the Load Path",
+      "topic_zh": "載荷路徑工程",
+      "category": "civil/structure",
+      "files": {
+        "b1": "clip-civil-load-path-b1.mp3",
+        "b2": "clip-civil-load-path-b2.mp3",
+        "c1": "clip-civil-load-path-c1.mp3",
+        "c2": "clip-civil-load-path-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-ram-prices",
+      "topic_en": "RAM Price Drop",
+      "topic_zh": "記憶體跌價潮",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-ram-prices-b1.mp3",
+        "b2": "clip-ai-ram-prices-b2.mp3",
+        "c1": "clip-ai-ram-prices-c1.mp3",
+        "c2": "clip-ai-ram-prices-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-jensen-musk",
+      "topic_en": "Jensen and Musk Drama",
+      "topic_zh": "Nvidia掌門人迷思",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-jensen-musk-b1.mp3",
+        "b2": "clip-hk-jensen-musk-b2.mp3",
+        "c1": "clip-hk-jensen-musk-c1.mp3",
+        "c2": "clip-hk-jensen-musk-c2.mp3"
+      }
+    },
+    {
+      "id": "fitness-deadlifts",
+      "topic_en": "Heavy Deadlift Routine",
+      "topic_zh": "死拉五組",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fitness-deadlifts-b1.mp3",
+        "b2": "clip-fitness-deadlifts-b2.mp3",
+        "c1": "clip-fitness-deadlifts-c1.mp3",
+        "c2": "clip-fitness-deadlifts-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬番外篇",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-b1.mp3",
+        "b2": "clip-anime-ranma-b2.mp3",
+        "c1": "clip-anime-ranma-c1.mp3",
+        "c2": "clip-anime-ranma-c2.mp3"
+      }
+    }
+  ]
+}

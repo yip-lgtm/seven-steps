@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-22",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trading-macro-crash",
+      "category": "trading",
+      "topic_zh": "全面崩盤",
+      "topic_en": "Everything Is Crashing",
+      "text_zh": "GOLD 跌。SILVER 跌。STOCKS 跌。BITCOIN 都跌。到底發生咩事，wtf？金、銀、股指同 crypto 同步受壓，prop firm 又蝕多一筆。靠AI續命。",
+      "text_en_b1": "GOLD is crashing. SILVER is crashing. STOCKS are crashing. BITCOIN is crashing. What the fuck is going on?! Gold, silver, indices, and crypto are all under pressure, and another CFD loss is just tuition.",
+      "text_en_b2": "GOLD is crashing. SILVER is crashing. STOCKS are crashing. BITCOIN is crashing. What the fuck is actually going on here?! Although gold, silver, major indices, and crypto are all coming under pressure at once, there is no obvious explanation in the post. Another CFD loss has simply been treated as tuition, while the poster is relying on AI to keep going. Thanks, market.",
+      "text_en_c1": "GOLD is crashing. SILVER is crashing. STOCKS are crashing. BITCOIN is crashing. What the hell is going on?! It feels as though the entire financial system has simultaneously lost its nerve, with precious metals, equity indices, and cryptocurrency all coming under heavy selling pressure. Markets which were supposedly benefiting from the AI boom are now bleeding alongside everything else, and another loss through a CFD platform merely adds tuition to an already expensive education in risk management.",
+      "text_en_c2": "GOLD is crashing. SILVER is crashing. STOCKS are crashing. BITCOIN is crashing. What the hell is going on? The synchronised slide across precious metals, equity indices, and crypto paints a grim picture of indiscriminate risk-off selling, even as another CFD position bleeds into the void. Whatever triggers this broad liquidation, the damage does not appear confined to any single asset class; capital is fleeing across the board with remarkable efficiency. At this point, the loss is no longer merely tuition, although the market certainly continues to charge it.",
+      "source_url": "https://boards.4chan.org/biz/thread/62936804",
+      "source_hint": "/biz/ OP asks where the money is going as every major asset falls."
+    },
+    {
+      "id": "trading-musk-coin",
+      "category": "trading",
+      "topic_zh": "Musk超級智能",
+      "topic_en": "Goyim Super Intelligence",
+      "text_zh": "biz  今次真係要聯合行動啦。我哋共同決定send this先得。唯一重要嘅coin。點解要2k MC？SpaceX有SpaceX Super Intelligence，Tesla有Tesla Super Intelligence。但Goyim要有Goyim Super Intelligence。Am I wrong, biz？唔通send hard會令domain閂咗？",
+      "text_en_b1": "Can biz join forces together, just for once, and decide to send this? It is the only coin that matters for all of us. Why is this 2k MC? SpaceX has SpaceX Super Intelligence. Tesla has Tesla Super Intelligence. Goyim must have Goyim Super Intelligence. Am I wrong, biz?",
+      "text_en_b2": "Can biz finally join forces, just for once, and decide to send this thing? It is supposedly the only coin that matters to all of us. Why is it sitting at a $2K market cap when SpaceX has SpaceX Super Intelligence and Tesla has Tesla Super Intelligence? Goyim must have Goyim Super Intelligence too. Am I wrong, biz? Would sending hard actually shut down the domain?",
+      "text_en_c1": "Could biz, just for once, put aside its differences and unite behind a single cause? We need to send this coin now, because it is the one asset that genuinely matters to all of us. Why has it reached a $2K market capitalisation when SpaceX already offers SpaceX Super Intelligence and Tesla has Tesla Super Intelligence? Goyim deserves Goyim Super Intelligence. Am I wrong, biz? Although, if we push too hard, the domain might shut down.",
+      "text_en_c2": "Can biz, for once, set aside its differences and unite around the only investment that truly matters for all of us? Why does this coin have a $2,000 market cap? SpaceX has SpaceX Super Intelligence, Tesla has Tesla Super Intelligence, so surely Goyim deserve Goyim Super Intelligence, whatever that phrase is intended to mean. Is there some practical reason to send it hard, or would that simply be enough to make the domain disappear? Am I wrong, biz? Perhaps the community should act collectively before everyone else decides the project is not worth backing.",
+      "source_url": "https://boards.4chan.org/biz/thread/62946593",
+      "source_hint": "/biz/ OP pitches a 2k-MC coin around the idea of Goyim Super Intelligence."
+    },
+    {
+      "id": "civil-load-path",
+      "category": "civil/structure",
+      "topic_zh": "載荷路徑工程",
+      "topic_en": "Engineering the Load Path",
+      "text_zh": "靠AI續命，civil engineering先係我條命。Slope investigation、GI report、soil nailing、drainage、underground utilities，全部要睇load path。Beam同column點樣傳力，點解用呢個method，都要自己check。唔係讀人文嗰套，就算考牌都未完都要繼續 grind。",
+      "text_en_b1": "Civil engineering is where I belong, not a code monkey. Slope investigations, GI reports, soil nailing, drainage, and underground utilities all depend on the load path. I need to explain why a method is used and how beams, columns, concrete, and steel are checked.",
+      "text_en_b2": "Civil engineering is where I belong, not a code monkey, although relying on AI to keep going does not change that. Slope investigations, GI reports, soil nailing, drainage, and underground utilities all have to be understood through the load path. I need to work out how beams and columns transfer their forces, while checking concrete and steel. It is not some humanities degree, and even after passing the exam, the grind continues.",
+      "text_en_c1": "Civil engineering is where I belong; I am not a code monkey whose only task is to keep the AI running. Slope investigations, GI reports, soil nailing, drainage systems, and underground utilities all have to be understood through the load path. I need to know how beams and columns transfer forces, how concrete and steel respond, and, crucially, why a particular design method has been selected. Even after passing my professional examination, there is still far more to learn.",
+      "text_en_c2": "Civil engineering is where I belong, not a code monkey. Slope investigations, geotechnical investigation reports, soil nailing, drainage, and underground utilities all need to be understood through the load path. It is not enough to select a method mechanically; I must explain why it is appropriate, how forces travel through beams and columns, and how the concrete and steel elements are checked for resistance, stability, and serviceability. The work is rigorous, occasionally unforgiving, and far more satisfying than writing software for its own sake. Even after passing the professional examinations, the grind continues, because competence in this field is never permanent.",
+      "source_url": "https://boards.4chan.org/biz/thread/62945378",
+      "source_hint": "The selected business post concerns whether successful product performance is already priced into a stock."
+    },
+    {
+      "id": "ai-ram-prices",
+      "category": "tech/ai",
+      "topic_zh": "記憶體跌價潮",
+      "topic_en": "RAM Price Drop",
+      "text_zh": "Possible drop in RAM prices next year。BNK Investment & Securities analyst Lee Min-hee話end-user memory demand已經過peak，預計到2027年中，channel inventory corrections會嚟，RAM價格可能dramatic drop。上個星期又有American financial institutions話NAND跌咗20%，即係GPU、phone、laptop、RAM可能平啲。AI硬件通脹，lol。",
+      "text_en_b1": "A possible drop in RAM prices may come next year. BNK Investment & Securities analyst Lee Min-hee says end-user memory demand has passed its peak. Channel inventory corrections may begin by mid-2027 and trigger a dramatic price drop. American financial institutions also reported a 20% drop in NAND.",
+      "text_en_b2": "RAM prices could drop next year, according to BNK Investment & Securities analyst Lee Min-hee, who believes end-user memory demand has already peaked. Channel inventory corrections may begin by mid-2027 and trigger a dramatic fall in prices. Meanwhile, American financial institutions have reported that NAND prices dropped by 20%, so GPUs, phones, laptops, and RAM may eventually become cheaper. AI hardware inflation, lol.",
+      "text_en_c1": "RAM prices could fall substantially next year. Lee Min-hee, an analyst at BNK Investment & Securities, believes that demand for end-user memory has already passed its peak, while channel inventory corrections expected by mid-2027 could trigger a dramatic decline in prices. Last week, American financial institutions also reported a 20% fall in NAND, which suggests that GPUs, phones, laptops, and RAM may all become cheaper. Apparently, even AI hardware is not immune to inflation, lol.",
+      "text_en_c2": "A possible decline in RAM prices may arrive next year. Lee Min-hee, an analyst at BNK Investment & Securities, argues that demand for end-user memory has already passed its peak, while channel inventory corrections could begin by mid-2027 and trigger a dramatic fall in prices. Last week, American financial institutions also reported that NAND prices had dropped by 20%, suggesting that GPUs, phones, laptops, and RAM may eventually become cheaper. If that materialises, AI hardware inflation will have proved surprisingly temporary, which is probably the last thing Nvidia and its competitors are hoping to hear.",
+      "source_url": "https://boards.4chan.org/g/thread/110396140",
+      "source_hint": "/g/ PSA relays an analyst report about falling RAM and NAND prices."
+    },
+    {
+      "id": "hk-jensen-musk",
+      "category": "hk/news",
+      "topic_zh": "Nvidia掌門人迷思",
+      "topic_en": "Jensen and Musk Drama",
+      "text_zh": "4chan GrapeApe 今日又去求Nvidia re-appoint Jensen Huang做CEO，係咪當香港新聞咁睇？感覺成件事都係parasocial。Musch一有tweet，市場就震；Nvidia有AI supply chain先最實際。成個post根本冇數據，lol。",
+      "text_en_b1": "Head of 4chan GrapeApe is desperately asking Nvidia to re-appoint Jensen Huang as CEO. He also has extremely parasocial interaction with Elon Musk, simping for him whenever possible. There are no company numbers or concrete market details in the post.",
+      "text_en_b2": "The head of 4chan’s GrapeApe is desperately asking Nvidia to reappoint Jensen Huang as CEO, as if this were breaking Hong Kong news. Although the whole affair looks deeply parasocial, Musk only has to post a tweet for the market to react. Nvidia’s AI supply chain remains the practical issue. The post contains no company figures or concrete market details whatsoever, so lol.",
+      "text_en_c1": "The head of 4chan GrapeApe is once again earnestly urging Nvidia to reappoint Jensen Huang as CEO, which suggests he may be consuming Hong Kong news as though it were entertainment. The entire affair also feels deeply parasocial. Whenever Musk posts something on social media, the market trembles, although Nvidia’s position within the AI supply chain is far more tangible than any online speculation. The post contains no company figures, financial results, or concrete market details whatsoever, lol.",
+      "text_en_c2": "The head of 4chan GrapeApe is once again imploring Nvidia to reappoint Jensen Huang as CEO, treating the proposition rather like a matter of Hong Kong public policy, which is both absurd and faintly touching. His behaviour also reflects an extremely parasocial relationship with Elon Musk: every tweet sends the market into a frenzy, while the poster dutifully simps whenever an opportunity arises. Nevertheless, Nvidia’s position within the AI supply chain is the only genuinely material fact in the discussion. The post itself contains no company figures, operational data, or concrete market analysis, so there is little basis for taking its conclusions seriously.",
+      "source_url": "https://boards.4chan.org/pol/thread/546623435",
+      "source_hint": "/pol/ OP mocks GrapeApe's Jensen Huang and Elon Musk obsession."
+    },
+    {
+      "id": "fitness-deadlifts",
+      "category": "mma/fitness",
+      "topic_zh": "死拉五組",
+      "topic_en": "Heavy Deadlift Routine",
+      "text_zh": "肥仔信今日又叫我去做gym。我轉咗bodybuilding：屋企用36 kg kettlebell做floor press，每組至少15下，每組之後做band pull-aparts。每兩日去gym，deadlift一組至少5下，dumbbell bench一組至少5下。73 kg體重，deadlift 180 kg x 5，靠AI續命。",
+      "text_en_b1": "I switched to bodybuilding. At home, I do floor presses with 36 kg kettlebells for at least 15 reps, followed by band pull-aparts. Every two days, I do one deadlift set of at least 5 reps and one dumbbell bench set of at least 5 reps. My best deadlift is 180 kg for 5 reps at 73 kg bodyweight.",
+      "text_en_b2": "I switched to bodybuilding, because the fat guy told me to hit the gym again. At home, I do floor presses with a 36 kg kettlebell for at least 15 reps, followed by band pull-aparts after every set. Every two days, I complete one deadlift set of at least five reps and one dumbbell bench set of at least five reps. At 73 kg bodyweight, my best deadlift is 180 kg for five reps, so I rely on AI to keep going.",
+      "text_en_c1": "The fat guy asked me to go to the gym again today, so I switched to bodybuilding. At home, I perform floor presses using a 36 kg kettlebell for at least 15 repetitions per set, followed immediately by band pull-aparts. Every two days, I visit the gym and complete one deadlift set of no fewer than five repetitions, alongside a dumbbell bench press set with the same minimum. At 73 kg bodyweight, my best deadlift is 180 kg for five reps, and I am surviving on AI.",
+      "text_en_c2": "I switched to bodybuilding, and the results are beginning to justify the change. At home, I perform floor presses with a 36 kg kettlebell for at least 15 repetitions, followed immediately by band pull-aparts to open up the shoulders and upper back. Every two days, I head to the gym for one deadlift set of no fewer than five repetitions and one dumbbell bench-press set of at least five. My best deadlift is 180 kg for five reps at a bodyweight of 73 kg, which gives me a respectable multiple without requiring an reckless attempt at a personal record. Slow, steady progress is proving more useful than theatrical self-destruction.",
+      "source_url": "https://boards.4chan.org/fit/thread/77624712",
+      "source_hint": "/fit/ OP describes a bodybuilding routine and deadlift performance."
+    },
+    {
+      "id": "anime-ranma",
+      "category": "anime/culture",
+      "topic_zh": "亂馬番外篇",
+      "topic_en": "Ranma Storytime",
+      "text_zh": "Ranma 1/2 storytime。今日講chapter 100至102，配合新動畫season，大家可以compare and contrast，或者用唔同方式一齊睇故事。Cyberpunk engineer睇古早 comedy都係懷舊，lol。",
+      "text_en_b1": "Ranma 1/2 storytime. Today, chapters 100 to 102, read alongside the new anime season. Anons can compare and contrast the manga with the animation, or experience the story in different ways at the same time.",
+      "text_en_b2": "It is time for another Ranma 1/2 storytime. Today, we are covering chapters 100 to 102 alongside the new anime season, which means you can compare and contrast the two adaptations. Although a cyberpunk engineer watching an old-school comedy sounds like an odd combination, the appeal is clearly nostalgic. Anons can also experience the story in different ways at the same time, so lol.",
+      "text_en_c1": "It is time for another Ranma 1/2 storytime. Today’s instalment covers chapters 100 to 102, which can be read alongside the new anime season so that anons can compare the adaptation with the original manga and contrast the two approaches to pacing, characterisation, and visual comedy. Alternatively, you can experience the same story in a completely different format. Even a cyberpunk engineer can appreciate early-era comedy, and there is something reassuringly nostalgic about that, lol.",
+      "text_en_c2": "It is time for another Ranma 1/2 storytime. Today’s instalment covers chapters 100 to 102, read alongside the new anime season so that anons can compare the adaptation with the original and contrast its pacing, characterisation, and visual presentation. There is also a peculiar pleasure in following the same narrative through two different media: one offers the intimacy of Ryōsaiba’s manuscript panels, while the other adds colour, movement, and a distinctly contemporary rhythm. Even a cyberpunk engineer watching an old-school comedy cannot deny that the experience is richly nostalgic. Whether the new season captures that charm remains, for the moment, an open question.",
+      "source_url": "https://boards.4chan.org/a/thread/292369558",
+      "source_hint": "/a/ OP starts a Ranma 1/2 storytime covering chapters 100 through 102."
+    }
+  ]
+}
