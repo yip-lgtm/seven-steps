@@ -226,6 +226,27 @@ function attachHandlers() {
   on('btn-retry-daily', async () => { await loadDailyClips(); render(); });
   on('btn-test', () => speak("The morning is my favorite part of the day, because it's quiet and nobody needs anything from me yet."));
   on('btn-reset', resetAll);
+
+  const levelSel = document.getElementById('set-level');
+  if (levelSel) levelSel.addEventListener('change', () => {
+    saveLevel(levelSel.value);
+    toast('Level set to ' + levelSel.value);
+  });
+  const voiceSel = document.getElementById('set-voice');
+  if (voiceSel) voiceSel.addEventListener('change', () => {
+    state.settings.voice = voiceSel.value;
+    saveSettings(state.settings);
+    toast('Voice updated');
+  });
+  const rateInput = document.getElementById('set-rate');
+  const rateVal = document.getElementById('rate-val');
+  if (rateInput) rateInput.addEventListener('input', () => {
+    const r = Number(rateInput.value);
+    state.settings.rate = r;
+    saveSettings(state.settings);
+    if (rateVal) rateVal.textContent = r.toFixed(2) + 'x';
+  });
+
   document.querySelectorAll('[data-sent]').forEach(btn => btn.addEventListener('click', () => {
     if(!state.session) return;
     state.session.chunkIdx = Number(btn.getAttribute('data-sent')) || 0;
@@ -244,26 +265,111 @@ function attachHandlers() {
   document.querySelectorAll('[data-review-practice]').forEach(btn => btn.addEventListener('click', () => {
     const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
     const clip = day && day.clips[Number(btn.getAttribute('data-review-practice'))];
-    if (clip) startSessionFromClip(clip);
+    if (clip) startSessionWithPool([clip], { returnView: 'reviewDay' });
   }));
-  const btnRecs = document.getElementById('btn-recs');
-  if (btnRecs) btnRecs.addEventListener('click', async () => {
-    state.view = 'recordings';
-    render();
-    const list = await listRecordings();
-    const el = document.getElementById('recs-list');
-    if (!el) return;
-    if (!list.length) { el.innerHTML = '<div class="empty-state"><p>未有錄音。</p></div>'; return; }
-    el.innerHTML = list.map(r => {
-      const d = new Date(r.date);
-      const when = d.toLocaleString();
-      const url = URL.createObjectURL(r.blob);
-      return '<div class="review-clip"><div class="zh">'+esc(r.topic||r.clipId||'錄音')+'</div><div class="en">'+esc(r.step||'')+' · '+r.duration+'s · '+when+'</div><div class="btn-row mt-2"><audio controls src="'+url+'" style="width:100%"></audio><button class="btn" data-dl="'+r.id+'">Download</button></div></div>';
-    }).join('');
-    el.querySelectorAll('[data-dl]').forEach(b => b.addEventListener('click', async () => {
-      const rec = list.find(x => x.id === b.getAttribute('data-dl'));
-      if (rec) downloadRecording(rec.blob, (rec.clipId||'rec') + '-' + rec.id + '.webm');
-    }));
+  const practiceAll = document.getElementById('btn-review-practice-all');
+  if (practiceAll) practiceAll.addEventListener('click', () => {
+    const day = ((state.history && state.history.days)||[]).find(d => d.date === state.reviewDate);
+    if (day && day.clips) startSessionWithPool(day.clips, { returnView: 'reviewDay' });
+  });
+  const recsBtn = document.getElementById('btn-recs');
+  if (recsBtn) recsBtn.addEventListener('click', () => { state.view = 'recordings'; render(); setTimeout(loadRecsList, 50); });
+  document.querySelectorAll('.star').forEach(s => s.addEventListener('click', () => {
+    if (!state.session) return;
+    const n = Number(s.dataset.n);
+    state.session.currentClipRatings = [n];
+    state.recentRatings.push(n);
+    if (state.recentRatings.length > 20) state.recentRatings.shift();
+    saveRatings();
+    document.querySelectorAll('.star').forEach(x => x.classList.toggle('on', Number(x.dataset.n) <= n));
+  }));
+  const playBtn = document.getElementById('btn-play');
+  if (playBtn) playBtn.addEventListener('click', () => {
+    const clip = sessionClip(0);
+    if (clip) speakAndToggle(clip, playBtn);
+  });
+  const recBtn = document.getElementById('btn-rec');
+  if (recBtn) recBtn.addEventListener('click', async () => {
+    if (recorder && recorder.state === 'recording') { stopRecording(); clearInterval(recTimerInterval); }
+    else { await startRecording(); tickRecTimer(document.getElementById('rec-time')); }
+  });
+  const againBtn = document.getElementById('btn-again');
+  if (againBtn) againBtn.addEventListener('click', () => { lastRecordingUrl = null; render(); });
+  const saveRecBtn = document.getElementById('btn-save-rec');
+  if (saveRecBtn) saveRecBtn.addEventListener('click', () => {
+    if (lastRecordingBlob) downloadRecording(lastRecordingBlob);
+  });
+  const toggleText = document.getElementById('btn-toggle-text');
+  if (toggleText) toggleText.addEventListener('click', () => {
+    if (state.session) { state.session.recallTextHidden = !state.session.recallTextHidden; render(); }
   });
 }
-(async function init() { applyTheme(loadTheme()); await loadDailyClips(); await loadHistory(); render(); })();
+async function loadRecsList() {
+  const box = document.getElementById('recs-list');
+  if (!box) return;
+  const list = await listRecordings();
+  if (!list.length) { box.innerHTML = '<p style="color:var(--ink-soft)">未有錄音。</p>'; return; }
+  box.innerHTML = list.map(r => {
+    const d = new Date(r.date).toLocaleString();
+    const name = (r.topic || 'recording') + ' · ' + (r.step || '') + ' · ' + d;
+    return '<div class="item" style="margin-bottom:10px"><div style="font-weight:600">'+esc(name)+'</div><audio controls src="'+URL.createObjectURL(r.blob)+'" style="width:100%;margin-top:6px"></audio></div>';
+  }).join('');
+}
+function toast(msg) {
+  let t = document.getElementById('toast');
+  if (!t) { t = document.createElement('div'); t.id = 'toast'; t.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1f2a2e;color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;z-index:9999;opacity:0;transition:opacity .2s'; document.body.appendChild(t); }
+  t.textContent = msg;
+  t.style.opacity = '1';
+  setTimeout(() => { t.style.opacity = '0'; }, 1800);
+}
+function resetAll() {
+  if (!confirm('Reset all progress, streak, and ratings?')) return;
+  localStorage.removeItem(STORAGE.progress);
+  localStorage.removeItem(STORAGE.todayLog);
+  localStorage.removeItem('ss.ratings');
+  localStorage.removeItem('ss.level');
+  state.progress = defaultProgress();
+  state.todayLog = { date: today(), clips: 0, ratings: [] };
+  state.recentRatings = [];
+  state.currentLevel = 'B1';
+  saveProgress(state.progress);
+  saveTodayLog(state.todayLog);
+  toast('Reset');
+  state.view = 'home';
+  render();
+}
+function endSessionEarly() {
+  if (recorder && recorder.state === 'recording') { stopRecording(); clearInterval(recTimerInterval); }
+  speechSynthesis.cancel();
+  state.session = null;
+  state.view = state.returnView || 'home';
+  render();
+}
+function continueToNextClip() {
+  if (!state.session) return;
+  state.session.clipIdx += 1;
+  state.session.stepIdx = 0;
+  state.session.chunkIdx = 0;
+  state.session.currentClipRatings = [];
+  if (state.session.clipIdx >= state.session.clipQueue.length) {
+    state.view = 'sessionComplete';
+    state.progress.totalSessions += 1;
+    saveProgress(state.progress);
+    if (state.todayLog.clips >= state.settings.winThreshold) recordWin();
+  } else {
+    state.view = 'session';
+  }
+  render();
+}
+function finishClip() {
+  const sess = state.session;
+  state.todayLog.clips += 1;
+  if (sess.currentClipRatings && sess.currentClipRatings.length) {
+    state.todayLog.ratings.push.apply(state.todayLog.ratings, sess.currentClipRatings);
+  }
+  state.progress.totalClips += 1;
+  saveTodayLog(state.todayLog);
+  saveProgress(state.progress);
+  state.view = 'clipComplete';
+  render();
+}
