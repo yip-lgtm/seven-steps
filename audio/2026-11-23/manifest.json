@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-23",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-macro-crash",
+      "topic_en": "Everything Is Crashing",
+      "topic_zh": "全面崩盤",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-macro-crash-b1.mp3",
+        "b2": "clip-trade-macro-crash-b2.mp3",
+        "c1": "clip-trade-macro-crash-c1.mp3",
+        "c2": "clip-trade-macro-crash-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-musk-589",
+      "topic_en": "Musk Posts 589",
+      "topic_zh": "馬斯克盤中帖",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-musk-589-b1.mp3",
+        "b2": "clip-trade-musk-589-b2.mp3",
+        "c1": "clip-trade-musk-589-c1.mp3",
+        "c2": "clip-trade-musk-589-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-singularity",
+      "topic_en": "The Singularity Starts",
+      "topic_zh": "AI奇點降臨",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-singularity-b1.mp3",
+        "b2": "clip-tech-singularity-b2.mp3",
+        "c1": "clip-tech-singularity-c1.mp3",
+        "c2": "clip-tech-singularity-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-singularity",
+      "topic_en": "Life After Singularity",
+      "topic_zh": "免費飛車時代",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-singularity-b1.mp3",
+        "b2": "clip-hk-singularity-b2.mp3",
+        "c1": "clip-hk-singularity-c1.mp3",
+        "c2": "clip-hk-singularity-c2.mp3"
+      }
+    },
+    {
+      "id": "fit-deadlift-180",
+      "topic_en": "Deadlift 180 Kilograms",
+      "topic_zh": "硬拉180公斤",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fit-deadlift-180-b1.mp3",
+        "b2": "clip-fit-deadlift-180-b2.mp3",
+        "c1": "clip-fit-deadlift-180-c1.mp3",
+        "c2": "clip-fit-deadlift-180-c2.mp3"
+      }
+    },
+    {
+      "id": "lol-sonic-racing",
+      "topic_en": "Sonic Racing Festival",
+      "topic_zh": "火箭賽車 grind",
+      "category": "lol/esports",
+      "files": {
+        "b1": "clip-lol-sonic-racing-b1.mp3",
+        "b2": "clip-lol-sonic-racing-b2.mp3",
+        "c1": "clip-lol-sonic-racing-c1.mp3",
+        "c2": "clip-lol-sonic-racing-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-ranma-story",
+      "topic_en": "Ranma Storytime",
+      "topic_zh": "亂馬漫畫回顧",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-ranma-story-b1.mp3",
+        "b2": "clip-anime-ranma-story-b2.mp3",
+        "c1": "clip-anime-ranma-story-c1.mp3",
+        "c2": "clip-anime-ranma-story-c2.mp3"
+      }
+    }
+  ]
+}
