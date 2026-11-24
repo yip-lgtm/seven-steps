@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-24",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "nvda-board",
+      "topic_en": "Jensen Huang Reinstated",
+      "topic_zh": "黃仁勳 reinstatement",
+      "category": "trading",
+      "files": {
+        "b1": "clip-nvda-board-b1.mp3",
+        "b2": "clip-nvda-board-b2.mp3",
+        "c1": "clip-nvda-board-c1.mp3",
+        "c2": "clip-nvda-board-c2.mp3"
+      }
+    },
+    {
+      "id": "nvidia-board-call",
+      "topic_en": "Trump Calls NVIDIA Board",
+      "topic_zh": "特朗普介入 Nvidia",
+      "category": "trading",
+      "files": {
+        "b1": "clip-nvidia-board-call-b1.mp3",
+        "b2": "clip-nvidia-board-call-b2.mp3",
+        "c1": "clip-nvidia-board-call-c1.mp3",
+        "c2": "clip-nvidia-board-call-c2.mp3"
+      }
+    },
+    {
+      "id": "ai-code-license",
+      "topic_en": "AI License Laundering",
+      "topic_zh": "AI 洗版式寫 code",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-ai-code-license-b1.mp3",
+        "b2": "clip-ai-code-license-b2.mp3",
+        "c1": "clip-ai-code-license-c1.mp3",
+        "c2": "clip-ai-code-license-c2.mp3"
+      }
+    },
+    {
+      "id": "asia-politics",
+      "topic_en": "Asia’s Political Relevance",
+      "topic_zh": "亞洲崛起史",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-asia-politics-b1.mp3",
+        "b2": "clip-asia-politics-b2.mp3",
+        "c1": "clip-asia-politics-c1.mp3",
+        "c2": "clip-asia-politics-c2.mp3"
+      }
+    },
+    {
+      "id": "minimal-lifts",
+      "topic_en": "Four Basic Lifts",
+      "topic_zh": "四種運動夠唔夠",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-minimal-lifts-b1.mp3",
+        "b2": "clip-minimal-lifts-b2.mp3",
+        "c1": "clip-minimal-lifts-c1.mp3",
+        "c2": "clip-minimal-lifts-c2.mp3"
+      }
+    },
+    {
+      "id": "gundam-legacy",
+      "topic_en": "Gundam’s Animation Legacy",
+      "topic_zh": "鋼彈動畫傳承",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-gundam-legacy-b1.mp3",
+        "b2": "clip-gundam-legacy-b2.mp3",
+        "c1": "clip-gundam-legacy-c1.mp3",
+        "c2": "clip-gundam-legacy-c2.mp3"
+      }
+    },
+    {
+      "id": "food-death-game",
+      "topic_en": "Food With Death Games",
+      "topic_zh": "死亡遊戲食飯",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-food-death-game-b1.mp3",
+        "b2": "clip-food-death-game-b2.mp3",
+        "c1": "clip-food-death-game-c1.mp3",
+        "c2": "clip-food-death-game-c2.mp3"
+      }
+    }
+  ]
+}

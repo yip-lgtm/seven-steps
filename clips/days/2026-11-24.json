@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-24",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "nvda-board",
+      "category": "trading",
+      "topic_zh": "黃仁勳 reinstatement",
+      "topic_en": "Jensen Huang Reinstated",
+      "text_zh": "NVIDIA Board reinstated Jensen Huang as President and CEO effective immediately. The Board voted unanimously after discussions with him. 靠，AI 股呢個波動先大過我個 prop firm 戶口。冇明確 setup，睇住先，唔好追高。",
+      "text_en_b1": "NVIDIA announced that Jensen Huang has been reinstated as President and CEO, effective immediately. The Board unanimously voted to bring him back after several discussions and meetings. They said his candor and ability to lead NVIDIA had been confirmed. This came up on /biz/ today.",
+      "text_en_b2": "NVIDIA announced that Jensen Huang has been reinstated as President and CEO, effective immediately. After holding several discussions and meetings with him, the Board voted unanimously to bring him back, saying that his candor and leadership had once again been confirmed. Although this may come as welcome news for shareholders, the original poster remained cautious, arguing that AI stocks are already more volatile than many proprietary trading firms. With no clear setup available, they advised watching the market rather than chasing the rally.",
+      "text_en_c1": "NVIDIA announced that Jensen Huang has been reinstated as President and CEO, effective immediately. According to the post, the Board voted unanimously to bring him back after several rounds of discussion and meetings with him, having concluded that his candour and his ability to lead the company were beyond question. Shareholders who have been trading this volatility will probably want to watch what happens next rather than chase the opening gap. No clear setup is offered, and the thread, which surfaced on /biz/ today, suggests restraint until the direction of the stock becomes clearer.",
+      "text_en_c2": "NVIDIA announced that Jensen Huang has been reinstated as President and Chief Executive Officer with immediate effect, following a unanimous vote by the Board after a series of discussions and meetings. The directors said that his candour, leadership, and ability to guide the company had once again been affirmed. The development surfaced on /biz/ today, where traders quickly turned the announcement to the issue that mattered most: NVIDIA shares are likely to be volatile. Without a clearly defined setup, the prudent course is to watch rather than chase an abrupt surge in the AI sector.",
+      "source_url": "https://boards.4chan.org/biz/thread/62956519",
+      "source_hint": "NVIDIA says its Board unanimously reinstated Jensen Huang as President and CEO."
+    },
+    {
+      "id": "nvidia-board-call",
+      "category": "trading",
+      "topic_zh": "特朗普介入 Nvidia",
+      "topic_en": "Trump Calls NVIDIA Board",
+      "text_zh": "HAPPENING：特朗普打咗入 NVIDIA Board meeting，仲話要威脅班董事。AI 大公司都變成政治場所，NVDA 今日肯定 high volatility。冇方向確認之前，我唔會亂開倉。",
+      "text_en_b1": "HAPPENING: Trump reportedly called into an NVIDIA Board meeting and threatened the directors. The post highlights political pressure around one of the world’s largest AI chip companies. For NVDA traders, the important point is increased uncertainty and likely volatility, but no clear trade setup is provided.",
+      "text_en_b2": "HAPPENING: Trump reportedly called into an NVIDIA Board meeting and threatened the directors. The post highlights the growing political pressure surrounding one of the world’s largest AI chip companies, suggesting that major corporate decisions can no longer be treated as entirely separate from politics. For NVDA traders, the main concern is increased uncertainty and the likelihood of sharp price swings. Although the incident might create tempting opportunities, the poster offered no clear direction, so they advised against opening positions until the situation becomes clearer.",
+      "text_en_c1": "HAPPENING: Trump reportedly phoned into an NVIDIA Board meeting and threatened the directors. If that is accurate, one of the world's largest AI chip companies has effectively become a political arena, with the stakes of corporate governance and state pressure converging in a single room. For anyone trading NVDA, the practical takeaway is obvious enough: uncertainty has been injected into the picture, and volatility is likely to follow. That said, no clear directional trade is proposed here, and any position taken before the picture settles is effectively a guess.",
+      "text_en_c2": "HAPPENING: Donald Trump has reportedly called directly into an NVIDIA Board meeting and threatened the directors. Whatever the precise legal weight of the episode, it illustrates how profoundly political pressure has penetrated one of the world’s largest AI-chip companies, where corporate strategy and national power are increasingly difficult to disentangle. For NVDA traders, the immediate implication is not a ready-made trade but an atmosphere of heightened uncertainty, with volatility likely to remain pronounced. Until the direction becomes clearer, opening positions at random would amount to gambling rather than informed speculation.",
+      "source_url": "https://boards.4chan.org/biz/thread/62957797",
+      "source_hint": "A post claims Trump joined an NVIDIA Board meeting by phone and threatened its directors."
+    },
+    {
+      "id": "ai-code-license",
+      "category": "tech/ai",
+      "topic_zh": "AI 洗版式寫 code",
+      "topic_en": "AI License Laundering",
+      "text_zh": "Reminder to all AI toddlers: train AI on GPL-licensed code, then use it as a loophole to generate that code back. Using current AI models for writing code may be license laundering. Your skills at asking AI nicely and clicking generate do not make you the author of its output. 靠AI續命都要識睇 licence。",
+      "text_en_b1": "Reminder to all AI toddlers: train AI on GPL-licensed code, then use it as a loophole to generate that code back. Everyone using current AI models to write code may be participating in license laundering. Your ability to ask AI nicely and click “generate” does not make you the author of the output. The original author may still own the rights.",
+      "text_en_b2": "A reminder for all AI toddlers: train a model on GPL-licensed code, then exploit the loophole by asking it to generate that same code back. In other words, using current AI models to write code may amount to license laundering rather than creating original work. Your talent for prompting an AI politely and clicking “generate” does not automatically make you the author of its output.",
+      "text_en_c1": "A reminder to all AI toddlers: train a model on GPL-licensed code, then exploit that as a loophole to have it generate the very same code back. Everyone who uses current AI models to write code may, in effect, be participating in licence laundering, since the underlying training material was never freely licensed for such reuse. Your talent for phrasing a request politely and clicking \"generate\" does not make you the author of the output, and the original author may very well retain the rights to it. Reading the licence is the part most people skip.",
+      "text_en_c2": "A reminder to all self-proclaimed AI toddlers: one can train a model on GPL-licensed code and then exploit the resulting system as a loophole to reproduce code of the same kind. In that sense, using contemporary AI models to write software may constitute licence laundering rather than legitimate authorship. The ability to formulate a polished request, click “generate,” and paste the result does not make a person the author of the output; intellectual property does not transfer merely because a machine produced the text. The original author may still own the relevant rights, so checking the licence remains indispensable.",
+      "source_url": "https://boards.4chan.org/g/thread/110411973",
+      "source_hint": "The post argues that training AI on GPL code and generating it back is license laundering."
+    },
+    {
+      "id": "asia-politics",
+      "category": "hk/news",
+      "topic_zh": "亞洲崛起史",
+      "topic_en": "Asia’s Political Relevance",
+      "text_zh": "Why wasn’t Asia politically relevant on the world stage until the 19th century? 香港咁細又咁逼，歷史上有冇可能根本唔係所謂「無地方住」？有啲問題由國家同航道決定，唔係淨係人口密度。",
+      "text_en_b1": "Why wasn’t Asia politically relevant on the world stage until the 19th century? The question points to a major historical change in regional power. For someone in Hong Kong, it also raises a broader issue: space, trade routes, and state power may matter more than population density alone.",
+      "text_en_b2": "Why did Asia only become politically relevant on the world stage in the 19th century? The question points to a major historical shift in regional power, although the full explanation is obviously more complicated than a single cause. For someone living in Hong Kong, it also raises a broader issue: limited space, strategic trade routes, and the strength of the state may matter more than population density alone. In other words, countries can be squeezed geographically while still possessing enormous economic and political importance.",
+      "text_en_c1": "Why was it not until the 19th century that Asia became politically relevant on the world stage? The question points to a major shift in the regional balance of power rather than to any single invention or accident of history. For someone living in Hong Kong, it raises a broader issue that is easy to overlook: space, trade routes, and the reach of the state may matter considerably more than raw population density. Being hemmed in by geography and constrained by where the shipping lanes run can shape a region's prospects long before outsiders begin to notice.",
+      "text_en_c2": "Why did Asia appear to lack political relevance on the world stage until the nineteenth century? The question points to a profound transformation in the balance of regional power rather than a sudden awakening among populous societies. For someone living in Hong Kong, it also invites a broader reconsideration of the familiar claim that overcrowding alone determines a place’s historical importance. Some of Asia’s most consequential developments have hinged on statecraft, maritime access, trade routes, and the ability to command commercial networks. Geography and institutional capacity may therefore have mattered more than raw population density.",
+      "source_url": "https://boards.4chan.org/pol/thread/546704381",
+      "source_hint": "The post asks why Asia became politically relevant on the world stage only in the 19th century."
+    },
+    {
+      "id": "minimal-lifts",
+      "category": "mma/fitness",
+      "topic_zh": "四種運動夠唔夠",
+      "topic_en": "Four Basic Lifts",
+      "text_zh": ">deadlifts >squats >bench >pull-ups >kettlebell swings Is this really all you need? 廢柴如果靠呢四樣就打到成個 gym，時間真係慳晒。但膝、腰同肩位唔可以亂頂。",
+      "text_en_b1": "Deadlifts, squats, bench presses, pull-ups, and kettlebell swings: is this really all you need? The post proposes a simple strength routine built around four basic exercises. Fewer movements could save time, but proper form would still matter for the back, knees, and shoulders.",
+      "text_en_b2": "Deadlifts, squats, bench presses, pull-ups, and kettlebell swings: is this really all you need? The post proposes a simple strength routine built around four basic exercises, with the ranking showing deadlifts first and swings last. Although fewer movements could save considerable time at the gym, beginners should not treat that efficiency as permission to ignore technique. Your back, knees, and shoulders need to be handled carefully, because doing the right exercises with sloppy form can still lead to injury rather than meaningful progress.",
+      "text_en_c1": "Deadlifts, squats, bench presses, pull-ups, and kettlebell swings: is this genuinely all you need? The post proposes a stripped-down strength routine built around four basic exercises, on the reasonable assumption that a beginner who trains consistently across those movements will get further than someone who endlessly cycles through variations without progressing. Fewer exercises certainly save time, which is a genuine advantage for anyone with a job and a limited schedule. That said, form is not negotiable: the back, the knees, and the shoulders are precisely where sloppy technique tends to announce itself first.",
+      "text_en_c2": "Deadlifts, squats, bench presses, pull-ups, and kettlebell swings: is this genuinely all that is needed? The post proposes an unfashionably simple strength programme built around four basic movements, with the kettlebell swing apparently relegated to fifth place. Such a streamlined routine could reclaim a substantial amount of time at the gym and spare beginners the confusion of chasing an endless catalogue of exercises. Nevertheless, efficiency must not come at the expense of technique. The back, knees, and shoulders remain vulnerable when even fundamental lifts are performed carelessly, so disciplined form is non-negotiable.",
+      "source_url": "https://boards.4chan.org/fit/thread/77625625",
+      "source_hint": "The post asks whether deadlifts, squats, bench presses, and pull-ups are enough for fitness."
+    },
+    {
+      "id": "gundam-legacy",
+      "category": "anime/culture",
+      "topic_zh": "鋼彈動畫傳承",
+      "topic_en": "Gundam’s Animation Legacy",
+      "text_zh": "Do you think Steins;Gate has left a legacy on the anime industry? It’s one of those anime that feels like it’s between classic status and your normal popular show. 有時經典唔係當紅，而係隔咗十年先有人明白。",
+      "text_en_b1": "Do you think Steins;Gate has left a legacy on the anime industry? It feels like it sits between classic status and a normal popular show. The post asks whether an older series can still shape the industry without being one of the biggest mainstream names.",
+      "text_en_b2": "Do you think Steins;Gate has left a lasting legacy on the anime industry? It feels as though it occupies an unusual space between genuine classic status and an ordinary popular show, rather than belonging comfortably in either category. The post asks whether an older series can continue to influence the industry without ever becoming one of the biggest mainstream names.",
+      "text_en_c1": "Do you think Steins;Gate has left a lasting legacy on the anime industry? It has always seemed to sit in an awkward category, somewhere between recognised classic status and an ordinary popular show that nobody outside the genre quite knows. The post raises a question worth taking seriously: can an older series still shape the medium it belongs to without ever becoming one of the biggest mainstream names? Perhaps the answer is that influence and visibility are not the same thing at all. Some of the most influential work only becomes obvious a decade later, once enough time has passed for it to be properly understood.",
+      "text_en_c2": "Do you think Steins;Gate has left a lasting legacy on the anime industry? It occupies an intriguing middle ground between an acknowledged classic and an ordinary popular programme: neither a mainstream commercial titan nor a disposable piece of fan culture. Yet influence is not synonymous with current popularity, and some anime acquire their stature slowly, acquiring new audiences and new critical recognition a decade after their initial release. The question therefore asks whether an older series can continue to shape the industry without belonging among its biggest household names, with Steins;Gate serving as the likely example.",
+      "source_url": "https://boards.4chan.org/a/thread/292407193",
+      "source_hint": "The post discusses Steins;Gate’s possible legacy within the anime industry."
+    },
+    {
+      "id": "food-death-game",
+      "category": "anime/culture",
+      "topic_zh": "死亡遊戲食飯",
+      "topic_en": "Food With Death Games",
+      "text_zh": "Shibou Yuugi de Meshi wo Kuu, or “Playing Death Games to Put Food on the Table.” IT’S STILL BURNING TO THIS DAY. SECOND SEASON ANNOUNCED. 廢物一邊睇一邊喊，但成本效益睇落可以當免費 entertainment。",
+      "text_en_b1": "Shibou Yuugi de Meshi wo Kuu, or “Playing Death Games to Put Food on the Table,” is still burning to this day. A second season was announced. The post celebrates a food-themed anime built around death games and says its appeal has lasted.",
+      "text_en_b2": "Shibou Yuugi de Meshi wo Kuu, or “Playing Death Games to Put Food on the Table,” is still burning to this day. Although the title sounds like a grim joke, it is actually a food-themed anime built around lethal competition, and its second season has now been announced. The original poster celebrated the news while teasing viewers for becoming emotionally invested despite the series’ brutal premise.",
+      "text_en_c1": "Shibou Yuugi de Meshi wo Kuu, or \"Playing Death Games to Put Food on the Table,\" is still burning to this day. A second season has been announced, and the post celebrates a food-themed anime built around death games, where the cooking itself is the reward. The appeal clearly outlasted its initial run, which is hardly an accident given how neatly the premise combines stakes with something as universally readable as a meal. Watch it while eating if you must, but cry at your own expense: on a cost-effectiveness basis, it still qualifies as free entertainment.",
+      "text_en_c2": "Shibou Yuugi de Meshi wo Kuu, or “Playing Death Games to Put Food on the Table,” is still burning to this day, and a second season has now been announced. The post celebrates an anime whose appealing gimmick lies in turning lethal contests into a means of putting dinner on the table, combining food, humour, and suspense in an eccentric proposition. Its endurance suggests that the concept has outlasted the novelty of its premise and acquired a committed audience. One can sob over each episode while still recognising that, in purely cost-effective terms, it delivers considerable entertainment for very little.",
+      "source_url": "https://boards.4chan.org/a/thread/292381076",
+      "source_hint": "The post announces season two for the food-themed anime Shibou Yuugi de Meshi wo Kuu."
+    }
+  ]
+}
