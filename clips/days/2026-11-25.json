@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-25",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "nvda-board-1125",
+      "category": "trading",
+      "topic_zh": "黃仁勳復職",
+      "topic_en": "Huang Reinstated",
+      "text_zh": "NVIDIA BOARD REINSTATES JENSEN HUANG！消息一出，NVDA又要抽風。市場最怕高層內鬥，最怕CEO突然唔見。睇住delivery、數據同AI chip需求啦。條燭如果連NVDA都救唔到，咁真係唔好講prop firm個dream。",
+      "text_en_b1": "NVIDIA announced that Jensen Huang has been reinstated as President and Chief Executive Officer. The board voted unanimously after discussions with Huang about his candor and ability to lead the company. Markets may focus on AI chip demand and management stability.",
+      "text_en_b2": "NVIDIA has reinstated Jensen Huang as President and Chief Executive Officer after its board unanimously reached a decision. The discussions focused on Huang’s candor, leadership ability, and role in guiding the company. Although investors are likely to concentrate on AI chip demand and management stability, the announcement may also relieve fears of a high-level internal dispute. As a result, NVDA could react sharply, although the market will ultimately judge whether the company can deliver strong results.",
+      "text_en_c1": "NVIDIA has announced that Jensen Huang has been reinstated as President and Chief Executive Officer, following unanimous approval by the board after discussions concerning his candor and leadership. Although the decision removes a potentially destabilising source of uncertainty, investors will probably focus on delivery figures, data-centre demand, and the outlook for AI chips. Huang’s return may provide some reassurance, but it does not by itself guarantee stronger performance. If selling pressure continues despite the news, it would suggest that broader market concerns are weighing more heavily on NVIDIA than management stability.",
+      "text_en_c2": "NVIDIA has reinstated Jensen Huang as President and Chief Executive Officer after the board unanimously reached its decision following discussions with him. The episode revived immediate concern over executive turmoil, since investors tend to regard the sudden disappearance of a chief executive as a serious warning sign, even when the underlying business remains strong. Attention will inevitably return to delivery performance, AI-chip demand and management continuity. Huang’s return may nevertheless reassure shareholders that the company’s leadership has not been destabilised. If demand for accelerated computing remains resilient, NVIDIA could rebound once the market moves beyond the uncertainty surrounding its leadership.",
+      "source_url": "https://boards.4chan.org/biz/thread/62956519",
+      "source_hint": "The post reports NVIDIA’s unanimous decision to reinstate Jensen Huang."
+    },
+    {
+      "id": "tesla-elon-1125",
+      "category": "trading",
+      "topic_zh": "Tesla同Elon",
+      "topic_en": "Tesla and Elon",
+      "text_zh": "成個市場靠AI續命，但Elon偏偏要出嚟做公眾人物。Tesla delivery、TSLA同Optimus，任何一個消息都可以抽走一大截。BYD贏又贏唔少啦，靠AI可以贏Tesla幾耐？",
+      "text_en_b1": "I spent years internalizing the dumb shit billionaires say once they have made their money. In reality, you would not even get close to these people while they are making money. People like Elon being in the public eye so much is very bearish. It means they are not locked in.",
+      "text_en_b2": "For years, I internalised the ridiculous things billionaires say once they have made their fortune. In reality, you would not get anywhere near most of them while they are still making money. Elon Musk’s constant presence in the public eye is particularly bearish, because it suggests that he is not fully locked in. Although AI is helping keep the market alive, Tesla deliveries, TSLA, and Optimus can each move the stock significantly.",
+      "text_en_c1": "I spent years absorbing the nonsense billionaires tend to produce once they have accumulated enough wealth to disregard the consequences. In reality, most people would not come close to figures such as Elon while they are still making money. His constant presence in the public eye is, by contrast, bearish for Tesla. It suggests that he remains distracted by celebrity and political activity rather than concentrating exclusively on the company. For TSLA investors, delivery figures, Optimus, and the competitive threat posed by BYD matter far more, and AI cannot indefinitely compensate for weaker execution.",
+      "text_en_c2": "I spent years internalising the sort of provocative nonsense billionaires unleash once they have accumulated enough wealth to treat public opinion as optional. In reality, ordinary observers rarely get within shouting distance of these figures while they are still making money, which makes their pronouncements particularly revealing. Elon Musk’s conspicuous presence in the public eye therefore strikes me as bearish for Tesla. His attention is divided among numerous projects, and every remark can move the share price. Tesla’s delivery figures, the TSLA valuation and Optimus are all vulnerable to distraction. Although BYD is already a formidable competitor, the more pressing question is how long AI-driven enthusiasm can sustain the narrative.",
+      "source_url": "https://boards.4chan.org/biz/thread/62965936",
+      "source_hint": "The poster argues that Elon’s constant public presence weakens his stock-market appeal."
+    },
+    {
+      "id": "elon-intelligence-1125",
+      "category": "tech/ai",
+      "topic_zh": "Elon講智能",
+      "topic_en": "Elon Talks Intelligence",
+      "text_zh": "Elon又出嚟講智能嘅秘密。靠AI續命就靠AI續命啦，但真係work就最緊要。Civil engineering個工都可能俾AI逐步取代，靠AI續命。",
+      "text_en_b1": "Elon just spilled secrets about what makes something intelligent. The post suggests that understanding intelligence could affect future AI development. For engineers, the useful question is where AI will replace technical work first.",
+      "text_en_b2": "Elon has once again spoken publicly about the secrets of intelligence, apparently revealing more about how it works. Although AI can keep the market alive, what matters most is whether it actually works in practice. Understanding intelligence could shape the next stage of AI development, particularly in technical fields. For engineers, the practical question is which parts of civil engineering will be replaced first, and whether AI will take on routine technical work before it handles more complex responsibilities.",
+      "text_en_c1": "Elon has once again offered his thoughts on the elusive nature of intelligence, claiming to have revealed some of its underlying secrets. Given that AI is currently carrying much of the market’s optimism, whether his explanation actually works is more important than the publicity surrounding it. The wider implication is that understanding intelligence could shape the next phase of AI development, particularly as increasingly capable systems are introduced into professional settings. For engineers, the practical question is which parts of technical work will be automated first. Civil engineering is a plausible target, although some roles may be augmented rather than replaced outright.",
+      "text_en_c2": "Elon has once again offered tantalising hints about what actually constitutes intelligence, although the broader implications remain less certain than his confident presentation suggests. If understanding intelligence can shape the next phase of AI research, it may also transform how engineers approach cognitive tasks, interfaces and automation. The genuinely useful question is not whether AI will eventually replace civil engineering, but where it will displace specialised technical work first. Routine analysis, drafting and routine design may already be under pressure, whereas complex judgement and accountability remain more resilient. AI may keep the profession alive, but only if engineers adapt rather than simply compete with the technology.",
+      "source_url": "https://boards.4chan.org/g/thread/110423932",
+      "source_hint": "A short tech post says Elon revealed ideas about intelligence."
+    },
+    {
+      "id": "jet-bridges-1125",
+      "category": "hk/news",
+      "topic_zh": "歐洲jet bridge",
+      "topic_en": "Missing Jet Bridges",
+      "text_zh": "點解歐洲政府連jet bridge都買唔起？香港成個地方咁逼，完全唔夠位。連基本基建都搞唔掂，講咩其他。wtf。",
+      "text_en_b1": "Why can’t European governments afford jet bridges at airports? The question highlights the strange gap between airport passenger capacity and the infrastructure available to serve those passengers. It is also a practical example of transport investment problems.",
+      "text_en_b2": "Why can’t European governments even afford jet bridges at their airports? The issue exposes a strange gap between the number of passengers an airport can handle and the infrastructure available to serve them once they arrive. Although basic facilities may appear straightforward to provide, planning, construction, and maintenance are far more complicated. Hong Kong, by comparison, is extremely crowded and seems to lack sufficient space. If governments cannot manage essential airport infrastructure, it is difficult to take their wider transport commitments seriously.",
+      "text_en_c1": "It is difficult to understand why European governments, which can finance large-scale transport projects, appear unable to provide basic jet bridges at many airports. The issue exposes an awkward gap between nominal passenger capacity and the infrastructure needed to serve those passengers efficiently. Hong Kong offers an even more familiar example of extreme crowding, where passengers are routinely accommodated in genuinely cramped conditions. Neither example necessarily proves that governments are wholly incapable of investing in aviation; the underlying causes could involve cost, procurement, planning, and competing priorities. Nevertheless, if essential airport infrastructure remains inadequate, ambitions for greater capacity sound hollow.",
+      "text_en_c2": "Why can’t European governments apparently afford jet bridges at some of their airports? The question exposes a peculiar mismatch between passenger capacity and the physical infrastructure required to serve it. A terminal may be modernised, security may be automated and boarding may proceed through sophisticated digital systems, yet passengers can still be funnelled through a limited number of gates and corridors, forcing congestion, delays and improvised boarding arrangements. Hong Kong offers an even starker illustration of what happens when available space cannot accommodate demand. This is not an isolated procurement failure so much as a broader failure of transport planning, in which visible infrastructure is treated as an afterthought. If the essentials are not managed competently, grander ambitions are difficult to defend.",
+      "source_url": "https://boards.4chan.org/pol/thread/546763511",
+      "source_hint": "The thread asks why some European governments cannot afford airport jet bridges."
+    },
+    {
+      "id": "home-deadlifts-1125",
+      "category": "mma/fitness",
+      "topic_zh": "居家力量訓練",
+      "topic_en": "Home Strength Routine",
+      "text_zh": "屋企36 kg kettlebell floor press，至少15下，每組之後做band pull-apart。每兩日去gym，deadlift一組5下或者以上，dumbbell bench一組5下或者以上。死舉180 kg x 5，體重73 kg。靠，幾硬。",
+      "text_en_b1": "I switched over to bodybuilding. At home, I do a floor press with 36 kg kettlebells for at least 15 reps each day, with band pull-aparts after each set. Every two days at the gym, I do one deadlift set of five or more and one dumbbell bench set of five or more.",
+      "text_en_b2": "I switched over to bodybuilding, and my routine is now considerably more demanding. At home, I do a floor press with 36 kg kettlebells for at least 15 reps every day, followed by band pull-aparts after each set. Every two days, I go to the gym and complete one deadlift set of five or more reps, along with one dumbbell bench set of five or more.",
+      "text_en_c1": "After switching to bodybuilding, I established a routine that combines daily home work with heavier gym sessions. At home, I perform a floor press using 36-kilogram kettlebells for at least 15 repetitions, followed by band pull-aparts after every set. Every two days, I visit the gym and complete one deadlift set of five repetitions or more, along with one dumbbell bench-press set of at least five. The standout result is a 180-kilogram deadlift for five repetitions at a bodyweight of 73 kilograms. It is an exceptionally demanding standard, although maintaining such performance will depend on recovery, technique, and sustainable progression.",
+      "text_en_c2": "I switched over to bodybuilding and settled into a deliberately demanding routine that combines daily upper-body work with heavier strength sessions. At home, I perform a floor press using a 36-kilogram kettlebell for at least 15 repetitions every day, completing band pull-aparts after each set to restore shoulder position and counterbalance the pressing movement. Every second day, I visit the gym for one deadlift set of five or more repetitions, followed by one dumbbell bench-press set of at least five. The standout achievement is a deadlift of 180 kilograms for five repetitions at a bodyweight of 73 kilograms. That is an imposing ratio, demanding considerable technique, bracing and respect for the limits of fatigue.",
+      "source_url": "https://boards.4chan.org/fit/thread/77624712",
+      "source_hint": "The poster describes a demanding kettlebell and gym routine, including a 180 kg deadlift set."
+    },
+    {
+      "id": "gundam-esports-1125",
+      "category": "anime/culture",
+      "topic_zh": "新Ape Escape",
+      "topic_en": "New Ape Escape",
+      "text_zh": "NEW APE ESCAPE DETAILS！NatetheHate話會喺2026 TGA公布，Jeff Grubb of VGC亦有報道。BANDAI NAMCO同SIE合作，會有AE1全部gadget，仲有surfboard等新gadget。DualSense功能用盡，主角仍然係anime humans。",
+      "text_en_b1": "New details suggest the game will be announced at the 2026 TGA. Jeff Grubb of VGC also reported the announcement. BANDAI NAMCO and SIE are developing it with returning AE1 gadgets, new gadgets like a surfboard, transformations, and DualSense features. The main cast are still anime humans.",
+      "text_en_b2": "New details suggest that Ape Escape will be announced at the 2026 TGA, with NatetheHate stating the news publicly and Jeff Grubb of VGC also reporting it. BANDAI NAMCO and Sony Interactive Entertainment are developing the project, which will include all the gadgets from AE1 as well as new equipment such as a surfboard. It will also feature transformations and make full use of DualSense capabilities. Despite these additions, the main characters will apparently still be anime-style humans rather than the series’ usual animals.",
+      "text_en_c1": "New details indicate that the game may be announced at the 2026 TGA, a report also supported by Jeff Grubb of VGC. BANDAI NAMCO and SIE are reportedly collaborating on the project, which will feature returning gadgets from the first Ape Escape, alongside new equipment such as a surfboard. Transformations and full use of the DualSense controller are also expected to play prominent roles. Although these features could distinguish the title from its predecessors, the principal cast will still consist of anime-style humans rather than the apes who defined the original series. The announcement therefore raises both nostalgic interest and questions about whether the new setting will feel authentic.",
+      "text_en_c2": "New details suggest that the next Ape Escape will be formally announced at the 2026 TGA, with Jeff Grubb of VGC also reporting the news. BANDAI NAMCO and Sony Interactive Entertainment appear to be collaborating closely on the project, which will retain the gadgets associated with the first game while expanding the roster with additions such as a surfboard. Transformations and extensive DualSense functionality are also expected to feature prominently, presumably making full use of the controller’s contextual and adaptive features. The central characters nevertheless remain recognisably anime humans. Whatever the technological ambitions of the title, its appeal will still depend on whether the franchise preserves the playful spectacle that established its identity.",
+      "source_url": "https://boards.4chan.org/v/thread/752368846",
+      "source_hint": "The post lists reported details for a new Ape Escape game."
+    },
+    {
+      "id": "steins-gate-1125",
+      "category": "anime/culture",
+      "topic_zh": "命運石之門",
+      "topic_en": "Steins;Gate Legacy",
+      "text_zh": "Steins;Gate到底有冇留低legacy？唔算經典，但又好似卡喺classic status同普通人氣動漫之間。靠AI續命都唔怕，連動漫都有呢種中間地帶。",
+      "text_en_b1": "Do you think Steins;Gate has left a legacy on the anime industry? It feels like it sits between classic status and a normal popular show. Some anime become timeless through their writing, characters, and lasting influence. Steins;Gate may occupy that middle ground.",
+      "text_en_b2": "Do you think Steins;Gate has left a lasting legacy on the anime industry? Although it may not be regarded as an unqualified classic, it seems to occupy an unusual middle ground between classic status and ordinary popularity. Some anime become timeless because of their writing, memorable characters, and lasting influence on later creators. Steins;Gate may have reached that same position, although it has not achieved the same level of mainstream recognition.",
+      "text_en_c1": "Do you think Steins;Gate has left a lasting legacy on the anime industry? Although it would be difficult to classify it as an unqualified classic, it appears to occupy an unusual middle ground between critical prestige and mainstream popularity. Some anime endure because their writing, characters, and cultural influence continue to resonate with successive generations. Steins;Gate may not have achieved that level of timeless recognition, yet its dedicated audience and influence on later science-fiction narratives remain significant. Its position is therefore more nuanced than that of an ordinary popular show: it retains enough credibility to be respected while also attracting a broad audience. That balance may ultimately define its legacy.",
+      "text_en_c2": "Do you think Steins;Gate has left a lasting legacy on the anime industry? Its position is difficult to classify: it may not command the same automatic recognition as the most celebrated classics, yet it has remained far more influential and enduring than an ordinary popular series. Some anime become timeless through disciplined writing, memorable characters and ideas that continue to shape later works. Steins;Gate belongs to that middle ground, where critical recognition and genuine cultural visibility overlap without quite producing the kind of consensus that brands a work as universally canonical. Its persistence also demonstrates how intellectual curiosity can sustain an anime audience even when the wider industry leans heavily on AI-driven production and technological gimmicks.",
+      "source_url": "https://boards.4chan.org/a/thread/292407193",
+      "source_hint": "The thread asks whether Steins;Gate has become a lasting anime classic."
+    }
+  ]
+}

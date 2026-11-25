@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-25",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "nvda-board-1125",
+      "topic_en": "Huang Reinstated",
+      "topic_zh": "黃仁勳復職",
+      "category": "trading",
+      "files": {
+        "b1": "clip-nvda-board-1125-b1.mp3",
+        "b2": "clip-nvda-board-1125-b2.mp3",
+        "c1": "clip-nvda-board-1125-c1.mp3",
+        "c2": "clip-nvda-board-1125-c2.mp3"
+      }
+    },
+    {
+      "id": "tesla-elon-1125",
+      "topic_en": "Tesla and Elon",
+      "topic_zh": "Tesla同Elon",
+      "category": "trading",
+      "files": {
+        "b1": "clip-tesla-elon-1125-b1.mp3",
+        "b2": "clip-tesla-elon-1125-b2.mp3",
+        "c1": "clip-tesla-elon-1125-c1.mp3",
+        "c2": "clip-tesla-elon-1125-c2.mp3"
+      }
+    },
+    {
+      "id": "elon-intelligence-1125",
+      "topic_en": "Elon Talks Intelligence",
+      "topic_zh": "Elon講智能",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-elon-intelligence-1125-b1.mp3",
+        "b2": "clip-elon-intelligence-1125-b2.mp3",
+        "c1": "clip-elon-intelligence-1125-c1.mp3",
+        "c2": "clip-elon-intelligence-1125-c2.mp3"
+      }
+    },
+    {
+      "id": "jet-bridges-1125",
+      "topic_en": "Missing Jet Bridges",
+      "topic_zh": "歐洲jet bridge",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-jet-bridges-1125-b1.mp3",
+        "b2": "clip-jet-bridges-1125-b2.mp3",
+        "c1": "clip-jet-bridges-1125-c1.mp3",
+        "c2": "clip-jet-bridges-1125-c2.mp3"
+      }
+    },
+    {
+      "id": "home-deadlifts-1125",
+      "topic_en": "Home Strength Routine",
+      "topic_zh": "居家力量訓練",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-home-deadlifts-1125-b1.mp3",
+        "b2": "clip-home-deadlifts-1125-b2.mp3",
+        "c1": "clip-home-deadlifts-1125-c1.mp3",
+        "c2": "clip-home-deadlifts-1125-c2.mp3"
+      }
+    },
+    {
+      "id": "gundam-esports-1125",
+      "topic_en": "New Ape Escape",
+      "topic_zh": "新Ape Escape",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-gundam-esports-1125-b1.mp3",
+        "b2": "clip-gundam-esports-1125-b2.mp3",
+        "c1": "clip-gundam-esports-1125-c1.mp3",
+        "c2": "clip-gundam-esports-1125-c2.mp3"
+      }
+    },
+    {
+      "id": "steins-gate-1125",
+      "topic_en": "Steins;Gate Legacy",
+      "topic_zh": "命運石之門",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-steins-gate-1125-b1.mp3",
+        "b2": "clip-steins-gate-1125-b2.mp3",
+        "c1": "clip-steins-gate-1125-c1.mp3",
+        "c2": "clip-steins-gate-1125-c2.mp3"
+      }
+    }
+  ]
+}
