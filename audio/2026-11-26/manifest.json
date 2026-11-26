@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-26",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "trade-zec",
+      "topic_en": "Zcash Becomes Tuition",
+      "topic_zh": "Zcash變學費",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-zec-b1.mp3",
+        "b2": "clip-trade-zec-b2.mp3",
+        "c1": "clip-trade-zec-c1.mp3",
+        "c2": "clip-trade-zec-c2.mp3"
+      }
+    },
+    {
+      "id": "trade-bond",
+      "topic_en": "Four-Month Bond Game",
+      "topic_zh": "四個月保本局",
+      "category": "trading",
+      "files": {
+        "b1": "clip-trade-bond-b1.mp3",
+        "b2": "clip-trade-bond-b2.mp3",
+        "c1": "clip-trade-bond-c1.mp3",
+        "c2": "clip-trade-bond-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-optimus",
+      "topic_en": "Optimus Is God-Tier",
+      "topic_zh": "Optimus神級木工",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-optimus-b1.mp3",
+        "b2": "clip-tech-optimus-b2.mp3",
+        "c1": "clip-tech-optimus-c1.mp3",
+        "c2": "clip-tech-optimus-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-china",
+      "topic_en": "China Control Fears",
+      "topic_zh": "中國全面控制",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-china-b1.mp3",
+        "b2": "clip-hk-china-b2.mp3",
+        "c1": "clip-hk-china-c1.mp3",
+        "c2": "clip-hk-china-c2.mp3"
+      }
+    },
+    {
+      "id": "fitness-bulk",
+      "topic_en": "Powerlifting Bulk Trap",
+      "topic_zh": "Powerlifting陷阱",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-fitness-bulk-b1.mp3",
+        "b2": "clip-fitness-bulk-b2.mp3",
+        "c1": "clip-fitness-bulk-c1.mp3",
+        "c2": "clip-fitness-bulk-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-steins",
+      "topic_en": "Steins;Gate Legacy",
+      "topic_zh": "Steins;Gate影響",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-steins-b1.mp3",
+        "b2": "clip-anime-steins-b2.mp3",
+        "c1": "clip-anime-steins-c1.mp3",
+        "c2": "clip-anime-steins-c2.mp3"
+      }
+    },
+    {
+      "id": "esports-gta",
+      "topic_en": "GTA 6 Visuals",
+      "topic_zh": "GTA 6畫面",
+      "category": "lol/esports",
+      "files": {
+        "b1": "clip-esports-gta-b1.mp3",
+        "b2": "clip-esports-gta-b2.mp3",
+        "c1": "clip-esports-gta-c1.mp3",
+        "c2": "clip-esports-gta-c2.mp3"
+      }
+    }
+  ]
+}

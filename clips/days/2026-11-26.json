@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-26",
+  "source": "ai",
+  "clips": [
+    {
+      "id": "trade-zec",
+      "category": "trading",
+      "topic_zh": "Zcash變學費",
+      "topic_en": "Zcash Becomes Tuition",
+      "text_zh": "又係學費。個Zcash由以前pump到似BTC咁，我信晒YouTube同Twitter，買咗差唔多1200，最後蝕咗over 200k。膠膠吶，依家連喊都冇力氣，淨係望住個chart懷疑人生。",
+      "text_en_b1": "I lost over 200k buying Zcash. Everyone on YouTube and Twitter said it was the play! It was pumping like old BTC before I even knew about crypto. I bought around 1,200. Damn, another expensive tuition.",
+      "text_en_b2": "I lost over 200k buying Zcash after trusting everything I saw on YouTube and Twitter. It was pumping like old BTC before I even knew much about crypto, so I bought around 1,200 units and watched the price collapse. Damn, another expensive tuition. Now I don’t even have the energy to cry; I just stare at the chart and question my life choices.",
+      "text_en_c1": "I lost over 200k buying Zcash, and I regret every single satoshi of it. Back in the day it was pumping like early Bitcoin was, and I trusted every hype thread on YouTube and Twitter without doing my own research. I bought roughly 1,200 units, which sounded like nothing until the price collapsed. Damn it, another round of very expensive tuition. These days I can barely summon the energy to cry; I just stare at the chart and question my life choices, wondering whether I learned anything at all or simply handed my savings to people who were laughing at me.",
+      "text_en_c2": "Another tuition fee, this time paid in crypto. Zcash had been pumping as if it were the next Bitcoin, so, naturally, I trusted every glowing assessment on YouTube and Twitter and bought roughly 1,200 units. The result speaks for itself: a loss of more than 200k. Watching the chart now is enough to make me question my judgment, although I am too drained even to cry. I suppose the lesson is painfully familiar: if an asset is promoted as an obvious winner by people who have nothing to lose, it may be precisely the moment to ask whether the consensus has left room for disappointment.",
+      "source_url": "https://boards.4chan.org/biz/thread/62973571",
+      "source_hint": "A /biz/ trader recounts losing more than $200,000 after buying Zcash near 1,200."
+    },
+    {
+      "id": "trade-bond",
+      "category": "trading",
+      "topic_zh": "四個月保本局",
+      "topic_en": "Four-Month Bond Game",
+      "text_zh": "如果畀你300k，4個月後要還返本金，賺到嘅全部own，蝕本就要俾 mafia「處理」。最安全係short-term bonds，甚至放savings account。咁都有人高風險all-in，膠膠吶，我可能先學識保住本金。",
+      "text_en_b1": "Imagine you get 300k to invest whenever you like. You must return all 300k after four months, or face death by the mafia. You keep every profit. Short-term bonds or savings would be safest, but the risk-reward is still brutal.",
+      "text_en_b2": "Imagine being given 300k to invest whenever you like. After four months, you must return the full 300k, while all the profits are yours to keep; fail, and the mafia will ‘deal with’ you. Short-term bonds or a savings account would be the safest options, although the risk-reward remains brutal. Some people would still go all-in with high-risk bets, but perhaps I need to learn how to protect my principal first.",
+      "text_en_c1": "Imagine someone hands you 300k to invest, whenever you feel like it. Whatever you make, you keep; but after four months you must return the entire principal, and if you fail to do so, the mafia will handle you. Short-term bonds, or simply parking it in a savings account, would be the safest route, and yet some people still go all-in on high-risk plays, which is idiotic. The risk-reward ratio remains brutal either way. If I were in that position, I suspect I would finally learn what it actually means to protect a principal sum rather than chase spectacular returns.",
+      "text_en_c2": "Suppose someone gave you 300k to invest for precisely four months, with no strings attached until the deadline. You would have to return the entire principal, while every penny of profit belonged to you; failing to repay the money would invite the mafia to collect it by whatever means they considered appropriate. Under those conditions, the sensible options would be short-term bonds or, failing that, a savings account. Even so, some people would probably go all-in on something volatile, because greed has a remarkable talent for disguising recklessness as conviction. Personally, I suspect the real lesson is to preserve the capital first; otherwise, no amount of theoretical profit is worth being liquidated.",
+      "source_url": "https://boards.4chan.org/biz/thread/62976481",
+      "source_hint": "A risk puzzle asks what to do with $300,000 under a four-month repayment condition."
+    },
+    {
+      "id": "tech-optimus",
+      "category": "tech/ai",
+      "topic_zh": "Optimus神級木工",
+      "topic_en": "Optimus Is God-Tier",
+      "text_zh": "Optimus已經係god-tier carpenter，組裝速度快到離譜。靠AI續命啦，咁快連hardware都識做？工程上最怕個workflow突然由人變robot，仲要成個load path都要重新驗。",
+      "text_en_b1": "Literally how is this even possible? Optimus is already a god-tier carpenter. It assembles things at an insane speed. How?? This makes me wonder whether engineering workflows will soon be checked by robots too.",
+      "text_en_b2": "How is this even possible? Optimus already seems like a god-tier carpenter, assembling things at an absolutely insane speed. Apparently, AI is keeping it going, but how quickly robots are learning to make hardware is unsettling. From an engineering perspective, the scary part is that the workflow could suddenly shift from human workers to robots, meaning the entire load path would have to be reassessed and verified.",
+      "text_en_c1": "Literally, how is this even possible? Optimus is already a god-tier carpenter: the assembly speed is absurd, and the footage is genuinely difficult to square with what robotics could realistically achieve today. If AI is the thing keeping it alive, then how long before the hardware itself can be manufactured by robots? What genuinely worries me from an engineering standpoint is that a workflow which has always relied on human judgement could abruptly be replaced by automated review, and every load path would need to be revalidated from scratch. That transition would not be an incremental upgrade; it would be a wholesale rethink.",
+      "text_en_c2": "How on earth is this possible? Optimus already looks like a god-tier carpenter, assembling components at a frankly absurd speed, and the sight of AI keeping the operation alive raises an unsettling question: how long before hardware itself becomes autonomous? The deeper issue, however, is engineering rather than spectacle. Once part of the workflow shifts from human hands to robotic systems, every tolerance, process, and safety assumption must be reassessed. Even the load path cannot simply be inherited unchanged; it has to be revalidated from first principles. If those checks pass, the result may be transformative. If they do not, speed will have achieved little more than manufacturing mistakes more efficiently.",
+      "source_url": "https://boards.4chan.org/g/thread/110429262",
+      "source_hint": "A /g/ thread praises Optimus for its extremely fast assembly work."
+    },
+    {
+      "id": "hk-china",
+      "category": "hk/news",
+      "topic_zh": "中國全面控制",
+      "topic_en": "China Control Fears",
+      "text_zh": "Anons講到中國用2049百年大計控制全世界，連media都有問題。再加上強制器官移植同terminated life support，我唔知香港未來會變成點。睇完條片，只想講：唔好住埋一齊算。",
+      "text_en_b1": "Anons, I really hope you followed my advice and burn 2 disc. This may only get worse. One post mentions China's plan to control the world by 2049, forced organ harvesting, and almost no media coverage. Honestly, I don't know what Hong Kong will become.",
+      "text_en_b2": "Anons, I really hope you followed my advice and burned two discs, because this may only get worse. One post mentions China’s plan to control the world by 2049, forced organ harvesting, terminated life support, and almost no media coverage. Honestly, I don’t know what Hong Kong will become. After watching the video, my immediate reaction was to tell people not to hide this, because keeping quiet would only make things worse.",
+      "text_en_c1": "Anons, I really hope you followed my advice and burned those two discs. This will only get worse from here. One post lays out China's plan to control the world by 2049, while forced organ harvesting and the near-total absence of media coverage barely register as scandalous. Honestly, I have no idea what Hong Kong is going to become, and that uncertainty sits uncomfortably. Watching the clip left me with one thought: whatever happens, do not pile up in one place and wait for the entire structure to come down around you.",
+      "text_en_c2": "Anons, I sincerely hope you followed my advice and disposed of those two discs, because this may only become more severe with time. One post points to China’s plan to exert comprehensive control over the world by 2049, while also raising the issue of forced organ harvesting and the disturbing scarcity of responsible media coverage. Whether every allegation is accurate is beside the point; the atmosphere of fear and restricted information is itself enough to make Hong Kong’s future difficult to imagine. I watched the video and was left with a simple sentiment: perhaps people should not be encouraged to live alongside one another in ignorance. Concealment may provide temporary comfort, but it does not make the underlying threat disappear.",
+      "source_url": "https://boards.4chan.org/pol/thread/546826055",
+      "source_hint": "A /pol/ post warns about China's long-term control plans and social issues."
+    },
+    {
+      "id": "fitness-bulk",
+      "category": "mma/fitness",
+      "topic_zh": "Powerlifting陷阱",
+      "topic_en": "Powerlifting Bulk Trap",
+      "text_zh": "點解咁多年輕人被powerlifting呃？有人只係想fit啲、靚啲，結果被叫住bulk，body fat一路升，barbell training仲未必最optimal。考牌已經夠stress，唔想連body image都交學費。",
+      "text_en_b1": "How did so many young men get tricked into powerlifting? Most guys just wanted to get in shape and look decent. Instead, they are told to bulk up, gain fat, and use barbell training that may not be optimal for their goals.",
+      "text_en_b2": "How did so many young men get tricked into powerlifting? Most simply wanted to get in shape and look decent, yet they end up being told to bulk up, gain body fat, and follow barbell training that may not be optimal for their goals. The competition tests are stressful enough on their own; I certainly don’t want to pay additional tuition with my body image as well.",
+      "text_en_c1": "How did so many young men end up getting tricked into powerlifting? Most of them simply wanted to get fitter, look better in a shirt, and feel healthier; instead, they are told to bulk, watch body fat climb steadily, and adopt barbell programming that may not be remotely optimal for their actual goals. The programming itself is questionable for plenty of beginners. Add the stress of preparing for a meet and the psychological pressure of being judged on a platform, and you have a recipe for a serious body-image problem.",
+      "text_en_c2": "How did so many young men end up being lured into powerlifting when their original ambition was merely to become fitter and look better? The answer lies in a culture that treats the barbell as the unquestionable gateway to an impressive physique, even though gaining body fat is not identical to becoming healthier. Bulking is often presented as obligatory, yet the prescribed approach may do little to serve an individual’s actual goals. On top of that, preparing for a competition is stressful enough without surrendering control of one’s body image to somebody else’s rigid methodology. There is no shame in wanting to look decent. There is, however, a lesson to be learned before paying tuition fees with your health and self-confidence.",
+      "source_url": "https://boards.4chan.org/fit/thread/77630382",
+      "source_hint": "A /fit/ thread argues that many beginners adopt powerlifting and bulking unnecessarily."
+    },
+    {
+      "id": "anime-steins",
+      "category": "anime/culture",
+      "topic_zh": "Steins;Gate影響",
+      "topic_en": "Steins;Gate Legacy",
+      "text_zh": "Steins;Gate真係留低緊legacy。佢唔係最 mainstream，但係介乎classic同一般人睇嘅popular anime之間。有啲作品睇完十年再翻出嚟，仍然覺得個世界觀同情緒好solid。",
+      "text_en_b1": "Do you think Steins;Gate has left a legacy on the anime industry? It is one of those anime that feels between classic status and your normal popular show. Its story and ideas still feel solid years later.",
+      "text_en_b2": "Do you think Steins;Gate has left a lasting legacy on the anime industry? Although it never became as mainstream as many popular shows, it seems to occupy a strange place between classic status and ordinary mainstream anime. Its story and ideas still feel solid even years later, and some works that you revisit a decade later somehow retain a powerful sense of world-building and emotional depth.",
+      "text_en_c1": "Do you think Steins;Gate has genuinely left a legacy on the anime industry? It is one of those shows that occupies an uneasy space between unquestioned classic status and the sort of mainstream fare most people actually consume. It never became the biggest name in the room, which is precisely why it tends to age well. Its story, its ideas, and the emotional texture of its world still feel remarkably solid a decade on, and there are works I have revisited years later that have lost none of their weight. That kind of staying power is rarer than it looks.",
+      "text_en_c2": "Has Steins;Gate left a genuine legacy on the anime industry? I believe it has, although its status never quite fitted the categories that mainstream fandom tends to create. It is neither an obscure cult production nor merely one more popular anime destined for a brief surge of nostalgia; instead, it occupies an uneasy middle ground between canonical classic and ordinary mainstream entertainment. That position is arguably more revealing. A work that can be rediscovered a decade later and still feel structurally sound, emotionally coherent, and intellectually relevant has achieved something rarer than immediate popularity. Its world-building and ideas continue to withstand the passage of time, suggesting that its influence rests on lasting substance rather than nostalgia alone.",
+      "source_url": "https://boards.4chan.org/a/thread/292407193",
+      "source_hint": "An /a/ thread discusses Steins;Gate and its place in anime history."
+    },
+    {
+      "id": "esports-gta",
+      "category": "lol/esports",
+      "topic_zh": "GTA 6畫面",
+      "topic_en": "GTA 6 Visuals",
+      "text_zh": "GTA 6 recomp thread又更新啦。依家graphics接近perfect，剩低就係optimization問題。唔知幾時先見到正式gameplay，但單睇畫面已經有種『預算俾人工智能抽走』既感覺，lol。",
+      "text_en_b1": "GTA 6 Recomp Thread. The graphics are nearly perfect now. They only need optimization. I do not know when we will see the final gameplay, but the current visual progress already looks wildly advanced. Progress: https://portwatch-vi.xyz/",
+      "text_en_b2": "The GTA 6 recompilation thread has been updated again, and the graphics now look nearly perfect. At this point, the remaining challenge appears to be optimization rather than raw visual quality. I still don’t know when we will see the final gameplay, but the current progress already looks wildly advanced. Watching the footage gives me the odd feeling that the budget was somehow sucked away by AI, lol.",
+      "text_en_c1": "The GTA 6 recompilation thread has been updated again, and the graphics now sit close enough to perfect that the remaining challenge is purely a matter of optimization rather than raw visual ambition. I have no idea when we will finally see proper gameplay footage, but the current visual progress already looks wildly advanced, and honestly the whole thing gives off the distinct impression that the budget was quietly siphoned away by an artificial intelligence. Progress so far: https://portwatch-vi.xyz/",
+      "text_en_c2": "The GTA 6 recompilation thread has been updated again, and the visual progress now looks close to perfect; what remains, apparently, is optimization rather than raw graphical ambition. It is difficult to say when we will finally see the finished gameplay in motion, but the current footage already looks wildly advanced. The odd part is the apparent source of that progress: it gives the impression that the production budget was quietly siphoned off by an artificial intelligence, which is presumably worth a laugh. Whether the final game can maintain this standard under real-time conditions remains the crucial question, since near-perfect visuals are of limited value if the frame rate collapses under pressure.",
+      "source_url": "https://boards.4chan.org/v/thread/752480030",
+      "source_hint": "A /v/ recomp thread tracks GTA 6 graphics and optimization progress."
+    }
+  ]
+}
