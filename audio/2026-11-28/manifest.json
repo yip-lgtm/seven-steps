@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-28",
+  "voice": "alloy",
+  "model": "speech-02-hd",
+  "clips": [
+    {
+      "id": "tr-zcash",
+      "topic_en": "Zcash 400K",
+      "topic_zh": "Zcash 400K 歐",
+      "category": "trading",
+      "files": {
+        "b1": "clip-tr-zcash-b1.mp3",
+        "b2": "clip-tr-zcash-b2.mp3",
+        "c1": "clip-tr-zcash-c1.mp3",
+        "c2": "clip-tr-zcash-c2.mp3"
+      }
+    },
+    {
+      "id": "tr-mismatch",
+      "topic_en": "MATCH Act Chips",
+      "topic_zh": "MATCH Act 芯片",
+      "category": "trading",
+      "files": {
+        "b1": "clip-tr-mismatch-b1.mp3",
+        "b2": "clip-tr-mismatch-b2.mp3",
+        "c1": "clip-tr-mismatch-c1.mp3",
+        "c2": "clip-tr-mismatch-c2.mp3"
+      }
+    },
+    {
+      "id": "tech-china-ai",
+      "topic_en": "China AI Stalled",
+      "topic_zh": "中國 AI 停滯",
+      "category": "tech/ai",
+      "files": {
+        "b1": "clip-tech-china-ai-b1.mp3",
+        "b2": "clip-tech-china-ai-b2.mp3",
+        "c1": "clip-tech-china-ai-c1.mp3",
+        "c2": "clip-tech-china-ai-c2.mp3"
+      }
+    },
+    {
+      "id": "hk-gulf-war",
+      "topic_en": "Gulf War Prophecy",
+      "topic_zh": "波斯灣大戰預言",
+      "category": "hk/news",
+      "files": {
+        "b1": "clip-hk-gulf-war-b1.mp3",
+        "b2": "clip-hk-gulf-war-b2.mp3",
+        "c1": "clip-hk-gulf-war-c1.mp3",
+        "c2": "clip-hk-gulf-war-c2.mp3"
+      }
+    },
+    {
+      "id": "mma-ss-program",
+      "topic_en": "Starting Strength Schedule",
+      "topic_zh": "Starting Strength 排程",
+      "category": "mma/fitness",
+      "files": {
+        "b1": "clip-mma-ss-program-b1.mp3",
+        "b2": "clip-mma-ss-program-b2.mp3",
+        "c1": "clip-mma-ss-program-c1.mp3",
+        "c2": "clip-mma-ss-program-c2.mp3"
+      }
+    },
+    {
+      "id": "anime-fanbox-paypal",
+      "topic_en": "Fanbox Drops Paypal",
+      "topic_zh": "Pixiv Fanbox 抽 Payment",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-anime-fanbox-paypal-b1.mp3",
+        "b2": "clip-anime-fanbox-paypal-b2.mp3",
+        "c1": "clip-anime-fanbox-paypal-c1.mp3",
+        "c2": "clip-anime-fanbox-paypal-c2.mp3"
+      }
+    },
+    {
+      "id": "lol-borderlands",
+      "topic_en": "Borderlands Side Quests",
+      "topic_zh": "Borderlands 支線難度",
+      "category": "anime/culture",
+      "files": {
+        "b1": "clip-lol-borderlands-b1.mp3",
+        "b2": "clip-lol-borderlands-b2.mp3",
+        "c1": "clip-lol-borderlands-c1.mp3",
+        "c2": "clip-lol-borderlands-c2.mp3"
+      }
+    }
+  ]
+}
